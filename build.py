@@ -13,6 +13,7 @@ linha é o cabeçalho e as demais são valores (sem compressão).
   raw/follow_types.json     AccountFollowTypes: follow_type,reach,profile_views (30 dias)
   raw/age_gender.json       FollowerDemographicsAgeGender
   raw/cities.json           FollowerDemographicsCity
+  raw/stories.json          AccountMediaStory: timestamp,media_id,media_type,media_story_views,media_story_reach,media_story_replies,media_story_shares
 
 Arquivos persistentes (não apagar):
   history.json  série diária da conta, total de seguidores por coleta e leituras
@@ -143,6 +144,20 @@ for sid, r in (ig.get("stories") or {}).items():
         v, o = r.get(k), cur.get(k)
         rec[k] = max(v, o) if v is not None and o is not None else (v if v is not None else o)
     rec["seen"] = ig.get("collected")
+    hist["stories"][sid] = rec
+# stories pelo Supermetrics (enxerga todos, inclusive os que a API do Instagram omite)
+try: sm_st = rows("stories")
+except Exception: sm_st = []
+for r in sm_st:
+    ts, sid = r[0], str(r[1])
+    if not ts or not sid: continue
+    cur = hist["stories"].get(sid, {})
+    rec = {"ts": cur.get("ts") or ts, "type": r[2] or cur.get("type")}
+    for k, v in zip(["views", "reach", "replies", "shares"], [num(x) for x in r[3:7]]):
+        o = cur.get(k)
+        rec[k] = max(v, o) if v is not None and o is not None else (v if v is not None else o)
+    for k in ["total_interactions", "follows", "profile_visits"]: rec[k] = cur.get(k)
+    rec["seen"] = max(cur.get("seen") or "", collected.isoformat())
     hist["stories"][sid] = rec
 def _bt(ts):  # timestamp da API (UTC, +0000) para horário de Brasília
     t = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z") if "T" in ts else datetime.fromisoformat(ts).replace(tzinfo=BRT)
