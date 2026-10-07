@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-08",
+  "weekday": "Qui",
+  "generated": "2026-10-07T04:20:00-03:00",
+  "summary": "Ressaca do primeiro turno e largada do segundo. O dia tem um fato agendado que mexe com o Rio: o TSE julga às 10h os votos de Garotinho e pode definir a eleição de Douglas Ruas sem segundo turno.",
+  "agenda": [
+    {"time": "10h", "text": "TSE julga os votos de Anthony Garotinho no Rio. Se forem anulados, Douglas Ruas é eleito no primeiro turno.", "source": {"name": "Brasil 247", "url": "https://www.brasil247.com/sudeste/tse-julga-nesta-quinta-votos-de-garotinho-e-pode-definir-eleicao-do-rio-no-primeiro-turno/"}},
+    {"time": "9/10", "text": "Começa a propaganda de rádio e TV do segundo turno.", "source": {"name": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-eleitoral-para-o-segundo-turno-comeca-nesta-segunda-feira"}},
+    {"time": "25/10", "text": "Segundo turno: Lula x Flávio Bolsonaro.", "source": {"name": "O Tempo", "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/6/caiado-declara-apoio-a-flavio-bolsonaro-e-diz-que-lula-vai-levar-taca-no-segundo-turno"}}
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem de impacto",
+      "options": [
+        {
+          "title": "A urna desmentiu as pesquisas",
+          "tone": "contundente",
+          "fact": "Na véspera, o Datafolha deu 42% a Flávio; a urna deu 47,03%. Só 1 de 6 institutos (Gerp) mostrava Flávio numericamente à frente.",
+          "sources": [
+            {"name": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/um-de-seis-institutos-de-pesquisa-apontava-flavio-numericamente-a-frente-de-lula/"},
+            {"name": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/bolsonarismo-vira-a-diferenca-sobre-lula-em-relacao-a-2022/"}
+          ],
+          "art_text": ["DATAFOLHA: 42% (riscado em vermelho)", "URNA: 47%", "Errar 5 pontos é margem de erro ou é outra coisa?"],
+          "faces": "Nenhum rosto. Placar puro.",
+          "prompt": "Crie uma imagem vertical 4:5 (1080x1350) no estilo placar de TV. Fundo azul-marinho escuro com leve textura. No topo, em letras brancas grandes: \"DATAFOLHA: 42%\", com um traço vermelho grosso riscando o número. No centro, em amarelo muito grande e em negrito: \"URNA: 47%\". Na base, em branco: \"Errar 5 pontos é margem de erro ou é outra coisa?\". Tipografia sem serifa e pesada, alto contraste, sem logos e sem pessoas.",
+          "caption": "Cinco pontos de diferença na véspera. No segundo turno, você vai acreditar nas pesquisas? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Números públicos e checáveis. Não chame instituto de fraudulento: a pergunta faz o trabalho.",
+          "timeline": {"rende": true, "angle": "Série sobre pesquisas eleitorais: quem errou mais no primeiro turno e por quê (amostra, ponderação, voto envergonhado)."}
+        },
+        {
+          "title": "Hoje o TSE decide o Rio",
+          "tone": "sóbrio com urgência",
+          "fact": "Douglas Ruas teve 49,27% (4,27 mi de votos) e Eduardo Paes, 42,76%. Garotinho teve 274 mil votos sub judice. Se o TSE anular esses votos, Ruas é eleito no primeiro turno. O julgamento começa às 10h.",
+          "sources": [
+            {"name": "ConJur", "url": "https://conjur.com.br/2026-out-04/disputa-de-2o-turno-entre-ruas-e-paes-no-rj-depende-do-tse/"},
+            {"name": "Brasil 247", "url": "https://www.brasil247.com/sudeste/tse-julga-nesta-quinta-votos-de-garotinho-e-pode-definir-eleicao-do-rio-no-primeiro-turno/"}
+          ],
+          "art_text": ["49,27%", "Faltaram 0,73 ponto.", "HOJE O TSE DECIDE SE O RIO PRECISA DE 2º TURNO"],
+          "faces": "Foto oficial de campanha de Douglas Ruas (baixo risco). Não use foto de Eduardo Paes em montagem.",
+          "prompt": "Imagem vertical 4:5 (1080x1350). Use a foto enviada como fundo, à esquerda, com sombra escura à direita. À direita, número gigante \"49,27%\" em amarelo. Abaixo, em branco: \"Faltaram 0,73 ponto.\" Na base, faixa vermelha com o texto: \"HOJE O TSE DECIDE SE O RIO PRECISA DE 2º TURNO\". Estilo jornalístico de urgência, sem logos.",
+          "caption": "O Rio pode ter governador eleito hoje, sem segundo turno. Você acha que o TSE vai anular os votos de Garotinho? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não antecipe o resultado nem insinue pressão sobre ministros. Se a decisão sair antes de publicar, troque o texto pelo resultado.",
+          "timeline": {"rende": true, "angle": "Como 274 mil votos de um candidato barrado podem decidir o governo do Rio: a regra, os recursos de PSOL e Paes e o precedente."}
+        }
+      ]
+    },
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de teste (2 ganchos)",
+      "options": [
+        {
+          "title": "O Congresso que o Brasil acabou de eleger",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "O PL fez 121 deputados, a maior bancada desde 1988, e terá 28 senadores. Renan Calheiros, Ciro Nogueira e Carlos Fávaro perderam. Nikolas Ferreira teve 3,1 milhões de votos, recorde histórico.",
+          "sources": [
+            {"name": "Rádio Senado", "url": "https://www12.senado.leg.br/radio/1/noticia/2026/10/05/pl-tera-a-maior-bancada-da-camara-dos-deputados"},
+            {"name": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/pl-elege-19-senadores-e-soma-28-mdb-conquista-sete-vagas-e-pt-seis"}
+          ],
+          "hooks": [
+            "Renan Calheiros perdeu. E ele nem é a notícia mais importante dessa eleição.",
+            "121. Guarda esse número, porque ele muda tudo a partir de 2027."
+          ],
+          "script": "O PL elegeu 121 deputados. É a maior bancada da Câmara desde a redemocratização. No Senado, o partido vai ter 28 cadeiras. E nomes que pareciam eternos ficaram pelo caminho: Renan Calheiros, Ciro Nogueira, Carlos Fávaro. Só que tem um detalhe: Congresso forte não governa sozinho. O que acontece no dia 25 decide se essa maioria vai ser governo ou oposição. Na sua opinião, quem deveria presidir o Senado em 2027? Comenta só um nome.",
+          "screen_text": ["121 deputados", "28 senadores", "Renan, Ciro, Fávaro: fora"],
+          "caption": "O tamanho da mudança no Congresso. Quem deveria presidir o Senado em 2027? Só um nome.",
+          "risk": "baixo",
+          "risk_note": "Dados oficiais da Justiça Eleitoral e do Senado.",
+          "timeline": {"rende": true, "angle": "Raio X do novo Congresso: quem entrou, quem caiu e o que muda nas votações de 2027."}
+        },
+        {
+          "title": "2,2 milhões de diferença. Quem decide são 9 milhões",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "Flávio teve 56,1 milhões de votos (47,03%) e Lula, 53,9 milhões (45,16%), a menor diferença desde a redemocratização. Os demais candidatos somaram cerca de 9,3 milhões. Caiado declarou apoio a Flávio em 6/10.",
+          "sources": [
+            {"name": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/bolsonarismo-vira-a-diferenca-sobre-lula-em-relacao-a-2022/"},
+            {"name": "O Tempo", "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/6/caiado-declara-apoio-a-flavio-bolsonaro-e-diz-que-lula-vai-levar-taca-no-segundo-turno"}
+          ],
+          "hooks": [
+            "Dois milhões de votos. É isso que separa o Brasil de mais quatro anos de Lula.",
+            "Tem 9 milhões de brasileiros decidindo essa eleição agora. E não é você nem eu."
+          ],
+          "script": "Flávio terminou o primeiro turno com 56 milhões de votos. Lula, com 53,9. A menor diferença desde a redemocratização. Mas a eleição não está nesses dois números. Está nos 9 milhões que votaram em Cury, Renan Santos, Caiado, Zema. Caiado já escolheu lado. Os outros ainda não. É por isso que, nas próximas três semanas, cada voto convertido vale mais que qualquer comício. Você conhece alguém que votou em outro candidato no primeiro turno? Manda esse vídeo pra ele.",
+          "screen_text": ["56,1 mi x 53,9 mi", "9 milhões decidem", "Manda pra quem votou em outro"],
+          "caption": "Manda pra quem votou em outro candidato no primeiro turno.",
+          "risk": "baixo",
+          "risk_note": "Atenção à legislação eleitoral: é conteúdo de opinião em perfil pessoal, sem impulsionamento pago.",
+          "timeline": {"rende": false, "angle": "Melhor como vídeo; o tema já é coberto por toda a imprensa."}
+        }
+      ]
+    }
+  ]
+}
