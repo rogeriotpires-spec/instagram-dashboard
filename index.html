@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel @rogerrio</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f4f3f0; --surface:#fcfcfb; --border:#e4e2dc;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#8a8984;
+  --grid:#ebe9e4;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a;
+  --accent:#2a78d6;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#121211; --surface:#1a1a19; --border:#2e2e2b;
+    --text:#ffffff; --text-2:#c3c2b7; --muted:#8f8e86;
+    --grid:#2a2a27;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+    --accent:#3987e5;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#121211; --surface:#1a1a19; --border:#2e2e2b;
+  --text:#ffffff; --text-2:#c3c2b7; --muted:#8f8e86;
+  --grid:#2a2a27;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+  --accent:#3987e5;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 48px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:20px}
+h1{font-size:26px;margin:0;letter-spacing:-.02em}
+.sub{color:var(--text-2);font-size:13px;margin-top:4px}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.seg{display:inline-flex;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:3px}
+.seg button{border:0;background:transparent;color:var(--text-2);font:500 13px Inter,sans-serif;padding:6px 12px;border-radius:7px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--text);color:var(--surface)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:12px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px 18px}
+.kpi .label{font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em}
+.kpi .val{font-size:28px;font-weight:700;letter-spacing:-.02em;margin-top:4px;font-variant-numeric:tabular-nums}
+.kpi .note{font-size:12px;color:var(--muted);margin-top:2px}
+.grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:12px;margin-bottom:12px}
+.card h2{font-size:15px;margin:0 0 2px}
+.card .desc{font-size:12px;color:var(--text-2);margin:0 0 12px}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--text-2);margin:-4px 0 8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font:11px Inter,sans-serif;fill:var(--muted)}
+.tip{position:fixed;pointer-events:none;background:var(--text);color:var(--surface);font-size:12px;padding:8px 10px;border-radius:8px;opacity:0;transition:opacity .1s;z-index:10;max-width:260px;line-height:1.4}
+.tip b{font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{padding:9px 8px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+td.t{white-space:normal;min-width:220px}
+th{font-size:11px;color:var(--text-2);text-transform:uppercase;letter-spacing:.04em;font-weight:600;cursor:pointer;user-select:none}
+th[aria-sort] ::after{content:""}
+th.on{color:var(--text)}
+td a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--border)}
+td a:hover{border-color:var(--accent)}
+.tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 7px;border-radius:6px;border:1px solid var(--border);color:var(--text-2)}
+.tag i{display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:5px}
+.tablewrap{overflow-x:auto;margin:0 -4px}
+footer{color:var(--muted);font-size:12px;margin-top:20px}
+@media (max-width:820px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}.kpi .val{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>@rogerrio no Instagram</h1>
+      <div class="sub" id="updated">Carregando…</div>
+    </div>
+    <div class="filters">
+      <div class="seg" id="f-range" role="group" aria-label="Período">
+        <button data-v="30">30 dias</button><button data-v="60">60 dias</button><button data-v="90" aria-pressed="true">90 dias</button>
+      </div>
+      <div class="seg" id="f-type" role="group" aria-label="Formato">
+        <button data-v="all" aria-pressed="true">Todos</button><button data-v="I">Imagens</button><button data-v="R">Reels</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid2">
+    <div class="card">
+      <h2>Visualizações por semana</h2>
+      <p class="desc">Soma das visualizações dos posts publicados em cada semana</p>
+      <div class="legend" id="lg-weekly"></div>
+      <div id="c-weekly"></div>
+    </div>
+    <div class="card">
+      <h2>Novos seguidores por semana</h2>
+      <p class="desc">A API do Instagram só fornece os últimos 30 dias</p>
+      <div id="c-follow"></div>
+    </div>
+  </section>
+
+  <section class="grid2">
+    <div class="card">
+      <h2>Horário de publicação</h2>
+      <p class="desc">Mediana de visualizações por faixa de horário (Brasília)</p>
+      <div id="c-hour"></div>
+    </div>
+    <div class="card">
+      <h2>Imagens x Reels</h2>
+      <p class="desc">Mediana por post no período filtrado</p>
+      <div id="c-mix"></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Posts</h2>
+    <p class="desc">Clique no cabeçalho para ordenar. Taxa de compartilhamento = compartilhamentos ÷ visualizações</p>
+    <div class="tablewrap"><table id="tbl"></table></div>
+  </section>
+
+  <footer>Dados: Instagram Insights via Supermetrics. Atualização automática diária às 5h.</footer>
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+const $=s=>document.querySelector(s);
+const fmt=n=>n==null?"–":n>=1e6?(n/1e6).toFixed(n>=1e7?0:1).replace(".",",")+" mi":n>=1e3?(n/1e3).toFixed(n>=1e5?0:1).replace(".",",")+" mil":String(n);
+const full=n=>n==null?"–":n.toLocaleString("pt-BR");
+const pct=x=>(x*100).toFixed(1).replace(".",",")+"%";
+const median=a=>{if(!a.length)return 0;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
+const TYPE={I:{name:"Imagens",c:"var(--s1)"},R:{name:"Reels",c:"var(--s2)"}};
+const tip=$("#tip");
+function showTip(e,html){tip.innerHTML=html;tip.style.opacity=1;const x=Math.min(e.clientX+14,innerWidth-tip.offsetWidth-8),y=e.clientY+14+tip.offsetHeight>innerHeight?e.clientY-tip.offsetHeight-10:e.clientY+14;tip.style.left=x+"px";tip.style.top=y+"px"}
+function hideTip(){tip.style.opacity=0}
+const NS="http://www.w3.org/2000/svg";
+function el(n,a={},p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function niceMax(v){if(v<=0)return 1;const p=10**Math.floor(Math.log10(v)),f=v/p;return (f<=1?1:f<=2?2:f<=2.5?2.5:f<=5?5:10)*p}
+// rounded-top bar path anchored to baseline
+function barPath(x,y,w,h,r=4){if(h<=0)return"";r=Math.min(r,w/2,h);return`M${x},${y+h}V${y+r}Q${x},${y} ${x+r},${y}H${x+w-r}Q${x+w},${y} ${x+w},${y+r}V${y+h}Z`}
+
+let D,state={range:90,type:"all",sort:"views",dir:-1};
+
+function rows(){
+  const end=new Date(D.period.end+"T23:59:59-03:00");
+  const start=new Date(end.getTime()-state.range*864e5);
+  return D.posts.map(r=>Object.fromEntries(D.columns.map((c,i)=>[c,r[i]])))
+    .map(p=>({...p,date:new Date(p.ts.replace(" ","T")+":00-03:00")}))
+    .filter(p=>p.date>start&&(state.type==="all"||p.type===state.type));
+}
+
+function weekKey(d){const t=new Date(d);t.setHours(0,0,0,0);const day=(t.getDay()+6)%7;t.setDate(t.getDate()-day);return t}
+
+function axisChart(host,{cats,series,labels,stack=true,fmtY=fmt,tipFn}){
+  host.innerHTML="";
+  const W=host.clientWidth||600,H=Math.max(200,Math.min(260,W*.5)),m={t:8,r:4,b:24,l:44};
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img"},host);
+  const iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const totals=cats.map((_,i)=>stack?series.reduce((s,se)=>s+se.values[i],0):Math.max(...series.map(se=>se.values[i])));
+  const raw=Math.max(...totals,1),step=niceMax(raw/4),nT=Math.ceil(raw/step),max=step*nT;
+  for(let k=0;k<=nT;k++){const v=step*k,y=m.t+ih-ih*k/nT;
+    el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:k?"var(--grid)":"var(--border)","stroke-width":1},svg);
+    const t=el("text",{x:m.l-8,y:y+4,"text-anchor":"end"},svg);t.textContent=fmtY(v)}
+  const bw=iw/cats.length,gap=Math.max(3,bw*.28),w=bw-gap;
+  const every=Math.ceil(cats.length/(W<500?5:10));
+  cats.forEach((c,i)=>{
+    const x=m.l+i*bw+gap/2;let y0=m.t+ih;
+    series.forEach((se,si)=>{const v=se.values[i];if(!v)return;const h=ih*v/max;const top=si===series.length-1||!series.slice(si+1).some(s=>s.values[i]);
+      const hh=Math.max(0,h-(si>0?2:0));y0-=h;
+      if(top)el("path",{d:barPath(x,y0,w,hh,Math.min(4,w/3)),fill:se.color},svg);
+      else el("rect",{x,y:y0+(si>0?0:0),width:w,height:hh,fill:se.color},svg);
+    });
+    if(i%every===0){const t=el("text",{x:x+w/2,y:H-6,"text-anchor":"middle"},svg);t.textContent=labels[i]}
+    const hit=el("rect",{x:m.l+i*bw,y:m.t,width:bw,height:ih,fill:"transparent"},svg);
+    hit.addEventListener("pointermove",e=>{showTip(e,tipFn(i))});hit.addEventListener("pointerleave",hideTip);
+  });
+}
+
+function hbars(host,items){
+  host.innerHTML="";
+  const max=Math.max(...items.map(i=>i.v),1);
+  host.innerHTML=items.map(i=>`<div style="margin:10px 0 14px"><div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:5px"><span style="color:var(--text-2)">${i.label}</span><b style="font-variant-numeric:tabular-nums">${i.text}</b></div><div style="height:10px;background:var(--grid);border-radius:4px;overflow:hidden"><div style="height:100%;width:${Math.max(1,i.v/max*100)}%;background:${i.c};border-radius:0 4px 4px 0"></div></div></div>`).join("");
+}
+
+function render(){
+  const R=rows();
+  // KPIs
+  const views=R.reduce((s,p)=>s+p.views,0),shares=R.reduce((s,p)=>s+p.shares,0);
+  const nf=D.new_followers_weekly.reduce((s,w)=>s+w.value,0);
+  $("#kpis").innerHTML=[
+    ["Seguidores",full(D.account.followers),"total atual"],
+    ["Novos seguidores",full(nf),"últimos 30 dias"],
+    ["Visualizações",fmt(views),`${R.length} posts no período`],
+    ["Taxa de compartilhamento",views?pct(shares/views):"–",`${full(shares)} compartilhamentos`]
+  ].map(([l,v,n])=>`<div class="card kpi"><div class="label">${l}</div><div class="val">${v}</div><div class="note">${n}</div></div>`).join("");
+
+  // weekly views
+  const weeks=new Map();
+  const end=new Date(D.period.end+"T12:00:00-03:00");
+  for(let t=weekKey(new Date(end.getTime()-state.range*864e5+864e5));t<=end;t=new Date(t.getTime()+7*864e5))weeks.set(+t,{I:0,R:0,n:0});
+  R.forEach(p=>{const k=+weekKey(p.date);if(weeks.has(k)){const w=weeks.get(k);w[p.type]+=p.views;w.n++}});
+  const wk=[...weeks.entries()];
+  const types=state.type==="all"?["I","R"]:[state.type];
+  $("#lg-weekly").innerHTML=types.length>1?types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join(""):"";
+  const dlab=k=>new Date(k).toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"});
+  axisChart($("#c-weekly"),{cats:wk,labels:wk.map(([k])=>dlab(k)),
+    series:types.map(t=>({color:TYPE[t].c,values:wk.map(([,w])=>w[t])})),
+    tipFn:i=>{const [k,w]=wk[i];return `<b>Semana de ${dlab(k)}</b><br>${types.map(t=>`${TYPE[t].name}: ${full(w[t])}`).join("<br>")}<br>${w.n} posts`}});
+
+  // followers
+  const fw=D.new_followers_weekly;
+  axisChart($("#c-follow"),{cats:fw,labels:fw.map(w=>w.start.slice(8,10)+"/"+w.start.slice(5,7)),
+    series:[{color:"var(--s3)",values:fw.map(w=>w.value)}],fmtY:v=>fmt(Math.round(v)),
+    tipFn:i=>`<b>Semana de ${fw[i].start.slice(8,10)}/${fw[i].start.slice(5,7)}</b><br>${full(fw[i].value)} novos seguidores${i===fw.length-1?"<br><span style='opacity:.7'>semana em andamento</span>":""}`});
+
+  // hour buckets
+  const B=[["Madrugada (0h–5h)",0,5],["Manhã cedo (6h–9h)",6,9],["Manhã (10h–12h)",10,12],["Tarde (13h–17h)",13,17],["Noite (18h–23h)",18,23]];
+  const hb=B.map(([l,a,b])=>{const v=R.filter(p=>{const h=+p.ts.slice(11,13);return h>=a&&h<=b}).map(p=>p.views);return{l,v:median(v),n:v.length}});
+  axisChart($("#c-hour"),{cats:hb,labels:hb.map(h=>h.l.split(" (")[0]),stack:false,
+    series:[{color:"var(--s1)",values:hb.map(h=>h.v)}],
+    tipFn:i=>`<b>${hb[i].l}</b><br>Mediana: ${full(Math.round(hb[i].v))} visualizações<br>${hb[i].n} posts`});
+
+  // mix
+  const mix=["I","R"].map(t=>{const P=R.filter(p=>p.type===t);return{t,n:P.length,v:median(P.map(p=>p.views)),sh:median(P.map(p=>p.views?p.shares/p.views:0))}});
+  hbars($("#c-mix"),[
+    ...mix.map(m=>({label:`${TYPE[m.t].name}: visualizações (${m.n} posts)`,v:m.v,text:full(Math.round(m.v)),c:TYPE[m.t].c}))
+  ]);
+  $("#c-mix").insertAdjacentHTML("beforeend",`<div style="font-size:13px;color:var(--text-2);border-top:1px solid var(--border);padding-top:10px">Taxa mediana de compartilhamento: ${mix.map(m=>`<b style="color:var(--text)">${TYPE[m.t].name} ${pct(m.sh)}</b>`).join(" · ")}</div>`);
+
+  // table
+  const cols=[["ts","Data"],["title","Post"],["views","Views"],["reach","Alcance"],["likes","Curtidas"],["comments","Coment."],["shares","Compart."],["rate","Tx. comp."],["saves","Salvos"],["follows","Seguidores"]];
+  const T=R.map(p=>({...p,rate:p.views?p.shares/p.views:0}));
+  T.sort((a,b)=>{const x=a[state.sort],y=b[state.sort];if(x==null)return 1;if(y==null)return -1;return (x>y?1:x<y?-1:0)*state.dir});
+  $("#tbl").innerHTML=`<thead><tr>${cols.map(([k,l])=>`<th data-k="${k}" class="${state.sort===k?"on":""}" aria-sort="${state.sort===k?(state.dir<0?"descending":"ascending"):"none"}">${l}${state.sort===k?(state.dir<0?" ↓":" ↑"):""}</th>`).join("")}</tr></thead><tbody>${
+    T.map(p=>`<tr><td>${p.ts.slice(8,10)}/${p.ts.slice(5,7)} ${p.ts.slice(11)}</td><td class="t"><span class="tag"><i style="background:${TYPE[p.type].c}"></i>${p.type==="I"?"Imagem":"Reel"}</span> <a href="https://www.instagram.com/${p.type==="I"?"p":"reel"}/${p.code}/" target="_blank" rel="noopener">${p.title}</a></td><td>${full(p.views)}</td><td>${full(p.reach)}</td><td>${full(p.likes)}</td><td>${full(p.comments)}</td><td>${full(p.shares)}</td><td>${pct(p.rate)}</td><td>${full(p.saves)}</td><td>${full(p.follows)}</td></tr>`).join("")
+  }</tbody>`;
+  document.querySelectorAll("#tbl th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(state.sort===k)state.dir*=-1;else{state.sort=k;state.dir=(k==="title")?1:-1}render()});
+}
+
+function seg(id,key,num){document.querySelectorAll(`#${id} button`).forEach(b=>b.onclick=()=>{document.querySelectorAll(`#${id} button`).forEach(x=>x.setAttribute("aria-pressed",x===b));state[key]=num?+b.dataset.v:b.dataset.v;render()})}
+seg("f-range","range",true);seg("f-type","type");
+
+fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{D=d;
+  const u=new Date(d.updated);
+  $("#updated").textContent=`Atualizado em ${u.toLocaleDateString("pt-BR")} às ${u.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`;
+  render();let t;addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(render,150)})});
+</script>
+</body>
+</html>
