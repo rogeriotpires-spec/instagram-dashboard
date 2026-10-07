@@ -10,19 +10,21 @@ Monte a pauta de AMANHÃ (data de Brasília, TZ=America/Sao_Paulo). Exceção: s
 
 Hora atual: sempre obtenha com o comando `TZ=America/Sao_Paulo date -Iseconds` (nunca estime a hora). Use esse valor nos campos generated e done.
 
+Estilo das imagens: leia e siga prompts/estilo-imagem.md em toda option de imagem e capa de carrossel (inclui o campo "style").
+
 ## Segurança do repositório
 Crie ou altere apenas pautas/AAAA-MM-DD.json e pautas/index.json. Scripts auxiliares ficam em /tmp.
 
 ## Passos
 1. Leia:
-   - pautas/2026-10-08.json: MODELO EXATO de formato e qualidade (summary, agenda, slots, options com title, tone, duration, fact, sources, art_text, faces, prompt, hooks, script, screen_text, slides, poll, caption, risk, risk_note, timeline{rende, angle}).
+   - pautas/2026-10-08.json: MODELO EXATO de formato dos campos e de qualidade do texto (para o estilo visual das imagens, vale prompts/estilo-imagem.md, não o modelo) (summary, agenda, slots, options com title, tone, duration, fact, sources, art_text, faces, prompt, hooks, script, screen_text, slides, poll, caption, risk, risk_note, timeline{rende, angle}).
    - analysis.json: week_plan define os slots de cada dia da semana (i=imagem, r=reel, c=carrossel, s=stories; horário; descrição). Use os slots do dia da semana da pauta. Leia os cards para saber o que tem funcionado.
    - Os 5 arquivos mais recentes em pautas/ (AAAA-MM-DD.json) para NÃO repetir temas.
    - A edição mais recente em noticias/ (lista em noticias/index.json): use as notícias de maior nota como ponto de partida.
 2. Pesquise as últimas 24 horas com WebSearch e WebFetch (Folha, Estadão, O Globo, CNN Brasil, Poder360, Metrópoles, Gazeta do Povo, Revista Oeste, Jovem Pan, R7, Agência Brasil e noticiário do Rio; o G1 bloqueia leitura automática: não tente abrir nem contorne) e o que está em alta. Liste a agenda do dia da pauta com hora marcada (STF, TSE, votações, debates, pesquisas, dados econômicos). Priorize temas com histórico de bom desempenho: STF, corrupção, economia no bolso, imprensa, eleição, segurança pública, Rio de Janeiro.
 3. Para cada slot, escreva DUAS opções (A e B) com temas diferentes:
    - Todo fato com 1 a 3 fontes com link real que você abriu. Nunca invente número, data ou citação.
-   - Imagem: art_text com as linhas exatas da arte; faces decidindo caso a caso e dizendo o risco; prompt completo para o ChatGPT em português, vertical 4:5 1080x1350, texto exato entre aspas; legenda curta terminando em pergunta fechada.
+   - Imagem: siga prompts/estilo-imagem.md (padrão realista + frase curta + selo "Imagem ilustrativa"); art_text com as linhas exatas da arte; faces dizendo o que aparece e o risco; prompt completo para o ChatGPT em português; style; legenda curta terminando em pergunta fechada.
    - Reel: duration conforme o tipo (notícia ou reação até 30s; teste com 2 ganchos em hooks; análise até 60s); script corrido para teleprompter, frase mais forte primeiro, fechando com pergunta fechada ou pedido de envio; screen_text com 2 a 4 linhas.
    - Carrossel: slides com 6 a 10 itens (capa com gancho, um dado por slide, último pedindo salvar ou enviar); prompt opcional para a capa.
    - Stories: poll com pergunta e opções.

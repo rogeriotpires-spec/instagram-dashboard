@@ -275,7 +275,8 @@ const block=(label,html,copy)=>`<div class="blk"><div class="blk-h"><span>${labe
 const srcs=s=>(s||[]).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)} ↗</a>`).join(" · ");
 
 function option(o,type,idx){
-  const pills=`<span class="pill neutral">${esc(o.tone||"")}</span>${o.duration?`<span class="pill neutral">${esc(o.duration)}</span>`:""}<span class="pill ${RISK[o.risk]||"neutral"}" title="${esc(o.risk_note||"")}">Risco ${esc(o.risk||"n/d")}</span>${o.timeline?`<span class="pill ${o.timeline.rende?"good":"neutral"}">${o.timeline.rende?"Rende artigo na Timeline":"Só rede social"}</span>`:""}`;
+  const STY={realista:"Imagem realista",cartaz:"Cartaz de texto","foto-oficial":"Foto oficial editada",print:"Print"};
+  const pills=`${o.style?`<span class="pill neutral">${esc(STY[o.style]||o.style)}</span>`:""}<span class="pill neutral">${esc(o.tone||"")}</span>${o.duration?`<span class="pill neutral">${esc(o.duration)}</span>`:""}<span class="pill ${RISK[o.risk]||"neutral"}" title="${esc(o.risk_note||"")}">Risco ${esc(o.risk||"n/d")}</span>${o.timeline?`<span class="pill ${o.timeline.rende?"good":"neutral"}">${o.timeline.rende?"Rende artigo na Timeline":"Só rede social"}</span>`:""}`;
   let body=`<p class="fact">${esc(o.fact)}</p><div class="src">${srcs(o.sources)}</div>`;
   if(o.art_text)body+=block("Texto na arte",`<ul>${o.art_text.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`,o.art_text.join("\n"));
   if(o.faces)body+=block("Rostos e imagem base",`<p>${esc(o.faces)}</p>`);

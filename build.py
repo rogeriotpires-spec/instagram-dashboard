@@ -65,6 +65,7 @@ yesterday = today - timedelta(days=1)
 hist = load(P("history.json"), {"daily": {}, "followers": {}, "posts": {}})
 titles = load(P("titles.json"), {})
 themes = load(P("themes.json"), {})
+styles = load(P("styles.json"), {})  # estilo visual de cada post (realista, cartaz, foto-oficial, print, video), preenchido pela análise semanal
 
 # ---------- tema por palavras-chave ----------
 THEMES = ["Opinião", "Política", "Entrevista", "Bastidores e pessoal", "Serviço", "Eventos e discursos"]
@@ -256,6 +257,7 @@ data = {
                  "age_gender": [[r[0], r[1], num(r[2])] for r in rows("age_gender")],
                  "cities": [[city(r[0]), num(r[1])] for r in rows("cities")]},
     "post_windows": post_windows,
+    "styles": styles,
     "tracking_since": min(hist["followers"]) if hist["followers"] else None,
 }
 
