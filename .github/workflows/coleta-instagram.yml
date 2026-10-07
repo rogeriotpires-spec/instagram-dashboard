@@ -1,0 +1,56 @@
+name: Coleta API do Instagram
+
+on:
+  schedule:
+    - cron: "20 7 * * *"   # 04:20 em Brasília, antes da atualização das 04:50
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coleta-instagram
+  cancel-in-progress: false
+
+jobs:
+  coleta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar ffprobe
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+
+      - name: Renovar token do Instagram (vale 60 dias)
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
+        run: |
+          # Renova uma vez por semana (domingo) ou quando disparado manualmente
+          if [ "$(date -u +%u)" = "7" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            NEW=$(curl -s "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${IG_TOKEN}" | python3 -c "import sys,json;print(json.load(sys.stdin).get('access_token',''))")
+            if [ -n "$NEW" ]; then
+              echo "::add-mask::$NEW"
+              gh secret set IG_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW" && echo "Token renovado."
+              echo "IG_TOKEN_NEW=$NEW" >> "$GITHUB_ENV"
+            else
+              echo "Renovação não aplicada (o token precisa ter mais de 24h). Segue com o atual."
+            fi
+          fi
+
+      - name: Coletar dados
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          if [ -n "$IG_TOKEN_NEW" ]; then export IG_TOKEN="$IG_TOKEN_NEW"; fi
+          python3 ig_collect.py
+
+      - name: Publicar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw/ig_api.json raw/durations.json
+          if git diff --cached --quiet; then echo "Sem mudanças."; exit 0; fi
+          git commit -m "Coleta da API do Instagram"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done
