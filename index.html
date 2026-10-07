@@ -302,9 +302,12 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
   </section>
 
   <section class="block" id="analise">
-    <div class="sec-h"><h2>Análise e sugestões</h2><p>Diagnóstico calculado sobre o período filtrado</p></div>
+    <div class="sec-h"><h2>Análise e sugestões</h2><p id="ai-sub">Análise semanal + indicadores automáticos</p></div>
+    <div id="weekly"></div>
+    <h3 id="auto-h" style="font-size:13px;color:var(--text-2);margin:22px 0 4px;text-transform:uppercase;letter-spacing:.06em">Indicadores automáticos</h3>
+    <p class="def" id="auto-sub" style="margin:0 0 10px">Recalculados a cada coleta e conforme o filtro de período e formato.</p>
     <div class="ins-grid" id="insights"></div>
-    <div class="card" style="margin-top:12px"><h3>Semana modelo sugerida</h3><p class="desc">Baseada nos horários e formatos com melhor mediana no seu histórico.</p>
+    <div class="card" style="margin-top:12px"><h3>Semana modelo sugerida</h3><p class="desc" id="plan-sub">Baseada nos horários e formatos com melhor mediana no seu histórico.</p>
       <div class="legend"><span><i style="background:var(--s1)"></i>Imagem</span><span><i style="background:var(--s2)"></i>Reel</span><span><i style="background:var(--s4)"></i>Carrossel</span><span><i style="background:var(--s3)"></i>Stories / interação</span></div><div class="plan" id="plan"></div></div>
   </section>
 
@@ -476,6 +479,7 @@ function setPer(){
     fixed30:["Últimos 30 dias · fixo",r!==30],
     aud:[`Referência ${dBR(D.audience.ref_date)} · fixo`,false],
     api:(()=>{const c=coverage(dailyDays,"shares");return[c<r?`${c} de ${r} dias com dado`:g,c<r]})(),
+    weekly:[AN?`${perLabel(AN.period.start,AN.period.end)} · fixo`:"",false],
     tracking:[D.tracking_since?`Coleta desde ${dBR(D.tracking_since.slice(0,10))}`:"Coleta diária",false]};
   $$(".per").forEach(s=>{const[t,diff]=map[s.dataset.per]||[g,false];s.textContent=t;s.classList.toggle("diff",diff);s.title=diff?"Este card usa um período diferente do filtro do topo":""});
 }
@@ -730,10 +734,23 @@ function insights(){
      d:`Seguidores dão o impulso inicial de cada post; parte da base não está vendo as publicações.`,
      a:["Stories diários com enquete ou caixa de perguntas.","Canal de transmissão para avisar dos posts importantes.","Posts em collab com perfis aliados."]},
   ];
-  $("#insights").innerHTML=cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.t}</h3><span class="pill ${c.s[0]}">${c.s[1]}</span></div><div class="metric-row">${c.m.map(([v,l])=>`<div><b>${v}</b>${l}</div>`).join("")}</div><p class="diag">${c.d}</p><ol>${c.a.map(x=>`<li>${x}</li>`).join("")}</ol></article>`).join("");
+  $("#insights").innerHTML=cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.t}</h3><span class="pill ${c.s[0]}">${c.s[1]}</span></div><div class="metric-row">${c.m.map(([v,l])=>`<div><b>${v}</b>${l}</div>`).join("")}</div><p class="diag">${c.d}</p>${AN?"":`<ol>${c.a.map(x=>`<li>${x}</li>`).join("")}</ol>`}</article>`).join("");
+}
+let AN=null;
+function renderWeekly(){
+  const host=$("#weekly");if(!AN){host.innerHTML="";$("#auto-h").style.display="none";$("#auto-sub").style.display="none";return}
+  const byCode=Object.fromEntries(ALL.map(p=>[p.code,p]));
+  const ago=Math.round((Date.now()-new Date(AN.generated))/864e5);
+  host.innerHTML=`<div class="card" style="border-left:4px solid var(--s1)">
+    <div class="head"><h3>Análise da semana</h3><span class="per" data-per="weekly">${perLabel(AN.period.start,AN.period.end)} · fixo</span></div>
+    <p class="desc">Escrita pelo Claude em ${new Date(AN.generated).toLocaleDateString("pt-BR")}${ago>8?` <b style="color:var(--warn)">(há ${ago} dias)</b>`:""}, comparando com ${perLabel(AN.compare.start,AN.compare.end)}. Não muda com o filtro do topo; é refeita toda segunda-feira.</p>
+    <p style="font-size:16px;font-weight:600;margin:6px 0 14px;line-height:1.4">${AN.headline}</p>
+    <div class="kpis" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:0">${AN.kpis.map(k=>`<div style="padding:10px 12px;background:var(--surface-2);border-radius:12px"><div class="label" style="font-size:12px;color:var(--text-2)">${k.label}</div><div style="font-size:20px;font-weight:800">${k.value}</div><div class="delta ${k.dir}">${k.delta} vs semana anterior</div></div>`).join("")}</div></div>
+    <div class="ins-grid" style="margin-top:12px">${AN.cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.title}</h3><span class="pill ${c.status}">${c.status_label}</span></div><p class="diag">${c.diagnosis}</p><ol>${c.actions.map(x=>`<li>${x}</li>`).join("")}</ol>${(c.posts||[]).filter(k=>byCode[k]).length?`<div style="display:flex;flex-wrap:wrap;gap:6px">${c.posts.filter(k=>byCode[k]).map(k=>{const p=byCode[k];return`<a class="tag" style="text-decoration:none" href="${linkOf(p)}" target="_blank" rel="noopener"><i style="background:${TYPE[p.type].c}"></i>${p.title.slice(0,38)}${p.title.length>38?"…":""} · ${fmt(p.views)} ↗</a>`}).join("")}</div>`:""}</article>`).join("")}</div>`;
 }
 function plan(){
-  const P=[["Seg",[["i","7h","Imagem de impacto"],["r","14h","Reel curto de notícia"],["s","Dia todo","Stories com enquete"]]],["Ter",[["i","7h","Imagem de impacto"],["c","19h","Carrossel de referência"]]],["Qua",[["i","7h","Imagem de impacto"],["r","14h","Reel de teste: 2 ganchos"]]],["Qui",[["i","7h","Imagem de impacto"],["r","19h","Reel de análise (até 60s)"]]],["Sex",[["i","7h","Imagem de impacto"],["c","19h","Carrossel: semana em números"]]],["Sáb",[["i","8h","Imagem leve ou pessoal"],["r","17h","Bastidor ou família"]]],["Dom",[["i","7h","Imagem forte"],["r","19h","Reel da semana"],["s","Noite","Resumo nos Stories"]]]];
+  if(AN&&AN.week_plan){$("#plan-sub").textContent=`Sugerida na análise de ${new Date(AN.generated).toLocaleDateString("pt-BR")}, para a semana seguinte.`}
+  const P=AN&&AN.week_plan?AN.week_plan:[["Seg",[["i","7h","Imagem de impacto"],["r","14h","Reel curto de notícia"],["s","Dia todo","Stories com enquete"]]],["Ter",[["i","7h","Imagem de impacto"],["c","19h","Carrossel de referência"]]],["Qua",[["i","7h","Imagem de impacto"],["r","14h","Reel de teste: 2 ganchos"]]],["Qui",[["i","7h","Imagem de impacto"],["r","19h","Reel de análise (até 60s)"]]],["Sex",[["i","7h","Imagem de impacto"],["c","19h","Carrossel: semana em números"]]],["Sáb",[["i","8h","Imagem leve ou pessoal"],["r","17h","Bastidor ou família"]]],["Dom",[["i","7h","Imagem forte"],["r","19h","Reel da semana"],["s","Noite","Resumo nos Stories"]]]];
   const cls={i:"",r:"r",c:"c",s:"s"};$("#plan").innerHTML=P.map(([d,s])=>`<div class="day"><h4>${d}</h4>${s.map(([k,h,t])=>`<div class="slot ${cls[k]}">${t}<small>${h}</small></div>`).join("")}</div>`).join("");
 }
 
@@ -788,10 +805,10 @@ function renderLimits(){
   $("#limits").innerHTML=L.map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join("");
 }
 
-function render(){setPer();renderDaily();renderOverview();renderConversion();renderLife();renderContent();renderReels();renderThemes();renderAudience();insights();bench();table();setPer()}
+function render(){setPer();renderDaily();renderOverview();renderConversion();renderLife();renderContent();renderReels();renderThemes();renderAudience();insights();renderWeekly();bench();table();setPer()}
 function seg(id,key,num){$$(`#${id} button`).forEach(b=>b.onclick=()=>{$$(`#${id} button`).forEach(x=>x.setAttribute("aria-pressed",x===b));state[key]=num?+b.dataset.v:b.dataset.v;state.calDay=null;$("#cal-pick").className="pick";$("#cal-pick").textContent="Toque em um dia para ver as publicações.";render()})}
 
-fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{D=d;prep();
+Promise.all([fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}),fetch("analysis.json?"+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,an])=>{D=d;AN=an;prep();
   const types=["I","R","C"].filter(t=>ALL.some(p=>p.type===t));
   $("#f-type").innerHTML=`<button data-v="all" aria-pressed="true">Todos</button>`+types.map(t=>`<button data-v="${t}">${TYPE[t].name}</button>`).join("");
   seg("f-range","range",true);seg("f-type","type");seg("f-imetric","imetric");

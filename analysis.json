@@ -1,0 +1,72 @@
+{
+  "generated": "2026-10-07T04:10:00-03:00",
+  "period": {"start": "2026-09-30", "end": "2026-10-06"},
+  "compare": {"start": "2026-09-23", "end": "2026-09-29"},
+  "headline": "Semana da eleição: a conta recebeu 31% mais views e quase o triplo de comentários, mas a mediana por post caiu. Poucos posts carregaram o resultado.",
+  "kpis": [
+    {"label": "Views recebidas pela conta", "value": "5,5 mi", "delta": "+31%", "dir": "up"},
+    {"label": "Novos seguidores", "value": "3.277", "delta": "+12%", "dir": "up"},
+    {"label": "Deixaram de seguir", "value": "94", "delta": "−3%", "dir": "up"},
+    {"label": "Compartilhamentos recebidos", "value": "146 mil", "delta": "+49%", "dir": "up"},
+    {"label": "Comentários recebidos", "value": "8.063", "delta": "+184%", "dir": "up"},
+    {"label": "Views por imagem (mediana)", "value": "47 mil", "delta": "−71%", "dir": "down"}
+  ],
+  "cards": [
+    {
+      "title": "O que funcionou",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Os dois maiores resultados da semana foram reação imediata a fatos do dia da votação: o Reel do eleitor depois de votar (640 mil views, 24,9 mil compartilhamentos, publicado às 14h) e a imagem \"Avalanche Bolsonarista!\" (552 mil views e 420 novos seguidores, às 7h). Os dois saíram em menos de 24 horas do fato.",
+      "actions": [
+        "Em dias de fato político forte, publique a reação em até 3 horas: imagem às 7h e Reel curto à tarde.",
+        "Deixe um modelo de imagem pronto (fundo, fonte, logo) para responder rápido a acontecimentos.",
+        "O Reel campeão tinha 23 segundos e foi assistido em média até 52%: mantenha os Reels de reação entre 15 e 30 segundos."
+      ],
+      "posts": ["DeFIOryNZpn", "DeGlubltKVX"]
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "bad",
+      "status_label": "Evitar",
+      "diagnosis": "Os Reels mais fracos da semana tinham mais de 80 segundos (Guga Noblat, 88s, 2,4 mil views; \"Entreguem logo o Oscar\", 108s, 3,7 mil views) ou saíram no começo da manhã (\"Autoexplicativo\", 8h50, 1,3 mil views). Quatro dos sete Reels da semana saíram entre 6h e 9h, e nenhum deles chegou a 26 mil views.",
+      "actions": [
+        "Corte Reels acima de 60 segundos ou divida em partes.",
+        "Pare de publicar Reels antes das 10h: deixe esse horário para as imagens.",
+        "Vídeo de terceiros (cortes de TV, outros perfis) rendeu pouco; prefira você falando ou texto na tela."
+      ],
+      "posts": ["DeDLEMMN9rd", "Dd8mDBQt34n", "Dd_agBPN6Mi"]
+    },
+    {
+      "title": "Conversa e comentários",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "Os comentários quase triplicaram (8.063 contra 2.835), puxados pelo clima da eleição e por perguntas diretas como \"Sabe me dizer se essa imagem é real ou se é de IA?\" (202 comentários). O tema eleitoral vai esfriar, então essa alta tende a não se repetir sozinha.",
+      "actions": [
+        "Mantenha pelo menos um post por dia com pergunta fechada (\"real ou IA?\", \"de 0 a 10\").",
+        "Responda os primeiros comentários na primeira hora para prolongar a distribuição.",
+        "Transforme o segundo turno e a composição do Congresso em enquetes nos Stories."
+      ],
+      "posts": ["DeGFDYlstrt"]
+    },
+    {
+      "title": "Seguidores",
+      "status": "good",
+      "status_label": "No caminho",
+      "diagnosis": "Saldo de +3.183 na semana (3.277 entraram, 94 saíram). A taxa de perda ficou em 2,9%, estável. A imagem \"Avalanche Bolsonarista!\" sozinha trouxe 420 seguidores, o melhor resultado de conversão da semana.",
+      "actions": [
+        "Aproveite o pico pós-eleição para fixar no perfil um post de apresentação: quem você é e o que a pessoa ganha seguindo.",
+        "Feche os próximos virais com chamada específica (\"siga para acompanhar a apuração do 2º turno\")."
+      ],
+      "posts": ["DeGlubltKVX"]
+    }
+  ],
+  "week_plan": [
+    ["Seg", [["i", "7h", "Imagem sobre o resultado da eleição"], ["s", "Dia todo", "Enquete: o que muda no Congresso?"]]],
+    ["Ter", [["i", "7h", "Imagem de impacto"], ["r", "14h", "Reel de até 30s com reação"]]],
+    ["Qua", [["i", "7h", "Imagem com pergunta fechada"], ["c", "19h", "Carrossel: números da eleição"]]],
+    ["Qui", [["i", "7h", "Imagem de impacto"], ["r", "19h", "Reel de teste com 2 ganchos"]]],
+    ["Sex", [["i", "7h", "Imagem de impacto"], ["c", "19h", "Carrossel: a semana em 5 fatos"]]],
+    ["Sáb", [["i", "8h", "Imagem leve ou pessoal"], ["r", "17h", "Bastidor ou família"]]],
+    ["Dom", [["i", "7h", "Imagem forte (dia de pico)"], ["s", "Noite", "Resumo nos Stories"]]]
+  ]
+}
