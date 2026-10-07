@@ -54,7 +54,12 @@ a{color:inherit}
 .hero-stats{display:flex;gap:26px;text-align:right}
 .hero-stats b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .hero-stats span{font-size:12px;opacity:.75}
-.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;opacity:.75}
+.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.hero-meta #updated{opacity:.75}
+.refresh{font:inherit;font-size:12px;font-weight:600;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 12px;cursor:pointer}
+.refresh:hover{background:rgba(255,255,255,.24)}
+.refresh:disabled{opacity:.6;cursor:default}
+#refresh-st{opacity:.9}
 nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
 .nav-in{max-width:1180px;margin:0 auto;padding:10px 16px;display:flex;gap:10px 14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;max-width:100%}
@@ -248,7 +253,7 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
       <div class="bio">As notícias que mais pesam no dia, cruzando os principais portais do país. Edições às 6h, 12h e 19h.</div>
     </div>
   </div>
-  <div class="hero-meta" id="updated">Carregando…</div>
+  <div class="hero-meta"><span id="updated">Carregando…</span> <button class="refresh" id="refresh" type="button">↻ Gerar edição agora</button> <span id="refresh-st" role="status"></span></div>
 </header>
 
 <nav>
@@ -272,13 +277,14 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
 </main>
 <div class="toast" id="toast"></div>
 
+<script src="painel.js"></script>
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const REPO="rogeriotpires-spec/instagram-dashboard";
 const CAMP={direita:["Direita","var(--s1)"],"centro-direita":["Centro-direita","var(--s1)"],centro:["Centro","var(--muted)"],"centro-esquerda":["Centro-esquerda","var(--s2)"],esquerda:["Esquerda","var(--s2)"],estatal:["Estatal","var(--s4)"],internacional:["Internacional","var(--s3)"],rio:["Rio","var(--s5)"]};
 const POS={manchete:"manchete",topo:"topo",secundario:"secundário","secundário":"secundário",editoria:"editoria"};
-let CFG,EDS=[],CUR,ED,SEG="top",DONE={};
+let CFG,EDS=[],CUR,ED,SEG="top",DONE={},BODIES={};
 const label=id=>{const [y,m,d,h]=id.split("-");return`${d}/${m} ${h}`};
 function seal(text,cls){return`<span class="pill ${cls}">${text}</span>`}
 function scoreColor(v){return v>=8?"var(--good)":v>=6?"var(--warn)":"var(--muted)"}
@@ -288,6 +294,7 @@ function card(it,rank){
   const outs=(it.outlets||[]).map(o=>{const c=CAMP[o.camp]||[o.camp,"var(--muted)"];return`<a class="out" href="${esc(o.url)}" target="_blank" rel="noopener" title="${esc(c[0])}${o.position?" · "+esc(POS[o.position]||o.position):""}"><i style="background:${c[1]}"></i>${esc(o.name)}${o.position==="manchete"?" ★":""}</a>`}).join("");
   const done=DONE[it.title]||DONE[it.id];
   const body=`Pedido gerado pelo painel de Notícias.\n\nEdição: ${ED.id}\nItem: ${it.id}\nTítulo: ${it.title}\nBloco: ${segL}\n\nResumo:\n${it.summary}\n\nFontes:\n${(it.outlets||[]).map(o=>`- ${o.name}: ${o.url}`).join("\n")}\n\nFormato desejado (opcional, apague o que não quiser): imagem, reel, carrossel, stories\nObservação (opcional):\n`;
+  BODIES[it.id]=body;
   const issue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Virar pauta] "+it.title)}&body=${encodeURIComponent(body)}`;
   return`<article class="news">
     <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${done?`<a class="pill good" href="pautas.html#sob-demanda" style="text-decoration:none">Virou pauta ✓</a>`:""}</div><h3>${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
@@ -295,7 +302,7 @@ function card(it,rank){
     ${it.asymmetry?.flag?`<div class="note"><b>Assimetria:</b> ${esc(it.asymmetry.note||"")}</div>`:""}
     <div class="outs"><span class="small-n">${(it.outlets||[]).length} portais:</span>${outs}</div>
     <details><summary>Como a nota foi calculada</summary><div class="crits">${crit}</div></details>
-    <div class="acts">${done?`<a class="btn ghost" href="pautas.html#sob-demanda">Ver pauta</a>`:`<a class="btn" href="${issue}" target="_blank" rel="noopener">Virar pauta</a>`}</div>
+    <div class="acts">${done?`<a class="btn ghost" href="pautas.html#sob-demanda">Ver pauta</a>`:(Painel.API?`<button class="btn" type="button" data-pauta="${esc(it.id)}">Virar pauta</button><span class="small-n pst"></span>`:`<a class="btn" href="${issue}" target="_blank" rel="noopener">Virar pauta</a>`)}</div>
   </article>`;
 }
 function render(){
@@ -331,6 +338,26 @@ Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("
   $("#ed").innerHTML=EDS.slice().reverse().map(e=>`<option value="${e}">${label(e)}</option>`).join("");
   $("#ed").onchange=e=>load(e.target.value);$("#prev").onclick=()=>load(EDS[EDS.indexOf(CUR)-1]);$("#next").onclick=()=>load(EDS[EDS.indexOf(CUR)+1]);
   const h=location.hash.slice(1);load(EDS.includes(h)?h:EDS[EDS.length-1]);
+});
+
+Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"noticias",wf:"noticias.yml",minutes:25,needsClaude:true,
+  stamp:()=>fetch("noticias/index.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(i=>{const e=i.editions[i.editions.length-1];return fetch("noticias/"+e+".json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(x=>e+x.generated)}),
+  labels:{running:"Gerando a edição: lendo os portais (10 a 20 minutos)…"}});
+
+/* Virar pauta com um clique (via intermediário) */
+document.addEventListener("click",async e=>{
+  const b=e.target.closest("button[data-pauta]");if(!b)return;
+  const it=(ED.items||[]).find(x=>x.id===b.dataset.pauta);if(!it)return;
+  const st=b.nextElementSibling,say=t=>{if(st)st.textContent=" "+t};
+  b.disabled=true;say("Enviando pedido…");
+  try{
+    await Painel.call("/pauta",{title:it.title,body:BODIES[it.id]});
+    b.textContent="Pedido enviado ✓";
+    say("A pauta fica pronta em uns 10 minutos, em Pautas > Sob demanda.");
+    Painel.track({wf:"sob-demanda.yml",since:new Date(Date.now()-90e3),minutes:20,say,
+      stamp:()=>fetch("pautas/sob-demanda.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(j=>String((j.items[0]||{}).done)),
+      labels:{wait:"Pedido na fila…",running:"Gerando a pauta (uns 10 minutos)…"}});
+  }catch(err){say(err.message);b.disabled=false}
 });
 </script>
 </body>

@@ -54,7 +54,12 @@ a{color:inherit}
 .hero-stats{display:flex;gap:26px;text-align:right}
 .hero-stats b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .hero-stats span{font-size:12px;opacity:.75}
-.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;opacity:.75}
+.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.hero-meta #updated{opacity:.75}
+.refresh{font:inherit;font-size:12px;font-weight:600;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 12px;cursor:pointer}
+.refresh:hover{background:rgba(255,255,255,.24)}
+.refresh:disabled{opacity:.6;cursor:default}
+#refresh-st{opacity:.9}
 nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
 .nav-in{max-width:1180px;margin:0 auto;padding:10px 16px;display:flex;gap:10px 14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;max-width:100%}
@@ -226,7 +231,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
       <div class="bio">Proposta diária de conteúdo para o dia seguinte, montada às 20h a partir dos principais portais, das tendências e da semana modelo.</div>
     </div>
   </div>
-  <div class="hero-meta" id="updated">Carregando…</div>
+  <div class="hero-meta"><span id="updated">Carregando…</span> <button class="refresh" id="refresh" type="button">↻ Gerar pauta de amanhã</button> <span id="refresh-st" role="status"></span></div>
 </header>
 
 <nav>
@@ -253,6 +258,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 </main>
 <div class="toast" id="toast">Copiado</div>
 
+<script src="painel.js"></script>
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -316,6 +322,10 @@ fetch("pautas/index.json?"+Date.now()).then(r=>r.json()).then(ix=>{DAYS=(ix.days
   $("#day").onchange=e=>load(e.target.value);$("#prev").onclick=()=>load(DAYS[DAYS.indexOf(CUR)-1]);$("#next").onclick=()=>load(DAYS[DAYS.indexOf(CUR)+1]);
   const h=location.hash.slice(1);load(DAYS.includes(h)?h:DAYS[DAYS.length-1]);
 }).catch(()=>{$("#updated").textContent="Nenhuma pauta publicada ainda."});
+
+Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"pautas",wf:"pautas.yml",minutes:30,needsClaude:true,
+  stamp:()=>fetch("pautas/index.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(i=>{const d=i.days[i.days.length-1];return fetch("pautas/"+d+".json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(x=>d+x.generated)}),
+  labels:{running:"Gerando a pauta: pesquisando e escrevendo (15 a 25 minutos)…"}});
 </script>
 </body>
 </html>

@@ -353,6 +353,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 </main>
 <div class="tip" id="tip"></div>
 
+<script src="painel.js"></script>
 <script>
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const ND="sem dado";
@@ -833,39 +834,9 @@ Promise.all([fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.
 }).catch(err=>{$("#updated").textContent="Não foi possível carregar os dados agora. Tente recarregar a página.";document.querySelector("main").insertAdjacentHTML("afterbegin",`<div class="empty" style="margin-bottom:20px">Erro ao carregar data.json (${err.message}).</div>`)});
 
 /* ---------- botão Atualizar agora ---------- */
-(()=>{
-  const REPO="rogeriotpires-spec/instagram-dashboard",WF="coleta-instagram.yml";
-  const btn=document.getElementById("refresh"),st=document.getElementById("refresh-st");
-  if(!btn)return;
-  const say=t=>st.textContent=t;
-  let polling=false;
-  const lastRun=()=>fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WF}/runs?per_page=1&event=workflow_dispatch`,{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>j&&j.workflow_runs&&j.workflow_runs[0]).catch(()=>null);
-  const stamp=()=>fetch("data.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>d.account_updated||d.updated).catch(()=>null);
-  async function poll(since){
-    if(polling)return;polling=true;btn.disabled=true;
-    const base=await stamp(),t0=Date.now();
-    say("Aguardando você clicar em \u201cRun workflow\u201d no GitHub…");
-    while(Date.now()-t0<12*60e3){
-      await new Promise(r=>setTimeout(r,15000));
-      const run=await lastRun();
-      if(run&&new Date(run.created_at)>=since){
-        if(run.status!=="completed"){say("Atualizando: buscando os dados no Instagram (2 a 4 minutos)…");continue}
-        if(run.conclusion!=="success"){say("A atualização falhou no GitHub. Tente de novo mais tarde.");break}
-        say("Dados coletados. Publicando no site…");
-        const s=await stamp();
-        if(s&&s!==base){say("Atualizado! Recarregando…");setTimeout(()=>location.reload(),800);return}
-      }
-    }
-    polling=false;btn.disabled=false;
-  }
-  btn.onclick=()=>{
-    const since=new Date(Date.now()-60e3);
-    window.open(`https://github.com/${REPO}/actions/workflows/${WF}`,"_blank","noopener");
-    say("Na página do GitHub, clique em “Run workflow” e confirme no botão verde. Depois volte aqui.");
-    setTimeout(()=>poll(since),8000);
-  };
-  lastRun().then(run=>{if(run&&run.status!=="completed"&&Date.now()-new Date(run.created_at)<15*60e3)poll(new Date(run.created_at))});
-})();
+Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"coleta",wf:"coleta-instagram.yml",minutes:10,
+  stamp:()=>fetch("data.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>d.account_updated||d.updated),
+  labels:{wait:"Aguardando o GitHub começar…",running:"Atualizando: buscando os dados no Instagram (3 a 5 minutos)…"}});
 </script>
 </body>
 </html>
