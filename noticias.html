@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pautas @rogerrio</title>
+<title>Notícias @rogerrio</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
@@ -202,10 +202,32 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .time{display:inline-block;background:var(--text);color:var(--surface);border-radius:8px;padding:0 8px;margin-right:6px}
 .dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
 .slot-sec{margin-bottom:36px}
-.sd{border-left:4px solid var(--good);padding-left:12px;margin-bottom:18px}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--text);color:var(--surface);padding:8px 14px;border-radius:10px;font-size:13px;font-weight:600;opacity:0;transition:.2s;pointer-events:none;z-index:60}
 .toast.on{opacity:1;transform:translateX(-50%)}
 @media (max-width:900px){.opts{grid-template-columns:1fr}}
+
+.segbar{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.segbar button{border:1px solid var(--border);background:var(--surface);color:var(--text-2);font:600 13px Inter,sans-serif;padding:7px 12px;border-radius:999px;cursor:pointer}
+.segbar button.on{background:var(--text);color:var(--surface);border-color:var(--text)}
+.segbar small{opacity:.6;font-weight:500}
+.news{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:12px;display:flex;flex-direction:column;gap:10px}
+.news-h{display:flex;gap:14px;align-items:flex-start}
+.news h3{margin:6px 0 0;font-size:18px;line-height:1.3}
+.rank{font:700 22px Fraunces,Georgia,serif;color:var(--muted);min-width:22px}
+.score{font-size:28px;font-weight:800;text-align:right;line-height:1;font-variant-numeric:tabular-nums}
+.score small{display:block;font-size:10px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+.sum{margin:0;font-size:15px;line-height:1.6}
+.outs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12.5px}
+.out{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--border);border-radius:999px;padding:3px 9px;text-decoration:none;color:var(--text-2)}
+.out i{width:8px;height:8px;border-radius:50%}
+details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
+.crits{display:grid;gap:6px;margin-top:8px}
+.crit{display:grid;grid-template-columns:190px 1fr 26px;gap:10px;align-items:center;font-size:12.5px}
+.crit small{color:var(--muted)}
+.cbar{height:8px;background:var(--grid);border-radius:4px;overflow:hidden}.cbar i{display:block;height:100%;background:var(--s1)}
+.acts{display:flex;gap:8px}
+.acts .btn{margin:0}
+@media (max-width:600px){.crit{grid-template-columns:1fr 26px}.crit .cbar{grid-column:1/-1;order:3}}
 </style>
 </head>
 <body>
@@ -214,10 +236,10 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
   <div class="hero-in">
     <img class="avatar" src="rogerio.jpg" alt="Foto de Rogerio Pires">
     <div class="who">
-      <div class="eyebrow">Pautas de conteúdo</div>
+      <div class="eyebrow">Principais notícias</div>
       <h1>Rogerio Pires</h1>
       <div class="handle">@rogerrio <span class="badge" title="Conta verificada"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span></div>
-      <div class="bio">Proposta diária de conteúdo para o dia seguinte, montada às 20h a partir dos principais portais, das tendências e da semana modelo.</div>
+      <div class="bio">As notícias que mais pesam no dia, cruzando os principais portais do país. Edições às 6h, 12h e 19h.</div>
     </div>
   </div>
   <div class="hero-meta" id="updated">Carregando…</div>
@@ -225,91 +247,85 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 
 <nav>
   <div class="nav-in">
-    <div class="tabs">
-      <a href="index.html">← Métricas</a><a href="noticias.html">Notícias</a><a href="#quentes">Pautas quentes</a><a href="#sob-demanda">Sob demanda</a><a href="#dia">Pauta do dia</a><a href="#agenda">Agenda</a>
-    </div>
+    <div class="tabs" id="segtabs"><a href="index.html">← Métricas</a><a href="pautas.html">Pautas</a></div>
     <div class="filters">
-      <div class="seg"><button id="prev" aria-label="Dia anterior">‹</button><select id="day" aria-label="Escolher dia"></select><button id="next" aria-label="Próximo dia">›</button></div>
+      <div class="seg"><button id="prev" aria-label="Edição anterior">‹</button><select id="ed" aria-label="Escolher edição"></select><button id="next" aria-label="Próxima edição">›</button></div>
     </div>
   </div>
 </nav>
 
 <main class="wrap">
-  <section class="block" id="quentes"></section>
-  <section class="block" id="sob-demanda"></section>
-  <section class="block" id="dia">
-    <div class="sec-h"><h2 id="day-title">Pauta do dia</h2><p id="day-sub"></p></div>
-    <div class="card" id="summary"></div>
+  <section class="block">
+    <div class="sec-h"><h2 id="ed-title">Notícias</h2><p id="ed-sub"></p></div>
+    <div class="card" id="headline"></div>
+    <div class="segbar" id="segbar"></div>
   </section>
-  <section class="block" id="agenda"></section>
-  <section class="block" id="slots"></section>
-  <footer>As pautas são sugestões. Confira as fontes antes de publicar; números e citações vêm com link. Rendem artigo na Timeline as pautas marcadas com o selo verde.</footer>
+  <section class="block" id="list"></section>
+  <section class="block" id="method"></section>
+  <footer>Ranking calculado a cada edição a partir dos portais listados no método. Confira as fontes antes de publicar.</footer>
 </main>
-<div class="toast" id="toast">Copiado</div>
+<div class="toast" id="toast"></div>
 
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const dBR=s=>s.slice(8,10)+"/"+s.slice(5,7);
-const WD=["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
-const TYPE={i:["Imagem","var(--s1)"],r:["Reel","var(--s2)"],c:["Carrossel","var(--s4)"],s:["Stories","var(--s3)"]};
-const RISK={baixo:"good","médio":"warn",alto:"bad"};
-let DAYS=[],CUR=null,CLIP=[];
-function toast(t){const e=$("#toast");e.textContent=t;e.classList.add("on");setTimeout(()=>e.classList.remove("on"),1400)}
-function copyBtn(text,label="Copiar"){CLIP.push(text);return`<button class="copy" data-i="${CLIP.length-1}">${label}</button>`}
-document.addEventListener("click",e=>{const b=e.target.closest(".copy");if(!b)return;const t=CLIP[+b.dataset.i];
-  (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast("Copiado")).catch(()=>{const a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove();toast("Copiado")})});
-const block=(label,html,copy)=>`<div class="blk"><div class="blk-h"><span>${label}</span>${copy!=null?copyBtn(copy):""}</div>${html}</div>`;
-const srcs=s=>(s||[]).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)} ↗</a>`).join(" · ");
-
-function option(o,type,idx){
-  const pills=`<span class="pill neutral">${esc(o.tone||"")}</span>${o.duration?`<span class="pill neutral">${esc(o.duration)}</span>`:""}<span class="pill ${RISK[o.risk]||"neutral"}" title="${esc(o.risk_note||"")}">Risco ${esc(o.risk||"n/d")}</span>${o.timeline?`<span class="pill ${o.timeline.rende?"good":"neutral"}">${o.timeline.rende?"Rende artigo na Timeline":"Só rede social"}</span>`:""}`;
-  let body=`<p class="fact">${esc(o.fact)}</p><div class="src">${srcs(o.sources)}</div>`;
-  if(o.art_text)body+=block("Texto na arte",`<ul>${o.art_text.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`,o.art_text.join("\n"));
-  if(o.faces)body+=block("Rostos e imagem base",`<p>${esc(o.faces)}</p>`);
-  if(o.prompt)body+=block("Prompt para o ChatGPT",`<pre>${esc(o.prompt)}</pre>`,o.prompt);
-  if(o.hooks)body+=block("Ganchos (primeiros 3 segundos)",o.hooks.map((h,i)=>`<div class="hook"><b>${i+1}</b><span>${esc(h)}</span>${copyBtn(h)}</div>`).join(""));
-  if(o.script)body+=block("Roteiro para teleprompter",`<pre>${esc(o.script)}</pre>`,o.script);
-  if(o.screen_text)body+=block("Texto na tela",`<ul>${o.screen_text.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`,o.screen_text.join("\n"));
-  if(o.slides)body+=block(`Slides (${o.slides.length})`,`<ol class="slides">${o.slides.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>`,o.slides.map((s,i)=>`Slide ${i+1}: ${s}`).join("\n"));
-  if(o.poll)body+=block("Stories",`<p><b>${esc(o.poll.question)}</b></p>${o.poll.options?`<ul>${o.poll.options.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}`,[o.poll.question,...(o.poll.options||[])].join("\n"));
-  if(o.caption)body+=block("Legenda",`<p>${esc(o.caption)}</p>`,o.caption);
-  if(o.risk_note)body+=`<div class="note"><b>Cuidado:</b> ${esc(o.risk_note)}</div>`;
-  if(o.timeline&&o.timeline.angle)body+=`<div class="note tl"><b>${o.timeline.rende?"Ângulo para a Timeline":"Por que só rede"}:</b> ${esc(o.timeline.angle)}</div>`;
-  return`<article class="opt"><div class="opt-h"><span class="opt-n">Opção ${"AB"[idx]||idx+1}</span><h3>${esc(o.title)}</h3></div><div class="pills">${pills}</div>${body}</article>`;
+const REPO="rogeriotpires-spec/instagram-dashboard";
+const CAMP={direita:["Direita","var(--s1)"],"centro-direita":["Centro-direita","var(--s1)"],centro:["Centro","var(--muted)"],"centro-esquerda":["Centro-esquerda","var(--s2)"],esquerda:["Esquerda","var(--s2)"],estatal:["Estatal","var(--s4)"],internacional:["Internacional","var(--s3)"],rio:["Rio","var(--s5)"]};
+const POS={manchete:"manchete",topo:"topo",secundario:"secundário","secundário":"secundário",editoria:"editoria"};
+let CFG,EDS=[],CUR,ED,SEG="top",DONE={};
+const label=id=>{const [y,m,d,h]=id.split("-");return`${d}/${m} ${h}`};
+function seal(text,cls){return`<span class="pill ${cls}">${text}</span>`}
+function scoreColor(v){return v>=8?"var(--good)":v>=6?"var(--warn)":"var(--muted)"}
+function card(it,rank){
+  const segL=(CFG.segments.find(s=>s.key===it.segment)||{}).label||it.segment;
+  const crit=CFG.criteria.map(c=>{const v=it.scores?.[c.key];return`<div class="crit" title="${esc(c.how)}"><span>${esc(c.label)} <small>peso ${c.weight}</small></span><div class="cbar"><i style="width:${(v??0)*10}%"></i></div><b>${v??"–"}</b></div>`}).join("");
+  const outs=(it.outlets||[]).map(o=>{const c=CAMP[o.camp]||[o.camp,"var(--muted)"];return`<a class="out" href="${esc(o.url)}" target="_blank" rel="noopener" title="${esc(c[0])}${o.position?" · "+esc(POS[o.position]||o.position):""}"><i style="background:${c[1]}"></i>${esc(o.name)}${o.position==="manchete"?" ★":""}</a>`}).join("");
+  const done=DONE[it.title]||DONE[it.id];
+  const body=`Pedido gerado pelo painel de Notícias.\n\nEdição: ${ED.id}\nItem: ${it.id}\nTítulo: ${it.title}\nBloco: ${segL}\n\nResumo:\n${it.summary}\n\nFontes:\n${(it.outlets||[]).map(o=>`- ${o.name}: ${o.url}`).join("\n")}\n\nFormato desejado (opcional, apague o que não quiser): imagem, reel, carrossel, stories\nObservação (opcional):\n`;
+  const issue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Virar pauta] "+it.title)}&body=${encodeURIComponent(body)}`;
+  return`<article class="news">
+    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${done?`<a class="pill good" href="pautas.html#sob-demanda" style="text-decoration:none">Virou pauta ✓</a>`:""}</div><h3>${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
+    <p class="sum">${esc(it.summary)}</p>
+    ${it.asymmetry?.flag?`<div class="note"><b>Assimetria:</b> ${esc(it.asymmetry.note||"")}</div>`:""}
+    <div class="outs"><span class="small-n">${(it.outlets||[]).length} portais:</span>${outs}</div>
+    <details><summary>Como a nota foi calculada</summary><div class="crits">${crit}</div></details>
+    <div class="acts">${done?`<a class="btn ghost" href="pautas.html#sob-demanda">Ver pauta</a>`:`<a class="btn" href="${issue}" target="_blank" rel="noopener">Virar pauta</a>`}</div>
+  </article>`;
 }
-function renderDay(p){
-  CLIP=[];const d=new Date(p.date+"T12:00:00");
-  $("#day-title").textContent=`Pauta de ${WD[d.getDay()]}, ${dBR(p.date)}`;
-  const g=new Date(p.generated);$("#day-sub").textContent=`Gerada em ${g.toLocaleDateString("pt-BR")} às ${g.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`;
-  $("#updated").textContent=$("#day-sub").textContent;
-  $("#summary").innerHTML=`<p style="font-size:16px;font-weight:600;margin:0;line-height:1.45">${esc(p.summary)}</p>`;
-  $("#agenda").innerHTML=p.agenda&&p.agenda.length?`<div class="sec-h"><h2>Agenda</h2><p>Fatos com hora marcada que podem mudar a pauta</p></div><div class="card">${p.agenda.map(a=>`<div class="ag"><b>${esc(a.time)}</b><span>${esc(a.text)} ${a.source?`<a href="${esc(a.source.url)}" target="_blank" rel="noopener">${esc(a.source.name)} ↗</a>`:""}</span></div>`).join("")}</div>`:"";
-  $("#slots").innerHTML=p.slots.map(s=>`<div class="slot-sec"><div class="sec-h"><h2><span class="time">${esc(s.time)}</span> ${esc(s.kind)}</h2><p><i class="dot" style="background:${TYPE[s.type]?.[1]||"var(--muted)"}"></i>${TYPE[s.type]?.[0]||""}</p></div><div class="opts">${s.options.map((o,i)=>option(o,s.type,i)).join("")}</div></div>`).join("");
+function render(){
+  const items=ED.items||[];
+  const segs=[{key:"top",label:"Destaques"},...CFG.segments];
+  $("#segbar").innerHTML=segs.map(s=>{const n=s.key==="top"?(ED.top||[]).length:items.filter(i=>i.segment===s.key).length;return`<button class="${SEG===s.key?"on":""}" data-s="${s.key}">${esc(s.label)} <small>${n}</small></button>`}).join("");
+  document.querySelectorAll("#segbar button").forEach(b=>b.onclick=()=>{SEG=b.dataset.s;render()});
+  let L=SEG==="top"?(ED.top||[]).map(id=>items.find(i=>i.id===id)).filter(Boolean):items.filter(i=>i.segment===SEG).sort((a,b)=>b.score-a.score);
+  $("#list").innerHTML=L.length?L.map((it,i)=>card(it,i+1)).join(""):`<div class="empty">Nenhuma notícia neste bloco nesta edição.</div>`;
 }
-function renderHot(list,day){
-  const cut=new Date(new Date(day+"T12:00:00").getTime()-2*864e5);
-  const L=(list||[]).filter(a=>new Date(a.time)>=cut).sort((a,b)=>b.time.localeCompare(a.time));
-  $("#quentes").innerHTML=`<div class="sec-h"><h2>Pautas quentes</h2><p>Alertas enviados durante o dia quando surge algo grande</p></div>`+(L.length?L.map(a=>{CLIP.push(a.script||"");const t=new Date(a.time);
-    return`<article class="hot"><div class="opt-h"><span class="pill bad">${t.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${t.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span><h3>${esc(a.title)}</h3></div><p class="fact">${esc(a.fact)}</p><div class="src">${srcs(a.sources)}</div>${a.suggestion?`<p><b>Sugestão:</b> ${esc(a.suggestion)}</p>`:""}${a.hook?block("Gancho",`<p>${esc(a.hook)}</p>`,a.hook):""}${a.script?block("Roteiro curto",`<pre>${esc(a.script)}</pre>`,a.script):""}${a.timeline?`<div class="note tl"><b>Timeline:</b> ${esc(a.timeline)}</div>`:""}</article>`}).join(""):`<div class="empty">Nenhum alerta nos últimos dois dias.</div>`);
+function method(){
+  const W=CFG.criteria.reduce((s,c)=>s+c.weight,0);
+  $("#method").innerHTML=`<div class="sec-h"><h2>Método</h2><p>Parâmetros em noticias/config.json</p></div><div class="card">
+  <p class="def" style="margin-top:0">Nota final = média ponderada dos 4 critérios (0 a 10). Resumo de ${CFG.summary_lines} linhas, até ${CFG.items_per_segment} notícias por bloco, mínimo de ${CFG.min_outlets} portais por notícia.</p>
+  ${CFG.criteria.map(c=>`<div class="ag"><b>Peso ${c.weight}</b><span><b>${esc(c.label)}</b> (${Math.round(c.weight/W*100)}% da nota). ${esc(c.how)}</span></div>`).join("")}
+  <div class="ag"><b>Selo</b><span><b>Assimetria de cobertura.</b> ${esc(CFG.asymmetry.rule)}</span></div>
+  <p class="def">Portais monitorados (${CFG.outlets.length}): ${CFG.outlets.map(o=>`${esc(o.name)} <span class="small-n">(${esc(CAMP[o.camp]?.[0]||o.camp)})</span>`).join(", ")}. A classificação por campo editorial segue a percepção corrente e pode ser ajustada no arquivo de configuração.</p></div>`;
 }
-function renderSD(list){
-  const L=(list||[]).slice().sort((a,b)=>(b.done||"").localeCompare(a.done||"")).slice(0,10);
-  $("#sob-demanda").innerHTML=`<div class="sec-h"><h2>Sob demanda</h2><p>Pautas pedidas pelo botão "Virar pauta" da aba Notícias</p></div>`+(L.length?L.map(x=>{const d=new Date(x.done||x.requested);
-    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">Virou pauta · Notícias</span><span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.source?.edition?`<a class="pill neutral" style="text-decoration:none" href="noticias.html#${esc(x.source.edition)}">Notícia de origem ↗</a>`:""}${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i)).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda. Na aba <a href="noticias.html">Notícias</a>, use o botão "Virar pauta" em qualquer notícia.</div>`);
+async function load(id){
+  CUR=id;$("#ed").value=id;const i=EDS.indexOf(id);$("#prev").disabled=i<=0;$("#next").disabled=i>=EDS.length-1;
+  try{ED=await fetch(`noticias/${id}.json?`+Date.now()).then(r=>r.json());ED.id=id;
+    const g=new Date(ED.generated);$("#ed-title").textContent=`Edição das ${id.slice(-3)} · ${label(id).slice(0,5)}`;
+    $("#ed-sub").textContent=`Gerada em ${g.toLocaleDateString("pt-BR")} às ${g.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · ${(ED.items||[]).length} notícias`;
+    $("#updated").textContent=$("#ed-sub").textContent;
+    $("#headline").innerHTML=`<p style="font-size:16px;font-weight:600;margin:0;line-height:1.45">${esc(ED.headline||"")}</p>`;
+    render();history.replaceState(null,"","#"+id)}
+  catch(e){$("#list").innerHTML=`<div class="empty">Não foi possível carregar a edição ${esc(id)}.</div>`}
 }
-async function load(day){
-  CUR=day;$("#day").value=day;const i=DAYS.indexOf(day);$("#prev").disabled=i<=0;$("#next").disabled=i>=DAYS.length-1;
-  try{const [p,q]=await Promise.all([fetch(`pautas/${day}.json?`+Date.now()).then(r=>r.json()),fetch("pautas/quentes.json?"+Date.now()).then(r=>r.ok?r.json():{alerts:[]}).catch(()=>({alerts:[]}))]);
-    const sd=await fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}));
-    renderDay(p);renderHot(q.alerts,day);renderSD(sd.items);history.replaceState(null,"","#"+day)}
-  catch(e){$("#slots").innerHTML=`<div class="empty">Não foi possível carregar a pauta de ${dBR(day)}.</div>`}
-}
-fetch("pautas/index.json?"+Date.now()).then(r=>r.json()).then(ix=>{DAYS=(ix.days||[]).sort();
-  $("#day").innerHTML=DAYS.slice().reverse().map(d=>{const x=new Date(d+"T12:00:00");return`<option value="${d}">${WD[x.getDay()].slice(0,3)} ${dBR(d)}</option>`}).join("");
-  $("#day").onchange=e=>load(e.target.value);$("#prev").onclick=()=>load(DAYS[DAYS.indexOf(CUR)-1]);$("#next").onclick=()=>load(DAYS[DAYS.indexOf(CUR)+1]);
-  const h=location.hash.slice(1);load(DAYS.includes(h)?h:DAYS[DAYS.length-1]);
-}).catch(()=>{$("#updated").textContent="Nenhuma pauta publicada ainda."});
+Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("noticias/index.json?"+Date.now()).then(r=>r.ok?r.json():{editions:[]}).catch(()=>({editions:[]})),fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([c,ix,sd])=>{
+  CFG=c;method();(sd.items||[]).forEach(x=>{if(x.source){DONE[x.source.title]=1;DONE[x.source.item_id]=1}});
+  EDS=(ix.editions||[]).sort();
+  if(!EDS.length){$("#updated").textContent="A primeira edição sai no próximo horário (6h, 12h ou 19h).";$("#list").innerHTML=`<div class="empty">Nenhuma edição publicada ainda.</div>`;return}
+  $("#ed").innerHTML=EDS.slice().reverse().map(e=>`<option value="${e}">${label(e)}</option>`).join("");
+  $("#ed").onchange=e=>load(e.target.value);$("#prev").onclick=()=>load(EDS[EDS.indexOf(CUR)-1]);$("#next").onclick=()=>load(EDS[EDS.indexOf(CUR)+1]);
+  const h=location.hash.slice(1);load(EDS.includes(h)?h:EDS[EDS.length-1]);
+});
 </script>
 </body>
 </html>
