@@ -46,11 +46,16 @@ jobs:
           if [ -n "$IG_TOKEN_NEW" ]; then export IG_TOKEN="$IG_TOKEN_NEW"; fi
           python3 ig_collect.py
 
+      - name: Atualizar painel (só no botão Atualizar / execução manual)
+        if: github.event_name == 'workflow_dispatch'
+        run: python3 build.py --quick
+
       - name: Publicar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add raw/ig_api.json raw/durations.json
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then git add data.json history.json; MSG="Atualização manual do painel"; else MSG="Coleta da API do Instagram"; fi
           if git diff --cached --quiet; then echo "Sem mudanças."; exit 0; fi
-          git commit -m "Coleta da API do Instagram"
+          git commit -m "$MSG"
           for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done

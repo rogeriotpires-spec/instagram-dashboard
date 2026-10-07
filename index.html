@@ -54,7 +54,12 @@ a{color:inherit}
 .hero-stats{display:flex;gap:26px;text-align:right}
 .hero-stats b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .hero-stats span{font-size:12px;opacity:.75}
-.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;opacity:.75}
+.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.hero-meta #updated{opacity:.75}
+.refresh{font:inherit;font-size:12px;font-weight:600;color:#fff;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 12px;cursor:pointer}
+.refresh:hover{background:rgba(255,255,255,.24)}
+.refresh:disabled{opacity:.6;cursor:default}
+#refresh-st{opacity:.9}
 nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
 .nav-in{max-width:1180px;margin:0 auto;padding:10px 16px;display:flex;gap:10px 14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;max-width:100%}
@@ -196,7 +201,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     </div>
     <div class="hero-stats" id="hero-stats"></div>
   </div>
-  <div class="hero-meta" id="updated">Carregando…</div>
+  <div class="hero-meta"><span id="updated">Carregando…</span> <button class="refresh" id="refresh" type="button" title="Busca agora os seguidores e as métricas da conta direto no Instagram">↻ Atualizar agora</button> <span id="refresh-st" role="status"></span></div>
 </header>
 
 <nav>
@@ -820,10 +825,47 @@ Promise.all([fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.
   seg("f-range","range",true);seg("f-type","type");seg("f-imetric","imetric");
   $("#q").oninput=e=>{state.q=e.target.value;table()};$("#t-theme").onchange=e=>{state.theme=e.target.value;table()};$("#csv").onclick=csv;$("#more").onclick=()=>{state.showAll=true;table()};
   const u=new Date(d.updated);
-  $("#updated").textContent=`Última coleta: ${u.toLocaleDateString("pt-BR")} às ${u.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · dados da conta até ${dBR(d.period.end)}`;
+  const hm=x=>x.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+  const au=d.account_updated?new Date(d.account_updated):null;
+  $("#updated").textContent=`Última coleta completa: ${u.toLocaleDateString("pt-BR")} às ${hm(u)} · dados da conta até ${dBR(d.period.end)}`+(au&&au>u?` · seguidores atualizados em ${au.toLocaleDateString("pt-BR")} às ${hm(au)}`:"");
   $("#hero-stats").innerHTML=`<div><b>${full(d.account.followers)}</b><span>seguidores</span></div><div><b>+${full(d.follows_30d.gained-d.follows_30d.lost)}</b><span>saldo em 30 dias</span></div><div><b>${full(d.account.media_count)}</b><span>publicações</span></div>`;
   plan();renderLimits();render();let t;addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(render,150)})
 }).catch(err=>{$("#updated").textContent="Não foi possível carregar os dados agora. Tente recarregar a página.";document.querySelector("main").insertAdjacentHTML("afterbegin",`<div class="empty" style="margin-bottom:20px">Erro ao carregar data.json (${err.message}).</div>`)});
+
+/* ---------- botão Atualizar agora ---------- */
+(()=>{
+  const REPO="rogeriotpires-spec/instagram-dashboard",WF="coleta-instagram.yml";
+  const btn=document.getElementById("refresh"),st=document.getElementById("refresh-st");
+  if(!btn)return;
+  const say=t=>st.textContent=t;
+  let polling=false;
+  const lastRun=()=>fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WF}/runs?per_page=1&event=workflow_dispatch`,{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>j&&j.workflow_runs&&j.workflow_runs[0]).catch(()=>null);
+  const stamp=()=>fetch("data.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>d.account_updated||d.updated).catch(()=>null);
+  async function poll(since){
+    if(polling)return;polling=true;btn.disabled=true;
+    const base=await stamp(),t0=Date.now();
+    say("Aguardando você clicar em \u201cRun workflow\u201d no GitHub…");
+    while(Date.now()-t0<12*60e3){
+      await new Promise(r=>setTimeout(r,15000));
+      const run=await lastRun();
+      if(run&&new Date(run.created_at)>=since){
+        if(run.status!=="completed"){say("Atualizando: buscando os dados no Instagram (2 a 4 minutos)…");continue}
+        if(run.conclusion!=="success"){say("A atualização falhou no GitHub. Tente de novo mais tarde.");break}
+        say("Dados coletados. Publicando no site…");
+        const s=await stamp();
+        if(s&&s!==base){say("Atualizado! Recarregando…");setTimeout(()=>location.reload(),800);return}
+      }
+    }
+    polling=false;btn.disabled=false;
+  }
+  btn.onclick=()=>{
+    const since=new Date(Date.now()-60e3);
+    window.open(`https://github.com/${REPO}/actions/workflows/${WF}`,"_blank","noopener");
+    say("Na página do GitHub, clique em “Run workflow” e confirme no botão verde. Depois volte aqui.");
+    setTimeout(()=>poll(since),8000);
+  };
+  lastRun().then(run=>{if(run&&run.status!=="completed"&&Date.now()-new Date(run.created_at)<15*60e3)poll(new Date(run.created_at))});
+})();
 </script>
 </body>
 </html>

@@ -22,6 +22,9 @@ Arquivos persistentes (não apagar):
                 classificados por palavras-chave da legenda
 
 Uso: python3 build.py   (opcional: --collected 2026-10-07T04:50:00-03:00)
+     python3 build.py --quick   atualização manual (botão do painel): mantém posts e
+                                histórico da última coleta completa e só renova os
+                                dados da conta a partir de raw/ig_api.json
 """
 import json, re, sys, os
 from datetime import datetime, timedelta, timezone
@@ -49,7 +52,10 @@ def num(v):
         try: return float(v)
         except (TypeError, ValueError): return None
 
+QUICK = "--quick" in sys.argv
 collected = None
+if QUICK:
+    collected = datetime.fromisoformat(load(P("data.json"))["updated"])
 if "--collected" in sys.argv: collected = datetime.fromisoformat(sys.argv[sys.argv.index("--collected") + 1])
 collected = collected or datetime.now(BRT).replace(microsecond=0)
 today = collected.date()
@@ -130,7 +136,14 @@ for d in api_days:
 # ---------- conta ----------
 acc = rows("account")[0]
 account = {"username": acc[0], "followers": num(acc[1]), "follows": num(acc[2]), "media_count": num(acc[3])}
-hist["followers"][collected.isoformat()] = account["followers"]
+account_updated = collected.isoformat()
+if QUICK:
+    me = ig.get("me") or {}
+    if me.get("followers_count") is None: sys.exit("erro: raw/ig_api.json sem seguidores; nada atualizado")
+    account.update({"followers": me["followers_count"], "follows": me.get("follows_count"), "media_count": me.get("media_count")})
+    account_updated = ig.get("collected") or datetime.now(BRT).replace(microsecond=0).isoformat()
+else:
+    hist["followers"][collected.isoformat()] = account["followers"]
 
 for r in rows("daily"):
     d = r[0][:10]
@@ -191,6 +204,7 @@ for code, snaps in hist["posts"].items():
 data = {
     "updated": collected.isoformat(),
     "account": account,
+    "account_updated": account_updated,
     "period": {"start": min((p[0][:10] for p in posts), default=None), "end": yesterday.isoformat()},
     "columns": COLS, "posts": posts,
     "themes": THEMES,
