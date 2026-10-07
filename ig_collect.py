@@ -162,9 +162,15 @@ def main():
         reels[code] = rec
     # ---- stories ativos (a API só mostra as últimas 24 horas; o histórico fica em history.json) ----
     stories = {}
-    page = safe("stories", lambda: get("me/stories", fields="id,media_type,timestamp,permalink"))
+    page = safe("stories", lambda: get("me/stories", fields="id,media_type,timestamp,permalink", limit=100))
+    active = []
+    while page:
+        active += page.get("data", [])
+        nxt = page.get("paging", {}).get("next")
+        if not nxt or len(active) > 300: break
+        page = safe("stories page", lambda: get(nxt))
     SM = ["views", "reach", "replies", "shares", "total_interactions", "follows", "profile_visits"]
-    for st in (page or {}).get("data", []):
+    for st in active:
         rec = {"ts": st.get("timestamp"), "type": st.get("media_type")}
         ins = safe(f"story {st['id']}", lambda: get(f"{st['id']}/insights", metric=",".join(SM)))
         if ins is None:
