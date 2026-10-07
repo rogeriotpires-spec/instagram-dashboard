@@ -200,6 +200,9 @@ days = sorted(hist["daily"])[-180:]
 daily = []
 for d in days:
     reach, views, eng, rep, repl, newf = hist["daily"][d]
+    _api = hist.get("daily_api", {}).get(d, {})
+    if newf is None and _api.get("follows") is not None:
+        newf = _api["follows"]  # a API do Instagram processa o dia antes do Supermetrics
     # total ao fim do dia d ≈ coleta da manhã de d+1
     nxt = (datetime.fromisoformat(d) + timedelta(days=1)).date().isoformat()
     total = fol_by_day.get(nxt)

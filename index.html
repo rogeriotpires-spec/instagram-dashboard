@@ -501,6 +501,16 @@ function deltaHTML(cur,prev,label){if(cur==null||prev==null||!prev)return`<div c
 function kpi(l,v,per,delta,def){return`<div class="card kpi"><div class="label">${l}</div><div class="val">${v}</div>${delta||""}<div class="note">${per}</div>${def?`<div class="def">${def}</div>`:""}</div>`}
 
 
+
+/* saldo de seguidores de hoje, em tempo quase real: total agora menos o total no fim do último dia */
+function todayNet(){
+  const base=[...DAILY].reverse().find(d=>d.followers_total!=null);
+  const au=D.account_updated?new Date(D.account_updated):null;
+  if(!base||!au||D.account.followers==null)return"";
+  const net=D.account.followers-base.followers_total;
+  const hm=au.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+  return`<br><b style="color:var(--text)">Hoje: ${net>=0?"+":""}${full(net)}</b> no saldo, da coleta das 5h até ${hm}`;
+}
 /* ---------- stories (últimas 24 horas) ---------- */
 function storiesCard(){
   const cols=D.stories_columns||[],S=(D.stories||[]).map(r=>Object.fromEntries(cols.map((c,i)=>[c,r[i]])));
@@ -532,7 +542,7 @@ function renderDaily(){
     kpi("Alcance",full(last.reach),`Dia ${dBR(last.date)} · contas únicas`,cmp(last.reach,avg("reach"))),
     kpi("Views recebidas",fmt(last.views),`Dia ${dBR(last.date)}`,cmp(last.views,avg("views"))),
     kpi("Contas com interação",fmt(last.accounts_engaged),`Dia ${dBR(last.date)}`,cmp(last.accounts_engaged,avg("accounts_engaged"))),
-    kpi("Novos seguidores",lastF?full(lastF.new_followers):ND,lastF?`Dia ${dBR(lastF.date)} · ganho bruto${lastF.date!==last.date?" (último dia processado)":""}`:"",lastF?cmp(lastF.new_followers,prevF.length?sum(prevF)/prevF.length:null):""),
+    kpi("Novos seguidores",lastF?full(lastF.new_followers):ND,(lastF?`Dia ${dBR(lastF.date)} · ganho bruto${lastF.date!==last.date?" (último dia processado)":""}`:"")+todayNet(),lastF?cmp(lastF.new_followers,prevF.length?sum(prevF)/prevF.length:null):""),
     kpi("Publicações",String(pubLast.length),`Dia ${dBR(last.date)}`,`<div class="delta na">${["I","R","C"].map(t=>{const n=pubLast.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t][n>1?"name":"one"].toLowerCase()}`:""}).filter(Boolean).join(" · ")||"nenhuma"}</div>`)
     ,storiesCard()
   ].join("");
