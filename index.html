@@ -86,6 +86,9 @@ svg text{font:11px Inter,sans-serif;fill:var(--muted)}
 .tip{position:fixed;pointer-events:none;background:var(--text);color:var(--surface);font-size:12px;padding:8px 10px;border-radius:8px;opacity:0;transition:opacity .1s;z-index:50;max-width:280px;line-height:1.45}
 .callout{font-size:13px;color:var(--text-2);border-top:1px solid var(--border);padding-top:10px;margin-top:10px}
 .callout b{color:var(--text)}
+.pick{margin-top:10px;padding:12px;border:1px dashed var(--border);border-radius:12px;font-size:13px;color:var(--text-2)}
+.pick.on{border-style:solid;background:var(--surface-2);color:var(--text)}
+.pick .btn{display:inline-block;margin-top:8px;background:var(--text);color:var(--surface);text-decoration:none;font-weight:600;padding:7px 12px;border-radius:9px}
 
 /* split bar */
 .split{display:flex;height:14px;border-radius:5px;overflow:hidden;gap:2px;margin:12px 0 8px}
@@ -241,6 +244,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
         <h3>Taxa de pulo x visualizações</h3>
         <p class="desc">Cada ponto é um Reel. Taxa de pulo = quem passou adiante nos primeiros 3 segundos. Escala vertical logarítmica</p>
         <div id="c-scatter"></div>
+        <div class="pick" id="scatter-pick">Toque em uma bolinha para ver o Reel. No computador, clique para abrir direto no Instagram.</div>
       </div>
       <div class="card">
         <h3>O gancho decide o alcance</h3>
@@ -336,7 +340,9 @@ const NS="http://www.w3.org/2000/svg";
 function el(n,a={},p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
 function nice(v){if(v<=0)return 1;const p=10**Math.floor(Math.log10(v)),f=v/p;return (f<=1?1:f<=2?2:f<=2.5?2.5:f<=5?5:10)*p}
 function barPath(x,y,w,h,r=4){if(h<=0)return"";r=Math.min(r,w/2,h);return`M${x},${y+h}V${y+r}Q${x},${y} ${x+r},${y}H${x+w-r}Q${x+w},${y} ${x+w},${y+r}V${y+h}Z`}
-function hit(svg,attrs,fn){const r=el("rect",{...attrs,fill:"transparent"},svg);r.addEventListener("pointermove",e=>showTip(e,fn()));r.addEventListener("pointerleave",hideTip);return r}
+function hit(svg,attrs,fn){const r=el("rect",{...attrs,fill:"transparent"},svg);r.addEventListener("pointermove",e=>showTip(e,fn()));r.addEventListener("pointerdown",e=>showTip(e,fn()));r.addEventListener("pointerleave",e=>{if(e.pointerType!=="touch")hideTip()});return r}
+addEventListener("scroll",hideTip,{passive:true});
+document.addEventListener("pointerdown",e=>{if(!e.target.closest("svg,.hb"))hideTip()});
 function yAxis(svg,m,W,ih,raw,f=fmt){const step=nice(raw/4),n=Math.max(1,Math.ceil(raw/step)),max=step*n;
   for(let k=0;k<=n;k++){const y=m.t+ih-ih*k/n;el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:k?"var(--grid)":"var(--border)"},svg);const t=el("text",{x:m.l-8,y:y+4,"text-anchor":"end"},svg);t.textContent=f(step*k)}
   return max}
@@ -375,7 +381,7 @@ function line(host,{labels,values,color,tipFn}){
   ov.addEventListener("pointerleave",()=>{vl.setAttribute("opacity",0);dot.setAttribute("opacity",0);hideTip()});
 }
 
-function scatter(host,{pts,tipFn,xLabel}){
+function scatter(host,{pts,tipFn,xLabel,href,onPick}){
   host.innerHTML="";const W=host.clientWidth||600,H=Math.max(220,Math.min(280,W*.55)),m={t:10,r:10,b:36,l:46};
   const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ih=H-m.t-m.b;
   const xs=pts.map(p=>p.x),x0=Math.floor(Math.min(...xs,20)/10)*10,x1=Math.ceil(Math.max(...xs,80)/10)*10;
@@ -386,8 +392,13 @@ function scatter(host,{pts,tipFn,xLabel}){
   const lt=el("text",{x:m.l+iw/2,y:H-2,"text-anchor":"middle"},svg);lt.textContent=xLabel;
   const med=median(xs);el("line",{x1:X(med),x2:X(med),y1:m.t,y2:m.t+ih,stroke:"var(--muted)","stroke-dasharray":"3 3"},svg);
   const mt=el("text",{x:X(med)+4,y:m.t+10},svg);mt.textContent="mediana "+pct(med/100,0);
-  pts.forEach((p,i)=>{el("circle",{cx:X(p.x),cy:Y(p.y),r:5,fill:"var(--s2)",stroke:"var(--surface)","stroke-width":1.5,opacity:.85},svg);
-    const c=el("circle",{cx:X(p.x),cy:Y(p.y),r:11,fill:"transparent"},svg);c.addEventListener("pointermove",e=>showTip(e,tipFn(i)));c.addEventListener("pointerleave",hideTip)});
+  let picked=-1;const dots=[];
+  pts.forEach((p,i)=>{const a=el("a",{href:href(i),target:"_blank",rel:"noopener",style:"cursor:pointer"},svg);
+    dots.push(el("circle",{cx:X(p.x),cy:Y(p.y),r:5,fill:"var(--s2)",stroke:"var(--surface)","stroke-width":1.5,opacity:.85},a));
+    const c=el("circle",{cx:X(p.x),cy:Y(p.y),r:11,fill:"transparent"},a);
+    c.addEventListener("pointermove",e=>{if(e.pointerType!=="touch")showTip(e,tipFn(i))});c.addEventListener("pointerleave",hideTip);
+    a.addEventListener("click",e=>{if(picked!==i&&matchMedia("(hover: none)").matches){e.preventDefault();}
+      dots.forEach((d,k)=>{d.setAttribute("r",k===i?8:5);d.setAttribute("stroke",k===i?"var(--text)":"var(--surface)")});picked=i;onPick&&onPick(i)})});
 }
 
 function hbars(host,items,{stack}={}){
@@ -396,7 +407,7 @@ function hbars(host,items,{stack}={}){
     const bar=stack?`<div style="display:flex;gap:2px;height:12px;width:${Math.max(1,tot/max*100)}%">${i.parts.map(p=>`<div style="flex:${p.v} 0 0;background:${p.c};border-radius:${p===i.parts[i.parts.length-1]?"0 4px 4px 0":"0"}"></div>`).join("")}</div>`
       :`<div style="height:12px;width:${Math.max(1,i.v/max*100)}%;background:${i.c};border-radius:0 4px 4px 0"></div>`;
     return `<div class="hb" data-k="${k}" style="margin:8px 0 12px;cursor:default"><div style="display:flex;justify-content:space-between;gap:10px;font-size:13px;margin-bottom:5px"><span style="color:var(--text-2)">${i.label}</span><b style="font-variant-numeric:tabular-nums">${i.text}</b></div><div style="background:var(--grid);border-radius:4px">${bar}</div></div>`}).join("");
-  host.querySelectorAll(".hb").forEach(n=>{const it=items[+n.dataset.k];if(!it.tip)return;n.addEventListener("pointermove",e=>showTip(e,it.tip));n.addEventListener("pointerleave",hideTip)});
+  host.querySelectorAll(".hb").forEach(n=>{const it=items[+n.dataset.k];if(!it.tip)return;n.addEventListener("pointermove",e=>showTip(e,it.tip));n.addEventListener("pointerdown",e=>showTip(e,it.tip));n.addEventListener("pointerleave",e=>{if(e.pointerType!=="touch")hideTip()})});
 }
 
 let D,ALL,state={range:90,type:"all",sort:"views",dir:-1,showAll:false};
@@ -464,7 +475,10 @@ function skipBuckets(Rl){return[["Abaixo de 35%",0,35],["35% a 45%",35,45],["Aci
 function renderReels(R){
   const Rl=R.filter(p=>p.type==="R"&&p.skip!=null);
   if(!Rl.length){["#c-scatter","#c-skip","#c-watch","#best-reels"].forEach(s=>$(s).innerHTML=`<p class="desc">Sem Reels no filtro atual.</p>`);$("#skip-callout").innerHTML="";return}
+  const pick=$("#scatter-pick");pick.className="pick";pick.textContent="Toque em uma bolinha para ver o Reel. No computador, clique para abrir direto no Instagram.";
   scatter($("#c-scatter"),{pts:Rl.map(p=>({x:p.skip,y:p.views})),xLabel:"taxa de pulo",
+    href:i=>`https://www.instagram.com/reel/${Rl[i].code}/`,
+    onPick:i=>{const p=Rl[i];pick.className="pick on";pick.innerHTML=`<b>${p.title}</b><br>${full(p.views)} views · pulo ${pct(p.skip/100)} · assistido ${secs(p.watch)} · ${p.ts.slice(8,10)}/${p.ts.slice(5,7)}<br><a class="btn" href="https://www.instagram.com/reel/${p.code}/" target="_blank" rel="noopener">Abrir no Instagram ↗</a>`},
     tipFn:i=>{const p=Rl[i];return`<b>${p.title}</b><br>${full(p.views)} views<br>Pulo: ${pct(p.skip/100)} · Assistido: ${secs(p.watch)}`}});
   const sb=skipBuckets(Rl);
   hbars($("#c-skip"),sb.map((b,i)=>({label:`${b.l} (${b.n} Reels)`,v:b.v,text:full(b.v)+" views",c:i===0?"var(--s3)":"var(--s2)"})));
