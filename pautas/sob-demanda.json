@@ -2,6 +2,85 @@
   "items": [
     {
       "requested": "2026-10-07",
+      "done": "2026-10-07T19:11:23-03:00",
+      "issue": 3,
+      "slot_hint": "Imagem hoje à noite ou às 7h de quinta (8); reel às 19h de quinta, com a operação ainda em alta.",
+      "source": {
+        "edition": "2026-10-07-19h",
+        "item_id": "operacao-magen-tcp",
+        "title": "PF prende policiais e ex-policiais suspeitos de vender fuzis ao TCP no Rio"
+      },
+      "options": [
+        {
+          "type": "i",
+          "title": "Quem vendia os fuzis do TCP usava farda?",
+          "tone": "contundente",
+          "fact": "A PF e o MPRJ deflagraram em 7/10 a Operação Magen, com 7 mandados de prisão preventiva e 18 de busca no Rio e em outras cidades. Os alvos incluem um policial civil, um policial militar e ex-policiais, suspeitos de vender fuzis, pistolas e munições ao TCP, do Complexo de Israel, e de usar sistemas restritos para repassar à facção dados de mandados e operações. Há indícios de que forneceram dez fuzis AR-15 à principal liderança. Segundo a investigação, mais de R$ 100 milhões foram movimentados em quatro anos por empresas de fachada. Cinco pessoas haviam sido presas, e Álvaro Malaquias Santa Rosa, o Peixão, segue foragido. O Ministério Público denunciou os alvos por organização criminosa armada, comércio ilegal de armas, violação de sigilo, agiotagem e lavagem de dinheiro.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-investiga-ligacao-de-policiais-com-faccao-criminosa"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-mira-tcp-por-venda-de-fuzis-e-lavagem-de-mais-de-r-100-milhoes-no-rj/"
+            }
+          ],
+          "art_text": [
+            "Operação Magen",
+            "Policiais suspeitos de armar o TCP",
+            "10 fuzis AR-15",
+            "R$ 100 milhões em 4 anos"
+          ],
+          "faces": "Nenhum rosto. Visual de operação policial, sem identificar ninguém.",
+          "prompt": "Crie uma imagem vertical 4:5 (1080x1350) estilo alerta policial. Fundo preto com faixa diagonal amarela e preta. No topo, em branco: \"Operação Magen\". No centro, em amarelo grande: \"Policiais suspeitos de armar o TCP\". Abaixo, dois quadros vermelhos: \"10 fuzis AR-15\" e \"R$ 100 milhões em 4 anos\". Tipografia sem serifa e pesada, alto contraste, sem logos, sem rostos e sem pessoas.",
+          "caption": "Segundo a PF, policiais e ex-policiais são suspeitos de vender fuzis ao TCP e avisar a facção sobre operações. Quem deveria proteger o cidadão estaria armando o crime? Comenta.",
+          "risk": "médio",
+          "risk_note": "Os alvos são suspeitos e foram denunciados, não condenados: use sempre 'suspeitos' e 'segundo a PF'. Nenhum nome de policial foi divulgado, não cite nomes. Peixão é apontado como liderança do TCP e está foragido.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem armou o crime no Rio: o caminho dos fuzis e a venda de informação policial a facções."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Fuzil, vazamento e R$ 100 milhões: o esquema que a PF diz ter achado",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "A PF e o MPRJ deflagraram em 7/10 a Operação Magen, com 7 mandados de prisão preventiva e 18 de busca no Rio e em outras cidades. Os alvos incluem um policial civil, um policial militar e ex-policiais, suspeitos de vender fuzis, pistolas e munições ao TCP, do Complexo de Israel, e de usar sistemas restritos para repassar à facção dados de mandados e operações. Há indícios de que forneceram dez fuzis AR-15 à principal liderança. Segundo a investigação, mais de R$ 100 milhões foram movimentados em quatro anos por empresas de fachada. Cinco pessoas haviam sido presas, e Álvaro Malaquias Santa Rosa, o Peixão, segue foragido. O Ministério Público denunciou os alvos por organização criminosa armada, comércio ilegal de armas, violação de sigilo, agiotagem e lavagem de dinheiro.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-investiga-ligacao-de-policiais-com-faccao-criminosa"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-mira-tcp-por-venda-de-fuzis-e-lavagem-de-mais-de-r-100-milhoes-no-rj/"
+            }
+          ],
+          "hooks": [
+            "Policiais suspeitos de vender fuzil para o TCP. Sim, você ouviu direito.",
+            "A PF diz que quem avisava a facção sobre operações era policial."
+          ],
+          "script": "A Polícia Federal deflagrou nesta quarta a Operação Magen, com sete mandados de prisão e dezoito de busca. Os alvos são um policial civil, um militar e ex-policiais, suspeitos de vender fuzis, pistolas e munições ao Terceiro Comando Puro. Segundo a investigação, dez fuzis AR-15 chegaram à liderança da facção no Complexo de Israel. Eles também teriam usado sistemas restritos para avisar criminosos sobre mandados e operações. E movimentado mais de cem milhões de reais em quatro anos. São suspeitos e foram denunciados, não condenados. Mas a pergunta fica: como a facção chegou tão armada e tão bem informada? Comenta o que você pensa.",
+          "screen_text": [
+            "Operação Magen",
+            "10 fuzis AR-15 ao TCP",
+            "R$ 100 milhões em 4 anos",
+            "Suspeitos, não condenados"
+          ],
+          "caption": "Segundo a PF, policiais e ex-policiais são suspeitos de armar o TCP e vazar operações. Como a facção chegou tão armada? Comenta.",
+          "risk": "médio",
+          "risk_note": "Os alvos são suspeitos e foram denunciados, não condenados: use sempre 'suspeitos' e 'segundo a PF'. Nenhum nome de policial foi divulgado, não cite nomes. Peixão é apontado como liderança do TCP e está foragido.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem armou o crime no Rio: o caminho dos fuzis e a venda de informação policial a facções."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-07",
       "done": "2026-10-07T19:08:00-03:00",
       "issue": 2,
       "slot_hint": "Imagem às 7h de quinta (8) e reel às 19h, perto da sessão de discussão das 14h; carrossel no fim de semana.",
