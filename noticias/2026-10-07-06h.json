@@ -1,0 +1,737 @@
+{
+ "generated": "2026-10-07T04:48:32-03:00",
+ "headline": "O 2º turno se reorganiza: União Brasil, PP e Caiado fecham com Flávio, o Senado abre a discussão da PEC da escala 6x1, o TSE decide na quinta se o Rio terá 2º turno e o dólar fecha abaixo de R$ 5.",
+ "top": [
+  "dolar-abaixo-5",
+  "garotinho-tse-governo-rj",
+  "apoio-centrao-flavio",
+  "pec-6x1-senado",
+  "gilmar-arquiva-gaspar"
+ ],
+ "items": [
+  {
+   "id": "apoio-centrao-flavio",
+   "segment": "politica",
+   "title": "União Brasil, PP e Caiado declaram apoio a Flávio Bolsonaro no 2º turno",
+   "summary": "A federação União Progressista, formada por União Brasil e PP, oficializou nesta terça (6) o apoio a Flávio Bolsonaro no 2º turno contra Lula, depois de ter ficado neutra no 1º turno. O anúncio foi feito por Tereza Cristina ao lado de Antonio Rueda, Ciro Nogueira e Arthur Lira, horas depois de Ronaldo Caiado, 5º colocado com cerca de 2,6 milhões de votos (2,18%), declarar apoio em evento em Goiânia com Flávio e Tarcísio de Freitas. Caiado disse que assinaria a anistia de Jair Bolsonaro e afirmou que \"Lula roubou o futuro do Brasil\", enquanto o PSD de Gilberto Kassab segue neutro e com diretórios liberados. Na esquerda, a CartaCapital destacou que a aliança se apoia na defesa da anistia aos condenados pelo 8 de Janeiro e não em propostas. O Novo anuncia formalmente seu apoio nesta quarta (7), e Tarcísio negocia a adesão do Republicanos.",
+   "scores": {
+    "cobertura": 9,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 9.1,
+   "outlets": [
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/federacao-uniao-progressista-anuncia-apoio-a-flavio/",
+     "camp": "direita",
+     "position": "manchete"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/uniao-progressista-oficializa-apoio-a-flavio-bolsonaro-no-2o-turno",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/caiado-promete-maior-vitoria-a-flavio-em-goias-no-2o-turno/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/caiado-oficializa-apoio-a-flavio-no-segundo-turno-em-evento-em-goiania/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/uniao-brasil-e-pp-anunciam-apoio-a-flavio-bolsonaro-no-segundo-turno/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/federacao-uniao-brasil-e-pp-declara-apoio-a-flavio-bolsonaro/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/politica/pp-e-uniao-brasil-anunciam-apoio-a-flavio-bolsonaro-no-2o-turno/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/pp-e-uniao-brasil-anunciam-apoio-a-flavio-bolsonaro-no-segundo-turno-2/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "pec-6x1-senado",
+   "segment": "politica",
+   "title": "Senado abre discussão da PEC do fim da escala 6x1 sob disputa de quórum",
+   "summary": "O Senado iniciou nesta terça (6) a primeira das cinco sessões de discussão da PEC que acaba com a escala 6x1, prevê dois dias de descanso semanal e reduz a jornada máxima de 44 para 40 horas. Davi Alcolumbre marcou novas sessões para 7 e 8 de outubro, projetou a votação em 1º turno para 21 de outubro e disse que vai cumprir o rito \"sem atropelo\", com os dois turnos antes da eleição de 25 de outubro. Jaques Wagner acusou aliados de Flávio Bolsonaro de faltarem para impedir o quórum, com 34 a 35 senadores registrados quando eram necessários 41, e Lula disse em live que \"o PL vai demonstrar se tem coragem ou não de votar a favor\". Do lado da oposição, Rogério Marinho defende que a redução da jornada venha acompanhada de redução de salário mediante negociação. A PEC precisa de 49 votos em cada turno de votação no plenário.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 10,
+    "persistencia": 10,
+    "peso_voce": 10
+   },
+   "score": 8.7,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/alcolumbre-sinaliza-votacao-da-pec-do-fim-da-6x1-na-proxima-semana/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/politica/alcolumbre-preve-1a-votacao-da-pec-do-fim-da-escala-6x1-na-semana-que-vem/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasilia/escala-6x1-coloca-direita-em-saia-justa-no-senado/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": true,
+    "note": "CartaCapital e Brasil 247 deram a sessão e a acusação de esvaziamento do quórum por aliados de Flávio; Revista Oeste, Gazeta do Povo e Jovem Pan não publicaram sobre a sessão de terça nesta janela."
+   }
+  },
+  {
+   "id": "gilmar-arquiva-gaspar",
+   "segment": "politica",
+   "title": "Gilmar Mendes arquiva pedido de investigação contra Alfredo Gaspar, vice de Flávio",
+   "summary": "O ministro Gilmar Mendes, do STF, mandou arquivar o pedido de investigação contra o deputado Alfredo Gaspar, candidato a vice na chapa de Flávio Bolsonaro, decisão divulgada nesta terça (6). Gilmar acolheu o entendimento da PGR de que havia elementos insuficientes para abrir inquérito sobre a acusação de estupro de vulnerável, que envolvia uma menina de 13 anos e uma suposta oferta de R$ 70 mil pelo silêncio. O pedido havia sido apresentado em março pelo deputado Lindbergh Farias (PT) e pela senadora Soraya Thronicke, e Gaspar, que sempre negou a acusação, fez exame de DNA em abril. Gaspar reagiu falando em \"injustiça sem limites\" e cobrou punição dos acusadores, enquanto portais de direita ressaltaram que o arquivamento saiu seis meses depois e só após o 1º turno. Com a decisão, o caso deixa de tramitar no Supremo.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.9,
+   "outlets": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/andreza-matais/gilmar-mendes-manda-arquivar-investigacao-de-estupro-contra-vice-de-flavio",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/justica/gilmar-mendes-manda-arquivar-pedido-de-investigacao-contra-vice-de-flavio-por-estupro-de-vulneravel/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/stf-arquiva-investigacao-contra-vice-de-flavio-bolsonaro/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/gilmar-manda-arquivar-investigacao-contra-gaspar-vice-de-flavio/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Diário do Poder",
+     "url": "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/gilmar-arquiva-acusacao-falsa-contra-vice-de-flavio-apos-1o-turno-e-6-meses-do-caso-no-stf",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "lula-reorganiza-campanha",
+   "segment": "politica",
+   "title": "Lula reorganiza campanha do 2º turno com Camilo Santana na coordenação",
+   "summary": "Depois de terminar o 1º turno atrás de Flávio Bolsonaro, por 45,16% a 47,03%, Lula deu a Camilo Santana a coordenação geral da campanha ao lado de Edinho Silva e ampliou o papel de Aloizio Mercadante nos discursos e na preparação para debates. Segundo o Metrópoles, aliados tentam reduzir a influência do ministro Sidônio Palmeira na comunicação. A nova estratégia, segundo o Poder360, é falar \"menos de CNPJ e mais de CPF\", citando Flávio pelo nome e os direitos que poderiam ser perdidos. Nesta quarta (7), Lula se reúne com deputados jovens eleitos do campo da esquerda, com foco no Nordeste, na abstenção e em Minas Gerais. Os três debates do 2º turno estão confirmados: Record em 11 de outubro, Band em 18 e Globo em 23.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.9,
+   "outlets": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/igor-gadelha/lula-da-mais-poderes-a-camilo-santana-e-mercadante-na-campanha-do-2o-turno",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/mirando-2o-turno-lula-endurece-discurso-contra-flavio/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/lula-reforca-comando-da-campanha-com-camilo-santana-e-amplia-papel-de-mercadante/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/lula-e-flavio-terao-tres-debates-no-2o-turno/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/vai-ter-debate-no-2o-turno-confira-possiveis-encontros-entre-flavio-e-lula/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "oea-relatorio-eleicao",
+   "segment": "politica",
+   "title": "OEA elogia apuração, mas alerta para protagonismo judicial e desinformação",
+   "summary": "A missão de observação da OEA, chefiada por José Miguel Insulza e com 91 observadores de 23 nacionalidades, divulgou nesta terça (6) o relatório preliminar sobre o 1º turno. O texto elogia a rapidez da apuração e informa que a instabilidade na totalização entre 19h06 e 20h06 não afetou a contagem dos votos. A missão relatou queixas de \"ativismo ou protagonismo judicial\" de ministros do STF e do TSE, citou o caso de Deltan Dallagnol, que teve o registro cassado e restabelecido no dia da votação, e pediu \"máxima segurança jurídica\" no 2º turno. O relatório também aponta desinformação em massa e um \"ativismo político internacional\" que chegou a insultos contra uma candidatura, sem nomear autores, e o presidente do TSE, Nunes Marques, disse não ver indícios de interferência estrangeira. A missão volta ao país para acompanhar o 2º turno de 25 de outubro.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 7.7,
+   "outlets": [
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/oea-alerta-para-ativismo-judicial-e-cobra-seguranca-no-2o-turno/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/oea-aponta-interferencia-externa-e-desinformacao-na-eleicao-brasileira/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/oea-elogia-processo-eleitoral-do-brasil-mas-faz-alertas-para-o-2o-turno",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/oea-pede-maxima-seguranca-juridica-para-campanhas-no-segundo-turno-das-eleicoes-no-brasil/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Diário do Poder",
+     "url": "https://diariodopoder.com.br/politica/e02-politica/oea-diz-que-decisoes-de-stf-e-tse-geraram-incerteza-na-campanha",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/oea-aponta-ativismo-politico-internacional-na-eleicao-brasileira/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "dolar-abaixo-5",
+   "segment": "economia",
+   "title": "Dólar fecha abaixo de R$ 5 pela primeira vez desde maio; Ibovespa realiza lucros",
+   "summary": "O dólar à vista caiu 0,55% nesta terça (6) e fechou a R$ 4,97, o menor valor desde 12 de maio, no segundo pregão depois do 1º turno. O Ibovespa recuou 0,52%, a 205.835 pontos, em realização de lucros depois de ter subido 7,70% na segunda e batido a máxima histórica de 209.522 pontos. Os juros futuros também caíram, e analistas atribuem o movimento à expectativa de ajuste fiscal num eventual governo Flávio Bolsonaro, que lidera a disputa. Segundo a Agência Brasil, o dólar acumula queda de 9,37% no ano e a Bolsa sobe 27,75%, e a CNN registra que o Itaú BBA projeta o índice em 220 mil pontos no curto prazo. Analistas ouvidos pela CNN ponderam que a sustentação da alta depende de sinais concretos na área fiscal até o 2º turno.",
+   "scores": {
+    "cobertura": 9,
+    "destaque": 10,
+    "persistencia": 10,
+    "peso_voce": 10
+   },
+   "score": 9.7,
+   "outlets": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-06102026/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-outubro-2026/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio",
+     "camp": "estatal",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-economia/dolar-cai-051-e-fecha-a-r-4976-ibovespa-recua-053/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/dolar-nesta-terca",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/economia/um-dia-depois-do-flavio-day-dolar-cai-abaixo-de-r-5-e-bolsa-opera-estavel/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/bolsa-dolar-seguem-otimismo-segundo-dia-apos-lideranca-flavio/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/economia/dolar-segue-em-queda-apos-1-turno-das-eleicoes/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "balanca-comercial-setembro",
+   "segment": "economia",
+   "title": "Balança tem superávit de US$ 7,7 bilhões em setembro e governo reduz projeção do ano",
+   "summary": "A balança comercial registrou superávit de US$ 7,74 bilhões em setembro, informou nesta terça (6) o Ministério do Desenvolvimento, Indústria, Comércio e Serviços. As exportações somaram US$ 34,42 bilhões, alta de 12,9% sobre setembro de 2025, com recorde de vendas de petróleo, e as importações caíram 2,4%, para US$ 26,68 bilhões. Mesmo com o resultado forte, o governo reduziu a projeção de superávit de 2026 de US$ 90 bilhões para US$ 84,4 bilhões, por causa da queda esperada no preço do petróleo. As exportações para a União Europeia subiram 60,1%, as vendas para a Argentina caíram 25,2% e a exportação de carne para a China despencou 93,5% depois que o Brasil esgotou a cota. Se confirmada, a projeção será o segundo maior saldo da história, atrás dos US$ 98,9 bilhões de 2023.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 6.8,
+   "outlets": [
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-comercial-de-2026-cai-para-us-844-bilhoes",
+     "camp": "estatal",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/balanca-comercial-registra-superavit-de-us-77-bilhoes-em-setembro/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-economia/superavit-da-balanca-comercial-sobe-146-em-setembro-a-us-77-bi/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/balanca-comercial-tem-superavit-de-us-77-bilhoes-em-setembro",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/exportacoes-brasileiras-para-ue-sobem-601-em-setembro-vendas-para-argentina-caem/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/economia/governo-reduz-a-us-844-bi-projecao-de-superavit-comercial-em-2026-apesar-de-dado-forte-em-setembro/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "banco-mundial-pib",
+   "segment": "economia",
+   "title": "Banco Mundial eleva previsão de crescimento do Brasil em 2026 para 2,1%",
+   "summary": "O Banco Mundial elevou nesta terça (6) a previsão de crescimento do PIB brasileiro em 2026 de 1,9% para 2,1%. Para 2027, a estimativa caiu de 2,0% para 1,7%, e para 2028 subiu de 2,2% para 2,3%. Segundo o relatório, as condições monetárias apertadas, com juros altos, pesam sobre a demanda doméstica. O mercado de trabalho aquecido aparece como o principal fator que sustenta parte do crescimento neste ano. A revisão sai em meio à queda dos juros futuros após o 1º turno, que reabriu no mercado a discussão sobre o ritmo de cortes da Selic.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 3.9,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/banco-mundial-eleva-previsao-de-crescimento-do-brasil-em-2026-de-19-para-21/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/banco-mundial-eleva-previsao-de-crescimento-do-brasil-para-21-em-2026",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "trump-ira",
+   "segment": "internacional",
+   "title": "Trump volta a ameaçar o Irã e é criticado por fala sobre cidades da Califórnia",
+   "summary": "Donald Trump disse nesta terça (6), em comício em Maryland, que \"ninguém sabe quem está governando\" o Irã e que em breve todos vão descobrir como os Estados Unidos vão resolver a questão, porque \"ainda precisamos terminar a guerra\". A declaração veio um dia depois de ele afirmar, em Nebraska, que se o Irã destruísse Los Angeles e San Diego seria \"um pequeno preço a se pagar\". O governador Gavin Newsom chamou Trump de \"desequilibrado e perigoso\", a prefeita de Los Angeles, Karen Bass, disse que a fala pode comprometer a segurança da cidade e o republicano Jim Desmond discordou publicamente. A Casa Branca, pelo porta-voz Steven Cheung, afirmou que a declaração era hipotética. Estados Unidos e Irã estão em guerra desde fevereiro, o Congresso votou em setembro para limitar os poderes de guerra do presidente e as eleições de meio de mandato são em 3 de novembro.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 6.2,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/trump-diz-que-ninguem-sabe-quem-esta-governando-o-ira/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/trump-diz-que-ira-poderia-destruir-cidades-da-california-pequeno-preco",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/ira-destruir-cidades-na-california-e-preco-pequeno-diz-trump/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/democratas-reagem-apos-trump-dizer-ira-destruir-cidades-california-preco-pequeno-pagar/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "ex-chefe-bnd-preso",
+   "segment": "internacional",
+   "title": "Ex-chefe do serviço secreto alemão é preso por suspeita de espionagem e traição",
+   "summary": "August Hanning, que chefiou o serviço de inteligência alemão BND de 1998 a 2005, foi preso nesta terça (6) por suspeita de espionagem e traição. A Procuradoria Federal da Alemanha aponta forte suspeita de espionagem com traição, obtenção de segredos de Estado e tentativa de traição. Também foi preso um ex-chefe de gabinete identificado como Manfred D., que segundo a CNN teria repassado cerca de 2.000 documentos sigilosos. A revista Der Spiegel informou que os investigadores examinam uma possível ligação com o Azerbaijão, e a Procuradoria não comentou. O caso é tratado como um dos maiores escândalos de inteligência do país desde a Guerra Fria.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 4.6,
+   "outlets": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/suspeito-de-espionagem-e-traicao-ex-chefe-da-inteligencia-alema-e-preso",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/ex-chefe-da-inteligencia-alema-e-preso-por-espionagem-e-traicao/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/ex-chefe-da-espionagem-alema-e-preso-sob-suspeita-de-tentativa-de-traicao/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "iemen-ofensiva",
+   "segment": "internacional",
+   "title": "Ofensiva no Iêmen avança e Arábia Saudita, Turquia e Paquistão ativam pacto de defesa",
+   "summary": "Forças do governo do Iêmen, com apoio saudita, anunciaram a retomada do porto de Mokha e avançam em direção ao estreito de Bab el-Mandeb. O porta-voz do Ministério da Saúde controlado pelos houthis disse à CNN que a ofensiva matou 83 civis e feriu 146, números que a emissora não conseguiu verificar. Em Riad, Arábia Saudita, Turquia e Paquistão ativaram o chamado pacto de defesa de Meca, assinado em agosto, e se comprometeram a enviar forças ao território saudita. Os houthis negam ter atacado Meca e Medina. A região de Bab el-Mandeb é uma das principais rotas do comércio marítimo mundial.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 3
+   },
+   "score": 4.5,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/ofensiva-do-governo-do-iemen-matou-e-feriu-centenas-de-pessoas-dizem-houthis/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/mundo/arabia-saudita-turquia-e-paquistao-ativam-pacto-de-defesa-de-meca/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "navio-afundado-bulgaria",
+   "segment": "internacional",
+   "title": "Ataque com drones afunda navio na zona econômica da Bulgária, e Rússia é apontada",
+   "summary": "Um ataque com drones atingiu dois navios comerciais a cerca de 130 quilômetros da costa da Bulgária, país da Otan, no Mar Negro, nesta terça (6). O Alfa Watan, de bandeira do Togo, afundou, e o Able, de bandeira de Palau, pegou fogo, com 18 tripulantes resgatados e dois feridos. Volodymyr Zelensky disse que uma investigação conjunta com a Marinha búlgara identificou drones navais e aéreos russos, e o primeiro-ministro búlgaro classificou o ataque como violação flagrante do direito internacional. Moscou não se pronunciou, e na véspera um navio turco já havia sido atingido na zona econômica da Romênia, com dois mortos. Segundo o Poder360, é o primeiro ataque do tipo a navios comerciais registrado na zona de um país da Otan.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 4.0,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/russia-e-acusada-de-atacar-navio-comercial-na-costa-de-pais-da-otan/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/russia-e-suspeita-de-afundar-navio-em-area-da-otan-diz-agencia/",
+     "camp": "centro",
+     "position": "topo"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "material-radioativo-sp",
+   "segment": "seguranca",
+   "title": "Material radioativo roubado em Guarulhos é recuperado em São Paulo",
+   "summary": "A polícia recuperou o actínio-225, material radioativo usado no tratamento de câncer, que havia sido roubado em 1º de outubro em Guarulhos junto com uma van. O material foi encontrado na noite de segunda (5) em um terreno no Parque São Rafael, na zona leste da capital, com a embalagem intacta. A van havia sido achada queimada em Ferraz de Vasconcelos no dia 3, ainda sem a carga. A Autoridade Nacional de Segurança Nuclear classifica o risco radiológico como baixo, e o material aguarda verificação técnica do órgão. Não há informação sobre suspeitos, e a investigação do roubo continua.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 3,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 5.1,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-seguranca-publica/material-radioativo-roubado-e-recuperado-em-sao-paulo/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/sao-paulo/material-radioativo-encontrado-apos-roubo-e-usado-para-tratamento-de-cancer",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/carro-com-item-radiativo-e-achado-apos-roubo-em-sp-material-contaminado-segue-desaparecido/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "garotinho-tse-governo-rj",
+   "segment": "rio",
+   "title": "TSE julga na quinta desistência de Garotinho, que pode dar vitória a Ruas no 1º turno",
+   "summary": "O plenário do TSE incluiu na pauta de quinta (8), às 10h, o pedido de Anthony Garotinho para desistir do recurso contra a anulação de seus votos, decisão que define se haverá 2º turno para o governo do Rio. Douglas Ruas (PL) teve 49,27% dos votos válidos e Eduardo Paes (PSD) 42,76%, e se os 274.411 votos de Garotinho (3,17%) forem excluídos da conta, Ruas passa de 50% e vence no 1º turno. O Ministério Público Eleitoral deu parecer favorável à desistência nesta terça (6), argumentando que negar o recurso teria resultado prático equivalente. A coligação de Paes pediu ao TSE que não homologue a desistência, falando em má-fé e abuso do direito de ação, e o PSOL também acionou o tribunal para manter os votos na conta, enquanto Paes chamou o caso de \"armação\" entre Garotinho e Ruas. Ruas não comentou, e se o TSE rejeitar a desistência o 2º turno entre Ruas e Paes fica mantido para 25 de outubro.",
+   "scores": {
+    "cobertura": 9,
+    "destaque": 10,
+    "persistencia": 10,
+    "peso_voce": 10
+   },
+   "score": 9.7,
+   "outlets": [
+    {
+     "name": "Diário do Rio",
+     "url": "https://diariodorio.com/politica/2026/10/06/tse-inclui-recurso-de-garotinho-na-pauta-de-quinta-feira-e-pode-definir-eleicao-para-governador-do-rio.html",
+     "camp": "rio",
+     "position": "manchete"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/mpe-e-favoravel-a-desistencia-de-recurso-de-garotinho-no-tse/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/mpe-defende-desistencia-de-garotinho-que-pode-dar-vitoria-a-ruas-no-rj/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/rj-mpe-e-favoravel-desistencia-de-recurso-de-garotinho-no-tse",
+     "camp": "estatal",
+     "position": "editoria"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/mpe-apoia-desistencia-de-garotinho-e-ruas-pode-vencer-no-1o-turno/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://oantagonista.com.br/brasil/pedido-de-garotinho-sera-analisado-pelo-tse-nesta-quinta-feira/",
+     "camp": "centro-direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/sudeste/psol-aciona-tse-contra-retirada-de-recurso-de-garotinho-e-defende-que-votos-sejam-considerados/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "votos-13-governo-rj",
+   "segment": "rio",
+   "title": "Mais de 204 mil votos no 13 para governador do Rio são anulados; Paes aciona gráfica",
+   "summary": "Dados dos Registros Digitais do Voto do TSE mostram que 204.309 eleitores do Rio digitaram 13 para governador, número sem candidato porque o PT não concorreu ao cargo, e tiveram o voto anulado. O total representa cerca de 30% dos votos nulos e 2% do eleitorado, mas os registros não revelam a intenção de quem votou. A coligação de Eduardo Paes, de número 55, entrou com ação na Justiça Eleitoral contra uma gráfica de Niterói que teria panfletos associando Paes aos números 13 e 22, este último de Douglas Ruas. A ação pede busca e apreensão, perícia, proibição da distribuição com multa diária de R$ 10 mil e envio do caso ao Ministério Público Eleitoral. O episódio se soma à disputa no TSE sobre os votos de Garotinho, que pode decidir a eleição no Rio ainda no 1º turno.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 4.8,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/rj-204-mil-eleitores-votaram-13-para-governador-e-anularam-seus-votos/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/sudeste/paes-aciona-justica-contra-panfletos-com-numeros-falsos-apos-204-mil-votos-no-13-serem-anulados-no-rio/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "vasco-boca-maracana",
+   "segment": "rio",
+   "title": "MP do Rio recomenda que Vasco x Boca seja no Maracanã; Vasco volta à Justiça",
+   "summary": "O Ministério Público do Rio recomendou que o consórcio de Flamengo e Fluminense ceda o Maracanã para o jogo entre Vasco e Boca Juniors pela Copa Sul-Americana, com prazo de 48 horas para resposta. A recomendação veio depois que a Justiça negou um pedido do Vasco para usar o estádio. A Conmebol exige pelo menos 30 mil lugares, acima da capacidade de São Januário. O Vasco entrou com novo recurso e precisa informar o local à Conmebol até sábado (10), com o jogo de volta marcado para 20 de outubro. O Flamengo tem jogo contra o Estudiantes no Maracanã em 22 de outubro.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 3,
+    "persistencia": 7,
+    "peso_voce": 3
+   },
+   "score": 3.8,
+   "outlets": [
+    {
+     "name": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/esporte/mp-do-rio-se-pronuncia-sobre-vasco-jogar-no-maracana-na-sul-americana/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "Diário do Rio",
+     "url": "https://diariodorio.com/esporte/2026/10/06/vasco-x-boca-juniors-mprj-recomenda-que-jogo-seja-disputado-no-maracana.html",
+     "camp": "rio",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  }
+ ]
+}
