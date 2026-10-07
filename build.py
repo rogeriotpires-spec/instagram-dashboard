@@ -133,6 +133,24 @@ for d in api_days:
         r["follows"] = r["unfollows"] = None  # dia ainda não processado pela fonte
     hist["daily_api"][d] = r
 
+# stories: a API só mostra os ativos (24h); guardamos a última leitura de cada um
+hist.setdefault("stories", {})
+for sid, r in (ig.get("stories") or {}).items():
+    if not r.get("ts"): continue
+    cur = hist["stories"].get(sid, {})
+    rec = {"ts": r["ts"], "type": r.get("type")}
+    for k in ["views", "reach", "replies", "shares", "total_interactions", "follows", "profile_visits"]:
+        v, o = r.get(k), cur.get(k)
+        rec[k] = max(v, o) if v is not None and o is not None else (v if v is not None else o)
+    rec["seen"] = ig.get("collected")
+    hist["stories"][sid] = rec
+def _bt(ts):  # timestamp da API (UTC, +0000) para horário de Brasília
+    t = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z") if "T" in ts else datetime.fromisoformat(ts).replace(tzinfo=BRT)
+    return t.astimezone(BRT)
+stories = sorted(([_bt(r["ts"]).strftime("%Y-%m-%d %H:%M"), r.get("type"), r.get("views"), r.get("reach"), r.get("replies"), r.get("shares"), r.get("seen")]
+                  for r in hist["stories"].values()), reverse=True)
+stories = [x for x in stories if x[0][:10] >= (today - timedelta(days=90)).isoformat()]
+
 # ---------- conta ----------
 acc = rows("account")[0]
 account = {"username": acc[0], "followers": num(acc[1]), "follows": num(acc[2]), "media_count": num(acc[3])}
@@ -211,6 +229,8 @@ data = {
     "reels_columns": ["avg_watch_s", "skip_rate", "minutes_viewed", "duration_s", "pct_watched"], "reels": reels,
     "daily_columns": ["date", "reach", "views", "accounts_engaged", "reposts", "replies", "new_followers", "followers_total", "net", "lost", "likes", "comments", "shares", "saves", "interactions", "gained_api"],
     "api_collected": ig.get("collected"),
+    "stories_columns": ["ts", "type", "views", "reach", "replies", "shares", "seen"],
+    "stories": stories,
     "daily": daily,
     "follows_30d": {"gained": fu.get("FOLLOWER"), "lost": fu.get("NON_FOLLOWER"), "end": yesterday.isoformat(), "start": (yesterday - timedelta(days=29)).isoformat()},
     "reach_by_follow_type_30d": {"non_follower": ft.get("NON_FOLLOWER"), "follower": ft.get("FOLLOWER")},

@@ -160,6 +160,24 @@ def main():
             probed += 1
         rec["duration_s"] = durations.get(code)
         reels[code] = rec
+    # ---- stories ativos (a API só mostra as últimas 24 horas; o histórico fica em history.json) ----
+    stories = {}
+    page = safe("stories", lambda: get("me/stories", fields="id,media_type,timestamp,permalink"))
+    SM = ["views", "reach", "replies", "shares", "total_interactions", "follows", "profile_visits"]
+    for st in (page or {}).get("data", []):
+        rec = {"ts": st.get("timestamp"), "type": st.get("media_type")}
+        ins = safe(f"story {st['id']}", lambda: get(f"{st['id']}/insights", metric=",".join(SM)))
+        if ins is None:
+            for m in SM:
+                r = safe(f"story {st['id']} {m}", lambda: get(f"{st['id']}/insights", metric=m))
+                if r: ins = {"data": (ins or {}).get("data", []) + r.get("data", [])}
+        for x in (ins or {}).get("data", []):
+            v = (x.get("values") or [{}])[0].get("value")
+            if v is None: v = x.get("total_value", {}).get("value")
+            rec[x["name"]] = v
+        stories[st["id"]] = rec
+    out["stories"] = stories
+
     if QUICK:
         reels = {**(prev.get("reels") or {}), **reels}
         out["media_count_window"] = prev.get("media_count_window")
@@ -170,7 +188,7 @@ def main():
     json.dump(durations, open(DUR, "w"), separators=(",", ":"))
     json.dump(out, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     filled = sum(1 for r in daily.values() if r.get("shares") is not None)
-    print(("rápida: " if QUICK else "") + f"ok: {filled}/{len(daily)} dias com interações, {len(reels)} Reels, {sum(1 for r in reels.values() if r.get('duration_s'))} com duração, {len(errors)} erro(s)")
+    print(("rápida: " if QUICK else "") + f"ok: {filled}/{len(daily)} dias com interações, {len(stories)} stories ativos, {len(reels)} Reels, {sum(1 for r in reels.values() if r.get('duration_s'))} com duração, {len(errors)} erro(s)")
     for e in errors[:15]: print(" -", e)
 
 

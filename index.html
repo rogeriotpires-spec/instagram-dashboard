@@ -108,7 +108,8 @@ svg text{font:11px Inter,sans-serif;fill:var(--muted)}
 .btn{display:inline-block;margin-top:8px;background:var(--text);color:var(--surface);text-decoration:none;font-weight:600;padding:7px 12px;border-radius:9px;border:0;font-size:13px;cursor:pointer}
 .btn.ghost{background:var(--surface);color:var(--text);border:1px solid var(--border)}
 .split{display:flex;height:14px;border-radius:5px;overflow:hidden;gap:2px;margin:12px 0 8px}
-.today{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:12px}
+.today{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:12px}
+@media (max-width:1100px){.today{grid-template-columns:repeat(3,1fr)}}
 /* funnel */
 .funnel{display:flex;flex-direction:column;gap:6px}
 .fstep{display:grid;grid-template-columns:150px 1fr 110px;gap:10px;align-items:center;font-size:13px}
@@ -499,6 +500,24 @@ function setPer(){
 function deltaHTML(cur,prev,label){if(cur==null||prev==null||!prev)return`<div class="delta na">Sem dado do período anterior</div>`;const d=cur/prev-1;return`<div class="delta ${d>=0?"up":"down"}">${d>=0?"▲":"▼"} ${pct(Math.abs(d),0)} vs ${label}</div>`}
 function kpi(l,v,per,delta,def){return`<div class="card kpi"><div class="label">${l}</div><div class="val">${v}</div>${delta||""}<div class="note">${per}</div>${def?`<div class="def">${def}</div>`:""}</div>`}
 
+
+/* ---------- stories (últimas 24 horas) ---------- */
+function storiesCard(){
+  const cols=D.stories_columns||[],S=(D.stories||[]).map(r=>Object.fromEntries(cols.map((c,i)=>[c,r[i]])));
+  const ref=new Date(D.api_collected||D.account_updated||D.updated);
+  const t=s=>new Date(s.ts.replace(" ","T")+":00-03:00");
+  const win=(a,b)=>S.filter(s=>{const x=t(s);return x>a&&x<=b});
+  const H=36e5,cur=win(new Date(ref-24*H),ref),prv=win(new Date(ref-48*H),new Date(ref-24*H));
+  const views=sum(cur.map(s=>s.views||0)),reach=cur.map(s=>s.reach).filter(x=>x!=null);
+  const oldest=S.length?Math.min(...S.map(s=>+t(s))):null;
+  const canCmp=oldest!=null&&oldest<=ref-48*H&&prv.length;
+  const pv=sum(prv.map(s=>s.views||0));
+  const hm=ref.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+  const line=cur.length?`<div class="delta na">${full(views)} visualizações · ${full(Math.max(...reach))} pessoas no story mais visto (média ${full(Math.round(sum(reach)/reach.length))})</div>`:`<div class="delta na">nenhum story nas últimas 24h</div>`;
+  const cmpL=canCmp?`<div class="delta ${views>=pv?"up":"down"}">${views>=pv?"▲":"▼"} ${pct(Math.abs(views/pv-1),0)} nas visualizações vs 24h anteriores</div>`:"";
+  return kpi("Stories",String(cur.length),`Últimas 24h até ${hm}`,line+cmpL,
+    "Pessoas únicas são contadas por story. Histórico guardado pelo painel desde 07/10.");
+}
 /* ---------- diário ---------- */
 function renderDaily(){
   const r=state.range,days=daysIn(r),dates=days.map(d=>d.date);
@@ -515,6 +534,7 @@ function renderDaily(){
     kpi("Contas com interação",fmt(last.accounts_engaged),`Dia ${dBR(last.date)}`,cmp(last.accounts_engaged,avg("accounts_engaged"))),
     kpi("Novos seguidores",lastF?full(lastF.new_followers):ND,lastF?`Dia ${dBR(lastF.date)} · ganho bruto${lastF.date!==last.date?" (último dia processado)":""}`:"",lastF?cmp(lastF.new_followers,prevF.length?sum(prevF)/prevF.length:null):""),
     kpi("Publicações",String(pubLast.length),`Dia ${dBR(last.date)}`,`<div class="delta na">${["I","R","C"].map(t=>{const n=pubLast.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t][n>1?"name":"one"].toLowerCase()}`:""}).filter(Boolean).join(" · ")||"nenhuma"}</div>`)
+    ,storiesCard()
   ].join("");
   $("#daily-sub").textContent=`Último dia completo: ${dBR(last.date)} · data de Brasília · dias sem coleta aparecem como lacuna`;
   daySeries($("#d-reach"),{dates,values:days.map(d=>d.reach),color:"var(--s1)",label:"Alcance"});
