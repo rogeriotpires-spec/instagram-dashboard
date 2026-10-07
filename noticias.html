@@ -306,7 +306,7 @@ function method(){
   <p class="def" style="margin-top:0">Nota final = média ponderada dos 4 critérios (0 a 10). Resumo de ${CFG.summary_lines} linhas, até ${CFG.items_per_segment} notícias por bloco, mínimo de ${CFG.min_outlets} portais por notícia.</p>
   ${CFG.criteria.map(c=>`<div class="ag"><b>Peso ${c.weight}</b><span><b>${esc(c.label)}</b> (${Math.round(c.weight/W*100)}% da nota). ${esc(c.how)}</span></div>`).join("")}
   <div class="ag"><b>Selo</b><span><b>Assimetria de cobertura.</b> ${esc(CFG.asymmetry.rule)}</span></div>
-  <p class="def">Portais monitorados (${CFG.outlets.length}): ${CFG.outlets.map(o=>`${esc(o.name)} <span class="small-n">(${esc(CAMP[o.camp]?.[0]||o.camp)})</span>`).join(", ")}. A classificação por campo editorial segue a percepção corrente e pode ser ajustada no arquivo de configuração.</p></div>`;
+  <p class="def">Portais monitorados (${CFG.outlets.length}): ${CFG.outlets.map(o=>`${esc(o.name)} <span class="small-n">(${esc(CAMP[o.camp]?.[0]||o.camp)})</span>`).join(", ")}. ${CFG.outlets.filter(o=>o.fetch===false).map(o=>esc(o.name)+" bloqueia leitura automática: entra só quando aparece na busca ou é citado por outro portal, e a ausência dele não pesa na nota nem na assimetria").join(". ")}${CFG.outlets.some(o=>o.fetch===false)?". ":""}A classificação por campo editorial segue a percepção corrente e pode ser ajustada no arquivo de configuração.</p></div>`;
 }
 async function load(id){
   CUR=id;$("#ed").value=id;const i=EDS.indexOf(id);$("#prev").disabled=i<=0;$("#next").disabled=i>=EDS.length-1;
