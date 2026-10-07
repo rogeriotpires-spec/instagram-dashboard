@@ -49,16 +49,21 @@ jobs:
           if [ "${{ github.event.schedule }}" != "20 7 * * *" ]; then export IG_QUICK=1; fi
           python3 ig_collect.py
 
-      - name: "Atualizar painel (coleta rápida, pelo botão ou a cada 3 horas)"
-        if: github.event.schedule != '20 7 * * *'
-        run: python3 build.py --quick
-
       - name: Publicar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add raw/ig_api.json raw/durations.json
-          if [ "${{ github.event.schedule }}" != "20 7 * * *" ]; then git add data.json history.json; MSG="Atualização rápida do painel"; else MSG="Coleta da API do Instagram"; fi
-          if git diff --cached --quiet; then echo "Sem mudanças."; exit 0; fi
-          git commit -m "$MSG"
-          for i in 1 2 3; do git pull --rebase -q origin main && git push && break; sleep 5; done
+          QUICK=0; [ "${{ github.event.schedule }}" != "20 7 * * *" ] && QUICK=1
+          mkdir -p /tmp/coleta && cp raw/ig_api.json raw/durations.json /tmp/coleta/
+          for i in 1 2 3 4; do
+            # parte sempre da versão mais recente do site e reaplica a coleta (evita conflito com outras atualizações)
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp /tmp/coleta/ig_api.json /tmp/coleta/durations.json raw/
+            git add raw/ig_api.json raw/durations.json
+            if [ "$QUICK" = "1" ]; then python3 build.py --quick && git add data.json history.json; MSG="Atualização rápida do painel"; else MSG="Coleta da API do Instagram"; fi
+            if git diff --cached --quiet; then echo "Sem mudanças."; exit 0; fi
+            git commit -q -m "$MSG"
+            git push -q origin HEAD:main && exit 0
+            sleep $((i * 7))
+          done
+          exit 1
