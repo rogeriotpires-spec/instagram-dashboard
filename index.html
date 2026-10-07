@@ -216,11 +216,17 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     </div>
     <div class="g2e">
       <div class="card"><div class="head"><h3>Novos seguidores por dia</h3><span class="per" data-per="followers"></span></div><p class="desc">Ganho bruto (contas que começaram a seguir). A fonte libera só os últimos 30 dias.</p><div class="legend"><span><i style="background:var(--s3)"></i>Ganhos</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-follow"></div><div id="d-follow-note"></div></div>
-      <div class="card"><div class="head"><h3>Ganhos, perdas e saldo</h3><span class="per" data-per="fixed30"></span></div><p class="desc">Totais da fonte para os últimos 30 dias. A série diária de perdas e do total de seguidores é montada a partir das coletas diárias.</p><div id="d-net"></div></div>
+      <div class="card"><div class="head"><h3>Ganhos, perdas e saldo</h3><span class="per" data-per="followers"></span></div><p class="desc">Por dia, pela API do Instagram. Saldo líquido = começaram a seguir − deixaram de seguir.</p><div id="d-net"></div></div>
     </div>
     <div class="g2e">
       <div class="card"><div class="head"><h3>Contas com interação por dia</h3><span class="per" data-per="daily"></span></div><p class="desc">Contas que curtiram, comentaram, compartilharam, salvaram ou responderam em cada dia.</p><div class="legend"><span><i class="ln" style="background:var(--s2)"></i>Por dia</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-eng"></div><div class="def"><b>Taxa de interação</b> = contas com interação ÷ contas alcançadas no dia. <span id="d-eng-rate"></span></div></div>
-      <div class="card"><div class="head"><h3>Resultado dos posts publicados em cada dia</h3><span class="per" data-per="global"></span></div><p class="desc">Acumulado até a coleta pelos posts publicados naquele dia. Não é o que a conta recebeu no dia.</p><div class="legend" id="lg-pubday"></div><div id="d-pubday"></div><div class="def">A fonte não fornece curtidas, comentários, compartilhamentos e salvamentos da conta por dia; por isso as interações diárias aparecem apenas por dia de publicação, na tabela de posts e no calendário.</div></div>
+      <div class="card"><div class="head"><h3>Resultado dos posts publicados em cada dia</h3><span class="per" data-per="global"></span></div><p class="desc">Acumulado até a coleta pelos posts publicados naquele dia. Não é o que a conta recebeu no dia.</p><div class="legend" id="lg-pubday"></div><div id="d-pubday"></div><div class="def">Este card soma o resultado dos posts publicados em cada dia. O que a conta recebeu em cada dia, inclusive em posts antigos, está nos cards abaixo.</div></div>
+    </div>
+    <div class="g2e">
+      <div class="card"><div class="head"><h3>Interações recebidas pela conta por dia</h3><span class="per" data-per="api"></span></div><p class="desc">Total do dia em todo o conteúdo da conta, pela API do Instagram.</p>
+        <div class="toolbar"><div class="seg" id="f-imetric" role="group" aria-label="Interação"><button data-v="shares" aria-pressed="true">Compart.</button><button data-v="saves">Salvos</button><button data-v="comments">Coment.</button><button data-v="likes">Curtidas</button></div></div>
+        <div class="legend"><span><i id="lg-im" style="background:var(--s2)"></i><span id="lg-im-t">Por dia</span></span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-inter"></div></div>
+      <div class="card"><div class="head"><h3>Eficiência das interações</h3><span class="per" data-per="api"></span></div><p class="desc">Interação ÷ contas alcançadas no mesmo dia, para separar volume de eficiência. Mediana dos dias do período e último dia completo.</p><div id="d-rates"></div></div>
     </div>
   </section>
 
@@ -267,13 +273,17 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     <div class="sec-h"><h2>Reels: retenção</h2><p>Associações dentro da amostra, não relação de causa</p></div>
     <div class="g2">
       <div class="card"><div class="head"><h3>Taxa de pulo x visualizações</h3><span class="per" data-per="global"></span></div><p class="desc">Cada ponto é um Reel. Taxa de pulo = % de quem passou adiante nos 3 primeiros segundos. <b>Eixo vertical em escala logarítmica</b>: cada linha vale 10 vezes a anterior.</p>
-        <div class="toolbar"><select id="reel-theme" aria-label="Filtrar por tema"></select></div>
+        <div class="toolbar"><select id="reel-theme" aria-label="Filtrar por tema"></select><select id="reel-dur" aria-label="Filtrar por duração"></select></div>
         <div id="c-scatter"></div><div class="pick" id="scatter-pick">Toque em uma bolinha para ver o Reel. No computador, clique para abrir no Instagram.</div></div>
       <div class="card"><div class="head"><h3>Faixas de taxa de pulo</h3><span class="per" data-per="global"></span></div><p class="desc">Views por Reel em cada faixa: mediana, quartis e quantidade.</p><div id="c-skip"></div><div class="def" id="skip-note"></div></div>
     </div>
     <div class="g2e">
       <div class="card"><div class="head"><h3>Tempo médio assistido</h3><span class="per" data-per="global"></span></div><p class="desc">Views por Reel conforme o tempo médio que cada pessoa assistiu.</p><div id="c-watch"></div></div>
-      <div class="card"><div class="head"><h3>Reels com menor taxa de pulo</h3><span class="per" data-per="global"></span></div><p class="desc">Entre os Reels com mais de 5 mil views.</p><div id="best-reels"></div><div class="def"><b>Sem dado na fonte:</b> duração do vídeo, percentual médio assistido, taxa de conclusão e curva de retenção. Esses números aparecem só no app do Instagram.</div></div>
+      <div class="card"><div class="head"><h3>Reels com menor taxa de pulo</h3><span class="per" data-per="global"></span></div><p class="desc">Entre os Reels com mais de 5 mil views.</p><div id="best-reels"></div></div>
+    </div>
+    <div class="g2e">
+      <div class="card"><div class="head"><h3>Duração do vídeo</h3><span class="per" data-per="global"></span></div><p class="desc">Views por Reel conforme a duração. Número sobre a barra = Reels na faixa. O detalhe mostra o percentual médio assistido.</p><div id="c-dur"></div><div class="def" id="dur-note"></div></div>
+      <div class="card"><div class="head"><h3>Percentual médio assistido</h3><span class="per" data-per="global"></span></div><p class="desc">Tempo médio assistido ÷ duração do vídeo. Views por Reel em cada faixa.</p><div id="c-pctw"></div><div class="def"><b>Como é calculado:</b> a duração é lida do arquivo de vídeo e o tempo médio vem da API do Instagram. Métrica derivada, não exibida pelo app. Pode passar de 100% quando as pessoas reassistem. <b>Taxa de conclusão e curva de retenção</b> continuam sem dado na fonte.</div></div>
     </div>
   </section>
 
@@ -316,7 +326,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
       </div>
       <div class="tablewrap"><table class="t sort" id="tbl"></table></div>
       <div class="more"><button class="btn ghost" id="more">Mostrar todos</button></div>
-      <div class="def"><b>Idade</b> = tempo entre a publicação e a coleta dos números. Posts mais novos ainda estão acumulando resultados. <b>n.a.</b> = não se aplica ao formato. <b>Sem dado</b> = a fonte não fornece (visitas e seguidores de Reels, duração do vídeo).</div>
+      <div class="def"><b>Idade</b> = tempo entre a publicação e a coleta dos números. Posts mais novos ainda estão acumulando resultados. <b>n.a.</b> = não se aplica ao formato. <b>Sem dado</b> = a fonte não fornece (visitas e seguidores de Reels) ou o dado ainda não foi coletado.</div>
     </div>
   </section>
 
@@ -325,7 +335,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     <div class="card"><div class="limits" id="limits"></div></div>
   </section>
 
-  <footer id="foot">Dados: Instagram Insights via Supermetrics. Coleta automática diária às 4h50 (Brasília).</footer>
+  <footer id="foot">Dados: Instagram Insights via Supermetrics (coleta às 4h50) e API oficial do Instagram (coleta às 4h20, horário de Brasília).</footer>
 </main>
 <div class="tip" id="tip"></div>
 
@@ -438,11 +448,11 @@ function hbars(host,items,{stack}={}){
 }
 
 /* ---------- estado ---------- */
-let D,ALL,DAILY,state={range:30,type:"all",sort:"ts",dir:-1,showAll:false,q:"",theme:"all",reelTheme:"all",calDay:null};
+let D,ALL,DAILY,state={imetric:"shares",reelDur:"all",range:30,type:"all",sort:"ts",dir:-1,showAll:false,q:"",theme:"all",reelTheme:"all",calDay:null};
 function prep(){
   ALL=D.posts.map(r=>Object.fromEntries(D.columns.map((c,i)=>[c,r[i]]))).map(p=>{
     p.date=p.ts.slice(0,10);p.hour=+p.ts.slice(11,13);p.dow=new Date(p.date+"T12:00:00").getDay();
-    const rr=D.reels&&D.reels[p.code];if(rr){p.watch=rr[0];p.skip=rr[1];p.minutes=rr[2]}
+    const rr=D.reels&&D.reels[p.code];if(rr){p.watch=rr[0];p.skip=rr[1];p.minutes=rr[2];p.duration=rr[3]??null;p.pctw=rr[4]??null}
     p.rate=p.views?p.shares/p.views:null;p.erf=p.interactions!=null?p.interactions/D.account.followers:null;return p});
   DAILY=D.daily.map(r=>Object.fromEntries(D.daily_columns.map((c,i)=>[c,r[i]])));
 }
@@ -465,6 +475,7 @@ function setPer(){
     followers:[folCov<r?`${folCov} de ${r} dias com dado`:g,folCov<r],
     fixed30:["Últimos 30 dias · fixo",r!==30],
     aud:[`Referência ${dBR(D.audience.ref_date)} · fixo`,false],
+    api:(()=>{const c=coverage(dailyDays,"shares");return[c<r?`${c} de ${r} dias com dado`:g,c<r]})(),
     tracking:[D.tracking_since?`Coleta desde ${dBR(D.tracking_since.slice(0,10))}`:"Coleta diária",false]};
   $$(".per").forEach(s=>{const[t,diff]=map[s.dataset.per]||[g,false];s.textContent=t;s.classList.toggle("diff",diff);s.title=diff?"Este card usa um período diferente do filtro do topo":""});
 }
@@ -499,13 +510,19 @@ function renderDaily(){
   const missF=days.filter(d=>d.new_followers==null).length;
   $("#d-follow-note").innerHTML=missF?`<div class="warnline">${missF} dia(s) sem dado de seguidores no período: a fonte só libera os últimos 30 dias e o dia mais recente leva até 48h para ser processado.</div>`:"";
   // saldo
-  const f=D.follows_30d,net=f.gained!=null&&f.lost!=null?f.gained-f.lost:null;
-  const tracked=DAILY.filter(d=>d.net!=null);
-  $("#d-net").innerHTML=`<div class="metric-row" style="margin-bottom:10px"><div><b style="color:var(--good)">+${full(f.gained)}</b>começaram a seguir</div><div><b style="color:var(--bad)">−${full(f.lost)}</b>deixaram de seguir</div><div><b>${net>=0?"+":""}${full(net)}</b>saldo líquido</div></div>
-    <div class="split"><div style="flex:${f.gained||1};background:var(--s3)"></div><div style="flex:${Math.max(f.lost||0,(f.gained||1)*.01)};background:var(--bad)"></div></div>
-    <div class="def"><b>Taxa de perda</b> = deixaram de seguir ÷ começaram a seguir = ${pct(f.gained?f.lost/f.gained:null)}. Período ${perLabel(f.start,f.end)}.</div>
-    ${tracked.length>=2?"":`<div class="empty" style="margin-top:12px">Total de seguidores, perdas e saldo <b>por dia</b>: a fonte não entrega série diária. Estou registrando o total em cada coleta${D.tracking_since?` desde ${dBR(D.tracking_since.slice(0,10))}`:""}; a linha aparece aqui a partir do 2º dia de coleta.</div>`}`;
-  if(tracked.length>=2){const box=document.createElement("div");$("#d-net").appendChild(box);const td=DAILY.filter(d=>d.followers_total!=null);daySeries(box,{dates:td.map(d=>d.date),values:td.map(d=>d.followers_total),color:"var(--s1)",label:"Total de seguidores"})}
+  const fd=days.filter(d=>d.lost!=null&&d.new_followers!=null),G=sum(fd,d=>d.new_followers),Lo=sum(fd,d=>d.lost),f=D.follows_30d;
+  $("#d-net").innerHTML=fd.length?`<div class="metric-row" style="margin-bottom:10px"><div><b style="color:var(--good)">+${full(G)}</b>começaram a seguir</div><div><b style="color:var(--bad)">−${full(Lo)}</b>deixaram de seguir</div><div><b>${G-Lo>=0?"+":""}${full(G-Lo)}</b>saldo líquido</div></div>
+    <div class="def" style="margin:0 0 6px">${fd.length} dia(s) com dado no período. <b>Taxa de perda</b> = deixaram ÷ começaram = ${pct(G?Lo/G:null)}.</div>
+    <div class="legend"><span><i style="background:var(--bad)"></i>Deixaram de seguir por dia</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-lost"></div>`
+    :`<div class="metric-row" style="margin-bottom:10px"><div><b style="color:var(--good)">+${full(f.gained)}</b>começaram a seguir</div><div><b style="color:var(--bad)">−${full(f.lost)}</b>deixaram de seguir</div></div><div class="def">Totais de 30 dias (${perLabel(f.start,f.end)}). Sem série diária no período filtrado.</div>`;
+  if(fd.length)daySeries($("#d-lost"),{dates,values:days.map(d=>d.lost??null),color:"var(--bad)",label:"Deixaram de seguir",bars:true});
+  // interações recebidas pela conta
+  const IM={shares:["Compartilhamentos","var(--s2)"],saves:["Salvamentos","var(--s4)"],comments:["Comentários","var(--s3)"],likes:["Curtidas","var(--s1)"]};
+  const im=state.imetric;$("#lg-im").style.background=IM[im][1];$("#lg-im-t").textContent=IM[im][0]+" por dia";
+  daySeries($("#d-inter"),{dates,values:days.map(d=>d[im]??null),color:IM[im][1],label:IM[im][0]});
+  const lastA=[...DAILY].reverse().find(d=>d.shares!=null&&d.reach);
+  $("#d-rates").innerHTML=Object.entries(IM).map(([k,[n,c]])=>{const v=days.filter(d=>d[k]!=null&&d.reach).map(d=>d[k]/d.reach),m=median(v),l=lastA?lastA[k]/lastA.reach:null,tot=sum(days,d=>d[k]);
+    return`<div style="display:grid;grid-template-columns:1fr auto auto;gap:4px 14px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--border);font-size:13px"><span><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:${c};margin-right:6px"></i><b>${n}</b> ÷ alcance<br><span class="small-n">${fmt(tot)} no período</span></span><span style="text-align:right">${v.length?`<b style="font-size:17px">${pct(m,2)}</b><br><span class="small-n">mediana · ${v.length} dias</span>`:ND}</span><span style="text-align:right">${l!=null?`<b>${pct(l,2)}</b><br><span class="small-n">${dBR(lastA.date)}${m?` · ${l>=m?"▲":"▼"}`:""}</span>`:""}</span></div>`}).join("")+`<div class="def">Fonte: API do Instagram, coleta de ${D.api_collected?dBR(D.api_collected.slice(0,10)):ND}.</div>`;
   // resultado por dia de publicação
   const P=rows(),byDay=dates.map(d=>P.filter(p=>p.date===d)),types=typesNow();
   $("#lg-pubday").innerHTML=types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join("");
@@ -630,12 +647,16 @@ function renderReels(){
   const th=[...new Set(R0.map(p=>p.theme))];if(!th.includes(state.reelTheme))state.reelTheme="all";
   sel.innerHTML=`<option value="all">Todos os temas (${R0.length})</option>`+th.map(t=>`<option value="${t}"${state.reelTheme===t?" selected":""}>${t} (${R0.filter(p=>p.theme===t).length})</option>`).join("");
   sel.onchange=()=>{state.reelTheme=sel.value;renderReels()};
-  const Rl=R0.filter(p=>state.reelTheme==="all"||p.theme===state.reelTheme);
+  const DB=[["all","Todas as durações",0,1e9],["15","Até 15s",0,15],["30","15s a 30s",15,30],["60","30s a 60s",30,60],["90","60s a 90s",60,90],["90+","Mais de 90s",90,1e9]];
+  const dsel=$("#reel-dur");dsel.innerHTML=DB.map(([v,l,a,b])=>`<option value="${v}"${state.reelDur===v?" selected":""}>${l}${v==="all"?"":` (${R0.filter(p=>p.duration!=null&&p.duration>=a&&p.duration<b).length})`}</option>`).join("");
+  dsel.onchange=()=>{state.reelDur=dsel.value;renderReels()};
+  const dB=DB.find(x=>x[0]===state.reelDur);
+  const Rl=R0.filter(p=>(state.reelTheme==="all"||p.theme===state.reelTheme)&&(state.reelDur==="all"||(p.duration!=null&&p.duration>=dB[2]&&p.duration<dB[3])));
   const pick=$("#scatter-pick");pick.className="pick";pick.textContent="Toque em uma bolinha para ver o Reel. No computador, clique para abrir no Instagram.";
   scatter($("#c-scatter"),{pts:Rl.map(p=>({x:p.skip,y:p.views})),xLabel:"taxa de pulo",href:i=>linkOf(Rl[i]),
-    tipFn:i=>{const p=Rl[i];return`<b>${p.title}</b><br>${dBR(p.date)} · ${p.theme}<br>${full(p.views)} views<br>Pulo: ${pct(p.skip/100)} · assistido em média: ${secs(p.watch)}<br>Duração do vídeo: ${ND}`},
-    onPick:i=>{const p=Rl[i];pick.className="pick on";pick.innerHTML=`<b>${p.title}</b><br>${dBR(p.date)} ${p.ts.slice(11)} · ${p.theme} · idade na coleta ${age(p.age_h)}<br>${full(p.views)} views · pulo ${pct(p.skip/100)} · assistido ${secs(p.watch)} · duração ${ND}<br><a class="btn" href="${linkOf(p)}" target="_blank" rel="noopener">Abrir no Instagram ↗</a>`}});
-  if(!Rl.length){["#c-skip","#c-watch","#best-reels"].forEach(s=>empty($(s),"Sem Reels no filtro atual."));$("#skip-note").innerHTML="";return}
+    tipFn:i=>{const p=Rl[i];return`<b>${p.title}</b><br>${dBR(p.date)} · ${p.theme}<br>${full(p.views)} views<br>Pulo: ${pct(p.skip/100)} · assistido em média: ${secs(p.watch)}<br>Duração: ${p.duration!=null?secs(Math.round(p.duration)):ND} · assistido: ${pct(p.pctw,0)}`},
+    onPick:i=>{const p=Rl[i];pick.className="pick on";pick.innerHTML=`<b>${p.title}</b><br>${dBR(p.date)} ${p.ts.slice(11)} · ${p.theme} · idade na coleta ${age(p.age_h)}<br>${full(p.views)} views · pulo ${pct(p.skip/100)} · assistido ${secs(p.watch)} de ${p.duration!=null?secs(Math.round(p.duration)):ND} (${pct(p.pctw,0)})<br><a class="btn" href="${linkOf(p)}" target="_blank" rel="noopener">Abrir no Instagram ↗</a>`}});
+  if(!Rl.length){["#c-skip","#c-watch","#best-reels","#c-dur","#c-pctw"].forEach(s=>empty($(s),"Sem Reels no filtro atual."));$("#skip-note").innerHTML="";return}
   const SB=[["Abaixo de 35%",0,35],["35% a 45%",35,45],["Acima de 45%",45,101]];
   const sb=SB.map(([l,a,b])=>({l,st:statsOf(Rl.filter(p=>p.skip>=a&&p.skip<b).map(p=>p.views))}));
   qbars($("#c-skip"),{labels:sb.map(s=>s.l),series:[{color:"var(--s2)",stats:sb.map(s=>s.st)}],tipFn:i=>{const s=sb[i].st;return`<b>Pulo ${sb[i].l.toLowerCase()}</b><br>${s.n} Reels<br>Mediana: ${full(s.med)} views${s.n>=3?`<br>Quartis: ${fmt(s.q1)} a ${fmt(s.q3)}`:""}`}});
@@ -643,6 +664,14 @@ function renderReels(){
   const WB=[["Até 11s",0,12],["12s a 19s",12,20],["20s a 29s",20,30],["30s ou mais",30,9999]];
   const wb=WB.map(([l,a,b])=>({l,st:statsOf(Rl.filter(p=>p.watch>=a&&p.watch<b).map(p=>p.views))}));
   qbars($("#c-watch"),{labels:wb.map(w=>w.l),series:[{color:"var(--s2)",stats:wb.map(w=>w.st)}],tipFn:i=>{const s=wb[i].st;return`<b>${wb[i].l} assistidos em média</b><br>${s.n} Reels<br>Mediana: ${full(s.med)} views${s.n>=3?`<br>Quartis: ${fmt(s.q1)} a ${fmt(s.q3)}`:""}`}});
+  const Rd=Rl.filter(p=>p.duration!=null);
+  const DUB=[["Até 15s",0,15],["15 a 30s",15,30],["30 a 60s",30,60],["60 a 90s",60,90],["90s+",90,1e9]];
+  const db=DUB.map(([l,a,b])=>{const x=Rd.filter(p=>p.duration>=a&&p.duration<b);return{l,st:statsOf(x.map(p=>p.views)),pw:median(x.map(p=>p.pctw).filter(v=>v!=null)),sk:median(x.map(p=>p.skip))}});
+  qbars($("#c-dur"),{labels:db.map(d=>d.l),series:[{color:"var(--s4)",stats:db.map(d=>d.st)}],tipFn:i=>{const d=db[i];return`<b>Duração ${d.l}</b><br>${d.st.n} Reels<br>Mediana: ${full(d.st.med)} views${d.st.n>=3?`<br>Quartis: ${fmt(d.st.q1)} a ${fmt(d.st.q3)}`:""}<br>Assistido em média: ${pct(d.pw,0)}<br>Pulo: ${pct(d.sk==null?null:d.sk/100,0)}`}});
+  $("#dur-note").innerHTML=Rd.length?`Duração mediana: <b>${secs(Math.round(median(Rd.map(p=>p.duration))))}</b> (${Rd.length} Reels com duração). Percentual assistido mediano por faixa: ${db.filter(d=>d.st.n).map(d=>`${d.l} <b>${pct(d.pw,0)}</b>`).join(" · ")}.`:"Sem duração para os Reels do filtro.";
+  const PB=[["Até 15%",0,.15],["15 a 30%",.15,.3],["30 a 50%",.3,.5],["Acima de 50%",.5,9]];
+  const pb=PB.map(([l,a,b])=>({l,st:statsOf(Rd.filter(p=>p.pctw!=null&&p.pctw>=a&&p.pctw<b).map(p=>p.views))}));
+  qbars($("#c-pctw"),{labels:pb.map(d=>d.l),series:[{color:"var(--s2)",stats:pb.map(d=>d.st)}],tipFn:i=>{const d=pb[i].st;return`<b>Assistido ${pb[i].l.toLowerCase()}</b><br>${d.n} Reels<br>Mediana: ${full(d.med)} views${d.n>=3?`<br>Quartis: ${fmt(d.q1)} a ${fmt(d.q3)}`:""}`}});
   const best=Rl.filter(p=>p.views>5000).sort((a,b)=>a.skip-b.skip).slice(0,6);
   $("#best-reels").innerHTML=best.length?best.map(p=>`<div style="display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px"><a href="${linkOf(p)}" target="_blank" rel="noopener" style="text-decoration:none">${p.title}</a><span style="white-space:nowrap;color:var(--text-2);font-variant-numeric:tabular-nums"><b style="color:var(--good)">${pct(p.skip/100,0)}</b> · ${secs(p.watch)} · ${fmt(p.views)}</span></div>`).join("")+`<p class="def">pulo · tempo médio assistido · views</p>`:`<div class="empty">Nenhum Reel com mais de 5 mil views no filtro.</div>`;
 }
@@ -729,34 +758,33 @@ function bench(){
 
 /* ---------- tabela ---------- */
 function filteredPosts(){const q=state.q.trim().toLowerCase();return rows().filter(p=>(state.theme==="all"||p.theme===state.theme)&&(!q||p.title.toLowerCase().includes(q)))}
-const TCOLS=[["ts","Data",1],["title","Post",1],["theme","Tema",1],["age_h","Idade"],["views","Views"],["reach","Alcance"],["likes","Curtidas"],["comments","Coment."],["shares","Compart."],["rate","Compart. ÷ views"],["saves","Salvos"],["skip","Pulo"],["watch","Assistido"],["profile_visits","Visitas"],["follows","Seguiram"]];
+const TCOLS=[["ts","Data",1],["title","Post",1],["theme","Tema",1],["age_h","Idade"],["views","Views"],["reach","Alcance"],["likes","Curtidas"],["comments","Coment."],["shares","Compart."],["rate","Compart. ÷ views"],["saves","Salvos"],["skip","Pulo"],["watch","Assistido"],["duration","Duração"],["pctw","% assistido"],["profile_visits","Visitas"],["follows","Seguiram"]];
 function table(){
   const sel=$("#t-theme");sel.innerHTML=`<option value="all">Todos os temas</option>`+D.themes.map(t=>`<option${state.theme===t?" selected":""}>${t}</option>`).join("");
   const T=filteredPosts().sort((a,b)=>{const x=a[state.sort],y=b[state.sort];if(x==null)return 1;if(y==null)return -1;return(x>y?1:x<y?-1:0)*state.dir});
   const S=state.showAll?T:T.slice(0,25);$("#more").style.display=T.length>25&&!state.showAll?"":"none";$("#more").textContent=`Mostrar todos (${T.length})`;
   const v=(x,f=full)=>x==null?`<span class="small-n">${ND}</span>`:f(x);
   $("#tbl").innerHTML=`<thead><tr>${TCOLS.map(([k,l,lft])=>`<th data-k="${k}" class="${lft?"l ":""}${state.sort===k?"on":""}">${l}${state.sort===k?(state.dir<0?" ↓":" ↑"):""}</th>`).join("")}</tr></thead><tbody>${
-    S.map(p=>`<tr><td class="l">${dBR(p.date)} ${p.ts.slice(11)}</td><td class="l w"><span class="tag"><i style="background:${TYPE[p.type].c}"></i>${TYPE[p.type].one}</span><a href="${linkOf(p)}" target="_blank" rel="noopener">${p.title} ↗</a></td><td class="l"><span class="small-n">${p.theme}</span></td><td>${age(p.age_h)}</td><td>${v(p.views)}</td><td>${v(p.reach)}</td><td>${v(p.likes)}</td><td>${v(p.comments)}</td><td>${v(p.shares)}</td><td>${v(p.rate,x=>pct(x))}</td><td>${v(p.saves)}</td><td>${p.type==="R"?v(p.skip,x=>pct(x/100,0)):'<span class="small-n">n.a.</span>'}</td><td>${p.type==="R"?v(p.watch,secs):'<span class="small-n">n.a.</span>'}</td><td>${v(p.profile_visits)}</td><td>${v(p.follows)}</td></tr>`).join("")||`<tr><td class="l" colspan="15">Nenhum post com esses filtros.</td></tr>`}</tbody>`;
+    S.map(p=>`<tr><td class="l">${dBR(p.date)} ${p.ts.slice(11)}</td><td class="l w"><span class="tag"><i style="background:${TYPE[p.type].c}"></i>${TYPE[p.type].one}</span><a href="${linkOf(p)}" target="_blank" rel="noopener">${p.title} ↗</a></td><td class="l"><span class="small-n">${p.theme}</span></td><td>${age(p.age_h)}</td><td>${v(p.views)}</td><td>${v(p.reach)}</td><td>${v(p.likes)}</td><td>${v(p.comments)}</td><td>${v(p.shares)}</td><td>${v(p.rate,x=>pct(x))}</td><td>${v(p.saves)}</td><td>${p.type==="R"?v(p.skip,x=>pct(x/100,0)):'<span class="small-n">n.a.</span>'}</td><td>${p.type==="R"?v(p.watch,secs):'<span class="small-n">n.a.</span>'}</td><td>${p.type==="R"?v(p.duration,x=>secs(Math.round(x))):'<span class="small-n">n.a.</span>'}</td><td>${p.type==="R"?v(p.pctw,x=>pct(x,0)):'<span class="small-n">n.a.</span>'}</td><td>${v(p.profile_visits)}</td><td>${v(p.follows)}</td></tr>`).join("")||`<tr><td class="l" colspan="17">Nenhum post com esses filtros.</td></tr>`}</tbody>`;
   $$("#tbl th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(state.sort===k)state.dir*=-1;else{state.sort=k;state.dir=["title","theme"].includes(k)?1:-1}table()});
 }
 function csv(){
-  const T=filteredPosts(),cols=["ts","type","theme","title","age_h","views","reach","likes","comments","shares","saves","reposts","profile_visits","follows","skip","watch"];
+  const T=filteredPosts(),cols=["ts","type","theme","title","age_h","views","reach","likes","comments","shares","saves","reposts","profile_visits","follows","skip","watch","duration","pctw"];
   const esc=x=>x==null?"":/[",\n;]/.test(String(x))?`"${String(x).replace(/"/g,'""')}"`:String(x);
   const body=[cols.concat("link").join(","),...T.map(p=>cols.map(c=>esc(c==="type"?TYPE[p.type].one:p[c])).concat(linkOf(p)).join(","))].join("\n");
   const a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["﻿"+body],{type:"text/csv;charset=utf-8"}));a.download=`posts-rogerrio-${state.range}d.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);
 }
 
 function renderLimits(){
-  const L=[["Perdas de seguidores por dia","A fonte só entrega o total de 30 dias. A série diária é calculada pela diferença entre coletas diárias, a partir do início da coleta."],
-    ["Total de seguidores ao fim de cada dia","Registrado a cada coleta (por volta das 5h), sem histórico anterior."],
-    ["Visitas ao perfil da conta por dia","Não existe na fonte. O campo \"profile views\" é soma de visualizações de conteúdo, não visitas à página do perfil."],
-    ["Curtidas, comentários, compartilhamentos e salvamentos da conta por dia","Não existe na fonte. Disponível apenas por post (exibido por dia de publicação) e contas com interação por dia."],
-    ["Visitas ao perfil e seguidores atribuídos a Reels","A fonte só fornece esses campos para imagens e carrosséis."],
-    ["Duração, percentual assistido, conclusão e curva de retenção dos Reels","Não existe na fonte; aparecem apenas no app. Por isso não há filtro por duração."],
-    ["Resultados em 24h, 72h, 7d e 30d","A fonte só dá o total atual. As janelas são montadas pelas coletas diárias; posts antigos têm no máximo uma leitura."],
-    ["Perfil das pessoas alcançadas","A fonte informa idade, gênero e cidade apenas dos seguidores."],
+  const L=[["Resolvido pela API do Instagram","Curtidas, comentários, compartilhamentos e salvamentos da conta por dia; seguidores ganhos e perdidos por dia; duração dos Reels e percentual médio assistido (calculado)."],
+    ["Total de seguidores ao fim de cada dia","Não há histórico na fonte. É registrado a cada coleta desde o início do painel."],
+    ["Visitas ao perfil da conta por dia","Não existe em nenhuma das fontes. O campo \"profile views\" do Supermetrics é soma de visualizações de conteúdo, não visitas à página do perfil."],
+    ["Visitas ao perfil e seguidores atribuídos a Reels","As fontes só fornecem esses campos para imagens e carrosséis."],
+    ["Taxa de conclusão e curva de retenção dos Reels","Não existem em nenhuma API; aparecem apenas no app do Instagram."],
+    ["Resultados em 24h, 72h, 7d e 30d","As fontes dão só o total atual. As janelas são montadas pelas coletas diárias; posts antigos têm no máximo uma leitura."],
+    ["Perfil das pessoas alcançadas e engajadas","A API do público engajado foi consultada, mas não retornou dados para esta conta. Idade, gênero e cidade continuam disponíveis só para seguidores."],
     ["Tema dos posts","Não existe na fonte. Classificação automática por palavras-chave da legenda."],
-    ["Carrosséis no período","Formato suportado no painel; aparece quando houver publicações."]];
+    ["Interações por dia: até 30 dias","A API libera os 30 dias mais recentes; o histórico cresce a cada coleta diária."]];
   $("#limits").innerHTML=L.map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join("");
 }
 
@@ -766,7 +794,7 @@ function seg(id,key,num){$$(`#${id} button`).forEach(b=>b.onclick=()=>{$$(`#${id
 fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{D=d;prep();
   const types=["I","R","C"].filter(t=>ALL.some(p=>p.type===t));
   $("#f-type").innerHTML=`<button data-v="all" aria-pressed="true">Todos</button>`+types.map(t=>`<button data-v="${t}">${TYPE[t].name}</button>`).join("");
-  seg("f-range","range",true);seg("f-type","type");
+  seg("f-range","range",true);seg("f-type","type");seg("f-imetric","imetric");
   $("#q").oninput=e=>{state.q=e.target.value;table()};$("#t-theme").onchange=e=>{state.theme=e.target.value;table()};$("#csv").onclick=csv;$("#more").onclick=()=>{state.showAll=true;table()};
   const u=new Date(d.updated);
   $("#updated").textContent=`Última coleta: ${u.toLocaleDateString("pt-BR")} às ${u.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · dados da conta até ${dBR(d.period.end)}`;

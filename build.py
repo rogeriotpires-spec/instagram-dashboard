@@ -107,7 +107,25 @@ for r in rows("reels"):
     code, w, s, mins = r[0], r[1], num(r[2]), num(r[3])
     if not code or w in (None, "", "null") or s is None: continue
     mm, ss = str(w).split(":")[-2:]
-    reels[code] = [int(mm) * 60 + int(ss), s, mins]
+    reels[code] = [int(mm) * 60 + int(ss), s, mins, None, None]
+
+# ---------- API direta do Instagram (GitHub Actions grava raw/ig_api.json) ----------
+try: ig = load(P("raw", "ig_api.json"))
+except Exception: ig = {}
+for code, r in (ig.get("reels") or {}).items():
+    dur, ms = r.get("duration_s"), r.get("ig_reels_avg_watch_time")
+    if code not in reels:
+        if ms is None: continue
+        reels[code] = [round(ms / 1000), None, None, None, None]
+    reels[code][3] = dur
+    if dur and ms is not None: reels[code][4] = round(min(ms / 1000 / dur, 1.5), 4)
+api_days = sorted((ig.get("daily") or {}))
+hist.setdefault("daily_api", {})
+for d in api_days:
+    r = dict(ig["daily"][d])
+    if d == api_days[-1] and not r.get("follows") and not r.get("unfollows"):
+        r["follows"] = r["unfollows"] = None  # dia ainda não processado pela fonte
+    hist["daily_api"][d] = r
 
 # ---------- conta ----------
 acc = rows("account")[0]
@@ -142,7 +160,13 @@ for d in days:
     prev_total = fol_by_day.get(d)
     net = total - prev_total if total is not None and prev_total is not None else None
     lost = newf - net if net is not None and newf is not None else None
-    daily.append([d, reach, views, eng, rep, repl, newf, total, net, lost])
+    api = hist.get("daily_api", {}).get(d, {})
+    if api.get("unfollows") is not None:
+        lost = api["unfollows"]
+        g = newf if newf is not None else api.get("follows")
+        net = g - lost if g is not None else net
+    daily.append([d, reach, views, eng, rep, repl, newf, total, net, lost,
+                  api.get("likes"), api.get("comments"), api.get("shares"), api.get("saves"), api.get("total_interactions"), api.get("follows")])
 
 fu = {r[0]: num(r[1]) for r in rows("follows_unfollows")}
 ft = {r[0]: {"reach": num(r[1]), "views": num(r[2])} for r in rows("follow_types")}
@@ -170,8 +194,9 @@ data = {
     "period": {"start": min((p[0][:10] for p in posts), default=None), "end": yesterday.isoformat()},
     "columns": COLS, "posts": posts,
     "themes": THEMES,
-    "reels_columns": ["avg_watch_s", "skip_rate", "minutes_viewed"], "reels": reels,
-    "daily_columns": ["date", "reach", "views", "accounts_engaged", "reposts", "replies", "new_followers", "followers_total", "net", "lost"],
+    "reels_columns": ["avg_watch_s", "skip_rate", "minutes_viewed", "duration_s", "pct_watched"], "reels": reels,
+    "daily_columns": ["date", "reach", "views", "accounts_engaged", "reposts", "replies", "new_followers", "followers_total", "net", "lost", "likes", "comments", "shares", "saves", "interactions", "gained_api"],
+    "api_collected": ig.get("collected"),
     "daily": daily,
     "follows_30d": {"gained": fu.get("FOLLOWER"), "lost": fu.get("NON_FOLLOWER"), "end": yesterday.isoformat(), "start": (yesterday - timedelta(days=29)).isoformat()},
     "reach_by_follow_type_30d": {"non_follower": ft.get("NON_FOLLOWER"), "follower": ft.get("FOLLOWER")},
