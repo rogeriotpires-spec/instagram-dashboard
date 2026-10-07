@@ -2,7 +2,8 @@ name: Gerar pauta sob demanda
 
 on:
   workflow_dispatch:
-  # issues: [opened] é ligado quando o token CLAUDE_CODE_OAUTH_TOKEN estiver configurado
+  issues:
+    types: [opened]
 
 permissions:
   contents: write

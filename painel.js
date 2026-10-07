@@ -3,7 +3,7 @@
    Sem ele, o botão abre a página do GitHub como antes. */
 window.Painel = (() => {
   const API = "https://painel.rogeriotpires.workers.dev"; // intermediário na Cloudflare
-  const CLAUDE = false;    // true quando o token da assinatura estiver no GitHub
+  const CLAUDE = true;     // token da assinatura configurado no GitHub
   const REPO = "rogeriotpires-spec/instagram-dashboard";
   const GH = `https://api.github.com/repos/${REPO}`;
   const ls = {
