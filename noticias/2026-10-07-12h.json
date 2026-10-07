@@ -1,0 +1,466 @@
+{
+  "generated": "2026-10-07T12:05:00-03:00",
+  "headline": "Às vésperas do julgamento do TSE sobre o Rio, Flávio formaliza o apoio do centrão e defende mudar a Constituição, Lula fecha a estratégia do 2º turno e Moraes arquiva inquérito contra aliados de Bolsonaro.",
+  "top": [
+    "apoio-centrao-flavio",
+    "dolar-abaixo-5",
+    "garotinho-tse-governo-rj",
+    "lula-reorganiza-campanha",
+    "pec-6x1-senado"
+  ],
+  "items": [
+    {
+      "id": "apoio-centrao-flavio",
+      "segment": "politica",
+      "title": "União Brasil e PP oficializam em evento o apoio a Flávio Bolsonaro no 2º turno",
+      "summary": "A federação União Progressista, de União Brasil e PP, fez nesta quarta (7) o ato de apoio a Flávio Bolsonaro no 2º turno, um dia depois de anunciar a adesão, e se soma a Ronaldo Caiado, que declarou apoio na terça (6) em Goiânia. Flávio defendeu os novos aliados dizendo que \"são os que têm voto\" e que representam vários segmentos da população em seus estados. O vice-presidente do União Brasil, ACM Neto, afirmou que todos estarão \"motivados, mobilizados e trabalhando pela campanha de Flávio\". No mesmo evento, Flávio atacou o governo Lula citando \"recorde de morte de mulheres, recorde de pessoas endividadas, recorde de imposto alto\", enquanto a CartaCapital destacou que a aliança se apoia na defesa da anistia aos condenados pelo 8 de Janeiro. O PSD de Gilberto Kassab segue neutro, e o Novo e o Republicanos negociam a formalização da adesão.",
+      "scores": {
+        "cobertura": 9,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 9.2,
+      "outlets": [
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/federacao-uniao-progressista-anuncia-apoio-a-flavio/",
+          "camp": "direita",
+          "position": "manchete"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/uniao-progressista-oficializa-apoio-a-flavio-bolsonaro-no-2o-turno",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/caiado-promete-maior-vitoria-a-flavio-em-goias-no-2o-turno/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/caiado-oficializa-apoio-a-flavio-no-segundo-turno-em-evento-em-goiania/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/uniao-brasil-e-pp-anunciam-apoio-a-flavio-bolsonaro-no-segundo-turno/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/federacao-uniao-brasil-e-pp-declara-apoio-a-flavio-bolsonaro/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/politica/pp-e-uniao-brasil-anunciam-apoio-a-flavio-bolsonaro-no-2o-turno/",
+          "camp": "esquerda",
+          "position": "secundario"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasil/pp-e-uniao-brasil-anunciam-apoio-a-flavio-bolsonaro-no-segundo-turno-2/",
+          "camp": "esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "dolar-abaixo-5",
+      "segment": "economia",
+      "title": "Dólar volta a rondar R$ 5 e Ibovespa oscila em 205 mil pontos à espera da ata do Fed",
+      "summary": "Depois de fechar a R$ 4,97 na terça (6), o menor valor desde maio, o dólar subia nesta quarta (7) e era negociado perto de R$ 4,99 no fim da manhã. O Ibovespa recuava entre 0,15% e 0,36%, na casa dos 205 mil pontos, com o rali que se seguiu ao 1º turno perdendo força. O mercado aguarda a ata do Federal Reserve, às 15h, que detalha a decisão de subir os juros nos Estados Unidos pela primeira vez desde 2023. O petróleo Brent passa de US$ 100 o barril com os ataques dos houthis à Arábia Saudita, o que aumenta a aversão a risco no exterior. Analistas ouvidos pela CNN ponderam que a sustentação da alta dos ativos brasileiros depende de sinais concretos na área fiscal até o 2º turno.",
+      "scores": {
+        "cobertura": 9,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 9.2,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-7-outubro-2026/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-07102026/",
+          "camp": "centro",
+          "position": "manchete"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-pela-primeira-vez-desde-maio",
+          "camp": "estatal",
+          "position": "topo"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/dolar-cai-051-e-fecha-a-r-4976-ibovespa-recua-053/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/dolar-nesta-terca",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/economia/um-dia-depois-do-flavio-day-dolar-cai-abaixo-de-r-5-e-bolsa-opera-estavel/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/economia/bolsa-dolar-seguem-otimismo-segundo-dia-apos-lideranca-flavio/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/economia/dolar-segue-em-queda-apos-1-turno-das-eleicoes/",
+          "camp": "esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "garotinho-tse-governo-rj",
+      "segment": "rio",
+      "title": "TSE julga nesta quinta caso Garotinho, que pode dar vitória a Ruas no 1º turno",
+      "summary": "O plenário do TSE julga nesta quinta (8), às 10h, o pedido de Anthony Garotinho para desistir do recurso contra a anulação de seus votos, decisão que define se haverá 2º turno para o governo do Rio. Douglas Ruas (PL) teve 49,27% dos votos válidos e Eduardo Paes (PSD) 42,76%, e se os 274.411 votos de Garotinho (3,17%) forem excluídos, Ruas chega a cerca de 50,89% e vence no 1º turno. Garotinho teve a candidatura barrada pelo TRE do Rio por uma condenação por improbidade de 2018, e o ministro Floriano de Azevedo Marques revogou sua liminar em 2 de outubro. O Ministério Público Eleitoral é favorável à desistência, enquanto a coligação de Paes e o PSOL pediram ao TSE que mantenha os votos na conta, e Paes chamou o caso de \"armação\". Se o TSE rejeitar a desistência, o 2º turno entre Ruas e Paes fica mantido para 25 de outubro.",
+      "scores": {
+        "cobertura": 9,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 9.2,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://diariodorio.com/politica/2026/10/06/tse-inclui-recurso-de-garotinho-na-pauta-de-quinta-feira-e-pode-definir-eleicao-para-governador-do-rio.html",
+          "camp": "rio",
+          "position": "manchete"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/mpe-e-favoravel-a-desistencia-de-recurso-de-garotinho-no-tse/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/mpe-defende-desistencia-de-garotinho-que-pode-dar-vitoria-a-ruas-no-rj/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/rj-mpe-e-favoravel-desistencia-de-recurso-de-garotinho-no-tse",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/mpe-apoia-desistencia-de-garotinho-e-ruas-pode-vencer-no-1o-turno/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/brasil/pedido-de-garotinho-sera-analisado-pelo-tse-nesta-quinta-feira/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/sudeste/psol-aciona-tse-contra-retirada-de-recurso-de-garotinho-e-defende-que-votos-sejam-considerados/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/rio-2o-turno-entre-ruas-e-paes-depende-de-decisao-do-tse-sobre-garotinho",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "lula-reorganiza-campanha",
+      "segment": "politica",
+      "title": "Lula define estados prioritários e reforço nas redes para tentar virar o 2º turno",
+      "summary": "Lula se reuniu nesta quarta (7) em Brasília com José Guimarães, Randolfe Rodrigues, Anielle Franco e deputados eleitos como Pedro Rousseff e Rick Azevedo para fechar a estratégia do 2º turno contra Flávio Bolsonaro, que terminou o 1º turno à frente por 47,03% a 45,16%. O plano tem três eixos: desgastar a imagem do adversário, mobilizar a militância e concentrar esforços em estados estratégicos. A campanha avalia que é possível crescer de 2 a 4 pontos no Ceará, Maranhão, Pernambuco e Bahia e quer reduzir a diferença em São Paulo e Minas Gerais. Camilo Santana assumiu a coordenação geral ao lado de Edinho Silva, e a ordem é ampliar a presença nas redes e comparar os governos de Lula e de Jair Bolsonaro. As viagens recomeçam no fim de semana pelo Rio Grande do Norte, e o primeiro debate do 2º turno é na Record, em 11 de outubro.",
+      "scores": {
+        "cobertura": 7,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 8.5,
+      "outlets": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/lula-reuniao-articulacao-campanha",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/mirando-2o-turno-lula-endurece-discurso-contra-flavio/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasil/lula-reforca-comando-da-campanha-com-camilo-santana-e-amplia-papel-de-mercadante/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/lula-e-flavio-terao-tres-debates-no-2o-turno/",
+          "camp": "direita",
+          "position": "topo"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/vai-ter-debate-no-2o-turno-confira-possiveis-encontros-entre-flavio-e-lula/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "pec-6x1-senado",
+      "segment": "politica",
+      "title": "Senado faz 2ª sessão de discussão da PEC do fim da escala 6x1",
+      "summary": "O Senado realiza nesta quarta (7) a segunda das cinco sessões de discussão exigidas para a PEC que acaba com a escala 6x1 e reduz a jornada máxima de 44 para 40 horas semanais, com uma etapa intermediária de 42 horas. O relatório de Omar Aziz mantém o texto aprovado pela Câmara, e Davi Alcolumbre projetou a votação em 1º turno para 21 de outubro, antes da eleição de 25 de outubro. Na sessão de terça (6), governistas dominaram os discursos, e a presença do PL foi reduzida, com seis senadores do partido registrando presença ao longo da sessão. O PL de Flávio Bolsonaro defende que o tema só seja discutido depois da eleição, enquanto o governo trata a PEC como bandeira de campanha de Lula. A proposta precisa de 49 votos em cada um dos dois turnos no plenário, e há nova sessão de discussão marcada para quinta (8).",
+      "scores": {
+        "cobertura": 6,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 8.2,
+      "outlets": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/",
+          "camp": "centro",
+          "position": "manchete"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/alcolumbre-sinaliza-votacao-da-pec-do-fim-da-6x1-na-proxima-semana/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/politica/alcolumbre-preve-1a-votacao-da-pec-do-fim-da-escala-6x1-na-semana-que-vem/",
+          "camp": "esquerda",
+          "position": "secundario"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasilia/escala-6x1-coloca-direita-em-saia-justa-no-senado/",
+          "camp": "esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "CartaCapital e Brasil 247 seguem dando a tramitação e a ausência do PL nas sessões; Revista Oeste, Gazeta do Povo e Jovem Pan não destacaram as sessões de discussão nesta janela."
+      }
+    },
+    {
+      "id": "moraes-acenos-bolsonarismo",
+      "segment": "politica",
+      "title": "Moraes arquiva inquérito contra Do Val e blogueiros e autoriza semiaberto para Débora do Batom",
+      "summary": "O ministro Alexandre de Moraes arquivou o inquérito contra o senador Marcos do Val e os influenciadores Allan dos Santos, Oswaldo Eustáquio e Ednardo Raposo, investigados por intimidação e exposição de policiais federais e ministros do STF, depois de a PGR concluir que as provas não sustentavam denúncia. A decisão extingue as medidas cautelares do caso, e Eustáquio disse ao Metrópoles que prepara a volta ao Brasil. Moraes também autorizou a progressão para o semiaberto de Débora Rodrigues, a Débora do Batom, condenada a 14 anos pelo 8 de Janeiro, com remição de 212 dias por trabalho, leitura e aprovação no Enem PPL, mantendo a prisão domiciliar. O ministro ainda pediu parecer da PGR sobre o pedido para Flávio Bolsonaro voltar a visitar o pai, e Paulo Gonet não se opôs, já que a restrição de 90 dias termina em 11 de outubro. A CNN Brasil contou quatro sinais de Moraes e Gilmar Mendes ao bolsonarismo em 48 horas, incluindo o arquivamento do caso contra Alfredo Gaspar, vice de Flávio.",
+      "scores": {
+        "cobertura": 7,
+        "destaque": 8,
+        "persistencia": 7,
+        "peso_voce": 10
+      },
+      "score": 7.9,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/moraes-e-gilmar-mandam-quatro-sinais-em-48h-ao-bolsonarismo/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-autoriza-semiaberto-para-debora-do-batom-condenada-pelo-8-1",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/moraes-autoriza-semiaberto-debora-batom/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/moraes-pede-parecer-da-pgr-sobre-visita-de-flavio-ao-pai/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário do Poder",
+          "url": "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/moraes-consulta-pgr-sobre-visita-de-flavio-a-bolsonaro",
+          "camp": "direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "operacao-magen-tcp",
+      "segment": "seguranca",
+      "title": "PF prende policiais e ex-policiais suspeitos de vender fuzis ao TCP no Rio",
+      "summary": "A Polícia Federal e o Ministério Público do Rio deflagraram nesta quarta (7) a Operação Magen, com 7 mandados de prisão preventiva e 18 de busca em cidades como Rio, Nova Iguaçu, Angra dos Reis e Seropédica. O grupo, formado por um policial civil, um policial militar e ex-policiais, é suspeito de vender fuzis, pistolas e munições ao Terceiro Comando Puro, facção que controla o Complexo de Israel, na zona norte do Rio. Segundo a investigação, foram entregues 10 fuzis AR-15 diretamente à liderança da facção, chefiada por Álvaro Malaquias Santa Rosa, o Peixão, que segue foragido. Os investigados também são suspeitos de consultar sistemas restritos para avisar criminosos sobre mandados e operações, e de movimentar mais de R$ 100 milhões em quatro anos por meio de empresas de fachada. Até o fim da manhã, cinco pessoas haviam sido presas, e os alvos respondem por organização criminosa, tráfico de armas, violação de sigilo, agiotagem e lavagem de dinheiro.",
+      "scores": {
+        "cobertura": 5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.2,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-investiga-ligacao-de-policiais-com-faccao-criminosa",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-mira-tcp-por-venda-de-fuzis-e-lavagem-de-mais-de-r-100-milhoes-no-rj/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/brasil/pf-prende-pms-suspeitos-de-vender-armas-ao-tcp-faccao-no-rj/",
+          "camp": "direita",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "flavio-mudar-constituicao",
+      "segment": "politica",
+      "title": "Flávio diz que usará maioria no Congresso para mudar a Constituição e detalha propostas",
+      "summary": "Flávio Bolsonaro afirmou na terça (6), em Goiás, que \"temos maioria no Senado e na Câmara para a gente mudar a Constituição\", depois de o PL eleger 121 deputados e chegar a 28 senadores. Nesta quarta (7), diante da repercussão, ele disse que se referia a emendas já anunciadas: reforma do Judiciário e do STF, redução da maioridade penal, ajustes na reforma tributária e fim da reeleição. Flávio afirmou que não vai concorrer à reeleição em 2030 para \"dar o exemplo\" e que deixará ao Congresso a discussão sobre a duração dos mandatos. Uma emenda constitucional exige 308 votos na Câmara e 49 no Senado, em dois turnos, e não pode abolir cláusulas pétreas como o voto direto e a separação de Poderes. Na esquerda, o Brasil 247 destacou a frase original sem as propostas, enquanto a Gazeta do Povo publicou o detalhamento feito por Flávio.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.1,
+      "outlets": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-maioria-congresso-pode-alterar-pontos-constituicao/",
+          "camp": "direita",
+          "position": "topo"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasil/flavio-bolsonaro-diz-que-se-eleito-vai-usar-maioria-no-congresso-para-mudar-a-constituicao/",
+          "camp": "esquerda",
+          "position": "topo"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "petroleo-100-oriente-medio",
+      "segment": "internacional",
+      "title": "Petróleo passa de US$ 100 com ataques dos houthis à Arábia Saudita",
+      "summary": "O petróleo Brent era negociado a cerca de US$ 101 o barril nesta quarta (7), em alta de 0,69% sobre o fechamento anterior de US$ 100,58. A alta acompanha os ataques com mísseis e drones dos houthis, do Iêmen, contra aeroportos da Arábia Saudita, um dos maiores exportadores do mundo. O conflito entre Estados Unidos e Irã, iniciado em fevereiro, mantém o risco sobre o Estreito de Ormuz, por onde passam de 20% a 30% do petróleo comercializado no mundo. Uma tempestade que afeta a produção nos Estados Unidos também pressiona os preços, segundo a CNN Brasil. A alta do combustível se soma à expectativa pela ata do Federal Reserve e pesa sobre os mercados emergentes, incluindo o Brasil.",
+      "scores": {
+        "cobertura": 5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.3,
+      "outlets": [
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/mundo/petroleo-volta-a-superar-us-100-com-novas-tensoes-no-oriente-medio/",
+          "camp": "direita",
+          "position": "secundario"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-7-outubro-2026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-07102026/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    }
+  ]
+}
