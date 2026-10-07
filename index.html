@@ -12,16 +12,15 @@
   color-scheme:light;
   --bg:#f3f2ee; --surface:#fcfcfb; --surface-2:#f6f5f1; --border:#e3e1da;
   --text:#0b0b0b; --text-2:#52514e; --muted:#85847e; --grid:#ebe9e3;
-  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#4a3aa7;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#4a3aa7; --s5:#eda100;
   --good:#0f7a4c; --good-bg:#e5f4ec; --warn:#9a5b00; --warn-bg:#fbf0dc; --bad:#b4302f; --bad-bg:#fbe6e5;
-  --ink:#0d1b2e;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     color-scheme:dark;
     --bg:#111110; --surface:#1a1a19; --surface-2:#222220; --border:#2f2f2c;
     --text:#ffffff; --text-2:#c3c2b7; --muted:#8f8e86; --grid:#2a2a27;
-    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9085e9;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9085e9; --s5:#c98500;
     --good:#4cc28a; --good-bg:#16291f; --warn:#e3a43c; --warn-bg:#2d2414; --bad:#ef7b7a; --bad-bg:#311a1a;
   }
 }
@@ -29,131 +28,152 @@
   color-scheme:dark;
   --bg:#111110; --surface:#1a1a19; --surface-2:#222220; --border:#2f2f2c;
   --text:#ffffff; --text-2:#c3c2b7; --muted:#8f8e86; --grid:#2a2a27;
-  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9085e9;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9085e9; --s5:#c98500;
   --good:#4cc28a; --good-bg:#16291f; --warn:#e3a43c; --warn-bg:#2d2414; --bad:#ef7b7a; --bad-bg:#311a1a;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:64px}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
-
-/* HERO */
 .hero{position:relative;color:#fff;background:#0d1b2e url(capa.jpg) center 40%/cover no-repeat;isolation:isolate}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,16,30,.35) 0%,rgba(8,16,30,.72) 55%,rgba(8,16,30,.94) 100%);z-index:-1}
 .hero-in{max-width:1180px;margin:0 auto;padding:56px 16px 28px;display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:end}
 .avatar{width:128px;height:128px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,.9);box-shadow:0 10px 30px rgba(0,0,0,.35)}
 .who .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.75;font-weight:600}
 .who h1{font:700 40px/1.05 Fraunces,Georgia,serif;margin:6px 0 6px;letter-spacing:-.01em}
-.who .handle{display:flex;align-items:center;gap:8px;font-size:15px;opacity:.92;flex-wrap:wrap}
+.who .handle{display:flex;align-items:center;gap:8px;font-size:15px;opacity:.92}
 .badge{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:#3b9cf6}
 .badge svg{width:11px;height:11px}
 .who .bio{font-size:14px;opacity:.78;margin-top:8px;max-width:560px}
 .hero-stats{display:flex;gap:26px;text-align:right}
 .hero-stats b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .hero-stats span{font-size:12px;opacity:.75}
-.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;opacity:.7}
-
-/* NAV */
+.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;opacity:.75}
 nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
-.nav-in{max-width:1180px;margin:0 auto;padding:10px 16px;display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;max-width:100%}
-.tabs a{white-space:nowrap;text-decoration:none;font-size:13px;font-weight:500;color:var(--text-2);padding:6px 10px;border-radius:8px}
+.nav-in{max-width:1180px;margin:0 auto;padding:10px 16px;display:flex;gap:10px 14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;max-width:100%}
+.tabs a{white-space:nowrap;text-decoration:none;font-size:13px;font-weight:500;color:var(--text-2);padding:6px 9px;border-radius:8px}
 .tabs a:hover{background:var(--surface);color:var(--text)}
 .filters{display:flex;gap:8px;flex-wrap:wrap}
 .seg{display:inline-flex;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:3px}
-.seg button{border:0;background:transparent;color:var(--text-2);font:500 13px Inter,sans-serif;padding:5px 11px;border-radius:7px;cursor:pointer}
+.seg button{border:0;background:transparent;color:var(--text-2);font:500 13px Inter,sans-serif;padding:5px 10px;border-radius:7px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--text);color:var(--surface)}
-
 .wrap{max-width:1180px;margin:0 auto;padding:24px 16px 56px}
-section.block{margin-bottom:40px}
+section.block{margin-bottom:44px}
 .sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 14px;flex-wrap:wrap}
 .sec-h h2{font:700 24px/1.15 Fraunces,Georgia,serif;margin:0;letter-spacing:-.01em}
 .sec-h p{margin:0;color:var(--text-2);font-size:13px}
 .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:12px}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px}
-.kpi .label{font-size:12px;color:var(--text-2);font-weight:500}
-.kpi .val{font-size:30px;font-weight:800;letter-spacing:-.02em;margin-top:2px;font-variant-numeric:tabular-nums}
-.kpi .note{font-size:12px;color:var(--muted);margin-top:2px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;min-width:0}
+.kpi .label{font-size:12.5px;color:var(--text-2);font-weight:600}
+.kpi .val{font-size:28px;font-weight:800;letter-spacing:-.02em;margin-top:2px;font-variant-numeric:tabular-nums}
+.kpi .note{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.4}
 .g2{display:grid;grid-template-columns:1.4fr 1fr;gap:12px;margin-bottom:12px}
 .g2e{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
 .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px}
 .card h3{font-size:15px;margin:0 0 2px;font-weight:650}
-.card .desc{font-size:12.5px;color:var(--text-2);margin:0 0 12px}
-.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--text-2);margin:-4px 0 8px}
-.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.card .desc{font-size:12.5px;color:var(--text-2);margin:0 0 10px}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;flex-wrap:wrap}
+.per{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--text-2);background:var(--surface-2);border:1px solid var(--border);padding:2px 8px;border-radius:999px;white-space:nowrap}
+.per.diff{color:var(--warn);background:var(--warn-bg);border-color:transparent}
+.per.diff::before{content:"!";font-weight:800}
+.def{font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.45}
+.def b{color:var(--text-2);font-weight:600}
+.delta{font-size:12px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
+.delta.up{color:var(--good)} .delta.down{color:var(--bad)} .delta.na{color:var(--muted);font-weight:500}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--text-2);margin:2px 0 8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.legend i.ln{height:3px;border-radius:2px;vertical-align:3px;width:14px}
+.legend i.dash{height:0;border-top:2px dashed var(--muted);background:none!important;vertical-align:3px;width:14px;border-radius:0}
 svg{display:block;width:100%;height:auto;overflow:visible}
 svg text{font:11px Inter,sans-serif;fill:var(--muted)}
-.tip{position:fixed;pointer-events:none;background:var(--text);color:var(--surface);font-size:12px;padding:8px 10px;border-radius:8px;opacity:0;transition:opacity .1s;z-index:50;max-width:280px;line-height:1.45}
+.tip{position:fixed;pointer-events:none;background:var(--text);color:var(--surface);font-size:12px;padding:8px 10px;border-radius:8px;opacity:0;transition:opacity .1s;z-index:50;max-width:290px;line-height:1.45}
 .callout{font-size:13px;color:var(--text-2);border-top:1px solid var(--border);padding-top:10px;margin-top:10px}
 .callout b{color:var(--text)}
+.empty{font-size:13px;color:var(--muted);border:1px dashed var(--border);border-radius:12px;padding:18px;text-align:center}
+.warnline{font-size:12px;color:var(--warn);margin-top:6px}
 .pick{margin-top:10px;padding:12px;border:1px dashed var(--border);border-radius:12px;font-size:13px;color:var(--text-2)}
 .pick.on{border-style:solid;background:var(--surface-2);color:var(--text)}
-.pick .btn{display:inline-block;margin-top:8px;background:var(--text);color:var(--surface);text-decoration:none;font-weight:600;padding:7px 12px;border-radius:9px}
-
-/* split bar */
+.btn{display:inline-block;margin-top:8px;background:var(--text);color:var(--surface);text-decoration:none;font-weight:600;padding:7px 12px;border-radius:9px;border:0;font-size:13px;cursor:pointer}
+.btn.ghost{background:var(--surface);color:var(--text);border:1px solid var(--border)}
 .split{display:flex;height:14px;border-radius:5px;overflow:hidden;gap:2px;margin:12px 0 8px}
-.split div{height:100%}
-
-/* ANALYSIS */
+.today{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:12px}
+/* funnel */
+.funnel{display:flex;flex-direction:column;gap:6px}
+.fstep{display:grid;grid-template-columns:150px 1fr 110px;gap:10px;align-items:center;font-size:13px}
+.fstep .bar{height:26px;border-radius:6px;background:var(--s1);min-width:3px}
+.fstep.na .bar{background:repeating-linear-gradient(45deg,var(--grid),var(--grid) 6px,transparent 6px,transparent 12px);border:1px dashed var(--border)}
+.fstep b{font-variant-numeric:tabular-nums}
+.frate{font-size:12px;color:var(--text-2);padding-left:160px}
+.frate b{color:var(--text)}
+/* calendar */
+.cal{display:grid;grid-template-columns:28px repeat(7,1fr);gap:4px;font-size:11px}
+.cal .dh{color:var(--muted);text-align:center;font-weight:600}
+.cal .wk{color:var(--muted);font-size:10px;display:flex;align-items:center}
+.cell{min-height:44px;border-radius:8px;background:var(--surface-2);border:1px solid var(--border);padding:4px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;position:relative}
+.cell.out{opacity:.35;cursor:default}
+.cell .dn{font-size:10px;color:var(--muted)}
+.cell .dots{display:flex;flex-wrap:wrap;gap:2px}
+.cell .dots i{width:7px;height:7px;border-radius:2px}
+.cell.sel{outline:2px solid var(--text)}
+/* tables */
+table.t{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.t th,.t td{padding:9px 8px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
+.t th.l,.t td.l{text-align:left}
+.t td.w{white-space:normal;min-width:200px}
+.t th{font-size:11px;color:var(--text-2);text-transform:uppercase;letter-spacing:.04em;font-weight:600}
+.t.sort th{cursor:pointer;user-select:none}
+.t th.on{color:var(--text)}
+.t td a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--border)}
+.small-n{color:var(--muted)}
+.tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 7px;border-radius:6px;border:1px solid var(--border);color:var(--text-2);margin-right:4px;white-space:nowrap}
+.tag i{display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:5px}
+.tablewrap{overflow-x:auto}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;align-items:center}
+.toolbar input,.toolbar select{font:13px Inter,sans-serif;padding:7px 10px;border-radius:9px;border:1px solid var(--border);background:var(--surface);color:var(--text)}
+.toolbar input{flex:1;min-width:160px}
+.more{margin-top:12px;text-align:center}
+/* analysis */
 .ins-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 .ins{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px}
 .ins-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .ins h3{margin:0;font-size:16px;font-weight:700}
-.pill{font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;white-space:nowrap;display:inline-flex;align-items:center;gap:5px}
-.pill.good{background:var(--good-bg);color:var(--good)} .pill.warn{background:var(--warn-bg);color:var(--warn)} .pill.bad{background:var(--bad-bg);color:var(--bad)}
+.pill{font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.pill.good{background:var(--good-bg);color:var(--good)} .pill.warn{background:var(--warn-bg);color:var(--warn)} .pill.bad{background:var(--bad-bg);color:var(--bad)} .pill.neutral{background:var(--surface-2);color:var(--text-2)}
 .ins .diag{font-size:14px;color:var(--text-2);margin:0}
 .ins .diag b{color:var(--text)}
 .ins ol{margin:0;padding-left:20px;font-size:14px}
 .ins li{margin:5px 0}
-.ins li::marker{color:var(--muted);font-weight:600}
 .metric-row{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
-.metric-row b{display:block;font-size:20px;color:var(--text);font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
-
-/* plan */
+.metric-row b{display:block;font-size:20px;color:var(--text);font-weight:800;font-variant-numeric:tabular-nums}
 .plan{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
 .day{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:12px;font-size:13px}
 .day h4{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-2)}
 .slot{border-left:3px solid var(--s1);padding:2px 0 2px 8px;margin:6px 0;line-height:1.35}
 .slot small{display:block;color:var(--muted);font-size:11px}
 .slot.r{border-color:var(--s2)} .slot.c{border-color:var(--s4)} .slot.s{border-color:var(--s3)}
-
-/* BENCH */
-.bench{width:100%;border-collapse:collapse;font-size:14px}
-.bench th,.bench td{padding:12px 10px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
-.bench th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-2);font-weight:600}
-.bench td.n{font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}
-.bench td small{color:var(--muted);display:block;font-size:12px;font-weight:400}
-.sources{font-size:12.5px;color:var(--text-2);margin-top:14px;columns:2;column-gap:24px}
-.sources a{display:block;margin:3px 0;text-decoration:none;border-bottom:1px dotted var(--border);width:fit-content}
-
-/* TABLE */
-table.posts{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
-.posts th,.posts td{padding:9px 8px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
-.posts th:nth-child(-n+2),.posts td:nth-child(-n+2){text-align:left}
-.posts td.t{white-space:normal;min-width:220px}
-.posts th{font-size:11px;color:var(--text-2);text-transform:uppercase;letter-spacing:.04em;font-weight:600;cursor:pointer;user-select:none}
-.posts th.on{color:var(--text)}
-.posts td a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--border)}
-.tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 7px;border-radius:6px;border:1px solid var(--border);color:var(--text-2);margin-right:4px}
-.tag i{display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:5px}
-.tablewrap{overflow-x:auto}
-.more{margin-top:12px;text-align:center}
-.more button{border:1px solid var(--border);background:var(--surface);color:var(--text);font:500 13px Inter,sans-serif;padding:8px 16px;border-radius:10px;cursor:pointer}
+.limits{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 20px;font-size:13px}
+.limits div{padding:8px 0;border-bottom:1px solid var(--border)}
+.limits b{display:block}
+.limits span{color:var(--text-2);font-size:12.5px}
+.sources{font-size:12.5px;color:var(--text-2);margin-top:14px}
+.sources a{text-decoration:none;border-bottom:1px dotted var(--muted)}
 footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padding-top:16px}
-
 @media (max-width:900px){
   .hero-in{grid-template-columns:auto 1fr;padding-top:40px}
   .hero-stats{grid-column:1/-1;justify-content:flex-start;text-align:left}
   .kpis{grid-template-columns:repeat(2,1fr)}
-  .g2,.g2e,.g3,.ins-grid{grid-template-columns:1fr}
+  .today{grid-template-columns:repeat(2,1fr)}
+  .g2,.g2e,.g3,.ins-grid,.limits{grid-template-columns:1fr}
   .plan{grid-template-columns:repeat(2,1fr)}
-  .sources{columns:1}
+  .fstep{grid-template-columns:110px 1fr 84px}.frate{padding-left:0}
 }
 @media (max-width:520px){
   .avatar{width:84px;height:84px}
   .who h1{font-size:28px}
   .hero-stats{gap:18px}.hero-stats b{font-size:20px}
   .kpi .val{font-size:22px}
+  .cell{min-height:36px}
 }
 </style>
 </head>
@@ -176,220 +196,227 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 <nav>
   <div class="nav-in">
     <div class="tabs">
-      <a href="#visao">Visão geral</a><a href="#conteudo">Conteúdo</a><a href="#reels">Reels</a><a href="#publico">Público</a><a href="#analise">Análise e sugestões</a><a href="#benchmark">Benchmark</a><a href="#posts">Posts</a>
+      <a href="#diario">Diário</a><a href="#visao">Visão geral</a><a href="#conversao">Conversão</a><a href="#vida">Vida do post</a><a href="#conteudo">Conteúdo</a><a href="#reels">Reels</a><a href="#temas">Temas</a><a href="#publico">Público</a><a href="#analise">Análise</a><a href="#benchmark">Benchmark</a><a href="#posts">Posts</a>
     </div>
     <div class="filters">
-      <div class="seg" id="f-range" role="group" aria-label="Período"><button data-v="30">30d</button><button data-v="60">60d</button><button data-v="90" aria-pressed="true">90d</button></div>
-      <div class="seg" id="f-type" role="group" aria-label="Formato"><button data-v="all" aria-pressed="true">Todos</button><button data-v="I">Imagens</button><button data-v="R">Reels</button></div>
+      <div class="seg" id="f-range" role="group" aria-label="Período"><button data-v="7">7d</button><button data-v="30" aria-pressed="true">30d</button><button data-v="60">60d</button><button data-v="90">90d</button></div>
+      <div class="seg" id="f-type" role="group" aria-label="Formato"></div>
     </div>
   </div>
 </nav>
 
 <main class="wrap">
 
-  <section class="block" id="visao">
-    <div class="sec-h"><h2>Visão geral</h2><p id="period-label"></p></div>
-    <div class="kpis" id="kpis"></div>
-    <div class="g2">
-      <div class="card">
-        <h3>Alcance diário da conta</h3>
-        <p class="desc">Contas únicas alcançadas por dia nos últimos 30 dias</p>
-        <div id="c-daily"></div>
-      </div>
-      <div class="card">
-        <h3>Novos seguidores por semana</h3>
-        <p class="desc">A API do Instagram libera só os últimos 30 dias</p>
-        <div id="c-follow"></div>
-      </div>
+  <section class="block" id="diario">
+    <div class="sec-h"><h2>Acompanhamento diário</h2><p id="daily-sub">Métricas da conta por dia (data de Brasília)</p></div>
+    <div class="today" id="today"></div>
+    <div class="g2e">
+      <div class="card"><div class="head"><h3>Alcance da conta por dia</h3><span class="per" data-per="daily"></span></div><p class="desc">Contas únicas alcançadas em cada dia. Não somar dias: a mesma pessoa pode aparecer em vários.</p><div class="legend"><span><i class="ln" style="background:var(--s1)"></i>Por dia</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-reach"></div></div>
+      <div class="card"><div class="head"><h3>Views recebidas pela conta por dia</h3><span class="per" data-per="daily"></span></div><p class="desc">Visualizações de todo o conteúdo (posts, Reels e Stories) registradas em cada dia, inclusive de posts antigos.</p><div class="legend"><span><i class="ln" style="background:var(--s4)"></i>Por dia</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-views"></div></div>
     </div>
+    <div class="g2e">
+      <div class="card"><div class="head"><h3>Novos seguidores por dia</h3><span class="per" data-per="followers"></span></div><p class="desc">Ganho bruto (contas que começaram a seguir). A fonte libera só os últimos 30 dias.</p><div class="legend"><span><i style="background:var(--s3)"></i>Ganhos</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-follow"></div><div id="d-follow-note"></div></div>
+      <div class="card"><div class="head"><h3>Ganhos, perdas e saldo</h3><span class="per" data-per="fixed30"></span></div><p class="desc">Totais da fonte para os últimos 30 dias. A série diária de perdas e do total de seguidores é montada a partir das coletas diárias.</p><div id="d-net"></div></div>
+    </div>
+    <div class="g2e">
+      <div class="card"><div class="head"><h3>Contas com interação por dia</h3><span class="per" data-per="daily"></span></div><p class="desc">Contas que curtiram, comentaram, compartilharam, salvaram ou responderam em cada dia.</p><div class="legend"><span><i class="ln" style="background:var(--s2)"></i>Por dia</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-eng"></div><div class="def"><b>Taxa de interação</b> = contas com interação ÷ contas alcançadas no dia. <span id="d-eng-rate"></span></div></div>
+      <div class="card"><div class="head"><h3>Resultado dos posts publicados em cada dia</h3><span class="per" data-per="global"></span></div><p class="desc">Acumulado até a coleta pelos posts publicados naquele dia. Não é o que a conta recebeu no dia.</p><div class="legend" id="lg-pubday"></div><div id="d-pubday"></div><div class="def">A fonte não fornece curtidas, comentários, compartilhamentos e salvamentos da conta por dia; por isso as interações diárias aparecem apenas por dia de publicação, na tabela de posts e no calendário.</div></div>
+    </div>
+  </section>
+
+  <section class="block" id="visao">
+    <div class="sec-h"><h2>Visão geral</h2><p>Cada indicador mostra o próprio período e a comparação com o período anterior de mesmo tamanho</p></div>
+    <h3 style="font-size:13px;color:var(--text-2);margin:0 0 8px;text-transform:uppercase;letter-spacing:.06em">Conta</h3>
+    <div class="kpis" id="kpis-acc"></div>
+    <h3 style="font-size:13px;color:var(--text-2);margin:14px 0 8px;text-transform:uppercase;letter-spacing:.06em">Publicações do período</h3>
+    <div class="kpis" id="kpis-post"></div>
     <div class="card" id="reach-split"></div>
   </section>
 
+  <section class="block" id="conversao">
+    <div class="sec-h"><h2>Conversão em seguidores</h2><p>Do alcance ao seguidor, com as taxas entre etapas</p></div>
+    <div class="g2e">
+      <div class="card"><div class="head"><h3>Funil das publicações</h3><span class="per" data-per="global"></span></div><p class="desc" id="funnel-post-desc"></p><div id="funnel-post"></div></div>
+      <div class="card"><div class="head"><h3>Funil da conta</h3><span class="per" data-per="fixed30"></span></div><p class="desc">Totais da conta nos últimos 30 dias.</p><div id="funnel-acc"></div></div>
+    </div>
+    <div class="card"><div class="head"><h3>Posts que mais convertem</h3><span class="per" data-per="global"></span></div><p class="desc">Seguidores por mil contas alcançadas, entre posts com pelo menos 10 mil de alcance. Só imagens e carrosséis têm esse dado na fonte.</p><div class="tablewrap"><table class="t" id="conv-tbl"></table></div></div>
+  </section>
+
+  <section class="block" id="vida">
+    <div class="sec-h"><h2>Curva de vida do post</h2><p>Compare posts na mesma idade: 24 horas, 3 dias, 7 dias e 30 dias após publicar</p></div>
+    <div class="card"><div class="head"><h3>Visualizações por idade do post</h3><span class="per" data-per="tracking"></span></div><p class="desc">A fonte entrega só o total atual de cada post. A curva é montada com as leituras diárias: cada post entra numa janela quando foi lido com idade próxima dela (a idade exata aparece no detalhe).</p><div id="life"></div></div>
+  </section>
+
   <section class="block" id="conteudo">
-    <div class="sec-h"><h2>Conteúdo</h2><p>Como cada formato, horário e dia da semana performa</p></div>
+    <div class="sec-h"><h2>Conteúdo</h2><p>Mediana por post, quartis e tamanho da amostra</p></div>
     <div class="g2">
-      <div class="card">
-        <h3>Visualizações por semana</h3>
-        <p class="desc">Soma das visualizações dos posts publicados em cada semana</p>
-        <div class="legend" id="lg-weekly"></div>
-        <div id="c-weekly"></div>
-      </div>
-      <div class="card">
-        <h3>Imagens x Reels</h3>
-        <p class="desc">Mediana por post no período filtrado</p>
-        <div id="c-mix"></div>
-      </div>
+      <div class="card"><div class="head"><h3>Views acumuladas por semana de publicação</h3><span class="per" data-per="global"></span></div><p class="desc">Soma das views totais (até a coleta) dos posts publicados em cada semana. Posts recentes ainda estão acumulando.</p><div class="legend" id="lg-weekly"></div><div id="c-weekly"></div></div>
+      <div class="card"><div class="head"><h3>Formatos</h3><span class="per" data-per="global"></span></div><p class="desc">Views por post: mediana, faixa entre o 1º e o 3º quartil (metade central dos posts) e quantidade.</p><div id="c-mix"></div></div>
     </div>
     <div class="g2e">
-      <div class="card">
-        <h3>Horário de publicação</h3>
-        <p class="desc">Mediana de visualizações por faixa de horário (Brasília), separada por formato</p>
-        <div class="legend" id="lg-hour"></div>
-        <div id="c-hour"></div>
-        <div class="callout" id="hour-callout"></div>
-      </div>
-      <div class="card">
-        <h3>Dia da semana</h3>
-        <p class="desc">Mediana de visualizações por dia de publicação, separada por formato</p>
-        <div class="legend" id="lg-dow"></div>
-        <div id="c-dow"></div>
-      </div>
+      <div class="card"><div class="head"><h3>Horário de publicação</h3><span class="per" data-per="global"></span></div><p class="desc">Mediana de views por post e faixa interquartil, por formato. Números sobre as barras = posts na faixa.</p><div class="legend" id="lg-hour"></div><div id="c-hour"></div><div id="hour-note"></div></div>
+      <div class="card"><div class="head"><h3>Dia da semana</h3><span class="per" data-per="global"></span></div><p class="desc">Mesma leitura por dia de publicação.</p><div class="legend" id="lg-dow"></div><div id="c-dow"></div><div id="dow-note"></div></div>
+    </div>
+    <div class="g2e">
+      <div class="card"><div class="head"><h3>Distribuição de resultados</h3><span class="per" data-per="global"></span></div><p class="desc">Quantos posts passam de cada meta de views. Evita que poucos virais escondam o restante.</p><div id="c-dist"></div></div>
+      <div class="card"><div class="head"><h3>Calendário de publicações</h3><span class="per" data-per="global"></span></div><p class="desc">Cada quadradinho é um post, na cor do formato. Toque no dia para ver os posts e resultados.</p><div class="legend" id="lg-cal"></div><div id="c-cal"></div><div class="pick" id="cal-pick">Toque em um dia para ver as publicações.</div></div>
     </div>
   </section>
 
   <section class="block" id="reels">
-    <div class="sec-h"><h2>Reels: retenção</h2><p>O que segura a pessoa no vídeo e o que a faz pular</p></div>
+    <div class="sec-h"><h2>Reels: retenção</h2><p>Associações dentro da amostra, não relação de causa</p></div>
     <div class="g2">
-      <div class="card">
-        <h3>Taxa de pulo x visualizações</h3>
-        <p class="desc">Cada ponto é um Reel. Taxa de pulo = quem passou adiante nos primeiros 3 segundos. Escala vertical logarítmica</p>
-        <div id="c-scatter"></div>
-        <div class="pick" id="scatter-pick">Toque em uma bolinha para ver o Reel. No computador, clique para abrir direto no Instagram.</div>
-      </div>
-      <div class="card">
-        <h3>O gancho decide o alcance</h3>
-        <p class="desc">Mediana de visualizações por faixa de taxa de pulo</p>
-        <div id="c-skip"></div>
-        <div class="callout" id="skip-callout"></div>
-      </div>
+      <div class="card"><div class="head"><h3>Taxa de pulo x visualizações</h3><span class="per" data-per="global"></span></div><p class="desc">Cada ponto é um Reel. Taxa de pulo = % de quem passou adiante nos 3 primeiros segundos. <b>Eixo vertical em escala logarítmica</b>: cada linha vale 10 vezes a anterior.</p>
+        <div class="toolbar"><select id="reel-theme" aria-label="Filtrar por tema"></select></div>
+        <div id="c-scatter"></div><div class="pick" id="scatter-pick">Toque em uma bolinha para ver o Reel. No computador, clique para abrir no Instagram.</div></div>
+      <div class="card"><div class="head"><h3>Faixas de taxa de pulo</h3><span class="per" data-per="global"></span></div><p class="desc">Views por Reel em cada faixa: mediana, quartis e quantidade.</p><div id="c-skip"></div><div class="def" id="skip-note"></div></div>
     </div>
     <div class="g2e">
-      <div class="card">
-        <h3>Tempo médio assistido</h3>
-        <p class="desc">Mediana de visualizações por faixa de tempo médio assistido</p>
-        <div id="c-watch"></div>
-      </div>
-      <div class="card">
-        <h3>Reels com melhor retenção</h3>
-        <p class="desc">Menor taxa de pulo entre os Reels com mais de 5 mil visualizações</p>
-        <div id="best-reels"></div>
-      </div>
+      <div class="card"><div class="head"><h3>Tempo médio assistido</h3><span class="per" data-per="global"></span></div><p class="desc">Views por Reel conforme o tempo médio que cada pessoa assistiu.</p><div id="c-watch"></div></div>
+      <div class="card"><div class="head"><h3>Reels com menor taxa de pulo</h3><span class="per" data-per="global"></span></div><p class="desc">Entre os Reels com mais de 5 mil views.</p><div id="best-reels"></div><div class="def"><b>Sem dado na fonte:</b> duração do vídeo, percentual médio assistido, taxa de conclusão e curva de retenção. Esses números aparecem só no app do Instagram.</div></div>
     </div>
+  </section>
+
+  <section class="block" id="temas">
+    <div class="sec-h"><h2>Desempenho por tema</h2><p>Classificação automática pela legenda (pode ter erros pontuais)</p></div>
+    <div class="card"><div class="head"><h3>Temas por formato</h3><span class="per" data-per="global"></span></div><p class="desc">Mediana por post. Taxa de compartilhamento = compartilhamentos ÷ views. Amostras com menos de 5 posts em cinza.</p><div class="tablewrap"><table class="t" id="theme-tbl"></table></div></div>
   </section>
 
   <section class="block" id="publico">
-    <div class="sec-h"><h2>Público</h2><p>Quem são os seguidores hoje</p></div>
+    <div class="sec-h"><h2>Público</h2><p id="aud-sub"></p></div>
     <div class="g2e">
-      <div class="card">
-        <h3>Idade e gênero</h3>
-        <p class="desc">Seguidores por faixa etária</p>
-        <div class="legend"><span><i style="background:var(--s1)"></i>Homens</span><span><i style="background:var(--s2)"></i>Mulheres</span><span><i style="background:var(--muted)"></i>Não informado</span></div>
-        <div id="c-age"></div>
-      </div>
-      <div class="card">
-        <h3>Principais cidades</h3>
-        <p class="desc">Seguidores por cidade</p>
-        <div id="c-city"></div>
-      </div>
+      <div class="card"><div class="head"><h3>Idade e gênero dos seguidores</h3><span class="per" data-per="aud"></span></div><div class="legend"><span><i style="background:var(--s1)"></i>Homens</span><span><i style="background:var(--s2)"></i>Mulheres</span><span><i style="background:var(--muted)"></i>Não informado</span></div><div id="c-age"></div></div>
+      <div class="card"><div class="head"><h3>Principais cidades dos seguidores</h3><span class="per" data-per="aud"></span></div><div id="c-city"></div></div>
     </div>
+    <div class="def">Esses dados descrevem quem <b>segue</b> o perfil, não todas as pessoas alcançadas: mais de 99% do alcance vem de não seguidores, cujo perfil a fonte não informa.</div>
   </section>
 
   <section class="block" id="analise">
-    <div class="sec-h"><h2>Análise e sugestões</h2><p>Diagnóstico calculado sobre os seus dados, com ações para cada métrica</p></div>
+    <div class="sec-h"><h2>Análise e sugestões</h2><p>Diagnóstico calculado sobre o período filtrado</p></div>
     <div class="ins-grid" id="insights"></div>
-    <div class="card" style="margin-top:12px">
-      <h3>Semana modelo sugerida</h3>
-      <p class="desc">Menos volume, mais acerto. Distribuição baseada nos horários e formatos que mais rendem para você</p>
-      <div class="legend"><span><i style="background:var(--s1)"></i>Imagem</span><span><i style="background:var(--s2)"></i>Reel</span><span><i style="background:var(--s4)"></i>Carrossel</span><span><i style="background:var(--s3)"></i>Stories / interação</span></div>
-      <div class="plan" id="plan"></div>
-    </div>
+    <div class="card" style="margin-top:12px"><h3>Semana modelo sugerida</h3><p class="desc">Baseada nos horários e formatos com melhor mediana no seu histórico.</p>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Imagem</span><span><i style="background:var(--s2)"></i>Reel</span><span><i style="background:var(--s4)"></i>Carrossel</span><span><i style="background:var(--s3)"></i>Stories / interação</span></div><div class="plan" id="plan"></div></div>
   </section>
 
   <section class="block" id="benchmark">
-    <div class="sec-h"><h2>Benchmark</h2><p>Você comparado ao mercado e às diretrizes do próprio Instagram</p></div>
-    <div class="card">
-      <div class="tablewrap"><table class="bench" id="bench"></table></div>
-      <div class="callout"><b>Como ler:</b> a taxa de engajamento do mercado usa interações ÷ seguidores. Para comparar na mesma régua, calculo a sua do mesmo jeito. Os pesos do algoritmo não são públicos em números; as diretrizes vêm de declarações do Instagram e de estudos de mercado.</div>
-      <div class="sources">
-        <a href="https://www.socialinsider.io/blog/instagram-benchmarks/" target="_blank" rel="noopener">Socialinsider: 2026 Instagram Organic Benchmarks (35 mi de posts)</a>
-        <a href="https://www.socialinsider.io/blog/instagram-carousel-research" target="_blank" rel="noopener">Socialinsider: carrosséis x Reels x imagens</a>
-        <a href="https://blog.hootsuite.com/instagram-algorithm/" target="_blank" rel="noopener">Hootsuite: como funciona o algoritmo do Instagram</a>
-        <a href="https://www.eclincher.com/articles/how-the-instagram-algorithm-works-in-2026" target="_blank" rel="noopener">eClincher: o algoritmo do Instagram em 2026</a>
-        <a href="https://metricool.com/instagram-reel-analytics/" target="_blank" rel="noopener">Metricool: retenção e taxa de pulo dos Reels</a>
-        <a href="https://publer.com/blog/instagram-trial-reels-guide/" target="_blank" rel="noopener">Publer: guia dos Reels de teste</a>
-        <a href="https://postsyncer.com/blog/what-is-a-good-engagement-rate-on-instagram" target="_blank" rel="noopener">PostSyncer: engajamento por faixa de seguidores</a>
-      </div>
+    <div class="sec-h"><h2>Benchmark</h2><p>Comparação com referências externas, sempre na mesma fórmula</p></div>
+    <div class="card"><div class="tablewrap"><table class="t" id="bench"></table></div>
+      <div class="def"><b>Atenção:</b> referências externas misturam contas de muitos segmentos e tamanhos. Servem como ordem de grandeza, não como meta exata. Pesos do algoritmo não são divulgados em números pelo Instagram.</div>
+      <div class="sources" id="bench-sources"></div>
     </div>
   </section>
 
   <section class="block" id="posts">
-    <div class="sec-h"><h2>Todos os posts</h2><p>Clique no cabeçalho para ordenar</p></div>
+    <div class="sec-h"><h2>Todos os posts</h2><p>Filtros próprios + período e formato do topo</p></div>
     <div class="card">
-      <div class="tablewrap"><table class="posts" id="tbl"></table></div>
-      <div class="more"><button id="more">Mostrar todos</button></div>
+      <div class="toolbar">
+        <input id="q" type="search" placeholder="Buscar no título…" aria-label="Buscar">
+        <select id="t-theme" aria-label="Tema"></select>
+        <button class="btn ghost" id="csv" style="margin:0">Baixar CSV</button>
+      </div>
+      <div class="tablewrap"><table class="t sort" id="tbl"></table></div>
+      <div class="more"><button class="btn ghost" id="more">Mostrar todos</button></div>
+      <div class="def"><b>Idade</b> = tempo entre a publicação e a coleta dos números. Posts mais novos ainda estão acumulando resultados. <b>n.a.</b> = não se aplica ao formato. <b>Sem dado</b> = a fonte não fornece (visitas e seguidores de Reels, duração do vídeo).</div>
     </div>
   </section>
 
-  <footer>Dados: Instagram Insights via Supermetrics. Atualização automática diária às 5h. Painel mantido por Rogerio Pires.</footer>
+  <section class="block" id="limites">
+    <div class="sec-h"><h2>Limites da fonte de dados</h2><p>O que o painel não mostra e por quê</p></div>
+    <div class="card"><div class="limits" id="limits"></div></div>
+  </section>
+
+  <footer id="foot">Dados: Instagram Insights via Supermetrics. Coleta automática diária às 4h50 (Brasília).</footer>
 </main>
 <div class="tip" id="tip"></div>
 
 <script>
-const $=s=>document.querySelector(s);
-const fmt=n=>n==null?"n/d":n>=1e6?(n/1e6).toFixed(n>=1e7?0:1).replace(".",",")+" mi":n>=1e3?(n/1e3).toFixed(n>=1e5?0:1).replace(".",",")+" mil":String(Math.round(n));
-const full=n=>n==null?"n/d":Math.round(n).toLocaleString("pt-BR");
-const pct=(x,d=1)=>(x*100).toFixed(d).replace(".",",")+"%";
-const median=a=>{if(!a.length)return 0;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
-const sum=(a,f)=>a.reduce((s,x)=>s+(f?f(x):x),0);
-const secs=s=>s>=60?`${Math.floor(s/60)}min${String(s%60).padStart(2,"0")}`:`${s}s`;
-const TYPE={I:{name:"Imagens",one:"Imagem",c:"var(--s1)"},R:{name:"Reels",one:"Reel",c:"var(--s2)"}};
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const ND="sem dado";
+const fmt=n=>n==null||isNaN(n)?ND:Math.abs(n)>=1e6?(n/1e6).toFixed(Math.abs(n)>=1e7?0:1).replace(".",",")+" mi":Math.abs(n)>=1e3?(n/1e3).toFixed(Math.abs(n)>=1e5?0:1).replace(".",",")+" mil":String(Math.round(n));
+const full=n=>n==null||isNaN(n)?ND:Math.round(n).toLocaleString("pt-BR");
+const pct=(x,d=1)=>x==null||isNaN(x)||!isFinite(x)?ND:(x*100).toFixed(d).replace(".",",")+"%";
+const sum=(a,f)=>a.reduce((s,x)=>s+((f?f(x):x)||0),0);
+const quant=(a,p)=>{const s=a.filter(v=>v!=null).sort((x,y)=>x-y);if(!s.length)return null;const i=(s.length-1)*p,lo=Math.floor(i),hi=Math.ceil(i);return s[lo]+(s[hi]-s[lo])*(i-lo)};
+const median=a=>quant(a,.5);
+const secs=s=>s==null?ND:s>=60?`${Math.floor(s/60)}min${String(s%60).padStart(2,"0")}`:`${s}s`;
+const age=h=>h==null?ND:h<96?`${Math.round(h)}h`:`${Math.round(h/24)}d`;
+const dBR=s=>s.slice(8,10)+"/"+s.slice(5,7);
+const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+const addDays=(s,n)=>{const d=new Date(s+"T12:00:00");d.setDate(d.getDate()+n);return iso(d)};
+const TYPE={I:{name:"Imagens",one:"Imagem",c:"var(--s1)"},R:{name:"Reels",one:"Reel",c:"var(--s2)"},C:{name:"Carrosséis",one:"Carrossel",c:"var(--s4)"}};
+const linkOf=p=>`https://www.instagram.com/${p.type==="R"?"reel":"p"}/${p.code}/`;
 const tip=$("#tip");
 function showTip(e,html){tip.innerHTML=html;tip.style.opacity=1;const x=Math.min(e.clientX+14,innerWidth-tip.offsetWidth-8),y=e.clientY+14+tip.offsetHeight>innerHeight?e.clientY-tip.offsetHeight-10:e.clientY+14;tip.style.left=Math.max(8,x)+"px";tip.style.top=y+"px"}
 function hideTip(){tip.style.opacity=0}
-const NS="http://www.w3.org/2000/svg";
-function el(n,a={},p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
-function nice(v){if(v<=0)return 1;const p=10**Math.floor(Math.log10(v)),f=v/p;return (f<=1?1:f<=2?2:f<=2.5?2.5:f<=5?5:10)*p}
-function barPath(x,y,w,h,r=4){if(h<=0)return"";r=Math.min(r,w/2,h);return`M${x},${y+h}V${y+r}Q${x},${y} ${x+r},${y}H${x+w-r}Q${x+w},${y} ${x+w},${y+r}V${y+h}Z`}
-function hit(svg,attrs,fn){const r=el("rect",{...attrs,fill:"transparent"},svg);r.addEventListener("pointermove",e=>showTip(e,fn()));r.addEventListener("pointerdown",e=>showTip(e,fn()));r.addEventListener("pointerleave",e=>{if(e.pointerType!=="touch")hideTip()});return r}
 addEventListener("scroll",hideTip,{passive:true});
 document.addEventListener("pointerdown",e=>{if(!e.target.closest("svg,.hb"))hideTip()});
+const NS="http://www.w3.org/2000/svg";
+function el(n,a={},p){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function nice(v){if(v<=0)return 1;const p=10**Math.floor(Math.log10(v)),f=v/p;return(f<=1?1:f<=2?2:f<=2.5?2.5:f<=5?5:10)*p}
+function barPath(x,y,w,h,r=4){if(h<=0)return"";r=Math.min(r,w/2,h);return`M${x},${y+h}V${y+r}Q${x},${y} ${x+r},${y}H${x+w-r}Q${x+w},${y} ${x+w},${y+r}V${y+h}Z`}
+function hit(svg,attrs,fn){const r=el("rect",{...attrs,fill:"transparent"},svg);const s=e=>showTip(e,fn());r.addEventListener("pointermove",s);r.addEventListener("pointerdown",s);r.addEventListener("pointerleave",e=>{if(e.pointerType!=="touch")hideTip()});return r}
 function yAxis(svg,m,W,ih,raw,f=fmt){const step=nice(raw/4),n=Math.max(1,Math.ceil(raw/step)),max=step*n;
-  for(let k=0;k<=n;k++){const y=m.t+ih-ih*k/n;el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:k?"var(--grid)":"var(--border)"},svg);const t=el("text",{x:m.l-8,y:y+4,"text-anchor":"end"},svg);t.textContent=f(step*k)}
-  return max}
+  for(let k=0;k<=n;k++){const y=m.t+ih-ih*k/n;el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:k?"var(--grid)":"var(--border)"},svg);const t=el("text",{x:m.l-8,y:y+4,"text-anchor":"end"},svg);t.textContent=f(step*k)}return max}
+const empty=(host,msg)=>host.innerHTML=`<div class="empty">${msg}</div>`;
+const ma7=v=>v.map((_,i)=>{const w=v.slice(Math.max(0,i-6),i+1).filter(x=>x!=null);return w.length>=4?sum(w)/w.length:null});
 
-function bars(host,{labels,series,tipFn,f=fmt,h,group}){
-  host.innerHTML="";const W=host.clientWidth||600,H=h||Math.max(190,Math.min(250,W*.5)),m={t:8,r:4,b:24,l:46};
+/* série diária com lacunas e média móvel */
+function daySeries(host,{dates,values,color,label,bars,f=fmt}){
+  host.innerHTML="";if(!dates.length||values.every(v=>v==null))return empty(host,"Sem dados no período.");
+  const W=host.clientWidth||600,H=Math.max(180,Math.min(230,W*.45)),m={t:8,r:8,b:24,l:46};
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ih=H-m.t-m.b,n=dates.length,ma=ma7(values);
+  const max=yAxis(svg,m,W,ih,Math.max(...values.filter(v=>v!=null),...ma.filter(v=>v!=null),1),f);
+  const bw=iw/n,X=i=>m.l+bw*(i+.5),Y=v=>m.t+ih-ih*v/max;
+  if(bars){values.forEach((v,i)=>{if(v==null){el("rect",{x:X(i)-bw*.35,y:m.t,width:bw*.7,height:ih,fill:"url(#gap)",opacity:.6},svg);return}const h=ih*v/max;el("path",{d:barPath(X(i)-Math.max(1,bw*.35),m.t+ih-h,Math.max(2,bw*.7),h,2),fill:color},svg)})}
+  else{let seg=[];const flush=()=>{if(seg.length>1)el("polyline",{points:seg.join(" "),fill:"none",stroke:color,"stroke-width":2,"stroke-linejoin":"round"},svg);else if(seg.length===1){const[x,y]=seg[0].split(",");el("circle",{cx:x,cy:y,r:2.5,fill:color},svg)}seg=[]};
+    values.forEach((v,i)=>{if(v==null)flush();else seg.push(`${X(i)},${Y(v)}`)});flush()}
+  let seg=[];const flush=()=>{if(seg.length>1)el("polyline",{points:seg.join(" "),fill:"none",stroke:"var(--muted)","stroke-width":1.5,"stroke-dasharray":"4 3"},svg);seg=[]};
+  ma.forEach((v,i)=>{if(v==null)flush();else seg.push(`${X(i)},${Y(v)}`)});flush();
+  const defs=el("defs",{},svg),pat=el("pattern",{id:"gap",width:6,height:6,patternUnits:"userSpaceOnUse",patternTransform:"rotate(45)"},defs);el("rect",{width:3,height:6,fill:"var(--grid)"},pat);
+  const every=Math.max(1,Math.ceil(n/(W<500?4:8)));dates.forEach((d,i)=>{if(i%every===0&&(n-1-i)>=every*.85||i===n-1){const t=el("text",{x:X(i),y:H-6,"text-anchor":i===n-1?"end":"middle"},svg);t.textContent=dBR(d)}});
+  const vl=el("line",{y1:m.t,y2:m.t+ih,stroke:"var(--muted)","stroke-dasharray":"3 3",opacity:0},svg);
+  const ov=el("rect",{x:m.l,y:m.t,width:iw,height:ih,fill:"transparent"},svg);
+  const mv=e=>{const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)*W/r.width;const i=Math.max(0,Math.min(n-1,Math.floor((px-m.l)/bw)));vl.setAttribute("x1",X(i));vl.setAttribute("x2",X(i));vl.setAttribute("opacity",1);
+    const v=values[i];showTip(e,`<b>${dBR(dates[i])}</b><br>${label}: ${v==null?"sem coleta":full(v)}<br>Média 7 dias: ${ma[i]==null?ND:full(ma[i])}${v!=null&&ma[i]?`<br>${v>=ma[i]?"▲":"▼"} ${pct(Math.abs(v/ma[i]-1),0)} ${v>=ma[i]?"acima":"abaixo"} da média`:""}`)};
+  ov.addEventListener("pointermove",mv);ov.addEventListener("pointerdown",mv);ov.addEventListener("pointerleave",e=>{vl.setAttribute("opacity",0);if(e.pointerType!=="touch")hideTip()});
+}
+
+/* barras com mediana + quartis + n */
+function qbars(host,{labels,series,tipFn,minN=5}){
+  host.innerHTML="";const W=host.clientWidth||600,H=Math.max(200,Math.min(250,W*.5)),m={t:16,r:4,b:24,l:46};
   const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ih=H-m.t-m.b,n=labels.length;
-  const tot=labels.map((_,i)=>group?Math.max(...series.map(s=>s.values[i]||0)):sum(series,s=>s.values[i]||0));const max=yAxis(svg,m,W,ih,Math.max(...tot,1),f);
+  const top=Math.max(1,...series.flatMap(s=>s.stats.map(x=>x&&x.q3!=null?x.q3:0)));const max=yAxis(svg,m,W,ih,top);
+  const bw=iw/n,gap=Math.max(4,bw*.24),w=bw-gap,k=series.length,sw=(w-2*(k-1))/k;
+  labels.forEach((lab,i)=>{const x=m.l+i*bw+gap/2;
+    series.forEach((s,si)=>{const st=s.stats[i];if(!st||!st.n)return;const bx=x+si*(sw+2),h=ih*Math.min(st.med,max)/max;const small=st.n<minN;
+      el("path",{d:barPath(bx,m.t+ih-h,sw,h,Math.min(4,sw/3)),fill:s.color,opacity:small?.35:1},svg);
+      if(st.n>=3&&st.q1!=null){const cx=bx+sw/2,y1=m.t+ih-ih*Math.min(st.q1,max)/max,y3=m.t+ih-ih*Math.min(st.q3,max)/max;el("line",{x1:cx,x2:cx,y1,y2:y3,stroke:"var(--text)","stroke-width":1.2,opacity:.55},svg);[y1,y3].forEach(y=>el("line",{x1:cx-3,x2:cx+3,y1:y,y2:y,stroke:"var(--text)","stroke-width":1.2,opacity:.55},svg))}
+      const yTop=Math.min(m.t+ih-h,st.n>=3&&st.q3!=null?m.t+ih-ih*Math.min(st.q3,max)/max:1e9);const t=el("text",{x:bx+sw/2,y:Math.max(10,yTop-5),"text-anchor":"middle",style:"font-size:10px;font-weight:600"},svg);t.textContent=st.n});
+    const t=el("text",{x:x+w/2,y:H-6,"text-anchor":"middle"},svg);t.textContent=lab;hit(svg,{x:m.l+i*bw,y:m.t,width:bw,height:ih},()=>tipFn(i))});
+}
+const statsOf=a=>({n:a.length,med:median(a),q1:quant(a,.25),q3:quant(a,.75)});
+
+function bars(host,{labels,series,tipFn,f=fmt}){
+  host.innerHTML="";const W=host.clientWidth||600,H=Math.max(190,Math.min(250,W*.5)),m={t:8,r:4,b:24,l:46};
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ih=H-m.t-m.b,n=labels.length;
+  const tot=labels.map((_,i)=>sum(series,s=>s.values[i]||0));const max=yAxis(svg,m,W,ih,Math.max(...tot,1),f);
   const bw=iw/n,gap=Math.max(3,bw*.28),w=bw-gap,every=Math.ceil(n/(W<500?5:10));
-  if(group){const k=series.length,sw=(w-2*(k-1))/k;
-    labels.forEach((lab,i)=>{const x=m.l+i*bw+gap/2;
-      series.forEach((s,si)=>{const v=s.values[i]||0,hh=ih*v/max;if(hh>0)el("path",{d:barPath(x+si*(sw+2),m.t+ih-hh,sw,hh,Math.min(4,sw/3)),fill:s.color},svg)});
-      const t=el("text",{x:x+w/2,y:H-6,"text-anchor":"middle"},svg);t.textContent=lab;
-      hit(svg,{x:m.l+i*bw,y:m.t,width:bw,height:ih},()=>tipFn(i))});return}
   labels.forEach((lab,i)=>{const x=m.l+i*bw+gap/2;let y0=m.t+ih;const act=series.filter(s=>s.values[i]>0);
-    act.forEach((s,si)=>{const v=s.values[i],hh=ih*v/max;y0-=hh;const g=si>0?2:0;
-      if(si===act.length-1)el("path",{d:barPath(x,y0,w,Math.max(0,hh-g),Math.min(4,w/3)),fill:s.color},svg);
-      else el("rect",{x,y:y0,width:w,height:Math.max(0,hh-g),fill:s.color},svg)});
+    act.forEach((s,si)=>{const hh=ih*s.values[i]/max;y0-=hh;const g=si>0?2:0;if(si===act.length-1)el("path",{d:barPath(x,y0,w,Math.max(0,hh-g),Math.min(4,w/3)),fill:s.color},svg);else el("rect",{x,y:y0,width:w,height:Math.max(0,hh-g),fill:s.color},svg)});
     if(i%every===0){const t=el("text",{x:x+w/2,y:H-6,"text-anchor":"middle"},svg);t.textContent=lab}
     hit(svg,{x:m.l+i*bw,y:m.t,width:bw,height:ih},()=>tipFn(i))});
 }
 
-function line(host,{labels,values,color,tipFn}){
-  host.innerHTML="";const W=host.clientWidth||600,H=Math.max(190,Math.min(250,W*.5)),m={t:10,r:8,b:24,l:46};
-  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ih=H-m.t-m.b,n=values.length;
-  const max=yAxis(svg,m,W,ih,Math.max(...values,1));const X=i=>m.l+iw*i/(n-1),Y=v=>m.t+ih-ih*v/max;
-  const pts=values.map((v,i)=>`${X(i)},${Y(v)}`).join(" ");
-  el("polygon",{points:`${X(0)},${m.t+ih} ${pts} ${X(n-1)},${m.t+ih}`,fill:color,opacity:.12},svg);
-  el("polyline",{points:pts,fill:"none",stroke:color,"stroke-width":2,"stroke-linejoin":"round"},svg);
-  const every=Math.ceil(n/(W<500?4:7));labels.forEach((l,i)=>{if((i%every===0&&(n-1-i)>=every*.6)||i===n-1){const t=el("text",{x:X(i),y:H-6,"text-anchor":i===n-1?"end":"middle"},svg);t.textContent=l}});
-  const vl=el("line",{y1:m.t,y2:m.t+ih,stroke:"var(--muted)","stroke-dasharray":"3 3",opacity:0},svg);
-  const dot=el("circle",{r:5,fill:color,stroke:"var(--surface)","stroke-width":2,opacity:0},svg);
-  const ov=el("rect",{x:m.l,y:m.t,width:iw,height:ih,fill:"transparent"},svg);
-  ov.addEventListener("pointermove",e=>{const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)*W/r.width;const i=Math.max(0,Math.min(n-1,Math.round((px-m.l)/iw*(n-1))));
-    vl.setAttribute("x1",X(i));vl.setAttribute("x2",X(i));vl.setAttribute("opacity",1);dot.setAttribute("cx",X(i));dot.setAttribute("cy",Y(values[i]));dot.setAttribute("opacity",1);showTip(e,tipFn(i))});
-  ov.addEventListener("pointerleave",()=>{vl.setAttribute("opacity",0);dot.setAttribute("opacity",0);hideTip()});
-}
-
 function scatter(host,{pts,tipFn,xLabel,href,onPick}){
-  host.innerHTML="";const W=host.clientWidth||600,H=Math.max(220,Math.min(280,W*.55)),m={t:10,r:10,b:36,l:46};
+  host.innerHTML="";if(!pts.length)return empty(host,"Sem Reels no filtro atual.");
+  const W=host.clientWidth||600,H=Math.max(220,Math.min(280,W*.55)),m={t:10,r:10,b:36,l:46};
   const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ih=H-m.t-m.b;
   const xs=pts.map(p=>p.x),x0=Math.floor(Math.min(...xs,20)/10)*10,x1=Math.ceil(Math.max(...xs,80)/10)*10;
   const yMin=2,yMax=Math.ceil(Math.log10(Math.max(...pts.map(p=>p.y),10)));
   const X=v=>m.l+iw*(v-x0)/(x1-x0),Y=v=>m.t+ih-ih*(Math.log10(Math.max(v,100))-yMin)/(yMax-yMin);
   for(let e=yMin;e<=yMax;e++){const y=Y(10**e);el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:e===yMin?"var(--border)":"var(--grid)"},svg);const t=el("text",{x:m.l-8,y:y+4,"text-anchor":"end"},svg);t.textContent=fmt(10**e)}
   for(let v=x0;v<=x1;v+=10){const t=el("text",{x:X(v),y:m.t+ih+16,"text-anchor":"middle"},svg);t.textContent=v+"%"}
-  const lt=el("text",{x:m.l+iw/2,y:H-2,"text-anchor":"middle"},svg);lt.textContent=xLabel;
+  const lt=el("text",{x:m.l+iw/2,y:H-2,"text-anchor":"middle"},svg);lt.textContent=xLabel+" · views em escala log";
   const med=median(xs);el("line",{x1:X(med),x2:X(med),y1:m.t,y2:m.t+ih,stroke:"var(--muted)","stroke-dasharray":"3 3"},svg);
   const mt=el("text",{x:X(med)+4,y:m.t+10},svg);mt.textContent="mediana "+pct(med/100,0);
   let picked=-1;const dots=[];
@@ -397,209 +424,355 @@ function scatter(host,{pts,tipFn,xLabel,href,onPick}){
     dots.push(el("circle",{cx:X(p.x),cy:Y(p.y),r:5,fill:"var(--s2)",stroke:"var(--surface)","stroke-width":1.5,opacity:.85},a));
     const c=el("circle",{cx:X(p.x),cy:Y(p.y),r:11,fill:"transparent"},a);
     c.addEventListener("pointermove",e=>{if(e.pointerType!=="touch")showTip(e,tipFn(i))});c.addEventListener("pointerleave",hideTip);
-    a.addEventListener("click",e=>{if(picked!==i&&matchMedia("(hover: none)").matches){e.preventDefault();}
+    a.addEventListener("click",e=>{if(picked!==i&&matchMedia("(hover: none)").matches)e.preventDefault();
       dots.forEach((d,k)=>{d.setAttribute("r",k===i?8:5);d.setAttribute("stroke",k===i?"var(--text)":"var(--surface)")});picked=i;onPick&&onPick(i)})});
 }
 
 function hbars(host,items,{stack}={}){
   const max=Math.max(...items.map(i=>stack?sum(i.parts,p=>p.v):i.v),1);
   host.innerHTML=items.map((i,k)=>{const tot=stack?sum(i.parts,p=>p.v):i.v;
-    const bar=stack?`<div style="display:flex;gap:2px;height:12px;width:${Math.max(1,tot/max*100)}%">${i.parts.map(p=>`<div style="flex:${p.v} 0 0;background:${p.c};border-radius:${p===i.parts[i.parts.length-1]?"0 4px 4px 0":"0"}"></div>`).join("")}</div>`
+    const bar=stack?`<div style="display:flex;gap:2px;height:12px;width:${Math.max(1,tot/max*100)}%">${i.parts.map((p,j)=>`<div style="flex:${p.v} 0 0;background:${p.c};border-radius:${j===i.parts.length-1?"0 4px 4px 0":"0"}"></div>`).join("")}</div>`
       :`<div style="height:12px;width:${Math.max(1,i.v/max*100)}%;background:${i.c};border-radius:0 4px 4px 0"></div>`;
-    return `<div class="hb" data-k="${k}" style="margin:8px 0 12px;cursor:default"><div style="display:flex;justify-content:space-between;gap:10px;font-size:13px;margin-bottom:5px"><span style="color:var(--text-2)">${i.label}</span><b style="font-variant-numeric:tabular-nums">${i.text}</b></div><div style="background:var(--grid);border-radius:4px">${bar}</div></div>`}).join("");
-  host.querySelectorAll(".hb").forEach(n=>{const it=items[+n.dataset.k];if(!it.tip)return;n.addEventListener("pointermove",e=>showTip(e,it.tip));n.addEventListener("pointerdown",e=>showTip(e,it.tip));n.addEventListener("pointerleave",e=>{if(e.pointerType!=="touch")hideTip()})});
+    return`<div class="hb" data-k="${k}" style="margin:8px 0 12px"><div style="display:flex;justify-content:space-between;gap:10px;font-size:13px;margin-bottom:5px"><span style="color:var(--text-2)">${i.label}</span><b style="font-variant-numeric:tabular-nums;text-align:right">${i.text}</b></div><div style="background:var(--grid);border-radius:4px">${bar}</div>${i.sub?`<div class="def" style="margin-top:4px">${i.sub}</div>`:""}</div>`}).join("");
+  host.querySelectorAll(".hb").forEach(n=>{const it=items[+n.dataset.k];if(!it.tip)return;const s=e=>showTip(e,it.tip);n.addEventListener("pointermove",s);n.addEventListener("pointerdown",s);n.addEventListener("pointerleave",e=>{if(e.pointerType!=="touch")hideTip()})});
 }
 
-let D,ALL,state={range:90,type:"all",sort:"views",dir:-1,showAll:false};
-const BENCH={er_all:.0048,er_reels:.0052,er_car:.0055,er_img:.0037,er_micro:.025,posts_week_mosseri:"5 a 7",views_100k:{R:16035,C:35370,I:22900}};
-
+/* ---------- estado ---------- */
+let D,ALL,DAILY,state={range:30,type:"all",sort:"ts",dir:-1,showAll:false,q:"",theme:"all",reelTheme:"all",calDay:null};
 function prep(){
   ALL=D.posts.map(r=>Object.fromEntries(D.columns.map((c,i)=>[c,r[i]]))).map(p=>{
-    p.date=new Date(p.ts.replace(" ","T")+":00-03:00");p.hour=+p.ts.slice(11,13);p.dow=p.date.getDay();
+    p.date=p.ts.slice(0,10);p.hour=+p.ts.slice(11,13);p.dow=new Date(p.date+"T12:00:00").getDay();
     const rr=D.reels&&D.reels[p.code];if(rr){p.watch=rr[0];p.skip=rr[1];p.minutes=rr[2]}
-    p.rate=p.views?p.shares/p.views:0;p.erf=p.interactions/D.account.followers;return p});
+    p.rate=p.views?p.shares/p.views:null;p.erf=p.interactions!=null?p.interactions/D.account.followers:null;return p});
+  DAILY=D.daily.map(r=>Object.fromEntries(D.daily_columns.map((c,i)=>[c,r[i]])));
 }
-function rows(){const end=new Date(D.period.end+"T23:59:59-03:00"),start=new Date(end-state.range*864e5);
-  return ALL.filter(p=>p.date>start&&(state.type==="all"||p.type===state.type))}
-const dl=k=>new Date(k).toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"});
-function weekKey(d){const t=new Date(d);t.setHours(0,0,0,0);t.setDate(t.getDate()-(t.getDay()+6)%7);return t}
+const END=()=>D.period.end;
+const winStart=(r,off=0)=>addDays(END(),-(r*(off+1))+1);
+const winEnd=(r,off=0)=>addDays(END(),-(r*off));
+function postsIn(r,off=0,typeAware=true){const a=winStart(r,off),b=winEnd(r,off);return ALL.filter(p=>p.date>=a&&p.date<=b&&(!typeAware||state.type==="all"||p.type===state.type))}
+const rows=()=>postsIn(state.range);
+function daysIn(r,off=0){const a=winStart(r,off),b=winEnd(r,off);const out=[];for(let d=a;d<=b;d=addDays(d,1)){out.push(DAILY.find(x=>x.date===d)||{date:d})}return out}
+const coverage=(days,key)=>days.filter(d=>d[key]!=null).length;
+const perLabel=(a,b)=>`${dBR(a)} a ${dBR(b)}`;
 
-function renderOverview(R){
-  const views=sum(R,p=>p.views),shares=sum(R,p=>p.shares),nf=sum(D.new_followers_weekly,w=>w.value),inter=sum(R,p=>p.interactions);
-  $("#kpis").innerHTML=[
-    ["Novos seguidores",full(nf),"últimos 30 dias"],
-    ["Visualizações",fmt(views),`${R.length} posts no período`],
-    ["Interações",fmt(inter),`${full(sum(R,p=>p.comments))} comentários`],
-    ["Taxa de compartilhamento",views?pct(shares/views):"n/d",`${fmt(shares)} compartilhamentos`]
-  ].map(([l,v,n])=>`<div class="card kpi"><div class="label">${l}</div><div class="val">${v}</div><div class="note">${n}</div></div>`).join("");
-  const dd=D.daily;
-  line($("#c-daily"),{labels:dd.map(d=>d[0].slice(8)+"/"+d[0].slice(5,7)),values:dd.map(d=>d[1]),color:"var(--s1)",
-    tipFn:i=>`<b>${dd[i][0].slice(8)}/${dd[i][0].slice(5,7)}</b><br>Alcance: ${full(dd[i][1])} contas<br>Visualizações: ${full(dd[i][2])}`});
-  const fw=D.new_followers_weekly;
-  bars($("#c-follow"),{labels:fw.map(w=>w.start.slice(8)+"/"+w.start.slice(5,7)),series:[{color:"var(--s3)",values:fw.map(w=>w.value)}],
-    tipFn:i=>`<b>Semana de ${fw[i].start.slice(8)}/${fw[i].start.slice(5,7)}</b><br>${full(fw[i].value)} novos seguidores${i===fw.length-1?"<br><span style='opacity:.7'>semana em andamento</span>":""}`});
-  const rf=D.reach_by_follow_type_30d,nfr=rf.non_follower.reach,fr=rf.follower.reach,share=nfr/(nfr+fr);
-  $("#reach-split").innerHTML=`<h3>Quem você está alcançando</h3><p class="desc">Contas alcançadas nos últimos 30 dias, por relação com o perfil</p>
+function setPer(){
+  const r=state.range,g=`Últimos ${r} dias`;
+  const dailyDays=daysIn(r),cov=coverage(dailyDays,"reach");
+  const firstFol=DAILY.find(d=>d.new_followers!=null),folCov=coverage(dailyDays,"new_followers");
+  const map={
+    global:[g,false],
+    daily:[cov<r?`${cov} de ${r} dias com dado`:g,cov<r],
+    followers:[folCov<r?`${folCov} de ${r} dias com dado`:g,folCov<r],
+    fixed30:["Últimos 30 dias · fixo",r!==30],
+    aud:[`Referência ${dBR(D.audience.ref_date)} · fixo`,false],
+    tracking:[D.tracking_since?`Coleta desde ${dBR(D.tracking_since.slice(0,10))}`:"Coleta diária",false]};
+  $$(".per").forEach(s=>{const[t,diff]=map[s.dataset.per]||[g,false];s.textContent=t;s.classList.toggle("diff",diff);s.title=diff?"Este card usa um período diferente do filtro do topo":""});
+}
+
+function deltaHTML(cur,prev,label){if(cur==null||prev==null||!prev)return`<div class="delta na">Sem dado do período anterior</div>`;const d=cur/prev-1;return`<div class="delta ${d>=0?"up":"down"}">${d>=0?"▲":"▼"} ${pct(Math.abs(d),0)} vs ${label}</div>`}
+function kpi(l,v,per,delta,def){return`<div class="card kpi"><div class="label">${l}</div><div class="val">${v}</div>${delta||""}<div class="note">${per}</div>${def?`<div class="def">${def}</div>`:""}</div>`}
+
+/* ---------- diário ---------- */
+function renderDaily(){
+  const r=state.range,days=daysIn(r),dates=days.map(d=>d.date);
+  const last=[...DAILY].reverse().find(d=>d.reach!=null);
+  const prev7=DAILY.filter(d=>d.date<last.date).slice(-7);
+  const avg=k=>{const v=prev7.map(d=>d[k]).filter(x=>x!=null);return v.length?sum(v)/v.length:null};
+  const lastF=[...DAILY].reverse().find(d=>d.new_followers!=null);
+  const prevF=DAILY.filter(d=>lastF&&d.date<lastF.date).slice(-7).map(d=>d.new_followers).filter(x=>x!=null);
+  const pubLast=ALL.filter(p=>p.date===last.date);
+  const cmp=(v,a)=>v==null||a==null?`<div class="delta na">sem média de comparação</div>`:`<div class="delta ${v>=a?"up":"down"}">${v>=a?"▲":"▼"} ${pct(Math.abs(v/a-1),0)} vs média dos 7 dias anteriores</div>`;
+  $("#today").innerHTML=[
+    kpi("Alcance",full(last.reach),`Dia ${dBR(last.date)} · contas únicas`,cmp(last.reach,avg("reach"))),
+    kpi("Views recebidas",fmt(last.views),`Dia ${dBR(last.date)}`,cmp(last.views,avg("views"))),
+    kpi("Contas com interação",fmt(last.accounts_engaged),`Dia ${dBR(last.date)}`,cmp(last.accounts_engaged,avg("accounts_engaged"))),
+    kpi("Novos seguidores",lastF?full(lastF.new_followers):ND,lastF?`Dia ${dBR(lastF.date)} · ganho bruto${lastF.date!==last.date?" (último dia processado)":""}`:"",lastF?cmp(lastF.new_followers,prevF.length?sum(prevF)/prevF.length:null):""),
+    kpi("Publicações",String(pubLast.length),`Dia ${dBR(last.date)}`,`<div class="delta na">${["I","R","C"].map(t=>{const n=pubLast.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t][n>1?"name":"one"].toLowerCase()}`:""}).filter(Boolean).join(" · ")||"nenhuma"}</div>`)
+  ].join("");
+  $("#daily-sub").textContent=`Último dia completo: ${dBR(last.date)} · data de Brasília · dias sem coleta aparecem como lacuna`;
+  daySeries($("#d-reach"),{dates,values:days.map(d=>d.reach),color:"var(--s1)",label:"Alcance"});
+  daySeries($("#d-views"),{dates,values:days.map(d=>d.views),color:"var(--s4)",label:"Views"});
+  daySeries($("#d-eng"),{dates,values:days.map(d=>d.accounts_engaged),color:"var(--s2)",label:"Contas com interação"});
+  const er=days.filter(d=>d.reach&&d.accounts_engaged!=null).map(d=>d.accounts_engaged/d.reach);
+  $("#d-eng-rate").textContent=er.length?`Mediana no período: ${pct(median(er))} (${er.length} dias).`:"";
+  daySeries($("#d-follow"),{dates,values:days.map(d=>d.new_followers??null),color:"var(--s3)",label:"Novos seguidores",bars:true});
+  const missF=days.filter(d=>d.new_followers==null).length;
+  $("#d-follow-note").innerHTML=missF?`<div class="warnline">${missF} dia(s) sem dado de seguidores no período: a fonte só libera os últimos 30 dias e o dia mais recente leva até 48h para ser processado.</div>`:"";
+  // saldo
+  const f=D.follows_30d,net=f.gained!=null&&f.lost!=null?f.gained-f.lost:null;
+  const tracked=DAILY.filter(d=>d.net!=null);
+  $("#d-net").innerHTML=`<div class="metric-row" style="margin-bottom:10px"><div><b style="color:var(--good)">+${full(f.gained)}</b>começaram a seguir</div><div><b style="color:var(--bad)">−${full(f.lost)}</b>deixaram de seguir</div><div><b>${net>=0?"+":""}${full(net)}</b>saldo líquido</div></div>
+    <div class="split"><div style="flex:${f.gained||1};background:var(--s3)"></div><div style="flex:${Math.max(f.lost||0,(f.gained||1)*.01)};background:var(--bad)"></div></div>
+    <div class="def"><b>Taxa de perda</b> = deixaram de seguir ÷ começaram a seguir = ${pct(f.gained?f.lost/f.gained:null)}. Período ${perLabel(f.start,f.end)}.</div>
+    ${tracked.length>=2?"":`<div class="empty" style="margin-top:12px">Total de seguidores, perdas e saldo <b>por dia</b>: a fonte não entrega série diária. Estou registrando o total em cada coleta${D.tracking_since?` desde ${dBR(D.tracking_since.slice(0,10))}`:""}; a linha aparece aqui a partir do 2º dia de coleta.</div>`}`;
+  if(tracked.length>=2){const box=document.createElement("div");$("#d-net").appendChild(box);const td=DAILY.filter(d=>d.followers_total!=null);daySeries(box,{dates:td.map(d=>d.date),values:td.map(d=>d.followers_total),color:"var(--s1)",label:"Total de seguidores"})}
+  // resultado por dia de publicação
+  const P=rows(),byDay=dates.map(d=>P.filter(p=>p.date===d)),types=typesNow();
+  $("#lg-pubday").innerHTML=types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join("");
+  bars($("#d-pubday"),{labels:dates.map(dBR),series:types.map(t=>({color:TYPE[t].c,values:byDay.map(a=>sum(a.filter(p=>p.type===t),p=>p.views))})),
+    tipFn:i=>{const a=byDay[i];if(!a.length)return`<b>${dBR(dates[i])}</b><br>Nenhuma publicação`;const reach=sum(a,p=>p.reach);return`<b>${dBR(dates[i])}</b> · ${a.length} post(s)<br>Views: ${full(sum(a,p=>p.views))}<br>Compart.: ${full(sum(a,p=>p.shares))} · Salvos: ${full(sum(a,p=>p.saves))}<br>Coment.: ${full(sum(a,p=>p.comments))} · Curtidas: ${full(sum(a,p=>p.likes))}<br>Compart. ÷ alcance: ${pct(reach?sum(a,p=>p.shares)/reach:null)}`}});
+}
+
+/* ---------- visão geral ---------- */
+function renderOverview(){
+  const r=state.range,cur=daysIn(r),prev=daysIn(r,1),lbl=`${r} dias anteriores`;
+  const full_=(days,k)=>coverage(days,k)===days.length;
+  const sv=(days,k)=>full_(days,k)?sum(days,d=>d[k]):null,av=(days,k)=>{const v=days.map(d=>d[k]).filter(x=>x!=null);return v.length===days.length?sum(v)/v.length:null};
+  const part=(days,k)=>{const c=coverage(days,k);return c>=days.length*.8?{v:sum(days,d=>d[k]),c}:null};
+  const nfc=part(cur,"new_followers"),nfp=part(prev,"new_followers"),nfC=nfc?.v??null,nfP=nfp&&nfp.c===nfc?.c?nfp.v:null;
+  $("#kpis-acc").innerHTML=[
+    kpi("Views recebidas",fmt(sv(cur,"views")),`Últimos ${r} dias · soma diária`,deltaHTML(sv(cur,"views"),sv(prev,"views"),lbl),"Visualizações de todo o conteúdo registradas no período."),
+    kpi("Alcance médio por dia",fmt(av(cur,"reach")),`Últimos ${r} dias`,deltaHTML(av(cur,"reach"),av(prev,"reach"),lbl),"Média das contas únicas alcançadas por dia. Alcance de dias diferentes não pode ser somado."),
+    kpi("Novos seguidores",nfC!=null?full(nfC):ND,nfC!=null?`Últimos ${r} dias · ganho bruto${nfc.c<r?` · ${nfc.c} de ${r} dias com dado`:""}`:`Fonte só libera os últimos 30 dias (filtro: ${r})`,deltaHTML(nfC,nfP,lbl),`Ganho bruto. Saldo líquido de 30 dias: ${full(D.follows_30d.gained-D.follows_30d.lost)} (ver Diário).`),
+    kpi("Seguidores hoje",full(D.account.followers),`Total na coleta de ${dBR(D.updated.slice(0,10))}`,"","Total de contas que seguem o perfil.")
+  ].join("");
+  const P=rows(),PP=postsIn(r,1),views=sum(P,p=>p.views),pviews=sum(PP,p=>p.views),sh=sum(P,p=>p.shares),psh=sum(PP,p=>p.shares);
+  const prevOk=PP.length&&winStart(r,1)>=D.period.start;
+  $("#kpis-post").innerHTML=[
+    kpi("Publicações",String(P.length),`Publicadas nos últimos ${r} dias`,deltaHTML(P.length,prevOk?PP.length:null,lbl),["I","R","C"].map(t=>{const n=P.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t].name.toLowerCase()}`:""}).filter(Boolean).join(" · ")),
+    kpi("Views dos posts",fmt(views),`Posts dos últimos ${r} dias · acumulado até a coleta`,deltaHTML(views,prevOk?pviews:null,lbl),"Posts recentes ainda acumulam; o período anterior teve mais tempo de exposição."),
+    kpi("Views por post (mediana)",fmt(median(P.map(p=>p.views))),`Posts dos últimos ${r} dias`,deltaHTML(median(P.map(p=>p.views)),prevOk?median(PP.map(p=>p.views)):null,lbl),"Mediana: metade dos posts ficou acima, metade abaixo."),
+    kpi("Taxa de compartilhamento",pct(views?sh/views:null),`Posts dos últimos ${r} dias`,deltaHTML(views?sh/views:null,prevOk&&pviews?psh/pviews:null,lbl),`Compartilhamentos ÷ views = ${full(sh)} ÷ ${full(views)}.`)
+  ].join("");
+  const rf=D.reach_by_follow_type_30d,nfr=rf.non_follower?.reach,fr=rf.follower?.reach;
+  $("#reach-split").innerHTML=nfr==null?"":`<div class="head"><h3>Quem você está alcançando</h3><span class="per" data-per="fixed30"></span></div><p class="desc">Contas alcançadas nos últimos 30 dias, por relação com o perfil (dado agregado da fonte).</p>
     <div class="split"><div style="flex:${nfr};background:var(--s1)"></div><div style="flex:${Math.max(fr,nfr*.006)};background:var(--s3)"></div></div>
-    <div class="legend" style="margin:0"><span><i style="background:var(--s1)"></i>Não seguidores: <b style="color:var(--text)">${full(nfr)}</b> (${pct(share)})</span><span><i style="background:var(--s3)"></i>Seguidores: <b style="color:var(--text)">${full(fr)}</b> (${pct(fr/D.account.followers,0)} da base)</span></div>
-    <div class="callout">Seu conteúdo é <b>máquina de descoberta</b>: quase todo o alcance vem de quem ainda não te segue. O gargalo não é ser visto, é <b>transformar quem vê em seguidor</b> e manter a própria base assistindo.</div>`;
+    <div class="legend" style="margin:0"><span><i style="background:var(--s1)"></i>Não seguidores: <b style="color:var(--text)">${full(nfr)}</b> (${pct(nfr/(nfr+fr))})</span><span><i style="background:var(--s3)"></i>Seguidores: <b style="color:var(--text)">${full(fr)}</b> (${pct(fr/D.account.followers,0)} da base)</span></div>
+    <div class="def"><b>Percentual da base alcançada</b> = seguidores alcançados ÷ total de seguidores = ${full(fr)} ÷ ${full(D.account.followers)}.</div>`;
 }
 
-function renderContent(R){
-  const end=new Date(D.period.end+"T12:00:00-03:00"),weeks=new Map();
-  for(let t=weekKey(new Date(end-state.range*864e5+864e5));t<=end;t=new Date(+t+7*864e5))weeks.set(+t,{I:0,R:0,n:0});
-  R.forEach(p=>{const k=+weekKey(p.date);if(weeks.has(k)){const w=weeks.get(k);w[p.type]+=p.views;w.n++}});
-  const wk=[...weeks.entries()],types=state.type==="all"?["I","R"]:[state.type];
-  $("#lg-weekly").innerHTML=types.length>1?types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join(""):"";
-  bars($("#c-weekly"),{labels:wk.map(([k])=>dl(k)),series:types.map(t=>({color:TYPE[t].c,values:wk.map(([,w])=>w[t])})),
-    tipFn:i=>{const[k,w]=wk[i];return`<b>Semana de ${dl(k)}</b><br>${types.map(t=>`${TYPE[t].name}: ${full(w[t])}`).join("<br>")}<br>${w.n} posts`}});
-  const mix=["I","R"].map(t=>{const P=R.filter(p=>p.type===t);return{t,n:P.length,v:median(P.map(p=>p.views)),sh:median(P.map(p=>p.rate)),f:median(P.map(p=>p.follows).filter(x=>x!=null))}});
-  hbars($("#c-mix"),mix.map(m=>({label:`${TYPE[m.t].name} (${m.n} posts)`,v:m.v,text:full(m.v)+" views",c:TYPE[m.t].c})));
-  $("#c-mix").insertAdjacentHTML("beforeend",`<div class="callout">Compartilhamento mediano: ${mix.map(m=>`<b>${TYPE[m.t].name} ${pct(m.sh)}</b>`).join(" · ")}<br>Carrosséis: <b>nenhum no período</b>. É o formato com mais alcance no benchmark de mercado.</div>`);
+/* ---------- conversão ---------- */
+function funnel(host,steps){
+  const max=Math.max(...steps.filter(s=>s.v!=null).map(s=>s.v),1);
+  host.innerHTML=`<div class="funnel">${steps.map((s,i)=>`${i?`<div class="frate">${s.v!=null&&steps[i-1].v!=null?`↓ <b>${pct(s.v/steps[i-1].v,2)}</b> = ${s.lab.toLowerCase()} ÷ ${steps[i-1].lab.toLowerCase()}`:"↓ taxa indisponível"}</div>`:""}
+    <div class="fstep${s.v==null?" na":""}"><span>${s.lab}</span><div class="bar" style="width:${s.v==null?100:Math.max(1,Math.sqrt(s.v/max)*100)}%"></div><b style="text-align:right">${s.v==null?ND:full(s.v)}</b></div>`).join("")}</div>
+    <div class="def">${steps.some((s,i)=>i&&s.v!=null&&steps[i-1].v!=null&&s.v>steps[i-1].v)?"Uma etapa pode superar a anterior: há quem siga direto do post, sem abrir o perfil. ":""}Barras em raiz quadrada para que as etapas pequenas continuem visíveis.${steps.some(s=>s.note)?" "+steps.filter(s=>s.note).map(s=>s.note).join(" "):""}</div>`;
+}
+function renderConversion(){
+  const P=rows().filter(p=>p.profile_visits!=null&&p.follows!=null);
+  $("#funnel-post-desc").textContent=`${P.length} publicações com dado de visitas e seguidores. A fonte não entrega visitas ao perfil nem seguidores atribuídos para Reels.`;
+  if(!P.length)empty($("#funnel-post"),"Sem imagens ou carrosséis com esse dado no filtro atual.");
+  else funnel($("#funnel-post"),[{lab:"Alcance",v:sum(P,p=>p.reach)},{lab:"Visitas ao perfil",v:sum(P,p=>p.profile_visits)},{lab:"Seguiram",v:sum(P,p=>p.follows)}].map(s=>s));
+  const rf=D.reach_by_follow_type_30d;
+  funnel($("#funnel-acc"),[{lab:"Alcance",v:rf.non_follower?(rf.non_follower.reach+(rf.follower?.reach||0)):null},{lab:"Visitas ao perfil",v:null,note:"A fonte não informa visitas ao perfil no nível da conta."},{lab:"Novos seguidores",v:D.follows_30d.gained}]);
+  const C=P.filter(p=>p.reach>=10000).map(p=>({...p,cpm:p.follows/p.reach*1000})).sort((a,b)=>b.cpm-a.cpm).slice(0,8);
+  $("#conv-tbl").innerHTML=C.length?`<thead><tr><th class="l">Post</th><th>Alcance</th><th>Visitas</th><th>Seguiram</th><th>Seguiram ÷ visitas<br><span class="small-n" style="text-transform:none">pode passar de 100%</span></th><th>Por mil alcançados</th></tr></thead><tbody>${C.map(p=>`<tr><td class="l w"><span class="tag">${dBR(p.date)}</span><a href="${linkOf(p)}" target="_blank" rel="noopener">${p.title}</a></td><td>${full(p.reach)}</td><td>${full(p.profile_visits)}</td><td>${full(p.follows)}</td><td>${pct(p.profile_visits?p.follows/p.profile_visits:null,0)}</td><td><b>${p.cpm.toFixed(1).replace(".",",")}</b></td></tr>`).join("")}</tbody>`:`<tbody><tr><td class="l">Sem posts elegíveis no filtro atual.</td></tr></tbody>`;
+}
+
+/* ---------- vida do post ---------- */
+function renderLife(){
+  const W=[["24","24 horas"],["72","3 dias"],["168","7 dias"],["720","30 dias"]],pw=D.post_windows||{};
+  const P=ALL.filter(p=>state.type==="all"||p.type===state.type);
+  const cols=W.map(([k,l])=>{const items=P.filter(p=>pw[p.code]&&pw[p.code][k]).map(p=>({p,w:pw[p.code][k]}));return{k,l,items,st:statsOf(items.map(x=>x.w.views))}});
+  const host=$("#life");
+  if(cols.every(c=>!c.items.length))return empty(host,"Ainda sem leituras. Elas aparecem a partir das próximas coletas diárias.");
+  host.innerHTML=`<div class="g3" style="grid-template-columns:repeat(4,1fr);margin:0">${cols.map(c=>`<div class="card kpi" style="padding:14px"><div class="label">${c.l}</div><div class="val" style="font-size:22px">${c.st.n?fmt(c.st.med):ND}</div><div class="note">mediana de views · ${c.st.n} post(s)${c.st.n>=3?`<br>quartis ${fmt(c.st.q1)} a ${fmt(c.st.q3)}`:""}</div></div>`).join("")}</div>
+    <div class="tablewrap" style="margin-top:12px"><table class="t"><thead><tr><th class="l">Post</th>${W.map(([,l])=>`<th>${l}</th>`).join("")}</tr></thead><tbody>${
+      P.filter(p=>pw[p.code]).slice(0,state.showAllLife?999:12).map(p=>`<tr><td class="l w"><span class="tag"><i style="background:${TYPE[p.type].c}"></i>${dBR(p.date)}</span><a href="${linkOf(p)}" target="_blank" rel="noopener">${p.title}</a></td>${W.map(([k])=>{const w=pw[p.code][k];return`<td>${w?`${fmt(w.views)}<br><span class="small-n">lido com ${age(w.age_h)}</span>`:`<span class="small-n">${ND}</span>`}</td>`}).join("")}</tr>`).join("")}</tbody></table></div>
+    <div class="def">Leituras fora de cerca de 25% da janela (mínimo 12h) não entram. Com a coleta diária, cada post novo passa a ter as quatro leituras.</div>`;
+  $$(".per[data-per='tracking']").forEach(s=>s.textContent=D.tracking_since?`Coleta desde ${dBR(D.tracking_since.slice(0,10))}`:"Coleta diária");
+}
+
+/* ---------- conteúdo ---------- */
+function weekKey(s){const d=new Date(s+"T12:00:00");d.setDate(d.getDate()-(d.getDay()+6)%7);return iso(d)}
+function typesNow(){const R=rows();return state.type==="all"?["I","R","C"].filter(t=>R.some(p=>p.type===t)):[state.type]}
+function renderContent(){
+  const R=rows(),types=typesNow(),r=state.range;
+  const weeks=[];for(let w=weekKey(winStart(r));w<=END();w=addDays(w,7))weeks.push(w);
+  $("#lg-weekly").innerHTML=types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join("");
+  bars($("#c-weekly"),{labels:weeks.map(dBR),series:types.map(t=>({color:TYPE[t].c,values:weeks.map(w=>sum(R.filter(p=>p.type===t&&weekKey(p.date)===w),p=>p.views))})),
+    tipFn:i=>{const a=R.filter(p=>weekKey(p.date)===weeks[i]);return`<b>Semana de ${dBR(weeks[i])}</b><br>${types.map(t=>`${TYPE[t].name}: ${full(sum(a.filter(p=>p.type===t),p=>p.views))}`).join("<br>")}<br>${a.length} posts publicados`}});
+  // formatos
+  const allT=state.type==="all"?["I","R","C"].filter(t=>R.some(p=>p.type===t)):[state.type];
+  const fm=allT.map(t=>{const a=R.filter(p=>p.type===t);return{t,a,st:statsOf(a.map(p=>p.views))}});
+  const mx=Math.max(1,...fm.map(f=>f.st.q3||0));
+  $("#c-mix").innerHTML=fm.map(f=>`<div style="margin:10px 0 16px"><div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px"><span><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:${TYPE[f.t].c};margin-right:6px"></i>${TYPE[f.t].name} <span class="small-n">(${f.st.n} posts)</span></span><b>${f.st.n?fmt(f.st.med)+" views":ND}</b></div>
+    <div style="position:relative;height:14px;background:var(--grid);border-radius:4px">${f.st.n?`<div style="position:absolute;left:${(f.st.q1||0)/mx*100}%;width:${Math.max(.5,((f.st.q3||0)-(f.st.q1||0))/mx*100)}%;top:0;bottom:0;background:${TYPE[f.t].c};opacity:.35;border-radius:3px"></div><div style="position:absolute;left:calc(${Math.min(f.st.med,mx)/mx*100}% - 1px);width:3px;top:-3px;bottom:-3px;background:${TYPE[f.t].c};border-radius:2px"></div>`:""}</div>
+    <div class="def" style="margin-top:4px">${f.st.n>=3?`Metade central: ${fmt(f.st.q1)} a ${fmt(f.st.q3)} · compart. ÷ views (mediana): ${pct(median(f.a.map(p=>p.rate)))}`:f.st.n?"Amostra pequena para quartis.":"Nenhum post no período."}${f.st.n&&f.st.n<5?' <span style="color:var(--warn)">Amostra pequena.</span>':""}</div></div>`).join("")+`<div class="def">Barra clara = metade central dos posts (1º ao 3º quartil). Traço = mediana.</div>`;
+  // horário e dia
   const B=[["Madrugada","0h a 5h",0,5],["Manhã cedo","6h a 9h",6,9],["Manhã","10h a 12h",10,12],["Tarde","13h a 17h",13,17],["Noite","18h a 23h",18,23]];
-  const cell=(fn)=>{const o={};types.forEach(t=>{const v=R.filter(p=>p.type===t&&fn(p)).map(p=>p.views);o[t]={v:median(v),n:v.length}});return o};
   const lg=types.length>1?types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join(""):"";
-  $("#lg-hour").innerHTML=lg;$("#lg-dow").innerHTML=lg;
-  const hb=B.map(([l,r,a,b])=>({l,r,c:cell(p=>p.hour>=a&&p.hour<=b)}));
-  bars($("#c-hour"),{group:true,labels:hb.map(h=>h.l),series:types.map(t=>({color:TYPE[t].c,values:hb.map(h=>h.c[t].v)})),
-    tipFn:i=>`<b>${hb[i].l} (${hb[i].r})</b><br>${types.map(t=>`${TYPE[t].name}: ${full(hb[i].c[t].v)} views (${hb[i].c[t].n} posts)`).join("<br>")}`});
+  $("#lg-hour").innerHTML=lg+'<span><i style="background:var(--muted);opacity:.35"></i>menos de 5 posts</span>';$("#lg-dow").innerHTML=$("#lg-hour").innerHTML;
+  const hs=types.map(t=>B.map(([,,a,b])=>statsOf(R.filter(p=>p.type===t&&p.hour>=a&&p.hour<=b).map(p=>p.views))));
+  qbars($("#c-hour"),{labels:B.map(b=>b[0]),series:types.map((t,i)=>({color:TYPE[t].c,stats:hs[i]})),
+    tipFn:i=>`<b>${B[i][0]} (${B[i][1]})</b><br>${types.map((t,k)=>{const s=hs[k][i];return`${TYPE[t].name}: ${s.n?`mediana ${full(s.med)}${s.n>=3?` · quartis ${fmt(s.q1)} a ${fmt(s.q3)}`:""}`:ND} (${s.n} posts)`}).join("<br>")}`});
+  const small=hs.flat().filter(s=>s.n>0&&s.n<5).length;
+  $("#hour-note").innerHTML=small?`<div class="warnline">${small} combinação(ões) com menos de 5 posts: leia com cautela.</div>`:"";
   const DN=["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"],order=[1,2,3,4,5,6,0];
-  const db=order.map(d=>({l:DN[d],c:cell(p=>p.dow===d)}));
-  bars($("#c-dow"),{group:true,labels:db.map(d=>d.l),series:types.map(t=>({color:TYPE[t].c,values:db.map(d=>d.c[t].v)})),
-    tipFn:i=>`<b>${db[i].l}</b><br>${types.map(t=>`${TYPE[t].name}: ${full(db[i].c[t].v)} views (${db[i].c[t].n} posts)`).join("<br>")}`});
-  const ri=R.filter(p=>p.type==="R"),early=ri.filter(p=>p.hour>=6&&p.hour<=9),late=ri.filter(p=>p.hour>=13);
-  $("#hour-callout").innerHTML=state.type!=="I"&&early.length&&late.length?`Imagens rendem de manhã cedo; Reels rendem à tarde e à noite. <b>${early.length} Reels</b> saíram entre 6h e 9h, com mediana de <b>${full(median(early.map(p=>p.views)))}</b> views, contra <b>${full(median(late.map(p=>p.views)))}</b> dos publicados a partir das 13h.`:"";
+  const ds=types.map(t=>order.map(d=>statsOf(R.filter(p=>p.type===t&&p.dow===d).map(p=>p.views))));
+  qbars($("#c-dow"),{labels:order.map(d=>DN[d]),series:types.map((t,i)=>({color:TYPE[t].c,stats:ds[i]})),
+    tipFn:i=>`<b>${DN[order[i]]}</b><br>${types.map((t,k)=>{const s=ds[k][i];return`${TYPE[t].name}: ${s.n?`mediana ${full(s.med)}${s.n>=3?` · quartis ${fmt(s.q1)} a ${fmt(s.q3)}`:""}`:ND} (${s.n} posts)`}).join("<br>")}`});
+  const smallD=ds.flat().filter(s=>s.n>0&&s.n<5).length;
+  $("#dow-note").innerHTML=smallD?`<div class="warnline">${smallD} combinação(ões) com menos de 5 posts: leia com cautela.</div>`:"";
+  // distribuição
+  const metas=[1000,5000,20000,100000,500000];
+  $("#c-dist").innerHTML=types.map(t=>{const a=R.filter(p=>p.type===t);if(!a.length)return"";
+    return`<div style="margin-bottom:14px"><div style="font-size:13px;font-weight:600;margin-bottom:6px"><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:${TYPE[t].c};margin-right:6px"></i>${TYPE[t].name} <span class="small-n">(${a.length} posts)</span></div>
+    ${metas.map(m=>{const k=a.filter(p=>p.views>=m).length;return`<div style="display:grid;grid-template-columns:92px 1fr 80px;gap:8px;align-items:center;font-size:12.5px;margin:3px 0"><span class="small-n">≥ ${m>=1000?m/1000+" mil":m} views</span><div style="height:9px;background:var(--grid);border-radius:3px"><div style="height:100%;width:${k/a.length*100}%;background:${TYPE[t].c};border-radius:3px"></div></div><b style="text-align:right;font-variant-numeric:tabular-nums">${pct(k/a.length,0)} <span class="small-n">(${k})</span></b></div>`}).join("")}</div>`}).join("")||`<div class="empty">Sem posts no período.</div>`;
+  renderCalendar(R,types);
+}
+function renderCalendar(R,types){
+  $("#lg-cal").innerHTML=types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join("");
+  const a=winStart(state.range),b=END(),start=weekKey(a),maxV=Math.max(1,...R.map(p=>p.views));
+  const DN=["Seg","Ter","Qua","Qui","Sex","Sáb","Dom"];let html=`<div class="cal"><span></span>${DN.map(d=>`<span class="dh">${d}</span>`).join("")}`;
+  for(let w=start;w<=b;w=addDays(w,7)){html+=`<span class="wk">${dBR(w)}</span>`;for(let i=0;i<7;i++){const d=addDays(w,i),inR=d>=a&&d<=b,ps=R.filter(p=>p.date===d),tot=sum(ps,p=>p.views);
+    const bg=ps.length?`background:color-mix(in srgb,var(--s1) ${Math.round(8+Math.sqrt(tot/maxV)*40)}%,var(--surface-2))`:"";
+    html+=`<div class="cell${inR?"":" out"}${state.calDay===d?" sel":""}" data-d="${inR?d:""}" style="${bg}" title="${dBR(d)}: ${ps.length} post(s), ${full(tot)} views"><span class="dn">${d.slice(8)}</span><span class="dots">${ps.map(p=>`<i style="background:${TYPE[p.type].c}"></i>`).join("")}</span></div>`}}
+  $("#c-cal").innerHTML=html+"</div>";
+  $$("#c-cal .cell").forEach(c=>c.onclick=()=>{const d=c.dataset.d;if(!d)return;state.calDay=d;$$("#c-cal .cell").forEach(x=>x.classList.toggle("sel",x===c));
+    const ps=R.filter(p=>p.date===d).sort((x,y)=>x.ts.localeCompare(y.ts));const day=DAILY.find(x=>x.date===d);
+    $("#cal-pick").className="pick on";$("#cal-pick").innerHTML=`<b>${dBR(d)}</b> · conta: alcance ${full(day?.reach)} · views ${fmt(day?.views)} · novos seguidores ${full(day?.new_followers)}<br>${ps.length?ps.map(p=>`<div style="margin-top:6px"><span class="tag"><i style="background:${TYPE[p.type].c}"></i>${p.ts.slice(11)} · ${p.theme}</span><a href="${linkOf(p)}" target="_blank" rel="noopener">${p.title}</a> <span class="small-n">${fmt(p.views)} views · ${fmt(p.shares)} compart.</span></div>`).join(""):"Nenhuma publicação neste dia."}`});
 }
 
-function skipBuckets(Rl){return[["Abaixo de 35%",0,35],["35% a 45%",35,45],["Acima de 45%",45,101]].map(([l,a,b])=>{const v=Rl.filter(p=>p.skip>=a&&p.skip<b).map(p=>p.views);return{l,v:median(v),n:v.length}})}
-function renderReels(R){
-  const Rl=R.filter(p=>p.type==="R"&&p.skip!=null);
-  if(!Rl.length){["#c-scatter","#c-skip","#c-watch","#best-reels"].forEach(s=>$(s).innerHTML=`<p class="desc">Sem Reels no filtro atual.</p>`);$("#skip-callout").innerHTML="";return}
-  const pick=$("#scatter-pick");pick.className="pick";pick.textContent="Toque em uma bolinha para ver o Reel. No computador, clique para abrir direto no Instagram.";
-  scatter($("#c-scatter"),{pts:Rl.map(p=>({x:p.skip,y:p.views})),xLabel:"taxa de pulo",
-    href:i=>`https://www.instagram.com/reel/${Rl[i].code}/`,
-    onPick:i=>{const p=Rl[i];pick.className="pick on";pick.innerHTML=`<b>${p.title}</b><br>${full(p.views)} views · pulo ${pct(p.skip/100)} · assistido ${secs(p.watch)} · ${p.ts.slice(8,10)}/${p.ts.slice(5,7)}<br><a class="btn" href="https://www.instagram.com/reel/${p.code}/" target="_blank" rel="noopener">Abrir no Instagram ↗</a>`},
-    tipFn:i=>{const p=Rl[i];return`<b>${p.title}</b><br>${full(p.views)} views<br>Pulo: ${pct(p.skip/100)} · Assistido: ${secs(p.watch)}`}});
-  const sb=skipBuckets(Rl);
-  hbars($("#c-skip"),sb.map((b,i)=>({label:`${b.l} (${b.n} Reels)`,v:b.v,text:full(b.v)+" views",c:i===0?"var(--s3)":"var(--s2)"})));
-  const ratio=sb[0].v&&sb[1].v?sb[0].v/sb[1].v:0;
-  $("#skip-callout").innerHTML=ratio>1.5?`Reels com pulo abaixo de 35% têm <b>${Math.round(ratio)}x mais visualizações</b> que os da faixa seguinte. Mediana atual de pulo: <b>${pct(median(Rl.map(p=>p.skip))/100)}</b>.`:`Mediana atual de pulo: <b>${pct(median(Rl.map(p=>p.skip))/100)}</b>.`;
-  const WB=[["Até 11s",0,12],["12s a 19s",12,20],["20s a 29s",20,30],["30s ou mais",30,999]];
-  const wb=WB.map(([l,a,b])=>{const v=Rl.filter(p=>p.watch>=a&&p.watch<b).map(p=>p.views);return{l,v:median(v),n:v.length}});
-  bars($("#c-watch"),{labels:wb.map(w=>w.l),series:[{color:"var(--s2)",values:wb.map(w=>w.v)}],tipFn:i=>`<b>${wb[i].l} assistidos</b><br>Mediana: ${full(wb[i].v)} views<br>${wb[i].n} Reels`});
+/* ---------- reels ---------- */
+function renderReels(){
+  const sel=$("#reel-theme"),R0=rows().filter(p=>p.type==="R"&&p.skip!=null);
+  const th=[...new Set(R0.map(p=>p.theme))];if(!th.includes(state.reelTheme))state.reelTheme="all";
+  sel.innerHTML=`<option value="all">Todos os temas (${R0.length})</option>`+th.map(t=>`<option value="${t}"${state.reelTheme===t?" selected":""}>${t} (${R0.filter(p=>p.theme===t).length})</option>`).join("");
+  sel.onchange=()=>{state.reelTheme=sel.value;renderReels()};
+  const Rl=R0.filter(p=>state.reelTheme==="all"||p.theme===state.reelTheme);
+  const pick=$("#scatter-pick");pick.className="pick";pick.textContent="Toque em uma bolinha para ver o Reel. No computador, clique para abrir no Instagram.";
+  scatter($("#c-scatter"),{pts:Rl.map(p=>({x:p.skip,y:p.views})),xLabel:"taxa de pulo",href:i=>linkOf(Rl[i]),
+    tipFn:i=>{const p=Rl[i];return`<b>${p.title}</b><br>${dBR(p.date)} · ${p.theme}<br>${full(p.views)} views<br>Pulo: ${pct(p.skip/100)} · assistido em média: ${secs(p.watch)}<br>Duração do vídeo: ${ND}`},
+    onPick:i=>{const p=Rl[i];pick.className="pick on";pick.innerHTML=`<b>${p.title}</b><br>${dBR(p.date)} ${p.ts.slice(11)} · ${p.theme} · idade na coleta ${age(p.age_h)}<br>${full(p.views)} views · pulo ${pct(p.skip/100)} · assistido ${secs(p.watch)} · duração ${ND}<br><a class="btn" href="${linkOf(p)}" target="_blank" rel="noopener">Abrir no Instagram ↗</a>`}});
+  if(!Rl.length){["#c-skip","#c-watch","#best-reels"].forEach(s=>empty($(s),"Sem Reels no filtro atual."));$("#skip-note").innerHTML="";return}
+  const SB=[["Abaixo de 35%",0,35],["35% a 45%",35,45],["Acima de 45%",45,101]];
+  const sb=SB.map(([l,a,b])=>({l,st:statsOf(Rl.filter(p=>p.skip>=a&&p.skip<b).map(p=>p.views))}));
+  qbars($("#c-skip"),{labels:sb.map(s=>s.l),series:[{color:"var(--s2)",stats:sb.map(s=>s.st)}],tipFn:i=>{const s=sb[i].st;return`<b>Pulo ${sb[i].l.toLowerCase()}</b><br>${s.n} Reels<br>Mediana: ${full(s.med)} views${s.n>=3?`<br>Quartis: ${fmt(s.q1)} a ${fmt(s.q3)}`:""}`}});
+  $("#skip-note").innerHTML=`<b>Leitura:</b> diferenças entre faixas são associações dentro desta amostra de ${Rl.length} Reels. Horário, tema e compartilhamentos também variam entre as faixas; a taxa de pulo sozinha não explica o resultado.`;
+  const WB=[["Até 11s",0,12],["12s a 19s",12,20],["20s a 29s",20,30],["30s ou mais",30,9999]];
+  const wb=WB.map(([l,a,b])=>({l,st:statsOf(Rl.filter(p=>p.watch>=a&&p.watch<b).map(p=>p.views))}));
+  qbars($("#c-watch"),{labels:wb.map(w=>w.l),series:[{color:"var(--s2)",stats:wb.map(w=>w.st)}],tipFn:i=>{const s=wb[i].st;return`<b>${wb[i].l} assistidos em média</b><br>${s.n} Reels<br>Mediana: ${full(s.med)} views${s.n>=3?`<br>Quartis: ${fmt(s.q1)} a ${fmt(s.q3)}`:""}`}});
   const best=Rl.filter(p=>p.views>5000).sort((a,b)=>a.skip-b.skip).slice(0,6);
-  $("#best-reels").innerHTML=best.map(p=>`<div style="display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px"><a href="https://www.instagram.com/reel/${p.code}/" target="_blank" rel="noopener" style="text-decoration:none">${p.title}</a><span style="white-space:nowrap;color:var(--text-2);font-variant-numeric:tabular-nums"><b style="color:var(--good)">${pct(p.skip/100,0)}</b> · ${secs(p.watch)} · ${fmt(p.views)}</span></div>`).join("")+`<p class="desc" style="margin:8px 0 0">pulo · tempo médio assistido · visualizações</p>`;
+  $("#best-reels").innerHTML=best.length?best.map(p=>`<div style="display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px"><a href="${linkOf(p)}" target="_blank" rel="noopener" style="text-decoration:none">${p.title}</a><span style="white-space:nowrap;color:var(--text-2);font-variant-numeric:tabular-nums"><b style="color:var(--good)">${pct(p.skip/100,0)}</b> · ${secs(p.watch)} · ${fmt(p.views)}</span></div>`).join("")+`<p class="def">pulo · tempo médio assistido · views</p>`:`<div class="empty">Nenhum Reel com mais de 5 mil views no filtro.</div>`;
 }
 
+/* ---------- temas ---------- */
+function renderThemes(){
+  const R=rows(),types=typesNow();
+  const rowsT=D.themes.map(th=>({th,by:types.map(t=>{const a=R.filter(p=>p.theme===th&&p.type===t);return{n:a.length,v:median(a.map(p=>p.views)),sh:median(a.map(p=>p.rate)),f:median(a.map(p=>p.follows).filter(x=>x!=null))}})})).filter(r=>r.by.some(b=>b.n));
+  $("#theme-tbl").innerHTML=rowsT.length?`<thead><tr><th class="l">Tema</th>${types.map(t=>`<th>${TYPE[t].name}<br><span class="small-n" style="text-transform:none">posts · views · compart.</span></th>`).join("")}</tr></thead><tbody>${rowsT.map(r=>`<tr><td class="l"><b>${r.th}</b></td>${r.by.map(b=>`<td class="${b.n&&b.n<5?"small-n":""}">${b.n?`${b.n} · <b>${fmt(b.v)}</b> · ${pct(b.sh)}`:"<span class='small-n'>sem posts</span>"}</td>`).join("")}</tr>`).join("")}</tbody>`:`<tbody><tr><td class="l">Sem posts no período.</td></tr></tbody>`;
+}
+
+/* ---------- público ---------- */
 function renderAudience(){
+  $("#aud-sub").textContent=`Seguidores na data de referência ${dBR(D.audience.ref_date)}`;
   const ag=D.audience.age_gender,ages=["65+","55-64","45-54","35-44","25-34","18-24","13-17"],tot=sum(ag,x=>x[2]);
   const g=(a,s)=>(ag.find(x=>x[0]===a&&x[1]===s)||[0,0,0])[2];
   hbars($("#c-age"),ages.map(a=>{const m=g(a,"male"),f=g(a,"female"),u=g(a,"undefined"),t=m+f+u;
-    return{label:a==="65+"?"65 anos ou mais":a.replace("-"," a ")+" anos",text:pct(t/tot),parts:[{v:m,c:"var(--s1)"},{v:f,c:"var(--s2)"},{v:u,c:"var(--muted)"}],
-      tip:`<b>${a}</b><br>Homens: ${full(m)}<br>Mulheres: ${full(f)}<br>Não informado: ${full(u)}`}}),{stack:true});
-  const c=D.audience.cities;
-  hbars($("#c-city"),c.slice(0,10).map(x=>({label:x[0],v:x[1],text:full(x[1]),c:"var(--s1)"})));
+    return{label:a==="65+"?"65 anos ou mais":a.replace("-"," a ")+" anos",text:`${pct(t/tot)} · ${full(t)}`,parts:[{v:m,c:"var(--s1)"},{v:f,c:"var(--s2)"},{v:u,c:"var(--muted)"}],tip:`<b>${a}</b><br>Homens: ${full(m)}<br>Mulheres: ${full(f)}<br>Não informado: ${full(u)}`}}),{stack:true});
+  $("#c-age").insertAdjacentHTML("beforeend",`<div class="def">Percentual sobre ${full(tot)} seguidores com idade informada.</div>`);
+  const c=D.audience.cities,ct=sum(c,x=>x[1]);
+  hbars($("#c-city"),c.slice(0,10).map(x=>({label:x[0],v:x[1],text:`${full(x[1])} · ${pct(x[1]/D.account.followers)}`,c:"var(--s1)"})));
+  $("#c-city").insertAdjacentHTML("beforeend",`<div class="def">Percentual sobre o total de seguidores. As ${c.length} cidades listadas somam ${pct(ct/D.account.followers,0)} da base.</div>`);
 }
 
-function insights(R){
-  const views=sum(R,p=>p.views),I=R.filter(p=>p.type==="I"),Rl=R.filter(p=>p.type==="R"&&p.skip!=null);
-  const comm=sum(R,p=>p.comments),c1k=views?comm/views*1000:0;
-  const topC=[...R].sort((a,b)=>b.comments-a.comments).slice(0,3);
-  const vis=sum(I,p=>p.profile_visits||0),fol=sum(I,p=>p.follows||0),conv=vis?fol/vis:0;
-  const fpm=views?sum(I,p=>p.follows||0)/sum(I,p=>p.views)*1e5:0;
-  const bestF=[...I].filter(p=>p.views>20000).sort((a,b)=>b.follows/b.views-a.follows/a.views)[0];
-  const sb=Rl.length?skipBuckets(Rl):null,medSkip=median(Rl.map(p=>p.skip)),medW=median(Rl.map(p=>p.watch));
-  const shareImg=median(I.map(p=>p.rate)),shareR=median(Rl.map(p=>p.rate));
-  const saves=views?sum(R,p=>p.saves)/views:0;
-  const perWeek=R.length/(state.range/7);
-  const low=R.filter(p=>p.views<5000).length;
-  const rf=D.reach_by_follow_type_30d,baseReach=rf.follower.reach/D.account.followers;
+/* ---------- análise ---------- */
+function insights(){
+  const R=rows(),views=sum(R,p=>p.views),I=R.filter(p=>p.type!=="R"),Rl=R.filter(p=>p.type==="R"&&p.skip!=null);
+  const comm=sum(R,p=>p.comments),c1k=views?comm/views*1000:null,topC=[...R].sort((a,b)=>b.comments-a.comments).slice(0,3);
+  const vis=sum(I.filter(p=>p.profile_visits!=null),p=>p.profile_visits),fol=sum(I.filter(p=>p.follows!=null),p=>p.follows),conv=vis?fol/vis:null;
+  const sb=Rl.length?[[0,35],[35,45]].map(([a,b])=>statsOf(Rl.filter(p=>p.skip>=a&&p.skip<b).map(p=>p.views))):null;
+  const medSkip=median(Rl.map(p=>p.skip)),medW=median(Rl.map(p=>p.watch)),shareI=median(I.map(p=>p.rate)),shareR=median(Rl.map(p=>p.rate));
+  const saves=views?sum(R,p=>p.saves)/views:null,perWeek=R.length/(state.range/7),low=R.filter(p=>p.views<5000).length;
+  const rf=D.reach_by_follow_type_30d,baseReach=rf.follower?rf.follower.reach/D.account.followers:null;
+  const early=Rl.filter(p=>p.hour>=6&&p.hour<=9),late=Rl.filter(p=>p.hour>=13);
   const st=(ok,mid)=>ok?["good","No caminho"]:mid?["warn","Atenção"]:["bad","Prioridade"];
   const cards=[
-    {t:"Seguidores",s:st(conv>.6,conv>.4),m:[[pct(conv,0),"visitas ao perfil que viram seguidor"],[fpm.toFixed(0).replace(".",","),"seguidores a cada 100 mil views (imagens)"]],
-     d:`Muita gente chega ao perfil, mas a conversão varia muito por post.${bestF?` O que mais converteu proporcionalmente foi <b>"${bestF.title}"</b>.`:""} Posts pessoais e de bastidores tendem a converter melhor que meme puro, porque mostram quem está por trás do perfil.`,
-     a:["Fixe no topo do perfil 3 posts que expliquem quem você é e por que seguir (sua trajetória, uma análise forte, um bastidor).","Reescreva a bio com uma promessa clara: o que a pessoa ganha seguindo (ex.: \"análise política sem enrolação, todo dia às 7h\").","Feche os conteúdos virais com chamada específica para seguir, não genérica: \"siga para a parte 2\" ou \"amanhã eu mostro o documento\".","Faça séries numeradas (parte 1, 2, 3). Série cria motivo para seguir."]},
-    {t:"Visualizações",s:st(perWeek<=8,perWeek<=11),m:[[perWeek.toFixed(1).replace(".",","),"posts por semana"],[pct(low/R.length,0),"dos posts abaixo de 5 mil views"]],
-     d:`O volume está acima do que o Instagram recomenda e uma parte grande dos posts quase não roda. Isso dilui a atenção da base e os testes do algoritmo. A mesma ideia em formato de imagem forte costuma render muito mais que um Reel longo.`,
-     a:["Reduza para 1 imagem por dia + 4 a 5 Reels por semana, e concentre energia nos melhores roteiros.","Use os <b>Reels de teste</b> (mostrados só a não seguidores por 72h) para testar 2 ou 3 ganchos da mesma ideia antes de publicar para todos.","Imagens na manhã cedo (6h a 9h) e Reels à tarde ou à noite (14h ou 19h). Hoje muitos Reels saem de manhã cedo, justamente o horário em que eles menos rodam.","Republique em carrossel os temas que viralizaram como imagem: o carrossel reaparece no feed com outro slide e ganha uma segunda chance."]},
-    {t:"Compartilhamentos",s:st(shareImg>.01,shareImg>.005),m:[[pct(shareImg),"mediana nas imagens"],[pct(shareR),"mediana nos Reels"]],
-     d:`Compartilhamento por mensagem é hoje o sinal mais forte para alcançar quem não te segue, e é o seu ponto mais forte. Imagens compartilham o dobro dos Reels. O "COMPARTILHE" na legenda funciona quando o post dá à pessoa algo para dizer a alguém.`,
-     a:["Mantenha a fórmula: frase curta de identidade + contraste visual forte + pedido explícito de envio.","Troque \"compartilhe\" por um destinatário: \"manda para aquele amigo que ainda acredita em X\". Destinatário concreto aumenta envio.","Nos Reels, coloque a frase compartilhável na tela nos primeiros segundos, não só na legenda."]},
-    {t:"Comentários",s:st(c1k>3,c1k>1.5),m:[[c1k.toFixed(2).replace(".",","),"comentários por mil views"],[full(comm),"comentários no período"]],
-     d:`É a métrica mais fraca. O público vê e compartilha, mas quase não conversa. Os posts que mais geraram comentários pediram uma resposta concreta: ${topC.map(p=>`<b>"${p.title}"</b> (${full(p.comments)})`).join(", ")}.`,
-     a:["Termine cada post com uma pergunta fechada e fácil: \"só um nome\", \"de 0 a 10\", \"sim ou não\". Pergunta aberta não gera resposta.","Responda os 10 primeiros comentários na primeira hora. Conversa cedo aumenta a distribuição.","Use \"comente EU QUERO que eu envio o material\" quando houver dossiê ou documento: transforma curiosidade em comentário.","Fixe um comentário seu com uma provocação para puxar a discussão."]},
-    {t:"Retenção dos Reels",s:sb?st(medSkip<35,medSkip<42):["warn","Atenção"],m:[[pct(medSkip/100),"taxa mediana de pulo"],[secs(Math.round(medW)),"tempo médio assistido (mediana)"]],
-     d:sb?`O gancho é o que separa Reel que roda de Reel que morre: os com pulo abaixo de 35% têm mediana de <b>${full(sb[0].v)}</b> views contra <b>${full(sb[1].v)}</b> na faixa de 35% a 45%. Tempo assistido é o sinal número 1 do algoritmo, segundo o próprio Instagram.`:"Sem Reels no filtro atual.",
-     a:["Primeiro segundo com a frase mais forte do vídeo escrita na tela. Nada de \"olá, pessoal\" ou contexto antes do conflito.","Grave com legenda embutida: muita gente assiste sem som.","Corte para 30 a 60 segundos. Se o assunto pede mais, divida em partes.","Revise a curva de retenção no app em cada Reel e anote em que segundo as pessoas saem."]},
-    {t:"Salvamentos",s:st(saves>.004,saves>.002),m:[[pct(saves,2),"das views viram salvamento"],[fmt(sum(R,p=>p.saves)),"salvamentos no período"]],
-     d:`Salvar indica conteúdo de valor duradouro, e o algoritmo pesa mais que curtida. Seu conteúdo é de reação imediata, então salva pouco. É a forma de equilibrar alcance com autoridade.`,
-     a:["Crie carrosséis de referência: \"5 números do governo que ninguém mostra\", \"linha do tempo do caso X\", \"guia de votação\".","Peça explicitamente: \"salve para consultar na hora do debate\".","Transforme as análises longas dos Reels em carrossel de 6 a 10 slides."]},
-    {t:"Alcance na própria base",s:st(baseReach>.8,baseReach>.5),m:[[pct(baseReach,0),"dos seguidores alcançados em 30 dias"],[pct(rf.non_follower.reach/(rf.non_follower.reach+rf.follower.reach)),"do alcance vem de não seguidores"]],
-     d:`Uma parte da base não está vendo seus posts. Isso pesa porque os seguidores são os primeiros a interagir e dão o impulso inicial de cada post.`,
-     a:["Use Stories todos os dias com enquete, caixa de pergunta ou quiz: interação em Stories aumenta a chance de o seguidor ver o próximo post.","Crie um canal de transmissão para avisar dos posts importantes.","Faça posts em collab com perfis aliados: o post aparece para as duas bases de uma vez."]},
-    {t:"Público",s:["warn","Oportunidade"],m:[[pct(sum(D.audience.age_gender.filter(x=>["45-54","55-64","65+"].includes(x[0])),x=>x[2])/sum(D.audience.age_gender,x=>x[2]),0),"dos seguidores têm 45 anos ou mais"],[pct(sum(D.audience.age_gender.filter(x=>["18-24","25-34"].includes(x[0])),x=>x[2])/sum(D.audience.age_gender,x=>x[2]),0),"têm de 18 a 34 anos"]],
-     d:`A base é madura e bem distribuída pelo país, com Rio e São Paulo à frente. Esse público compartilha muito no WhatsApp, o que explica a força dos compartilhamentos. Quase não há jovens.`,
-     a:["Mantenha texto grande e leitura fácil nas imagens: o público mais velho agradece.","Teste Reels de bastidor e de educação política com linguagem mais rápida para abrir espaço entre 25 e 34 anos.","Produza peças com recorte regional (Rio, São Paulo, Nordeste), onde estão as maiores concentrações."]}
+    {t:"Seguidores",s:conv==null?["neutral","Sem dado"]:st(conv>.6,conv>.4),m:[[pct(conv,0),"seguiram ÷ visitas ao perfil (imagens)"],[`${pct(D.follows_30d.lost/D.follows_30d.gained)}`,"deixaram ÷ começaram a seguir (30 dias)"]],
+     d:`Muita gente chega ao perfil vinda de não seguidores. Posts pessoais e de bastidores costumam converter melhor proporcionalmente que meme puro, porque mostram quem está por trás do perfil (veja a tabela de conversão).`,
+     a:["Fixe no topo do perfil 3 posts que expliquem quem você é e por que seguir.","Bio com promessa clara do que a pessoa ganha seguindo.","Feche conteúdos virais com chamada específica: \"siga para a parte 2\".","Séries numeradas (parte 1, 2, 3) criam motivo para seguir."]},
+    {t:"Visualizações",s:st(perWeek<=8,perWeek<=11),m:[[perWeek.toFixed(1).replace(".",","),"posts por semana"],[pct(R.length?low/R.length:null,0),"dos posts abaixo de 5 mil views"]],
+     d:`${early.length&&late.length?`Reels publicados entre 6h e 9h têm mediana de <b>${full(median(early.map(p=>p.views)))}</b> views (${early.length} Reels), contra <b>${full(median(late.map(p=>p.views)))}</b> a partir das 13h (${late.length} Reels). É uma associação; tema e formato também variam entre os grupos. `:""}Volume alto dilui a atenção da base.`,
+     a:["Teste concentrar imagens de manhã cedo e Reels à tarde ou à noite por 2 semanas e compare pela curva de vida do post.","Use Reels de teste (só para não seguidores por 72h) para comparar ganchos.","Republique em carrossel temas que viralizaram como imagem."]},
+    {t:"Compartilhamentos",s:shareI==null?["neutral","Sem dado"]:st(shareI>.01,shareI>.005),m:[[pct(shareI),"compart. ÷ views (mediana, imagens)"],[pct(shareR),"compart. ÷ views (mediana, Reels)"]],
+     d:`Compartilhamento por mensagem é um dos sinais mais citados pelo Instagram para alcançar quem não te segue, e é seu ponto mais forte.`,
+     a:["Mantenha frase curta de identidade + contraste visual + pedido explícito de envio.","Troque \"compartilhe\" por um destinatário concreto.","Nos Reels, coloque a frase compartilhável na tela logo no início."]},
+    {t:"Comentários",s:c1k==null?["neutral","Sem dado"]:st(c1k>3,c1k>1.5),m:[[c1k==null?ND:c1k.toFixed(2).replace(".",","),"comentários por mil views"],[full(comm),"comentários no período"]],
+     d:`Os posts com mais comentários pediram uma resposta concreta: ${topC.map(p=>`<b>"${p.title}"</b> (${full(p.comments)})`).join(", ")}.`,
+     a:["Termine com pergunta fechada e fácil: \"só um nome\", \"de 0 a 10\".","Responda os primeiros comentários na primeira hora.","Use \"comente EU QUERO\" quando houver material para enviar."]},
+    {t:"Retenção dos Reels",s:Rl.length?st(medSkip<35,medSkip<42):["neutral","Sem dado"],m:[[pct(medSkip/100),"taxa mediana de pulo"],[secs(medW==null?null:Math.round(medW)),"tempo médio assistido (mediana)"]],
+     d:sb?`Na amostra, Reels com pulo abaixo de 35% têm mediana de <b>${full(sb[0].med)}</b> views (${sb[0].n} Reels) e os de 35% a 45%, <b>${full(sb[1].med)}</b> (${sb[1].n}). Associação, não causa: veja os quartis no gráfico de faixas.`:"Sem Reels no filtro.",
+     a:["Frase mais forte do vídeo escrita na tela no primeiro segundo.","Legenda embutida: muita gente assiste sem som.","Revise a curva de retenção no app (a fonte do painel não fornece esse dado)."]},
+    {t:"Salvamentos",s:saves==null?["neutral","Sem dado"]:st(saves>.004,saves>.002),m:[[pct(saves,2),"salvamentos ÷ views"],[fmt(sum(R,p=>p.saves)),"salvamentos no período"]],
+     d:`Conteúdo de reação imediata salva pouco. Carrosséis de referência equilibram alcance com autoridade.`,
+     a:["Carrosséis: \"5 números que ninguém mostra\", \"linha do tempo do caso X\".","Peça: \"salve para consultar depois\"."]},
+    {t:"Alcance na própria base",s:baseReach==null?["neutral","Sem dado"]:st(baseReach>.8,baseReach>.5),m:[[pct(baseReach,0),"seguidores alcançados ÷ seguidores (30 dias)"]],
+     d:`Seguidores dão o impulso inicial de cada post; parte da base não está vendo as publicações.`,
+     a:["Stories diários com enquete ou caixa de perguntas.","Canal de transmissão para avisar dos posts importantes.","Posts em collab com perfis aliados."]},
   ];
-  $("#insights").innerHTML=cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.t}</h3><span class="pill ${c.s[0]}">${c.s[1]}</span></div>
-    <div class="metric-row">${c.m.map(([v,l])=>`<div><b>${v}</b>${l}</div>`).join("")}</div>
-    <p class="diag">${c.d}</p><ol>${c.a.map(x=>`<li>${x}</li>`).join("")}</ol></article>`).join("");
+  $("#insights").innerHTML=cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.t}</h3><span class="pill ${c.s[0]}">${c.s[1]}</span></div><div class="metric-row">${c.m.map(([v,l])=>`<div><b>${v}</b>${l}</div>`).join("")}</div><p class="diag">${c.d}</p><ol>${c.a.map(x=>`<li>${x}</li>`).join("")}</ol></article>`).join("");
 }
-
 function plan(){
-  const P=[["Seg",[["i","7h","Imagem de impacto"],["r","14h","Reel curto de notícia"],["s","Dia todo","Stories com enquete"]]],
-    ["Ter",[["i","7h","Imagem de impacto"],["c","19h","Carrossel de referência"]]],
-    ["Qua",[["i","7h","Imagem de impacto"],["r","14h","Reel de teste: 2 ganchos"],["s","Noite","Caixa de perguntas"]]],
-    ["Qui",[["i","7h","Imagem de impacto"],["r","19h","Reel de análise (até 60s)"]]],
-    ["Sex",[["i","7h","Imagem de impacto"],["c","19h","Carrossel: semana em números"]]],
-    ["Sáb",[["i","8h","Imagem leve ou pessoal"],["r","17h","Bastidor ou família"]]],
-    ["Dom",[["i","7h","Imagem forte (dia de pico)"],["r","19h","Reel da semana"],["s","Noite","Resumo nos Stories"]]]];
-  const cls={i:"",r:"r",c:"c",s:"s"};
-  $("#plan").innerHTML=P.map(([d,s])=>`<div class="day"><h4>${d}</h4>${s.map(([k,h,t])=>`<div class="slot ${cls[k]}">${t}<small>${h}</small></div>`).join("")}</div>`).join("");
+  const P=[["Seg",[["i","7h","Imagem de impacto"],["r","14h","Reel curto de notícia"],["s","Dia todo","Stories com enquete"]]],["Ter",[["i","7h","Imagem de impacto"],["c","19h","Carrossel de referência"]]],["Qua",[["i","7h","Imagem de impacto"],["r","14h","Reel de teste: 2 ganchos"]]],["Qui",[["i","7h","Imagem de impacto"],["r","19h","Reel de análise (até 60s)"]]],["Sex",[["i","7h","Imagem de impacto"],["c","19h","Carrossel: semana em números"]]],["Sáb",[["i","8h","Imagem leve ou pessoal"],["r","17h","Bastidor ou família"]]],["Dom",[["i","7h","Imagem forte"],["r","19h","Reel da semana"],["s","Noite","Resumo nos Stories"]]]];
+  const cls={i:"",r:"r",c:"c",s:"s"};$("#plan").innerHTML=P.map(([d,s])=>`<div class="day"><h4>${d}</h4>${s.map(([k,h,t])=>`<div class="slot ${cls[k]}">${t}<small>${h}</small></div>`).join("")}</div>`).join("");
 }
 
-function bench(R){
-  const I=R.filter(p=>p.type==="I"),Rl=R.filter(p=>p.type==="R");
-  const erI=median(I.map(p=>p.erf)),erR=median(Rl.map(p=>p.erf)),erA=median(R.map(p=>p.erf));
-  const vI=median(I.map(p=>p.views)),vR=median(Rl.map(p=>p.views)),pw=R.length/(state.range/7);
-  const row=(m,you,mk,read,ok)=>`<tr><td>${m}</td><td class="n">${you}</td><td class="n">${mk}</td><td><span class="pill ${ok}">${ok==="good"?"Acima":ok==="warn"?"Ajustar":"Abaixo"}</span> <small>${read}</small></td></tr>`;
-  $("#bench").innerHTML=`<thead><tr><th>Métrica</th><th>Você</th><th>Mercado</th><th>Leitura</th></tr></thead><tbody>
-  ${row("Engajamento por post (mediana, interações ÷ seguidores)",pct(erA,2),"0,48%<small>média geral 2026</small>",`Você está ${(erA/BENCH.er_all).toFixed(0)}x acima da média geral${erA>BENCH.er_micro?" e acima até da média de contas com 10 mil a 100 mil seguidores (2,5%)":", mas ainda abaixo da média de contas com 10 mil a 100 mil seguidores (2,5%)"}.`,erA>BENCH.er_micro?"good":erA>BENCH.er_all?"warn":"bad")}
-  ${row("Engajamento em imagens",pct(erI,2),"0,37%",`Imagens em queda no mercado (menos 17% em um ano), mas no seu perfil são o motor.`,erI>BENCH.er_img?"good":"bad")}
-  ${row("Engajamento em Reels",pct(erR,2),"0,52%",`Acima da média, porém metade dos Reels roda pouco.`,erR>BENCH.er_reels?"good":"bad")}
-  ${row("Visualizações por imagem (mediana)",fmt(vI),fmt(BENCH.views_100k.I)+"<small>contas de 100 mil a 1 mi</small>","Você entrega como uma conta de 100 mil+ tendo menos de 50 mil seguidores.",vI>BENCH.views_100k.I?"good":"warn")}
-  ${row("Visualizações por Reel (mediana)",fmt(vR),fmt(BENCH.views_100k.R)+"<small>contas de 100 mil a 1 mi</small>","Mediana baixa puxada pelos Reels longos e de bastidor.",vR>BENCH.views_100k.R?"good":"bad")}
-  ${row("Carrosséis","0","35 mil views<small>formato com mais alcance</small>","Formato que você ainda não usa; é o maior espaço de ganho imediato.","bad")}
-  ${row("Frequência",pw.toFixed(1).replace(".",",")+"/semana","5 a 7/semana<small>diretriz atribuída a Mosseri</small>","Volume alto. Melhor publicar menos e com mais acerto.",pw<=8?"good":"warn")}
-  ${row("Taxa de pulo dos Reels",pct(median(Rl.filter(p=>p.skip!=null).map(p=>p.skip))/100),"Sem número oficial<small>quanto menor, melhor</small>","Use como meta interna ficar abaixo de 35%, faixa em que seus Reels mais rodam.","warn")}
+/* ---------- benchmark ---------- */
+const SRC={si:{n:"Socialinsider, 2026 Instagram Organic Benchmarks",u:"https://www.socialinsider.io/blog/instagram-benchmarks/",d:"jan a dez/2025, 35 mi de posts; publicado em 2026"},sic:{n:"Socialinsider, pesquisa de carrosséis",u:"https://www.socialinsider.io/blog/instagram-carousel-research",d:"dados de 2025"},ps:{n:"PostSyncer, engajamento por faixa de seguidores",u:"https://postsyncer.com/blog/what-is-a-good-engagement-rate-on-instagram",d:"2026; cita InfluenceFlow"},ec:{n:"eClincher, algoritmo do Instagram em 2026",u:"https://www.eclincher.com/articles/how-the-instagram-algorithm-works-in-2026",d:"2026; atribui a Adam Mosseri"}};
+function bench(){
+  const R=rows(),I=R.filter(p=>p.type==="I"),Rl=R.filter(p=>p.type==="R"),pw=R.length/(state.range/7);
+  const erA=median(R.map(p=>p.erf)),erI=median(I.map(p=>p.erf)),erR=median(Rl.map(p=>p.erf));
+  const row=(m,you,ref,src,size,kind,read)=>`<tr><td class="l w">${m}</td><td><b>${you}</b></td><td>${ref}</td><td class="l w" style="font-size:12px">${SRC[src]?`<a href="${SRC[src].u}" target="_blank" rel="noopener">${SRC[src].n}</a><br><span class="small-n">${SRC[src].d}</span>`:src}</td><td class="l" style="font-size:12px">${size}</td><td class="l" style="font-size:12px">${kind}</td><td class="l w" style="font-size:12px">${read}</td></tr>`;
+  $("#bench").innerHTML=`<thead><tr><th class="l">Métrica e fórmula</th><th>Você<br><span class="small-n" style="text-transform:none">mediana</span></th><th>Referência</th><th class="l">Fonte e data</th><th class="l">Faixa de conta</th><th class="l">Tipo</th><th class="l">Leitura</th></tr></thead><tbody>
+  ${row("Engajamento por post = interações ÷ seguidores",pct(erA,2),"0,48%","si","Todas as faixas","Média","Mediana sua vs média do mercado: compare só a ordem de grandeza.")}
+  ${row("Engajamento por post = interações ÷ seguidores",pct(erA,2),"2,5%","ps","10 mil a 100 mil seguidores","Média","Mesma faixa de tamanho que a sua.")}
+  ${row("Engajamento em imagens",pct(erI,2),"0,37%","si","Todas as faixas","Média","")}
+  ${row("Engajamento em Reels",pct(erR,2),"0,52%","si","Todas as faixas","Média","")}
+  ${row("Views por imagem",fmt(median(I.map(p=>p.views))),"22,9 mil","sic","100 mil a 1 mi seguidores","Média","Faixa de tamanho acima da sua.")}
+  ${row("Views por Reel",fmt(median(Rl.map(p=>p.views))),"16 mil","sic","100 mil a 1 mi seguidores","Média","Faixa de tamanho acima da sua.")}
+  ${row("Views por carrossel",R.some(p=>p.type==="C")?fmt(median(R.filter(p=>p.type==="C").map(p=>p.views))):"sem posts","35,4 mil","sic","100 mil a 1 mi seguidores","Média","Formato com maior média de views no estudo.")}
+  ${row("Publicações por semana",pw.toFixed(1).replace(".",","),"5 a 7","ec","Geral","Recomendação","Diretriz atribuída ao chefe do Instagram, não um dado medido.")}
   </tbody>`;
+  $("#bench-sources").innerHTML=`<b>Sua coluna:</b> mediana dos posts do período filtrado (${R.length} posts). As referências externas são médias de contas de vários segmentos.`;
 }
 
-function table(R){
-  const cols=[["ts","Data"],["title","Post"],["views","Views"],["reach","Alcance"],["likes","Curtidas"],["comments","Coment."],["shares","Compart."],["rate","Tx. comp."],["saves","Salvos"],["skip","Pulo"],["watch","Assistido"],["follows","Seguiram"]];
-  const T=[...R].sort((a,b)=>{const x=a[state.sort],y=b[state.sort];if(x==null)return 1;if(y==null)return -1;return(x>y?1:x<y?-1:0)*state.dir});
-  const S=state.showAll?T:T.slice(0,25);
-  $("#more").style.display=T.length>25&&!state.showAll?"":"none";$("#more").textContent=`Mostrar todos (${T.length})`;
-  $("#tbl").innerHTML=`<thead><tr>${cols.map(([k,l])=>`<th data-k="${k}" class="${state.sort===k?"on":""}">${l}${state.sort===k?(state.dir<0?" ↓":" ↑"):""}</th>`).join("")}</tr></thead><tbody>${
-    S.map(p=>`<tr><td>${p.ts.slice(8,10)}/${p.ts.slice(5,7)} ${p.ts.slice(11)}</td><td class="t"><span class="tag"><i style="background:${TYPE[p.type].c}"></i>${TYPE[p.type].one}</span><a href="https://www.instagram.com/${p.type==="I"?"p":"reel"}/${p.code}/" target="_blank" rel="noopener">${p.title}</a></td><td>${full(p.views)}</td><td>${full(p.reach)}</td><td>${full(p.likes)}</td><td>${full(p.comments)}</td><td>${full(p.shares)}</td><td>${pct(p.rate)}</td><td>${full(p.saves)}</td><td>${p.skip!=null?pct(p.skip/100,0):"n/d"}</td><td>${p.watch!=null?secs(p.watch):"n/d"}</td><td>${full(p.follows)}</td></tr>`).join("")}</tbody>`;
-  document.querySelectorAll("#tbl th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(state.sort===k)state.dir*=-1;else{state.sort=k;state.dir=k==="title"?1:-1}table(rows())});
+/* ---------- tabela ---------- */
+function filteredPosts(){const q=state.q.trim().toLowerCase();return rows().filter(p=>(state.theme==="all"||p.theme===state.theme)&&(!q||p.title.toLowerCase().includes(q)))}
+const TCOLS=[["ts","Data",1],["title","Post",1],["theme","Tema",1],["age_h","Idade"],["views","Views"],["reach","Alcance"],["likes","Curtidas"],["comments","Coment."],["shares","Compart."],["rate","Compart. ÷ views"],["saves","Salvos"],["skip","Pulo"],["watch","Assistido"],["profile_visits","Visitas"],["follows","Seguiram"]];
+function table(){
+  const sel=$("#t-theme");sel.innerHTML=`<option value="all">Todos os temas</option>`+D.themes.map(t=>`<option${state.theme===t?" selected":""}>${t}</option>`).join("");
+  const T=filteredPosts().sort((a,b)=>{const x=a[state.sort],y=b[state.sort];if(x==null)return 1;if(y==null)return -1;return(x>y?1:x<y?-1:0)*state.dir});
+  const S=state.showAll?T:T.slice(0,25);$("#more").style.display=T.length>25&&!state.showAll?"":"none";$("#more").textContent=`Mostrar todos (${T.length})`;
+  const v=(x,f=full)=>x==null?`<span class="small-n">${ND}</span>`:f(x);
+  $("#tbl").innerHTML=`<thead><tr>${TCOLS.map(([k,l,lft])=>`<th data-k="${k}" class="${lft?"l ":""}${state.sort===k?"on":""}">${l}${state.sort===k?(state.dir<0?" ↓":" ↑"):""}</th>`).join("")}</tr></thead><tbody>${
+    S.map(p=>`<tr><td class="l">${dBR(p.date)} ${p.ts.slice(11)}</td><td class="l w"><span class="tag"><i style="background:${TYPE[p.type].c}"></i>${TYPE[p.type].one}</span><a href="${linkOf(p)}" target="_blank" rel="noopener">${p.title} ↗</a></td><td class="l"><span class="small-n">${p.theme}</span></td><td>${age(p.age_h)}</td><td>${v(p.views)}</td><td>${v(p.reach)}</td><td>${v(p.likes)}</td><td>${v(p.comments)}</td><td>${v(p.shares)}</td><td>${v(p.rate,x=>pct(x))}</td><td>${v(p.saves)}</td><td>${p.type==="R"?v(p.skip,x=>pct(x/100,0)):'<span class="small-n">n.a.</span>'}</td><td>${p.type==="R"?v(p.watch,secs):'<span class="small-n">n.a.</span>'}</td><td>${v(p.profile_visits)}</td><td>${v(p.follows)}</td></tr>`).join("")||`<tr><td class="l" colspan="15">Nenhum post com esses filtros.</td></tr>`}</tbody>`;
+  $$("#tbl th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(state.sort===k)state.dir*=-1;else{state.sort=k;state.dir=["title","theme"].includes(k)?1:-1}table()});
+}
+function csv(){
+  const T=filteredPosts(),cols=["ts","type","theme","title","age_h","views","reach","likes","comments","shares","saves","reposts","profile_visits","follows","skip","watch"];
+  const esc=x=>x==null?"":/[",\n;]/.test(String(x))?`"${String(x).replace(/"/g,'""')}"`:String(x);
+  const body=[cols.concat("link").join(","),...T.map(p=>cols.map(c=>esc(c==="type"?TYPE[p.type].one:p[c])).concat(linkOf(p)).join(","))].join("\n");
+  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob(["﻿"+body],{type:"text/csv;charset=utf-8"}));a.download=`posts-rogerrio-${state.range}d.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);
 }
 
-function render(){
-  const R=rows();
-  $("#period-label").textContent=`Últimos ${state.range} dias${state.type!=="all"?" · "+TYPE[state.type].name:""}`;
-  renderOverview(R);renderContent(R);renderReels(R);renderAudience();insights(R);bench(R);table(R);
+function renderLimits(){
+  const L=[["Perdas de seguidores por dia","A fonte só entrega o total de 30 dias. A série diária é calculada pela diferença entre coletas diárias, a partir do início da coleta."],
+    ["Total de seguidores ao fim de cada dia","Registrado a cada coleta (por volta das 5h), sem histórico anterior."],
+    ["Visitas ao perfil da conta por dia","Não existe na fonte. O campo \"profile views\" é soma de visualizações de conteúdo, não visitas à página do perfil."],
+    ["Curtidas, comentários, compartilhamentos e salvamentos da conta por dia","Não existe na fonte. Disponível apenas por post (exibido por dia de publicação) e contas com interação por dia."],
+    ["Visitas ao perfil e seguidores atribuídos a Reels","A fonte só fornece esses campos para imagens e carrosséis."],
+    ["Duração, percentual assistido, conclusão e curva de retenção dos Reels","Não existe na fonte; aparecem apenas no app. Por isso não há filtro por duração."],
+    ["Resultados em 24h, 72h, 7d e 30d","A fonte só dá o total atual. As janelas são montadas pelas coletas diárias; posts antigos têm no máximo uma leitura."],
+    ["Perfil das pessoas alcançadas","A fonte informa idade, gênero e cidade apenas dos seguidores."],
+    ["Tema dos posts","Não existe na fonte. Classificação automática por palavras-chave da legenda."],
+    ["Carrosséis no período","Formato suportado no painel; aparece quando houver publicações."]];
+  $("#limits").innerHTML=L.map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join("");
 }
-function seg(id,key,num){document.querySelectorAll(`#${id} button`).forEach(b=>b.onclick=()=>{document.querySelectorAll(`#${id} button`).forEach(x=>x.setAttribute("aria-pressed",x===b));state[key]=num?+b.dataset.v:b.dataset.v;render()})}
-seg("f-range","range",true);seg("f-type","type");
-$("#more").onclick=()=>{state.showAll=true;table(rows())};
 
-fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{D=d;prep();
+function render(){setPer();renderDaily();renderOverview();renderConversion();renderLife();renderContent();renderReels();renderThemes();renderAudience();insights();bench();table();setPer()}
+function seg(id,key,num){$$(`#${id} button`).forEach(b=>b.onclick=()=>{$$(`#${id} button`).forEach(x=>x.setAttribute("aria-pressed",x===b));state[key]=num?+b.dataset.v:b.dataset.v;state.calDay=null;$("#cal-pick").className="pick";$("#cal-pick").textContent="Toque em um dia para ver as publicações.";render()})}
+
+fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(d=>{D=d;prep();
+  const types=["I","R","C"].filter(t=>ALL.some(p=>p.type===t));
+  $("#f-type").innerHTML=`<button data-v="all" aria-pressed="true">Todos</button>`+types.map(t=>`<button data-v="${t}">${TYPE[t].name}</button>`).join("");
+  seg("f-range","range",true);seg("f-type","type");
+  $("#q").oninput=e=>{state.q=e.target.value;table()};$("#t-theme").onchange=e=>{state.theme=e.target.value;table()};$("#csv").onclick=csv;$("#more").onclick=()=>{state.showAll=true;table()};
   const u=new Date(d.updated);
-  $("#updated").textContent=`Atualizado em ${u.toLocaleDateString("pt-BR")} às ${u.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`;
-  const v90=sum(ALL,p=>p.views);
-  $("#hero-stats").innerHTML=`<div><b>${full(d.account.followers)}</b><span>seguidores</span></div><div><b>${fmt(v90)}</b><span>views em 90 dias</span></div><div><b>${full(d.account.media_count)}</b><span>publicações</span></div>`;
-  plan();render();let t;addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(render,150)})});
+  $("#updated").textContent=`Última coleta: ${u.toLocaleDateString("pt-BR")} às ${u.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · dados da conta até ${dBR(d.period.end)}`;
+  $("#hero-stats").innerHTML=`<div><b>${full(d.account.followers)}</b><span>seguidores</span></div><div><b>+${full(d.follows_30d.gained-d.follows_30d.lost)}</b><span>saldo em 30 dias</span></div><div><b>${full(d.account.media_count)}</b><span>publicações</span></div>`;
+  plan();renderLimits();render();let t;addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(render,150)})
+}).catch(err=>{$("#updated").textContent="Não foi possível carregar os dados agora. Tente recarregar a página.";document.querySelector("main").insertAdjacentHTML("afterbegin",`<div class="empty" style="margin-bottom:20px">Erro ao carregar data.json (${err.message}).</div>`)});
 </script>
 </body>
 </html>
