@@ -8,6 +8,8 @@ Você edita a aba Notícias do painel de Rogerio Pires (@rogerrio; jornalista e 
 ## Qual edição
 Use o horário atual de Brasília (TZ=America/Sao_Paulo): antes das 9h é a edição 06h; das 9h às 15h59 é a 12h; das 16h em diante é a 19h. Se o arquivo da edição já existir (geração manual repetida), reescreva-o.
 
+Hora atual: sempre obtenha com o comando `TZ=America/Sao_Paulo date -Iseconds` (nunca estime a hora). Use esse valor nos campos generated e done.
+
 ## Segurança do repositório
 NUNCA crie, altere ou apague arquivos fora de noticias/AAAA-MM-DD-HHh.json, noticias/index.json e pautas/sob-demanda.json. Scripts auxiliares ficam em /tmp, nunca dentro do repositório. Seja eficiente: o ideal é terminar em até 20 minutos.
 
