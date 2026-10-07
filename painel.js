@@ -39,7 +39,7 @@ window.Painel = (() => {
     const base = await stamp().catch(() => null), t0 = Date.now();
     let finished = false;
     while (Date.now() - t0 < minutes * 60e3) {
-      await sleep(finished ? 15000 : 30000);
+      await sleep(finished ? 10000 : 20000);
       if (!finished) {
         const run = await lastRun(wf);
         if (!run || new Date(run.created_at) < since) { say(labels.wait || "Aguardando o GitHub começar…"); continue }

@@ -60,11 +60,18 @@ def total_value(res, metric):
     return None
 
 
+QUICK = os.environ.get("IG_QUICK") == "1"  # botão "Atualizar agora": só o essencial, em segundos
+
+
 def main():
     if not TOKEN:
         sys.exit("IG_TOKEN ausente")
     now = datetime.now(BRT)
     out = {"collected": now.replace(microsecond=0).isoformat(), "errors": errors}
+    prev = {}
+    if QUICK:
+        try: prev = json.load(open(OUT, encoding="utf-8"))
+        except Exception: prev = {}
 
     out["me"] = safe("me", lambda: get("me", fields="user_id,username,followers_count,follows_count,media_count"))
 
@@ -72,7 +79,7 @@ def main():
     METRICS = ["likes", "comments", "shares", "saves", "total_interactions", "reach", "views", "profile_links_taps"]
     daily = {}
     bad = set()
-    for i in range(30, 0, -1):
+    for i in range(3 if QUICK else 30, 0, -1):
         d = (now - timedelta(days=i)).date()
         since, until = day_bounds(d)
         row = {}
@@ -96,11 +103,12 @@ def main():
             row.setdefault("follows", 0 if fu.get("data") else None)
             row.setdefault("unfollows", 0 if fu.get("data") else None)
         daily[d.isoformat()] = row
+    if QUICK: daily = {**(prev.get("daily") or {}), **daily}
     out["daily"] = daily
 
     # ---- público engajado ----
-    eng = {}
-    for b in ["age", "gender", "city"]:
+    eng = prev.get("engaged_audience", {}) if QUICK else {}
+    for b in ([] if QUICK else ["age", "gender", "city"]):
         res = None
         for tf in ["last_30_days", "this_month"]:
             res = safe(f"engaged {b} {tf}", lambda: get("me/insights", metric="engaged_audience_demographics", period="lifetime", metric_type="total_value", breakdown=b, timeframe=tf))
@@ -117,7 +125,7 @@ def main():
     # ---- mídia: duração dos Reels e tempo médio assistido ----
     try: durations = json.load(open(DUR))
     except Exception: durations = {}
-    cutoff = now - timedelta(days=180)
+    cutoff = now - timedelta(days=7 if QUICK else 180)
     media, url = [], None
     params = dict(fields="id,shortcode,permalink,media_type,media_product_type,timestamp,media_url", limit=100)
     page = safe("media", lambda: get("me/media", **params))
@@ -142,7 +150,7 @@ def main():
                 v = (x.get("values") or [{}])[0].get("value")
                 if v is None: v = x.get("total_value", {}).get("value")
                 rec[x["name"]] = v
-        if code not in durations and m.get("media_url") and probed < 400:
+        if not QUICK and code not in durations and m.get("media_url") and probed < 400:
             try:
                 p = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", m["media_url"]],
                                    capture_output=True, text=True, timeout=60)
@@ -152,13 +160,17 @@ def main():
             probed += 1
         rec["duration_s"] = durations.get(code)
         reels[code] = rec
+    if QUICK:
+        reels = {**(prev.get("reels") or {}), **reels}
+        out["media_count_window"] = prev.get("media_count_window")
+    else:
+        out["media_count_window"] = len(media)
     out["reels"] = reels
-    out["media_count_window"] = len(media)
 
     json.dump(durations, open(DUR, "w"), separators=(",", ":"))
     json.dump(out, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     filled = sum(1 for r in daily.values() if r.get("shares") is not None)
-    print(f"ok: {filled}/30 dias com interações, {len(reels)} Reels, {sum(1 for r in reels.values() if r.get('duration_s'))} com duração, {len(errors)} erro(s)")
+    print(("rápida: " if QUICK else "") + f"ok: {filled}/{len(daily)} dias com interações, {len(reels)} Reels, {sum(1 for r in reels.values() if r.get('duration_s'))} com duração, {len(errors)} erro(s)")
     for e in errors[:15]: print(" -", e)
 
 
