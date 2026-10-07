@@ -43,6 +43,7 @@ a{color:inherit}
 .hero{position:relative;color:#fff;background:#0d1b2e url(capa.jpg) center 40%/cover no-repeat;isolation:isolate}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,16,30,.35) 0%,rgba(8,16,30,.72) 55%,rgba(8,16,30,.94) 100%);z-index:-1}
 .hero-in{max-width:1180px;margin:0 auto;padding:56px 16px 28px;display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:end}
+.avatar-link{display:inline-block;border-radius:50%;line-height:0;flex-shrink:0;transition:transform .15s}.avatar-link:hover{transform:scale(1.04)}.avatar-link:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .avatar{width:128px;height:128px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,.9);box-shadow:0 10px 30px rgba(0,0,0,.35)}
 .who .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.75;font-weight:600}
 .who h1{font:700 40px/1.05 Fraunces,Georgia,serif;margin:6px 0 6px;letter-spacing:-.01em}
@@ -239,7 +240,7 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
 
 <header class="hero">
   <div class="hero-in">
-    <img class="avatar" src="rogerio.jpg" alt="Foto de Rogerio Pires">
+    <a class="avatar-link" href="index.html" title="Página inicial" aria-label="Ir para a página inicial"><img class="avatar" src="rogerio.jpg" alt="Foto de Rogerio Pires"></a>
     <div class="who">
       <div class="eyebrow">Principais notícias</div>
       <h1>Rogerio Pires</h1>
