@@ -1,1 +1,90 @@
-{"items":[]}
+{
+ "items": [
+  {
+   "requested": "2026-10-07",
+   "done": "2026-10-07T05:48:26-03:00",
+   "issue": 1,
+   "slot_hint": "Reel às 19h de quarta (7) e imagem às 7h de quinta (8), antes do julgamento das 10h; stories ao vivo durante a sessão do TSE.",
+   "source": {
+    "edition": "2026-10-07-06h",
+    "item_id": "garotinho-tse-governo-rj",
+    "title": "TSE julga na quinta desistência de Garotinho, que pode dar vitória a Ruas no 1º turno"
+   },
+   "options": [
+    {
+     "type": "i",
+     "title": "O Rio já votou. Agora quem decide é o TSE",
+     "tone": "contundente",
+     "fact": "Douglas Ruas (PL) teve 4.271.199 votos (49,27% dos válidos) e Eduardo Paes (PSD), 3.706.984 (42,76%). Garotinho teve 274.411 votos (3,17%) sub judice e desistiu do recurso. Se o TSE homologar a desistência e esses votos saírem da conta, Ruas passa de 50% e vence no 1º turno. O Ministério Público Eleitoral foi favorável; a coligação de Paes e o PSOL pediram ao TSE para manter os votos. Julgamento na quinta (8), às 10h.",
+     "sources": [
+      {
+       "name": "Brasil 247",
+       "url": "https://www.brasil247.com/sudeste/tse-julga-nesta-quinta-votos-de-garotinho-e-pode-definir-eleicao-do-rio-no-primeiro-turno/"
+      },
+      {
+       "name": "Diário do Rio",
+       "url": "https://diariodorio.com/politica/2026/10/06/tse-inclui-recurso-de-garotinho-na-pauta-de-quinta-feira-e-pode-definir-eleicao-para-governador-do-rio.html"
+      },
+      {
+       "name": "Gazeta do Povo",
+       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
+      }
+     ],
+     "art_text": [
+      "RUAS: 49,27%",
+      "Faltaram 0,73 ponto",
+      "QUINTA, 10H: O TSE DECIDE SE O RIO PRECISA DE 2º TURNO"
+     ],
+     "faces": "Nenhum rosto. Placar e relógio.",
+     "prompt": "Crie uma imagem vertical 4:5 (1080x1350) no estilo placar de apuração de TV. Fundo azul-marinho escuro com leve textura. No topo, em branco grande e negrito: \"RUAS: 49,27%\". Logo abaixo, uma barra de progresso horizontal quase cheia parando antes da marca de 50%, com a marca de 50% em amarelo e o texto pequeno \"Faltaram 0,73 ponto\". Na base, em amarelo forte e caixa alta: \"QUINTA, 10H: O TSE DECIDE SE O RIO PRECISA DE 2º TURNO\". Ícone discreto de relógio ao lado do horário. Tipografia sem serifa pesada, alto contraste, sem logos e sem pessoas.",
+     "caption": "4,27 milhões de votos em Douglas Ruas. Agora o resultado do Rio depende de um julgamento em Brasília. Paes foi ao TSE para manter o 2º turno. Para você, quem deveria decidir a eleição: o eleitor ou o tribunal?",
+     "risk": "baixo",
+     "risk_note": "Números oficiais e fatos processuais públicos. Não diga que houve acordo entre Garotinho e Ruas: a palavra \"armação\" é de Paes e só pode aparecer atribuída a ele.",
+     "timeline": {
+      "rende": true,
+      "angle": "Na quinta, logo após o julgamento: o placar final e o que muda para o Rio, com 1º turno encerrado ou 2º turno confirmado para 25 de outubro."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Paes quer ganhar no tribunal o que perdeu na urna?",
+     "tone": "contundente",
+     "duration": "30 a 40s",
+     "fact": "Douglas Ruas (PL) teve 4.271.199 votos (49,27% dos válidos) e Eduardo Paes (PSD), 3.706.984 (42,76%). Garotinho teve 274.411 votos (3,17%) sub judice e desistiu do recurso. Se o TSE homologar a desistência e esses votos saírem da conta, Ruas passa de 50% e vence no 1º turno. O Ministério Público Eleitoral foi favorável; a coligação de Paes e o PSOL pediram ao TSE para manter os votos. Julgamento na quinta (8), às 10h.",
+     "sources": [
+      {
+       "name": "Brasil 247",
+       "url": "https://www.brasil247.com/sudeste/tse-julga-nesta-quinta-votos-de-garotinho-e-pode-definir-eleicao-do-rio-no-primeiro-turno/"
+      },
+      {
+       "name": "Diário do Rio",
+       "url": "https://diariodorio.com/politica/2026/10/06/tse-inclui-recurso-de-garotinho-na-pauta-de-quinta-feira-e-pode-definir-eleicao-para-governador-do-rio.html"
+      },
+      {
+       "name": "Gazeta do Povo",
+       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
+      }
+     ],
+     "hooks": [
+      "Douglas Ruas ficou a 0,73 ponto de vencer no primeiro turno. E quem vai decidir isso não é você.",
+      "Eduardo Paes foi ao TSE. Não para ganhar voto. Para manter na conta os votos de outro candidato."
+     ],
+     "script": "Douglas Ruas teve 4 milhões e 271 mil votos no Rio. Quase 49 e meio por cento dos válidos. Eduardo Paes ficou com 42,76. No meio disso, 274 mil votos de Garotinho, que foi barrado pela Justiça Eleitoral e desistiu do recurso. Se esses votos saem da conta, Ruas passa de 50 por cento e o Rio não tem segundo turno. O Ministério Público Eleitoral concordou com a desistência. A coligação de Paes pediu ao TSE para não aceitar, e o PSOL também. Paes chamou o caso de armação. Ruas não comentou. Nesta quinta, às 10 da manhã, o plenário do TSE decide. Pergunta direta: se a regra vale para todo mundo, por que o candidato que ficou em segundo quer manter na conta os votos de um candidato barrado? Comenta aqui.",
+     "screen_text": [
+      "Ruas: 49,27%",
+      "Paes: 42,76%",
+      "274 mil votos sub judice",
+      "Quinta, 10h: TSE decide"
+     ],
+     "caption": "O Rio pode ter governador eleito sem 2º turno. Paes foi ao TSE para impedir. O que você acha: regra é regra?",
+     "risk": "médio",
+     "risk_note": "Tom firme é seguro enquanto fica nos fatos processuais. A palavra \"armação\" sempre atribuída a Paes. Não afirme fraude nem irregularidade de nenhum lado: o julgamento ainda não aconteceu.",
+     "timeline": {
+      "rende": true,
+      "angle": "Série curta: antes do julgamento (o que está em jogo), durante (ao vivo nos stories) e depois (o resultado e a reação de Paes e Ruas)."
+     }
+    }
+   ]
+  }
+ ]
+}
