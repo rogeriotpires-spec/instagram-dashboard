@@ -2,6 +2,85 @@
  "items": [
   {
    "requested": "2026-10-07",
+   "done": "2026-10-07T20:30:00-03:00",
+   "issue": 2,
+   "slot_hint": "Imagem às 7h de quinta (8) e reel às 19h, perto da sessão de discussão das 14h; carrossel no fim de semana.",
+   "source": {
+    "edition": "2026-10-07-19h",
+    "item_id": "pec-6x1-senado",
+    "title": "Oposição tenta adiar para depois do 2º turno a votação da PEC do fim da escala 6x1"
+   },
+   "options": [
+    {
+     "type": "i",
+     "title": "A 6x1 só entrou na pauta depois da eleição virar prioridade?",
+     "tone": "contundente",
+     "fact": "A PEC 221/2019 reduz a jornada de 44 para 40 horas semanais, com dois dias de descanso e sem redução salarial. Pelo rito, a votação do 1º turno no Senado seria em 21/10, antes do 2º turno das eleições (25/10). Davi Alcolumbre diz que não vai atropelar o rito. A oposição quer adiar para depois da eleição, e Rogério Marinho (PL-RN) chamou a discussão agora de oportunista. A PEC precisa de 49 votos em cada turno.",
+     "sources": [
+      {
+       "name": "Poder360",
+       "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/"
+      },
+      {
+       "name": "CNN Brasil",
+       "url": "https://www.cnnbrasil.com.br/politica/oposicao-atua-para-adiar-votacao-da-6x1-para-depois-do-2o-turno/"
+      }
+     ],
+     "art_text": [
+      "PEC parada desde maio",
+      "Votação marcada: 21/10",
+      "Eleição: 25/10",
+      "Por que a pressa agora?"
+     ],
+     "faces": "Nenhum rosto. Calendário puro.",
+     "prompt": "Crie uma imagem vertical 4:5 (1080x1350) estilo calendário. Fundo preto com textura leve. No topo, em branco: \"PEC parada desde maio\". No centro, dois quadros lado a lado em amarelo e vermelho: \"21/10 votação\" e \"25/10 eleição\". Na base, em branco grande: \"Por que a pressa agora?\". Tipografia sem serifa e pesada, alto contraste, sem logos e sem pessoas.",
+     "caption": "A PEC ficou parada desde maio e agora a data de votação cai quatro dias antes do 2º turno. Coincidência ou calendário eleitoral? Comenta.",
+     "risk": "médio",
+     "risk_note": "Fato é a PEC parada desde maio e as datas. A insinuação eleitoral é opinião: deixe como pergunta. Marinho chamou de oportunista, atribua a ele.",
+     "timeline": {
+      "rende": true,
+      "angle": "Fim da 6x1 no Senado: o que muda para empregador e trabalhador, a proposta de jornada flexível por hora e o impacto nos pequenos negócios."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Quem tem medo de votar a 6x1 antes da urna?",
+     "tone": "contundente",
+     "duration": "25 a 30s",
+     "fact": "A PEC 221/2019 reduz a jornada de 44 para 40 horas semanais, com dois dias de descanso e sem redução salarial. Pelo rito, a votação do 1º turno no Senado seria em 21/10, antes do 2º turno das eleições (25/10). Davi Alcolumbre diz que não vai atropelar o rito. A oposição quer adiar para depois da eleição, e Rogério Marinho (PL-RN) chamou a discussão agora de oportunista. A PEC precisa de 49 votos em cada turno.",
+     "sources": [
+      {
+       "name": "Poder360",
+       "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/"
+      },
+      {
+       "name": "CNN Brasil",
+       "url": "https://www.cnnbrasil.com.br/politica/oposicao-atua-para-adiar-votacao-da-6x1-para-depois-do-2o-turno/"
+      }
+     ],
+     "hooks": [
+      "A PEC da 6x1 ficou parada desde maio. Por que ela voltou agora?",
+      "Lula quer votar a 6x1 antes do dia 25. A oposição quer depois. Quem tem razão?"
+     ],
+     "script": "A PEC do fim da escala 6x1 ficou parada no Senado desde maio. Agora, com o calendário em vigor, a votação do primeiro turno cairia em 21 de outubro, quatro dias antes do segundo turno. A oposição quer empurrar para depois. Rogério Marinho diz que é oportunismo de um Lula desesperado. O governo diz que a oposição esvazia o plenário. A PEC precisa de 49 votos em cada turno. Na sua opinião, o Senado deve votar antes ou depois da eleição? Comenta antes ou depois.",
+     "screen_text": [
+      "PEC 6x1 parada desde maio",
+      "Votação: 21/10",
+      "Eleição: 25/10",
+      "49 votos em cada turno"
+     ],
+     "caption": "Votar a 6x1 antes ou depois da eleição? Comenta antes ou depois.",
+     "risk": "médio",
+     "risk_note": "Mostre os dois lados e atribua as falas (Marinho e o governo). Não diga que a oposição é contra o fim da 6x1: Marinho afirma que não se nega a discutir a jornada.",
+     "timeline": {
+      "rende": true,
+      "angle": "Acompanhar a votação no Senado e a posição de cada senador."
+     }
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-07",
    "done": "2026-10-07T05:48:26-03:00",
    "issue": 1,
    "slot_hint": "Reel às 19h de quarta (7) e imagem às 7h de quinta (8), antes do julgamento das 10h; stories ao vivo durante a sessão do TSE.",
