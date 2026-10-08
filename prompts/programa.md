@@ -30,7 +30,7 @@ Crie ou altere apenas programa/AAAA-MM-DD.json e programa/index.json. Scripts au
    - resumo: texto corrido com exatamente config.linhas_resumo frases, já com a leitura conservadora do programa (o que está em jogo para o cidadão, para a liberdade, para o bolso, para as instituições).
    - metafora: uma metáfora explicativa curta (1 a 2 frases) que ajude o público a entender o tema. SÓ em cerca de config.metafora_percentual % dos itens (com 6 itens, 1 ou 2), nos temas em que ela realmente esclarece. Nos demais itens, omita o campo. Nada de metáfora forçada.
    - contexto: 3 a 5 tópicos curtos com fatos, números e datas da pesquisa.
-   - angulo: 2 a 4 tópicos com os argumentos e pontos que o programa deve explorar, na linha editorial.
+   - angulo: 2 a 4 tópicos com os argumentos que o programa deve defender no ar, na linha editorial de direita e conservadora: assertivos, com posição clara (sem rodeios do tipo "de um lado, de outro"), sempre ancorados nos fatos do contexto. Não comece os tópicos com "Análise do programa:"; a seção já é a análise.
    - perguntas: config.perguntas_por_item perguntas abertas para a conversa na bancada.
    - atencao (opcional): cuidado jurídico ou fato ainda em apuração, numa frase.
    - fontes: [{name, url}] com as matérias que você abriu.

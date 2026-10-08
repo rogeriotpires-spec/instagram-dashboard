@@ -10,7 +10,11 @@ const JOBS = {
   noticias: "noticias.yml",
   pautas: "pautas.yml",
   sobdemanda: "sob-demanda.yml",
+  programa: "programa.yml",
 };
+// Ações novas não exigem trocar este código: um nome simples (letras, números e hífen)
+// aciona o arquivo .github/workflows/<nome>.yml, se ele existir no repositório.
+const wfFor = (job) => JOBS[job] || (/^[a-z0-9-]{3,40}$/.test(job) ? `${job}.yml` : null);
 
 export default {
   async fetch(req, env) {
@@ -44,7 +48,7 @@ export default {
         },
       });
     const dispatch = async (job) => {
-      const wf = JOBS[job];
+      const wf = wfFor(job);
       if (!wf) return { status: 400, body: { error: "Ação desconhecida." } };
       const r = await gh(`/actions/workflows/${wf}/runs?per_page=1`);
       if (r.status === 404) return { status: 404, body: { error: "Essa ação ainda não foi instalada." } };
