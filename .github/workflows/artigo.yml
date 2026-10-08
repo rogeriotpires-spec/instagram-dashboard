@@ -43,7 +43,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ ! -f "artigos/$ID.json" ]; then echo "::error::O artigo não foi gravado (artigos/$ID.json não existe)"; exit 1; fi
+          python3 tools/artigo_preservar.py "artigos/$ID.json" pedido-artigo.json
           if ! OUT=$(python3 tools/artigo_validar.py "artigos/$ID.json" 2>&1); then echo "::error::$OUT"; exit 1; fi
+          python3 tools/artigo_validar.py "artigos/$ID.json" pedido-artigo.json >/dev/null 2>/tmp/av || echo "::warning::$(cat /tmp/av)"
           echo "::notice::$OUT"
           cp "artigos/$ID.json" /tmp/artigo.json
           [ -f novos-aprendizados.json ] && cp novos-aprendizados.json /tmp/novos.json || echo "[]" > /tmp/novos.json

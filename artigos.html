@@ -188,7 +188,7 @@ function renderList(){
 }
 
 /* ---------- editor ---------- */
-let A=null,DIRTY=false,POLL=0;
+let A=null,DIRTY=false,POLL=0;const ORIG={};
 function openDlg(){$("#ov").classList.add("on");document.body.classList.add("lock")}
 function closeDlg(){if(DIRTY&&!confirm("Há alterações não salvas. Fechar mesmo assim? (elas ficam guardadas neste aparelho)"))return;POLL++;$("#ov").classList.remove("on");document.body.classList.remove("lock");if(location.hash)history.replaceState(null,"",location.pathname);A=null;DIRTY=false;loadIndex().then(renderList)}
 $("#x").onclick=closeDlg;
@@ -225,11 +225,12 @@ async function openArticle(id){
   let a=await nocache(`artigos/${id}.json`).then(r=>r.ok?r.json():null).catch(()=>null);
   if(my!==POLL)return;
   if(!a){$("#dlg-c").innerHTML=`<div class="gen"><p>Artigo não encontrado.</p></div>`;return}
+  ORIG[id]={titulo:a.titulo,subtitulo:a.subtitulo,texto:a.texto};
   const saved=ls.get("artigo_save:"+id),edit=ls.get("artigo_edit:"+id);
   let note="";
   if(saved&&(!a.saved_at||saved.saved_at>a.saved_at)){Object.assign(a,saved);note="saving"}else ls.del("artigo_save:"+id);
   if(edit&&edit.base===(a.saved_at||a.criado)){Object.assign(a,edit.data);DIRTY=true}else ls.del("artigo_edit:"+id);
-  A=a;
+  A=a;A._orig=ORIG[id]||(ORIG[id]=JSON.parse(JSON.stringify({titulo:a.titulo,subtitulo:a.subtitulo,texto:a.texto})));
   const rw=ls.get("artigo_rw:"+id);
   if(rw&&rw.sent&&(a.versao||1)<=rw.versao&&Date.now()-new Date(rw.sent)<25*60e3)return watchRewrite(id,rw);
   ls.del("artigo_rw:"+id);render(note);
@@ -316,7 +317,9 @@ function rwScreen(msg,err){
 async function rewrite(){
   const fb=$("#e-fb").value.trim();if(fb.length<5){toast("Escreva o que deve mudar");$("#e-fb").focus();return}
   const learn=$("#e-learn").checked,id=A.id;A._fb=fb;
-  const job={id,modo:"reescrever",feedback:fb,aprender:learn,atual:{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto,titulos:A.titulos,palavras_chave:A.palavras_chave}};
+  const P=t=>(t||"").split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean),o=A._orig||{},op=new Set(P(o.texto));
+  const editado={titulo:A.titulo!==o.titulo,subtitulo:A.subtitulo!==o.subtitulo,paragrafos:P(A.texto).filter(x=>!op.has(x))};
+  const job={id,modo:"reescrever",feedback:fb,aprender:learn,editado,atual:{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto,titulos:A.titulos,palavras_chave:A.palavras_chave}};
   const st={versao:A.versao||1,feedback:fb,sent:null};ls.set("artigo_rw:"+id,st);
   rwScreen("Enviando o pedido…");
   try{await Painel.call("/acao",{job:"artigo",payload:JSON.stringify(job)})}
