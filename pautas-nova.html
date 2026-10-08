@@ -270,6 +270,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .seal{background:#a63922;color:#fff;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;white-space:nowrap}
 @media (max-width:900px){.cols2{grid-template-columns:1fr}.wk{grid-template-columns:repeat(4,minmax(0,1fr))}.indice a{grid-template-columns:28px 1fr}.indice a .bl{display:none}}
 @media (max-width:560px){.wk{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tl-btn{border:1px solid color-mix(in srgb,var(--good) 45%,transparent);cursor:pointer;font:inherit;font-size:inherit;font-weight:700}.tl-btn:hover{background:var(--good);color:#fff}
 </style>
 </head>
 <body>
@@ -289,7 +290,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 
 <nav>
   <div class="nav-in">
-    <div class="tabs"><a href="index.html">← Métricas</a><a href="noticias.html">Notícias</a><a href="pautas.html">Versão anterior</a></div>
+    <div class="tabs"><a href="index.html">← Métricas</a><a href="noticias.html">Notícias</a><a href="artigos.html">Artigos Timeline</a><a href="pautas.html">Versão anterior</a></div>
   </div>
 </nav>
 
@@ -390,9 +391,21 @@ async function loadP(d){
 }
 
 /* ---------- conteúdo do Instagram ---------- */
-function option(o,type,idx){
+/* botão "Rende artigo na Timeline": abre a página de artigos e pede o texto */
+let ARTS=new Set();const OPTR=[];
+const slugify=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60).replace(/-$/,"");
+const artId=(day,o)=>`${day}-${slugify(o.title)||"artigo"}`;
+function artBtn(o,ctx){const i=OPTR.push({o,ctx})-1,id=artId(ctx.day,o),has=ARTS.has(id);
+  return`<button type="button" class="pill good tl-btn" data-r="${i}" title="${has?"Abrir o artigo já escrito":"Escrever um artigo para a Revista Timeline com base nesta pauta"}">${has?"Ver artigo da Timeline ↗":"Rende artigo na Timeline ✍"}</button>`}
+document.addEventListener("click",e=>{const b=e.target.closest(".tl-btn");if(!b)return;const{o,ctx}=OPTR[+b.dataset.r],id=artId(ctx.day,o);
+  if(ARTS.has(id)){window.open("artigos.html#"+id,"_blank");return}
+  const pick=(({title,fact,sources,timeline,caption,script,slides,art_text,hooks})=>({title,fact,sources,timeline,caption,script,slides,art_text,hooks}))(o);
+  const req={id,origem:{rotulo:ctx.rotulo,dia:ctx.day},pauta:pick};
+  const enc=encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(req)))));
+  window.open("artigos.html#novo="+enc,"_blank");});
+function option(o,type,idx,ctx){
   const STY={ilustracao:"Ilustração (charge)",realista:"Imagem realista",cartaz:"Cartaz de texto","foto-oficial":"Foto oficial editada",print:"Print"};
-  const pills=`${o.style?`<span class="pill neutral">${esc(STY[o.style]||o.style)}</span>`:""}<span class="pill neutral">${esc(o.tone||"")}</span>${o.duration?`<span class="pill neutral">${esc(o.duration)}</span>`:""}<span class="pill ${RISK[o.risk]||"neutral"}" title="${esc(o.risk_note||"")}">Risco ${esc(o.risk||"n/d")}</span>${o.timeline?`<span class="pill ${o.timeline.rende?"good":"neutral"}">${o.timeline.rende?"Rende artigo na Timeline":"Só rede social"}</span>`:""}`;
+  const pills=`${o.style?`<span class="pill neutral">${esc(STY[o.style]||o.style)}</span>`:""}<span class="pill neutral">${esc(o.tone||"")}</span>${o.duration?`<span class="pill neutral">${esc(o.duration)}</span>`:""}<span class="pill ${RISK[o.risk]||"neutral"}" title="${esc(o.risk_note||"")}">Risco ${esc(o.risk||"n/d")}</span>${o.timeline?(o.timeline.rende&&ctx?artBtn(o,ctx):`<span class="pill ${o.timeline.rende?"good":"neutral"}">${o.timeline.rende?"Rende artigo na Timeline":"Só rede social"}</span>`):""}`;
   let body=`<p class="fact">${esc(o.fact)}</p><div class="src">${srcs(o.sources)}</div>`;
   if(o.art_text)body+=block("Texto na arte",`<ul>${o.art_text.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`,o.art_text.join("\n"));
   if(o.faces)body+=block("Rostos e imagem base",`<p>${esc(o.faces)}</p>`);
@@ -422,7 +435,7 @@ function renderHot(list,day){
 function renderSD(list){
   const L=(list||[]).slice().sort((a,b)=>(b.done||"").localeCompare(a.done||"")).slice(0,10);
   $("#sob-demanda").innerHTML=`<div class="sec-h"><h2>Sob demanda</h2><p>Pedidas pelo botão "Virar pauta" da aba Notícias</p></div>`+(L.length?L.map(x=>{const d=new Date(x.done||x.requested);
-    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">Virou pauta · Notícias</span><span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i)).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda.</div>`);
+    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">Virou pauta · Notícias</span><span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i,{day:(x.done||x.requested||"").slice(0,10),rotulo:`Sob demanda de ${dBR((x.done||x.requested||"").slice(0,10))} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda.</div>`);
 }
 async function loadC(d){
   C_CUR=d;$("#c-day").value=d;const i=C_DAYS.indexOf(d);$("#c-prev").disabled=i<=0;$("#c-next").disabled=i>=C_DAYS.length-1;
@@ -432,7 +445,7 @@ async function loadC(d){
     $("#c-title").textContent=`Conteúdo de ${WD[dt.getDay()]}, ${dBR(p.date)}`;
     $("#c-sub").textContent="Duas opções por horário, seguindo a semana sugerida";
     renderWeek(d);
-    $("#slots").innerHTML=p.slots.map(s=>`<div class="slot-sec"><div class="sec-h"><h2><span class="time">${esc(s.time)}</span> ${esc(s.kind)}</h2><p><i class="dot" style="background:${TYPE[s.type]?.[1]||"var(--muted)"}"></i>${TYPE[s.type]?.[0]||""}</p></div><div class="opts">${s.options.map((o,i)=>option(o,s.type,i)).join("")}</div></div>`).join("");
+    $("#slots").innerHTML=p.slots.map(s=>`<div class="slot-sec"><div class="sec-h"><h2><span class="time">${esc(s.time)}</span> ${esc(s.kind)}</h2><p><i class="dot" style="background:${TYPE[s.type]?.[1]||"var(--muted)"}"></i>${TYPE[s.type]?.[0]||""}</p></div><div class="opts">${s.options.map((o,i)=>option(o,s.type,i,{day:p.date,rotulo:`Conteúdo de ${dBR(p.date)} · ${s.time} ${s.kind} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`).join("");
     renderSD(sd.items);renderHot(q.alerts,d);
     if(TAB==="conteudo"){history.replaceState(null,"","#conteudo/"+d);updHero()}
   }catch(e){$("#slots").innerHTML=`<div class="empty">Não foi possível carregar o conteúdo de ${dBR(d)}.</div>`}
@@ -441,6 +454,7 @@ function fillSel(sel,days){sel.innerHTML=days.slice().reverse().map(d=>{const x=
 (async()=>{
   const [h0,h1]=location.hash.slice(1).split("/");
   AN=await nocache("analysis.json").then(r=>r.ok?r.json():null).catch(()=>null);
+  ARTS=new Set(await nocache("artigos/index.json").then(r=>r.ok?r.json():{items:[]}).then(j=>(j.items||[]).map(i=>i.id)).catch(()=>[]));
   const [pi,ci]=await Promise.all([nocache("programa/index.json").then(r=>r.json()).catch(()=>({days:[]})),nocache("pautas/index.json").then(r=>r.json()).catch(()=>({days:[]}))]);
   P_DAYS=(pi.days||[]).sort();C_DAYS=(ci.days||[]).sort();
   fillSel($("#p-day"),P_DAYS);fillSel($("#c-day"),C_DAYS);

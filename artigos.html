@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0b0908">
+<title>Artigos Timeline</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="fonts/timeline.css">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f3f2ee; --surface:#fcfcfb; --surface-2:#f6f5f1; --border:#e3e1da;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#85847e; --grid:#ebe9e3;
+  --brasa:#a63922; --brasa-esc:#7e2a18; --ambar:#c4672a; --sel:#fbefe6;
+  --good:#0f7a4c; --good-bg:#e5f4ec; --warn:#9a5b00; --warn-bg:#fbf0dc; --bad:#b4302f; --bad-bg:#fbe6e5; --info:#2a5fa8; --info-bg:#e7eef9;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#111110; --surface:#1a1a19; --surface-2:#222220; --border:#2f2f2c;
+    --text:#ffffff; --text-2:#c3c2b7; --muted:#8f8e86; --grid:#2a2a27;
+    --brasa:#e0694f; --brasa-esc:#c4553d; --ambar:#e39a52; --sel:#2c1d16;
+    --good:#4cc28a; --good-bg:#16291f; --warn:#e3a43c; --warn-bg:#2d2414; --bad:#ef7b7a; --bad-bg:#311a1a; --info:#7fa9e8; --info-bg:#172235;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#111110; --surface:#1a1a19; --surface-2:#222220; --border:#2f2f2c;
+  --text:#ffffff; --text-2:#c3c2b7; --muted:#8f8e86; --grid:#2a2a27;
+  --brasa:#e0694f; --brasa-esc:#c4553d; --ambar:#e39a52; --sel:#2c1d16;
+  --good:#4cc28a; --good-bg:#16291f; --warn:#e3a43c; --warn-bg:#2d2414; --bad:#ef7b7a; --bad-bg:#311a1a; --info:#7fa9e8; --info-bg:#172235;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit}
+.top{background:#0b0908;color:#f6f0ea}
+.top-in{max-width:1080px;margin:0 auto;padding:22px 16px 18px;display:flex;align-items:center;gap:14px}
+.top img{height:44px;width:auto;border-radius:6px}
+.top h1{font:700 26px/1.1 "Source Serif 4",Georgia,serif;margin:0}
+.top p{margin:2px 0 0;font-size:13px;opacity:.75}
+nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-in{max-width:1080px;margin:0 auto;padding:10px 16px;display:flex;gap:4px;overflow-x:auto}
+.nav-in a{white-space:nowrap;text-decoration:none;font-size:13px;font-weight:500;color:var(--text-2);padding:6px 9px;border-radius:8px}
+.nav-in a:hover{background:var(--surface);color:var(--text)}
+.wrap{max-width:1080px;margin:0 auto;padding:24px 16px 64px}
+h2{font:700 22px/1.2 "Source Serif 4",Georgia,serif;margin:0 0 4px}
+.lead{color:var(--text-2);font-size:13.5px;margin:0 0 14px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px}
+table.list{width:100%;border-collapse:collapse;font-size:14px}
+table.list th{text-align:left;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:12px 14px;border-bottom:1px solid var(--border)}
+table.list td{padding:12px 14px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.list tr:last-child td{border-bottom:0}
+table.list tbody tr{cursor:pointer}
+table.list tbody tr:hover td{background:var(--surface-2)}
+.t-title{font-weight:600;color:var(--text)}
+.t-sub{font-size:12.5px;color:var(--muted);margin-top:2px}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.st-gerando{background:var(--info-bg);color:var(--info)}
+.st-rascunho{background:var(--warn-bg);color:var(--warn)}
+.st-finalizado{background:var(--surface-2);color:var(--text);border:1px solid var(--border)}
+.st-publicado{background:var(--good-bg);color:var(--good)}
+.st-erro{background:var(--bad-bg);color:var(--bad)}
+.empty{padding:28px 16px;text-align:center;color:var(--muted);font-size:14px}
+.tl-link{color:var(--brasa);font-weight:600;text-decoration:none}
+.tl-link:hover{text-decoration:underline}
+@media (max-width:640px){
+  table.list thead{display:none}
+  table.list tr{display:block;padding:12px 14px;border-bottom:1px solid var(--grid)}
+  table.list td{display:block;padding:2px 0;border:0}
+  table.list td.c-date{font-size:12px;color:var(--muted)}
+}
+
+/* editor */
+.ov{position:fixed;inset:0;z-index:50;background:rgba(10,8,6,.55);display:none;align-items:flex-start;justify-content:center;overflow-y:auto;padding:28px 12px}
+.ov.on{display:flex}
+body.lock{overflow:hidden}
+.dlg{background:var(--bg);width:100%;max-width:860px;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.35);overflow:hidden;margin-bottom:28px}
+.dlg-h{background:#0b0908;color:#f6f0ea;padding:16px 18px;display:flex;gap:12px;align-items:flex-start;position:sticky;top:0;z-index:2}
+.dlg-h .eb{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ambar);font-weight:700}
+.dlg-h h3{margin:2px 0 0;font:600 15px/1.35 system-ui,sans-serif;opacity:.9}
+.dlg-h .x{margin-left:auto;background:transparent;border:1px solid rgba(246,240,234,.3);color:#f6f0ea;border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:18px;line-height:1;flex-shrink:0}
+.dlg-b{padding:18px}
+.sec{margin-bottom:20px}
+.lab{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+.lab span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-2);font-weight:700}
+.lab small{font-size:12px;color:var(--muted);font-weight:500;letter-spacing:0;text-transform:none}
+.cp{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:5px 10px;font-size:12.5px;font-weight:600;cursor:pointer}
+.cp:hover{border-color:var(--brasa);color:var(--brasa)}
+.cp svg{width:15px;height:15px}
+.fld{width:100%;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:10px;padding:11px 13px;font:inherit;resize:none;display:block}
+.fld:focus{outline:2px solid color-mix(in srgb,var(--brasa) 45%,transparent);border-color:var(--brasa)}
+#e-titulo{font:700 22px/1.25 "Source Serif 4",Georgia,serif}
+#e-sub{font:400 16px/1.45 "Source Serif 4",Georgia,serif;color:var(--text-2)}
+#e-texto{font:400 17px/1.7 "Source Serif 4",Georgia,serif;min-height:360px}
+table.tit{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;font-size:14px}
+table.tit th{text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:8px 12px;border-bottom:1px solid var(--border);background:var(--surface-2)}
+table.tit td{padding:10px 12px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.tit tr:last-child td{border-bottom:0}
+table.tit td.n{width:34px;color:var(--muted);font-weight:700}
+table.tit a{color:var(--brasa);font-weight:700;text-decoration:none;font-family:"Source Serif 4",Georgia,serif;font-size:15.5px}
+table.tit a:hover{text-decoration:underline}
+table.tit .s{color:var(--text-2);font-size:13.5px;margin-top:2px}
+table.tit tr.on td{background:var(--sel)}
+table.tit tr.on td.n{color:var(--brasa)}
+.fontes{font-size:13px;color:var(--text-2)}
+.fontes a{color:var(--text-2)}
+.bar{position:sticky;bottom:0;background:var(--surface);border-top:1px solid var(--border);padding:12px 18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:10px;padding:9px 16px;font-weight:700;font-size:14px;cursor:pointer}
+.btn.pri{background:var(--brasa);border-color:var(--brasa);color:#fff}
+.btn.pri:hover{background:var(--brasa-esc)}
+.btn:disabled{opacity:.55;cursor:wait}
+#e-st{font-size:13px;color:var(--text-2);flex:1;min-width:160px}
+.linkbox{background:var(--good-bg);border:1px solid color-mix(in srgb,var(--good) 30%,transparent);border-radius:12px;padding:14px}
+.linkbox .row{display:flex;gap:8px;flex-wrap:wrap}
+.linkbox .fld{flex:1;min-width:220px}
+.gen{padding:40px 22px;text-align:center}
+.gen .spin{width:34px;height:34px;border:3px solid var(--grid);border-top-color:var(--brasa);border-radius:50%;margin:0 auto 14px;animation:sp 1s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.gen p{color:var(--text-2);margin:6px 0}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--text);color:var(--bg);padding:8px 16px;border-radius:999px;font-size:13px;font-weight:600;opacity:0;transition:opacity .2s;z-index:60;pointer-events:none}
+.toast.on{opacity:1}
+@media (max-width:640px){.ov{padding:0}.dlg{border-radius:0;margin:0;min-height:100%}#e-titulo{font-size:20px}#e-texto{font-size:16.5px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in"><img src="marca/timeline-logo.jpg" alt=""><div><h1>Artigos para a Timeline</h1><p>Escritos a partir das pautas · edite, copie e publique</p></div></div></header>
+<nav><div class="nav-in"><a href="index.html">← Métricas</a><a href="noticias.html">Notícias</a><a href="pautas-nova.html#conteudo">Pautas</a></div></nav>
+<main class="wrap">
+  <h2>Artigos</h2>
+  <p class="lead">Toque em "Rende artigo na Timeline" numa pauta para escrever um artigo novo. Toque numa linha para abrir, editar ou incluir o link da publicação.</p>
+  <div class="card"><table class="list"><thead><tr><th>Criado</th><th>Título</th><th>Pauta de origem</th><th>Situação</th><th>Na Timeline</th></tr></thead><tbody id="rows"><tr><td colspan="5" class="empty">Carregando…</td></tr></tbody></table></div>
+</main>
+
+<div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="dlg-t">
+  <div class="dlg">
+    <div class="dlg-h"><div><div class="eb" id="dlg-eb">Artigo para a Timeline</div><h3 id="dlg-t"></h3></div><button class="x" id="x" aria-label="Fechar">×</button></div>
+    <div id="dlg-c"></div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="painel.js"></script>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nocache=u=>fetch(u+(u.includes("?")?"&":"?")+Date.now(),{cache:"no-store"});
+const ls={get:k=>{try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}},del:k=>{try{localStorage.removeItem(k)}catch(e){}},keys:p=>{try{return Object.keys(localStorage).filter(k=>k.startsWith(p))}catch(e){return[]}}};
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const nowISO=()=>{const d=new Date(),o=-180,l=new Date(d.getTime()+o*6e4);return l.toISOString().slice(0,19)+"-03:00"};
+const fdt=s=>{if(!s)return"";const d=new Date(s);return d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})+" "+d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})};
+const hm=s=>new Date(s).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+const ST={gerando:"Escrevendo…",rascunho:"Rascunho",finalizado:"Finalizado",publicado:"Publicado",erro:"Não deu certo"};
+const ICON=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>`;
+function toast(t){const e=$("#toast");e.textContent=t;e.classList.add("on");clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove("on"),1600)}
+function copy(t){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast("Copiado")).catch(()=>{const a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove();toast("Copiado")})}
+
+/* ---------- lista ---------- */
+let INDEX=[];
+async function loadIndex(){INDEX=await nocache("artigos/index.json").then(r=>r.ok?r.json():{items:[]}).then(j=>j.items||[]).catch(()=>[]);return INDEX}
+function pending(){return ls.keys("artigo_req:").map(k=>ls.get(k)).filter(r=>r&&!INDEX.some(i=>i.id===r.id))}
+function renderList(){
+  const P=pending().map(r=>({id:r.id,criado:r.sent||r.asked,titulo:r.pauta.title,origem:r.origem.rotulo,status:r.erro?"erro":"gerando",link:""}));
+  const L=[...P,...INDEX.map(i=>{const d=ls.get("artigo_save:"+i.id);return d&&(!i.saved_at||d.saved_at>i.saved_at)?{...i,titulo:d.titulo,status:d.status,link:d.link}:i})];
+  $("#rows").innerHTML=L.length?L.map(i=>`<tr data-id="${esc(i.id)}"><td class="c-date">${fdt(i.criado)}</td><td><div class="t-title">${esc(i.titulo||"(sem título)")}</div></td><td><div class="t-sub">${esc(i.origem||"")}</div></td><td><span class="pill st-${i.status}">${ST[i.status]||i.status}</span></td><td>${i.link?`<a class="tl-link" href="${esc(i.link)}" target="_blank" rel="noopener">Abrir ↗</a>`:`<span class="t-sub">${i.status==="finalizado"?"Falta o link":""}</span>`}</td></tr>`).join(""):`<tr><td colspan="5" class="empty">Nenhum artigo ainda.</td></tr>`;
+  document.querySelectorAll("#rows tr[data-id]").forEach(tr=>tr.onclick=e=>{if(e.target.closest("a"))return;location.hash=tr.dataset.id});
+}
+
+/* ---------- editor ---------- */
+let A=null,DIRTY=false,POLL=0;
+function openDlg(){$("#ov").classList.add("on");document.body.classList.add("lock")}
+function closeDlg(){if(DIRTY&&!confirm("Há alterações não salvas. Fechar mesmo assim? (elas ficam guardadas neste aparelho)"))return;POLL++;$("#ov").classList.remove("on");document.body.classList.remove("lock");if(location.hash)history.replaceState(null,"",location.pathname);A=null;DIRTY=false;loadIndex().then(renderList)}
+$("#x").onclick=closeDlg;
+$("#ov").addEventListener("click",e=>{if(e.target.id==="ov")closeDlg()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&$("#ov").classList.contains("on"))closeDlg()});
+window.addEventListener("beforeunload",e=>{if(DIRTY){e.preventDefault();e.returnValue=""}});
+
+function genScreen(req,msg,err){
+  $("#dlg-eb").textContent="Escrevendo o artigo";$("#dlg-t").textContent=req.pauta.title;
+  $("#dlg-c").innerHTML=`<div class="gen">${err?"":`<div class="spin"></div>`}<p style="font-weight:700;color:var(--text)">${esc(msg)}</p><p>Pesquisa nas fontes, texto de 600 a 900 palavras, 5 títulos e palavras-chave. Leva de 3 a 7 minutos. Pode fechar esta janela: o artigo aparece na lista quando ficar pronto.</p>${err?`<p><button class="btn pri" id="retry">Tentar de novo</button></p>`:""}</div>`;
+  if(err)$("#retry").onclick=()=>{req.erro=false;req.sent=null;ls.set("artigo_req:"+req.id,req);generate(req)};
+}
+async function generate(req){
+  const my=++POLL;openDlg();
+  if(!req.sent){
+    genScreen(req,"Enviando o pedido…");
+    try{await Painel.call("/acao",{job:"artigo",payload:JSON.stringify({id:req.id,origem:req.origem,pauta:req.pauta})});req.sent=new Date().toISOString();ls.set("artigo_req:"+req.id,req)}
+    catch(e){const m=/Rota desconhecida/.test(e.message)?"O intermediário na Cloudflare ainda não tem a rota nova (/acao). Atualize o código do worker e tente de novo.":e.message;req.erro=true;ls.set("artigo_req:"+req.id,req);return genScreen(req,m,true)}
+  }
+  const since=new Date(new Date(req.sent).getTime()-90e3),t0=Date.now();
+  genScreen(req,"Pesquisando e escrevendo…");
+  while(my===POLL&&Date.now()-t0<25*60e3){
+    const r=await nocache(`artigos/${req.id}.json`).catch(()=>null);
+    if(r&&r.ok){ls.del("artigo_req:"+req.id);await loadIndex();renderList();return openArticle(req.id)}
+    const run=await Painel.lastRun("artigo.yml");
+    if(run&&new Date(run.created_at)>=since&&run.status==="completed"&&run.conclusion!=="success"){req.erro=true;ls.set("artigo_req:"+req.id,req);renderList();return genScreen(req,"Não deu certo desta vez.",true)}
+    if(run&&run.status==="completed"&&run.conclusion==="success"&&new Date(run.created_at)>=since)genScreen(req,"Pronto no GitHub. Publicando no site…");
+    await sleep(15000);
+  }
+}
+
+async function openArticle(id){
+  const my=++POLL;openDlg();$("#dlg-eb").textContent="Artigo para a Timeline";$("#dlg-t").textContent="Carregando…";$("#dlg-c").innerHTML=`<div class="gen"><div class="spin"></div></div>`;
+  let a=await nocache(`artigos/${id}.json`).then(r=>r.ok?r.json():null).catch(()=>null);
+  if(my!==POLL)return;
+  if(!a){$("#dlg-c").innerHTML=`<div class="gen"><p>Artigo não encontrado.</p></div>`;return}
+  const saved=ls.get("artigo_save:"+id),edit=ls.get("artigo_edit:"+id);
+  let note="";
+  if(saved&&(!a.saved_at||saved.saved_at>a.saved_at)){Object.assign(a,saved);note="saving"}else ls.del("artigo_save:"+id);
+  if(edit&&edit.base===(a.saved_at||a.criado)){Object.assign(a,edit.data);DIRTY=true}else ls.del("artigo_edit:"+id);
+  A=a;render(note);
+}
+function fieldsHTML(){
+  const t=A.titulos||[];
+  return`<div class="dlg-b">
+    <div class="sec"><div class="lab"><span>Sugestões de título e subtítulo</span><small>Toque para usar no artigo</small></div>
+      <table class="tit"><thead><tr><th>#</th><th>Título e subtítulo</th></tr></thead><tbody>${t.map((x,i)=>`<tr class="${i===A.escolha?"on":""}" data-i="${i}"><td class="n">${i+1}</td><td><a href="#" data-i="${i}">${esc(x.titulo)}</a><div class="s">${esc(x.subtitulo)}</div></td></tr>`).join("")}</tbody></table></div>
+    <div class="sec"><div class="lab"><span>Título</span><button class="cp" data-c="titulo">${ICON}Copiar título</button></div><textarea class="fld" id="e-titulo" rows="1"></textarea></div>
+    <div class="sec"><div class="lab"><span>Subtítulo</span><button class="cp" data-c="subtitulo">${ICON}Copiar subtítulo</button></div><textarea class="fld" id="e-sub" rows="1"></textarea></div>
+    <div class="sec"><div class="lab"><span>Texto <small id="wc"></small></span><button class="cp" data-c="texto">${ICON}Copiar texto</button></div><textarea class="fld" id="e-texto"></textarea></div>
+    <div class="sec"><div class="lab"><span>Palavras-chave (SEO)</span><button class="cp" data-c="palavras_chave">${ICON}Copiar</button></div><textarea class="fld" id="e-kw" rows="1"></textarea></div>
+    ${(A.fontes||[]).length?`<div class="sec"><div class="lab"><span>Fontes consultadas</span></div><div class="fontes">${A.fontes.map(f=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)} ↗</a>`).join(" · ")}</div></div>`:""}
+    <div class="sec" id="link-sec"></div>
+  </div>
+  <div class="bar"><span id="e-st"></span><button class="btn" id="b-fin"></button><button class="btn pri" id="b-save">Salvar</button></div>`;
+}
+const grow=e=>{e.style.height="auto";e.style.height=e.scrollHeight+2+"px"};
+function render(note){
+  $("#dlg-eb").textContent=`Artigo para a Timeline · ${ST[A.status]||A.status}`;
+  $("#dlg-t").textContent=A.pauta_titulo?`Pauta: ${A.pauta_titulo}`:(A.origem&&A.origem.rotulo)||"";
+  $("#dlg-c").innerHTML=fieldsHTML();
+  const F={titulo:$("#e-titulo"),subtitulo:$("#e-sub"),texto:$("#e-texto"),palavras_chave:$("#e-kw")};
+  for(const k in F){F[k].value=A[k]||"";grow(F[k]);F[k].oninput=()=>{A[k]=F[k].value;grow(F[k]);if(k==="texto")wc();mark()}}
+  const wc=()=>$("#wc").textContent=`· ${A.texto.trim().split(/\s+/).filter(Boolean).length} palavras`;wc();
+  document.querySelectorAll(".tit tr[data-i]").forEach(tr=>tr.onclick=e=>{e.preventDefault();const i=+tr.dataset.i,x=A.titulos[i];
+    if(DIRTY&&(A.titulo!==A.titulos[A.escolha]?.titulo||A.subtitulo!==A.titulos[A.escolha]?.subtitulo)&&!confirm("Trocar o título e o subtítulo que você editou por esta sugestão?"))return;
+    A.escolha=i;A.titulo=x.titulo;A.subtitulo=x.subtitulo;F.titulo.value=x.titulo;F.subtitulo.value=x.subtitulo;grow(F.titulo);grow(F.subtitulo);
+    document.querySelectorAll(".tit tr").forEach(r=>r.classList.toggle("on",+r.dataset.i===i));mark();toast("Título e subtítulo trocados")});
+  document.querySelectorAll(".cp[data-c]").forEach(b=>b.onclick=()=>copy(A[b.dataset.c]||""));
+  $("#b-save").onclick=()=>save({});
+  linkSec();
+  setTimeout(()=>Object.values(F).forEach(grow),50);
+  if(note==="saving"){say("Salvando no GitHub…");watchSave(A.saved_at)}else say(DIRTY?"Alterações não salvas (guardadas neste aparelho)":A.saved_at?`Salvo em ${fdt(A.saved_at)}`:"Versão gerada, ainda não editada");
+}
+function linkSec(){
+  const fin=A.status==="finalizado"||A.status==="publicado";
+  $("#b-fin").textContent=fin?"Voltar para rascunho":"Finalizar artigo";
+  $("#b-fin").onclick=()=>{if(fin){if(A.link&&!confirm("Voltar para rascunho? O link da publicação fica guardado."))return;save({status:"rascunho"})}else save({status:"finalizado"})};
+  $("#link-sec").innerHTML=fin?`<div class="linkbox"><div class="lab"><span>Link da publicação na Timeline</span>${A.link?`<a class="tl-link" href="${esc(A.link)}" target="_blank" rel="noopener">Abrir ↗</a>`:""}</div><div class="row"><input class="fld" id="e-link" type="url" inputmode="url" placeholder="https://www.revistatimeline.com/p/..." value="${esc(A.link||"")}"><button class="btn pri" id="b-link">Salvar link</button></div></div>`:"";
+  if(fin)$("#b-link").onclick=()=>{const v=$("#e-link").value.trim();if(v&&!/^https:\/\/\S+$/.test(v)){toast("O link precisa começar com https://");return}save({link:v,status:v?"publicado":"finalizado"})};
+}
+const say=t=>{const e=$("#e-st");if(e)e.textContent=t};
+function mark(){DIRTY=true;ls.set("artigo_edit:"+A.id,{base:A.saved_at||A.criado,data:pick()});say("Alterações não salvas (guardadas neste aparelho)")}
+function pick(){return{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto,palavras_chave:A.palavras_chave,titulos:A.titulos,escolha:A.escolha,status:A.status,link:A.link||""}}
+async function save(extra){
+  if(!A)return;Object.assign(A,extra);A.saved_at=nowISO();
+  const data={id:A.id,...pick(),saved_at:A.saved_at};
+  ls.set("artigo_save:"+A.id,data);ls.del("artigo_edit:"+A.id);DIRTY=false;
+  $("#dlg-eb").textContent=`Artigo para a Timeline · ${ST[A.status]||A.status}`;linkSec();
+  $("#b-save").disabled=true;say("Salvando…");
+  try{await Painel.call("/acao",{job:"artigo-salvar",payload:JSON.stringify(data)})}
+  catch(e){$("#b-save").disabled=false;say(/Rota desconhecida/.test(e.message)?"Falta atualizar o intermediário na Cloudflare (rota /acao). As alterações ficaram guardadas neste aparelho.":`Não salvou: ${e.message}. As alterações ficaram guardadas neste aparelho.`);return}
+  $("#b-save").disabled=false;say("Salvando no GitHub…");watchSave(A.saved_at);
+}
+async function watchSave(stamp){
+  const id=A.id,t0=Date.now();
+  while(Date.now()-t0<6*60e3){
+    await sleep(12000);
+    const a=await nocache(`artigos/${id}.json`).then(r=>r.ok?r.json():null).catch(()=>null);
+    if(!A||A.id!==id)return;
+    if(a&&a.saved_at&&a.saved_at>=stamp){if(A.saved_at===stamp&&!DIRTY)say(`Salvo em ${fdt(a.saved_at)}`);const s=ls.get("artigo_save:"+id);if(s&&s.saved_at<=a.saved_at)ls.del("artigo_save:"+id);return}
+  }
+  if(A&&A.id===id&&!DIRTY)say("Salvo neste aparelho; o site está demorando para publicar. Confira em alguns minutos.");
+}
+
+/* ---------- rotas ---------- */
+async function route(){
+  let h=location.hash.slice(1);if(!h)return;
+  if(h.startsWith("novo=")){ // pedido vindo do botão "Rende artigo na Timeline" da página de pautas
+    try{const q=JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(h.slice(5))))));
+      if(!/^[a-z0-9-]{6,90}$/.test(q.id))throw 0;
+      if(!INDEX.some(i=>i.id===q.id)&&!ls.get("artigo_req:"+q.id))ls.set("artigo_req:"+q.id,{...q,asked:new Date().toISOString()});
+      history.replaceState(null,"","#"+q.id);h=q.id;renderList()}catch(e){toast("Pedido inválido");return}
+  }
+  const id=decodeURIComponent(h);
+  if(INDEX.some(i=>i.id===id))return openArticle(id);
+  const req=ls.get("artigo_req:"+id);
+  if(req)return generate(req);
+  const r=await nocache(`artigos/${id}.json`).catch(()=>null);
+  if(r&&r.ok)return openArticle(id);
+}
+window.addEventListener("hashchange",()=>{if(location.hash)route()});
+(async()=>{await loadIndex();renderList();route()})();
+</script>
+</body>
+</html>

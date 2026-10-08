@@ -47,15 +47,15 @@ export default {
           "Content-Type": "application/json",
         },
       });
-    const dispatch = async (job) => {
+    const dispatch = async (job, inputs) => {
       const wf = wfFor(job);
       if (!wf) return { status: 400, body: { error: "Ação desconhecida." } };
       const r = await gh(`/actions/workflows/${wf}/runs?per_page=1`);
       if (r.status === 404) return { status: 404, body: { error: "Essa ação ainda não foi instalada." } };
       const last = r.ok ? ((await r.json()).workflow_runs || [])[0] : null;
-      if (last && last.status !== "completed")
+      if (!inputs && last && last.status !== "completed")
         return { status: 200, body: { ok: true, already: true, started: last.created_at } };
-      const d = await gh(`/actions/workflows/${wf}/dispatches`, { method: "POST", body: JSON.stringify({ ref: "main" }) });
+      const d = await gh(`/actions/workflows/${wf}/dispatches`, { method: "POST", body: JSON.stringify(inputs ? { ref: "main", inputs } : { ref: "main" }) });
       if (d.status === 204) return { status: 200, body: { ok: true, started: new Date().toISOString() } };
       return { status: 502, body: { error: `GitHub respondeu ${d.status}`, detail: (await d.text()).slice(0, 300) } };
     };
@@ -64,6 +64,14 @@ export default {
 
     if (url.pathname === "/run") {
       const r = await dispatch(String(input.job || ""));
+      return json(r.body, r.status);
+    }
+
+    if (url.pathname === "/acao") {
+      // ação com dados (ex.: gerar ou salvar artigo da Timeline): aciona o workflow com o campo "payload"
+      const payload = typeof input.payload === "string" ? input.payload : JSON.stringify(input.payload || {});
+      if (payload.length > 60000) return json({ error: "Texto grande demais para enviar de uma vez." }, 413);
+      const r = await dispatch(String(input.job || ""), { payload });
       return json(r.body, r.status);
     }
 
