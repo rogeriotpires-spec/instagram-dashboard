@@ -1,6 +1,38 @@
 {
   "alerts": [
     {
+      "time": "2026-10-08T11:58:57-03:00",
+      "title": "O Rio pode ter governador hoje. Sem segundo turno.",
+      "fact": "O TSE formou maioria, por 4 votos a 0 até as 11h52, para rejeitar a desistência de Anthony Garotinho e manter nulos os 274.411 votos que ele teve com a candidatura sub judice; votaram o relator Floriano de Azevedo Marques, Estela Aranha, André Mendonça e Dias Toffoli, e o julgamento ainda não foi encerrado. Sem esses votos, o TRE-RJ deve refazer a totalização e Douglas Ruas (PL), que teve 49,27%, passaria a cerca de 50,88% dos válidos, o que encerra a disputa no 1º turno. A defesa de Eduardo Paes (PSD) disse no plenário que é \"um absurdo que uma pessoa sozinha possa decidir o destino da eleição do Rio\".",
+      "sources": [
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/noticias/eleicoes/relator-vota-para-anular-votos-de-garotinho-e-rj-nao-teria-2-turno-julgamento-no-tse-continua,b7d3fce717b3afdbc4d7fe73055cb90a3wvu5ee1.html"
+        },
+        {
+          "name": "Agenda do Poder",
+          "url": "https://agendadopoder.com.br/douglas-ruas-e-eleito-governador-do-rio-no-1o-turno"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/tse-garotinho-rj-segundo-turno/"
+        },
+        {
+          "name": "Tempo Real RJ",
+          "url": "https://temporealrj.com/caso-garotinho-no-tse-ministra-estela-aranha-acompanha-relator-e-vota-pela-rejeicao-da-desistencia-dos-recursos-e-que-votos-sejam-anulados/"
+        }
+      ],
+      "suggestion": "Reel de reação gravado assim que o TSE proclamar o resultado, publicado até as 14h. Se o julgamento ainda estiver aberto, imagem às 12h30 com o placar 4 a 0 e o 50,88%; no reel, fale em maioria formada até a proclamação.",
+      "hook": "O TSE já tem maioria. O Rio pode não ter segundo turno.",
+      "script": "Quatro a zero no TSE. A maioria já está formada para manter anulados os votos de Garotinho. Com isso, a conta do Rio muda: Douglas Ruas sai de 49,27% para cerca de 50,9% dos votos válidos. Ou seja, eleito no primeiro turno. O lado do Paes chama de absurdo. Absurdo é querer segundo turno com voto que a Justiça já tinha barrado. Você acha que o Rio deve encerrar a eleição agora? Responde sim ou não aqui embaixo.",
+      "image_prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). No centro, Douglas Ruas (PL), candidato a governador do Rio, de terno, sorriso contido e olhar confiante, ao lado de uma urna eletrônica; à direita, um pouco atrás, Eduardo Paes (PSD), de braços cruzados e expressão contrariada, olhando de lado. Fundo escuro com textura, com a silhueta do Cristo Redentor e, em primeiro plano, a mesa do plenário do TSE. No alto, em letras condensadas, brancas e pesadas: \"TSE: 4 A 0\". Logo abaixo, quadro amarelo com \"RUAS 50,88%\" e quadro vermelho com \"SEM 2º TURNO?\". Embaixo, frase forte em branco com sublinhado vermelho pincelado: \"O Rio pode decidir hoje.\" No rodapé, centralizado, em letras pequenas e discretas, branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Sem logos de veículos de imprensa, sem outras marcas, sem brasões. Texto em português do Brasil, sem travessão. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+      "style": "ilustracao",
+      "timeline": {
+        "rende": "Hoje e nos próximos dias, até a retotalização e a proclamação pelo TRE-RJ",
+        "angle": "O PL leva o Governo do Rio no 1º turno; contraste com a tentativa de Paes de manter no cálculo votos de candidatura barrada. Acompanhar a proclamação e um possível recurso de Paes."
+      }
+    },
+    {
       "time": "2026-10-08T08:56:00-03:00",
       "title": "Seis pontos de vantagem. E agora, Datafolha?",
       "fact": "A primeira pesquisa PoderData/Aya do segundo turno, divulgada às 7h30 desta quinta (8), mostra Flávio Bolsonaro (PL) com 53% dos votos válidos e Lula (PT) com 47%; nos votos totais, 49% a 44%. A margem de erro é de 1,8 ponto, com 3.000 entrevistas por telefone de 5 a 7 de outubro (registro TSE BR-08134/2026). Segundo o Poder360, a desaprovação a Lula chega a 49%, contra 44% de aprovação, e 54% acham que Flávio tem mais chance de vencer.",
