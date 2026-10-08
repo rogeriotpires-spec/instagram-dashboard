@@ -2,6 +2,86 @@
   "items": [
     {
       "requested": "2026-10-08",
+      "done": "2026-10-08T09:21:26-03:00",
+      "issue": 6,
+      "slot_hint": "Imagem às 12h de quinta (8); reel às 19h, enquanto a nota de Nunes Marques ainda circula.",
+      "source": {
+        "edition": "2026-10-08-06h",
+        "item_id": "revisao-criminal-bolsonaro",
+        "title": "Nunes Marques diz que só levará a revisão criminal de Bolsonaro ao plenário do STF depois do 2º turno"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "O STF espera a eleição passar. Por quê?",
+          "tone": "contundente",
+          "fact": "O ministro Kassio Nunes Marques, relator da revisão criminal de Jair Bolsonaro, informou em nota na quarta (7/10) que o caso só será julgado depois do 2º turno, marcado para 25/10, porque analisá-lo antes \"pode interferir no período eleitoral\". O processo ainda aguarda parecer da PGR, e a data do plenário depende do presidente do STF, Edson Fachin. Bolsonaro foi condenado a 27 anos e 3 meses por tentativa de golpe de Estado. A defesa diz não ter tido acesso à íntegra das provas e questiona a cadeia de custódia das provas digitais. Flávio Bolsonaro prometeu indulto ao pai se vencer, mas só poderia concedê-lo após a posse.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/nunes-marques-levara-revisao-criminal-de-bolsonaro-ao-plenario-do-stf/"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-deve-julgar-revisao-da-condenacao-de-bolsonaro-apos-eleicoes"
+            }
+          ],
+          "art_text": [
+            "Revisão de Bolsonaro só depois do 2º turno",
+            "25/10",
+            "Quem decide o calendário da Justiça?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Kassio Nunes Marques (relator) e Edson Fachin (presidente do STF, define a data do plenário). Relação direta com a notícia. Sem mostrar ninguém em situação degradante. Risco baixo.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). Fundo escuro com textura: o plenário do STF com a fachada de colunas ao fundo. No meio, o ministro Kassio Nunes Marques de toga, sério, de braços cruzados, ao lado do ministro Edson Fachin, que olha de lado, desconfiado, segurando uma pasta de processo fechada sobre a mesa; ao centro, um grande calendário com a data 25 em destaque. No alto, texto grande em letras condensadas, brancas e pesadas: \"REVISÃO DE BOLSONARO SÓ DEPOIS DO 2º TURNO\". Num quadro amarelo ao lado do calendário, em preto: \"25/10\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Quem decide o calendário da Justiça?\". No rodapé, centralizado, em letras pequenas e discretas, brancas com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "O relator disse que só leva a revisão de Bolsonaro ao plenário depois do 2º turno, para não interferir na eleição. Você acha certo esperar ou a Justiça devia decidir já? Esperar ou decidir já?",
+          "risk": "médio",
+          "risk_note": "Atribua a justificativa ao gabinete de Nunes Marques (nota). Não insinue que o ministro soltará ou condenará ninguém: a PGR ainda não opinou. Não trate a suspeição de Moraes como fato: só consta no pedido da defesa e não foi confirmada nas fontes abertas.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que é revisão criminal, o que a defesa alega (provas e cadeia de custódia), o papel de Fachin e da PGR e o que muda no processo depois de 25/10."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Esperar a eleição passar para julgar Bolsonaro?",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "O ministro Kassio Nunes Marques, relator da revisão criminal de Jair Bolsonaro, informou em nota na quarta (7/10) que o caso só será julgado depois do 2º turno, marcado para 25/10, porque analisá-lo antes \"pode interferir no período eleitoral\". O processo ainda aguarda parecer da PGR, e a data do plenário depende do presidente do STF, Edson Fachin. Bolsonaro foi condenado a 27 anos e 3 meses por tentativa de golpe de Estado. A defesa diz não ter tido acesso à íntegra das provas e questiona a cadeia de custódia das provas digitais. Flávio Bolsonaro prometeu indulto ao pai se vencer, mas só poderia concedê-lo após a posse.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/nunes-marques-levara-revisao-criminal-de-bolsonaro-ao-plenario-do-stf/"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-deve-julgar-revisao-da-condenacao-de-bolsonaro-apos-eleicoes"
+            }
+          ],
+          "hooks": [
+            "O STF só olha o caso de Bolsonaro depois do dia 25.",
+            "Justiça que espera a urna fechar para decidir. Entenda."
+          ],
+          "script": "O relator da revisão criminal de Bolsonaro no STF, Kassio Nunes Marques, avisou: o caso só vai ao plenário depois do segundo turno, dia 25. A justificativa, em nota, é não interferir na eleição. Bolsonaro foi condenado a 27 anos e 3 meses, e a defesa diz que não teve acesso a todas as provas e questiona a cadeia de custódia. O processo ainda espera o parecer da PGR, e a data do plenário quem marca é o presidente do STF, Edson Fachin. Tem quem ache prudente. Tem quem veja um país em que o calendário da Justiça depende da urna. E você, acha que devia esperar? Responde esperar ou decidir já.",
+          "screen_text": [
+            "Revisão de Bolsonaro: só após o 2º turno",
+            "Condenação: 27 anos e 3 meses",
+            "Data: Fachin define",
+            "Esperar ou decidir já?"
+          ],
+          "caption": "O STF vai esperar a eleição passar para julgar a revisão de Bolsonaro. Esperar ou decidir já?",
+          "risk": "médio",
+          "risk_note": "Deixe claro que a justificativa é do gabinete de Nunes Marques. Não afirme que haverá absolvição ou soltura. A suspeição de Moraes é alegação da defesa e não foi confirmada nas fontes abertas: não cite como fato.",
+          "timeline": {
+            "rende": true,
+            "angle": "Revisão criminal explicada: quem pode pedir, o que precisa provar, o que a defesa alega e o que acontece depois do 2º turno."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-08",
       "done": "2026-10-07T23:34:32-03:00",
       "issue": 5,
       "slot_hint": "Imagem às 7h de quinta (8); reel às 12h de quinta, enquanto o arquivamento ainda circula.",
