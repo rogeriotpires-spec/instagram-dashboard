@@ -1,30 +1,36 @@
 {
-  "generated": "2026-10-07T19:05:00-03:00",
-  "headline": "Na véspera do julgamento do TSE sobre o Rio, a oposição tenta adiar a PEC da 6x1, Flávio amplia alianças, Gilmar e Moraes arquivam casos ligados ao bolsonarismo e Kassio empurra a revisão de Bolsonaro para depois da eleição.",
+  "generated": "2026-10-07T23:31:16-03:00",
+  "headline": "O governo tenta acelerar a PEC da 6x1 no Senado, Republicanos, Novo e União Progressista fecham com Flávio, a PF arquiva a apuração sobre interferência dos EUA e Moraes leva o caso Eustáquio ao plenário virtual.",
   "top": [
     "pec-6x1-senado",
-    "garotinho-tse-governo-rj",
     "apoio-centrao-flavio",
-    "gilmar-arquiva-gaspar",
-    "pgr-visita-flavio-bolsonaro"
+    "eustaquio-primeira-turma",
+    "pf-arquiva-interferencia-eua",
+    "motta-resistencia-pl"
   ],
   "items": [
     {
       "id": "pec-6x1-senado",
       "segment": "politica",
-      "title": "Oposição tenta adiar para depois do 2º turno a votação da PEC do fim da escala 6x1",
-      "summary": "O Senado fez nesta quarta (7) a segunda das cinco sessões de discussão exigidas para a PEC 221/2019, que reduz a jornada máxima de 44 para 40 horas semanais e garante dois dias de descanso sem redução salarial. Davi Alcolumbre disse que não vai \"atropelar\" o rito, mas sinalizou que, concluídas as sessões, pauta a votação do 1º turno, o que pelo calendário atual levaria a decisão a 21 de outubro, antes da eleição de 25 de outubro. A oposição articula o adiamento para depois do 2º turno, e Rogério Marinho, coordenador da campanha de Flávio Bolsonaro, chamou a análise neste momento de \"oportunista\" e de medida desesperada de Lula. Na sessão de terça (6), nenhum senador do PL estava entre os 47 presentes na abertura, Flávio voltou a defender jornada flexível com pagamento por hora e Lula gravou vídeos cobrando como o PL vai votar. A PEC precisa de 49 votos em cada um dos dois turnos, e a próxima sessão de discussão está marcada para quinta (8), às 14h.",
+      "title": "PT e governo pedem calendário especial para votar a PEC do fim da escala 6x1 na próxima semana",
+      "summary": "A líder do governo no Senado, Teresa Leitão (PT-PE), começou a coletar assinaturas para um requerimento de calendário especial que acelere a PEC do fim da escala 6x1, e pretende entregá-lo a Davi Alcolumbre nesta quinta (8). O pedido precisa de 27 assinaturas ou do aval de líderes que somem ao menos 27 senadores, e, se aprovado, a votação pode ocorrer na semana que vem. Alcolumbre disse na terça (6) que pode votar antes do 2º turno de 25 de outubro, mas que pretende seguir o rito, que prevê cinco sessões de discussão antes do 1º turno e três antes do 2º. Segundo o Poder360, o líder da oposição, Izalci Lucas (PL), já trata a votação na próxima semana como certa, enquanto a oposição tentava até aqui empurrar a decisão para depois da eleição. As sessões de discussão seguem às quartas e quintas, às 14h, e a Metrópoles informa que o governo prepara um calendário especial.",
       "scores": {
-        "cobertura": 9,
+        "cobertura": 5,
         "destaque": 10,
         "persistencia": 10,
         "peso_voce": 10
       },
-      "score": 9.7,
+      "score": 8.4,
       "outlets": [
         {
           "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/",
+          "url": "https://www.poder360.com.br/poder-congresso/pt-articula-para-garantir-votacao-da-6-x-1/",
+          "camp": "centro",
+          "position": "manchete"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/governo-prepara-calendario-especial-da-6x1-e-alcolumbre-diz-que-vai-votar",
           "camp": "centro",
           "position": "manchete"
         },
@@ -32,109 +38,6 @@
           "name": "CNN Brasil",
           "url": "https://www.cnnbrasil.com.br/politica/oposicao-atua-para-adiar-votacao-da-6x1-para-depois-do-2o-turno/",
           "camp": "centro",
-          "position": "manchete"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/flavio-critica-pec-da-6x1-e-volta-a-defender-regime-por-hora-liberdade",
-          "camp": "centro",
-          "position": "topo"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/economia/reducao-jornada-fim-escala-6x1-folha-pagamento-pequenos-negocios/",
-          "camp": "direita",
-          "position": "topo"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/senado-faz-segunda-sessao-de-debate-sobre-fim-da-escala-6x1/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/brasilia/fim-da-6x1-senado-inicia-debate-com-ausencia-em-massa-do-pl-de-flavio-bolsonaro/",
-          "camp": "esquerda",
-          "position": "secundario"
-        },
-        {
-          "name": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/politica/alcolumbre-preve-1a-votacao-da-pec-do-fim-da-escala-6x1-na-semana-que-vem/",
-          "camp": "esquerda",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "garotinho-tse-governo-rj",
-      "segment": "rio",
-      "title": "TSE julga nesta quinta, às 10h, caso Garotinho, que pode dar vitória a Ruas no 1º turno",
-      "summary": "O plenário do TSE julga nesta quinta (8), a partir das 10h, o pedido de Anthony Garotinho para desistir do recurso contra a anulação de seus votos, decisão que define se haverá 2º turno para o governo do Rio. Douglas Ruas (PL) teve 4.271.199 votos (49,27%) e Eduardo Paes (PSD) 3.706.984 (42,76%), e se os 274.411 votos de Garotinho (3,17%) forem excluídos da base de cálculo, Ruas passa de 50% e pode ser proclamado eleito. O vice-procurador-geral eleitoral, Alexandre Espinosa, defendeu na terça (6) aceitar a desistência, enquanto a coligação de Paes e o PSOL do Rio pediram que os votos sejam mantidos na conta. A defesa de Paes argumenta que uma desistência feita depois do resultado das urnas não deveria mudar o desfecho da eleição. O julgamento começa com o voto do relator, e um pedido de vista pode prolongar a indefinição; se a desistência for rejeitada, o 2º turno entre Ruas e Paes fica mantido para 25 de outubro.",
-      "scores": {
-        "cobertura": 10,
-        "destaque": 8,
-        "persistencia": 10,
-        "peso_voce": 10
-      },
-      "score": 9.5,
-      "outlets": [
-        {
-          "name": "Diário do Rio",
-          "url": "https://diariodorio.com/politica/2026/10/06/tse-inclui-recurso-de-garotinho-na-pauta-de-quinta-feira-e-pode-definir-eleicao-para-governador-do-rio.html",
-          "camp": "rio",
-          "position": "manchete"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-eleicoes-2026/mpe-e-favoravel-a-desistencia-de-recurso-de-garotinho-no-tse/",
-          "camp": "centro",
-          "position": "topo"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/mpe-defende-desistencia-de-garotinho-que-pode-dar-vitoria-a-ruas-no-rj/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/rj-mpe-e-favoravel-desistencia-de-recurso-de-garotinho-no-tse",
-          "camp": "estatal",
-          "position": "editoria"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/mpe-apoia-desistencia-de-garotinho-e-ruas-pode-vencer-no-1o-turno/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "O Antagonista",
-          "url": "https://oantagonista.com.br/brasil/pedido-de-garotinho-sera-analisado-pelo-tse-nesta-quinta-feira/",
-          "camp": "centro-direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/rio-2o-turno-entre-ruas-e-paes-depende-de-decisao-do-tse-sobre-garotinho",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/sudeste/tse-julga-nesta-quinta-votos-de-garotinho-e-pode-definir-eleicao-do-rio-no-primeiro-turno/",
-          "camp": "esquerda",
           "position": "topo"
         }
       ],
@@ -146,234 +49,63 @@
     {
       "id": "apoio-centrao-flavio",
       "segment": "politica",
-      "title": "Novo, União Brasil e PP formalizam apoio a Flávio, e Republicanos e Podemos negociam adesão",
-      "summary": "Novo, União Brasil e PP formalizaram o apoio a Flávio Bolsonaro no 2º turno, depois de Ronaldo Caiado oficializar a adesão na terça (6), em Goiânia, em evento com Tarcísio de Freitas. Caiado prometeu dar a Flávio a maior vitória do país em Goiás e defendeu que, se eleito, ele conceda anistia a Jair Bolsonaro. O Republicanos negocia o apoio com articulação de Tarcísio, e o Podemos conversou com Flávio e vai reunir seus eleitos para decidir a posição. Do outro lado, Raquel Lyra sinalizou neutralidade, e o Brasil 247 destacou que a campanha de Lula obteve a neutralidade do PSD e adesões pontuais em partidos de centro e direita. Flávio terminou o 1º turno à frente de Lula, e a disputa final será em 25 de outubro.",
-      "scores": {
-        "cobertura": 8,
-        "destaque": 10,
-        "persistencia": 10,
-        "peso_voce": 10
-      },
-      "score": 9.4,
-      "outlets": [
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/federacao-uniao-progressista-anuncia-apoio-a-flavio/",
-          "camp": "direita",
-          "position": "manchete"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/partido-novo-formaliza-apoio-a-flavio-bolsonaro-no-segundo-turno/",
-          "camp": "centro",
-          "position": "secundario"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-eleicoes-2026/caiado-promete-maior-vitoria-a-flavio-em-goias-no-2o-turno/",
-          "camp": "centro",
-          "position": "topo"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/demetrio-vecchioli/podemos-conversa-com-flavio-e-reunira-eleitos-para-definir-apoio",
-          "camp": "centro",
-          "position": "secundario"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos-derrotados-no-1o-turno-comecam-a-definir-apoio-a-flavio-e-lula/",
-          "camp": "direita",
-          "position": "secundario"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/brasil/pp-e-uniao-brasil-anunciam-apoio-a-flavio-bolsonaro-no-segundo-turno-2/",
-          "camp": "esquerda",
-          "position": "topo"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "gilmar-arquiva-gaspar",
-      "segment": "politica",
-      "title": "Gilmar Mendes arquiva pedido de investigação contra Alfredo Gaspar, vice de Flávio",
-      "summary": "O ministro Gilmar Mendes, do STF, determinou o arquivamento do pedido de investigação por estupro contra o deputado Alfredo Gaspar (PL-AL), candidato a vice na chapa de Flávio Bolsonaro. Gilmar acolheu o pedido da PGR, que apontou falta de provas e contradições nos depoimentos dos envolvidos. A apuração começou em março, a partir de notícia de fato apresentada à Polícia Federal pelo deputado Lindbergh Farias (PT-RJ) e pela senadora Soraya Thronicke (PSB-MS), depois de um bate-boca no Congresso. Gaspar sempre negou a acusação e pediu ao STF que acelerasse um teste de DNA para comprovar que não cometeu o crime. Gaspar foi relator da CPMI do INSS, cujo relatório final não foi aprovado, e seguem no STF apurações sobre possível denunciação caluniosa e coação envolvendo os dois lados.",
-      "scores": {
-        "cobertura": 7,
-        "destaque": 10,
-        "persistencia": 7,
-        "peso_voce": 10
-      },
-      "score": 8.5,
-      "outlets": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/andreza-matais/gilmar-mendes-manda-arquivar-investigacao-de-estupro-contra-vice-de-flavio",
-          "camp": "centro",
-          "position": "manchete"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/gilmar-arquiva-acusacao-de-estupro-contra-alfredo-gaspar-vice-de-flavio/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/gilmar-arquiva-pedido-de-investigacao-contra-vice-de-flavio-por-suposto-estupro/",
-          "camp": "direita",
-          "position": "secundario"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/gilmar-manda-arquivar-investigacao-contra-gaspar-vice-de-flavio/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Poder",
-          "url": "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/gilmar-arquiva-acusacao-falsa-contra-vice-de-flavio-6-meses-apos-o-caso-chegar-ao-stf",
-          "camp": "direita",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "pgr-visita-flavio-bolsonaro",
-      "segment": "politica",
-      "title": "PGR não se opõe a visita de Flávio a Jair Bolsonaro, e decisão fica com Moraes",
-      "summary": "O procurador-geral da República, Paulo Gonet, afirmou ao STF que não se opõe ao pedido da defesa de Jair Bolsonaro para receber a visita do filho Flávio Bolsonaro. A defesa pediu na segunda (5) a volta do regime normal de visitas ou, como alternativa, uma visita única de caráter familiar. Gonet disse não haver fatos novos que indiquem descumprimento das condições ou justifiquem prorrogar a restrição, que vence em 11 de outubro. Flávio está proibido de visitar o pai desde julho, quando Alexandre de Moraes vetou visitas com fins político-eleitorais até o fim da eleição, depois de o senador publicar nas redes uma carta do ex-presidente. A decisão agora cabe a Moraes, relator do caso, e Bolsonaro cumpre prisão domiciliar humanitária após condenação a 27 anos e 3 meses.",
-      "scores": {
-        "cobertura": 7,
-        "destaque": 8,
-        "persistencia": 7,
-        "peso_voce": 10
-      },
-      "score": 7.9,
-      "outlets": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/pgr-se-manifesta-a-favor-de-visita-de-flavio-a-bolsonaro/",
-          "camp": "direita",
-          "position": "secundario"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/pgr-se-manifesta-a-favor-de-visita-de-flavio-a-bolsonaro/",
-          "camp": "direita",
-          "position": "topo"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-justica/pgr-se-diz-favoravel-a-flavio-visitar-bolsonaro-em-prisao-domiciliar/",
-          "camp": "centro",
-          "position": "secundario"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/manoela-alcantara/pgr-e-a-favor-do-pedido-de-jair-bolsonaro-para-ver-flavio-apos-1o-turno",
-          "camp": "centro",
-          "position": "secundario"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/brasil/gonet-da-sinal-verde-para-jair-receber-flavio-decisao-esta-com-moraes/",
-          "camp": "esquerda",
-          "position": "topo"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "moraes-acenos-bolsonarismo",
-      "segment": "politica",
-      "title": "Moraes arquiva inquérito contra Do Val e blogueiros, e Eustáquio diz que prepara volta ao Brasil",
-      "summary": "O ministro Alexandre de Moraes arquivou o inquérito contra o senador Marcos do Val e os influenciadores Allan dos Santos, Oswaldo Eustáquio e Ednardo Raposo, investigados por intimidação e exposição de policiais federais e ministros do STF, depois de a PGR concluir que as provas não sustentavam denúncia. A decisão extingue as medidas cautelares do caso, e Eustáquio disse ao Metrópoles que prepara a volta ao Brasil, enquanto sua defesa deve pedir a Moraes a revogação da prisão. Moraes também autorizou a progressão para o semiaberto de Débora Rodrigues, a Débora do Batom, condenada a 14 anos pelo 8 de Janeiro, mantendo a prisão domiciliar. Nikolas Ferreira reagiu dizendo que \"não adianta Moraes fazer aceno agora\" e que \"não tem negociação\". A defesa de Daniel Silveira reiterou ao STF o pedido para retirar a tornozeleira eletrônica.",
-      "scores": {
-        "cobertura": 7,
-        "destaque": 8,
-        "persistencia": 7,
-        "peso_voce": 10
-      },
-      "score": 7.9,
-      "outlets": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-arquiva-investigacao-contra-do-val-allan-dos-santos-e-eustaquio",
-          "camp": "centro",
-          "position": "topo"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/no-ponto/moraes-extingue-processo-contra-oswaldo-eustaquio-e-allan-dos-santos/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/moraes-arquiva-processo-contra-oswaldo-eustaquio-e-allan-dos-santos-por-falta-de-provas/",
-          "camp": "direita",
-          "position": "secundario"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-justica/moraes-autoriza-regime-semiaberto-para-debora-do-batom/",
-          "camp": "centro",
-          "position": "secundario"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/moraes-e-gilmar-mandam-quatro-sinais-em-48h-ao-bolsonarismo/",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "dolar-abaixo-5",
-      "segment": "economia",
-      "title": "Dólar volta a R$ 5,01 e Ibovespa cai 0,72% em dia de ata do Fed",
-      "summary": "O dólar à vista subiu 0,83% nesta quarta (7) e fechou a R$ 5,0156, depois de ter encerrado a terça (6) a R$ 4,9745, menor valor desde maio. O Ibovespa caiu 0,72%, aos 204.348 pontos, com Vale recuando mais de 2% e Itaú 2,66%, enquanto Petrobras subiu com o petróleo acima de US$ 100. A ata do Federal Reserve mostrou divisão entre os dirigentes sobre a alta de juros de 0,25 ponto feita em setembro, e o rali que se seguiu ao 1º turno perdeu força. Desde a eleição, os juros futuros de quatro anos caíram cerca de 1 ponto percentual, o que, segundo cálculo do Poder360, pode representar economia de R$ 65,8 bilhões no custo da dívida se a queda se mantiver. O próprio levantamento ressalva que o efeito não é automático e que os juros podem voltar a subir se as expectativas fiscais ou de inflação piorarem.",
+      "title": "Republicanos, Novo e União Progressista declaram apoio a Flávio Bolsonaro no 2º turno",
+      "summary": "O Republicanos, que havia sido neutro no 1º turno, anunciou nesta quarta (7) apoio a Flávio Bolsonaro (PL-RJ) na disputa contra Lula, em anúncio do presidente do partido, Marcos Pereira. No mesmo dia, Flávio também recebeu o apoio do Novo e da federação União Progressista. No 1º turno, Flávio teve 47,03% dos votos, cerca de 56,1 milhões, e Lula 45,16%, cerca de 53,8 milhões, com 100% das urnas apuradas. Pereira disse que o partido respeitará particularidades locais, como Paraíba e Pernambuco, e o presidente da Câmara, Hugo Motta, que declarou apoio a Lula, não foi ao anúncio. O segundo turno está marcado para 25 de outubro.",
       "scores": {
         "cobertura": 5,
-        "destaque": 6,
-        "persistencia": 10,
-        "peso_voce": 6
+        "destaque": 7,
+        "persistencia": 7,
+        "peso_voce": 10
       },
-      "score": 6.5,
+      "score": 7.0,
       "outlets": [
         {
           "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-7-outubro-2026/",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/republicanos-confirma-apoio-a-flavio-bolsonaro-no-2o-turno-das-eleicoes/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/republicanos-oficializa-apoio-a-flavio-bolsonaro-no-2o-turno",
           "camp": "centro",
           "position": "secundario"
         },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/republicanos-anuncia-apoio-a-flavio-no-2o-turno-decisao-que-nasce-da-voz-das-urnas/",
+          "camp": "direita",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "eustaquio-primeira-turma",
+      "segment": "politica",
+      "title": "Moraes leva ao plenário virtual da Primeira Turma o caso de Oswaldo Eustáquio, e a defesa fala em julgamento à revelia",
+      "summary": "O ministro Alexandre de Moraes enviou à Primeira Turma do STF a Pet 10.775, em que a PGR denuncia o jornalista Oswaldo Eustáquio por associação criminosa em razão de atos contra o resultado da eleição de 2022. O julgamento no plenário virtual está marcado de 16 a 23 de outubro, e o caso corre sob sigilo. Em 4 de agosto, Moraes mandou notificá-lo por edital, com prazo de 15 dias, e em 6 de outubro remeteu o caso à Turma sem resposta. O advogado Ricardo Freire Vasconcellos afirma que nem Eustáquio nem a defesa foram notificados, que ele tem endereço fixo na Espanha desde 2023 e que \"meu cliente está sendo julgado à revelia\", e pediu a suspensão do caso. O STF não respondeu às perguntas e Eustáquio disse ao Poder360 que prepara a volta ao Brasil se Flávio Bolsonaro vencer.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 5,
+        "persistencia": 7,
+        "peso_voce": 10
+      },
+      "score": 5.9,
+      "outlets": [
         {
           "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-economia/efeito-flavio-derruba-juro-e-pais-economiza-r-66-bilhoes-com-divida/",
+          "url": "https://www.poder360.com.br/poder-justica/moraes-leva-caso-de-eustaquio-a-julgamento-defesa-diz-haver-revelia/",
           "camp": "centro",
           "position": "secundario"
         },
         {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-07102026/",
-          "camp": "centro",
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/primeira-turma-do-stf-julgara-oswaldo-eustaquio-por-suposta-associacao-criminosa/",
+          "camp": "direita",
           "position": "editoria"
         }
       ],
@@ -383,33 +115,58 @@
       }
     },
     {
-      "id": "operacao-magen-tcp",
-      "segment": "seguranca",
-      "title": "PF prende policiais e ex-policiais suspeitos de vender fuzis ao TCP no Rio",
-      "summary": "A Polícia Federal e o Ministério Público do Rio deflagraram nesta quarta (7) a Operação Magen, com 7 mandados de prisão preventiva e 18 de busca em cidades como Rio, Nova Iguaçu, Angra dos Reis e Seropédica. O grupo, formado por um policial civil, um policial militar e ex-policiais, é suspeito de vender fuzis, pistolas e munições ao Terceiro Comando Puro, facção que controla o Complexo de Israel, na zona norte do Rio. Segundo a investigação, foram entregues 10 fuzis AR-15 diretamente à liderança da facção, chefiada por Álvaro Malaquias Santa Rosa, o Peixão, que segue foragido. Os investigados também são suspeitos de consultar sistemas restritos para avisar criminosos sobre mandados e operações, e de movimentar mais de R$ 100 milhões em quatro anos por meio de empresas de fachada. Até o fim da manhã, cinco pessoas haviam sido presas, e os alvos respondem por organização criminosa, tráfico de armas, violação de sigilo, agiotagem e lavagem de dinheiro.",
+      "id": "pf-arquiva-interferencia-eua",
+      "segment": "politica",
+      "title": "PF arquiva apuração preliminar sobre possível interferência dos EUA nas eleições",
+      "summary": "A Polícia Federal arquivou a apuração preliminar sobre possível interferência do governo dos EUA nas eleições de 2026, ao concluir que não havia elementos mínimos para abrir inquérito formal. A Diretoria de Inteligência da PF analisou uma representação da AGU. O caso surgiu após reportagem do The Guardian de 30 de setembro sobre US$ 1 milhão do Departamento de Estado para uma iniciativa de combate à \"litigância deliberativa e à censura no Brasil\", parte de um pacote de US$ 176,9 milhões para projetos de direitos humanos e democracia. O diretor-geral da PF, Andrei Rodrigues, havia confirmado no domingo (4) a análise preliminar, e o presidente do TSE, Kassio Nunes Marques, disse que os relatórios da Corte não indicavam risco de interferência estrangeira. O Poder360 não descreve novos passos.",
       "scores": {
-        "cobertura": 5,
-        "destaque": 6,
+        "cobertura": 3,
+        "destaque": 7,
         "persistencia": 4,
         "peso_voce": 10
       },
-      "score": 6.2,
+      "score": 5.8,
       "outlets": [
         {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-investiga-ligacao-de-policiais-com-faccao-criminosa",
-          "camp": "estatal",
-          "position": "editoria"
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/pf-arquiva-apuracao-sobre-possivel-interferencia-dos-eua-nas-eleicoes/",
+          "camp": "centro",
+          "position": "topo"
         },
         {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-mira-tcp-por-venda-de-fuzis-e-lavagem-de-mais-de-r-100-milhoes-no-rj/",
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/pf-arquiva-apuracao-sobre-suposta-interferencia-dos-eua-nas-eleicoes",
+          "camp": "centro",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "motta-resistencia-pl",
+      "segment": "politica",
+      "title": "Marcos Pereira diz que bancada eleita do PL resiste a Hugo Motta na presidência da Câmara",
+      "summary": "O presidente do Republicanos, Marcos Pereira, afirmou nesta quarta (7) que a resistência à permanência de Hugo Motta (Republicanos-PB) na presidência da Câmara vem da bancada eleita do PL, e não de Flávio Bolsonaro. A declaração veio logo após o partido formalizar apoio a Flávio no 2º turno. Motta declarou publicamente apoio à reeleição de Lula e não compareceu ao anúncio do partido. Pereira disse que o tema será negociado, que \"com diálogo se constrói\" e que o perfil conciliador de Flávio pode ajudar. A Gazeta do Povo afirma que a nova bancada do PL deixa Motta com os dias contados no comando da Casa, e o Poder360 não traz a posição do PL.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.6,
+      "outlets": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/republicanos-ve-resistencia-do-pl-a-motta-na-presidencia-da-camara/",
           "camp": "centro",
           "position": "secundario"
         },
         {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/brasil/pf-prende-pms-suspeitos-de-vender-armas-ao-tcp-faccao-no-rj/",
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/nova-bancada-do-pl-deixa-hugo-motta-com-dias-contados-na-presidencia-da-camara/",
           "camp": "direita",
           "position": "secundario"
         }
@@ -420,35 +177,29 @@
       }
     },
     {
-      "id": "petroleo-100-oriente-medio",
-      "segment": "internacional",
-      "title": "WTI passa de US$ 100 com ataques dos houthis à Arábia Saudita",
-      "summary": "O petróleo WTI passou de US$ 100 o barril nesta quarta (7), enquanto o Brent fechou em queda de 0,38%, segundo a CNN Brasil. A pressão vem dos ataques com mísseis e drones dos houthis, do Iêmen, contra a Arábia Saudita, um dos maiores exportadores do mundo. O conflito entre Estados Unidos e Irã, iniciado em fevereiro, mantém o risco sobre o Estreito de Ormuz, rota de parte relevante do petróleo comercializado no mundo. Uma tempestade que afeta a produção nos Estados Unidos também pesa sobre as cotações. No Brasil, a alta ajudou as ações da Petrobras, que subiram perto de 1% em um dia de queda para o Ibovespa.",
+      "id": "gpa-recuperacao",
+      "segment": "economia",
+      "title": "Justiça de SP homologa plano de recuperação extrajudicial do Pão de Açúcar, e a ação sobe cerca de 4%",
+      "summary": "A juíza Larissa Gaspar Tunala, da 3ª Vara de Falências e Recuperações Judiciais de São Paulo, homologou nesta quarta (7) o plano de recuperação extrajudicial do Grupo Pão de Açúcar. O plano reestrutura R$ 4,568 bilhões em créditos quirografários, e a empresa diz que credores com 57,49% das dívidas aderiram, acima do mínimo legal. A GPA prevê captar R$ 200 milhões em novos recursos, e os credores têm três opções de pagamento. A juíza rejeitou todas as impugnações e negou pedidos de administrador judicial e de perícia contábil, e quem impugnou tem 30 dias para escolher a opção. A empresa afirma que a operação segue normal, e a InfoMoney registra alta de cerca de 4% nas ações após a decisão.",
       "scores": {
-        "cobertura": 5,
-        "destaque": 3,
-        "persistencia": 7,
+        "cobertura": 3,
+        "destaque": 6,
+        "persistencia": 4,
         "peso_voce": 3
       },
-      "score": 4.4,
+      "score": 4.0,
       "outlets": [
         {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/mundo/petroleo-volta-a-superar-us-100-com-novas-tensoes-no-oriente-medio/",
-          "camp": "direita",
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/justica-de-sp-homologa-plano-de-recuperacao-do-pao-de-acucar/",
+          "camp": "centro",
           "position": "secundario"
         },
         {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-7-outubro-2026/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
           "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-07102026/",
+          "url": "https://www.infomoney.com.br/mercados/gpa-pcar3-acao-salta-apos-tribunal-homologar-plano-de-recuperacao-extrajudicial/",
           "camp": "centro",
-          "position": "editoria"
+          "position": "secundario"
         }
       ],
       "asymmetry": {
