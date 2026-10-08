@@ -167,6 +167,14 @@ stories = sorted(([_bt(r["ts"]).strftime("%Y-%m-%d %H:%M"), r.get("type"), r.get
                   for r in hist["stories"].values()), reverse=True)
 stories = [x for x in stories if x[0][:10] >= (today - timedelta(days=90)).isoformat()]
 
+# ---------- leituras de seguidores ao longo do dia (uma por coleta da API) ----------
+hist.setdefault("intraday", {})
+_me = ig.get("me") or {}
+if _me.get("followers_count") is not None and ig.get("collected"):
+    hist["intraday"][ig["collected"]] = _me["followers_count"]
+_cut = (datetime.now(BRT).date() - timedelta(days=8)).isoformat()
+hist["intraday"] = {k: v for k, v in sorted(hist["intraday"].items()) if k[:10] >= _cut}
+
 # ---------- conta ----------
 acc = rows("account")[0]
 account = {"username": acc[0], "followers": num(acc[1]), "follows": num(acc[2]), "media_count": num(acc[3])}
@@ -271,6 +279,7 @@ data = {
                  "cities": [[city(r[0]), num(r[1])] for r in rows("cities")],
                  "states_columns": ["uf", "region", "followers", "cities"],
                  "states": states(rows("cities"))},
+    "intraday": [[k, v] for k, v in sorted(hist["intraday"].items())],
     "post_windows": post_windows,
     "styles": styles,
     "tracking_since": min(hist["followers"]) if hist["followers"] else None,

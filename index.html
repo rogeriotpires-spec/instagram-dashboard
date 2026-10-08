@@ -222,6 +222,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
   <section class="block" id="diario">
     <div class="sec-h"><h2>Acompanhamento diário</h2><p id="daily-sub">Métricas da conta por dia (data de Brasília)</p></div>
     <div class="today" id="today"></div>
+    <div class="card" style="margin-bottom:12px"><div class="head"><h3>Seguidores hoje, hora a hora</h3><span class="per" data-per="intra"></span></div><p class="desc" id="intra-desc">Saldo acumulado desde a meia-noite (quem começou a seguir menos quem deixou de seguir), medido a cada coleta.</p><div class="legend" id="intra-leg"><span><i class="ln" style="background:var(--s3)"></i>Hoje</span></div><div id="d-intra"></div><div class="def" id="intra-note"></div></div>
     <div class="g2e">
       <div class="card"><div class="head"><h3>Alcance da conta por dia</h3><span class="per" data-per="daily"></span></div><p class="desc">Contas únicas alcançadas em cada dia. Não somar dias: a mesma pessoa pode aparecer em vários.</p><div class="legend"><span><i class="ln" style="background:var(--s1)"></i>Por dia</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-reach"></div></div>
       <div class="card"><div class="head"><h3>Views recebidas pela conta por dia</h3><span class="per" data-per="daily"></span></div><p class="desc">Visualizações de todo o conteúdo (posts, Reels e Stories) registradas em cada dia, inclusive de posts antigos.</p><div class="legend"><span><i class="ln" style="background:var(--s4)"></i>Por dia</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-views"></div></div>
@@ -407,6 +408,46 @@ function daySeries(host,{dates,values,color,label,bars,f=fmt}){
   ov.addEventListener("pointermove",mv);ov.addEventListener("pointerdown",mv);ov.addEventListener("pointerleave",e=>{vl.setAttribute("opacity",0);if(e.pointerType!=="touch")hideTip()});
 }
 
+/* seguidores ao longo do dia (leituras da API) */
+function intraday(){
+  const host=$("#d-intra"),P=(D.intraday||[]).map(([k,v])=>({t:new Date(k),k,v}));
+  host.innerHTML="";if(P.length<2)return empty(host,"Ainda sem leituras suficientes hoje.");
+  const day=P[P.length-1].k.slice(0,10),dayOf=k=>k.slice(0,10),prevDay=d=>{const x=new Date(d+"T12:00:00-03:00");x.setDate(x.getDate()-1);return x.toISOString().slice(0,10)};
+  const hrs=p=>{const[h,mi,se]=p.k.slice(11,19).split(":").map(Number);return h+mi/60+se/3600};
+  const serie=d=>{const pts=P.filter(p=>dayOf(p.k)===d);if(!pts.length)return null;
+    const before=P.filter(p=>p.k<d+"T00:00");const b=before[before.length-1];
+    const start=new Date(d+"T00:00:00-03:00"),okB=b&&(start-b.t)<=3*36e5;
+    const base=okB?b.v:pts[0].v;const out=(okB?[{h:0,n:0,v:b.v,k:null}]:[]).concat(pts.map(p=>({h:hrs(p),n:p.v-base,v:p.v,k:p.k})));return{out,okB}};
+  const T=serie(day),Y=serie(prevDay(day)),yOk=Y&&Y.okB&&Y.out.length>3;
+  $("#intra-leg").innerHTML=`<span><i class="ln" style="background:var(--s3)"></i>Hoje</span>${yOk?`<span><i class="dash"></i>Ontem, mesmo horário</span>`:""}`;
+  const W=host.clientWidth||600,H=Math.max(190,Math.min(240,W*.42)),m={t:12,r:12,b:24,l:46};
+  const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const all=[...T.out,...(yOk?Y.out:[])].map(p=>p.n),lo=Math.min(0,...all),hi=Math.max(1,...all);
+  const step=nice((hi-lo)/4),y0=Math.floor(lo/step)*step,y1=Math.ceil(hi/step)*step;
+  const X=h=>m.l+iw*h/24,Yp=n=>m.t+ih-ih*(n-y0)/(y1-y0);
+  for(let v=y0;v<=y1+1e-9;v+=step){const y=Yp(v);el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:v===0?"var(--border)":"var(--grid)"},svg);const t=el("text",{x:m.l-8,y:y+4,"text-anchor":"end"},svg);t.textContent=(v>0?"+":"")+fmt(v)}
+  for(let h=0;h<=24;h+=W<500?6:3){const t=el("text",{x:X(h),y:H-6,"text-anchor":h===0?"start":h===24?"end":"middle"},svg);t.textContent=h+"h"}
+  if(yOk)el("polyline",{points:Y.out.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" "),fill:"none",stroke:"var(--muted)","stroke-width":1.5,"stroke-dasharray":"4 3"},svg);
+  const pts=T.out;
+  el("polygon",{points:`${X(pts[0].h)},${Yp(0)} `+pts.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" ")+` ${X(pts[pts.length-1].h)},${Yp(0)}`,fill:"var(--s3)",opacity:.12},svg);
+  el("polyline",{points:pts.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" "),fill:"none",stroke:"var(--s3)","stroke-width":2.2,"stroke-linejoin":"round"},svg);
+  pts.forEach((p,i)=>{if(p.k)el("circle",{cx:X(p.h),cy:Yp(p.n),r:i===pts.length-1?4:2.6,fill:"var(--s3)",stroke:"var(--surface)","stroke-width":1.2},svg)});
+  const last=pts[pts.length-1],lt=el("text",{x:Math.min(X(last.h)+8,W-m.r-40),y:Yp(last.n)-8,style:"font-size:12px;font-weight:700;fill:var(--text)"},svg);lt.textContent=(last.n>=0?"+":"")+full(last.n);
+  const hm=h=>`${String(Math.floor(h)).padStart(2,"0")}h${String(Math.round(h%1*60)).padStart(2,"0")}`;
+  const yAt=h=>{if(!yOk)return null;const a=Y.out;let r=null;for(const p of a){if(p.h<=h)r=p.n}return r};
+  const vl=el("line",{y1:m.t,y2:m.t+ih,stroke:"var(--muted)","stroke-dasharray":"3 3",opacity:0},svg);
+  const ov=el("rect",{x:m.l,y:m.t,width:iw,height:ih,fill:"transparent"},svg);
+  const real=pts.filter(p=>p.k);
+  const mv=e=>{const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)*W/r.width,h=(px-m.l)/iw*24;
+    let i=0;real.forEach((p,j)=>{if(Math.abs(p.h-h)<Math.abs(real[i].h-h))i=j});const p=real[i],pi=pts.indexOf(p),pr=pts[pi-1];
+    vl.setAttribute("x1",X(p.h));vl.setAttribute("x2",X(p.h));vl.setAttribute("opacity",1);
+    const dh=pr?p.h-pr.h:0,d=pr?p.n-pr.n:null,yv=yAt(p.h);
+    showTip(e,`<b>${hm(p.h)}</b><br>Saldo desde 0h: <b>${p.n>=0?"+":""}${full(p.n)}</b><br>Total: ${full(p.v)} seguidores${pr?`<br>Desde a leitura anterior (${hm(pr.h)}): ${d>=0?"+":""}${full(d)}${dh>0.2?` · ${d/dh>=0?"+":""}${fmt(Math.round(d/dh))}/hora`:""}`:""}${yv!=null?`<br>Ontem até esse horário: ${yv>=0?"+":""}${full(yv)}`:""}`)};
+  ov.addEventListener("pointermove",mv);ov.addEventListener("pointerdown",mv);ov.addEventListener("pointerleave",e=>{vl.setAttribute("opacity",0);if(e.pointerType!=="touch")hideTip()});
+  const rate=last.h>0.5?last.n/last.h:null;
+  $("#intra-note").innerHTML=`<b>${last.n>=0?"+":""}${full(last.n)}</b> no saldo até ${hm(last.h)}${rate!=null?`, média de ${rate>=0?"+":""}${fmt(Math.round(rate))} por hora`:""}${yOk&&yAt(last.h)!=null?`. Ontem, no mesmo horário: ${yAt(last.h)>=0?"+":""}${full(yAt(last.h))}`:""}.${T.okB?"":" Hoje a primeira leitura foi depois da meia-noite: o saldo conta a partir dela."} A API não informa entradas e saídas separadas por hora, só o total de seguidores; por isso o gráfico mostra o saldo. A coleta roda de hora em hora (o GitHub pode atrasar alguns minutos).`;
+}
+
 /* barras com mediana + quartis + n */
 function qbars(host,{labels,series,tipFn,minN=5}){
   host.innerHTML="";const W=host.clientWidth||600,H=Math.max(200,Math.min(250,W*.5)),m={t:16,r:4,b:24,l:46};
@@ -493,6 +534,7 @@ function setPer(){
     aud:[`Referência ${dBR(D.audience.ref_date)} · fixo`,false],
     api:(()=>{const c=coverage(dailyDays,"shares");return[c<r?`${c} de ${r} dias com dado`:g,c<r]})(),
     weekly:[AN?`${perLabel(AN.period.start,AN.period.end)} · fixo`:"",false],
+    intra:[D.intraday&&D.intraday.length?`${dBR(D.intraday[D.intraday.length-1][0].slice(0,10))} · hora a hora`:"Hoje",false],
     tracking:[D.tracking_since?`Coleta desde ${dBR(D.tracking_since.slice(0,10))}`:"Coleta diária",false]};
   $$(".per").forEach(s=>{const[t,diff]=map[s.dataset.per]||[g,false];s.textContent=t;s.classList.toggle("diff",diff);s.title=diff?"Este card usa um período diferente do filtro do topo":""});
 }
@@ -856,7 +898,7 @@ function renderLimits(){
   $("#limits").innerHTML=L.map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join("");
 }
 
-function render(){setPer();renderDaily();renderOverview();renderConversion();renderLife();renderContent();renderReels();renderThemes();renderAudience();insights();renderWeekly();bench();table();setPer()}
+function render(){setPer();renderDaily();intraday();renderOverview();renderConversion();renderLife();renderContent();renderReels();renderThemes();renderAudience();insights();renderWeekly();bench();table();setPer()}
 function seg(id,key,num){$$(`#${id} button`).forEach(b=>b.onclick=()=>{$$(`#${id} button`).forEach(x=>x.setAttribute("aria-pressed",x===b));state[key]=num?+b.dataset.v:b.dataset.v;state.calDay=null;$("#cal-pick").className="pick";$("#cal-pick").textContent="Toque em um dia para ver as publicações.";render()})}
 
 Promise.all([fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}),fetch("analysis.json?"+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,an])=>{D=d;AN=an;prep();

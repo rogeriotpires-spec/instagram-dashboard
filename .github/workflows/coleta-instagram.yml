@@ -3,7 +3,7 @@ name: Coleta API do Instagram
 on:
   schedule:
     - cron: "20 7 * * *"   # 04:20 em Brasília: coleta completa, antes da atualização das 04:50
-    - cron: "35 2,5,8,11,14,17,20,23 * * *"   # a cada 3 horas: coleta rápida (seguidores e stories, que somem em 24h)
+    - cron: "35 * * * *"   # de hora em hora: coleta rápida (seguidores por hora e stories, que somem em 24h)
   workflow_dispatch:
 
 permissions:
