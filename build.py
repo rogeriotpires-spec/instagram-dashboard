@@ -220,11 +220,24 @@ for d in days:
 
 fu = {r[0]: num(r[1]) for r in rows("follows_unfollows")}
 ft = {r[0]: {"reach": num(r[1]), "views": num(r[2])} for r in rows("follow_types")}
-CITY_UF = {"Rio de Janeiro (state)": "RJ", "São Paulo (state)": "SP", "Minas Gerais": "MG", "Ceará": "CE", "Bahia": "BA", "Paraná": "PR", "Rio Grande do Sul": "RS", "Pernambuco": "PE", "Amazonas": "AM", "Goiás": "GO", "Distrito Federal": "DF", "Santa Catarina": "SC", "Pará": "PA", "Espírito Santo": "ES", "Paraíba": "PB", "Rio Grande do Norte": "RN", "Alagoas": "AL", "Mato Grosso": "MT", "Mato Grosso do Sul": "MS", "Maranhão": "MA", "Piauí": "PI", "Sergipe": "SE", "Tocantins": "TO", "Rondônia": "RO", "Acre": "AC", "Amapá": "AP", "Roraima": "RR"}
+CITY_UF = {"Rio de Janeiro (state)": "RJ", "São Paulo (state)": "SP", "Minas Gerais": "MG", "Ceará": "CE", "Bahia": "BA", "Paraná": "PR", "Rio Grande do Sul": "RS", "Pernambuco": "PE", "Amazonas": "AM", "Goiás": "GO", "Distrito Federal": "DF", "Federal District": "DF", "Santa Catarina": "SC", "Pará": "PA", "Espírito Santo": "ES", "Paraíba": "PB", "Rio Grande do Norte": "RN", "Alagoas": "AL", "Mato Grosso": "MT", "Mato Grosso do Sul": "MS", "Maranhão": "MA", "Piauí": "PI", "Sergipe": "SE", "Tocantins": "TO", "Rondônia": "RO", "Acre": "AC", "Amapá": "AP", "Roraima": "RR"}
 def city(n):
     if ", " not in n: return n
     c, st = n.split(", ", 1)
     return f"{c} ({CITY_UF.get(st, st)})"
+REGIAO = {"SP": "Sudeste", "RJ": "Sudeste", "MG": "Sudeste", "ES": "Sudeste", "PR": "Sul", "SC": "Sul", "RS": "Sul",
+          "BA": "Nordeste", "PE": "Nordeste", "CE": "Nordeste", "MA": "Nordeste", "PB": "Nordeste", "RN": "Nordeste", "AL": "Nordeste", "PI": "Nordeste", "SE": "Nordeste",
+          "AM": "Norte", "PA": "Norte", "TO": "Norte", "RO": "Norte", "AC": "Norte", "AP": "Norte", "RR": "Norte",
+          "GO": "Centro-Oeste", "DF": "Centro-Oeste", "MT": "Centro-Oeste", "MS": "Centro-Oeste"}
+def states(rs):
+    agg = {}
+    for r in rs:
+        if ", " not in r[0]: continue
+        uf = CITY_UF.get(r[0].split(", ", 1)[1])
+        if not uf: continue
+        a = agg.setdefault(uf, [uf, REGIAO.get(uf, ""), 0, 0])
+        a[2] += num(r[1]); a[3] += 1
+    return sorted(agg.values(), key=lambda x: -x[2])
 
 # leituras por idade do post: valor mais próximo de cada janela, sem extrapolar
 WINDOWS = [24, 72, 168, 720]
@@ -255,7 +268,9 @@ data = {
     "reach_by_follow_type_30d": {"non_follower": ft.get("NON_FOLLOWER"), "follower": ft.get("FOLLOWER")},
     "audience": {"ref_date": yesterday.isoformat(),
                  "age_gender": [[r[0], r[1], num(r[2])] for r in rows("age_gender")],
-                 "cities": [[city(r[0]), num(r[1])] for r in rows("cities")]},
+                 "cities": [[city(r[0]), num(r[1])] for r in rows("cities")],
+                 "states_columns": ["uf", "region", "followers", "cities"],
+                 "states": states(rows("cities"))},
     "post_windows": post_windows,
     "styles": styles,
     "tracking_since": min(hist["followers"]) if hist["followers"] else None,
