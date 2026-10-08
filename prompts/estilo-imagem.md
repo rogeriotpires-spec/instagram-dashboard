@@ -24,6 +24,7 @@ Cena fotográfica realista, estilo fotojornalismo, mostrando o lugar, os objetos
 - "print": print de manchete, tuíte ou documento.
 
 ## Regras gerais
-- Sem logos de veículos de imprensa, sem marcas, sem brasões oficiais inventados.
+- Assinatura obrigatória em TODA arte (imagem, capa e último slide de carrossel): no rodapé, pequena e discreta, em branco ou cinza claro com leve transparência, uma linha com "Siga" seguido do ícone do Instagram e "@rogerrio" e, ao lado, o ícone do X e "@rogerrioX". Escreva isso no prompt, sempre no fim, com a posição exata (ex.: "No rodapé, centralizado, em letras pequenas e discretas: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'"), e inclua a linha "Siga @rogerrio (Instagram) @rogerrioX (X)" em art_text. Se houver o selo "Imagem ilustrativa", ele fica no canto oposto, sem disputar espaço com a assinatura.
+- Sem logos de veículos de imprensa, sem outras marcas, sem brasões oficiais inventados (os ícones do Instagram e do X da assinatura são a única exceção).
 - Texto da arte em português do Brasil, sem travessão.
 - Registre em cada option de imagem ou carrossel o campo "style": ilustracao, realista, foto-oficial, cartaz ou print.
