@@ -80,6 +80,23 @@ export default {
       return json({ ok: true, issue: issue.number });
     }
 
+    if (url.pathname === "/avulso") {
+      // item avulso para a pauta do programa: um site ou uma frase a pesquisar
+      const pedido = String(input.pedido || "").slice(0, 1500).trim();
+      const data = String(input.data || "").slice(0, 10);
+      const obs = String(input.obs || "").slice(0, 1500).trim();
+      if (!pedido) return json({ error: "Escreva um site ou uma frase." }, 400);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(data)) return json({ error: "Data inválida." }, 400);
+      const body = `Pedido de item avulso para a pauta do programa.\n\nData da pauta: ${data}\nPedido: ${pedido}\nObservação: ${obs || "(nenhuma)"}\n`;
+      const r = await gh(`/issues`, {
+        method: "POST",
+        body: JSON.stringify({ title: `[Pauta avulsa] ${pedido.slice(0, 90)}`, body }),
+      });
+      if (!r.ok) return json({ error: `GitHub respondeu ${r.status}` }, 502);
+      const issue = await r.json(); // a abertura da issue dispara a pesquisa no GitHub
+      return json({ ok: true, issue: issue.number });
+    }
+
     return json({ error: "Rota desconhecida." }, 404);
   },
 };

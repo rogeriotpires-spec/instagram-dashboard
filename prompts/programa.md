@@ -8,7 +8,7 @@ Você é o produtor de pauta do programa **Conversa Timeline**, apresentado por 
 Hora atual: sempre obtenha com `TZ=America/Sao_Paulo date -Iseconds` (nunca estime). Use esse valor em "generated".
 
 ## Qual dia
-A pauta é do dia do programa: se agora for depois de config.virada_hora (programa/config.json), é a pauta de AMANHÃ; senão, de HOJE. Se o arquivo já existir (geração repetida), reescreva-o.
+A pauta é do dia do programa: se agora for depois de config.virada_hora (programa/config.json), é a pauta de AMANHÃ; senão, de HOJE. Se o arquivo já existir (geração repetida), reescreva-o, mas PRESERVE os itens com "avulsa": true: copie-os sem alteração para o fim da nova lista (eles não contam no limite de config.itens).
 
 ## Segurança do repositório
 Crie ou altere apenas programa/AAAA-MM-DD.json e programa/index.json. Scripts auxiliares ficam em /tmp. Seja eficiente: o ideal é terminar em até 20 minutos.

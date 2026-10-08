@@ -256,6 +256,18 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .wk .d.on h4{color:var(--text)}
 .wk .s{font-size:12px;line-height:1.35;margin-bottom:6px;padding-left:8px;border-left:3px solid var(--muted)}
 .wk .s b{display:block;font-size:11px;color:var(--text-2)}
+
+.act.add{background:var(--surface);color:var(--text);border:1px solid var(--border)}
+.avulso-form{display:none;margin:0 0 18px;border:1px solid #a63922;border-radius:16px;padding:16px;background:var(--surface)}
+.avulso-form.on{display:block}
+.avulso-form h3{margin:0 0 4px;font:700 18px Fraunces,Georgia,serif}
+.avulso-form p.h{margin:0 0 12px;font-size:13px;color:var(--text-2)}
+.avulso-form label{display:block;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-2);margin:10px 0 4px}
+.avulso-form textarea,.avulso-form input{width:100%;font:15px/1.45 Inter,sans-serif;color:var(--text);background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:10px 12px}
+.avulso-form textarea{min-height:76px;resize:vertical}
+.avulso-form .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
+.avulso-form input[type=date]{width:auto}
+.seal{background:#a63922;color:#fff;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;white-space:nowrap}
 @media (max-width:900px){.cols2{grid-template-columns:1fr}.wk{grid-template-columns:repeat(4,minmax(0,1fr))}.indice a{grid-template-columns:28px 1fr}.indice a .bl{display:none}}
 @media (max-width:560px){.wk{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
@@ -291,9 +303,20 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     <div class="bar">
       <div class="seg"><button id="p-prev" aria-label="Pauta anterior">‹</button><select id="p-day" aria-label="Escolher dia"></select><button id="p-next" aria-label="Próxima pauta">›</button></div>
       <a class="act pdf" id="pdf" href="#" target="_blank" rel="noopener">⬇ Baixar PDF</a>
+      <button class="act add" id="add-btn" type="button">+ Incluir item avulso</button>
       <button class="act gen" id="p-gen" type="button">↻ Gerar pauta do programa</button>
       <span class="st" id="p-st" role="status"></span>
     </div>
+    <form class="avulso-form" id="avulso" autocomplete="off">
+      <h3>Incluir item avulso</h3>
+      <p class="h">Cole o endereço de uma matéria ou escreva uma frase sobre o assunto. O Claude pesquisa e acrescenta um item no mesmo formato dos demais, com o selo "Pauta avulsa", e o PDF é refeito.</p>
+      <label for="av-pedido">Site ou frase para pesquisar</label>
+      <textarea id="av-pedido" required placeholder="Ex.: https://www.gazetadopovo.com.br/... ou: decisão do STF sobre emendas parlamentares desta semana"></textarea>
+      <label for="av-obs">Observação (opcional)</label>
+      <input id="av-obs" placeholder="Ex.: focar no impacto para o Rio; trazer números do orçamento">
+      <div class="row"><label for="av-data" style="margin:0">Pauta do dia</label><input type="date" id="av-data" required>
+        <button class="act gen" type="submit" id="av-send">Pesquisar e incluir</button><button class="act add" type="button" id="av-cancel">Cancelar</button><span class="st" id="av-st" role="status"></span></div>
+    </form>
     <div id="p-body"><div class="empty">Carregando a pauta…</div></div>
   </section>
 
@@ -351,10 +374,10 @@ async function loadP(d){
     $("#p-body").innerHTML=`<div class="card">
       <div class="prog-h"><img src="marca/timeline-logo.jpg" alt=""><div><div class="eb">${esc(p.programa||"Conversa Timeline")} · ${WD[dt.getDay()]}, ${dBR(p.date)}</div><h2>${esc(p.titulo||"")}</h2></div></div>
       <p class="abert">${esc(p.abertura||"")}</p>
-      <div class="indice">${it.map((x,k)=>`<a href="#it-${k}"><span class="num">${k+1}</span><span class="bl">${esc(x.bloco)}</span><span>${esc(x.titulo)}</span></a>`).join("")}</div></div>
+      <div class="indice">${it.map((x,k)=>`<a href="#it-${k}"><span class="num">${k+1}</span><span class="bl">${esc(x.bloco)}</span><span>${esc(x.titulo)}${x.avulsa?` <span class="seal">Pauta avulsa</span>`:""}</span></a>`).join("")}</div></div>
       ${(p.agenda||[]).length?`<div class="card" style="margin-top:14px"><div class="blk-h"><span>Com hora marcada</span></div>${p.agenda.map(a=>`<div class="ag"><b>${esc(a.time)}</b><span>${esc(a.text)} ${a.source?`<a href="${esc(a.source.url)}" target="_blank" rel="noopener">${esc(a.source.name)} ↗</a>`:""}</span></div>`).join("")}</div>`:""}
       ${it.map((x,k)=>`<article class="it" id="it-${k}">
-        <div class="pills"><span class="num">${k+1}</span><span class="bl" style="align-self:center">${esc(x.bloco)}</span></div>
+        <div class="pills"><span class="num">${k+1}</span><span class="bl" style="align-self:center">${esc(x.bloco)}</span>${x.avulsa?`<span class="seal">Pauta avulsa</span>`:""}</div>
         <h3>${esc(x.titulo)}</h3>${x.subtitulo?`<p class="sub">${esc(x.subtitulo)}</p>`:""}
         <p class="res">${esc(x.resumo)}</p>
         ${x.metafora?`<div class="meta"><b>Para explicar no ar</b><p>${esc(x.metafora)}</p></div>`:""}
@@ -430,6 +453,27 @@ function fillSel(sel,days){sel.innerHTML=days.slice().reverse().map(d=>{const x=
   updHero();
 })();
 
+
+/* ---------- item avulso ---------- */
+const AV=$("#avulso");
+$("#add-btn").onclick=()=>{AV.classList.toggle("on");if(AV.classList.contains("on")){$("#av-data").value=$("#av-data").value||P_CUR||new Date().toISOString().slice(0,10);$("#av-pedido").focus()}};
+$("#av-cancel").onclick=()=>AV.classList.remove("on");
+AV.onsubmit=async e=>{e.preventDefault();
+  const pedido=$("#av-pedido").value.trim(),obs=$("#av-obs").value.trim(),data=$("#av-data").value;if(!pedido||!data)return;
+  const st=$("#av-st"),say=t=>st.textContent=t,btn=$("#av-send");btn.disabled=true;say("Enviando…");
+  const stamp=()=>nocache(`programa/${data}.json`).then(r=>r.ok?r.text():"").then(t=>String(t.length)).catch(()=>"0");
+  try{await Painel.call("/avulso",{pedido,data,obs});}
+  catch(err){
+    if(/Rota desconhecida/.test(err.message)){ // intermediário ainda sem a rota nova: pedido pelo GitHub
+      const body=`Pedido de item avulso para a pauta do programa.\n\nData da pauta: ${data}\nPedido: ${pedido}\nObservação: ${obs||"(nenhuma)"}\n`;
+      window.open(`https://github.com/${Painel.REPO}/issues/new?title=${encodeURIComponent("[Pauta avulsa] "+pedido.slice(0,90))}&body=${encodeURIComponent(body)}`,"_blank","noopener");
+      say("Confirme o pedido no GitHub (botão verde). Depois volte aqui.");
+    }else{say(err.message);btn.disabled=false;return}
+  }
+  history.replaceState(null,"","#programa/"+data);
+  say("Pedido enviado. Pesquisando e escrevendo o item (2 a 5 minutos)…");
+  Painel.track({wf:"programa-avulso.yml",since:new Date(Date.now()-90e3),minutes:20,say,stamp,labels:{wait:"Pedido na fila…",running:"Pesquisando e escrevendo o item (2 a 5 minutos)…"}});
+};
 Painel.wire({btn:$("#p-gen"),st:$("#p-st"),job:"programa",wf:"programa.yml",minutes:25,needsClaude:true,
   stamp:()=>nocache("programa/index.json").then(r=>r.json()).then(i=>{const d=i.days[i.days.length-1];return nocache("programa/"+d+".json").then(r=>r.json()).then(x=>d+x.generated)}),
   labels:{running:"Pesquisando e escrevendo a pauta do programa (5 a 15 minutos)…"}});
