@@ -10,6 +10,9 @@ if not re.fullmatch(r"[a-z0-9-]{6,90}", aid): sys.exit("id inválido")
 path = f"artigos/{aid}.json"
 if not os.path.exists(path): sys.exit("artigo não existe")
 a = json.load(open(path, encoding="utf-8"))
+if p.get("excluir"):
+    if a.get("status") == "publicado" or a.get("link"): sys.exit("artigo publicado não pode ser excluído")
+    os.remove(path); print("excluído", aid); sys.exit(0)
 s = lambda v, n: str(v)[:n] if v is not None else ""
 for k, n in (("titulo", 400), ("subtitulo", 800), ("texto", 40000), ("palavras_chave", 1000)):
     if k in p: a[k] = s(p[k], n)

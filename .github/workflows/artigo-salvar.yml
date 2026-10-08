@@ -27,7 +27,7 @@ jobs:
             git fetch -q origin main && git reset -q --hard origin/main
             python3 tools/artigo_salvar.py
             python3 tools/artigo_index.py
-            git add artigos/
+            git add -A artigos/
             git diff --cached --quiet && exit 0
             git commit -qm "Artigo da Timeline salvo" && git push -q origin HEAD:main && exit 0
             sleep $((i*3))

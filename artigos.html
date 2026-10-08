@@ -139,6 +139,11 @@ details.ant summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--te
 .learn ol{margin:0;padding-left:20px}
 .learn li{margin:0 0 10px}
 .learn li small{display:block;color:var(--muted);font-size:12.5px}
+.del{background:transparent;border:1px solid transparent;color:var(--muted);border-radius:8px;width:32px;height:32px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+.del:hover{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 40%,transparent);background:var(--bad-bg)}
+.del svg{width:16px;height:16px}
+td.c-del{width:44px;text-align:right}
+.btn.danger{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 40%,transparent);margin-right:auto}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--text);color:var(--bg);padding:8px 16px;border-radius:999px;font-size:13px;font-weight:600;opacity:0;transition:opacity .2s;z-index:60;pointer-events:none}
 .toast.on{opacity:1}
 @media (max-width:640px){.ov{padding:0}.dlg{border-radius:0;margin:0;min-height:100%}#e-titulo{font-size:20px}#e-texto{font-size:16.5px}}
@@ -150,7 +155,7 @@ details.ant summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--te
 <main class="wrap">
   <h2>Artigos</h2>
   <p class="lead">Toque em "Rende artigo na Timeline" numa pauta para escrever um artigo novo. Toque numa linha para abrir, editar ou incluir o link da publicação.</p>
-  <div class="card"><table class="list"><thead><tr><th>Criado</th><th>Título</th><th>Pauta de origem</th><th>Situação</th><th>Na Timeline</th></tr></thead><tbody id="rows"><tr><td colspan="5" class="empty">Carregando…</td></tr></tbody></table></div>
+  <div class="card"><table class="list"><thead><tr><th>Criado</th><th>Título</th><th>Pauta de origem</th><th>Situação</th><th>Na Timeline</th><th></th></tr></thead><tbody id="rows"><tr><td colspan="6" class="empty">Carregando…</td></tr></tbody></table></div>
   <section class="learn" id="learn"></section>
 </main>
 
@@ -173,6 +178,7 @@ const nowISO=()=>{const d=new Date(),o=-180,l=new Date(d.getTime()+o*6e4);return
 const fdt=s=>{if(!s)return"";const d=new Date(s);return d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})+" "+d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})};
 const hm=s=>new Date(s).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
 const ST={gerando:"Escrevendo…",rascunho:"Rascunho",finalizado:"Finalizado",publicado:"Publicado",erro:"Não deu certo"};
+const TRASH=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6M10 11v6M14 11v6"/></svg>`;
 const ICON=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>`;
 function toast(t){const e=$("#toast");e.textContent=t;e.classList.add("on");clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove("on"),1600)}
 function copy(t){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast("Copiado")).catch(()=>{const a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();document.execCommand("copy");a.remove();toast("Copiado")})}
@@ -183,9 +189,12 @@ async function loadIndex(){INDEX=await nocache("artigos/index.json").then(r=>r.o
 function pending(){return ls.keys("artigo_req:").map(k=>ls.get(k)).filter(r=>r&&!INDEX.some(i=>i.id===r.id))}
 function renderList(){
   const P=pending().map(r=>({id:r.id,criado:r.sent||r.asked,titulo:r.pauta.title,origem:r.origem.rotulo,status:r.erro?"erro":"gerando",link:""}));
-  const L=[...P,...INDEX.map(i=>{const d=ls.get("artigo_save:"+i.id);return d&&(!i.saved_at||d.saved_at>i.saved_at)?{...i,titulo:d.titulo,status:d.status,link:d.link}:i})];
-  $("#rows").innerHTML=L.length?L.map(i=>`<tr data-id="${esc(i.id)}"><td class="c-date">${fdt(i.criado)}</td><td><div class="t-title">${esc(i.titulo||"(sem título)")}</div></td><td><div class="t-sub">${esc(i.origem||"")}</div></td><td><span class="pill st-${i.status}">${ST[i.status]||i.status}</span></td><td>${i.link?`<a class="tl-link" href="${esc(i.link)}" target="_blank" rel="noopener">Abrir ↗</a>`:(i.status==="finalizado"?`<button type="button" class="cp addlink" data-link="${esc(i.id)}">+ Incluir link</button>`:"")}</td></tr>`).join(""):`<tr><td colspan="5" class="empty">Nenhum artigo ainda.</td></tr>`;
-  document.querySelectorAll("#rows tr[data-id]").forEach(tr=>tr.onclick=e=>{if(e.target.closest("a"))return;if(e.target.closest(".addlink"))FOCUS_LINK=true;if(location.hash==="#"+tr.dataset.id)route();else location.hash=tr.dataset.id});
+  const DEL=new Set(ls.keys("artigo_del:").map(k=>k.slice(11)));INDEX.forEach(i=>{});
+  ls.keys("artigo_del:").forEach(k=>{if(!INDEX.some(i=>i.id===k.slice(11)))ls.del(k)});
+  const L=[...P,...INDEX.filter(i=>!DEL.has(i.id)).map(i=>{const d=ls.get("artigo_save:"+i.id);return d&&(!i.saved_at||d.saved_at>i.saved_at)?{...i,titulo:d.titulo,status:d.status,link:d.link}:i})];
+  $("#rows").innerHTML=L.length?L.map(i=>`<tr data-id="${esc(i.id)}"><td class="c-date">${fdt(i.criado)}</td><td><div class="t-title">${esc(i.titulo||"(sem título)")}</div></td><td><div class="t-sub">${esc(i.origem||"")}</div></td><td><span class="pill st-${i.status}">${ST[i.status]||i.status}</span></td><td>${i.link?`<a class="tl-link" href="${esc(i.link)}" target="_blank" rel="noopener">Abrir ↗</a>`:(i.status==="finalizado"?`<button type="button" class="cp addlink" data-link="${esc(i.id)}">+ Incluir link</button>`:"")}</td><td class="c-del">${i.status==="publicado"||i.link?"":`<button type="button" class="del" data-del="${esc(i.id)}" data-st="${i.status}" aria-label="Excluir" title="Excluir">${TRASH}</button>`}</td></tr>`).join(""):`<tr><td colspan="6" class="empty">Nenhum artigo ainda.</td></tr>`;
+  document.querySelectorAll("#rows .del").forEach(b=>b.onclick=e=>{e.stopPropagation();delArticle(b.dataset.del,b.dataset.st)});
+  document.querySelectorAll("#rows tr[data-id]").forEach(tr=>tr.onclick=e=>{if(e.target.closest("a")||e.target.closest(".del"))return;if(e.target.closest(".addlink"))FOCUS_LINK=true;if(location.hash==="#"+tr.dataset.id)route();else location.hash=tr.dataset.id});
 }
 
 /* ---------- editor ---------- */
@@ -254,7 +263,7 @@ function fieldsHTML(){
     ${(A.anteriores||[]).length?`<div class="sec"><details class="ant"><summary>Versões anteriores (${A.anteriores.length})</summary>${A.anteriores.map((v,i)=>`<div class="v"><b>${esc(v.titulo)}</b><div class="fb">${fdt(v.em)} · ${v.texto.trim().split(/\s+/).length} palavras</div>${(A.revisoes||[]).length?"":""}<button class="cp" data-rest="${i}">Restaurar este texto</button></div>`).join("")}</details></div>`:""}
     ${(A.revisoes||[]).length?`<div class="sec"><details class="ant"><summary>Seus pedidos de reescrita (${A.revisoes.length})</summary>${A.revisoes.slice().reverse().map(r=>`<div class="v"><div class="fb">${fdt(r.em)}</div>${esc(r.feedback)}</div>`).join("")}</details></div>`:""}
   </div>
-  <div class="bar"><span id="e-st"></span><button class="btn" id="b-fin"></button><button class="btn" id="b-save">Salvar</button><button class="btn pri" id="b-close">Salvar e fechar</button></div>`;
+  <div class="bar">${A.status==="publicado"||A.link?"":`<button class="btn danger" id="b-del" title="Excluir rascunho">Excluir</button>`}<span id="e-st"></span><button class="btn" id="b-fin"></button><button class="btn" id="b-save">Salvar</button><button class="btn pri" id="b-close">Salvar e fechar</button></div>`;
 }
 const grow=e=>{e.style.height="auto";e.style.height=e.scrollHeight+2+"px"};
 function render(note){
@@ -284,6 +293,7 @@ function linkSec(){
   $("#b-fin").className=fin?"btn":"btn dark";
   $("#b-fin").onclick=async()=>{if(fin){if(A.link&&!confirm("Voltar para rascunho? O link da publicação fica guardado."))return;save({status:"rascunho"})}
     else if(await save({status:"finalizado"})){closeDlg();toast("Artigo finalizado. Volte depois para incluir o link.")}};
+  if($("#b-del")){$("#b-del").hidden=A.status==="publicado"||!!A.link;$("#b-del").onclick=()=>delArticle(A.id,A.status)}
   $("#b-close").onclick=async()=>{if(await save({}))closeDlg()};
   $("#link-sec").innerHTML=fin?`<div class="linkbox"><div class="lab"><span>Link da publicação na Timeline</span>${A.link?`<a class="tl-link" href="${esc(A.link)}" target="_blank" rel="noopener">Abrir ↗</a>`:""}</div><div class="row"><input class="fld" id="e-link" type="url" inputmode="url" placeholder="https://www.revistatimeline.com/p/..." value="${esc(A.link||"")}"><button class="btn pri" id="b-link">Salvar link</button></div></div>`:"";
   if(fin)$("#b-link").onclick=()=>{const v=$("#e-link").value.trim();if(v&&!/^https:\/\/\S+$/.test(v)){toast("O link precisa começar com https://");return}save({link:v,status:v?"publicado":"finalizado"})};
@@ -311,6 +321,15 @@ async function watchSave(stamp){
     if(a&&a.saved_at&&a.saved_at>=stamp){if(A.saved_at===stamp&&!DIRTY)say(`Salvo em ${fdt(a.saved_at)}`);const s=ls.get("artigo_save:"+id);if(s&&s.saved_at<=a.saved_at)ls.del("artigo_save:"+id);return}
   }
   if(A&&A.id===id&&!DIRTY)say("Salvo neste aparelho; o site está demorando para publicar. Confira em alguns minutos.");
+}
+
+/* ---------- excluir ---------- */
+async function delArticle(id,st){
+  if(st==="gerando"||st==="erro"){if(!confirm("Cancelar este pedido de artigo?"))return;ls.del("artigo_req:"+id);renderList();return}
+  if(!confirm("Excluir este rascunho? Não dá para desfazer."))return;
+  try{await Painel.call("/acao",{job:"artigo-salvar",payload:JSON.stringify({id,excluir:true})})}catch(e){toast("Não excluiu: "+e.message);return false}
+  ls.set("artigo_del:"+id,1);["artigo_save:","artigo_edit:","artigo_rw:"].forEach(k=>ls.del(k+id));
+  if(A&&A.id===id){DIRTY=false;closeDlg()}else renderList();toast("Rascunho excluído");return true;
 }
 
 /* ---------- reescrita ---------- */
@@ -361,6 +380,7 @@ async function route(){
       history.replaceState(null,"","#"+q.id);h=q.id;renderList()}catch(e){toast("Pedido inválido");return}
   }
   const id=decodeURIComponent(h);
+  if(ls.get("artigo_del:"+id)){history.replaceState(null,"",location.pathname);return}
   if(INDEX.some(i=>i.id===id))return openArticle(id);
   const req=ls.get("artigo_req:"+id);
   if(req)return generate(req);
