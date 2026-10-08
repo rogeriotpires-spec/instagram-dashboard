@@ -338,7 +338,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 </main>
 <div class="toast" id="toast">Copiado</div>
 
-<script src="painel.js"></script>
+<script src="painel.js?v=20261008b"></script>
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -488,10 +488,10 @@ AV.onsubmit=async e=>{e.preventDefault();
   say("Pedido enviado. Pesquisando e escrevendo o item (2 a 5 minutos)…");
   Painel.track({wf:"programa-avulso.yml",since:new Date(Date.now()-90e3),minutes:20,say,stamp,labels:{wait:"Pedido na fila…",running:"Pesquisando e escrevendo o item (2 a 5 minutos)…"}});
 };
-Painel.wire({btn:$("#p-gen"),st:$("#p-st"),job:"programa",wf:"programa.yml",minutes:25,needsClaude:true,
+Painel.wire({btn:$("#p-gen"),st:$("#p-st"),job:"programa",wf:"programa.yml",minutes:25,needsClaude:true,after:()=>history.replaceState(null,"","#programa"),
   stamp:()=>nocache("programa/index.json").then(r=>r.json()).then(i=>{const d=i.days[i.days.length-1];return nocache("programa/"+d+".json").then(r=>r.json()).then(x=>d+x.generated)}),
   labels:{running:"Pesquisando e escrevendo a pauta do programa (5 a 15 minutos)…"}});
-Painel.wire({btn:$("#c-gen"),st:$("#c-st"),job:"pautas",wf:"pautas.yml",minutes:30,needsClaude:true,
+Painel.wire({btn:$("#c-gen"),st:$("#c-st"),job:"pautas",wf:"pautas.yml",minutes:30,needsClaude:true,after:()=>history.replaceState(null,"","#conteudo"),
   stamp:()=>nocache("pautas/index.json").then(r=>r.json()).then(i=>{const d=i.days[i.days.length-1];return nocache("pautas/"+d+".json").then(r=>r.json()).then(x=>d+x.generated)}),
   labels:{running:"Gerando o conteúdo de amanhã (10 a 25 minutos)…"}});
 </script>

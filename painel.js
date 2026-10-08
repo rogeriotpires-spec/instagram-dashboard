@@ -35,7 +35,7 @@ window.Painel = (() => {
     .then(r => r.ok ? r.json() : null).then(j => j && j.workflow_runs && j.workflow_runs[0]).catch(() => null);
 
   /* Acompanha a execução: espera o GitHub terminar e o site publicar o arquivo novo. */
-  async function track({ wf, since, stamp, say, minutes = 12, labels = {} }) {
+  async function track({ wf, since, stamp, say, minutes = 12, labels = {}, after }) {
     const base = await stamp().catch(() => null), t0 = Date.now();
     let finished = false;
     while (Date.now() - t0 < minutes * 60e3) {
@@ -49,14 +49,14 @@ window.Painel = (() => {
       }
       say("Pronto no GitHub. Publicando no site…");
       const s = await stamp().catch(() => null);
-      if (s && s !== base) { say("Atualizado! Recarregando…"); await sleep(800); location.reload(); return true }
+      if (s && s !== base) { say("Atualizado! Recarregando…"); await sleep(800); if (after) after(); location.reload(); return true }
     }
     say("Está demorando mais que o normal. Recarregue a página em alguns minutos.");
     return false;
   }
 
   /* Liga um botão a uma ação. */
-  function wire({ btn, st, job, wf, stamp, minutes, labels, needsClaude }) {
+  function wire({ btn, st, job, wf, stamp, minutes, labels, needsClaude, after }) {
     if (!btn) return;
     if (needsClaude && !(API && CLAUDE)) { btn.hidden = true; return }
     const say = t => { if (st) st.textContent = t };
@@ -72,14 +72,14 @@ window.Painel = (() => {
           window.open(`https://github.com/${REPO}/actions/workflows/${wf}`, "_blank", "noopener");
           say("Na página do GitHub, clique em “Run workflow” e confirme no botão verde.");
         }
-        await track({ wf, since, stamp, say, minutes, labels });
+        await track({ wf, since, stamp, say, minutes, labels, after });
       } catch (e) { say(e.message) }
       btn.disabled = false;
     };
     lastRun(wf).then(run => {
       if (run && run.status !== "completed" && Date.now() - new Date(run.created_at) < minutes * 60e3) {
         btn.disabled = true; say((labels && labels.running) || "Em andamento…");
-        track({ wf, since: new Date(run.created_at), stamp, say, minutes, labels }).finally(() => btn.disabled = false);
+        track({ wf, since: new Date(run.created_at), stamp, say, minutes, labels, after }).finally(() => btn.disabled = false);
       }
     });
   }
