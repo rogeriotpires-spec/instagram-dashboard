@@ -1,0 +1,431 @@
+{
+  "generated": "2026-10-08T06:19:36-03:00",
+  "headline": "O TSE decide nesta quinta se Douglas Ruas vence no 1º turno no Rio, o governo entrega o pedido para acelerar a PEC da 6x1, a base de Flávio passa da metade da Câmara e Nunes Marques adia a revisão de Bolsonaro para depois do 2º turno.",
+  "top": [
+    "pec-6x1-senado",
+    "garotinho-tse-governo-rj",
+    "apoio-centrao-flavio",
+    "revisao-criminal-bolsonaro",
+    "leilao-anp-petroleo"
+  ],
+  "items": [
+    {
+      "id": "pec-6x1-senado",
+      "segment": "politica",
+      "title": "Governo entrega nesta quinta pedido de calendário especial para votar a PEC do fim da escala 6x1, e Lula desafia Flávio a apoiar",
+      "summary": "A líder do governo no Senado, Teresa Leitão (PT-PE), recolheu assinaturas e pretende entregar nesta quinta (8) a Davi Alcolumbre o requerimento de calendário especial para acelerar a PEC do fim da escala 6x1. O pedido precisa de 27 assinaturas ou do aval de líderes que somem ao menos 27 senadores, e o rito normal exige cinco sessões de discussão antes do 1º turno e três antes do 2º turno. Em plenária do PT com parlamentares eleitos em Brasília, na quarta (7), Lula desafiou Flávio Bolsonaro (PL) a votar a favor da proposta e a levar o PL junto. Flávio havia defendido na véspera que o trabalhador tenha liberdade para negociar a própria jornada, modelo que Lula chamou de acordo leonino, enquanto a CNN Brasil relata que a oposição tenta adiar a votação para depois do 2º turno. O líder da oposição, Izalci Lucas (PL), já trata a votação na próxima semana como certa, e as sessões de discussão seguem às quartas e quintas, às 14h.",
+      "scores": {
+        "cobertura": 6,
+        "destaque": 10,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 8.7,
+      "outlets": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/pt-articula-para-garantir-votacao-da-6-x-1/",
+          "camp": "centro",
+          "position": "manchete"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/oposicao-atua-para-adiar-votacao-da-6x1-para-depois-do-2o-turno/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-cobra-flavio-bolsonaro-sobre-apoio-ao-fim-da-escala-6x1",
+          "camp": "estatal",
+          "position": "secundario"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasilia/fim-da-6x1-senado-inicia-debate-com-ausencia-em-massa-do-pl-de-flavio-bolsonaro/",
+          "camp": "esquerda",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "apoio-centrao-flavio",
+      "segment": "politica",
+      "title": "Com Republicanos, União Progressista e Novo, partidos que apoiam Flávio somam 259 dos 513 deputados eleitos",
+      "summary": "O Novo oficializou na quarta (7) o apoio a Flávio Bolsonaro (PL) no 2º turno, pelo presidente nacional Eduardo Ribeiro, no mesmo dia em que União Brasil e PP aderiram e o Republicanos anunciou sua decisão. Segundo levantamento da CNN Brasil, PL (121), federação União Progressista (87), Republicanos (41) e Novo (10) somam 259 dos 513 deputados eleitos, mais da metade da Câmara. No Senado, esses partidos terão 48 das 81 cadeiras a partir de 2027, e metade dos 20 governadores eleitos no 1º turno pertence a eles. O Podemos, com 27 deputados, deve anunciar apoio nesta quinta (8), enquanto o PSD caminha para a neutralidade. Lula tenta manter políticos do centrão ao seu lado, como o presidente da Câmara, Hugo Motta (Republicanos-PB), depois de terminar o 1º turno pouco mais de dois milhões de votos atrás de Flávio.",
+      "scores": {
+        "cobertura": 6,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 8.2,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-bolsonaro-base-apoio-camara/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/novo-confirma-apoio-flavio-bolsonaro-segundo-turno-eleicao-presidencial/",
+          "camp": "direita",
+          "position": "secundario"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/republicanos-define-apoio-a-flavio-no-2o-turno-contra-lula/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasil/pp-e-uniao-brasil-anunciam-apoio-a-flavio-bolsonaro-no-segundo-turno-2/",
+          "camp": "esquerda",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "revisao-criminal-bolsonaro",
+      "segment": "politica",
+      "title": "Nunes Marques diz que só levará a revisão criminal de Bolsonaro ao plenário do STF depois do 2º turno",
+      "summary": "O ministro Kassio Nunes Marques, relator do pedido de revisão criminal da condenação de Jair Bolsonaro, informou na quarta (7) que o caso só será analisado depois do 2º turno de 25 de outubro, para não interferir no processo eleitoral. Em nota, ele disse que o processo ainda aguarda parecer da PGR e que pretende levá-lo ao plenário, com data a ser definida pelo presidente do STF, Edson Fachin. Segundo o Metrópoles, o ministro descarta por ora soltar Bolsonaro por liminar, e a defesa alega suspeição de Alexandre de Moraes por suposta ligação com Daniel Vorcaro, do Banco Master, além de questionar o acesso às provas e a cadeia de custódia. Bolsonaro foi condenado a 27 anos e 3 meses de prisão na ação da trama golpista e cumpre pena em prisão domiciliar. A defesa também pediu que Flávio Bolsonaro visite o pai antes do dia 11, quando termina a proibição de visitas, e a PGR se manifestou a favor.",
+      "scores": {
+        "cobertura": 8,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 7.7,
+      "outlets": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/nunes-marques-nao-analisara-revisao-criminal-de-bolsonaro-antes-do-2o-turno/",
+          "camp": "direita",
+          "position": "topo"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/kassio-diz-que-revisao-criminal-de-bolsonaro-sera-apos-eleicao-em-plenario",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/no-ponto/revisao-criminal-de-bolsonaro-deve-ficar-para-depois-do-2o-turno-confirma-nunes-marques/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/nunes-marques-levara-revisao-criminal-de-bolsonaro-ao-plenario-do-stf/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-deve-julgar-revisao-da-condenacao-de-bolsonaro-apos-eleicoes",
+          "camp": "estatal",
+          "position": "secundario"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/midia/editorial-da-folha-critica-pretensao-de-kassio-nunes-marques-de-soltar-bolsonaro-e-um-acinte/",
+          "camp": "esquerda",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "nikolas-impeachment-moraes",
+      "segment": "politica",
+      "title": "Nikolas Ferreira diz que a primeira pauta do novo Senado deve ser o impeachment de Alexandre de Moraes",
+      "summary": "O deputado Nikolas Ferreira (PL-MG), reeleito com mais de 3,1 milhões de votos, o maior número do país, disse ao programa Hora H, da CNN Brasil, na quarta (7), que a primeira pauta do Senado na próxima legislatura deve ser o impeachment do ministro Alexandre de Moraes. Segundo ele, o objetivo é mostrar que ninguém está acima da lei, e ele afirmou que Moraes tenta agora suavizar a imagem junto à direita, ao que respondeu que para o ministro é sem anistia. A Constituição dá ao Senado a competência de julgar ministros do STF por crime de responsabilidade, e há pedidos de impeachment contra Moraes protocolados que ainda dependem de análise. Nikolas disse que a meta imediata é eleger Flávio Bolsonaro e que quer presidir a CCJ da Câmara, onde citou a redução da maioridade penal e a revisão da reforma tributária. O Poder360 registrou, da mesma entrevista, a declaração de que ele ouviu falar de negociação para livrar Moraes.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.5,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/nikolas-diz-que-primeira-pauta-no-senado-tem-que-ser-impeachment-de-moraes/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/nikolas-diz-ter-ouvido-sobre-negociacao-para-livrar-a-pele-de-moraes/",
+          "camp": "centro",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "katia-abreu-janja",
+      "segment": "politica",
+      "title": "Kátia Abreu pede menos Janja e mais Alckmin na campanha de Lula, e gabinete da primeira-dama diz que ela segue",
+      "summary": "Em reunião do PT na noite de terça (6), a ex-senadora Kátia Abreu, coordenadora da campanha de Lula no Tocantins, criticou a comunicação da campanha e a atuação da primeira-dama Janja, segundo relatos de presentes. Pela Gazeta do Povo, que cita O Globo, ela disse a frase menos Janja e mais Alckmin e chamou a coordenação de paulistas sem voto, lembrando as derrotas de Fernando Haddad, Simone Tebet e Marina Silva. Ela também pediu mais diálogo com o Norte e o Centro-Oeste e, procurada, disse apenas que foi a mais aplaudida no encontro. O gabinete de Janja divulgou nota afirmando que ela seguirá na campanha, que sua participação é legítima e tem respaldo do presidente. Na quarta (7), Kátia Abreu publicou carta aos eleitores do Tocantins pedindo voto em Lula no 2º turno.",
+      "scores": {
+        "cobertura": 5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.3,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/gabinete-de-janja-diz-que-primeira-dama-seguira-na-campanha-de-lula/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/katia-abreu-dispara-fogo-amigo-pt-pede-menos-janja-mais-alckmin/",
+          "camp": "direita",
+          "position": "secundario"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/katia-abreu-diz-que-janja-esta-maior-do-que-alckmin-em-campanha/",
+          "camp": "centro",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "leilao-anp-petroleo",
+      "segment": "economia",
+      "title": "Leilões da ANP arrecadam cerca de R$ 3,5 bilhões, com a Petrobras levando 12 blocos em Campos e áreas na Margem Equatorial",
+      "summary": "A ANP fez na quarta (7), no Rio, dois leilões de áreas de petróleo e gás: o 6º ciclo da oferta permanente de concessão arrecadou cerca de R$ 3 bilhões em bônus, e o 4º ciclo de partilha do pré-sal, R$ 530 milhões. Na concessão, a Petrobras arrematou sozinha 12 blocos na Bacia de Campos com ofertas de cerca de R$ 2,97 bilhões, quase todo o valor arrecadado, e venceu em consórcio com a QatarEnergy na Margem Equatorial, enquanto os 120 blocos da Bacia de Santos não tiveram ofertas. No pré-sal, foram arrematados sete dos 13 blocos, todos sem disputa, por Petrobras, Prio, Equinor (com a Galp em um deles) e pelo consórcio chinês CNOOC e Sinopec, com investimento mínimo de R$ 778,4 milhões. Se todos os blocos do pré-sal tivessem sido vendidos, o bônus chegaria a R$ 1,24 bilhão, e as seis áreas restantes ficam para a próxima rodada. O Instituto Arayara entrou com ação pedindo a suspensão do leilão por sobreposição com territórios indígenas e quilombolas, e a assinatura dos contratos do pré-sal está prevista para 26 de fevereiro de 2027.",
+      "scores": {
+        "cobertura": 7,
+        "destaque": 10,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 6.3,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/maior-leilao-do-pre-sal-termina-com-sete-dos-13-blocos-arrematados",
+          "camp": "estatal",
+          "position": "manchete"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/infra/leilao-da-anp-arrecada-r-3-bi-petrobras-leva-areas-na-margem-equatorial/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/business/com-lances-de-quase-r3-bi-petrobras-arremata-12-blocos-na-bacia-de-campos/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-energia/petrobras-leva-12-blocos-em-campos-por-r-3-bi-em-leilao-da-anp/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/anp-leiloa-blocos-de-petroleo-e-gas-com-investimento-de-r-r-778-milhoes",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "fim-das-bets-devolucao",
+      "segment": "economia",
+      "title": "Fim das bets: bancos devolvem a partir de sexta R$ 1,3 bilhão a 26,5 milhões de apostadores, e empresas pedem a Fux que suspenda a MP",
+      "summary": "As bets que perderam a licença com a medida provisória do governo Lula, assinada em 25 de setembro, têm até esta quinta (8) para enviar aos bancos os saldos de cerca de 26,5 milhões de apostadores, que somam R$ 1,325 bilhão. Os bancos devolvem os valores entre 9 e 14 de outubro nas contas usadas para os depósitos, e o que não puder ser restituído passa à Caixa a partir de 14 de outubro. Segundo a Agência Brasil, 188 sites autorizados perderam a licença e 13.241 sites ilegais foram encaminhados para bloqueio, enquanto 86,2 milhões de contas têm menos de R$ 1. As empresas pediram ao ministro Luiz Fux, do STF, que suspenda a MP até a audiência solicitada pela AGU, citando um relatório com 18.195 domínios ilegais ativos. O Poder360 informa que associação do setor estima 3.500 demissões diretas, e a MP passa a trancar a pauta do Congresso em 9 de novembro.",
+      "scores": {
+        "cobertura": 5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.2,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bets-comecam-informar-bancos-sobre-r-13-bilhao-devolver",
+          "camp": "estatal",
+          "position": "secundario"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/economia/bets-pedem-que-fux-suspenda-mp-de-lula-ate-audiencia-solicitada-pela-agu/",
+          "camp": "direita",
+          "position": "secundario"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/fim-das-bets-causa-3-500-demissoes-diretas-diz-associacao/",
+          "camp": "centro",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "tres-anos-7-outubro",
+      "segment": "internacional",
+      "title": "Israel marca três anos do ataque do Hamas, e o plano de paz para Gaza segue travado com ataques diários",
+      "summary": "Israel marcou na quarta (7) três anos do ataque do Hamas de 7 de outubro de 2023 com cerimônias e protestos em mais de 400 locais e um minuto de silêncio às 6h29, horário do início do ataque. Em Tel Aviv, uma instalação na praia lembrou 1.163 mortos e 251 reféns, e familiares cobram uma comissão estatal de inquérito, que o primeiro-ministro Benjamin Netanyahu resiste a criar. Netanyahu disse que Israel matou 4.000 dos 6.000 militantes que entraram no país naquele dia, e o Ministério da Saúde de Gaza fala em mais de 74 mil palestinos mortos desde o início da guerra. Segundo a Agência Brasil, o ministério local registra 1.431 mortos desde o cessar-fogo de 10 de outubro de 2025, Israel mantém cerca de 60% do território e o Hamas condiciona o desarmamento à retirada israelense. A data cai menos de três semanas antes das eleições israelenses de 27 de outubro, em que a responsabilização pelo ataque é tema central.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 4.0,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/plano-de-paz-de-gaza-tem-bombas-diarias-tres-anos-apos-7-de-outubro",
+          "camp": "estatal",
+          "position": "secundario"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/imagem-de-drone-mostra-instalacoes-em-tel-aviv-em-memoria-de-7-de-outubro/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "incendio-ufpe",
+      "segment": "educacao",
+      "title": "Incêndio destrói prédio de laboratórios da UFPE no Recife, o terceiro fogo no campus em pouco mais de uma semana",
+      "summary": "Um incêndio atingiu na noite de quarta (7) o antigo prédio da Diretoria de Inovação e Empreendedorismo da UFPE, na Cidade Universitária, no Recife, que abrigava laboratórios de fármacos, informática e genética. Cinco viaturas do Corpo de Bombeiros combateram as chamas, o fogo foi controlado e não houve feridos, mas as causas ainda não foram esclarecidas. A UFPE disse que o fogo se espalhou rápido por causa dos produtos armazenados e causou grandes danos, e relatos citam perda de amostras de pesquisas sobre câncer, obesidade, Covid-19, TDAH e autismo. Segundo o Metrópoles, é o terceiro incêndio recente no campus, depois de um laboratório de Física em 30 de setembro e de um laboratório de Citogenética em 4 de outubro, ambos sem vítimas. O advogado-geral da União, Jorge Messias, pediu investigação rigorosa e mandou a Procuradoria-Geral Federal designar uma comissão para acompanhar as apurações.",
+      "scores": {
+        "cobertura": 5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.3,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/nordeste/pe/incendio-de-grandes-proporcoes-atinge-predio-da-ufpe-em-pernambuco/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/jorge-messias-pede-investigacao-rigorosa-sobre-incendio-em-predio-da-ufpe",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-brasil/incendio-atinge-predio-da-ufpe-no-recife/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "garotinho-tse-governo-rj",
+      "segment": "rio",
+      "title": "TSE julga nesta quinta a desistência de Garotinho, e a decisão pode eleger Douglas Ruas no 1º turno no Rio",
+      "summary": "O plenário do TSE julga às 10h desta quinta (8) se Anthony Garotinho (Republicanos) pode desistir do recurso contra o indeferimento de sua candidatura ao governo do Rio, com relatoria do ministro Floriano de Azevedo Marques. Garotinho teve 274.411 votos (3,17% dos válidos), Douglas Ruas (PL) teve 49,27% e Eduardo Paes (PSD), 42,76%, e sem os votos de Garotinho Ruas chegaria a 50,89%, acima da maioria absoluta. Se a desistência for aceita, os votos podem ser anulados de vez e o TRE-RJ pode proclamar Ruas eleito, e se não for, o 2º turno entre Ruas e Paes segue marcado para 25 de outubro. A coligação de Paes acusa manobra processual e pede que os votos sigam no cálculo da maioria, enquanto Paes chamou o caso de armação e Wladimir Garotinho respondeu que Ruas venceria porque o povo assim escolheu. A Procuradoria-Geral Eleitoral apoia aceitar a desistência como exceção, e o PSOL também recorreu ao TSE pedindo que os votos de Garotinho sejam contados.",
+      "scores": {
+        "cobertura": 8,
+        "destaque": 6,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 8.3,
+      "outlets": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/tse-julga-nesta-quinta-caso-de-garotinho-que-pode-definir-eleicao-no-rj",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-marca-para-quinta-feira-julgamento-que-pode-definir-eleicao-no-rio",
+          "camp": "estatal",
+          "position": "secundario"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/paes-acusa-ruas-e-garotinho-de-armacao-em-eleicao-no-rj/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário do Rio",
+          "url": "https://diariodorio.com/politica/2026/10/06/tse-inclui-recurso-de-garotinho-na-pauta-de-quinta-feira-e-pode-definir-eleicao-para-governador-do-rio.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/sudeste/tse-julga-nesta-quinta-votos-de-garotinho-e-pode-definir-eleicao-do-rio-no-primeiro-turno/",
+          "camp": "esquerda",
+          "position": "secundario"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/",
+          "camp": "direita",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    }
+  ]
+}
