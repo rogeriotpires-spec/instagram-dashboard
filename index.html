@@ -310,10 +310,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
       <div class="card"><div class="head"><h3>Idade e gênero dos seguidores</h3><span class="per" data-per="aud"></span></div><div class="legend"><span><i style="background:var(--s1)"></i>Homens</span><span><i style="background:var(--s2)"></i>Mulheres</span><span><i style="background:var(--muted)"></i>Não informado</span></div><div id="c-age"></div></div>
       <div class="card"><div class="head"><h3>Principais cidades dos seguidores</h3><span class="per" data-per="aud"></span></div><div id="c-city"></div></div>
     </div>
-    <div class="g2e" id="uf-row">
-      <div class="card"><div class="head"><h3>Seguidores por Estado</h3><span class="per" data-per="aud"></span></div><div id="c-uf"></div></div>
-      <div class="card"><div class="head"><h3>Seguidores por região</h3><span class="per" data-per="aud"></span></div><div id="c-reg"></div></div>
-    </div>
+    <div class="card" id="uf-row" style="margin-bottom:12px"><div class="head"><h3>Seguidores por Estado</h3><span class="per" data-per="aud"></span></div><p class="desc">Toque em um Estado para ver os municípios.</p><div id="c-uf"></div></div>
     <div class="def">Esses dados descrevem quem <b>segue</b> o perfil, não todas as pessoas alcançadas: mais de 99% do alcance vem de não seguidores, cujo perfil a fonte não informa.</div>
   </section>
 
@@ -747,12 +744,14 @@ function renderAudience(){
   const S=(D.audience.states||[]).map(r=>({uf:r[0],reg:r[1],v:r[2],n:r[3]})),st=sum(S,x=>x.v);
   if(!S.length){$("#uf-row").style.display="none";return}
   const UFN={AC:"Acre",AL:"Alagoas",AP:"Amapá",AM:"Amazonas",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MT:"Mato Grosso",MS:"Mato Grosso do Sul",MG:"Minas Gerais",PA:"Pará",PB:"Paraíba",PR:"Paraná",PE:"Pernambuco",PI:"Piauí",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RS:"Rio Grande do Sul",RO:"Rondônia",RR:"Roraima",SC:"Santa Catarina",SP:"São Paulo",SE:"Sergipe",TO:"Tocantins"};
-  const cityTip=uf=>c.filter(x=>x[0].endsWith(`(${uf})`)).map(x=>`${x[0].replace(/ \(..\)$/,"")}: ${full(x[1])}`).join("<br>");
-  hbars($("#c-uf"),S.map(x=>({label:`${UFN[x.uf]||x.uf} (${x.uf})`,v:x.v,text:`${full(x.v)} · ${pct(x.v/st)}`,c:"var(--s1)",tip:`<b>${UFN[x.uf]||x.uf}</b><br>${cityTip(x.uf)}`})));
-  $("#c-uf").insertAdjacentHTML("beforeend",`<div class="def">Soma das ${c.length} cidades informadas pela fonte (${full(st)} seguidores, ${pct(st/D.account.followers,0)} da base). Percentual sobre essa soma. O Instagram só informa as maiores cidades, então estados com público espalhado em cidades pequenas aparecem abaixo do real. Passe o dedo ou o mouse na barra para ver as cidades.</div>`);
-  const R={};S.forEach(x=>{(R[x.reg]=R[x.reg]||{v:0,u:[]}).v+=x.v;R[x.reg].u.push(x.uf)});
-  hbars($("#c-reg"),Object.entries(R).sort((a,b)=>b[1].v-a[1].v).map(([k,o])=>({label:k,v:o.v,text:`${full(o.v)} · ${pct(o.v/st)}`,c:"var(--s2)",sub:o.u.join(", ")})));
-  $("#c-reg").insertAdjacentHTML("beforeend",`<div class="def">Mesma base do gráfico de estados.</div>`);
+  const cities=uf=>c.filter(x=>x[0].endsWith(`(${uf})`)).map(x=>[x[0].replace(/ \(..\)$/,""),x[1]]);
+  const max=S[0].v,bar=(v,col,h)=>`<div style="background:var(--grid);border-radius:4px"><div style="height:${h}px;width:${Math.max(1,v/max*100)}%;background:${col};border-radius:0 4px 4px 0"></div></div>`;
+  $("#c-uf").innerHTML=S.map(x=>{const cs=cities(x.uf);return`<div class="uf" style="border-bottom:1px solid var(--grid)">
+    <button type="button" class="uf-h" aria-expanded="false" style="all:unset;box-sizing:border-box;display:block;width:100%;cursor:pointer;padding:9px 0 10px">
+      <div style="display:flex;justify-content:space-between;gap:10px;font-size:13px;margin-bottom:5px"><span style="color:var(--text-2)"><span class="uf-ar" style="display:inline-block;width:14px;transition:transform .15s">▸</span>${UFN[x.uf]||x.uf} (${x.uf}) <span class="small-n">· ${cs.length} ${cs.length>1?"municípios":"município"}</span></span><b style="font-variant-numeric:tabular-nums">${full(x.v)} · ${pct(x.v/st)}</b></div>${bar(x.v,"var(--s1)",12)}</button>
+    <div class="uf-b" hidden style="padding:0 0 10px 18px">${cs.map(m=>`<div style="margin:6px 0 8px"><div style="display:flex;justify-content:space-between;gap:10px;font-size:12px;margin-bottom:4px"><span style="color:var(--text-2)">${m[0]}</span><span style="font-variant-numeric:tabular-nums">${full(m[1])} · ${pct(m[1]/x.v,0)} do Estado</span></div>${bar(m[1],"var(--s2)",7)}</div>`).join("")}</div></div>`}).join("");
+  $("#c-uf").querySelectorAll(".uf-h").forEach(h=>h.addEventListener("click",()=>{const o=h.getAttribute("aria-expanded")!=="true";h.setAttribute("aria-expanded",o);h.nextElementSibling.hidden=!o;h.querySelector(".uf-ar").style.transform=o?"rotate(90deg)":""}));
+  $("#c-uf").insertAdjacentHTML("beforeend",`<div class="def">Soma das ${c.length} cidades informadas pela fonte (${full(st)} seguidores, ${pct(st/D.account.followers,0)} da base). Percentual sobre essa soma. O Instagram só informa as maiores cidades, então estados com público espalhado em cidades pequenas aparecem abaixo do real.</div>`);
 }
 
 /* ---------- análise ---------- */
