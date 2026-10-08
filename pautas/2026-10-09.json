@@ -1,210 +1,235 @@
 {
-  "date": "2026-10-09",
-  "weekday": "Sex",
-  "generated": "2026-10-08T17:10:49-03:00",
-  "summary": "Sexta de segundo turno com a campanha de Lula em reorganização: ele admitiu que esta é a campanha menos organizada desde 1989, vai a Ceilândia (DF) e o AtlasIntel divulga sua primeira pesquisa. Do outro lado, Republicanos e Podemos se somam a Flávio, e o TSE, por 5 a 2, anulou os votos de Garotinho no Rio, o que pode eleger Douglas Ruas sem segundo turno.",
-  "agenda": [
+ "date": "2026-10-09",
+ "weekday": "Sex",
+ "generated": "2026-10-08T19:50:37-03:00",
+ "summary": "Sexta de pesquisa e de bolso: o Datafolha da noite de quinta pôs Flávio à frente com 52% a 48% nos votos válidos, o AtlasIntel sai hoje e às 9h o IBGE divulga a inflação de setembro, com o mercado esperando 0,75% no mês. No Rio, a retotalização que deve eleger Douglas Ruas é amanhã às 15h, enquanto Paes tenta o segundo turno no STF; em Brasília, Moraes mandou Eduardo Bolsonaro cumprir pena e Fux pediu acesso integral ao inquérito das fake news.",
+ "agenda": [
+  {
+   "time": "8h",
+   "text": "Lula faz caminhada na Feira da Ceilândia (DF) com Leandro Grass, candidato do PT ao governo do DF no segundo turno.",
+   "source": {
+    "name": "Brasil de Fato",
+    "url": "https://www.brasildefato.com.br/2026/10/08/lula-participa-de-caminhada-com-leandro-grass-nesta-sexta-feira-9-no-distrito-federal/"
+   }
+  },
+  {
+   "time": "9h",
+   "text": "IBGE divulga o IPCA de setembro. Projeção de 0,75% no mês; o acumulado em 12 meses subiria para 4,5%, ante 4,2%.",
+   "source": {
+    "name": "InfoMoney",
+    "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-ipca-no-brasil-e-ata-do-fomc-sao-destaques/"
+   }
+  },
+  {
+   "time": "9/10",
+   "text": "AtlasIntel divulga a primeira pesquisa do 2º turno: 5 mil entrevistas pela internet, margem de 1 ponto, registro BR-03663/2026. Horário não informado.",
+   "source": {
+    "name": "Transmissão Política",
+    "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/06/pesquisa-atlasintel-lula-flavio/"
+   }
+  },
+  {
+   "time": "10/10",
+   "text": "Prazo de 48 horas dado por Fux para a Secretaria Judiciária liberar ao gabinete dele o acesso integral ao inquérito das fake news e a outros três procedimentos.",
+   "source": {
+    "name": "Gazeta Brasil",
+    "url": "https://gazetabrasil.com.br/brasil/2026/10/08/fux-determina-que-stf-libere-em-48-horas-acesso-integral-ao-inquerito-das-fake-news/"
+   }
+  },
+  {
+   "time": "10/10, 15h",
+   "text": "TRE-RJ faz a retotalização dos votos para governador sem os votos de Garotinho. Sem eles, Ruas chega a cerca de 50,9% dos válidos.",
+   "source": {
+    "name": "Metrópoles",
+    "url": "https://www.metropoles.com/brasil/tre-do-rio-marca-para-sabado-10-10-retotalizacao-que-dara-vitoria-a-ruas"
+   }
+  },
+  {
+   "time": "Sem data",
+   "text": "STF analisa o pedido da coligação de Paes para anular a decisão do TSE e manter o segundo turno no Rio. Não há prazo para decidir.",
+   "source": {
+    "name": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-vai-ao-stf-contra-decisao-do-tse-que-anulou-votos-de-garotinho-e-pede-2o-turno-no-rio/"
+   }
+  },
+  {
+   "time": "25/10",
+   "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+   "source": {
+    "name": "Transmissão Política",
+    "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/06/pesquisa-atlasintel-lula-flavio/"
+   }
+  }
+ ],
+ "slots": [
+  {
+   "time": "7h",
+   "type": "i",
+   "kind": "Imagem de impacto",
+   "options": [
     {
-      "time": "9/10",
-      "text": "AtlasIntel divulga sua primeira pesquisa do 2º turno, com 5 mil entrevistas online.",
-      "source": {
-        "name": "Brasil de Fato",
-        "url": "https://www.brasildefato.com.br/2026/10/06/datafolha-quaest-atlasintel-quando-saem-as-pesquisas-de-2o-turno-entre-lula-e-flavio/"
+     "title": "No meio da eleição, a caneta de Moraes",
+     "tone": "contundente",
+     "style": "ilustracao",
+     "fact": "Em 8/10, Alexandre de Moraes determinou o início do cumprimento da pena de Eduardo Bolsonaro: 4 anos e 2 meses de reclusão em regime inicial semiaberto, mais 50 dias-multa, por coação no curso do processo. A condenação foi unânime na Primeira Turma do STF e transitou em julgado em 3/10. A decisão manda expedir mandado de prisão, cancela os passaportes brasileiros dele e suspende os direitos políticos durante a pena. Eduardo vive nos EUA, onde tem green card. Em nota, chamou a decisão de \"arbitrária, inoportuna e inócua\" e disse que ela foi tomada \"deliberadamente no meio do processo eleitoral\".",
+     "sources": [
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/brasil/eduardo-diz-que-decisao-de-moraes-sobre-prisao-e-arbitraria-e-inoportuna"
+      },
+      {
+       "name": "DGABC",
+       "url": "https://www.dgabc.com.br/Noticia/4351714/moraes-manda-eduardo-bolsonaro-cumprir-pena-de-4-anos-e-2-meses"
       }
+     ],
+     "art_text": [
+      "Faltam 16 dias para a eleição",
+      "Por que justo agora?",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Alexandre de Moraes, ministro do STF, relator que assinou a decisão. Aparece sentado no plenário segurando uma caneta sobre um papel, sem ação inventada: assinar a decisão é o fato noticiado. Eduardo não aparece. Risco alto pelo tema: só gesto e expressão como opinião gráfica.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Alexandre de Moraes (ministro do STF, calvo, terno escuro e toga preta sobre os ombros), sentado a uma mesa de madeira escura, olhar firme e sério para frente, segurando uma caneta grande sobre uma folha de papel. Ao lado da folha, um calendário de mesa de outubro com o dia 25 circulado em vermelho. Ao fundo, a fachada estilizada do STF com a estátua da Justiça em silhueta. No alto, em quadro amarelo, letras condensadas e pesadas em preto: \"Faltam 16 dias para a eleição\". Logo abaixo, em branco, letras grandes, condensadas e muito pesadas: \"Por que justo agora?\", com sublinhado vermelho pincelado. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Condenação transitada em 3/10, ordem de cumprimento em 8/10, eleição em 25/10. A decisão podia esperar o segundo turno? Sim ou não?",
+     "risk": "alto",
+     "risk_note": "Eduardo foi condenado com trânsito em julgado: pode dizer \"condenado\", mas não chame de preso nem de foragido. Critique o momento da decisão, não a pessoa do ministro, e não sugira descumprir ordem judicial. Não mostre algema, cela nem prisão na arte.",
+     "timeline": {
+      "rende": true,
+      "angle": "O calendário do Judiciário em ano eleitoral: o caso Eduardo, o trânsito em julgado, o mandado para quem mora fora do país e por que o momento das decisões pesa tanto quanto o mérito."
+     }
     },
     {
-      "time": "9/10",
-      "text": "Lula faz caminhada em Ceilândia (DF) ao lado de Leandro Grass, e no sábado (10) vai a Natal.",
-      "source": {
-        "name": "CNN Brasil",
-        "url": "https://www.cnnbrasil.com.br/eleicoes/lula-priorizara-agendas-de-campanha-com-petistas-que-disputam-2-turno/"
+     "title": "O instituto que errou agora vira o placar",
+     "tone": "irônico",
+     "style": "ilustracao",
+     "fact": "Na véspera do 1º turno, o Datafolha deu Lula 45% e Flávio 42% nos votos válidos. A urna deu Flávio 47,03% e Lula 45,16%. Na primeira pesquisa do 2º turno, divulgada em 8/10, o Datafolha mostra Flávio com 52% e Lula com 48% dos votos válidos (49% a 45% nos votos totais). Foram 2.520 entrevistas, margem de 2 pontos, registro BR-02949/2026. O AtlasIntel divulga a sua nesta sexta.",
+     "sources": [
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/brasil/datafolha-2o-turno-flavio-tem-52-e-lula-48"
+      },
+      {
+       "name": "O Povo",
+       "url": "https://www.opovo.com.br/noticias/brasil/2026/10/04/datafolha-lula-tem-45-e-flavio-42-dos-votos-validos.html"
+      },
+      {
+       "name": "Transmissão Política",
+       "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/06/pesquisa-atlasintel-lula-flavio/"
       }
-    },
-    {
-      "time": "9 a 14/10",
-      "text": "Bancos devolvem R$ 1,325 bilhão a cerca de 26,5 milhões de apostadores das bets que perderam a licença.",
-      "source": {
-        "name": "Agência Brasil",
-        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bets-comecam-informar-bancos-sobre-r-13-bilhao-devolver"
-      }
-    },
-    {
-      "time": "11/10",
-      "text": "Termina a proibição de Flávio visitar o pai. A decisão sobre antecipar a visita é de Moraes.",
-      "source": {
-        "name": "O Tempo",
-        "url": "https://www.otempo.com.br/politica/judiciario/2026/10/6/gonet-da-aval-a-visita-de-flavio-bolsonaro-ao-pai-antes-de-fim-da-restricao-de-90-dias"
-      }
-    },
-    {
-      "time": "25/10",
-      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
-      "source": {
-        "name": "O Tempo",
-        "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"
-      }
+     ],
+     "art_text": [
+      "Véspera do 1º turno: Lula 45 x 42 Flávio",
+      "Hoje: Flávio 52 x 48 Lula",
+      "Quem decide é você",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Flávio Bolsonaro (PL) e Lula (PT), os dois candidatos do 2º turno medidos pela pesquisa. Lado a lado diante de um placar, Flávio confiante e Lula sério, sem ação inventada. Risco baixo.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. Em primeiro plano, Flávio Bolsonaro (senador, candidato do PL, terno azul-marinho, sorriso contido e confiante, braços cruzados) e Lula (presidente, candidato do PT, barba grisalha, terno escuro, expressão séria olhando de canto para o placar). Atrás deles, um grande placar antigo de estádio, de madeira e metal. No alto, em letras brancas condensadas e pesadas, menores: \"Véspera do 1º turno: Lula 45 x 42 Flávio\", riscado com um traço vermelho. No meio, em quadro amarelo com números gigantes em preto: \"Hoje: Flávio 52 x 48 Lula\". Embaixo, em branco, letras grandes e pesadas: \"Quem decide é você\", com sublinhado vermelho pincelado. Sem logotipo de instituto de pesquisa nem de jornal. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Na véspera do 1º turno, o Datafolha tinha Lula na frente. A urna mostrou outra coisa. Agora o mesmo instituto põe Flávio com 52%. Você confia em pesquisa eleitoral? Sim ou não?",
+     "risk": "médio",
+     "risk_note": "A diferença de 4 pontos com margem de 2 fica no limite do empate técnico: não diga que a eleição está decidida. Os 45 x 42 eram votos válidos, compare sempre válidos com válidos. Se o AtlasIntel sair antes das 7h, cite também. Não use logotipo do Datafolha.",
+     "timeline": {
+      "rende": true,
+      "angle": "Por que as pesquisas subestimaram Flávio no 1º turno e o que mudou na primeira rodada do 2º: método, entrevistas presenciais e online, e como ler margem de erro sem cair em torcida."
+     }
     }
-  ],
-  "slots": [
+   ]
+  },
+  {
+   "time": "19h",
+   "type": "c",
+   "kind": "Carrossel: a semana em 5 fatos",
+   "options": [
     {
-      "time": "7h",
-      "type": "i",
-      "kind": "Imagem de impacto",
-      "options": [
-        {
-          "title": "Quem avisou que a campanha estava uma bagunça foi o próprio Lula",
-          "tone": "irônico",
-          "style": "ilustracao",
-          "fact": "Em reunião com parlamentares de esquerda eleitos, no Hotel Meliá, em Brasília, na quarta (7), Lula disse ter falado ao presidente do PT, Edinho Silva, que esta foi \"a campanha menos organizada que participei desde 1989\" e que fez uma campanha \"aquém da minha possibilidade\". Também disse não enxergar como não ganharia no 1º turno \"pelas entregas que fizemos\". Flávio terminou o 1º turno na frente, com 47,03% contra 45,16% de Lula.",
-          "sources": [
-            {
-              "name": "Jovem Pan",
-              "url": "https://jovempan.com.br/politica/lula-diz-que-campanha-e-a-mais-desorganizada-desde-a-1a-que-disputou-em-1989/"
-            },
-            {
-              "name": "Metrópoles",
-              "url": "https://www.metropoles.com/brasil/lula-adota-mudancas-para-o-2o-turno-na-tentativa-de-reverter-desvantagem"
-            }
-          ],
-          "art_text": [
-            "Campanha menos organizada desde 1989",
-            "Quem disse foi o próprio Lula",
-            "47,03% x 45,16%",
-            "Siga @rogerrio (Instagram) @rogerrioX (X)"
-          ],
-          "faces": "Lula, presidente e candidato à reeleição, relação direta: a frase é dele. Ilustração estilo charge, sem foto real. Risco baixo: ele aparece só falando e de cabeça baixa, sem ação inventada.",
-          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Lula (presidente, cabelo e barba brancos, terno escuro), em pé diante de um microfone, uma das mãos aberta no gesto de quem admite um erro, expressão de cansaço e leve ironia. Ao fundo, em silhueta, parlamentares sentados numa sala de hotel, alguns se entreolhando. No alto, em branco, letras condensadas e muito pesadas: \"Campanha menos organizada desde 1989\". Logo abaixo, em quadro amarelo com letras pretas: \"Quem disse foi o próprio Lula\", com sublinhado vermelho pincelado. Embaixo, em vermelho, números de destaque: \"47,03% x 45,16%\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
-          "caption": "\"A campanha menos organizada que participei desde 1989.\" A frase é do Lula, dita a aliados em Brasília. Faltando 16 dias para o segundo turno, a campanha dele consegue se organizar a tempo? Sim ou não?",
-          "risk": "baixo",
-          "risk_note": "Cite a frase exatamente como foi dita e atribua a Lula, em reunião com parlamentares. Não diga que ele já perdeu nem atribua à fala um sentido que ele não deu: segundo a Jovem Pan, o tom foi de brincadeira.",
-          "timeline": {
-            "rende": true,
-            "angle": "O que a admissão de Lula revela sobre o PT no segundo turno: vídeos diários em selfie, foco em universitários, agenda priorizando petistas no 2º turno e a vantagem de 2,2 milhões de votos de Flávio."
-          }
-        },
-        {
-          "title": "O isolamento de Flávio acabou?",
-          "tone": "contundente",
-          "style": "ilustracao",
-          "fact": "O Republicanos anunciou apoio a Flávio na quarta (7) e o Podemos na quinta (8), depois de reunião com ele em Brasília. Com União Brasil, PP (federação União Progressista) e Novo, são cinco partidos formalmente com Flávio no 2º turno. O presidente do Republicanos, Marcos Pereira, disse que não é um cheque em branco e que respeita realidades locais. O MDB declarou neutralidade, mas ouve os diretórios estaduais.",
-          "sources": [
-            {
-              "name": "CNN Brasil",
-              "url": "https://www.cnnbrasil.com.br/eleicoes/podemos-declara-apoio-a-flavio-bolsonaro-no-segundo-turno/"
-            },
-            {
-              "name": "Metrópoles",
-              "url": "https://www.metropoles.com/brasil/flavio-sai-do-isolamento-e-atrai-apoio-de-4-partidos-na-largada-do-2o-turno"
-            }
-          ],
-          "art_text": [
-            "5 partidos já fecharam com Flávio",
-            "O isolamento acabou?",
-            "Siga @rogerrio (Instagram) @rogerrioX (X)"
-          ],
-          "faces": "Flávio Bolsonaro (PL), candidato no 2º turno, e silhuetas de dirigentes partidários. Ilustração estilo charge, sem foto real. Risco baixo: aperto de mão simbólico, sem fato inventado.",
-          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Flávio Bolsonaro (senador, cabelo curto escuro, terno escuro) apertando a mão de uma silhueta de dirigente partidário, com expressão confiante; atrás, em silhueta, mais quatro figuras de terno alinhadas em fila, como quem chega para se juntar. Ao fundo, a cúpula estilizada do Congresso e uma mesa de reunião. No alto, em branco, letras condensadas e muito pesadas: \"5 partidos já fecharam com Flávio\". Em quadro amarelo com número gigante em preto: \"5\". Embaixo, em branco, com sublinhado vermelho pincelado: \"O isolamento acabou?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
-          "caption": "Republicanos, Podemos, Novo, União Brasil e PP já declararam apoio a Flávio no segundo turno. Você acha que esse apoio dos partidos ajuda a virar voto na urna? Sim ou não?",
-          "risk": "baixo",
-          "risk_note": "Apoio de partido não é transferência automática de votos: não prometa resultado. Lembre que o MDB está neutro e que o Republicanos ressalvou realidades locais. Confira a contagem de partidos antes de publicar, pois pode mudar no dia.",
-          "timeline": {
-            "rende": true,
-            "angle": "Quanto vale o apoio do Centrão no segundo turno: o que os partidos entregam em estrutura e voto, a ressalva dos diretórios locais e o peso do MDB e do PSD, que não fecharam."
-          }
-        }
-      ]
+     "title": "5 fatos que mexeram com a sua semana",
+     "tone": "sóbrio",
+     "style": "ilustracao",
+     "fact": "(1) O TSE, por 5 a 2, anulou os 274.411 votos de Garotinho; o TRE-RJ faz a retotalização no sábado (10/10) às 15h e Douglas Ruas (PL) deve passar de 49,27% para cerca de 50,9% dos válidos. (2) A coligação de Eduardo Paes recorreu ao STF para manter o segundo turno no Rio; não há prazo para decisão. (3) O Datafolha do 2º turno mostra Flávio 52% e Lula 48% nos válidos, 2.520 entrevistas, margem de 2 pontos; na véspera do 1º turno o mesmo instituto tinha Lula 45% e Flávio 42%. (4) Augusto Cury, terceiro colocado, anunciou apoio a Flávio depois de uma videochamada e de uma carta de compromissos assinada, sem cargos em troca. (5) Moraes mandou Eduardo Bolsonaro começar a cumprir pena de 4 anos e 2 meses por coação no curso do processo e cancelou seus passaportes.",
+     "sources": [
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/brasil/tre-do-rio-marca-para-sabado-10-10-retotalizacao-que-dara-vitoria-a-ruas"
+      },
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/brasil/datafolha-2o-turno-flavio-tem-52-e-lula-48"
+      },
+      {
+       "name": "Transmissão Política",
+       "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/08/augusto-cury-apoia-flavio-bolsonaro/"
+      }
+     ],
+     "art_text": [
+      "A semana em 5 fatos",
+      "Faltam 16 dias",
+      "Arrasta para o lado",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Capa sem rosto: urna eletrônica, calendário e a fachada do STF em ilustração. Risco baixo.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. Capa de carrossel: sobre uma mesa escura, uma urna eletrônica estilizada, ao lado de um calendário de outubro com o dia 25 circulado em vermelho, e ao fundo, em silhueta, as colunas do STF e o Cristo Redentor bem pequeno no horizonte. No alto, em branco, letras condensadas e muito pesadas: \"A semana em 5 fatos\". Em quadro amarelo, números pretos: \"Faltam 16 dias\". Embaixo, com sublinhado vermelho pincelado: \"Arrasta para o lado\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+     "slides": [
+      "Capa: A semana em 5 fatos. Faltam 16 dias para o segundo turno.",
+      "Fato 1: o TSE anulou, por 5 a 2, os 274.411 votos de Garotinho. Sábado (10/10), às 15h, o TRE-RJ refaz a conta.",
+      "Sem esses votos, Douglas Ruas sai de 49,27% para cerca de 50,9% dos válidos. É vitória no 1º turno.",
+      "Fato 2: a coligação de Eduardo Paes foi ao STF para manter o segundo turno no Rio. O Supremo não tem prazo para decidir.",
+      "Fato 3: Datafolha do 2º turno: Flávio 52%, Lula 48% nos votos válidos. Na véspera do 1º turno, o mesmo instituto dava Lula 45% x 42%.",
+      "Fato 4: Augusto Cury, terceiro colocado, fechou com Flávio depois de uma carta de compromissos assinada. Sem cargo em troca, segundo o acordo.",
+      "Fato 5: Moraes mandou Eduardo Bolsonaro começar a cumprir pena de 4 anos e 2 meses e cancelou seus passaportes, a 17 dias da eleição.",
+      "Último slide: qual desses fatos pesa mais no seu voto? Salva e manda para quem acompanha a eleição. Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "caption": "Cinco fatos, uma semana, 16 dias para decidir. Salva e manda no grupo da família. Para você, o fato mais importante da semana foi o do Rio? Sim ou não?",
+     "risk": "médio",
+     "risk_note": "Ruas só é eleito após a retotalização e a proclamação: escreva \"deve\" até lá. Pesquisa é retrato do momento, não previsão. Se o IPCA de setembro (9h) vier forte, ou se o AtlasIntel sair antes das 19h, troque o fato 4 pelo número novo, com fonte.",
+     "timeline": {
+      "rende": true,
+      "angle": "Balanço da primeira semana do segundo turno: Rio decidido no tapetão ou na regra, a virada nas pesquisas, os apoios a Flávio e o Judiciário no centro da campanha."
+     }
     },
     {
-      "time": "19h",
-      "type": "c",
-      "kind": "Carrossel: a semana em 5 fatos",
-      "options": [
-        {
-          "title": "A semana que mudou o tabuleiro: 5 fatos",
-          "tone": "sóbrio",
-          "style": "ilustracao",
-          "fact": "Fatos da semana: (1) Flávio terminou o 1º turno com 47,03% contra 45,16% de Lula; (2) o TSE, por 5 a 2, anulou os votos de Garotinho e mandou o TRE-RJ refazer a totalização, o que deve eleger Douglas Ruas no 1º turno; (3) Republicanos e Podemos fecharam com Flávio, somando cinco partidos; (4) a PoderData/Aya do 2º turno dá Flávio 53% e Lula 47% nos votos válidos, 3.000 entrevistas, margem de 1,8 ponto; (5) Lula admitiu a campanha menos organizada desde 1989.",
-          "sources": [
-            {
-              "name": "CNN Brasil",
-              "url": "https://www.cnnbrasil.com.br/eleicoes/tse-garotinho-rj-segundo-turno/"
-            },
-            {
-              "name": "CNN Brasil",
-              "url": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-flavio-tem-53-dos-votos-validos-no-2o-turno-lula-47/"
-            },
-            {
-              "name": "Jovem Pan",
-              "url": "https://jovempan.com.br/politica/lula-diz-que-campanha-e-a-mais-desorganizada-desde-a-1a-que-disputou-em-1989/"
-            }
-          ],
-          "art_text": [
-            "A semana em 5 fatos",
-            "Faltam 16 dias",
-            "Siga @rogerrio (Instagram) @rogerrioX (X)"
-          ],
-          "faces": "Capa sem rosto: calendário e urna em ilustração. Risco baixo.",
-          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. Capa do carrossel: uma urna eletrônica estilizada sobre uma mesa escura, ao lado de um calendário com a página de outubro rasgada e o dia 25 circulado em vermelho. No alto, em branco, letras condensadas e muito pesadas: \"A semana em 5 fatos\". Em quadro amarelo: \"Faltam 16 dias\". Embaixo, com sublinhado vermelho pincelado: \"Arrasta para o lado\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
-          "slides": [
-            "Capa: A semana em 5 fatos que mudaram o segundo turno. Faltam 16 dias.",
-            "Fato 1: Flávio terminou o 1º turno com 47,03% e Lula com 45,16%.",
-            "Fato 2: o TSE anulou, por 5 a 2, os votos de Garotinho no Rio e mandou refazer a totalização. Douglas Ruas, com 49,27%, deve passar de 50% e ser eleito no 1º turno.",
-            "Fato 3: Republicanos e Podemos fecharam com Flávio. Com União Brasil, PP e Novo, são cinco partidos.",
-            "Fato 4: PoderData/Aya do 2º turno: Flávio 53%, Lula 47% nos votos válidos. 3.000 entrevistas, margem de 1,8 ponto.",
-            "Fato 5: Lula disse a aliados que esta é a campanha menos organizada que ele fez desde 1989.",
-            "Pesquisa mostra, voto decide: a diferença é de 6 pontos, mas quem fecha a conta é a urna dia 25.",
-            "Último slide: salva este carrossel e manda para quem ainda não viu. Siga @rogerrio (Instagram) @rogerrioX (X)"
-          ],
-          "caption": "Cinco fatos, uma semana, 16 dias para o segundo turno. Salva e manda para quem acompanha a eleição. Qual desses fatos pesa mais: a pesquisa ou o apoio dos partidos?",
-          "risk": "médio",
-          "risk_note": "Pesquisa tem margem de erro e erra: apresente como retrato do momento, não como previsão. O Rio só será confirmado após a nova totalização do TRE-RJ: escreva \"deve ser eleito\" até a proclamação. Se sair o Datafolha ou o AtlasIntel antes das 19h, troque o fato 4 ou acrescente o número novo.",
-          "timeline": {
-            "rende": true,
-            "angle": "Balanço da primeira semana do segundo turno: o que mudou em apoios, pesquisas e campanhas, e o que ainda falta decidir até 25/10."
-          }
-        },
-        {
-          "title": "Cadê o seu dinheiro das bets?",
-          "tone": "sóbrio",
-          "style": "cartaz",
-          "fact": "Com a medida provisória assinada em 25 de setembro, 188 sites autorizados perderam a licença e 13.241 sites ilegais foram encaminhados para bloqueio. Os bancos devolvem R$ 1,325 bilhão a cerca de 26,5 milhões de apostadores entre 9 e 14 de outubro, nas contas usadas para os depósitos; o que não puder ser devolvido passa à Caixa a partir de 14 de outubro. Há 86,2 milhões de contas com menos de R$ 1 (R$ 15,5 milhões no total). O prazo para saque voluntário terminou em 5/10.",
-          "sources": [
-            {
-              "name": "Agência Brasil",
-              "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bets-comecam-informar-bancos-sobre-r-13-bilhao-devolver"
-            },
-            {
-              "name": "Gazeta do Povo",
-              "url": "https://www.gazetadopovo.com.br/economia/bets-pedem-que-fux-suspenda-mp-de-lula-ate-audiencia-solicitada-pela-agu/"
-            }
-          ],
-          "art_text": [
-            "Cadê o seu dinheiro das bets?",
-            "R$ 1,325 bilhão",
-            "26,5 milhões de apostadores",
-            "Siga @rogerrio (Instagram) @rogerrioX (X)"
-          ],
-          "faces": "Sem rostos. Cartaz de texto e números sobre fundo escuro texturizado. Risco baixo.",
-          "prompt": "Crie um cartaz vertical 4:5 (1080x1350), fundo escuro com textura de concreto, sem pessoas. No alto, em branco, letras condensadas e muito pesadas: \"Cadê o seu dinheiro das bets?\". No centro, número gigante em amarelo: \"R$ 1,325 bilhão\" e, abaixo, em branco: \"26,5 milhões de apostadores\", com sublinhado vermelho pincelado. Embaixo, em cinza claro: \"Bancos devolvem de 9 a 14 de outubro\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
-          "slides": [
-            "Capa: Cadê o seu dinheiro das bets? R$ 1,325 bilhão para 26,5 milhões de apostadores.",
-            "O governo assinou em 25 de setembro uma medida provisória e 188 sites autorizados perderam a licença.",
-            "O prazo para sacar o saldo na plataforma terminou em 5 de outubro.",
-            "As bets enviaram aos bancos os saldos de cada CPF em 7 e 8 de outubro.",
-            "Os bancos devolvem entre 9 e 14 de outubro, na mesma conta usada para depositar.",
-            "O que não puder ser devolvido passa à Caixa a partir de 14 de outubro.",
-            "Saldo pequeno: há 86,2 milhões de contas com menos de R$ 1, somando R$ 15,5 milhões.",
-            "Último slide: salva e manda para quem apostava. Siga @rogerrio (Instagram) @rogerrioX (X)"
-          ],
-          "caption": "A devolução começa agora. Confira sua conta entre 9 e 14 de outubro e manda para quem apostava. Você acha certo o governo acabar com as bets? Sim ou não?",
-          "risk": "médio",
-          "risk_note": "Não incentive aposta nem trate o apostador como vítima ou culpado. As empresas pediram a Fux que suspenda a MP e a AGU pediu audiência: o quadro pode mudar. O subtítulo da Agência Brasil diz que a devolução começa na sexta, e o texto fala em 9 a 14/10: use as datas do corpo da matéria.",
-          "timeline": {
-            "rende": true,
-            "angle": "O fim das bets por medida provisória: quanto dinheiro estava parado, o que dizem as empresas e a AGU, o pedido a Fux e o risco de judicialização."
-          }
-        }
-      ]
+     "title": "Os autos são do Supremo ou de um ministro?",
+     "tone": "sóbrio com indignação",
+     "style": "ilustracao",
+     "fact": "Em 8/10, o ministro Luiz Fux deu 48 horas para a Secretaria Judiciária do STF liberar ao seu gabinete acesso integral a quatro procedimentos ligados a investigações conduzidas por Alexandre de Moraes: o inquérito das fake news (Inq 4.781), o Inq 4.874 e as Pet 10.405 e 12.100. Fux é relator da ADPF 1.144, ação do Progressistas apresentada em abril de 2024 contra a abertura da Pet 12.100, ligada à Operação Tempus Veritatis, que investigou 23 pessoas, entre elas Jair Bolsonaro. Fux escreveu: \"Os autos de um processo pertencem ao Tribunal, não ao Ministro que o relata\" e \"A equidistância do julgador começa pela igualdade de acesso aos fatos\". Ele ainda não decidiu sobre suspender as investigações e, segundo o Poder360, não pretende decidir antes do 2º turno. O inquérito das fake news foi aberto em 2019.",
+     "sources": [
+      {
+       "name": "Poder360",
+       "url": "https://www.poder360.com.br/poder-justica/leia-a-integra-da-decisao-de-fux-sobre-o-inquerito-das-fake-news/"
+      },
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/colunas/manoela-alcantara/fux-determina-a-area-do-stf-que-libere-acesso-ao-inquerito-das-fake-news"
+      },
+      {
+       "name": "Gazeta Brasil",
+       "url": "https://gazetabrasil.com.br/brasil/2026/10/08/fux-determina-que-stf-libere-em-48-horas-acesso-integral-ao-inquerito-das-fake-news/"
+      }
+     ],
+     "art_text": [
+      "Até ministro do STF precisou pedir",
+      "48 horas",
+      "Os autos pertencem ao Tribunal",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Luiz Fux, ministro do STF que assinou a decisão, diante de pilhas de processos com tarja de sigilo. Gesto de quem bate na porta de um arquivo, sem ação inventada. Moraes não aparece. Risco médio.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Luiz Fux (ministro do STF, cabelos grisalhos penteados para trás, toga preta), de pé diante de uma porta de arquivo de metal trancada com cadeado, segurando uma folha de papel, expressão firme e impaciente. Ao lado, pilhas altas de pastas de processo amarradas, com carimbos vermelhos \"SIGILOSO\". Ao fundo, o plenário do STF em sombras. No alto, em branco, letras condensadas e muito pesadas: \"Até ministro do STF precisou pedir\". Em quadro vermelho, números brancos gigantes: \"48 horas\". Embaixo, com sublinhado vermelho pincelado: \"Os autos pertencem ao Tribunal\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "slides": [
+      "Capa: Até ministro do STF precisou pedir acesso. 48 horas.",
+      "Luiz Fux deu 48 horas para a área técnica do Supremo liberar ao gabinete dele a íntegra do inquérito das fake news e de mais três procedimentos.",
+      "Por quê? Ele é relator de uma ação do Progressistas, de abril de 2024, que questiona a forma como uma dessas investigações foi aberta.",
+      "Essa investigação levou à Operação Tempus Veritatis, que mirou 23 pessoas, entre elas Jair Bolsonaro.",
+      "Fux escreveu: \"Os autos de um processo pertencem ao Tribunal, não ao Ministro que o relata\".",
+      "E mais: \"A equidistância do julgador começa pela igualdade de acesso aos fatos\".",
+      "O inquérito das fake news existe desde 2019. Fux ainda não decidiu se suspende as investigações e, segundo o Poder360, não deve decidir antes do 2º turno.",
+      "Último slide: Inquérito sem fim e sigilo até para ministro. Isso é normal? Salva e manda para quem ainda não entendeu. Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "caption": "Quando um ministro do próprio Supremo precisa dar prazo para ver um processo, alguma coisa está fora do lugar. Inquérito aberto desde 2019 deveria ter prazo para acabar? Sim ou não?",
+     "risk": "médio",
+     "risk_note": "Fux não anulou nada nem antecipou juízo: não escreva que a condenação de Bolsonaro vai cair. A ação é do Progressistas, não da defesa de Bolsonaro. Atribua as frases a Fux e a previsão de não decidir antes do 2º turno ao Poder360.",
+     "timeline": {
+      "rende": true,
+      "angle": "Sete anos de inquérito das fake news: como nasceu, por que nunca terminou, o que a ADPF 1.144 questiona e o que está em jogo se o plenário rever a forma como as investigações foram abertas."
+     }
     }
-  ]
+   ]
+  }
+ ]
 }
