@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-08",
+  "generated": "2026-10-07T22:14:00-03:00",
+  "programa": "Conversa Timeline",
+  "titulo": "A semana em que a eleição passou a ser decidida nos tribunais e nos bastidores",
+  "abertura": "A pauta de quinta (8) tem um TSE que pode decidir o governo do Rio sem 2º turno. No Senado, a PEC do fim da escala 6x1 avança a quatro dias da eleição. No STF, Moraes toma decisões que o bolsonarismo lê como aceno ou como recuo, e a PGR não se opõe a que Flávio visite o pai. Na economia, o mercado já precifica um novo governo e a conta ainda não foi paga. Na segurança, a PF mostra o fuzil saindo de dentro da farda.",
+  "agenda": [
+    {
+      "time": "10h",
+      "text": "TSE julga o pedido de desistência de recurso de Anthony Garotinho, que pode definir se há 2º turno no Rio",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
+      }
+    },
+    {
+      "time": "14h",
+      "text": "Senado realiza a terceira sessão de discussão da PEC do fim da escala 6x1",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/"
+      }
+    }
+  ],
+  "itens": [
+    {
+      "id": "seis-por-um",
+      "bloco": "Política nacional",
+      "titulo": "A conta do fim de semana",
+      "subtitulo": "A PEC que promete descanso chega ao Senado com pressa de campanha e dúvida sobre quem paga",
+      "resumo": "O Senado fez nesta quarta (7) a segunda das cinco sessões de discussão da PEC 221/2019, que reduz a jornada de 44 para 40 horas semanais com dois dias de descanso e sem corte de salário. Davi Alcolumbre diz que não vai atropelar o rito, mas pelo calendário regular a votação do 1º turno cairia em 21 de outubro, quatro dias antes do 2º turno da eleição. A PEC precisa de 49 votos em cada turno, e o governo Lula cobra publicamente como o PL vai votar. Entidades do comércio, dos serviços e da indústria pedem que a votação fique para depois da eleição, e a CNI estima alta de até 7% na folha formal, entre R$ 178,2 bilhões e R$ 267,2 bilhões por ano. Para o cidadão, o ponto central é saber se mais descanso virá com emprego e preço estáveis ou com repasse de custo, e se um tema desse tamanho deve ser decidido no calor da campanha.",
+      "metafora": "É como dividir a mesma pizza em mais fatias sem aumentar o tamanho da pizza: alguém precisa pagar pelo ingrediente que falta, e a conta pode chegar no preço ou no emprego.",
+      "contexto": [
+        "A Câmara aprovou a PEC em maio e a CCJ do Senado, em 2 de setembro; faltam dois turnos no plenário, com 49 votos cada.",
+        "Regimento: 5 sessões de discussão para o 1º turno e mais 3 antes do 2º; a próxima é quinta (8), às 14h.",
+        "Ipea calcula alta média de 7,84% no custo da hora do trabalhador celetista; a CNI calcula o custo para manter o mesmo volume de horas.",
+        "A transição para MEIs e pequenas empresas depende de uma lei complementar que ainda não existe."
+      ],
+      "angulo": [
+        "Análise do programa: o debate sobre jornada é legítimo, mas o custo para o pequeno negócio precisa estar na mesa antes do voto.",
+        "O tempo da votação, a poucos dias do 2º turno, mistura política e economia.",
+        "Quem sustenta a folha de uma padaria de 16 empregados quando o fim de semana é o maior faturamento?"
+      ],
+      "perguntas": [
+        "Quem vai pagar a conta da redução da jornada: o empresário, o consumidor ou o próprio trabalhador, com menos vagas?",
+        "Faz sentido votar uma mudança dessa dimensão a quatro dias do 2º turno?",
+        "Uma jornada flexível, com pagamento por hora, protege mais o trabalhador ou o deixa mais exposto?"
+      ],
+      "atencao": "As estimativas de custo divergem porque Ipea e CNI usam métodos diferentes; a CNI é entidade patronal.",
+      "fontes": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/economia/reducao-jornada-fim-escala-6x1-folha-pagamento-pequenos-negocios/"
+        }
+      ]
+    },
+    {
+      "id": "garotinho-tse",
+      "bloco": "Rio de Janeiro",
+      "titulo": "O voto que some e muda a eleição",
+      "subtitulo": "Uma desistência de recurso pode decidir o governo do Rio sem 2º turno",
+      "resumo": "O plenário do TSE julga nesta quinta (8), a partir das 10h, o pedido de Anthony Garotinho para desistir do recurso contra a anulação de seus votos. Douglas Ruas (PL) teve 4.271.199 votos (49,27%) e Eduardo Paes (PSD) teve 3.706.984 (42,76%), enquanto Garotinho somou 274.411 (3,17%). Se esses votos forem tirados da conta, Ruas passa de 50% dos válidos e pode ser proclamado eleito no 1º turno, e o Ministério Público Eleitoral foi favorável à desistência. A defesa de Paes diz que a desistência é abuso de direito e fraude ao princípio da maioria absoluta, e pede que o 2º turno de 25 de outubro seja mantido. O que está em jogo para o eleitor é saber se o resultado das urnas é definido pela regra eleitoral ou por manobra processual, e o julgamento pode ser adiado por pedido de vista.",
+      "contexto": [
+        "Garotinho está inelegível por condenação por improbidade administrativa; seu nome ficou na urna porque a decisão do TRE-RJ veio depois do fechamento do sistema de votação.",
+        "Em 2 de outubro, o relator Floriano de Azevedo Marques entendeu que os votos deveriam ser anulados sub judice.",
+        "Em 5 de outubro, a defesa de Garotinho desistiu do recurso; em 6, o MPE enviou parecer favorável.",
+        "Se a desistência for aceita, o TRE-RJ faz nova totalização e Ruas pode passar de 50% dos válidos."
+      ],
+      "angulo": [
+        "Análise do programa: a regra é clara, voto de candidato inelegível não conta como voto válido, e a vontade do eleitor deve prevalecer.",
+        "A tese de que a desistência é deslealdade precisa ser medida contra o parecer do MPE.",
+        "Ouvir o que a defesa de Paes diz sobre o filho de Garotinho, Wladimir, apoiar Ruas."
+      ],
+      "perguntas": [
+        "Voto em candidato inelegível deve entrar na conta da maioria absoluta?",
+        "Se o TSE aceitar a desistência, o Rio economiza um 2º turno ou perde uma etapa da disputa?",
+        "Um pedido de vista no TSE prolonga a incerteza a menos de três semanas do 2º turno: isso é prudência ou desgaste?"
+      ],
+      "atencao": "A matéria de Paes cita 'má-fé' como alegação da defesa dele; é argumento processual, não conclusão da Justiça.",
+      "fontes": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/mpe-e-favoravel-a-desistencia-de-recurso-de-garotinho-no-tse/"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
+        }
+      ]
+    },
+    {
+      "id": "moraes-acenos",
+      "bloco": "STF e instituições",
+      "titulo": "Acenos ou ajuste de rota?",
+      "subtitulo": "Inquéritos arquivados, pena em regime mais brando e um recado do bolsonarismo",
+      "resumo": "Alexandre de Moraes arquivou a PET 12.404, que investigava o senador Marcos do Val e os influenciadores Allan dos Santos, Oswaldo Eustáquio e Ednardo Raposo, depois de a PGR dizer que não havia provas suficientes para denúncia. Segundo a PGR, havia indício de intenção de ofender a honra de agentes públicos, mas não de articulação para incitar crimes ou obstruir investigações. No mesmo período, Moraes autorizou a progressão de Débora Rodrigues, a Débora do Batom, ao regime semiaberto, mantida a prisão domiciliar, com 212 dias de remição homologados. Nikolas Ferreira reagiu dizendo que não adianta Moraes fazer aceno agora, e Eustáquio disse que pretende voltar ao Brasil se Flávio Bolsonaro vencer. Análise do programa: quando decisões desse peso saem na reta final da eleição, o cidadão tem direito de perguntar se o rigor é o mesmo para todos e em todas as épocas.",
+      "contexto": [
+        "A PET 12.404 foi arquivada em 4 de setembro e a baixa dos autos foi registrada em 30 de setembro; a decisão só se tornou pública em 6 de outubro.",
+        "Em agosto de 2025, a PF havia pedido o indiciamento dos quatro investigados.",
+        "Débora foi condenada a 14 anos, cumpriu prisão preventiva de março de 2023 a março de 2025 e está em domiciliar desde então.",
+        "Eustáquio mora na Espanha, é considerado foragido em outro processo e teve a extradição rejeitada pela Justiça espanhola em dezembro de 2025."
+      ],
+      "angulo": [
+        "Análise do programa: o arquivamento por falta de provas confirma o que críticos diziam sobre a amplitude desses inquéritos.",
+        "A pergunta sobre uniformidade: por que casos semelhantes tiveram tratamentos tão diferentes ao longo dos anos?",
+        "Os acenos não apagam as penas de centenas de condenados do 8 de Janeiro nem o debate sobre dosimetria."
+      ],
+      "perguntas": [
+        "Arquivar agora é correção de rota ou cálculo de momento?",
+        "O que as decisões dizem sobre o rigor aplicado aos investigados nos últimos anos?",
+        "O que falta para o debate sobre a pena do 8 de Janeiro chegar a um critério único?"
+      ],
+      "atencao": "Os arquivamentos se apoiam em parecer da PGR por falta de provas; isso não significa decisão de mérito sobre a conduta dos investigados.",
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/moraes-arquiva-processo-contra-oswaldo-eustaquio-e-allan-dos-santos-por-falta-de-provas/"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/moraes-autoriza-regime-semiaberto-para-debora-do-batom/"
+        }
+      ]
+    },
+    {
+      "id": "visita-bolsonaro",
+      "bloco": "STF e instituições",
+      "titulo": "Pai e filho, com a eleição no meio",
+      "subtitulo": "A PGR não se opõe, e a decisão está nas mãos de Moraes",
+      "resumo": "O procurador-geral Paulo Gonet disse ao STF que não se opõe ao pedido da defesa de Jair Bolsonaro para receber a visita do filho Flávio. A defesa pediu na segunda (5) o retorno ao regime ordinário de visitas ou, como alternativa, uma única visita estritamente familiar. Gonet afirmou não haver fatos novos que indiquem descumprimento das condições nem necessidade de prolongar a restrição, que vence em 11 de outubro. Em julho, Moraes proibiu visitas com fim político-eleitoral até o fim da eleição, depois de Flávio publicar nas redes uma carta do pai. Bolsonaro cumpre prisão domiciliar humanitária após a condenação a 27 anos e 3 meses, e a decisão agora é de Moraes, relator do caso.",
+      "contexto": [
+        "Gonet citou a ausência de fatos supervenientes indicativos de descumprimento das condições fixadas.",
+        "Em 17 de julho, Moraes vetou visitas político-eleitorais e a divulgação de manifestos, inclusive por terceiros.",
+        "A suspensão específica das visitas de Flávio vai até 11 de outubro.",
+        "No 1º turno, Flávio teve 47,03% dos votos e Lula, 45,16%."
+      ],
+      "angulo": [
+        "Análise do programa: visita de pai e filho é direito familiar básico, e a PGR reconheceu que não há descumprimento.",
+        "Como separar a vida familiar de um preso da campanha, sem tratar o filho como suspeito permanente?",
+        "O 2º turno está a menos de três semanas: a decisão de Moraes será lida também pela lógica eleitoral."
+      ],
+      "perguntas": [
+        "Qual critério separa uma visita familiar de uma visita política?",
+        "A PGR não se opor muda o que se espera de Moraes?",
+        "Restrições prolongadas a visitas a um preso em domiciliar humanitária são proporcionais?"
+      ],
+      "atencao": "A decisão é de Moraes; até o fechamento da pauta não havia despacho sobre o pedido.",
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/pgr-se-manifesta-a-favor-de-visita-de-flavio-a-bolsonaro/"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/pgr-se-diz-favoravel-a-flavio-visitar-bolsonaro-em-prisao-domiciliar/"
+        }
+      ]
+    },
+    {
+      "id": "juros-flavio",
+      "bloco": "Economia",
+      "titulo": "O preço de uma expectativa",
+      "subtitulo": "Juros futuros caíram, mas a economia de bilhões ainda é só promessa do mercado",
+      "resumo": "Os juros futuros para quatro anos caíram cerca de 1 ponto percentual depois do 1º turno, e o Poder360 calcula que a queda, se mantida, poderia economizar R$ 65,8 bilhões no custo da dívida. O próprio veículo ressalva que o efeito não é automático e que os juros podem voltar a subir se as expectativas fiscais ou de inflação piorarem. Nesta quarta (7), o dólar subiu 0,83% e fechou a R$ 5,0156, depois de R$ 4,9745 na terça, e o Ibovespa caiu 0,72%, aos 204.348 pontos. A ata do Fed mostrou divisão entre os dirigentes sobre a alta de 0,25 ponto feita em setembro, e o WTI passou de US$ 100 com as tensões no Oriente Médio. Análise do programa: o mercado está precificando disciplina fiscal futura, e quem paga a conta se ela não vier é o contribuinte.",
+      "metafora": "Juro futuro é como o preço de um prédio ainda na planta: o valor sobe ou desce conforme a confiança no construtor, e só vira dinheiro de verdade quando a obra sai.",
+      "contexto": [
+        "Em 5 de outubro, os juros futuros de 4 anos caíram cerca de 100 pontos-base.",
+        "A estimativa de R$ 65,8 bilhões equivale, segundo o Poder360, a quase 3 vezes o reajuste do Bolsa Família em 2027 (R$ 22,7 bilhões).",
+        "O Poder360 publicou correção sobre a atribuição de uma fonte, e o texto não detalha o cálculo do valor.",
+        "Em 7 de outubro, os DIs longos subiram levemente; Vale caiu mais de 2% e o Itaú, 2,66%."
+      ],
+      "angulo": [
+        "Análise do programa: o mercado reage a sinal de responsabilidade fiscal, e juro menor chega ao bolso na prestação e no crédito.",
+        "Cuidado com a promessa: a economia hipotética depende de a queda se manter até depois do 2º turno.",
+        "Petróleo acima de US$ 100 e a ata do Fed mostram que o cenário externo também pesa."
+      ],
+      "perguntas": [
+        "Que sinais fiscais o próximo governo precisa dar para a queda dos juros se sustentar?",
+        "Juro menor chega ao bolso do cidadão ou fica só no mercado financeiro?",
+        "Uma conta de R$ 65,8 bilhões é número para comemorar ou para checar duas vezes?"
+      ],
+      "atencao": "O valor de R$ 65,8 bilhões é uma estimativa condicionada à manutenção da queda, não economia realizada.",
+      "fontes": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/efeito-flavio-derruba-juro-e-pais-economiza-r-66-bilhoes-com-divida/"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-7-outubro-2026/"
+        }
+      ]
+    },
+    {
+      "id": "operacao-magen",
+      "bloco": "Segurança pública",
+      "titulo": "Quando o fuzil sai de dentro da farda",
+      "subtitulo": "Operação no Rio mira quem deveria combater o Terceiro Comando Puro",
+      "resumo": "A Polícia Federal e o Ministério Público do Rio deflagraram nesta quarta (7) a Operação Magen, com 7 mandados de prisão preventiva e 18 de busca e apreensão. Segundo a investigação, um grupo com policiais e ex-policiais vendeu armas ao Terceiro Comando Puro, que controla o Complexo de Israel, incluindo dez fuzis AR-15 entregues ao líder da facção, Álvaro Malaquias Santa Rosa, o Peixão, que segue foragido. A PF diz que os servidores usavam acesso a sistemas restritos para avisar criminosos sobre mandados e operações. O grupo teria movimentado cerca de R$ 100 milhões em quatro anos por meio de empresas de fachada, e os investigados respondem por organização criminosa armada, tráfico de armas, violação de sigilo, usura e lavagem de dinheiro. Análise do programa: sem controle de quem tem acesso a armas e a informação dentro do próprio Estado, nenhuma operação na favela chega ao fim.",
+      "contexto": [
+        "Cinco pessoas foram presas e duas são consideradas foragidas, entre elas Peixão.",
+        "Entre os alvos há um policial civil, um policial militar e ex-policiais; um fuzil foi achado em quarto de hotel de luxo na Barra da Tijuca.",
+        "As buscas ocorreram no Rio, Nova Iguaçu, Angra dos Reis, Mesquita, Nilópolis e Seropédica.",
+        "A investigação é do Grupo de Investigações Sensíveis da PF e de grupo especializado do MPRJ."
+      ],
+      "angulo": [
+        "Análise do programa: a corrupção policial é o elo que protege facções, e o policial honesto é o maior prejudicado.",
+        "O vazamento de mandados mostra que a política de segurança passa pelo controle de acesso a dados.",
+        "Dinheiro de fachada é o ponto fraco do crime organizado: asfixia financeira funciona."
+      ],
+      "perguntas": [
+        "Como o Rio protege sistemas sigilosos de quem trabalha dentro da polícia?",
+        "Por que o fuzil de uso restrito continua chegando às facções?",
+        "O que muda para o policial honesto quando o crime está dentro da corporação?"
+      ],
+      "atencao": "Os presos e foragidos são investigados e denunciados; têm direito de defesa e não há condenação.",
+      "fontes": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-mira-tcp-por-venda-de-fuzis-e-lavagem-de-mais-de-r-100-milhoes-no-rj/"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/brasil/pf-prende-pms-suspeitos-de-vender-armas-ao-tcp-faccao-no-rj/"
+        }
+      ]
+    }
+  ]
+}
