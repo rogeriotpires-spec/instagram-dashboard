@@ -258,7 +258,7 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
 
 <nav>
   <div class="nav-in">
-    <div class="tabs" id="segtabs"><a href="index.html">← Métricas</a><a href="pautas.html">Pautas</a></div>
+    <div class="tabs" id="segtabs"><a href="index.html">← Métricas</a><a href="pautas-nova.html">Pautas</a></div>
     <div class="filters">
       <div class="seg"><button id="prev" aria-label="Edição anterior">‹</button><select id="ed" aria-label="Escolher edição"></select><button id="next" aria-label="Próxima edição">›</button></div>
     </div>
@@ -297,12 +297,12 @@ function card(it,rank){
   BODIES[it.id]=body;
   const issue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Virar pauta] "+it.title)}&body=${encodeURIComponent(body)}`;
   return`<article class="news">
-    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${done?`<a class="pill good" href="pautas.html#sob-demanda" style="text-decoration:none">Virou pauta ✓</a>`:""}</div><h3>${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
+    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${done?`<a class="pill good" href="pautas-nova.html#sob-demanda" style="text-decoration:none">Virou pauta ✓</a>`:""}</div><h3>${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
     <p class="sum">${esc(it.summary)}</p>
     ${it.asymmetry?.flag?`<div class="note"><b>Assimetria:</b> ${esc(it.asymmetry.note||"")}</div>`:""}
     <div class="outs"><span class="small-n">${(it.outlets||[]).length} portais:</span>${outs}</div>
     <details><summary>Como a nota foi calculada</summary><div class="crits">${crit}</div></details>
-    <div class="acts">${done?`<a class="btn ghost" href="pautas.html#sob-demanda">Ver pauta</a>`:(Painel.API?`<button class="btn" type="button" data-pauta="${esc(it.id)}">Virar pauta</button><span class="small-n pst"></span>`:`<a class="btn" href="${issue}" target="_blank" rel="noopener">Virar pauta</a>`)}</div>
+    <div class="acts">${done?`<a class="btn ghost" href="pautas-nova.html#sob-demanda">Ver pauta</a>`:(Painel.API?`<button class="btn" type="button" data-pauta="${esc(it.id)}">Virar pauta</button><span class="small-n pst"></span>`:`<a class="btn" href="${issue}" target="_blank" rel="noopener">Virar pauta</a>`)}</div>
   </article>`;
 }
 function render(){
