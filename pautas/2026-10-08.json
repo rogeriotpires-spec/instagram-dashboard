@@ -4,13 +4,62 @@
   "generated": "2026-10-07T21:48:08-03:00",
   "summary": "Quinta de decisões: às 10h o TSE julga o caso Garotinho e pode eleger Douglas Ruas sem segundo turno no Rio; à tarde o Senado faz mais uma sessão da PEC da 6x1, que o governo quer votar antes do dia 25; e sai o primeiro Datafolha do segundo turno, o mesmo instituto que deu 42% a Flávio na véspera do primeiro.",
   "agenda": [
-    {"time": "10h", "text": "TSE julga o pedido de Garotinho para desistir do recurso. Se for aceito, os 274.411 votos dele saem da conta e Douglas Ruas passa de 50%.", "source": {"name": "Correio Braziliense", "url": "https://www.correiobraziliense.com.br/politica/2026/10/7516384-tse-julga-caso-garotinho-nesta-quinta-e-decide-sobre-eleicao-no-1-turno.html"}},
-    {"time": "14h", "text": "Senado faz nova sessão de discussão da PEC do fim da escala 6x1. São cinco sessões antes da votação em 1º turno.", "source": {"name": "Brasil em Folhas", "url": "https://www.brasilemfolhas.com.br/2026/10/alcolumbre-diz-que-nao-vai-atropelar-rito-da-pec-do-fim-da-escala-6x1/"}},
-    {"time": "8/10", "text": "Datafolha divulga a primeira pesquisa do 2º turno: 2.520 entrevistas, margem de 2 pontos.", "source": {"name": "InfoMoney", "url": "https://www.infomoney.com.br/politica/primeiro-datafolha-de-2o-turno-sai-nesta-quinta-veja-o-que-observar/"}},
-    {"time": "9/10", "text": "AtlasIntel divulga sua primeira pesquisa do 2º turno, com 5 mil entrevistas online.", "source": {"name": "Brasil de Fato", "url": "https://www.brasildefato.com.br/2026/10/06/datafolha-quaest-atlasintel-quando-saem-as-pesquisas-de-2o-turno-entre-lula-e-flavio/"}},
-    {"time": "11/10", "text": "Termina a proibição de Flávio visitar o pai. A PGR não se opôs à visita antecipada; a decisão é de Moraes.", "source": {"name": "O Tempo", "url": "https://www.otempo.com.br/politica/judiciario/2026/10/6/gonet-da-aval-a-visita-de-flavio-bolsonaro-ao-pai-antes-de-fim-da-restricao-de-90-dias"}},
-    {"time": "21/10", "text": "Data possível da votação em 1º turno da PEC da 6x1 no Senado, se o calendário for cumprido.", "source": {"name": "Brasil em Folhas", "url": "https://www.brasilemfolhas.com.br/2026/10/alcolumbre-diz-que-nao-vai-atropelar-rito-da-pec-do-fim-da-escala-6x1/"}},
-    {"time": "25/10", "text": "Segundo turno: Lula x Flávio Bolsonaro.", "source": {"name": "O Tempo", "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"}}
+    {
+      "time": "10h",
+      "text": "TSE julga o pedido de Garotinho para desistir do recurso. Se for aceito, os 274.411 votos dele saem da conta e Douglas Ruas passa de 50%.",
+      "source": {
+        "name": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/10/7516384-tse-julga-caso-garotinho-nesta-quinta-e-decide-sobre-eleicao-no-1-turno.html"
+      }
+    },
+    {
+      "time": "14h",
+      "text": "Senado faz nova sessão de discussão da PEC do fim da escala 6x1. São cinco sessões antes da votação em 1º turno.",
+      "source": {
+        "name": "Brasil em Folhas",
+        "url": "https://www.brasilemfolhas.com.br/2026/10/alcolumbre-diz-que-nao-vai-atropelar-rito-da-pec-do-fim-da-escala-6x1/"
+      }
+    },
+    {
+      "time": "8/10",
+      "text": "Datafolha divulga a primeira pesquisa do 2º turno: 2.520 entrevistas, margem de 2 pontos.",
+      "source": {
+        "name": "InfoMoney",
+        "url": "https://www.infomoney.com.br/politica/primeiro-datafolha-de-2o-turno-sai-nesta-quinta-veja-o-que-observar/"
+      }
+    },
+    {
+      "time": "9/10",
+      "text": "AtlasIntel divulga sua primeira pesquisa do 2º turno, com 5 mil entrevistas online.",
+      "source": {
+        "name": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2026/10/06/datafolha-quaest-atlasintel-quando-saem-as-pesquisas-de-2o-turno-entre-lula-e-flavio/"
+      }
+    },
+    {
+      "time": "11/10",
+      "text": "Termina a proibição de Flávio visitar o pai. A PGR não se opôs à visita antecipada; a decisão é de Moraes.",
+      "source": {
+        "name": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/judiciario/2026/10/6/gonet-da-aval-a-visita-de-flavio-bolsonaro-ao-pai-antes-de-fim-da-restricao-de-90-dias"
+      }
+    },
+    {
+      "time": "21/10",
+      "text": "Data possível da votação em 1º turno da PEC da 6x1 no Senado, se o calendário for cumprido.",
+      "source": {
+        "name": "Brasil em Folhas",
+        "url": "https://www.brasilemfolhas.com.br/2026/10/alcolumbre-diz-que-nao-vai-atropelar-rito-da-pec-do-fim-da-escala-6x1/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"
+      }
+    }
   ],
   "slots": [
     {
@@ -21,19 +70,32 @@
         {
           "title": "O Rio pode acordar com governador",
           "tone": "sóbrio com urgência",
-          "style": "realista",
+          "style": "ilustracao",
           "fact": "Douglas Ruas (PL) teve 4.271.199 votos (49,27%) e Eduardo Paes (PSD), 3.706.984 (42,76%). Garotinho teve 274.411 votos com candidatura sub judice e pediu para desistir do recurso. O TSE julga às 10h: se a desistência for aceita, os votos dele saem da base de cálculo e Ruas passa de 50%. A Procuradoria-Geral Eleitoral recomendou aceitar. Um pedido de vista pode adiar a decisão.",
           "sources": [
-            {"name": "Correio Braziliense", "url": "https://www.correiobraziliense.com.br/politica/2026/10/7516384-tse-julga-caso-garotinho-nesta-quinta-e-decide-sobre-eleicao-no-1-turno.html"},
-            {"name": "O Povo", "url": "https://www.opovo.com.br/noticias/politica/2026/10/07/tse-julga-nesta-quinta-pedido-de-garotinho-que-pode-definir-eleicao-do-rio-ainda-no-1-turno.html"}
+            {
+              "name": "Correio Braziliense",
+              "url": "https://www.correiobraziliense.com.br/politica/2026/10/7516384-tse-julga-caso-garotinho-nesta-quinta-e-decide-sobre-eleicao-no-1-turno.html"
+            },
+            {
+              "name": "O Povo",
+              "url": "https://www.opovo.com.br/noticias/politica/2026/10/07/tse-julga-nesta-quinta-pedido-de-garotinho-que-pode-definir-eleicao-do-rio-ainda-no-1-turno.html"
+            }
           ],
-          "art_text": ["49,27%", "274 mil votos decidem o Rio hoje", "Imagem ilustrativa"],
-          "faces": "Nenhum rosto. Só a urna, a mesa e a paisagem do Rio desfocada ao fundo. Risco baixo.",
-          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz dourada do amanhecer entrando por uma janela, granulação leve e profundidade de campo rasa. Em primeiro plano, uma urna eletrônica brasileira genérica sobre uma mesa de madeira, com papéis e uma caneta ao lado, em foco nítido. Ao fundo, pela janela e bem desfocada, a silhueta dos morros do Rio de Janeiro e a Baía de Guanabara ao nascer do sol. Nenhuma pessoa, nenhum logo, nenhum brasão. Na metade inferior, uma faixa escura semitransparente para leitura no celular. Dentro da faixa, no alto, número gigante em amarelo e letras muito pesadas: \"49,27%\". Logo abaixo, em branco, letras grandes e pesadas: \"274 mil votos decidem o Rio hoje\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\".",
+          "art_text": [
+            "49,27%",
+            "274 mil votos decidem o Rio hoje",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Douglas Ruas (PL) e Eduardo Paes (PSD), os dois candidatos ao governo do Rio cujo 2º turno depende da decisão do TSE. Ilustração estilo charge, sem foto real. Risco baixo: os dois aparecem só aguardando a decisão, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Douglas Ruas (candidato do PL ao governo do Rio, cabelo curto, terno escuro) e Eduardo Paes (candidato do PSD, terno escuro), lado a lado, de braços cruzados, olhando de canto um para o outro com expressão de expectativa e desconfiança. Ao fundo, a fachada estilizada do prédio do TSE e, menor, a silhueta do Cristo Redentor. No alto, número gigante em amarelo, letras condensadas e muito pesadas: \"49,27%\". Logo abaixo, em branco, letras grandes e pesadas: \"274 mil votos decidem o Rio hoje\", com um sublinhado vermelho pincelado. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
           "caption": "Faltaram 0,73 ponto para o Rio decidir no domingo. Hoje, às 10h, o TSE decide. Você acha que o Rio vai ter segundo turno? Sim ou não?",
           "risk": "médio",
           "risk_note": "Não antecipe o resultado nem insinue pressão sobre ministros. Se o TSE decidir antes de publicar, ou se houver pedido de vista, troque a frase pelo desfecho real.",
-          "timeline": {"rende": true, "angle": "Como uma desistência depois da urna pode decidir um governo estadual: a regra dos votos sub judice, a tese de Paes e o precedente que fica para as próximas eleições."}
+          "timeline": {
+            "rende": true,
+            "angle": "Como uma desistência depois da urna pode decidir um governo estadual: a regra dos votos sub judice, a tese de Paes e o precedente que fica para as próximas eleições."
+          }
         },
         {
           "title": "O fuzil saiu de dentro da farda?",
@@ -41,16 +103,30 @@
           "style": "realista",
           "fact": "A Operação Magen, da PF com o MPRJ, cumpriu 7 mandados de prisão preventiva e 18 de busca em 7/10. Os investigados, entre eles um PM da ativa, um policial civil e ex-PMs, são suspeitos de vender armas ao Terceiro Comando Puro e de vazar informações sigilosas. Segundo a denúncia, 10 fuzis AR-15 foram vendidos ao chefe da facção, o Peixão, que segue foragido. O grupo e cinco empresas movimentaram mais de R$ 250 milhões. Cinco pessoas foram presas.",
           "sources": [
-            {"name": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/ex-policiais-sao-presos-em-operacao-contra-venda-de-armas-para-o-tcp-no-rj/"},
-            {"name": "Band", "url": "https://www.band.com.br/nacional/rj/pf-prende-policiais-e-apreende-fuzis-em-operacao-contra-quadrilha-do-tcp"}
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/ex-policiais-sao-presos-em-operacao-contra-venda-de-armas-para-o-tcp-no-rj/"
+            },
+            {
+              "name": "Band",
+              "url": "https://www.band.com.br/nacional/rj/pf-prende-policiais-e-apreende-fuzis-em-operacao-contra-quadrilha-do-tcp"
+            }
           ],
-          "art_text": ["O fuzil saiu de dentro da farda?", "R$ 250 milhões", "Imagem ilustrativa"],
+          "art_text": [
+            "O fuzil saiu de dentro da farda?",
+            "R$ 250 milhões",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
           "faces": "Nenhum rosto. Fuzis e munição sobre a mesa, mãos com luvas e um colete sem identificação ao fundo. Não use foto de nenhum investigado.",
-          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz de flash dura de sala de apreensão, granulação leve. Sobre uma mesa metálica cinza, enfileirados, quatro fuzis pretos genéricos, carregadores, pistolas e maços de dinheiro em notas de real presos com elástico. No canto superior, mãos com luvas pretas de látex organizando as armas, sem mostrar rosto. Ao fundo, desfocado, um colete tático escuro pendurado, sem nenhuma inscrição, logo ou brasão. Clima sério e frio. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"O fuzil saiu de dentro da farda?\". No terço inferior, sobre sombra escura, número de destaque em amarelo: \"R$ 250 milhões\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\".",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz de flash dura de sala de apreensão, granulação leve. Sobre uma mesa metálica cinza, enfileirados, quatro fuzis pretos genéricos, carregadores, pistolas e maços de dinheiro em notas de real presos com elástico. No canto superior, mãos com luvas pretas de látex organizando as armas, sem mostrar rosto. Ao fundo, desfocado, um colete tático escuro pendurado, sem nenhuma inscrição, logo ou brasão. Clima sério e frio. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"O fuzil saiu de dentro da farda?\". No terço inferior, sobre sombra escura, número de destaque em amarelo: \"R$ 250 milhões\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
           "caption": "Segundo a PF, policiais e ex-policiais são suspeitos de vender fuzis para a facção que domina o Complexo de Israel. Policial que vende arma para o crime deveria ter pena em dobro? Sim ou não?",
           "risk": "médio",
           "risk_note": "São suspeitos, não condenados: use sempre \"suspeitos\" e \"segundo a PF\". Não cite nomes de investigados nem generalize para toda a polícia; a pergunta é sobre punição, não sobre a corporação.",
-          "timeline": {"rende": true, "angle": "A arma que abastece a facção vem de onde? O caso Magen, o vazamento de operações e o que falta no controle de armamento e na corregedoria das polícias do Rio."}
+          "timeline": {
+            "rende": true,
+            "angle": "A arma que abastece a facção vem de onde? O caso Magen, o vazamento de operações e o que falta no controle de armamento e na corregedoria das polícias do Rio."
+          }
         }
       ]
     },
@@ -65,20 +141,37 @@
           "duration": "25 a 30s",
           "fact": "A PEC reduz a jornada máxima de 44 para 40 horas semanais e precisa de 49 votos em dois turnos. São cinco sessões de discussão; se o calendário for cumprido, a votação em 1º turno pode ser em 21/10, quatro dias antes do segundo turno. Rogério Marinho, coordenador da campanha de Flávio, disse em 6/10: \"Por que agora? Por que nesse momento? Por que esse súbito despertar?\" e lembrou que o PT governa há 18 anos somando os mandatos. Alcolumbre disse que vai cumprir o rito \"sem atropelos\".",
           "sources": [
-            {"name": "Brasil em Folhas", "url": "https://www.brasilemfolhas.com.br/2026/10/marinho-chama-de-oportunista-analise-da-pec-do-6x1-no-senado/"},
-            {"name": "O Tempo", "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"},
-            {"name": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/oposicao-atua-para-adiar-votacao-da-6x1-para-depois-do-2o-turno/"}
+            {
+              "name": "Brasil em Folhas",
+              "url": "https://www.brasilemfolhas.com.br/2026/10/marinho-chama-de-oportunista-analise-da-pec-do-6x1-no-senado/"
+            },
+            {
+              "name": "O Tempo",
+              "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/oposicao-atua-para-adiar-votacao-da-6x1-para-depois-do-2o-turno/"
+            }
           ],
           "hooks": [
             "Dia 21 vota. Dia 25 é a eleição. Coincidência?",
             "O PT teve 18 anos para mexer na sua jornada. Lembrou agora."
           ],
           "script": "Dia 21 o Senado pode votar o fim da escala 6x1. Dia 25 é o segundo turno. Coincidência? A proposta corta a jornada de 44 para 40 horas. É um tema sério, mexe com quem trabalha e com quem paga o salário, principalmente o pequeno comerciante. E justamente por ser sério, não dá pra ser votado na correria, com cronômetro de campanha. Somando os mandatos, o PT governou 18 anos. Por que a pressa apareceu agora? Você acha que essa votação deveria ficar para depois da eleição? Responde sim ou não.",
-          "screen_text": ["Votação: 21/10", "Eleição: 25/10", "44h para 40h", "Por que agora?"],
+          "screen_text": [
+            "Votação: 21/10",
+            "Eleição: 25/10",
+            "44h para 40h",
+            "Por que agora?"
+          ],
           "caption": "A pressa tem data marcada. A votação da 6x1 deveria ficar para depois da eleição? Sim ou não?",
           "risk": "médio",
           "risk_note": "Tema popular entre trabalhadores: critique o momento e a pressa, nunca o descanso do trabalhador. A data de 21/10 é previsão do calendário, não está confirmada. Os 18 anos são conta de Marinho, atribua a ele se citar na legenda.",
-          "timeline": {"rende": true, "angle": "6x1 em ano eleitoral: o que a PEC muda, quem paga a conta nos pequenos negócios, por que o texto ficou parado desde maio e por que voltou às vésperas do segundo turno."}
+          "timeline": {
+            "rende": true,
+            "angle": "6x1 em ano eleitoral: o que a PEC muda, quem paga a conta nos pequenos negócios, por que o texto ficou parado desde maio e por que voltou às vésperas do segundo turno."
+          }
         },
         {
           "title": "Antes de acreditar no Datafolha, lembra disso",
@@ -86,19 +179,33 @@
           "duration": "20 a 30s",
           "fact": "Na véspera do primeiro turno, o Datafolha deu 42% a Flávio e 45% a Lula nos votos válidos. A urna deu 47,03% a Flávio e 45,16% a Lula. O erro sobre Flávio foi de 5,03 pontos, com margem de 2. CNT/MDA (42,1%) e PoderData (43%) também ficaram muito abaixo. O primeiro Datafolha do segundo turno sai nesta quinta, com 2.520 entrevistas e margem de 2 pontos.",
           "sources": [
-            {"name": "InfoMoney", "url": "https://www.infomoney.com.br/politica/primeiro-datafolha-de-2o-turno-sai-nesta-quinta-veja-o-que-observar/"},
-            {"name": "Jornal Razão", "url": "https://jornalrazao.com/politica/pesquisas-erraram-flavio-bolsonaro-primeiro-turno-2026"}
+            {
+              "name": "InfoMoney",
+              "url": "https://www.infomoney.com.br/politica/primeiro-datafolha-de-2o-turno-sai-nesta-quinta-veja-o-que-observar/"
+            },
+            {
+              "name": "Jornal Razão",
+              "url": "https://jornalrazao.com/politica/pesquisas-erraram-flavio-bolsonaro-primeiro-turno-2026"
+            }
           ],
           "hooks": [
             "Saiu o Datafolha. Antes de você se animar ou se desesperar, olha esse número.",
             "Cinco pontos. Foi isso que o Datafolha errou com o Flávio no domingo."
           ],
           "script": "Cinco pontos. Na véspera do primeiro turno, o Datafolha deu 42% para o Flávio. A urna deu 47. Com Lula, o instituto acertou quase na vírgula. Com Flávio, errou mais que o dobro da margem de erro. E não foi só ele: CNT, MDA e PoderData também ficaram lá embaixo. Hoje saiu o primeiro Datafolha do segundo turno. Não estou dizendo para ignorar. Estou dizendo para lembrar. Pesquisa não vota, quem vota é você. Manda esse vídeo para aquele amigo que fica abatido com pesquisa.",
-          "screen_text": ["Datafolha: 42%", "Urna: 47,03%", "Erro: 5 pontos", "Pesquisa não vota"],
+          "screen_text": [
+            "Datafolha: 42%",
+            "Urna: 47,03%",
+            "Erro: 5 pontos",
+            "Pesquisa não vota"
+          ],
           "caption": "Pesquisa não vota. Manda para aquele amigo que desanima com pesquisa.",
           "risk": "baixo",
           "risk_note": "Números públicos e checáveis. Não chame o instituto de fraudulento nem diga que vai errar de novo. Se o Datafolha sair só à noite, publique depois da divulgação e cite o número novo em uma frase, sem distorcer.",
-          "timeline": {"rende": true, "angle": "Por que os institutos subestimaram Flávio no primeiro turno (amostra presencial, ponderação, eleitor que não declara voto) e o que observar nas pesquisas do segundo."}
+          "timeline": {
+            "rende": true,
+            "angle": "Por que os institutos subestimaram Flávio no primeiro turno (amostra presencial, ponderação, eleitor que não declara voto) e o que observar nas pesquisas do segundo."
+          }
         }
       ]
     }
