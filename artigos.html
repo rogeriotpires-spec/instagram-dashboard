@@ -96,16 +96,20 @@ body.lock{overflow:hidden}
 #e-titulo{font:700 22px/1.25 "Source Serif 4",Georgia,serif}
 #e-sub{font:400 16px/1.45 "Source Serif 4",Georgia,serif;color:var(--text-2)}
 #e-texto{font:400 17px/1.7 "Source Serif 4",Georgia,serif;min-height:360px}
-table.tit{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;font-size:14px}
+table.tit{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;font-size:14px;table-layout:fixed}
 table.tit th{text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:8px 12px;border-bottom:1px solid var(--border);background:var(--surface-2)}
-table.tit td{padding:10px 12px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.tit th.n{width:34px}
+table.tit td{padding:0;border-bottom:1px solid var(--grid);vertical-align:top}
 table.tit tr:last-child td{border-bottom:0}
-table.tit td.n{width:34px;color:var(--muted);font-weight:700}
-table.tit a{color:var(--brasa);font-weight:700;text-decoration:none;font-family:"Source Serif 4",Georgia,serif;font-size:15.5px}
-table.tit a:hover{text-decoration:underline}
-table.tit .s{color:var(--text-2);font-size:13.5px;margin-top:2px}
-table.tit tr.on td{background:var(--sel)}
-table.tit tr.on td.n{color:var(--brasa)}
+table.tit td.n{padding:10px 12px;color:var(--muted);font-weight:700}
+table.tit a{display:block;padding:10px 12px 10px 14px;text-decoration:none;height:100%;border-left:3px solid transparent}
+table.tit a:hover{background:var(--surface-2)}
+table.tit a.t{color:var(--brasa);font-weight:700;font-family:"Source Serif 4",Georgia,serif;font-size:15.5px;line-height:1.3}
+table.tit a.s{color:var(--text-2);font-size:13.5px}
+table.tit a.on{background:var(--sel);border-left-color:var(--brasa)}
+table.tit a.on::after{content:"✓ no artigo";display:block;margin-top:4px;font:700 10.5px system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--brasa)}
+table.tit .lb{display:none}
+@media (max-width:640px){table.tit thead{display:none}table.tit tr{display:grid;grid-template-columns:30px 1fr;border-bottom:1px solid var(--grid)}table.tit tr:last-child{border-bottom:0}table.tit td{border:0}table.tit td.n{grid-row:span 2;padding:10px 0 0 10px}table.tit .lb{display:block;font:700 10px system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}}
 .fontes{font-size:13px;color:var(--text-2)}
 .fontes a{color:var(--text-2)}
 .bar{position:sticky;bottom:0;background:var(--surface);border-top:1px solid var(--border);padding:12px 18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
@@ -216,8 +220,8 @@ async function openArticle(id){
 function fieldsHTML(){
   const t=A.titulos||[];
   return`<div class="dlg-b">
-    <div class="sec"><div class="lab"><span>Sugestões de título e subtítulo</span><small>Toque para usar no artigo</small></div>
-      <table class="tit"><thead><tr><th>#</th><th>Título e subtítulo</th></tr></thead><tbody>${t.map((x,i)=>`<tr class="${i===A.escolha?"on":""}" data-i="${i}"><td class="n">${i+1}</td><td><a href="#" data-i="${i}">${esc(x.titulo)}</a><div class="s">${esc(x.subtitulo)}</div></td></tr>`).join("")}</tbody></table></div>
+    <div class="sec"><div class="lab"><span>Sugestões de título e subtítulo</span><small>Toque num título e num subtítulo: dá para combinar, por exemplo, o título 1 com o subtítulo 5</small></div>
+      <table class="tit"><thead><tr><th class="n">#</th><th>Título</th><th>Subtítulo</th></tr></thead><tbody>${t.map((x,i)=>`<tr><td class="n">${i+1}</td><td><a href="#" class="t${A.titulos[i].titulo===A.titulo?" on":""}" data-k="titulo" data-i="${i}"><span class="lb">Título</span>${esc(x.titulo)}</a></td><td><a href="#" class="s${A.titulos[i].subtitulo===A.subtitulo?" on":""}" data-k="subtitulo" data-i="${i}"><span class="lb">Subtítulo</span>${esc(x.subtitulo)}</a></td></tr>`).join("")}</tbody></table></div>
     <div class="sec"><div class="lab"><span>Título</span><button class="cp" data-c="titulo">${ICON}Copiar título</button></div><textarea class="fld" id="e-titulo" rows="1"></textarea></div>
     <div class="sec"><div class="lab"><span>Subtítulo</span><button class="cp" data-c="subtitulo">${ICON}Copiar subtítulo</button></div><textarea class="fld" id="e-sub" rows="1"></textarea></div>
     <div class="sec"><div class="lab"><span>Texto <small id="wc"></small></span><button class="cp" data-c="texto">${ICON}Copiar texto</button></div><textarea class="fld" id="e-texto"></textarea></div>
@@ -233,12 +237,12 @@ function render(note){
   $("#dlg-t").textContent=A.pauta_titulo?`Pauta: ${A.pauta_titulo}`:(A.origem&&A.origem.rotulo)||"";
   $("#dlg-c").innerHTML=fieldsHTML();
   const F={titulo:$("#e-titulo"),subtitulo:$("#e-sub"),texto:$("#e-texto"),palavras_chave:$("#e-kw")};
-  for(const k in F){F[k].value=A[k]||"";grow(F[k]);F[k].oninput=()=>{A[k]=F[k].value;grow(F[k]);if(k==="texto")wc();mark()}}
+  for(const k in F){F[k].value=A[k]||"";grow(F[k]);F[k].oninput=()=>{A[k]=F[k].value;grow(F[k]);if(k==="texto")wc();if(k==="titulo"||k==="subtitulo")document.querySelectorAll(`.tit a[data-k="${k}"]`).forEach(x=>x.classList.toggle("on",A.titulos[+x.dataset.i][k]===A[k]));mark()}}
   const wc=()=>$("#wc").textContent=`· ${A.texto.trim().split(/\s+/).filter(Boolean).length} palavras`;wc();
-  document.querySelectorAll(".tit tr[data-i]").forEach(tr=>tr.onclick=e=>{e.preventDefault();const i=+tr.dataset.i,x=A.titulos[i];
-    if(DIRTY&&(A.titulo!==A.titulos[A.escolha]?.titulo||A.subtitulo!==A.titulos[A.escolha]?.subtitulo)&&!confirm("Trocar o título e o subtítulo que você editou por esta sugestão?"))return;
-    A.escolha=i;A.titulo=x.titulo;A.subtitulo=x.subtitulo;F.titulo.value=x.titulo;F.subtitulo.value=x.subtitulo;grow(F.titulo);grow(F.subtitulo);
-    document.querySelectorAll(".tit tr").forEach(r=>r.classList.toggle("on",+r.dataset.i===i));mark();toast("Título e subtítulo trocados")});
+  document.querySelectorAll(".tit a[data-k]").forEach(el=>el.onclick=e=>{e.preventDefault();const k=el.dataset.k,i=+el.dataset.i,v=A.titulos[i][k];
+    const sug=A.titulos.map(x=>x[k]);if((A[k]||"").trim()&&!sug.includes(A[k])&&!confirm(`Trocar o ${k==="titulo"?"título":"subtítulo"} que você editou por esta sugestão?`))return;
+    A[k]=v;if(k==="titulo")A.escolha=i;else A.escolha_sub=i;F[k].value=v;grow(F[k]);
+    document.querySelectorAll(`.tit a[data-k="${k}"]`).forEach(x=>x.classList.toggle("on",+x.dataset.i===i));mark();toast(k==="titulo"?`Título ${i+1} no artigo`:`Subtítulo ${i+1} no artigo`)});
   document.querySelectorAll(".cp[data-c]").forEach(b=>b.onclick=()=>copy(A[b.dataset.c]||""));
   $("#b-save").onclick=()=>save({});
   linkSec();
@@ -254,7 +258,8 @@ function linkSec(){
 }
 const say=t=>{const e=$("#e-st");if(e)e.textContent=t};
 function mark(){DIRTY=true;ls.set("artigo_edit:"+A.id,{base:A.saved_at||A.criado,data:pick()});say("Alterações não salvas (guardadas neste aparelho)")}
-function pick(){return{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto,palavras_chave:A.palavras_chave,titulos:A.titulos,escolha:A.escolha,status:A.status,link:A.link||""}}
+function subIdx(){return(A.titulos||[]).findIndex(x=>x.subtitulo===A.subtitulo)}
+function pick(){return{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto,palavras_chave:A.palavras_chave,titulos:A.titulos,escolha:A.escolha,escolha_sub:subIdx(),status:A.status,link:A.link||""}}
 async function save(extra){
   if(!A)return;Object.assign(A,extra);A.saved_at=nowISO();
   const data={id:A.id,...pick(),saved_at:A.saved_at};

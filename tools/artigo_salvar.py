@@ -15,7 +15,8 @@ for k, n in (("titulo", 400), ("subtitulo", 800), ("texto", 40000), ("palavras_c
     if k in p: a[k] = s(p[k], n)
 if isinstance(p.get("titulos"), list):
     a["titulos"] = [{"titulo": s(t.get("titulo"), 400), "subtitulo": s(t.get("subtitulo"), 800)} for t in p["titulos"][:10] if isinstance(t, dict)]
-if isinstance(p.get("escolha"), int): a["escolha"] = p["escolha"]
+for k in ("escolha", "escolha_sub"):
+    if isinstance(p.get(k), int): a[k] = p[k]
 if p.get("status") in ("rascunho", "finalizado", "publicado"): a["status"] = p["status"]
 if "link" in p:
     link = s(p["link"], 500).strip()
