@@ -46,11 +46,13 @@ jobs:
           if ! OUT=$(python3 tools/artigo_validar.py "artigos/$ID.json" 2>&1); then echo "::error::$OUT"; exit 1; fi
           echo "::notice::$OUT"
           cp "artigos/$ID.json" /tmp/artigo.json
+          [ -f novos-aprendizados.json ] && cp novos-aprendizados.json /tmp/novos.json || echo "[]" > /tmp/novos.json
           for i in 1 2 3 4 5; do
             git fetch -q origin main 2>/tmp/err || { echo "::error::fetch: $(cat /tmp/err)"; exit 1; }; git reset -q --hard origin/main
             cp /tmp/artigo.json "artigos/$ID.json"
             python3 tools/artigo_index.py
-            git add "artigos/$ID.json" artigos/index.json
+            python3 tools/artigo_aprender.py /tmp/novos.json "$ID"
+            git add "artigos/$ID.json" artigos/index.json artigos/aprendizados.json
             git diff --cached --quiet && exit 0
             git commit -qm "Artigo da Timeline: $ID" && git push -q origin HEAD:main && exit 0
             sleep $((i*4))

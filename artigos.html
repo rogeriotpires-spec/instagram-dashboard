@@ -125,6 +125,19 @@ table.tit .lb{display:none}
 .gen .spin{width:34px;height:34px;border:3px solid var(--grid);border-top-color:var(--brasa);border-radius:50%;margin:0 auto 14px;animation:sp 1s linear infinite}
 @keyframes sp{to{transform:rotate(360deg)}}
 .gen p{color:var(--text-2);margin:6px 0}
+.rw{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px}
+.rw .fld{margin-bottom:10px;font-size:15px}
+.ck{display:flex;gap:8px;align-items:flex-start;font-size:13.5px;color:var(--text-2);margin-bottom:12px;cursor:pointer}
+.ck input{margin-top:3px;accent-color:var(--brasa)}
+details.ant{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:10px 14px}
+details.ant summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--text-2)}
+.ant .v{border-top:1px solid var(--grid);padding:10px 0;font-size:13.5px}
+.ant .v b{font-family:"Source Serif 4",Georgia,serif}
+.ant .fb{color:var(--muted);font-size:12.5px;margin:4px 0}
+.learn{margin-top:28px}
+.learn ol{margin:0;padding-left:20px}
+.learn li{margin:0 0 10px}
+.learn li small{display:block;color:var(--muted);font-size:12.5px}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--text);color:var(--bg);padding:8px 16px;border-radius:999px;font-size:13px;font-weight:600;opacity:0;transition:opacity .2s;z-index:60;pointer-events:none}
 .toast.on{opacity:1}
 @media (max-width:640px){.ov{padding:0}.dlg{border-radius:0;margin:0;min-height:100%}#e-titulo{font-size:20px}#e-texto{font-size:16.5px}}
@@ -137,6 +150,7 @@ table.tit .lb{display:none}
   <h2>Artigos</h2>
   <p class="lead">Toque em "Rende artigo na Timeline" numa pauta para escrever um artigo novo. Toque numa linha para abrir, editar ou incluir o link da publicação.</p>
   <div class="card"><table class="list"><thead><tr><th>Criado</th><th>Título</th><th>Pauta de origem</th><th>Situação</th><th>Na Timeline</th></tr></thead><tbody id="rows"><tr><td colspan="5" class="empty">Carregando…</td></tr></tbody></table></div>
+  <section class="learn" id="learn"></section>
 </main>
 
 <div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="dlg-t">
@@ -215,7 +229,10 @@ async function openArticle(id){
   let note="";
   if(saved&&(!a.saved_at||saved.saved_at>a.saved_at)){Object.assign(a,saved);note="saving"}else ls.del("artigo_save:"+id);
   if(edit&&edit.base===(a.saved_at||a.criado)){Object.assign(a,edit.data);DIRTY=true}else ls.del("artigo_edit:"+id);
-  A=a;render(note);
+  A=a;
+  const rw=ls.get("artigo_rw:"+id);
+  if(rw&&rw.sent&&(a.versao||1)<=rw.versao&&Date.now()-new Date(rw.sent)<25*60e3)return watchRewrite(id,rw);
+  ls.del("artigo_rw:"+id);render(note);
 }
 function fieldsHTML(){
   const t=A.titulos||[];
@@ -228,6 +245,12 @@ function fieldsHTML(){
     <div class="sec"><div class="lab"><span>Palavras-chave (SEO)</span><button class="cp" data-c="palavras_chave">${ICON}Copiar</button></div><textarea class="fld" id="e-kw" rows="1"></textarea></div>
     ${(A.fontes||[]).length?`<div class="sec"><div class="lab"><span>Fontes consultadas</span></div><div class="fontes">${A.fontes.map(f=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)} ↗</a>`).join(" · ")}</div></div>`:""}
     <div class="sec" id="link-sec"></div>
+    <div class="sec"><div class="rw"><div class="lab"><span>Reescreva o artigo</span></div>
+      <textarea class="fld" id="e-fb" rows="4" placeholder="Diga o que você não concorda, o que deve melhorar ou mudar. Ex.: a abertura está fraca; quero o tom mais duro com o STF; corte as perguntas retóricas; faltou citar a decisão de tal data…"></textarea>
+      <label class="ck"><input type="checkbox" id="e-learn" checked><span>Levar estas observações em conta também nos próximos artigos</span></label>
+      <button class="btn pri" id="b-rw">Reescreva o artigo</button></div></div>
+    ${(A.anteriores||[]).length?`<div class="sec"><details class="ant"><summary>Versões anteriores (${A.anteriores.length})</summary>${A.anteriores.map((v,i)=>`<div class="v"><b>${esc(v.titulo)}</b><div class="fb">${fdt(v.em)} · ${v.texto.trim().split(/\s+/).length} palavras</div>${(A.revisoes||[]).length?"":""}<button class="cp" data-rest="${i}">Restaurar este texto</button></div>`).join("")}</details></div>`:""}
+    ${(A.revisoes||[]).length?`<div class="sec"><details class="ant"><summary>Seus pedidos de reescrita (${A.revisoes.length})</summary>${A.revisoes.slice().reverse().map(r=>`<div class="v"><div class="fb">${fdt(r.em)}</div>${esc(r.feedback)}</div>`).join("")}</details></div>`:""}
   </div>
   <div class="bar"><span id="e-st"></span><button class="btn" id="b-fin"></button><button class="btn pri" id="b-save">Salvar</button></div>`;
 }
@@ -245,6 +268,9 @@ function render(note){
     document.querySelectorAll(`.tit a[data-k="${k}"]`).forEach(x=>x.classList.toggle("on",+x.dataset.i===i));mark();toast(k==="titulo"?`Título ${i+1} no artigo`:`Subtítulo ${i+1} no artigo`)});
   document.querySelectorAll(".cp[data-c]").forEach(b=>b.onclick=()=>copy(A[b.dataset.c]||""));
   $("#b-save").onclick=()=>save({});
+  $("#e-fb").value=A._fb||"";$("#b-rw").onclick=()=>rewrite();
+  document.querySelectorAll("[data-rest]").forEach(b=>b.onclick=()=>{const v=A.anteriores[+b.dataset.rest];if(!confirm("Trocar título, subtítulo e texto atuais por esta versão? (só vale depois de Salvar)"))return;
+    for(const k of ["titulo","subtitulo","texto"]){A[k]=v[k];F[k].value=v[k];grow(F[k])}wc();mark();toast("Versão restaurada. Toque em Salvar para gravar.");F.titulo.scrollIntoView({behavior:"smooth",block:"center"})});
   linkSec();
   setTimeout(()=>Object.values(F).forEach(grow),50);
   if(note==="saving"){say("Salvando no GitHub…");watchSave(A.saved_at)}else say(DIRTY?"Alterações não salvas (guardadas neste aparelho)":A.saved_at?`Salvo em ${fdt(A.saved_at)}`:"Versão gerada, ainda não editada");
@@ -281,6 +307,42 @@ async function watchSave(stamp){
   if(A&&A.id===id&&!DIRTY)say("Salvo neste aparelho; o site está demorando para publicar. Confira em alguns minutos.");
 }
 
+/* ---------- reescrita ---------- */
+function rwScreen(msg,err){
+  $("#dlg-eb").textContent="Reescrevendo o artigo";
+  $("#dlg-c").innerHTML=`<div class="gen">${err?"":`<div class="spin"></div>`}<p style="font-weight:700;color:var(--text)">${esc(msg)}</p><p>O texto é refeito com as suas observações, com 5 novos títulos. Leva de 2 a 6 minutos. A versão atual fica guardada em "Versões anteriores".</p>${err?`<p><button class="btn pri" id="rw-back">Voltar ao artigo</button></p>`:""}</div>`;
+  if(err)$("#rw-back").onclick=()=>{ls.del("artigo_rw:"+A.id);render()};
+}
+async function rewrite(){
+  const fb=$("#e-fb").value.trim();if(fb.length<5){toast("Escreva o que deve mudar");$("#e-fb").focus();return}
+  const learn=$("#e-learn").checked,id=A.id;A._fb=fb;
+  const job={id,modo:"reescrever",feedback:fb,aprender:learn,atual:{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto,titulos:A.titulos,palavras_chave:A.palavras_chave}};
+  const st={versao:A.versao||1,feedback:fb,sent:null};ls.set("artigo_rw:"+id,st);
+  rwScreen("Enviando o pedido…");
+  try{await Painel.call("/acao",{job:"artigo",payload:JSON.stringify(job)})}
+  catch(e){ls.del("artigo_rw:"+id);return rwScreen(`Não foi possível enviar: ${e.message}`,true)}
+  st.sent=new Date().toISOString();ls.set("artigo_rw:"+id,st);
+  ls.del("artigo_edit:"+id);ls.del("artigo_save:"+id);DIRTY=false;
+  watchRewrite(id,st);
+}
+async function watchRewrite(id,st){
+  const my=++POLL,since=new Date(new Date(st.sent).getTime()-90e3),t0=Date.now();rwScreen("Reescrevendo com as suas observações…");
+  while(my===POLL&&Date.now()-t0<25*60e3){
+    await sleep(15000);
+    const a=await nocache(`artigos/${id}.json`).then(r=>r.ok?r.json():null).catch(()=>null);
+    if(my!==POLL)return;
+    if(a&&(a.versao||1)>st.versao){ls.del("artigo_rw:"+id);toast("Artigo reescrito");return openArticle(id)}
+    const run=await Painel.lastRun("artigo.yml");
+    if(run&&new Date(run.created_at)>=since&&run.status==="completed"){if(run.conclusion!=="success"){ls.del("artigo_rw:"+id);return rwScreen("Não deu certo desta vez. Suas observações continuam aqui: tente de novo.",true)}rwScreen("Pronto no GitHub. Publicando no site…")}
+  }
+}
+
+/* ---------- aprendizados ---------- */
+async function renderLearn(){
+  const L=await nocache("artigos/aprendizados.json").then(r=>r.ok?r.json():{itens:[]}).then(j=>j.itens||[]).catch(()=>[]);
+  $("#learn").innerHTML=`<h2>O que o redator já aprendeu com você</h2><p class="lead">Regras tiradas dos seus pedidos de reescrita. Valem para todos os próximos artigos.</p>`+(L.length?`<div class="card" style="padding:16px 18px"><ol>${L.slice().reverse().map(i=>`<li>${esc(i.regra)}<small>${i.data?i.data.split("-").reverse().join("/"):""}${i.comentario?` · você disse: “${esc(i.comentario)}”`:""}</small></li>`).join("")}</ol></div>`:`<div class="card empty">Ainda nada. Quando você pedir uma reescrita com a opção "Levar em conta nos próximos artigos" marcada, as regras aparecem aqui.</div>`);
+}
+
 /* ---------- rotas ---------- */
 async function route(){
   let h=location.hash.slice(1);if(!h)return;
@@ -298,7 +360,7 @@ async function route(){
   if(r&&r.ok)return openArticle(id);
 }
 window.addEventListener("hashchange",()=>{if(location.hash)route()});
-(async()=>{await loadIndex();renderList();route()})();
+(async()=>{await loadIndex();renderList();renderLearn();route()})();
 </script>
 </body>
 </html>
