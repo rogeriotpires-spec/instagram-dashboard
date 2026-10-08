@@ -36,7 +36,10 @@ jobs:
       - name: Publicar
         env:
           ID: ${{ steps.ped.outputs.id }}
+          GHT: ${{ github.token }}
         run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${GHT}@github.com/${{ github.repository }}.git"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ ! -f "artigos/$ID.json" ]; then echo "::error::O artigo não foi gravado (artigos/$ID.json não existe)"; exit 1; fi
@@ -44,7 +47,7 @@ jobs:
           echo "::notice::$OUT"
           cp "artigos/$ID.json" /tmp/artigo.json
           for i in 1 2 3 4 5; do
-            git fetch -q origin main && git reset -q --hard origin/main
+            git fetch -q origin main 2>/tmp/err || { echo "::error::fetch: $(cat /tmp/err)"; exit 1; }; git reset -q --hard origin/main
             cp /tmp/artigo.json "artigos/$ID.json"
             python3 tools/artigo_index.py
             git add "artigos/$ID.json" artigos/index.json
@@ -52,4 +55,5 @@ jobs:
             git commit -qm "Artigo da Timeline: $ID" && git push -q origin HEAD:main && exit 0
             sleep $((i*4))
           done
+          echo "::error::Não consegui publicar o artigo no repositório (push recusado)"
           exit 1
