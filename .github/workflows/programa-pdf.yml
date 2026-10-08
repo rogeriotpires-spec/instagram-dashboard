@@ -1,0 +1,46 @@
+name: PDF da pauta do programa
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "programa/2*.json"
+      - "programa-pdf.html"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: programa-pdf
+  cancel-in-progress: false
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: America/Sao_Paulo
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar PDFs
+        run: |
+          npm i --silent --no-save playwright@1.47.2
+          python3 -m http.server 8777 >/dev/null 2>&1 &
+          sleep 1
+          node tools/pdf-programa.js
+      - name: Publicar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/pdf && cp programa/*.pdf /tmp/pdf/ 2>/dev/null || true
+          for i in 1 2 3 4; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp /tmp/pdf/*.pdf programa/ 2>/dev/null || true
+            git add programa/*.pdf
+            if git diff --cached --quiet; then echo "Sem mudanças."; exit 0; fi
+            git commit -q -m "PDF da pauta do programa"
+            git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

@@ -1,0 +1,35 @@
+{
+  "_doc": "Parâmetros da Pauta do programa Conversa Timeline. Pode editar direto no GitHub: as próximas pautas usam os valores novos.",
+  "programa": "Conversa Timeline",
+  "itens": 6,
+  "linhas_resumo": 5,
+  "metafora_percentual": 25,
+  "perguntas_por_item": 3,
+  "fontes_por_item": "2 a 4",
+  "linha_editorial": "Visão de direita e conservadora: defesa da liberdade de expressão, do Estado de Direito, da responsabilidade fiscal, da segurança pública, da família e dos limites do poder do Judiciário. Fatos sempre verificáveis; opinião sempre identificada como análise.",
+  "fontes_preferidas": [
+    "Gazeta do Povo",
+    "Revista Oeste",
+    "Jovem Pan",
+    "Poder360",
+    "O Antagonista",
+    "Diário do Poder",
+    "Pleno.News",
+    "Estadão",
+    "Folha de S.Paulo",
+    "O Globo",
+    "CNN Brasil",
+    "Metrópoles",
+    "Agência Brasil"
+  ],
+  "blocos": [
+    "Política nacional",
+    "STF e instituições",
+    "Economia",
+    "Segurança pública",
+    "Rio de Janeiro",
+    "Internacional",
+    "Educação"
+  ],
+  "virada_hora": 14
+}
