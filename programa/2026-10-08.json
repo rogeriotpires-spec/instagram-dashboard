@@ -1,322 +1,377 @@
 {
-  "date": "2026-10-08",
-  "generated": "2026-10-07T22:14:00-03:00",
-  "programa": "Conversa Timeline",
-  "titulo": "A semana em que a eleição passou a ser decidida nos tribunais e nos bastidores",
-  "abertura": "A pauta de quinta (8) tem um TSE que pode decidir o governo do Rio sem 2º turno. No Senado, a PEC do fim da escala 6x1 avança a quatro dias da eleição. No STF, Moraes toma decisões que o bolsonarismo lê como aceno ou como recuo, e a PGR não se opõe a que Flávio visite o pai. Na economia, o mercado já precifica um novo governo e a conta ainda não foi paga. Na segurança, a PF mostra o fuzil saindo de dentro da farda.",
-  "agenda": [
+ "date": "2026-10-08",
+ "generated": "2026-10-08T10:13:26-03:00",
+ "programa": "Conversa Timeline",
+ "titulo": "Tribunais, plenário e maioria: a quinta em que o 2º turno ganha regras novas",
+ "abertura": "A quinta (8) começa com o TSE decidindo se a eleição do Rio termina sem 2º turno, por causa de 274 mil votos de Garotinho. Em Brasília, o governo quer encurtar o rito da PEC do fim da escala 6x1 para votar antes do dia 25, enquanto a frente de Flávio Bolsonaro já soma mais da metade da Câmara eleita. No STF, Nunes Marques empurra a revisão criminal de Bolsonaro para depois da urna, e no bolso do apostador o fim das bets começa a ser pago com devolução a partir de sexta. Fecha a pauta o terceiro incêndio em oito dias na UFPE, que levou anos de pesquisa e reabre a pergunta sobre quem cuida do patrimônio público.",
+ "agenda": [
+  {
+   "time": "10h",
+   "text": "Plenário do TSE julga em sessão presencial o pedido de desistência de Garotinho, que pode eleger Douglas Ruas no 1º turno",
+   "source": {
+    "name": "Jovem Pan",
+    "url": "https://jovempan.com.br/politica/tse-julga-nesta-quinta-desistencia-de-garotinho-que-pode-decidir-eleicao-no-rj/"
+   }
+  },
+  {
+   "time": "14h",
+   "text": "Senado faz a 3ª sessão de discussão da PEC do fim da escala 6x1 (PEC 221/2019)",
+   "source": {
+    "name": "Agência Senado",
+    "url": "https://www12.senado.leg.br/noticias/materias/2026/10/07/pec-do-fim-da-escala-6x1-passa-por-2a-sessao-de-discussao-no-plenario"
+   }
+  }
+ ],
+ "itens": [
+  {
+   "id": "pec-6x1-senado",
+   "bloco": "Política nacional",
+   "titulo": "A PEC com cronômetro eleitoral",
+   "subtitulo": "Governo quer atropelar o rito do Senado para votar o fim da 6x1 antes do dia 25, e Lula transforma a jornada de trabalho em armadilha para Flávio",
+   "resumo": "A líder do governo no Senado, Teresa Leitão (PT-PE), entrega nesta quinta (8) a Davi Alcolumbre um pedido de calendário especial para encurtar os prazos da PEC 221/2019, que reduz a jornada máxima de 44 para 40 horas semanais e acaba com a escala 6x1. O rito normal exige cinco sessões de discussão antes do 1º turno e mais três antes do 2º, e a pressa tem endereço claro: concluir tudo antes do segundo turno presidencial de 25 de outubro. Em plenária do PT na quarta (7), Lula desafiou Flávio Bolsonaro a votar a favor e chamou de acordo leonino a proposta do candidato do PL de dar ao trabalhador liberdade para montar a própria jornada. A oposição reage dizendo que votar uma mudança desse tamanho no meio da eleição é oportunismo, enquanto senadores como Oriovisto Guimarães cobram respostas sobre horistas, hospitais e imprensa que ninguém deu até agora. O que está em jogo é se uma regra que mexe com o emprego e o custo das empresas de todo o país será decidida pelo debate técnico ou pelo calendário de campanha do Planalto.",
+   "contexto": [
+    "PEC 221/2019: jornada máxima cai de 44 para 40 horas semanais, com dois dias de repouso e sem redução salarial; precisa de 49 dos 81 senadores em cada turno (Agência Senado)",
+    "Duas sessões de discussão já ocorreram (terça 6 e quarta 7); a terceira é nesta quinta (8), às 14h; o rito exige cinco antes do 1º turno e três antes do 2º",
+    "O requerimento de calendário especial precisa de 27 assinaturas ou do aval de líderes que somem ao menos 27 senadores; com ele, os dois turnos poderiam ocorrer na mesma semana (Poder360)",
+    "A PEC estava parada no Senado desde maio; Alcolumbre sinalizou na terça (6) votação antes do segundo turno de 25 de outubro, mas disse que não pode abreviar prazos por decisão própria",
+    "Rogério Marinho (PL-RN), coordenador da campanha de Flávio, chamou a votação de oportunista e de medida desesperada de Lula pela reeleição (CNN Brasil)"
+   ],
+   "angulo": [
+    "Uma PEC que ficou cinco meses na gaveta não vira urgência nacional por acaso a 17 dias do segundo turno: o governo quer usar o plenário do Senado como palanque.",
+    "Encurtar o rito de uma emenda constitucional que mexe com a folha de pagamento de todo o país é desrespeito ao próprio Senado; prazo regimental existe justamente para mudança desse porte.",
+    "A liberdade de o trabalhador negociar a própria jornada não é acordo leonino; leonino é o Estado decidir por decreto constitucional quantos dias o pequeno comerciante pode abrir as portas.",
+    "Ninguém apresentou na tribuna quanto isso custa, nem como ficam hospitais, horistas e o pequeno empregador; sem essa conta, quem paga é o emprego formal."
+   ],
+   "perguntas": [
+    "Faz sentido votar uma emenda constitucional dessa dimensão com rito encurtado a poucos dias de uma eleição presidencial?",
+    "Flávio Bolsonaro deveria aceitar o desafio de Lula ou manter a defesa da jornada negociada, mesmo pagando o preço eleitoral?",
+    "Quem vai arcar com a conta da redução de 44 para 40 horas: o pequeno empresário, o consumidor ou o trabalhador que perde a vaga formal?"
+   ],
+   "atencao": "Há divergência entre veículos sobre quem lidera a oposição no Senado (Poder360 cita Izalci Lucas; CNN cita Rogério Marinho), então convém citar os nomes sem o cargo; o pedido de calendário especial ainda não havia sido formalizado até a noite de quarta (7), segundo o Poder360.",
+   "fontes": [
     {
-      "time": "10h",
-      "text": "TSE julga o pedido de desistência de recurso de Anthony Garotinho, que pode definir se há 2º turno no Rio",
-      "source": {
-        "name": "Gazeta do Povo",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
-      }
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-congresso/pt-articula-para-garantir-votacao-da-6-x-1/"
     },
     {
-      "time": "14h",
-      "text": "Senado realiza a terceira sessão de discussão da PEC do fim da escala 6x1",
-      "source": {
-        "name": "Poder360",
-        "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/"
-      }
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/oposicao-atua-para-adiar-votacao-da-6x1-para-depois-do-2o-turno/"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-cobra-flavio-bolsonaro-sobre-apoio-ao-fim-da-escala-6x1"
+    },
+    {
+     "name": "Diário do Poder",
+     "url": "https://diariodopoder.com.br/brasil-e-regioes/lsf-brasil/pressionado-alcolumbre-entra-na-corrida-do-governo-para-acelerar-6x1"
+    },
+    {
+     "name": "Agência Senado",
+     "url": "https://www12.senado.leg.br/noticias/materias/2026/10/07/pec-do-fim-da-escala-6x1-passa-por-2a-sessao-de-discussao-no-plenario"
     }
-  ],
-  "itens": [
+   ]
+  },
+  {
+   "id": "garotinho-tse-ruas-paes",
+   "bloco": "Rio de Janeiro",
+   "titulo": "274 mil votos decidem o Rio",
+   "subtitulo": "O TSE julga hoje se Garotinho pode desistir do recurso, e a resposta pode encerrar a eleição para governador sem 2º turno",
+   "resumo": "O plenário do TSE julga a partir das 10h desta quinta (8) se Anthony Garotinho (Republicanos) pode desistir do recurso contra o indeferimento de sua candidatura ao governo do Rio, e até o fechamento desta pesquisa, às 10h11, não havia resultado publicado. Douglas Ruas (PL) teve 49,27% dos válidos, Eduardo Paes (PSD) ficou com 42,76% e Garotinho somou 274.411 votos (3,17%), que hoje seguram a eleição no limite da maioria absoluta. Se a desistência for homologada, os votos de Garotinho saem da conta e Ruas passa da metade dos válidos, sendo eleito no 1º turno, e se não for, o 2º turno segue marcado para 25 de outubro. A coligação de Paes acusa má-fé e abuso de direito e quer que esses votos contem para forçar o 2º turno, enquanto a Procuradoria-Geral Eleitoral defendeu aceitar a desistência. O que está em jogo é simples: o tribunal deve aplicar a lei e o direito do próprio candidato de encerrar o seu processo, e não reescrever a conta das urnas para salvar a candidatura de quem ficou atrás.",
+   "contexto": [
+    "Resultado do 1º turno: Ruas 4.271.199 votos (49,27%), Paes 3.706.984 (42,76%), Garotinho 274.411 (3,17%), com candidatura sub judice.",
+    "TRE-RJ negou o registro de Garotinho por entender que seus direitos políticos estavam suspensos por condenação por improbidade administrativa; a disputa gira em torno do início da contagem da inelegibilidade de oito anos da Ficha Limpa.",
+    "Relator: ministro Floriano de Azevedo Marques; os sete ministros do TSE votam, e qualquer um pode pedir vista e suspender o julgamento.",
+    "O vice-procurador-geral eleitoral Alexandre Espinosa apoiou a desistência como exceção à jurisprudência; se ela não for aceita, defendeu negar o recurso e manter os votos anulados.",
+    "Em 6 de outubro, a coligação de Paes pediu ao TSE que rejeite a desistência, mantenha os votos no cálculo e confirme o 2º turno de 25 de outubro."
+   ],
+   "angulo": [
+    "Desistir de um recurso é direito da parte, e a própria Procuradoria-Geral Eleitoral reconheceu isso; negar esse direito só para produzir um 2º turno seria o Judiciário escolhendo resultado, não aplicando regra.",
+    "Paes quer que votos de um candidato barrado pela Ficha Limpa contem para impedir a vitória de quem teve mais votos válidos: é uma tese casuística, que usa voto anulado como muleta eleitoral.",
+    "O cidadão fluminense merece segurança jurídica: a regra da maioria absoluta tem que valer igual para todos, e a decisão deve sair rápido, sem pedido de vista que deixe o Rio sem saber quem governa.",
+    "Se o TSE homologar a desistência, a vitória de Ruas é fruto da conta prevista em lei, e não de manobra; quem perde no voto não deve ganhar no tapetão."
+   ],
+   "perguntas": [
+    "Se o TSE negar a desistência, que recado isso passa sobre o poder da Justiça Eleitoral de decidir quem vai ou não ao 2º turno?",
+    "A estratégia de Paes de pedir que votos anulados contem na maioria absoluta tem amparo na lei ou é puro casuísmo?",
+    "Um pedido de vista hoje mantém o Rio em suspense até perto de 25 de outubro: quem ganha com essa demora?"
+   ],
+   "atencao": "Julgamento em andamento na manhã desta quinta, sem resultado conhecido às 10h11; conferir o desfecho antes de ir ao ar, e tratar a acusação de má-fé como alegação da coligação de Paes.",
+   "fontes": [
     {
-      "id": "seis-por-um",
-      "bloco": "Política nacional",
-      "titulo": "A conta do fim de semana",
-      "subtitulo": "A PEC que promete descanso chega ao Senado com pressa de campanha e dúvida sobre quem paga",
-      "resumo": "O Senado fez nesta quarta (7) a segunda das cinco sessões de discussão da PEC 221/2019, que reduz a jornada de 44 para 40 horas semanais com dois dias de descanso e sem corte de salário. Davi Alcolumbre diz que não vai atropelar o rito, mas pelo calendário regular a votação do 1º turno cairia em 21 de outubro, quatro dias antes do 2º turno da eleição. A PEC precisa de 49 votos em cada turno, e o governo Lula cobra publicamente como o PL vai votar. Entidades do comércio, dos serviços e da indústria pedem que a votação fique para depois da eleição, e a CNI estima alta de até 7% na folha formal, entre R$ 178,2 bilhões e R$ 267,2 bilhões por ano. Para o cidadão, o ponto central é saber se mais descanso virá com emprego e preço estáveis ou com repasse de custo, e se um tema desse tamanho deve ser decidido no calor da campanha.",
-      "metafora": "É como dividir a mesma pizza em mais fatias sem aumentar o tamanho da pizza: alguém precisa pagar pelo ingrediente que falta, e a conta pode chegar no preço ou no emprego.",
-      "contexto": [
-        "A Câmara aprovou a PEC em maio e a CCJ do Senado, em 2 de setembro; faltam dois turnos no plenário, com 49 votos cada.",
-        "Regimento: 5 sessões de discussão para o 1º turno e mais 3 antes do 2º; a próxima é quinta (8), às 14h.",
-        "Ipea calcula alta média de 7,84% no custo da hora do trabalhador celetista; a CNI calcula o custo para manter o mesmo volume de horas.",
-        "A transição para MEIs e pequenas empresas depende de uma lei complementar que ainda não existe."
-      ],
-      "angulo": [
-        "Análise do programa: o debate sobre jornada é legítimo, mas o custo para o pequeno negócio precisa estar na mesa antes do voto.",
-        "O tempo da votação, a poucos dias do 2º turno, mistura política e economia.",
-        "Quem sustenta a folha de uma padaria de 16 empregados quando o fim de semana é o maior faturamento?"
-      ],
-      "perguntas": [
-        "Quem vai pagar a conta da redução da jornada: o empresário, o consumidor ou o próprio trabalhador, com menos vagas?",
-        "Faz sentido votar uma mudança dessa dimensão a quatro dias do 2º turno?",
-        "Uma jornada flexível, com pagamento por hora, protege mais o trabalhador ou o deixa mais exposto?"
-      ],
-      "atencao": "As estimativas de custo divergem porque Ipea e CNI usam métodos diferentes; a CNI é entidade patronal.",
-      "fontes": [
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-diz-que-nao-vai-atropelar-rito-da-6-x-1-no-senado/"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/economia/reducao-jornada-fim-escala-6x1-folha-pagamento-pequenos-negocios/"
-        }
-      ]
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/tse-julga-nesta-quinta-desistencia-de-garotinho-que-pode-decidir-eleicao-no-rj/"
     },
     {
-      "id": "garotinho-tse",
-      "bloco": "Rio de Janeiro",
-      "titulo": "O voto que some e muda a eleição",
-      "subtitulo": "Uma desistência de recurso pode decidir o governo do Rio sem 2º turno",
-      "resumo": "O plenário do TSE julga nesta quinta (8), a partir das 10h, o pedido de Anthony Garotinho para desistir do recurso contra a anulação de seus votos. Douglas Ruas (PL) teve 4.271.199 votos (49,27%) e Eduardo Paes (PSD) teve 3.706.984 (42,76%), enquanto Garotinho somou 274.411 (3,17%). Se esses votos forem tirados da conta, Ruas passa de 50% dos válidos e pode ser proclamado eleito no 1º turno, e o Ministério Público Eleitoral foi favorável à desistência. A defesa de Paes diz que a desistência é abuso de direito e fraude ao princípio da maioria absoluta, e pede que o 2º turno de 25 de outubro seja mantido. O que está em jogo para o eleitor é saber se o resultado das urnas é definido pela regra eleitoral ou por manobra processual, e o julgamento pode ser adiado por pedido de vista.",
-      "contexto": [
-        "Garotinho está inelegível por condenação por improbidade administrativa; seu nome ficou na urna porque a decisão do TRE-RJ veio depois do fechamento do sistema de votação.",
-        "Em 2 de outubro, o relator Floriano de Azevedo Marques entendeu que os votos deveriam ser anulados sub judice.",
-        "Em 5 de outubro, a defesa de Garotinho desistiu do recurso; em 6, o MPE enviou parecer favorável.",
-        "Se a desistência for aceita, o TRE-RJ faz nova totalização e Ruas pode passar de 50% dos válidos."
-      ],
-      "angulo": [
-        "Análise do programa: a regra é clara, voto de candidato inelegível não conta como voto válido, e a vontade do eleitor deve prevalecer.",
-        "A tese de que a desistência é deslealdade precisa ser medida contra o parecer do MPE.",
-        "Ouvir o que a defesa de Paes diz sobre o filho de Garotinho, Wladimir, apoiar Ruas."
-      ],
-      "perguntas": [
-        "Voto em candidato inelegível deve entrar na conta da maioria absoluta?",
-        "Se o TSE aceitar a desistência, o Rio economiza um 2º turno ou perde uma etapa da disputa?",
-        "Um pedido de vista no TSE prolonga a incerteza a menos de três semanas do 2º turno: isso é prudência ou desgaste?"
-      ],
-      "atencao": "A matéria de Paes cita 'má-fé' como alegação da defesa dele; é argumento processual, não conclusão da Justiça.",
-      "fontes": [
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-eleicoes-2026/mpe-e-favoravel-a-desistencia-de-recurso-de-garotinho-no-tse/"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
-        }
-      ]
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
     },
     {
-      "id": "moraes-acenos",
-      "bloco": "STF e instituições",
-      "titulo": "Acenos ou ajuste de rota?",
-      "subtitulo": "Inquéritos arquivados, pena em regime mais brando e um recado do bolsonarismo",
-      "resumo": "Alexandre de Moraes arquivou a PET 12.404, que investigava o senador Marcos do Val e os influenciadores Allan dos Santos, Oswaldo Eustáquio e Ednardo Raposo, depois de a PGR dizer que não havia provas suficientes para denúncia. Segundo a PGR, havia indício de intenção de ofender a honra de agentes públicos, mas não de articulação para incitar crimes ou obstruir investigações. No mesmo período, Moraes autorizou a progressão de Débora Rodrigues, a Débora do Batom, ao regime semiaberto, mantida a prisão domiciliar, com 212 dias de remição homologados. Nikolas Ferreira reagiu dizendo que não adianta Moraes fazer aceno agora, e Eustáquio disse que pretende voltar ao Brasil se Flávio Bolsonaro vencer. Análise do programa: quando decisões desse peso saem na reta final da eleição, o cidadão tem direito de perguntar se o rigor é o mesmo para todos e em todas as épocas.",
-      "contexto": [
-        "A PET 12.404 foi arquivada em 4 de setembro e a baixa dos autos foi registrada em 30 de setembro; a decisão só se tornou pública em 6 de outubro.",
-        "Em agosto de 2025, a PF havia pedido o indiciamento dos quatro investigados.",
-        "Débora foi condenada a 14 anos, cumpriu prisão preventiva de março de 2023 a março de 2025 e está em domiciliar desde então.",
-        "Eustáquio mora na Espanha, é considerado foragido em outro processo e teve a extradição rejeitada pela Justiça espanhola em dezembro de 2025."
-      ],
-      "angulo": [
-        "Análise do programa: o arquivamento por falta de provas confirma o que críticos diziam sobre a amplitude desses inquéritos.",
-        "A pergunta sobre uniformidade: por que casos semelhantes tiveram tratamentos tão diferentes ao longo dos anos?",
-        "Os acenos não apagam as penas de centenas de condenados do 8 de Janeiro nem o debate sobre dosimetria."
-      ],
-      "perguntas": [
-        "Arquivar agora é correção de rota ou cálculo de momento?",
-        "O que as decisões dizem sobre o rigor aplicado aos investigados nos últimos anos?",
-        "O que falta para o debate sobre a pena do 8 de Janeiro chegar a um critério único?"
-      ],
-      "atencao": "Os arquivamentos se apoiam em parecer da PGR por falta de provas; isso não significa decisão de mérito sobre a conduta dos investigados.",
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/moraes-arquiva-processo-contra-oswaldo-eustaquio-e-allan-dos-santos-por-falta-de-provas/"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-justica/moraes-autoriza-regime-semiaberto-para-debora-do-batom/"
-        }
-      ]
-    },
-    {
-      "id": "visita-bolsonaro",
-      "bloco": "STF e instituições",
-      "titulo": "Pai e filho, com a eleição no meio",
-      "subtitulo": "A PGR não se opõe, e a decisão está nas mãos de Moraes",
-      "resumo": "O procurador-geral Paulo Gonet disse ao STF que não se opõe ao pedido da defesa de Jair Bolsonaro para receber a visita do filho Flávio. A defesa pediu na segunda (5) o retorno ao regime ordinário de visitas ou, como alternativa, uma única visita estritamente familiar. Gonet afirmou não haver fatos novos que indiquem descumprimento das condições nem necessidade de prolongar a restrição, que vence em 11 de outubro. Em julho, Moraes proibiu visitas com fim político-eleitoral até o fim da eleição, depois de Flávio publicar nas redes uma carta do pai. Bolsonaro cumpre prisão domiciliar humanitária após a condenação a 27 anos e 3 meses, e a decisão agora é de Moraes, relator do caso.",
-      "contexto": [
-        "Gonet citou a ausência de fatos supervenientes indicativos de descumprimento das condições fixadas.",
-        "Em 17 de julho, Moraes vetou visitas político-eleitorais e a divulgação de manifestos, inclusive por terceiros.",
-        "A suspensão específica das visitas de Flávio vai até 11 de outubro.",
-        "No 1º turno, Flávio teve 47,03% dos votos e Lula, 45,16%."
-      ],
-      "angulo": [
-        "Análise do programa: visita de pai e filho é direito familiar básico, e a PGR reconheceu que não há descumprimento.",
-        "Como separar a vida familiar de um preso da campanha, sem tratar o filho como suspeito permanente?",
-        "O 2º turno está a menos de três semanas: a decisão de Moraes será lida também pela lógica eleitoral."
-      ],
-      "perguntas": [
-        "Qual critério separa uma visita familiar de uma visita política?",
-        "A PGR não se opor muda o que se espera de Moraes?",
-        "Restrições prolongadas a visitas a um preso em domiciliar humanitária são proporcionais?"
-      ],
-      "atencao": "A decisão é de Moraes; até o fechamento da pauta não havia despacho sobre o pedido.",
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/pgr-se-manifesta-a-favor-de-visita-de-flavio-a-bolsonaro/"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-justica/pgr-se-diz-favoravel-a-flavio-visitar-bolsonaro-em-prisao-domiciliar/"
-        }
-      ]
-    },
-    {
-      "id": "juros-flavio",
-      "bloco": "Economia",
-      "titulo": "O preço de uma expectativa",
-      "subtitulo": "Juros futuros caíram, mas a economia de bilhões ainda é só promessa do mercado",
-      "resumo": "Os juros futuros para quatro anos caíram cerca de 1 ponto percentual depois do 1º turno, e o Poder360 calcula que a queda, se mantida, poderia economizar R$ 65,8 bilhões no custo da dívida. O próprio veículo ressalva que o efeito não é automático e que os juros podem voltar a subir se as expectativas fiscais ou de inflação piorarem. Nesta quarta (7), o dólar subiu 0,83% e fechou a R$ 5,0156, depois de R$ 4,9745 na terça, e o Ibovespa caiu 0,72%, aos 204.348 pontos. A ata do Fed mostrou divisão entre os dirigentes sobre a alta de 0,25 ponto feita em setembro, e o WTI passou de US$ 100 com as tensões no Oriente Médio. Análise do programa: o mercado está precificando disciplina fiscal futura, e quem paga a conta se ela não vier é o contribuinte.",
-      "metafora": "Juro futuro é como o preço de um prédio ainda na planta: o valor sobe ou desce conforme a confiança no construtor, e só vira dinheiro de verdade quando a obra sai.",
-      "contexto": [
-        "Em 5 de outubro, os juros futuros de 4 anos caíram cerca de 100 pontos-base.",
-        "A estimativa de R$ 65,8 bilhões equivale, segundo o Poder360, a quase 3 vezes o reajuste do Bolsa Família em 2027 (R$ 22,7 bilhões).",
-        "O Poder360 publicou correção sobre a atribuição de uma fonte, e o texto não detalha o cálculo do valor.",
-        "Em 7 de outubro, os DIs longos subiram levemente; Vale caiu mais de 2% e o Itaú, 2,66%."
-      ],
-      "angulo": [
-        "Análise do programa: o mercado reage a sinal de responsabilidade fiscal, e juro menor chega ao bolso na prestação e no crédito.",
-        "Cuidado com a promessa: a economia hipotética depende de a queda se manter até depois do 2º turno.",
-        "Petróleo acima de US$ 100 e a ata do Fed mostram que o cenário externo também pesa."
-      ],
-      "perguntas": [
-        "Que sinais fiscais o próximo governo precisa dar para a queda dos juros se sustentar?",
-        "Juro menor chega ao bolso do cidadão ou fica só no mercado financeiro?",
-        "Uma conta de R$ 65,8 bilhões é número para comemorar ou para checar duas vezes?"
-      ],
-      "atencao": "O valor de R$ 65,8 bilhões é uma estimativa condicionada à manutenção da queda, não economia realizada.",
-      "fontes": [
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-economia/efeito-flavio-derruba-juro-e-pais-economiza-r-66-bilhoes-com-divida/"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-7-outubro-2026/"
-        }
-      ]
-    },
-    {
-      "id": "operacao-magen",
-      "bloco": "Segurança pública",
-      "titulo": "Quando o fuzil sai de dentro da farda",
-      "subtitulo": "Operação no Rio mira quem deveria combater o Terceiro Comando Puro",
-      "resumo": "A Polícia Federal e o Ministério Público do Rio deflagraram nesta quarta (7) a Operação Magen, com 7 mandados de prisão preventiva e 18 de busca e apreensão. Segundo a investigação, um grupo com policiais e ex-policiais vendeu armas ao Terceiro Comando Puro, que controla o Complexo de Israel, incluindo dez fuzis AR-15 entregues ao líder da facção, Álvaro Malaquias Santa Rosa, o Peixão, que segue foragido. A PF diz que os servidores usavam acesso a sistemas restritos para avisar criminosos sobre mandados e operações. O grupo teria movimentado cerca de R$ 100 milhões em quatro anos por meio de empresas de fachada, e os investigados respondem por organização criminosa armada, tráfico de armas, violação de sigilo, usura e lavagem de dinheiro. Análise do programa: sem controle de quem tem acesso a armas e a informação dentro do próprio Estado, nenhuma operação na favela chega ao fim.",
-      "contexto": [
-        "Cinco pessoas foram presas e duas são consideradas foragidas, entre elas Peixão.",
-        "Entre os alvos há um policial civil, um policial militar e ex-policiais; um fuzil foi achado em quarto de hotel de luxo na Barra da Tijuca.",
-        "As buscas ocorreram no Rio, Nova Iguaçu, Angra dos Reis, Mesquita, Nilópolis e Seropédica.",
-        "A investigação é do Grupo de Investigações Sensíveis da PF e de grupo especializado do MPRJ."
-      ],
-      "angulo": [
-        "Análise do programa: a corrupção policial é o elo que protege facções, e o policial honesto é o maior prejudicado.",
-        "O vazamento de mandados mostra que a política de segurança passa pelo controle de acesso a dados.",
-        "Dinheiro de fachada é o ponto fraco do crime organizado: asfixia financeira funciona."
-      ],
-      "perguntas": [
-        "Como o Rio protege sistemas sigilosos de quem trabalha dentro da polícia?",
-        "Por que o fuzil de uso restrito continua chegando às facções?",
-        "O que muda para o policial honesto quando o crime está dentro da corporação?"
-      ],
-      "atencao": "Os presos e foragidos são investigados e denunciados; têm direito de defesa e não há condenação.",
-      "fontes": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-mira-tcp-por-venda-de-fuzis-e-lavagem-de-mais-de-r-100-milhoes-no-rj/"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/brasil/pf-prende-pms-suspeitos-de-vender-armas-ao-tcp-faccao-no-rj/"
-        }
-      ]
-    },
-    {
-      "id": "alcolumbre-lula-6x1",
-      "bloco": "Política nacional",
-      "titulo": "O acordo de véspera",
-      "subtitulo": "Quem reabriu a gaveta da 6x1 a poucos dias do segundo turno, e por que agora",
-      "resumo": "A PEC do fim da escala 6x1 ficou cerca de três meses parada no Senado, depois do desgaste entre Davi Alcolumbre e o governo Lula pela rejeição de Jorge Messias ao STF. Passada a eleição do primeiro turno, Alcolumbre incluiu o tema na pauta, com sessões de discussão na terça, quarta e quinta, sempre às 14h. Segundo o Poder360, Lula articulou o acordo para votar antes do segundo turno, marcado para 25 de outubro, e vê a proposta como um dos principais ativos de sua campanha. Integrantes do PT ouvidos pelo Poder360 relacionam a negociação ao apoio que Alcolumbre quer para se reeleger presidente do Senado em fevereiro. Na leitura do programa, a coincidência de calendário, de interesses e de protagonistas indica uma manobra eleitoral, e o trabalhador que espera o descanso não pode ser usado como moeda de campanha.",
-      "contexto": [
-        "A Câmara aprovou a PEC em 27 de maio e ela chegou ao Senado no dia seguinte, segundo a Revista Oeste; um mês depois ainda nem havia sido despachada à CCJ.",
-        "O governo esperava votar no esforço concentrado de 31/7 a 4/9, mas a proposta só passou na CCJ, por falta de quórum no plenário (Poder360).",
-        "A PEC exige 49 votos em dois turnos no plenário; pelo regimento são 5 sessões de discussão, prazo que pode ser reduzido por acordo (Poder360).",
-        "Lula disse em 30/9 que o fim da 6x1 será aprovado antes do próximo presidente (Poder360).",
-        "O SBT News informa que Alcolumbre manteve o calendário mesmo com Flávio Bolsonaro à frente na disputa e que o PL, de Valdemar da Costa Neto, não promete apoiar sua reeleição."
-      ],
-      "angulo": [
-        "O mérito da jornada é uma discussão séria, mas o momento escolhido faz do tema um instrumento de campanha: três meses de gaveta e, de repente, pressa a poucos dias da urna.",
-        "Quando o presidente do Senado negocia a pauta com o candidato que disputa a reeleição e tem a própria reeleição em jogo, o interesse público fica em segundo plano.",
-        "O custo para o pequeno empregador, que não tem como repassar preço, precisa ser debatido antes do voto, e não depois do resultado da eleição."
-      ],
-      "perguntas": [
-        "Por que a PEC ficou parada por três meses e só andou depois do primeiro turno?",
-        "Votar uma mudança dessa dimensão com prazo encurtado por acordo é responsabilidade com o trabalhador ou jogada eleitoral?",
-        "Se o Senado aprovar antes do dia 25, quem colhe o benefício político e quem fica com a conta?"
-      ],
-      "atencao": "A ligação entre a pauta e a reeleição de Alcolumbre é atribuída a integrantes do PT pelo Poder360, não é fato comprovado; Alcolumbre diz que o tema será debatido com responsabilidade. A votação antes do segundo turno ainda não está definida.",
-      "fontes": [
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-eleicoes-2026/senado-vai-analisar-6-x-1-antes-do-2o-turno/"
-        },
-        {
-          "name": "SBT News",
-          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/alcolumbre-mantem-6x1-como-prioridade-apos-onda-de-direita"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/o-aceno-de-alcolumbre-ao-governo-sobre-a-pec-da-escala-6x1/"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "Davi alcolumbre alinhado com lula para pautar a escala 6X1 antes do segundo turno."
-    },
-    {
-      "id": "israel-eleicao",
-      "bloco": "Internacional",
-      "titulo": "Três anos depois do 7 de outubro, as urnas",
-      "subtitulo": "Netanyahu chega à eleição de 27 de outubro com a segurança como bandeira e as pesquisas divididas",
-      "resumo": "Israel lembrou nesta quarta (7) os três anos do ataque do Hamas que matou cerca de 1.200 pessoas e levou 251 reféns, e a data cai a 20 dias da eleição para o Knesset, marcada para 27 de outubro. Será a primeira votação desde o ataque, e Benjamin Netanyahu, no poder desde dezembro de 2022, disputa um novo mandato à frente da coalizão mais à direita da história do país. As pesquisas divergem muito: Canal 14 e i24NEWS dão vantagem ao bloco governista, enquanto N12, Maariv e Canal 13 mostram o bloco de Gadi Eisenkot à frente ou empatado, e nenhum lado chega sozinho às 61 cadeiras. O Likud, que o próprio Netanyahu moldou ao escolher nomes da lista, aparece em média com 23 cadeiras, quase empatado com o partido Yashar, de Eisenkot, com 22. Para quem acompanha o Brasil, o que está em jogo é se o eleitor israelense premia a linha dura contra o Hamas, o Hezbollah e o Irã ou cobra o governo pela falha de segurança de 2023.",
-      "contexto": [
-        "Eleição para o Knesset em 27 de outubro; são necessárias 61 das 120 cadeiras para formar governo.",
-        "Em 10 de junho, o Likud confirmou a candidatura de Netanyahu, depois de Trump dizer que não sabia se ele continuaria; pesquisa do Israel Democracy Institute de 9 de junho indicou que 61% achavam que ele não deveria concorrer.",
-        "Média das cinco pesquisas do Jerusalem Post (fim de setembro): bloco governista 54,6 cadeiras, oposição sionista 50,6 e partidos árabes 12,4; Canal 12 (5 de outubro) deu 54 ao bloco de Eisenkot contra 49 ao de Netanyahu.",
-        "Em 8 de setembro, Netanyahu divulgou os nomes que indicou para a lista fechada do Likud, entre eles a mãe de um soldado morto em 7 de outubro e um reservista que perdeu as duas pernas em Gaza.",
-        "Pela lei, o governo segue interino até a posse de uma nova coalizão, e a Suprema Corte derrubou a tentativa do Comitê Eleitoral de barrar Ra'am e Lista Conjunta.",
-        "Netanyahu responde a acusações de corrupção, que nega; Trump já pediu perdão a ele ao presidente de Israel."
-      ],
-      "angulo": [
-        "Votar três anos depois do ataque de 7 de outubro não é eleição comum: a pergunta central é quem garante que o 7 de outubro não se repita, e a resposta de Netanyahu é força, não negociação com quem celebra o terror.",
-        "O bloco rival só chega à maioria com os partidos árabes, e os próprios líderes da oposição dizem que não os querem na coalizão. Esse é o dilema de Eisenkot, e ele precisa ser explicado ao eleitor.",
-        "O Likud caiu nas pesquisas, mas o bloco governista segue competitivo e pode continuar no cargo como governo interino se o adversário não fechar 61. Quem decide é a urna israelense, não a imprensa internacional.",
-        "A cobertura brasileira costuma tratar Israel só pelo número de mortos em Gaza; o programa deve lembrar que a guerra começou com 251 reféns e que o número de mortos em Gaza vem do ministério da saúde local, que o programa deve citar como fonte e não como dado verificado de forma independente."
-      ],
-      "perguntas": [
-        "A segurança vai pesar mais do que o desgaste de Netanyahu na decisão do eleitor israelense?",
-        "O fato de a oposição depender dos partidos árabes para governar ajuda ou atrapalha Netanyahu?",
-        "O que a eleição israelense muda para o Brasil, na relação com Israel, no debate sobre o Hamas e no posicionamento do governo Lula?"
-      ],
-      "atencao": "Pesquisas israelenses divergem muito entre canais e a data do pleito vem de reportagens; o número de mortos em Gaza vem do ministério da saúde local, e não de verificação independente. Acusações contra Netanyahu seguem sem condenação definitiva.",
-      "fontes": [
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-internacional/netanyahu-vai-disputar-eleicoes-em-israel-apos-duvida-de-trump/"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/mundo/netanyahu-divulga-candidatos-do-likud-para-eleicao-definitiva/"
-        },
-        {
-          "name": "Jerusalem Post",
-          "url": "https://www.jpost.com/israel-election-2026/article-909804"
-        },
-        {
-          "name": "BPMoney",
-          "url": "https://bpmoney.com.br/internacional/eleicoes-israel-netanyahu-pode-ganhar-ate-perdendo/"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "Sobre Israel e o terceiro aniversário de 7 de outubro: vigílias em silêncio nos kibutzim e no local do festival Nova (378 mortos); ataque de 2023 matou cerca de 1.200 e levou 251 reféns; guerra soma mais de 74 mil mortos em Gaza, segundo o ministério da saúde local."
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/tse-julga-nesta-quinta-caso-de-garotinho-que-pode-definir-eleicao-no-rj"
     }
-  ],
-  "atualizado": "2026-10-08T09:28:02-03:00"
+   ]
+  },
+  {
+   "id": "maioria-flavio-camara",
+   "bloco": "Política nacional",
+   "titulo": "A maioria chegou antes da urna",
+   "subtitulo": "Com Republicanos, União Progressista e Novo, a frente de Flávio já passa da metade da Câmara. Mas isso decide o 2º turno?",
+   "resumo": "Com a adesão de Republicanos, União Progressista e Novo nesta quarta (7), os partidos que apoiam Flávio Bolsonaro (PL) no 2º turno somam 259 dos 513 deputados eleitos, mais da metade da Câmara, segundo levantamento da CNN Brasil. No Senado, o mesmo bloco terá 48 das 81 cadeiras a partir de 2027, e metade dos 20 governadores eleitos no 1º turno pertence a essas legendas. Para o cidadão, isso significa que um eventual governo Flávio começaria com base própria para aprovar reformas e conter gastos, sem precisar comprar apoio a cada votação. Lula, que terminou o 1º turno com 45,16% dos votos válidos contra 47,03% de Flávio, tenta segurar nomes do centrão como o presidente da Câmara, Hugo Motta (Republicanos-PB), que apoia o petista contra a decisão do próprio partido. Apoio de cúpula não é voto garantido na urna, mas o Podemos deve se posicionar nesta quinta (8) e o PSDB ainda pode ampliar a frente, enquanto PSD e MDB ficam no muro.",
+   "metafora": "Ganhar a Presidência sem maioria no Congresso é como receber a chave do carro com o tanque vazio: dá para sentar ao volante, mas não para sair do lugar. Com 259 deputados e 48 senadores, Flávio chegaria ao Planalto de tanque cheio.",
+   "contexto": [
+    "Câmara em 2027: PL (121), União Progressista (87), Republicanos (41) e Novo (10) somam 259 dos 513 deputados, segundo a CNN Brasil",
+    "Senado em 2027: os mesmos partidos terão 48 das 81 cadeiras, quase 60% da Casa; Tereza Cristina (PP-MS) e Rogério Marinho (PL-RN) são cotados para presidir o Senado",
+    "Em 7/10, Novo (Eduardo Ribeiro), Republicanos (Marcos Pereira, com Tarcísio de Freitas) e União Progressista formalizaram apoio a Flávio; Ronaldo Caiado (PSD) aderiu individualmente",
+    "1º turno: Flávio teve 47,03% dos votos válidos e Lula 45,16%, diferença de pouco mais de dois milhões de votos",
+    "Lula mantém PT, PCdoB, PV, PSB, PDT, PSOL e Rede, sem novas adesões nacionais; Podemos (27 deputados) decide nesta quinta (8), PSD fica neutro e MDB liberou os filiados"
+   ],
+   "angulo": [
+    "Maioria no Congresso é a diferença entre governar com programa e governar no balcão: quem chega com base própria não precisa trocar cargo e emenda por cada voto",
+    "O mapa do 1º turno mostra que o eleitor entregou à direita e à centro-direita a maior bancada nas duas Casas, e o 2º turno é a chance de alinhar o Planalto a esse recado",
+    "Um Congresso de maioria conservadora é o freio natural a aumento de impostos, gastança e avanço do Judiciário sobre o papel do Legislativo",
+    "Hugo Motta apoiando Lula contra o próprio partido escancara o centrão de dupla face: o eleitor deve cobrar coerência de quem preside a Câmara"
+   ],
+   "perguntas": [
+    "Ter 259 deputados no papel garante governabilidade, ou o centrão vai cobrar caro por cada votação num eventual governo Flávio?",
+    "O apoio das cúpulas partidárias se traduz em voto do eleitor desses partidos no 2º turno, ou o peso real está nos governadores como Tarcísio?",
+    "Como fica a Câmara se Lula for reeleito com Hugo Motta na presidência, mas com um Congresso de maioria de oposição?"
+   ],
+   "atencao": "O total de 259 deputados é levantamento da CNN Brasil sobre bancadas partidárias e não significa que todos os parlamentares desses partidos apoiem Flávio individualmente, como mostra o caso de Hugo Motta.",
+   "fontes": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-bolsonaro-base-apoio-camara/"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/novo-confirma-apoio-flavio-bolsonaro-segundo-turno-eleicao-presidencial/"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/republicanos-define-apoio-a-flavio-no-2o-turno-contra-lula/"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/8/lula-x-flavio-bolsonaro-veja-quais-partidos-ja-declararam-apoio-no-segundo-turno"
+    }
+   ]
+  },
+  {
+   "id": "revisao-bolsonaro-pos-turno",
+   "bloco": "STF e instituições",
+   "titulo": "A Justiça que espera a urna",
+   "subtitulo": "Relator da revisão criminal de Bolsonaro põe o caso na gaveta até depois do 2º turno, e nem isso garante data",
+   "resumo": "O relator da revisão criminal de Jair Bolsonaro no STF, Kassio Nunes Marques, avisou na quarta (7) que o caso só será analisado depois do 2º turno de 25 de outubro, sob o argumento de não interferir no processo eleitoral. A nota do gabinete diz que isso \"não significa imediatamente depois\", que o processo ainda espera parecer da PGR e que a data de um julgamento em plenário presencial dependerá do presidente do Supremo, Edson Fachin. A defesa sustenta que não teve acesso à íntegra das provas, contesta a cadeia de custódia das provas digitais e alega suspeição de Alexandre de Moraes por suposta ligação com Daniel Vorcaro, dono do Banco Master. Enquanto isso, um ex-presidente condenado a 27 anos e 3 meses segue em prisão domiciliar, e o relógio de um pedido de revisão passa a ser marcado pelo calendário eleitoral, e não pelo direito de defesa. O episódio alimenta a cobrança que Nikolas Ferreira levou à CNN ao defender o impeachment de Moraes como primeira pauta do novo Senado: quando o tempo do Supremo vira variável política, alguém precisa fiscalizar o Supremo.",
+   "contexto": [
+    "Nota de Nunes Marques (7/10): o caso será avaliado \"somente após o segundo turno, que não significa imediatamente depois\"; ainda depende de parecer da PGR e irá ao plenário, \"que é o órgão competente\"",
+    "Segundo o Metrópoles, o ministro descarta por ora soltar Bolsonaro por liminar; Bolsonaro foi condenado pela 1ª Turma a 27 anos e 3 meses e cumpre pena em prisão domiciliar",
+    "Primeira revisão criminal chegou a Nunes Marques em maio de 2026; em junho, Paulo Gonet pediu a rejeição, citando \"vigoroso conjunto probatório\" (Poder360). A segunda revisão pede suspensão da pena e ainda aguarda a PGR",
+    "Defesa alega falta de acesso à íntegra das provas, questiona a cadeia de custódia das provas digitais e aponta suspeição de Moraes por suposta ligação com Daniel Vorcaro, do Banco Master",
+    "Flávio Bolsonaro (PL), que disputa o 2º turno contra Lula em 25/10, prometeu indulto ao pai se eleito; Nikolas Ferreira, deputado mais votado do país (mais de 3,1 milhões de votos), disse à CNN que a primeira pauta do novo Senado deve ser o impeachment de Moraes"
+   ],
+   "angulo": [
+    "Direito de defesa não tem calendário eleitoral: se havia razão para esperar, ela é jurídica (o parecer da PGR), não a urna; usar a eleição como justificativa admite que o Supremo se vê como ator político",
+    "Questionamentos sobre acesso às provas e cadeia de custódia são técnicos e graves; deveriam ser respondidos com rapidez, não empurrados para \"depois, mas não imediatamente depois\"",
+    "O julgamento em plenário é o caminho certo, mas a data fica na mão de Fachin: concentrar tanto poder de agenda em uma cadeira é parte do problema institucional",
+    "A pressão por impeachment de Moraes no novo Senado é a resposta constitucional disponível: a Constituição dá ao Senado o papel de julgar ministros por crime de responsabilidade, e esse freio precisa deixar de ser letra morta"
+   ],
+   "perguntas": [
+    "Adiar a análise para não interferir na eleição é prudência ou é justamente uma forma de interferir nela?",
+    "Se a defesa diz que não teve acesso à íntegra das provas, por que essa questão não pode ser enfrentada antes de 25 de outubro?",
+    "O novo Senado terá votos e coragem para tirar da gaveta os pedidos de impeachment contra Moraes, como propõe Nikolas Ferreira?"
+   ],
+   "atencao": "A suspeição de Moraes e a ligação com Vorcaro são alegações da defesa, sem decisão judicial; Bolsonaro foi condenado pela 1ª Turma e a revisão ainda não foi julgada.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/nunes-marques-nao-analisara-revisao-criminal-de-bolsonaro-antes-do-2o-turno/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/kassio-diz-que-revisao-criminal-de-bolsonaro-sera-apos-eleicao-em-plenario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/nunes-marques-levara-revisao-criminal-de-bolsonaro-ao-plenario-do-stf/"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/nikolas-diz-que-primeira-pauta-no-senado-tem-que-ser-impeachment-de-moraes/"
+    }
+   ]
+  },
+  {
+   "id": "bets-devolucao",
+   "bloco": "Economia",
+   "titulo": "O dinheiro volta, o mercado não",
+   "subtitulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores a partir de sexta, enquanto as bets correm ao STF para tentar sobreviver",
+   "resumo": "A partir desta sexta (9), os bancos começam a devolver R$ 1,325 bilhão a cerca de 26,5 milhões de apostadores que ficaram com saldo nas bets fechadas pela medida provisória do governo Lula. A MP 1.394 foi assinada em 25 de setembro, nove dias antes das eleições, e acabou de uma vez com um mercado que o próprio governo tinha licenciado, cobrando outorgas e exigindo investimentos em compliance. O resultado imediato é um setor regulado desmontado por canetada, com mais de 3.500 demissões diretas segundo a ANJL e 188 sites autorizados que perderam a licença. Enquanto isso, um relatório citado pelas empresas aponta 18.195 domínios ilegais ativos, o que indica que o apostador tende a migrar para sites clandestinos, sem fiscalização e sem rastreio de lavagem de dinheiro. As entidades do setor pediram ao ministro Luiz Fux que suspenda a MP até a audiência pública pedida pela própria AGU, e a questão de fundo é se um governo pode extinguir por medida provisória uma atividade legal sem transição nem debate no Congresso.",
+   "metafora": "É como o prefeito que dá alvará a um restaurante, cobra as taxas, exige reforma da cozinha e, de um dia para o outro, manda lacrar a porta. A fome do cliente não acaba: ele só vai comer no ambulante sem fiscalização na esquina.",
+   "contexto": [
+    "MP 1.394 assinada em 25/9/2026; prazo para saques direto nas plataformas terminou às 23h59 de 5/10",
+    "Bets enviam aos bancos os saldos por CPF até quinta (8); bancos devolvem entre 9 e 14/10 nas contas usadas nos depósitos; o que não for restituído vai para a Caixa a partir de 14/10",
+    "R$ 1,325 bilhão para cerca de 26,5 milhões de apostadores; 86,2 milhões de contas têm menos de R$ 1 e somam R$ 15,5 milhões",
+    "188 sites autorizados perderam a licença; governo encaminhou 13.241 sites ilegais para bloqueio, mas relatório aponta 18.195 domínios ilegais ativos",
+    "ANJL contabiliza mais de 3.500 demissões diretas (23% do setor) e 4.167 em férias coletivas; MP entra em regime de urgência no Congresso em 9/11"
+   ],
+   "angulo": [
+    "Segurança jurídica não é detalhe: o Estado licenciou, cobrou outorga e exigiu investimento, e depois apagou o setor por medida provisória, sem transição; quem investe no Brasil anota o recado",
+    "Proibir não elimina a demanda, só a empurra para o mercado clandestino: com mais de 18 mil domínios ilegais ativos, o governo troca um setor fiscalizado por um que não paga imposto nem é rastreado",
+    "Mudança desse tamanho tem que passar pelo Congresso com debate, e não ser imposta às vésperas da eleição; o Legislativo precisa assumir a decisão antes de 9/11",
+    "O vício em apostas é problema real e merece regra dura, fiscalização e limite de publicidade, mas a resposta responsável é regular melhor, não extinguir de um dia para o outro e jogar milhares no desemprego"
+   ],
+   "perguntas": [
+    "Faz sentido o governo extinguir por medida provisória um mercado que ele mesmo licenciou e cobrou para funcionar?",
+    "Com milhares de sites ilegais no ar, o apostador brasileiro vai parar de apostar ou só vai mudar para onde ninguém fiscaliza?",
+    "O STF deveria suspender a MP até a audiência pública ou a decisão cabe só ao Congresso?"
+   ],
+   "atencao": "Não há decisão de Fux até o momento; a ação da ANJL e o pedido da AGU por audiência pública e manifestação da PGR seguem pendentes, e os números de demissões são parciais, informados pelas próprias empresas.",
+   "fontes": [
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bets-comecam-informar-bancos-sobre-r-13-bilhao-devolver"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/bets-pedem-que-fux-suspenda-mp-de-lula-ate-audiencia-solicitada-pela-agu/"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-economia/fim-das-bets-causa-3-500-demissoes-diretas-diz-associacao/"
+    }
+   ]
+  },
+  {
+   "id": "incendio-ufpe",
+   "bloco": "Educação",
+   "titulo": "Três incêndios, oito dias, nenhuma resposta",
+   "subtitulo": "O fogo na UFPE levou 20 anos de pesquisa e equipamentos estimados em R$ 100 milhões, e a pergunta sobre quem cuida do patrimônio público continua no ar",
+   "resumo": "Na noite de quarta (7), um incêndio destruiu o antigo prédio da Diretoria de Inovação e Empreendedorismo da UFPE, no Recife, onde funcionavam laboratórios de fármacos, genética e informática. O reitor Alfredo Gomes estimou em cerca de R$ 100 milhões os equipamentos atingidos, e amostras e dados de pesquisas de até 20 anos sobre câncer, Covid-19, autismo e TDAH foram comprometidos. É o terceiro fogo no campus em pouco mais de uma semana, depois de um laboratório de Física em 30 de setembro e de um laboratório de Citogenética no domingo (4), sem que a universidade tenha explicado o que falhou na prevenção. A Polícia Federal vai abrir inquérito e peritos já estiveram no local, enquanto militantes nas redes correram para culpar adversários políticos antes de qualquer laudo. Para o contribuinte, o que está em jogo é dinheiro público queimado, anos de trabalho de pesquisadores perdidos e a necessidade de cobrar da gestão universitária responsabilidade com manutenção e segurança, sem transformar uma tragédia em palanque eleitoral.",
+   "contexto": [
+    "Incêndio na noite de 7/10 no prédio da antiga Diretoria de Inovação e Empreendedorismo (Dine), na Cidade Universitária, Recife; cinco viaturas dos Bombeiros, sem vítimas.",
+    "Reitor Alfredo Gomes estima cerca de R$ 100 milhões em equipamentos atingidos; amostras e dados de pesquisas de até 20 anos comprometidos (câncer, obesidade, Covid-19, TDAH, autismo).",
+    "Incêndios anteriores: laboratório do Departamento de Física em 30/9 (suspeita inicial de equipamento de aquecimento) e Laboratório de Citogenética e Evolução Vegetal no domingo, 4/10; não há confirmação de ligação entre os casos.",
+    "A UFPE diz que produtos armazenados nos laboratórios fizeram o fogo se espalhar rápido; prédio isolado para avaliação estrutural e aulas desta quinta (8) mantidas.",
+    "PF anunciou inquérito para 'apurar todas as circunstâncias e causas prováveis'; o AGU Jorge Messias mandou a Procuradoria-Geral Federal designar comissão de procuradores; o MEC se colocou à disposição."
+   ],
+   "angulo": [
+    "Três incêndios em laboratórios em oito dias não são azar: é sinal de gestão falha de manutenção, armazenamento de produtos inflamáveis e prevenção, e a reitoria precisa prestar contas publicamente.",
+    "Laboratórios com equipamentos estimados em R$ 100 milhões e acervo de 20 anos de pesquisa não podem depender de sorte; o MEC deve exigir auditoria de segurança contra incêndio em todas as federais, não apenas enviar nota de solidariedade.",
+    "Culpar adversários políticos nas redes antes de qualquer perícia é irresponsável e contamina a investigação; quem tem que dizer a causa é o laudo da PF, não militante em ano eleitoral.",
+    "O maior prejudicado é o pesquisador e o contribuinte: dinheiro público que vira cinza e trabalho de mestrandos e doutorandos que talvez nunca seja recuperado."
+   ],
+   "perguntas": [
+    "O que três incêndios em oito dias revelam sobre a forma como as universidades federais cuidam do próprio patrimônio?",
+    "Quem deve responder pela perda de R$ 100 milhões em equipamentos e de anos de pesquisa, se a perícia apontar falha de manutenção?",
+    "Por que a primeira reação de parte da militância foi buscar culpado político antes de qualquer laudo, e o que isso diz sobre o clima do segundo turno?"
+   ],
+   "atencao": "As causas não foram esclarecidas e a PF ainda vai instaurar inquérito; não atribuir o fogo a crime, negligência ou a grupo político antes do laudo, e tratar o valor de R$ 100 milhões como estimativa do reitor.",
+   "fontes": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/jorge-messias-pede-investigacao-rigorosa-sobre-incendio-em-predio-da-ufpe"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/mirelle-pinheiro/pf-vai-abrir-inquerito-para-investigar-incendio-na-ufpe"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-brasil/incendio-atinge-predio-da-ufpe-no-recife/"
+    },
+    {
+     "name": "Movimento Econômico",
+     "url": "https://movimentoeconomico.com.br/geral/2026/10/08/terceiro-incendio-em-8-dias-destroi-centro-de-inovacao-da-ufpe/"
+    }
+   ]
+  },
+  {
+   "id": "alcolumbre-lula-6x1",
+   "bloco": "Política nacional",
+   "titulo": "O acordo de véspera",
+   "subtitulo": "Quem reabriu a gaveta da 6x1 a poucos dias do segundo turno, e por que agora",
+   "resumo": "A PEC do fim da escala 6x1 ficou cerca de três meses parada no Senado, depois do desgaste entre Davi Alcolumbre e o governo Lula pela rejeição de Jorge Messias ao STF. Passada a eleição do primeiro turno, Alcolumbre incluiu o tema na pauta, com sessões de discussão na terça, quarta e quinta, sempre às 14h. Segundo o Poder360, Lula articulou o acordo para votar antes do segundo turno, marcado para 25 de outubro, e vê a proposta como um dos principais ativos de sua campanha. Integrantes do PT ouvidos pelo Poder360 relacionam a negociação ao apoio que Alcolumbre quer para se reeleger presidente do Senado em fevereiro. Na leitura do programa, a coincidência de calendário, de interesses e de protagonistas indica uma manobra eleitoral, e o trabalhador que espera o descanso não pode ser usado como moeda de campanha.",
+   "contexto": [
+    "A Câmara aprovou a PEC em 27 de maio e ela chegou ao Senado no dia seguinte, segundo a Revista Oeste; um mês depois ainda nem havia sido despachada à CCJ.",
+    "O governo esperava votar no esforço concentrado de 31/7 a 4/9, mas a proposta só passou na CCJ, por falta de quórum no plenário (Poder360).",
+    "A PEC exige 49 votos em dois turnos no plenário; pelo regimento são 5 sessões de discussão, prazo que pode ser reduzido por acordo (Poder360).",
+    "Lula disse em 30/9 que o fim da 6x1 será aprovado antes do próximo presidente (Poder360).",
+    "O SBT News informa que Alcolumbre manteve o calendário mesmo com Flávio Bolsonaro à frente na disputa e que o PL, de Valdemar da Costa Neto, não promete apoiar sua reeleição."
+   ],
+   "angulo": [
+    "O mérito da jornada é uma discussão séria, mas o momento escolhido faz do tema um instrumento de campanha: três meses de gaveta e, de repente, pressa a poucos dias da urna.",
+    "Quando o presidente do Senado negocia a pauta com o candidato que disputa a reeleição e tem a própria reeleição em jogo, o interesse público fica em segundo plano.",
+    "O custo para o pequeno empregador, que não tem como repassar preço, precisa ser debatido antes do voto, e não depois do resultado da eleição."
+   ],
+   "perguntas": [
+    "Por que a PEC ficou parada por três meses e só andou depois do primeiro turno?",
+    "Votar uma mudança dessa dimensão com prazo encurtado por acordo é responsabilidade com o trabalhador ou jogada eleitoral?",
+    "Se o Senado aprovar antes do dia 25, quem colhe o benefício político e quem fica com a conta?"
+   ],
+   "atencao": "A ligação entre a pauta e a reeleição de Alcolumbre é atribuída a integrantes do PT pelo Poder360, não é fato comprovado; Alcolumbre diz que o tema será debatido com responsabilidade. A votação antes do segundo turno ainda não está definida.",
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/senado-vai-analisar-6-x-1-antes-do-2o-turno/"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/alcolumbre-mantem-6x1-como-prioridade-apos-onda-de-direita"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/o-aceno-de-alcolumbre-ao-governo-sobre-a-pec-da-escala-6x1/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Davi alcolumbre alinhado com lula para pautar a escala 6X1 antes do segundo turno."
+  },
+  {
+   "id": "israel-eleicao",
+   "bloco": "Internacional",
+   "titulo": "Três anos depois do 7 de outubro, as urnas",
+   "subtitulo": "Netanyahu chega à eleição de 27 de outubro com a segurança como bandeira e as pesquisas divididas",
+   "resumo": "Israel lembrou nesta quarta (7) os três anos do ataque do Hamas que matou cerca de 1.200 pessoas e levou 251 reféns, e a data cai a 20 dias da eleição para o Knesset, marcada para 27 de outubro. Será a primeira votação desde o ataque, e Benjamin Netanyahu, no poder desde dezembro de 2022, disputa um novo mandato à frente da coalizão mais à direita da história do país. As pesquisas divergem muito: Canal 14 e i24NEWS dão vantagem ao bloco governista, enquanto N12, Maariv e Canal 13 mostram o bloco de Gadi Eisenkot à frente ou empatado, e nenhum lado chega sozinho às 61 cadeiras. O Likud, que o próprio Netanyahu moldou ao escolher nomes da lista, aparece em média com 23 cadeiras, quase empatado com o partido Yashar, de Eisenkot, com 22. Para quem acompanha o Brasil, o que está em jogo é se o eleitor israelense premia a linha dura contra o Hamas, o Hezbollah e o Irã ou cobra o governo pela falha de segurança de 2023.",
+   "contexto": [
+    "Eleição para o Knesset em 27 de outubro; são necessárias 61 das 120 cadeiras para formar governo.",
+    "Em 10 de junho, o Likud confirmou a candidatura de Netanyahu, depois de Trump dizer que não sabia se ele continuaria; pesquisa do Israel Democracy Institute de 9 de junho indicou que 61% achavam que ele não deveria concorrer.",
+    "Média das cinco pesquisas do Jerusalem Post (fim de setembro): bloco governista 54,6 cadeiras, oposição sionista 50,6 e partidos árabes 12,4; Canal 12 (5 de outubro) deu 54 ao bloco de Eisenkot contra 49 ao de Netanyahu.",
+    "Em 8 de setembro, Netanyahu divulgou os nomes que indicou para a lista fechada do Likud, entre eles a mãe de um soldado morto em 7 de outubro e um reservista que perdeu as duas pernas em Gaza.",
+    "Pela lei, o governo segue interino até a posse de uma nova coalizão, e a Suprema Corte derrubou a tentativa do Comitê Eleitoral de barrar Ra'am e Lista Conjunta.",
+    "Netanyahu responde a acusações de corrupção, que nega; Trump já pediu perdão a ele ao presidente de Israel."
+   ],
+   "angulo": [
+    "Votar três anos depois do ataque de 7 de outubro não é eleição comum: a pergunta central é quem garante que o 7 de outubro não se repita, e a resposta de Netanyahu é força, não negociação com quem celebra o terror.",
+    "O bloco rival só chega à maioria com os partidos árabes, e os próprios líderes da oposição dizem que não os querem na coalizão. Esse é o dilema de Eisenkot, e ele precisa ser explicado ao eleitor.",
+    "O Likud caiu nas pesquisas, mas o bloco governista segue competitivo e pode continuar no cargo como governo interino se o adversário não fechar 61. Quem decide é a urna israelense, não a imprensa internacional.",
+    "A cobertura brasileira costuma tratar Israel só pelo número de mortos em Gaza; o programa deve lembrar que a guerra começou com 251 reféns e que o número de mortos em Gaza vem do ministério da saúde local, que o programa deve citar como fonte e não como dado verificado de forma independente."
+   ],
+   "perguntas": [
+    "A segurança vai pesar mais do que o desgaste de Netanyahu na decisão do eleitor israelense?",
+    "O fato de a oposição depender dos partidos árabes para governar ajuda ou atrapalha Netanyahu?",
+    "O que a eleição israelense muda para o Brasil, na relação com Israel, no debate sobre o Hamas e no posicionamento do governo Lula?"
+   ],
+   "atencao": "Pesquisas israelenses divergem muito entre canais e a data do pleito vem de reportagens; o número de mortos em Gaza vem do ministério da saúde local, e não de verificação independente. Acusações contra Netanyahu seguem sem condenação definitiva.",
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/netanyahu-vai-disputar-eleicoes-em-israel-apos-duvida-de-trump/"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/mundo/netanyahu-divulga-candidatos-do-likud-para-eleicao-definitiva/"
+    },
+    {
+     "name": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-909804"
+    },
+    {
+     "name": "BPMoney",
+     "url": "https://bpmoney.com.br/internacional/eleicoes-israel-netanyahu-pode-ganhar-ate-perdendo/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Sobre Israel e o terceiro aniversário de 7 de outubro: vigílias em silêncio nos kibutzim e no local do festival Nova (378 mortos); ataque de 2023 matou cerca de 1.200 e levou 251 reféns; guerra soma mais de 74 mil mortos em Gaza, segundo o ministério da saúde local."
+  }
+ ]
 }
