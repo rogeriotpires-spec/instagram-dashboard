@@ -1,6 +1,87 @@
 {
   "items": [
     {
+      "requested": "2026-10-08",
+      "done": "2026-10-07T23:34:32-03:00",
+      "issue": 5,
+      "slot_hint": "Imagem às 7h de quinta (8); reel às 12h de quinta, enquanto o arquivamento ainda circula.",
+      "source": {
+        "edition": "2026-10-07-19h",
+        "item_id": "pf-arquiva-interferencia-eua",
+        "title": "PF arquiva apuração preliminar sobre possível interferência dos EUA nas eleições"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Alarme da AGU, arquivo da PF: e a pressa toda?",
+          "tone": "contundente",
+          "fact": "A Polícia Federal arquivou a apuração preliminar sobre possível interferência do governo dos EUA nas eleições de 2026, ao concluir que não havia elementos mínimos para abrir inquérito formal. A análise da Diretoria de Inteligência partiu de uma representação da AGU. O caso nasceu de reportagem do The Guardian sobre US$ 1 milhão do Departamento de Estado para uma iniciativa de combate à litigância deliberativa e à censura no Brasil, dentro de um pacote de US$ 176,9 milhões para projetos de direitos humanos e democracia. O diretor-geral da PF, Andrei Rodrigues, havia confirmado em 4/10 um procedimento prévio, e o presidente do TSE, Kassio Nunes Marques, disse que os relatórios da Corte não indicavam risco de interferência estrangeira. O arquivamento foi divulgado em 7/10.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/pf-arquiva-apuracao-sobre-possivel-interferencia-dos-eua-nas-eleicoes/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/pf-arquiva-apuracao-sobre-suposta-interferencia-dos-eua-nas-eleicoes"
+            }
+          ],
+          "art_text": [
+            "Interferência dos EUA?",
+            "PF arquiva: sem elementos mínimos",
+            "Pedido da AGU, anúncio na véspera do 1º turno",
+            "E o alarme todo? Quem responde?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Andrei Rodrigues (diretor-geral da PF) e Jorge Messias (AGU), por terem anunciado e pedido a apuração. Sem retratar ato ilícito.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura e a silhueta da sede da Polícia Federal e da Esplanada. No meio, Andrei Rodrigues (diretor-geral da PF) e Jorge Messias (advogado-geral da União), de terno, com expressão de constrangimento, um olhando para o outro, ao lado de uma pasta com carimbo vermelho 'ARQUIVADO'. No alto, em letras condensadas brancas e pesadas: \"Interferência dos EUA?\". Quadro amarelo ao centro: \"PF arquiva: sem elementos mínimos\". Quadro vermelho menor: \"Anúncio na véspera do 1º turno\". Embaixo, com sublinhado vermelho pincelado: \"E o alarme todo? Quem responde?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "A AGU pediu, a PF anunciou a apuração na véspera do primeiro turno e agora arquivou: não havia elementos mínimos para um inquérito. Foi cautela ou foi barulho eleitoral? Comenta.",
+          "risk": "médio",
+          "risk_note": "Não afirme que houve interferência: a PF não achou elementos mínimos. Os US$ 1 milhão são fato reportado pelo Guardian. Atribua a AGU, PF e TSE. Pergunte, não acuse.",
+          "timeline": {
+            "rende": true,
+            "angle": "Do alarme ao arquivamento: o que a AGU e a PF disseram antes do 1º turno e o que sobrou depois."
+          }
+        },
+        {
+          "type": "r",
+          "title": "PF anunciou na véspera da eleição e arquivou três dias depois",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "A Polícia Federal arquivou a apuração preliminar sobre possível interferência do governo dos EUA nas eleições de 2026, ao concluir que não havia elementos mínimos para abrir inquérito formal. A análise da Diretoria de Inteligência partiu de uma representação da AGU. O caso nasceu de reportagem do The Guardian sobre US$ 1 milhão do Departamento de Estado para uma iniciativa de combate à litigância deliberativa e à censura no Brasil, dentro de um pacote de US$ 176,9 milhões para projetos de direitos humanos e democracia. O diretor-geral da PF, Andrei Rodrigues, havia confirmado em 4/10 um procedimento prévio, e o presidente do TSE, Kassio Nunes Marques, disse que os relatórios da Corte não indicavam risco de interferência estrangeira. O arquivamento foi divulgado em 7/10.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/pf-arquiva-apuracao-sobre-possivel-interferencia-dos-eua-nas-eleicoes/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/pf-arquiva-apuracao-sobre-suposta-interferencia-dos-eua-nas-eleicoes"
+            }
+          ],
+          "hooks": [
+            "A PF anunciou a apuração na véspera do 1º turno. Agora arquivou.",
+            "Interferência dos EUA nas eleições? A PF não achou nem elemento para abrir inquérito."
+          ],
+          "script": "Na véspera do primeiro turno, o diretor da Polícia Federal, Andrei Rodrigues, confirmou uma apuração prévia sobre possível interferência dos Estados Unidos nas eleições. O pedido veio da AGU, depois de uma reportagem do Guardian sobre um milhão de dólares do Departamento de Estado para uma iniciativa contra a censura no Brasil. Agora, a PF arquivou. Concluiu que não havia elementos mínimos para abrir inquérito. O presidente do TSE já tinha dito que os relatórios da Corte não apontavam risco de interferência estrangeira. Então fica a pergunta: por que o alarme foi tão grande antes da eleição e o silêncio é tão grande depois? Comenta o que você acha.",
+          "screen_text": [
+            "PF arquiva apuração",
+            "Sem elementos mínimos para inquérito",
+            "Pedido da AGU",
+            "Anúncio na véspera do 1º turno"
+          ],
+          "caption": "A PF arquivou a apuração sobre suposta interferência dos EUA: sem elementos mínimos para inquérito. Por que o alarme antes da eleição? Comenta.",
+          "risk": "médio",
+          "risk_note": "Não afirme que houve interferência: a PF não achou elementos mínimos. Os US$ 1 milhão são fato reportado pelo Guardian. Atribua a AGU, PF e TSE. Pergunte, não acuse.",
+          "timeline": {
+            "rende": true,
+            "angle": "Do alarme ao arquivamento: o que a AGU e a PF disseram antes do 1º turno e o que sobrou depois."
+          }
+        }
+      ]
+    },
+    {
       "requested": "2026-10-07",
       "done": "2026-10-07T19:11:23-03:00",
       "issue": 3,
