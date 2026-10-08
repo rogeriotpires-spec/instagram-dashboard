@@ -95,6 +95,9 @@ section.block{margin-bottom:44px}
 .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--text-2);margin:2px 0 8px}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 .legend i.ln{height:3px;border-radius:2px;vertical-align:3px;width:14px}
+.legend i.tr{height:0;border-top:2.5px dotted var(--s5);background:none!important;vertical-align:3px;width:16px;border-radius:0}
+.trend-note{font-size:12px;color:var(--text-2);margin-top:4px}
+.trend-note b{color:var(--text)}
 .legend i.dash{height:0;border-top:2px dashed var(--muted);background:none!important;vertical-align:3px;width:14px;border-radius:0}
 svg{display:block;width:100%;height:auto;overflow:visible}
 svg text{font:11px Inter,sans-serif;fill:var(--muted)}
@@ -387,6 +390,14 @@ function yAxis(svg,m,W,ih,raw,f=fmt){const step=nice(raw/4),n=Math.max(1,Math.ce
 const empty=(host,msg)=>host.innerHTML=`<div class="empty">${msg}</div>`;
 const ma7=v=>v.map((_,i)=>{const w=v.slice(Math.max(0,i-6),i+1).filter(x=>x!=null);return w.length>=4?sum(w)/w.length:null});
 
+/* linha de tendência (mínimos quadrados) */
+function linfit(pts){const n=pts.length;if(n<2)return null;const mx=sum(pts,p=>p[0])/n,my=sum(pts,p=>p[1])/n;let a=0,b=0;pts.forEach(([x,y])=>{a+=(x-mx)*(y-my);b+=(x-mx)**2});const sl=b?a/b:0;return{sl,at:x=>my+sl*(x-mx)}}
+function trendLegend(host){const lg=host.closest(".card")&&host.closest(".card").querySelector(".legend");if(lg&&!lg.querySelector(".lg-tr"))lg.insertAdjacentHTML("beforeend",`<span class="lg-tr"><i class="tr"></i>Tendência</span>`)}
+function trendText(fit,i0,i1,unit,f=fmt){const a=Math.max(0,fit.at(i0)),b=Math.max(0,fit.at(i1)),ch=a?b/a-1:null;
+  if(ch==null)return"";const st=Math.abs(ch)<.05?"estável":ch>0?"subindo":"caindo",ar=Math.abs(ch)<.05?"▬":ch>0?"▲":"▼",col=Math.abs(ch)<.05?"var(--text-2)":ch>0?"var(--good)":"var(--bad)";
+  const mag=Math.abs(ch)<.05?"":ch>2?` (${(b/a).toLocaleString("pt-BR",{maximumFractionDigits:1})} vezes)`:` ${pct(Math.abs(ch),0)}`;
+  return`<div class="trend-note">Tendência no período: <b style="color:${col}">${ar} ${st}${mag}</b>, de cerca de ${f(Math.round(a))} para ${f(Math.round(b))} ${unit}.</div>`}
+
 /* série diária com lacunas e média móvel */
 function daySeries(host,{dates,values,color,label,bars,f=fmt}){
   host.innerHTML="";if(!dates.length||values.every(v=>v==null))return empty(host,"Sem dados no período.");
@@ -399,13 +410,16 @@ function daySeries(host,{dates,values,color,label,bars,f=fmt}){
     values.forEach((v,i)=>{if(v==null)flush();else seg.push(`${X(i)},${Y(v)}`)});flush()}
   let seg=[];const flush=()=>{if(seg.length>1)el("polyline",{points:seg.join(" "),fill:"none",stroke:"var(--muted)","stroke-width":1.5,"stroke-dasharray":"4 3"},svg);seg=[]};
   ma.forEach((v,i)=>{if(v==null)flush();else seg.push(`${X(i)},${Y(v)}`)});flush();
+  const TP=values.map((v,i)=>v==null?null:[i,v]).filter(Boolean),fit=TP.length>=7?linfit(TP):null,i0=TP.length?TP[0][0]:0,i1=TP.length?TP[TP.length-1][0]:0;
+  if(fit){el("line",{x1:X(i0),x2:X(i1),y1:Y(Math.max(0,fit.at(i0))),y2:Y(Math.max(0,fit.at(i1))),stroke:"var(--s5)","stroke-width":2.5,"stroke-dasharray":"1 5","stroke-linecap":"round"},svg);trendLegend(host)}
   const defs=el("defs",{},svg),pat=el("pattern",{id:"gap",width:6,height:6,patternUnits:"userSpaceOnUse",patternTransform:"rotate(45)"},defs);el("rect",{width:3,height:6,fill:"var(--grid)"},pat);
   const every=Math.max(1,Math.ceil(n/(W<500?4:8)));dates.forEach((d,i)=>{if(i%every===0&&(n-1-i)>=every*.85||i===n-1){const t=el("text",{x:X(i),y:H-6,"text-anchor":i===n-1?"end":"middle"},svg);t.textContent=dBR(d)}});
   const vl=el("line",{y1:m.t,y2:m.t+ih,stroke:"var(--muted)","stroke-dasharray":"3 3",opacity:0},svg);
   const ov=el("rect",{x:m.l,y:m.t,width:iw,height:ih,fill:"transparent"},svg);
   const mv=e=>{const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)*W/r.width;const i=Math.max(0,Math.min(n-1,Math.floor((px-m.l)/bw)));vl.setAttribute("x1",X(i));vl.setAttribute("x2",X(i));vl.setAttribute("opacity",1);
-    const v=values[i];showTip(e,`<b>${dBR(dates[i])}</b><br>${label}: ${v==null?"sem coleta":full(v)}<br>Média 7 dias: ${ma[i]==null?ND:full(ma[i])}${v!=null&&ma[i]?`<br>${v>=ma[i]?"▲":"▼"} ${pct(Math.abs(v/ma[i]-1),0)} ${v>=ma[i]?"acima":"abaixo"} da média`:""}`)};
+    const v=values[i];showTip(e,`<b>${dBR(dates[i])}</b><br>${label}: ${v==null?"sem coleta":full(v)}<br>Média 7 dias: ${ma[i]==null?ND:full(ma[i])}${fit&&i>=i0&&i<=i1?`<br>Tendência: ${full(Math.max(0,Math.round(fit.at(i))))}`:""}${v!=null&&ma[i]?`<br>${v>=ma[i]?"▲":"▼"} ${pct(Math.abs(v/ma[i]-1),0)} ${v>=ma[i]?"acima":"abaixo"} da média`:""}`)};
   ov.addEventListener("pointermove",mv);ov.addEventListener("pointerdown",mv);ov.addEventListener("pointerleave",e=>{vl.setAttribute("opacity",0);if(e.pointerType!=="touch")hideTip()});
+  if(fit)host.insertAdjacentHTML("beforeend",trendText(fit,i0,i1,"por dia",f));
 }
 
 /* seguidores ao longo do dia (leituras da API) */
@@ -423,12 +437,13 @@ function intraday(){
   const HB=[];for(let h=0;h<Math.ceil(last.h-1e-9);h++){let g=0,est=false,cov=0;
     for(let i=1;i<pts.length;i++){const a=pts[i-1],c=pts[i],ov=Math.min(c.h,h+1)-Math.max(a.h,h);if(ov<=0)continue;g+=(c.n-a.n)*ov/(c.h-a.h);cov+=ov;if(c.h-a.h>1.25)est=true}
     HB.push({h,g:Math.round(g),est,part:cov<.999})}
-  $("#intra-leg").innerHTML=`<span><i class="ln" style="background:var(--s3)"></i>Saldo acumulado</span>${yOk?`<span><i class="dash"></i>Ontem, mesmo horário</span>`:""}<span><i style="background:var(--s1)"></i>Saldo de cada hora</span><span><i style="background:var(--s1);opacity:.4"></i>Estimado (sem leitura naquela hora)</span>`;
+  $("#intra-leg").innerHTML=`<span><i class="ln" style="background:var(--s3)"></i>Saldo acumulado</span><span><i class="tr"></i>Tendência até 24h</span>${yOk?`<span><i class="dash"></i>Ontem, mesmo horário</span>`:""}<span><i style="background:var(--s1)"></i>Saldo de cada hora</span><span><i style="background:var(--s1);opacity:.4"></i>Estimado (sem leitura naquela hora)</span>`;
   const W=host.clientWidth||600,H=Math.max(300,Math.min(380,W*.6)),m={t:12,r:12,b:24,l:46},gapP=26;
   const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ihT=H-m.t-m.b-gapP,h1=ihT*.58,h2=ihT-h1,t2=m.t+h1+gapP;
   const X=h=>m.l+iw*h/24;
   /* painel de cima: saldo acumulado */
-  const all=[...pts,...(yOk?Y.out:[])].map(p=>p.n),lo=Math.min(0,...all),hi=Math.max(1,...all);
+  const pace=last.h>1?last.n/last.h:null,proj=pace!=null&&last.h<23.5?last.n+pace*(24-last.h):null;
+  const all=[...pts,...(yOk?Y.out:[])].map(p=>p.n).concat(proj!=null?[proj]:[]),lo=Math.min(0,...all),hi=Math.max(1,...all);
   let step=nice((hi-lo)/3),y0=Math.floor(lo/step)*step,y1=Math.ceil(hi/step)*step;
   const Yp=n=>m.t+h1-h1*(n-y0)/(y1-y0);
   for(let v=y0;v<=y1+1e-9;v+=step){const y=Yp(v);el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:v===0?"var(--border)":"var(--grid)"},svg);const t=el("text",{x:m.l-8,y:y+4,"text-anchor":"end"},svg);t.textContent=(v>0?"+":"")+fmt(v)}
@@ -436,6 +451,8 @@ function intraday(){
   if(yOk)el("polyline",{points:Y.out.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" "),fill:"none",stroke:"var(--muted)","stroke-width":1.5,"stroke-dasharray":"4 3"},svg);
   el("polygon",{points:`${X(pts[0].h)},${Yp(0)} `+pts.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" ")+` ${X(last.h)},${Yp(0)}`,fill:"var(--s3)",opacity:.12},svg);
   el("polyline",{points:pts.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" "),fill:"none",stroke:"var(--s3)","stroke-width":2.2,"stroke-linejoin":"round"},svg);
+  if(proj!=null){el("line",{x1:X(last.h),y1:Yp(last.n),x2:X(24),y2:Yp(proj),stroke:"var(--s5)","stroke-width":2.5,"stroke-dasharray":"1 5","stroke-linecap":"round"},svg);
+    const pt=el("text",{x:X(24)-2,y:Yp(proj)-8,"text-anchor":"end",style:"font-size:11px;font-weight:700;fill:var(--s5)"},svg);pt.textContent=`~${proj>=0?"+":""}${full(Math.round(proj))} às 24h`}
   pts.forEach((p,i)=>{if(p.k)el("circle",{cx:X(p.h),cy:Yp(p.n),r:i===pts.length-1?4:2.6,fill:"var(--s3)",stroke:"var(--surface)","stroke-width":1.2},svg)});
   const lt=el("text",{x:Math.min(X(last.h)+8,W-m.r-40),y:Yp(last.n)-8,style:"font-size:12px;font-weight:700;fill:var(--text)"},svg);lt.textContent=(last.n>=0?"+":"")+full(last.n);
   /* painel de baixo: saldo de cada hora */
@@ -462,8 +479,8 @@ function intraday(){
     const dh=pr?p.h-pr.h:0,d=pr?p.n-pr.n:null,yv=yAt(p.h);
     showTip(e,`<b>${hm(p.h)}</b><br>Saldo desde 0h: <b>${p.n>=0?"+":""}${full(p.n)}</b><br>Total: ${full(p.v)} seguidores${pr?`<br>Desde a leitura anterior (${hm(pr.h)}): ${d>=0?"+":""}${full(d)}${dh>0.2?` · ${d/dh>=0?"+":""}${fmt(Math.round(d/dh))}/hora`:""}`:""}${yv!=null?`<br>Ontem até esse horário: ${yv>=0?"+":""}${full(yv)}`:""}`)};
   ov.addEventListener("pointermove",mv);ov.addEventListener("pointerdown",mv);ov.addEventListener("pointerleave",e=>{vl.setAttribute("opacity",0);if(e.pointerType!=="touch")hideTip()});
-  const rate=last.h>0.5?last.n/last.h:null,best=HB.filter(b=>!b.est&&!b.part).sort((a,b)=>b.g-a.g)[0];
-  $("#intra-note").innerHTML=`<b>${last.n>=0?"+":""}${full(last.n)}</b> no saldo até ${hm(last.h)}${rate!=null?`, média de ${rate>=0?"+":""}${fmt(Math.round(rate))} por hora`:""}${best?`; melhor hora medida: ${best.h}h às ${best.h+1}h (+${full(best.g)})`:""}${yOk&&yAt(last.h)!=null?`. Ontem, no mesmo horário: ${yAt(last.h)>=0?"+":""}${full(yAt(last.h))}`:""}.${T.okB?"":" Hoje a primeira leitura foi depois da meia-noite: o saldo conta a partir dela."} A API não informa entradas e saídas separadas por hora, só o total de seguidores; por isso o gráfico mostra o saldo. Barras claras são estimadas: horas sem leitura recebem uma parte igual do saldo do intervalo. A coleta roda de hora em hora (o GitHub pode atrasar alguns minutos).`;
+  const rate=last.h>0.5?last.n/last.h:null,projTxt=proj!=null?` Tendência: mantido o ritmo médio do dia, o saldo chega a cerca de <b>${proj>=0?"+":""}${full(Math.round(proj))}</b> à meia-noite (a madrugada costuma ser mais fraca, então tende a ficar um pouco abaixo).`:"",best=HB.filter(b=>!b.est&&!b.part).sort((a,b)=>b.g-a.g)[0];
+  $("#intra-note").innerHTML=`<b>${last.n>=0?"+":""}${full(last.n)}</b> no saldo até ${hm(last.h)}${rate!=null?`, média de ${rate>=0?"+":""}${fmt(Math.round(rate))} por hora`:""}${best?`; melhor hora medida: ${best.h}h às ${best.h+1}h (+${full(best.g)})`:""}${yOk&&yAt(last.h)!=null?`. Ontem, no mesmo horário: ${yAt(last.h)>=0?"+":""}${full(yAt(last.h))}`:""}.${T.okB?"":" Hoje a primeira leitura foi depois da meia-noite: o saldo conta a partir dela."}${projTxt} A API não informa entradas e saídas separadas por hora, só o total de seguidores; por isso o gráfico mostra o saldo. Barras claras são estimadas: horas sem leitura recebem uma parte igual do saldo do intervalo. A coleta roda de hora em hora (o GitHub pode atrasar alguns minutos).`;
 }
 
 /* barras com mediana + quartis + n */
@@ -504,6 +521,10 @@ function scatter(host,{pts,tipFn,xLabel,href,onPick}){
   const lt=el("text",{x:m.l+iw/2,y:H-2,"text-anchor":"middle"},svg);lt.textContent=xLabel+" · views em escala log";
   const med=median(xs);el("line",{x1:X(med),x2:X(med),y1:m.t,y2:m.t+ih,stroke:"var(--muted)","stroke-dasharray":"3 3"},svg);
   const mt=el("text",{x:X(med)+4,y:m.t+10},svg);mt.textContent="mediana "+pct(med/100,0);
+  const sf=pts.length>=8?linfit(pts.filter(p=>p.y>0).map(p=>[p.x,Math.log10(p.y)])):null;
+  if(sf){const a=Math.min(...xs),b=Math.max(...xs),yv=x=>Math.min(Math.max(10**sf.at(x),100),10**yMax);
+    el("line",{x1:X(a),x2:X(b),y1:Y(yv(a)),y2:Y(yv(b)),stroke:"var(--s5)","stroke-width":2.5,"stroke-dasharray":"1 5","stroke-linecap":"round"},svg);trendLegend(host);
+    const ch=10**(sf.sl*10)-1;host._trend=`<div class="trend-note">Tendência: a cada 10 pontos a mais de pulo, as views <b style="color:${ch<0?"var(--bad)":"var(--good)"}">${ch<0?"caem":"sobem"} cerca de ${pct(Math.abs(ch),0)}</b> (correlação, não prova de causa).</div>`}else host._trend="";
   let picked=-1;const dots=[];
   pts.forEach((p,i)=>{const a=el("a",{href:href(i),target:"_blank",rel:"noopener",style:"cursor:pointer"},svg);
     dots.push(el("circle",{cx:X(p.x),cy:Y(p.y),r:5,fill:"var(--s2)",stroke:"var(--surface)","stroke-width":1.5,opacity:.85},a));
@@ -762,6 +783,7 @@ function renderReels(){
   scatter($("#c-scatter"),{pts:Rl.map(p=>({x:p.skip,y:p.views})),xLabel:"taxa de pulo",href:i=>linkOf(Rl[i]),
     tipFn:i=>{const p=Rl[i];return`<b>${p.title}</b><br>${dBR(p.date)} · ${p.theme}<br>${full(p.views)} views<br>Pulo: ${pct(p.skip/100)} · assistido em média: ${secs(p.watch)}<br>Duração: ${p.duration!=null?secs(Math.round(p.duration)):ND} · assistido: ${pct(p.pctw,0)}`},
     onPick:i=>{const p=Rl[i];pick.className="pick on";pick.innerHTML=`<b>${p.title}</b><br>${dBR(p.date)} ${p.ts.slice(11)} · ${p.theme} · idade na coleta ${age(p.age_h)}<br>${full(p.views)} views · pulo ${pct(p.skip/100)} · assistido ${secs(p.watch)} de ${p.duration!=null?secs(Math.round(p.duration)):ND} (${pct(p.pctw,0)})<br><a class="btn" href="${linkOf(p)}" target="_blank" rel="noopener">Abrir no Instagram ↗</a>`}});
+  $("#c-scatter").insertAdjacentHTML("beforeend",$("#c-scatter")._trend||"");
   if(!Rl.length){["#c-skip","#c-watch","#best-reels","#c-dur","#c-pctw"].forEach(s=>empty($(s),"Sem Reels no filtro atual."));$("#skip-note").innerHTML="";return}
   const SB=[["Abaixo de 35%",0,35],["35% a 45%",35,45],["Acima de 45%",45,101]];
   const sb=SB.map(([l,a,b])=>({l,st:statsOf(Rl.filter(p=>p.skip>=a&&p.skip<b).map(p=>p.views))}));
@@ -933,6 +955,9 @@ Promise.all([fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.
 }).catch(err=>{$("#updated").textContent="Não foi possível carregar os dados agora. Tente recarregar a página.";document.querySelector("main").insertAdjacentHTML("afterbegin",`<div class="empty" style="margin-bottom:20px">Erro ao carregar data.json (${err.message}).</div>`)});
 
 /* ---------- botão Atualizar agora ---------- */
+/* gráfico hora a hora: confere a cada 3 minutos se há leitura nova e redesenha sem recarregar a página */
+setInterval(async()=>{if(document.hidden||!D)return;try{const d=await fetch("data.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json());
+  if(d.intraday&&JSON.stringify(d.intraday.slice(-1))!==JSON.stringify((D.intraday||[]).slice(-1))){D.intraday=d.intraday;D.account=d.account;D.account_updated=d.account_updated;intraday()}}catch(e){}},180000);
 Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"coleta",wf:"coleta-instagram.yml",minutes:10,
   stamp:()=>fetch("data.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(d=>d.account_updated||d.updated),
   labels:{wait:"Aguardando o GitHub começar…",running:"Atualizando: buscando os dados no Instagram (1 a 2 minutos)…"}});
