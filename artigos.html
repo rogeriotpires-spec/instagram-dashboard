@@ -114,8 +114,9 @@ table.tit .lb{display:none}
 .fontes a{color:var(--text-2)}
 .bar{position:sticky;bottom:0;background:var(--surface);border-top:1px solid var(--border);padding:12px 18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .btn{border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:10px;padding:9px 16px;font-weight:700;font-size:14px;cursor:pointer}
-.btn.pri{background:var(--brasa);border-color:var(--brasa);color:#fff}
-.btn.pri:hover{background:var(--brasa-esc)}
+.btn.pri{background:#a63922;border-color:#a63922;color:#fff}
+.btn.pri:hover{background:#7e2a18;border-color:#7e2a18}
+.btn.dark{background:var(--text);border-color:var(--text);color:var(--bg)}
 .btn:disabled{opacity:.55;cursor:wait}
 #e-st{font-size:13px;color:var(--text-2);flex:1;min-width:160px}
 .linkbox{background:var(--good-bg);border:1px solid color-mix(in srgb,var(--good) 30%,transparent);border-radius:12px;padding:14px}
@@ -183,12 +184,12 @@ function pending(){return ls.keys("artigo_req:").map(k=>ls.get(k)).filter(r=>r&&
 function renderList(){
   const P=pending().map(r=>({id:r.id,criado:r.sent||r.asked,titulo:r.pauta.title,origem:r.origem.rotulo,status:r.erro?"erro":"gerando",link:""}));
   const L=[...P,...INDEX.map(i=>{const d=ls.get("artigo_save:"+i.id);return d&&(!i.saved_at||d.saved_at>i.saved_at)?{...i,titulo:d.titulo,status:d.status,link:d.link}:i})];
-  $("#rows").innerHTML=L.length?L.map(i=>`<tr data-id="${esc(i.id)}"><td class="c-date">${fdt(i.criado)}</td><td><div class="t-title">${esc(i.titulo||"(sem título)")}</div></td><td><div class="t-sub">${esc(i.origem||"")}</div></td><td><span class="pill st-${i.status}">${ST[i.status]||i.status}</span></td><td>${i.link?`<a class="tl-link" href="${esc(i.link)}" target="_blank" rel="noopener">Abrir ↗</a>`:`<span class="t-sub">${i.status==="finalizado"?"Falta o link":""}</span>`}</td></tr>`).join(""):`<tr><td colspan="5" class="empty">Nenhum artigo ainda.</td></tr>`;
-  document.querySelectorAll("#rows tr[data-id]").forEach(tr=>tr.onclick=e=>{if(e.target.closest("a"))return;location.hash=tr.dataset.id});
+  $("#rows").innerHTML=L.length?L.map(i=>`<tr data-id="${esc(i.id)}"><td class="c-date">${fdt(i.criado)}</td><td><div class="t-title">${esc(i.titulo||"(sem título)")}</div></td><td><div class="t-sub">${esc(i.origem||"")}</div></td><td><span class="pill st-${i.status}">${ST[i.status]||i.status}</span></td><td>${i.link?`<a class="tl-link" href="${esc(i.link)}" target="_blank" rel="noopener">Abrir ↗</a>`:(i.status==="finalizado"?`<button type="button" class="cp addlink" data-link="${esc(i.id)}">+ Incluir link</button>`:"")}</td></tr>`).join(""):`<tr><td colspan="5" class="empty">Nenhum artigo ainda.</td></tr>`;
+  document.querySelectorAll("#rows tr[data-id]").forEach(tr=>tr.onclick=e=>{if(e.target.closest("a"))return;if(e.target.closest(".addlink"))FOCUS_LINK=true;if(location.hash==="#"+tr.dataset.id)route();else location.hash=tr.dataset.id});
 }
 
 /* ---------- editor ---------- */
-let A=null,DIRTY=false,POLL=0;const ORIG={};
+let A=null,DIRTY=false,POLL=0,FOCUS_LINK=false;const ORIG={};
 function openDlg(){$("#ov").classList.add("on");document.body.classList.add("lock")}
 function closeDlg(){if(DIRTY&&!confirm("Há alterações não salvas. Fechar mesmo assim? (elas ficam guardadas neste aparelho)"))return;POLL++;$("#ov").classList.remove("on");document.body.classList.remove("lock");if(location.hash)history.replaceState(null,"",location.pathname);A=null;DIRTY=false;loadIndex().then(renderList)}
 $("#x").onclick=closeDlg;
@@ -253,7 +254,7 @@ function fieldsHTML(){
     ${(A.anteriores||[]).length?`<div class="sec"><details class="ant"><summary>Versões anteriores (${A.anteriores.length})</summary>${A.anteriores.map((v,i)=>`<div class="v"><b>${esc(v.titulo)}</b><div class="fb">${fdt(v.em)} · ${v.texto.trim().split(/\s+/).length} palavras</div>${(A.revisoes||[]).length?"":""}<button class="cp" data-rest="${i}">Restaurar este texto</button></div>`).join("")}</details></div>`:""}
     ${(A.revisoes||[]).length?`<div class="sec"><details class="ant"><summary>Seus pedidos de reescrita (${A.revisoes.length})</summary>${A.revisoes.slice().reverse().map(r=>`<div class="v"><div class="fb">${fdt(r.em)}</div>${esc(r.feedback)}</div>`).join("")}</details></div>`:""}
   </div>
-  <div class="bar"><span id="e-st"></span><button class="btn" id="b-fin"></button><button class="btn pri" id="b-save">Salvar</button></div>`;
+  <div class="bar"><span id="e-st"></span><button class="btn" id="b-fin"></button><button class="btn" id="b-save">Salvar</button><button class="btn pri" id="b-close">Salvar e fechar</button></div>`;
 }
 const grow=e=>{e.style.height="auto";e.style.height=e.scrollHeight+2+"px"};
 function render(note){
@@ -274,12 +275,16 @@ function render(note){
     for(const k of ["titulo","subtitulo","texto"]){A[k]=v[k];F[k].value=v[k];grow(F[k])}wc();mark();toast("Versão restaurada. Toque em Salvar para gravar.");F.titulo.scrollIntoView({behavior:"smooth",block:"center"})});
   linkSec();
   setTimeout(()=>Object.values(F).forEach(grow),50);
+  if(FOCUS_LINK&&$("#e-link")){FOCUS_LINK=false;setTimeout(()=>{$("#e-link").scrollIntoView({behavior:"smooth",block:"center"});$("#e-link").focus()},150)}
   if(note==="saving"){say("Salvando no GitHub…");watchSave(A.saved_at)}else say(DIRTY?"Alterações não salvas (guardadas neste aparelho)":A.saved_at?`Salvo em ${fdt(A.saved_at)}`:"Versão gerada, ainda não editada");
 }
 function linkSec(){
   const fin=A.status==="finalizado"||A.status==="publicado";
-  $("#b-fin").textContent=fin?"Voltar para rascunho":"Finalizar artigo";
-  $("#b-fin").onclick=()=>{if(fin){if(A.link&&!confirm("Voltar para rascunho? O link da publicação fica guardado."))return;save({status:"rascunho"})}else save({status:"finalizado"})};
+  $("#b-fin").textContent=fin?"Voltar para rascunho":"Finalizar e fechar";
+  $("#b-fin").className=fin?"btn":"btn dark";
+  $("#b-fin").onclick=async()=>{if(fin){if(A.link&&!confirm("Voltar para rascunho? O link da publicação fica guardado."))return;save({status:"rascunho"})}
+    else if(await save({status:"finalizado"})){closeDlg();toast("Artigo finalizado. Volte depois para incluir o link.")}};
+  $("#b-close").onclick=async()=>{if(await save({}))closeDlg()};
   $("#link-sec").innerHTML=fin?`<div class="linkbox"><div class="lab"><span>Link da publicação na Timeline</span>${A.link?`<a class="tl-link" href="${esc(A.link)}" target="_blank" rel="noopener">Abrir ↗</a>`:""}</div><div class="row"><input class="fld" id="e-link" type="url" inputmode="url" placeholder="https://www.revistatimeline.com/p/..." value="${esc(A.link||"")}"><button class="btn pri" id="b-link">Salvar link</button></div></div>`:"";
   if(fin)$("#b-link").onclick=()=>{const v=$("#e-link").value.trim();if(v&&!/^https:\/\/\S+$/.test(v)){toast("O link precisa começar com https://");return}save({link:v,status:v?"publicado":"finalizado"})};
 }
@@ -294,8 +299,8 @@ async function save(extra){
   $("#dlg-eb").textContent=`Artigo para a Timeline · ${ST[A.status]||A.status}`;linkSec();
   $("#b-save").disabled=true;say("Salvando…");
   try{await Painel.call("/acao",{job:"artigo-salvar",payload:JSON.stringify(data)})}
-  catch(e){$("#b-save").disabled=false;say(/Rota desconhecida/.test(e.message)?"Falta atualizar o intermediário na Cloudflare (rota /acao). As alterações ficaram guardadas neste aparelho.":`Não salvou: ${e.message}. As alterações ficaram guardadas neste aparelho.`);return}
-  $("#b-save").disabled=false;say("Salvando no GitHub…");watchSave(A.saved_at);
+  catch(e){$("#b-save").disabled=false;say(/Rota desconhecida/.test(e.message)?"Falta atualizar o intermediário na Cloudflare (rota /acao). As alterações ficaram guardadas neste aparelho.":`Não salvou: ${e.message}. As alterações ficaram guardadas neste aparelho.`);return false}
+  $("#b-save").disabled=false;say("Salvando no GitHub…");watchSave(A.saved_at);return true;
 }
 async function watchSave(stamp){
   const id=A.id,t0=Date.now();
