@@ -306,9 +306,8 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 
   <section class="block" id="publico">
     <div class="sec-h"><h2>Público</h2><p id="aud-sub"></p></div>
-    <div class="g2e">
+    <div style="margin-bottom:12px">
       <div class="card"><div class="head"><h3>Idade e gênero dos seguidores</h3><span class="per" data-per="aud"></span></div><div class="legend"><span><i style="background:var(--s1)"></i>Homens</span><span><i style="background:var(--s2)"></i>Mulheres</span><span><i style="background:var(--muted)"></i>Não informado</span></div><div id="c-age"></div></div>
-      <div class="card"><div class="head"><h3>Principais cidades dos seguidores</h3><span class="per" data-per="aud"></span></div><div id="c-city"></div></div>
     </div>
     <div class="card" id="uf-row" style="margin-bottom:12px"><div class="head"><h3>Seguidores por Estado</h3><span class="per" data-per="aud"></span></div><p class="desc">Toque em um Estado para ver os municípios.</p><div id="c-uf"></div></div>
     <div class="def">Esses dados descrevem quem <b>segue</b> o perfil, não todas as pessoas alcançadas: mais de 99% do alcance vem de não seguidores, cujo perfil a fonte não informa.</div>
@@ -739,8 +738,6 @@ function renderAudience(){
     return{label:a==="65+"?"65 anos ou mais":a.replace("-"," a ")+" anos",text:`${pct(t/tot)} · ${full(t)}`,parts:[{v:m,c:"var(--s1)"},{v:f,c:"var(--s2)"},{v:u,c:"var(--muted)"}],tip:`<b>${a}</b><br>Homens: ${full(m)}<br>Mulheres: ${full(f)}<br>Não informado: ${full(u)}`}}),{stack:true});
   $("#c-age").insertAdjacentHTML("beforeend",`<div class="def">Percentual sobre ${full(tot)} seguidores com idade informada.</div>`);
   const c=D.audience.cities,ct=sum(c,x=>x[1]);
-  hbars($("#c-city"),c.slice(0,10).map(x=>({label:x[0],v:x[1],text:`${full(x[1])} · ${pct(x[1]/D.account.followers)}`,c:"var(--s1)"})));
-  $("#c-city").insertAdjacentHTML("beforeend",`<div class="def">Percentual sobre o total de seguidores. As ${c.length} cidades informadas pela fonte somam ${pct(ct/D.account.followers,0)} da base; a lista mostra as 10 maiores.</div>`);
   const S=(D.audience.states||[]).map(r=>({uf:r[0],reg:r[1],v:r[2],n:r[3]})),st=sum(S,x=>x.v);
   if(!S.length){$("#uf-row").style.display="none";return}
   const UFN={AC:"Acre",AL:"Alagoas",AP:"Amapá",AM:"Amazonas",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MT:"Mato Grosso",MS:"Mato Grosso do Sul",MG:"Minas Gerais",PA:"Pará",PB:"Paraíba",PR:"Paraná",PE:"Pernambuco",PI:"Piauí",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RS:"Rio Grande do Sul",RO:"Rondônia",RR:"Roraima",SC:"Santa Catarina",SP:"São Paulo",SE:"Sergipe",TO:"Tocantins"};
