@@ -1,1 +1,36 @@
-{"alerts":[]}
+{
+  "alerts": [
+    {
+      "time": "2026-10-08T08:56:00-03:00",
+      "title": "Seis pontos de vantagem. E agora, Datafolha?",
+      "fact": "A primeira pesquisa PoderData/Aya do segundo turno, divulgada às 7h30 desta quinta (8), mostra Flávio Bolsonaro (PL) com 53% dos votos válidos e Lula (PT) com 47%; nos votos totais, 49% a 44%. A margem de erro é de 1,8 ponto, com 3.000 entrevistas por telefone de 5 a 7 de outubro (registro TSE BR-08134/2026). Segundo o Poder360, a desaprovação a Lula chega a 49%, contra 44% de aprovação, e 54% acham que Flávio tem mais chance de vencer.",
+      "sources": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-poderdata-aya/"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-flavio-tem-53-dos-votos-validos-no-2o-turno-lula-47/"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/poderdata-aya-flavio-bolsonaro-tem-49-contra-44-de-lula-no-2o-turno/"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/flavio-bolsonaro-abre-6-pontos-sobre-lula-no-2o-turno"
+        }
+      ],
+      "suggestion": "Reel curto de reação, gravado agora e publicado até as 11h, antes do julgamento do TSE sobre o Rio dominar o dia. Se preferir imagem, cartaz com o placar 53 x 47 às 12h.",
+      "hook": "Primeira pesquisa do segundo turno: Flávio 53, Lula 47. Fora da margem.",
+      "script": "Seis pontos fora da margem de erro. A primeira pesquisa PoderData do segundo turno saiu hoje cedo: Flávio Bolsonaro 53% dos votos válidos, Lula 47%. Em uma semana, Lula caiu três pontos e Flávio subiu três. E tem mais: quase metade do país desaprova o governo. No primeiro turno, as pesquisas erraram para baixo com o Flávio. A urna confirmou. Pesquisa não vota, quem vota é você. Manda esse vídeo para quem ainda acha que está decidido.",
+      "image_prompt": "Crie uma imagem vertical 4:5 (1080x1350), estilo cartaz, fundo escuro com textura de papel envelhecido e tons quentes dessaturados (ocre, marrom, vermelho). No alto, em letras condensadas, brancas e pesadas: \"1ª PESQUISA DO 2º TURNO\". No centro, um placar grande com dois quadros: à esquerda, quadro amarelo com \"FLÁVIO 53%\"; à direita, quadro vermelho escuro com \"LULA 47%\". Logo abaixo, em letras menores brancas: \"Votos válidos. PoderData/Aya, 5 a 7/10. Margem de 1,8 ponto.\" Embaixo, frase forte em branco com sublinhado vermelho pincelado: \"Pesquisa não vota. Quem vota é você.\" No rodapé, centralizado, em letras pequenas e discretas, branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Sem logos de veículos de imprensa, sem outras marcas. Texto em português do Brasil, sem travessão.",
+      "style": "cartaz",
+      "timeline": {
+        "rende": "Hoje e amanhã, até a próxima rodada de pesquisas",
+        "angle": "Contraste com o erro das pesquisas no 1º turno e com os números do Datafolha; foco na virada de tendência em uma semana."
+      }
+    }
+  ]
+}
