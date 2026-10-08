@@ -84,8 +84,12 @@ a{color:inherit;text-decoration:none}
 .perg li{margin-bottom:1.2mm}
 .perg li::marker{font-family:var(--cond);font-weight:700;color:var(--brasa)}
 .atencao{margin-top:3mm;font-family:var(--mono);font-size:8pt;color:var(--brasa-esc)}
-.fontes{margin-top:3mm;font-family:var(--mono);font-size:7.4pt;line-height:1.5;color:var(--cinza);word-break:break-word}
-.fontes b{font-weight:500;color:var(--preto)}
+.fontes{margin-top:3mm;font-family:var(--mono);font-size:7.3pt;line-height:1.45;color:var(--cinza);break-inside:avoid}
+.fontes b{display:block;font-family:var(--cond);font-weight:700;font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--preto);margin-bottom:.8mm}
+.fontes ol{margin:0;padding-left:4.5mm}
+.fontes li{margin-bottom:.6mm}
+.fontes .fn{font-weight:500;color:var(--preto)}
+.fontes a{color:var(--brasa-esc);text-decoration:underline;text-decoration-color:var(--ambar-cl);word-break:break-all}
 .selo{display:inline-block;font-family:var(--cond);font-weight:700;font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--brasa);border:1.2pt solid var(--brasa);padding:0 2mm;margin-left:2mm;line-height:1.5}
 .indice .selo{font-size:7pt;margin-left:2mm}
 .fim{margin-top:10mm;padding-top:4mm;border-top:1px solid var(--linha);font-family:var(--cond);font-weight:600;font-size:8.5pt;letter-spacing:.14em;text-transform:uppercase;color:var(--cinza);display:flex;justify-content:space-between;gap:6mm}
@@ -122,7 +126,7 @@ a{color:inherit;text-decoration:none}
       <div class="cols"><div class="col"><div class="box-h">Contexto</div><ul>${li(it.contexto)}</ul></div><div class="col ang"><div class="box-h">Nosso ângulo</div><ul>${li(it.angulo)}</ul></div></div>
       ${(it.perguntas||[]).length?`<div class="perg"><div class="box-h">Perguntas para a conversa</div><ol>${li(it.perguntas)}</ol></div>`:""}
       ${it.atencao?`<p class="atencao">Atenção: ${esc(it.atencao)}</p>`:""}
-      ${(it.fontes||[]).length?`<p class="fontes"><b>Fontes:</b> ${it.fontes.map(f=>`${esc(f.name)} (${esc(host(f.url))})`).join(" · ")}</p>`:""}
+      ${(it.fontes||[]).length?`<div class="fontes"><b>Fontes</b><ol>${it.fontes.map(f=>`<li><span class="fn">${esc(f.name)}</span> <a href="${esc(f.url)}">${esc(f.url)}</a></li>`).join("")}</ol></div>`:""}
     </section>`).join("");
     const g=new Date(p.generated);
     document.getElementById("folha").innerHTML=`
