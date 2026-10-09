@@ -1,6 +1,176 @@
 {
   "items": [
     {
+      "requested": "2026-10-09",
+      "done": "2026-10-09T15:47:43-03:00",
+      "issue": 13,
+      "slot_hint": "Reel às 19h de sexta (9), enquanto o assunto domina o noticiário; cartaz às 12h de sábado (10) se houver novidade da PF ou da PGR.",
+      "source": {
+        "edition": "2026-10-09-12h",
+        "item_id": "vorcaro-filme-lula",
+        "title": "Vorcaro diz a revista ter liberado R$ 30 milhões para filme sobre Lula, e PF afirma que delação foi rejeitada por falta de provas"
+      },
+      "options": [
+        {
+          "type": "r",
+          "title": "O áudio que a PF não quis. Por quê?",
+          "tone": "contundente",
+          "duration": "30s",
+          "fact": "Segundo reportagem da revista Veja, o ex-banqueiro Daniel Vorcaro afirma ter negociado com o ex-tesoureiro do PT João Vaccari Neto pagamentos em troca de acesso a fundos de pensão de estatais, incluindo cerca de R$ 30 milhões em espécie para um documentário sobre Lula. Um áudio atribuído a ele compara o aporte ao filme \"Dark Horse\", sobre Jair Bolsonaro. A PF, segundo integrantes ouvidos pela CNN, recusou a delação por falta de elementos mínimos de credibilidade, e a PGR chegou à mesma avaliação. Uma fonte da PGR disse que o áudio não foi enviado à equipe das tratativas. Lula disse à Veja que nunca pediu nem recebeu vantagem financeira de Vorcaro; a campanha chamou as acusações de sem comprovação e prometeu medidas judiciais. São relatos ainda não comprovados.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/vorcaro-cita-r-30-mi-a-filme-de-lula-diz-revista-pf-ve-delacao-sem-prova/"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/em-audio-vorcaro-compara-repasses-a-filmes-do-lula-foi-errado-do-flavio-nao-foi/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/vorcaro-afirmou-ter-liberado-r-30-milhoes-para-filme-de-lula-em-troca-de-negocios-diz-revista"
+            }
+          ],
+          "hooks": [
+            "Uma revista cita R$ 30 milhões para um filme sobre Lula. A PF diz: sem provas.",
+            "Áudio de banqueiro vira bomba a 16 dias do segundo turno."
+          ],
+          "script": "A Veja diz que Daniel Vorcaro relatou R$ 30 milhões em espécie para um documentário sobre Lula, em troca de acesso a fundos de pensão. Atenção: é o que o ex-banqueiro afirma, e nada disso está provado. A PF, segundo a CNN, recusou a delação por falta de elementos mínimos. Uma fonte da PGR diz que o áudio nem chegou à equipe que negociava e suspeita que foi gravado depois que o acordo fracassou. Lula diz que nunca pediu nem recebeu vantagem. Então é bomba ou é peça de campanha? Quem gravou, quando gravou e por que vazou agora? Você acha que isso precisa ser investigado? Sim ou não?",
+          "screen_text": [
+            "Segundo a Veja",
+            "R$ 30 milhões",
+            "PF: delação sem provas",
+            "Lula nega"
+          ],
+          "caption": "Acusação de delator, sem prova, a poucos dias do segundo turno. Quem gravou o áudio e por que vazou agora? Sim ou não: precisa investigar?",
+          "risk": "alto",
+          "risk_note": "Não afirmar pagamento nem crime. Atribuir tudo à Veja, à CNN e às fontes citadas, e manter a negativa de Lula e a posição da PF e da PGR no mesmo trecho. Pergunta sobre a origem do áudio é legítima, sem acusar ninguém.",
+          "timeline": {
+            "rende": true,
+            "angle": "Linha do tempo da delação do Master: propostas, rejeição pela PF e PGR, vazamento do áudio e o efeito na reta final do segundo turno."
+          }
+        },
+        {
+          "type": "i",
+          "style": "cartaz",
+          "title": "R$ 30 milhões, um áudio e nenhuma prova até agora",
+          "tone": "sóbrio com urgência",
+          "fact": "Segundo reportagem da revista Veja, o ex-banqueiro Daniel Vorcaro afirma ter negociado com o ex-tesoureiro do PT João Vaccari Neto pagamentos em troca de acesso a fundos de pensão de estatais, incluindo cerca de R$ 30 milhões em espécie para um documentário sobre Lula. Um áudio atribuído a ele compara o aporte ao filme \"Dark Horse\", sobre Jair Bolsonaro. A PF, segundo integrantes ouvidos pela CNN, recusou a delação por falta de elementos mínimos de credibilidade, e a PGR chegou à mesma avaliação. Uma fonte da PGR disse que o áudio não foi enviado à equipe das tratativas. Lula disse à Veja que nunca pediu nem recebeu vantagem financeira de Vorcaro; a campanha chamou as acusações de sem comprovação e prometeu medidas judiciais. São relatos ainda não comprovados.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/vorcaro-cita-r-30-mi-a-filme-de-lula-diz-revista-pf-ve-delacao-sem-prova/"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/em-audio-vorcaro-compara-repasses-a-filmes-do-lula-foi-errado-do-flavio-nao-foi/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/vorcaro-afirmou-ter-liberado-r-30-milhoes-para-filme-de-lula-em-troca-de-negocios-diz-revista"
+            }
+          ],
+          "art_text": [
+            "R$ 30 milhões",
+            "Segundo a Veja, Vorcaro cita filme sobre Lula",
+            "PF diz que delação não tinha provas",
+            "Lula nega",
+            "Print de matéria",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "prompt": "Crie um cartaz vertical 4:5 (1080x1350), só texto, fundo escuro com textura de concreto e leve vinheta, paleta quente e dessaturada (ocre, marrom, vermelho). No alto, número gigante em amarelo, letras condensadas e muito pesadas: \"R$ 30 milhões\". Abaixo, em branco, letras grandes e pesadas: \"Segundo a Veja, Vorcaro cita filme sobre Lula\". Em dois quadros lado a lado, um vermelho com letras brancas: \"PF diz que delação não tinha provas\" e um cinza com letras brancas: \"Lula nega\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Áudio ou prova?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Sem fotos de pessoas, sem logos de veículos.",
+          "faces": "Nenhuma pessoa retratada. Cartaz só com texto, porque a acusação não é comprovada e a PF e a PGR a descartaram.",
+          "caption": "Uma revista diz que Vorcaro citou R$ 30 milhões para um filme sobre Lula. A PF diz que a delação não tinha provas e Lula nega. Áudio sem prova serve para condenar alguém? Sim ou não?",
+          "risk": "alto",
+          "risk_note": "Acusação de delator sem comprovação. Sempre atribuir: \"segundo a Veja\", \"segundo a PF ouvida pela CNN\". Não afirmar que houve pagamento nem crime. Incluir que Lula nega. Evitar sugerir culpa de Lula ou de Okamotto.",
+          "timeline": {
+            "rende": true,
+            "angle": "Caso Master e fundos de pensão: o que Vorcaro diz, por que a PF e a PGR rejeitaram a delação, quem nega e o que ainda precisa ser provado."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-09",
+      "done": "2026-10-09T15:47:43-03:00",
+      "issue": 12,
+      "slot_hint": "Imagem às 12h de sexta (9) com o dado fresco; reel às 18h.",
+      "source": {
+        "edition": "2026-10-09-12h",
+        "item_id": "ipca-setembro",
+        "title": "Inflação sobe 0,82% em setembro e chega a 4,58% em 12 meses"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "realista",
+          "title": "A conta de luz subiu 7,98% em um mês",
+          "tone": "contundente",
+          "fact": "O IPCA de setembro subiu 0,82%, segundo o IBGE, acima dos 0,73% projetados pelo mercado, após queda de 0,32% em agosto. Em 12 meses, a inflação foi a 4,58%, contra 4,22% no período anterior; no ano, 3,95%. A maior pressão veio da habitação (+2,31%), com a energia elétrica residencial subindo 7,98% (fim do Bônus de Itaipu e bandeira amarela). Alimentos subiram 0,83%, interrompendo três meses de queda, com tomate (+37,76%), batata (+24,07%), cebola (+10,14%) e arroz (+4,56%). Passagens aéreas subiram 9,66%.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-economia/inflacao-sobe-082-em-setembro-em-12-meses-vai-a-458/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/inflacao-ipca-9-outubro-2026/"
+            }
+          ],
+          "art_text": [
+            "Luz +7,98%",
+            "Tomate +37,76%",
+            "Inflação em 12 meses: 4,58%",
+            "Imagem ilustrativa",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, mostrando em close uma conta de luz sobre a mesa de uma cozinha simples, ao lado de uma sacola de feira com tomates e batatas e de uma calculadora, luz natural de fim de tarde, mãos de uma pessoa de costas segurando a conta, sem rosto visível. No alto, em branco, letras condensadas e muito pesadas: \"Luz +7,98%\". Em um quadro amarelo com letras pretas: \"Tomate +37,76%\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Inflação em 12 meses: 4,58%\". No canto inferior esquerdo, selo pequeno: \"Imagem ilustrativa\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Sem logos de veículos.",
+          "caption": "A conta de luz subiu quase 8% em um único mês e o tomate passou de 37%. A inflação em 12 meses já está em 4,58%. O que mais pesou no seu bolso? Luz ou comida?",
+          "risk": "baixo",
+          "risk_note": "Dados do IBGE via Poder360. Atribua ao IBGE e não culpe uma pessoa específica pela alta: a crítica é à conta que chegou ao consumidor. O Bônus de Itaipu e a bandeira são fatores citados pela reportagem.",
+          "timeline": {
+            "rende": true,
+            "angle": "Por que a luz e a comida puxaram a inflação, o que o resultado acima do esperado muda para os juros e quanto sobrou do salário no fim do mês."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Inflação voltou. Quem sentiu primeiro?",
+          "tone": "irônico",
+          "duration": "25 a 30s",
+          "fact": "O IPCA de setembro subiu 0,82%, segundo o IBGE, acima dos 0,73% projetados pelo mercado, após queda de 0,32% em agosto. Em 12 meses, a inflação foi a 4,58%, contra 4,22% no período anterior; no ano, 3,95%. A maior pressão veio da habitação (+2,31%), com a energia elétrica residencial subindo 7,98% (fim do Bônus de Itaipu e bandeira amarela). Alimentos subiram 0,83%, interrompendo três meses de queda, com tomate (+37,76%), batata (+24,07%), cebola (+10,14%) e arroz (+4,56%). Passagens aéreas subiram 9,66%.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-economia/inflacao-sobe-082-em-setembro-em-12-meses-vai-a-458/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/inflacao-ipca-9-outubro-2026/"
+            }
+          ],
+          "hooks": [
+            "Agosto teve deflação. Setembro devolveu tudo e mais um pouco.",
+            "Tomate subiu 37% em um mês. Você viu na feira."
+          ],
+          "script": "Em agosto a inflação deu uma trégua. Em setembro, a conta chegou. O IPCA subiu 0,82%, acima do que o mercado esperava. A energia elétrica residencial subiu quase 8%. O tomate, mais de 37%. A batata, 24%. Em 12 meses, a inflação já está em 4,58%. Quem paga isso não é o gráfico, é a dona de casa na feira e o pequeno comerciante no caixa. Você sentiu a alta na conta de luz ou no mercado? Responde aí.",
+          "screen_text": [
+            "IPCA setembro: 0,82%",
+            "Luz: +7,98%",
+            "Tomate: +37,76%",
+            "12 meses: 4,58%"
+          ],
+          "caption": "Setembro devolveu a trégua de agosto: 0,82% e 4,58% em 12 meses. Luz ou mercado, onde pesou mais no seu bolso?",
+          "risk": "baixo",
+          "risk_note": "Números do IBGE. Não prometa tendência futura; fale do que foi medido em setembro.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que está por trás da alta da luz e dos alimentos e o que o dado acima do esperado indica para os próximos meses."
+          }
+        }
+      ]
+    },
+    {
       "requested": "2026-10-08",
       "done": "2026-10-08T09:21:26-03:00",
       "issue": 6,
