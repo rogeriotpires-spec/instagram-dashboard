@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-10",
+  "weekday": "Sáb",
+  "generated": "2026-10-09T19:55:10-03:00",
+  "summary": "Sábado de bastidor da eleição: a Record cancelou o debate de domingo e deixa os próximos confrontos para 15, 18 e 23/10, a bolsa fechou em recorde e o dólar abaixo de R$ 5 na semana pós-urna, o governo zerou os tributos federais da gasolina a 16 dias do segundo turno e a campanha de Lula pediu ao TSE a cassação da chapa de Flávio por causa do perfil de Marçal. Às 15h o TRE-RJ faz a retotalização no Rio.",
+  "agenda": [
+    {
+      "time": "15h",
+      "text": "TRE-RJ faz a retotalização dos votos para governador sem os votos de Garotinho. Sem eles, Ruas chega a cerca de 50,9% dos válidos.",
+      "source": {
+        "name": "Metrópoles",
+        "url": "https://www.metropoles.com/brasil/tre-do-rio-marca-para-sabado-10-10-retotalizacao-que-dara-vitoria-a-ruas"
+      }
+    },
+    {
+      "time": "10/10",
+      "text": "Prazo de 48 horas dado por Fux para a Secretaria Judiciária liberar ao gabinete dele o acesso integral ao inquérito das fake news e a outros três procedimentos.",
+      "source": {
+        "name": "Gazeta Brasil",
+        "url": "https://gazetabrasil.com.br/brasil/2026/10/08/fux-determina-que-stf-libere-em-48-horas-acesso-integral-ao-inquerito-das-fake-news/"
+      }
+    },
+    {
+      "time": "11/10",
+      "text": "Debate da Record entre Lula e Flávio, que estava marcado, foi cancelado por incompatibilidade de agendas.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/record-cancela-debate-entre-lula-e-flavio-marcado-para-domingo/"
+      }
+    },
+    {
+      "time": "15/10",
+      "text": "Debate do SBT no segundo turno, o próximo previsto. Band/Estadão em 18/10 e Globo em 23/10.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/record-cancela-debate-entre-lula-e-flavio-marcado-para-domingo/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/record-cancela-debate-entre-lula-e-flavio-marcado-para-domingo/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "8h",
+      "type": "i",
+      "kind": "Imagem leve ou pessoal",
+      "options": [
+        {
+          "title": "Domingo sem debate. E a cadeira vazia?",
+          "tone": "irônico, sem agressão",
+          "style": "ilustracao",
+          "fact": "A Record cancelou o debate entre Lula e Flávio Bolsonaro que seria no domingo, 11/10, e alegou, em comunicado na sexta (9/10), incompatibilidade de agendas dos candidatos. A campanha de Lula diz que ele vai a todos os debates do segundo turno. Estão previstos SBT em 15/10, Band/Estadão em 18/10 e Globo em 23/10. No primeiro turno, Lula e Flávio não participaram de nenhum debate de TV.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/record-cancela-debate-entre-lula-e-flavio-marcado-para-domingo/"
+            },
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/politica/debate-na-record-e-cancelado-apos-incompatibilidade-de-agendas-de-flavio-e-lula/"
+            }
+          ],
+          "art_text": [
+            "Domingo sem debate",
+            "Próximos: 15, 18 e 23/10",
+            "Os dois vão aparecer?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Lula e Flávio Bolsonaro, os dois candidatos do debate cancelado. Ilustração estilo charge, sem foto real, cada um ao lado de um púlpito vazio e olhando o relógio. Risco baixo: a cena não afirma que um dos dois fugiu, só mostra o púlpito vazio.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. Um estúdio de TV vazio, com dois púlpitos lado a lado sob holofotes apagados e uma cadeira de apresentador vazia. À esquerda, Lula (presidente, cabelo e barba grisalhos, terno escuro) e, à direita, Flávio Bolsonaro (senador, cabelo curto escuro, terno escuro), cada um de pé ao lado de um púlpito, de braços cruzados, com expressão de impaciência e olhando o relógio de parede. No alto, em branco, letras condensadas e muito pesadas: \"Domingo sem debate\". Em um quadro amarelo no meio: \"Próximos: 15, 18 e 23/10\". Embaixo, frase forte em branco com sublinhado vermelho pincelado: \"Os dois vão aparecer?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "A Record cancelou o debate de domingo e o primeiro turno inteiro passou sem Lula e Flávio frente a frente na TV. Você quer ver um debate antes do dia 25? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Não acuse nenhum dos dois de fugir: a Record falou em incompatibilidade de agendas e a campanha de Lula diz que ele vai a todos. As datas dos próximos debates são previsão e podem mudar.",
+          "timeline": {
+            "rende": false,
+            "angle": "Fato curto de agenda, sem material para 600 palavras. Só rende se o SBT de 15/10 também cair e o tema virar a ausência de debates na campanha."
+          }
+        },
+        {
+          "title": "A bolsa bateu recorde. O dólar caiu. E agora?",
+          "tone": "sóbrio, com leveza",
+          "style": "cartaz",
+          "fact": "O Ibovespa fechou a sexta (9/10) em 209.066,90 pontos, alta de 1,38% no dia e de cerca de 8% na semana, o primeiro fechamento acima de 209 mil. O dólar caiu 0,76% e fechou a R$ 4,9856, com queda de 4,44% na semana. A CNN Brasil atribui o movimento às pesquisas do segundo turno, com investidores apostando em mais controle das contas públicas se Flávio vencer, e ao recuo do petróleo.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-9-outubro-2026/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/bolsa-nesta-sexta"
+            }
+          ],
+          "art_text": [
+            "Dólar abaixo de R$ 5",
+            "Ibovespa: 209 mil pontos",
+            "Semana: bolsa +8%, dólar -4,44%",
+            "O mercado já escolheu?",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Cartaz com números sobre fundo escuro, sem foto de candidatos.",
+          "prompt": "Crie uma arte vertical 4:5 (1080x1350), estilo cartaz, só texto e números, fundo escuro com textura de papel envelhecido e tons quentes dessaturados (ocre, marrom, vermelho). No alto, em branco, letras condensadas e muito pesadas: \"Dólar abaixo de R$ 5\". No centro, dois quadros lado a lado: à esquerda, quadro amarelo com \"IBOVESPA\", \"209 mil pontos\" e \"+8% na semana\"; à direita, quadro cinza escuro com \"DÓLAR\", \"R$ 4,98\" e \"-4,44% na semana\". Abaixo, em letras brancas menores: \"Fechamento de 9/10\". Embaixo, frase forte em branco com sublinhado vermelho pincelado: \"O mercado já escolheu?\". Sem logos de bancos, bolsa ou veículos. No canto inferior direito, letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Bolsa em recorde e dólar abaixo de R$ 5 na primeira semana depois da urna. A CNN liga o movimento às pesquisas. Você sente isso no bolso ou só vê na TV? No bolso ou na TV?",
+          "risk": "médio",
+          "risk_note": "A relação entre pesquisa e mercado é leitura da CNN Brasil e de analistas: atribua e não trate como fato provado. Bolsa e dólar mudam todo dia, confira o fechamento antes de postar.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que o mercado precifica quando uma pesquisa muda: bolsa, dólar e juros futuros na semana pós-primeiro turno e o que isso diz sobre expectativa fiscal, com cuidado para não confundir expectativa com resultado."
+          }
+        }
+      ]
+    },
+    {
+      "time": "17h",
+      "type": "r",
+      "kind": "Bastidor ou família",
+      "options": [
+        {
+          "title": "Gasolina zerada a 16 dias da urna. Quem paga?",
+          "tone": "contundente, com números",
+          "duration": "até 60s",
+          "fact": "Em 9/10, o governo zerou PIS/Cofins e Cide sobre a gasolina, o que eleva a desoneração de R$ 0,63 para R$ 0,89 por litro. A subvenção do etanol subiu de R$ 0,25 para R$ 0,43 por litro e foi criada subvenção de R$ 1,40 por litro para o diesel importado. As medidas duram 30 dias e custam cerca de R$ 5,2 bilhões (R$ 3,6 bilhões para gasolina e etanol e R$ 1,6 bilhão para o diesel). O ministro Bruno Moretti disse que o governo usará receitas extraordinárias do petróleo, sem flexibilizar as metas fiscais. Segundo a CNN Brasil, analistas consideram as medidas insustentáveis. Flávio Bolsonaro acusou Lula de uso eleitoreiro da Petrobras.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-zera-tributos-federais-da-gasolina-antes-do-2o-turno/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/a-16-dias-para-eleicoes-governo-anuncia-medidas-para-baratear-combustiveis/"
+            },
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/economia/governo-lula-zera-imposto-federal-sobre-a-gasolina-e-cria-subsidio-para-diesel/"
+            }
+          ],
+          "hooks": [
+            "16 dias antes da eleição, a gasolina ficou sem imposto federal. Casualidade?",
+            "R$ 5,2 bilhões em 30 dias. Quem vai pagar essa conta?"
+          ],
+          "script": "R$ 5,2 bilhões em 30 dias. É o custo do pacote que o governo anunciou ontem para baratear combustível. A gasolina fica sem imposto federal, o etanol ganha mais subsídio e o diesel importado também. Tudo isso a 16 dias do segundo turno. O governo diz que a conta sai de receita extraordinária do petróleo e que a meta fiscal está mantida. Analistas ouvidos pela CNN dizem que a medida é insustentável. E o prazo é de 30 dias, ou seja, vai até depois da eleição. Pode ser alívio de verdade para o bolso, e eu torço para que seja. Mas o eleitor tem o direito de perguntar por que a medida só veio agora. Você acha que o preço vai cair mesmo na bomba? Responde sim ou não.",
+          "screen_text": [
+            "R$ 5,2 bilhões em 30 dias",
+            "Gasolina sem imposto federal",
+            "16 dias do 2º turno",
+            "Vai cair na bomba?"
+          ],
+          "caption": "Gasolina sem imposto federal por 30 dias, a 16 dias do segundo turno. O preço vai cair na bomba? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Diga que o governo anunciou o pacote e atribua à CNN a avaliação dos analistas e a Flávio a acusação de uso eleitoreiro. Não afirme que o preço vai cair na bomba nem que a medida é ilegal. O Poder360 não informa a data exata do fim dos 30 dias: não cite 8/11.",
+          "timeline": {
+            "rende": true,
+            "angle": "O pacote de combustíveis em ano eleitoral: o que foi zerado, quanto custa, como a conta fecha com receita do petróleo e o que analistas dizem sobre a sustentação depois dos 30 dias."
+          }
+        },
+        {
+          "title": "O pedido do PT que quer tirar o Marçal do ar",
+          "tone": "sóbrio, reação rápida",
+          "duration": "até 30s",
+          "fact": "A campanha de Lula pediu ao TSE a cassação da chapa de Flávio Bolsonaro por suposto uso irregular das redes de Pablo Marçal e por abuso de poder econômico. Também pediu a suspensão do perfil de Marçal no Instagram, com 14,1 milhões de seguidores, e o bloqueio do site B22token, que oferece criptomoedas a quem divulgar conteúdo ligado à candidatura de Flávio. Os advogados dizem que as contas de Marçal funcionam como canais de campanha e deveriam ter sido comunicadas à Justiça Eleitoral. A campanha de Flávio diz que Marçal é apenas apoiador e nega relação com o B22token. Marçal chamou a ação de desespero do PT. O TSE ainda vai analisar.",
+          "sources": [
+            {
+              "name": "InfoMoney",
+              "url": "https://www.infomoney.com.br/politica/campanha-de-lula-pede-cassacao-da-chapa-de-flavio-e-suspensao-de-perfil-de-marcal/"
+            },
+            {
+              "name": "Brasil 247",
+              "url": "https://www.brasil247.com/brasil/campanha-de-lula-aciona-tse-e-pede-cassacao-da-chapa-de-flavio-bolsonaro-por-uso-de-perfil-de-marcal-e-esquema-de-criptomoeda/"
+            }
+          ],
+          "hooks": [
+            "O PT quer cassar a chapa de Flávio por causa de um perfil do Instagram.",
+            "14 milhões de seguidores viraram caso de TSE."
+          ],
+          "script": "O PT pediu ao TSE para cassar a chapa de Flávio Bolsonaro. O motivo: o perfil de Pablo Marçal no Instagram, com 14 milhões de seguidores. A campanha de Lula diz que Marçal virou canal de campanha e devia ter sido comunicado à Justiça Eleitoral. A campanha de Flávio responde que ele é apenas um apoiador e nega qualquer ligação com o site de criptomoedas citado no pedido. O TSE ainda não decidiu nada. Cassar chapa por perfil de apoiador é um caminho pesado numa eleição decidida na urna. Você acha que o TSE deve aceitar esse pedido? Responde sim ou não.",
+          "screen_text": [
+            "PT pede cassação da chapa de Flávio",
+            "Perfil do Marçal: 14,1 mi",
+            "TSE ainda não decidiu",
+            "Deve aceitar?"
+          ],
+          "caption": "O PT pediu ao TSE a cassação da chapa de Flávio por causa do perfil de Marçal. O TSE deve aceitar o pedido? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "É um pedido, não uma decisão: diga sempre que o TSE ainda vai analisar. Atribua as alegações aos advogados da campanha de Lula e registre a resposta de Flávio e de Marçal. Não afirme que há irregularidade nem que o B22token tem ligação com a campanha. A opinião sobre cassação por perfil de apoiador deve ficar clara como opinião.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quando o perfil de um apoiador vira propaganda eleitoral: o que a lei exige de comunicação à Justiça Eleitoral, o histórico de pedidos de cassação no TSE e as chances reais de um pedido desse tipo prosperar."
+          }
+        }
+      ]
+    }
+  ]
+}
