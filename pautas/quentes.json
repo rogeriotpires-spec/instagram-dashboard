@@ -1,6 +1,38 @@
 {
   "alerts": [
     {
+      "time": "2026-10-09T08:55:12-03:00",
+      "title": "Dois institutos, o mesmo recado: Flávio na frente",
+      "fact": "A AtlasIntel/Bloomberg divulgou nesta sexta (9/10) a primeira pesquisa do 2º turno: Flávio Bolsonaro (PL) tem 52,8% dos votos válidos e Lula (PT), 47,2% (51,1% a 45,7% nos votos totais, com 3,2% de brancos, nulos e indecisos). Foram 5.026 entrevistas de 3 a 8 de outubro, margem de 1 ponto, registro BR-03663/2026. Na véspera, o Datafolha tinha mostrado Flávio com 52% e Lula com 48% dos válidos.",
+      "sources": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026-segundo-turno/"
+        },
+        {
+          "name": "Brasil de Fato",
+          "url": "https://www.brasildefato.com.br/2026/10/09/pesquisa-atlasintelbloomberg-mostra-flavio-bolsonaro-com-528-dos-votos-validos-no-2o-turno-e-lula-com-472/"
+        },
+        {
+          "name": "Transmissão Política",
+          "url": "https://transmissaopolitica.com.br/politica-nacional/2026/10/09/pesquisa-atlasintel-flavio-lula-segundo-turno/"
+        },
+        {
+          "name": "Metrópoles (Datafolha)",
+          "url": "https://www.metropoles.com/brasil/datafolha-2o-turno-flavio-tem-52-e-lula-48"
+        }
+      ],
+      "suggestion": "Imagem cartaz às 11h com o placar 52,8 x 47,2 e a margem de 1 ponto; reel de reação às 12h30 juntando AtlasIntel e Datafolha. Pode substituir ou reforçar a imagem do Datafolha das 7h.",
+      "hook": "Agora são dois institutos. E os dois dizem a mesma coisa.",
+      "script": "Flávio 52,8. Lula 47,2. É a AtlasIntel, que saiu agora há pouco, com mais de 5 mil entrevistas e margem de só 1 ponto. Ontem foi o Datafolha: Flávio 52, Lula 48. Dois institutos, mesma direção. A diferença passa da margem de erro. Mas pesquisa não ganha eleição, quem ganha é o voto no dia 25. Você acha que essa vantagem se mantém até o segundo turno? Responde sim ou não aqui embaixo.",
+      "image_prompt": "Crie uma arte vertical 4:5 (1080x1350), estilo cartaz, só texto e números, fundo escuro com textura de papel envelhecido e tons quentes dessaturados (ocre, marrom, vermelho). No alto, em letras condensadas, brancas e pesadas, em caixa alta: \"2º TURNO: NOVA PESQUISA\". No centro, dois grandes blocos lado a lado: à esquerda, quadro amarelo com \"FLÁVIO\" e o número \"52,8%\" em destaque; à direita, quadro cinza escuro com \"LULA\" e \"47,2%\". Abaixo, em letras brancas menores: \"AtlasIntel/Bloomberg, 5.026 entrevistas, 3 a 8/10, margem de 1 ponto, BR-03663/2026\". Logo abaixo, faixa vermelha com \"Ontem, Datafolha: 52% a 48%\". Embaixo, frase forte em branco com sublinhado vermelho pincelado: \"A vantagem se mantém até o dia 25?\". Sem logos de veículos nem de institutos. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+      "style": "cartaz",
+      "timeline": {
+        "rende": "Hoje e no fim de semana, até a próxima rodada de pesquisas",
+        "angle": "Dois institutos convergem com Flávio à frente fora da margem; contraste com o Datafolha que dava Lula na frente no 1º turno. Acompanhar Quaest e as próximas rodadas."
+      }
+    },
+    {
       "time": "2026-10-08T11:58:57-03:00",
       "title": "O Rio pode ter governador hoje. Sem segundo turno.",
       "fact": "O TSE formou maioria, por 4 votos a 0 até as 11h52, para rejeitar a desistência de Anthony Garotinho e manter nulos os 274.411 votos que ele teve com a candidatura sub judice; votaram o relator Floriano de Azevedo Marques, Estela Aranha, André Mendonça e Dias Toffoli, e o julgamento ainda não foi encerrado. Sem esses votos, o TRE-RJ deve refazer a totalização e Douglas Ruas (PL), que teve 49,27%, passaria a cerca de 50,88% dos válidos, o que encerra a disputa no 1º turno. A defesa de Eduardo Paes (PSD) disse no plenário que é \"um absurdo que uma pessoa sozinha possa decidir o destino da eleição do Rio\".",
