@@ -1,0 +1,627 @@
+{
+ "generated": "2026-10-09T11:22:00-03:00",
+ "headline": "Atlas dá Flávio 52,8% a 47,2% sobre Lula, Vorcaro cita R$ 30 milhões a filme de Lula, Moraes manda executar pena de Eduardo Bolsonaro e IPCA de setembro sobe 0,82%.",
+ "top": [
+  "pesquisas-2-turno",
+  "ipca-setembro",
+  "vorcaro-filme-lula",
+  "eduardo-pena-moraes",
+  "garotinho-tse-governo-rj"
+ ],
+ "items": [
+  {
+   "id": "pesquisas-2-turno",
+   "segment": "politica",
+   "title": "AtlasIntel dá Flávio 52,8% a 47,2% sobre Lula no 2º turno, e Vox Brasil mostra Lula à frente",
+   "summary": "A AtlasIntel apontou Flávio Bolsonaro com 52,8% dos votos válidos contra 47,2% de Lula no segundo turno, segundo a CNN Brasil e o Brasil 247. O Poder360 destacou na manchete que o levantamento confirma o PoderData/Aya, que havia dado 53% a 47% para Flávio. A pesquisa Vox Brasil seguiu em sentido oposto, com Lula em 44,2% e Flávio em 42,7%, e a Metrópoles registrou 50,86% a 49,14% para Lula nos votos válidos. O PoderData/Aya também registrou queda de 11 pontos na expectativa de vitória de Lula, que ficou em 37%. O horário eleitoral gratuito recomeça nesta sexta (9) e as campanhas retomam os atos de rua.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 9.4,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/atlasintel-confirma-poderdata-aya-e-da-flavio-com-53-e-lula-com-47/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-tem-528-dos-votos-validos-no-2o-turno-lula-472/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/atlasintel-flavio-bolsonaro-tem-528-dos-votos-validos-contra-472-de-lula-no-segundo-turno/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026-segundo-turno/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/atlasintel-flavio-abre-54-pontos-sobre-lula-no-2o-turno-e-vai-a-51-dos-votos/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/vox-brasil-no-2o-turno-lula-tem-5086-e-flavio-4914-dos-votos-validos",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/atlas-boomberg-flavio-tem-51-das-intencoes-de-voto-contra-45-de-lula-no-2o-turno/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "ipca-setembro",
+   "segment": "economia",
+   "title": "Inflação sobe 0,82% em setembro e chega a 4,58% em 12 meses",
+   "summary": "O IPCA de setembro avançou 0,82%, após deflação em agosto, segundo o IBGE. Em 12 meses, a inflação foi a 4,58%, conforme o Poder360. A CNN Brasil e a Gazeta do Povo apontam a conta de luz como principal pressão, e a CNN cita tomate e batata na alta dos alimentos. O InfoMoney registra que o resultado veio acima do esperado. A inflação da baixa renda ficou em 0,82% no mês.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 8.3,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-economia/inflacao-sobe-082-em-setembro-em-12-meses-vai-a-458/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/inflacao-ipca-9-outubro-2026/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/ipca-inflacao-setembro-dispara-conta-de-luz-alimentos-mais-caros/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/ipca-inflacao-setembro-2026-dados-ibge/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/ipca-de-setembro-acelera-para-082-apos-deflacao-em-agosto",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/economia/inflacao-fica-em-082-em-setembro-diz-ibge/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/economia/inflacao-sobe-082-em-setembro-apos-queda-registrada-em-agosto-diz-ibge/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "vorcaro-filme-lula",
+   "segment": "politica",
+   "title": "Vorcaro diz a revista ter liberado R$ 30 milhões para filme sobre Lula, e PF afirma que delação foi rejeitada por falta de provas",
+   "summary": "Segundo reportagem de revista citada por Metrópoles, CNN Brasil e Jovem Pan, Daniel Vorcaro afirmou ter liberado R$ 30 milhões para um filme sobre Lula em troca de negócios. A Gazeta do Povo publicou um áudio em que Vorcaro relata pagamentos e negociações com petistas. A PF disse que a delação foi rejeitada por falta de provas, e fontes ouvidas pela CNN afirmaram que o áudio não foi enviado à PGR. O governo Lula chamou a reportagem de peça eleitoral com acusações sem provas, e o PT prepara pedido de direito de resposta. A Prerrogativas acionou a PF para investigar suposta articulação entre Vorcaro e Flávio Bolsonaro contra Lula no segundo turno.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 7.7,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/em-audio-vorcaro-compara-repasses-a-filmes-do-lula-foi-errado-do-flavio-nao-foi/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/vorcaro-cita-r-30-mi-a-filme-de-lula-diz-revista-pf-ve-delacao-sem-prova/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/vorcaro-afirmou-ter-liberado-r-30-milhoes-para-filme-de-lula-em-troca-de-negocios-diz-revista",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/vorcaro-diz-ter-pago-r-30-mi-para-filme-sobre-lula-em-troca-de-negocios-segundo-revista/",
+     "camp": "direita",
+     "position": "manchete"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/pf-diz-que-rejeitou-delacao-de-vorcaro-por-falta-de-provas/",
+     "camp": "esquerda",
+     "position": "topo"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "eduardo-pena-moraes",
+   "segment": "politica",
+   "title": "Moraes manda executar pena de 4 anos e 2 meses de Eduardo Bolsonaro, e PF avalia pedir extradição",
+   "summary": "Alexandre de Moraes determinou o início do cumprimento da pena de Eduardo Bolsonaro por coação no curso do processo, de 4 anos e 2 meses, e acionou a PF. A CNN Brasil informou que a PF avalia pedir a extradição. A Jovem Pan observou que a prisão depende dos EUA e que o pedido pode passar por Marco Rubio. Flávio Bolsonaro pediu a renúncia de Moraes após a decisão. O InfoMoney questiona se a medida pode impulsionar Flávio no segundo turno.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.6,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/moraes-manda-iniciar-cumprimento-pena-eduardo-bolsonaro",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/moraes-aciona-pf-para-cumprir-prisao-de-eduardo-bolsonaro/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/politica/pf-avalia-pedir-extradicao-de-eduardo-bolsonaro/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/colunistas/eliseu-caetano/prisao-de-eduardo-bolsonaro-depende-dos-eua-e-extradicao-pode-passar-por-marco-rubio/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "garotinho-tse-governo-rj",
+   "segment": "rio",
+   "title": "Paes reconhece que não haverá 2º turno no Rio após Zanin negar recurso sobre votos de Garotinho",
+   "summary": "O ministro Zanin negou o recurso de Eduardo Paes e manteve a anulação dos votos de Garotinho. Paes reconheceu a derrota para Douglas Ruas, dizendo que a eleição termina. A Gazeta do Povo informou que o TSE determinou a retotalização dos votos no Rio. A Jovem Pan informou que o TRE fará a retotalização no sábado. Flávio Bolsonaro se reuniu com Douglas Ruas, segundo a Metrópoles.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 9
+   },
+   "score": 7.5,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/zanin-nega-pedido-de-paes-contra-anulacao-de-votos-de-garotinho/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/julgamento-tse-garotinho-eleicoes-governo-rio-de-janeiro",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/paes-reconhece-derrota-no-rio-apos-stf-negar-recurso-a-eleicao-termina",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/paes-reconhece-fim-da-disputa-pelo-governo-do-rio-depois-de-reveses-no-tse-e-no-stf/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/paes-reconhece-derrota-para-ruas-apos-decisao-do-tse-sobre-garotinho-a-eleicao-termina/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "nobel-paz-pillay",
+   "segment": "internacional",
+   "title": "Navi Pillay, jurista sul-africana, vence o Nobel da Paz de 2026",
+   "summary": "A ex-chefe de direitos humanos da ONU Navanethem Pillay venceu o Nobel da Paz de 2026. O Brasil 247 lembra que ela liderou a comissão da ONU que denunciou Israel por genocídio em Gaza. Israel criticou o prêmio e acusou o comitê de legitimar ódio contra o país, segundo a Jovem Pan e a Gazeta do Povo. A Gazeta informou que Trump compartilhou post com críticas à premiada, que ironizou: talvez divida o prêmio com ele. O presidente da África do Sul, Cyril Ramaphosa, elogiou a escolha.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 6.9,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/navanethem-pillay-vence-premio-nobel-da-paz-de-2026/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/nobel-paz-esnoba-trump-premia-jurista-acusou-israel-genocidio/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/blogs/americo-martins/internacional/nobel-a-navi-pillay-e-critica-clara-a-trump-netanyahu-e-putin/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/premio-nobel-da-paz-vai-para-jurista-sul-africana-navanethem-navi-pillay",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/mundo/navi-pillay-vence-o-premio-nobel-da-paz-de-2026-por-atuacao-em-defesa-do-direito-internacional/",
+     "camp": "esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mundo/ex-chefe-de-direitos-humanos-da-onu-navi-pillay-ganha-nobel-da-paz-de-2026/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/mundo/nobel-da-paz-2026-e-concedido-a-jurista-sul-africana-navi-pillay/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "apoio-centrao-flavio",
+   "segment": "politica",
+   "title": "Campanha de Flávio divulga vídeo de apoio de Augusto Cury, e Lula busca apoios no Centrão",
+   "summary": "A campanha de Flávio Bolsonaro divulgou vídeo de apoio de Augusto Cury, que antecipou o gesto depois de diretórios do Avante declararem apoio a Lula, segundo o Brasil 247. A Metrópoles informou que Lula recorre a líderes do Centrão em busca de apoios pessoais para o segundo turno. A CNN Brasil publicou lista dos partidos que declararam apoio a cada candidato. A Jovem Pan registrou que Flávio quer contemplar partidos aliados e mira governabilidade no Congresso. O PL terá a maior bancada do Senado a partir de 2027, segundo o Poder360.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 5,
+    "persistencia": 7,
+    "peso_voce": 8
+   },
+   "score": 6.7,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/campanha-de-flavio-divulga-video-de-apoio-de-augusto-cury/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/lula-busca-liderancas-do-centrao-em-busca-de-apoios-pessoais-para-2o-turno",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/poder/augusto-cury-antecipou-apoio-a-flavio-bolsonaro-apos-diretorios-do-avante-declararem-apoio-a-lula/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/colunistas/beatriz-manfredini/flavio-quer-contemplar-partidos-aliados-e-mira-governabilidade-no-congresso/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "mendonca-remocao-videos",
+   "segment": "politica",
+   "title": "Mendonça manda campanha de Lula remover vídeos contra Flávio Bolsonaro",
+   "summary": "O ministro André Mendonça mandou a campanha de Lula remover a postagem \"Se Flávio vence, você perde\", segundo o Poder360. A Gazeta do Povo descreveu o conteúdo como vídeo que atribui a Flávio cortes em programas sociais. Segundo Poder360 e CNN Brasil, a Justiça Eleitoral também mandou remover vídeo de Janones e Lindbergh contra Flávio. A CNN informou ainda a remoção de vídeos de Lula e Janja com ataques a Flávio. Flávio também acionou o TSE contra uma rede pró-Lula no Instagram.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 5,
+    "peso_voce": 8
+   },
+   "score": 5.9,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/mendonca-manda-campanha-de-lula-remover-post-se-flavio-vence-voce-perde/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-manda-lula-excluir-video-que-atribui-a-flavio-cortes-em-programas-sociais/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/mendonca-determina-remocao-de-video-de-janones-e-lindbergh-contra-flavio/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "bolsa-dolar-eleicao",
+   "segment": "economia",
+   "title": "Ibovespa sobe e dólar cai a cerca de R$ 5 com expectativa eleitoral",
+   "summary": "O Ibovespa subiu nesta sexta com as eleições e a queda do petróleo, segundo a CNN Brasil. O dólar caiu a R$ 4,998 na abertura, segundo o InfoMoney. A B3 acumula alta de 20% na semana e bateu recorde. O InfoMoney cita o JPMorgan, para quem o fluxo estrangeiro recorde abriu o rali. O Brasil 247 atribui o movimento às expectativas eleitorais.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 4,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 5.4,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-9-outubro-2026/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-09102026/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/economia/dolar-cai-e-ibovespa-sobe-nesta-sexta-em-meio-as-expectativas-eleitorais/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "imposto-seletivo-depois",
+   "segment": "economia",
+   "title": "Durigan confirma que MP do Imposto Seletivo será editada só depois das eleições",
+   "summary": "O ministro Durigan confirmou que o governo editará a MP do Imposto Seletivo, chamado de imposto do pecado pela Gazeta do Povo, depois das eleições. A informação foi publicada pela Gazeta e pelo InfoMoney. O InfoMoney explicou separadamente o split payment, alvo de Flávio e defendido pelo governo Lula. Lula disse que o tesouraço de Flávio e o ajuste fiscal punem os mais pobres, segundo o Poder360. A equipe de Flávio prepara meta fiscal com referência em dívida e PIB.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 8
+   },
+   "score": 4.3,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/durigan-confirma-que-imposto-do-pecado-ficara-para-depois-das-eleicoes/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/durigan-compromisso-do-governo-e-editar-mp-do-imposto-seletivo-apos-as-eleicoes/",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "tiro-ato-ufs",
+   "segment": "seguranca",
+   "title": "Sargento da PM é suspeito de atirar para o alto em ato pró-Lula em universidade de Sergipe",
+   "summary": "Um homem atirou para o alto durante manifestação pró-Lula em universidade de Sergipe, e imagens mostram correria, segundo a Metrópoles. Uma coluna da Metrópoles aponta um sargento da PM como suspeito. O Brasil 247 informou que o policial foi afastado. O caso ocorreu no campus da UFS. Os detalhes da apuração não foram confirmados nas matérias consultadas.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 3.9,
+   "outlets": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/imagens-mostram-correria-apos-tiro-em-ato-pro-lula-em-universidade-de-sergipe",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/nordeste/pm-de-sergipe-e-suspeito-de-atirar-durante-ato-pro-lula-na-ufs-e-acaba-afastado/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "houthis-riade",
+   "segment": "internacional",
+   "title": "Ataque dos houthis a aeroporto de Riade deixa três mortos e companhias suspendem voos",
+   "summary": "Ataques dos houthis ao aeroporto de Riade, na Arábia Saudita, deixaram três mortos, segundo CNN Brasil e InfoMoney. A Metrópoles informou que companhias aéreas suspenderam voos. O InfoMoney trata o episódio como escalada da guerra. A Brasil 247 informou que o Irã avalia proposta dos EUA e prevê resposta nos próximos dias. O petróleo foi um dos fatores citados nos mercados nesta sexta.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 3.8,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/ataques-dos-houthis-a-aeroporto-da-arabia-saudita-deixam-tres-mortos/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/houthis-atacam-aeroporto-de-riade-e-companhias-aereas-suspendem-voos",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ataques-houthis-a-aeroporto-de-riad-mataram-tres-sauditas-em-escalada-da-guerra/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "fuzilamento-eua",
+   "segment": "internacional",
+   "title": "Governo Trump diz que fuzilamento de ex-militar condenado será transmitido ao vivo",
+   "summary": "Um secretário do governo Trump disse que o fuzilamento de um ex-militar condenado à morte será exibido na internet, segundo Gazeta do Povo, CNN Brasil e Jovem Pan. A CNN Brasil explica como funciona a pena de morte nos EUA e o caso de Christa Pike. A CNN também questiona se a transmissão é permitida. O caso é novo nesta edição. Não há detalhes de data confirmados nas matérias consultadas.",
+   "scores": {
+    "cobertura": 4,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 3.5,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/secretario-trump-diz-fuzilamento-ex-militar-condenado-morte-sera-exibido-internet/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/secretario-de-trump-quer-transmitir-fuzilamento-ao-vivo-isso-e-permitido/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/mundo/eua-transmitirao-ao-vivo-fuzilamento-de-ex-militar-condenado-a-morte/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "dj-dani-brasil",
+   "segment": "seguranca",
+   "title": "DJ Dani Brasil atropela e arrasta homem em São Paulo; vítima morre",
+   "summary": "O DJ Dani Brasil atropelou um homem e o arrastou antes de tentar fugir, em São Paulo, segundo a CNN Brasil. A Metrópoles informou que a vítima morreu e que o DJ dirigia bêbado. Há vídeo do caso. A Jovem Pan registrou outro episódio em SP, com motorista de BMW que arrastou morador de rua por 900 metros. Os casos são tratados separadamente pelos portais.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 4
+   },
+   "score": 3.4,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/video-dj-dani-brasil-atropela-homem-arrasta-vitima-e-tenta-fugir-em-sp/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/sao-paulo/morre-homem-atropelado-dj-bebado",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  }
+ ]
+}
