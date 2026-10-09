@@ -632,7 +632,7 @@ function renderDaily(){
     kpi("Publicações",String(pubLast.length),`Dia ${dBR(last.date)}`,`<div class="delta na">${["I","R","C"].map(t=>{const n=pubLast.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t][n>1?"name":"one"].toLowerCase()}`:""}).filter(Boolean).join(" · ")||"nenhuma"}</div>`)
     ,storiesCard()
   ].join("");
-  $("#daily-sub").textContent=`Último dia completo: ${dBR(last.date)} · data de Brasília · dias sem coleta aparecem como lacuna`;
+  $("#daily-sub").innerHTML=`Último dia completo: ${dBR(last.date)} · data de Brasília<br><b>Os cartões abaixo mostram sempre o último dia e não mudam com o filtro.</b> Os gráficos desta seção e a Visão geral seguem o período escolhido (${state.range===1?"1 dia: gráficos com a última semana":perTxt(state.range).toLowerCase()}).`;
   daySeries($("#d-reach"),{dates,values:days.map(d=>d.reach),color:"var(--s1)",label:"Alcance"});
   daySeries($("#d-views"),{dates,values:days.map(d=>d.views),color:"var(--s4)",label:"Views"});
   daySeries($("#d-eng"),{dates,values:days.map(d=>d.accounts_engaged),color:"var(--s2)",label:"Contas com interação"});
@@ -944,7 +944,10 @@ function renderLimits(){
 }
 
 function render(){setPer();renderDaily();intraday();renderOverview();renderConversion();renderLife();renderContent();renderReels();renderThemes();renderAudience();insights();renderWeekly();bench();table();setPer()}
-function seg(id,key,num){$$(`#${id} button`).forEach(b=>b.onclick=()=>{$$(`#${id} button`).forEach(x=>x.setAttribute("aria-pressed",x===b));state[key]=num?+b.dataset.v:b.dataset.v;state.calDay=null;$("#cal-pick").className="pick";$("#cal-pick").textContent="Toque em um dia para ver as publicações.";render()})}
+function seg(id,key,num){$$(`#${id} button`).forEach(b=>b.onclick=()=>{$$(`#${id} button`).forEach(x=>x.setAttribute("aria-pressed",x===b));state[key]=num?+b.dataset.v:b.dataset.v;state.calDay=null;$("#cal-pick").className="pick";$("#cal-pick").textContent="Toque em um dia para ver as publicações.";render();
+  if(key==="range"||key==="type")ftoast(`${key==="range"?"Período: "+perTxt(state.range):"Formato: "+(state.type==="all"?"todos":TYPE[state.type].name)} · painel atualizado`)})}
+function ftoast(t){let e=document.getElementById("ftoast");if(!e){e=document.createElement("div");e.id="ftoast";e.style.cssText="position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--text);color:var(--bg);padding:8px 16px;border-radius:999px;font-size:13px;font-weight:600;z-index:60;transition:opacity .2s;pointer-events:none;max-width:90vw;text-align:center";document.body.appendChild(e)}
+  e.textContent=t;e.style.opacity=1;clearTimeout(e._t);e._t=setTimeout(()=>e.style.opacity=0,1800)}
 
 Promise.all([fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}),fetch("analysis.json?"+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,an])=>{D=d;AN=an;prep();
   const types=["I","R","C"].filter(t=>ALL.some(p=>p.type===t));
