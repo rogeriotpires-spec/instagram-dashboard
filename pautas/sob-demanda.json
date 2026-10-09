@@ -2,6 +2,95 @@
   "items": [
     {
       "requested": "2026-10-09",
+      "done": "2026-10-09T15:49:14-03:00",
+      "issue": 14,
+      "slot_hint": "Imagem às 18h de sexta (9) ou reel às 20h, enquanto o assunto está em alta.",
+      "source": {
+        "edition": "2026-10-09-12h",
+        "item_id": "fuzilamento-eua",
+        "title": "Governo Trump diz que fuzilamento de ex-militar condenado será transmitido ao vivo"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Execução ao vivo na internet: os EUA foram longe demais?",
+          "tone": "provocativo, com pergunta aberta",
+          "fact": "Pete Hegseth, secretário de Defesa (da Guerra) dos EUA, confirmou no X que a execução do ex-major do Exército Nidal Hasan será transmitida ao vivo pela internet. Hasan, ex-psiquiatra militar de 56 anos, foi condenado à morte por um tribunal militar em 2013 pelo ataque a tiros na base de Fort Hood, no Texas, em 2009, que deixou 13 mortos e 32 feridos. A execução por fuzilamento está prevista para 3 de dezembro, e o Exército define data, hora e local finais. Segundo a CNN Brasil, seria a primeira execução desse tipo pelas Forças Armadas americanas desde 1945 (a Jovem Pan cita 1961 para a primeira execução militar), e um especialista em direito militar afirma que não há barreira legal intrínseca à transmissão se Trump autorizar. A Casa Branca remeteu perguntas ao Pentágono. O senador republicano Thom Tillis chamou a transmissão de \"absolutamente repugnante\", e a alta comissária da ONU para Direitos Humanos a classificou como \"tortura\".",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/mundo/secretario-trump-diz-fuzilamento-ex-militar-condenado-morte-sera-exibido-internet/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/internacional/secretario-de-trump-quer-transmitir-fuzilamento-ao-vivo-isso-e-permitido/"
+            },
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/mundo/eua-transmitirao-ao-vivo-fuzilamento-de-ex-militar-condenado-a-morte/"
+            }
+          ],
+          "art_text": [
+            "Execução ao vivo na internet?",
+            "3 de dezembro",
+            "Até republicano criticou. E você?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Pete Hegseth, secretário de Defesa dos EUA, que anunciou a transmissão. Ilustração estilo charge, sem foto real. Risco baixo: ele aparece só falando ao microfone, sem retratar a execução nem o condenado.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Pete Hegseth (secretário de Defesa dos EUA, cabelo curto, terno escuro) falando diante de um microfone, com expressão firme e dedo em riste. Ao fundo, a silhueta estilizada do Pentágono e uma tela de transmissão ao vivo com um ícone vermelho de 'play', sem mostrar nenhuma cena de execução. No alto, em branco, letras condensadas e muito pesadas: \"Execução ao vivo na internet?\". À esquerda, um quadro de destaque amarelo com o texto \"3 de dezembro\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Até republicano criticou. E você?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essa pessoa, use uma silhueta reconhecível pelo contexto e mantenha o resto da composição.",
+          "caption": "O Pentágono quer transmitir ao vivo a execução do ex-major Nidal Hasan, condenado pelo ataque que matou 13 pessoas em Fort Hood. Até senador republicano chamou de repugnante. Você é a favor ou contra transmitir? Comenta.",
+          "risk": "médio",
+          "risk_note": "Assunto sensível. Não mostre nem sugira cena de execução. Hasan foi condenado em 2013, então pode ser citado como condenado. A crítica de 'tortura' é da ONU e a de 'repugnante' é do senador Tillis: atribua sempre. Não afirme que Trump apoia a transmissão, pois a Casa Branca remeteu a pergunta ao Pentágono.",
+          "timeline": {
+            "rende": true,
+            "angle": "Pena de morte nos EUA e no mundo: como funciona o fuzilamento, quando foi usado pela última vez e o debate sobre transmitir execuções."
+          }
+        },
+        {
+          "type": "r",
+          "title": "EUA vão transmitir execução na internet. Pode isso?",
+          "tone": "informativo com pergunta final",
+          "duration": "25 a 30s",
+          "fact": "Pete Hegseth, secretário de Defesa (da Guerra) dos EUA, confirmou no X que a execução do ex-major do Exército Nidal Hasan será transmitida ao vivo pela internet. Hasan, ex-psiquiatra militar de 56 anos, foi condenado à morte por um tribunal militar em 2013 pelo ataque a tiros na base de Fort Hood, no Texas, em 2009, que deixou 13 mortos e 32 feridos. A execução por fuzilamento está prevista para 3 de dezembro, e o Exército define data, hora e local finais. Segundo a CNN Brasil, seria a primeira execução desse tipo pelas Forças Armadas americanas desde 1945 (a Jovem Pan cita 1961 para a primeira execução militar), e um especialista em direito militar afirma que não há barreira legal intrínseca à transmissão se Trump autorizar. A Casa Branca remeteu perguntas ao Pentágono. O senador republicano Thom Tillis chamou a transmissão de \"absolutamente repugnante\", e a alta comissária da ONU para Direitos Humanos a classificou como \"tortura\".",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/mundo/secretario-trump-diz-fuzilamento-ex-militar-condenado-morte-sera-exibido-internet/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/internacional/secretario-de-trump-quer-transmitir-fuzilamento-ao-vivo-isso-e-permitido/"
+            },
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/mundo/eua-transmitirao-ao-vivo-fuzilamento-de-ex-militar-condenado-a-morte/"
+            }
+          ],
+          "hooks": [
+            "Os EUA vão transmitir uma execução ao vivo na internet.",
+            "Até senador republicano chamou de repugnante. Entenda."
+          ],
+          "script": "O secretário de Defesa dos Estados Unidos, Pete Hegseth, confirmou: a execução de Nidal Hasan vai ser transmitida ao vivo pela internet. Hasan era major e psiquiatra do Exército, e foi condenado à morte em 2013 pelo ataque a tiros na base de Fort Hood, em 2009, que deixou 13 mortos. A execução, por fuzilamento, está prevista para 3 de dezembro. Segundo especialistas, não há barreira legal se o presidente autorizar. Mas a ideia divide até aliados: o senador republicano Thom Tillis chamou de absolutamente repugnante, e a ONU classificou como tortura. Justiça é uma coisa, espetáculo é outra? Responde: a favor ou contra transmitir.",
+          "screen_text": [
+            "Execução será transmitida ao vivo",
+            "Ex-major condenado por Fort Hood: 13 mortos",
+            "Prevista para 3 de dezembro",
+            "Senador Tillis: \"repugnante\"",
+            "A favor ou contra?"
+          ],
+          "caption": "Os EUA vão transmitir ao vivo a execução do ex-major Nidal Hasan, condenado pelo massacre de Fort Hood. A favor ou contra transmitir?",
+          "risk": "médio",
+          "risk_note": "Não use imagens de execução nem do ataque. Atribua as críticas a quem as fez (Tillis e ONU). A data é prevista e o Exército ainda define horário e local. Não afirme posição de Trump.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem foi Nidal Hasan, o que aconteceu em Fort Hood e como funciona a pena de morte militar nos EUA."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-09",
       "done": "2026-10-09T15:47:43-03:00",
       "issue": 13,
       "slot_hint": "Reel às 19h de sexta (9), enquanto o assunto domina o noticiário; cartaz às 12h de sábado (10) se houver novidade da PF ou da PGR.",
