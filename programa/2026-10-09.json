@@ -2,8 +2,8 @@
  "date": "2026-10-09",
  "generated": "2026-10-09T10:14:20-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Urna, toga e conta de luz: a sexta em que o 2º turno ganha números",
- "abertura": "Dois institutos agora apontam Flávio à frente de Lula, e o 2º turno entra na reta final com apoios novos e um presidente que conta com aliado do outro lado. No Rio, a Justiça encerrou a eleição para governador antes da urna, enquanto em Brasília o Supremo manda cumprir a pena de Eduardo Bolsonaro e o Senado tenta esconder quem entra pela porta. No bolso, a inflação de setembro estourou o teto da meta, puxada pela conta de luz e por um petróleo que não para de subir com a tensão no Oriente Médio.",
+ "titulo": "Dinheiro vivo, urna e toga: a sexta em que o 2º turno ganha números",
+ "abertura": "Daniel Vorcaro diz que pagou R$ 30 milhões em dinheiro por um documentário sobre Lula, e a campanha do presidente entrega o comando digital à deputada mais jovem eleita de Minas, que já teve de apagar a primeira postagem polêmica. Enquanto isso, dois institutos agora apontam Flávio à frente de Lula, e o 2º turno entra na reta final com apoios novos. No Rio, a Justiça encerrou a eleição para governador antes da urna, e em Brasília o Supremo manda cumprir a pena de Eduardo Bolsonaro enquanto o Senado tenta esconder quem entra pela porta. No bolso, a inflação de setembro estourou o teto da meta, puxada pela conta de luz e por um petróleo que não para de subir.",
  "agenda": [
   {
    "time": "9h",
@@ -15,6 +15,95 @@
   }
  ],
  "itens": [
+  {
+   "id": "vorcaro-filme-lula",
+   "bloco": "Política nacional",
+   "titulo": "O filme que foi \"por fora\"",
+   "subtitulo": "Vorcaro diz que pagou R$ 30 milhões em dinheiro por um documentário sobre Lula e separa o caso do filme de Bolsonaro",
+   "resumo": "Segundo a Veja, o banqueiro Daniel Vorcaro, preso e dono do Banco Master, afirma que pagou cerca de R$ 30 milhões em dinheiro vivo para um documentário sobre Lula e para o Instituto Lula, em troca de abertura de portas nos fundos de pensão de estatais. Ele diz também que o esquema previa 10% de comissão sobre o dinheiro captado com Previ, Petros e Postalis, e que o ex-tesoureiro do PT João Vaccari Neto teria cobrado esse percentual. Num áudio, Vorcaro afirma que o filme de Lula \"foi por fora\", enquanto o patrocínio do Dark Horse, sobre Jair Bolsonaro, teria sido \"patrocínio normal\". Lula nega que tenha pedido ou recebido vantagem, Padilha e Olavo Noleto negam qualquer relação com o banqueiro, e a PGR não levou o relato adiante por falta de provas. O que está em jogo é se o dinheiro de aposentados de servidores públicos foi usado como moeda de troca, e isso só se esclarece com prova, não com áudio.",
+   "contexto": [
+    "Vorcaro diz ter pago cerca de R$ 30 milhões em dinheiro vivo para o documentário \"Lula\", de Oliver Stone, e para o Instituto Lula, ligado a Paulo Okamotto (Veja, via Jovem Pan e Revista Oeste)",
+    "Comissão de 10% sobre recursos captados com fundos de pensão: pelo relato, Vaccari a teria exigido. A conta de 10% sobre R$ 10 bilhões daria R$ 1 bilhão, mas esses dois números não aparecem nas matérias abertas",
+    "A tentativa de vender R$ 500 milhões em letras financeiras à Caixa foi barrada em julho de 2024; o Master entrou na lista de instituições autorizadas em 29 de abril de 2024 (Revista Oeste)",
+    "Sobre o Dark Horse, Vorcaro diz que o valor do filme de Lula teria sido até maior, mas que o de Flávio \"foi patrocínio normal\" (Revista Oeste)",
+    "A PF já aponta que Flávio pediu cerca de R$ 131 milhões a Vorcaro para o Dark Horse, dos quais cerca de R$ 60 milhões teriam sido pagos; Flávio nega irregularidades (Agência Brasil)",
+    "O relato está num anexo de proposta de delação entregue à PGR em junho, descartada por falta de provas; Vorcaro prepara uma terceira proposta (Jovem Pan e Revista Oeste)"
+   ],
+   "angulo": [
+    "Se o relato for provado, é o uso de dinheiro de aposentadoria de servidores como moeda política, e isso exige investigação séria e rápida, sem blindagem.",
+    "O programa deve cobrar que Lula e o PT respondam com documentos sobre o Instituto Lula e o filme de Oliver Stone, e não apenas com a negativa de praxe.",
+    "A distinção \"por fora\" contra \"patrocínio normal\" é a fala do próprio Vorcaro, que tem interesse em delação; ela não prova nada sobre nenhum dos dois filmes e não apaga o que a PF já apontou sobre o Dark Horse.",
+    "O eleitor tem o direito de ver os dois casos apurados com o mesmo rigor, a duas semanas do 2º turno."
+   ],
+   "perguntas": [
+    "Por que o relato de um banqueiro preso, ainda sem prova, ganha tanto peso a duas semanas do 2º turno, e quem se beneficia disso?",
+    "Que documentos o Instituto Lula e a produção do filme de Oliver Stone deveriam apresentar para encerrar a dúvida?",
+    "A diferença entre \"por fora\" e \"patrocínio normal\" muda alguma coisa na apuração do caso Dark Horse?"
+   ],
+   "atencao": "São alegações de Vorcaro, sem prova confirmada, e a PGR não avançou com o relato. Os números R$ 10 bilhões e R$ 1 bilhão citados no pedido não constam nas matérias abertas: falar apenas em R$ 30 milhões e comissão de 10%, segundo Vorcaro.",
+   "fontes": [
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/vorcaro-diz-ter-pago-r-30-mi-para-filme-sobre-lula-em-troca-de-negocios-segundo-revista/"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/vorcaro-relata-pagamentos-por-filme-sobre-lula-e-esquema-com-petistas/"
+    },
+    {
+     "name": "Poa24horas (CNN Brasil e Veja)",
+     "url": "https://poa24horas.com.br/politica/2026/10/vorcaro-cita-repasse-de-r-30-milhoes-para-filme-sobre-lula-pf-ve-delacao-sem-prova/"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/pf-aponta-cobrancas-de-flavio-vorcaro-por-filme-dark-horse"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "https://veja.abril.com.br/politica/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/#google_vignette"
+  },
+  {
+   "id": "ana-elisa-ufpe",
+   "bloco": "Política nacional",
+   "titulo": "A estrategista que apagou o incêndio",
+   "subtitulo": "A deputada mais jovem eleita de Minas vira cérebro digital de Lula e tem a primeira postagem polêmica apagada em 24 horas",
+   "resumo": "Ana Elisa Santos Silva (PT-MG), de 21 anos, foi a segunda mais votada de Minas Gerais, com 524.219 votos, e passou a conduzir a estratégia digital da campanha de Lula no 2º turno. Segundo a Revista Oeste, na madrugada de 8 de outubro ela publicou que apoiadores de Flávio Bolsonaro \"queimaram uma faculdade\", em referência à UFPE, e pediu votos de eleitores de Renan Santos, Augusto Cury e Ronaldo Caiado. A publicação teria sido removida na noite do mesmo dia, mas foi preservada em capturas de tela que circularam nas redes. As reportagens que abrimos sobre o incêndio na UFPE registram um fogo em laboratório do Departamento de Física em 30 de setembro, com suspeita de origem acidental em um forno mufla e nenhum ferido, sem citar qualquer ação política. O que está em jogo é a credibilidade de quem vai comandar a comunicação de uma campanha presidencial e a responsabilidade de acusar adversários por um fato que a própria apuração local não sustenta até aqui.",
+   "contexto": [
+    "Ana Elisa, nascida em 31/08/2005 em Divinópolis, é estudante de Direito e influenciadora, com cerca de 2 milhões de seguidores no Instagram; veio do PV e se filiou ao PT em março de 2026 (Congresso em Foco)",
+    "Foi eleita pela federação Brasil da Esperança com 524.219 votos, atrás apenas de Nikolas Ferreira (PL) em Minas, e se reuniu com Lula em 6/10 para tratar da estratégia digital do 2º turno (Congresso em Foco)",
+    "Postagem de 8/10 segundo a Revista Oeste: \"Hoje eles queimaram uma faculdade\" e \"Se vocês se juntarem ao BOLSONARISMO, esqueçam a tentativa de implementar um governo de vocês aqui\"; texto removido à noite (Revista Oeste)",
+    "Incêndio na UFPE: 30/09, por volta das 13h30, laboratório do Departamento de Física, CCEN, Recife; suspeita de acidente em forno mufla durante manipulação de produto químico; sem feridos (Diário de Pernambuco)",
+    "Segundo a Oeste, estudantes atribuem o fogo a um aparelho de ar-condicionado antigo, e o deputado eleito Thiago Medina (PL-PE) nega ação criminosa; essas versões vêm só da Oeste e não foram confirmadas em outra fonte"
+   ],
+   "angulo": [
+    "Quem chega para comandar a comunicação de uma campanha presidencial e na primeira semana acusa o adversário por um incêndio sem prova mostra que a estratégia digital é de ataque, não de informação.",
+    "Apagar a postagem não apaga a responsabilidade: se era verdade, por que sumiu; se não era, por que foi publicada na madrugada para milhões de seguidores.",
+    "Acusar eleitores de um candidato de atear fogo em universidade é o tipo de acusação que o TSE costuma cobrar de perfis de direita, e o mesmo critério vale para a campanha do governo.",
+    "A juventude e a influência da deputada não a isentam: com 524 mil votos e acesso direto ao presidente, o peso do que ela publica é de agente político."
+   ],
+   "perguntas": [
+    "Uma estrategista digital de campanha presidencial pode errar desse jeito na primeira semana, ou isso revela o método?",
+    "O TSE deve tratar do mesmo jeito uma acusação sem prova vinda de um perfil governista e de um perfil da oposição?",
+    "Quando o político apaga a postagem, quem corrige o estrago em quem já viu e compartilhou?"
+   ],
+   "atencao": "Os fatos sobre a postagem e sua remoção vêm da Revista Oeste e de capturas de tela; não encontramos confirmação independente nem manifestação da deputada. Não afirmar que ela agiu de má-fé, apenas que a acusação não tem lastro nas reportagens abertas.",
+   "fontes": [
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/fake-news-de-nova-marqueteira-de-lula-desaparece-das-redes/"
+    },
+    {
+     "name": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/123030/quem-e-ana-elisa-deputada-federal-eleita-que-quer-hypar-pt-nas-redes"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11725383-incendio-atinge-laboratorio-no-departamento-de-fisica-da-ufpe.html"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "https://revistaoeste.com/politica/fake-news-de-nova-marqueteira-de-lula-desaparece-das-redes/"
+  },
   {
    "id": "datafolha-2-turno",
    "bloco": "Política nacional",
@@ -249,95 +338,6 @@
      "url": "https://jovempan.com.br/?p=289212"
     }
    ]
-  },
-  {
-   "id": "vorcaro-filme-lula",
-   "bloco": "Política nacional",
-   "titulo": "O filme que foi \"por fora\"",
-   "subtitulo": "Vorcaro diz que pagou R$ 30 milhões em dinheiro por um documentário sobre Lula e separa o caso do filme de Bolsonaro",
-   "resumo": "Segundo a Veja, o banqueiro Daniel Vorcaro, preso e dono do Banco Master, afirma que pagou cerca de R$ 30 milhões em dinheiro vivo para um documentário sobre Lula e para o Instituto Lula, em troca de abertura de portas nos fundos de pensão de estatais. Ele diz também que o esquema previa 10% de comissão sobre o dinheiro captado com Previ, Petros e Postalis, e que o ex-tesoureiro do PT João Vaccari Neto teria cobrado esse percentual. Num áudio, Vorcaro afirma que o filme de Lula \"foi por fora\", enquanto o patrocínio do Dark Horse, sobre Jair Bolsonaro, teria sido \"patrocínio normal\". Lula nega que tenha pedido ou recebido vantagem, Padilha e Olavo Noleto negam qualquer relação com o banqueiro, e a PGR não levou o relato adiante por falta de provas. O que está em jogo é se o dinheiro de aposentados de servidores públicos foi usado como moeda de troca, e isso só se esclarece com prova, não com áudio.",
-   "contexto": [
-    "Vorcaro diz ter pago cerca de R$ 30 milhões em dinheiro vivo para o documentário \"Lula\", de Oliver Stone, e para o Instituto Lula, ligado a Paulo Okamotto (Veja, via Jovem Pan e Revista Oeste)",
-    "Comissão de 10% sobre recursos captados com fundos de pensão: pelo relato, Vaccari a teria exigido. A conta de 10% sobre R$ 10 bilhões daria R$ 1 bilhão, mas esses dois números não aparecem nas matérias abertas",
-    "A tentativa de vender R$ 500 milhões em letras financeiras à Caixa foi barrada em julho de 2024; o Master entrou na lista de instituições autorizadas em 29 de abril de 2024 (Revista Oeste)",
-    "Sobre o Dark Horse, Vorcaro diz que o valor do filme de Lula teria sido até maior, mas que o de Flávio \"foi patrocínio normal\" (Revista Oeste)",
-    "A PF já aponta que Flávio pediu cerca de R$ 131 milhões a Vorcaro para o Dark Horse, dos quais cerca de R$ 60 milhões teriam sido pagos; Flávio nega irregularidades (Agência Brasil)",
-    "O relato está num anexo de proposta de delação entregue à PGR em junho, descartada por falta de provas; Vorcaro prepara uma terceira proposta (Jovem Pan e Revista Oeste)"
-   ],
-   "angulo": [
-    "Se o relato for provado, é o uso de dinheiro de aposentadoria de servidores como moeda política, e isso exige investigação séria e rápida, sem blindagem.",
-    "O programa deve cobrar que Lula e o PT respondam com documentos sobre o Instituto Lula e o filme de Oliver Stone, e não apenas com a negativa de praxe.",
-    "A distinção \"por fora\" contra \"patrocínio normal\" é a fala do próprio Vorcaro, que tem interesse em delação; ela não prova nada sobre nenhum dos dois filmes e não apaga o que a PF já apontou sobre o Dark Horse.",
-    "O eleitor tem o direito de ver os dois casos apurados com o mesmo rigor, a duas semanas do 2º turno."
-   ],
-   "perguntas": [
-    "Por que o relato de um banqueiro preso, ainda sem prova, ganha tanto peso a duas semanas do 2º turno, e quem se beneficia disso?",
-    "Que documentos o Instituto Lula e a produção do filme de Oliver Stone deveriam apresentar para encerrar a dúvida?",
-    "A diferença entre \"por fora\" e \"patrocínio normal\" muda alguma coisa na apuração do caso Dark Horse?"
-   ],
-   "atencao": "São alegações de Vorcaro, sem prova confirmada, e a PGR não avançou com o relato. Os números R$ 10 bilhões e R$ 1 bilhão citados no pedido não constam nas matérias abertas: falar apenas em R$ 30 milhões e comissão de 10%, segundo Vorcaro.",
-   "fontes": [
-    {
-     "name": "Jovem Pan",
-     "url": "https://jovempan.com.br/politica/vorcaro-diz-ter-pago-r-30-mi-para-filme-sobre-lula-em-troca-de-negocios-segundo-revista/"
-    },
-    {
-     "name": "Revista Oeste",
-     "url": "https://revistaoeste.com/politica/vorcaro-relata-pagamentos-por-filme-sobre-lula-e-esquema-com-petistas/"
-    },
-    {
-     "name": "Poa24horas (CNN Brasil e Veja)",
-     "url": "https://poa24horas.com.br/politica/2026/10/vorcaro-cita-repasse-de-r-30-milhoes-para-filme-sobre-lula-pf-ve-delacao-sem-prova/"
-    },
-    {
-     "name": "Agência Brasil",
-     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/pf-aponta-cobrancas-de-flavio-vorcaro-por-filme-dark-horse"
-    }
-   ],
-   "avulsa": true,
-   "pedido": "https://veja.abril.com.br/politica/vorcaro-conta-que-liberou-dinheiro-para-filme-sobre-lula-por-negocios-no-governo/#google_vignette"
-  },
-  {
-   "id": "ana-elisa-ufpe",
-   "bloco": "Política nacional",
-   "titulo": "A estrategista que apagou o incêndio",
-   "subtitulo": "A deputada mais jovem eleita de Minas vira cérebro digital de Lula e tem a primeira postagem polêmica apagada em 24 horas",
-   "resumo": "Ana Elisa Santos Silva (PT-MG), de 21 anos, foi a segunda mais votada de Minas Gerais, com 524.219 votos, e passou a conduzir a estratégia digital da campanha de Lula no 2º turno. Segundo a Revista Oeste, na madrugada de 8 de outubro ela publicou que apoiadores de Flávio Bolsonaro \"queimaram uma faculdade\", em referência à UFPE, e pediu votos de eleitores de Renan Santos, Augusto Cury e Ronaldo Caiado. A publicação teria sido removida na noite do mesmo dia, mas foi preservada em capturas de tela que circularam nas redes. As reportagens que abrimos sobre o incêndio na UFPE registram um fogo em laboratório do Departamento de Física em 30 de setembro, com suspeita de origem acidental em um forno mufla e nenhum ferido, sem citar qualquer ação política. O que está em jogo é a credibilidade de quem vai comandar a comunicação de uma campanha presidencial e a responsabilidade de acusar adversários por um fato que a própria apuração local não sustenta até aqui.",
-   "contexto": [
-    "Ana Elisa, nascida em 31/08/2005 em Divinópolis, é estudante de Direito e influenciadora, com cerca de 2 milhões de seguidores no Instagram; veio do PV e se filiou ao PT em março de 2026 (Congresso em Foco)",
-    "Foi eleita pela federação Brasil da Esperança com 524.219 votos, atrás apenas de Nikolas Ferreira (PL) em Minas, e se reuniu com Lula em 6/10 para tratar da estratégia digital do 2º turno (Congresso em Foco)",
-    "Postagem de 8/10 segundo a Revista Oeste: \"Hoje eles queimaram uma faculdade\" e \"Se vocês se juntarem ao BOLSONARISMO, esqueçam a tentativa de implementar um governo de vocês aqui\"; texto removido à noite (Revista Oeste)",
-    "Incêndio na UFPE: 30/09, por volta das 13h30, laboratório do Departamento de Física, CCEN, Recife; suspeita de acidente em forno mufla durante manipulação de produto químico; sem feridos (Diário de Pernambuco)",
-    "Segundo a Oeste, estudantes atribuem o fogo a um aparelho de ar-condicionado antigo, e o deputado eleito Thiago Medina (PL-PE) nega ação criminosa; essas versões vêm só da Oeste e não foram confirmadas em outra fonte"
-   ],
-   "angulo": [
-    "Quem chega para comandar a comunicação de uma campanha presidencial e na primeira semana acusa o adversário por um incêndio sem prova mostra que a estratégia digital é de ataque, não de informação.",
-    "Apagar a postagem não apaga a responsabilidade: se era verdade, por que sumiu; se não era, por que foi publicada na madrugada para milhões de seguidores.",
-    "Acusar eleitores de um candidato de atear fogo em universidade é o tipo de acusação que o TSE costuma cobrar de perfis de direita, e o mesmo critério vale para a campanha do governo.",
-    "A juventude e a influência da deputada não a isentam: com 524 mil votos e acesso direto ao presidente, o peso do que ela publica é de agente político."
-   ],
-   "perguntas": [
-    "Uma estrategista digital de campanha presidencial pode errar desse jeito na primeira semana, ou isso revela o método?",
-    "O TSE deve tratar do mesmo jeito uma acusação sem prova vinda de um perfil governista e de um perfil da oposição?",
-    "Quando o político apaga a postagem, quem corrige o estrago em quem já viu e compartilhou?"
-   ],
-   "atencao": "Os fatos sobre a postagem e sua remoção vêm da Revista Oeste e de capturas de tela; não encontramos confirmação independente nem manifestação da deputada. Não afirmar que ela agiu de má-fé, apenas que a acusação não tem lastro nas reportagens abertas.",
-   "fontes": [
-    {
-     "name": "Revista Oeste",
-     "url": "https://revistaoeste.com/politica/fake-news-de-nova-marqueteira-de-lula-desaparece-das-redes/"
-    },
-    {
-     "name": "Congresso em Foco",
-     "url": "https://www.congressoemfoco.com.br/noticia/123030/quem-e-ana-elisa-deputada-federal-eleita-que-quer-hypar-pt-nas-redes"
-    },
-    {
-     "name": "Diário de Pernambuco",
-     "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/09/11725383-incendio-atinge-laboratorio-no-departamento-de-fisica-da-ufpe.html"
-    }
-   ],
-   "avulsa": true,
-   "pedido": "https://revistaoeste.com/politica/fake-news-de-nova-marqueteira-de-lula-desaparece-das-redes/"
   }
  ],
  "atualizado": "2026-10-09T10:53:49-03:00"

@@ -8,7 +8,7 @@ Você é o produtor de pauta do programa **Conversa Timeline**, apresentado por 
 Hora atual: sempre obtenha com `TZ=America/Sao_Paulo date -Iseconds` (nunca estime). Use esse valor em "generated".
 
 ## Qual dia
-A pauta é do dia do programa: se agora for depois de config.virada_hora (programa/config.json), é a pauta de AMANHÃ; senão, de HOJE. Se o arquivo já existir (geração repetida), reescreva-o, mas PRESERVE os itens com "avulsa": true: copie-os sem alteração para o fim da nova lista (eles não contam no limite de config.itens).
+A pauta é do dia do programa: se agora for depois de config.virada_hora (programa/config.json), é a pauta de AMANHÃ; senão, de HOJE. Se o arquivo já existir (geração repetida), reescreva-o, mas PRESERVE os itens com "avulsa": true: copie-os sem alteração para o INÍCIO da nova lista, na ordem em que estavam (eles abrem a pauta e não contam no limite de config.itens). O título e a abertura da pauta precisam incluir os temas dos itens avulsos (a abertura começa por eles).
 
 ## Segurança do repositório
 Crie ou altere apenas programa/AAAA-MM-DD.json e programa/index.json. Scripts auxiliares ficam em /tmp. Seja eficiente: o ideal é terminar em até 20 minutos.
@@ -35,6 +35,6 @@ Crie ou altere apenas programa/AAAA-MM-DD.json e programa/index.json. Scripts au
    - perguntas: config.perguntas_por_item perguntas abertas para a conversa na bancada.
    - atencao (opcional): cuidado jurídico ou fato ainda em apuração, numa frase.
    - fontes: [{name, url}] com as matérias que você abriu.
-5. Escreva também: titulo (manchete da pauta do dia, abrangente, que abre curiosidade), abertura (3 a 4 frases ligando os temas do dia) e agenda ([{time, text, source:{name,url}}] com o que tem hora marcada no dia do programa; pode ser vazia).
+5. Escreva também: titulo (manchete da pauta do dia, abrangente, que abre curiosidade, considerando também os itens avulsos), abertura (3 a 4 frases ligando os temas do dia, começando pelos itens avulsos quando houver) e agenda ([{time, text, source:{name,url}}] com o que tem hora marcada no dia do programa; pode ser vazia).
 6. Grave programa/AAAA-MM-DD.json com {date, generated, programa: "Conversa Timeline", titulo, abertura, agenda, itens} e inclua a data em programa/index.json ("days", sem duplicar, ordenada). Valide com python3 que o JSON abre, que há config.itens itens, que cada resumo tem config.linhas_resumo frases e que no máximo metade dos itens tem metafora; confirme com grep que não há "—" nem "–". Rode também `python3 tools/repeticao.py programa/AAAA-MM-DD.json`; se apontar REPETIDO, troque o item (ou refaça em torno do fato novo com "desdobramento") e rode de novo até sair sem erro.
 7. git status (desfaça qualquer alteração fora dos dois arquivos permitidos), git add só deles, commit "Pauta do programa DD/MM" e push para main (git pull --rebase origin main antes; repita até 3 vezes se recusado).
