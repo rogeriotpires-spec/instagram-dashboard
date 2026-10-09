@@ -1,0 +1,608 @@
+{
+ "generated": "2026-10-09T18:18:47-03:00",
+ "headline": "Governo zera tributos da gasolina a 16 dias do 2º turno, Ibovespa bate recorde, Vorcaro cita R$ 30 milhões a filme de Lula e Record cancela debate.",
+ "top": [
+  "pesquisas-2-turno",
+  "vorcaro-filme-lula",
+  "gasolina-tributos-zerados",
+  "garotinho-tse-governo-rj",
+  "ipca-setembro"
+ ],
+ "items": [
+  {
+   "id": "pesquisas-2-turno",
+   "segment": "politica",
+   "title": "AtlasIntel dá Flávio 52,8% a 47,2% sobre Lula no 2º turno, e Vox Brasil mostra Lula à frente",
+   "summary": "A AtlasIntel apontou Flávio Bolsonaro com 52,8% dos votos válidos contra 47,2% de Lula no segundo turno, segundo a CNN Brasil. Na pesquisa Atlas/Bloomberg, Flávio aparece com 51,1% contra 45,7% de Lula, fora da margem de empate técnico, conforme a CNN. O Poder360 destaca que o levantamento confirma o PoderData/Aya, que deu 53% a 47% para Flávio e registrou queda de 11 pontos na expectativa de vitória de Lula, para 37%. A Vox Brasil seguiu em sentido oposto, com Lula em 44,2% e Flávio em 42,7%. A Record cancelou o debate de domingo e o próximo confronto previsto é o do SBT, em 15 de outubro.",
+   "scores": {
+    "cobertura": 8.5,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 8.9,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/atlasintel-confirma-poderdata-aya-e-da-flavio-com-53-e-lula-com-47/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-tem-528-dos-votos-validos-no-2o-turno-lula-472/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/atlasintel-flavio-bolsonaro-tem-528-dos-votos-validos-contra-472-de-lula-no-segundo-turno/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026-segundo-turno/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/atlasintel-flavio-abre-54-pontos-sobre-lula-no-2o-turno-e-vai-a-51-dos-votos/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/vox-brasil-no-2o-turno-lula-tem-5086-e-flavio-4914-dos-votos-validos",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/atlas-boomberg-flavio-tem-51-das-intencoes-de-voto-contra-45-de-lula-no-2o-turno/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "vorcaro-filme-lula",
+   "segment": "politica",
+   "title": "Vorcaro cita R$ 30 milhões a filme de Lula, diz revista, e PF afirma que delação foi rejeitada por falta de provas",
+   "summary": "Segundo a Veja, citada pela CNN Brasil, Daniel Vorcaro relatou em anexo levado à PGR em junho negociações com o ex-tesoureiro do PT João Vaccari Neto para acessar fundos de pensão, com R$ 30 milhões em espécie para um documentário sobre Lula. A revista cita ainda taxa de 10% sobre o captado e pagamento de R$ 500 mil no dia em que o Master foi autorizado a operar nos fundos, em abril de 2024. A PF disse que a delação foi recusada por falta de credibilidade e negou que Vorcaro tenha falado do tema em depoimento, enquanto a defesa diz não confirmar a autenticidade do áudio. Lula afirmou à revista que jamais pediu ou recebeu vantagem, a campanha anunciou medidas judiciais e Alexandre Padilha acionou a AGU, apontando indícios de fraude no áudio. A Metrópoles acrescenta que Vorcaro disse ter acionado o presidente do PT para viabilizar a compra do Master pelo BRB, o que Edinho Silva nega.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 8.8,
+   "outlets": [
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/pf-nega-que-vorcaro-tenha-citado-liberacao-de-verba-para-filme-sobre-lula-em-depoimento/",
+     "camp": "direita",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/vorcaro-cita-r-30-mi-a-filme-de-lula-diz-revista-pf-ve-delacao-sem-prova/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/vorcaro-afirmou-ter-liberado-r-30-milhoes-para-filme-de-lula-em-troca-de-negocios-diz-revista",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/vorcaro-financiou-filme-de-lula-em-troca-de-acesso-a-fundos-diz-revista/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/em-audio-vorcaro-compara-repasses-a-filmes-do-lula-foi-errado-do-flavio-nao-foi/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/edinho-denuncia-vies-politico-de-suposto-depoimento-de-vorcaro-nao-tem-prova-nenhuma/",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "gasolina-tributos-zerados",
+   "segment": "economia",
+   "title": "Governo zera tributos federais da gasolina por 30 dias e amplia subsídios a etanol e diesel a 16 dias do 2º turno",
+   "summary": "O governo zerou os tributos federais sobre a gasolina, ampliando em R$ 0,26 por litro a desoneração de R$ 0,63 já existente, segundo a CNN Brasil. A subvenção do etanol subiu de R$ 0,25 para R$ 0,43 por litro e foi criada subvenção de R$ 1,40 para o diesel importado. As medidas valem por 30 dias e custam cerca de R$ 5,2 bilhões, sendo R$ 3,6 bilhões para gasolina e etanol e R$ 1,6 bilhão para o diesel, e o pacote responde à pressão de preços ligada à guerra no Oriente Médio. A CNN publicou que analistas consideram as medidas insustentáveis. Flávio Bolsonaro acusou Lula de uso eleitoreiro da Petrobras e disse que o subsídio do diesel termina em 25 de outubro, segundo a Jovem Pan.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 10,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 7.9,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-zera-tributos-federais-da-gasolina-antes-do-2o-turno/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/a-16-dias-para-eleicoes-governo-anuncia-medidas-para-baratear-combustiveis/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-anuncia-novo-pacote-de-medidas-para-conter-alta-de-combustiveis",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/governo-lula-amplia-subsidios-sobre-gasolina-etanol-e-diesel-a-2-semanas-do-2o-turno/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/economia/governo-lula-zera-imposto-federal-sobre-a-gasolina-e-cria-subsidio-para-diesel/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "garotinho-tse-governo-rj",
+   "segment": "rio",
+   "title": "Paes reconhece que não haverá 2º turno no Rio após Zanin negar recurso sobre votos de Garotinho",
+   "summary": "O ministro Zanin negou o recurso de Eduardo Paes e manteve a anulação dos votos de Garotinho. Paes reconheceu a derrota para Douglas Ruas, dizendo que a eleição termina. A Gazeta do Povo informou que o TSE determinou a retotalização dos votos no Rio. A Jovem Pan informou que o TRE fará a retotalização no sábado. Flávio Bolsonaro se reuniu com Douglas Ruas, segundo a Metrópoles.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.9,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/zanin-nega-pedido-de-paes-contra-anulacao-de-votos-de-garotinho/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/julgamento-tse-garotinho-eleicoes-governo-rio-de-janeiro",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/paes-reconhece-derrota-no-rio-apos-stf-negar-recurso-a-eleicao-termina",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/paes-reconhece-fim-da-disputa-pelo-governo-do-rio-depois-de-reveses-no-tse-e-no-stf/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/paes-reconhece-derrota-para-ruas-apos-decisao-do-tse-sobre-garotinho-a-eleicao-termina/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "ipca-setembro",
+   "segment": "economia",
+   "title": "Inflação sobe 0,82% em setembro e chega a 4,58% em 12 meses, acima do teto da meta",
+   "summary": "O IPCA de setembro subiu 0,82%, acima da mediana de mercado de cerca de 0,76%, e reverteu a deflação de 0,32% de agosto. Em 12 meses, a inflação foi a 4,58%, acima do teto de 4,5% da meta, segundo o InfoMoney. A energia elétrica residencial subiu 7,98% com o fim do Bônus de Itaipu, e o tomate avançou 37,76% e a passagem aérea 9,66%. Os núcleos de inflação passaram de 0,23% para 0,36%, e a inflação de serviços saltou de 0,03% para 0,61%. O mercado está dividido sobre o Copom de novembro, entre pausar os cortes e reduzir a Selic de 13,75% em 0,25 ponto.",
+   "scores": {
+    "cobertura": 8.5,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 7
+   },
+   "score": 7.7,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-economia/inflacao-sobe-082-em-setembro-em-12-meses-vai-a-458/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/inflacao-ipca-9-outubro-2026/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/ipca-inflacao-setembro-dispara-conta-de-luz-alimentos-mais-caros/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/economia/ipca-inflacao-setembro-2026-dados-ibge/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/ipca-de-setembro-acelera-para-082-apos-deflacao-em-agosto",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/economia/inflacao-fica-em-082-em-setembro-diz-ibge/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/economia/inflacao-sobe-082-em-setembro-apos-queda-registrada-em-agosto-diz-ibge/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "eduardo-pena-moraes",
+   "segment": "politica",
+   "title": "Moraes manda executar pena de 4 anos e 2 meses de Eduardo Bolsonaro, e Flávio pede renúncia do ministro",
+   "summary": "Alexandre de Moraes determinou o cumprimento imediato da pena de quatro anos e dois meses em regime semiaberto imposta a Eduardo Bolsonaro, que vive nos Estados Unidos desde março de 2025. A CNN Brasil informou que a PF avalia pedir a extradição, e a Jovem Pan observou que a prisão depende dos EUA. Eduardo classificou a ordem como arbitrária e inócua, já que não está no Brasil. Em live, Flávio Bolsonaro pediu a renúncia de Moraes, disse que ele deveria responder na Justiça e afirmou que já são 50 senadores favoráveis ao impeachment de ministros do STF. O InfoMoney questiona se a medida pode impulsionar Flávio no segundo turno.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.6,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-flavio-bolsonaro-ataca-moraes-e-pede-sua-renuncia-apos-decisao-sobre-eduardo/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/moraes-aciona-pf-para-cumprir-prisao-de-eduardo-bolsonaro/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/politica/pf-avalia-pedir-extradicao-de-eduardo-bolsonaro/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/colunistas/eliseu-caetano/prisao-de-eduardo-bolsonaro-depende-dos-eua-e-extradicao-pode-passar-por-marco-rubio/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "nobel-paz-pillay",
+   "segment": "internacional",
+   "title": "Navi Pillay vence o Nobel da Paz, e EUA impõem sanções ao Tribunal Penal Internacional",
+   "summary": "A jurista sul-africana Navanethem Pillay, ex-chefe de direitos humanos da ONU, venceu o Nobel da Paz de 2026. Horas depois, o governo Trump impôs sanções ao Tribunal Penal Internacional, com proibição de transações e possível punição a empresas que prestam serviços à corte, segundo a CNN Brasil. O secretário de Estado Marco Rubio disse que o TPI deve encerrar suas ameaças ou os EUA acabarão com o tribunal, e Washington se irrita com mandados de prisão contra autoridades israelenses, entre elas Benjamin Netanyahu. A vice-promotora do TPI, Nazhat Shameem Khan, condenou as sanções e disse que o trabalho não será interrompido. O secretário-geral do tribunal defendeu que a União Europeia esteja pronta para acionar um mecanismo de bloqueio.",
+   "scores": {
+    "cobertura": 8.5,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 7.5,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/navanethem-pillay-vence-premio-nobel-da-paz-de-2026/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/nobel-paz-esnoba-trump-premia-jurista-acusou-israel-genocidio/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/eua-impoem-sancoes-ao-tribunal-penal-internacional-apos-nobel-de-ex-juiza/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/premio-nobel-da-paz-vai-para-jurista-sul-africana-navanethem-navi-pillay",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/mundo/navi-pillay-vence-o-premio-nobel-da-paz-de-2026-por-atuacao-em-defesa-do-direito-internacional/",
+     "camp": "esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mundo/ex-chefe-de-direitos-humanos-da-onu-navi-pillay-ganha-nobel-da-paz-de-2026/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/mundo/nobel-da-paz-2026-e-concedido-a-jurista-sul-africana-navi-pillay/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "bolsa-recorde-dolar",
+   "segment": "economia",
+   "title": "Ibovespa fecha em recorde aos 209 mil pontos, alta de 8% na semana, e dólar cai a R$ 4,98",
+   "summary": "O Ibovespa subiu 1,38% e fechou aos 209.066,90 pontos, o primeiro fechamento acima de 209 mil, segundo a CNN Brasil, com alta de 8% na semana pós-primeiro turno. O dólar caiu 0,76%, para R$ 4,9856, e acumula queda de 4,44% na semana. A CNN atribui o movimento às pesquisas, com investidores apostando em maior controle das contas públicas com Flávio no Planalto, e ao recuo do petróleo após Trump indicar suspensão de ataques ao Irã até 3 de novembro. Os juros futuros também recuaram, com o DI para janeiro de 2035 em 12,37%. A Metrópoles resume que a bolsa fechou com alta histórica após Flávio liderar pesquisas.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 6.9,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-9-outubro-2026/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09102026/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/bolsa-nesta-sexta",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "record-debate-cancelado",
+   "segment": "politica",
+   "title": "Record cancela debate entre Lula e Flávio marcado para domingo",
+   "summary": "A Record cancelou o debate entre Lula e Flávio Bolsonaro previsto para domingo, 11 de outubro, por incompatibilidade de agendas dos dois candidatos, segundo comunicado da emissora. A campanha de Lula confirmou ao Poder360 que ele participará de todos os debates do segundo turno. Os próximos confrontos previstos são o do SBT, em 15 de outubro, o da Band/Estadão, em 18 de outubro, e o da Globo, em 23 de outubro. No primeiro turno, Lula e Flávio não participaram de nenhum debate televisivo, e o da Globo foi cancelado depois que Flávio desistiu horas antes. O segundo turno ocorre em 25 de outubro.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 6.2,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/record-cancela-debate-entre-lula-e-flavio-marcado-para-domingo/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/debate-na-record-e-cancelado-apos-incompatibilidade-de-agendas-de-flavio-e-lula/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/midia/record-cancela-debate-entre-lula-e-flavio-bolsonaro/",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "cassacao-chapa-flavio",
+   "segment": "politica",
+   "title": "Campanha de Lula pede ao TSE a cassação da chapa de Flávio por uso do perfil de Marçal",
+   "summary": "A campanha de Lula pediu ao TSE a cassação da chapa de Flávio Bolsonaro por suposto uso irregular das redes de Pablo Marçal e por abuso de poder econômico. O pedido inclui a suspensão do perfil de Marçal no Instagram, que tem 14,1 milhões de seguidores, e o bloqueio do site B22token, que oferece criptomoedas a quem divulgar conteúdos ligados à candidatura. Os advogados argumentam que as contas de Marçal funcionam como canais de campanha e deveriam ter sido comunicadas à Justiça Eleitoral. A campanha de Flávio diz que Marçal é apenas apoiador e nega relação com o B22token, e Marçal chamou a ação de desespero do PT. O TSE ainda vai analisar os pedidos.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 5.7,
+   "outlets": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/campanha-de-lula-pede-cassacao-da-chapa-de-flavio-e-suspensao-de-perfil-de-marcal/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/campanha-de-lula-aciona-tse-e-pede-cassacao-da-chapa-de-flavio-bolsonaro-por-uso-de-perfil-de-marcal-e-esquema-de-criptomoeda/",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "escola-refens-curitiba",
+   "segment": "seguranca",
+   "title": "Homem armado invade creche em Curitiba e mantém crianças e professores reféns",
+   "summary": "Um homem armado invadiu na tarde desta sexta-feira (9) um Centro Municipal de Educação Infantil no bairro São Braz, em Curitiba, e mantém crianças e professores como reféns. A Gazeta do Povo informa que as primeiras apurações indicam entre 10 e 20 pessoas no local, e a Metrópoles diz que ele está armado com faca e mantém 20 crianças. O Bope conduz a negociação, com apoio do helicóptero Falcão 13 da PM, e o entorno foi isolado pelo Corpo de Bombeiros e pela Guarda Municipal. A Prefeitura mobilizou equipes da Educação e psicólogos para acolher familiares. Até a última atualização, não havia desfecho confirmado.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 5.7,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/parana/homem-armado-invade-escola-e-faz-alunos-e-professores-refens-em-curitiba/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/homem-armado-com-faca-invade-escola-e-faz-criancas-refens-em-curitiba",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "terremoto-panama",
+   "segment": "internacional",
+   "title": "Terremoto de magnitude 7,7 atinge o Panamá, com alerta de tsunami e aeroporto fechado",
+   "summary": "Um terremoto de magnitude 7,7, segundo o USGS, atingiu o sul do Panamá perto do litoral do Pacífico, a 12,6 km de profundidade, e foi sentido também na Costa Rica. A CNN Brasil mostra prédios danificados em Penonomé, a cerca de 110 km do epicentro, incluindo uma torre de igreja parcialmente desabada. O alerta de tsunami para vários países da América Latina e Central foi depois cancelado. O aeroporto de Tocumen suspendeu as operações, duas linhas de metrô pararam e as aulas foram suspensas no país. Não havia vítimas confirmadas nas matérias abertas, e o presidente José Raúl Mulino pediu calma.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 5.3,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/terremoto-de-magnitude-77-atinge-o-panama/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/forte-terremoto-de-magnitude-76-e-sentido-no-panama/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/terremoto-de-magnitude-77-atinge-panama-e-provoca-alertas-de-tsunami/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/terremoto-atinge-panama",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/mundo/forte-terremoto-de-magnitude-76-sacode-o-panama/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "aviao-pm-ipatinga",
+   "segment": "seguranca",
+   "title": "Avião da PM de Minas cai perto do aeroporto de Ipatinga e deixa três policiais mortos",
+   "summary": "Um avião de pequeno porte da Polícia Militar de Minas Gerais caiu na tarde desta sexta-feira (9) perto do Aeroporto de Ipatinga, em Santana do Paraíso, no Vale do Aço. Os bombeiros foram acionados às 16h20 e três policiais militares morreram. A CNN Brasil não informa modelo, prefixo, rota nem causa da queda. Foi o segundo acidente aéreo em Minas no dia, pois pela manhã um monomotor caiu em pátio de manutenção do metrô, em Belo Horizonte, e o piloto morreu. A PMMG lamentou as mortes e mantém contato com as famílias.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 10,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 5.2,
+   "outlets": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/minas-gerais/aviao-da-pm-cai-logo-apos-sair-do-aeroporto-de-ipatinga-mg-ha-3-vitimas",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/nacional/sudeste/mg/aviao-cai-perto-do-aeroporto-de-ipatinga-em-minas-gerais/",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  }
+ ]
+}
