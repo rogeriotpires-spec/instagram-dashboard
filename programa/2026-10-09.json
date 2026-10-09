@@ -2,8 +2,8 @@
  "date": "2026-10-09",
  "generated": "2026-10-09T10:14:20-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Dinheiro vivo, urna e toga: a sexta em que o 2º turno ganha números",
- "abertura": "Daniel Vorcaro diz que pagou R$ 30 milhões em dinheiro por um documentário sobre Lula, e a campanha do presidente entrega o comando digital à deputada mais jovem eleita de Minas, que já teve de apagar a primeira postagem polêmica. Enquanto isso, dois institutos agora apontam Flávio à frente de Lula, e o 2º turno entra na reta final com apoios novos. No Rio, a Justiça encerrou a eleição para governador antes da urna, e em Brasília o Supremo manda cumprir a pena de Eduardo Bolsonaro enquanto o Senado tenta esconder quem entra pela porta. No bolso, a inflação de setembro estourou o teto da meta, puxada pela conta de luz e por um petróleo que não para de subir.",
+ "titulo": "Dinheiro vivo, urna e um prefeito de nome impossível: a sexta que mistura política, toga e bolso",
+ "abertura": "Daniel Vorcaro diz que pagou R$ 30 milhões em dinheiro por um documentário sobre Lula, e a campanha do presidente entrega o comando digital à deputada mais jovem eleita de Minas. Do outro lado do mapa, um vilarejo peruano de 730 habitantes elegeu prefeito um candidato chamado Hitler Mussolini, e o mundo inteiro quis saber por quê. No 2º turno, dois institutos agora apontam Flávio à frente de Lula, no Rio a Justiça encerrou a eleição para governador antes da urna, e em Brasília o Supremo manda cumprir a pena de Eduardo Bolsonaro enquanto o Senado tenta esconder quem entra pela porta. No bolso, a inflação de setembro estourou o teto da meta, puxada pela conta de luz e por um petróleo que não para de subir.",
  "agenda": [
   {
    "time": "9h",
@@ -103,6 +103,43 @@
    ],
    "avulsa": true,
    "pedido": "https://revistaoeste.com/politica/fake-news-de-nova-marqueteira-de-lula-desaparece-das-redes/"
+  },
+  {
+   "id": "peru-hitler-prefeito",
+   "bloco": "Internacional",
+   "titulo": "O prefeito com nome de ditadores",
+   "subtitulo": "Num vilarejo peruano de 730 habitantes, um candidato batizado Hitler Mussolini virou notícia no mundo todo",
+   "resumo": "Segundo o Metrópoles, Hitler Mussolini Simeón Flores, de 45 anos, venceu a eleição para prefeito de Queropalca, no interior de Huánuco, no Peru. Ele teve 229 votos, 34,54% dos válidos, contra 204 de Gaspar Benilde Osorio Zambrano, do Renovación Popular, num universo de pouco mais de 730 habitantes. O partido dele, o Ahora Nación, é descrito como de centro-esquerda, e nenhuma matéria aberta explica por que ele recebeu esses nomes. O caso lembra o de Hitler Alba Sánchez, eleito prefeito de Yúngar em 2018 e chamado de \"bom Hitler\". O que interessa ao eleitor brasileiro é o recado: nome é herança de família, e o voto local costuma premiar quem o eleitor conhece, não o que o sobrenome sugere.",
+   "contexto": [
+    "Queropalca fica no departamento de Huánuco, província de Lauricocha, e tem pouco mais de 730 habitantes (Metrópoles)",
+    "Flores teve 229 votos (34,54% dos válidos); o segundo colocado, Gaspar Benilde Osorio Zambrano, teve 204 (30,8%), segundo o Metrópoles, com base no El Comercio Perú",
+    "A eleição municipal peruana foi no domingo, 4 de outubro; a página de acompanhamento lista cinco candidatos à prefeitura, e a proclamação oficial cabe ao Jurado Electoral Especial",
+    "Em 2018, Hitler Guesclin Alba Sánchez foi eleito prefeito de Yúngar com 47,7% dos votos (Metrópoles)",
+    "O Metrópoles não explica a origem dos nomes do candidato"
+   ],
+   "angulo": [
+    "O nome é curiosidade e não programa de governo: o programa deve tratar o caso como pitoresco, sem transformar um prefeito de vilarejo em símbolo ideológico.",
+    "Nazismo e fascismo são regimes totalitários que o programa condena sem relativização, e o nome de um prefeito de vilarejo não diz nada sobre o que ele pensa ou fará: o juízo vem da gestão, não do registro de nascimento.",
+    "Eleição municipal em lugar pequeno se decide por conhecimento pessoal e obras, e é isso que o eleitor cobra, aqui e lá."
+   ],
+   "perguntas": [
+    "Um nome pesado como esse ajuda ou atrapalha numa eleição de 730 habitantes, onde todo mundo se conhece?",
+    "Por que casos assim ganham o mundo em horas, e o que isso diz sobre a imprensa que prefere a curiosidade ao conteúdo?",
+    "O que as eleições municipais no Peru ensinam sobre o poder do voto local em relação ao nacional?"
+   ],
+   "atencao": "A cifra de votos vem de uma única matéria (Metrópoles); a página de acompanhamento que abri não mostrava apuração e lembra que quem proclama o vencedor é o Jurado Electoral Especial. Falar em \"venceu, segundo o Metrópoles\". Não atribuir ideologia ao candidato além do que a matéria diz sobre o partido.",
+   "fontes": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/hitler-mussolini-vence-eleicao-e-se-torna-prefeito-em-queropalca-no-peru"
+    },
+    {
+     "name": "Trâmites Perú (candidatos de Queropalca)",
+     "url": "https://tramitesperu.com/elecciones-2026/resultados-municipales/distrito/queropalca/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "https://www.metropoles.com/mundo/hitler-mussolini-vence-eleicao-e-se-torna-prefeito-em-queropalca-no-peru"
   },
   {
    "id": "datafolha-2-turno",
@@ -340,5 +377,5 @@
    ]
   }
  ],
- "atualizado": "2026-10-09T10:53:49-03:00"
+ "atualizado": "2026-10-09T11:14:53-03:00"
 }
