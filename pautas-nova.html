@@ -271,6 +271,10 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 @media (max-width:900px){.cols2{grid-template-columns:1fr}.wk{grid-template-columns:repeat(4,minmax(0,1fr))}.indice a{grid-template-columns:28px 1fr}.indice a .bl{display:none}}
 @media (max-width:560px){.wk{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .tl-btn{border:1px solid color-mix(in srgb,var(--good) 45%,transparent);cursor:pointer;font:inherit;font-size:inherit;font-weight:700}.tl-btn:hover{background:var(--good);color:#fff}
+.xbtn{margin-left:auto;background:transparent;border:1px solid transparent;color:var(--muted);border-radius:8px;width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0}
+.xbtn:hover{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 40%,transparent);background:var(--bad-bg)}
+.xbtn svg{width:15px;height:15px}
+.xbtn:disabled{opacity:.5;cursor:wait}
 </style>
 </head>
 <body>
@@ -338,7 +342,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 </main>
 <div class="toast" id="toast">Copiado</div>
 
-<script src="painel.js?v=20261008b"></script>
+<script src="painel.js?v=20261009"></script>
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -371,14 +375,14 @@ async function loadP(d){
   P_CUR=d;$("#p-day").value=d;const i=P_DAYS.indexOf(d);$("#p-prev").disabled=i<=0;$("#p-next").disabled=i>=P_DAYS.length-1;
   try{const p=await nocache(`programa/${d}.json`).then(r=>r.json());window._pg=p.generated;
     const dt=new Date(p.date+"T12:00:00");
-    const it=p.itens||[];
+    const it=(p.itens||[]).filter(x=>!gone("programa",d,x.titulo));
     $("#p-body").innerHTML=`<div class="card">
       <div class="prog-h"><img src="marca/timeline-logo.jpg" alt=""><div><div class="eb">${esc(p.programa||"Conversa Timeline")} · ${WD[dt.getDay()]}, ${dBR(p.date)}</div><h2>${esc(p.titulo||"")}</h2></div></div>
       <p class="abert">${esc(p.abertura||"")}</p>
       <div class="indice">${it.map((x,k)=>`<a href="#it-${k}"><span class="num">${k+1}</span><span class="bl">${esc(x.bloco)}</span><span>${esc(x.titulo)}${x.avulsa?` <span class="seal">Pauta avulsa</span>`:""}</span></a>`).join("")}</div></div>
       ${(p.agenda||[]).length?`<div class="card" style="margin-top:14px"><div class="blk-h"><span>Com hora marcada</span></div>${p.agenda.map(a=>`<div class="ag"><b>${esc(a.time)}</b><span>${esc(a.text)} ${a.source?`<a href="${esc(a.source.url)}" target="_blank" rel="noopener">${esc(a.source.name)} ↗</a>`:""}</span></div>`).join("")}</div>`:""}
       ${it.map((x,k)=>`<article class="it" id="it-${k}">
-        <div class="pills"><span class="num">${k+1}</span><span class="bl" style="align-self:center">${esc(x.bloco)}</span>${x.avulsa?`<span class="seal">Pauta avulsa</span>`:""}</div>
+        <div class="pills"><span class="num">${k+1}</span><span class="bl" style="align-self:center">${esc(x.bloco)}</span>${x.avulsa?`<span class="seal">Pauta avulsa</span>`:""}${xbtn("programa",d,x.titulo)}</div>
         <h3>${esc(x.titulo)}</h3>${x.subtitulo?`<p class="sub">${esc(x.subtitulo)}</p>`:""}
         <p class="res">${esc(x.resumo)}</p>
         ${x.metafora?`<div class="meta"><b>Para explicar no ar</b><p>${esc(x.metafora)}</p></div>`:""}
@@ -391,6 +395,21 @@ async function loadP(d){
 }
 
 /* ---------- conteúdo do Instagram ---------- */
+/* excluir item da pauta (lixeira) */
+const TRASH=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6M10 11v6M14 11v6"/></svg>`;
+const XK=(t,d,ti)=>`pexc:${t}|${d}|${ti}`;
+const xget=k=>{try{return localStorage.getItem(k)}catch(e){return null}},xset=k=>{try{localStorage.setItem(k,Date.now())}catch(e){}};
+const gone=(t,d,ti)=>!!xget(XK(t,d,ti));
+const xbtn=(t,d,ti)=>`<button type="button" class="xbtn" title="Excluir este item da pauta" aria-label="Excluir" data-xt="${esc(t)}" data-xd="${esc(d||"")}" data-xti="${esc(ti)}">${TRASH}</button>`;
+document.addEventListener("click",async e=>{const b=e.target.closest(".xbtn");if(!b)return;e.preventDefault();e.stopPropagation();
+  const t=b.dataset.xt,d=b.dataset.xd,ti=b.dataset.xti;
+  if(!confirm(`Excluir da pauta?\n\n"${ti}"\n\nNão dá para desfazer.`))return;
+  b.disabled=true;
+  try{await Painel.call("/acao",{job:"pauta-excluir",payload:JSON.stringify({tipo:t,data:d,titulo:ti})})}
+  catch(err){b.disabled=false;toast("Não excluiu: "+err.message);return}
+  xset(XK(t,d,ti));const art=b.closest("article");if(art){art.style.transition="opacity .25s";art.style.opacity="0";setTimeout(()=>{if(t==="programa")loadP(P_CUR);else art.remove()},260)}
+  toast(t==="programa"?"Item excluído. O PDF é refeito em 1 a 2 minutos.":"Item excluído");});
+
 /* botão "Rende artigo na Timeline": abre a página de artigos e pede o texto */
 let ARTS=new Set();const OPTR=[];
 const slugify=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60).replace(/-$/,"");
@@ -418,7 +437,8 @@ function option(o,type,idx,ctx){
   if(o.caption)body+=block("Legenda",`<p>${esc(o.caption)}</p>`,o.caption);
   if(o.risk_note)body+=`<div class="note"><b>Cuidado:</b> ${esc(o.risk_note)}</div>`;
   if(o.timeline&&o.timeline.angle)body+=`<div class="note tl"><b>${o.timeline.rende?"Ângulo para a Timeline":"Por que só rede"}:</b> ${esc(o.timeline.angle)}</div>`;
-  return`<article class="opt"><div class="opt-h"><span class="opt-n">Opção ${"AB"[idx]||idx+1}</span><h3>${esc(o.title)}</h3></div><div class="pills">${pills}</div>${body}</article>`;
+  if(ctx&&ctx.del&&gone(ctx.del,ctx.delDay||"",o.title))return"";
+  return`<article class="opt"><div class="opt-h"><span class="opt-n">Opção ${"AB"[idx]||idx+1}</span><h3>${esc(o.title)}</h3>${ctx&&ctx.del?xbtn(ctx.del,ctx.delDay||"",o.title):""}</div><div class="pills">${pills}</div>${body}</article>`;
 }
 function renderWeek(day){
   const wp=(AN&&AN.week_plan)||[];if(!wp.length){$("#wk").innerHTML=`<div class="empty" style="grid-column:1/-1">A semana sugerida aparece depois da análise semanal.</div>`;return}
@@ -428,14 +448,14 @@ function renderWeek(day){
 }
 function renderHot(list,day){
   const cut=new Date(new Date(day+"T12:00:00").getTime()-2*864e5);
-  const L=(list||[]).filter(a=>new Date(a.time)>=cut).sort((a,b)=>b.time.localeCompare(a.time));
+  const L=(list||[]).filter(a=>new Date(a.time)>=cut&&!gone("quente","",a.title)).sort((a,b)=>b.time.localeCompare(a.time));
   $("#quentes").innerHTML=`<div class="sec-h"><h2>Pautas quentes</h2><p>Alertas enviados durante o dia quando surge algo grande</p></div>`+(L.length?L.map(a=>{const t=new Date(a.time);
-    return`<article class="hot"><div class="opt-h"><span class="pill bad">${t.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${t.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span><h3>${esc(a.title)}</h3></div><p class="fact">${esc(a.fact)}</p><div class="src">${srcs(a.sources)}</div>${a.suggestion?`<p><b>Sugestão:</b> ${esc(a.suggestion)}</p>`:""}${a.hook?block("Gancho",`<p>${esc(a.hook)}</p>`,a.hook):""}${a.script?block("Roteiro curto",`<pre>${esc(a.script)}</pre>`,a.script):""}${a.image_prompt?block("Prompt da imagem para o ChatGPT",`<pre>${esc(a.image_prompt)}</pre>`,a.image_prompt):""}</article>`}).join(""):`<div class="empty">Nenhum alerta nos últimos dois dias.</div>`);
+    return`<article class="hot"><div class="opt-h"><span class="pill bad">${t.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${t.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span><h3>${esc(a.title)}</h3>${xbtn("quente","",a.title)}</div><p class="fact">${esc(a.fact)}</p><div class="src">${srcs(a.sources)}</div>${a.suggestion?`<p><b>Sugestão:</b> ${esc(a.suggestion)}</p>`:""}${a.hook?block("Gancho",`<p>${esc(a.hook)}</p>`,a.hook):""}${a.script?block("Roteiro curto",`<pre>${esc(a.script)}</pre>`,a.script):""}${a.image_prompt?block("Prompt da imagem para o ChatGPT",`<pre>${esc(a.image_prompt)}</pre>`,a.image_prompt):""}</article>`}).join(""):`<div class="empty">Nenhum alerta nos últimos dois dias.</div>`);
 }
 function renderSD(list){
   const L=(list||[]).slice().sort((a,b)=>(b.done||"").localeCompare(a.done||"")).slice(0,10);
   $("#sob-demanda").innerHTML=`<div class="sec-h"><h2>Sob demanda</h2><p>Pedidas pelo botão "Virar pauta" da aba Notícias</p></div>`+(L.length?L.map(x=>{const d=new Date(x.done||x.requested);
-    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">Virou pauta · Notícias</span><span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i,{day:(x.done||x.requested||"").slice(0,10),rotulo:`Sob demanda de ${dBR((x.done||x.requested||"").slice(0,10))} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda.</div>`);
+    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">Virou pauta · Notícias</span><span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i,{day:(x.done||x.requested||"").slice(0,10),del:"sobdemanda",rotulo:`Sob demanda de ${dBR((x.done||x.requested||"").slice(0,10))} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda.</div>`);
 }
 async function loadC(d){
   C_CUR=d;$("#c-day").value=d;const i=C_DAYS.indexOf(d);$("#c-prev").disabled=i<=0;$("#c-next").disabled=i>=C_DAYS.length-1;
@@ -445,7 +465,7 @@ async function loadC(d){
     $("#c-title").textContent=`Conteúdo de ${WD[dt.getDay()]}, ${dBR(p.date)}`;
     $("#c-sub").textContent="Duas opções por horário, seguindo a semana sugerida";
     renderWeek(d);
-    $("#slots").innerHTML=p.slots.map(s=>`<div class="slot-sec"><div class="sec-h"><h2><span class="time">${esc(s.time)}</span> ${esc(s.kind)}</h2><p><i class="dot" style="background:${TYPE[s.type]?.[1]||"var(--muted)"}"></i>${TYPE[s.type]?.[0]||""}</p></div><div class="opts">${s.options.map((o,i)=>option(o,s.type,i,{day:p.date,rotulo:`Conteúdo de ${dBR(p.date)} · ${s.time} ${s.kind} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`).join("");
+    $("#slots").innerHTML=p.slots.map(s=>`<div class="slot-sec"><div class="sec-h"><h2><span class="time">${esc(s.time)}</span> ${esc(s.kind)}</h2><p><i class="dot" style="background:${TYPE[s.type]?.[1]||"var(--muted)"}"></i>${TYPE[s.type]?.[0]||""}</p></div><div class="opts">${s.options.map((o,i)=>option(o,s.type,i,{day:p.date,del:"conteudo",delDay:p.date,rotulo:`Conteúdo de ${dBR(p.date)} · ${s.time} ${s.kind} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`).join("");
     renderSD(sd.items);renderHot(q.alerts,d);
     if(TAB==="conteudo"){history.replaceState(null,"","#conteudo/"+d);updHero()}
   }catch(e){$("#slots").innerHTML=`<div class="empty">Não foi possível carregar o conteúdo de ${dBR(d)}.</div>`}
