@@ -248,7 +248,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 
   <section class="block" id="visao">
     <div class="sec-h"><h2>Visão geral</h2><p>Cada indicador mostra o próprio período e a comparação com o período anterior de mesmo tamanho</p></div>
-    <h3 style="font-size:13px;color:var(--text-2);margin:0 0 8px;text-transform:uppercase;letter-spacing:.06em">Conta</h3>
+    <h3 style="font-size:13px;color:var(--text-2);margin:0 0 8px;text-transform:uppercase;letter-spacing:.06em">Conta <span id="acc-note" style="text-transform:none;letter-spacing:0;font-weight:500;color:var(--muted)"></span></h3>
     <div class="kpis" id="kpis-acc"></div>
     <h3 style="font-size:13px;color:var(--text-2);margin:14px 0 8px;text-transform:uppercase;letter-spacing:.06em">Publicações do período</h3>
     <div class="kpis" id="kpis-post"></div>
@@ -614,6 +614,23 @@ function storiesCard(){
   return kpi("Stories",String(cur.length),`Últimas 24h até ${hm}`,line+cmpL,
     "Pessoas únicas são contadas por story. Histórico guardado pelo painel desde 07/10.");
 }
+/* cartões do topo quando há filtro de formato: o Instagram não separa os números da conta por formato,
+   então os cartões passam a somar os posts daquele formato publicados no período */
+function typeCards(){
+  const r=state.range,t=state.type,nm=TYPE[t].name,G={I:["Imagens publicadas","Views das imagens"],R:["Reels publicados","Views dos reels"],C:["Carrosséis publicados","Views dos carrosséis"]}[t]||[nm+" publicados","Views"],per=r===1?`Publicados em ${dBR(END())}`:`Publicados ${perIn(r)}`,lbl=prevTxt(r);
+  const P=postsIn(r),PP=postsIn(r,1),okP=ALL.some(p=>p.date<winStart(r,1));
+  const S=(a,k)=>sum(a.filter(p=>p[k]!=null),p=>p[k]),has=(a,k)=>a.some(p=>p[k]!=null);
+  const d=(k,f=S)=>okP&&PP.length?deltaHTML(f(P,k),f(PP,k),lbl):"";
+  const med=(a,k)=>median(a.map(p=>p[k]).filter(x=>x!=null));
+  $("#today").innerHTML=[
+    kpi(G[0],String(P.length),per,okP?deltaHTML(P.length,PP.length,lbl):""),
+    kpi(G[1],fmt(S(P,"views")),`${per} · acumulado até a coleta`,d("views")),
+    kpi("Views por post (mediana)",fmt(med(P,"views")),per,okP&&PP.length?deltaHTML(med(P,"views"),med(PP,"views"),lbl):""),
+    kpi("Alcance somado",fmt(S(P,"reach")),`${per} · soma do alcance de cada post`,d("reach")),
+    kpi("Compartilhamentos",fmt(S(P,"shares")),per,d("shares")),
+    kpi("Seguidores pelos posts",has(P,"follows")?full(S(P,"follows")):ND,has(P,"follows")?`${per} · quem seguiu a partir do post`:"A fonte não informa para este formato",has(P,"follows")?d("follows"):"")
+  ].join("");
+}
 /* cartões do topo quando o filtro é de 7, 30, 60 ou 90 dias */
 function periodCards(last){
   const r=state.range,cur=daysIn(r),prv=daysIn(r,1),lbl=`${r} dias anteriores`,per=perTxt(r);
@@ -647,7 +664,7 @@ function renderDaily(){
   const prevF=DAILY.filter(d=>lastF&&d.date<lastF.date).slice(-7).map(d=>d.new_followers).filter(x=>x!=null);
   const pubLast=ALL.filter(p=>p.date===last.date);
   const cmp=(v,a)=>v==null||a==null?`<div class="delta na">sem média de comparação</div>`:`<div class="delta ${v>=a?"up":"down"}">${v>=a?"▲":"▼"} ${pct(Math.abs(v/a-1),0)} vs média dos 7 dias anteriores</div>`;
-  if(state.range>1){periodCards(last);}else
+  if(state.type!=="all"){typeCards();}else if(state.range>1){periodCards(last);}else
   $("#today").innerHTML=[
     kpi("Alcance",full(last.reach),`Dia ${dBR(last.date)} · contas únicas`,cmp(last.reach,avg("reach"))),
     kpi("Views recebidas",fmt(last.views),`Dia ${dBR(last.date)}`,cmp(last.views,avg("views"))),
@@ -656,7 +673,7 @@ function renderDaily(){
     kpi("Publicações",String(pubLast.length),`Dia ${dBR(last.date)}`,`<div class="delta na">${["I","R","C"].map(t=>{const n=pubLast.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t][n>1?"name":"one"].toLowerCase()}`:""}).filter(Boolean).join(" · ")||"nenhuma"}</div>`)
     ,storiesCard()
   ].join("");
-  $("#daily-sub").innerHTML=state.range===1?`Último dia completo: ${dBR(last.date)} · data de Brasília · cartões comparados com a média dos 7 dias anteriores; gráficos com a última semana`:`${perTxt(state.range)} (${perLabel(winStart(state.range),END())}) · data de Brasília · cartões comparados com os ${state.range} dias anteriores`;
+  $("#daily-sub").innerHTML=state.type!=="all"?`Formato: <b>${TYPE[state.type].name}</b> · ${perTxt(state.range)} · os números da conta (alcance, views recebidas, seguidores) não se separam por formato, então os cartões somam os posts desse formato. Os gráficos abaixo são da conta inteira.`:state.range===1?`Último dia completo: ${dBR(last.date)} · data de Brasília · cartões comparados com a média dos 7 dias anteriores; gráficos com a última semana`:`${perTxt(state.range)} (${perLabel(winStart(state.range),END())}) · data de Brasília · cartões comparados com os ${state.range} dias anteriores`;
   daySeries($("#d-reach"),{dates,values:days.map(d=>d.reach),color:"var(--s1)",label:"Alcance"});
   daySeries($("#d-views"),{dates,values:days.map(d=>d.views),color:"var(--s4)",label:"Views"});
   daySeries($("#d-eng"),{dates,values:days.map(d=>d.accounts_engaged),color:"var(--s2)",label:"Contas com interação"});
@@ -693,6 +710,7 @@ function renderOverview(){
   const sv=(days,k)=>full_(days,k)?sum(days,d=>d[k]):null,av=(days,k)=>{const v=days.map(d=>d[k]).filter(x=>x!=null);return v.length===days.length?sum(v)/v.length:null};
   const part=(days,k)=>{const c=coverage(days,k);return c>=days.length*.8?{v:sum(days,d=>d[k]),c}:null};
   const nfc=part(cur,"new_followers"),nfp=part(prev,"new_followers"),nfC=nfc?.v??null,nfP=nfp&&nfp.c===nfc?.c?nfp.v:null;
+  $("#acc-note").textContent=state.type!=="all"?"· conta inteira: o Instagram não separa estes números por formato (o filtro de formato vale para as publicações, logo abaixo)":"";
   $("#kpis-acc").innerHTML=[
     kpi("Views recebidas",fmt(sv(cur,"views")),`${perTxt(r)}${r>1?" · soma diária":""}`,deltaHTML(sv(cur,"views"),sv(prev,"views"),lbl),"Visualizações de todo o conteúdo registradas no período."),
     kpi(r===1?"Alcance no dia":"Alcance médio por dia",fmt(av(cur,"reach")),perTxt(r),deltaHTML(av(cur,"reach"),av(prev,"reach"),lbl),"Média das contas únicas alcançadas por dia. Alcance de dias diferentes não pode ser somado."),
@@ -702,7 +720,7 @@ function renderOverview(){
   const P=rows(),PP=postsIn(r,1),views=sum(P,p=>p.views),pviews=sum(PP,p=>p.views),sh=sum(P,p=>p.shares),psh=sum(PP,p=>p.shares);
   const prevOk=PP.length&&winStart(r,1)>=D.period.start;
   $("#kpis-post").innerHTML=[
-    kpi("Publicações",String(P.length),`Publicadas ${r===1?"em "+dBR(END()):"nos últimos "+r+" dias"}`,deltaHTML(P.length,prevOk?PP.length:null,lbl),["I","R","C"].map(t=>{const n=P.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t].name.toLowerCase()}`:""}).filter(Boolean).join(" · ")),
+    kpi("Publicações",String(P.length),`Publicadas ${r===1?"em "+dBR(END()):"nos últimos "+r+" dias"}`,deltaHTML(P.length,prevOk?PP.length:null,lbl),["I","R","C"].map(t=>{const n=P.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t][n>1?"name":"one"].toLowerCase()}`:""}).filter(Boolean).join(" · ")),
     kpi("Views dos posts",fmt(views),`Posts ${perIn(r)} · acumulado até a coleta`,deltaHTML(views,prevOk?pviews:null,lbl),"Posts recentes ainda acumulam; o período anterior teve mais tempo de exposição."),
     kpi("Views por post (mediana)",fmt(median(P.map(p=>p.views))),`Posts ${perIn(r)}`,deltaHTML(median(P.map(p=>p.views)),prevOk?median(PP.map(p=>p.views)):null,lbl),"Mediana: metade dos posts ficou acima, metade abaixo."),
     kpi("Taxa de compartilhamento",pct(views?sh/views:null),`Posts ${perIn(r)}`,deltaHTML(views?sh/views:null,prevOk&&pviews?psh/pviews:null,lbl),`Compartilhamentos ÷ views = ${full(sh)} ÷ ${full(views)}.`)
