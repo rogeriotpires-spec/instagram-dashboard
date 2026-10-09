@@ -1,0 +1,357 @@
+{
+ "generated": "2026-10-09T05:20:54-03:00",
+ "headline": "Paes reconhece que não haverá 2º turno no Rio, Datafolha dá Flávio 52% a 48% sobre Lula, Moraes manda iniciar a pena de Eduardo Bolsonaro e Cury e Podemos apoiam Flávio.",
+ "top": [
+  "pesquisas-2-turno",
+  "garotinho-tse-governo-rj",
+  "eduardo-pena-moraes",
+  "apoio-centrao-flavio",
+  "senado-fux-visitas"
+ ],
+ "items": [
+  {
+   "id": "pesquisas-2-turno",
+   "segment": "politica",
+   "title": "Datafolha dá Flávio 52% e Lula 48% no 2º turno, e PoderData/Aya aponta 53% a 47%",
+   "summary": "O Datafolha ouviu 2.520 eleitores de 6 a 7 de outubro e registrou Flávio Bolsonaro (PL) com 52% dos votos válidos contra 48% de Lula (PT). A margem de erro é de 2 pontos percentuais, com confiança de 95%, e é a primeira pesquisa do instituto desde o 1º turno, de 4 de outubro. O PoderData/Aya, com 3.000 entrevistas de 5 a 7 de outubro, havia dado 53% a 47% para Flávio, com margem de 1,8 ponto. A Vox Brasil, por outro lado, mostra Lula à frente por margem estreita no 2º turno. Lula disse que não trabalha com pesquisas e foca em votos.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/datafolha-confirma-poderdata-e-da-flavio-com-52-contra-48-de-lula/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/waack-pesquisas-mostram-inercia-favoravel-a-flavio-bolsonaro/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/datafolha-2o-turno-flavio-tem-52-e-lula-48",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/poder/datafolha-flavio-bolsonaro-tem-49-e-lula-45-em-disputa-acirrada-no-2o-turno/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/datafolha-flavio-aparece-com-52-dos-votos-validos-no-2o-turno-contra-48-de-lula/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "score": 8.8,
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "garotinho-tse-governo-rj",
+   "segment": "rio",
+   "title": "Paes reconhece que não haverá 2º turno no Rio depois de Zanin negar recurso contra a anulação dos votos de Garotinho",
+   "summary": "O prefeito Eduardo Paes (PSD) divulgou nota na quinta-feira (8) reconhecendo que não haverá 2º turno na disputa pelo governo do Rio. A nota saiu depois de o ministro Cristiano Zanin, do STF, rejeitar o recurso de Paes contra a anulação dos votos de Anthony Garotinho (Republicanos). O TSE havia excluído esses votos da contagem de válidos por 5 votos a 2 e determinado a retotalização, o que abre caminho para Douglas Ruas (PL) passar de 50% dos votos válidos e vencer no 1º turno. Paes afirmou que a Justiça decidiu \"contrariando a vontade soberana dos eleitores\", mas que \"decisão judicial a gente respeita\". A retotalização ainda será feita pelo TRE-RJ, marcada para sábado.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/paes-reconhece-derrota-em-disputa-pelo-governo-do-rj/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/paes-diz-que-justica-contrariou-eleitores-mas-reconhece-derrota-a-ruas/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/paes-reconhece-derrota-no-rio-apos-stf-negar-recurso-a-eleicao-termina",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/sudeste/decisao-judicial-a-gente-respeita-e-democracia-afirma-eduardo-paes/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/zanin-nega-pedido-de-paes-para-forcar-2o-turno-na-eleicao-do-rio-de-janeiro/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/tre-fara-no-sabado-a-retotalizacao-de-votos-da-eleicao-ao-governo-do-rj/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "score": 8.3,
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "eduardo-pena-moraes",
+   "segment": "politica",
+   "title": "Moraes manda iniciar a pena de Eduardo Bolsonaro por coação, e Flávio pede a renúncia do ministro",
+   "summary": "O ministro Alexandre de Moraes, do STF, determinou o início do cumprimento da pena de Eduardo Bolsonaro por coação no curso do processo. A decisão também cancela os passaportes dele, segundo o Brasil 247. Flávio Bolsonaro reagiu à ordem e pediu a renúncia de Moraes, segundo a Gazeta do Povo. A Jovem Pan observa que a prisão depende dos EUA, e que uma extradição pode passar pelo secretário de Estado Marco Rubio. O caso corre em plena campanha do 2º turno.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/moraes-determina-inicio-da-pena-de-eduardo-bolsonaro-por-coacao/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-pede-renuncia-de-moraes-apos-decisao-contra-eduardo/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/moraes-determina-execucao-da-pena-de-eduardo-bolsonaro",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/moraes-determina-inicio-da-pena-de-eduardo-bolsonaro-e-cancela-passaportes/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/colunistas/eliseu-caetano/prisao-de-eduardo-bolsonaro-depende-dos-eua-e-extradicao-pode-passar-por-marco-rubio/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "score": 7.9,
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "apoio-centrao-flavio",
+   "segment": "politica",
+   "title": "Augusto Cury e o Podemos declaram apoio a Flávio no 2º turno, e Lula diz que Hugo Motta o ajudará",
+   "summary": "Augusto Cury decidiu apoiar Flávio Bolsonaro no 2º turno depois de conversar com o senador. O Podemos também anunciou que apoiará o candidato do PL na etapa final. Do lado do governo, Lula disse, depois de encontro no Alvorada, que o presidente da Câmara, Hugo Motta, \"ajudará a ganhar a eleição\". O deputado André Janones minimizou o peso do apoio de candidatos derrotados a Flávio. O 2º turno entre Lula e Flávio decide a Presidência.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "outlets": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/igor-gadelha/augusto-cury-conversa-com-flavio-e-decide-apoiar-senador-no-2o-turno",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/cury-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/poder/podemos-apoiara-flavio-bolsonaro-no-segundo-turno/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/opiniao/bom-dia/fux-acesso-processos-bolsonaro-flavio-apoio-cury/",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/apos-encontro-lula-diz-que-hugo-motta-o-ajudara-a-ganhar-eleicao/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/janones-minimiza-peso-do-apoio-de-candidatos-derrotados-a-flavio/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "score": 7.4,
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "senado-fux-visitas",
+   "segment": "politica",
+   "title": "Senado diz a Fux que divulgar registros de visitas viola sigilo de congressistas",
+   "summary": "O Senado respondeu ao ministro Luiz Fux, do STF, que divulgar registros de visitas violaria o sigilo de congressistas. Segundo a Jovem Pan e a Gazeta do Povo, o pedido da Casa busca barrar o acesso a registros de visitas de Vorcaro, de Lulinha e da mulher de Moraes. Fux havia pedido acesso a inquéritos do golpe, das fake news e das milícias digitais. Pela Gazeta, o tema se soma à articulação de senadores para mudar a lei do impeachment de ministros do Supremo no Senado que assume em 2027. Não há decisão de Fux sobre o pedido até agora.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-congresso/senado-diz-a-fux-que-divulgar-visitas-viola-sigilo-de-congressistas/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/senado-pede-a-fux-que-barre-acesso-a-registros-de-visitas-de-vorcaro-e-mulher-de-moraes/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/colunistas/bruno-pinheiro/senado-pede-a-fux-que-barre-acesso-a-visitas-de-vorcaro-lulinha-e-mulher-de-moraes/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "score": 6.2,
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "flavio-tse-campanha-lula",
+   "segment": "politica",
+   "title": "Flávio aciona o TSE contra rede pró-Lula no Instagram, e a campanha de Lula aciona a PF contra site de criptomoeda",
+   "summary": "A campanha de Flávio Bolsonaro foi ao TSE contra o que chama de \"campanha do medo\", com fake news em massa de uma rede pró-Lula no Instagram. Em sentido oposto, a campanha de Lula acionou a Polícia Federal contra um site que promete criptomoeda por posts pró-Flávio. O Brasil 247 trata o caso das criptomoedas como esquema ilegal que usa crianças ugandenses. A CNN Brasil informa ainda que o TSE mandou remover vídeos de Lula e Janja com ataques a Flávio. Os casos seguem na Justiça Eleitoral.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-vai-ao-tse-contra-rede-pro-lula-no-instagram/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/eleicoes/flavio-aciona-tse-contra-campanha-do-medo-com-fake-news-em-massa-pro-lula/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/midia/esquema-ilegal-com-criptomoeda-e-criancas-ugandenses-e-usado-para-alavancar-flavio-bolsonaro/",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "score": 5.5,
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "bolsa-petroleo-eleicao",
+   "segment": "economia",
+   "title": "Ibovespa sobe 0,94% a 206 mil pontos com petróleo e eleição; dólar fecha a R$ 5,02",
+   "summary": "O Ibovespa fechou a quinta-feira (8) em alta de 0,94%, aos 206.220 pontos, primeira alta após duas quedas, e acumula 27,99% no ano. O dólar comercial subiu 0,27%, a R$ 5,024, e o real acumula valorização de cerca de 10,9% em 2026. Segundo analista ouvido pelo InfoMoney, o mercado passou a precificar a possibilidade de um governo Flávio Bolsonaro, o que ajudou a derrubar os juros futuros. O Brent fechou a US$ 104,28 (+4,07%), o que elevou a Petrobras (+2,12%), enquanto a Vale caiu 1,61% com o minério na menor cotação em 18 meses na China. O IPCA de setembro sai na sexta, com estimativas entre 0,70% e 0,82%, o que pode levar a inflação de 12 meses ao teto da meta (4,50%).",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "outlets": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-08102026/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/economia/ibovespa-sobe-142-com-disparada-do-petroleo-e-expectativa-eleitoral/",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "score": 5.5,
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "trump-ira-eleicoes",
+   "segment": "internacional",
+   "title": "Trump diz que EUA não atacarão o Irã antes das eleições de novembro, e petróleo sobe com ataques no Oriente Médio",
+   "summary": "Donald Trump reafirmou que não pretende retomar os bombardeios a Teerã antes das eleições de meio de mandato, em 3 de novembro, e citou \"discussões produtivas\" com o Irã. O chanceler iraniano, Abbas Araghchi, disse que a negociação com Washington continua por meio de mediadores. Os houthis afirmaram ter atingido com míssil balístico o aeroporto de Riad, e um navio-tanque foi atingido no Golfo Pérsico, ao norte do Catar. O Brent fechou a US$ 104,28, em alta de 4,07%, também pressionado pelo furacão Isaías, que avança para o Golfo do México. A Capital Economics vê risco de inflação mais alta por mais tempo.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "outlets": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/petroleo-abertura-fechamento-ira-eua-08102026/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/mundo/trump-diz-que-eua-nao-atacarao-o-ira-antes-das-eleicoes-de-novembro/",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "score": 4.6,
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  }
+ ]
+}
