@@ -12,7 +12,7 @@ Hora atual: sempre obtenha com `TZ=America/Sao_Paulo date -Iseconds` (nunca esti
 
 ## Passos
 1. Liste com gh api "repos/rogeriotpires-spec/instagram-dashboard/issues?state=open&per_page=50" as issues abertas que atendem à regra acima. Se não houver nenhuma, encerre sem alterar nada. No máximo 5 por execução.
-2. Para cada uma, leia no corpo: "Data da pauta", "Pedido" e "Observação".
+2. Para cada uma, leia no corpo: "Data da pauta", "Pedido" e "Observação". Leia também a pauta daquele dia: se o pedido trata do mesmo tema de um item que já está lá, escreva o item avulso só com o que é NOVO ou diferente (sem repetir contexto e números do item existente) e preencha "atencao": "Complementa o item N (título)".
 3. Pesquise o pedido:
    - Se for um endereço (URL): abra com WebFetch (exceto G1, que bloqueia leitura automática: nesse caso pesquise o assunto pelo WebSearch) e confira os fatos principais em mais 1 a 3 matérias.
    - Se for uma frase: pesquise com WebSearch e abra de 2 a 4 matérias relevantes e recentes.

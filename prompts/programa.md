@@ -22,7 +22,8 @@ Crie ou altere apenas programa/AAAA-MM-DD.json e programa/index.json. Scripts au
 - Português do Brasil, frases diretas, sem jargão. NUNCA use travessão (— ou –).
 
 ## Passos
-1. Leia programa/config.json, a edição mais recente de notícias (noticias/index.json → noticias/AAAA-MM-DD-HHh.json) e, se existir, a pauta do programa anterior em programa/ (para não repetir temas já tratados, salvo desdobramento novo).
+1. Leia programa/config.json, a edição mais recente de notícias (noticias/index.json → noticias/AAAA-MM-DD-HHh.json) e as pautas do programa dos 3 dias anteriores em programa/ (para não repetir temas).
+   REGRA DE NÃO REPETIÇÃO: nenhum item repete tema já tratado nas 3 pautas anteriores do programa, nem outro item do mesmo dia (inclusive os itens avulsos já existentes). Exceção: desdobramento novo de verdade (fato novo desde a última pauta). Nesse caso o título e o resumo giram em torno do fato NOVO e o item leva "desdobramento": "<o fato novo, em uma frase>".
 2. Escolha config.itens temas, nesta ordem de prioridade: (a) as notícias de maior nota da edição mais recente; (b) fatos com hora marcada no dia do programa (julgamentos no STF e no TSE, votações, CPIs, dados econômicos, operações); (c) temas fortes nos veículos de direita que a grande imprensa deu pouco destaque. Varie os blocos (config.blocos); no máximo 2 itens do mesmo bloco.
 3. Para cada tema, faça uma pesquisa básica com WebSearch e WebFetch (2 a 4 matérias abertas): o fato, os números, a cronologia curta, quem disse o quê e o próximo passo.
 4. Escreva cada item com os campos:
@@ -35,5 +36,5 @@ Crie ou altere apenas programa/AAAA-MM-DD.json e programa/index.json. Scripts au
    - atencao (opcional): cuidado jurídico ou fato ainda em apuração, numa frase.
    - fontes: [{name, url}] com as matérias que você abriu.
 5. Escreva também: titulo (manchete da pauta do dia, abrangente, que abre curiosidade), abertura (3 a 4 frases ligando os temas do dia) e agenda ([{time, text, source:{name,url}}] com o que tem hora marcada no dia do programa; pode ser vazia).
-6. Grave programa/AAAA-MM-DD.json com {date, generated, programa: "Conversa Timeline", titulo, abertura, agenda, itens} e inclua a data em programa/index.json ("days", sem duplicar, ordenada). Valide com python3 que o JSON abre, que há config.itens itens, que cada resumo tem config.linhas_resumo frases e que no máximo metade dos itens tem metafora; confirme com grep que não há "—" nem "–".
+6. Grave programa/AAAA-MM-DD.json com {date, generated, programa: "Conversa Timeline", titulo, abertura, agenda, itens} e inclua a data em programa/index.json ("days", sem duplicar, ordenada). Valide com python3 que o JSON abre, que há config.itens itens, que cada resumo tem config.linhas_resumo frases e que no máximo metade dos itens tem metafora; confirme com grep que não há "—" nem "–". Rode também `python3 tools/repeticao.py programa/AAAA-MM-DD.json`; se apontar REPETIDO, troque o item (ou refaça em torno do fato novo com "desdobramento") e rode de novo até sair sem erro.
 7. git status (desfaça qualquer alteração fora dos dois arquivos permitidos), git add só deles, commit "Pauta do programa DD/MM" e push para main (git pull --rebase origin main antes; repita até 3 vezes se recusado).
