@@ -1,6 +1,8 @@
 name: Gerar pauta do programa
 
 on:
+  schedule:
+    - cron: "45 12 * * 1-5"   # 09h45 em Brasília, de segunda a sexta (programa ao meio-dia, pauta pronta antes das 11h)
   workflow_dispatch:
 
 permissions:
@@ -25,7 +27,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Já existe pauta de hoje?
+        id: chk
+        run: |
+          H=$(date +%F); G=$(python3 -c "import json;print(json.load(open('programa/$H.json')).get('generated',''))" 2>/dev/null || true)
+          if [ "${{ github.event_name }}" = "schedule" ] && [[ "$G" == $H* ]] && [[ "${G:11:5}" > "08:00" ]]; then echo "skip=1" >> "$GITHUB_OUTPUT"; echo "::notice::Pauta de hoje já gerada às ${G:11:5}; nada a fazer."; fi
       - uses: anthropics/claude-code-action@v1
+        if: steps.chk.outputs.skip != '1'
         env:
           GH_TOKEN: ${{ github.token }}
         with:
@@ -35,7 +43,7 @@ jobs:
             --max-turns 160
             --allowedTools Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch
       - name: Gerar o PDF
-        if: success()
+        if: success() && steps.chk.outputs.skip != '1'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run programa-pdf.yml --ref main
