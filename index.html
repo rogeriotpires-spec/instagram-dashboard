@@ -614,6 +614,29 @@ function storiesCard(){
   return kpi("Stories",String(cur.length),`Últimas 24h até ${hm}`,line+cmpL,
     "Pessoas únicas são contadas por story. Histórico guardado pelo painel desde 07/10.");
 }
+/* cartões do topo quando o filtro é de 7, 30, 60 ou 90 dias */
+function periodCards(last){
+  const r=state.range,cur=daysIn(r),prv=daysIn(r,1),lbl=`${r} dias anteriores`,per=perTxt(r);
+  const vals=(ds,k)=>ds.map(d=>d[k]).filter(x=>x!=null),tot=(ds,k)=>sum(vals(ds,k)),avg=(ds,k)=>{const v=vals(ds,k);return v.length?sum(v)/v.length:null};
+  const full2=(ds,k)=>vals(ds,k).length===ds.length;
+  const dTot=k=>deltaHTML(tot(cur,k),full2(prv,k)&&full2(cur,k)?tot(prv,k):null,lbl),dAvg=k=>deltaHTML(avg(cur,k),vals(prv,k).length?avg(prv,k):null,lbl);
+  const nf=vals(cur,"new_followers"),nfp=vals(prv,"new_followers");
+  const P=postsIn(r,0,false),PP=postsIn(r,1,false),hasPrevPosts=ALL.some(p=>p.date<winStart(r,1));
+  const types=["I","R","C"].map(t=>{const n=P.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t][n>1?"name":"one"].toLowerCase()}`:""}).filter(Boolean).join(" · ")||"nenhuma";
+  // stories no período (histórico guardado pelo painel)
+  const cols=D.stories_columns||[],S=(D.stories||[]).map(x=>Object.fromEntries(cols.map((c,i)=>[c,x[i]])));
+  const sd=x=>x.ts.slice(0,10),a=winStart(r),pa=winStart(r,1),pb=winEnd(r,1);
+  const Sc=S.filter(x=>sd(x)>=a),Sp=S.filter(x=>sd(x)>=pa&&sd(x)<=pb),since=S.length?S.map(sd).sort()[0]:null;
+  const sv=sum(Sc.map(x=>x.views||0)),spv=sum(Sp.map(x=>x.views||0)),sCmp=since&&since<=pa&&Sp.length;
+  $("#today").innerHTML=[
+    kpi("Alcance médio por dia",fmt(avg(cur,"reach")),`${per} · contas únicas por dia`,dAvg("reach")),
+    kpi("Views recebidas",fmt(tot(cur,"views")),`${per} · soma`,dTot("views")),
+    kpi("Contas com interação",fmt(avg(cur,"accounts_engaged")),`${per} · média por dia`,dAvg("accounts_engaged")),
+    kpi("Novos seguidores",nf.length?full(sum(nf)):ND,`${per} · ganho bruto${nf.length<r?` · ${nf.length} de ${r} dias com dado`:""}`+todayNet(),(nfp.length===r&&nf.length===r?deltaHTML(sum(nf),sum(nfp),lbl):deltaHTML(nf.length?sum(nf)/nf.length:null,nfp.length>=Math.ceil(r/2)?sum(nfp)/nfp.length:null,`média diária dos ${lbl}`))),
+    kpi("Publicações",String(P.length),per,(hasPrevPosts?deltaHTML(P.length,PP.length,lbl):"")+`<div class="delta na">${types}</div>`),
+    kpi("Stories",String(Sc.length),since&&since>a?`${per} · histórico desde ${dBR(since)}`:per,`<div class="delta na">${full(sv)} visualizações</div>`+(sCmp?deltaHTML(sv,spv,lbl):""),"Contagem feita pelo painel a partir das coletas.")
+  ].join("");
+}
 /* ---------- diário ---------- */
 function renderDaily(){
   const r=chartR(),days=daysIn(r),dates=days.map(d=>d.date);
@@ -624,6 +647,7 @@ function renderDaily(){
   const prevF=DAILY.filter(d=>lastF&&d.date<lastF.date).slice(-7).map(d=>d.new_followers).filter(x=>x!=null);
   const pubLast=ALL.filter(p=>p.date===last.date);
   const cmp=(v,a)=>v==null||a==null?`<div class="delta na">sem média de comparação</div>`:`<div class="delta ${v>=a?"up":"down"}">${v>=a?"▲":"▼"} ${pct(Math.abs(v/a-1),0)} vs média dos 7 dias anteriores</div>`;
+  if(state.range>1){periodCards(last);}else
   $("#today").innerHTML=[
     kpi("Alcance",full(last.reach),`Dia ${dBR(last.date)} · contas únicas`,cmp(last.reach,avg("reach"))),
     kpi("Views recebidas",fmt(last.views),`Dia ${dBR(last.date)}`,cmp(last.views,avg("views"))),
@@ -632,7 +656,7 @@ function renderDaily(){
     kpi("Publicações",String(pubLast.length),`Dia ${dBR(last.date)}`,`<div class="delta na">${["I","R","C"].map(t=>{const n=pubLast.filter(p=>p.type===t).length;return n?`${n} ${TYPE[t][n>1?"name":"one"].toLowerCase()}`:""}).filter(Boolean).join(" · ")||"nenhuma"}</div>`)
     ,storiesCard()
   ].join("");
-  $("#daily-sub").innerHTML=`Último dia completo: ${dBR(last.date)} · data de Brasília<br><b>Os cartões abaixo mostram sempre o último dia e não mudam com o filtro.</b> Os gráficos desta seção e a Visão geral seguem o período escolhido (${state.range===1?"1 dia: gráficos com a última semana":perTxt(state.range).toLowerCase()}).`;
+  $("#daily-sub").innerHTML=state.range===1?`Último dia completo: ${dBR(last.date)} · data de Brasília · cartões comparados com a média dos 7 dias anteriores; gráficos com a última semana`:`${perTxt(state.range)} (${perLabel(winStart(state.range),END())}) · data de Brasília · cartões comparados com os ${state.range} dias anteriores`;
   daySeries($("#d-reach"),{dates,values:days.map(d=>d.reach),color:"var(--s1)",label:"Alcance"});
   daySeries($("#d-views"),{dates,values:days.map(d=>d.views),color:"var(--s4)",label:"Views"});
   daySeries($("#d-eng"),{dates,values:days.map(d=>d.accounts_engaged),color:"var(--s2)",label:"Contas com interação"});
