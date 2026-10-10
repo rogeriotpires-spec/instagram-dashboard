@@ -1,0 +1,400 @@
+{
+ "generated": "2026-10-10T18:16:43-03:00",
+ "headline": "Ruas é confirmado governador do Rio no 1º turno, PF desmente Veja sobre Vorcaro, risco-país cai a 110 pontos e TSE dá 48 horas à Meta.",
+ "top": [
+  "ruas-retotalizacao-rio",
+  "vorcaro-filme-lula",
+  "pesquisas-2-turno",
+  "fachin-fux-inquerito",
+  "split-payment-flavio"
+ ],
+ "items": [
+  {
+   "id": "ruas-retotalizacao-rio",
+   "segment": "rio",
+   "title": "TRE-RJ retotaliza votos sem Garotinho e oficializa Douglas Ruas governador eleito no 1º turno",
+   "summary": "O TRE-RJ refez neste sábado (10) a totalização depois que o TSE indeferiu o registro de Anthony Garotinho (Republicanos), o que anulou 274.411 votos. Com isso, Douglas Ruas (PL) passou de 49,25% para 50,88% dos votos válidos, e Eduardo Paes (PSD) foi de 42,76% para 44,16%, o que encerra a disputa no primeiro turno. As urnas não foram alteradas, e só mudou o cálculo dos votos válidos feito pelo sistema da Justiça Eleitoral. O Poder360 informa que Ruas comemorou citando renovação e mudança, e a CNN Brasil publica análise segundo a qual Paes contava com a capital, mas não bastou. Pelo TRE, há dois dias para impugnações, três para dar publicidade ao resultado e uma sessão plenária para homologar.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 8.8,
+   "outlets": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/ruas-e-declarado-governador-eleito-no-rio-apos-tre-retotalizar-votos",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/apos-anulacao-de-votos-de-garotinho-tre-oficializa-douglas-ruas-como-governador-eleito-do-rio/",
+     "camp": "direita",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/douglas-ruas-e-eleito-governador-do-rio-apos-retotalizacao-dos-votos/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/votos-de-garotinho-sao-anulados-e-douglas-ruas-e-eleito-no-1o-turno-no-rj/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/tre-confirma-vitoria-douglas-ruas-governo-rj/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/sudeste/tre-oficializa-douglas-ruas-como-governador-eleito-do-rj-apos-anulacao-dos-votos-de-garotinho/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/apos-retotalizacao-dos-votos-douglas-ruas-tem-5088-dos-votos-no-rj",
+     "camp": "estatal",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/quem-e-douglas-ruas-o-candidato-que-pode-ser-declarado-eleito-governador-do-rj/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "vorcaro-filme-lula",
+   "segment": "politica",
+   "title": "PF desmente Veja sobre depoimento de Vorcaro e filme sobre Lula, e advogado diz que a voz no áudio é do banqueiro",
+   "summary": "A Veja publicou que Daniel Vorcaro, em proposta de delação, disse ter pago cerca de R$ 30 milhões para um documentário sobre Lula e repasses ao Instituto Lula, em troca de credenciamento do Master em fundos de pensão. A PF afirmou que Vorcaro não prestou depoimento com esse conteúdo, que as propostas de delação foram recusadas e que a notícia-crime foi enviada à área técnica. O advogado Daniel Bialski disse ao Poder360 que a voz em um áudio de 34 segundos divulgado pela revista parece ser de seu cliente, mas que não sabe quando ele foi gravado. A PGR diz que as tratativas foram sempre por advogados, e a campanha de Lula chamou o texto de peça eleitoral irresponsável e prometeu medidas judiciais. Paulo Okamotto negou que o Instituto Lula tenha participado do filme ou recebido recursos, e a defesa de Vorcaro prepara nova proposta de delação.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.3,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/voz-em-audio-de-veja-e-de-vorcaro-diz-advogado-de-fundador-do-master/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/pf-desmente-veja-e-padilha-aciona-justica-sobre-fake-news-contra-lul",
+     "camp": "estatal",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/midia/veja-tenta-se-defender-mas-confirma-que-sua-denuncia-e-uma-fake-news-para-eleger-flavio-bolsonaro-e-soltar-daniel-vorcaro/",
+     "camp": "esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/blog-do-noblat/flavio-mira-lula-com-farsa-desmentida-na-pf-para-abafar-vorcaro",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "pesquisas-2-turno",
+   "segment": "politica",
+   "title": "Ipespe dá Flávio 52,7% a 47,3% sobre Lula no 2º turno, mesmo resultado aproximado do PoderData",
+   "summary": "O Ipespe aponta Flávio Bolsonaro (PL) com 52,7% dos votos válidos no segundo turno e Lula (PT) com 47,3%. O PoderData/Aya já havia indicado 53% a 47% para Flávio, e o Poder360 diz que o Ipespe confirma essa tendência. O primeiro turno terminou com Flávio em 47,03% e Lula em 45,16% dos votos válidos. A pesquisa do Ipespe foi a terceira matéria mais lida da CNN Brasil neste sábado (10). O segundo turno ocorre em 25 de outubro, e a Gazeta do Povo reúne as primeiras pesquisas da nova fase.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 6.8,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/ipespe-confirma-poderdata-aya-e-da-flavio-com-527-e-lula-com-473/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/primeiras-pesquisas-para-presidente-segundo-turno/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/flavio-bolsonaro-tem-527-dos-votos-validos-contra-473-de-lula-aponta-ipespe/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "fachin-fux-inquerito",
+   "segment": "politica",
+   "title": "Fachin nega a Fux acesso imediato ao inquérito das fake news e revisa 104 procedimentos antes de arquivar",
+   "summary": "O presidente do STF, Edson Fachin, negou na sexta (9) o acesso imediato de Luiz Fux ao Inq 4.781, o inquérito das fake news, que Fux havia pedido em 48 horas para julgar a ADPF 1.144. Fachin disse não haver obstáculo para os outros três procedimentos pedidos, que são públicos. Segundo a CNN Brasil, ele faz um pente-fino em 104 casos vinculados ao inquérito antes de arquivá-lo. A Gazeta do Povo mantém o tema entre os mais comentados e em seu resumo da semana, ao citar o encontro de Alexandre de Moraes com a PF em 6 de outubro. O Poder360 informou que Fux não deve decidir antes do segundo turno.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 6.8,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/fachin-faz-pente-fino-em-104-casos-antes-de-arquivar-inquerito-de-fake-news/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/fachin-nega-acesso-de-fux-a-inquerito-das-fake-news-no-stf/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "split-payment-flavio",
+   "segment": "economia",
+   "title": "Campanha de Flávio promete acabar com o split payment, e debate expõe temor com o capital de giro",
+   "summary": "A equipe econômica de Flávio Bolsonaro promete acabar com o split payment da reforma tributária, que separa e recolhe os tributos automaticamente no momento do pagamento. Daniella Marques, coordenadora da campanha, diz que o mecanismo sufoca o capital de giro de pequenas empresas, e Flávio endossou o fim publicamente. O ministro da Fazenda, Dario Durigan, defende o instrumento contra fraudes, aceita discutir prazos e diz que não abandonará a proposta. A Receita começa testes em ambiente controlado em 15 de outubro, o uso será opcional em 2027 e obrigatório entre empresas só em 2028. A Gazeta do Povo mantém o tema como destaque principal neste sábado (10), e o InfoMoney o trata em sua home.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 6.6,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-fim-split-payment-reforma-tributaria/",
+     "camp": "direita",
+     "position": "manchete"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/minhas-financas/debate-do-split-payment-traz-a-tona-receio-do-comercio-com-reducao-do-capital-de-giro/",
+     "camp": "centro",
+     "position": "topo"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "risco-pais-110",
+   "segment": "economia",
+   "title": "Risco-país cai a 110 pontos, menor nível desde 2020, com dólar a R$ 4,98 e Ibovespa em alta após o 1º turno",
+   "summary": "O CDS de cinco anos do Brasil caiu para 110 pontos na sexta (9), o menor nível desde fevereiro de 2020, segundo o Poder360. O Ibovespa subiu 8,82% na semana e fechou em 209 mil pontos, e o dólar caiu 4,40%, para R$ 4,98. O DI para janeiro de 2032 foi de 14,07% para 12,52% entre 2 e 8 de outubro, e o Tesouro captou R$ 33,3 bilhões em prefixados, maior leilão do tipo desde 2020. O mercado reage ao resultado do primeiro turno, com Flávio Bolsonaro à frente, e à expectativa de contenção de gastos, mas o InfoMoney ressalta que a euforia esbarra na falta de compromissos fiscais concretos. As notas de crédito (S&P BB, Moody's Ba1, Fitch BB) seguem na categoria especulativa.",
+   "scores": {
+    "cobertura": 4,
+    "destaque": 10,
+    "persistencia": 4,
+    "peso_voce": 8
+   },
+   "score": 6.5,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-economia/risco-pais-cai-para-110-pontos-menor-nivel-desde-2020/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/euforia-do-mercado-com-flavio-esbarra-na-falta-de-compromissos-concretos-com-fiscal/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana",
+     "camp": "estatal",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "pec-6x1-senado",
+   "segment": "politica",
+   "title": "Alcolumbre marca para quarta (14) a votação da PEC do fim da escala 6x1 no Senado",
+   "summary": "O presidente do Senado, Davi Alcolumbre, marcou para quarta-feira, 14 de outubro, a votação em primeiro turno da PEC 221/2019, que acaba com a escala 6x1. A Câmara aprovou o texto em maio e a CCJ do Senado o aprovou no início de setembro. A proposta prevê dois dias de descanso remunerado por semana e redução da jornada de 44 para 40 horas, com transição de até 14 meses. Em até 60 dias da promulgação, as empresas teriam de garantir a escala 5x2 e a semana de 42 horas, e 12 meses depois a jornada cairia para 40 horas. Se os senadores alterarem o texto, ele volta à Câmara.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 8
+   },
+   "score": 6.3,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/alcolumbre-marca-votacao-da-pec-do-fim-da-escala-6x1-para-proxima-quarta-14/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-marca-votacao-da-pec-pelo-fim-da-6x1-para-quarta-feira",
+     "camp": "estatal",
+     "position": "secundario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-pauta-votacao-do-fim-da-escala-6-x-1-para-14-de-outubro/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "meta-tse-lula",
+   "segment": "politica",
+   "title": "TSE dá 48 horas para Meta provar tratamento igual a Lula e Flávio após ação da campanha do PT",
+   "summary": "A coligação de Lula acionou a Justiça Eleitoral alegando seletividade algorítmica nas plataformas da Meta e a não remoção de 255 perfis inautênticos operados por inteligência artificial. O ministro Marco Aurélio Bellizze determinou neste sábado (10) que a empresa comprove em 48 horas a isonomia entre Lula e Flávio Bolsonaro na distribuição de conteúdo. Ele também mandou preservar registros de moderação e dados de anúncios e explicar supostas anomalias nas métricas de vídeo. Segundo documento do PT, a página de Flávio tem engajamento médio 2,96 vezes maior que a de Lula, com 17,2% menos seguidores. A CNN Brasil não registra resposta da Meta, e a Agência Lupa e o Instituto Democracia em Xeque também devem entregar sua metodologia em 48 horas.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 5.8,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/tse-da-48h-para-meta-provar-que-tratou-lula-e-flavio-de-forma-igual/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/tse-questiona-meta-sobre-restricoes-a-conteudos-da-campanha-de-lula-e-determina-explicacoes-em-48-horas/",
+     "camp": "esquerda",
+     "position": "manchete"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/tse-da-48h-para-meta-explicar-suposta-interferencia-na-campanha-de-lula",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-da-48-horas-para-meta-explicar-restricoes-ao-perfil-de-lula/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/tse-determina-que-dona-do-facebook-esclareca-em-48h-restricoes-a-posts-da-campanha-de-lula/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "trump-ucrania-sancoes",
+   "segment": "internacional",
+   "title": "Trump sugere que a Ucrânia troque de líder após flexibilizar sanções ao diesel russo, e Rússia volta a atacar",
+   "summary": "Trump criticou os ataques ucranianos a refinarias russas e disse que a Ucrânia deveria encontrar um novo líder capaz de fechar um acordo. Ele anunciou um entendimento com Vladimir Putin que flexibiliza sanções ao diesel russo, em meio à tentativa de conter os preços dos combustíveis, que subiram com a guerra no Irã. O anúncio ocorreu enquanto autoridades ucranianas e europeias se reuniam em Miami sobre o fim da guerra. A Rússia lançou novos ataques no dia seguinte, e a Agência Brasil fala em 17 mortos, enquanto a CNN Brasil titula 20 mortos. Zelensky respondeu que a paz nunca vem da fraqueza e que aliviar sanções sem acordo beneficia Moscou.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 5.8,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/trump-adverte-zelensky-e-sugere-que-ucrania-encontre-novo-lider/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/mundo/e-hora-de-a-ucrania-ter-um-novo-presidente-diz-trump-ao-criticar-ataques-a-refinarias/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/trump-diz-que-a-ucrania-deveria-ter-um-novo-presidente/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/ataque-russo-mata-17-na-ucrania-apos-alivio-de-sancoes-dos-eua",
+     "camp": "estatal",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  }
+ ]
+}
