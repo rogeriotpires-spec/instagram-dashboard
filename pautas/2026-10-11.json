@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-11",
+  "weekday": "Dom",
+  "generated": "2026-10-10T19:52:49-03:00",
+  "summary": "Domingo de pauta no Senado e no bolso: Alcolumbre marcou a PEC da 6x1 para quarta (14), a Receita começa dia 15 os testes do split payment que Flávio promete extinguir, e o TSE deu 48 horas para a Meta provar igualdade entre Lula e Flávio, enquanto PF e Veja disputam a versão sobre Vorcaro.",
+  "agenda": [
+    {
+      "time": "12/10",
+      "text": "Prazo de 48 horas para a Meta responder ao TSE sobre tratamento igual a Lula e Flávio (determinação de 10/10).",
+      "source": {
+        "name": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/tse-da-48h-para-meta-provar-que-tratou-lula-e-flavio-de-forma-igual/"
+      }
+    },
+    {
+      "time": "14/10",
+      "text": "Senado vota em 1º turno a PEC 221/2019, do fim da escala 6x1.",
+      "source": {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-marca-votacao-da-pec-pelo-fim-da-6x1-para-quarta-feira"
+      }
+    },
+    {
+      "time": "15/10",
+      "text": "Receita Federal inicia os primeiros testes do split payment, em ambiente controlado e sem transações reais.",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-fim-split-payment-reforma-tributaria/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem forte (dia de pico)",
+      "options": [
+        {
+          "title": "A PEC que ficou 5 meses parada tem data",
+          "tone": "contundente",
+          "style": "ilustracao",
+          "desdobramento": "Alcolumbre marcou para quarta (14/10) a votação em 1º turno da PEC da 6x1, depois de segurá-la até depois da urna.",
+          "fact": "O presidente do Senado, Davi Alcolumbre, marcou para quarta-feira, 14 de outubro, a votação em 1º turno da PEC 221/2019, que acaba com a escala 6x1. A Câmara aprovou o texto em maio, a CCJ do Senado o aprovou no início de setembro e Alcolumbre disse que a votação ficaria para depois das eleições. A PEC prevê dois dias de descanso remunerado por semana e jornada de 44 para 40 horas, com transição de até 14 meses: em 60 dias da promulgação, escala 5x2 e semana de 42 horas; 12 meses depois, 40 horas. Se o Senado mudar o texto, a Câmara vota de novo.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-marca-votacao-da-pec-pelo-fim-da-6x1-para-quarta-feira"
+            }
+          ],
+          "art_text": [
+            "QUARTA, 14",
+            "A PEC da 6x1 sai da gaveta",
+            "Você acredita que o Senado aprova?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Davi Alcolumbre (presidente do Senado), de pé diante do plenário, segurando uma pauta, e um trabalhador comum de costas ao fundo. Alcolumbre tem relação direta com o fato (marcou a votação). Risco baixo: nenhuma ação inventada, só gesto de expectativa.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Davi Alcolumbre (presidente do Senado, terno escuro) em pé na tribuna, com um papel na mão e expressão séria, de sobrancelha levantada. Ao fundo, o plenário do Senado estilizado e, em primeiro plano à esquerda, a silhueta de um trabalhador de costas, de marmita na mão. No alto, em branco, letras condensadas e muito pesadas: \"A PEC DA 6x1 SAIU DA GAVETA\". Em um quadro amarelo ao lado: \"QUARTA, 14\". Embaixo, em branco com sublinhado vermelho pincelado: \"Você acredita que o Senado aprova?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Depois de ficar parada desde a CCJ, a PEC do fim da 6x1 tem data: quarta, dia 14, no plenário do Senado. Você acredita que ela passa? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "A votação pode ser adiada ou o texto alterado, o que devolve a PEC à Câmara. Não prometa aprovação.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que muda na vida de quem trabalha: transição de até 14 meses, 5x2 e 42 horas em 60 dias, 40 horas depois, a exceção para quem ganha mais de R$ 21 mil e o custo para o pequeno empregador."
+          }
+        },
+        {
+          "title": "O imposto que tira o dinheiro antes de chegar ao caixa",
+          "tone": "sóbrio, focado no bolso",
+          "style": "cartaz",
+          "fact": "A equipe econômica de Flávio Bolsonaro (PL) promete acabar com o split payment da reforma tributária, que separa e recolhe os tributos automaticamente no momento do pagamento. Daniella Marques, coordenadora econômica da campanha, diz que a retenção imediata reduz o capital de giro dos pequenos empresários. O Ministério da Fazenda defende o mecanismo contra fraudes e concorrência desleal. A Receita começa os primeiros testes em 15/10, em ambiente controlado. Dados citados: 9,2 milhões de CNPJs negativados em julho, segundo a Serasa (8,7 milhões de micro e pequenas empresas), e 6.341 empresas em recuperação judicial. A extinção dependeria do Congresso.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-fim-split-payment-reforma-tributaria/"
+            }
+          ],
+          "art_text": [
+            "9,2 milhões",
+            "de empresas negativadas",
+            "O imposto sai antes do dinheiro chegar",
+            "Serasa, julho",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Arte só com texto e números.",
+          "prompt": "Crie uma arte vertical 4:5 (1080x1350), estilo cartaz, só texto e números, fundo escuro com textura de papel envelhecido e tons quentes dessaturados (ocre, marrom, vermelho). No alto, em branco, letras condensadas e muito pesadas: \"O IMPOSTO SAI ANTES DO DINHEIRO CHEGAR\". No centro, quadro amarelo com o número gigante \"9,2 milhões\" e abaixo, em preto: \"de CNPJs negativados em julho\". Em letras brancas menores: \"Fonte: Serasa\". Embaixo, em branco com sublinhado vermelho pincelado: \"Split payment ajuda ou sufoca o pequeno?\". Sem logos. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A campanha de Flávio promete acabar com o split payment, e a Fazenda defende o mecanismo contra fraude. Quem tem pequena empresa sente no caixa. Split payment ajuda ou atrapalha? Escreva ajuda ou atrapalha.",
+          "risk": "médio",
+          "risk_note": "A extinção depende do Congresso e é promessa de campanha. Apresente como proposta, e cite que a Fazenda defende o mecanismo.",
+          "timeline": {
+            "rende": true,
+            "angle": "Como funciona o split payment, o argumento do capital de giro contra o argumento da fraude, e o que Flávio e a Fazenda precisariam do Congresso."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Resumo nos Stories",
+      "options": [
+        {
+          "title": "Veja, PF e o áudio de 34 segundos",
+          "tone": "sóbrio, sem acusar",
+          "style": "print",
+          "fact": "A Veja publicou que Daniel Vorcaro teria dito, em proposta de delação, ter pago cerca de R$ 30 milhões ligados a um filme sobre Lula. A PF disse que Vorcaro não prestou depoimento com esse teor e que as propostas não foram acolhidas. A PGR disse que as tratativas foram sempre por advogados e sem interlocução direta. O advogado Daniel Bialski afirmou que a voz no áudio é de Vorcaro, mas não sabe quando foi gravado. A campanha de Lula chamou o texto de peça eleitoral irresponsável e negou o depoimento. Nada foi comprovado.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/voz-em-audio-de-veja-e-de-vorcaro-diz-advogado-de-fundador-do-master/"
+            }
+          ],
+          "slides": [
+            "Veja publica áudio de Vorcaro",
+            "PF: não houve depoimento com esse teor",
+            "PGR: só por advogados",
+            "Advogado: a voz é dele, data desconhecida",
+            "Campanha de Lula nega"
+          ],
+          "poll": {
+            "question": "Reportagem sem prova confirmada pesa na eleição?",
+            "options": [
+              "Pesa",
+              "Não pesa"
+            ]
+          },
+          "caption": "Resumo dos Stories: o que se sabe e o que não está provado no caso Veja x PF.",
+          "risk": "alto",
+          "risk_note": "Não afirme que houve pagamento nem crime: PF e PGR desmentem o conteúdo, e nada foi comprovado. Mostre os dois lados.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Fato ainda sem prova e em disputa entre revista, PF e campanha; esperar desdobramento."
+          }
+        },
+        {
+          "title": "TSE dá 48 horas para a Meta",
+          "tone": "contundente, sem exagero",
+          "style": "print",
+          "fact": "A coligação de Lula acionou a Justiça Eleitoral alegando seletividade algorítmica e a não remoção de 255 perfis inautênticos. O ministro Marco Aurélio Bellizze determinou que a Meta prove, em 48 horas, tratamento igual a Lula e Flávio, preserve logs de moderação e explique supostas anomalias nas métricas de vídeo. A campanha de Lula diz que a página de Flávio teve 2,96 vezes mais engajamento com 17,2% menos seguidores. A Meta não se manifestou publicamente, segundo a CNN Brasil.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/eleicoes/tse-da-48h-para-meta-provar-que-tratou-lula-e-flavio-de-forma-igual/"
+            }
+          ],
+          "slides": [
+            "PT aciona o TSE contra a Meta",
+            "Bellizze dá 48 horas",
+            "255 perfis apontados",
+            "Flávio: 2,96x mais engajamento, segundo o PT"
+          ],
+          "poll": {
+            "question": "A Justiça Eleitoral deve mexer no algoritmo das redes?",
+            "options": [
+              "Deve",
+              "Não deve"
+            ]
+          },
+          "caption": "Resumo dos Stories: o TSE manda a Meta provar igualdade entre Lula e Flávio.",
+          "risk": "médio",
+          "risk_note": "O dado do engajamento é alegação da campanha de Lula; atribua sempre. Não afirme que a Meta favoreceu alguém.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem decide o que o eleitor vê: o limite da Justiça Eleitoral sobre algoritmos e o que a Meta responder em 48 horas."
+          }
+        }
+      ]
+    }
+  ]
+}
