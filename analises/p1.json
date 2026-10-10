@@ -1,109 +1,102 @@
 {
- "generated": "2026-10-09T23:52:57-03:00",
- "dias": 1,
- "period": {
-  "start": "2026-10-08",
-  "end": "2026-10-08"
- },
- "compare": "média dos 7 dias anteriores",
- "headline": "Dia 8 de outubro: 679.600 views na conta e 493 novos seguidores, mas com queda de 18% nas views e de 61% nos comentários contra a média dos 7 dias anteriores.",
- "kpis": [
-  {
-   "label": "Views recebidas pela conta",
-   "value": "680 mil",
-   "delta": "−18%",
-   "dir": "down"
+  "generated": "2026-10-10T05:50:00-03:00",
+  "dias": 1,
+  "period": {
+    "start": "2026-10-09",
+    "end": "2026-10-09"
   },
-  {
-   "label": "Novos seguidores",
-   "value": "493",
-   "delta": "−12%",
-   "dir": "down"
-  },
-  {
-   "label": "Deixaram de seguir",
-   "value": "22",
-   "delta": "+33%",
-   "dir": "down"
-  },
-  {
-   "label": "Compartilhamentos recebidos",
-   "value": "14,4 mil",
-   "delta": "−33%",
-   "dir": "down"
-  },
-  {
-   "label": "Comentários recebidos",
-   "value": "491",
-   "delta": "−61%",
-   "dir": "down"
-  },
-  {
-   "label": "Contas alcançadas no dia",
-   "value": "366 mil",
-   "delta": "+23%",
-   "dir": "up"
-  }
- ],
- "cards": [
-  {
-   "title": "O que funcionou",
-   "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "A imagem \"VIRADA HISTÓRICA NO RIO!\", das 12h33, chegou a 64.505 views, 258 compartilhamentos e 43 comentários em 16,4 horas. A imagem das 7h sobre a PEC da 6x1 teve 25.353 views e 5 novos seguidores, o maior número do dia.",
-   "actions": [
-    "Mantenha a imagem das 7h com um assunto da pauta do dia.",
-    "Quando houver fato novo ao meio-dia, publique uma segunda imagem de reação, como nesse caso.",
-    "Repita o título curto e direto da imagem das 12h33."
-   ],
-   "posts": [
-    "DePQzA4NYLR",
-    "DeNoAYNsucF"
-   ]
-  },
-  {
-   "title": "O que não funcionou",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "O Reel das 19h teve 4.136 views em 9,9 horas, contra 44.929 de mediana das duas imagens do dia. Ele tem 71,3 segundos, 35% de pulo e foi assistido em média por 18 segundos. Ele é recente e ainda acumula views.",
-   "actions": [
-    "Corte o Reel para até 30 segundos e coloque o ponto principal na primeira frase.",
-    "Reveja o Reel em 2 dias antes de tirar conclusão, porque ele ainda está acumulando views.",
-    "Teste o mesmo assunto em imagem, que rendeu mais no dia."
-   ],
-   "posts": [
-    "DeP9Tsbtn64"
-   ]
-  },
-  {
-   "title": "Conversa e comentários",
-   "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "Foram 491 comentários no dia, queda de 61% contra a média dos 7 dias anteriores. O post com mais comentários foi a imagem das 12h33 (43), seguido pela imagem das 7h (22) e pelo Reel (17). Os títulos dos três posts não são perguntas.",
-   "actions": [
-    "Feche pelo menos um post por dia com pergunta direta, como \"de 0 a 10\" ou \"real ou IA?\".",
-    "Responda os primeiros comentários na primeira hora.",
-    "Use os Stories para abrir enquete sobre o assunto do dia."
-   ],
-   "posts": [
-    "DePQzA4NYLR",
-    "DeNoAYNsucF",
-    "DeP9Tsbtn64"
-   ]
-  },
-  {
-   "title": "Seguidores",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Entraram 493 seguidores (−12% contra a média da semana anterior) e saíram 22 (+33%). As duas imagens do dia somam apenas 9 seguidores ligados a elas, então a maior parte veio de posts anteriores ou do perfil.",
-   "actions": [
-    "Coloque uma chamada para seguir no fim das imagens mais fortes.",
-    "Mantenha fixado no perfil o post que melhor apresenta o seu trabalho."
-   ],
-   "posts": [
-    "DeNoAYNsucF",
-    "DePQzA4NYLR"
-   ]
-  }
- ]
+  "compare": "média dos 7 dias anteriores",
+  "headline": "Dia 9 fraco: 348 mil views, 60% abaixo da média dos 7 dias anteriores, com só 3 publicações e nenhuma passando de 1,2 mil views até agora.",
+  "kpis": [
+    {
+      "label": "Views recebidas pela conta",
+      "value": "348 mil",
+      "delta": "−60%",
+      "dir": "down"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "5,4 mil",
+      "delta": "−76%",
+      "dir": "down"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "188",
+      "delta": "−85%",
+      "dir": "down"
+    },
+    {
+      "label": "Contas com interação por dia",
+      "value": "14,5 mil",
+      "delta": "−72%",
+      "dir": "down"
+    }
+  ],
+  "cards": [
+    {
+      "title": "O que funcionou",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O Reel \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (11h) foi o post com mais views do dia (1.178) e o que mais teve compartilhamentos (40), contra 5 de cada um dos outros dois posts. São números pequenos e os posts têm entre 13 e 23 horas de vida, então ainda podem crescer.",
+      "actions": [
+        "Acompanhe esse Reel nos próximos dias antes de tirar conclusão.",
+        "Mantenha o tema de dinheiro e escândalo, que rendeu mais compartilhamentos no dia."
+      ],
+      "posts": [
+        "DeRrXNgtZMa"
+      ]
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "Os três posts do dia somam pouco: 1.178, 1.151 e 819 views. O carrossel das 6h20 (\"Cinco fatos, uma semana, 16 dias para decidir.\") ficou com 819 views e alcance de 365. O Reel de 79,5 segundos foi assistido em média por 19 segundos.",
+      "actions": [
+        "Evite carrossel de resumo logo cedo, que teve o menor alcance do dia.",
+        "Corte Reels acima de 60 segundos ou divida em partes."
+      ],
+      "posts": [
+        "DeRLIUBlloX",
+        "DeRrXNgtZMa"
+      ]
+    },
+    {
+      "title": "Views da conta x views dos posts",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "A conta recebeu 348 mil views, mas nenhum dos 3 posts de hoje passou de 1.178 views. Ou seja, quase tudo veio de posts antigos, e o dia sem uma imagem forte pesou: a média dos 7 dias anteriores foi de 679.878 views, vinda do pico eleitoral.",
+      "actions": [
+        "Programe uma imagem de opinião forte para as 7h, horário dos maiores resultados recentes.",
+        "Compare o dia com a semana inteira, não com o pico da eleição."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Conversa e interação",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "Foram 188 comentários e 552 salvamentos, contra 491 e 1.547 na média dos 7 dias anteriores. O post com mais comentários foi o carrossel das 6h20, com 8, seguido pelo Reel, com 7.",
+      "actions": [
+        "Termine os posts com uma pergunta direta, como nas imagens que passaram de 200 comentários na semana.",
+        "Responda os comentários na primeira hora."
+      ],
+      "posts": [
+        "DeRLIUBlloX",
+        "DeRrXNgtZMa"
+      ]
+    }
+  ]
 }
