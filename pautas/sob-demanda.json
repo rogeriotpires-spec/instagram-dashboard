@@ -2,6 +2,88 @@
   "items": [
     {
       "requested": "2026-10-09",
+      "done": "2026-10-09T21:29:53-03:00",
+      "issue": 15,
+      "slot_hint": "Imagem às 8h de sábado (10) ou reel às 12h, com o assunto ainda quente.",
+      "source": {
+        "edition": "2026-10-09-19h",
+        "item_id": "gasolina-tributos-zerados",
+        "title": "Governo zera tributos federais da gasolina por 30 dias e amplia subsídios a etanol e diesel a 16 dias do 2º turno"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Imposto zerado 16 dias antes da urna: coincidência?",
+          "tone": "irônico, com pergunta aberta",
+          "fact": "Em 9/10, o governo Lula zerou os tributos federais sobre a gasolina (PIS/Cofins e Cide), elevando a desoneração de R$ 0,63 para R$ 0,89 por litro, segundo o Poder360. A subvenção do etanol subiu de R$ 0,25 para R$ 0,43 por litro e foi criada subvenção de R$ 1,40 por litro para o diesel importado. As medidas valem por 30 dias e custam R$ 5,2 bilhões (R$ 3,6 bilhões para gasolina e etanol e cerca de R$ 1,6 bilhão para o diesel), conforme estimativa do ministro do Planejamento, Bruno Moretti, que disse que o governo usará receitas extraordinárias do petróleo, sem flexibilizar as metas fiscais. O anúncio saiu a 16 dias do segundo turno, marcado para 25 de outubro, e a CNN relaciona o pacote à pressão de preços causada pela guerra no Oriente Médio.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-zera-tributos-federais-da-gasolina-antes-do-2o-turno/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/a-16-dias-para-eleicoes-governo-anuncia-medidas-para-baratear-combustiveis/"
+            }
+          ],
+          "art_text": [
+            "Gasolina sem imposto federal",
+            "30 dias",
+            "16 dias do 2º turno",
+            "Coincidência?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Lula (presidente), cujo governo anunciou o pacote. Ilustração estilo charge, sem foto real. Risco baixo: aparece apenas ao lado da bomba de combustível, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, o presidente Lula, de terno, ao lado de uma bomba de gasolina estilizada, com sorriso largo e a mão apontando para o painel da bomba; ao fundo, uma urna eletrônica e um calendário com o dia 25 marcado em vermelho. No alto, em branco, letras condensadas e muito pesadas: \"Gasolina sem imposto federal\". Em um quadro amarelo à esquerda: \"30 dias\". Em um quadro vermelho à direita: \"16 dias do 2º turno\". Embaixo, em branco, letras grandes e pesadas: \"Coincidência?\", com sublinhado vermelho pincelado. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Imposto federal da gasolina zerado por 30 dias, a 16 dias do segundo turno. O alívio é bem-vindo, mas o timing chama atenção. Você acha que é coincidência? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "O ponto é o momento do anúncio, não a medida em si: alívio no preço é popular. Não acuse crime nem diga que é compra de voto; pergunte. Os valores são do governo (via Poder360 e CNN).",
+          "timeline": {
+            "rende": true,
+            "angle": "Pacote de R$ 5,2 bilhões em 30 dias: quem paga a conta, o que acontece quando o prazo acabar e por que o anúncio veio às vésperas do segundo turno."
+          }
+        },
+        {
+          "type": "r",
+          "title": "R$ 5,2 bilhões em 30 dias. A conta chega depois da eleição?",
+          "tone": "contundente, com ironia",
+          "duration": "25 a 30s",
+          "fact": "Em 9/10, o governo Lula zerou os tributos federais sobre a gasolina (PIS/Cofins e Cide), elevando a desoneração de R$ 0,63 para R$ 0,89 por litro, segundo o Poder360. A subvenção do etanol subiu de R$ 0,25 para R$ 0,43 por litro e foi criada subvenção de R$ 1,40 por litro para o diesel importado. As medidas valem por 30 dias e custam R$ 5,2 bilhões (R$ 3,6 bilhões para gasolina e etanol e cerca de R$ 1,6 bilhão para o diesel), conforme estimativa do ministro do Planejamento, Bruno Moretti, que disse que o governo usará receitas extraordinárias do petróleo, sem flexibilizar as metas fiscais. O anúncio saiu a 16 dias do segundo turno, marcado para 25 de outubro, e a CNN relaciona o pacote à pressão de preços causada pela guerra no Oriente Médio.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-zera-tributos-federais-da-gasolina-antes-do-2o-turno/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/a-16-dias-para-eleicoes-governo-anuncia-medidas-para-baratear-combustiveis/"
+            }
+          ],
+          "hooks": [
+            "Zeraram o imposto da gasolina a 16 dias da eleição.",
+            "R$ 5,2 bilhões em 30 dias. Quem paga isso?"
+          ],
+          "script": "O governo zerou os tributos federais da gasolina, criou subsídio para o etanol e para o diesel importado. Tudo por 30 dias. Custo: R$ 5,2 bilhões. O anúncio saiu a 16 dias do segundo turno. O governo diz que vai usar receita extraordinária do petróleo e que não mexe nas metas fiscais. Pode ser. Mas e depois dos 30 dias? O benefício acaba, e a conta fica para quem? Preço mais baixo na bomba é bom, ninguém é contra. A pergunta é o momento. Você acha que essa medida teria saído se não houvesse eleição? Responde sim ou não.",
+          "screen_text": [
+            "Gasolina: imposto federal zerado",
+            "30 dias",
+            "R$ 5,2 bilhões",
+            "2º turno: 25/10",
+            "Quem paga depois?"
+          ],
+          "caption": "Imposto da gasolina zerado por 30 dias, a 16 dias do segundo turno. Essa medida sairia sem eleição? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Critique o timing e a conta fiscal, não o preço menor para o consumidor. A fonte de custeio (receitas extraordinárias do petróleo) é declaração do ministro Moretti: atribua a ele. Não afirme uso eleitoreiro como fato.",
+          "timeline": {
+            "rende": true,
+            "angle": "Combustíveis em ano eleitoral: o que o pacote muda na bomba, quanto custa e o que vem quando os 30 dias acabarem."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-09",
       "done": "2026-10-09T15:49:14-03:00",
       "issue": 14,
       "slot_hint": "Imagem às 18h de sexta (9) ou reel às 20h, enquanto o assunto está em alta.",
