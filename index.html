@@ -580,7 +580,7 @@ function setPer(){
     weekly:[AN?`${perLabel(AN.period.start,AN.period.end)} · fixo`:"",false],
     intra:[D.intraday&&D.intraday.length?`${dBR(D.intraday[D.intraday.length-1][0].slice(0,10))} · hora a hora`:"Hoje",false],
     tracking:[D.tracking_since?`Coleta desde ${dBR(D.tracking_since.slice(0,10))}`:"Coleta diária",false]};
-  $$(".per").forEach(s=>{const[t,diff]=map[s.dataset.per]||[g,false];s.textContent=t;s.classList.toggle("diff",diff);s.title=diff?"Este card usa um período diferente do filtro do topo":""});
+  $$(".per:not(.keep)").forEach(s=>{const[t,diff]=map[s.dataset.per]||[g,false];s.textContent=t;s.classList.toggle("diff",diff);s.title=diff?"Este card usa um período diferente do filtro do topo":""});
 }
 
 function deltaHTML(cur,prev,label){if(cur==null||prev==null||!prev)return`<div class="delta na">Sem dado do período anterior</div>`;const d=cur/prev-1;return`<div class="delta ${d>=0?"up":"down"}">${d>=0?"▲":"▼"} ${pct(Math.abs(d),0)} vs ${label}</div>`}
@@ -917,16 +917,26 @@ function insights(){
   $("#insights").innerHTML=cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.t}</h3><span class="pill ${c.s[0]}">${c.s[1]}</span></div><div class="metric-row">${c.m.map(([v,l])=>`<div><b>${v}</b>${l}</div>`).join("")}</div><p class="diag">${c.d}</p>${AN?"":`<ol>${c.a.map(x=>`<li>${x}</li>`).join("")}</ol>`}</article>`).join("");
 }
 let AN=null;
+const AP={};
 function renderWeekly(){
-  const host=$("#weekly");if(!AN){host.innerHTML="";$("#auto-h").style.display="none";$("#auto-sub").style.display="none";return}
+  const r=state.range;
+  if(!(r in AP)){AP[r]=undefined;fetch(`analises/p${r}.json?`+Date.now(),{cache:"no-store"}).then(x=>x.ok?x.json():null).catch(()=>null).then(j=>{AP[r]=j;if(state.range===r)renderWeekly()})}
+  const AX=AP[r]||null,dyn=!!AX,A=AX||AN;
+  const host=$("#weekly");if(!A){host.innerHTML="";$("#auto-h").style.display="none";$("#auto-sub").style.display="none";return}
   const byCode=Object.fromEntries(ALL.map(p=>[p.code,p]));
-  const ago=Math.round((Date.now()-new Date(AN.generated))/864e5);
+  const ago=Math.round((Date.now()-new Date(A.generated))/864e5);
+  const cmpTxt=dyn?(r===1?"a média dos 7 dias anteriores":`os ${r} dias anteriores (${A.compare})`):perLabel(A.compare.start,A.compare.end);
+  const ttl=dyn?(r===1?`Análise do dia ${dBR(A.period.end)}`:`Análise dos últimos ${r} dias`):"Análise da semana";
+  const vs=dyn?(r===1?"média da semana":`${r} dias anteriores`):"semana anterior";
   host.innerHTML=`<div class="card" style="border-left:4px solid var(--s1)">
-    <div class="head"><h3>Análise da semana</h3><span class="per" data-per="weekly">${perLabel(AN.period.start,AN.period.end)} · fixo</span></div>
-    <p class="desc">Escrita pelo Claude em ${new Date(AN.generated).toLocaleDateString("pt-BR")}${ago>8?` <b style="color:var(--warn)">(há ${ago} dias)</b>`:""}, comparando com ${perLabel(AN.compare.start,AN.compare.end)}. Não muda com o filtro do topo; é refeita toda segunda-feira.</p>
-    <p style="font-size:16px;font-weight:600;margin:6px 0 14px;line-height:1.4">${AN.headline}</p>
-    <div class="kpis" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:0">${AN.kpis.map(k=>`<div style="padding:10px 12px;background:var(--surface-2);border-radius:12px"><div class="label" style="font-size:12px;color:var(--text-2)">${k.label}</div><div style="font-size:20px;font-weight:800">${k.value}</div><div class="delta ${k.dir}">${k.delta} vs semana anterior</div></div>`).join("")}</div></div>
-    <div class="ins-grid" style="margin-top:12px">${AN.cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.title}</h3><span class="pill ${c.status}">${c.status_label}</span></div><p class="diag">${c.diagnosis}</p><ol>${c.actions.map(x=>`<li>${x}</li>`).join("")}</ol>${(c.posts||[]).filter(k=>byCode[k]).length?`<div style="display:flex;flex-wrap:wrap;gap:6px">${c.posts.filter(k=>byCode[k]).map(k=>{const p=byCode[k];return`<a class="tag" style="text-decoration:none" href="${linkOf(p)}" target="_blank" rel="noopener"><i style="background:${TYPE[p.type].c}"></i>${p.title.slice(0,38)}${p.title.length>38?"…":""} · ${fmt(p.views)} ↗</a>`}).join("")}</div>`:""}</article>`).join("")}</div>`;
+    <div class="head"><h3>${ttl}</h3><span class="per keep" data-per="weekly-x">${A.period.start===A.period.end?dBR(A.period.end):perLabel(A.period.start,A.period.end)}${dyn?"":" · fixo"}</span></div>
+    <p class="desc">Escrita pelo Claude em ${new Date(A.generated).toLocaleDateString("pt-BR")}${ago>(dyn?2:8)?` <b style="color:var(--warn)">(há ${ago} dias)</b>`:""}, comparando com ${cmpTxt}. ${dyn?"Muda com o filtro de período do topo e é refeita todo dia às 5h40.":(AP[r]===undefined?"Carregando a análise do período escolhido…":"Ainda não há análise para este período; mostrando a semanal.")} <button type="button" class="refresh" id="an-gen" style="margin-left:6px;font-size:11px;padding:3px 10px">↻ Refazer análises</button> <span id="an-st" class="small-n"></span></p>
+    <p style="font-size:16px;font-weight:600;margin:6px 0 14px;line-height:1.4">${A.headline}</p>
+    <div class="kpis" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:0">${(A.kpis||[]).map(k=>`<div style="padding:10px 12px;background:var(--surface-2);border-radius:12px"><div class="label" style="font-size:12px;color:var(--text-2)">${k.label}</div><div style="font-size:20px;font-weight:800">${k.value}</div><div class="delta ${k.dir}">${k.delta}${k.dir==="na"?"":" vs "+vs}</div></div>`).join("")}</div></div>
+    <div class="ins-grid" style="margin-top:12px">${A.cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.title}</h3><span class="pill ${c.status}">${c.status_label}</span></div><p class="diag">${c.diagnosis}</p><ol>${c.actions.map(x=>`<li>${x}</li>`).join("")}</ol>${(c.posts||[]).filter(k=>byCode[k]).length?`<div style="display:flex;flex-wrap:wrap;gap:6px">${c.posts.filter(k=>byCode[k]).map(k=>{const p=byCode[k];return`<a class="tag" style="text-decoration:none" href="${linkOf(p)}" target="_blank" rel="noopener"><i style="background:${TYPE[p.type].c}"></i>${p.title.slice(0,38)}${p.title.length>38?"…":""} · ${fmt(p.views)} ↗</a>`}).join("")}</div>`:""}</article>`).join("")}</div>`;
+  if(window.Painel&&$("#an-gen"))Painel.wire({btn:$("#an-gen"),st:$("#an-st"),job:"analises",wf:"analises.yml",minutes:20,needsClaude:true,
+    stamp:()=>fetch(`analises/p${state.range}.json?`+Date.now(),{cache:"no-store"}).then(x=>x.ok?x.json():{}).then(j=>j.generated||""),
+    labels:{running:"Refazendo as análises de todos os períodos (3 a 8 minutos)…"}});
 }
 function plan(){
   if(AN&&AN.week_plan){$("#plan-sub").textContent=`Sugerida na análise de ${new Date(AN.generated).toLocaleDateString("pt-BR")}, para a semana seguinte.`}

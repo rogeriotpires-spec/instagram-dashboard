@@ -1,0 +1,50 @@
+name: Análise por período
+
+on:
+  schedule:
+    - cron: "40 8 * * *"   # 05h40 em Brasília, depois da atualização diária dos dados
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: analises
+  cancel-in-progress: false
+
+jobs:
+  analisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: America/Sao_Paulo
+    steps:
+      - uses: actions/checkout@v4
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: "Leia o arquivo prompts/analises.md e execute exatamente o que ele pede, do começo ao fim. Não faça commit nem push."
+          claude_args: |
+            --max-turns 80
+            --allowedTools Bash,Read,Write,Edit,Glob,Grep
+      - name: Publicar
+        env:
+          GHT: ${{ github.token }}
+        run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${GHT}@github.com/${{ github.repository }}.git"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 -c "import json;[json.load(open(f'analises/p{n}.json')) for n in (1,7,30,60,90)]" || { echo "::error::análise incompleta"; exit 1; }
+          if grep -l "[—–]" analises/*.json; then echo "::error::travessão na análise"; exit 1; fi
+          mkdir -p /tmp/an && cp analises/p*.json /tmp/an/
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            mkdir -p analises && cp /tmp/an/p*.json analises/
+            git add analises/
+            git diff --cached --quiet && exit 0
+            git commit -qm "Análise por período" && git push -q origin HEAD:main && exit 0
+            sleep $((i*4))
+          done
+          exit 1
