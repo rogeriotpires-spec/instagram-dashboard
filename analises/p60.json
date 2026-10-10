@@ -1,0 +1,112 @@
+{
+ "generated": "2026-10-09T23:52:57-03:00",
+ "dias": 60,
+ "period": {
+  "start": "2026-08-10",
+  "end": "2026-10-08"
+ },
+ "compare": "2026-06-11 a 2026-08-09",
+ "headline": "De 10 de agosto a 8 de outubro a conta recebeu 25,1 mi de views e 12.849 novos seguidores. As imagens (mediana de 52.124 views) seguem muito acima dos Reels (8.300).",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "25,1 mi",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Novos seguidores",
+   "value": "12.849",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "466",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "369 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "21,8 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "144 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "As 35 imagens tiveram mediana de 52.124 views e somaram 3.880 novos seguidores. O tema Opinião (36 posts) teve mediana de 49.950,5 views e Entrevista (5 posts) teve 88.359. A maior imagem foi \"Bem vindo a este manicômio chamado Brasil!\", com 1.489.495 views.",
+   "actions": [
+    "Faça das imagens de Opinião a base do calendário.",
+    "Repita Entrevista: são poucos posts, mas com a maior mediana.",
+    "Mantenha títulos curtos e emocionais nas imagens."
+   ],
+   "posts": [
+    "DcGTcGzN_5i",
+    "Dd08gl4tibs"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Os Reels de Política (68 posts) tiveram mediana de 8.300 views. Os mais fracos tinham mais de 65 segundos: \"Quase 18 anos no poder\" (473 views, 102,4 s), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). Eventos e discursos (6 posts) tiveram mediana de 2.687.",
+   "actions": [
+    "Pare de publicar Reels de Política com mais de 60 segundos.",
+    "Reduza posts de eventos e discursos.",
+    "Troque esses Reels por imagens de Opinião sobre o mesmo assunto."
+   ],
+   "posts": [
+    "Db73S3ZBiej",
+    "Dc3EY5cNint",
+    "Dcvng7kNnHA"
+   ]
+  },
+  {
+   "title": "Horários",
+   "status": "warn",
+   "status_label": "Testar",
+   "diagnosis": "As medianas por hora são altas às 16h (70.439,5), 17h (88.359) e 21h (105.887), e baixas às 15h (1.442,5), 6h (1.803) e 5h (2.092). Muitos horários têm poucos posts, então use como pista, não como regra.",
+   "actions": [
+    "Teste mais posts entre 16h e 17h e às 21h.",
+    "Evite Reels às 15h e antes das 7h.",
+    "Revise esse quadro em 30 dias com mais posts por horário."
+   ],
+   "posts": [
+    "Dd08gl4tibs",
+    "DcfJMHasopg"
+   ]
+  },
+  {
+   "title": "Conversa e comentários",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os posts com pergunta direta lideraram: \"Qual número você escolheria?\" (485 comentários), \"Responda nos comentários, só um nome!\" (355 comentários, 57 novos seguidores, 136.365 views) e o Reel da votação (259). O total foi de 21.799 comentários, com dados de apenas 32 dos 60 dias.",
+   "actions": [
+    "Repita o pedido de \"só um nome\" ou \"um número\" nos comentários.",
+    "Combine essa chamada com temas fortes para somar views e comentários.",
+    "Responda os primeiros comentários na primeira hora."
+   ],
+   "posts": [
+    "DdumKq_tAX_",
+    "DcfJMHasopg",
+    "DeFIOryNZpn"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "generated": "2026-10-09T23:52:57-03:00",
+ "dias": 30,
+ "period": {
+  "start": "2026-09-09",
+  "end": "2026-10-08"
+ },
+ "compare": "2026-08-10 a 2026-09-08",
+ "headline": "De 9 de setembro a 8 de outubro a conta recebeu 17 mi de views (+108%) e 12.558 novos seguidores. As imagens tiveram mediana de 76.867,5 views, contra 10.253 dos Reels.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "17 mi",
+   "delta": "+108%",
+   "dir": "up"
+  },
+  {
+   "label": "Novos seguidores",
+   "value": "12.558",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "453",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "362 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "21 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "205 mil",
+   "delta": "+145%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "As 22 imagens somaram 5.400.733 views e 3.015 novos seguidores. As três maiores foram \"Ninguém aguenta mais o Lula e o PT!\" (918.107 views, 835 novos seguidores), \"Chega até a arrepiar!!\" (841.189) e o Reel da votação (644.395). O tema Opinião teve mediana de 64.505 views.",
+   "actions": [
+    "Mantenha imagens de Opinião como base da semana.",
+    "Repita o formato curto e direto dos títulos dos campeões.",
+    "Guarde o horário das 7h para essas imagens."
+   ],
+   "posts": [
+    "Dd08gl4tibs",
+    "DdqoEI_tiw6",
+    "DeFIOryNZpn"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "O tema Política, com 38 posts, teve mediana de 9.385,5 views, bem abaixo dos 64.505 de Opinião. Os piores posts foram Reels: \"Banda podre esperneia!\" (1.049 views, 91,3 segundos), \"Sabe se isso é IA?\" (1.196) e \"Autoexplicativo (debate)\" (1.311, 60% de pulo).",
+   "actions": [
+    "Reduza Reels de Política longos e de debate.",
+    "Transforme os assuntos de Política em imagem de Opinião quando possível.",
+    "Compare só posts de idades parecidas, porque os recentes ainda acumulam views."
+   ],
+   "posts": [
+    "DdL670TN4bK",
+    "DeKCMhiNIxP",
+    "Dd_agBPN6Mi"
+   ]
+  },
+  {
+   "title": "Conversa e comentários",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "O post com mais comentários foi \"Qual número você escolheria?\", com 485 comentários e só 13.527 views. Depois vieram o Reel da votação (259) e \"Chega até a arrepiar!!\" (245). Pergunta direta gera comentário mesmo com alcance menor, mas os posts virais não geraram o mesmo.",
+   "actions": [
+    "Use uma pergunta fechada em pelo menos 3 posts por semana.",
+    "Peça uma palavra ou um número como resposta, como nos posts que mais comentaram.",
+    "Responda os primeiros comentários na primeira hora."
+   ],
+   "posts": [
+    "DdumKq_tAX_",
+    "DeFIOryNZpn",
+    "DdqoEI_tiw6"
+   ]
+  },
+  {
+   "title": "Horários",
+   "status": "warn",
+   "status_label": "Testar",
+   "diagnosis": "As medianas por hora mostram 07h com 89.230 views, 22h com 156.968 e 09h com 443.550, contra 2.172 às 15h, 4.514 às 16h e 5.655 às 13h. Vários horários têm poucos posts, então os números oscilam muito.",
+   "actions": [
+    "Mantenha as imagens fortes às 7h.",
+    "Teste uma imagem às 22h, onde a mediana ficou em 156.968.",
+    "Evite Reels entre 13h e 16h por enquanto."
+   ],
+   "posts": [
+    "Dd08gl4tibs",
+    "DdjIRJHt4lo",
+    "DeGFDYlstrt"
+   ]
+  }
+ ]
+}

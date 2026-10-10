@@ -1,0 +1,110 @@
+{
+ "generated": "2026-10-09T23:52:57-03:00",
+ "dias": 7,
+ "period": {
+  "start": "2026-10-02",
+  "end": "2026-10-08"
+ },
+ "compare": "2026-09-25 a 2026-10-01",
+ "headline": "Na semana de 2 a 8 de outubro a conta recebeu 6,1 mi de views (+74%) e 4.052 novos seguidores (+61%), puxada por um Reel e uma imagem com mais de 600 mil views cada.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "6,1 mi",
+   "delta": "+74%",
+   "dir": "up"
+  },
+  {
+   "label": "Novos seguidores",
+   "value": "4.052",
+   "delta": "+61%",
+   "dir": "up"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "121",
+   "delta": "+22%",
+   "dir": "down"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "154 mil",
+   "delta": "+89%",
+   "dir": "up"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "8.888",
+   "delta": "+246%",
+   "dir": "up"
+  },
+  {
+   "label": "Salvamentos recebidos",
+   "value": "16.050",
+   "delta": "+224%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" teve 644.395 views e 25.025 compartilhamentos, com 23 segundos e 40% de pulo. A imagem \"Avalanche Bolsonarista!\" teve 607.266 views e 462 novos seguidores. As imagens tiveram mediana de 56.141 views, contra cerca de 3,3 mil dos Reels.",
+   "actions": [
+    "Em dia de fato político forte, publique a reação em até 3 horas.",
+    "Mantenha Reels de reação curtos, perto de 23 segundos.",
+    "Reserve a imagem das 7h para o assunto mais forte do dia."
+   ],
+   "posts": [
+    "DeFIOryNZpn",
+    "DeGlubltKVX"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Os Reels \"Sabe se isso é IA?\" (1.196 views, 48% de pulo) e \"Autoexplicativo (debate)\" (1.311 views, 60% de pulo) ficaram bem abaixo do resto. O carrossel sobre 2022 teve 2.482 views em 33,9 horas, com 13 compartilhamentos. É um único carrossel, então serve só como sinal.",
+   "actions": [
+    "Reveja os Reels de debate: o \"Autoexplicativo\" teve o maior pulo da semana nos dados.",
+    "Refaça o tema do carrossel em imagem única, que rendeu mais.",
+    "Teste mais um carrossel antes de decidir se o formato vale a pena."
+   ],
+   "posts": [
+    "DeKCMhiNIxP",
+    "Dd_agBPN6Mi",
+    "DeNYhh0GbVo"
+   ]
+  },
+  {
+   "title": "Conversa e comentários",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Foram 8.888 comentários e 16.050 salvamentos. As perguntas diretas funcionaram: \"Sabe me dizer se essa imagem é real ou se é de IA?\" teve 202 comentários e 62 novos seguidores, e \"O Rio pode ter governador eleito hoje, sem segundo turno.\" teve 82 comentários e 27 novos seguidores.",
+   "actions": [
+    "Mantenha um post por dia com pergunta fechada.",
+    "Responda os primeiros comentários na primeira hora.",
+    "Use os salvamentos como sinal: posts de explicação rendem material para salvar."
+   ],
+   "posts": [
+    "DeGFDYlstrt",
+    "DeL6bqctDFk"
+   ]
+  },
+  {
+   "title": "Seguidores",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Entraram 4.052 seguidores (+61%) e saíram 121 (+22%). A saída subiu junto com a entrada. A imagem \"Avalanche Bolsonarista!\" teve 462 novos seguidores e a das 22h56 teve 62.",
+   "actions": [
+    "Feche os posts virais com chamada clara para seguir.",
+    "Acompanhe as saídas nas próximas semanas: se continuarem subindo, revise o tom dos posts mais duros."
+   ],
+   "posts": [
+    "DeGlubltKVX",
+    "DeGFDYlstrt"
+   ]
+  }
+ ]
+}

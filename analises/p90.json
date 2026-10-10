@@ -1,0 +1,113 @@
+{
+ "generated": "2026-10-09T23:52:57-03:00",
+ "dias": 90,
+ "period": {
+  "start": "2026-07-11",
+  "end": "2026-10-08"
+ },
+ "compare": "2026-04-12 a 2026-07-10",
+ "headline": "De 11 de julho a 8 de outubro a conta recebeu 33 mi de views. Opinião (mediana de 44.455 views) e Entrevista (88.359) sustentam o perfil, e a Política em Reel fica perto de 8 mil.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "33 mi",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Novos seguidores",
+   "value": "12.849",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "466",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "369 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "21,8 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "119 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "As 41 imagens tiveram mediana de 52.124 views e somaram 5.727 novos seguidores. As maiores foram \"Bem vindo a este manicômio chamado Brasil!\" (1.489.495 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.441.197 views, 1.408 novos seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (918.107).",
+   "actions": [
+    "Mantenha imagens de Opinião como base do perfil.",
+    "Use as imagens campeãs como modelo de título e de arte.",
+    "Feche as imagens fortes com chamada para seguir."
+   ],
+   "posts": [
+    "DcGTcGzN_5i",
+    "DbWUq-ltrx8",
+    "Dd08gl4tibs"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Os 115 Reels tiveram mediana de 7.872 views, contra 52.124 das imagens. Política (93 posts) teve mediana de 8.082. Bastidores e pessoal (11 posts) tiveram 5.290 e Eventos e discursos (7 posts) tiveram 3.949. Os piores Reels ficaram entre 473 e 551 views.",
+   "actions": [
+    "Reduza o volume de Reels de Política e priorize menos Reels, melhores.",
+    "Leve o assunto de Política para imagem de Opinião.",
+    "Use Bastidores e Eventos com menos frequência."
+   ],
+   "posts": [
+    "Db73S3ZBiej",
+    "Dc3EY5cNint",
+    "Dcvng7kNnHA"
+   ]
+  },
+  {
+   "title": "Conversa e comentários",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "O Reel \"Essa pesquisa parece ótima pra um lado…\" teve 743 comentários, 7.663 compartilhamentos e 82.738 views, com 197,6 segundos e só 33% de pulo. Depois vieram \"Qual número você escolheria?\" (485) e \"Responda nos comentários, só um nome!\" (355). Reel longo funcionou quando o assunto prendeu.",
+   "actions": [
+    "Teste outro Reel longo, mas só com assunto forte e começo direto.",
+    "Mantenha as perguntas de uma palavra ou um número.",
+    "Responda os primeiros comentários na primeira hora."
+   ],
+   "posts": [
+    "Da38CFtMZuP",
+    "DdumKq_tAX_",
+    "DcfJMHasopg"
+   ]
+  },
+  {
+   "title": "Horários",
+   "status": "warn",
+   "status_label": "Testar",
+   "diagnosis": "As maiores medianas por hora foram 16h (113.238), 21h (66.979) e 22h (64.672,5). As menores foram 6h (1.754,5), 15h (2.172) e 11h (3.949). A mediana das 7h ficou em 11.742, menor do que nos últimos 30 dias, então o horário varia conforme o assunto.",
+   "actions": [
+    "Teste mais posts às 16h, 21h e 22h.",
+    "Evite Reels às 6h, 11h e 15h.",
+    "Compare horários só com o mesmo formato."
+   ],
+   "posts": [
+    "DbWUq-ltrx8",
+    "Dd08gl4tibs"
+   ]
+  }
+ ]
+}
