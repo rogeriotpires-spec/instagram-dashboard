@@ -2,6 +2,89 @@
   "items": [
     {
       "requested": "2026-10-10",
+      "done": "2026-10-10T12:28:13-03:00",
+      "issue": 22,
+      "slot_hint": "Reel às 19h de sábado (10) e imagem no domingo (11) ao meio-dia.",
+      "source": {
+        "edition": "2026-10-10-12h",
+        "item_id": "fachin-fux-inquerito",
+        "title": "Fachin nega a Fux acesso imediato ao inquérito das fake news e revisa 104 procedimentos antes de arquivar"
+      },
+      "options": [
+        {
+          "type": "r",
+          "title": "104 procedimentos e uma pergunta que o STF não respondeu",
+          "tone": "contundente, sem acusar",
+          "duration": "45 a 60s",
+          "fact": "Na sexta (9), o presidente do STF, Edson Fachin, negou a Luiz Fux o acesso imediato ao Inq 4.781, o inquérito das fake news, que Fux havia pedido em 48 horas para julgar a ADPF 1.144, ação do PP sobre provas da operação Tempus Veritatis. Fachin disse que os outros três procedimentos pedidos são públicos e podem ser consultados. Segundo a CNN Brasil, são 104 procedimentos vinculados ao inquérito em revisão individual, parte já digitalizada, sem prazo definido; casos que exigirem diligências podem ir à PF e depois à PGR. Fachin afirmou que a mudança de relatoria, em 9 de setembro, não altera os atos regularmente praticados até então. Segundo o Poder360, Fux não deve decidir antes do 2º turno, em 25 de outubro. O arquivamento é intenção declarada de Fachin e a validade das provas ainda não foi decidida pelo plenário.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/fachin-faz-pente-fino-em-104-casos-antes-de-arquivar-inquerito-de-fake-news/"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/fachin-nega-acesso-de-fux-a-inquerito-das-fake-news-no-stf/"
+            }
+          ],
+          "hooks": [
+            "Fux pediu o inquérito em 48 horas. Fachin respondeu: primeiro eu reviso 104 procedimentos.",
+            "Um ministro do Supremo pediu os autos e ouviu: depois.",
+            "O inquérito das fake news vai ser arquivado, mas quem vai julgar as provas ainda não pode ver."
+          ],
+          "script": "Quinta, o ministro Luiz Fux deu 48 horas para o Supremo liberar o inquérito das fake news. Ele precisa dos autos para decidir uma ação do PP sobre provas da operação Tempus Veritatis. Sexta, o presidente do STF, Edson Fachin, respondeu: os outros três procedimentos são públicos e estão liberados. O inquérito das fake news, não. Segundo a CNN Brasil, são 104 procedimentos vinculados, em revisão individual, sem prazo para terminar. Fachin diz que o objetivo é arquivar e que o acesso vem depois. E o Poder360 informa que Fux não deve decidir antes do segundo turno, dia 25. Atenção: o arquivamento é intenção declarada e a validade das provas ainda não foi decidida pelo plenário. A pergunta é simples: por que um ministro do mesmo tribunal precisa esperar para ler um inquérito que já tem sete anos? Comenta o que você acha.",
+          "screen_text": [
+            "48 horas",
+            "104 procedimentos",
+            "Sem prazo",
+            "2º turno: 25/10"
+          ],
+          "caption": "Fux pediu o inquérito das fake news. Fachin disse que primeiro vai revisar 104 procedimentos. O arquivamento é intenção declarada, e o plenário ainda não decidiu sobre as provas. Por que esperar? Comenta.",
+          "risk": "médio",
+          "risk_note": "Atribuir tudo a Fachin, CNN e Poder360. Não insinuar ocultação de provas nem afirmar motivação política; a pergunta final é opinião.",
+          "timeline": {
+            "rende": true,
+            "angle": "Acompanhar a decisão de Fux após o 2º turno e o relatório da PF a Fachin."
+          }
+        },
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Fux pediu o inquérito. Fachin pediu tempo",
+          "tone": "contundente",
+          "duration": "imagem única",
+          "fact": "Na sexta (9), o presidente do STF, Edson Fachin, negou a Luiz Fux o acesso imediato ao Inq 4.781, o inquérito das fake news, que Fux havia pedido em 48 horas para julgar a ADPF 1.144, ação do PP sobre provas da operação Tempus Veritatis. Fachin disse que os outros três procedimentos pedidos são públicos e podem ser consultados. Segundo a CNN Brasil, são 104 procedimentos vinculados ao inquérito em revisão individual, parte já digitalizada, sem prazo definido; casos que exigirem diligências podem ir à PF e depois à PGR. Fachin afirmou que a mudança de relatoria, em 9 de setembro, não altera os atos regularmente praticados até então. Segundo o Poder360, Fux não deve decidir antes do 2º turno, em 25 de outubro. O arquivamento é intenção declarada de Fachin e a validade das provas ainda não foi decidida pelo plenário.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/fachin-faz-pente-fino-em-104-casos-antes-de-arquivar-inquerito-de-fake-news/"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/fachin-nega-acesso-de-fux-a-inquerito-das-fake-news-no-stf/"
+            }
+          ],
+          "art_text": [
+            "104 procedimentos",
+            "Fux pediu em 48 horas.",
+            "Fachin: primeiro revisar.",
+            "Quem vai ler o inquérito antes do 2º turno?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Luiz Fux e Edson Fachin, ministros do STF, protagonistas diretos do impasse. Ilustração estilo charge, sem foto real. Risco médio: só gesto de impasse (Fux com a mão estendida, Fachin com a pasta), sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, o ministro Luiz Fux (toga preta, mão estendida pedindo algo, expressão séria e impaciente) de frente para o ministro Edson Fachin (toga preta, segurando junto ao peito uma pilha grossa de pastas, expressão firme e fechada). Ao fundo, a fachada estilizada do STF com colunas e um relógio de parede. No alto, em branco, letras condensadas e muito pesadas: \"Fux pediu em 48 horas.\" Logo abaixo, em amarelo, letras maiores: \"Fachin: primeiro revisar.\" Em quadro vermelho com números brancos, no canto: \"104 procedimentos\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Quem vai ler o inquérito antes do 2º turno?\" No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Fux pediu acesso ao inquérito das fake news em 48 horas. Fachin disse que antes revisa 104 procedimentos. Segundo o Poder360, Fux não deve decidir antes do 2º turno.",
+          "risk": "médio",
+          "risk_note": "Ilustração sem ação inventada. Frase final é pergunta, não acusação. Atribuir os fatos às fontes.",
+          "timeline": {
+            "rende": true,
+            "angle": "Reel com o roteiro da primeira opção e atualização quando Fux decidir."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-10",
       "done": "2026-10-10T09:20:00-03:00",
       "issue": 21,
       "slot_hint": "Imagem às 12h de sábado (10) e reel às 19h, antes da semana que antecede o 2º turno.",
