@@ -1,0 +1,239 @@
+{
+ "date": "2026-10-10",
+ "generated": "2026-10-10T08:01:07-03:00",
+ "programa": "Conversa Timeline",
+ "titulo": "Gasolina a zero, inquérito trancado e moeda de voto: o sábado em que a conta chega antes da urna",
+ "abertura": "O sábado começa com o governo zerando o imposto da gasolina por 30 dias, a 16 dias do 2º turno, e analistas perguntando quem paga depois. No Supremo, Fachin barra o acesso de Fux ao inquérito das fake news e promete arquivá-lo. No TSE, um site que dava criptomoeda por apoio ao voto 22 foi derrubado, e a campanha de Flávio nega qualquer relação. No Senado, a PEC do fim da 6x1 ganhou data para quarta, e o rito vira o centro da disputa. Completam a pauta a queda do avião da PM mineira e o anúncio de Trump sobre diesel russo.",
+ "agenda": [
+  {
+   "time": "Quarta, 14/10",
+   "text": "Senado vota em 1º turno a PEC do fim da escala 6x1",
+   "source": {
+    "name": "Poder360",
+    "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-pauta-votacao-do-fim-da-escala-6-x-1-para-14-de-outubro/"
+   }
+  },
+  {
+   "time": "13/10",
+   "text": "Audiência de Fachin com Andrei Rodrigues, da PF",
+   "source": {
+    "name": "Poder360",
+    "url": "https://www.poder360.com.br/poder-justica/fachin-nega-acesso-de-fux-a-inquerito-das-fake-news-no-stf/"
+   }
+  }
+ ],
+ "itens": [
+  {
+   "id": "gasolina-zerada",
+   "bloco": "Economia",
+   "titulo": "O desconto que vence junto com a urna",
+   "subtitulo": "Governo zera tributos federais da gasolina por 30 dias, a 16 dias do segundo turno, e promete que a conta fecha",
+   "resumo": "Na sexta (9), o governo zerou PIS/Cofins e Cide sobre a gasolina e ampliou as subvenções a gasolina, etanol e diesel importado, num pacote de R$ 5,2 bilhões para 30 dias. O benefício por litro de gasolina subiu de R$ 0,63 para R$ 0,89, e a subvenção, de R$ 0,25 para R$ 0,43. O governo diz que as medidas são temporárias e serão pagas com receitas extraordinárias do petróleo, o que garantiria a neutralidade fiscal. Para o contribuinte, a pergunta é quem paga quando o desconto acabar, porque o imposto zerado hoje vira corte de serviço ou dívida amanhã. Anunciar um alívio com validade de um mês, a duas semanas da eleição, é o tipo de política que o eleitor tem o direito de olhar com desconfiança.",
+   "metafora": "É como pagar o jantar com o cartão de um parente e anunciar que a refeição saiu de graça: a conta existe, só chega depois.",
+   "contexto": [
+    "Pacote anunciado em 9/10 soma R$ 5,2 bilhões em 30 dias: R$ 3,6 bilhões para gasolina e etanol e R$ 1,6 bilhão para o diesel importado.",
+    "Gasolina: ampliação de R$ 0,26 por litro sobre os R$ 0,63 anunciados em setembro; subvenção de R$ 0,25 para R$ 0,43 por litro.",
+    "Diesel importado ganha subvenção de R$ 1,40 por litro, além dos R$ 2,12 já em vigor.",
+    "Brent acima de US$ 100 desde a guerra no Oriente Médio, iniciada no fim de fevereiro.",
+    "O ministro Dario Durigan nega relação com o calendário eleitoral; o 2º turno é em 25 de outubro."
+   ],
+   "angulo": [
+    "Imposto zerado por 30 dias, a 16 dias da urna, não é política de combustíveis: é política de campanha paga pelo contribuinte.",
+    "Subsídio é fácil de dar e quase impossível de tirar, como alerta Edmar de Almeida, da PUC-Rio. O governo cria um problema para o próximo mandato, seja de quem for.",
+    "O caminho sério é reduzir o custo estrutural do combustível e cortar gasto, e não maquiar o preço na bomba."
+   ],
+   "perguntas": [
+    "Se o desconto é temporário, o que acontece com o preço da gasolina no dia 10 de novembro?",
+    "Receita extraordinária do petróleo justifica gastar sem dizer que corte será feito para compensar?",
+    "Quem ganha mais com o pacote: o motorista, o produtor de etanol ou a campanha?"
+   ],
+   "atencao": "A neutralidade fiscal é a versão do governo; analistas ouvidos pela CNN Brasil discordam. O efeito final nas bombas depende de outros fatores.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/governo-zera-impostos-federais-gasolina-16-dias-segundo-turno/"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/medidas-do-governo-para-combustiveis-sao-insustentaveis-dizem-analistas/"
+    }
+   ]
+  },
+  {
+   "id": "fachin-fux-fake-news",
+   "bloco": "STF e instituições",
+   "titulo": "A chave do cofre que o STF não entrega",
+   "subtitulo": "Fux pede a íntegra do inquérito das fake news; Fachin diz que primeiro vai arquivar",
+   "resumo": "Na quinta (8), o ministro Luiz Fux deu 48 horas para a área técnica liberar a íntegra do inquérito das fake news, antes de decidir a ação do PP que pede a anulação de provas ligadas à trama golpista. Na sexta (9), o presidente do STF, Edson Fachin, negou o acesso imediato a esse inquérito, mas liberou os outros três procedimentos, que são públicos. Fachin diz que há 104 procedimentos vinculados ao inquérito, que precisam de exame individual, e que o objetivo é o arquivamento definitivo, com acesso a Fux só depois. O inquérito ficou com Alexandre de Moraes de 2019 até setembro de 2026, quando passou à Presidência do Supremo. Segundo o Poder360, Fux não deve decidir antes do 2º turno, em 25 de outubro.",
+   "contexto": [
+    "Fux pediu a íntegra do inquérito das fake news (Inq 4781) e de três procedimentos; os outros três são públicos e estão liberados.",
+    "ADPF 1144, do PP, de abril de 2024, questiona a abertura da Pet 12100, ligada à operação Tempus Veritatis.",
+    "Fachin identificou 104 procedimentos vinculados ao inquérito; parte foi digitalizada e precisa de exame individual.",
+    "O inquérito está com a Presidência desde 9 de setembro (Portaria 189); depois do exame, vai à PF e à PGR.",
+    "Segundo o Poder360, Fux não deve decidir antes do 2º turno."
+   ],
+   "angulo": [
+    "Um ministro do Supremo que não consegue ver os autos que julga mostra o problema de inquérito aberto há sete anos, sem prazo e sem controle.",
+    "Arquivar é correto, mas arquivar antes de dar acesso a quem vai julgar a validade do ato parece blindagem, e o cidadão tem o direito de saber o que foi feito em seu nome.",
+    "Sigilo serve à investigação, não pode servir para impedir o controle de legalidade, como disse o próprio Fux."
+   ],
+   "perguntas": [
+    "Por que a Presidência precisa arquivar antes de dar acesso ao ministro que vai julgar a ação?",
+    "Sete anos de inquérito sem fim cabem no Estado de Direito?",
+    "O que o público perde se a decisão de Fux só vier depois da eleição?"
+   ],
+   "atencao": "O arquivamento é intenção declarada de Fachin. A validade das provas ainda não foi decidida pelo plenário.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news/"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/fachin-nega-acesso-de-fux-a-inquerito-das-fake-news-no-stf/"
+    }
+   ]
+  },
+  {
+   "id": "token-b22-tse",
+   "bloco": "Política nacional",
+   "titulo": "A moeda que pagava por um voto 22",
+   "subtitulo": "TSE derruba site que dava criptomoeda a quem postasse apoio a Flávio, e a campanha diz que não tem nada com isso",
+   "resumo": "Na sexta (9), a ministra Estela Aranha, do TSE, mandou suspender o site Brasil 22 Token, que prometia o token $B22 a quem publicasse e mantivesse conteúdo de apoio ao voto 22. A Folha revelou o site na terça (6), e a coligação de Lula levou o caso ao tribunal na quinta (8), com representação contra quatro pessoas, entre elas Flávio Bolsonaro e Pablo Marçal. A decisão proibiu a oferta dos tokens, mandou remover conteúdos em X, Instagram, Telegram e WhatsApp e pediu a corretoras e plataformas a identificação dos responsáveis. A campanha de Flávio nega vínculo, contratação ou despesa e diz que seu nome e seu número foram usados indevidamente. A defesa aponta, em registros públicos de blockchain, a transferência de 120 milhões de unidades do token a um perfil que depois publicou vídeo com referências eleitorais.",
+   "contexto": [
+    "Folha revelou o site em 6/10; liminar da ministra Estela Aranha saiu em 9/10.",
+    "O programa Airdrop dava tokens a quem publicasse apoio ao voto 22, número do PL.",
+    "Foram suspensos o domínio brasil22token.com e a oferta do token $B22, com remoção de conteúdos em quatro plataformas.",
+    "A campanha de Flávio também entrou com representação e diz que vai agir nas esferas eleitoral, cível e criminal.",
+    "O plenário do TSE ainda vai analisar as liminares."
+   ],
+   "angulo": [
+    "Se há dinheiro pago por voto, a punição tem de ser dura, de quem quer que seja o beneficiário. Mas ninguém é culpado pelo que um terceiro faz com seu número.",
+    "Responsabilidade se prova com vínculo, e até agora a única versão sobre vínculo é a negativa da campanha. A acusação sem prova é arma de campanha.",
+    "A velocidade do TSE em derrubar o site deve ser a mesma para qualquer lado da disputa."
+   ],
+   "perguntas": [
+    "O que precisa ser provado para ligar um token anônimo a uma campanha?",
+    "A Justiça Eleitoral age com a mesma rapidez quando o beneficiário é o outro lado?",
+    "Quem usa o nome de um candidato para fazer dinheiro deveria responder criminalmente?"
+   ],
+   "atencao": "Não há prova pública de vínculo entre o site e Flávio Bolsonaro. Operadores do site ainda não foram identificados.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/tse-suspende-site-que-oferece-criptomoedas-por-apoio-a-flavio/"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/tse-manda-suspender-site-que-oferece-criptomoedas-por-apoio-a-flavio/"
+    }
+   ]
+  },
+  {
+   "id": "6x1-senado-dia14",
+   "bloco": "Política nacional",
+   "titulo": "Quarta tem data, e o rito vai ser medido",
+   "subtitulo": "Alcolumbre marca o 1º turno da PEC que acaba com a escala 6x1, mas o 2º turno antes da eleição depende de acordo",
+   "desdobramento": "Alcolumbre marcou para quarta (14) a votação em 1º turno, e a pauta anterior tratava só da disputa sobre o rito.",
+   "resumo": "Davi Alcolumbre marcou para quarta-feira, 14 de outubro, a votação em 1º turno da PEC que muda a escala 6x1. O texto fixa jornada máxima de 40 horas semanais, em 5 dias de trabalho e 2 de descanso, sem redução de salário. Para passar, precisa de 49 dos 81 votos, em dois turnos, e de cinco sessões de discussão antes do 1º turno, das quais três já ocorreram. Depois da votação, ainda são necessárias três sessões de discussão antes do 2º turno, e o intervalo só pode ser encurtado por acordo de líderes. Alcolumbre diz que vai seguir integralmente o rito constitucional, e o governo quer concluir tudo antes do 2º turno presidencial, em 25 de outubro.",
+   "contexto": [
+    "A PEC 221/2019 foi aprovada na CCJ do Senado em 2 de setembro; o relator é Omar Aziz (PSD-AM).",
+    "Redução da jornada de 44 para 40 horas semanais, com dois dias de descanso, preferencialmente o domingo, e salário mantido.",
+    "Faltam duas sessões de discussão antes do 1º turno, e três entre os dois turnos.",
+    "Exige 49 votos entre 81 senadores.",
+    "O governo quer concluir antes de 25 de outubro; Alcolumbre diz que não vai atropelar o rito."
+   ],
+   "angulo": [
+    "Reduzir jornada é debate legítimo, mas decidir em semana de campanha, por calendário eleitoral, é o pior jeito de mexer na vida de milhões de empregadores e empregados.",
+    "O custo cai sobre o pequeno empresário e sobre o emprego formal, e esse custo precisa aparecer no debate, e não depois do voto.",
+    "A sociedade deve cobrar do Senado um debate com números sobre o impacto, e não uma votação feita para dar discurso a candidato."
+   ],
+   "perguntas": [
+    "Dá para votar uma mudança desse tamanho sem estudo de impacto sobre pequenas empresas?",
+    "O Senado vai encurtar os prazos do 2º turno só porque a eleição é dia 25?",
+    "Quem fica com a conta: o empregador, o consumidor ou o emprego?"
+   ],
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-pauta-votacao-do-fim-da-escala-6-x-1-para-14-de-outubro/"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/alcolumbre-pauta-votacao-do-fim-da-escala-6x1-para-a-proxima-quarta-feira/"
+    }
+   ]
+  },
+  {
+   "id": "aviao-pmmg",
+   "bloco": "Segurança pública",
+   "titulo": "Três pilotos que não voltaram do exame",
+   "subtitulo": "Avião da PM mineira cai perto de Ipatinga durante voo de rechecagem; a causa só a investigação diz",
+   "resumo": "Na tarde de sexta (9), um bimotor King Air da Polícia Militar de Minas Gerais caiu perto do aeroporto do Vale do Aço, em Santana do Paraíso, e os três policiais a bordo morreram. A aeronave tinha saído da Pampulha, em Belo Horizonte, por volta das 15h15, para um voo de rechecagem de habilitação. Segundo a PM, o oficial que pilotava tinha mais de 5 mil horas de voo, e as duas tenentes somavam mais de 3 mil. Uma das tenentes havia voltado de licença-maternidade e deixa dois filhos e o marido, também policial militar. A causa será investigada, e a matéria não informa quem conduzirá a apuração nem os prazos.",
+   "contexto": [
+    "Queda ocorreu na sexta (9), perto do aeroporto do Vale do Aço; os três policiais morreram.",
+    "Aeronave: bimotor Beechcraft King Air 300, prefixo PP-EJO, decolou da Pampulha por volta das 15h15.",
+    "Voo de rechecagem de habilitação, segundo a PM.",
+    "Vítimas: tenente-coronel Luiz Fernando Silvestre, 49 anos, e as tenentes Gabriela Emília e Alice Almeida.",
+    "Mais cedo, um monomotor caiu em Belo Horizonte e matou o piloto; são acidentes distintos."
+   ],
+   "angulo": [
+    "Quem treina para proteger a população merece reconhecimento e respeito, e a PM mineira perdeu três quadros experientes de uma só vez.",
+    "A investigação precisa ser técnica, rápida e pública, sem especulação antes do laudo. A família e a corporação merecem resposta.",
+    "Policiais que arriscam a vida todos os dias morrem também em serviço de rotina. É hora de lembrar que segurança pública depende de equipamento, treinamento e manutenção bem financiados."
+   ],
+   "perguntas": [
+    "O que precisa ser divulgado na investigação para dar confiança à corporação e às famílias?",
+    "As aeronaves das polícias estaduais recebem a manutenção e o investimento necessários?",
+    "Como o programa pode homenagear os três sem especular sobre a causa?"
+   ],
+   "atencao": "Causa da queda desconhecida. Não especular. A reportagem também grafa a patente e o primeiro nome do comandante de modos diferentes.",
+   "fontes": [
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/brasil/aviao-da-pm-cai-proximo-a-aeroporto-do-vale-do-aco-em-mg-tres-policiais-morreram/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/minas-gerais/quem-eram-os-pms-que-estavam-em-aviao-que-caiu-em-minas"
+    }
+   ]
+  },
+  {
+   "id": "trump-diesel-russo",
+   "bloco": "Internacional",
+   "titulo": "O diesel que vem de quem estava sob sanção",
+   "subtitulo": "Trump anuncia acordo com Putin por diesel russo, e os números do anúncio não fecham",
+   "resumo": "Trump anunciou na sexta (9) um acordo com Vladimir Putin para o fornecimento imediato de mais de 300 mil toneladas de diesel russo ao mercado americano e ao mundo. Segundo ele, a Rússia enviaria 500 mil toneladas em novembro e 1 milhão logo depois, e depois mais 3 milhões em curto prazo, dependendo das refinarias. Os volumes citados não batem entre si, porque 300 mil mais 500 mil mais 1 milhão somam cerca de 1,8 milhão de toneladas. Trump não detalhou termos nem mecanismos de entrega, e as reportagens não trazem confirmação de Moscou. Para o Brasil, que importa diesel e vê o Brent acima de US$ 100, qualquer queda do preço internacional pesa no bolso do caminhoneiro e na inflação.",
+   "metafora": "É como anunciar a chegada de caminhões de água num incêndio sem dizer quando saem da garagem: o anúncio acalma, mas só a entrega apaga o fogo.",
+   "contexto": [
+    "Anúncio de Trump, feito pela Truth Social em 9/10, após conversa com Putin que ele chamou de altamente bem-sucedida.",
+    "Volumes: mais de 300 mil toneladas imediatas, 500 mil em novembro, 1 milhão depois e 3 milhões no total, conforme as refinarias.",
+    "Trump ligou o anúncio ao Estreito de Ormuz, onde diz ter controle total.",
+    "Não há confirmação russa nas reportagens abertas; o Brasil 247 cita que o Kremlin disse que a Ucrânia ocupou a maior parte da ligação.",
+    "O governo brasileiro zerou tributos da gasolina na mesma sexta por causa do petróleo acima de US$ 100."
+   ],
+   "angulo": [
+    "Anúncio de presidente sem número fechado e sem confirmação do outro lado é promessa, e não fato, e o programa trata assim.",
+    "Se o diesel russo entrar de fato, o preço cai, mas isso mostra como o mercado de energia ficou refém de guerras e acordos entre grandes potências.",
+    "O Brasil não pode depender de subsídio e de torcida: precisa de política energética própria, com refino e produção interna."
+   ],
+   "perguntas": [
+    "O que um acordo de diesel com Putin diz sobre o equilíbrio da guerra na Ucrânia?",
+    "O diesel mais barato chega ao posto brasileiro ou fica no mercado americano?",
+    "O Brasil está preparado para um choque de energia como esse?"
+   ],
+   "atencao": "Termos do acordo e volumes não confirmados pela Rússia nas fontes abertas.",
+   "fontes": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/trump-anuncia-acordo-com-putin-para-fornecimento-de-diesel-russo/"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/mundo/trump-diz-que-russia-vai-fornecer-300-mil-toneladas-de-diesel-imediatamente/"
+    }
+   ]
+  }
+ ]
+}
