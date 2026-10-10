@@ -925,7 +925,7 @@ function renderWeekly(){
   const host=$("#weekly");if(!A){host.innerHTML="";$("#auto-h").style.display="none";$("#auto-sub").style.display="none";return}
   const byCode=Object.fromEntries(ALL.map(p=>[p.code,p]));
   const ago=Math.round((Date.now()-new Date(A.generated))/864e5);
-  const cmpTxt=dyn?(r===1?"a média dos 7 dias anteriores":`os ${r} dias anteriores (${A.compare})`):perLabel(A.compare.start,A.compare.end);
+  const cmpTxt=dyn?(r===1?"a média dos 7 dias anteriores":`os ${r} dias anteriores (${String(A.compare).replace(/(\d{4})-(\d{2})-(\d{2})/g,(m,y,mo,d)=>`${d}/${mo}`)})`):perLabel(A.compare.start,A.compare.end);
   const ttl=dyn?(r===1?`Análise do dia ${dBR(A.period.end)}`:`Análise dos últimos ${r} dias`):"Análise da semana";
   const vs=dyn?(r===1?"média da semana":`${r} dias anteriores`):"semana anterior";
   host.innerHTML=`<div class="card" style="border-left:4px solid var(--s1)">
