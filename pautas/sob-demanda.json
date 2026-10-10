@@ -2,6 +2,99 @@
   "items": [
     {
       "requested": "2026-10-10",
+      "done": "2026-10-09T21:58:38-03:00",
+      "issue": 19,
+      "slot_hint": "Carrossel às 12h de sábado (10) e reel às 19h, com o 2º turno se aproximando.",
+      "source": {
+        "edition": "programa/2026-10-09",
+        "item_id": "observatorio-institutos",
+        "title": "A régua que errou sempre para o mesmo lado"
+      },
+      "options": [
+        {
+          "type": "c",
+          "style": "cartaz",
+          "title": "13 de 16 pesquisas erraram para o mesmo lado. Por quê?",
+          "tone": "contundente, com perguntas",
+          "duration": "carrossel de 7 slides",
+          "fact": "O Observatório Eleitoral, estudo da Revista Timeline com pesquisa de Rogerio Pires, comparou a última pesquisa pública de cada instituto com o resultado oficial em nove disputas, de 2014 a 2026. Em 13 das 16 pesquisas presidenciais, a margem favoreceu o candidato do PT mais do que a urna, com diferença média de 4,46 pontos percentuais. Todas as 14 estimativas para Bolsonaro (2018 e 2022) e Flávio (2026) ficaram abaixo do resultado, em média 3,89 pontos, e o Datafolha teve a maior subestimação do principal adversário nos quatro ciclos, média de 6,45 pontos. No Senado do Paraná em 2022, o Ipec deu 14% a Paulo Martins, que teve 29,12%. O próprio estudo avisa que a amostra é intencional e que os achados não provam fraude, má-fé nem influência sobre campanhas.",
+          "sources": [
+            {
+              "name": "Observatório Eleitoral (Revista Timeline)",
+              "url": "https://observatorio.revistatimeline.com/"
+            },
+            {
+              "name": "Revista Oeste (AtlasIntel, Rio)",
+              "url": "https://revistaoeste.com/politica/rio-paes-tem-511-contra-421-de-ruas-no-2o-turno/"
+            }
+          ],
+          "art_text": [
+            "13 de 16 pesquisas",
+            "erraram para o mesmo lado",
+            "Média: +4,46 pontos para o PT",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Capa sem rosto: régua torta sobre urna eletrônica, em cartaz com textura escura. Risco baixo.",
+          "prompt": "Crie uma arte de cartaz vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. Capa de carrossel: uma régua de madeira entortada apoiada sobre uma urna eletrônica. No alto, em branco, letras condensadas e muito pesadas: \"13 de 16 pesquisas\". Logo abaixo, em letras brancas menores: \"erraram para o mesmo lado\". Em quadro amarelo, números pretos: \"+4,46 pontos\". Embaixo, com sublinhado vermelho pincelado: \"Arrasta para o lado\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar esses elementos, use formas genéricas e mantenha o resto da composição.",
+          "slides": [
+            "Capa: 13 de 16 pesquisas presidenciais erraram para o mesmo lado. Média de +4,46 pontos para o PT.",
+            "O estudo: o Observatório Eleitoral, da Revista Timeline, comparou a última pesquisa de cada instituto com a urna em nove disputas, de 2014 a 2026.",
+            "O padrão: em 13 das 16 pesquisas presidenciais, a margem favoreceu o candidato do PT mais do que a urna.",
+            "O adversário: as 14 estimativas para Bolsonaro (2018 e 2022) e Flávio (2026) ficaram abaixo do resultado. Média de 3,89 pontos a menos.",
+            "O Datafolha teve a maior subestimação do principal adversário do PT nos quatro ciclos: média de 6,45 pontos.",
+            "O caso extremo: no Senado do Paraná em 2022, o Ipec deu 14% a Paulo Martins. Ele teve 29,12%.",
+            "Último slide: o estudo é exploratório, a amostra é intencional e ele não prova fraude nem má-fé. Mas erro repetido para o mesmo lado pede explicação e metodologia aberta. Qual número você vai olhar no dia 25? Comenta. Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "caption": "Estudo da Revista Timeline: em 13 das 16 pesquisas presidenciais de 2014 a 2026, a margem favoreceu o PT mais do que a urna. O estudo não prova má-fé, mas o padrão pede explicação dos institutos. Comenta.",
+          "risk": "médio",
+          "risk_note": "Falar em padrão de erro, nunca em manipulação, fraude ou má-fé. Dizer sempre que o estudo é exploratório, de veículo do próprio programa, com amostra intencional. Números vêm da página do Observatório.",
+          "timeline": {
+            "rende": true,
+            "angle": "Os institutos vão publicar metodologia e ponderação antes do 2º turno? Cobrar resposta do Datafolha."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Quatro eleições, o mesmo erro: a régua que pende para um lado",
+          "tone": "contundente, sem acusar",
+          "duration": "45 a 60s",
+          "fact": "O Observatório Eleitoral, estudo da Revista Timeline com pesquisa de Rogerio Pires, comparou a última pesquisa pública de cada instituto com o resultado oficial em nove disputas, de 2014 a 2026. Em 13 das 16 pesquisas presidenciais, a margem favoreceu o candidato do PT mais do que a urna, com diferença média de 4,46 pontos percentuais. Todas as 14 estimativas para Bolsonaro (2018 e 2022) e Flávio (2026) ficaram abaixo do resultado, em média 3,89 pontos, e o Datafolha teve a maior subestimação do principal adversário nos quatro ciclos, média de 6,45 pontos. No Senado do Paraná em 2022, o Ipec deu 14% a Paulo Martins, que teve 29,12%. O próprio estudo avisa que a amostra é intencional e que os achados não provam fraude, má-fé nem influência sobre campanhas.",
+          "sources": [
+            {
+              "name": "Observatório Eleitoral (Revista Timeline)",
+              "url": "https://observatorio.revistatimeline.com/"
+            },
+            {
+              "name": "Revista Oeste (AtlasIntel, Rio)",
+              "url": "https://revistaoeste.com/politica/rio-paes-tem-511-contra-421-de-ruas-no-2o-turno/"
+            }
+          ],
+          "hooks": [
+            "Treze de dezesseis pesquisas. Todas erraram para o mesmo lado.",
+            "O Datafolha errou contra o adversário do PT nas quatro eleições presidenciais.",
+            "Ipec deu 14% a ele. A urna deu 29."
+          ],
+          "script": "Um estudo da Revista Timeline pegou a última pesquisa de cada instituto e comparou com a urna, em nove disputas, de 2014 a 2026. Nas presidenciais, foram 16 pesquisas. Em 13, a margem favoreceu o candidato do PT mais do que a urna: quatro vírgula quarenta e seis pontos a mais, em média. As 14 estimativas para Bolsonaro e Flávio ficaram todas abaixo do resultado. O Datafolha teve a maior subestimação do adversário do PT nos quatro ciclos: seis vírgula quarenta e cinco pontos. E no Senado do Paraná, em 2022, o Ipec deu 14% a Paulo Martins. Ele teve 29. Atenção: o próprio estudo diz que a amostra é intencional e que não prova fraude nem má-fé. Mas erro repetido para o mesmo lado deixa de ser ruído e vira padrão. Os institutos têm o dever de explicar a metodologia. E no dia 25, o resultado que vale é o da urna.",
+          "screen_text": [
+            "13 de 16 pesquisas",
+            "+4,46 pontos para o PT",
+            "Datafolha: -6,45 pontos no adversário",
+            "Ipec: 14% x 29,12% (Paraná, 2022)",
+            "Estudo não prova fraude nem má-fé",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "caption": "Treze de 16 pesquisas presidenciais favoreceram o PT acima da urna, segundo estudo da Revista Timeline. Padrão de erro pede explicação. Comenta.",
+          "risk": "médio",
+          "risk_note": "Não usar a palavra manipulação nem sugerir fraude. Citar a ressalva do estudo no próprio vídeo. Atribuir os números ao Observatório Eleitoral.",
+          "timeline": {
+            "rende": true,
+            "angle": "Cobrar dos institutos a metodologia aberta e comparar com a urna de 25 de outubro."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-10",
       "done": "2026-10-09T21:32:00-03:00",
       "issue": 17,
       "slot_hint": "Carrossel às 19h de sábado (10) e stories com enquete às 12h, enquanto o assunto está em alta.",
