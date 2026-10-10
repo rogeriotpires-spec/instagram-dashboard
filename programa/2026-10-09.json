@@ -2,8 +2,8 @@
  "date": "2026-10-09",
  "generated": "2026-10-09T10:14:20-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Dinheiro vivo, urna e um prefeito de nome impossível: a sexta que mistura política, toga e bolso",
- "abertura": "Daniel Vorcaro diz que pagou R$ 30 milhões em dinheiro por um documentário sobre Lula, e a campanha do presidente entrega o comando digital à deputada mais jovem eleita de Minas. Do outro lado do mapa, um vilarejo peruano de 730 habitantes elegeu prefeito um candidato chamado Hitler Mussolini, e o mundo inteiro quis saber por quê. No 2º turno, dois institutos agora apontam Flávio à frente de Lula, no Rio a Justiça encerrou a eleição para governador antes da urna, e em Brasília o Supremo manda cumprir a pena de Eduardo Bolsonaro enquanto o Senado tenta esconder quem entra pela porta. No bolso, a inflação de setembro estourou o teto da meta, puxada pela conta de luz e por um petróleo que não para de subir.",
+ "titulo": "Quem mede o voto, o dinheiro vivo e o prefeito de nome impossível: a sexta em que a régua também vai a julgamento",
+ "abertura": "Um estudo da Revista Timeline mostra que, em quatro eleições presidenciais, as pesquisas erraram quase sempre contra o mesmo lado, e esse padrão entra na conversa antes de qualquer número novo. Daniel Vorcaro diz que pagou R$ 30 milhões em dinheiro por um documentário sobre Lula, e a campanha do presidente entrega o comando digital à deputada mais jovem eleita de Minas. Do outro lado do mapa, um vilarejo peruano de 730 habitantes elegeu prefeito um candidato chamado Hitler Mussolini. No 2º turno, dois institutos agora apontam Flávio à frente, no Rio a Justiça encerrou a eleição para governador antes da urna, e no bolso a inflação de setembro estourou o teto da meta.",
  "agenda": [
   {
    "time": "9h",
@@ -140,6 +140,49 @@
    ],
    "avulsa": true,
    "pedido": "https://www.metropoles.com/mundo/hitler-mussolini-vence-eleicao-e-se-torna-prefeito-em-queropalca-no-peru"
+  },
+  {
+   "id": "observatorio-institutos",
+   "bloco": "Política nacional",
+   "titulo": "A régua que errou sempre para o mesmo lado",
+   "subtitulo": "Estudo da Revista Timeline compara a última pesquisa de cada instituto com a urna em quatro eleições presidenciais",
+   "resumo": "O Observatório Eleitoral, estudo da Revista Timeline com pesquisa de Rogerio Pires, comparou a última pesquisa pública de cada instituto com o resultado oficial em nove disputas, de 2014 a 2026. Em 13 das 16 pesquisas presidenciais, a margem favoreceu o candidato do PT mais do que a urna, com diferença média de 4,46 pontos percentuais. Todas as 14 estimativas para Bolsonaro (2018 e 2022) e Flávio (2026) ficaram abaixo do resultado, em média 3,89 pontos, e o Datafolha teve a maior subestimação do principal adversário nos quatro ciclos, média de 6,45 pontos. Entre os casos individuais, o Ipec deu 14% a Paulo Martins no Senado do Paraná em 2022 e ele teve 29,12%, e no Rio de 2026 seis de sete pesquisas traziam Paes na frente. O próprio estudo avisa que a amostra é intencional e que os achados não provam fraude, má-fé nem influência sobre campanhas.",
+   "metafora": "É como uma balança de mercado que, pesada a pesada, marca sempre uns gramas a menos para o mesmo freguês: um erro pode ser acaso, uma sequência de quatro eleições merece explicação.",
+   "contexto": [
+    "O estudo cobre nove disputas e quatro ciclos presidenciais, de 2014 a 2026, com corte de dados em 7 de outubro de 2026 (Observatório Eleitoral, Revista Timeline)",
+    "Presidencial: 13 de 16 pesquisas favoreceram o PT acima da urna, média de +4,46 p.p.; o erro médio para o candidato do PT foi de cerca de +0,18 p.p., e o estudo diz que médias perto de zero podem esconder erros que se compensam",
+    "Paraná, Senado 2022: Ipec estimou Paulo Martins em 14% e a urna deu 29,12%, a maior diferença individual (-15,12 p.p.)",
+    "Rio, governo 2026: a AtlasIntel de 22 a 27 de setembro dava Paes 44,1% e Ruas 35,7% no 1º turno, com margem de 2 pontos (Revista Oeste); no 1º turno, Ruas teve 49,27% e Paes 42,76% (Gazeta do Povo, citada no item do Rio)",
+    "Ressalvas do próprio estudo: amostra intencional, e não censo; ranking só vale dentro de cada disputa; não há \"instituto mais certeiro\"; Quaest teve o menor erro médio nas prefeituras de São Paulo e Rio em 2024"
+   ],
+   "angulo": [
+    "Erro de pesquisa para o mesmo lado, repetido em quatro ciclos, não é mais ruído: é um padrão que os institutos têm o dever de explicar com metodologia aberta.",
+    "O Datafolha, o instituto mais citado do país, aparece com a maior subestimação do adversário do PT nos quatro ciclos, e isso pede resposta pública sobre como a amostra é ponderada.",
+    "A pesquisa influencia o eleitor, o doador e a cobertura da imprensa; por isso errar sempre na mesma direção tem custo político real, mesmo sem prova de má-fé.",
+    "A mesma régua vale para o 2º turno: tratar o número de hoje como retrato, e a urna do dia 25 como o único resultado."
+   ],
+   "perguntas": [
+    "Por que os institutos erram tanto, e sempre na mesma direção, ao medir o eleitor de direita?",
+    "Que informações os institutos deveriam abrir (ponderação, taxa de resposta, cotas) para o público poder auditar o método?",
+    "Pesquisa errada de forma recorrente deveria ter alguma consequência, como multa ou perda de registro, ou basta transparência?"
+   ],
+   "atencao": "O estudo é exploratório, de veículo do próprio programa, com amostra intencional, e afirma não provar fraude, má-fé ou influência: não falar em manipulação, apenas em padrão de erro. Os números vêm da página do Observatório; as conferências independentes abertas foram só do caso do Rio.",
+   "fontes": [
+    {
+     "name": "Observatório Eleitoral (Revista Timeline)",
+     "url": "https://observatorio.revistatimeline.com/"
+    },
+    {
+     "name": "Revista Oeste (AtlasIntel, Rio)",
+     "url": "https://revistaoeste.com/politica/rio-paes-tem-511-contra-421-de-ruas-no-2o-turno/"
+    },
+    {
+     "name": "Gazeta do Povo (pesquisas de 2014)",
+     "url": "https://www.gazetadopovo.com.br/vida-publica/eleicoes/2014/ibope-e-datafolha-divulgam-ultimas-pesquisas-antes-das-eleicoes-confira-efdl19642wlu4wh8c74kdfeby"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "https://observatorio.revistatimeline.com/"
   },
   {
    "id": "datafolha-2-turno",
@@ -377,5 +420,5 @@
    ]
   }
  ],
- "atualizado": "2026-10-09T11:14:53-03:00"
+ "atualizado": "2026-10-09T21:37:47-03:00"
 }
