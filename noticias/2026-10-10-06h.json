@@ -1,0 +1,535 @@
+{
+ "generated": "2026-10-10T05:16:26-03:00",
+ "headline": "Flávio abre 6 pontos no PoderData, Vorcaro e o filme de Lula dominam a campanha, governo amplia subsídios aos combustíveis e Senado vota o fim da 6x1 na quarta.",
+ "top": [
+  "vorcaro-filme-lula",
+  "pesquisas-2-turno",
+  "gasolina-tributos-zerados",
+  "fachin-fux-inquerito",
+  "pec-6x1-senado"
+ ],
+ "items": [
+  {
+   "id": "vorcaro-filme-lula",
+   "segment": "politica",
+   "title": "Flávio acusa Lula de receber propina de Vorcaro por filme; PT fala em farsa e PF diz que delação foi rejeitada",
+   "summary": "A revista Veja publicou na noite de quinta-feira (8) reportagem com áudio em que Daniel Vorcaro teria negociado com o ex-tesoureiro do PT João Vaccari Neto recursos para um documentário sobre Lula, com R$ 30 milhões em espécie ao Instituto Lula. Na sexta (9), Flávio Bolsonaro disse que Lula recebeu propina e comparou o caso ao pedido de R$ 134 milhões feito por ele a Vorcaro para um filme sobre Jair Bolsonaro, que classificou como financiamento sem contrapartida. A campanha de Lula chamou o depoimento de farsa e afirmou que não há registro dele na PF nem delação aceita. Integrantes da PF disseram à CNN que a delação foi recusada por falta de elementos mínimos, e a PF negou que Vorcaro tenha citado verba para o filme em depoimento. A equipe de Oliver Stone nega que Vorcaro tenha financiado o documentário, e o Alckmin diz que não há prova, enquanto a Gazeta do Povo informa que a denúncia deve ser investigada.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 8,
+    "persistencia": 10,
+    "peso_voce": 10
+   },
+   "score": 8.8,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/vorcaro-financiou-filme-de-lula-em-troca-de-acesso-a-fundos-diz-revista/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/flavio-diz-que-lula-recebeu-propina-de-vorcaro-pt-nega-e-fala-em-farsa/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/denuncia-de-financiamento-de-vorcaro-a-filme-de-lula-nao-passou-pela-pf-mas-deve-ser-investigada/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/vorcaro-afirmou-ter-liberado-r-30-milhoes-para-filme-de-lula-em-troca-de-negocios-diz-revista",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/equipe-de-oliver-stone-nega-que-vorcaro-tenha-financiado-documentario-sobre-lula/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/pf-nega-que-vorcaro-tenha-citado-liberacao-de-verba-para-filme-sobre-lula-em-depoimento/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "pesquisas-2-turno",
+   "segment": "politica",
+   "title": "PoderData dá Flávio 53% a 47% sobre Lula no 2º turno, e Vox Brasil mostra Lula à frente",
+   "summary": "A pesquisa PoderData/Aya, feita de 5 a 7 de outubro com 3.000 entrevistas e margem de erro de 1,8 ponto, aponta Flávio Bolsonaro com 53% e Lula com 47% dos votos válidos no 2º turno. A vantagem de Flávio subiu para 6 pontos, e 54% dos entrevistados esperam a vitória dele, contra 37% que apostam em Lula. A rejeição de Lula é de 46% e a de Flávio, de 43%, e o governo é aprovado por 44% e desaprovado por 50%. A pesquisa Vox Brasil, divulgada pelo Brasil 247, traz Lula com 44,2% e Flávio com 42,7%, e o Datafolha no Distrito Federal dá 49% a 43% para Flávio. O 2º turno ocorre em 25 de outubro, e o 1º turno terminou com Flávio em 47,03% e Lula em 45,16%.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 8,
+    "persistencia": 10,
+    "peso_voce": 10
+   },
+   "score": 8.5,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-pesquisa-poderdata-aya/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-amplia-frente-politica-e-acumula-vitorias-no-2o-turno/",
+     "camp": "direita",
+     "position": "manchete"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/colunistas/beatriz-manfredini/tracking-pos-1o-turno-anima-qg-de-flavio-com-dianteira-consolidada-e-menor-rejeicao-que-lula/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/lula-tem-442-e-flavio-bolsonaro-427-no-segundo-turno-diz-pesquisa-vox-brasil/",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/distrito-federal/datafolha-no-df-flavio-lidera-com-49-no-segundo-turno-lula-soma-43",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "gasolina-tributos-zerados",
+   "segment": "economia",
+   "title": "Governo zera tributos federais da gasolina e amplia subsídios a etanol e diesel; analistas veem medidas insustentáveis",
+   "summary": "O governo anunciou em 9 de outubro pacote de R$ 5,2 bilhões para 30 dias, a 16 dias do 2º turno, que zera os tributos federais da gasolina e amplia subvenções a gasolina, etanol e diesel. Na gasolina, a desoneração foi ampliada em R$ 0,26 por litro sobre os R$ 0,63 anunciados antes, e a subvenção subiu de R$ 0,25 para R$ 0,43 por litro. O diesel importado ganha subvenção de R$ 1,40 e custo adicional de R$ 1,6 bilhão, enquanto a gasolina responde por R$ 3,6 bilhões. O ministro da Fazenda, Dario Durigan, disse que o objetivo é mitigar os efeitos da guerra no Oriente Médio sobre o petróleo, com o Brent acima de US$ 100. Analistas ouvidos pela CNN Brasil chamam as medidas de insustentáveis e de paliativo com caráter de desespero pré-eleitoral, e Edmar de Almeida, da PUC-Rio, diz que será difícil retirar o subsídio depois.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 8.3,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/medidas-do-governo-para-combustiveis-sao-insustentaveis-dizem-analistas/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-anuncia-novo-pacote-de-medidas-para-conter-alta-de-combustiveis",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/governo-zera-impostos-federais-gasolina-16-dias-segundo-turno/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/economia/governo-lula-zera-imposto-federal-sobre-a-gasolina-e-cria-subsidio-para-diesel/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/governo-lula-amplia-subsidios-sobre-gasolina-etanol-e-diesel-a-2-semanas-do-2o-turno/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tributos-da-gasolina-sao-zerados-e-subsidios-combustiveis-ampliados",
+     "camp": "estatal",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "fachin-fux-inquerito",
+   "segment": "politica",
+   "title": "Fachin nega a Fux acesso imediato ao inquérito das fake news e diz que pretende arquivá-lo",
+   "summary": "O presidente do STF, Edson Fachin, rejeitou em 9 de outubro a determinação de Luiz Fux, do dia anterior, de acesso integral e em 48 horas ao inquérito das fake news (Inq 4.781). Fachin afirmou que, dos quatro procedimentos citados por Fux na ADPF 1.144, só o Inq 4.781 é sigiloso, e que os outros três são públicos e podem ser consultados. O levantamento identificou 104 procedimentos ligados ao inquérito, que seguirão para a PF e depois para a PGR decidir sobre denúncia ou arquivamento. Fachin disse que pretende promover o arquivamento definitivo e depois dar publicidade aos atos, sem prazo fixado. O Poder360 informa que Fux não deve decidir o pedido do PP antes do 2º turno e que Fachin tem audiência com o diretor da PF, Andrei Rodrigues, marcada para 13 de outubro.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.8,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/fachin-nega-acesso-de-fux-a-inquerito-das-fake-news-no-stf/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/blogs/teo-cury/politica/fachin-nega-a-luiz-fux-acesso-imediato-a-integra-do-inquerito-das-fake-news/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news/",
+     "camp": "direita",
+     "position": "topo"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "pec-6x1-senado",
+   "segment": "politica",
+   "title": "Alcolumbre marca para 14 de outubro a primeira votação da PEC do fim da escala 6x1 no Senado",
+   "summary": "O presidente do Senado, Davi Alcolumbre, reservou a quarta-feira, 14 de outubro, para a primeira votação da PEC que acaba com a escala 6x1. A proposta fixa jornada máxima de 40 horas semanais, em 5 dias de trabalho e 2 de descanso, sem redução salarial. A aprovação exige ao menos 49 dos 81 senadores, em dois turnos. Antes da primeira votação são necessárias 5 sessões de discussão, e 3 já haviam ocorrido até quinta-feira (8), com mais 3 sessões antes do 2º turno de votação. A articulação do governo quer concluir a tramitação antes de 25 de outubro, o que pode exigir acordo para reduzir os intervalos.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 10,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 7.3,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-pauta-votacao-do-fim-da-escala-6-x-1-para-14-de-outubro/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/alcolumbre-pauta-1o-turno-de-votacao-do-fim-da-6x1-para-quarta-14-10",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/alcolumbre-pauta-votacao-do-fim-da-escala-6x1-para-a-proxima-quarta-feira/",
+     "camp": "direita",
+     "position": "manchete"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-marca-votacao-da-pec-pelo-fim-da-6x1-para-quarta-feira",
+     "camp": "estatal",
+     "position": "manchete"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/alcolumbre-marca-votacao-da-pec-do-fim-da-escala-6x1-para-proxima-quarta-14/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/alcolumbre-marca-para-quarta-feira-votacao-do-fim-da-escala-6x1-no-senado/",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "tse-site-cripto-flavio",
+   "segment": "politica",
+   "title": "TSE manda suspender site que oferecia criptomoedas a quem publicasse apoio a Flávio",
+   "summary": "A ministra Estela Aranha, do TSE, determinou em 9 de outubro a suspensão de um site que oferecia criptomoedas a usuários que publicassem posts favoráveis a Flávio Bolsonaro. Ela entendeu que o site oferece vantagem econômica durante o período eleitoral. A distribuição havia sido revelada pela Folha de S.Paulo na semana anterior. O caso foi levado ao TSE pela coligação de Lula, que também enviou denúncia à Procuradoria-Geral Eleitoral. A campanha de Flávio diz desconhecer a autoria do site, nega ter contratado perfis e afirma que adotará medidas judiciais eleitorais, cíveis e criminais para derrubar a página.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 7.0,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/tse-manda-suspender-site-que-oferece-criptomoedas-por-apoio-a-flavio/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/sao-paulo/tse-manda-derrubar-site-que-oferecia-criptomoedas-por-posts-pro-flavio",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/tse-suspende-site-que-oferece-criptomoedas-por-apoio-a-flavio/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-manda-suspender-site-que-oferece-criptomoedas-por-apoio-flavio",
+     "camp": "estatal",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "eduardo-pena-moraes",
+   "segment": "politica",
+   "title": "Moraes expede mandado de prisão definitiva contra Eduardo Bolsonaro, condenado a 4 anos e 2 meses",
+   "summary": "O ministro Alexandre de Moraes expediu em 8 de outubro mandado de prisão definitiva contra Eduardo Bolsonaro, que já consta no Banco Nacional de Medidas Penais e Prisões. A pena é de 4 anos e 2 meses de reclusão em regime inicialmente semiaberto, por coação no curso do processo, com trânsito em julgado declarado pelo STF. O mandado vale até outubro de 2036 e foi enviado à PF para cumprimento. Eduardo vive nos Estados Unidos desde fevereiro de 2025 e recebeu green card em 20 de julho, e todos os passaportes dele foram cancelados. A PGR deve cobrar a multa, e o InfoMoney discute se a decisão pode impulsionar Flávio no 2º turno.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 6.8,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/eduardo-bolsonaro-ja-consta-em-banco-de-mandados-de-prisao-abertos/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/cafe-com-a-gazeta/moraes-determina-execucao-da-pena-de-eduardo-bolsonaro/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/decisao-do-stf-contra-eduardo-pode-impulsionar-flavio-no-2o-turno/",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "bolsa-recorde-dolar",
+   "segment": "economia",
+   "title": "Ibovespa fecha em recorde aos 209 mil pontos, melhor semana do ano, e dólar cai a R$ 4,98",
+   "summary": "O Ibovespa fechou a sexta-feira (9) em 209.066,90 pontos, alta de 1,38% no dia e maior patamar de fechamento da história. Na semana, a alta foi de 8,82%, a mais forte de 2026, segundo o InfoMoney. O dólar comercial terminou em R$ 4,985, queda de cerca de 0,78% no dia e de 4,44% na semana. Operadores atribuem o movimento ao trade eleitoral, após pesquisas Datafolha e Atlas mostrarem Flávio Bolsonaro à frente, e à queda dos juros futuros, que favoreceu o varejo, como Magazine Luiza e Lojas Renner. O IPCA de setembro, de 0,82% e acima do esperado, não interrompeu o ímpeto, e Vivo e TIM caíram com o avanço da Starlink.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 6.4,
+   "outlets": [
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09102026/",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/bolsa-nesta-sexta",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/economia/dolar-cai-444-na-semana-e-encerra-abaixo-de-r-5/",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "terremoto-panama",
+   "segment": "internacional",
+   "title": "Terremoto de magnitude 7,7 atinge o Panamá; canal opera normalmente e tsunami não se confirma",
+   "summary": "Um terremoto de magnitude 7,7 atingiu o sul do Panamá, com profundidade de 12,6 km, segundo o Serviço Geológico dos EUA. Houve danos em casas na província de Herrera, igreja danificada e prédios desabados em Peñonomé, queda de energia em seis províncias, suspensão de voos no aeroporto de Tocumen, parada do metrô e aulas suspensas. O sistema de alertas dos EUA informou que a ameaça de tsunami passou. O Canal do Panamá opera normalmente, a cerca de 203 km do epicentro, com cerca de 90 embarcações aguardando para transitar. Houve réplicas, e a Jovem Pan registra um segundo tremor de magnitude 6,6, sem mortes confirmadas nos textos consultados.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 3
+   },
+   "score": 6.2,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/veja-fotos-e-videos-dos-impactos-do-terremoto-no-panama/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/terremoto-atinge-panama",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/america-latina/terremoto-no-panama-aciona-alerta-de-tsunami-no-pacifico-video/",
+     "camp": "esquerda",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mundo/forte-terremoto-de-magnitude-80-e-sentido-no-panama-diz-servico-geologico-dos-eua/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/forte-terremoto-sacode-o-panama-operacoes-do-canal-seguem-normalmente",
+     "camp": "estatal",
+     "position": "editoria"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/mundo/segundo-terremoto-de-magnitude-66-atinge-o-panama/",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "aviao-pm-ipatinga",
+   "segment": "seguranca",
+   "title": "Avião da PM de Minas cai perto do aeroporto do Vale do Aço e deixa três policiais mortos",
+   "summary": "Um avião da Polícia Militar de Minas Gerais caiu perto do aeroporto do Vale do Aço, na região de Ipatinga, e três policiais morreram. A queda ocorreu horas depois de outro acidente aéreo em Belo Horizonte, segundo o Poder360. A Jovem Pan informa que uma das policiais mortas tinha acabado de voltar da licença-maternidade. O Metrópoles publicou perfil dos PMs que estavam na aeronave. As causas da queda ainda não foram divulgadas nos textos consultados.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 5.9,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-brasil/aviao-da-pm-cai-em-minas-gerais-horas-apos-acidente-aereo-em-bh/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/minas-gerais/quem-eram-os-pms-que-estavam-em-aviao-que-caiu-em-minas",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/brasil/aviao-da-pm-cai-proximo-a-aeroporto-do-vale-do-aco-em-mg-tres-policiais-morreram/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "trump-diesel-russo",
+   "segment": "internacional",
+   "title": "Trump anuncia acordo com Putin para fornecer diesel russo, com 300 mil toneladas imediatas",
+   "summary": "Donald Trump afirmou na sexta-feira (9), na Truth Social, ter chegado a um acordo com Vladimir Putin para o fornecimento imediato de diesel russo ao mercado americano e internacional. Os volumes citados são mais de 300 mil toneladas imediatas, 500 mil em novembro e 1 milhão logo depois, com total de 3 milhões de toneladas em curto prazo, a depender das refinarias russas. Trump não detalhou os termos nem os mecanismos de entrega. Ele ligou o anúncio ao Estreito de Ormuz, onde disse que os EUA têm controle total, e previu queda rápida dos preços do diesel no mundo. Não há confirmação de Moscou nos textos consultados.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 3.9,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/trump-anuncia-acordo-com-putin-para-fornecimento-de-diesel-russo/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/mundo/trump-diz-que-russia-vai-fornecer-300-mil-toneladas-de-diesel-imediatamente/",
+     "camp": "esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  },
+  {
+   "id": "ufpe-incendio-ameacas",
+   "segment": "educacao",
+   "title": "Incêndio na UFPE e ameaças a universidades públicas levam a pedidos de investigação",
+   "summary": "Um grande incêndio atingiu um departamento da Universidade Federal de Pernambuco, no Recife, em 7 de outubro, com perdas estimadas pela universidade em R$ 100 milhões e 20 anos de amostras destruídas. Estudantes relataram, horas antes, ameaças de explodir setores da universidade, com menção a Flávio Bolsonaro. A Procuradoria criou uma força-tarefa para apoiar a UFPE. No Rio, a vereadora Maíra do MST e a deputada estadual Marina do MST enviaram ofícios à Polícia Civil, à PF e ao MPF sobre prints de grupos de WhatsApp com planos de atacar a UFF e a UENF. As mensagens ainda não tiveram autoria confirmada, e o jornal observa que não é possível confirmar se o Flávio citado é o candidato.",
+   "scores": {
+    "cobertura": 3,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 3.9,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-brasil/procuradoria-cria-forca-tarefa-para-apoio-a-ufpe-apos-incendio/",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Diário do Rio",
+     "url": "https://diariodorio.com/politica/2026/10/09/ministerio-publico-e-acionado-para-investigar-denuncias-de-bombas-e-incendios-criminosos-em-universidades-publicas-do-rj.html",
+     "camp": "rio",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": "Sem assimetria relevante entre os campos editoriais."
+   }
+  }
+ ]
+}
