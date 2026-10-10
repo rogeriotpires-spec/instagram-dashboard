@@ -2,6 +2,175 @@
   "items": [
     {
       "requested": "2026-10-10",
+      "done": "2026-10-10T09:20:00-03:00",
+      "issue": 21,
+      "slot_hint": "Imagem às 12h de sábado (10) e reel às 19h, antes da semana que antecede o 2º turno.",
+      "source": {
+        "edition": "programa/2026-10-10",
+        "item_id": "fachin-fux-fake-news",
+        "title": "A chave do cofre que o STF não entrega"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Fux pediu a chave. Fachin guardou o cofre",
+          "tone": "contundente",
+          "duration": "imagem única",
+          "fact": "Na quinta (8), o ministro Luiz Fux deu 48 horas para a área técnica do STF liberar a íntegra do inquérito das fake news (Inq 4.781) e de outros três procedimentos, antes de decidir a ADPF 1.144, em que o PP pede a anulação de provas ligadas à operação Tempus Veritatis. Na sexta (9), o presidente do STF, Edson Fachin, negou o acesso imediato ao Inq 4.781, mas disse não haver obstáculo para os outros três, que são públicos. Segundo Fachin, há 104 procedimentos vinculados ao inquérito, que exigem exame individual, e o objetivo é o arquivamento definitivo, com acesso a Fux só depois. O inquérito está com a Presidência desde 9 de setembro; antes, ficou com Alexandre de Moraes desde 2019. Segundo o Poder360, Fux não deve decidir antes do 2º turno, em 25 de outubro. O arquivamento é intenção declarada de Fachin e a validade das provas ainda não foi decidida pelo plenário.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news/"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/fachin-nega-acesso-de-fux-a-inquerito-das-fake-news-no-stf/"
+            }
+          ],
+          "art_text": [
+            "104 procedimentos",
+            "Fux pediu o inquérito. Fachin: primeiro arquivar.",
+            "Sete anos de inquérito aberto",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Luiz Fux e Edson Fachin, ministros do STF, protagonistas diretos do impasse sobre o acesso ao inquérito. Ilustração estilo charge, sem foto real. Risco médio: aparecem só em gesto de impasse (Fux com a mão estendida, Fachin segurando a pasta), sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, o ministro Luiz Fux (toga preta, mão estendida pedindo algo, expressão séria e impaciente) de frente para o ministro Edson Fachin (toga preta, segurando junto ao peito uma pasta grossa com a etiqueta 'Inq 4.781', expressão firme e fechada). Ao fundo, a fachada estilizada do STF com colunas e uma porta de cofre entreaberta. No alto, em branco, letras condensadas e muito pesadas: \"Fux pediu a chave.\" Logo abaixo, em letras maiores, em amarelo: \"Fachin guardou o cofre.\" Em quadro vermelho com números brancos, no canto: \"104 procedimentos\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Quem controla o controle?\" No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Fux pediu a íntegra do inquérito das fake news para julgar a ação do PP. Fachin negou o acesso imediato: diz que primeiro vai arquivar. O inquérito tem sete anos, 104 procedimentos vinculados e nenhum prazo. Quem controla o controle? Comenta.",
+          "risk": "médio",
+          "risk_note": "Dizer que o arquivamento é intenção declarada de Fachin e que o plenário não decidiu sobre as provas. Não insinuar que Fachin esconde algo: a crítica é à falta de prazo e de controle. Fux só deve decidir depois de 25/10, segundo o Poder360.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quanto tempo um inquérito pode ficar aberto e sigiloso sem controle: o caso do Inq 4.781 e a ADPF 1.144 como teste para o STF."
+          }
+        },
+        {
+          "type": "r",
+          "title": "O ministro do Supremo que não pode ver os autos",
+          "tone": "contundente, sem acusar",
+          "duration": "45 a 60s",
+          "fact": "Na quinta (8), o ministro Luiz Fux deu 48 horas para a área técnica do STF liberar a íntegra do inquérito das fake news (Inq 4.781) e de outros três procedimentos, antes de decidir a ADPF 1.144, em que o PP pede a anulação de provas ligadas à operação Tempus Veritatis. Na sexta (9), o presidente do STF, Edson Fachin, negou o acesso imediato ao Inq 4.781, mas disse não haver obstáculo para os outros três, que são públicos. Segundo Fachin, há 104 procedimentos vinculados ao inquérito, que exigem exame individual, e o objetivo é o arquivamento definitivo, com acesso a Fux só depois. O inquérito está com a Presidência desde 9 de setembro; antes, ficou com Alexandre de Moraes desde 2019. Segundo o Poder360, Fux não deve decidir antes do 2º turno, em 25 de outubro. O arquivamento é intenção declarada de Fachin e a validade das provas ainda não foi decidida pelo plenário.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news/"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-justica/fachin-nega-acesso-de-fux-a-inquerito-das-fake-news-no-stf/"
+            }
+          ],
+          "hooks": [
+            "Um ministro do Supremo pediu os autos e a resposta foi: espera.",
+            "Cento e quatro procedimentos. Um inquérito de sete anos. E o acesso fica para depois.",
+            "Fux pediu a chave do cofre. Fachin disse que primeiro vai arquivar."
+          ],
+          "script": "Quinta-feira, o ministro Luiz Fux deu 48 horas para o Supremo liberar a íntegra do inquérito das fake news. Ele precisa dos autos para decidir uma ação do PP que pede a anulação de provas ligadas à operação Tempus Veritatis. Sexta, o presidente do STF, Edson Fachin, respondeu: os outros três procedimentos são públicos e estão liberados, mas o inquérito das fake news não. Segundo Fachin, são 104 procedimentos vinculados, que precisam de exame individual, e o objetivo é o arquivamento definitivo. Só depois, diz ele, Fux terá acesso. Atenção: o arquivamento é uma intenção declarada, e a validade das provas ainda não foi decidida pelo plenário. Mas olha a situação. Um inquérito aberto há sete anos, que passou de 2019 até setembro com Alexandre de Moraes, e que um ministro do próprio Supremo não consegue abrir. Arquivar pode até ser correto. Arquivar antes de dar acesso a quem vai julgar a validade do ato parece blindagem. E sigilo serve à investigação, não pode servir para impedir o controle de legalidade. Quem disse isso foi o próprio Fux. Segundo o Poder360, ele não deve decidir antes do segundo turno, dia 25.",
+          "screen_text": [
+            "Fux pediu a íntegra do inquérito",
+            "Fachin: 104 procedimentos, primeiro arquivar",
+            "Inquérito aberto desde 2019",
+            "Arquivamento é intenção, plenário não decidiu",
+            "Fux deve decidir só depois de 25/10",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "caption": "Fux pediu os autos do inquérito das fake news. Fachin disse que primeiro vai arquivar. Sigilo serve à investigação, não ao controle de legalidade. Comenta.",
+          "risk": "médio",
+          "risk_note": "Atribuir tudo a Gazeta do Povo e Poder360. Não afirmar que há ilegalidade nas provas nem que Fachin age de má-fé. Citar que o arquivamento é intenção e que o plenário não decidiu.",
+          "timeline": {
+            "rende": true,
+            "angle": "Prazo e controle de inquéritos sigilosos: o que a ADPF 1.144 pode mudar depois do 2º turno."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-10",
+      "done": "2026-10-10T09:20:00-03:00",
+      "issue": 20,
+      "slot_hint": "Imagem às 8h de sábado (10) e reel às 20h, enquanto o assunto do combustível está quente.",
+      "source": {
+        "edition": "programa/2026-10-10",
+        "item_id": "gasolina-zerada",
+        "title": "O desconto que vence junto com a urna"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "realista",
+          "title": "Gasolina sem imposto por 30 dias. Quem paga depois?",
+          "tone": "contundente",
+          "duration": "imagem única",
+          "fact": "Na sexta (9), a 16 dias do 2º turno, o governo zerou PIS/Cofins e Cide sobre a gasolina e ampliou subvenções a gasolina, etanol e diesel importado, num pacote de R$ 5,2 bilhões para 30 dias (R$ 3,6 bilhões para gasolina e etanol, R$ 1,6 bilhão para o diesel importado). O benefício por litro de gasolina subiu de R$ 0,63 para R$ 0,89 e a subvenção, de R$ 0,25 para R$ 0,43. A equipe econômica diz que as medidas são temporárias e serão compensadas por receitas extraordinárias do petróleo, o que garantiria neutralidade fiscal. O ministro Dario Durigan nega relação com a eleição. Edmar de Almeida, da PUC-Rio, chamou as medidas de insustentáveis do ponto de vista fiscal e disse que retirar o subsídio será muito difícil. O efeito final nas bombas depende de outros fatores.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/governo-zera-impostos-federais-gasolina-16-dias-segundo-turno/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/medidas-do-governo-para-combustiveis-sao-insustentaveis-dizem-analistas/"
+            }
+          ],
+          "art_text": [
+            "R$ 5,2 bilhões em 30 dias",
+            "Desconto de 30 dias, a 16 do 2º turno",
+            "Quem paga quando acabar?",
+            "Imagem ilustrativa",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Sem rostos. Bomba de combustível em posto, mãos de pessoa de costas e calendário. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo: bomba de gasolina em um posto ao entardecer, com o visor mostrando o preço, e uma pessoa de costas, desfocada, segurando o bico. Ao fundo, um calendário de parede com a contagem de 30 dias riscada. No alto, em branco, letras condensadas e muito pesadas: \"Gasolina sem imposto por 30 dias\". Em quadro amarelo com números pretos: \"R$ 5,2 bilhões\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Quem paga quando acabar?\" No canto inferior esquerdo, selo pequeno: \"Imagem ilustrativa\". Sem logos de marcas ou de distribuidoras. No rodapé, à direita, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "O governo zerou PIS/Cofins e Cide da gasolina por 30 dias, num pacote de R$ 5,2 bilhões, a 16 dias do 2º turno. Quando o desconto acabar, quem paga a conta? Comenta.",
+          "risk": "médio",
+          "risk_note": "A neutralidade fiscal é a versão do governo e o ministro Durigan nega relação com a eleição. Apresentar o timing como fato e a crítica como opinião. O efeito nas bombas depende de outros fatores.",
+          "timeline": {
+            "rende": true,
+            "angle": "Subsídio de combustível em ano eleitoral: quanto custa, quem paga e por que é difícil retirar depois."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Imposto zerado por 30 dias, a 16 da urna",
+          "tone": "contundente, com ironia leve",
+          "duration": "45 a 60s",
+          "fact": "Na sexta (9), a 16 dias do 2º turno, o governo zerou PIS/Cofins e Cide sobre a gasolina e ampliou subvenções a gasolina, etanol e diesel importado, num pacote de R$ 5,2 bilhões para 30 dias (R$ 3,6 bilhões para gasolina e etanol, R$ 1,6 bilhão para o diesel importado). O benefício por litro de gasolina subiu de R$ 0,63 para R$ 0,89 e a subvenção, de R$ 0,25 para R$ 0,43. A equipe econômica diz que as medidas são temporárias e serão compensadas por receitas extraordinárias do petróleo, o que garantiria neutralidade fiscal. O ministro Dario Durigan nega relação com a eleição. Edmar de Almeida, da PUC-Rio, chamou as medidas de insustentáveis do ponto de vista fiscal e disse que retirar o subsídio será muito difícil. O efeito final nas bombas depende de outros fatores.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/governo-zera-impostos-federais-gasolina-16-dias-segundo-turno/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/medidas-do-governo-para-combustiveis-sao-insustentaveis-dizem-analistas/"
+            }
+          ],
+          "hooks": [
+            "Trinta dias de gasolina mais barata. Dezesseis dias para a eleição.",
+            "Cinco bilhões e duzentos milhões para segurar o preço até a urna.",
+            "O desconto vence. A conta, não."
+          ],
+          "script": "Sexta-feira, o governo zerou PIS, Cofins e Cide sobre a gasolina e ampliou os subsídios a gasolina, etanol e diesel importado. Custo: cinco bilhões e duzentos milhões de reais, em trinta dias. O desconto por litro de gasolina subiu de sessenta e três para oitenta e nove centavos. O governo diz que é temporário e que as receitas extras do petróleo pagam a conta. O ministro Dario Durigan nega relação com a eleição. Atenção: essa neutralidade fiscal é a versão do governo, e o efeito nas bombas depende de outros fatores. Mas os analistas ouvidos pela CNN Brasil discordam. Edmar de Almeida, da PUC-Rio, chamou de insustentável do ponto de vista fiscal e disse que subsídio é fácil de dar e muito difícil de tirar. A pergunta do contribuinte é simples: quando o desconto acabar, quem paga? Imposto zerado hoje vira corte de serviço ou dívida amanhã. Anunciar alívio com validade de um mês, a dezesseis dias da eleição, é o tipo de coisa que o eleitor tem o direito de olhar com desconfiança.",
+          "screen_text": [
+            "Gasolina sem PIS/Cofins e Cide por 30 dias",
+            "Pacote de R$ 5,2 bilhões",
+            "Desconto: R$ 0,63 para R$ 0,89 por litro",
+            "16 dias para o 2º turno",
+            "Neutralidade fiscal é a versão do governo",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "caption": "Gasolina sem imposto federal por 30 dias, a 16 dias do 2º turno. O governo diz que a conta fecha, analistas discordam. Quem paga quando acabar? Comenta.",
+          "risk": "médio",
+          "risk_note": "Não afirmar que a medida é compra de voto. Atribuir a análise crítica a Edmar de Almeida (PUC-Rio) via CNN Brasil e dizer que Durigan nega relação com a eleição.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que acontece com o preço e com as contas públicas no dia seguinte ao fim dos 30 dias."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-10",
       "done": "2026-10-09T21:58:38-03:00",
       "issue": 19,
       "slot_hint": "Carrossel às 12h de sábado (10) e reel às 19h, com o 2º turno se aproximando.",
