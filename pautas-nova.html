@@ -245,6 +245,9 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .it h3{font:700 21px/1.2 Fraunces,Georgia,serif;margin:0}
 .it .sub{margin:-4px 0 0;color:var(--text-2);font-style:italic;font-size:14.5px}
 .it .res{margin:0;font-size:15px;line-height:1.62}
+.vc{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.vc .act{background:var(--surface-2);border-color:var(--border);color:var(--text)}
+.vc .act[disabled]{opacity:.6;cursor:default}
 .meta{background:color-mix(in srgb,#a63922 9%,var(--surface));border-left:4px solid #a63922;border-radius:10px;padding:10px 14px}
 .meta b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#a63922;margin-bottom:3px}
 .meta p{margin:0;font-style:italic;font-size:14.5px;line-height:1.5}
@@ -352,7 +355,7 @@ const WK=["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
 const TYPE={i:["Imagem","var(--s1)"],r:["Reel","var(--s2)"],c:["Carrossel","var(--s4)"],s:["Stories","var(--s3)"]};
 const RISK={baixo:"good","médio":"warn",alto:"bad"};
 const nocache=u=>fetch(u+(u.includes("?")?"&":"?")+Date.now(),{cache:"no-store"});
-let CLIP=[],P_DAYS=[],C_DAYS=[],P_CUR=null,C_CUR=null,AN=null,TAB="programa";
+let P_IT={},CLIP=[],P_DAYS=[],C_DAYS=[],P_CUR=null,C_CUR=null,AN=null,TAB="programa";
 function toast(t){const e=$("#toast");e.textContent=t;e.classList.add("on");setTimeout(()=>e.classList.remove("on"),1400)}
 function copyBtn(text,label="Copiar"){CLIP.push(text);return`<button class="copy" data-i="${CLIP.length-1}">${label}</button>`}
 document.addEventListener("click",e=>{const b=e.target.closest(".copy");if(!b)return;const t=CLIP[+b.dataset.i];
@@ -373,7 +376,8 @@ async function pdfLink(d){const a=$("#pdf");a.href=`programa-pdf.html?d=${d}`;a.
   try{const r=await fetch(`programa/${d}.pdf`,{method:"HEAD",cache:"no-store"});if(r.ok){a.href=`programa/${d}.pdf`;a.setAttribute("download",`Pauta-Conversa-Timeline-${d}.pdf`)}}catch(e){}}
 async function loadP(d){
   P_CUR=d;$("#p-day").value=d;const i=P_DAYS.indexOf(d);$("#p-prev").disabled=i<=0;$("#p-next").disabled=i>=P_DAYS.length-1;
-  try{const p=await nocache(`programa/${d}.json`).then(r=>r.json());window._pg=p.generated;
+  try{const [p,sd]=await Promise.all([nocache(`programa/${d}.json`).then(r=>r.json()),nocache("pautas/sob-demanda.json").then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]);window._pg=p.generated;
+    const VC=new Set((sd.items||[]).filter(x=>(x.source?.edition||"")==="programa/"+d).map(x=>x.source.title));P_IT[d]=p.itens||[];
     const dt=new Date(p.date+"T12:00:00");
     const it=(p.itens||[]).filter(x=>!gone("programa",d,x.titulo));
     $("#p-body").innerHTML=`<div class="card">
@@ -389,7 +393,8 @@ async function loadP(d){
         <div class="cols2">${block("Contexto",ul(x.contexto))}${block("Nosso ângulo",ul(x.angulo))}</div>
         ${(x.perguntas||[]).length?block("Perguntas para a conversa",`<ol>${x.perguntas.map(q=>`<li>${esc(q)}</li>`).join("")}</ol>`,x.perguntas.join("\n")):""}
         ${x.atencao?`<div class="note"><b>Atenção:</b> ${esc(x.atencao)}</div>`:""}
-        <div class="src">${srcs(x.fontes)}</div></article>`).join("")}`;
+        <div class="src">${srcs(x.fontes)}</div>
+        <div class="vc">${VC.has(x.titulo)?`<a class="act" href="#sob-demanda" data-gosd="1">Virou conteúdo ✓ Ver no Instagram</a>`:`<button class="act" type="button" data-vc="${esc(x.titulo)}" data-vd="${esc(d)}">📲 Virar conteúdo do Instagram</button><span class="small-n vst"></span>`}</div></article>`).join("")}`;
     pdfLink(d);if(TAB==="programa"){history.replaceState(null,"","#programa/"+d);updHero()}
   }catch(e){$("#p-body").innerHTML=`<div class="empty">Não foi possível carregar a pauta de ${dBR(d)}.</div>`}
 }
@@ -454,8 +459,8 @@ function renderHot(list,day){
 }
 function renderSD(list){
   const L=(list||[]).slice().sort((a,b)=>(b.done||"").localeCompare(a.done||"")).slice(0,10);
-  $("#sob-demanda").innerHTML=`<div class="sec-h"><h2>Sob demanda</h2><p>Pedidas pelo botão "Virar pauta" da aba Notícias</p></div>`+(L.length?L.map(x=>{const d=new Date(x.done||x.requested);
-    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">Virou pauta · Notícias</span><span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i,{day:(x.done||x.requested||"").slice(0,10),del:"sobdemanda",rotulo:`Sob demanda de ${dBR((x.done||x.requested||"").slice(0,10))} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda.</div>`);
+  $("#sob-demanda").innerHTML=`<div class="sec-h"><h2>Sob demanda</h2><p>Pedidas pelo botão "Virar pauta" da aba Notícias ou "Virar conteúdo" da pauta do programa</p></div>`+(L.length?L.map(x=>{const d=new Date(x.done||x.requested);
+    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">${(x.source?.edition||"").startsWith("programa/")?"Virou conteúdo · Programa "+dBR(x.source.edition.slice(9)):"Virou pauta · Notícias"}</span>${x.source?.title&&(x.source?.edition||"").startsWith("programa/")?`<span class="pill neutral">${esc(x.source.title)}</span>`:""}<span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i,{day:(x.done||x.requested||"").slice(0,10),del:"sobdemanda",rotulo:`Sob demanda de ${dBR((x.done||x.requested||"").slice(0,10))} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda.</div>`);
 }
 async function loadC(d){
   C_CUR=d;$("#c-day").value=d;const i=C_DAYS.indexOf(d);$("#c-prev").disabled=i<=0;$("#c-next").disabled=i>=C_DAYS.length-1;
@@ -487,6 +492,25 @@ function fillSel(sel,days){sel.innerHTML=days.slice().reverse().map(d=>{const x=
   updHero();
 })();
 
+
+/* ---------- virar conteúdo: item da pauta do programa -> sob demanda do Instagram ---------- */
+document.addEventListener("click",async e=>{
+  if(e.target.closest("[data-gosd]")){e.preventDefault();setTab("conteudo");document.getElementById("sob-demanda").scrollIntoView();return}
+  const b=e.target.closest("button[data-vc]");if(!b)return;
+  const d=b.dataset.vd,x=(P_IT[d]||[]).find(i=>i.titulo===b.dataset.vc);if(!x)return;
+  const st=b.nextElementSibling,say=t=>{if(st)st.textContent=" "+t};
+  const L=a=>(a||[]).map(v=>"- "+v).join("\n");
+  const body=`Pedido gerado pela pauta do programa Conversa Timeline.\n\nEdição: programa/${d}\nItem: ${x.id||""}\nTítulo: ${x.titulo}\n${x.subtitulo?"Subtítulo: "+x.subtitulo+"\n":""}Bloco: ${x.bloco||""}\n\nResumo:\n${x.resumo||""}\n\nContexto:\n${L(x.contexto)}\n\nNosso ângulo:\n${L(x.angulo)}\n${x.atencao?"\nAtenção: "+x.atencao+"\n":""}\nFontes:\n${(x.fontes||[]).map(f=>`- ${f.name}: ${f.url}`).join("\n")}\n\nFormato desejado (opcional, apague o que não quiser): imagem, reel, carrossel, stories\nObservação (opcional):\n`;
+  if(!Painel.API){window.open(`https://github.com/${Painel.REPO}/issues/new?title=${encodeURIComponent("[Virar pauta] "+x.titulo)}&body=${encodeURIComponent(body.slice(0,6000))}`,"_blank","noopener");return}
+  b.disabled=true;say("Enviando pedido…");
+  try{
+    await Painel.call("/pauta",{title:x.titulo,body:body.slice(0,7900)});
+    b.textContent="Pedido enviado ✓";say("O conteúdo fica pronto em uns 10 minutos, em Conteúdo > Sob demanda.");
+    Painel.track({wf:"sob-demanda.yml",since:new Date(Date.now()-90e3),minutes:20,say,
+      stamp:()=>nocache("pautas/sob-demanda.json").then(r=>r.json()).then(j=>String((j.items[0]||{}).done)),
+      labels:{wait:"Pedido na fila…",running:"Gerando o conteúdo (uns 10 minutos)…"}});
+  }catch(err){say(err.message);b.disabled=false}
+});
 
 /* ---------- item avulso ---------- */
 const AV=$("#avulso");
