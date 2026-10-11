@@ -1,6 +1,33 @@
 {
   "alerts": [
     {
+      "time": "2026-10-11T18:01:34-03:00",
+      "title": "41 minutos: o TSE mandou derrubar e o corregedor mandou voltar",
+      "fact": "Na manhã deste domingo (11/10), o presidente do TSE, Kassio Nunes Marques, mandou a Meta suspender em até 3 horas o canal \"Exército do Lula\", de André Janones (Rede-MG), com 3,3 milhões de inscritos, a pedido da campanha de Flávio Bolsonaro. À tarde, o corregedor-geral Ricardo Villas Bôas Cueva suspendeu a ordem e liberou o canal, dizendo que a defesa de Flávio pediu direto a Nunes Marques 41 minutos depois de um despacho dele. Cueva levou o caso ao plenário, com julgamento preferencial em até 24 horas. Lula chamou a primeira decisão de \"intromissão indevida da Justiça Eleitoral\" e a campanha de Flávio falou em \"complacência com fake news\".",
+      "sources": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/kassio-nunes-manda-suspender-canal-exercito-do-lula-no-whatsapp/"
+        },
+        {
+          "name": "Poder360 (decisão do corregedor)",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/corregedor-do-tse-libera-canal-exercito-do-lula-de-janones/"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/corregedor-do-tse-derruba-decisao-de-nunes-marques-e-libera-canal-exercito-do-lula/"
+        }
+      ],
+      "suggestion": "Reel de reação ainda hoje, entre 19h e 20h, com a linha do tempo da disputa dentro do TSE; imagem ilustrada amanhã às 7h com a pergunta sobre o julgamento do plenário.",
+      "hook": "O TSE mandou derrubar o canal de manhã. À tarde, outro ministro mandou voltar.",
+      "script": "Em um só domingo, o TSE mandou derrubar o canal do Janones e depois mandou liberar. De manhã, o presidente Nunes Marques deu três horas para a Meta tirar o Exército do Lula do ar. À tarde, o corregedor Cueva suspendeu a ordem e disse que o pedido da campanha de Flávio chegou ao presidente 41 minutos depois de um despacho dele. Agora o plenário decide em até 24 horas. Duas decisões opostas, no mesmo dia, a 14 dias do segundo turno. Você acha que o plenário deve manter o canal no ar? Responde sim ou não aqui embaixo.",
+      "image_prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). Fundo escuro com textura de papel envelhecido e, ao fundo, a fachada do Tribunal Superior Eleitoral em Brasília. No alto, em letras condensadas, brancas e pesadas, em caixa alta: \"DERRUBA. LIBERA.\". No meio, dois ministros de toga em lados opostos de uma mesa: à esquerda, o ministro Kassio Nunes Marques, presidente do TSE, com o braço estendido apontando para um celular com o ícone de um canal de mensagens; à direita, o ministro Ricardo Villas Bôas Cueva, corregedor eleitoral, com a mão espalmada em sinal de pare, expressão firme. Entre eles, um quadro amarelo com \"41 MINUTOS\" em letras pretas pesadas e, logo abaixo, um relógio. Faixa vermelha com \"Plenário decide em até 24 horas\". Embaixo, frase forte em branco com sublinhado vermelho pincelado: \"Quem decide o que o eleitor pode ler?\". Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+      "timeline": {
+        "rende": true,
+        "angle": "Duas decisões opostas dentro do TSE no mesmo dia, a 14 dias do 2º turno: o que cada uma diz sobre o limite entre combate à desinformação e censura."
+      }
+    },
+    {
       "time": "2026-10-09T08:55:12-03:00",
       "title": "Dois institutos, o mesmo recado: Flávio na frente",
       "fact": "A AtlasIntel/Bloomberg divulgou nesta sexta (9/10) a primeira pesquisa do 2º turno: Flávio Bolsonaro (PL) tem 52,8% dos votos válidos e Lula (PT), 47,2% (51,1% a 45,7% nos votos totais, com 3,2% de brancos, nulos e indecisos). Foram 5.026 entrevistas de 3 a 8 de outubro, margem de 1 ponto, registro BR-03663/2026. Na véspera, o Datafolha tinha mostrado Flávio com 52% e Lula com 48% dos válidos.",
