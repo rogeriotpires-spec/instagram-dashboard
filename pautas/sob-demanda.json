@@ -1,6 +1,172 @@
 {
   "items": [
     {
+      "requested": "2026-10-11",
+      "done": "2026-10-11T20:38:12-03:00",
+      "issue": 24,
+      "slot_hint": "Imagem na segunda (12) às 12h e reel às 19h.",
+      "source": {
+        "edition": "2026-10-11-19h",
+        "item_id": "exercito-lula-corregedor",
+        "title": "Corregedor do TSE derruba suspensão e libera canal Exército do Lula, de Janones"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "O TSE tirou do ar e o TSE pôs de volta no mesmo dia",
+          "tone": "contundente",
+          "duration": "imagem única",
+          "fact": "Na tarde de domingo (11), o presidente do TSE, Kassio Nunes Marques, suspendeu o canal de WhatsApp Exército do Lula, criado pelo deputado André Janones (Rede-MG) e com mais de 3,4 milhões de inscritos, após pedido da campanha de Flávio Bolsonaro. Segundo a Agência Brasil, ele disse que o canal repetia conteúdos já considerados falsos pelo tribunal. O corregedor Ricardo Vilas Bôas Cueva, relator do caso, derrubou a suspensão, restabeleceu o canal e levou o caso ao plenário, ainda sem data. Segundo a Agência Brasil, ele observou que a campanha de Flávio protocolou o pedido na presidência 41 minutos depois de uma ordem dele próprio, com documentos que não estavam nos autos. Janones falou em censura e Lula questionou a imparcialidade das decisões; a campanha de Flávio também pediu a cassação do mandato de Janones. O segundo turno é em 25 de outubro.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/corregedor-derruba-decisao-que-suspendeu-canal-exercito-do-lula"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/corregedor-do-tse-libera-canal-exercito-do-lula-de-janones/"
+            }
+          ],
+          "art_text": [
+            "Tirou. Pôs de volta.",
+            "Tudo no mesmo dia, no TSE",
+            "3,4 milhões no canal",
+            "Quem decide a regra do jogo a 14 dias do 2º turno?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Kassio Nunes Marques (presidente do TSE) e Ricardo Vilas Bôas Cueva (corregedor), autores das duas decisões. Ilustração estilo charge, sem foto real. Risco médio: só gesto de decisões opostas (um com o carimbo de suspensão, outro com o de liberação), sem inventar ação.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, dois ministros de toga escura em uma mesa do tribunal, cada um segurando um carimbo grande: Kassio Nunes Marques (presidente do TSE) com o carimbo \"SUSPENSO\" e Ricardo Vilas Bôas Cueva (corregedor do TSE) com o carimbo \"LIBERADO\", olhando um para o outro com expressão séria e desconfiada. Sobre a mesa, um celular gigante estilizado com o ícone de mensagens e o número \"3,4 mi\" em quadro amarelo. Ao fundo, a fachada estilizada do prédio do TSE. No alto, em branco, letras condensadas e muito pesadas: \"Tirou. Pôs de volta.\". Logo abaixo, em letras menores brancas: \"Tudo no mesmo dia, no TSE\". Embaixo, em amarelo, letras grandes: \"Quem decide a regra do jogo a 14 dias do 2º turno?\" com sublinhado vermelho pincelado. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "O presidente do TSE tirou do ar o canal Exército do Lula. O corregedor devolveu horas depois e levou ao plenário. Sem data. O que você acha dessa disputa dentro do tribunal?",
+          "risk": "médio",
+          "risk_note": "Atribuir tudo a decisões do TSE e a Agência Brasil. Não dizer que o canal espalha ou não falsidades: o tribunal ainda vai julgar. Lembrar que Nunes Marques falou em conteúdos já tidos como falsos e o corregedor falou em coerência processual.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quando o plenário do TSE marcar o julgamento, vale um reel com o resultado e o placar dos ministros."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Dois ministros, duas decisões e 3,4 milhões de inscritos no meio",
+          "tone": "contundente, sem acusar",
+          "duration": "45 a 60s",
+          "fact": "Na tarde de domingo (11), o presidente do TSE, Kassio Nunes Marques, suspendeu o canal de WhatsApp Exército do Lula, criado pelo deputado André Janones (Rede-MG) e com mais de 3,4 milhões de inscritos, após pedido da campanha de Flávio Bolsonaro. Segundo a Agência Brasil, ele disse que o canal repetia conteúdos já considerados falsos pelo tribunal. O corregedor Ricardo Vilas Bôas Cueva, relator do caso, derrubou a suspensão, restabeleceu o canal e levou o caso ao plenário, ainda sem data. Segundo a Agência Brasil, ele observou que a campanha de Flávio protocolou o pedido na presidência 41 minutos depois de uma ordem dele próprio, com documentos que não estavam nos autos. Janones falou em censura e Lula questionou a imparcialidade das decisões; a campanha de Flávio também pediu a cassação do mandato de Janones. O segundo turno é em 25 de outubro.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/corregedor-derruba-decisao-que-suspendeu-canal-exercito-do-lula"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/corregedor-do-tse-libera-canal-exercito-do-lula-de-janones/"
+            }
+          ],
+          "hooks": [
+            "O presidente do TSE tirou o canal do ar. Horas depois, o corregedor pôs de volta.",
+            "41 minutos. Foi o tempo entre uma ordem do corregedor e o pedido que pedia o contrário.",
+            "Exército do Lula: censura, como diz Janones, ou decisão sobre falsidade, como diz o TSE?"
+          ],
+          "script": "Domingo à tarde, o presidente do TSE, Kassio Nunes Marques, mandou tirar do ar o canal de WhatsApp Exército do Lula, criado pelo deputado André Janones, com mais de 3,4 milhões de inscritos. O pedido veio da campanha de Flávio Bolsonaro. Segundo a Agência Brasil, ele argumentou que o canal repetia conteúdos que o próprio tribunal já tinha considerado falsos. Horas depois, o corregedor Ricardo Vilas Bôas Cueva, relator do caso, derrubou a suspensão e levou tudo ao plenário. Ele apontou que a campanha de Flávio protocolou o pedido na presidência 41 minutos depois de uma ordem dele, com documentos que nem estavam nos autos. Janones falou em censura. Lula questionou a imparcialidade das decisões. E a campanha de Flávio, por sua vez, também pediu a cassação do mandato de Janones. O plenário ainda não tem data, e o segundo turno é daqui a 14 dias. Pergunta: quando o mesmo tribunal decide duas coisas opostas no mesmo dia, quem explica a regra para o eleitor? Comenta aqui.",
+          "screen_text": [
+            "Tirou do ar. Pôs de volta.",
+            "3,4 milhões de inscritos",
+            "41 minutos",
+            "Plenário do TSE: sem data",
+            "2º turno: 25 de outubro"
+          ],
+          "caption": "Duas decisões opostas no TSE no mesmo dia sobre o canal Exército do Lula. O plenário ainda vai decidir. Qual a sua leitura? Comenta.",
+          "risk": "médio",
+          "risk_note": "Não afirmar que o canal espalha desinformação nem que há perseguição: são teses das partes. Atribuir cada fala a quem a disse.",
+          "timeline": {
+            "rende": true,
+            "angle": "Retomar quando o plenário julgar, com o resultado e os votos."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-11",
+      "done": "2026-10-11T20:38:12-03:00",
+      "issue": 23,
+      "slot_hint": "Stories na segunda (12) pela manhã e imagem às 19h.",
+      "source": {
+        "edition": "2026-10-11-19h",
+        "item_id": "incendios-amazonas",
+        "title": "Focos de incêndio no Amazonas sobem 271% e governo envia reforço"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "realista",
+          "title": "Manaus sob fumaça: de quem era a vez de agir?",
+          "tone": "direto, com pergunta",
+          "duration": "imagem única",
+          "fact": "Segundo a CNN Brasil, os focos de incêndio no Amazonas subiram 271% nos primeiros dias de outubro. Pelo Painel do Clima do governo do Amazonas, citado pela Agência Brasil, foram 6.901 focos de 1º a 11 de outubro, alta de 91,38% sobre o mesmo período de 2025; as duas medições diferem e a comparação de cada uma deve ser citada com a fonte. O estado decretou emergência em 36 municípios e a União reconheceu no mesmo dia. O ministro Waldez Góes disse que a ajuda federal dependia da formalização estadual, já cumprida, e a força-tarefa tem 11 aeronaves, incluindo dois KC-390 da FAB, e a Força Nacional do SUS. Em Manaus, a média de MP2,5 chegou a 196,4 µg/m³ às 6h de 10/10, classificada como péssima. Segundo a CNN Brasil, Tarcísio de Freitas e Nikolas Ferreira criticaram a demora do governo federal.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/incendios-na-amazonia-direita-critica-demora-governo-se-mobiliza/"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/governo-ajudou-assim-que-amazonas-decretou-emergencia-diz-ministro"
+            }
+          ],
+          "art_text": [
+            "Manaus sob fumaça",
+            "Ar classificado como péssimo",
+            "Governo diz que esperou o decreto. A direita cobra rapidez.",
+            "Imagem ilustrativa",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Sem rosto: skyline de Manaus coberto de fumaça alaranjada, de longe, com silhuetas de pessoas de máscara de costas. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, de uma cidade amazônica à beira de um rio ao amanhecer, coberta por densa fumaça alaranjada e céu acinzentado, com sol avermelhado fraco, ao fundo a mata em chamas distante. Em primeiro plano, silhuetas de duas pessoas de costas usando máscaras, olhando a cidade, sem rostos visíveis. No alto, em branco, letras condensadas e muito pesadas: \"Manaus sob fumaça\". Logo abaixo, em quadro amarelo: \"Ar classificado como péssimo\". Embaixo, em branco, letras menores: \"Governo diz que esperou o decreto. A direita cobra rapidez.\" com sublinhado vermelho pincelado. No canto inferior esquerdo, selo pequeno: \"Imagem ilustrativa\". No rodapé, no canto inferior direito, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Sem logos de veículos e sem brasões.",
+          "caption": "Manaus respirando fumaça, governo e oposição trocando acusações. O governo diz que só pôde agir após o decreto do estado; a direita cobra mais rapidez. Quem tem razão? Comenta.",
+          "risk": "médio",
+          "risk_note": "Os números de alta divergem entre fontes (271% na CNN, 91,38% no Painel do Clima citado pela Agência Brasil): na arte, não use percentual. Atribuir as críticas e a defesa a quem as fez.",
+          "timeline": {
+            "rende": true,
+            "angle": "Acompanhar a qualidade do ar e a atuação da força-tarefa nos próximos dias."
+          }
+        },
+        {
+          "type": "s",
+          "title": "Fumaça no Amazonas: a ajuda federal veio rápido ou tarde?",
+          "tone": "direto, com enquete",
+          "fact": "Segundo a CNN Brasil, os focos de incêndio no Amazonas subiram 271% nos primeiros dias de outubro. Pelo Painel do Clima do governo do Amazonas, citado pela Agência Brasil, foram 6.901 focos de 1º a 11 de outubro, alta de 91,38% sobre o mesmo período de 2025; as duas medições diferem e a comparação de cada uma deve ser citada com a fonte. O estado decretou emergência em 36 municípios e a União reconheceu no mesmo dia. O ministro Waldez Góes disse que a ajuda federal dependia da formalização estadual, já cumprida, e a força-tarefa tem 11 aeronaves, incluindo dois KC-390 da FAB, e a Força Nacional do SUS. Em Manaus, a média de MP2,5 chegou a 196,4 µg/m³ às 6h de 10/10, classificada como péssima. Segundo a CNN Brasil, Tarcísio de Freitas e Nikolas Ferreira criticaram a demora do governo federal.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/incendios-na-amazonia-direita-critica-demora-governo-se-mobiliza/"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/governo-ajudou-assim-que-amazonas-decretou-emergencia-diz-ministro"
+            }
+          ],
+          "slides": [
+            "Story 1: Focos de incêndio no Amazonas sobem forte em outubro. CNN fala em 271%; o Painel do Clima do estado, 91,38%. Manaus teve ar classificado como péssimo.",
+            "Story 2: Tarcísio e Nikolas criticaram a demora do governo federal. O ministro Waldez Góes diz que a União agiu assim que o estado decretou emergência.",
+            "Story 3: Enquete."
+          ],
+          "poll": {
+            "question": "A resposta federal ao fogo no Amazonas foi rápida?",
+            "options": [
+              "Sim",
+              "Não"
+            ]
+          },
+          "caption": "Fogo e fumaça no Amazonas, e o debate sobre quem demorou. Vote na enquete.",
+          "risk": "baixo",
+          "risk_note": "Formato de pergunta. Citar as duas medições com fonte e atribuir críticas e defesa a quem falou.",
+          "timeline": {
+            "rende": false,
+            "angle": "Use o resultado da enquete como gancho para um post sobre a atuação da força-tarefa."
+          }
+        }
+      ]
+    },
+    {
       "requested": "2026-10-10",
       "done": "2026-10-10T12:28:13-03:00",
       "issue": 22,
