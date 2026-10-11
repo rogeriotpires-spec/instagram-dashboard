@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-12",
+  "weekday": "Seg",
+  "generated": "2026-10-11T19:54:29-03:00",
+  "summary": "Segunda-feira, feriado de Nossa Senhora Aparecida, a 13 dias do segundo turno: o fogo no Amazonas subiu 271% e virou munição da campanha, Lula prometeu na Paulista uma revolução na segurança pública para um novo mandato, a DataTrends repetiu Flávio na frente e o papa Leão XIV anunciou cirurgia no pulmão.",
+  "agenda": [
+    {
+      "time": "Início da semana",
+      "text": "Cirurgia do papa Leão XIV no Policlínico Gemelli, prevista para os primeiros dias da semana, sem data fixada.",
+      "source": {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/papa-leao-xiv-fara-cirurgia-para-retirar-nodulo-no-pulmao"
+      }
+    },
+    {
+      "time": "Até 12/10",
+      "text": "Plenário do TSE deve julgar com preferência, em até 24 horas, o caso do canal Exército do Lula, segundo a decisão do corregedor.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/corregedor-do-tse-libera-canal-exercito-do-lula-de-janones/"
+      }
+    },
+    {
+      "time": "14/10",
+      "text": "Senado vota em 1º turno a PEC 221/2019, que acaba com a escala 6x1, segundo o calendário de Alcolumbre.",
+      "source": {
+        "name": "Brasil em Folhas",
+        "url": "https://www.brasilemfolhas.com.br/2026/10/alcolumbre-diz-que-nao-vai-atropelar-rito-da-pec-do-fim-da-escala-6x1/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem de impacto",
+      "options": [
+        {
+          "title": "A Amazônia pegou fogo. E o aviso veio de onde?",
+          "tone": "contundente, sem exagero",
+          "style": "realista",
+          "fact": "Segundo a CNN Brasil, com base no Painel do Fogo do Censipam, os focos de incêndio no Amazonas subiram cerca de 271% nos dez primeiros dias de outubro. São 36 municípios em situação de emergência. Os ministros Waldez Góes (Integração) e João Paulo Capobianco (Meio Ambiente) estiveram em Manaus no domingo (11/10) com o governador Roberto Cidade; Capobianco disse que cerca de 300 brigadistas do Ibama e do ICMBio reforçarão os 290 federais já no estado, e o governo enviou seis aeronaves, com cinco a caminho. Tarcísio de Freitas e Nikolas Ferreira criticaram a demora do governo federal; o ministro afirmou que a União ajudou assim que o Amazonas decretou emergência.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/incendios-na-amazonia-direita-critica-demora-governo-se-mobiliza/"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/governo-ajudou-assim-que-amazonas-decretou-emergencia-diz-ministro"
+            }
+          ],
+          "art_text": [
+            "Fogo no Amazonas: +271%",
+            "36 cidades em emergência",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Mata queimando ao entardecer, fumaça densa e um helicóptero de combate ao fogo ao longe, sem inscrições. Não use foto de nenhum político.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz alaranjada de fim de tarde com granulação leve. Uma faixa de floresta amazônica em chamas, fumaça espessa subindo ao céu, rio escuro refletindo o fogo e, ao longe, um helicóptero genérico sem nenhuma inscrição ou logo despejando água. Clima grave. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"Fogo no Amazonas: +271%\". No terço inferior, sobre sombra escura, em amarelo, letras pesadas: \"36 cidades em emergência\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Segundo o Censipam, os focos de incêndio no Amazonas subiram 271% em dez dias e 36 cidades estão em emergência. O governo diz que ajudou assim que veio o pedido; a oposição fala em demora. O governo federal reagiu a tempo? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A comparação de 271% vem do Painel do Fogo (primeiros dez dias de outubro) e deve ser atribuída. Não afirme omissão como fato: o governo contesta a demora. Mostre as duas versões.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem responde pelo combate ao fogo: a divisão de tarefas entre União e estado, o prazo entre a emergência e o reforço e o uso político do tema no segundo turno."
+          }
+        },
+        {
+          "title": "Quarto mandato e a revolução que não veio nos três primeiros?",
+          "tone": "irônico, sem ofensa",
+          "style": "ilustracao",
+          "fact": "No ato pela reeleição na Avenida Paulista, em 11/10, Lula prometeu para um novo mandato treinamento em inteligência artificial, uma \"nova indústria digital\", uma revolução energética e uma \"revolução na segurança pública\", segundo o InfoMoney (Estadão Conteúdo). Citou que o país tinha 4,8 milhões de pessoas com diploma superior no mercado de trabalho em 2003 e hoje tem 26 milhões, e disse querer 50 milhões. Pediu que os jovens participem da política e que os idosos votem no segundo turno, citando a alta abstenção no primeiro. Discursaram Alckmin, Marina Silva, Simone Tebet e Guilherme Boulos. O segundo turno é em 25/10.",
+          "sources": [
+            {
+              "name": "InfoMoney",
+              "url": "https://www.infomoney.com.br/politica/lula-aposta-em-jovens-e-promete-revolucao-tecnologica-em-ato-na-paulista/"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-pela-reeleicao-de-lula-leva-milhares-a-avenida-paulista"
+            }
+          ],
+          "art_text": [
+            "Revolução na segurança pública?",
+            "Promessa do palanque da Paulista",
+            "25/10: segundo turno",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Lula, no palanque, com microfone e braço levantado, como no ato real. Ilustração estilo charge, sem foto real. Risco baixo: a cena retrata o discurso que ocorreu, sem inventar ação.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, o presidente Lula discursando em um palanque, camisa clara, braço direito levantado, expressão entusiasmada e levemente exagerada. Ao fundo, a silhueta estilizada de prédios da Avenida Paulista e uma multidão desenhada em hachuras, com bandeiras vermelhas. No alto, em branco, letras condensadas e muito pesadas: \"Revolução na segurança pública?\". Ao lado, quadro de destaque amarelo com o texto: \"Promessa do palanque da Paulista\". Embaixo, em branco, com sublinhado vermelho pincelado: \"25/10: segundo turno\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essa pessoa, use uma silhueta reconhecível pelo contexto e mantenha o resto da composição.",
+          "caption": "Na Paulista, Lula prometeu uma \"revolução na segurança pública\" para um novo mandato. Você acredita nessa promessa? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Cite as promessas como declaração do palanque, com a fonte. Não atribua a Lula frase que não está na matéria.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Discurso de campanha sem fato novo para análise; vale mais como imagem e debate rápido."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Dia todo",
+      "type": "s",
+      "kind": "Enquete nos Stories",
+      "options": [
+        {
+          "title": "O papa vai operar o pulmão",
+          "tone": "sóbrio, respeitoso",
+          "style": "print",
+          "fact": "Durante o Angelus deste domingo (11/10), na Praça São Pedro, o papa Leão XIV anunciou que será operado para retirar um nódulo no pulmão, identificado em estágio inicial e bem localizado. Disse que os médicos consideram oportuno intervir e pediu orações. Segundo Matteo Bruni, diretor da Sala de Imprensa da Santa Sé, a cirurgia está prevista para os primeiros dias da próxima semana, no Policlínico Gemelli, em Roma, com internação de cerca de uma semana.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/papa-leao-xiv-fara-cirurgia-para-retirar-nodulo-no-pulmao"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/mundo/papa-leao-xiv-revela-nodulo-no-pulmao-e-fara-cirurgia-nos-proximos-dias"
+            }
+          ],
+          "slides": [
+            "Papa Leão XIV anuncia cirurgia no pulmão",
+            "Nódulo em estágio inicial e bem localizado",
+            "Operação nos primeiros dias da semana, no Gemelli",
+            "Internação prevista de cerca de uma semana",
+            "Ele pediu orações aos fiéis"
+          ],
+          "poll": {
+            "question": "Você vai rezar pelo papa esta semana?",
+            "options": [
+              "Vou rezar",
+              "Já estou rezando"
+            ]
+          },
+          "caption": "Resumo dos Stories: o que se sabe sobre a cirurgia do papa Leão XIV. Mande para quem reza com você.",
+          "risk": "baixo",
+          "risk_note": "Tom respeitoso, sem especular sobre gravidade ou prognóstico. Use só o que o Vaticano informou.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Notícia de saúde sem ligação direta com a linha editorial; depende de novos comunicados do Vaticano."
+          }
+        },
+        {
+          "title": "Segunda pesquisa dá Flávio na frente: 53,1% a 46,9%",
+          "tone": "sóbrio, com ressalva",
+          "style": "cartaz",
+          "desdobramento": "nova pesquisa DataTrends divulgada em 11/10, com 53,1% a 46,9% para Flávio, que não existia nas pautas anteriores",
+          "fact": "A DataTrends divulgou em 11/10 pesquisa do 2º turno com Flávio Bolsonaro (PL) em 53,1% e Lula (PT) em 46,9% dos votos válidos. Foram 2.000 eleitores ouvidos de 7 a 9 de outubro, margem de erro de 2,19 pontos, registro BR-03576/2026 no TSE, custo de R$ 25 mil com recursos próprios. O Poder360 diz que o resultado confirma a PoderData/Aya de 8/10 (53% a 47%, 3.000 entrevistas, margem de 1,8 ponto). A reportagem não descreve o modo de coleta da DataTrends.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/"
+            }
+          ],
+          "slides": [
+            "DataTrends: Flávio 53,1% x Lula 46,9%",
+            "2.000 eleitores, 7 a 9/10",
+            "Margem de erro: 2,19 pontos",
+            "PoderData/Aya (8/10): 53% x 47%",
+            "Segundo turno: 25/10"
+          ],
+          "poll": {
+            "question": "Quem vence o segundo turno?",
+            "options": [
+              "Flávio",
+              "Lula"
+            ]
+          },
+          "caption": "Resumo dos Stories: nova pesquisa mostra Flávio na frente. Pesquisa não é resultado: o voto é dia 25.",
+          "risk": "médio",
+          "risk_note": "Pesquisa tem margem de erro e a metodologia de coleta da DataTrends não foi descrita. Não trate como previsão; lembre que outros institutos podem divergir.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Pesquisa isolada; o artigo só vale com o conjunto das pesquisas após o Datafolha, o Quaest e o AtlasIntel."
+          }
+        }
+      ]
+    }
+  ]
+}
