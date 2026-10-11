@@ -4,6 +4,17 @@ import json, sys
 path, ped_path = sys.argv[1], sys.argv[2]
 try: ped = json.load(open(ped_path, encoding="utf-8"))
 except Exception: sys.exit(0)
+if ped.get("modo") == "prompt_imagem":
+    # só o prompt da imagem pode mudar: todo o resto volta a ser o original
+    if len(sys.argv) > 3:
+        try: orig = json.load(open(sys.argv[3], encoding="utf-8"))
+        except Exception: sys.exit(0)
+        novo = json.load(open(path, encoding="utf-8"))
+        orig["prompt_imagem"] = novo.get("prompt_imagem", orig.get("prompt_imagem", ""))
+        orig["saved_at"] = novo.get("saved_at") or orig.get("saved_at")
+        json.dump(orig, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("só o prompt da imagem foi alterado")
+    sys.exit(0)
 if ped.get("modo") != "reescrever": sys.exit(0)
 fb = (ped.get("feedback") or "").lower()
 if "títul" in fb or "titul" in fb: sys.exit(0)

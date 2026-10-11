@@ -14,7 +14,7 @@ if p.get("excluir"):
     if a.get("status") == "publicado" or a.get("link"): sys.exit("artigo publicado não pode ser excluído")
     os.remove(path); print("excluído", aid); sys.exit(0)
 s = lambda v, n: str(v)[:n] if v is not None else ""
-for k, n in (("titulo", 400), ("subtitulo", 800), ("texto", 40000), ("palavras_chave", 1000)):
+for k, n in (("titulo", 400), ("subtitulo", 800), ("texto", 40000), ("palavras_chave", 1000), ("prompt_imagem", 6000)):
     if k in p: a[k] = s(p[k], n)
 if isinstance(p.get("titulos"), list):
     a["titulos"] = [{"titulo": s(t.get("titulo"), 400), "subtitulo": s(t.get("subtitulo"), 800)} for t in p["titulos"][:10] if isinstance(t, dict)]

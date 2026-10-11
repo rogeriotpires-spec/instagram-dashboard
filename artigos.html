@@ -255,6 +255,8 @@ function fieldsHTML(){
     <div class="sec"><div class="lab"><span>Texto <small id="wc"></small></span><button class="cp" data-c="texto">${ICON}Copiar texto</button></div><textarea class="fld" id="e-texto"></textarea></div>
     <div class="sec"><div class="lab"><span>Palavras-chave (SEO)</span><button class="cp" data-c="palavras_chave">${ICON}Copiar</button></div><textarea class="fld" id="e-kw" rows="1"></textarea></div>
     ${(A.fontes||[]).length?`<div class="sec"><div class="lab"><span>Fontes consultadas</span></div><div class="fontes">${A.fontes.map(f=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)} ↗</a>`).join(" · ")}</div></div>`:""}
+    <div class="sec"><div class="lab"><span>Prompt da imagem (ChatGPT) <small>· 1200 x 630, padrão da Timeline</small></span><button class="cp" data-c="prompt_imagem">${ICON}Copiar prompt</button></div><textarea class="fld" id="e-img" rows="4" placeholder="O prompt aparece aqui quando o artigo é escrito ou reescrito."></textarea>
+      <div style="display:flex;gap:10px;align-items:center;margin-top:8px;flex-wrap:wrap"><button class="btn" id="b-img">↻ Refazer prompt com o texto atual</button><span class="t-sub" id="img-st">Considera título, subtítulo e texto como estão agora.</span></div></div>
     <div class="sec" id="link-sec"></div>
     <div class="sec"><div class="rw"><div class="lab"><span>Reescreva o artigo</span></div>
       <textarea class="fld" id="e-fb" rows="4" placeholder="Diga o que você não concorda, o que deve melhorar ou mudar. Ex.: a abertura está fraca; quero o tom mais duro com o STF; corte as perguntas retóricas; faltou citar a decisão de tal data…"></textarea>
@@ -270,7 +272,7 @@ function render(note){
   $("#dlg-eb").textContent=`Artigo para a Timeline · ${ST[A.status]||A.status}`;
   $("#dlg-t").textContent=A.pauta_titulo?`Pauta: ${A.pauta_titulo}`:(A.origem&&A.origem.rotulo)||"";
   $("#dlg-c").innerHTML=fieldsHTML();
-  const F={titulo:$("#e-titulo"),subtitulo:$("#e-sub"),texto:$("#e-texto"),palavras_chave:$("#e-kw")};
+  const F={titulo:$("#e-titulo"),subtitulo:$("#e-sub"),texto:$("#e-texto"),palavras_chave:$("#e-kw"),prompt_imagem:$("#e-img")};
   for(const k in F){F[k].value=A[k]||"";grow(F[k]);F[k].oninput=()=>{A[k]=F[k].value;grow(F[k]);if(k==="texto")wc();if(k==="titulo"||k==="subtitulo")document.querySelectorAll(`.tit a[data-k="${k}"]`).forEach(x=>x.classList.toggle("on",A.titulos[+x.dataset.i][k]===A[k]));mark()}}
   const wc=()=>$("#wc").textContent=`· ${A.texto.trim().split(/\s+/).filter(Boolean).length} palavras`;wc();
   document.querySelectorAll(".tit a[data-k]").forEach(el=>el.onclick=e=>{e.preventDefault();const k=el.dataset.k,i=+el.dataset.i,v=A.titulos[i][k];
@@ -279,7 +281,7 @@ function render(note){
     document.querySelectorAll(`.tit a[data-k="${k}"]`).forEach(x=>x.classList.toggle("on",+x.dataset.i===i));mark();toast(k==="titulo"?`Título ${i+1} no artigo`:`Subtítulo ${i+1} no artigo`)});
   document.querySelectorAll(".cp[data-c]").forEach(b=>b.onclick=()=>copy(A[b.dataset.c]||""));
   $("#b-save").onclick=()=>save({});
-  $("#e-fb").value=A._fb||"";$("#b-rw").onclick=()=>rewrite();
+  $("#e-fb").value=A._fb||"";$("#b-rw").onclick=()=>rewrite();$("#b-img").onclick=()=>imgPrompt();
   document.querySelectorAll("[data-rest]").forEach(b=>b.onclick=()=>{const v=A.anteriores[+b.dataset.rest];if(!confirm("Trocar título, subtítulo e texto atuais por esta versão? (só vale depois de Salvar)"))return;
     for(const k of ["titulo","subtitulo","texto"]){A[k]=v[k];F[k].value=v[k];grow(F[k])}wc();mark();toast("Versão restaurada. Toque em Salvar para gravar.");F.titulo.scrollIntoView({behavior:"smooth",block:"center"})});
   linkSec();
@@ -301,7 +303,7 @@ function linkSec(){
 const say=t=>{const e=$("#e-st");if(e)e.textContent=t};
 function mark(){DIRTY=true;ls.set("artigo_edit:"+A.id,{base:A.saved_at||A.criado,data:pick()});say("Alterações não salvas (guardadas neste aparelho)")}
 function subIdx(){return(A.titulos||[]).findIndex(x=>x.subtitulo===A.subtitulo)}
-function pick(){return{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto,palavras_chave:A.palavras_chave,titulos:A.titulos,escolha:A.escolha,escolha_sub:subIdx(),status:A.status,link:A.link||""}}
+function pick(){return{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto,palavras_chave:A.palavras_chave,prompt_imagem:A.prompt_imagem||"",titulos:A.titulos,escolha:A.escolha,escolha_sub:subIdx(),status:A.status,link:A.link||""}}
 async function save(extra){
   if(!A)return;Object.assign(A,extra);A.saved_at=nowISO();
   const data={id:A.id,...pick(),saved_at:A.saved_at};
@@ -330,6 +332,20 @@ async function delArticle(id,st){
   try{await Painel.call("/acao",{job:"artigo-salvar",payload:JSON.stringify({id,excluir:true})})}catch(e){toast("Não excluiu: "+e.message);return false}
   ls.set("artigo_del:"+id,1);["artigo_save:","artigo_edit:","artigo_rw:"].forEach(k=>ls.del(k+id));
   if(A&&A.id===id){DIRTY=false;closeDlg()}else renderList();toast("Rascunho excluído");return true;
+}
+
+/* ---------- prompt da imagem ---------- */
+async function imgPrompt(){
+  const id=A.id,b=$("#b-img"),st=$("#img-st");if(!confirm("Refazer o prompt da imagem com o título, o subtítulo e o texto atuais?"))return;
+  if(DIRTY&&!(await save({})))return;
+  b.disabled=true;st.textContent="Escrevendo o novo prompt (1 a 3 minutos)…";
+  const job={id,modo:"prompt_imagem",atual:{titulo:A.titulo,subtitulo:A.subtitulo,texto:A.texto}};
+  try{await Painel.call("/acao",{job:"artigo",payload:JSON.stringify(job)})}catch(e){b.disabled=false;st.textContent="Não foi possível pedir: "+e.message;return}
+  const old=A.prompt_imagem||"",t0=Date.now();
+  while(Date.now()-t0<12*60e3){await sleep(15000);if(!A||A.id!==id)return;
+    const a=await nocache(`artigos/${id}.json`).then(r=>r.ok?r.json():null).catch(()=>null);
+    if(a&&a.prompt_imagem&&a.prompt_imagem!==old){A.prompt_imagem=a.prompt_imagem;A.saved_at=a.saved_at;const f=$("#e-img");if(f){f.value=a.prompt_imagem;grow(f)}b.disabled=false;st.textContent="Prompt novo pronto. É só copiar.";toast("Prompt da imagem atualizado");return}}
+  b.disabled=false;st.textContent="Está demorando mais que o normal. Recarregue em alguns minutos.";
 }
 
 /* ---------- reescrita ---------- */

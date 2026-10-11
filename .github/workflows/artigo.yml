@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$PAYLOAD" > pedido-artigo.json
           ID=$(python3 -c "import json,re;i=json.load(open('pedido-artigo.json'))['id'];assert re.fullmatch(r'[a-z0-9-]{6,90}',i);print(i)")
           echo "id=$ID" >> "$GITHUB_OUTPUT"
+          [ -f "artigos/$ID.json" ] && cp "artigos/$ID.json" /tmp/original.json || true
       - uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -43,7 +44,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ ! -f "artigos/$ID.json" ]; then echo "::error::O artigo não foi gravado (artigos/$ID.json não existe)"; exit 1; fi
-          python3 tools/artigo_preservar.py "artigos/$ID.json" pedido-artigo.json
+          python3 tools/artigo_preservar.py "artigos/$ID.json" pedido-artigo.json /tmp/original.json
           if ! OUT=$(python3 tools/artigo_validar.py "artigos/$ID.json" 2>&1); then echo "::error::$OUT"; exit 1; fi
           python3 tools/artigo_validar.py "artigos/$ID.json" pedido-artigo.json >/dev/null 2>/tmp/av || echo "::warning::$(cat /tmp/av)"
           echo "::notice::$OUT"
