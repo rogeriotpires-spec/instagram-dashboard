@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-10T05:50:00-03:00",
+  "generated": "2026-10-11T05:50:00-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-10-09",
-    "end": "2026-10-09"
+    "start": "2026-10-10",
+    "end": "2026-10-10"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Dia 9 fraco: 348 mil views, 60% abaixo da média dos 7 dias anteriores, com só 3 publicações e nenhuma passando de 1,2 mil views até agora.",
+  "headline": "Dia 10 de ritmo baixo: 144 mil views, 84% abaixo da referência dos 7 dias anteriores, com 4 publicações e uma imagem (25 mil views) concentrando o resultado.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "348 mil",
-      "delta": "−60%",
+      "value": "144 mil",
+      "delta": "−84%",
       "dir": "down"
     },
     {
@@ -28,20 +28,20 @@
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "5,4 mil",
-      "delta": "−76%",
+      "value": "2,6 mil",
+      "delta": "−88%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "188",
-      "delta": "−85%",
+      "value": "140",
+      "delta": "−89%",
       "dir": "down"
     },
     {
-      "label": "Contas com interação por dia",
-      "value": "14,5 mil",
-      "delta": "−72%",
+      "label": "Salvamentos",
+      "value": "158",
+      "delta": "−93%",
       "dir": "down"
     }
   ],
@@ -50,52 +50,58 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O Reel \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (11h) foi o post com mais views do dia (1.178) e o que mais teve compartilhamentos (40), contra 5 de cada um dos outros dois posts. São números pequenos e os posts têm entre 13 e 23 horas de vida, então ainda podem crescer.",
+      "diagnosis": "A imagem \"Fux pediu a íntegra do inquérito das fake news para…\" (9h18) teve 25 mil views, 187 compartilhamentos, 32 comentários, 22 salvamentos e 6 novos seguidores. Foi o post com mais resultado do dia em todas as medidas, e o horário das 9h teve a maior mediana de views (25.296).",
       "actions": [
-        "Acompanhe esse Reel nos próximos dias antes de tirar conclusão.",
-        "Mantenha o tema de dinheiro e escândalo, que rendeu mais compartilhamentos no dia."
+        "Repita o formato: imagem com fato jurídico ou político do dia, publicada de manhã.",
+        "Releia os comentários desse post para achar a pergunta que o público quer ver respondida.",
+        "Reaproveite o tema em um Reel curto à tarde."
       ],
       "posts": [
-        "DeRrXNgtZMa"
+        "DeUEJRVtcIH"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Os três posts do dia somam pouco: 1.178, 1.151 e 819 views. O carrossel das 6h20 (\"Cinco fatos, uma semana, 16 dias para decidir.\") ficou com 819 views e alcance de 365. O Reel de 79,5 segundos foi assistido em média por 19 segundos.",
+      "diagnosis": "O único Reel do dia, \"Pense num amor inimaginável.\" (14h07), teve 979 views e 1 compartilhamento, e 54% das pessoas pularam o vídeo. A imagem \"50 MIL!\" (20h22) chegou a 1.114 views com 8,6 horas de vida, ainda em fase de acúmulo.",
       "actions": [
-        "Evite carrossel de resumo logo cedo, que teve o menor alcance do dia.",
-        "Corte Reels acima de 60 segundos ou divida em partes."
+        "Teste um gancho nos primeiros 3 segundos do Reel, já que a taxa de pulo foi de 54%.",
+        "Olhe de novo o \"50 MIL!\" amanhã antes de julgar: o post é recente.",
+        "Evite deixar o Reel como única aposta da tarde."
       ],
       "posts": [
-        "DeRLIUBlloX",
-        "DeRrXNgtZMa"
+        "DeUk6JyNW9Y",
+        "DeVQClAsvVV"
       ]
     },
     {
-      "title": "Views da conta x views dos posts",
+      "title": "Conversa e comentários",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "A conta recebeu 348 mil views, mas nenhum dos 3 posts de hoje passou de 1.178 views. Ou seja, quase tudo veio de posts antigos, e o dia sem uma imagem forte pesou: a média dos 7 dias anteriores foi de 679.878 views, vinda do pico eleitoral.",
+      "diagnosis": "A conta recebeu 140 comentários, 89% a menos que a referência. Mesmo com poucas views, \"50 MIL!\" teve 29 comentários e o Reel teve 12, sinal de que a audiência responde quando o post chama para a conversa.",
       "actions": [
-        "Programe uma imagem de opinião forte para as 7h, horário dos maiores resultados recentes.",
-        "Compare o dia com a semana inteira, não com o pico da eleição."
-      ],
-      "posts": []
-    },
-    {
-      "title": "Conversa e interação",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Foram 188 comentários e 552 salvamentos, contra 491 e 1.547 na média dos 7 dias anteriores. O post com mais comentários foi o carrossel das 6h20, com 8, seguido pelo Reel, com 7.",
-      "actions": [
-        "Termine os posts com uma pergunta direta, como nas imagens que passaram de 200 comentários na semana.",
-        "Responda os comentários na primeira hora."
+        "Termine as imagens com uma pergunta direta.",
+        "Responda os primeiros comentários na primeira hora.",
+        "Fixe um comentário seu com a pergunta do dia."
       ],
       "posts": [
-        "DeRLIUBlloX",
-        "DeRrXNgtZMa"
+        "DeVQClAsvVV",
+        "DeUk6JyNW9Y"
+      ]
+    },
+    {
+      "title": "Compartilhamentos",
+      "status": "good",
+      "status_label": "No caminho",
+      "diagnosis": "\"O DINHEIRO ERA PARA EDUCAR.\" (10h07) teve 245 compartilhamentos com apenas 3.714 views, o maior volume de envios por view do dia. A conta somou 2.591 compartilhamentos e 158 salvamentos, bem abaixo da referência, mas com esse post como destaque.",
+      "actions": [
+        "Use frases de indignação objetiva e curtas nas imagens, que o público envia.",
+        "Peça no texto para marcar quem precisa ver.",
+        "Compare esse post com o da manhã para ver qual formato envia mais."
+      ],
+      "posts": [
+        "DeUJw1Ztc_K"
       ]
     }
   ]

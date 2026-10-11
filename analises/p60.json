@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-10T05:50:00-03:00",
+  "generated": "2026-10-11T05:50:00-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-08-11",
-    "end": "2026-10-09"
+    "start": "2026-08-12",
+    "end": "2026-10-10"
   },
-  "compare": "2026-06-12 a 2026-08-10",
-  "headline": "Em 60 dias a conta somou 25,3 mi de views (+212%) e 12.849 novos seguidores, com imagens de opinião e entrevistas à frente dos Reels de política.",
+  "compare": "2026-06-13 a 2026-08-11",
+  "headline": "60 dias com 25,3 mi de views (+207%): as 39 imagens tiveram mediana de 42.225 views e os 82 Reels, 9.386, e Política segue como o tema mais fraco.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
       "value": "25,3 mi",
-      "delta": "+212%",
+      "delta": "+208%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "12.849",
+      "value": "13.139",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "466",
+      "value": "484",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "375 mil",
+      "value": "377 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "22 mil",
+      "value": "22.127",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "146 mil",
-      "delta": "+130%",
+      "value": "147 mil",
+      "delta": "+135%",
       "dir": "up"
     }
   ],
@@ -50,27 +50,26 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Imagens são o formato mais forte: 36 imagens tiveram mediana de 51.131 views, contra 8.519 dos 83 Reels. Por tema, Entrevista (5 posts, mediana de 88.359) e Opinião (38 posts, 44.839) ficam à frente de Política (69 posts, 8.519). O maior post foi \"Bem vindo a este manicômio chamado Brasil!\" (1,5 mi de views, 493 novos seguidores).",
+      "diagnosis": "As 39 imagens somaram 8 mi de views e 4.055 seguidores, com mediana de 42.225 views. \"Bem vindo a este manicômio chamado Brasil!\" (1,5 mi de views, 28.401 compartilhamentos, 493 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (945 mil, 894 seguidores) lideram o período.",
       "actions": [
-        "Mantenha a imagem de opinião como base da semana.",
-        "Publique mais entrevistas, que têm a maior mediana.",
-        "Reaproveite os temas das imagens campeãs nos Reels."
+        "Mantenha a imagem como formato principal.",
+        "Produza uma imagem forte por dia, de preferência pela manhã.",
+        "Registre quais frases de imagem mais converteram."
       ],
       "posts": [
         "DcGTcGzN_5i",
-        "Dd08gl4tibs",
-        "DdqoEI_tiw6"
+        "Dd08gl4tibs"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Evitar",
-      "diagnosis": "Os piores posts são Reels de Política longos e postados cedo: \"Quase 18 anos no poder\" (102 segundos, 6h40, 473 views), \"O STF virou um manicômio institucional\" (65 segundos, 6h30, 535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (72 segundos, 551). A mediana às 6h foi de 1,8 mil views.",
+      "diagnosis": "Os piores posts foram Reels de Política longos: 102 segundos (473 views), 65 segundos (535 views) e 72 segundos (551 views), todos com 37% a 43% de pulo. Política somou 68 posts com mediana de 9.386 views.",
       "actions": [
-        "Corte Reels acima de 60 segundos.",
-        "Não publique Reels às 6h.",
-        "Carrosséis (2 posts, mediana de 1.701) só como teste."
+        "Mantenha Reels de Política abaixo de 60 segundos.",
+        "Cheque o gancho antes de publicar.",
+        "Considere trocar parte dos Reels de Política por imagens."
       ],
       "posts": [
         "Db73S3ZBiej",
@@ -79,33 +78,33 @@
       ]
     },
     {
-      "title": "Conversa e comentários",
+      "title": "Temas",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Os posts com mais comentários pediam resposta: \"Qual número você escolheria?\" (489) e \"Responda nos comentários, só um nome!\" (355 comentários, 136 mil views, 57 novos seguidores). Já as imagens de maior alcance têm poucos comentários, como \"Ninguém aguenta mais o Lula e o PT!\" (49). Compartilhamentos e comentários têm dado de apenas 33 dos 60 dias.",
+      "diagnosis": "Entrevista teve a maior mediana (88.360 views, 5 posts), seguida de Bastidores e pessoal (40.724 views, 2 posts) e Opinião (27.015, 41 posts). Eventos e discursos ficou em 2.687 com 6 posts. Entrevista e Bastidores têm amostra pequena.",
       "actions": [
-        "Faça um post de pergunta por semana.",
-        "Deixe claro o que o seguidor deve responder.",
-        "Cobre a coleta dos dias sem dado de interações."
+        "Teste mais entrevistas curtas.",
+        "Alterne bastidores com opinião.",
+        "Reduza eventos e discursos sem corte forte."
       ],
       "posts": [
-        "DdumKq_tAX_",
         "DcfJMHasopg"
       ]
     },
     {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "As medianas de views por hora mostram 17h (88 mil), 21h (106 mil) e 9h (66 mil) à frente, enquanto 6h (1,8 mil), 12h (2,7 mil) e 15h (1,4 mil) ficam atrás. Há poucos posts em algumas horas e os melhores horários coincidem com as imagens, então o formato pesa junto com a hora.",
+      "title": "Conversa e comentários",
+      "status": "good",
+      "status_label": "No caminho",
+      "diagnosis": "Perguntas diretas se destacaram: \"Qual número você escolheria?\" (489 comentários), \"Responda nos comentários, só um nome!\" (355 comentários, 136 mil views, 57 seguidores) e o Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" (259). Compartilhamentos e comentários têm dados em 34 dos 60 dias.",
       "actions": [
-        "Teste Reels às 17h e 21h.",
-        "Mantenha imagens entre 7h e 9h.",
-        "Evite 6h, 12h e 15h para posts importantes."
+        "Repita o pedido de resposta curta.",
+        "Use enquetes nos Stories.",
+        "Responda comentários para estender o alcance."
       ],
       "posts": [
+        "DdumKq_tAX_",
         "DcfJMHasopg",
-        "DcGTcGzN_5i"
+        "DeFIOryNZpn"
       ]
     }
   ]

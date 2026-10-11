@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-10T05:50:00-03:00",
+  "generated": "2026-10-11T05:50:00-03:00",
   "dias": 7,
   "period": {
-    "start": "2026-10-03",
-    "end": "2026-10-09"
+    "start": "2026-10-04",
+    "end": "2026-10-10"
   },
-  "compare": "2026-09-26 a 2026-10-02",
-  "headline": "Semana de 3 a 9 de outubro: 6,3 mi de views (+107%) e 153 mil compartilhamentos, com 3.815 novos seguidores, puxada por três posts que passaram de 300 mil views.",
+  "compare": "2026-09-27 a 2026-10-03",
+  "headline": "Semana da eleição forte: 6,2 mi de views (+131%), 3.908 novos seguidores e 149.886 compartilhamentos, puxados por poucos posts de pico.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "6,3 mi",
-      "delta": "+107%",
+      "value": "6,2 mi",
+      "delta": "+131%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "3.815",
-      "delta": "+76%",
+      "value": "3.908",
+      "delta": "+85%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "105",
-      "delta": "+3%",
+      "value": "112",
+      "delta": "+8%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "153 mil",
-      "delta": "+170%",
+      "value": "150 mil",
+      "delta": "+173%",
       "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "8.946",
-      "delta": "+280%",
+      "value": "8.967",
+      "delta": "+334%",
       "dir": "up"
     },
     {
       "label": "Salvamentos",
-      "value": "16.225",
-      "delta": "+294%",
+      "value": "16,1 mil",
+      "delta": "+330%",
       "dir": "up"
     }
   ],
@@ -50,61 +50,61 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" (4/10, 14h) teve 645 mil views e 25 mil compartilhamentos em 23 segundos. A imagem \"Avalanche Bolsonarista!\" (5/10, 7h) teve 613 mil views e 466 novos seguidores. Terceiro lugar: a imagem das 22h56 com 311 mil views.",
+      "diagnosis": "O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" (4/10, 14h) teve 645 mil views e 25 mil compartilhamentos, com 23 segundos e 40% de pulo. A imagem \"Avalanche Bolsonarista!\" (5/10, 7h) teve 614 mil views e 466 novos seguidores. Os dois foram reação rápida a fatos do dia.",
       "actions": [
-        "Em dias de fato político forte, publique a reação no mesmo dia: imagem às 7h e Reel curto à tarde.",
-        "Mantenha os Reels de reação perto de 23 segundos.",
-        "Deixe um modelo de imagem pronto para responder rápido."
+        "Em dia de fato forte, publique a reação em poucas horas: imagem às 7h e Reel curto à tarde.",
+        "Mantenha Reels de reação perto de 25 segundos.",
+        "Deixe um modelo de imagem pronto para agilizar."
       ],
       "posts": [
         "DeFIOryNZpn",
-        "DeGlubltKVX",
-        "DeGFDYlstrt"
+        "DeGlubltKVX"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "As 8 imagens tiveram mediana de 57.818 views; os 5 Reels, 2.520; os 2 carrosséis, 1.701. Os três posts mais fracos são todos de 9/10 (819, 1.151 e 1.178 views), mas têm menos de 23 horas de vida e ainda acumulam, então não dá para compará-los com os posts da semana eleitoral.",
+      "status_label": "Evitar",
+      "diagnosis": "Os 5 Reels tiveram mediana de 1.343 views, contra 37 mil das 10 imagens. Os mais fracos foram \"Pense num amor inimaginável.\" (979 views, 54% de pulo) e \"Sabe se isso é IA?\" (1.229 views, 48% de pulo). Os 2 carrosséis ficaram em 3.105 de mediana. Os posts de 10/10 ainda acumulam views.",
       "actions": [
-        "Evite carrossel de resumo, que ficou com a menor mediana.",
-        "Reels de 79,5 segundos como o de 9/10 tendem a perder gente no meio: prefira até 30 segundos.",
-        "Reavalie os posts de 9/10 em mais 2 ou 3 dias."
+        "Prefira imagem como aposta principal do dia.",
+        "Reduza Reels sem gancho forte nos primeiros segundos.",
+        "Teste carrossel de novo só com tema de alta procura."
       ],
       "posts": [
-        "DeRLIUBlloX",
-        "DeSNY3wNKgW",
-        "DeRrXNgtZMa"
+        "DeUk6JyNW9Y",
+        "DeKCMhiNIxP"
       ]
     },
     {
-      "title": "Conversa e comentários",
+      "title": "Seguidores",
       "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Os comentários foram de 2.355 para 8.946. A imagem \"Sabe me dizer se essa imagem é real ou se é de IA?\" teve 202 comentários e 62 novos seguidores. A imagem do governador do Rio (7/10) teve 82 comentários e 27 novos seguidores. A alta coincidiu com a semana da eleição e pode esfriar.",
+      "status_label": "No caminho",
+      "diagnosis": "Entraram 3.908 seguidores e saíram 112 (dados de 6 dos 7 dias). \"Avalanche Bolsonarista!\" trouxe 466, \"Sabe me dizer se essa imagem é real ou se é de IA?\" trouxe 62 e \"O Rio pode ter governador eleito hoje, sem segundo turno.\" trouxe 27.",
       "actions": [
-        "Use perguntas diretas no texto da imagem.",
-        "Fixe uma pergunta no primeiro comentário para abrir a conversa.",
-        "Separe o que é efeito da eleição do que é efeito da pergunta antes de repetir."
+        "Feche os virais com chamada para seguir.",
+        "Fixe no perfil um post de apresentação.",
+        "Repita imagens de opinião com pergunta, que converteram bem."
       ],
       "posts": [
+        "DeGlubltKVX",
         "DeGFDYlstrt",
         "DeL6bqctDFk"
       ]
     },
     {
-      "title": "Horários e seguidores",
+      "title": "Horários",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Os posts das 14h, 7h e 22h tiveram medianas de 645 mil, 89 mil e 311 mil views. Os das 6h, 11h e 16h ficaram perto de 1 mil, mas são os posts de 9/10, ainda novos. Os novos seguidores têm dado de 6 dos 7 dias, então o total pode estar subestimado.",
+      "diagnosis": "As medianas de views por horário variaram muito: 14h teve 323 mil, 22h teve 311 mil, 7h teve 89.702, enquanto 10h teve 3.714 e 11h teve 1.286. Cada horário tem poucos posts e idades diferentes, então os picos refletem em parte os posts virais.",
       "actions": [
-        "Mantenha as imagens de opinião às 7h.",
-        "Teste um Reel às 14h fora de dia de eleição.",
-        "Confira o 7º dia de seguidores quando o dado chegar."
+        "Mantenha o 7h para imagens.",
+        "Teste Reels às 14h com tema do dia.",
+        "Evite 10h e 11h para Reels até ter mais dados."
       ],
       "posts": [
-        "DeGlubltKVX",
+        "DeFIOryNZpn",
+        "DeGFDYlstrt",
         "DeL6bqctDFk"
       ]
     }

@@ -1,40 +1,40 @@
 {
-  "generated": "2026-10-10T05:50:00-03:00",
+  "generated": "2026-10-11T05:50:00-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-07-12",
-    "end": "2026-10-09"
+    "start": "2026-07-13",
+    "end": "2026-10-10"
   },
-  "compare": "2026-04-13 a 2026-07-11",
-  "headline": "Em 90 dias a conta recebeu 33,2 mi de views, com 158 publicações: as 42 imagens somaram 9,6 mi de views contra 4,7 mi dos 114 Reels.",
+  "compare": "2026-04-14 a 2026-07-12",
+  "headline": "90 dias com 33,3 mi de views: imagens (mediana de 42.225) superam Reels (7.977) e os maiores picos vieram de poucos posts de opinião.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "33,2 mi",
+      "value": "33,3 mi",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Novos seguidores",
-      "value": "12.849",
+      "value": "13.139",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "466",
+      "value": "484",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "375 mil",
+      "value": "377 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "22 mil",
+      "value": "22.127",
       "delta": "sem comparação",
       "dir": "na"
     },
@@ -50,27 +50,26 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Imagens de opinião dominam: 42 imagens tiveram mediana de 51.131 views e 274 compartilhamentos, contra 7.977 views e 68 compartilhamentos dos 114 Reels. \"Quando dizem que uma imagem vale mais do que mil palavras\" teve 1,4 mi de views e 1.408 novos seguidores, o maior número do período. Entrevista (5 posts) tem mediana de 88.359 views.",
+      "diagnosis": "As 45 imagens somaram 5.903 seguidores. \"Bem vindo a este manicômio chamado Brasil!\" teve 1,5 mi de views e \"Quando dizem que uma imagem vale mais do que mil palavras\" teve 1,4 mi de views, 42.754 compartilhamentos e 1.409 seguidores, o maior ganho do período.",
       "actions": [
-        "Mantenha imagens de opinião como base.",
-        "Publique mais entrevistas.",
-        "Use as 3 imagens campeãs como modelo de texto e visual."
+        "Faça imagens com apelo visual e frase curta.",
+        "Reveja o que esses posts têm em comum antes de repetir.",
+        "Mantenha a frequência de imagens."
       ],
       "posts": [
-        "DbWUq-ltrx8",
         "DcGTcGzN_5i",
-        "Dd08gl4tibs"
+        "DbWUq-ltrx8"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Política concentra 93 posts, com mediana de 8.519 views, e Eventos e discursos (6 posts) ficam em 2.687. Os piores Reels têm entre 473 e 551 views e duram de 65 a 102 segundos. Bastidores e pessoal (11 posts) tem mediana de 5.290.",
+      "status_label": "Evitar",
+      "diagnosis": "Política somou 93 posts com mediana de 8.520 views, e Eventos e discursos, 6 posts com 2.687. Os piores Reels de Política tiveram 473, 535 e 551 views, com 65 a 102 segundos.",
       "actions": [
-        "Reduza Reels de Política e Eventos.",
-        "Corte Reels longos.",
-        "Teste Bastidores em imagem em vez de Reel."
+        "Reduza o volume de Reels de Política.",
+        "Corte vídeos longos ou divida em partes.",
+        "Priorize opinião em imagem."
       ],
       "posts": [
         "Db73S3ZBiej",
@@ -79,35 +78,33 @@
       ]
     },
     {
-      "title": "Conversa e comentários",
+      "title": "Horários",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "O post com mais comentários foi um Reel longo: \"Essa pesquisa parece ótima pra um lado…\" (743 comentários, 7,7 mil compartilhamentos, 82.738 views, 198 segundos, assistido em média por 52 segundos). Depois vêm as perguntas diretas (489 e 355 comentários). Interações têm dado de apenas 33 dos 90 dias.",
+      "diagnosis": "As medianas mais altas foram às 16h (90.112), 21h (66.983) e 22h (64.673); as mais baixas às 15h (1.442), 6h (2.197) e 11h (3.806). Há poucos posts em vários horários, então trate como indício.",
       "actions": [
-        "Repita o tema de pesquisas e comparações em Reel com mais tempo, como teste.",
-        "Use perguntas diretas em imagens.",
-        "Complete a coleta dos dias sem dado."
+        "Teste imagens às 16h e à noite.",
+        "Evite Reels às 15h e às 6h.",
+        "Acompanhe o resultado por mais semanas."
+      ],
+      "posts": [
+        "DcGTcGzN_5i"
+      ]
+    },
+    {
+      "title": "Conversa e comentários",
+      "status": "good",
+      "status_label": "No caminho",
+      "diagnosis": "O Reel \"Essa pesquisa parece ótima pra um lado…\" teve 743 comentários, 7.663 compartilhamentos e 82.742 views, com 33% de pulo, mesmo com 197 segundos. Também se destacaram \"Qual número você escolheria?\" (489) e \"Responda nos comentários, só um nome!\" (355). Só há dados de comentários em 34 dos 90 dias.",
+      "actions": [
+        "Use Reels longos apenas quando houver tema forte e gancho claro.",
+        "Mantenha perguntas diretas.",
+        "Registre o que gerou debate."
       ],
       "posts": [
         "Da38CFtMZuP",
         "DdumKq_tAX_",
         "DcfJMHasopg"
-      ]
-    },
-    {
-      "title": "Seguidores",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os 12.849 novos seguidores vieram sobretudo de imagens: as 42 somam 5.829 seguidores. Os maiores foram 1.408, 840 e 493, todos em imagens de opinião. Os Reels não trazem esse dado, então a comparação entre formatos é parcial. Sem dado do período anterior, não dá para dizer se o ritmo subiu.",
-      "actions": [
-        "Meça seguidores por post em toda imagem.",
-        "Peça para seguir no fechamento das imagens campeãs.",
-        "Compare com o próximo período quando houver dado."
-      ],
-      "posts": [
-        "DbWUq-ltrx8",
-        "Dd08gl4tibs",
-        "DcGTcGzN_5i"
       ]
     }
   ]

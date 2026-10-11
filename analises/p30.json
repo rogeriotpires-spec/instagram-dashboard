@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-10T05:50:00-03:00",
+  "generated": "2026-10-11T05:50:00-03:00",
   "dias": 30,
   "period": {
-    "start": "2026-09-10",
-    "end": "2026-10-09"
+    "start": "2026-09-11",
+    "end": "2026-10-10"
   },
-  "compare": "2026-08-11 a 2026-09-09",
-  "headline": "Em 30 dias a conta recebeu 16,7 mi de views (+95%), com 11.114 novos seguidores e só 441 que deixaram de seguir, e as imagens de opinião foram o que mais rendeu.",
+  "compare": "2026-08-12 a 2026-09-10",
+  "headline": "Mês de 16,5 mi de views (+87%) e 10.625 novos seguidores, com imagens de Opinião carregando o resultado: mediana de 56.536 views contra 10.253 dos Reels.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "16,7 mi",
-      "delta": "+95%",
+      "value": "16,5 mi",
+      "delta": "+87%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "11.114",
+      "value": "10.625",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "441",
+      "value": "444",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "362 mil",
+      "value": "360 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "20,5 mil",
+      "value": "20.209",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
       "value": "208 mil",
-      "delta": "+145%",
+      "delta": "+142%",
       "dir": "up"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião lideram: 22 imagens tiveram mediana de 78.629 views e 820 compartilhamentos, contra 10.253 views dos 41 Reels. Os três maiores posts foram imagens postadas às 7h: \"Ninguém aguenta mais o Lula e o PT!\" (928 mil views, 840 novos seguidores), \"Chega até a arrepiar!!\" (845 mil) e \"Fica a reflexão.\" (731 mil, 469 novos seguidores).",
+      "diagnosis": "As 25 imagens tiveram mediana de 56.536 views e somaram 3.186 seguidores. As três melhores foram \"Ninguém aguenta mais o Lula e o PT!\" (945 mil views, 32.302 compartilhamentos, 894 seguidores), \"Chega até a arrepiar!!\" (847 mil) e \"Fica a reflexão.\" (755 mil, 477 seguidores). As três saíram por volta das 7h.",
       "actions": [
-        "Mantenha 3 a 4 imagens de opinião por semana às 7h.",
-        "Use frases curtas e emocionais no texto da imagem.",
-        "Reaproveite o formato das três imagens campeãs."
+        "Faça da imagem de opinião o carro-chefe da semana.",
+        "Mantenha o 7h como horário principal.",
+        "Use frases curtas e emocionais no texto da imagem."
       ],
       "posts": [
         "Dd08gl4tibs",
@@ -65,47 +65,47 @@
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Os Reels de Política são o grosso da produção (38 posts, mediana de 9.386 views), enquanto Opinião tem mediana de 61.081 em 24 posts. Os piores têm menos de 1,2 mil views, como o Reel de 91 segundos \"Banda podre esperneia!\" (1.049) e o carrossel de 9/10 (819, ainda novo).",
+      "status_label": "Evitar",
+      "diagnosis": "Os 37 posts de Política tiveram mediana de 8.520 views, contra 47.908 dos 27 de Opinião. Entre os 39 Reels, os mais fracos foram \"Pense num amor inimaginável.\" (979 views) e \"Banda podre esperneia!\" (1.049 views, 50% de pulo, 91 segundos).",
       "actions": [
-        "Reduza Reels de Política acima de 60 segundos.",
-        "Transforme os melhores temas de Reel em imagem de opinião.",
-        "Carrossel só como teste: os 2 do mês tiveram mediana de 1.701 views."
+        "Transforme os temas de Política em imagens de opinião.",
+        "Corte Reels acima de 60 segundos.",
+        "Reserve Reels para fatos de grande interesse."
       ],
       "posts": [
-        "DdL670TN4bK",
-        "DeRLIUBlloX"
+        "DeUk6JyNW9Y",
+        "DdL670TN4bK"
       ]
     },
     {
       "title": "Conversa e comentários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "O maior volume de comentários veio da imagem \"Qual número você escolheria?\" (489 comentários, mas só 13.666 views e 2 novos seguidores). As imagens campeãs de views tiveram bem menos: 49 comentários em \"Ninguém aguenta mais o Lula e o PT!\". Pergunta gera conversa, mas nem sempre seguidor.",
+      "status": "good",
+      "status_label": "No caminho",
+      "diagnosis": "A conta recebeu 20.209 comentários no mês. O post com mais comentários foi \"Qual número você escolheria?\" (489, com 13.710 views), seguido do Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" (259) e de \"Chega até a arrepiar!!\" (245). Perguntas diretas geraram muita conversa mesmo com poucas views.",
       "actions": [
-        "Use enquetes e perguntas em dias de menos notícia.",
-        "Combine pergunta no final de uma imagem de opinião forte.",
-        "Meça os dois: comentários e novos seguidores."
+        "Publique uma pergunta de escolha por semana.",
+        "Responda nos primeiros minutos.",
+        "Use as respostas como base para o post seguinte."
       ],
       "posts": [
         "DdumKq_tAX_",
-        "Dd08gl4tibs"
+        "DeFIOryNZpn",
+        "DdqoEI_tiw6"
       ]
     },
     {
-      "title": "Seguidores e horários",
+      "title": "Horários",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "As 22 imagens somaram 3.115 novos seguidores. Os três posts que mais trouxeram seguidores (840, 469 e 466) saíram de manhã e dia útil. Os horários de 7h e 22h tiveram medianas de 89 mil e 157 mil views, contra 1,1 mil às 16h e 2,2 mil às 15h, com poucos posts em cada hora. Os números de seguidores, compartilhamentos e comentários do período anterior têm só 3 dias, por isso não há comparação.",
+      "diagnosis": "A mediana de views foi maior às 9h (451.580), 21h (200.063) e 22h (157.013), e menor às 15h (2.172), 20h (4.348) e 13h (5.655). São poucos posts por horário e alguns picos vêm de um post só, então vale testar antes de mudar a rotina.",
       "actions": [
-        "Concentre os posts fortes entre 7h e 9h e à noite.",
-        "Evite 15h e 16h para conteúdo importante.",
-        "Compare os próximos 30 dias com este quando houver dado completo."
+        "Teste imagens às 21h e 22h.",
+        "Evite Reels às 15h.",
+        "Compare o mesmo tipo de post em dois horários."
       ],
       "posts": [
         "Dd08gl4tibs",
-        "Dd8pQedtGZL",
-        "DeGlubltKVX"
+        "DdqoEI_tiw6"
       ]
     }
   ]
