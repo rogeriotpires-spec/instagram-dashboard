@@ -135,6 +135,28 @@ for d in api_days:
         r["follows"] = r["unfollows"] = None  # dia ainda não processado pela fonte
     hist["daily_api"][d] = r
 
+# posts recentes pela API (o Supermetrics só traz até a coleta das 4h50): acrescenta os de hoje e atualiza os números
+have = {p[2]: i for i, p in enumerate(posts)}
+for code, r in (ig.get("recent_posts") or {}).items():
+    try: t = datetime.strptime(r["ts"], "%Y-%m-%dT%H:%M:%S%z").astimezone(BRT)
+    except Exception: continue
+    typ = "C" if r.get("media_type") == "CAROUSEL_ALBUM" else ("R" if r.get("product") == "REELS" or r.get("media_type") == "VIDEO" else "I")
+    if code not in titles: titles[code] = short_title(r.get("caption"))
+    if code not in themes: themes[code] = classify(r.get("caption"), typ)
+    ref = datetime.fromisoformat(ig.get("collected")) if ig.get("collected") else collected
+    age_h = round((ref - t).total_seconds() / 3600, 1)
+    g = lambda k, alt=None: r.get(k) if r.get(k) is not None else (r.get(alt) if alt else None)
+    vals = [g("views"), g("reach"), g("total_interactions"), g("likes", "like_count"), g("comments", "comments_count"), g("shares"), g("saved"), None, g("profile_visits"), g("follows")]
+    row = [t.strftime("%Y-%m-%d %H:%M"), typ, code, titles[code], themes[code], *vals, age_h]
+    if code in have:
+        old_row = posts[have[code]]
+        if (row[5] or 0) >= (old_row[5] or 0):  # só substitui por números mais novos (maiores)
+            row[12] = old_row[12]  # reposts: só o Supermetrics informa
+            posts[have[code]] = row
+    else:
+        posts.append(row)
+posts.sort(key=lambda p: p[0], reverse=True)
+
 # stories: a API só mostra os ativos (24h); guardamos a última leitura de cada um
 hist.setdefault("stories", {})
 for sid, r in (ig.get("stories") or {}).items():

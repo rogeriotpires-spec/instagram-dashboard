@@ -160,6 +160,31 @@ def main():
             probed += 1
         rec["duration_s"] = durations.get(code)
         reels[code] = rec
+    # ---- posts das últimas 48 horas com números atualizados (para o filtro de 1 dia mostrar o que saiu hoje) ----
+    recent = {}
+    lim = now - timedelta(hours=48)
+    for m in media:
+        ts = datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")
+        if ts < lim: continue
+        code = m.get("shortcode") or m["permalink"].rstrip("/").split("/")[-1]
+        is_reel = m.get("media_product_type") == "REELS" or m.get("media_type") == "VIDEO"
+        mets = ["views", "reach", "likes", "comments", "shares", "saved", "total_interactions"] + ([] if is_reel else ["profile_visits", "follows"])
+        rec = {"ts": m["timestamp"], "media_type": m.get("media_type"), "product": m.get("media_product_type"), "permalink": m.get("permalink")}
+        info = safe(f"post {code}", lambda: get(m["id"], fields="caption,like_count,comments_count"))
+        if info: rec["caption"] = info.get("caption"); rec["like_count"] = info.get("like_count"); rec["comments_count"] = info.get("comments_count")
+        ins = safe(f"post {code} insights", lambda: get(f"{m['id']}/insights", metric=",".join(mets)))
+        if ins is None:
+            ins = {"data": []}
+            for k in mets:
+                r = safe(f"post {code} {k}", lambda: get(f"{m['id']}/insights", metric=k))
+                if r: ins["data"] += r.get("data", [])
+        for x in ins.get("data", []):
+            v = (x.get("values") or [{}])[0].get("value")
+            if v is None: v = x.get("total_value", {}).get("value")
+            rec[x["name"]] = v
+        recent[code] = rec
+    out["recent_posts"] = recent
+
     # ---- stories ativos (a API só mostra as últimas 24 horas; o histórico fica em history.json) ----
     stories = {}
     page = safe("stories", lambda: get("me/stories", fields="id,media_type,timestamp,permalink", limit=100))

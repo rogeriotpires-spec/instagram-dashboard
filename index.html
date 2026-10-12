@@ -272,40 +272,40 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
   <section class="block" id="conteudo">
     <div class="sec-h"><h2>Conteúdo</h2><p>Mediana por post, quartis e tamanho da amostra</p></div>
     <div class="g2">
-      <div class="card"><div class="head"><h3>Views acumuladas por semana de publicação</h3><span class="per" data-per="global"></span></div><p class="desc">Soma das views totais (até a coleta) dos posts publicados em cada semana. Posts recentes ainda estão acumulando.</p><div class="legend" id="lg-weekly"></div><div id="c-weekly"></div></div>
-      <div class="card"><div class="head"><h3>Formatos</h3><span class="per" data-per="global"></span></div><p class="desc">Views por post: mediana, faixa entre o 1º e o 3º quartil (metade central dos posts) e quantidade.</p><div id="c-mix"></div></div>
+      <div class="card"><div class="head"><h3>Views acumuladas por semana de publicação</h3><span class="per" data-per="dist"></span></div><p class="desc">Soma das views totais (até a coleta) dos posts publicados em cada semana. Posts recentes ainda estão acumulando.</p><div class="legend" id="lg-weekly"></div><div id="c-weekly"></div></div>
+      <div class="card"><div class="head"><h3>Formatos</h3><span class="per" data-per="dist"></span></div><p class="desc">Views por post: mediana, faixa entre o 1º e o 3º quartil (metade central dos posts) e quantidade.</p><div id="c-mix"></div></div>
     </div>
     <div class="g2e">
-      <div class="card"><div class="head"><h3>Horário de publicação</h3><span class="per" data-per="global"></span></div><p class="desc">Mediana de views por post e faixa interquartil, por formato. Números sobre as barras = posts na faixa.</p><div class="legend" id="lg-hour"></div><div id="c-hour"></div><div id="hour-note"></div></div>
-      <div class="card"><div class="head"><h3>Dia da semana</h3><span class="per" data-per="global"></span></div><p class="desc">Mesma leitura por dia de publicação.</p><div class="legend" id="lg-dow"></div><div id="c-dow"></div><div id="dow-note"></div></div>
+      <div class="card"><div class="head"><h3>Horário de publicação</h3><span class="per" data-per="dist"></span></div><p class="desc">Mediana de views por post e faixa interquartil, por formato. Números sobre as barras = posts na faixa.</p><div class="legend" id="lg-hour"></div><div id="c-hour"></div><div id="hour-note"></div></div>
+      <div class="card"><div class="head"><h3>Dia da semana</h3><span class="per" data-per="dist"></span></div><p class="desc">Mesma leitura por dia de publicação.</p><div class="legend" id="lg-dow"></div><div id="c-dow"></div><div id="dow-note"></div></div>
     </div>
     <div class="g2e">
-      <div class="card"><div class="head"><h3>Distribuição de resultados</h3><span class="per" data-per="global"></span></div><p class="desc">Quantos posts passam de cada meta de views. Evita que poucos virais escondam o restante.</p><div id="c-dist"></div></div>
-      <div class="card"><div class="head"><h3>Calendário de publicações</h3><span class="per" data-per="global"></span></div><p class="desc">Cada quadradinho é um post, na cor do formato. Toque no dia para ver os posts e resultados.</p><div class="legend" id="lg-cal"></div><div id="c-cal"></div><div class="pick" id="cal-pick">Toque em um dia para ver as publicações.</div></div>
+      <div class="card"><div class="head"><h3>Distribuição de resultados</h3><span class="per" data-per="dist"></span></div><p class="desc">Quantos posts passam de cada meta de views. Evita que poucos virais escondam o restante.</p><div id="c-dist"></div></div>
+      <div class="card"><div class="head"><h3>Calendário de publicações</h3><span class="per" data-per="dist"></span></div><p class="desc">Cada quadradinho é um post, na cor do formato. Toque no dia para ver os posts e resultados.</p><div class="legend" id="lg-cal"></div><div id="c-cal"></div><div class="pick" id="cal-pick">Toque em um dia para ver as publicações.</div></div>
     </div>
   </section>
 
   <section class="block" id="reels">
     <div class="sec-h"><h2>Reels: retenção</h2><p>Associações dentro da amostra, não relação de causa</p></div>
     <div class="g2">
-      <div class="card"><div class="head"><h3>Taxa de pulo x visualizações</h3><span class="per" data-per="global"></span></div><p class="desc">Cada ponto é um Reel. Taxa de pulo = % de quem passou adiante nos 3 primeiros segundos. <b>Eixo vertical em escala logarítmica</b>: cada linha vale 10 vezes a anterior.</p>
+      <div class="card"><div class="head"><h3>Taxa de pulo x visualizações</h3><span class="per" data-per="dist"></span></div><p class="desc">Cada ponto é um Reel. Taxa de pulo = % de quem passou adiante nos 3 primeiros segundos. <b>Eixo vertical em escala logarítmica</b>: cada linha vale 10 vezes a anterior.</p>
         <div class="toolbar"><select id="reel-theme" aria-label="Filtrar por tema"></select><select id="reel-dur" aria-label="Filtrar por duração"></select></div>
         <div id="c-scatter"></div><div class="pick" id="scatter-pick">Toque em uma bolinha para ver o Reel. No computador, clique para abrir no Instagram.</div></div>
-      <div class="card"><div class="head"><h3>Faixas de taxa de pulo</h3><span class="per" data-per="global"></span></div><p class="desc">Views por Reel em cada faixa: mediana, quartis e quantidade.</p><div id="c-skip"></div><div class="def" id="skip-note"></div></div>
+      <div class="card"><div class="head"><h3>Faixas de taxa de pulo</h3><span class="per" data-per="dist"></span></div><p class="desc">Views por Reel em cada faixa: mediana, quartis e quantidade.</p><div id="c-skip"></div><div class="def" id="skip-note"></div></div>
     </div>
     <div class="g2e">
-      <div class="card"><div class="head"><h3>Tempo médio assistido</h3><span class="per" data-per="global"></span></div><p class="desc">Views por Reel conforme o tempo médio que cada pessoa assistiu.</p><div id="c-watch"></div></div>
-      <div class="card"><div class="head"><h3>Reels com menor taxa de pulo</h3><span class="per" data-per="global"></span></div><p class="desc">Entre os Reels com mais de 5 mil views.</p><div id="best-reels"></div></div>
+      <div class="card"><div class="head"><h3>Tempo médio assistido</h3><span class="per" data-per="dist"></span></div><p class="desc">Views por Reel conforme o tempo médio que cada pessoa assistiu.</p><div id="c-watch"></div></div>
+      <div class="card"><div class="head"><h3>Reels com menor taxa de pulo</h3><span class="per" data-per="dist"></span></div><p class="desc">Entre os Reels com mais de 5 mil views.</p><div id="best-reels"></div></div>
     </div>
     <div class="g2e">
-      <div class="card"><div class="head"><h3>Duração do vídeo</h3><span class="per" data-per="global"></span></div><p class="desc">Views por Reel conforme a duração. Número sobre a barra = Reels na faixa. O detalhe mostra o percentual médio assistido.</p><div id="c-dur"></div><div class="def" id="dur-note"></div></div>
-      <div class="card"><div class="head"><h3>Percentual médio assistido</h3><span class="per" data-per="global"></span></div><p class="desc">Tempo médio assistido ÷ duração do vídeo. Views por Reel em cada faixa.</p><div id="c-pctw"></div><div class="def"><b>Como é calculado:</b> a duração é lida do arquivo de vídeo e o tempo médio vem da API do Instagram. Métrica derivada, não exibida pelo app. Pode passar de 100% quando as pessoas reassistem. <b>Taxa de conclusão e curva de retenção</b> continuam sem dado na fonte.</div></div>
+      <div class="card"><div class="head"><h3>Duração do vídeo</h3><span class="per" data-per="dist"></span></div><p class="desc">Views por Reel conforme a duração. Número sobre a barra = Reels na faixa. O detalhe mostra o percentual médio assistido.</p><div id="c-dur"></div><div class="def" id="dur-note"></div></div>
+      <div class="card"><div class="head"><h3>Percentual médio assistido</h3><span class="per" data-per="dist"></span></div><p class="desc">Tempo médio assistido ÷ duração do vídeo. Views por Reel em cada faixa.</p><div id="c-pctw"></div><div class="def"><b>Como é calculado:</b> a duração é lida do arquivo de vídeo e o tempo médio vem da API do Instagram. Métrica derivada, não exibida pelo app. Pode passar de 100% quando as pessoas reassistem. <b>Taxa de conclusão e curva de retenção</b> continuam sem dado na fonte.</div></div>
     </div>
   </section>
 
   <section class="block" id="temas">
     <div class="sec-h"><h2>Desempenho por tema</h2><p>Classificação automática pela legenda (pode ter erros pontuais)</p></div>
-    <div class="card"><div class="head"><h3>Temas por formato</h3><span class="per" data-per="global"></span></div><p class="desc">Mediana por post. Taxa de compartilhamento = compartilhamentos ÷ views. Amostras com menos de 5 posts em cinza.</p><div class="tablewrap"><table class="t" id="theme-tbl"></table></div></div>
+    <div class="card"><div class="head"><h3>Temas por formato</h3><span class="per" data-per="dist"></span></div><p class="desc">Mediana por post. Taxa de compartilhamento = compartilhamentos ÷ views. Amostras com menos de 5 posts em cinza.</p><div class="tablewrap"><table class="t" id="theme-tbl"></table></div></div>
   </section>
 
   <section class="block" id="publico">
@@ -556,7 +556,9 @@ const END=()=>D.period.end;
 const winStart=(r,off=0)=>addDays(END(),-(r*(off+1))+1);
 const winEnd=(r,off=0)=>addDays(END(),-(r*off));
 function postsIn(r,off=0,typeAware=true){const a=winStart(r,off),b=winEnd(r,off);return ALL.filter(p=>p.date>=a&&p.date<=b&&(!typeAware||state.type==="all"||p.type===state.type))}
-const rows=()=>postsIn(state.range);
+const rows=()=>state.range===1?ALL.filter(p=>p.date>=END()&&(state.type==="all"||p.type===state.type)):postsIn(state.range); /* 1 dia: ontem (último dia completo) e o que já saiu hoje */
+const distR=()=>Math.max(state.range,7); /* gráficos de distribuição precisam de amostra: no filtro de 1 dia usam a última semana */
+const distRows=()=>state.range===1?postsIn(7):rows();
 function daysIn(r,off=0){const a=winStart(r,off),b=winEnd(r,off);const out=[];for(let d=a;d<=b;d=addDays(d,1)){out.push(DAILY.find(x=>x.date===d)||{date:d})}return out}
 const coverage=(days,key)=>days.filter(d=>d[key]!=null).length;
 const perLabel=(a,b)=>`${dBR(a)} a ${dBR(b)}`;
@@ -570,7 +572,8 @@ function setPer(){
   const dailyDays=daysIn(r),cov=coverage(dailyDays,"reach");
   const firstFol=DAILY.find(d=>d.new_followers!=null),folCov=coverage(dailyDays,"new_followers");
   const map={
-    global:[g0,false],
+    global:[r0===1?`${dBR(END())} e hoje`:g0,false],
+    dist:[perTxt(Math.max(r0,7)),r0===1],
     chart:[g,r!==r0],
     daily:[cov<r?`${cov} de ${r} dias com dado`:g,cov<r||r!==r0],
     followers:[folCov<r?`${folCov} de ${r} dias com dado`:g,folCov<r||r!==r0],
@@ -768,7 +771,7 @@ function renderLife(){
 function weekKey(s){const d=new Date(s+"T12:00:00");d.setDate(d.getDate()-(d.getDay()+6)%7);return iso(d)}
 function typesNow(){const R=rows();return state.type==="all"?["I","R","C"].filter(t=>R.some(p=>p.type===t)):[state.type]}
 function renderContent(){
-  const R=rows(),types=typesNow(),r=state.range;
+  const R=distRows(),types=typesNow(),r=distR();
   const weeks=[];for(let w=weekKey(winStart(r));w<=END();w=addDays(w,7))weeks.push(w);
   $("#lg-weekly").innerHTML=types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join("");
   bars($("#c-weekly"),{labels:weeks.map(dBR),series:types.map(t=>({color:TYPE[t].c,values:weeks.map(w=>sum(R.filter(p=>p.type===t&&weekKey(p.date)===w),p=>p.views))})),
@@ -804,7 +807,7 @@ function renderContent(){
 }
 function renderCalendar(R,types){
   $("#lg-cal").innerHTML=types.map(t=>`<span><i style="background:${TYPE[t].c}"></i>${TYPE[t].name}</span>`).join("");
-  const a=winStart(state.range),b=END(),start=weekKey(a),maxV=Math.max(1,...R.map(p=>p.views));
+  const a=winStart(distR()),b=END(),start=weekKey(a),maxV=Math.max(1,...R.map(p=>p.views));
   const DN=["Seg","Ter","Qua","Qui","Sex","Sáb","Dom"];let html=`<div class="cal"><span></span>${DN.map(d=>`<span class="dh">${d}</span>`).join("")}`;
   for(let w=start;w<=b;w=addDays(w,7)){html+=`<span class="wk">${dBR(w)}</span>`;for(let i=0;i<7;i++){const d=addDays(w,i),inR=d>=a&&d<=b,ps=R.filter(p=>p.date===d),tot=sum(ps,p=>p.views);
     const bg=ps.length?`background:color-mix(in srgb,var(--s1) ${Math.round(8+Math.sqrt(tot/maxV)*40)}%,var(--surface-2))`:"";
@@ -817,7 +820,7 @@ function renderCalendar(R,types){
 
 /* ---------- reels ---------- */
 function renderReels(){
-  const sel=$("#reel-theme"),R0=rows().filter(p=>p.type==="R"&&p.skip!=null);
+  const sel=$("#reel-theme"),R0=distRows().filter(p=>p.type==="R"&&p.skip!=null);
   const th=[...new Set(R0.map(p=>p.theme))];if(!th.includes(state.reelTheme))state.reelTheme="all";
   sel.innerHTML=`<option value="all">Todos os temas (${R0.length})</option>`+th.map(t=>`<option value="${t}"${state.reelTheme===t?" selected":""}>${t} (${R0.filter(p=>p.theme===t).length})</option>`).join("");
   sel.onchange=()=>{state.reelTheme=sel.value;renderReels()};
@@ -853,7 +856,7 @@ function renderReels(){
 
 /* ---------- temas ---------- */
 function renderThemes(){
-  const R=rows(),types=typesNow();
+  const R=distRows(),types=typesNow();
   const rowsT=D.themes.map(th=>({th,by:types.map(t=>{const a=R.filter(p=>p.theme===th&&p.type===t);return{n:a.length,v:median(a.map(p=>p.views)),sh:median(a.map(p=>p.rate)),f:median(a.map(p=>p.follows).filter(x=>x!=null))}})})).filter(r=>r.by.some(b=>b.n));
   $("#theme-tbl").innerHTML=rowsT.length?`<thead><tr><th class="l">Tema</th>${types.map(t=>`<th>${TYPE[t].name}<br><span class="small-n" style="text-transform:none">posts · views · compart.</span></th>`).join("")}</tr></thead><tbody>${rowsT.map(r=>`<tr><td class="l"><b>${r.th}</b></td>${r.by.map(b=>`<td class="${b.n&&b.n<5?"small-n":""}">${b.n?`${b.n} · <b>${fmt(b.v)}</b> · ${pct(b.sh)}`:"<span class='small-n'>sem posts</span>"}</td>`).join("")}</tr>`).join("")}</tbody>`:`<tbody><tr><td class="l">Sem posts no período.</td></tr></tbody>`;
 }
@@ -947,7 +950,7 @@ function plan(){
 /* ---------- benchmark ---------- */
 const SRC={si:{n:"Socialinsider, 2026 Instagram Organic Benchmarks",u:"https://www.socialinsider.io/blog/instagram-benchmarks/",d:"jan a dez/2025, 35 mi de posts; publicado em 2026"},sic:{n:"Socialinsider, pesquisa de carrosséis",u:"https://www.socialinsider.io/blog/instagram-carousel-research",d:"dados de 2025"},ps:{n:"PostSyncer, engajamento por faixa de seguidores",u:"https://postsyncer.com/blog/what-is-a-good-engagement-rate-on-instagram",d:"2026; cita InfluenceFlow"},ec:{n:"eClincher, algoritmo do Instagram em 2026",u:"https://www.eclincher.com/articles/how-the-instagram-algorithm-works-in-2026",d:"2026; atribui a Adam Mosseri"}};
 function bench(){
-  const R=rows(),I=R.filter(p=>p.type==="I"),Rl=R.filter(p=>p.type==="R"),pw=R.length/(Math.max(state.range,7)/7);
+  const R=distRows(),I=R.filter(p=>p.type==="I"),Rl=R.filter(p=>p.type==="R"),pw=R.length/(Math.max(state.range,7)/7);
   const erA=median(R.map(p=>p.erf)),erI=median(I.map(p=>p.erf)),erR=median(Rl.map(p=>p.erf));
   const row=(m,you,ref,src,size,kind,read)=>`<tr><td class="l w">${m}</td><td><b>${you}</b></td><td>${ref}</td><td class="l w" style="font-size:12px">${SRC[src]?`<a href="${SRC[src].u}" target="_blank" rel="noopener">${SRC[src].n}</a><br><span class="small-n">${SRC[src].d}</span>`:src}</td><td class="l" style="font-size:12px">${size}</td><td class="l" style="font-size:12px">${kind}</td><td class="l w" style="font-size:12px">${read}</td></tr>`;
   $("#bench").innerHTML=`<thead><tr><th class="l">Métrica e fórmula</th><th>Você<br><span class="small-n" style="text-transform:none">mediana</span></th><th>Referência</th><th class="l">Fonte e data</th><th class="l">Faixa de conta</th><th class="l">Tipo</th><th class="l">Leitura</th></tr></thead><tbody>
