@@ -1,0 +1,334 @@
+{
+  "generated": "2026-10-12T05:23:55-03:00",
+  "headline": "Corregedor do TSE libera canal Exército do Lula, Flávio pede investigação contra o diretor da PF e risco-país cai ao menor nível desde 2020",
+  "top": [
+    "exercito-lula-corregedor",
+    "ato-paulista-lula",
+    "mendonca-anuncios-cut",
+    "flavio-pf-diretor",
+    "pesquisas-2-turno"
+  ],
+  "items": [
+    {
+      "id": "mercado-pos-1-turno",
+      "segment": "economia",
+      "title": "Risco-país cai ao menor nível desde 2020 e Ibovespa tem a melhor semana desde 2020 após o 1º turno",
+      "summary": "O CDS de cinco anos do Brasil caiu para 110 pontos na sexta-feira (9), o menor nível desde fevereiro de 2020. O Ibovespa subiu 9,29% na semana seguinte ao primeiro turno, aos 209.967 pontos, e o dólar comercial recuou 4,43%, de R$ 5,22 para R$ 4,98. Segundo as reportagens, o mercado reage à liderança de Flávio Bolsonaro no primeiro turno e às pesquisas seguintes, com expectativa de maior equilíbrio fiscal e de juros mais baixos. Magazine Luiza subiu 60,58% e as exportadoras, como Embraer e Vale, lideraram as quedas por causa do dólar menor. A Gazeta do Povo ressalva que a alta antecipa cenários, com dívida em 82,9% do PIB e reformas que dependem do Congresso.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.5,
+      "outlets": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/economia/risco-pais-menor-nivel-desde-2020/",
+          "camp": "direita",
+          "position": "secundario"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/magalu-mglu3-salta-60-e-so-11-acoes-caem-os-destaques-do-ibovespa-na-semana-apos-1o-turno/",
+          "camp": "centro",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "papa-nodulo-pulmao",
+      "segment": "internacional",
+      "title": "Papa Leão XIV revela nódulo no pulmão e fará cirurgia nos próximos dias",
+      "summary": "O papa Leão XIV revelou ter um nódulo no pulmão. Ele passará por cirurgia para retirá-lo nos próximos dias. O anúncio ganhou espaço em portais de diferentes campos, como Agência Brasil, Gazeta do Povo e Metrópoles. As reportagens consultadas não detalham data nem hospital da operação. Novas informações dependem de comunicados do Vaticano.",
+      "scores": {
+        "cobertura": 5,
+        "destaque": 6,
+        "persistencia": 7,
+        "peso_voce": 3
+      },
+      "score": 5.2,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/papa-leao-xiv-fara-cirurgia-para-retirar-nodulo-no-pulmao",
+          "camp": "estatal",
+          "position": "secundario"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/mundo/papa-leao-xiv-cirurgia-nodulo-pulmao/",
+          "camp": "direita",
+          "position": "secundario"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/papa-leao-xiv-revela-nodulo-no-pulmao-e-fara-cirurgia-nos-proximos-dias",
+          "camp": "centro",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "riad-houthis",
+      "segment": "internacional",
+      "title": "Houthis atacam aeroporto de Riade; mortos sobem para 13 e grupo ameaça novos ataques",
+      "summary": "O ataque de sábado (10) ao aeroporto internacional Rei Khalid, em Riade, reivindicado pelos houthis, deixou 13 mortos, depois que um indiano ferido morreu no hospital no domingo (11), e mais de 300 feridos. Os houthis alertaram para novos ataques a aeroportos sauditas, e o aeroporto foi atingido de novo no domingo por um projétil de origem desconhecida. A Metrópoles cita que Donald Trump considerou o ataque inaceitável. O InfoMoney aponta que os ataques aumentam o risco de ampliação da guerra e que o petróleo avança com a escalada. A embaixada da Índia acompanha o caso de seu cidadão morto e prepara a repatriação do corpo.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 8,
+        "persistencia": 7,
+        "peso_voce": 3
+      },
+      "score": 5.1,
+      "outlets": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mundo/ataques-dos-houthis-a-arabia-saudita-aumentam-risco-de-ampliacao-da-guerra/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/sobe-para-13-o-numero-de-mortos-em-ataque-a-aeroporto-da-arabia-saudita",
+          "camp": "centro",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "exercito-lula-corregedor",
+      "segment": "politica",
+      "title": "Corregedor do TSE derruba suspensão e libera canal Exército do Lula, de Janones",
+      "summary": "Na tarde de domingo (11), o presidente do TSE, Kassio Nunes Marques, suspendeu o canal de WhatsApp Exército do Lula, criado pelo deputado André Janones (Rede-MG) e com mais de 3,4 milhões de inscritos, após pedido da campanha de Flávio Bolsonaro. O corregedor Ricardo Vilas Bôas Cueva, relator do caso, derrubou a suspensão, restabeleceu o canal e levou o caso ao plenário do TSE, ainda sem data. Segundo a Agência Brasil, ele observou que a campanha de Flávio protocolou o pedido na presidência 41 minutos depois de uma ordem dele próprio, com documentos que não estavam nos autos. Janones falou em censura e Lula criticou a intromissão da Justiça Eleitoral, enquanto a campanha de Flávio chamou a decisão de estarrecedora e pediu a cassação do mandato de Janones. O segundo turno é em 25 de outubro e o plenário do TSE deve analisar o caso.",
+      "scores": {
+        "cobertura": 8,
+        "destaque": 10,
+        "persistencia": 7,
+        "peso_voce": 10
+      },
+      "score": 8.8,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/corregedor-derruba-decisao-que-suspendeu-canal-exercito-do-lula",
+          "camp": "estatal",
+          "position": "manchete"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/corregedor-do-tse-libera-canal-exercito-do-lula-de-janones/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/corregedor-do-tse-libera-canal-exercito-de-lula-e-leva-caso-ao-plenario",
+          "camp": "centro",
+          "position": "manchete"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/exercito-do-lula-entenda-decisoes-do-tse-sobre-canal-criado-por-janones/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/corregedor-do-tse-derruba-decisao-de-nunes-marques-e-libera-canal-exercito-do-lula/",
+          "camp": "direita",
+          "position": "secundario"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/ministro-do-tse-derruba-decisao-de-nunes-marques-e-manda-reativar-exercito-do-lula/",
+          "camp": "direita",
+          "position": "manchete"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ato-paulista-lula",
+      "segment": "politica",
+      "title": "Ato de Lula na Avenida Paulista ocupa 7 quarteirões; PT fala em 1 milhão de pessoas",
+      "summary": "Lula reuniu apoiadores em ato pela reeleição na Avenida Paulista, em São Paulo, no domingo (11). O Poder360 mediu que o ato ocupou 7 quarteirões, em cerca de 65 mil metros quadrados, espaço que comportaria cerca de 261 mil pessoas a 4 por metro quadrado. O PT e aliados afirmaram que havia 1 milhão de pessoas, sem explicar a metodologia, e o Planalto não autorizou drone do Poder360 para uma contagem independente. A Gazeta do Povo destacou denúncias de vandalismo e de agressão a mulheres no ato, e o Poder360 registrou um homem rasgando uma bandeira dos EUA. A campanha de Lula aposta em uma virada no segundo turno, marcado para 25 de outubro.",
+      "scores": {
+        "cobertura": 5,
+        "destaque": 8,
+        "persistencia": 7,
+        "peso_voce": 10
+      },
+      "score": 7.3,
+      "outlets": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-lula-em-sao-paulo-ocupou-7-quarteiroes-da-av-paulista/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-pela-reeleicao-de-lula-leva-milhares-a-avenida-paulista",
+          "camp": "estatal",
+          "position": "topo"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/ato-apoio-lula-vandalismo-denuncias-agressao-mulheres/",
+          "camp": "direita",
+          "position": "topo"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "mendonca-anuncios-cut",
+      "segment": "politica",
+      "title": "Mendonça proíbe anúncios do PT contra Flávio sobre a escala 6x1 e manda CUT apagar cinco posts",
+      "summary": "O ministro do TSE André Mendonça proibiu a campanha de Lula de impulsionar anúncios que acusam Flávio Bolsonaro de ser contra o fim da escala 6x1, por propaganda predominantemente negativa contra o adversário. A Meta deve desativar os anúncios e informar os valores pagos pelo PT. Em outro processo, ele determinou que a CUT apague em até três horas cinco postagens no Instagram contra Flávio, sob multa diária de R$ 5 mil, e negou o pedido da campanha de Flávio para proibir novas publicações da central. As cinco postagens foram feitas entre 25 de setembro e 6 de outubro e somam mais de 29 mil curtidas. A liminar segue para referendo do plenário do TSE, e o presidente do Senado, Davi Alcolumbre, marcou para quarta-feira (14) a votação da PEC do fim da escala 6x1.",
+      "scores": {
+        "cobertura": 5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.2,
+      "outlets": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-manda-pt-retirar-anuncios-e-cut-apagar-posts-contra-flavio/",
+          "camp": "direita",
+          "position": "secundario"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/mendonca-manda-cut-apagar-5-posts-criticos-a-flavio/",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-barra-anuncios-de-lula-acusando-flavio-de-ser-contra-escala-6x1",
+          "camp": "estatal",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "flavio-pf-diretor",
+      "segment": "politica",
+      "title": "Flávio pede investigação contra diretor-geral da PF por suposta interferência eleitoral",
+      "summary": "Flávio Bolsonaro (PL) apresentou no domingo (11) uma notícia-crime à Justiça Eleitoral contra o diretor-geral da Polícia Federal, Andrei Rodrigues. A defesa acusa Rodrigues de tentar interferir na eleição ao divulgar, no dia do primeiro turno, uma apuração sobre possível influência dos EUA no processo democrático brasileiro, o que teria favorecido o PT. A apuração teve origem em reportagem do The Guardian sobre US$ 1 milhão do governo norte-americano para um projeto que busca contestar decisões do STF, e a PF arquivou a apuração preliminar por falta de elementos para abrir inquérito. A campanha de Flávio também interpretou como insinuação contra o candidato a publicação do advogado-geral da União, Jorge Messias, sobre projetos políticos que buscam respaldo no exterior. A defesa pede que o Ministério Público Eleitoral conduza ou supervisione a investigação e que Rodrigues preste depoimento, sem decisão até agora.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.1,
+      "outlets": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-pede-investigacao-contra-diretor-da-pf-por-interferencia-eleitoral/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-pede-investigacao-contra-diretor-geral-da-pf-por-suposto-uso-politico-da-corporacao/",
+          "camp": "direita",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "pesquisas-2-turno",
+      "segment": "politica",
+      "title": "DataTrends dá Flávio 53,1% a 46,9% sobre Lula nos votos válidos do 2º turno",
+      "summary": "Pesquisa DataTrends aponta Flávio Bolsonaro (PL) com 53,1% e Lula (PT) com 46,9% dos votos válidos no segundo turno. O levantamento ouviu 2.000 eleitores entre 7 e 9 de outubro, com margem de erro de 2,19 pontos percentuais. A pesquisa PoderData/Aya, divulgada em 8 de outubro, registrou 53% para Flávio e 47% para Lula nos votos válidos, com 3.000 entrevistas por telefone e margem de 1,8 ponto. No PoderData, a expectativa de vitória de Flávio subiu 9 pontos, para 54%, e a de Lula caiu 11, para 37%. No primeiro turno, em 4 de outubro, Flávio teve 47,03% e Lula 45,16%, e o segundo turno será em 25 de outubro.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 6,
+        "persistencia": 7,
+        "peso_voce": 10
+      },
+      "score": 6.1,
+      "outlets": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/",
+          "camp": "centro",
+          "position": "topo"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/poderdata-flavio-sobe-nove-pontos-em-expectativa-de-vitoria-lula-cai-11/",
+          "camp": "centro",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "pm-27-tiros-sp",
+      "segment": "seguranca",
+      "title": "PMs são afastados após matar jovem de 20 anos com 27 tiros em Moema, em São Paulo",
+      "summary": "Gustavo Munis de Santana, de 20 anos, foi morto por policiais militares na madrugada de domingo (11), em Moema, Zona Sul de São Paulo. A ocorrência foi registrada às 2h35, e o boletim aponta 45 disparos, com 27 tiros no corpo do jovem; um dos soldados atirou 14 vezes. Segundo os policiais, ele saiu de uma área escura com um objeto escuro, que era um celular, e a denúncia original era de que ameaçava tirar a própria vida, sem registro de que estivesse armado. Ao menos quatro dos oito PMs envolvidos foram afastados de atividades operacionais. O DHPP recolheu as câmeras corporais dos policiais e analisa também as câmeras de vigilância da região.",
+      "scores": {
+        "cobertura": 3,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.6,
+      "outlets": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/sao-paulo/policiais-militares-sao-afastados-apos-matar-jovem-com-27-tiros-em-sp",
+          "camp": "centro",
+          "position": "secundario"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/brasil/pms-dispararam-45-vezes-contra-jovem-que-morreu-com-27-tiros-em-sp/",
+          "camp": "direita",
+          "position": "secundario"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    }
+  ]
+}
