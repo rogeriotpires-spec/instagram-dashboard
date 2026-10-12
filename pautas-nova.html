@@ -514,7 +514,10 @@ document.addEventListener("click",async e=>{
 
 /* ---------- item avulso ---------- */
 const AV=$("#avulso");
-$("#add-btn").onclick=()=>{AV.classList.toggle("on");if(AV.classList.contains("on")){$("#av-data").value=$("#av-data").value||P_CUR||new Date().toISOString().slice(0,10);$("#av-pedido").focus()}};
+/* dia do programa: hoje até as 14h (virada da pauta); depois, o próximo dia útil */
+function progDay(){const n=new Date(Date.now()-3*36e5);let d=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate()));
+  if(n.getUTCHours()>=14)d.setUTCDate(d.getUTCDate()+1);while([0,6].includes(d.getUTCDay()))d.setUTCDate(d.getUTCDate()+1);return d.toISOString().slice(0,10)}
+$("#add-btn").onclick=()=>{AV.classList.toggle("on");if(AV.classList.contains("on")){$("#av-data").value=$("#av-data").value||progDay();$("#av-pedido").focus()}};
 $("#av-cancel").onclick=()=>AV.classList.remove("on");
 AV.onsubmit=async e=>{e.preventDefault();
   const pedido=$("#av-pedido").value.trim(),obs=$("#av-obs").value.trim(),data=$("#av-data").value;if(!pedido||!data)return;
