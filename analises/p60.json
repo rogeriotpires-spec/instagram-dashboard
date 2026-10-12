@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-11T05:50:00-03:00",
+  "generated": "2026-10-12T05:55:04-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-08-12",
-    "end": "2026-10-10"
+    "start": "2026-08-13",
+    "end": "2026-10-11"
   },
-  "compare": "2026-06-13 a 2026-08-11",
-  "headline": "60 dias com 25,3 mi de views (+207%): as 39 imagens tiveram mediana de 42.225 views e os 82 Reels, 9.386, e Política segue como o tema mais fraco.",
+  "compare": "2026-06-14 a 2026-08-12",
+  "headline": "Em 60 dias a conta recebeu 25,9 mi de views e o alcance médio por dia subiu 145%, com as imagens de opinião no topo.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "25,3 mi",
-      "delta": "+208%",
-      "dir": "up"
+      "value": "25,9 mi",
+      "delta": "sem comparação",
+      "dir": "na"
     },
     {
       "label": "Novos seguidores",
-      "value": "13.139",
+      "value": "13.256",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "484",
+      "value": "506",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "377 mil",
+      "value": "389 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "22.127",
+      "value": "23.307",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "147 mil",
-      "delta": "+135%",
+      "value": "152 mil",
+      "delta": "+145%",
       "dir": "up"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As 39 imagens somaram 8 mi de views e 4.055 seguidores, com mediana de 42.225 views. \"Bem vindo a este manicômio chamado Brasil!\" (1,5 mi de views, 28.401 compartilhamentos, 493 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (945 mil, 894 seguidores) lideram o período.",
+      "diagnosis": "As 40 imagens tiveram mediana de 45.350,5 views e somaram 4.341 novos seguidores, contra 10.253 de mediana dos 81 Reels. O maior resultado foi \"Bem vindo a este manicômio chamado Brasil!\" (1.489.565 views, 28.401 compartilhamentos, 493 seguidores), seguido de \"Ninguém aguenta mais o Lula e o PT!\" (951.804 views, 905 seguidores). Dados de seguidores cobrem 34 dos 60 dias.",
       "actions": [
-        "Mantenha a imagem como formato principal.",
-        "Produza uma imagem forte por dia, de preferência pela manhã.",
-        "Registre quais frases de imagem mais converteram."
+        "Mantenha a imagem de opinião como principal formato do dia.",
+        "Use títulos curtos e emocionais, que repetiram compartilhamento alto.",
+        "Feche as imagens fortes com chamada para seguir."
       ],
       "posts": [
         "DcGTcGzN_5i",
@@ -65,41 +65,39 @@
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Evitar",
-      "diagnosis": "Os piores posts foram Reels de Política longos: 102 segundos (473 views), 65 segundos (535 views) e 72 segundos (551 views), todos com 37% a 43% de pulo. Política somou 68 posts com mediana de 9.386 views.",
+      "diagnosis": "Os temas de política (67 posts) ficaram em 10.253 de mediana, contra 39.911 de opinião (42 posts). Os piores resultados foram dois Reels longos de política, \"O STF virou um manicômio institucional\" (535 views, 65,5 segundos) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551 views, 72,1 segundos), e a imagem \"Quer entender o que é inflação?\" (713 views).",
       "actions": [
-        "Mantenha Reels de Política abaixo de 60 segundos.",
-        "Cheque o gancho antes de publicar.",
-        "Considere trocar parte dos Reels de Política por imagens."
+        "Reduza Reels de política com mais de 60 segundos.",
+        "Evite imagens explicativas sem gancho emocional.",
+        "Transforme o tema de política em imagem de opinião, o formato com melhor mediana."
       ],
       "posts": [
-        "Db73S3ZBiej",
         "Dc3EY5cNint",
-        "Dcvng7kNnHA"
+        "Dcvng7kNnHA",
+        "DcT_YEutG6d"
       ]
     },
     {
       "title": "Temas",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Entrevista teve a maior mediana (88.360 views, 5 posts), seguida de Bastidores e pessoal (40.724 views, 2 posts) e Opinião (27.015, 41 posts). Eventos e discursos ficou em 2.687 com 6 posts. Entrevista e Bastidores têm amostra pequena.",
+      "diagnosis": "Entrevista teve a maior mediana de views (88.362, em 5 posts), seguida de Opinião (39.911, em 42 posts) e Bastidores e pessoal (40.735, em 2 posts). Eventos e discursos (6 posts) ficou em 2.687. Alguns temas têm poucos posts, então a leitura é um sinal, não uma regra.",
       "actions": [
-        "Teste mais entrevistas curtas.",
-        "Alterne bastidores com opinião.",
-        "Reduza eventos e discursos sem corte forte."
+        "Faça mais uma entrevista e compare com as anteriores.",
+        "Reduza posts de eventos e discursos.",
+        "Teste bastidores com mais posts antes de decidir."
       ],
-      "posts": [
-        "DcfJMHasopg"
-      ]
+      "posts": []
     },
     {
-      "title": "Conversa e comentários",
-      "status": "good",
-      "status_label": "No caminho",
-      "diagnosis": "Perguntas diretas se destacaram: \"Qual número você escolheria?\" (489 comentários), \"Responda nos comentários, só um nome!\" (355 comentários, 136 mil views, 57 seguidores) e o Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" (259). Compartilhamentos e comentários têm dados em 34 dos 60 dias.",
+      "title": "Comentários",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Os posts com mais comentários foram pergunta direta: \"Qual número você escolheria?\" (488) e \"Responda nos comentários, só um nome!\" (355, com 136.370 views e 57 seguidores). O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" teve 259. Dados de comentários cobrem 35 dos 60 dias.",
       "actions": [
-        "Repita o pedido de resposta curta.",
-        "Use enquetes nos Stories.",
-        "Responda comentários para estender o alcance."
+        "Mantenha uma pergunta fechada por semana.",
+        "Peça uma resposta curta, como um nome ou um número.",
+        "Responda os primeiros comentários na primeira hora."
       ],
       "posts": [
         "DdumKq_tAX_",

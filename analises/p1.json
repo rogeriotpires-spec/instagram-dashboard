@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-11T05:50:00-03:00",
+  "generated": "2026-10-12T05:55:04-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-10-10",
-    "end": "2026-10-10"
+    "start": "2026-10-11",
+    "end": "2026-10-11"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Dia 10 de ritmo baixo: 144 mil views, 84% abaixo da referência dos 7 dias anteriores, com 4 publicações e uma imagem (25 mil views) concentrando o resultado.",
+  "headline": "Dia com 694 mil views (−22% contra a média dos 7 dias anteriores) e só 2 publicações: uma imagem de 422 mil views concentrou o resultado.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "144 mil",
-      "delta": "−84%",
+      "value": "694 mil",
+      "delta": "−22%",
       "dir": "down"
     },
     {
@@ -28,20 +28,20 @@
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "2,6 mil",
-      "delta": "−88%",
+      "value": "12,2 mil",
+      "delta": "−43%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "140",
-      "delta": "−89%",
+      "value": "1.181",
+      "delta": "−8%",
       "dir": "down"
     },
     {
       "label": "Salvamentos",
-      "value": "158",
-      "delta": "−93%",
+      "value": "1.387",
+      "delta": "−40%",
       "dir": "down"
     }
   ],
@@ -50,58 +50,57 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "A imagem \"Fux pediu a íntegra do inquérito das fake news para…\" (9h18) teve 25 mil views, 187 compartilhamentos, 32 comentários, 22 salvamentos e 6 novos seguidores. Foi o post com mais resultado do dia em todas as medidas, e o horário das 9h teve a maior mediana de views (25.296).",
+      "diagnosis": "A imagem \"Como dizia o TAXAD, quem foge do debate é bundão?\" (6h30) teve 421.875 views, 7.818 compartilhamentos, 672 salvamentos e 219 novos seguidores. Ela sozinha respondeu por quase todas as views dos posts do dia.",
       "actions": [
-        "Repita o formato: imagem com fato jurídico ou político do dia, publicada de manhã.",
-        "Releia os comentários desse post para achar a pergunta que o público quer ver respondida.",
-        "Reaproveite o tema em um Reel curto à tarde."
+        "Repita a imagem de opinião de manhã cedo quando houver um assunto em debate.",
+        "Mantenha a chamada direta no título, que gerou compartilhamento e seguidores.",
+        "Feche a imagem com um convite para seguir, já que ela teve 219 novos seguidores."
       ],
       "posts": [
-        "DeUEJRVtcIH"
+        "DeVAkiqtPwL"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "O único Reel do dia, \"Pense num amor inimaginável.\" (14h07), teve 979 views e 1 compartilhamento, e 54% das pessoas pularam o vídeo. A imagem \"50 MIL!\" (20h22) chegou a 1.114 views com 8,6 horas de vida, ainda em fase de acúmulo.",
+      "diagnosis": "O Reel \"O Lula conseguiu!\" (21h47) tinha 2.090 views e 9 compartilhamentos, com 34% de pulo e 27,5 segundos. Ele tem só 7,1 horas de vida, então ainda acumula views, mas o ritmo inicial ficou muito abaixo da imagem do dia.",
       "actions": [
-        "Teste um gancho nos primeiros 3 segundos do Reel, já que a taxa de pulo foi de 54%.",
-        "Olhe de novo o \"50 MIL!\" amanhã antes de julgar: o post é recente.",
-        "Evite deixar o Reel como única aposta da tarde."
+        "Reveja o gancho dos primeiros segundos nos Reels de política.",
+        "Confira o número do Reel de novo amanhã antes de tirar conclusão.",
+        "Prefira publicar o Reel em horário de maior movimento, não à noite."
       ],
       "posts": [
-        "DeUk6JyNW9Y",
-        "DeVQClAsvVV"
+        "DeX-jQRMQ3y"
       ]
     },
     {
-      "title": "Conversa e comentários",
+      "title": "Comparação com a semana",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "A conta recebeu 140 comentários, 89% a menos que a referência. Mesmo com poucas views, \"50 MIL!\" teve 29 comentários e o Reel teve 12, sinal de que a audiência responde quando o post chama para a conversa.",
+      "diagnosis": "Views, compartilhamentos e salvamentos ficaram abaixo da média dos 7 dias anteriores (−22%, −43% e −40%), e as contas com interação por dia caíram 30%. O alcance médio por dia subiu 11%, ou seja, mais gente foi alcançada, mas interagiu menos.",
       "actions": [
-        "Termine as imagens com uma pergunta direta.",
-        "Responda os primeiros comentários na primeira hora.",
-        "Fixe um comentário seu com a pergunta do dia."
+        "Publique mais de 2 posts no dia para não depender de uma única imagem.",
+        "Use perguntas diretas no texto para recuperar comentários e salvamentos.",
+        "Compare com a média da semana, que teve picos de eleição, antes de tirar conclusão."
       ],
       "posts": [
-        "DeVQClAsvVV",
-        "DeUk6JyNW9Y"
+        "DeVAkiqtPwL"
       ]
     },
     {
-      "title": "Compartilhamentos",
-      "status": "good",
-      "status_label": "No caminho",
-      "diagnosis": "\"O DINHEIRO ERA PARA EDUCAR.\" (10h07) teve 245 compartilhamentos com apenas 3.714 views, o maior volume de envios por view do dia. A conta somou 2.591 compartilhamentos e 158 salvamentos, bem abaixo da referência, mas com esse post como destaque.",
+      "title": "Comentários",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "Foram 1.181 comentários no dia, 8% abaixo da média dos 7 dias anteriores. A imagem teve 92 e o Reel teve 18. O Reel teve mais comentários em proporção às views do que a imagem.",
       "actions": [
-        "Use frases de indignação objetiva e curtas nas imagens, que o público envia.",
-        "Peça no texto para marcar quem precisa ver.",
-        "Compare esse post com o da manhã para ver qual formato envia mais."
+        "Termine cada post com uma pergunta fechada (\"concorda ou discorda?\").",
+        "Responda os primeiros comentários na primeira hora.",
+        "Teste uma pergunta no Reel da noite."
       ],
       "posts": [
-        "DeUJw1Ztc_K"
+        "DeVAkiqtPwL",
+        "DeX-jQRMQ3y"
       ]
     }
   ]

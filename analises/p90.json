@@ -1,46 +1,46 @@
 {
-  "generated": "2026-10-11T05:50:00-03:00",
+  "generated": "2026-10-12T05:55:04-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-07-13",
-    "end": "2026-10-10"
+    "start": "2026-07-14",
+    "end": "2026-10-11"
   },
-  "compare": "2026-04-14 a 2026-07-12",
-  "headline": "90 dias com 33,3 mi de views: imagens (mediana de 42.225) superam Reels (7.977) e os maiores picos vieram de poucos posts de opinião.",
+  "compare": "2026-04-15 a 2026-07-13",
+  "headline": "Em 90 dias a conta recebeu 33,9 mi de views, com imagens de opinião no topo e Reels de política com mediana de 7.872 views.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "33,3 mi",
+      "value": "33,9 mi",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Novos seguidores",
-      "value": "13.139",
+      "value": "13.256",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "484",
+      "value": "506",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "377 mil",
+      "value": "389 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "22.127",
+      "value": "23.307",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
-      "label": "Alcance médio por dia",
-      "value": "121 mil",
+      "label": "Salvamentos",
+      "value": "37.363",
       "delta": "sem comparação",
       "dir": "na"
     }
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As 45 imagens somaram 5.903 seguidores. \"Bem vindo a este manicômio chamado Brasil!\" teve 1,5 mi de views e \"Quando dizem que uma imagem vale mais do que mil palavras\" teve 1,4 mi de views, 42.754 compartilhamentos e 1.409 seguidores, o maior ganho do período.",
+      "diagnosis": "As 46 imagens tiveram mediana de 45.350,5 views e somaram 6.189 novos seguidores. Os maiores resultados foram \"Bem vindo a este manicômio chamado Brasil!\" (1.489.565 views) e \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.441.389 views, 42.761 compartilhamentos e 1.409 seguidores, o maior número do período). Dados de seguidores cobrem 34 dos 90 dias.",
       "actions": [
-        "Faça imagens com apelo visual e frase curta.",
-        "Reveja o que esses posts têm em comum antes de repetir.",
-        "Mantenha a frequência de imagens."
+        "Mantenha imagens de opinião como principal formato do dia.",
+        "Use imagens que falam sozinhas, com pouco texto.",
+        "Feche as imagens fortes com chamada para seguir."
       ],
       "posts": [
         "DcGTcGzN_5i",
@@ -65,11 +65,11 @@
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Evitar",
-      "diagnosis": "Política somou 93 posts com mediana de 8.520 views, e Eventos e discursos, 6 posts com 2.687. Os piores Reels de Política tiveram 473, 535 e 551 views, com 65 a 102 segundos.",
+      "diagnosis": "Os 113 Reels tiveram mediana de 7.872 views e os temas de política (92 posts) ficaram em 8.301,5. Os piores foram Reels longos de política: \"Quase 18 anos no poder\" (473 views, 102,4 segundos), \"O STF virou um manicômio institucional\" (535 views) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551 views).",
       "actions": [
-        "Reduza o volume de Reels de Política.",
-        "Corte vídeos longos ou divida em partes.",
-        "Priorize opinião em imagem."
+        "Reduza Reels de política com mais de 60 segundos.",
+        "Reserve o Reel para reação rápida a fato do dia.",
+        "Transforme o tema de política em imagem de opinião."
       ],
       "posts": [
         "Db73S3ZBiej",
@@ -78,28 +78,26 @@
       ]
     },
     {
-      "title": "Horários",
+      "title": "Temas",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "As medianas mais altas foram às 16h (90.112), 21h (66.983) e 22h (64.673); as mais baixas às 15h (1.442), 6h (2.197) e 11h (3.806). Há poucos posts em vários horários, então trate como indício.",
+      "diagnosis": "Entrevista teve mediana de 88.362 views (5 posts) e Opinião teve 32.196,5 (46 posts). Bastidores e pessoal (11 posts) ficou em 5.291 e Eventos e discursos (6 posts) em 2.687. Os temas com poucos posts dão só um sinal.",
       "actions": [
-        "Teste imagens às 16h e à noite.",
-        "Evite Reels às 15h e às 6h.",
-        "Acompanhe o resultado por mais semanas."
+        "Faça mais entrevistas e compare com as anteriores.",
+        "Reduza eventos e discursos.",
+        "Teste bastidores em imagem em vez de Reel."
       ],
-      "posts": [
-        "DcGTcGzN_5i"
-      ]
+      "posts": []
     },
     {
-      "title": "Conversa e comentários",
-      "status": "good",
-      "status_label": "No caminho",
-      "diagnosis": "O Reel \"Essa pesquisa parece ótima pra um lado…\" teve 743 comentários, 7.663 compartilhamentos e 82.742 views, com 33% de pulo, mesmo com 197 segundos. Também se destacaram \"Qual número você escolheria?\" (489) e \"Responda nos comentários, só um nome!\" (355). Só há dados de comentários em 34 dos 90 dias.",
+      "title": "Comentários",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "O Reel \"Essa pesquisa parece ótima pra um lado…\" teve 743 comentários, 7.663 compartilhamentos e 82.742 views, com 197,6 segundos e 33% de pulo. Em seguida vieram duas imagens com pergunta: \"Qual número você escolheria?\" (488) e \"Responda nos comentários, só um nome!\" (355). Dados de comentários cobrem 35 dos 90 dias.",
       "actions": [
-        "Use Reels longos apenas quando houver tema forte e gancho claro.",
-        "Mantenha perguntas diretas.",
-        "Registre o que gerou debate."
+        "Teste de novo um Reel mais longo quando o tema pedir explicação.",
+        "Mantenha uma pergunta fechada por semana.",
+        "Responda os primeiros comentários na primeira hora."
       ],
       "posts": [
         "Da38CFtMZuP",

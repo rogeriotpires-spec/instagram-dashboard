@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-11T05:50:00-03:00",
+  "generated": "2026-10-12T05:55:04-03:00",
   "dias": 7,
   "period": {
-    "start": "2026-10-04",
-    "end": "2026-10-10"
+    "start": "2026-10-05",
+    "end": "2026-10-11"
   },
-  "compare": "2026-09-27 a 2026-10-03",
-  "headline": "Semana da eleição forte: 6,2 mi de views (+131%), 3.908 novos seguidores e 149.886 compartilhamentos, puxados por poucos posts de pico.",
+  "compare": "2026-09-28 a 2026-10-04",
+  "headline": "Semana com 6,1 mi de views (+99%) e 3.746 novos seguidores (+91%), concentrados em 3 imagens de opinião.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "6,2 mi",
-      "delta": "+131%",
+      "value": "6,1 mi",
+      "delta": "+99%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "3.908",
-      "delta": "+85%",
+      "value": "3.746",
+      "delta": "+91%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "112",
-      "delta": "+8%",
+      "value": "124",
+      "delta": "+19%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "150 mil",
-      "delta": "+173%",
+      "value": "138 mil",
+      "delta": "+86%",
       "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "8.967",
-      "delta": "+334%",
+      "value": "9.675",
+      "delta": "+402%",
       "dir": "up"
     },
     {
       "label": "Salvamentos",
       "value": "16,1 mil",
-      "delta": "+330%",
+      "delta": "+263%",
       "dir": "up"
     }
   ],
@@ -50,61 +50,62 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" (4/10, 14h) teve 645 mil views e 25 mil compartilhamentos, com 23 segundos e 40% de pulo. A imagem \"Avalanche Bolsonarista!\" (5/10, 7h) teve 614 mil views e 466 novos seguidores. Os dois foram reação rápida a fatos do dia.",
+      "diagnosis": "\"Avalanche Bolsonarista!\" (5/10, 7h) teve 614.099 views, 9.876 compartilhamentos e 466 novos seguidores. \"Como dizia o TAXAD, quem foge do debate é bundão?\" (11/10, 6h30) teve 421.875 views e 219 seguidores. As duas são imagens de opinião publicadas de manhã cedo.",
       "actions": [
-        "Em dia de fato forte, publique a reação em poucas horas: imagem às 7h e Reel curto à tarde.",
-        "Mantenha Reels de reação perto de 25 segundos.",
-        "Deixe um modelo de imagem pronto para agilizar."
+        "Mantenha uma imagem de opinião forte entre 6h30 e 7h.",
+        "Deixe um modelo de imagem pronto para reagir rápido ao assunto do dia.",
+        "Feche as imagens fortes com chamada para seguir."
       ],
       "posts": [
-        "DeFIOryNZpn",
-        "DeGlubltKVX"
+        "DeGlubltKVX",
+        "DeVAkiqtPwL"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Evitar",
-      "diagnosis": "Os 5 Reels tiveram mediana de 1.343 views, contra 37 mil das 10 imagens. Os mais fracos foram \"Pense num amor inimaginável.\" (979 views, 54% de pulo) e \"Sabe se isso é IA?\" (1.229 views, 48% de pulo). Os 2 carrosséis ficaram em 3.105 de mediana. Os posts de 10/10 ainda acumulam views.",
+      "diagnosis": "Os 5 Reels tiveram mediana de 1.406 views, contra 37.072 das 9 imagens. Os mais fracos foram \"Pense num amor inimaginável.\" (1.171 views, 54% de pulo), \"Sabe se isso é IA?\" (1.246 views, 48% de pulo) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (1.406 views, 79,5 segundos). Os 2 carrosséis ficaram em 3.471,5 de mediana. Os posts mais novos ainda acumulam views.",
       "actions": [
-        "Prefira imagem como aposta principal do dia.",
-        "Reduza Reels sem gancho forte nos primeiros segundos.",
-        "Teste carrossel de novo só com tema de alta procura."
+        "Use a imagem como aposta principal do dia.",
+        "Corte Reels longos e abra com um gancho forte nos primeiros segundos.",
+        "Teste carrossel de novo só com um tema de alta procura."
       ],
       "posts": [
         "DeUk6JyNW9Y",
-        "DeKCMhiNIxP"
+        "DeKCMhiNIxP",
+        "DeRrXNgtZMa"
+      ]
+    },
+    {
+      "title": "Comentários",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Os comentários foram de 1.928 para 9.675 (+402%). \"Avalanche Bolsonarista!\" teve 214, \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 92 e \"O Rio pode ter governador eleito hoje, sem segundo turno.\" teve 82. O período anterior foi menor, e a semana teve eleição, então a alta pode não se repetir.",
+      "actions": [
+        "Mantenha pelo menos um post por dia com pergunta fechada.",
+        "Responda os primeiros comentários na primeira hora.",
+        "Use enquete nos Stories para manter a conversa quando o tema esfriar."
+      ],
+      "posts": [
+        "DeGlubltKVX",
+        "DeVAkiqtPwL",
+        "DeL6bqctDFk"
       ]
     },
     {
       "title": "Seguidores",
       "status": "good",
       "status_label": "No caminho",
-      "diagnosis": "Entraram 3.908 seguidores e saíram 112 (dados de 6 dos 7 dias). \"Avalanche Bolsonarista!\" trouxe 466, \"Sabe me dizer se essa imagem é real ou se é de IA?\" trouxe 62 e \"O Rio pode ter governador eleito hoje, sem segundo turno.\" trouxe 27.",
+      "diagnosis": "Entraram 3.746 seguidores e saíram 124 (dados de 6 dos 7 dias). Os que saíram subiram 19%, menos que os que entraram (+91%). \"Avalanche Bolsonarista!\" teve 466 novos seguidores, o TAXAD teve 219 e \"O Rio pode ter governador eleito hoje, sem segundo turno.\" teve 27.",
       "actions": [
-        "Feche os virais com chamada para seguir.",
-        "Fixe no perfil um post de apresentação.",
-        "Repita imagens de opinião com pergunta, que converteram bem."
+        "Fixe no perfil um post de apresentação para quem chega.",
+        "Repita imagens de opinião que fecham com pergunta.",
+        "Acompanhe a perda de seguidores nos próximos dias."
       ],
       "posts": [
         "DeGlubltKVX",
-        "DeGFDYlstrt",
-        "DeL6bqctDFk"
-      ]
-    },
-    {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "As medianas de views por horário variaram muito: 14h teve 323 mil, 22h teve 311 mil, 7h teve 89.702, enquanto 10h teve 3.714 e 11h teve 1.286. Cada horário tem poucos posts e idades diferentes, então os picos refletem em parte os posts virais.",
-      "actions": [
-        "Mantenha o 7h para imagens.",
-        "Teste Reels às 14h com tema do dia.",
-        "Evite 10h e 11h para Reels até ter mais dados."
-      ],
-      "posts": [
-        "DeFIOryNZpn",
-        "DeGFDYlstrt",
+        "DeVAkiqtPwL",
         "DeL6bqctDFk"
       ]
     }
