@@ -1,0 +1,242 @@
+{
+ "date": "2026-10-12",
+ "generated": "2026-10-12T10:20:06-03:00",
+ "programa": "Conversa Timeline",
+ "titulo": "Canal derrubado e devolvido, posts apagados e a rua em disputa: a segunda em que a regra do jogo muda no meio da partida",
+ "abertura": "A semana abre com a Justiça Eleitoral dividida: o TSE derrubou e devolveu o canal Exército do Lula no mesmo domingo, e Mendonça mandou apagar posts da CUT e anúncios do PT contra Flávio Bolsonaro. A defesa de Flávio quer ver o diretor da PF explicar uma coletiva dada no dia do voto. Enquanto isso, as campanhas disputam a rua com o Bloquinho 22 e o ato de Lula na Paulista. Fora do jogo eleitoral, um estudo mostra munição comprada pelo Estado nas mãos do Comando Vermelho, e Trump anuncia uma trégua de energia que Putin ainda não confirmou.",
+ "agenda": [
+  {
+   "time": "Quarta (14/10)",
+   "text": "Senado: votação da PEC do fim da escala 6x1, marcada por Davi Alcolumbre, segundo a Gazeta do Povo",
+   "source": {
+    "name": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-manda-pt-retirar-anuncios-e-cut-apagar-posts-contra-flavio/"
+   }
+  },
+  {
+   "time": "Quinta (15/10), 19h",
+   "text": "Primeiro ato do Bloquinho 22, em Araçuaí (MG)",
+   "source": {
+    "name": "Poder360",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-nikolas-convocam-atos-para-a-reta-final-em-ao-menos-14-cidades/"
+   }
+  },
+  {
+   "time": "Domingo (18/10), 11h",
+   "text": "Bloquinho 22 na Avenida Paulista",
+   "source": {
+    "name": "Jovem Pan",
+    "url": "https://jovempan.com.br/politica/bloquinho-22-pl-e-nikolas-ferreira-agendam-manifestacao-na-paulista-para-dia-18/"
+   }
+  }
+ ],
+ "itens": [
+  {
+   "id": "exercito-lula-tse",
+   "bloco": "Política nacional",
+   "titulo": "Dois ministros, um canal e nenhuma resposta",
+   "subtitulo": "O TSE derruba o Exército do Lula num dia e o devolve no mesmo dia, e quem perde é a previsibilidade",
+   "resumo": "No domingo (11), o presidente do TSE, Kassio Nunes Marques, mandou tirar do ar o canal \"Exército do Lula\", do deputado André Janones, com mais de 3 milhões de seguidores. Horas depois, o corregedor Ricardo Villas Bôas Cueva suspendeu a ordem, e o canal voltou a funcionar, só proibido de repetir conteúdo que a Justiça Eleitoral já tenha considerado ilícito. A campanha de Flávio Bolsonaro pediu a retirada e acusa o canal de espalhar falsidades, como a de que Nossa Senhora Aparecida deixaria de ser padroeira do Brasil se Flávio vencer. Ministros ouvidos pela CNN falam em mal-estar, porque Nunes Marques teria decidido um caso que já estava com Cueva. Para o cidadão, o ponto é simples: a mesma Corte que fala em regras claras entrega duas respostas opostas a menos de duas semanas do segundo turno.",
+   "metafora": "É como um árbitro apitar a falta e o bandeirinha anular o lance no mesmo minuto, sem o VAR explicar: o jogo continua, mas ninguém sabe mais qual é a regra.",
+   "contexto": [
+    "Em 11/10, Nunes Marques mandou a Meta suspender o canal, administrado por André Janones (Rede-MG), com cerca de 3,3 milhões de seguidores.",
+    "O pedido veio da campanha de Flávio Bolsonaro (PL), que cita boatos como o corte de aposentadorias e o fim da padroeira do Brasil.",
+    "Cueva, corregedor-geral eleitoral, suspendeu a decisão de forma preliminar; o canal pode postar e ganhar seguidores até o plenário decidir.",
+    "Em 10/10, Cueva havia pedido mais informações à campanha de Flávio antes de decidir; Nunes Marques decidiu antes do fim dessa etapa.",
+    "Segundo a CNN Brasil, há dois processos paralelos, um judicial e um administrativo, e a decisão administrativa não precisa ir ao plenário."
+   ],
+   "angulo": [
+    "Regra eleitoral que muda de ministro para ministro em plena reta final não é Estado de Direito, é loteria, e quem paga é o eleitor.",
+    "Um canal com milhões de seguidores, ligado a um deputado, funciona como máquina de propaganda sem prestação de contas; o programa deve cobrar o mesmo rigor que se cobra do outro lado.",
+    "O episódio reforça a tese de que o TSE concentra poder demais e decide sem critério uniforme sobre o que é desinformação."
+   ],
+   "perguntas": [
+    "Quem decide o que é desinformação numa eleição: o presidente do TSE, o corregedor ou o plenário?",
+    "Se um canal com 3 milhões de seguidores pode voltar ao ar por decisão preliminar, para que serve a ordem de retirada?",
+    "O que o eleitor ganha e o que perde quando a Corte aparece dividida a 14 dias do segundo turno?"
+   ],
+   "atencao": "As acusações de falsidade contra o canal são alegações da campanha de Flávio; o mérito ainda será julgado pelo plenário do TSE.",
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/corregedor-do-tse-libera-canal-exercito-do-lula-de-janones/"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/ministros-do-tse-citam-mal-estar-apos-decisao-de-nunes-marques/"
+    }
+   ]
+  },
+  {
+   "id": "mendonca-cut-anuncios",
+   "bloco": "STF e instituições",
+   "titulo": "Cinco posts, três horas e um perfil que virou palanque",
+   "subtitulo": "Mendonça manda a CUT apagar a propaganda contra Flávio e barra anúncios pagos do PT sobre a escala 6x1",
+   "resumo": "No domingo (11), o ministro André Mendonça, do TSE, mandou a CUT apagar em três horas cinco publicações do Instagram feitas entre 25/9 e 6/10 contra Flávio Bolsonaro. Uma delas ligava o candidato ao \"Escritório do Crime\" e às milícias, com montagem de fotos de Adriano da Nóbrega e de Marielle Franco. Outras diziam que ele congelaria aposentadorias e o salário mínimo, acabaria com o Pix e manteria a escala 6x1. No mesmo despacho, Mendonça proibiu a campanha de Lula de impulsionar anúncios que diziam que Flávio é contra o fim da escala 6x1, por serem propaganda negativa paga. Para o relator, a lei veda propaganda eleitoral no perfil institucional de uma entidade, e a ordem vale sob multa diária de R$ 5 mil.",
+   "contexto": [
+    "As cinco postagens somavam mais de 29 mil curtidas e cerca de 4,5 mil comentários.",
+    "Mendonça reconheceu o direito dos sindicatos de participar do debate público, mas apontou \"aparente ilicitude\" na propaganda em perfil de pessoa jurídica.",
+    "Ele negou o pedido de Flávio para proibir a CUT de publicar qualquer conteúdo eleitoral no futuro.",
+    "A Meta deve desativar os anúncios do PT e informar os valores pagos; a liminar segue para referendo do plenário do TSE.",
+    "Depois da decisão, a CUT publicou novo post dizendo que Mendonça e Flávio não queriam que o público visse o conteúdo."
+   ],
+   "angulo": [
+    "Dinheiro de contribuição sindical e estrutura de entidade não podem virar cabo eleitoral do PT; a decisão aplica a lei como ela é.",
+    "A cobrança vale para todos: a mesma régua que apaga o post da CUT precisa valer para o canal de Janones e para qualquer campanha.",
+    "Ligar um candidato a milícia com montagem de foto é a prática que o programa deve chamar pelo nome: ataque sem prova."
+   ],
+   "perguntas": [
+    "Onde termina a opinião de um sindicato e começa a propaganda eleitoral paga por quem não escolheu o candidato?",
+    "A decisão de Mendonça cria um padrão que vale também para entidades de outros campos?",
+    "O post da CUT sobre a decisão amplia a polêmica ou prova que a ordem era necessária?"
+   ],
+   "atencao": "A decisão é liminar, ainda sujeita a referendo do plenário, à defesa da CUT e à manifestação da Procuradoria-Geral Eleitoral.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-manda-pt-retirar-anuncios-e-cut-apagar-posts-contra-flavio/"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/andre-mendonca-manda-cut-apagar-posts-que-ligavam-flavio-a-milicias-e-fim-do-pix/"
+    }
+   ]
+  },
+  {
+   "id": "flavio-pf-andrei",
+   "bloco": "STF e instituições",
+   "titulo": "A coletiva que apurou o que não existia",
+   "subtitulo": "Flávio aciona a Justiça Eleitoral contra o chefe da PF por falar de interferência estrangeira no dia da votação",
+   "resumo": "No domingo (11), a defesa de Flávio Bolsonaro apresentou à Justiça Eleitoral uma notícia-crime contra o diretor-geral da PF, Andrei Rodrigues. O pedido quer apurar se a estrutura da corporação foi usada em benefício do PT, porque a coletiva de Andrei sobre uma apuração de suposta interferência externa foi dada no dia do primeiro turno. A origem foi uma representação da AGU, de 1º/10, baseada em reportagem do jornal The Guardian sobre US$ 1 milhão que o governo dos EUA discutia destinar a um programa sobre o Brasil. Em 7/10, a PF arquivou o procedimento preliminar por falta de justa causa, e a PGR também arquivou o pedido da AGU por falta de provas mínimas. Na notícia-crime, a defesa escreve: \"Se não havia o que apurar, restava apenas o que divulgar.\"",
+   "contexto": [
+    "Em 1º/10, a AGU enviou à PF a representação sobre suposta interferência externa; o advogado-geral Jorge Messias repostou a reportagem falando em \"projetos políticos\" com \"respaldo no exterior\".",
+    "Em 4/10, dia do primeiro turno, Andrei confirmou o procedimento prévio e, no mesmo dia, disse não haver indicativo concreto de interferência internacional.",
+    "Também em 4/10, Nunes Marques afirmou que a Justiça Eleitoral não recebeu indício concreto de interferência.",
+    "Em 7/10, a PF arquivou o procedimento por falta de justa causa; a medida do governo dos EUA ainda estava em deliberação e sem repasse, segundo a reportagem citada.",
+    "Flávio pede ao Ministério Público Eleitoral que conduza a apuração, que sejam requisitados documentos da AGU, da PF e da PGR e que Andrei preste depoimento."
+   ],
+   "angulo": [
+    "Anunciar investigação no dia do voto, para depois arquivá-la por falta de indício, tem efeito político mesmo sem inquérito; o programa deve cobrar explicação de quem tomou a decisão.",
+    "A PF é órgão de Estado, não de governo: o cidadão precisa saber por que um procedimento sem portaria virou assunto de coletiva em dia de eleição.",
+    "A notícia-crime é a tese da defesa, e o programa deve tratá-la como tal, mas a pergunta sobre o momento escolhido é legítima e continua sem resposta."
+   ],
+   "perguntas": [
+    "Por que um procedimento preliminar, sem portaria publicada, mereceu coletiva no dia da votação?",
+    "O que a AGU esperava com a representação, e por que Messias divulgou a reportagem?",
+    "Se a Justiça Eleitoral aceitar a notícia-crime, o que pode ser apurado de concreto?"
+   ],
+   "atencao": "A notícia-crime é da defesa de Flávio; não há decisão da Justiça Eleitoral nem manifestação da PF no texto das matérias abertas.",
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-pede-investigacao-contra-diretor-da-pf-por-interferencia-eleitoral/"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-pede-investigacao-contra-diretor-geral-da-pf-por-suposto-uso-politico-da-corporacao/"
+    }
+   ]
+  },
+  {
+   "id": "bloquinho-22-ruas",
+   "bloco": "Política nacional",
+   "titulo": "A rua entra na reta final",
+   "subtitulo": "Depois do ato de Lula na Paulista, Nikolas e o PL respondem com um cronograma de 14 cidades",
+   "resumo": "Depois do ato pró-Lula na Avenida Paulista, no domingo (11), o deputado Nikolas Ferreira e o PL divulgaram o \"Bloquinho 22\", série de atos pró-Flávio Bolsonaro em ao menos 14 cidades. O primeiro será na quinta-feira (15), às 19h, em Araçuaí (MG), e a Paulista receberá o seu no domingo (18), às 11h. Na véspera do segundo turno, em 24/10, há atos marcados em Juiz de Fora (MG) e no Rio de Janeiro. A Polícia Militar relatou depredação, tumulto e pichações na dispersão do ato de Lula, com estações de metrô danificadas. O segundo turno é em 25/10, e as duas campanhas disputam a rua como disputam o voto.",
+   "contexto": [
+    "O ato de Lula ocupou sete quarteirões da Paulista, segundo o Poder360.",
+    "O cronograma inclui Vitória, Salvador, São Paulo, Manaus e Belo Horizonte, além de Araçuaí e das cidades do dia 24/10.",
+    "Em 18/10, está prevista manifestação em Belo Horizonte, às 16h, e havia debate presidencial planejado para o mesmo dia, ainda sem confirmação.",
+    "Juiz de Fora é a cidade onde Jair Bolsonaro foi esfaqueado em 2018.",
+    "No primeiro turno, nem Lula nem Flávio compareceram aos debates; o da TV Globo, em 1º/10, foi cancelado menos de uma hora antes."
+   ],
+   "angulo": [
+    "A rua é a resposta de quem tem voto e não depende de canal de TV nem de ordem judicial para falar com o eleitor.",
+    "O contraste de comportamento entre os atos deve ser mostrado com os fatos que a PM relatou, sem generalizar quem foi à rua.",
+    "Sem debate frente a frente, a rua vira o único lugar onde o eleitor vê os candidatos, e o programa deve cobrar o debate."
+   ],
+   "perguntas": [
+    "A mobilização de rua ainda muda voto em um país onde a eleição se decide em rede social?",
+    "Qual a responsabilidade das campanhas por incidentes em atos que convocam?",
+    "Por que os dois candidatos fugiram dos debates no primeiro turno e o que mudaria agora?"
+   ],
+   "atencao": "A depredação foi relatada pela PM; a responsabilidade individual não está apurada.",
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-nikolas-convocam-atos-para-a-reta-final-em-ao-menos-14-cidades/"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/bloquinho-22-pl-e-nikolas-ferreira-agendam-manifestacao-na-paulista-para-dia-18/"
+    }
+   ]
+  },
+  {
+   "id": "municao-cv-sou-da-paz",
+   "bloco": "Segurança pública",
+   "titulo": "A bala que o Estado comprou",
+   "subtitulo": "Estudo mostra cartuchos de forças oficiais nas apreensões do Comando Vermelho",
+   "resumo": "Um levantamento do Instituto Sou da Paz, exibido pelo Fantástico no domingo (11), concluiu que quatro em cada dez cartuchos apreendidos com integrantes do Comando Vermelho nos casos analisados eram de fabricação nacional. Parte deles foi produzida pouco antes da apreensão. Numa carga de 1.804 cartuchos interceptada no Distrito Federal em 2019, com destino ao Rio, os lotes estavam ligados ao Exército, às PMs do DF e do RJ e ao Ministério da Justiça. O instituto aponta que as instituições comprovam a compra, mas nem sempre explicam como a munição foi distribuída depois de chegar aos depósitos. Para quem paga imposto e vive sob tiroteio, a pergunta é quem fiscaliza o estoque que o próprio Estado compra.",
+   "contexto": [
+    "Quatro em cada dez cartuchos apreendidos com o CV nos casos analisados eram de fabricação nacional.",
+    "Em 2019, foram interceptados 1.804 cartuchos no Distrito Federal com destino ao Rio de Janeiro.",
+    "Na megaoperação de 2025 no Rio, havia munições das próprias forças de segurança entre as usadas em ataques a policiais.",
+    "Em Fortaleza, em janeiro de 2025, foram apreendidos 400 cartuchos de fuzil; fotos mostravam embalagens originais, mas isso não entrou no inquérito.",
+    "A PM do DF informou, em nota, que revisou e aprimorou seus procedimentos de fiscalização, armazenamento e controle de carga."
+   ],
+   "angulo": [
+    "Quem desvia munição pública para o crime trai a farda e o contribuinte; a punição precisa ser exemplar e o controle de estoque, auditável.",
+    "Falar em segurança pública sem fechar o cano por onde a munição escapa é enxugar gelo: o dinheiro do cidadão acaba armando o inimigo da polícia.",
+    "O estudo não aponta responsável individual, e o programa deve dizer isso, mas cobrar rastreamento e investigação de cada lote."
+   ],
+   "perguntas": [
+    "Como uma munição comprada pelo Exército chega às mãos de uma facção?",
+    "Quem responde quando o lote é identificado e o inquérito ignora a prova, como em Fortaleza?",
+    "Que controle de estoque as polícias e o Exército deveriam ser obrigados a mostrar publicamente?"
+   ],
+   "atencao": "O levantamento não estabelece responsabilidade individual nem esclarece como os cartuchos foram desviados; a matéria aberta não traz resposta do Exército.",
+   "fontes": [
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/comando-vermelho-tem-arsenal-com-municao-desviada-do-exercito-e-de-forcas-policiais/"
+    }
+   ]
+  },
+  {
+   "id": "tregua-energetica",
+   "bloco": "Internacional",
+   "titulo": "O cessar-fogo que Putin não leu",
+   "subtitulo": "Trump anuncia trégua nas usinas, Kiev denuncia ataque horas depois e o diesel explica a pressa",
+   "resumo": "No domingo (11), Donald Trump anunciou na Truth Social uma trégua de energia entre Rússia e Ucrânia, com efeito imediato, que suspende ataques a refinarias e a estruturas de geração e abastecimento de energia. O acordo não prevê retirada de tropas, lista de locais protegidos nem mecanismo de verificação, e Moscou não o confirmou publicamente. Volodymyr Zelensky disse ter sido surpreendido, depois declarou apoio e denunciou um ataque russo a uma usina de eletricidade e aquecimento em Kharkiv após o anúncio. Na sexta (9), Trump havia liberado até abril negócios com diesel russo, que estavam sob sanção desde 2022, e atribui parte da alta do diesel aos ataques ucranianos a refinarias. Um anúncio parecido em setembro não impediu os bombardeios, e as eleições legislativas americanas de novembro pesam no cálculo.",
+   "metafora": "É como combinar uma trégua no condomínio só para a caixa d'água, sem síndico para conferir: o resto da briga continua, e todo mundo desconfia de quem vai abrir a torneira primeiro.",
+   "contexto": [
+    "A trégua cobre refinarias e estruturas de geração e abastecimento de energia dos dois países, sem prazo ou verificação divulgados.",
+    "Em 9/10, Trump liberou negociações com diesel russo até abril; Zelensky criticou a medida.",
+    "Zelensky disse que Putin não lê a Truth Social e pediu pressão americana real sobre a Rússia, não alívio de sanções.",
+    "Zelensky disse que só mudaria a lei para realizar eleições se houver cessar-fogo completo e acordo entre EUA e Rússia.",
+    "A chegada do inverno agrava a situação da população ucraniana, alvo de ataques à rede elétrica e de aquecimento."
+   ],
+   "angulo": [
+    "Anúncio sem verificação é marketing: o programa deve medir a trégua pelo que acontece nas usinas, não pelo que se posta na rede.",
+    "A liberação do diesel russo mostra que o preço do combustível nos EUA pesa mais que a pressão sobre Moscou, e o brasileiro sente o reflexo na bomba.",
+    "O Brasil deveria olhar para o caso como lição: energia é segurança nacional, e quem depende de terceiros negocia de joelhos."
+   ],
+   "perguntas": [
+    "Uma trégua sem verificação e sem confirmação de Moscou vale alguma coisa?",
+    "O alívio de sanções ao diesel russo ajuda a paz ou financia a guerra?",
+    "O que a alta do diesel lá fora significa para o preço aqui?"
+   ],
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/o-que-e-a-tregua-energetica-anunciada-por-trump-para-a-guerra-na-ucrania/"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/putin-nao-le-a-truth-social-ironiza-zelensky-sobre-suposto-cessar-fogo/"
+    }
+   ]
+  }
+ ]
+}
