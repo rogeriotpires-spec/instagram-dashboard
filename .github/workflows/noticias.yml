@@ -27,7 +27,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Coletar manchetes de todos os portais
-        run: python3 tools/coleta_noticias.py 12 > coleta-noticias.json || echo '{"portais":[]}' > coleta-noticias.json
+        run: |
+          python3 tools/coleta_noticias.py 12 > coleta-noticias.json 2>/tmp/col.txt || echo '{"portais":[]}' > coleta-noticias.json
+          echo "::notice::Coleta: $(tail -1 /tmp/col.txt)"
+          python3 -c "import json;d=json.load(open('coleta-noticias.json'));print('::notice::sem manchete: '+', '.join(p['nome']+(' ('+p['erro'][:40]+')' if p.get('erro') else '') for p in d['portais'] if not p['manchetes'])[:900])"
       - uses: anthropics/claude-code-action@v1
         env:
           GH_TOKEN: ${{ github.token }}
