@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "requested": "2026-10-12",
+      "done": "2026-10-12T10:08:45-03:00",
+      "issue": 25,
+      "slot_hint": "Imagem hoje (12) às 19h e reel na terça (13) às 12h.",
+      "source": {
+        "edition": "2026-10-12-12h",
+        "item_id": "bets-protesto-maracana",
+        "title": "Torcidas protestam no Maracanã contra a proibição das bets e criticam Lula, Congresso e STF"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "realista",
+          "title": "A torcida entrou em campo contra Lula, o Congresso e o STF",
+          "tone": "contundente",
+          "duration": "imagem única",
+          "fact": "Torcedores protestaram no Fla-Flu, no Maracanã, contra a proibição das bets. Segundo o perfil Paparazzo Rubro-Negro no Instagram, uma faixa dizia \"O futebol brasileiro não pode ser vítima desse gol contra, Lula, Congresso e STF\". Pleno.News e Diário do Poder registram que a torcida do Flamengo protestou contra Lula, o Congresso e o STF, e o Diário do Poder informa coros contra Lula e contra o fim das bets. SBT News e UOL também noticiaram os protestos contra o veto às apostas. O tema liga o futebol à disputa política do segundo turno, marcado para 25 de outubro.",
+          "sources": [
+            {
+              "name": "Diário do Poder",
+              "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNV000M0xpMVF5cWdmX1QybFJXXzR5QU5ta1ByNUFscUpzTnpIRmxlMmhkSUhJbnY1ZUVHMVBHR3FjSUJ6UlcteWw1Z3NuNzVXdjgzUmRBYkZFRTh3WWFBSnEyNkVOUkZkS2JLRElQcXJwZElmb1B3ZWUzdkNvOWlTeUdvZkJfZ3FpZFpMUnV1VjlOWkY1TVlJeG9ESnE0d3NaUTFZQ2xQRVZvZ2drUmY3OU15OU9PdUQzelgzYS1OSVoyX1JmVnRmbFdmTG04cWJfR0QzNjE4MmxzdEwtTUExZ0Q1djFuSDZH0gHuAUFVX3lxTE1PaWFfNGxjQW9KUFVGa18xNmlVazBfUDJRaTZCUDcyTHg2N0wzZkRNYUZnQlgtNXZVU1d5ZWVHZlVScThCaDdKRFEtQlluTG5Wd25UYjh0ZEVJY0RCTjJGNWozclJuTGFUa0p3TU05WkRBQU1mWElwZ0hGUXlqeXFyRC1oZDdSaUVqQXIyN3BqMzBYYWotTDRZenk3bTAyNTY2X2ltU0hKY1hFdHNzQXd3S185QnMyX0t5RmVNY3Z2ak5rYTUteHpUOUN6Y01vU0xNZFNDNkZta19RS3dXeUZsckxfc3Y2N1hFTldaa0E?oc=5"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNmxvQlpSZzk5QjFBOUhJSFBZb0gzbEFXeEpmdGt0M3hudGF5SktPd2R1a3NuQ1VBZ3R5SXE0cm9vWEZOY3JtVHp2MVlxb0FoX1VyV3NDU0hpSmJhYlpKaFFzbnM4THlTS2NkWTI0VEZiMmxkT2N4ZUFGaFZqXzNXVVg3SWl0bGI4RnVzVGFlbUtreFE?oc=5"
+            },
+            {
+              "name": "UOL",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOek5rMlcyUnZiMG1WRG1pTjNkT1Y5OGZCWHAyb3pLSkMzZjc3YTllakZEc0hVYWN3QnFHWjRqRzhLd1BZenMzZVJvaHltSG5YSnRBSXhoZGthczU5ckVLaTlfb2ZJNWhFa0ZFcHNFREcwOWlvQnVKTS1Mek9fU1dobDVBS0Y5dzBxR1V3S1psZ2VKUHNJbWZLMmVfTGdfeDdCc1dRM2dGTkJ4QmRmZW9KaXYySEpMcWkxOTl6NmNNTzBrM0ZzYkR0RGJPMFBwdjQ1NHJOenk3ZDQtUQ?oc=5"
+            }
+          ],
+          "art_text": [
+            "\"Gol contra\"",
+            "Torcida protesta no Maracanã contra o veto às bets",
+            "Imagem ilustrativa",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Sem figuras públicas retratadas: apenas torcedores de costas na arquibancada, com faixa. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, de uma arquibancada de estádio de futebol à noite, vista de trás, com torcedores de costas e silhuetas erguendo uma grande faixa branca sem texto legível, bandeiras vermelhas e pretas e fumaça de sinalizadores ao fundo, luz forte dos refletores, clima tenso. Por cima, no alto, em branco, letras condensadas e muito pesadas: \"Gol contra\". Logo abaixo, em amarelo: \"Torcida protesta no Maracanã contra o veto às bets\", com sublinhado vermelho pincelado. No canto inferior esquerdo, selo pequeno: \"Imagem ilustrativa\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Sem rostos realistas, sem logos.",
+          "caption": "No Fla-Flu, torcedores levantaram uma faixa contra Lula, o Congresso e o STF por causa da proibição das bets. O futebol virou palanque? Você concorda com o protesto? Comenta.",
+          "risk": "médio",
+          "risk_note": "Os links das fontes (Google News) não abriram para conferência; os fatos vêm do resumo do painel. Antes de publicar, confirme na matéria original e atribua a faixa ao perfil que a registrou. Não generalizar: foi um protesto de torcedores, não de todas as torcidas.",
+          "timeline": {
+            "rende": true,
+            "angle": "Se o governo ou o Congresso reagirem ao protesto ou a regra das bets mudar, vale um novo post com o desfecho."
+          }
+        },
+        {
+          "type": "r",
+          "title": "A faixa do Maracanã: bets, Lula, Congresso e STF",
+          "tone": "contundente",
+          "duration": "30 a 45s",
+          "fact": "Torcedores protestaram no Fla-Flu, no Maracanã, contra a proibição das bets. Segundo o perfil Paparazzo Rubro-Negro no Instagram, uma faixa dizia \"O futebol brasileiro não pode ser vítima desse gol contra, Lula, Congresso e STF\". Pleno.News e Diário do Poder registram que a torcida do Flamengo protestou contra Lula, o Congresso e o STF, e o Diário do Poder informa coros contra Lula e contra o fim das bets. SBT News e UOL também noticiaram os protestos contra o veto às apostas. O tema liga o futebol à disputa política do segundo turno, marcado para 25 de outubro.",
+          "sources": [
+            {
+              "name": "Diário do Poder",
+              "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNV000M0xpMVF5cWdmX1QybFJXXzR5QU5ta1ByNUFscUpzTnpIRmxlMmhkSUhJbnY1ZUVHMVBHR3FjSUJ6UlcteWw1Z3NuNzVXdjgzUmRBYkZFRTh3WWFBSnEyNkVOUkZkS2JLRElQcXJwZElmb1B3ZWUzdkNvOWlTeUdvZkJfZ3FpZFpMUnV1VjlOWkY1TVlJeG9ESnE0d3NaUTFZQ2xQRVZvZ2drUmY3OU15OU9PdUQzelgzYS1OSVoyX1JmVnRmbFdmTG04cWJfR0QzNjE4MmxzdEwtTUExZ0Q1djFuSDZH0gHuAUFVX3lxTE1PaWFfNGxjQW9KUFVGa18xNmlVazBfUDJRaTZCUDcyTHg2N0wzZkRNYUZnQlgtNXZVU1d5ZWVHZlVScThCaDdKRFEtQlluTG5Wd25UYjh0ZEVJY0RCTjJGNWozclJuTGFUa0p3TU05WkRBQU1mWElwZ0hGUXlqeXFyRC1oZDdSaUVqQXIyN3BqMzBYYWotTDRZenk3bTAyNTY2X2ltU0hKY1hFdHNzQXd3S185QnMyX0t5RmVNY3Z2ak5rYTUteHpUOUN6Y01vU0xNZFNDNkZta19RS3dXeUZsckxfc3Y2N1hFTldaa0E?oc=5"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNmxvQlpSZzk5QjFBOUhJSFBZb0gzbEFXeEpmdGt0M3hudGF5SktPd2R1a3NuQ1VBZ3R5SXE0cm9vWEZOY3JtVHp2MVlxb0FoX1VyV3NDU0hpSmJhYlpKaFFzbnM4THlTS2NkWTI0VEZiMmxkT2N4ZUFGaFZqXzNXVVg3SWl0bGI4RnVzVGFlbUtreFE?oc=5"
+            },
+            {
+              "name": "UOL",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOek5rMlcyUnZiMG1WRG1pTjNkT1Y5OGZCWHAyb3pLSkMzZjc3YTllakZEc0hVYWN3QnFHWjRqRzhLd1BZenMzZVJvaHltSG5YSnRBSXhoZGthczU5ckVLaTlfb2ZJNWhFa0ZFcHNFREcwOWlvQnVKTS1Mek9fU1dobDVBS0Y5dzBxR1V3S1psZ2VKUHNJbWZLMmVfTGdfeDdCc1dRM2dGTkJ4QmRmZW9KaXYySEpMcWkxOTl6NmNNTzBrM0ZzYkR0RGJPMFBwdjQ1NHJOenk3ZDQtUQ?oc=5"
+            }
+          ],
+          "hooks": [
+            "Uma faixa no Maracanã juntou futebol, bets e política.",
+            "\"Gol contra, Lula, Congresso e STF\": o recado da arquibancada.",
+            "O Fla-Flu virou protesto contra o veto às bets."
+          ],
+          "script": "No Fla-Flu, no Maracanã, torcedores protestaram contra a proibição das bets. Segundo o perfil Paparazzo Rubro-Negro, uma faixa dizia: o futebol brasileiro não pode ser vítima desse gol contra, Lula, Congresso e STF. O Pleno.News e o Diário do Poder registram que a torcida do Flamengo protestou contra Lula, o Congresso e o STF, e o Diário do Poder fala em coros contra Lula. SBT News e UOL também noticiaram os protestos contra o veto às apostas. O tema entra na disputa do segundo turno, no dia 25. Pergunta: o futebol é lugar de protesto político? Comenta aqui.",
+          "screen_text": [
+            "Fla-Flu no Maracanã",
+            "Protesto contra o veto às bets",
+            "\"Gol contra: Lula, Congresso e STF\"",
+            "2º turno: 25 de outubro"
+          ],
+          "caption": "Torcedores protestaram no Maracanã contra a proibição das bets e criticaram Lula, o Congresso e o STF. Qual a sua leitura? Comenta.",
+          "risk": "médio",
+          "risk_note": "Os links das fontes (Google News) não abriram para conferência; os fatos vêm do resumo do painel. Antes de publicar, confirme na matéria original e atribua a faixa ao perfil que a registrou. Não generalizar: foi um protesto de torcedores, não de todas as torcidas.",
+          "timeline": {
+            "rende": false,
+            "angle": "Pauta de reação rápida; só retomar se houver decisão sobre as bets."
+          }
+        }
+      ]
+    },
+    {
       "requested": "2026-10-11",
       "done": "2026-10-11T20:38:12-03:00",
       "issue": 24,
