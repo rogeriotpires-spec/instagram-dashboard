@@ -319,7 +319,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
       <h3>Incluir item avulso</h3>
       <p class="h">Cole o endereço de uma matéria ou escreva uma frase sobre o assunto. O Claude pesquisa e acrescenta um item no mesmo formato dos demais, com o selo "Pauta avulsa", e o PDF é refeito.</p>
       <label for="av-pedido">Site ou frase para pesquisar</label>
-      <textarea id="av-pedido" required placeholder="Ex.: https://www.gazetadopovo.com.br/... ou: decisão do STF sobre emendas parlamentares desta semana"></textarea>
+      <textarea id="av-pedido" required placeholder="Ex.: https://www.gazetadopovo.com.br/... ou: decisão do STF sobre emendas parlamentares desta semana"></textarea><div class="small-n" style="margin:4px 0 8px">Folha e G1 bloqueiam leitura automática: para matérias deles, cole também o título e um trecho (ou o texto) no pedido.</div>
       <label for="av-obs">Observação (opcional)</label>
       <input id="av-obs" placeholder="Ex.: focar no impacto para o Rio; trazer números do orçamento">
       <div class="row"><label for="av-data" style="margin:0">Pauta do dia</label><input type="date" id="av-data" required>
@@ -523,7 +523,8 @@ AV.onsubmit=async e=>{e.preventDefault();
   const pedido=$("#av-pedido").value.trim(),obs=$("#av-obs").value.trim(),data=$("#av-data").value;if(!pedido||!data)return;
   const st=$("#av-st"),say=t=>st.textContent=t,btn=$("#av-send");btn.disabled=true;say("Enviando…");
   const stamp=()=>nocache(`programa/${data}.json`).then(r=>r.ok?r.text():"").then(t=>String(t.length)).catch(()=>"0");
-  try{await Painel.call("/avulso",{pedido,data,obs});}
+  let issueN=null;
+  try{const j=await Painel.call("/avulso",{pedido,data,obs});issueN=j&&j.issue;}
   catch(err){
     if(/Rota desconhecida/.test(err.message)){ // intermediário ainda sem a rota nova: pedido pelo GitHub
       const body=`Pedido de item avulso para a pauta do programa.\n\nData da pauta: ${data}\nPedido: ${pedido}\nObservação: ${obs||"(nenhuma)"}\n`;
@@ -532,8 +533,10 @@ AV.onsubmit=async e=>{e.preventDefault();
     }else{say(err.message);btn.disabled=false;return}
   }
   history.replaceState(null,"","#programa/"+data);
-  say("Pedido enviado. Pesquisando e escrevendo o item (2 a 5 minutos)…");
-  Painel.track({wf:"programa-avulso.yml",since:new Date(Date.now()-90e3),minutes:20,say,stamp,labels:{wait:"Pedido na fila…",running:"Pesquisando e escrevendo o item (2 a 5 minutos)…"}});
+  say("Pedido enviado. Pesquisando e escrevendo o item (2 a 5 minutos). Se não der certo, o motivo aparece aqui.");
+  Painel.track({wf:"programa-avulso.yml",since:new Date(Date.now()-90e3),minutes:20,say,stamp,labels:{wait:"Pedido na fila…",running:"Pesquisando e escrevendo o item (2 a 5 minutos)…"}}).then(ok=>{
+    if(ok!==false||!issueN)return;btn.disabled=false;
+    fetch(`https://api.github.com/repos/${Painel.REPO}/issues/${issueN}/comments`,{cache:"no-store"}).then(r=>r.ok?r.json():[]).then(c=>{const m=(c[c.length-1]||{}).body;if(m)say(m.replace(/\*\*/g,"").slice(0,600))}).catch(()=>{})});
 };
 Painel.wire({btn:$("#p-gen"),st:$("#p-st"),job:"programa",wf:"programa.yml",minutes:25,needsClaude:true,after:()=>history.replaceState(null,"","#programa"),
   stamp:()=>nocache("programa/index.json").then(r=>r.json()).then(i=>{const d=i.days[i.days.length-1];return nocache("programa/"+d+".json").then(r=>r.json()).then(x=>d+x.generated)}),
