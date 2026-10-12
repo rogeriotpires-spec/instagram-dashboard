@@ -26,6 +26,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Coletar manchetes de todos os portais
+        run: python3 tools/coleta_noticias.py 12 > coleta-noticias.json || echo '{"portais":[]}' > coleta-noticias.json
       - uses: anthropics/claude-code-action@v1
         env:
           GH_TOKEN: ${{ github.token }}
