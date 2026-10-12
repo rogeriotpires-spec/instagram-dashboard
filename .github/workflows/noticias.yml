@@ -30,6 +30,7 @@ jobs:
         run: |
           python3 tools/coleta_noticias.py 12 > coleta-noticias.json 2>/tmp/col.txt || echo '{"portais":[]}' > coleta-noticias.json
           echo "::notice::Coleta: $(tail -1 /tmp/col.txt)"
+          python3 -c "import json;d=json.load(open('coleta-noticias.json'));open('coleta-noticias.txt','w').write('\n'.join(p['nome']+' ('+str(p.get('camp'))+') | '+m['quando']+' | '+m['titulo'] for p in d['portais'] for m in p['manchetes']))"
           python3 -c "import json;d=json.load(open('coleta-noticias.json'));print('::notice::sem manchete: '+', '.join(p['nome']+(' ('+p['erro'][:40]+')' if p.get('erro') else '') for p in d['portais'] if not p['manchetes'])[:900])"
       - uses: anthropics/claude-code-action@v1
         env:
@@ -40,6 +41,22 @@ jobs:
           claude_args: |
             --max-turns 150
             --allowedTools Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch
+      - name: Completar a cobertura com a coleta
+        env:
+          GHT: ${{ github.token }}
+        run: |
+          git config --local --unset-all http.https://github.com/.extraheader || true
+          git remote set-url origin "https://x-access-token:${GHT}@github.com/${{ github.repository }}.git"
+          cp coleta-noticias.json /tmp/coleta.json
+          for i in 1 2 3 4; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            E=$(python3 -c "import json;print(json.load(open('noticias/index.json'))['editions'][-1])" 2>/dev/null || ls noticias/2*.json | sort | tail -1 | xargs -n1 basename | sed 's/.json//')
+            F="noticias/${E%.json}.json"; [ -f "$F" ] || { echo "::warning::edição não encontrada"; exit 0; }
+            OUT=$(python3 tools/noticias_cobertura.py "$F" /tmp/coleta.json); echo "::notice::$OUT"
+            git add "$F"; git diff --cached --quiet && exit 0
+            git commit -qm "Notícias: cobertura completada pela coleta" && git push -q origin HEAD:main && exit 0
+            sleep $((i*3))
+          done
       - name: Rede de segurança dos pedidos Virar pauta
         if: github.event_name == 'schedule'
         uses: anthropics/claude-code-action@v1
