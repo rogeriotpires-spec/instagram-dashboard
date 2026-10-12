@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-12T09:07:58-03:00",
- "headline": "TSE se divide sobre o canal Exército do Lula, Senado vota o fim da escala 6x1 na quarta e governo zera tributos da gasolina",
+ "generated": "2026-10-12T09:21:41-03:00",
+ "headline": "TSE se divide sobre o canal Exército do Lula, Senado vota o fim da escala 6x1 na quarta e pesquisas de segundo turno apontam Flávio à frente",
  "top": [
   "exercito-lula-corregedor",
-  "fim-6x1-senado",
+  "bloquinho-22-paulista",
+  "mendonca-cut-anuncios",
   "flavio-pf-diretor",
-  "master-fundos-pensao",
-  "combustiveis-isencao"
+  "fim-6x1-senado"
  ],
  "items": [
   {
@@ -15,11 +15,12 @@
    "title": "Corregedor do TSE suspende decisão de Nunes Marques e mantém no ar o canal Exército do Lula; presidente do TSE pede análise urgente",
    "summary": "O corregedor-geral eleitoral Ricardo Villas Bôas Cueva suspendeu no domingo (11) a decisão do presidente do TSE, Kassio Nunes Marques, que mandava a Meta tirar do ar o canal \"Exército do Lula\", administrado pelo deputado André Janones (Rede-MG) e com cerca de 3,3 milhões de seguidores. A campanha de Flávio Bolsonaro acusa o canal de espalhar informações falsas, como a de que Nossa Senhora Aparecida deixaria de ser padroeira do Brasil. Cueva proibiu Janones de reproduzir conteúdos cuja ilicitude já foi reconhecida pela Justiça Eleitoral, mas permitiu novos seguidores. Segundo a CNN Brasil, ministros do TSE relatam mal-estar e insegurança jurídica, pois Nunes Marques teria atropelado um caso sob relatoria de Cueva, e comentaristas da Jovem Pan veem risco de censura na suspensão. Nunes Marques pediu análise urgente do caso e o plenário do TSE deve decidir antes do segundo turno, em 25 de outubro.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 10,
     "destaque": 10,
     "persistencia": 7,
     "peso_voce": 10
    },
+   "score": 9.4,
    "outlets": [
     {
      "name": "Poder360",
@@ -44,13 +45,153 @@
      "url": "https://jovempan.com.br/politica/apos-decisoes-conflitantes-nunes-marques-pede-analise-urgente-sobre-exercito-do-lula/",
      "camp": "direita",
      "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/corregedor-do-tse-derruba-decisao-de-nunes-marques-e-libera-canal-exercito-do-lula/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/corregedor-derruba-decisao-que-suspendeu-canal-exercito-do-lula",
+     "camp": "estatal",
+     "position": "topo"
     }
    ],
    "asymmetry": {
     "flag": false,
     "note": ""
+   }
+  },
+  {
+   "id": "bloquinho-22-paulista",
+   "segment": "politica",
+   "title": "Após ato pró-Lula com depredação na Paulista, PL e Nikolas Ferreira marcam o \"Bloquinho 22\" para o dia 18",
+   "summary": "Depois do ato de Lula na Avenida Paulista, no domingo (11), o PL e o deputado Nikolas Ferreira agendaram uma manifestação chamada \"Bloquinho 22\" na mesma avenida para o dia 18. O Poder360 informa que Flávio Bolsonaro e Nikolas convocam atos para a reta final em ao menos 14 cidades. A Polícia Militar relatou depredação, tumulto e pichações na dispersão do ato pró-Lula, e manifestantes pró-Lula depredaram estações de metrô na Paulista, segundo a PM. O Poder360 registrou que o ato de Lula ocupou sete quarteirões da avenida. O segundo turno será em 25 de outubro, e as campanhas disputam presença de rua na reta final.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
    },
-   "score": 8.1
+   "score": 8.3,
+   "outlets": [
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/bloquinho-22-pl-e-nikolas-ferreira-agendam-manifestacao-na-paulista-para-dia-18/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/sao-paulo/apos-ato-pro-lula-flavio-e-nikolas-confirmam-bloquinho-na-av-paulista",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-nikolas-convocam-atos-para-a-reta-final-em-ao-menos-14-cidades/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/ato-apoio-lula-vandalismo-denuncias-agressao-mulheres/",
+     "camp": "direita",
+     "position": "topo"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "mendonca-cut-anuncios",
+   "segment": "politica",
+   "title": "Mendonça manda CUT apagar posts que ligavam Flávio a milícias e ao fim do Pix; TSE também barra anúncios de Lula sobre a escala 6x1",
+   "summary": "No domingo (11), o ministro André Mendonça, do TSE, determinou que a CUT apagasse publicações sobre Flávio Bolsonaro no Instagram, por \"aparente ilicitude da veiculação de propaganda eleitoral\" no perfil institucional de uma pessoa jurídica. A ordem atendeu a pedido do candidato do PL, que afirmou que a central usou o perfil para desestimular o voto nele e promover Lula. Uma publicação associava Flávio ao \"Escritório do Crime\" e às milícias, com montagem usando fotos de Adriano da Nóbrega, e outras o ligavam ao congelamento do salário mínimo, ao fim do Pix e à manutenção da escala 6x1. À noite os posts já estavam fora do ar, e a CUT publicou novo post acusando Mendonça e Flávio de tentarem esconder o conteúdo. Flávio disse em evento com prefeitos que não acabará com programas sociais, e Lula criticou o \"tesouraço\" que atribui ao adversário e afirmou que Flávio quer cortar recursos do Bolsa Família.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.7,
+   "outlets": [
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/andre-mendonca-manda-cut-apagar-posts-que-ligavam-flavio-a-milicias-e-fim-do-pix/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-manda-pt-retirar-anuncios-e-cut-apagar-posts-contra-flavio/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/mendonca-manda-cut-apagar-5-posts-criticos-a-flavio/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-barra-anuncios-de-lula-acusando-flavio-de-ser-contra-escala-6x1",
+     "camp": "estatal",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "flavio-pf-diretor",
+   "segment": "politica",
+   "title": "Defesa de Flávio Bolsonaro aciona a Justiça Eleitoral contra o diretor-geral da PF, Andrei Rodrigues",
+   "summary": "A defesa de Flávio Bolsonaro (PL) apresentou no domingo (11) uma notícia-crime à Justiça Eleitoral contra o diretor-geral da Polícia Federal, Andrei Rodrigues. O pedido é para apurar se ele usou a estrutura da PF em benefício de partido político no dia do primeiro turno. A ação cita a coletiva de Andrei em 4 de outubro, em que ele disse que a PF recebera uma representação da AGU sobre possível interferência externa e que havia uma investigação em curso. Segundo o Metrópoles, a PF analisava a suposta interferência dos Estados Unidos nas eleições e, três dias depois, arquivou a apuração preliminar por falta de indícios mínimos de crime. O texto não registra manifestação da PF nem do governo, e cabe à Justiça Eleitoral decidir se abre a investigação.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.6,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-pede-investigacao-contra-diretor-da-pf-por-interferencia-eleitoral/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/flavio-aciona-justica-eleitoral-contra-diretor-geral-da-pf",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/campanha-de-flavio-pede-investigacao-de-andrei-por-suposto-beneficio-a-lula/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-pede-investigacao-contra-diretor-geral-da-pf-por-suposto-uso-politico-da-corporacao/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
   },
   {
    "id": "fim-6x1-senado",
@@ -58,11 +199,12 @@
    "title": "Alcolumbre pauta para quarta (14) a votação da PEC do fim da escala 6x1 no Senado",
    "summary": "O presidente do Senado, Davi Alcolumbre (União-AP), marcou para quarta-feira (14) a votação da PEC que acaba com a escala 6x1, que está na pauta de terça a quinta. O texto reduz a jornada semanal máxima de 44 para 40 horas e garante dois dias de descanso semanal remunerado, sem redução salarial. A Câmara aprovou a proposta em maio por 472 a 22 no primeiro turno e 461 a 19 no segundo, e o Senado precisa de ao menos 49 dos 81 votos em dois turnos. Alcolumbre diz que cada senador decidirá com liberdade e consciência, enquanto o governo Lula trata o tema como prioridade da campanha à reeleição, e o ministro Messias disse que o Senado aprovará o fim da 6x1. Um acordo de lideranças pode dispensar o intervalo entre os turnos e permitir votar tudo no mesmo dia; as 36 emendas apresentadas foram rejeitadas pelo relator, Omar Aziz (PSD-AM).",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 8,
     "destaque": 8,
     "persistencia": 7,
     "peso_voce": 6
    },
+   "score": 7.4,
    "outlets": [
     {
      "name": "Gazeta do Povo",
@@ -92,39 +234,7 @@
    "asymmetry": {
     "flag": false,
     "note": ""
-   },
-   "score": 6.7
-  },
-  {
-   "id": "flavio-pf-diretor",
-   "segment": "politica",
-   "title": "Defesa de Flávio Bolsonaro aciona a Justiça Eleitoral contra o diretor-geral da PF, Andrei Rodrigues",
-   "summary": "A defesa de Flávio Bolsonaro (PL) apresentou no domingo (11) uma notícia-crime à Justiça Eleitoral contra o diretor-geral da Polícia Federal, Andrei Rodrigues. O pedido é para apurar se ele usou a estrutura da PF em benefício de partido político no dia do primeiro turno. A ação cita a coletiva de Andrei em 4 de outubro, em que ele disse que a PF recebera uma representação da AGU sobre possível interferência externa e que havia uma investigação em curso. Segundo o Metrópoles, a PF analisava a suposta interferência dos Estados Unidos nas eleições e, três dias depois, arquivou a apuração preliminar por falta de indícios mínimos de crime. O texto não registra manifestação da PF nem do governo, e cabe à Justiça Eleitoral decidir se abre a investigação.",
-   "scores": {
-    "cobertura": 3,
-    "destaque": 8,
-    "persistencia": 7,
-    "peso_voce": 10
-   },
-   "outlets": [
-    {
-     "name": "Poder360",
-     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-pede-investigacao-contra-diretor-da-pf-por-interferencia-eleitoral/",
-     "camp": "centro",
-     "position": "topo"
-    },
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/brasil/flavio-aciona-justica-eleitoral-contra-diretor-geral-da-pf",
-     "camp": "centro",
-     "position": "topo"
-    }
-   ],
-   "asymmetry": {
-    "flag": false,
-    "note": ""
-   },
-   "score": 6.6
+   }
   },
   {
    "id": "master-fundos-pensao",
@@ -132,11 +242,12 @@
    "title": "Veja relata que Vorcaro citou R$ 1 bilhão em propinas ao PT por acesso a fundos de pensão; Padilha e PT negam",
    "summary": "Segundo a revista Veja, relatada pela Gazeta do Povo, o banqueiro Daniel Vorcaro teria negociado acesso a fundos de pensão de estatais federais para captar R$ 10 bilhões para o Banco Master. Pelos relatos atribuídos a ele, R$ 1 bilhão seria destinado a propinas a um grupo ligado ao PT, e Alexandre Padilha, então ministro das Relações Institucionais, teria articulado uma reunião na Petros. A revista também publicou um áudio em que Vorcaro diz ter financiado um documentário sobre Lula \"por fora\", com R$ 30 milhões em espécie. Padilha nega ter defendido interesses do Master e pediu direito de resposta na Justiça, o PT e a campanha de Lula negam e atribuem a reportagem a motivação eleitoral, a PGR teria rejeitado o relato por falta de provas e a PF diz não ter recebido o material. Vorcaro depõe à PF sobre o BRB na quinta-feira (15), segundo a CNN Brasil.",
    "scores": {
-    "cobertura": 3,
-    "destaque": 8,
+    "cobertura": 7,
+    "destaque": 6,
     "persistencia": 7,
     "peso_voce": 10
    },
+   "score": 7.4,
    "outlets": [
     {
      "name": "Gazeta do Povo",
@@ -154,8 +265,38 @@
    "asymmetry": {
     "flag": false,
     "note": ""
+   }
+  },
+  {
+   "id": "pesquisas-2-turno",
+   "segment": "politica",
+   "title": "Cinco pesquisas nacionais de segundo turno mostram Flávio à frente por 4 a 6 pontos; Vox Brasil dá Lula na frente nas intenções de voto",
+   "summary": "Segundo levantamento do Poder360, há cinco pesquisas nacionais do segundo turno, todas com entrevistas feitas entre 3 e 8 de outubro. O PoderData/Aya (3.000 entrevistas, margem de 1,8 ponto) traz Flávio com 53% e Lula com 47% dos votos válidos. O AtlasIntel (5.026 entrevistas, margem de 1 ponto) dá 52,8% a 47,2%, o Datafolha (2.520 entrevistas, margem de 2 pontos) dá 52% a 48% e o Ipespe/Abrapel (1.500 entrevistas) dá 52,7% a 47,3%. A Vox Brasil mostra Lula com 44,2% e Flávio com 42,7% das intenções de voto totais, o que, sem indecisos, nulos e brancos, equivale a 50,86% a 49,14% pelo cálculo do Poder360. O PoderData também registra que a expectativa de vitória de Lula caiu 11 pontos e a de Flávio subiu nove, e a UOL informa que a semana terá nova rodada com Quaest, BTG/Nexus e Datafolha.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
    },
-   "score": 6.6
+   "score": 7.1,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-como-estao-lula-e-flavio-nas-pesquisas-a-14-dias-do-2o-turno/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/poderdata-flavio-sobe-nove-pontos-em-expectativa-de-vitoria-lula-cai-11/",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
   },
   {
    "id": "combustiveis-isencao",
@@ -163,11 +304,12 @@
    "title": "Governo zera tributos federais sobre a gasolina e amplia subvenções; custo total das medidas fica em R$ 40 bilhões",
    "summary": "O governo zerou os tributos federais sobre a gasolina, a um custo de R$ 2,8 bilhões, e ampliou as medidas para conter a alta dos combustíveis, que somam R$ 5,2 bilhões em 30 dias. A subvenção ao etanol subiu de R$ 0,25 para R$ 0,43 por litro, com a desoneração mantida em R$ 0,19, e o diesel importado ganhou subvenção de R$ 1,40 por litro. A Fazenda manteve em cerca de R$ 40 bilhões o custo fiscal total, incluindo o crédito extraordinário de R$ 7,52 bilhões da MP 1.395, aberto na sexta (9). A equipe econômica diz que compensará os gastos com receitas extraordinárias do petróleo, estimadas em R$ 67,5 bilhões em 2026, e o ministro Bruno Moretti afirmou que o governo não pede espaço fiscal adicional. O governo nega caráter eleitoral na isenção e, se a meta fiscal correr risco, pode ampliar o contingenciamento, hoje em R$ 13,6 bilhões.",
    "scores": {
-    "cobertura": 3,
-    "destaque": 8,
+    "cobertura": 5,
+    "destaque": 6,
     "persistencia": 7,
     "peso_voce": 10
    },
+   "score": 6.8,
    "outlets": [
     {
      "name": "CNN Brasil",
@@ -185,8 +327,112 @@
    "asymmetry": {
     "flag": false,
     "note": ""
+   }
+  },
+  {
+   "id": "pm-27-tiros-sp",
+   "segment": "seguranca",
+   "title": "PMs são afastados após matar jovem de 20 anos com 27 tiros em Moema, em São Paulo",
+   "summary": "Gustavo Munis de Santana, de 20 anos, foi morto com 27 tiros em Moema, na zona sul de São Paulo, e o boletim de ocorrência registra 45 disparos feitos pelos policiais. Os PMs foram acionados às 2h35 para uma tentativa de suicídio, após denúncia de que o jovem estava transtornado e ameaçava atirar contra si mesmo. Não há registro de que estivesse armado: segundo os agentes, ele estendeu os braços segurando um objeto escuro, que era um celular. Oito PMs participaram da abordagem e um deles disparou 14 vezes. Pelo menos quatro policiais foram afastados das atividades operacionais, o DHPP recolheu as câmeras corporais e o caso foi registrado como resistência e homicídio decorrente de intervenção policial.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 6
    },
-   "score": 6.6
+   "score": 6.8,
+   "outlets": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/sao-paulo/policiais-militares-sao-afastados-apos-matar-jovem-com-27-tiros-em-sp",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/brasil/quem-era-gustavo-munis-jovem-morto-com-27-tiros-disparados-por-4-pms-em-sp/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "nobel-economia-2026",
+   "segment": "economia",
+   "title": "Americanos Robert Hall e Michael Woodford ganham o Nobel de Economia de 2026",
+   "summary": "A Real Academia Sueca de Ciências anunciou nesta segunda-feira (12) que os economistas americanos Robert Hall e Michael Woodford receberam o Prêmio Nobel de Economia de 2026. Foram premiados pela contribuição aos \"fundamentos microeconômicos da estabilização macroeconômica\". Eles desenvolveram novos modelos keynesianos que partem do comportamento de famílias e empresas, e não de correlações estatísticas entre variáveis como inflação e consumo. Um ponto central é que esses agentes consideram perspectivas futuras ao decidir sobre poupança ou preços, de modo que a comunicação de planos por governos e bancos centrais pode orientar expectativas. O prêmio é de 12 milhões de coroas suecas, cerca de US$ 1,2 milhão, e os modelos são usados hoje por bancos centrais e governos, segundo John Hassler, presidente do comitê.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 6.2,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/americanos-hall-e-woodford-ganham-nobel-de-economia-de-2026/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/norte-americanos-levam-o-nobel-de-economia-2026-por-modelos-macroeconomicos",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/economia/americanos-michael-woodford-e-robert-hall-ganham-o-nobel-de-economia/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "tregua-energetica-ucrania",
+   "segment": "internacional",
+   "title": "Trump anuncia \"trégua energética\" entre Rússia e Ucrânia; Zelensky ironiza e Kiev acusa violação",
+   "summary": "No domingo (11), Donald Trump anunciou na Truth Social um cessar-fogo em matéria de energia na guerra entre Rússia e Ucrânia, que suspende ataques a refinarias e estruturas de geração e abastecimento de energia, mas não interrompe os demais combates. Não há lista de locais protegidos, retirada de tropas nem regras de verificação, e Moscou não havia confirmado publicamente o acordo. Zelensky disse que foi surpreendido, depois declarou apoio e aguarda detalhes dos EUA, e denunciou um ataque russo a uma usina em Kharkiv após o anúncio. A CNN Brasil registra que Zelensky ironizou: \"Putin não lê a Truth Social\". Segundo CBN e Terra, a União Europeia se diz pronta para apoiar a trégua, e a Gazeta do Povo lembra que um anúncio parecido em setembro não impediu os bombardeios.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 3
+   },
+   "score": 6.2,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/o-que-e-a-tregua-energetica-anunciada-por-trump-para-a-guerra-na-ucrania/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/putin-nao-le-a-truth-social-ironiza-zelensky-sobre-suposto-cessar-fogo/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/mundo/uniao-europeia-pede-sancoes-dos-eua-contra-russia-para-terminar-a-guerra-na-ucrania/",
+     "camp": "direita",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
   },
   {
    "id": "riad-houthis",
@@ -194,11 +440,12 @@
    "title": "Houthis atacam aeroporto de Dammam um dia após Riade; Trump chama ofensiva de inaceitável",
    "summary": "A autoridade de aviação civil da Arábia Saudita informou que o aeroporto de Dammam foi atingido no domingo (11), e os Houthis, do Iêmen, reivindicaram o ataque. No mesmo dia o aeroporto Rei Khalid, em Riade, foi alvo de um projétil que atingiu um terminal e causou incêndio, o quarto ataque em cinco dias, e as operações nos dois aeroportos foram suspensas. Um bombardeio no sábado (10) em Riade deixou 13 mortos e mais de 300 feridos, e não há informação sobre vítimas em Dammam. Donald Trump chamou a ofensiva de \"terrível\" e \"inaceitável\" e disse que poderia considerar participar de operações sauditas contra o grupo, apoiado pelo Irã. Trump disse que conversará com o príncipe herdeiro Mohammed bin Salman, e os Houthis prometem novos ataques à Arábia Saudita.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 8,
     "destaque": 6,
     "persistencia": 7,
-    "peso_voce": 6
+    "peso_voce": 3
    },
+   "score": 6.2,
    "outlets": [
     {
      "name": "Metrópoles",
@@ -216,8 +463,44 @@
    "asymmetry": {
     "flag": false,
     "note": ""
+   }
+  },
+  {
+   "id": "papa-cirurgia-gemelli",
+   "segment": "internacional",
+   "title": "Papa Leão XIV será internado na terça (13) no Gemelli para retirar nódulo no pulmão",
+   "summary": "O Vaticano informou que o papa Leão XIV deve ser internado na manhã de terça-feira (13) no Hospital Policlínico Gemelli, em Roma, para a cirurgia de remoção de um nódulo no pulmão. O diretor da Sala de Imprensa, Matteo Bruni, disse que a intervenção está prevista para os primeiros dias da semana, sem data específica. Segundo o papa, o nódulo foi identificado em um exame recente, está em estágio inicial e é \"bem delimitado\". O Vaticano estima recuperação de cerca de uma semana e não informou se há suspeita de malignidade. Leão XIV, de 71 anos, manteve a agenda regular nesta segunda (12), e o texto não informa mudanças na viagem de 11 dias a Uruguai, Argentina e Peru prevista para o próximo mês.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 3
    },
-   "score": 5.2
+   "score": 6.2,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/papa-leao-xiv-vai-passar-por-cirurgia-na-manha-de-terca-feira-diz-vaticano/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/papa-leao-xiv-cirurgia-nodulo-pulmao/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/papa-leao-xiv-revela-nodulo-no-pulmao-e-fara-cirurgia-nos-proximos-dias",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
   }
  ]
 }
