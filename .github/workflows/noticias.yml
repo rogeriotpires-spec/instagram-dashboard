@@ -30,7 +30,7 @@ jobs:
         run: |
           python3 tools/coleta_noticias.py 12 > coleta-noticias.json 2>/tmp/col.txt || echo '{"portais":[]}' > coleta-noticias.json
           echo "::notice::Coleta: $(tail -1 /tmp/col.txt)"
-          python3 -c "import json;d=json.load(open('coleta-noticias.json'));open('coleta-noticias.txt','w').write('\n'.join(p['nome']+' ('+str(p.get('camp'))+') | '+m['quando']+' | '+m['titulo'] for p in d['portais'] for m in p['manchetes']))"
+          python3 -c "import json;d=json.load(open('coleta-noticias.json'));open('coleta-noticias.txt','w').write('\n'.join(p['nome']+' ('+str(p.get('camp'))+') | '+m['quando']+' | '+m['titulo'] for p in d['portais'] for m in p['manchetes'])+'\n\n'+'\n'.join('TEMA '+k+' | '+m['fonte']+' | '+m['quando']+' | '+m['titulo'] for k,v in d.get('temas',{}).items() for m in v))"
           python3 -c "import json;d=json.load(open('coleta-noticias.json'));print('::notice::sem manchete: '+', '.join(p['nome']+(' ('+p['erro'][:40]+')' if p.get('erro') else '') for p in d['portais'] if not p['manchetes'])[:900])"
       - uses: anthropics/claude-code-action@v1
         env:

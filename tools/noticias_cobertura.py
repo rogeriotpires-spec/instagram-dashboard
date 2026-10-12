@@ -21,7 +21,8 @@ def nota_cob(n):
         if a <= n <= b: return round(x + (y - x) * (n - a) / (b - a), 1)
 W = {"cobertura": 10, "destaque": 8, "persistencia": 6, "peso_voce": 7}
 for c in cfg.get("criteria", []):
-    if c.get("id") in W and c.get("weight"): W[c["id"]] = c["weight"]
+    k = c.get("key") or c.get("id")
+    if k in W and c.get("weight"): W[k] = c["weight"]
 acresc = 0
 for it in ed.get("items", []):
     alvo = kw(it.get("title", "") + " " + (it.get("summary", "").split(". ")[0]))

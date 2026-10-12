@@ -32,7 +32,32 @@ for o in cfg["outlets"]:
         erro = str(e)[:120]
     saida["portais"].append({"nome": o["name"], "camp": o.get("camp"), "tier": o.get("tier"), "dominio": d, "manchetes": itens, **({"erro": erro} if erro else {})})
     time.sleep(0.6)
+# buscas por tema (todos os veículos brasileiros), para os blocos que costumam ficar vazios
+TEMAS = {
+    "educacao": ["MEC OR Enem OR Fies OR Prouni OR Inep", "universidade federal OR instituto federal OR reitoria", "escola pública OR professores OR rede estadual de ensino", "UERJ OR UENF OR FAETEC OR CEDERJ OR CECIERJ OR \"Seeduc\""],
+    "rio": ["\"governo do Rio\" OR \"Cláudio Castro\" OR Alerj", "\"Prefeitura do Rio\" OR \"Câmara do Rio\" OR \"Eduardo Paes\"", "\"Rio de Janeiro\" polícia OR operação OR segurança", "Niterói OR \"Baixada Fluminense\" OR \"São Gonçalo\""],
+    "ciencia": ["inteligência artificial", "ciência OR pesquisa científica OR CNPq OR Capes OR Finep OR FAPERJ", "startup OR inovação OR tecnologia big tech", "saúde OR vacina OR medicina estudo"],
+    "esportes": ["Flamengo OR Fluminense OR Vasco OR Botafogo", "seleção brasileira OR CBF OR Brasileirão", "esporte olímpico OR vôlei OR Fórmula 1 OR tênis"]}
+saida["temas"] = {}
+for tema, qs in TEMAS.items():
+    vistos, lista = set(), []
+    for q in qs:
+        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": q + f" when:{horas}h", "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"})
+        try:
+            root = ET.fromstring(urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (painel-rogerrio)"}), timeout=20).read())
+            for it in root.iter("item"):
+                t = (it.findtext("title") or "").strip(); fonte = (it.findtext("source") or "").strip()
+                if fonte and t.endswith(" - " + fonte): t = t[: -len(" - " + fonte)]
+                if t.lower() in vistos: continue
+                vistos.add(t.lower())
+                try: dt = parsedate_to_datetime(it.findtext("pubDate")).astimezone(BRT)
+                except Exception: dt = None
+                lista.append({"titulo": t, "fonte": fonte, "quando": dt.strftime("%d/%m %H:%M") if dt else "", "link": it.findtext("link")})
+                if len(lista) >= 60: break
+        except Exception: pass
+        time.sleep(0.6)
+    saida["temas"][tema] = lista
 tot = sum(len(p["manchetes"]) for p in saida["portais"]); com = sum(1 for p in saida["portais"] if p["manchetes"])
-saida["resumo"] = f"{tot} manchetes de {com} de {len(saida['portais'])} portais nas últimas {horas} horas"
+saida["resumo"] = f"{tot} manchetes de {com} de {len(saida['portais'])} portais nas últimas {horas} horas; temas: " + ", ".join(f"{k} {len(v)}" for k, v in saida["temas"].items())
 print(json.dumps(saida, ensure_ascii=False, indent=1))
 print(saida["resumo"], file=sys.stderr)

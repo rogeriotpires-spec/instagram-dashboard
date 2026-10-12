@@ -28,7 +28,7 @@
    "key": "peso_voce",
    "label": "Peso para você",
    "weight": 7,
-   "how": "Aderência à linha do @rogerrio e ao que rende no perfil (STF, corrupção, economia no bolso, eleição, segurança, Rio, imprensa): forte = 10; média = 6; fraca = 3."
+   "how": "Aderência à linha do @rogerrio e ao que rende no perfil (STF, corrupção, economia no bolso, eleição, segurança, Rio, imprensa, educação e inovação, que são áreas em que ele atua): forte = 10; média = 6; fraca = 3."
   }
  ],
  "score_formula": "nota final = soma(nota do critério x peso) / soma dos pesos, de 0 a 10",
@@ -43,28 +43,52 @@
  "segments": [
   {
    "key": "politica",
-   "label": "Política nacional"
+   "label": "Política nacional",
+   "min_items": 1
   },
   {
    "key": "economia",
-   "label": "Economia"
+   "label": "Economia",
+   "min_items": 1
   },
   {
    "key": "internacional",
    "label": "Internacional",
-   "note": "Política e economia internacional"
+   "note": "Política e economia internacional",
+   "min_items": 1
   },
   {
    "key": "seguranca",
-   "label": "Segurança pública"
+   "label": "Segurança pública",
+   "min_items": 1
   },
   {
    "key": "educacao",
-   "label": "Educação"
+   "label": "Educação",
+   "note": "Educação básica, técnica e superior: MEC, Enem, Fies, Prouni, universidades e institutos federais, UERJ, UENF, FAETEC, CECIERJ/CEDERJ, redes estaduais e municipais, professores, greves, resultados de avaliações (Saeb, Ideb, Pisa)",
+   "min_items": 2,
+   "min_outlets": 1
   },
   {
    "key": "rio",
-   "label": "Rio de Janeiro"
+   "label": "Rio de Janeiro",
+   "note": "Estado e cidade do Rio de Janeiro: governo do estado, Alerj, Prefeitura do Rio, Câmara do Rio, segurança no RJ, transporte, economia fluminense, Baixada, Niterói, interior",
+   "min_items": 3,
+   "min_outlets": 1
+  },
+  {
+   "key": "ciencia",
+   "label": "Ciência e tecnologia",
+   "note": "Ciência, pesquisa, inovação, startups, inteligência artificial, big techs e regulação digital, saúde e medicina, espaço, CNPq, Capes, Finep, FAPERJ",
+   "min_items": 2,
+   "min_outlets": 1
+  },
+  {
+   "key": "esportes",
+   "label": "Esportes",
+   "note": "Futebol (clubes do Rio em destaque: Flamengo, Fluminense, Vasco, Botafogo), Seleção, outros esportes e a política do esporte (CBF, bets, estádios)",
+   "min_items": 2,
+   "min_outlets": 1
   }
  ],
  "outlets": [
@@ -425,5 +449,6 @@
    "tier": 3
   }
  ],
- "_doc_tiers": "tier 1: abrir a home em toda edição; tier 2: abrir a home ou buscar por site em toda edição; tier 3 (regionais e agregadores): buscar por site (WebSearch site:dominio) os fatos do dia e abrir só quando houver matéria relevante, sobretudo fatos do estado do veículo."
+ "_doc_tiers": "tier 1: abrir a home em toda edição; tier 2: abrir a home ou buscar por site em toda edição; tier 3 (regionais e agregadores): buscar por site (WebSearch site:dominio) os fatos do dia e abrir só quando houver matéria relevante, sobretudo fatos do estado do veículo.",
+ "_doc_segments": "Cada bloco tem min_items: a edição precisa ter pelo menos essa quantidade de notícias no bloco quando houver fato no período, mesmo que a nota seja menor que a de outros blocos. min_outlets do bloco substitui o mínimo geral de portais."
 }
