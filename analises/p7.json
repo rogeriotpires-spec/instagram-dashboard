@@ -1,113 +1,65 @@
 {
-  "generated": "2026-10-12T05:55:04-03:00",
+  "generated": "2026-10-13T05:05:50-03:00",
   "dias": 7,
-  "period": {
-    "start": "2026-10-05",
-    "end": "2026-10-11"
-  },
-  "compare": "2026-09-28 a 2026-10-04",
-  "headline": "Semana com 6,1 mi de views (+99%) e 3.746 novos seguidores (+91%), concentrados em 3 imagens de opinião.",
+  "period": {"start": "2026-10-06", "end": "2026-10-12"},
+  "compare": "2026-09-29 a 2026-10-05",
+  "headline": "Nos 7 dias até 12/10 a conta teve 3,7 mi de views (−32%), e uma única imagem, publicada no domingo às 6h30, somou 623.344 views e 544 novos seguidores.",
   "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "6,1 mi",
-      "delta": "+99%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "3.746",
-      "delta": "+91%",
-      "dir": "up"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "124",
-      "delta": "+19%",
-      "dir": "down"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "138 mil",
-      "delta": "+86%",
-      "dir": "up"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "9.675",
-      "delta": "+402%",
-      "dir": "up"
-    },
-    {
-      "label": "Salvamentos",
-      "value": "16,1 mil",
-      "delta": "+263%",
-      "dir": "up"
-    }
+    {"label": "Views recebidas pela conta", "value": "3,7 mi", "delta": "−32%", "dir": "down"},
+    {"label": "Novos seguidores (6 de 7 dias)", "value": "2.162", "delta": "−40%", "dir": "down"},
+    {"label": "Deixaram de seguir (6 de 7 dias)", "value": "124", "delta": "+10%", "dir": "down"},
+    {"label": "Compartilhamentos recebidos", "value": "67 mil", "delta": "−55%", "dir": "down"},
+    {"label": "Comentários recebidos", "value": "4.020", "delta": "−48%", "dir": "down"},
+    {"label": "Alcance médio por dia", "value": "242 mil", "delta": "−22%", "dir": "down"}
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "\"Avalanche Bolsonarista!\" (5/10, 7h) teve 614.099 views, 9.876 compartilhamentos e 466 novos seguidores. \"Como dizia o TAXAD, quem foge do debate é bundão?\" (11/10, 6h30) teve 421.875 views e 219 seguidores. As duas são imagens de opinião publicadas de manhã cedo.",
+      "diagnosis": "\"Como dizia o TAXAD, quem foge do debate é bundão?\" (dom, 6h30) teve 623.344 views, 13.104 compartilhamentos, 1.087 salvamentos, 120 comentários e 544 novos seguidores em 46 horas. Depois vieram \"O Rio pode ter governador eleito hoje\" (qua, 7h, 89.973 views, 27 seguidores) e \"VIRADA HISTÓRICA NO RIO!\" (qui, 12h33, 69.527 views, 259 compartilhamentos). As 12 imagens tiveram mediana de 9,8 mil views, contra 2.152 dos 6 Reels.",
       "actions": [
-        "Mantenha uma imagem de opinião forte entre 6h30 e 7h.",
-        "Deixe um modelo de imagem pronto para reagir rápido ao assunto do dia.",
-        "Feche as imagens fortes com chamada para seguir."
+        "Guarde o horário das 6h30 às 7h para a imagem mais forte do dia.",
+        "Use título em forma de pergunta, como no post de domingo.",
+        "Aproveite temas de eleição e resultado enquanto o assunto está quente."
       ],
-      "posts": [
-        "DeGlubltKVX",
-        "DeVAkiqtPwL"
-      ]
+      "posts": ["DeVAkiqtPwL", "DeL6bqctDFk", "DePQzA4NYLR"]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Evitar",
-      "diagnosis": "Os 5 Reels tiveram mediana de 1.406 views, contra 37.072 das 9 imagens. Os mais fracos foram \"Pense num amor inimaginável.\" (1.171 views, 54% de pulo), \"Sabe se isso é IA?\" (1.246 views, 48% de pulo) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (1.406 views, 79,5 segundos). Os 2 carrosséis ficaram em 3.471,5 de mediana. Os posts mais novos ainda acumulam views.",
+      "diagnosis": "Os 3 posts com menos views foram Reels de Política: \"Pense num amor inimaginável\" (sáb, 1.236 views), \"Sabe se isso é IA?\" (ter, 1.269) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (sex, 1.437). Os 2 carrosséis tiveram mediana de 3,5 mil views. Tema Política teve mediana de 2.152 views nos 6 posts, contra 5.683,5 de Opinião nos 14.",
       "actions": [
-        "Use a imagem como aposta principal do dia.",
-        "Corte Reels longos e abra com um gancho forte nos primeiros segundos.",
-        "Teste carrossel de novo só com um tema de alta procura."
+        "Reduza a frequência de Reels de Política que não tenham um fato novo no começo.",
+        "Use carrossel só quando o assunto precisar de várias telas.",
+        "Compare Reels só depois de 3 dias, porque os mais novos ainda acumulam."
       ],
-      "posts": [
-        "DeUk6JyNW9Y",
-        "DeKCMhiNIxP",
-        "DeRrXNgtZMa"
-      ]
+      "posts": ["DeUk6JyNW9Y", "DeKCMhiNIxP", "DeRrXNgtZMa"]
     },
     {
-      "title": "Comentários",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Os comentários foram de 1.928 para 9.675 (+402%). \"Avalanche Bolsonarista!\" teve 214, \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 92 e \"O Rio pode ter governador eleito hoje, sem segundo turno.\" teve 82. O período anterior foi menor, e a semana teve eleição, então a alta pode não se repetir.",
+      "title": "Retenção dos Reels",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "Os 3 Reels de menos views tiveram pulo de 53%, 48% e 50% e foram assistidos em média por 10, 8 e 17 segundos. Dois deles tinham 39,4s e 79,5s. O Reel \"Inacreditável!\" (dom, 19h, 70,1s) teve pulo de 29%, tempo médio de 29 segundos, 3.980 compartilhamentos e 58.323 views em 9,9 horas.",
       "actions": [
-        "Mantenha pelo menos um post por dia com pergunta fechada.",
-        "Responda os primeiros comentários na primeira hora.",
-        "Use enquete nos Stories para manter a conversa quando o tema esfriar."
+        "Comece o Reel pelo fato ou pela frase mais forte, sem introdução.",
+        "Veja o que o Reel \"Inacreditável!\" fez nos primeiros segundos e repita a estrutura.",
+        "Acompanhe nos próximos dias se as views do Reel continuam subindo."
       ],
-      "posts": [
-        "DeGlubltKVX",
-        "DeVAkiqtPwL",
-        "DeL6bqctDFk"
-      ]
+      "posts": ["DeaQZPRNABT", "DeKCMhiNIxP", "DeRrXNgtZMa"]
     },
     {
-      "title": "Seguidores",
-      "status": "good",
-      "status_label": "No caminho",
-      "diagnosis": "Entraram 3.746 seguidores e saíram 124 (dados de 6 dos 7 dias). Os que saíram subiram 19%, menos que os que entraram (+91%). \"Avalanche Bolsonarista!\" teve 466 novos seguidores, o TAXAD teve 219 e \"O Rio pode ter governador eleito hoje, sem segundo turno.\" teve 27.",
+      "title": "Seguidores e comentários",
+      "status": "warn",
+      "status_label": "Depende de picos",
+      "diagnosis": "A conta ganhou 2.162 seguidores (−40%, 6 dias com dado) e 124 deixaram de seguir (+10%). Só o post de domingo trouxe 544 dos novos seguidores. \"50 MIL!\" (sáb, 20h22) teve 43 comentários e 21 seguidores com 6.615 views. O comparativo inclui a semana do 1º turno, que teve o Reel de 646.033 views de 4/10.",
       "actions": [
-        "Fixe no perfil um post de apresentação para quem chega.",
-        "Repita imagens de opinião que fecham com pergunta.",
-        "Acompanhe a perda de seguidores nos próximos dias."
+        "Use os 50 mil seguidores como gancho: fixe no perfil um post que explique o que a pessoa ganha seguindo.",
+        "Responda os comentários das imagens da manhã na primeira hora.",
+        "Repita o formato de pergunta direta do \"50 MIL!\" para gerar conversa."
       ],
-      "posts": [
-        "DeGlubltKVX",
-        "DeVAkiqtPwL",
-        "DeL6bqctDFk"
-      ]
+      "posts": ["DeVQClAsvVV", "DeVAkiqtPwL", "DeL6bqctDFk"]
     }
   ]
 }

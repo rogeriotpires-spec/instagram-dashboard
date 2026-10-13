@@ -1,109 +1,65 @@
 {
-  "generated": "2026-10-12T05:55:04-03:00",
+  "generated": "2026-10-13T05:05:50-03:00",
   "dias": 90,
-  "period": {
-    "start": "2026-07-14",
-    "end": "2026-10-11"
-  },
-  "compare": "2026-04-15 a 2026-07-13",
-  "headline": "Em 90 dias a conta recebeu 33,9 mi de views, com imagens de opinião no topo e Reels de política com mediana de 7.872 views.",
+  "period": {"start": "2026-07-15", "end": "2026-10-12"},
+  "compare": "2026-04-16 a 2026-07-14",
+  "headline": "Em 90 dias a conta teve 34,4 mi de views, e as 50 imagens somaram 10,4 mi enquanto os 114 Reels somaram 4,7 mi, com mediana de 33.913,5 views contra 7.977.",
   "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "33,9 mi",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "13.256",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "506",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "389 mil",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "23.307",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Salvamentos",
-      "value": "37.363",
-      "delta": "sem comparação",
-      "dir": "na"
-    }
+    {"label": "Views recebidas pela conta", "value": "34,4 mi", "delta": "sem comparação", "dir": "na"},
+    {"label": "Novos seguidores (35 de 90 dias)", "value": "13.634", "delta": "sem comparação", "dir": "na"},
+    {"label": "Deixaram de seguir (35 de 90 dias)", "value": "530", "delta": "sem comparação", "dir": "na"},
+    {"label": "Compartilhamentos recebidos (36 de 90 dias)", "value": "402 mil", "delta": "sem comparação", "dir": "na"},
+    {"label": "Comentários recebidos (36 de 90 dias)", "value": "23.909", "delta": "sem comparação", "dir": "na"},
+    {"label": "Alcance médio por dia", "value": "128 mil", "delta": "sem comparação", "dir": "na"}
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As 46 imagens tiveram mediana de 45.350,5 views e somaram 6.189 novos seguidores. Os maiores resultados foram \"Bem vindo a este manicômio chamado Brasil!\" (1.489.565 views) e \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.441.389 views, 42.761 compartilhamentos e 1.409 seguidores, o maior número do período). Dados de seguidores cobrem 34 dos 90 dias.",
+      "diagnosis": "As maiores imagens do período foram \"Bem vindo a este manicômio chamado Brasil!\" (1.489.569 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.441.935 views, 42.769 compartilhamentos e 1.409 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (955.077). As 50 imagens tiveram mediana de 33.913,5 views e 245,5 compartilhamentos, e trouxeram 6.581 seguidores.",
       "actions": [
-        "Mantenha imagens de opinião como principal formato do dia.",
-        "Use imagens que falam sozinhas, com pouco texto.",
-        "Feche as imagens fortes com chamada para seguir."
+        "Mantenha a imagem de Opinião com frase forte como peça principal do dia.",
+        "Estude as 3 maiores imagens para repetir a estrutura do título.",
+        "Reserve espaço semanal para imagens com tema que gere compartilhamento."
       ],
-      "posts": [
-        "DcGTcGzN_5i",
-        "DbWUq-ltrx8"
-      ]
+      "posts": ["DcGTcGzN_5i", "DbWUq-ltrx8", "Dd08gl4tibs"]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Evitar",
-      "diagnosis": "Os 113 Reels tiveram mediana de 7.872 views e os temas de política (92 posts) ficaram em 8.301,5. Os piores foram Reels longos de política: \"Quase 18 anos no poder\" (473 views, 102,4 segundos), \"O STF virou um manicômio institucional\" (535 views) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551 views).",
+      "diagnosis": "Os Reels de Política de menos views tiveram entre 473 e 551 views e pulo de 37% a 43%: \"Quase 18 anos no poder\" (473), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). Os 114 Reels tiveram mediana de 7.977 views, e Política teve mediana de 8.521 nos 93 posts.",
       "actions": [
-        "Reduza Reels de política com mais de 60 segundos.",
-        "Reserve o Reel para reação rápida a fato do dia.",
-        "Transforme o tema de política em imagem de opinião."
+        "Corte a frequência de Reels de Política que repetem o assunto do dia.",
+        "Publique Reels só com fato novo nos primeiros segundos.",
+        "Use a imagem para os temas de Política que merecem alcance maior."
       ],
-      "posts": [
-        "Db73S3ZBiej",
-        "Dc3EY5cNint",
-        "Dcvng7kNnHA"
-      ]
+      "posts": ["Db73S3ZBiej", "Dc3EY5cNint", "Dcvng7kNnHA"]
     },
     {
       "title": "Temas",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Entrevista teve mediana de 88.362 views (5 posts) e Opinião teve 32.196,5 (46 posts). Bastidores e pessoal (11 posts) ficou em 5.291 e Eventos e discursos (6 posts) em 2.687. Os temas com poucos posts dão só um sinal.",
+      "diagnosis": "Entrevista teve a maior mediana de views (88.362 em 5 posts), seguida de Opinião (15.137 em 50). Política, com 93 posts, ficou em 8.521. Bastidores e pessoal teve 5.292 em 11 posts e Eventos e discursos 2.687 em 6.",
       "actions": [
-        "Faça mais entrevistas e compare com as anteriores.",
-        "Reduza eventos e discursos.",
-        "Teste bastidores em imagem em vez de Reel."
+        "Aumente o número de entrevistas, hoje só 5 em 90 dias.",
+        "Diminua posts de eventos e discursos.",
+        "Teste bastidores em formato de imagem, para comparar com os Reels."
       ],
-      "posts": []
+      "posts": ["DcGTcGzN_5i", "DbWUq-ltrx8"]
     },
     {
       "title": "Comentários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "O Reel \"Essa pesquisa parece ótima pra um lado…\" teve 743 comentários, 7.663 compartilhamentos e 82.742 views, com 197,6 segundos e 33% de pulo. Em seguida vieram duas imagens com pergunta: \"Qual número você escolheria?\" (488) e \"Responda nos comentários, só um nome!\" (355). Dados de comentários cobrem 35 dos 90 dias.",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O Reel \"Essa pesquisa parece ótima pra um lado…\" (16/7, 197,6s) teve 743 comentários, 7.663 compartilhamentos e 82.743 views, com pulo de 33%. \"Qual número você escolheria?\" teve 488 comentários e \"Responda nos comentários, só um nome!\" teve 355. Os dados de comentários cobrem 36 dos 90 dias.",
       "actions": [
-        "Teste de novo um Reel mais longo quando o tema pedir explicação.",
-        "Mantenha uma pergunta fechada por semana.",
-        "Responda os primeiros comentários na primeira hora."
+        "Faça posts de escolha ou de um nome, que geram resposta rápida.",
+        "Teste de novo um Reel longo sobre pesquisa ou tema de debate.",
+        "Responda os comentários mais curtos na primeira hora."
       ],
-      "posts": [
-        "Da38CFtMZuP",
-        "DdumKq_tAX_",
-        "DcfJMHasopg"
-      ]
+      "posts": ["Da38CFtMZuP", "DdumKq_tAX_", "DcfJMHasopg"]
     }
   ]
 }

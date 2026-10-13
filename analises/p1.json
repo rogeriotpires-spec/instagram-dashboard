@@ -1,107 +1,64 @@
 {
-  "generated": "2026-10-12T05:55:04-03:00",
+  "generated": "2026-10-13T05:05:50-03:00",
   "dias": 1,
-  "period": {
-    "start": "2026-10-11",
-    "end": "2026-10-11"
-  },
+  "period": {"start": "2026-10-12", "end": "2026-10-12"},
   "compare": "média dos 7 dias anteriores",
-  "headline": "Dia com 694 mil views (−22% contra a média dos 7 dias anteriores) e só 2 publicações: uma imagem de 422 mil views concentrou o resultado.",
+  "headline": "Segunda (12/10) fechou com 537 mil views (−38% contra a média da semana anterior), e um único Reel, \"Inacreditável!\", respondeu por 58.323 views, contra 9.956 somadas pelas 4 imagens.",
   "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "694 mil",
-      "delta": "−22%",
-      "dir": "down"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "12,2 mil",
-      "delta": "−43%",
-      "dir": "down"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "1.181",
-      "delta": "−8%",
-      "dir": "down"
-    },
-    {
-      "label": "Salvamentos",
-      "value": "1.387",
-      "delta": "−40%",
-      "dir": "down"
-    }
+    {"label": "Views recebidas pela conta", "value": "537 mil", "delta": "−38%", "dir": "down"},
+    {"label": "Novos seguidores", "value": "sem dado", "delta": "sem comparação", "dir": "na"},
+    {"label": "Deixaram de seguir", "value": "sem dado", "delta": "sem comparação", "dir": "na"},
+    {"label": "Compartilhamentos recebidos", "value": "13.160", "delta": "−33%", "dir": "down"},
+    {"label": "Comentários recebidos", "value": "603", "delta": "−56%", "dir": "down"},
+    {"label": "Alcance médio por dia", "value": "275 mil", "delta": "−7%", "dir": "down"}
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "A imagem \"Como dizia o TAXAD, quem foge do debate é bundão?\" (6h30) teve 421.875 views, 7.818 compartilhamentos, 672 salvamentos e 219 novos seguidores. Ela sozinha respondeu por quase todas as views dos posts do dia.",
+      "diagnosis": "O Reel \"Inacreditável!\" (19h, 70s) teve 58.323 views em 9,9 horas, com 3.980 compartilhamentos, 392 salvamentos e 74 comentários. A mediana das 4 imagens do dia foi 2.358 views. O Reel teve 29% de pulo, contra 48% a 53% nos 3 Reels de menos views da semana.",
       "actions": [
-        "Repita a imagem de opinião de manhã cedo quando houver um assunto em debate.",
-        "Mantenha a chamada direta no título, que gerou compartilhamento e seguidores.",
-        "Feche a imagem com um convite para seguir, já que ela teve 219 novos seguidores."
+        "Acompanhe o Reel nos próximos dias: ele tem menos de 10 horas e ainda acumula views.",
+        "Repita o tema e o tom do Reel das 19h em outro vídeo desta semana.",
+        "Guarde a noite para o Reel mais forte do dia."
       ],
-      "posts": [
-        "DeVAkiqtPwL"
-      ]
+      "posts": ["DeaQZPRNABT"]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "O Reel \"O Lula conseguiu!\" (21h47) tinha 2.090 views e 9 compartilhamentos, com 34% de pulo e 27,5 segundos. Ele tem só 7,1 horas de vida, então ainda acumula views, mas o ritmo inicial ficou muito abaixo da imagem do dia.",
+      "diagnosis": "Nenhuma das 4 imagens passou de 3.629 views. A pior foi a do Fla-Flu (22h28), com 1.611 views e 3 compartilhamentos, mas tinha só 6,5 horas e ainda acumula. \"Onde andarão os artistas mamadores da Rouanet?\" (14h19) ficou em 2.049 views.",
       "actions": [
-        "Reveja o gancho dos primeiros segundos nos Reels de política.",
-        "Confira o número do Reel de novo amanhã antes de tirar conclusão.",
-        "Prefira publicar o Reel em horário de maior movimento, não à noite."
+        "Reveja as imagens de tarde e de noite: as 3 imagens publicadas depois das 13h ficaram entre 1.611 e 3.629 views.",
+        "Compare essas imagens amanhã, com mais tempo de acúmulo, antes de tirar conclusão."
       ],
-      "posts": [
-        "DeX-jQRMQ3y"
-      ]
-    },
-    {
-      "title": "Comparação com a semana",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Views, compartilhamentos e salvamentos ficaram abaixo da média dos 7 dias anteriores (−22%, −43% e −40%), e as contas com interação por dia caíram 30%. O alcance médio por dia subiu 11%, ou seja, mais gente foi alcançada, mas interagiu menos.",
-      "actions": [
-        "Publique mais de 2 posts no dia para não depender de uma única imagem.",
-        "Use perguntas diretas no texto para recuperar comentários e salvamentos.",
-        "Compare com a média da semana, que teve picos de eleição, antes de tirar conclusão."
-      ],
-      "posts": [
-        "DeVAkiqtPwL"
-      ]
+      "posts": ["DeaoJazsyMz", "DeZwJj9NW39"]
     },
     {
       "title": "Comentários",
       "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Foram 1.181 comentários no dia, 8% abaixo da média dos 7 dias anteriores. A imagem teve 92 e o Reel teve 18. O Reel teve mais comentários em proporção às views do que a imagem.",
+      "status_label": "Ajustar",
+      "diagnosis": "O dia teve 603 comentários, −56% contra a média da semana anterior. O Reel \"Inacreditável!\" teve 74, \"PRIMEIRO DERRUBARAM.\" (7h38) teve 31 e \"Onde andarão os artistas mamadores da Rouanet?\" teve 12. As outras 2 imagens tiveram 3 e 4 comentários.",
       "actions": [
-        "Termine cada post com uma pergunta fechada (\"concorda ou discorda?\").",
-        "Responda os primeiros comentários na primeira hora.",
-        "Teste uma pergunta no Reel da noite."
+        "Termine as imagens com uma pergunta direta para o leitor responder.",
+        "Responda os comentários da imagem das 7h38 na primeira hora do dia seguinte.",
+        "Use o Reel da noite para pedir opinião nos comentários."
       ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DeX-jQRMQ3y"
-      ]
+      "posts": ["DeaQZPRNABT", "DeZCHj7NArJ", "DeZwJj9NW39"]
+    },
+    {
+      "title": "Horários do dia",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Foram 5 publicações em 5 horários diferentes: 7h38 (2.667 views), 13h (3.629), 14h (2.049), 19h (58.323) e 22h (1.611). Cada horário tem um post só, então o dado mostra o que aconteceu no dia, não um padrão. Os posts de 22h e 19h têm menos de 10 horas.",
+      "actions": [
+        "Teste uma imagem às 6h30 amanhã e compare com a das 7h38 de hoje.",
+        "Evite concentrar 3 imagens entre 7h38 e 14h19, como hoje.",
+        "Mantenha o Reel da noite e observe se o 19h se repete."
+      ],
+      "posts": ["DeZCHj7NArJ", "DeZF__ftFXx", "DeaQZPRNABT"]
     }
   ]
 }
