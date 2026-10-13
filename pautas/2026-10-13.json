@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-13",
+  "weekday": "Ter",
+  "generated": "2026-10-12T21:35:01-03:00",
+  "summary": "Terça de eleição e de Senado: Moraes liberou as visitas de Flávio a Bolsonaro com veto a política, a defesa de Flávio acionou a Justiça Eleitoral contra o diretor da PF e o PL marcou o Bloquinho 22 na Paulista para o dia 18, enquanto a PEC da 6x1 vai ao Senado na quarta e o caso do canal Exército do Lula segue no plenário do TSE.",
+  "agenda": [
+    {
+      "time": "13/10",
+      "text": "Papa Leão XIV é internado no Gemelli para retirar nódulo no pulmão, segundo o noticiário da segunda.",
+      "source": {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/papa-leao-xiv-fara-cirurgia-para-retirar-nodulo-no-pulmao"
+      }
+    },
+    {
+      "time": "A definir",
+      "text": "Plenário do TSE deve julgar com preferência o caso do canal Exército do Lula.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/corregedor-do-tse-libera-canal-exercito-do-lula-de-janones/"
+      }
+    },
+    {
+      "time": "14/10",
+      "text": "Senado vota em 1º turno a PEC 221/2019, do fim da escala 6x1.",
+      "source": {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-marca-votacao-da-pec-pelo-fim-da-6x1-para-quarta-feira"
+      }
+    },
+    {
+      "time": "15/10",
+      "text": "Receita Federal inicia os testes do split payment, sem transações reais.",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-fim-split-payment-reforma-tributaria/"
+      }
+    },
+    {
+      "time": "18/10 11h",
+      "text": "Bloquinho 22 na Avenida Paulista, convocado pelo PL e por Nikolas Ferreira. Ato em BH às 16h.",
+      "source": {
+        "name": "Jovem Pan",
+        "url": "https://jovempan.com.br/politica/bloquinho-22-pl-e-nikolas-ferreira-agendam-manifestacao-na-paulista-para-dia-18/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem com pergunta provocativa",
+      "options": [
+        {
+          "title": "A caneta que fechou a porta voltou a abri-la",
+          "tone": "sóbrio, com ironia leve",
+          "style": "ilustracao",
+          "desdobramento": "Moraes autorizou em 12/10 a volta das visitas de Flávio a Bolsonaro, com veto a manifestações políticas",
+          "fact": "Em 12/10, Alexandre de Moraes autorizou o senador Flávio Bolsonaro (PL-RJ) a voltar a visitar o pai, Jair Bolsonaro, em prisão domiciliar. A proibição durava 90 dias, desde 13/07, quando Flávio divulgou nas redes uma carta escrita pelo pai; Moraes tratou isso como desvio de finalidade. Agora as visitas voltam nos mesmos horários e condições, mas ficam proibidas visitas com fins político-eleitorais, a divulgação de manifestos ou declarações políticas (inclusive por terceiros) e a publicidade das visitas nas redes. Moraes registrou que não houve fato novo que justificasse prorrogar a proibição, como a PGR já havia opinado. A decisão sai a 13 dias do segundo turno.",
+          "sources": [
+            {
+              "name": "O Tempo",
+              "url": "https://www.otempo.com.br/politica/judiciario/2026/10/12/moraes-autoriza-que-flavio-volte-a-visitar-o-pai-jair-bolsonaro-em-prisao-domiciliar"
+            },
+            {
+              "name": "Notícia Max",
+              "url": "https://www.noticiamax.com.br/brasil/moraes-libera-visitas-de-flavio-a-bolsonaro-mas-proibe-manifestacoes-politicas/198362"
+            }
+          ],
+          "art_text": [
+            "Filho pode visitar o pai.",
+            "Mas não pode falar de política.",
+            "A 13 dias do 2º turno",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Alexandre de Moraes (ministro do STF) e Flávio Bolsonaro (senador, candidato do PL), ambos com relação direta com a decisão. Ilustração estilo charge, sem foto real. Jair Bolsonaro não aparece. Risco médio: Moraes só segura a caneta e Flávio aparece parado diante de uma porta, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura e a fachada estilizada do STF. No centro, uma porta pesada de madeira entreaberta, uma mão de toga segurando uma caneta grande sobre um documento; ao lado da porta, Flávio Bolsonaro (senador, terno escuro, cabelo curto) de pé, com expressão contida e olhar atento, e ao fundo Alexandre de Moraes (ministro do STF, toga preta, careca, óculos), de braços cruzados, olhar firme. No alto, em letras condensadas, brancas e muito pesadas: \"Filho pode visitar o pai.\". Logo abaixo, em amarelo, letras grandes: \"Mas não pode falar de política.\". Em um quadro vermelho no canto: \"A 13 dias do 2º turno\". Embaixo, sublinhado vermelho pincelado. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Flávio pode voltar a ver o pai, mas sem declarações políticas, sem manifestos e sem divulgar as visitas, e a 13 dias do segundo turno. Você acha a regra justa? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não diga que Moraes persegue nem que Flávio descumpriu algo novo. O motivo da suspensão original foi a divulgação de uma carta em julho, segundo a decisão. Confirme se não houve nova decisão antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "As regras das visitas a Bolsonaro, o que Moraes entendeu como desvio de finalidade e como a decisão se encaixa na reta final do segundo turno."
+          }
+        },
+        {
+          "title": "45 tiros, uma câmera e uma pergunta",
+          "tone": "sóbrio, com cobrança",
+          "style": "realista",
+          "fact": "Gustavo Munis de Santana, de 20 anos, foi morto em Moema, zona sul de São Paulo, na madrugada de 11/10. Os PMs foram chamados às 2h35 para uma tentativa de suicídio; não há registro de que ele estivesse armado. Segundo os agentes, ele estendeu os braços segurando um objeto escuro, que era um celular. O boletim de ocorrência registra 45 disparos dos policiais, oito PMs participaram da abordagem e um deles atirou 14 vezes. Pelo menos quatro foram afastados do serviço operacional, a SSP abriu inquérito policial militar e as câmeras corporais, as armas e o celular foram recolhidos. O DHPP registrou o caso como resistência seguida de homicídio decorrente de intervenção policial. A manchete da imprensa fala em 27 tiros no corpo.",
+          "sources": [
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/sao-paulo/policiais-militares-sao-afastados-apos-matar-jovem-com-27-tiros-em-sp"
+            },
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/brasil/quem-era-gustavo-munis-jovem-morto-com-27-tiros-disparados-por-4-pms-em-sp/"
+            }
+          ],
+          "art_text": [
+            "45 tiros. Um celular na mão.",
+            "As câmeras vão mostrar tudo?",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Viatura da PM à noite sob luz azul e vermelha, ponte de pedestres vazia e, em primeiro plano, uma câmera corporal sobre uma mesa. Não use foto da vítima nem dos policiais.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, madrugada urbana, granulação leve. Em primeiro plano, uma câmera corporal preta de policial sobre uma mesa metálica, com luz de flash dura; ao fundo desfocado, uma viatura com giroflex azul e vermelho ao lado de uma passarela de pedestres vazia, sem pessoas e sem inscrições legíveis. Clima sério e frio. No terço superior, faixa escura semitransparente com texto em branco, letras grandes e pesadas: \"45 tiros. Um celular na mão.\". No terço inferior, em amarelo: \"As câmeras vão mostrar tudo?\". No canto inferior direito, discreto, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Segundo o boletim de ocorrência, os PMs deram 45 tiros em um jovem que segurava um celular, em um chamado por tentativa de suicídio. A polícia que protege precisa ser cobrada quando erra. As câmeras corporais devem ficar sempre ligadas? Sim ou não?",
+          "risk": "alto",
+          "risk_note": "Caso em apuração: não afirme crime nem culpa dos policiais, atribua tudo ao boletim de ocorrência. Os números diferem (27 tiros que atingiram o jovem, segundo a manchete, e 45 disparos, segundo o BO): use 45 disparos só com a atribuição ao BO. Respeite a família e não use foto da vítima. Evite generalizar a corporação.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Caso local ainda no começo da apuração, sem fatos suficientes para artigo de 600 a 1.200 palavras."
+          }
+        }
+      ]
+    },
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de até 30s reagindo ao fato do dia",
+      "options": [
+        {
+          "title": "Quem investiga o investigador da PF?",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "desdobramento": "Defesa de Flávio apresentou notícia-crime à Justiça Eleitoral contra o diretor-geral da PF em 11/10",
+          "fact": "Em 11/10, a defesa de Flávio Bolsonaro apresentou uma notícia-crime à Justiça Eleitoral contra o diretor-geral da PF, Andrei Rodrigues. A acusação é de que ele usou a estrutura da PF em benefício do PT ao divulgar, no dia do primeiro turno, a abertura de uma apuração sobre possível influência dos EUA nas eleições. Na coletiva de 4/10, Andrei disse que a PF recebeu uma representação da AGU e havia apuração preliminar, sem inquérito formal. A defesa pede depoimento dele e documentos da AGU, da PF e da PGR. Segundo a reportagem, a PF arquivou a apuração preliminar três dias depois, por falta de elementos mínimos. O presidente do TSE, Nunes Marques, disse que não havia indícios concretos de interferência internacional. Cabe à Justiça Eleitoral decidir se abre investigação.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-pede-investigacao-contra-diretor-da-pf-por-interferencia-eleitoral/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/flavio-aciona-justica-eleitoral-contra-diretor-geral-da-pf"
+            }
+          ],
+          "hooks": [
+            "No dia da eleição, a PF falou de interferência. Três dias depois, arquivou.",
+            "A PF abriu uma apuração no dia da urna e a fechou em três dias."
+          ],
+          "script": "No dia do primeiro turno, o diretor da PF disse que havia uma apuração sobre possível interferência dos Estados Unidos na eleição. Três dias depois, a PF arquivou: faltavam elementos mínimos para abrir um inquérito. Agora a defesa do Flávio pediu à Justiça Eleitoral que investigue se a estrutura da PF foi usada em favor do PT. É uma acusação da defesa, e quem decide é a Justiça. Mas a pergunta fica: por que anunciar uma apuração no dia da votação? Você acha que o diretor da PF deve explicar isso? Responde sim ou não.",
+          "screen_text": [
+            "Dia 4/10: PF fala em apuração",
+            "3 dias depois: arquivada",
+            "Defesa de Flávio pede investigação",
+            "Por que no dia da urna?"
+          ],
+          "caption": "A PF anunciou uma apuração no dia da eleição e arquivou três dias depois. O diretor da PF deveria explicar? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "É pedido da defesa de Flávio, não decisão judicial: atribua sempre a ele. Não afirme que Andrei agiu a favor do PT. A resposta da PF à notícia-crime não consta nas reportagens abertas; confira antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Os limites da atuação da PF em período eleitoral: o que a lei diz sobre divulgar apurações no dia da votação e o que a Justiça Eleitoral pode fazer com a notícia-crime."
+          }
+        },
+        {
+          "title": "Eles responderam com a rua. Agora é a nossa vez",
+          "tone": "mobilizador, sóbrio",
+          "duration": "20 a 30s",
+          "fact": "Depois do ato de Lula na Avenida Paulista, em 11/10, o PL e o deputado Nikolas Ferreira divulgaram o calendário de atos de apoio a Flávio Bolsonaro. O principal é o \"Bloquinho 22\", na Paulista, no domingo 18/10, às 11h. No mesmo dia há ato em Belo Horizonte, às 16h, e manifestações em outras cidades estão previstas para 24/10, véspera do segundo turno. O Poder360 informa que Flávio e Nikolas convocam atos em ao menos 14 cidades. A PM relatou depredação, tumulto e pichações na dispersão do ato pró-Lula.",
+          "sources": [
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/politica/bloquinho-22-pl-e-nikolas-ferreira-agendam-manifestacao-na-paulista-para-dia-18/"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-nikolas-convocam-atos-para-a-reta-final-em-ao-menos-14-cidades/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/sao-paulo/apos-ato-pro-lula-flavio-e-nikolas-confirmam-bloquinho-na-av-paulista"
+            }
+          ],
+          "hooks": [
+            "Dia 18, 11h, Avenida Paulista. Anota aí.",
+            "A Paulista foi do Lula no domingo. No dia 18 tem outra convocação."
+          ],
+          "script": "Dia 18, domingo, onze da manhã, Avenida Paulista. É o Bloquinho 22, convocado pelo PL e pelo Nikolas Ferreira em apoio ao Flávio. No mesmo dia tem ato em Belo Horizonte, às quatro da tarde, e no dia 24, véspera da eleição, tem manifestações em outras cidades. Se você vai, vá em paz, leve a família e a bandeira do Brasil, sem confusão. Segundo a Polícia Militar, o ato do outro lado terminou em depredação, e a gente mostra a diferença com o exemplo. Manda esse vídeo para quem quer ir com você.",
+          "screen_text": [
+            "Domingo, 18/10, 11h",
+            "Avenida Paulista",
+            "Bloquinho 22",
+            "Vá em paz"
+          ],
+          "caption": "Domingo, 18/10, às 11h, na Paulista. Manda para quem vai com você.",
+          "risk": "médio",
+          "risk_note": "Convite a ato legal: reforce paz e ordem, sem provocar o outro lado. A depredação é relato da PM sobre o ato pró-Lula, atribua se citar. Confira horário e local no perfil de Nikolas antes de publicar.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Convocação de ato com data e local, sem fato novo que sustente um artigo de 600 a 1.200 palavras."
+          }
+        }
+      ]
+    }
+  ]
+}
