@@ -2,6 +2,229 @@
   "items": [
     {
       "requested": "2026-10-13",
+      "done": "2026-10-13T11:20:00-03:00",
+      "issue": 39,
+      "slot_hint": "Imagem hoje (13) às 12h e reel às 19h, se houver novidade da investigação.",
+      "source": {
+        "edition": "2026-10-13-06h",
+        "item_id": "bope-fogo-amigo",
+        "title": "Subtenente do Bope morre baleado por PMs após equipe ser confundida com criminosos; polícia apreende armas"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "realista",
+          "title": "Policial morto por policial: o Bope confundido com bandidos",
+          "tone": "grave, indignado com contenção",
+          "duration": "imagem única",
+          "fact": "Um subtenente do Bope morreu após troca de tiros com PMs que confundiram a equipe com criminosos, em Jacarepaguá, Rio de Janeiro, segundo a Agência Brasil e o Diário do Rio. A Polícia do Rio apreendeu armas. O iG informa que ele era irmão de PM morto em megaoperação. O Globo e o Extra registram que a ex-mulher lembrou a frase 'Se um dia eu morrer, quero estar fardado'. O Estadão diz que a família quer entender o ocorrido. As circunstâncias ainda são apuradas.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcThSZy1NbGxQaEdZYmpUSk1HQVN0WnlpWmxSWlJEX0EtMmI1TWRtb3NUU1RMTkM5d3B4bGd5Y0RETENmWnM5STNrODJpdXQ4U29BRnVnNXRsTGxJZGFoY2IwcUxzN0pjWVJHTXNxZWJMdzZsMGE1X3VnU3JlSHhUZUREa2hVd3d2X0c3VkxNb0JNa2E2N1lMWGZSZ2lmUENMTzA0X1lNcFpXVXpjNEFDa1EyR19wc21n?oc=5"
+            },
+            {
+              "name": "Diário do Rio",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLWs5X1ZIMnE5cG9ET1R1Y0FwNHJ5NzYwZ3BhaXZTUV93QlhvbXRjWmttYk1JS1JDbTM1RTdseWc1MHcyOTRXU0NyclQ0YzdTRmNZb1JrRThzTXpqeXBEd0EwYXZnZVJ6SFVZUmxrYlVUbGpNNjRSOHVVaWM3Unk0VXZMTGpSNWM4NklXaEl0WmJqdEpBcUs3T0JMbERzNDMwSC1SMjhnX1o0WVZrSFgtSEZxZzg0WWdfbGtIVldZeFYtWTNDeDRfV3N3?oc=5"
+            },
+            {
+              "name": "O Globo",
+              "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWkszcEdfX3VRSVpoSW9CbmpiLWJ3UUxFMHRtMUttMGRrYmMyZlJUV1c2ZDk4cVp4T01wTTVrQWFrWHdHNlBabFM4MUVIU25tSjJzd2habF9XdWJQalFaaWdTaWhyUUpSNWdNZVlwZVY1U0dGYnQ4Tk5kRXJHRkhsa3B1RDQ0NWpmdmJISGg2OGhRR0RLRVlWZW90dmttSGxBNHVqLW51SnBWSkZuamNpaWt4NXBwUkVWNllTYjJNUno3SEFTcEtYSEc3Yy1uZllIVmRoWjdtTjhRQ0oybUw5VTlaY1B2YWRBQktmS2dLUlVUdjjSAYICQVVfeXFMT2Y4NEJFRVJFdUtRSmxFdlBrck9LZmJPZTlwbzhUMXM1ZldSMWM5c2RnOFVVODZxUlQ0NW53RzM4MjhSQjhJM3I4M0lvTnBSZWs0V3hQQy1SS2c3MlhVTE0xR016NWpneXJYTmI4U0pRX1lHc0YxRkFQd0E0MkFiMDVyQ3lxbGs4dW42WmxSTmtjb2VSWmpBeWY5QU9Dci02MmtOcmJnbTdYcnhNVTJzczItTFd4bng3YVNoVXRpWC0zY1dIZmhWd0pRYXZkV1Flc3FiNENUUHhlR05hLWRDUTE2TTc5RzRjN1Y0aFo0bEtmVDRONjY1bGZicUtRQzlBb0JB?oc=5"
+            },
+            {
+              "name": "Extra",
+              "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnIxdHlQajBvUVdnRS1uZEgzbkE5UmV3c2ZoR1NyS2xuRUFWY1ZsS0lRMEZ3NjVMSUh1Ukhua2Rjd2lhSmY5aS1LUDdYMkRqLVJTb3VWSHdpV0hSMkpCRnAtaUdjWGtnN292LXRIRVVYdmlUdzA0QkFfcTlVTWFEbzlMQm5IbEViWWcwLXJnT3RCOXNrcGVkOVFuMjM1OWgxQWNseThmLVVZbWpLWG5fV1RaV1ItTnd4NldXWVRiSnYzRTlMNWR0Y2M0WGYtQmlPNzViQXJPNDFTMENCblZzZ9IB7wFBVV95cUxNZ3lBampZV3JWX1VXN1BuanJZZDk1SVNmZmt1bzd3SjEtbEd4UWhscnlNZlpyQUc1QzhSWDlQTkNyTWZ5VDk4OU5LbjVwOGF0b0pxSUt2a3dXV3B1cVl0ajNQaVRqUl84eU9MY004M1ZVdGlnV1FzUndnZXVUMS1tY2hDMU51enRKU2tzTEdDNy1kVXBGU2tUTXkyODhPS0EyeFZUWUg4enY1SVFJcW4zdENLYTJJSVpNeGpFNXp5Z2lZcGVQNUw0MXZIejhndlpNSDZYc0loLWpUNHU0eExMRW1rQTcxZWxnX2gxSUlnQQ?oc=5"
+            },
+            {
+              "name": "Meia Hora",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXRyc0s0RU12OWlNZDlPOS1JSVRZbWxUWWJYRG9iLS10cUJsSkRBeXZZdHVfOFYxdTNSSktobW5pYkFfZEFTZWN6YUZlMnRxZ01EUnlLQWVyNEw5cUdPV0tkaTh5TVBHNWJOajU2NDRvd3JKV0xsTWtpVnBBUk41SGRITUx1VVI4M3lvOVZ6alVnRy1RM0prZEFMQXFvZ2F2SXZKTXMxM2hSZ1h6S3N4MkNBdHJ5eUgxQVhlZFhqeUozMFp5dE5z?oc=5"
+            },
+            {
+              "name": "Portal iG",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaDRKOXBLRm1SSkUyRUpfWXNoYWJ6VDlZeGJFWkdYeXJhdzBhX0NGQ080T2NkZTJaRTVEdW01QTZrY3diQm9ITkRkODNqOGw2amlSWWtsZGVHRWdQRHhQUGpPT0pYd2dYVGtjdUJacmE2STZvVkp3eTV4MXV3Y19CdlBDV1luR0tZN3lJaTJUUHFWRU5NaTd3cWZwNWZBS20zeWfSAacBQVVfeXFMUHRhZnJMT3BIenB5eUNIenlIdkc1STFjdW1MSW1ySmxnbU8zQ0NUWnZhNVU2aFNGbnNWU2hvcTFfUFlDdTZuUW5QNFVIdktpXzFnY2xYTG9rTGVjTG9YeVdTb3FBQ1VQak9OS25fa2NheUJaQUZ4dUZvSDdnNmdMY01CRHViYkEzbXBLaEdiNTgwdWhjQkFXekFzanBVWjl1T0pRM2tKcUE?oc=5"
+            },
+            {
+              "name": "Jornal do Commercio",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYXEwQ3ctNU9jZXV0ankycEQ4UFZRSVprZTloSmEtMktsaWdCYUxCaEpGVEZvaVFJd0pvaUV6d0RwS2h1ZVBQZzFvVEprbXdpTTRUQzdRZjNpT2xwRGlOaUhfek4zTEVRelhwLTVZc3hYeVo1THFEQncya05vQzgtRTFGM1FnZ1JsNVBkSktja0pBQlRQMFhHdGlJUGpIaDB4QXlmSFhkZnA4UnVuWlpKZG1OM3FXVnI4WF8zYXBSOGNHb0F0cDloeg?oc=5"
+            }
+          ],
+          "art_text": [
+            "Bope baleado por PMs",
+            "Equipe foi confundida com criminosos",
+            "Quem responde por isso?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)",
+            "Imagem ilustrativa"
+          ],
+          "faces": "Ninguém identificável. Cena sem pessoas reconhecíveis: viatura e coletes táticos. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, de madrugada em uma rua de Jacarepaguá: viaturas da polícia com giroflex ligado ao fundo, desfocadas, e em primeiro plano um colete tático preto e um capacete sobre o asfalto molhado, sem nenhuma pessoa visível, sem sangue. Clima sombrio, tons azulados e frios. No alto, em branco, letras condensadas e muito pesadas: \"Bope baleado por PMs\". Em quadro amarelo com letras pretas: \"Equipe foi confundida com criminosos\". Embaixo, com sublinhado vermelho pincelado, em branco: \"Quem responde por isso?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. No canto inferior oposto à assinatura, selo pequeno: \"Imagem ilustrativa\". Sem logos de veículos de imprensa.",
+          "caption": "Um subtenente do Bope morreu baleado por PMs que confundiram a equipe com criminosos, em Jacarepaguá. A família quer entender o que aconteceu, e o Rio inteiro também. Que a apuração seja rápida e transparente. Comenta o que você pensa.",
+          "risk": "baixo",
+          "risk_note": "Tema de luto e de segurança pública: tom respeitoso, sem culpar PMs individualmente nem afirmar erro antes da apuração. Não mostrar rosto, corpo ou foto da vítima. Links do Google News retornam página vazia; fatos atribuídos aos veículos conforme o resumo do pedido. Conferir atualização da investigação antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Retomar quando a perícia e a investigação da PM/Polícia Civil explicarem como a equipe foi confundida e quem atirou."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Bope morto por PMs: como uma equipe é confundida com bandidos?",
+          "tone": "contundente, respeitoso com a vítima",
+          "duration": "30s",
+          "fact": "Um subtenente do Bope morreu após troca de tiros com PMs que confundiram a equipe com criminosos, em Jacarepaguá, Rio de Janeiro, segundo a Agência Brasil e o Diário do Rio. A Polícia do Rio apreendeu armas. O iG informa que ele era irmão de PM morto em megaoperação. O Globo e o Extra registram que a ex-mulher lembrou a frase 'Se um dia eu morrer, quero estar fardado'. O Estadão diz que a família quer entender o ocorrido. As circunstâncias ainda são apuradas.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcThSZy1NbGxQaEdZYmpUSk1HQVN0WnlpWmxSWlJEX0EtMmI1TWRtb3NUU1RMTkM5d3B4bGd5Y0RETENmWnM5STNrODJpdXQ4U29BRnVnNXRsTGxJZGFoY2IwcUxzN0pjWVJHTXNxZWJMdzZsMGE1X3VnU3JlSHhUZUREa2hVd3d2X0c3VkxNb0JNa2E2N1lMWGZSZ2lmUENMTzA0X1lNcFpXVXpjNEFDa1EyR19wc21n?oc=5"
+            },
+            {
+              "name": "Diário do Rio",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLWs5X1ZIMnE5cG9ET1R1Y0FwNHJ5NzYwZ3BhaXZTUV93QlhvbXRjWmttYk1JS1JDbTM1RTdseWc1MHcyOTRXU0NyclQ0YzdTRmNZb1JrRThzTXpqeXBEd0EwYXZnZVJ6SFVZUmxrYlVUbGpNNjRSOHVVaWM3Unk0VXZMTGpSNWM4NklXaEl0WmJqdEpBcUs3T0JMbERzNDMwSC1SMjhnX1o0WVZrSFgtSEZxZzg0WWdfbGtIVldZeFYtWTNDeDRfV3N3?oc=5"
+            },
+            {
+              "name": "O Globo",
+              "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWkszcEdfX3VRSVpoSW9CbmpiLWJ3UUxFMHRtMUttMGRrYmMyZlJUV1c2ZDk4cVp4T01wTTVrQWFrWHdHNlBabFM4MUVIU25tSjJzd2habF9XdWJQalFaaWdTaWhyUUpSNWdNZVlwZVY1U0dGYnQ4Tk5kRXJHRkhsa3B1RDQ0NWpmdmJISGg2OGhRR0RLRVlWZW90dmttSGxBNHVqLW51SnBWSkZuamNpaWt4NXBwUkVWNllTYjJNUno3SEFTcEtYSEc3Yy1uZllIVmRoWjdtTjhRQ0oybUw5VTlaY1B2YWRBQktmS2dLUlVUdjjSAYICQVVfeXFMT2Y4NEJFRVJFdUtRSmxFdlBrck9LZmJPZTlwbzhUMXM1ZldSMWM5c2RnOFVVODZxUlQ0NW53RzM4MjhSQjhJM3I4M0lvTnBSZWs0V3hQQy1SS2c3MlhVTE0xR016NWpneXJYTmI4U0pRX1lHc0YxRkFQd0E0MkFiMDVyQ3lxbGs4dW42WmxSTmtjb2VSWmpBeWY5QU9Dci02MmtOcmJnbTdYcnhNVTJzczItTFd4bng3YVNoVXRpWC0zY1dIZmhWd0pRYXZkV1Flc3FiNENUUHhlR05hLWRDUTE2TTc5RzRjN1Y0aFo0bEtmVDRONjY1bGZicUtRQzlBb0JB?oc=5"
+            },
+            {
+              "name": "Extra",
+              "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnIxdHlQajBvUVdnRS1uZEgzbkE5UmV3c2ZoR1NyS2xuRUFWY1ZsS0lRMEZ3NjVMSUh1Ukhua2Rjd2lhSmY5aS1LUDdYMkRqLVJTb3VWSHdpV0hSMkpCRnAtaUdjWGtnN292LXRIRVVYdmlUdzA0QkFfcTlVTWFEbzlMQm5IbEViWWcwLXJnT3RCOXNrcGVkOVFuMjM1OWgxQWNseThmLVVZbWpLWG5fV1RaV1ItTnd4NldXWVRiSnYzRTlMNWR0Y2M0WGYtQmlPNzViQXJPNDFTMENCblZzZ9IB7wFBVV95cUxNZ3lBampZV3JWX1VXN1BuanJZZDk1SVNmZmt1bzd3SjEtbEd4UWhscnlNZlpyQUc1QzhSWDlQTkNyTWZ5VDk4OU5LbjVwOGF0b0pxSUt2a3dXV3B1cVl0ajNQaVRqUl84eU9MY004M1ZVdGlnV1FzUndnZXVUMS1tY2hDMU51enRKU2tzTEdDNy1kVXBGU2tUTXkyODhPS0EyeFZUWUg4enY1SVFJcW4zdENLYTJJSVpNeGpFNXp5Z2lZcGVQNUw0MXZIejhndlpNSDZYc0loLWpUNHU0eExMRW1rQTcxZWxnX2gxSUlnQQ?oc=5"
+            },
+            {
+              "name": "Meia Hora",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXRyc0s0RU12OWlNZDlPOS1JSVRZbWxUWWJYRG9iLS10cUJsSkRBeXZZdHVfOFYxdTNSSktobW5pYkFfZEFTZWN6YUZlMnRxZ01EUnlLQWVyNEw5cUdPV0tkaTh5TVBHNWJOajU2NDRvd3JKV0xsTWtpVnBBUk41SGRITUx1VVI4M3lvOVZ6alVnRy1RM0prZEFMQXFvZ2F2SXZKTXMxM2hSZ1h6S3N4MkNBdHJ5eUgxQVhlZFhqeUozMFp5dE5z?oc=5"
+            },
+            {
+              "name": "Portal iG",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaDRKOXBLRm1SSkUyRUpfWXNoYWJ6VDlZeGJFWkdYeXJhdzBhX0NGQ080T2NkZTJaRTVEdW01QTZrY3diQm9ITkRkODNqOGw2amlSWWtsZGVHRWdQRHhQUGpPT0pYd2dYVGtjdUJacmE2STZvVkp3eTV4MXV3Y19CdlBDV1luR0tZN3lJaTJUUHFWRU5NaTd3cWZwNWZBS20zeWfSAacBQVVfeXFMUHRhZnJMT3BIenB5eUNIenlIdkc1STFjdW1MSW1ySmxnbU8zQ0NUWnZhNVU2aFNGbnNWU2hvcTFfUFlDdTZuUW5QNFVIdktpXzFnY2xYTG9rTGVjTG9YeVdTb3FBQ1VQak9OS25fa2NheUJaQUZ4dUZvSDdnNmdMY01CRHViYkEzbXBLaEdiNTgwdWhjQkFXekFzanBVWjl1T0pRM2tKcUE?oc=5"
+            },
+            {
+              "name": "Jornal do Commercio",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYXEwQ3ctNU9jZXV0ankycEQ4UFZRSVprZTloSmEtMktsaWdCYUxCaEpGVEZvaVFJd0pvaUV6d0RwS2h1ZVBQZzFvVEprbXdpTTRUQzdRZjNpT2xwRGlOaUhfek4zTEVRelhwLTVZc3hYeVo1THFEQncya05vQzgtRTFGM1FnZ1JsNVBkSktja0pBQlRQMFhHdGlJUGpIaDB4QXlmSFhkZnA4UnVuWlpKZG1OM3FXVnI4WF8zYXBSOGNHb0F0cDloeg?oc=5"
+            }
+          ],
+          "hooks": [
+            "Um policial do Bope morreu baleado por outros policiais.",
+            "Equipe do Bope confundida com criminosos termina em morte no Rio.",
+            "Ele disse: 'Se um dia eu morrer, quero estar fardado'."
+          ],
+          "script": "Um subtenente do Bope morreu baleado por PMs que confundiram a equipe dele com criminosos, em Jacarepaguá, segundo a Agência Brasil e o Diário do Rio. A polícia apreendeu armas. O iG informa que ele era irmão de um PM morto em megaoperação. A ex-mulher lembrou que ele dizia: se um dia eu morrer, quero estar fardado, segundo O Globo e o Extra. A família diz que só quer entender o que aconteceu, conforme o Estadão. E essa é a pergunta que o Rio inteiro faz: como uma equipe fardada é confundida com bandidos? Falta comunicação? Falta protocolo? A apuração precisa responder, com transparência. Qual a sua opinião? Comenta aqui.",
+          "screen_text": [
+            "Subtenente do Bope morre baleado por PMs",
+            "Equipe foi confundida com criminosos",
+            "Jacarepaguá, Rio de Janeiro",
+            "Família quer entender o ocorrido",
+            "Apuração em andamento"
+          ],
+          "caption": "Subtenente do Bope morreu baleado por PMs que confundiram a equipe com criminosos. A família quer respostas. Comenta o que você acha.",
+          "risk": "baixo",
+          "risk_note": "Tema de luto e de segurança pública: tom respeitoso, sem culpar PMs individualmente nem afirmar erro antes da apuração. Não mostrar rosto, corpo ou foto da vítima. Links do Google News retornam página vazia; fatos atribuídos aos veículos conforme o resumo do pedido. Conferir atualização da investigação antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Retomar quando a perícia e a investigação da PM/Polícia Civil explicarem como a equipe foi confundida e quem atirou."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-13",
+      "done": "2026-10-13T11:20:00-03:00",
+      "issue": 38,
+      "slot_hint": "Reel hoje (13) às 13h e imagem às 20h, com a versão da defesa se sair.",
+      "source": {
+        "edition": "2026-10-13-06h",
+        "item_id": "paulo-rocha-preso-pa",
+        "title": "Ex-senador do PT Paulo Rocha é detido no Pará após acusação de agredir mulheres em festa de casamento"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Ex-senador do PT é detido no Pará: o que se sabe e o que falta saber",
+          "tone": "contundente, cauteloso nos fatos",
+          "duration": "imagem única",
+          "fact": "O ex-senador do PT Paulo Rocha foi detido no Pará após confusão em festa de casamento em Belém, segundo o UOL. A Revista Oeste e O Antagonista informam que ele é acusado de agredir mulheres na festa. A Gazeta de Alagoas também registra a detenção. As manchetes não detalham a versão do ex-senador. Ele não foi condenado: é acusação e detenção, sem decisão da Justiça.",
+          "sources": [
+            {
+              "name": "UOL",
+              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTnp2M2FpempTQ3lHYlppQ19wZFFnS1EtNDI0aGxnRE9zTEdDUC03OGVsN1Q1RkhBLXRBRXlSdGZjaEtJZGdFbXJWb29FY3QzT0k2blpRa3FkNkpQNUh0U29OY1g3czBRaXFjRUY0di1LQWNKcktrUWpEN0FMOTNNd1pDX0pmUi15TS1BM2tvdzFDMll2NjlyMS1KZXpCcF9pVi1hR3V0TFZ6ZnZQcjBvcUpKQVFMSm5GNWktbjg0WDJ2ZjI1ZGpITERpMUpSaXlMamFGcW1Ndw?oc=5"
+            },
+            {
+              "name": "Revista Oeste",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTkdaZDJPRjRQNlFzQkpGcHoxUHRUVjZZVG5ubXBta3k5a0pDcjJNSVRCX1pzV3hMWVFfNUM3bzU0clFmTy10ejJvLTFPNnZYWG9NYjV1dW94UlRFX0duaEViNXRULU14WXl6WjdZZ1FqRlBsREhyZmhNbDJ2blIyMVNqVzJvRW1mYUs1Mm1zSXUtdGh4eVdtRXdpUE40dw?oc=5"
+            },
+            {
+              "name": "O Antagonista",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbld2c3Z3MDRoM0U4dzVuOG9VcGxycVc2NHJpY3BZRVJPaEFta0lDNnk0T2xOSm5vRU5Qd3RfSkg4bWVseEdhX1RFZnJCN3ZuWXgtbHBUcGRMVGZpX1MyN0VDUVBtYXJCaHNaY0lEcmthNDJlRXlkbV9HV0RheXBaWW52SWNlZFJSa25QbHZnLVpvaER1Uzd2UVl0V1M1UE5J?oc=5"
+            },
+            {
+              "name": "Gazeta de Alagoas",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUmZoZmxqODFFdWQxX2xBelpNSnduMmtLWkdaRjFvclNVSVJZdlQtUDI0SnlZcjRxSW0xNkI0eFI0QXFjRExleWJIMG1RVlJtZzJuV0pMX0VOb05zaVBJUDRuWVpNR0FjQ25mS0g4OXNacUZUMGxuWGxXOHNaUXBzY2FWXzVOOF9tZnFBSmlyZzh6ejhXLVlhUjdzZnRWbWNQRVh5ekFMMEJaYUlXTzN3V2xoR3JIY3FrWmtZMtIBxAFBVV95cUxOUlZQd1RiX25SZVFpQ0pISGREQXUwT3EyOG9CQnUxVndVUzdaU0RZTnRTLUV1QURwMVVoVk1tS2JHYm54TzFKa2pER3ViNE5YVXkxX2w1ZG03V1VIUmk5bWVvOXg4Qm5GVV9IS0tzdzE5VVFyTERxWjJiVkMzQTktOG13TmdpNFE3N2ZrZktwNkFhV2pWLU9SOHpKaG1GY2JMZFBwYmRPNjFHaE4xXzNJY1FleGMyNGNCcmRGYlkwU1drWl9m?oc=5"
+            }
+          ],
+          "art_text": [
+            "Ex-senador do PT detido no Pará",
+            "Acusado de agredir mulheres em festa",
+            "A versão dele ainda não apareceu",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Paulo Rocha, ex-senador do PT, figura central da notícia. Aparece em pose neutra e séria, sem algemas, sem cena de agressão. Risco médio.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, o ex-senador Paulo Rocha, de terno, em pose séria, olhar desconfiado, braços cruzados. Ao fundo, a silhueta do plenário do Senado e, menor, um salão de festa com luzes desfocadas. No alto, em branco, letras condensadas e muito pesadas: \"Ex-senador do PT detido no Pará\". Em quadro amarelo com letras pretas: \"Acusado de agredir mulheres em festa\". Embaixo, com sublinhado vermelho pincelado, em branco: \"E a versão dele?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essa pessoa, use silhueta reconhecível pelo contexto e mantenha o resto da composição.",
+          "caption": "O ex-senador do PT Paulo Rocha foi detido no Pará após confusão em festa de casamento em Belém. Ele é acusado de agredir mulheres. Ainda não há condenação e a versão dele não foi detalhada. Acompanhamos. Comenta.",
+          "risk": "médio",
+          "risk_note": "Risco médio: envolve acusação de violência contra mulheres, sem condenação. Usar sempre 'detido' e 'acusado', nunca afirmar que agrediu. Incluir que a versão dele não foi detalhada. Não retratar o ex-senador algemado, preso ou agredindo. Links do Google News retornam página vazia; fatos atribuídos aos veículos conforme o resumo do pedido. Conferir se há nota da defesa antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Retomar quando saírem a versão do ex-senador, a decisão sobre a prisão (liberação ou audiência de custódia) e a posição do PT."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Ex-senador do PT detido no Pará: o que dizem os veículos",
+          "tone": "contundente, factual",
+          "duration": "30s",
+          "fact": "O ex-senador do PT Paulo Rocha foi detido no Pará após confusão em festa de casamento em Belém, segundo o UOL. A Revista Oeste e O Antagonista informam que ele é acusado de agredir mulheres na festa. A Gazeta de Alagoas também registra a detenção. As manchetes não detalham a versão do ex-senador. Ele não foi condenado: é acusação e detenção, sem decisão da Justiça.",
+          "sources": [
+            {
+              "name": "UOL",
+              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTnp2M2FpempTQ3lHYlppQ19wZFFnS1EtNDI0aGxnRE9zTEdDUC03OGVsN1Q1RkhBLXRBRXlSdGZjaEtJZGdFbXJWb29FY3QzT0k2blpRa3FkNkpQNUh0U29OY1g3czBRaXFjRUY0di1LQWNKcktrUWpEN0FMOTNNd1pDX0pmUi15TS1BM2tvdzFDMll2NjlyMS1KZXpCcF9pVi1hR3V0TFZ6ZnZQcjBvcUpKQVFMSm5GNWktbjg0WDJ2ZjI1ZGpITERpMUpSaXlMamFGcW1Ndw?oc=5"
+            },
+            {
+              "name": "Revista Oeste",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTkdaZDJPRjRQNlFzQkpGcHoxUHRUVjZZVG5ubXBta3k5a0pDcjJNSVRCX1pzV3hMWVFfNUM3bzU0clFmTy10ejJvLTFPNnZYWG9NYjV1dW94UlRFX0duaEViNXRULU14WXl6WjdZZ1FqRlBsREhyZmhNbDJ2blIyMVNqVzJvRW1mYUs1Mm1zSXUtdGh4eVdtRXdpUE40dw?oc=5"
+            },
+            {
+              "name": "O Antagonista",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbld2c3Z3MDRoM0U4dzVuOG9VcGxycVc2NHJpY3BZRVJPaEFta0lDNnk0T2xOSm5vRU5Qd3RfSkg4bWVseEdhX1RFZnJCN3ZuWXgtbHBUcGRMVGZpX1MyN0VDUVBtYXJCaHNaY0lEcmthNDJlRXlkbV9HV0RheXBaWW52SWNlZFJSa25QbHZnLVpvaER1Uzd2UVl0V1M1UE5J?oc=5"
+            },
+            {
+              "name": "Gazeta de Alagoas",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUmZoZmxqODFFdWQxX2xBelpNSnduMmtLWkdaRjFvclNVSVJZdlQtUDI0SnlZcjRxSW0xNkI0eFI0QXFjRExleWJIMG1RVlJtZzJuV0pMX0VOb05zaVBJUDRuWVpNR0FjQ25mS0g4OXNacUZUMGxuWGxXOHNaUXBzY2FWXzVOOF9tZnFBSmlyZzh6ejhXLVlhUjdzZnRWbWNQRVh5ekFMMEJaYUlXTzN3V2xoR3JIY3FrWmtZMtIBxAFBVV95cUxOUlZQd1RiX25SZVFpQ0pISGREQXUwT3EyOG9CQnUxVndVUzdaU0RZTnRTLUV1QURwMVVoVk1tS2JHYm54TzFKa2pER3ViNE5YVXkxX2w1ZG03V1VIUmk5bWVvOXg4Qm5GVV9IS0tzdzE5VVFyTERxWjJiVkMzQTktOG13TmdpNFE3N2ZrZktwNkFhV2pWLU9SOHpKaG1GY2JMZFBwYmRPNjFHaE4xXzNJY1FleGMyNGNCcmRGYlkwU1drWl9m?oc=5"
+            }
+          ],
+          "hooks": [
+            "Ex-senador do PT é detido no Pará.",
+            "Paulo Rocha detido após confusão em festa de casamento.",
+            "A acusação é grave, mas a versão dele ainda não apareceu."
+          ],
+          "script": "O ex-senador do PT Paulo Rocha foi detido no Pará após uma confusão em uma festa de casamento em Belém, segundo o UOL. A Revista Oeste e O Antagonista informam que ele é acusado de agredir mulheres na festa. A Gazeta de Alagoas também registra a detenção. As manchetes não detalham a versão do ex-senador, e ele não foi condenado: por enquanto, é detenção e acusação. A acusação é grave e precisa ser apurada com rigor, sem pressa e sem blindagem. O caso circula em veículos de campos diferentes, e você deve acompanhar os próximos passos. Vamos ver o que a Justiça decide. O que você acha? Comenta aqui.",
+          "screen_text": [
+            "Ex-senador do PT detido no Pará",
+            "Paulo Rocha",
+            "Acusado de agredir mulheres em festa em Belém",
+            "Versão dele não foi detalhada",
+            "Sem condenação"
+          ],
+          "caption": "Ex-senador do PT Paulo Rocha foi detido no Pará, acusado de agredir mulheres em festa de casamento em Belém. Sem condenação, versão dele ainda não detalhada. Comenta.",
+          "risk": "médio",
+          "risk_note": "Risco médio: envolve acusação de violência contra mulheres, sem condenação. Usar sempre 'detido' e 'acusado', nunca afirmar que agrediu. Incluir que a versão dele não foi detalhada. Não retratar o ex-senador algemado, preso ou agredindo. Links do Google News retornam página vazia; fatos atribuídos aos veículos conforme o resumo do pedido. Conferir se há nota da defesa antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Retomar quando saírem a versão do ex-senador, a decisão sobre a prisão (liberação ou audiência de custódia) e a posição do PT."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-13",
       "done": "2026-10-13T11:17:00-03:00",
       "issue": 37,
       "slot_hint": "Reel hoje (13) às 20h, com a ressalva de versão oficial pendente; imagem amanhã às 12h se houver novidade.",
