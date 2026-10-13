@@ -328,6 +328,27 @@
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa3NITjA2NDVRbkY1Q04tVFNUN0l0ODlTenFOTW1BSURFSkVfZEJ0R1dBcDB0QXl5enozTTAtbVZudTRkc1pja3NxTnV5Vll6OUJkMXNzcVdpSi00RjJtejEzRGdWUHEtdlgxbzFhZVNZUXpzMm44MEVocmN4RG95b0UxdUZMbGdCbDMzUTJBUTNWRVNHQzhuRmFYa1ctbThxVTNEbjR5cGlQVlNvXzFvazYyYWtoRVF5c3R5WE9fYVFGYzA?oc=5",
      "camp": "centro",
      "position": "editoria"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdExuWkdDYWZ2RkNhTUpQU3J3NENybGoxMjVVUVd5YWdWd21GOWpqNTBuVDNyd0otN19OYm1fUkhuSDkyRjAwckFyOUdOVWVnUFhRdUs0VVRSOE03dkx5THdQMklnVm8xb0pOWXNBMWl1aVdQUmdDSFpIcU1zVmNVOGZPTEttTzlxa01pMXlNOV9tZnc0WndaNDNvZUx1Y085RnJoOERKTjdYdUdQTlJ0bkxFRGFBNTdMRGUtMnJzYkpHMjVxaGdLaXNvUlAtOEtiVkVsWmtyMkd2ZklTQ25FWXpB0gHwAUFVX3lxTE93WnA2dlZONlNMYVRnNUxKa0NxUGlDck1udkdlNU9LRWg3T1ExV3ZVQVZuVlJ6RWlrckV1LUlVQW1LYl9FbE4tQ1BHVG90V0NYMVdmOWEwRVRzVmJoRldlQVE5dUVLdEVyZGtIVHQ1aGJzWjczdDcxMlQzdlFSbkFKOHFscDdXRmtfdUtHUkNfMm84blkxUk90bWZPdFFScDRxVmJsc3NQMkdLZWZGV1NzM1NPXzlreXlsQjUwS2pzREJOLTkxQ2k2RjNVOTJQNFk3SlV3SHYxWFBiZldqYWl0aURVZ0lyTkFiNDNtTTNHTg?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQV0Z1Z2w1U1dpd1pzRmFHMFBoSU5VZHRjdG53UGIwRV9RUWEwLWNZb3RJVGVrZEJ4SGVrWXAzc0lEWjluMXE4bjJxTGhJa1NmNGFKQWxDdGVFVnloTUhUOVVZZ0pJUHZXQlVuLV9LTGZVVk9VU0FzcFlKVlMwemFXSVJBWFZ5ZzY3NnRHaE1HYzlvWmxoQXU2Z25FT2lSWDdJT0JibVNEVjk2VGttSExRaUFBR2sxUUxfZ3NWYkNPM095SFNneExTbUFmN3Q1ZHFCMDltNUNDVTZjZzI5QnhEQ1Q0Yw?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMG1DS1Z2NDY3ckZNMHNxeXpvUWtwVXB3ZUdFVllhejM2VFFpOTBsR0dLSjJoZllhczJNNFpjRmRqNHdnNlFTckoxamVyNWh2TElkWlViS3cwTUIzUjVDUzdFV2hZSjY3WTdzRmdFYkdxNWFxQXYxUVBKcEFjRkduR3FKSG5FY3Zib3ppWFBrckVCNFNSNkRrMFlYVGVUcDJsSDE2TGVRNjlhQ1VlN0HSAa4BQVVfeXFMTzBtQ0tWdjQ2N3JGTTBzcXl6b1FrcFVwd2VHRVZZYXozNlRRaTkwbEdHS0oyaGZZYXMyTTRaY0ZkajR3ZzZRU3JKMWplcjVodkxJZFpVYkt3ME1CM1I1Q1M3RVdoWUo2N1k3c0ZnRWJHcTVhcUF2MVFQSnBBY0ZHbkdxSkhuRWN2Ym96aVhQa3JFQjRTUjZEazBZWFRlVHAybEgxNkxlUTY5YUNVZTdB?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -758,6 +779,13 @@
      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNOUlyVGw4MkhqbzZXMXJEdTVjLURKOVd6RXhHRkVZSnN3VjVNV0ZCamVHX2M1N2lOZ3pKUUdURnFkN2dKWUhfekE0NkhMY19Ic2ZwUWE1OElxSEhYc0pITHZoRVZWSF95SjlfWHFVNkVIMnZzbzNlLXU0VmZJRDdZd0M1eFVmbk94SGNNRDdCMjNmSzIzc3JnVTlsNUFZMFBkUTZEZU9NQi1pVlIxTWtzbHN1YjVXOTBXRkY0Tmk2QzJFRGF4OUE5azhlbUh1S0hNaHN6YlVvU0dGbU5QakV2RjNfeENOOWdEOTZHbHo3NHQ0WEE2QWfSAYQCQVVfeXFMTW9QY05ZcjUxRWRCazMxNnZ5SDBILTN3N2J4MDhvU1JBa3VwX3V5ZUhvdDVURHhwQjUtbjhuZUFaUUotTGdhVjB2a3Z6dnBmaUZNNko1cl9DcnN2ODJXX2tWSk1jXzQ1NHBhTUdJLXdhNnpiSE56MHZpbTlDMG9NUDNBaFl6QlI1THpGa2RVWElDVzRmOGVPSVhqVVBZcVVKRDNZVWl3WDdvTHA0ekxLSzgxdVQ2QU1uSi1FbC1FWmkxd0lHYzF3MnNUenVPUE5xSXVHNnNZM2Jfd0lFOXhFd1JCZnRmX0xYTC1wVHNIdDV5eTR6RUo0dFRUbkJvTHczMkhWdkc?oc=5",
      "camp": "centro",
      "position": "editoria"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQkZBOUFBdzlOVGt5RXR2SWotT2xWeXVMbzlYMERjM1ZnZmtJWjVlTjBveGxQSDVQZUQ4Qy0xWldkcS1STk1xQzBPajlfOFJiTVVOZjZROUxXeE9OdVBFeTBOZHhzNTc3YVZKZDg5dDFpaHd3OTZoQnFubFRTOVF0U3VIcHkzOGtYYnhaTg?oc=5",
+     "camp": "centro-direita",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -820,12 +848,12 @@
    "title": "FMI reduz previsão de crescimento do Brasil e da América Latina, mas vê economia global resiliente",
    "summary": "O FMI reduziu a previsão de crescimento do Brasil para 2026 e 2027, para 2,2% em 2026, enquanto melhorou a perspectiva mundial. A Agência Brasil informa que as projeções para a América Latina também foram cortadas. O Fundo aponta 'resiliência notável' da economia global, mas alerta para riscos ligados a dívidas e inflação. A Veja destaca que as grandes economias têm seus maiores déficits desde a covid. A BBC News Brasil analisa o que o FMI prevê para o Brasil em 2027 e os desafios para retomar o crescimento.",
    "scores": {
-    "cobertura": 7,
+    "cobertura": 8.0,
     "destaque": 5,
     "persistencia": 7,
     "peso_voce": 6
    },
-   "score": 6.3,
+   "score": 6.6,
    "outlets": [
     {
      "name": "Valor Econômico",
@@ -856,6 +884,13 @@
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR1NfT2dKdmd5N3EzVXJVa2ZSVHpsa0NwdnA2OU5PelBZTTFYQXE0bWhYbnd0WV9KNmxnSzZBNzBNdlNBSms3Y3c2ZV9UTXZKUm9hRm1pWWZYRzNXN2pURzJWWEUweEtpdGRkQjExWVhRd1dadFBzTDlMMS1OX1lvV0Ftd00taWlMYWtQQWphLVE3NXdCVzMydDc5QUg1eGU1NTBHQnJRNGltX28?oc=5",
      "camp": "centro",
      "position": "editoria"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaGhRd01XVFo2TnVwMVpBREpoXzFPbVB6VllXUllpaExJX09UcDRsREVpejc0VDFYNEF4WHRkdThfTmZ1MHZ5YUl4YTFEd2JTV0FoVlVTTE9oZXZ3SGRydWhkemQ2TFFHdGNwcFoyNWdvM3lUMTBYR3RLQjhzM2dSV0x4LTVJZHZPOWU2cmlPTkNONkV6cno1N21KeFJSVHA4Nk9Rb2ZDcUVFWk41TXVUazU5XzJzOUtCMF9Raw?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1578,12 +1613,12 @@
    "title": "PUC-Rio proíbe eventos políticos no campus e cancela atos de estudantes pró-Lula e pró-Flávio",
    "summary": "A PUC-Rio proibiu eventos políticos no campus e cancelou atos de estudantes, tanto de apoio a Lula quanto a Flávio Bolsonaro. A Gazeta do Povo diz que a universidade vetou ato contra o governo Lula e contra decisões do STF. O Correio do Povo, o Diário de Pernambuco e a Tribuna do Norte publicam a decisão. A edição anterior registrava relato de perseguição feito por um professor. O caso ocorre a poucos dias do segundo turno.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 8.7,
     "destaque": 3,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 6.3,
+   "score": 7.2,
    "outlets": [
     {
      "name": "Correio do Povo",
@@ -1608,6 +1643,27 @@
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObF9oZFlIV1FkVDlKMG5JN1l5SC1xMEs3WDRuRzFwMnRnRnZwT1dMSERMV21jR3dGbkRlMW1Qdy11RFdlc201Z2piLWNzMHZGN1dnZjg3X1NURVBMZVdIeEpGX2JkOWNpdVVVWmZsbGllVkYtaEhDakR4SXdSMW1kdk5va3RBMEg3M0M3Zy03NTNZZFMyLUFSQ2ZJcXVKbEVyTVhXbGlBaUZKNU1uMmZ4dDUtdHVEUQ?oc=5",
      "camp": "direita",
      "position": "editoria"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTERQM3BCT2NkcEQzMFcyX2tFZmV4S1A3Rzh4YXlsU3dzNnIzRTBOTFdRbHZTekNBSkluUEJPQ19Bb2RGaGZ0ekNTVFE1THRQdFh6MG1fSnNpZnVxbEhONWg4eXRGMkVQeEs1alBvUjdTd05Eb3VKb0hRLUtiQ1ZkdWxvSGpCb2dfR21hRm1QRQ?oc=5",
+     "camp": "esquerda",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BBC News Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sNnBYdktqN1dxN3pQZGRQcHQxQ3BxdjN0cFhMNFRBLUd0NnpCWm44Sk14VWtCdWhQTzhoTkcyN1FWS01qOGVCVHo0ek1ZZ1VfU191R1pNT0xhSEtMdjQxVGVoSdIBaEFVX3lxTE94dFkxd1BORC1TXzRuNjFjWGhicnNMSzUzRHBSSXFpYkNNeXZWSnA4bTJaX0ZBVWowUHdCN2dBUkJGRFZvZVdiN2J3UDgtQy1udnNOcDBQNzJBczBrV3NWekZSX3hyVkFY?oc=5",
+     "camp": "internacional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMG1DS1Z2NDY3ckZNMHNxeXpvUWtwVXB3ZUdFVllhejM2VFFpOTBsR0dLSjJoZllhczJNNFpjRmRqNHdnNlFTckoxamVyNWh2TElkWlViS3cwTUIzUjVDUzdFV2hZSjY3WTdzRmdFYkdxNWFxQXYxUVBKcEFjRkduR3FKSG5FY3Zib3ppWFBrckVCNFNSNkRrMFlYVGVUcDJsSDE2TGVRNjlhQ1VlN0HSAa4BQVVfeXFMTzBtQ0tWdjQ2N3JGTTBzcXl6b1FrcFVwd2VHRVZZYXozNlRRaTkwbEdHS0oyaGZZYXMyTTRaY0ZkajR3ZzZRU3JKMWplcjVodkxJZFpVYkt3ME1CM1I1Q1M3RVdoWUo2N1k3c0ZnRWJHcTVhcUF2MVFQSnBBY0ZHbkdxSkhuRWN2Ym96aVhQa3JFQjRTUjZEazBZWFRlVHAybEgxNkxlUTY5YUNVZTdB?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1621,12 +1677,12 @@
    "title": "Plano de Flávio de tirar as universidades federais do MEC gera incerteza sobre financiamento",
    "summary": "Flávio Bolsonaro propõe transferir as universidades federais do MEC para o Ministério da Ciência e Tecnologia. A Folha afirma que a mudança gera incerteza sobre financiamento e integração de políticas. O Brasil 247 e o Diário do Centro do Mundo falam em temor de cortes no orçamento. Outros veículos citam polêmica em torno da ideia. O plano ainda não tem detalhamento de orçamento.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 8.7,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 10
    },
-   "score": 6.4,
+   "score": 6.6,
    "outlets": [
     {
      "name": "Folha de S.Paulo",
@@ -1663,6 +1719,13 @@
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSmI2ZVZKdEYxSU9hNnVCRngweVBnZVk3WEFPX19jTXdiVlRjd00xN2gyeWpSQzdNTGxwQWxmeEphNGFsQm5DZk1zak1oU2VUVzEzQW9mVkJWYmZsTmQyaU9CUDRUNENDVjFJYThFSUhaWnhFc3NDbm5GTkE5V0lhcWh4NkFxeXluN1lUMm9PZFNUWXBPUlVTcFM1bEU5MGd3blM2WjdxVHJ2VVpBblJnOHRJblJpcXRRU1BDM1NpWFFERUl1R2pLQjN5Z2hOMFpJQmtralJjV0RobDRzN3c?oc=5",
      "camp": "outros",
      "position": "editoria"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYVpGNW5HejVDTkRvMS1rMGhvNmNaTU9XSXY2Nnl6M0I0WE1FbXNRb0dDaGNSbThzZTRoaFVPdERFUWZOVVhFMHRBdzA1dmp5N0tNZU1LOE8wZ29GQXp6NnZGRnRaRk1kdVVMOVlZZUVSY3R5S2Jad3pFbHI4dUV3SWIwbVBGc3JTMGhkc0t1ME5uckVrVWpfc1MwMDkzVy1KYmpN?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1845,6 +1908,13 @@
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdzBVbkFCZjl2UmRjMngyU2VTWXBGZ2tfYlNIcHJKX25sUVViUHZqeDQ3Z0Z6WkFMOWYzaWd5OEVPdWllNlN2YUY3RlBZX0FtRVZhMGJlUHZET0pISDBJVXpJRHE4OTg0WEcxUTZWekp6cGlFdXRWaWpyYjFWenFVNFYzV3AydjJJeDdfaExLSG9WdVZLeVZXeUItUlB3ZVBiOGlr?oc=5",
      "camp": "outros",
      "position": "editoria"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdkg0b0dWU3hkX1RzLUM0ZG93RjR1SUs5OTFjallJTlNld1pKZkFaWW1HLUxjbWxjeGM4VmJfeHgzc0VqYTdIUjJGWFFVd09WZVhUbWc4UGdMWjM5cGJVbHp2N3BfTVlHQ2lxc2M3ZkUzSzViT0JlX09yTG1TMEt1T2tHNlVKRFR4RzN3NW5GTlBaZzVJVkhlVmY4UkNNbVNKOTgyelB2ZkU2V3BwRDNmQ1F3ZXVGLW5DN0JXRTVxNlRSSVFGbWFiUjVIYmFoQUlYLTFDYUc0Y9IB5gFBVV95cUxPSEFsR3NaSWFEV2F6aUJjZ1RBTEJoOWc1QTc2QTBlVTdKazB3MWR3bHlrZVZhLXc0YV9RT0xzTnRGVGI5NmZNd3hoek80N0ZaV0g3eG0wYnBGT3FKZ3dXNWp0cXNnT3R0a2YtTW9jOXBDOFI0WG85X2lraHQzdng4eExFNXhxRnhNUHVDN0ljakE0ZjhDX254cFpndFVKTnlQeGdVSFUtVURxZWtqZWI3a2d3ZlZLaTI5VXFpLUIya0E5VUFJcnE1LWc5cHlfVkFuYXhyMUNHZUl2YjBINWlsQlIzanpRQQ?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1932,12 +2002,12 @@
    "title": "Ataque a tiros em festa de 15 anos em Manguinhos deixa um morto e três feridos",
    "summary": "Um ataque a tiros durante uma festa de 15 anos em Manguinhos, na Zona Norte do Rio, deixou um morto. A CNN Brasil informa que outras três pessoas ficaram feridas. O Diário do Rio descreve a festa como terminada em tragédia. A polícia investiga a autoria do ataque. O caso reforça a violência em comunidades da cidade.",
    "scores": {
-    "cobertura": 3.5,
+    "cobertura": 5.0,
     "destaque": 3,
     "persistencia": 7,
     "peso_voce": 6
    },
-   "score": 4.6,
+   "score": 5.1,
    "outlets": [
     {
      "name": "Diário do Rio",
@@ -1950,6 +2020,13 @@
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTmdBeFpYR05zMnBtSEg1MUJLRnpSajJhcXFyeEs0a1hHd29FemYxaGxCQWdic1NUbnktMm5QVS1oeEx1U1BNTUUya1Y4NUw3dnF3WWl5bkh5TEJYTHhXc1ByV0poeW1samZBXy1yRzRwSWtGZUJLTU1MQkwxelVGd3dWZTNNajNmUG0xUHFiZERSblE0RlZPaUVrQjRpYmJGcG1fSUUxdnptb2Z2WXlzV0xWdUZSMEtGNk1DNA?oc=5",
      "camp": "centro",
      "position": "editoria"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSVBfYjhUQW1hMmJSUHR4OEFUN3BLRDhDemdMeVk3WDdFLVRBT3NLSXVGY1hzUExwZlA0bmNHc1dfNWJ3Q04yU0NmQ2NHZE5MMGh0UFpBajNscklwTTNJVG1PaWE1ZWR5dWlVaWNsQTZDYkZkWWszZWpmVTFPWjFnT2tZSWk5TUJnS2Z4VktTV19UTzRYWHQ4LWd2dTVrNWstVlBNVHBDazZYS19KVzRNYQ?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -2483,5 +2560,6 @@
     "note": ""
    }
   }
- ]
+ ],
+ "portais_na_coleta": 54
 }
