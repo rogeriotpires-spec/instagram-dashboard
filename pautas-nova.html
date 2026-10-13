@@ -270,6 +270,12 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .avulso-form textarea{min-height:76px;resize:vertical}
 .avulso-form .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:14px}
 .avulso-form input[type=date]{width:auto}
+.pill.info{background:color-mix(in srgb,var(--s1) 14%,transparent);color:var(--s1)}
+h3 .pill.nov{display:inline-block;vertical-align:3px;margin-right:8px;cursor:help}
+.novbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 0 14px}.novbar .lbl{font:600 12px Inter,sans-serif;color:var(--muted)}
+.novbar button{border:1px solid var(--border);background:var(--surface);color:var(--text-2);font:600 13px Inter,sans-serif;padding:7px 12px;border-radius:999px;cursor:pointer}
+.novbar button.on{background:var(--text);color:var(--surface);border-color:var(--text)}.novbar small{opacity:.6;font-weight:500}
+#slots.f-new .opt[data-nov="rep"],#slots.f-rep .opt[data-nov="new"]{display:none}
 .seal{background:#a63922;color:#fff;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;white-space:nowrap}
 @media (max-width:900px){.cols2{grid-template-columns:1fr}.wk{grid-template-columns:repeat(4,minmax(0,1fr))}.indice a{grid-template-columns:28px 1fr}.indice a .bl{display:none}}
 @media (max-width:560px){.wk{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -337,6 +343,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     <div class="sec-h"><h2>Semana sugerida</h2><p id="wk-sub">Plano da análise semanal (área de métricas). O dia em destaque é o do conteúdo abaixo.</p></div>
     <div class="wk" id="wk"></div>
     <div class="sec-h"><h2 id="c-title">Conteúdo do dia</h2><p id="c-sub"></p></div>
+    <div class="novbar" id="c-novbar"></div>
     <div id="slots"></div>
     <section class="block" id="sob-demanda" style="margin-top:36px"></section>
     <section class="block" id="quentes"></section>
@@ -346,6 +353,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 <div class="toast" id="toast">Copiado</div>
 
 <script src="painel.js?v=20261009"></script>
+<script src="novidade.js?v=1"></script>
 <script>
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -443,7 +451,8 @@ function option(o,type,idx,ctx){
   if(o.risk_note)body+=`<div class="note"><b>Cuidado:</b> ${esc(o.risk_note)}</div>`;
   if(o.timeline&&o.timeline.angle)body+=`<div class="note tl"><b>${o.timeline.rende?"Ângulo para a Timeline":"Por que só rede"}:</b> ${esc(o.timeline.angle)}</div>`;
   if(ctx&&ctx.del&&gone(ctx.del,ctx.delDay||"",o.title))return"";
-  return`<article class="opt"><div class="opt-h"><span class="opt-n">Opção ${"AB"[idx]||idx+1}</span><h3>${esc(o.title)}</h3>${ctx&&ctx.del?xbtn(ctx.del,ctx.delDay||"",o.title):""}</div><div class="pills">${pills}</div>${body}</article>`;
+  const nv=ctx&&ctx.nov;
+  return`<article class="opt"${nv?` data-nov="${nv.st==="new"?"new":"rep"}"`:""}><div class="opt-h"><span class="opt-n">Opção ${"AB"[idx]||idx+1}</span><h3>${nv?novPill(nv):""}${esc(o.title)}</h3>${ctx&&ctx.del?xbtn(ctx.del,ctx.delDay||"",o.title):""}</div><div class="pills">${pills}</div>${body}</article>`;
 }
 function renderWeek(day){
   const wp=(AN&&AN.week_plan)||[];if(!wp.length){$("#wk").innerHTML=`<div class="empty" style="grid-column:1/-1">A semana sugerida aparece depois da análise semanal.</div>`;return}
@@ -462,6 +471,27 @@ function renderSD(list){
   $("#sob-demanda").innerHTML=`<div class="sec-h"><h2>Sob demanda</h2><p>Pedidas pelo botão "Virar pauta" da aba Notícias ou "Virar conteúdo" da pauta do programa</p></div>`+(L.length?L.map(x=>{const d=new Date(x.done||x.requested);
     return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">${(x.source?.edition||"").startsWith("programa/")?"Virou conteúdo · Programa "+dBR(x.source.edition.slice(9)):"Virou pauta · Notícias"}</span>${x.source?.title&&(x.source?.edition||"").startsWith("programa/")?`<span class="pill neutral">${esc(x.source.title)}</span>`:""}<span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i,{day:(x.done||x.requested||"").slice(0,10),del:"sobdemanda",rotulo:`Sob demanda de ${dBR((x.done||x.requested||"").slice(0,10))} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda.</div>`);
 }
+/* selo Nova / Repetida / Desdobramento: mesmo critério do verificador tools/repeticao.py (3 dias anteriores) */
+let CNF="all";
+function novPill(n){const L=n.hits.map(h=>`${h.onde}: "${h.t}"`).join("\n");
+  if(n.st==="desd")return`<span class="pill info nov" title="${esc("Fato novo: "+(n.desd||"")+(L?"\n\nJá tratado antes:\n"+L:""))}">Desdobramento</span>`;
+  if(n.st==="rep")return`<span class="pill warn nov" title="${esc("Parecida com:\n"+L)}">Repetida · já saiu em ${n.hits[0].quando}</span>`;
+  return`<span class="pill good nov" title="Nenhum tema parecido nos 3 dias anteriores">Nova</span>`}
+async function novBase(d,sd,q){
+  const d0=new Date(d+"T12:00:00"),ini=new Date(d0-3*864e5).toISOString().slice(0,10),base=[];
+  const dias=C_DAYS.filter(x=>x<d&&x>=ini);
+  const fs=await Promise.all(dias.map(x=>nocache(`pautas/${x}.json`).then(r=>r.json()).catch(()=>null)));
+  fs.forEach((f,k)=>{if(f)(f.slots||[]).forEach(s=>(s.options||[]).forEach(o=>base.push({onde:`Conteúdo de ${dBR(dias[k])}`,quando:dBR(dias[k]),t:o.title,w:NOV.norm(o.title+" "+(o.fact||""))})))});
+  (sd.items||[]).forEach(x=>{const w=(x.done||x.requested||"").slice(0,10);if(w&&w>=ini&&w<d)(x.options||[]).forEach(o=>base.push({onde:`Sob demanda de ${dBR(w)}`,quando:dBR(w),t:o.title,w:NOV.norm(o.title+" "+(o.fact||""))}))});
+  (q.alerts||[]).forEach(a=>{const w=(a.time||"").slice(0,10);if(w&&w>=ini&&w<d)base.push({onde:`Pauta quente de ${dBR(w)}`,quando:dBR(w),t:a.title,w:NOV.norm((a.title||"")+" "+(a.fact||""))})});
+  return base;
+}
+function novOf(o,base){const w=NOV.norm(o.title+" "+(o.fact||""));const hits=base.filter(b=>NOV.sim(w,b.w)>=.38);
+  return{st:o.desdobramento?"desd":hits.length?"rep":"new",hits,desd:o.desdobramento}}
+function novBar(){const os=[...document.querySelectorAll("#slots .opt[data-nov]")],nN=os.filter(a=>a.dataset.nov==="new").length;
+  $("#c-novbar").innerHTML=os.length?`<span class="lbl">Mostrar:</span>`+[["all","Todas",os.length],["new","Novas",nN],["rep","Repetidas e desdobramentos",os.length-nN]].map(([k,t,n])=>`<button type="button" class="${CNF===k?"on":""}" data-cnf="${k}">${t} <small>${n}</small></button>`).join(""):"";
+  $("#slots").className=CNF==="all"?"":"f-"+CNF;
+  document.querySelectorAll("#c-novbar button").forEach(b=>b.onclick=()=>{CNF=b.dataset.cnf;novBar()})}
 async function loadC(d){
   C_CUR=d;$("#c-day").value=d;const i=C_DAYS.indexOf(d);$("#c-prev").disabled=i<=0;$("#c-next").disabled=i>=C_DAYS.length-1;
   CLIP=[];
@@ -469,9 +499,9 @@ async function loadC(d){
     window._cg=p.generated;const dt=new Date(p.date+"T12:00:00");
     $("#c-title").textContent=`Conteúdo de ${WD[dt.getDay()]}, ${dBR(p.date)}`;
     $("#c-sub").textContent="Duas opções por horário, seguindo a semana sugerida";
-    renderWeek(d);
-    $("#slots").innerHTML=p.slots.map(s=>`<div class="slot-sec"><div class="sec-h"><h2><span class="time">${esc(s.time)}</span> ${esc(s.kind)}</h2><p><i class="dot" style="background:${TYPE[s.type]?.[1]||"var(--muted)"}"></i>${TYPE[s.type]?.[0]||""}</p></div><div class="opts">${s.options.map((o,i)=>option(o,s.type,i,{day:p.date,del:"conteudo",delDay:p.date,rotulo:`Conteúdo de ${dBR(p.date)} · ${s.time} ${s.kind} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`).join("");
-    renderSD(sd.items);renderHot(q.alerts,d);
+    renderWeek(d);const NB=await novBase(d,sd,q);
+    $("#slots").innerHTML=p.slots.map(s=>`<div class="slot-sec"><div class="sec-h"><h2><span class="time">${esc(s.time)}</span> ${esc(s.kind)}</h2><p><i class="dot" style="background:${TYPE[s.type]?.[1]||"var(--muted)"}"></i>${TYPE[s.type]?.[0]||""}</p></div><div class="opts">${s.options.map((o,i)=>option(o,s.type,i,{day:p.date,del:"conteudo",delDay:p.date,nov:novOf(o,NB),rotulo:`Conteúdo de ${dBR(p.date)} · ${s.time} ${s.kind} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`).join("");
+    novBar();renderSD(sd.items);renderHot(q.alerts,d);
     if(TAB==="conteudo"){history.replaceState(null,"","#conteudo/"+d);updHero()}
   }catch(e){$("#slots").innerHTML=`<div class="empty">Não foi possível carregar o conteúdo de ${dBR(d)}.</div>`}
 }
