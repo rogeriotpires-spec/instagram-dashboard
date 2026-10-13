@@ -1,165 +1,203 @@
 {
- "date": "2026-10-13",
- "generated": "2026-10-13T10:12:08-03:00",
- "programa": "Conversa Timeline",
- "titulo": "O programa mudo, o canal desligado e os 274 mil votos que decidem o Rio",
- "abertura": "A pauta abre com a propaganda de Flávio Bolsonaro que foi ao ar sem som no feriado, sem que ninguém explique a causa. No mesmo terreno da disputa eleitoral, o TSE suspendeu o canal \"Exército do Lula\" e chama hoje as duas campanhas para uma reunião fechada. No Rio, a anulação dos votos de Garotinho pode encerrar a eleição estadual no primeiro turno, e Eduardo Paes foi ao STF para impedir isso. Fecham o dia a segurança pública, com policiais mortos e mortos por policiais, as ameaças a universidades e o petróleo a US$ 100.",
- "agenda": [],
- "itens": [
-  {
-   "id": "propaganda-flavio-sem-audio",
-   "bloco": "Política nacional",
-   "titulo": "O programa que foi ao ar mudo no feriado",
-   "subtitulo": "A propaganda de Flávio saiu sem som, a culpa passou de mão em mão e a causa ainda não foi explicada",
-   "resumo": "Na segunda-feira (12), feriado de Nossa Senhora Aparecida, a propaganda de Flávio Bolsonaro na TV foi ao ar por volta das 13h com imagem e sem nenhum áudio, e o programa de Lula, exibido em seguida, saiu com som normal. O SBT News apontou a EBC como responsável, mas o SBT depois reconheceu o equívoco, e a EBC, comandada por Antonia Pellegrino, mulher do deputado Marcelo Freixo, nega qualquer participação. Abert e Astral dizem que o arquivo chegou \"em perfeitas condições\" e que a falha ocorreu no processamento pelo pool de emissoras, enquanto a campanha do PL levou o caso ao TSE. O tribunal falou em problema técnico no carregamento das mídias, disse que não foram carregados os áudios das duas propagandas e que houve tempo de corrigir a de Lula, e informou que a peça de Flávio será reexibida. O que está em jogo é a confiança do eleitor no horário eleitoral a duas semanas do segundo turno: a causa ainda não foi explicada oficialmente e a Abert não se pronunciou.",
-   "contexto": [
-    "Em 12/10, a propaganda de Flávio foi ao ar por volta das 13h sem áudio; a de Lula, em seguida, teve som, segundo o Metrópoles.",
-    "O SBT News atribuiu a falha à EBC e depois reconheceu o erro; a EBC diz que a exibição é do pool de emissoras organizado pela Abert e que aguarda o pronunciamento da entidade.",
-    "Abert e Astral afirmam que o arquivo chegou em perfeitas condições; a campanha de Flávio diz que o material enviado tinha áudio.",
-    "O TSE falou em problema técnico no pool de mídias, disse que os áudios das duas propagandas não foram carregados antes da exibição e que a de Lula foi corrigida a tempo; a de Flávio será reexibida.",
-    "Segundo o blog de Claudio Dantas, Antonia Pellegrino assumiu a EBC em abril de 2026, indicada pelo ministro da Secom, Sidônio Palmeira, e é casada com Marcelo Freixo (PT)."
-   ],
-   "angulo": [
-    "Não precisa de teoria para cobrar: se os áudios das duas peças não foram carregados e só a de Lula foi corrigida a tempo, o programa deve perguntar quem tinha a obrigação de conferir e por que a correção chegou para um lado só.",
-    "Um erro que cai justamente sobre o candidato de oposição, em feriado e sem explicação oficial, exige perícia e responsável identificado. Sem isso, a suspeita fica de pé e a confiança no horário eleitoral sofre.",
-    "O fato de a presidente da EBC ser casada com um político do PT não prova nada sobre esse episódio, mas é motivo suficiente para a estatal ser a mais transparente possível, e o ônus da prova é dela.",
-    "Reexibir o programa é o mínimo; o programa deve defender que o TSE publique o laudo e que a Abert apresente a cadeia de custódia do arquivo."
-   ],
-   "perguntas": [
-    "Se a falha fosse no programa de Lula, a explicação de problema técnico seria aceita com a mesma tranquilidade?",
-    "Quem conferiu o áudio das duas peças antes da exibição, e por que só uma foi corrigida a tempo?",
-    "A reexibição repara o dano de um programa que perdeu a audiência do feriado, ou o TSE deveria ir além?"
-   ],
-   "atencao": "A tese de manipulação ou fraude, citada na observação do pedido, não tem respaldo em nenhuma matéria aberta: TSE, Abert, Astral e EBC falam em falha técnica no pool de emissoras, e o SBT reconheceu ter errado ao culpar a EBC. A causa segue em apuração; falar em suspeita e cobrar perícia, sem afirmar fraude nem atribuir dolo à EBC ou a Antonia Pellegrino. O dado sobre o cargo e o casamento dela vem do blog de Claudio Dantas e não foi confirmado nas demais matérias.",
-   "fontes": [
+  "date": "2026-10-13",
+  "generated": "2026-10-13T10:12:08-03:00",
+  "programa": "Conversa Timeline",
+  "titulo": "A anistia de Pazuello, o programa mudo e a segurança que não fecha a conta",
+  "abertura": "A pauta abre com a propaganda de Flávio Bolsonaro que foi ao ar sem som no feriado, sem que ninguém explique a causa, e com a proposta de Pazuello de uma anistia que alcance até quem prendeu, Moraes inclusive. Na segurança pública, policiais aparecem como alvo e como autores de disparos, do fogo amigo em Jacarepaguá às ameaças que chegam às universidades. Fecha o dia o petróleo a US\\$ 100 e o peso dele no preço da gasolina.",
+  "agenda": [],
+  "itens": [
     {
-     "name": "Claudio Dantas",
-     "url": "https://claudiodantas.com.br/ebc-mulher-freixo-propaganda-flavio-sem-audio/"
+      "id": "propaganda-flavio-sem-audio",
+      "bloco": "Política nacional",
+      "titulo": "O programa que foi ao ar mudo no feriado",
+      "subtitulo": "A propaganda de Flávio saiu sem som, a culpa passou de mão em mão e a causa ainda não foi explicada",
+      "resumo": "Na segunda-feira (12), feriado de Nossa Senhora Aparecida, a propaganda de Flávio Bolsonaro na TV foi ao ar por volta das 13h com imagem e sem nenhum áudio, e o programa de Lula, exibido em seguida, saiu com som normal. O SBT News apontou a EBC como responsável, mas o SBT depois reconheceu o equívoco, e a EBC, comandada por Antonia Pellegrino, mulher do deputado Marcelo Freixo, nega qualquer participação. Abert e Astral dizem que o arquivo chegou \"em perfeitas condições\" e que a falha ocorreu no processamento pelo pool de emissoras, enquanto a campanha do PL levou o caso ao TSE. O tribunal falou em problema técnico no carregamento das mídias, disse que não foram carregados os áudios das duas propagandas e que houve tempo de corrigir a de Lula, e informou que a peça de Flávio será reexibida. O que está em jogo é a confiança do eleitor no horário eleitoral a duas semanas do segundo turno: a causa ainda não foi explicada oficialmente e a Abert não se pronunciou.",
+      "contexto": [
+        "Em 12/10, a propaganda de Flávio foi ao ar por volta das 13h sem áudio; a de Lula, em seguida, teve som, segundo o Metrópoles.",
+        "O SBT News atribuiu a falha à EBC e depois reconheceu o erro; a EBC diz que a exibição é do pool de emissoras organizado pela Abert e que aguarda o pronunciamento da entidade.",
+        "Abert e Astral afirmam que o arquivo chegou em perfeitas condições; a campanha de Flávio diz que o material enviado tinha áudio.",
+        "O TSE falou em problema técnico no pool de mídias, disse que os áudios das duas propagandas não foram carregados antes da exibição e que a de Lula foi corrigida a tempo; a de Flávio será reexibida.",
+        "Segundo o blog de Claudio Dantas, Antonia Pellegrino assumiu a EBC em abril de 2026, indicada pelo ministro da Secom, Sidônio Palmeira, e é casada com Marcelo Freixo (PT)."
+      ],
+      "angulo": [
+        "Não precisa de teoria para cobrar: se os áudios das duas peças não foram carregados e só a de Lula foi corrigida a tempo, o programa deve perguntar quem tinha a obrigação de conferir e por que a correção chegou para um lado só.",
+        "Um erro que cai justamente sobre o candidato de oposição, em feriado e sem explicação oficial, exige perícia e responsável identificado. Sem isso, a suspeita fica de pé e a confiança no horário eleitoral sofre.",
+        "O fato de a presidente da EBC ser casada com um político do PT não prova nada sobre esse episódio, mas é motivo suficiente para a estatal ser a mais transparente possível, e o ônus da prova é dela.",
+        "Reexibir o programa é o mínimo; o programa deve defender que o TSE publique o laudo e que a Abert apresente a cadeia de custódia do arquivo."
+      ],
+      "perguntas": [
+        "Se a falha fosse no programa de Lula, a explicação de problema técnico seria aceita com a mesma tranquilidade?",
+        "Quem conferiu o áudio das duas peças antes da exibição, e por que só uma foi corrigida a tempo?",
+        "A reexibição repara o dano de um programa que perdeu a audiência do feriado, ou o TSE deveria ir além?"
+      ],
+      "atencao": "A tese de manipulação ou fraude, citada na observação do pedido, não tem respaldo em nenhuma matéria aberta: TSE, Abert, Astral e EBC falam em falha técnica no pool de emissoras, e o SBT reconheceu ter errado ao culpar a EBC. A causa segue em apuração; falar em suspeita e cobrar perícia, sem afirmar fraude nem atribuir dolo à EBC ou a Antonia Pellegrino. O dado sobre o cargo e o casamento dela vem do blog de Claudio Dantas e não foi confirmado nas demais matérias.",
+      "fontes": [
+        {
+          "name": "Claudio Dantas",
+          "url": "https://claudiodantas.com.br/ebc-mulher-freixo-propaganda-flavio-sem-audio/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://metropoles.com/brasil/emissoras-apontam-falha-tecnica-no-processamento-de-propaganda-de-flavio"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/ebc-nega-ser-responsavel-pela-falta-de-som-em-propaganda-de-flavio-bolsonaro/"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "https://claudiodantas.com.br/ebc-mulher-freixo-propaganda-flavio-sem-audio/"
     },
     {
-     "name": "Metrópoles",
-     "url": "https://metropoles.com/brasil/emissoras-apontam-falha-tecnica-no-processamento-de-propaganda-de-flavio"
+      "id": "pazuello-anistia-ampla",
+      "bloco": "Política nacional",
+      "titulo": "A anistia que Pazuello quer estender a quem prendeu",
+      "subtitulo": "O deputado reeleito fala em reconciliação, cita Moraes e imagina Bolsonaro na rampa do Planalto",
+      "resumo": "O general Eduardo Pazuello (PL-RJ), reeleito deputado federal, defende uma anistia ampla que alcance os condenados pela trama golpista, Jair Bolsonaro entre eles, e também as autoridades envolvidas nos processos, como o ministro Alexandre de Moraes, segundo o Agenda do Poder. Ele disse que \"a anistia tem de ser para todos os lados, inclusive para quem prendeu\" e que \"nós somos irmãos, não somos inimigos\", apoiando-se na Lei da Anistia de 1979. Pazuello vê num eventual governo de Flávio Bolsonaro o caminho para libertar o ex-presidente, que poderia até passar a faixa ao filho, mas a proposta ainda não foi apresentada ao candidato. Flávio já prometeu, em 29 de setembro, dar indulto a todos os condenados do 8 de janeiro se a anistia não passar no Congresso, e a Constituição veda graça ou anistia a crimes como tortura, tráfico, terrorismo e hediondos. O que está em jogo para o cidadão é saber se a pacificação virá por lei do Congresso, com debate aberto, ou por decreto, e se o Judiciário terá de responder pelos próprios atos.",
+      "contexto": [
+        "Em 12/10, o Agenda do Poder publicou que Pazuello defende anistia a condenados pela trama golpista e a autoridades dos casos, incluindo Moraes; a proposta ainda não foi apresentada a Flávio.",
+        "Pazuello citou a Lei da Anistia de 1979 e não explicou como funcionaria uma anistia a quem decidiu os processos; a ideia não livraria ministros do STF de impeachment.",
+        "Segundo a matéria, o PL elegeu 19 senadores e terá 28 em 2027, a maior bancada; o impeachment de ministro do STF exige 54 votos, e ao menos 50 senadores seriam favoráveis, segundo o texto.",
+        "Em 29/09, Flávio disse ao SBT News que, sem anistia aprovada, daria indulto a todos os condenados do 8 de janeiro na transição, se eleito.",
+        "Datafolha de 2025, citado pela matéria: 54% contra a anistia a Bolsonaro e 39% a favor."
+      ],
+      "angulo": [
+        "A anistia é instrumento legítimo do Congresso, previsto na Constituição e usado em 1979. O programa deve defender que o debate seja feito às claras, no Legislativo, e não por atalho.",
+        "Misturar na mesma anistia quem foi condenado e quem condenou enfraquece a causa: o argumento forte é a desproporção das penas e dos processos, e a proposta de Pazuello dá munição ao adversário para falar em autoanistia do Judiciário.",
+        "Pazuello fala em pacificação, mas o país só pacifica com regra clara e respeito ao devido processo; o programa deve cobrar de Flávio uma posição objetiva sobre anistia por lei versus indulto por decreto."
+      ],
+      "perguntas": [
+        "Anistia que inclui os juízes dos casos é pacificação ou perde a credibilidade diante do eleitor?",
+        "Flávio deve abraçar a ideia de Pazuello ou manter o foco no indulto e na anistia aos condenados do 8 de janeiro?",
+        "Com 28 senadores do PL, o caminho é o Congresso votar a anistia ou o presidente decretar o indulto?"
+      ],
+      "atencao": "É proposta de um deputado reeleito, ainda não adotada por Flávio nem apresentada ao Congresso; as falas de Pazuello vêm de uma única matéria (Agenda do Poder). Indulto e anistia são institutos distintos, e o alcance de qualquer decreto depende dos limites constitucionais.",
+      "fontes": [
+        {
+          "name": "Agenda do Poder",
+          "url": "https://agendadopoder.com.br/pazuello-defende-anistia-para-moraes-e-preve-jair-bolsonaro-livre-em-eventual-governo-flavio/"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/8-1-sem-anistia-darei-indulto-a-todo-mundo-diz-flavio"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "https://agendadopoder.com.br/pazuello-defende-anistia-para-moraes-e-preve-jair-bolsonaro-livre-em-eventual-governo-flavio/"
     },
     {
-     "name": "Jovem Pan",
-     "url": "https://jovempan.com.br/politica/ebc-nega-ser-responsavel-pela-falta-de-som-em-propaganda-de-flavio-bolsonaro/"
-    }
-   ],
-   "avulsa": true,
-   "pedido": "https://claudiodantas.com.br/ebc-mulher-freixo-propaganda-flavio-sem-audio/"
-  },
-  {
-   "id": "bope-fogo-amigo",
-   "bloco": "Segurança pública",
-   "titulo": "Policiais contra policiais na madrugada de Jacarepaguá",
-   "subtitulo": "Um subtenente do Bope morreu em tiroteio que, ao que tudo indica, nasceu de um engano",
-   "resumo": "Na manhã de domingo (11), o subtenente Gláucio Marcelo, do Bope, morreu baleado na comunidade Gardênia Azul, em Jacarepaguá, no Rio. Segundo informação preliminar de testemunhas, equipes do Bope e do 18º BPM se confundiram e cada lado tomou o outro por criminosos do Comando Vermelho. Os policiais do 18º BPM não sabiam que o Bope atuava na área, e a equipe do Bope estava em viatura descaracterizada. Três outros policiais ficaram feridos e foram levados ao Hospital Municipal Lourenço Jorge, e o caso está com a Delegacia de Homicídios da Capital. O episódio mostra o custo de operações sem coordenação e cobra do governo uma resposta sobre o protocolo que deveria impedir que policiais atirem uns nos outros.",
-   "contexto": [
-    "A ocorrência foi na manhã de 11/10, na comunidade Gardênia Azul, em Jacarepaguá.",
-    "Morreu o subtenente Gláucio Marcelo, do Bope; ficaram feridos dois policiais do Bope e um do 18º BPM.",
-    "A versão de que os agentes se confundiram vem de testemunhas e é preliminar.",
-    "O caso foi registrado na 41ª DP (Tanque) e será conduzido pela Delegacia de Homicídios da Capital.",
-    "O irmão do subtenente, também militar, morreu em outubro de 2025 na Operação Contenção, nos complexos da Penha e do Alemão."
-   ],
-   "angulo": [
-    "Policial que morre por falha de comunicação é vítima de um sistema desorganizado; o programa deve defender respeito e amparo à família antes de qualquer discussão política.",
-    "O governo do estado precisa explicar por que uma equipe do Bope entrou numa área de outro batalhão sem aviso e sem viatura identificada.",
-    "Quem defende segurança pública séria defende também coordenação, treinamento e protocolo claro, que protegem o policial e o morador.",
-    "Esperar a perícia antes de apontar culpados é o certo; mas a investigação deve ser pública e ter prazo."
-   ],
-   "perguntas": [
-    "Que protocolo existe para avisar um batalhão de que outra unidade vai operar na sua área?",
-    "Uma viatura descaracterizada em operação é risco para quem está dentro ou para quem está em volta?",
-    "Que resposta o governo do estado deve à família de um policial que perdeu o irmão há um ano no serviço?"
-   ],
-   "atencao": "A dinâmica ainda depende de investigação: a confusão entre as equipes é versão preliminar de testemunhas. Não atribuir culpa a nenhum policial ou unidade.",
-   "fontes": [
-    {
-     "name": "NC News",
-     "url": "https://ncnews.com.br/?p=60897"
-    }
-   ]
-  },
-  {
-   "id": "mec-ameacas-universidades",
-   "bloco": "Educação",
-   "titulo": "A ameaça que chegou ao campus antes do segundo turno",
-   "subtitulo": "O MEC chamou a PF depois de fogo na UFPE e de recados de violência na UFF",
-   "resumo": "Em 8 de outubro, o ministro da Educação, Leonardo Barchini, anunciou que vai acionar a Diretoria de Combate a Crimes Cibernéticos da PF por causa de ameaças a universidades federais. A UFPE sofreu um incêndio de grandes proporções, com prejuízo estimado em R$ 100 milhões, o terceiro registrado na instituição em oito dias, e a PF já tem inquérito aberto. A UFF informou ter recebido mensagens em aplicativos e redes sociais que falam em incendiar a universidade e agredir estudantes em atos políticos. Barchini disse haver \"uma preocupação grande de que essa violência escale\" e que a universidade é \"um ambiente plural, um ambiente de manifestação política também\". O ponto que o programa deve levantar é que a segurança do campus vale para todos, e o discurso de pluralidade precisa valer também para o estudante que pensa diferente da maioria.",
-   "contexto": [
-    "Em 8/10, o MEC anunciou o acionamento da PF e da AGU, a partir de monitoramento das redes e relatos de estudantes, reitores e professores.",
-    "O incêndio na UFPE foi o terceiro em oito dias, com prejuízo estimado em R$ 100 milhões; a PF já ouviu pessoas consideradas suspeitas.",
-    "A UFF recebeu ameaças de incendiar a universidade e agredir estudantes em atos políticos, e também acionou a PF.",
-    "O MEC vai construir novo prédio para os laboratórios incendiados da UFPE."
-   ],
-   "angulo": [
-    "Ameaça e incêndio são crime e merecem investigação séria, venha de onde vier; o programa não pode relativizar nenhum dos dois.",
-    "Antes de atribuir autoria política, é preciso esperar a PF: no caso da UFPE ainda não há conclusão pública sobre as causas.",
-    "O ministro fala em pluralidade, e o programa deve cobrar que ela valha também quando o ato político no campus não é de esquerda.",
-    "Universidade pública é patrimônio do contribuinte; R$ 100 milhões em laboratório queimado é conta de todos."
-   ],
-   "perguntas": [
-    "Quem investiga, com isenção, três incêndios em oito dias na mesma universidade?",
-    "O mesmo MEC que cobra segurança para atos políticos no campus garante espaço para estudantes de direita?",
-    "Como proteger laboratórios e estudantes sem transformar o campus em área de vigilância?"
-   ],
-   "atencao": "Não afirmar autoria nem motivação política do incêndio na UFPE: a PF apura as causas. Usar \"segundo o MEC\" e \"segundo a UFF\" para as ameaças.",
-   "fontes": [
-    {
-     "name": "Diário de Pernambuco",
-     "url": "https://www.diariodepernambuco.com.br/brasil/2026/10/11726221-mec-ira-pedir-investigacao-de-ameacas-a-universidades-em-redes-sociais.html"
-    }
-   ]
-  },
-  {
-   "id": "petroleo-houthis-bolso",
-   "bloco": "Economia",
-   "titulo": "O barril de US$ 100 que chega ao posto de gasolina",
-   "subtitulo": "Os ataques houthis à Arábia Saudita mantêm o petróleo no patamar de três dígitos",
-   "resumo": "Em 6 de outubro, o Brent fechou a US$ 100,58 o barril, e o WTI, a US$ 89,44, num mercado pressionado pelo conflito entre os houthis do Iêmen e a Arábia Saudita. A Arábia Saudita disse que dois aeroportos foram atacados em 5 de outubro, depois de os houthis afirmarem ter disparado mísseis e drones contra o reino. Em meados de setembro, ataques danificaram o Oleoduto Leste-Oeste, e o Brent chegou a US$ 108, com o mercado temendo perder 4% da oferta mundial. O Departamento de Energia dos EUA elevou a projeção do Brent para 2026, a US$ 96 o barril, enquanto o Irã segue atacando petroleiros em Ormuz. Para o brasileiro, isso quer dizer pressão sobre combustível, frete e inflação, justamente quando o governo pede paciência com os juros.",
-   "contexto": [
-    "Em 6/10, o Brent (contrato de dezembro) fechou a US$ 100,58 e o WTI (contrato de novembro), a US$ 89,44.",
-    "Em 5/10, a Arábia Saudita informou ataque a dois aeroportos, depois de os houthis reivindicarem mísseis e drones contra o reino.",
-    "Em 14/09, o Brent subiu 3,25% e chegou a US$ 108 após ataques que fecharam trechos do Oleoduto Leste-Oeste; o mercado temia afetar 4% da oferta mundial.",
-    "O Departamento de Energia dos EUA projeta Brent a US$ 96 em 2026 e US$ 84 em 2027.",
-    "O trânsito por Ormuz segue restrito, com o Irã atacando petroleiros, segundo analista citado."
-   ],
-   "angulo": [
-    "Petróleo caro é imposto invisível: chega ao diesel, ao frete e ao supermercado, e quem paga é o consumidor, não o governo.",
-    "O Brasil produz petróleo, mas gasolina e diesel dependem de preço internacional; o programa deve cobrar como o governo evita o populismo de segurar preço na marra e quebrar a Petrobras.",
-    "Cenário externo hostil é motivo a mais para responsabilidade fiscal: sem espaço no orçamento, qualquer choque vira inflação.",
-    "As projeções de queda são condicionais ao risco geopolítico; quem promete combustível barato na campanha precisa dizer como."
-   ],
-   "perguntas": [
-    "Quanto do preço do diesel que o brasileiro paga hoje é petróleo caro e quanto é imposto?",
-    "O governo deve segurar o preço do combustível ou deixar o mercado ajustar?",
-    "A que preço do barril o Banco Central e a Fazenda estão trabalhando nas contas de 2027?"
-   ],
-   "atencao": "Os preços citados são fechamentos de 6/10 e de setembro, não de hoje; confirmar a cotação do dia antes de falar no ar.",
-   "fontes": [
-    {
-     "name": "Diário do Grande ABC",
-     "url": "https://www.dgabc.com.br/Noticia/4351274/petroleo-fecha-em-leve-alta-com-tensoes-no-mar-vermelho-e-aumento-da-oferta"
+      "id": "bope-fogo-amigo",
+      "bloco": "Segurança pública",
+      "titulo": "Policiais contra policiais na madrugada de Jacarepaguá",
+      "subtitulo": "Um subtenente do Bope morreu em tiroteio que, ao que tudo indica, nasceu de um engano",
+      "resumo": "Na manhã de domingo (11), o subtenente Gláucio Marcelo, do Bope, morreu baleado na comunidade Gardênia Azul, em Jacarepaguá, no Rio. Segundo informação preliminar de testemunhas, equipes do Bope e do 18º BPM se confundiram e cada lado tomou o outro por criminosos do Comando Vermelho. Os policiais do 18º BPM não sabiam que o Bope atuava na área, e a equipe do Bope estava em viatura descaracterizada. Três outros policiais ficaram feridos e foram levados ao Hospital Municipal Lourenço Jorge, e o caso está com a Delegacia de Homicídios da Capital. O episódio mostra o custo de operações sem coordenação e cobra do governo uma resposta sobre o protocolo que deveria impedir que policiais atirem uns nos outros.",
+      "contexto": [
+        "A ocorrência foi na manhã de 11/10, na comunidade Gardênia Azul, em Jacarepaguá.",
+        "Morreu o subtenente Gláucio Marcelo, do Bope; ficaram feridos dois policiais do Bope e um do 18º BPM.",
+        "A versão de que os agentes se confundiram vem de testemunhas e é preliminar.",
+        "O caso foi registrado na 41ª DP (Tanque) e será conduzido pela Delegacia de Homicídios da Capital.",
+        "O irmão do subtenente, também militar, morreu em outubro de 2025 na Operação Contenção, nos complexos da Penha e do Alemão."
+      ],
+      "angulo": [
+        "Policial que morre por falha de comunicação é vítima de um sistema desorganizado; o programa deve defender respeito e amparo à família antes de qualquer discussão política.",
+        "O governo do estado precisa explicar por que uma equipe do Bope entrou numa área de outro batalhão sem aviso e sem viatura identificada.",
+        "Quem defende segurança pública séria defende também coordenação, treinamento e protocolo claro, que protegem o policial e o morador.",
+        "Esperar a perícia antes de apontar culpados é o certo; mas a investigação deve ser pública e ter prazo."
+      ],
+      "perguntas": [
+        "Que protocolo existe para avisar um batalhão de que outra unidade vai operar na sua área?",
+        "Uma viatura descaracterizada em operação é risco para quem está dentro ou para quem está em volta?",
+        "Que resposta o governo do estado deve à família de um policial que perdeu o irmão há um ano no serviço?"
+      ],
+      "atencao": "A dinâmica ainda depende de investigação: a confusão entre as equipes é versão preliminar de testemunhas. Não atribuir culpa a nenhum policial ou unidade.",
+      "fontes": [
+        {
+          "name": "NC News",
+          "url": "https://ncnews.com.br/?p=60897"
+        }
+      ]
     },
     {
-     "name": "Diário de Pernambuco",
-     "url": "https://www.diariodepernambuco.com.br/mundo/2026/09/11723890-petroleo-dispara-apos-ataques-dos-houthis-a-oleoduto-saudita.html"
+      "id": "mec-ameacas-universidades",
+      "bloco": "Educação",
+      "titulo": "A ameaça que chegou ao campus antes do segundo turno",
+      "subtitulo": "O MEC chamou a PF depois de fogo na UFPE e de recados de violência na UFF",
+      "resumo": "Em 8 de outubro, o ministro da Educação, Leonardo Barchini, anunciou que vai acionar a Diretoria de Combate a Crimes Cibernéticos da PF por causa de ameaças a universidades federais. A UFPE sofreu um incêndio de grandes proporções, com prejuízo estimado em R$ 100 milhões, o terceiro registrado na instituição em oito dias, e a PF já tem inquérito aberto. A UFF informou ter recebido mensagens em aplicativos e redes sociais que falam em incendiar a universidade e agredir estudantes em atos políticos. Barchini disse haver \"uma preocupação grande de que essa violência escale\" e que a universidade é \"um ambiente plural, um ambiente de manifestação política também\". O ponto que o programa deve levantar é que a segurança do campus vale para todos, e o discurso de pluralidade precisa valer também para o estudante que pensa diferente da maioria.",
+      "contexto": [
+        "Em 8/10, o MEC anunciou o acionamento da PF e da AGU, a partir de monitoramento das redes e relatos de estudantes, reitores e professores.",
+        "O incêndio na UFPE foi o terceiro em oito dias, com prejuízo estimado em R$ 100 milhões; a PF já ouviu pessoas consideradas suspeitas.",
+        "A UFF recebeu ameaças de incendiar a universidade e agredir estudantes em atos políticos, e também acionou a PF.",
+        "O MEC vai construir novo prédio para os laboratórios incendiados da UFPE."
+      ],
+      "angulo": [
+        "Ameaça e incêndio são crime e merecem investigação séria, venha de onde vier; o programa não pode relativizar nenhum dos dois.",
+        "Antes de atribuir autoria política, é preciso esperar a PF: no caso da UFPE ainda não há conclusão pública sobre as causas.",
+        "O ministro fala em pluralidade, e o programa deve cobrar que ela valha também quando o ato político no campus não é de esquerda.",
+        "Universidade pública é patrimônio do contribuinte; R$ 100 milhões em laboratório queimado é conta de todos."
+      ],
+      "perguntas": [
+        "Quem investiga, com isenção, três incêndios em oito dias na mesma universidade?",
+        "O mesmo MEC que cobra segurança para atos políticos no campus garante espaço para estudantes de direita?",
+        "Como proteger laboratórios e estudantes sem transformar o campus em área de vigilância?"
+      ],
+      "atencao": "Não afirmar autoria nem motivação política do incêndio na UFPE: a PF apura as causas. Usar \"segundo o MEC\" e \"segundo a UFF\" para as ameaças.",
+      "fontes": [
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://www.diariodepernambuco.com.br/brasil/2026/10/11726221-mec-ira-pedir-investigacao-de-ameacas-a-universidades-em-redes-sociais.html"
+        }
+      ]
+    },
+    {
+      "id": "petroleo-houthis-bolso",
+      "bloco": "Economia",
+      "titulo": "O barril de US$ 100 que chega ao posto de gasolina",
+      "subtitulo": "Os ataques houthis à Arábia Saudita mantêm o petróleo no patamar de três dígitos",
+      "resumo": "Em 6 de outubro, o Brent fechou a US$ 100,58 o barril, e o WTI, a US$ 89,44, num mercado pressionado pelo conflito entre os houthis do Iêmen e a Arábia Saudita. A Arábia Saudita disse que dois aeroportos foram atacados em 5 de outubro, depois de os houthis afirmarem ter disparado mísseis e drones contra o reino. Em meados de setembro, ataques danificaram o Oleoduto Leste-Oeste, e o Brent chegou a US$ 108, com o mercado temendo perder 4% da oferta mundial. O Departamento de Energia dos EUA elevou a projeção do Brent para 2026, a US$ 96 o barril, enquanto o Irã segue atacando petroleiros em Ormuz. Para o brasileiro, isso quer dizer pressão sobre combustível, frete e inflação, justamente quando o governo pede paciência com os juros.",
+      "contexto": [
+        "Em 6/10, o Brent (contrato de dezembro) fechou a US$ 100,58 e o WTI (contrato de novembro), a US$ 89,44.",
+        "Em 5/10, a Arábia Saudita informou ataque a dois aeroportos, depois de os houthis reivindicarem mísseis e drones contra o reino.",
+        "Em 14/09, o Brent subiu 3,25% e chegou a US$ 108 após ataques que fecharam trechos do Oleoduto Leste-Oeste; o mercado temia afetar 4% da oferta mundial.",
+        "O Departamento de Energia dos EUA projeta Brent a US$ 96 em 2026 e US$ 84 em 2027.",
+        "O trânsito por Ormuz segue restrito, com o Irã atacando petroleiros, segundo analista citado."
+      ],
+      "angulo": [
+        "Petróleo caro é imposto invisível: chega ao diesel, ao frete e ao supermercado, e quem paga é o consumidor, não o governo.",
+        "O Brasil produz petróleo, mas gasolina e diesel dependem de preço internacional; o programa deve cobrar como o governo evita o populismo de segurar preço na marra e quebrar a Petrobras.",
+        "Cenário externo hostil é motivo a mais para responsabilidade fiscal: sem espaço no orçamento, qualquer choque vira inflação.",
+        "As projeções de queda são condicionais ao risco geopolítico; quem promete combustível barato na campanha precisa dizer como."
+      ],
+      "perguntas": [
+        "Quanto do preço do diesel que o brasileiro paga hoje é petróleo caro e quanto é imposto?",
+        "O governo deve segurar o preço do combustível ou deixar o mercado ajustar?",
+        "A que preço do barril o Banco Central e a Fazenda estão trabalhando nas contas de 2027?"
+      ],
+      "atencao": "Os preços citados são fechamentos de 6/10 e de setembro, não de hoje; confirmar a cotação do dia antes de falar no ar.",
+      "fontes": [
+        {
+          "name": "Diário do Grande ABC",
+          "url": "https://www.dgabc.com.br/Noticia/4351274/petroleo-fecha-em-leve-alta-com-tensoes-no-mar-vermelho-e-aumento-da-oferta"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://www.diariodepernambuco.com.br/mundo/2026/09/11723890-petroleo-dispara-apos-ataques-dos-houthis-a-oleoduto-saudita.html"
+        }
+      ]
     }
-   ]
-  }
- ],
- "excluidos": [
-  {
-   "titulo": "O exército que ganhou 3 milhões em cinco dias e foi desligado",
-   "em": "2026-10-13T11:11:02-03:00"
-  },
-  {
-   "titulo": "Os 274 mil votos que podem acabar com o segundo turno no Rio",
-   "em": "2026-10-13T11:11:15-03:00"
-  },
-  {
-   "titulo": "Um celular, quatro policiais e 45 tiros em Moema",
-   "em": "2026-10-13T11:11:26-03:00"
-  }
- ]
+  ],
+  "excluidos": [
+    {
+      "titulo": "O exército que ganhou 3 milhões em cinco dias e foi desligado",
+      "em": "2026-10-13T11:11:02-03:00"
+    },
+    {
+      "titulo": "Os 274 mil votos que podem acabar com o segundo turno no Rio",
+      "em": "2026-10-13T11:11:15-03:00"
+    },
+    {
+      "titulo": "Um celular, quatro policiais e 45 tiros em Moema",
+      "em": "2026-10-13T11:11:26-03:00"
+    }
+  ],
+  "atualizado": "2026-10-13T11:11:50-03:00"
 }
