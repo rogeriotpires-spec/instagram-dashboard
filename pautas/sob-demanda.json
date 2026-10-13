@@ -1,6 +1,89 @@
 {
   "items": [
     {
+      "requested": "2026-10-13",
+      "done": "2026-10-13T06:14:20-03:00",
+      "issue": 32,
+      "slot_hint": "Reel hoje (13) às 12h e imagem às 20h.",
+      "source": {
+        "edition": "programa/2026-10-13",
+        "item_id": "propaganda-flavio-sem-audio",
+        "title": "O programa que foi ao ar mudo no feriado"
+      },
+      "options": [
+        {
+          "type": "r",
+          "title": "Dois programas sem som e só um consertado a tempo. Quem explica?",
+          "tone": "contundente",
+          "duration": "30 a 45s",
+          "fact": "Na segunda-feira (12), feriado de Nossa Senhora Aparecida, a propaganda eleitoral de Flávio Bolsonaro foi ao ar por volta das 13h com imagem e sem áudio, segundo o Metrópoles e a Jovem Pan. A de Lula, exibida em seguida, saiu com som. O SBT News apontou a EBC, mas o SBT reconheceu o erro, e a EBC nega responsabilidade e diz que a exibição cabe ao pool de emissoras. Abert e Astral afirmam que o arquivo chegou em perfeitas condições e falam em problema no processamento da mídia. O TSE atribuiu a falha a problema técnico no carregamento das mídias, disse que os áudios das duas propagandas não foram carregados, que houve tempo de corrigir a de Lula e que a de Flávio será reexibida. A campanha do PL acionou o TSE. A causa ainda não foi explicada oficialmente, a duas semanas do segundo turno.",
+          "sources": [
+            {
+              "name": "Metrópoles",
+              "url": "https://metropoles.com/brasil/emissoras-apontam-falha-tecnica-no-processamento-de-propaganda-de-flavio"
+            },
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/politica/ebc-nega-ser-responsavel-pela-falta-de-som-em-propaganda-de-flavio-bolsonaro/"
+            }
+          ],
+          "hooks": [
+            "A propaganda de Flávio foi ao ar sem som, e a de Lula foi consertada a tempo.",
+            "Dois programas sem áudio. Um deles foi corrigido antes de ir ao ar.",
+            "A duas semanas do segundo turno, ninguém explica por que o programa de Flávio saiu mudo."
+          ],
+          "script": "No feriado, segunda-feira, dia 12, a propaganda de Flávio Bolsonaro foi ao ar por volta das 13h com imagem e sem nenhum áudio. A de Lula, em seguida, saiu com som normal. O SBT culpou a EBC e depois reconheceu o erro. A EBC nega e diz que a exibição é do pool de emissoras. Abert e Astral dizem que o arquivo chegou em perfeitas condições. E o TSE afirma que foi problema técnico no carregamento: os áudios das duas propagandas não foram carregados, mas deu tempo de corrigir só a de Lula. A de Flávio vai ser reexibida. Reexibir é o mínimo. A causa ainda não foi explicada oficialmente, e a gente quer saber quem tinha a obrigação de conferir e por que a correção chegou para um lado só. Que o TSE publique o laudo. Você acha que isso foi só falha técnica? Comenta aqui.",
+          "screen_text": [
+            "Propaganda de Flávio saiu sem áudio",
+            "A de Lula, com som",
+            "TSE: falha técnica no carregamento",
+            "Só a de Lula foi corrigida a tempo",
+            "Quem conferiu? Cadê o laudo?"
+          ],
+          "caption": "Propaganda de Flávio sem som no feriado, e só a de Lula corrigida a tempo. O TSE fala em falha técnica. Quem conferiu? Comenta.",
+          "risk": "médio",
+          "risk_note": "Falar em cobrança de explicação, perícia e laudo. Não afirmar fraude nem atribuir dolo à EBC ou a Antonia Pellegrino; o dado sobre o casamento dela vem só do blog de Claudio Dantas e ficou de fora do roteiro. Fontes abertas: Metrópoles e Jovem Pan; Claudio Dantas não foi aberto.",
+          "timeline": {
+            "rende": true,
+            "angle": "Postar o reel hoje e retomar quando saírem o laudo do TSE e a posição da Abert."
+          }
+        },
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Os dois programas sem som. Só um foi consertado a tempo",
+          "tone": "contundente, com pergunta",
+          "duration": "imagem única",
+          "fact": "Na segunda-feira (12), feriado de Nossa Senhora Aparecida, a propaganda eleitoral de Flávio Bolsonaro foi ao ar por volta das 13h com imagem e sem áudio, segundo o Metrópoles e a Jovem Pan. A de Lula, exibida em seguida, saiu com som. O SBT News apontou a EBC, mas o SBT reconheceu o erro, e a EBC nega responsabilidade e diz que a exibição cabe ao pool de emissoras. Abert e Astral afirmam que o arquivo chegou em perfeitas condições e falam em problema no processamento da mídia. O TSE atribuiu a falha a problema técnico no carregamento das mídias, disse que os áudios das duas propagandas não foram carregados, que houve tempo de corrigir a de Lula e que a de Flávio será reexibida. A campanha do PL acionou o TSE. A causa ainda não foi explicada oficialmente, a duas semanas do segundo turno.",
+          "sources": [
+            {
+              "name": "Metrópoles",
+              "url": "https://metropoles.com/brasil/emissoras-apontam-falha-tecnica-no-processamento-de-propaganda-de-flavio"
+            },
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/politica/ebc-nega-ser-responsavel-pela-falta-de-som-em-propaganda-de-flavio-bolsonaro/"
+            }
+          ],
+          "art_text": [
+            "Propaganda de Flávio foi ao ar sem som",
+            "Quem conferiu o áudio?",
+            "Causa ainda sem explicação oficial",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Flávio Bolsonaro (candidato cuja propaganda saiu sem áudio), relação direta com a notícia, em pose séria diante de uma TV. Sem sugerir fraude nem mostrar ação inventada. Risco médio: o TSE fala em falha técnica; a arte cobra explicação, não afirma manipulação.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Flávio Bolsonaro (candidato, terno escuro) de braços cruzados, com expressão séria e desconfiada, olhando para uma TV antiga de tubo à sua frente, cuja tela mostra uma imagem com um ícone de alto-falante cortado por um X vermelho. Ao fundo, em plano menor, uma mesa vazia com um microfone desligado. No alto, em branco, letras condensadas e muito pesadas: \"Propaganda de Flávio foi ao ar sem som\". Em quadro amarelo com letras pretas: \"Quem conferiu o áudio?\". Embaixo, com sublinhado vermelho pincelado, em branco: \"Causa ainda sem explicação oficial\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essa pessoa, use silhueta reconhecível pelo contexto e mantenha o resto da composição.",
+          "caption": "A propaganda de Flávio foi ao ar sem som no feriado. O TSE fala em falha técnica e diz que só a de Lula foi corrigida a tempo. Quem tinha de conferir? Comenta.",
+          "risk": "médio",
+          "risk_note": "Não afirmar fraude nem dolo. Atribuir cada versão a quem falou (TSE, Abert, Astral, EBC, campanha do PL). Cobrar explicação e laudo, sem acusar a EBC ou sua presidente.",
+          "timeline": {
+            "rende": true,
+            "angle": "Desdobrar quando o TSE ou a Abert divulgarem a causa, e acompanhar a reexibição da propaganda de Flávio."
+          }
+        }
+      ]
+    },
+    {
       "requested": "2026-10-12",
       "done": "2026-10-12T21:37:02-03:00",
       "issue": 30,
