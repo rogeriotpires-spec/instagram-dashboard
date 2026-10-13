@@ -2,8 +2,8 @@
   "date": "2026-10-13",
   "generated": "2026-10-13T10:12:08-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "A anistia de Pazuello, o programa mudo e a segurança que não fecha a conta",
-  "abertura": "A pauta abre com a propaganda de Flávio Bolsonaro que foi ao ar sem som no feriado, sem que ninguém explique a causa, e com a proposta de Pazuello de uma anistia que alcance até quem prendeu, Moraes inclusive. Na segurança pública, policiais aparecem como alvo e como autores de disparos, do fogo amigo em Jacarepaguá às ameaças que chegam às universidades. Fecha o dia o petróleo a US\\$ 100 e o peso dele no preço da gasolina.",
+  "titulo": "O programa mudo, a anistia para quem prendeu e o pedido contra Moraes que morreu na porta: quem responde por quê?",
+  "abertura": "A pauta abre com a propaganda de Flávio Bolsonaro que foi ao ar sem som no feriado, sem que ninguém explique a causa, e com a proposta de Pazuello de uma anistia que alcance até quem prendeu, Moraes inclusive. Na mesma linha, Fachin arquivou sem olhar o mérito o pedido para investigar e afastar Moraes por causa das mensagens com Vorcaro, e a pergunta é quem fiscaliza quem. Na segurança pública, policiais aparecem como alvo e como autores de disparos, do fogo amigo em Jacarepaguá às ameaças que chegam às universidades. Fecha o dia o petróleo a US\\$ 100 e o peso dele no preço da gasolina.",
   "agenda": [],
   "itens": [
     {
@@ -84,6 +84,48 @@
       ],
       "avulsa": true,
       "pedido": "https://agendadopoder.com.br/pazuello-defende-anistia-para-moraes-e-preve-jair-bolsonaro-livre-em-eventual-governo-flavio/"
+    },
+    {
+      "id": "fachin-arquiva-pedido-moraes",
+      "bloco": "STF e instituições",
+      "titulo": "O pedido contra Moraes que morreu na porta",
+      "subtitulo": "Fachin arquivou sem olhar as acusações, e a pergunta é quem pode, afinal, pedir que o STF investigue um ministro",
+      "resumo": "O presidente do STF, Edson Fachin, arquivou na sexta-feira (9) o pedido dos advogados Paulo Faria e Filipe de Oliveira para investigar e afastar o ministro Alexandre de Moraes, apresentado cerca de sete meses antes. O pedido se baseava em reportagens sobre mensagens trocadas entre Moraes e Daniel Vorcaro, ex-dono do Banco Master, e em um contrato de cerca de R$ 130 milhões ligado ao banco. Fachin não analisou as acusações: considerou que os autores não têm legitimidade para levar o pedido diretamente à Corte, chamou o requerimento de inviável e registrou que a decisão é final. A decisão vale só para esse pedido e não encerra a apuração da Polícia Federal sobre as mensagens do celular de Vorcaro, que Fachin marcou para tratar com a PF. O que está em jogo é a confiança do cidadão num tribunal que, até aqui, não respondeu sobre o mérito de nenhuma das dúvidas levantadas contra um de seus ministros.",
+      "contexto": [
+        "Fachin arquivou o pedido em 9/10; a decisão foi divulgada em 12/10 (Revista Oeste, Diário 360).",
+        "Os autores, Paulo Faria e Filipe de Oliveira, pediram a investigação e o afastamento de Moraes durante a apuração, citando mensagens com Vorcaro e um contrato de cerca de R$ 130 milhões (a Oeste cita R$ 129 milhões em outro trecho).",
+        "O fundamento foi a falta de legitimidade: Fachin citou decisões anteriores do STF de que o cidadão não pode pedir diretamente à Corte a investigação de crimes que cabem ao Ministério Público.",
+        "O mérito das acusações não foi analisado, e as acusações são alegações dos autores, não apuradas pelo STF.",
+        "O caso Master segue em outros procedimentos: segundo a Folha, Fachin marcou reunião com a PF sobre as menções a ministros no celular de Vorcaro, e a análise conjunta de duas petições, incluindo a 16.662, está suspensa por pedido de vista de Flávio Dino (Quenty, com base no STF)."
+      ],
+      "angulo": [
+        "O arquivamento por ilegitimidade é tecnicamente possível, mas deixa um vazio: se o cidadão não pode pedir, e o Ministério Público não pede, quem fiscaliza um ministro do Supremo? O programa deve defender que o tribunal mostre o caminho.",
+        "Sete meses de espera para uma resposta que não entra no mérito alimenta a ideia de um tribunal fechado à fiscalização externa, e quem perde é a credibilidade da própria Corte.",
+        "A resposta de verdade virá da apuração da PF sobre as mensagens de Vorcaro, e o programa deve cobrar que ela seja pública e que Moraes explique o contrato com a mesma transparência que exige dos outros.",
+        "Arquivar um pedido não prova inocência: a conversa precisa separar o que foi decidido (a forma) do que segue sem resposta (os fatos)."
+      ],
+      "perguntas": [
+        "Se o cidadão não pode pedir ao STF que investigue um ministro, qual é o caminho real de fiscalização do Judiciário?",
+        "O que a decisão de Fachin muda, na prática, para a apuração da PF sobre as mensagens no celular de Vorcaro?",
+        "Um ministro citado em mensagens e contratos deveria se declarar impedido enquanto as dúvidas não são esclarecidas?"
+      ],
+      "atencao": "Moraes não é investigado nem condenado nesse pedido: as acusações são alegações dos autores, não analisadas por Fachin, e a Oeste não traz manifestação de Moraes. Moraes nega favorecimento a Vorcaro em outras matérias. Datas e valores (R$ 129 ou 130 milhões) variam entre as fontes; use \"cerca de R$ 130 milhões\".",
+      "fontes": [
+        {
+          "name": "Diário 360",
+          "url": "https://diario360.com.br/2026/10/12/fachin-blinda-moraes-e-arquiva-pedido-de-investigacao-sobre-mensagens-e-contrato-de-r-130-milhoes/"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/fachin-arquiva-pedido-de-investigacao-e-afastamento-de-moraes-do-cargo/"
+        },
+        {
+          "name": "Quenty",
+          "url": "https://quenty.com.br/resumo/13-outubro-2026/fachin-arquiva-pedido-contra-moraes-mas-decisao-nao-encerra-caso-master"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "https://diario360.com.br/2026/10/12/fachin-blinda-moraes-e-arquiva-pedido-de-investigacao-sobre-mensagens-e-contrato-de-r-130-milhoes/"
     },
     {
       "id": "bope-fogo-amigo",
@@ -199,5 +241,5 @@
       "em": "2026-10-13T11:11:26-03:00"
     }
   ],
-  "atualizado": "2026-10-13T11:11:50-03:00"
+  "atualizado": "2026-10-13T11:17:00-03:00"
 }
