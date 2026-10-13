@@ -2,6 +2,87 @@
   "items": [
     {
       "requested": "2026-10-13",
+      "done": "2026-10-13T09:10:00-03:00",
+      "issue": 33,
+      "slot_hint": "Imagem hoje (13) às 12h, antes ou durante a cirurgia, e reel às 20h com o desfecho se houver boletim.",
+      "source": {
+        "edition": "2026-10-13-06h",
+        "item_id": "papa-cirurgia-gemelli",
+        "title": "Papa Leão XIV será operado nesta terça (13); Argentina aceitaria mudar a data da visita"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "O papa vai para a cirurgia e a visita à Argentina pode mudar",
+          "tone": "sóbrio, respeitoso",
+          "duration": "imagem única",
+          "fact": "O papa Leão XIV será operado nesta terça-feira (13) no hospital Gemelli, em Roma, segundo O Globo. Segundo a edição anterior do painel e veículos argentinos, o motivo é a retirada de um nódulo no pulmão, detectado em fase inicial; o Correio Braziliense informa que os médicos agiram rapidamente. A CNN Brasil diz que a Argentina aceitaria mudar a data da visita do papa por causa da cirurgia. Não há confirmação, nas fontes consultadas, de que o nódulo seja maligno.",
+          "sources": [
+            {
+              "name": "O Globo",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQlZKVkwxTlA3eTBDb3ZFQ0lxejBPXzBnektndi0xRVpYQlRaMklnX3hpd2xQUGNHWVhjTEtVVVVsV2RtMlBQNTlzNTB1XzhyWXBXU085dnBrTHhBY2hhWXd3QUFmZWR4ZmVjSzR4LU5sTGotZmRBajJkUlVFM3A4QmMySTJpdGljYnhRdkNqamxqWWJfRU1SUEgzclE3ZVhEQ0hIeHVsTlA2UjhzRUdCdWVZenFReDd4bmI4aGNvOFnSAdIBQVVfeXFMTjRMcmtKYlB3a3ltNU1xTmd2dkxsR3pGeDhkbGozUTBTcFFpX3J5OXlKOE1FaHktejlIVDNoRjJjeU96Q2piSFBxWU13c1hKaldOSHpVLThOM0pTTjFiaGY4a0FXaGRvXzNlQThpRm9HcFkyNG5wS3hGQUU0TDN2SFJtSk95M013TmtmOWFsLWhBekFKTEJBejl1ZnpScllLd0hLLUVXUzdXb3o5VW02bGI4OFhIb0l5NG00c3V5aU0zV2JIdWVXMG1KbTZBdjdUM2pR?oc=5"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdjIwQ0R4VGh2ZW9fUE52NWMwdkxtQjBoNHpfS2hqbnFIc1RvaUVRX293YWdyYWd5dnNoSi1oUktHQjh5c0N1N3oycjFmWkFCVDFiSGVESEdvZGpraW5udjZkeDg0TF9NUnItTzZOb3IxUUpyZGMyWlBoSkZETkJXT2d1OTZzX0pQRU9OQXRvNGdwcHpUNHRZRWxxczZDSWdUa3NpZ0xoaHRFRDdhU2IxRm8wOXRyQQ?oc=5"
+            }
+          ],
+          "art_text": [
+            "Papa Leão XIV é operado hoje",
+            "Visita à Argentina pode mudar de data",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Papa Leão XIV, figura central da notícia. Ilustração estilo charge, de perfil e em pose serena, sem mostrar doença, maca ou sofrimento. Risco baixo.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, o papa Leão XIV com batina branca, de pé e sereno, mãos unidas, olhar firme. Ao fundo, a silhueta da Basílica de São Pedro e, menor, um mapa estilizado da América do Sul com a Argentina destacada em ocre. No alto, em branco, letras condensadas e muito pesadas: \"Papa Leão XIV é operado hoje\". Em quadro amarelo com letras pretas: \"Visita à Argentina pode mudar de data\". Embaixo, com sublinhado vermelho pincelado, em branco: \"Oração por ele\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essa pessoa, use silhueta reconhecível pelo contexto e mantenha o resto da composição.",
+          "caption": "O papa Leão XIV será operado hoje em Roma, e a Argentina aceitaria mudar a data da visita. Que a recuperação seja rápida. Deixe sua oração nos comentários.",
+          "risk": "baixo",
+          "risk_note": "Tema de saúde e religião: tom respeitoso, sem especular sobre gravidade, diagnóstico ou sucessão. Não afirmar que o nódulo é maligno. Não abrir os links do Google News (retornam página vazia); fatos atribuídos aos veículos conforme o resumo do pedido e a busca na web. Se a data da visita mudar, atualize antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Retomar quando sair o boletim médico do Vaticano e quando a nova data da visita à Argentina for definida."
+          }
+        },
+        {
+          "type": "r",
+          "title": "O papa vai ser operado hoje. E a viagem à Argentina?",
+          "tone": "sóbrio, respeitoso",
+          "duration": "30s",
+          "fact": "O papa Leão XIV será operado nesta terça-feira (13) no hospital Gemelli, em Roma, segundo O Globo. Segundo a edição anterior do painel e veículos argentinos, o motivo é a retirada de um nódulo no pulmão, detectado em fase inicial; o Correio Braziliense informa que os médicos agiram rapidamente. A CNN Brasil diz que a Argentina aceitaria mudar a data da visita do papa por causa da cirurgia. Não há confirmação, nas fontes consultadas, de que o nódulo seja maligno.",
+          "sources": [
+            {
+              "name": "O Globo",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQlZKVkwxTlA3eTBDb3ZFQ0lxejBPXzBnektndi0xRVpYQlRaMklnX3hpd2xQUGNHWVhjTEtVVVVsV2RtMlBQNTlzNTB1XzhyWXBXU085dnBrTHhBY2hhWXd3QUFmZWR4ZmVjSzR4LU5sTGotZmRBajJkUlVFM3A4QmMySTJpdGljYnhRdkNqamxqWWJfRU1SUEgzclE3ZVhEQ0hIeHVsTlA2UjhzRUdCdWVZenFReDd4bmI4aGNvOFnSAdIBQVVfeXFMTjRMcmtKYlB3a3ltNU1xTmd2dkxsR3pGeDhkbGozUTBTcFFpX3J5OXlKOE1FaHktejlIVDNoRjJjeU96Q2piSFBxWU13c1hKaldOSHpVLThOM0pTTjFiaGY4a0FXaGRvXzNlQThpRm9HcFkyNG5wS3hGQUU0TDN2SFJtSk95M013TmtmOWFsLWhBekFKTEJBejl1ZnpScllLd0hLLUVXUzdXb3o5VW02bGI4OFhIb0l5NG00c3V5aU0zV2JIdWVXMG1KbTZBdjdUM2pR?oc=5"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdjIwQ0R4VGh2ZW9fUE52NWMwdkxtQjBoNHpfS2hqbnFIc1RvaUVRX293YWdyYWd5dnNoSi1oUktHQjh5c0N1N3oycjFmWkFCVDFiSGVESEdvZGpraW5udjZkeDg0TF9NUnItTzZOb3IxUUpyZGMyWlBoSkZETkJXT2d1OTZzX0pQRU9OQXRvNGdwcHpUNHRZRWxxczZDSWdUa3NpZ0xoaHRFRDdhU2IxRm8wOXRyQQ?oc=5"
+            }
+          ],
+          "hooks": [
+            "O papa Leão XIV será operado hoje em Roma.",
+            "A Argentina aceitaria mudar a data da visita do papa.",
+            "Um nódulo no pulmão levou o papa à sala de cirurgia."
+          ],
+          "script": "O papa Leão XIV será operado hoje, terça-feira, dia 13, no hospital Gemelli, em Roma, segundo O Globo. Os veículos informam que o motivo é a retirada de um nódulo no pulmão, detectado cedo. O Correio Braziliense diz que os médicos agiram rápido. E a CNN Brasil informa que a Argentina aceitaria mudar a data da visita do papa por causa da cirurgia. Ainda não há confirmação sobre a natureza do nódulo, então a hora é de cautela e de oração. Na véspera, ele ainda citou Nossa Senhora numa missa em português, segundo o Metrópoles. Você vai rezar pelo papa hoje? Comenta aqui.",
+          "screen_text": [
+            "Papa Leão XIV será operado hoje",
+            "Hospital Gemelli, em Roma",
+            "Argentina aceitaria mudar a data da visita",
+            "Sem boletim final ainda"
+          ],
+          "caption": "O papa Leão XIV será operado hoje em Roma e a visita à Argentina pode mudar de data. Vamos acompanhar. Comenta sua oração.",
+          "risk": "baixo",
+          "risk_note": "Tema de saúde e religião: tom respeitoso, sem especular sobre gravidade, diagnóstico ou sucessão. Não afirmar que o nódulo é maligno. Não abrir os links do Google News (retornam página vazia); fatos atribuídos aos veículos conforme o resumo do pedido e a busca na web. Se a data da visita mudar, atualize antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Postar hoje e fazer atualização com o boletim médico e a nova data da visita."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-13",
       "done": "2026-10-13T06:14:20-03:00",
       "issue": 32,
       "slot_hint": "Reel hoje (13) às 12h e imagem às 20h.",
