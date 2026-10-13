@@ -2,6 +2,154 @@
   "items": [
     {
       "requested": "2026-10-12",
+      "done": "2026-10-12T21:37:02-03:00",
+      "issue": 30,
+      "slot_hint": "Imagem hoje (12) às 20h e reel na terça (13) às 12h.",
+      "source": {
+        "edition": "2026-10-12-12h",
+        "item_id": "moraes-visitas-flavio",
+        "title": "Moraes autoriza Flávio Bolsonaro a retomar visitas a Jair Bolsonaro após 90 dias, com veto a manifestações políticas"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Noventa dias depois, o filho volta a ver o pai. Mas com mordaça",
+          "tone": "contundente",
+          "duration": "imagem única",
+          "fact": "O ministro Alexandre de Moraes, do STF, autorizou nesta segunda (12) que o senador Flávio Bolsonaro volte a visitar o pai, Jair Bolsonaro, que cumpre prisão domiciliar. As visitas estavam proibidas havia 90 dias. A decisão mantém o veto à divulgação de manifestações políticas durante os encontros. Segundo o UOL, a defesa de Bolsonaro já havia comunicado a Moraes o retorno das visitas. A autorização sai a 13 dias do segundo turno, em 25 de outubro.",
+          "sources": [
+            {
+              "name": "UOL",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWmxBY1BRUGZRcXp1SFNYdEZra1FoSlBnNi1QdmpNNjk4d3FzTXMwUW1XbjllN25FejVNRG1rN1JkTG13SFQwOVR2N0R4NXBxYklYSkVKWkRURGxLY2QwNFJ6VFBJRzJOUUprY201RUhHTHByTmtwOWxjMzBmSkxwUGdxSmlSZm1qWnJSNWZHUWVSZHlYeXRnZHNtaE1MV3BrTHkwcklVVzdnSDlDX2tkMk9lWHdWMkhPbGVwOVpSMXg0Z2NJd1pjQQ?oc=5"
+            }
+          ],
+          "art_text": [
+            "90 dias sem ver o pai",
+            "Visita liberada, política proibida",
+            "Segundo turno em 25/10",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Alexandre de Moraes (decisão) e Flávio Bolsonaro (senador autorizado a visitar o pai), relação direta com a notícia. Ilustração estilo charge, sem mostrar prisão, algema ou ação inventada. Risco médio: não sugerir que a visita é irregular.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Flávio Bolsonaro (senador, terno escuro) parado diante de uma porta de casa, com expressão séria e contida, e, ao fundo, em plano menor, Alexandre de Moraes (ministro do STF, toga preta) de braços cruzados, olhando de lado. Elemento simbólico: um cadeado aberto sobre a porta e uma fita adesiva sobre um balão de fala vazio. No alto, em branco, letras condensadas e muito pesadas: \"90 dias sem ver o pai\". Em quadro amarelo com letras pretas: \"Visita liberada, política proibida\". Embaixo, com sublinhado vermelho pincelado, em branco: \"Segundo turno em 25/10\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Moraes liberou a volta das visitas de Flávio a Bolsonaro depois de 90 dias, mas manteve o veto a manifestações políticas. A 13 dias do segundo turno, o que você acha da decisão? Comenta.",
+          "risk": "médio",
+          "risk_note": "Atribuir os fatos à decisão de Moraes e ao UOL; não insinuar irregularidade na visita nem antecipar efeito eleitoral. Fonte aberta apenas pelo resumo do pedido (link do UOL não abriu).",
+          "timeline": {
+            "rende": true,
+            "angle": "Pergunta sobre o limite de uma restrição a manifestações políticas dentro de prisão domiciliar, ligada ao calendário do segundo turno."
+          }
+        },
+        {
+          "type": "r",
+          "title": "Visita liberada, boca fechada: a decisão de Moraes",
+          "tone": "contundente",
+          "duration": "30 a 45s",
+          "fact": "O ministro Alexandre de Moraes, do STF, autorizou nesta segunda (12) que o senador Flávio Bolsonaro volte a visitar o pai, Jair Bolsonaro, que cumpre prisão domiciliar. As visitas estavam proibidas havia 90 dias. A decisão mantém o veto à divulgação de manifestações políticas durante os encontros. Segundo o UOL, a defesa de Bolsonaro já havia comunicado a Moraes o retorno das visitas. A autorização sai a 13 dias do segundo turno, em 25 de outubro.",
+          "sources": [
+            {
+              "name": "UOL",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWmxBY1BRUGZRcXp1SFNYdEZra1FoSlBnNi1QdmpNNjk4d3FzTXMwUW1XbjllN25FejVNRG1rN1JkTG13SFQwOVR2N0R4NXBxYklYSkVKWkRURGxLY2QwNFJ6VFBJRzJOUUprY201RUhHTHByTmtwOWxjMzBmSkxwUGdxSmlSZm1qWnJSNWZHUWVSZHlYeXRnZHNtaE1MV3BrTHkwcklVVzdnSDlDX2tkMk9lWHdWMkhPbGVwOVpSMXg0Z2NJd1pjQQ?oc=5"
+            }
+          ],
+          "hooks": [
+            "Moraes liberou Flávio para ver o pai, mas com uma condição.",
+            "Noventa dias depois, a visita volta. A política, não.",
+            "A 13 dias do segundo turno, Moraes decide sobre as visitas a Bolsonaro."
+          ],
+          "script": "Nesta segunda, dia 12, o ministro Alexandre de Moraes autorizou o senador Flávio Bolsonaro a voltar a visitar o pai, Jair Bolsonaro, que cumpre prisão domiciliar. As visitas estavam proibidas havia 90 dias. A decisão mantém o veto à divulgação de manifestações políticas durante os encontros. Segundo o UOL, a defesa de Bolsonaro já tinha comunicado a Moraes o retorno das visitas. A liberação vem a 13 dias do segundo turno, no dia 25. Pergunta: é razoável proibir um pai e um filho de falar de política? Comenta aqui.",
+          "screen_text": [
+            "Moraes libera visitas de Flávio a Bolsonaro",
+            "Depois de 90 dias",
+            "Veto a manifestações políticas continua",
+            "2º turno: 25 de outubro"
+          ],
+          "caption": "Visita liberada depois de 90 dias, mas sem divulgar manifestações políticas. Qual a sua opinião? Comenta.",
+          "risk": "médio",
+          "risk_note": "Falar em veto à divulgação de manifestações, como na decisão; não afirmar que há proibição de conversa privada. Fonte aberta apenas pelo resumo do pedido.",
+          "timeline": {
+            "rende": true,
+            "angle": "Desdobrar com a reação de aliados e o que a decisão diz exatamente sobre divulgação."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-12",
+      "done": "2026-10-12T21:37:02-03:00",
+      "issue": 29,
+      "slot_hint": "Reel na terça (13) às 12h e imagem às 19h.",
+      "source": {
+        "edition": "programa/2026-10-12",
+        "item_id": "flavio-pf-andrei",
+        "title": "A coletiva que apurou o que não existia"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "A PF anunciou no dia do voto e arquivou três dias depois. Por quê?",
+          "tone": "contundente, com pergunta",
+          "duration": "imagem única",
+          "fact": "Segundo o Poder360, a defesa de Flávio Bolsonaro apresentou no domingo (11) à Justiça Eleitoral uma notícia-crime contra o diretor-geral da PF, Andrei Rodrigues, acusando-o de interferência eleitoral por ter divulgado, no dia do primeiro turno, a abertura de uma apuração sobre possível influência dos EUA nas eleições. Andrei disse na coletiva que a PF recebeu uma representação da AGU e havia apuração preliminar, sem inquérito formal, a partir de reportagem do Guardian sobre US$ 1 milhão do governo americano a um projeto contra decisões do STF. Três dias depois a PF arquivou a apuração por falta de elementos mínimos, e o presidente do TSE, Nunes Marques, disse não haver indício concreto de interferência. A defesa pede que o Ministério Público Eleitoral conduza ou supervisione a investigação, documentos da AGU, da PF e da PGR e o depoimento do diretor. É um pedido da defesa, sem decisão judicial; a matéria não traz manifestação da PF.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-pede-investigacao-contra-diretor-da-pf-por-interferencia-eleitoral/"
+            }
+          ],
+          "art_text": [
+            "Anunciou no dia do voto",
+            "Arquivou 3 dias depois",
+            "Por que a pressa?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Andrei Rodrigues (diretor-geral da PF, alvo da notícia-crime) e Jorge Messias (AGU, autor da representação e do repost), ambos com relação direta. Ilustração estilo charge; Andrei ao microfone de coletiva, sem ação inventada. Risco médio: a acusação é da defesa de Flávio, sem decisão.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Andrei Rodrigues (diretor-geral da Polícia Federal, terno escuro) diante de um púlpito com microfones, expressão séria, e, ao lado, em plano menor, Jorge Messias (AGU, terno escuro) de braços cruzados, olhando de canto. Ao fundo, uma urna eletrônica estilizada e a silhueta de um prédio da PF. No alto, em branco, letras condensadas e muito pesadas: \"Anunciou no dia do voto\". Logo abaixo, em quadro amarelo com letras pretas: \"Arquivou 3 dias depois\". Embaixo, com sublinhado vermelho pincelado: \"Por que a pressa?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "A PF divulgou no dia do primeiro turno uma apuração sobre os EUA e a arquivou três dias depois. A defesa de Flávio pede investigação do diretor, e cabe à Justiça decidir. O timing foi correto? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A notícia-crime é pedido da defesa, sem decisão; não afirmar que Andrei cometeu crime. A PF não se manifestou na matéria. Manter a pergunta sobre o timing.",
+          "timeline": {
+            "rende": true,
+            "angle": "Cobrar transparência da PF sobre quem pediu, quando e por que a coletiva foi no dia da votação."
+          }
+        },
+        {
+          "type": "r",
+          "title": "A coletiva que apurou o que não existia",
+          "tone": "contundente",
+          "duration": "30 a 45s",
+          "fact": "Segundo o Poder360, a defesa de Flávio Bolsonaro apresentou no domingo (11) à Justiça Eleitoral uma notícia-crime contra o diretor-geral da PF, Andrei Rodrigues, acusando-o de interferência eleitoral por ter divulgado, no dia do primeiro turno, a abertura de uma apuração sobre possível influência dos EUA nas eleições. Andrei disse na coletiva que a PF recebeu uma representação da AGU e havia apuração preliminar, sem inquérito formal, a partir de reportagem do Guardian sobre US$ 1 milhão do governo americano a um projeto contra decisões do STF. Três dias depois a PF arquivou a apuração por falta de elementos mínimos, e o presidente do TSE, Nunes Marques, disse não haver indício concreto de interferência. A defesa pede que o Ministério Público Eleitoral conduza ou supervisione a investigação, documentos da AGU, da PF e da PGR e o depoimento do diretor. É um pedido da defesa, sem decisão judicial; a matéria não traz manifestação da PF.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-pede-investigacao-contra-diretor-da-pf-por-interferencia-eleitoral/"
+            }
+          ],
+          "hooks": [
+            "A PF anunciou uma apuração no dia do voto e arquivou três dias depois.",
+            "Por que a coletiva não esperou a urna fechar?",
+            "Agora o diretor da PF é alvo de uma notícia-crime."
+          ],
+          "script": "No dia do primeiro turno, o diretor-geral da PF, Andrei Rodrigues, anunciou uma apuração preliminar sobre possível influência dos Estados Unidos nas eleições, a partir de uma reportagem do Guardian. Três dias depois, a PF arquivou tudo por falta de elementos mínimos. E o presidente do TSE, Nunes Marques, já tinha dito que não havia indício concreto de interferência. Agora, segundo o Poder360, a defesa de Flávio Bolsonaro pediu à Justiça Eleitoral que investigue o diretor. É um pedido da defesa, sem decisão. A pergunta que fica: por que anunciar no dia do voto? Comenta aqui.",
+          "screen_text": [
+            "PF anunciou apuração no dia do 1º turno",
+            "Arquivada 3 dias depois",
+            "Defesa de Flávio pede investigação do diretor",
+            "Pedido da defesa, sem decisão"
+          ],
+          "caption": "Anúncio no dia do voto, arquivamento três dias depois. A PF precisa explicar o timing. O que você acha?",
+          "risk": "médio",
+          "risk_note": "Deixar claro que é pedido da defesa, sem decisão judicial, e que a PF não se manifestou na matéria. Não afirmar crime.",
+          "timeline": {
+            "rende": true,
+            "angle": "Acompanhar a decisão da Justiça Eleitoral sobre o pedido e eventual resposta da PF."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-12",
       "done": "2026-10-12T10:08:45-03:00",
       "issue": 25,
       "slot_hint": "Imagem hoje (12) às 19h e reel na terça (13) às 12h.",
