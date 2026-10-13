@@ -1,9 +1,9 @@
 {
   "date": "2026-10-13",
-  "generated": "2026-10-13T05:20:00-03:00",
+  "generated": "2026-10-13T10:12:08-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "O programa mudo de Flávio e a pergunta que ninguém respondeu",
-  "abertura": "Na segunda-feira (12), a propaganda de Flávio Bolsonaro foi ao ar sem som, enquanto a de Lula saiu normal. A culpa passou da EBC para o pool de emissoras e do pool para o TSE, e a causa continua sem explicação oficial.",
+  "titulo": "O programa mudo, o canal desligado e os 274 mil votos que decidem o Rio",
+  "abertura": "A pauta abre com a propaganda de Flávio Bolsonaro que foi ao ar sem som no feriado, sem que ninguém explique a causa. No mesmo terreno da disputa eleitoral, o TSE suspendeu o canal \"Exército do Lula\" e chama hoje as duas campanhas para uma reunião fechada. No Rio, a anulação dos votos de Garotinho pode encerrar a eleição estadual no primeiro turno, e Eduardo Paes foi ao STF para impedir isso. Fecham o dia a segurança pública, com policiais mortos e mortos por policiais, as ameaças a universidades e o petróleo a US$ 100.",
   "agenda": [],
   "itens": [
     {
@@ -47,6 +47,213 @@
       ],
       "avulsa": true,
       "pedido": "https://claudiodantas.com.br/ebc-mulher-freixo-propaganda-flavio-sem-audio/"
+    },
+    {
+      "id": "exercito-lula-reuniao-tse",
+      "bloco": "Política nacional",
+      "titulo": "O exército que ganhou 3 milhões em cinco dias e foi desligado",
+      "subtitulo": "Nunes Marques derrubou o canal de Janones e agora chama as duas campanhas para conversar",
+      "desdobramento": "Nunes Marques suspendeu o canal no domingo (11) e convocou as campanhas de Lula e Flávio para reunião fechada nesta terça (13), às 15h30.",
+      "resumo": "O canal de WhatsApp \"Exército do Lula\", ligado ao deputado André Janones, tinha cerca de 55 mil seguidores em 5 de outubro e passou de 2,9 milhões dois dias depois. No domingo (11), o presidente do TSE, Nunes Marques, mandou a Meta suspender o canal a pedido da campanha de Flávio Bolsonaro, que apontou desinformação e ataques ao candidato. A decisão cita indícios de descumprimento das regras da plataforma e o compartilhamento repetido de conteúdo que a Justiça Eleitoral já tinha considerado irregular. A Meta tem 48 horas para explicar como o canal funciona, quais mensagens circularam e que providências de moderação tomou. Para o cidadão, o que importa é saber se a regra vale igual para os dois lados nesta reta final, e a reunião desta terça com as campanhas é a primeira chance de o tribunal mostrar isso.",
+      "metafora": "Um canal com milhões de inscritos funciona como uma rádio pirata com antena de estádio: o conteúdo pode até ser de um amador, mas o alcance é de uma emissora.",
+      "contexto": [
+        "O canal tinha cerca de 55 mil seguidores em 5/10, mais de 2,9 milhões em 7/10 e cerca de 3,2 milhões em 10/10, segundo a revisão do ministro.",
+        "Em 11/10, Nunes Marques suspendeu o canal e não bloqueou, por enquanto, o WhatsApp pessoal de Janones nem outros canais ligados a ele.",
+        "A Meta deve informar em 48 horas o funcionamento do canal, as mensagens publicadas e a moderação aplicada.",
+        "A campanha de Flávio diz que o grupo de Lula descumpriu o acordo do TSE contra fake news; a de Lula acusa a Meta de favorecer o campo de Flávio.",
+        "A reunião é fechada, com coordenadores e advogados das duas campanhas, nesta terça (13), às 15h30, no gabinete da presidência do TSE."
+      ],
+      "angulo": [
+        "O canal foi montado para escalar: de 55 mil a quase 3 milhões em dois dias não se explica por conversa espontânea, e o programa deve cobrar de onde veio esse impulso.",
+        "A decisão atende ao que a lei pede, tratar a estrutura que distribui desinformação e não só a postagem isolada, e deve valer para qualquer campanha, de qualquer lado.",
+        "A reação do PT, que culpa as big techs, tenta transformar uma regra do jogo em perseguição; o programa deve lembrar que a regra foi pactuada com as campanhas.",
+        "A reunião desta terça só terá valor se sair dela um critério claro e igual para os dois lados, tornado público."
+      ],
+      "perguntas": [
+        "Um canal que cresce 50 vezes em dois dias é militância espontânea ou estrutura de distribuição organizada?",
+        "O TSE vai aplicar o mesmo rigor se o canal suspenso for de apoiadores de Flávio?",
+        "O que a reunião desta terça precisa produzir para que o eleitor confie que o árbitro é neutro?"
+      ],
+      "atencao": "O pedido é da campanha de Flávio e o mérito segue em análise no TSE: falar em suspensão e indícios de descumprimento, sem afirmar que houve crime. O PT afirma interferência das big techs; a Meta ainda não respondeu à ordem nas matérias abertas.",
+      "fontes": [
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/tse-convoca-coordenadores-de-lula-e-flavio-para-reuniao"
+        },
+        {
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/123164/nunes-marques-manda-suspender-canal-pro-lula-administrado-por-janones"
+        }
+      ]
+    },
+    {
+      "id": "garotinho-paes-stf",
+      "bloco": "Rio de Janeiro",
+      "titulo": "Os 274 mil votos que podem acabar com o segundo turno no Rio",
+      "subtitulo": "O TSE anulou a candidatura de Garotinho e Paes foi bater na porta do STF",
+      "desdobramento": "A coligação de Eduardo Paes recorreu ao STF e pediu medida cautelar para manter o segundo turno de 25/10, enquanto Douglas Ruas começa a transição.",
+      "resumo": "Em 8 de outubro, o TSE decidiu por 5 votos a 2 rejeitar a candidatura de Anthony Garotinho e anular os 274.411 votos que ele recebeu para governador do Rio. Antes da anulação, Douglas Ruas (PL) tinha 4.271.199 votos, 49,27% dos válidos, contra 3.706.984 de Eduardo Paes (PSD), com 42,76%. Sem os votos de Garotinho na conta, Ruas passa de cerca de 50,9% e vence já no primeiro turno, o que cancelaria o segundo turno marcado para 25 de outubro. A coligação de Paes foi ao STF apoiada nos dois votos vencidos, de Ricardo Cueva e Sebastião Reis, e pediu uma cautelar para garantir a votação. O que está em jogo é se uma candidatura barrada por improbidade pode mudar o resultado depois que o eleitor já votou, e quem decide quando a Justiça interfere na urna.",
+      "contexto": [
+        "O TRE-RJ havia indeferido o registro de Garotinho por inelegibilidade decorrente de condenação por improbidade administrativa.",
+        "A decisão saiu depois do fechamento do sistema de preparação das urnas, por isso o nome dele continuou na votação.",
+        "Maioria: Floriano de Azevedo Marques Neto, Estela Aranha, André Mendonça, Dias Toffoli e Nunes Marques; vencidos: Ricardo Cueva e Sebastião Reis.",
+        "Garotinho teve 274.411 votos, 3,17% do total.",
+        "O TSE determinou nova totalização; a Justiça Eleitoral ainda precisa fechar o novo resultado."
+      ],
+      "angulo": [
+        "A lei da Ficha Limpa existe para que candidato inelegível não dispute, e o TSE aplicou o que ela diz; o problema real é a Justiça ter demorado a ponto de o nome ir para a urna.",
+        "Quem votou em Garotinho sabia que o registro estava em discussão, e o programa deve cobrar que o sistema decida isso antes da eleição, não depois.",
+        "Paes tem o direito de recorrer, mas o recurso não pode servir para desfazer um resultado que a regra eleitoral já define.",
+        "Se o STF mexer nisso, o Rio terá mais uma eleição decidida em tribunal; o programa deve defender segurança jurídica e rapidez."
+      ],
+      "perguntas": [
+        "Por que uma inelegibilidade conhecida só foi julgada de vez depois da eleição?",
+        "Se os votos anulados mudam o resultado, o eleitor de Garotinho foi enganado ou fez uma escolha que a lei não permitia?",
+        "O STF deveria interferir numa decisão do TSE sobre inelegibilidade a duas semanas do segundo turno marcado?"
+      ],
+      "atencao": "Matérias abertas dizem que Ruas \"deve\" ser declarado eleito; o resultado final depende da nova totalização e do que o STF decidir sobre o recurso de Paes. Não dar Ruas como governador eleito.",
+      "fontes": [
+        {
+          "name": "Correio da Manhã",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/325607-tse-anula-votos-de-garotinho-e-confirma-eleicao-de-ruas-no-rio.html"
+        },
+        {
+          "name": "Diário do Grande ABC",
+          "url": "https://www.dgabc.com.br/Noticia/4351672/paes-vai-ao-stf-contra-decisao-do-tse-que-anula-votos-de-garotinho-e-pede-2-turno-no-rj"
+        }
+      ]
+    },
+    {
+      "id": "bope-fogo-amigo",
+      "bloco": "Segurança pública",
+      "titulo": "Policiais contra policiais na madrugada de Jacarepaguá",
+      "subtitulo": "Um subtenente do Bope morreu em tiroteio que, ao que tudo indica, nasceu de um engano",
+      "resumo": "Na manhã de domingo (11), o subtenente Gláucio Marcelo, do Bope, morreu baleado na comunidade Gardênia Azul, em Jacarepaguá, no Rio. Segundo informação preliminar de testemunhas, equipes do Bope e do 18º BPM se confundiram e cada lado tomou o outro por criminosos do Comando Vermelho. Os policiais do 18º BPM não sabiam que o Bope atuava na área, e a equipe do Bope estava em viatura descaracterizada. Três outros policiais ficaram feridos e foram levados ao Hospital Municipal Lourenço Jorge, e o caso está com a Delegacia de Homicídios da Capital. O episódio mostra o custo de operações sem coordenação e cobra do governo uma resposta sobre o protocolo que deveria impedir que policiais atirem uns nos outros.",
+      "contexto": [
+        "A ocorrência foi na manhã de 11/10, na comunidade Gardênia Azul, em Jacarepaguá.",
+        "Morreu o subtenente Gláucio Marcelo, do Bope; ficaram feridos dois policiais do Bope e um do 18º BPM.",
+        "A versão de que os agentes se confundiram vem de testemunhas e é preliminar.",
+        "O caso foi registrado na 41ª DP (Tanque) e será conduzido pela Delegacia de Homicídios da Capital.",
+        "O irmão do subtenente, também militar, morreu em outubro de 2025 na Operação Contenção, nos complexos da Penha e do Alemão."
+      ],
+      "angulo": [
+        "Policial que morre por falha de comunicação é vítima de um sistema desorganizado; o programa deve defender respeito e amparo à família antes de qualquer discussão política.",
+        "O governo do estado precisa explicar por que uma equipe do Bope entrou numa área de outro batalhão sem aviso e sem viatura identificada.",
+        "Quem defende segurança pública séria defende também coordenação, treinamento e protocolo claro, que protegem o policial e o morador.",
+        "Esperar a perícia antes de apontar culpados é o certo; mas a investigação deve ser pública e ter prazo."
+      ],
+      "perguntas": [
+        "Que protocolo existe para avisar um batalhão de que outra unidade vai operar na sua área?",
+        "Uma viatura descaracterizada em operação é risco para quem está dentro ou para quem está em volta?",
+        "Que resposta o governo do estado deve à família de um policial que perdeu o irmão há um ano no serviço?"
+      ],
+      "atencao": "A dinâmica ainda depende de investigação: a confusão entre as equipes é versão preliminar de testemunhas. Não atribuir culpa a nenhum policial ou unidade.",
+      "fontes": [
+        {
+          "name": "NC News",
+          "url": "https://ncnews.com.br/?p=60897"
+        }
+      ]
+    },
+    {
+      "id": "pm-moema-45-tiros",
+      "bloco": "Segurança pública",
+      "titulo": "Um celular, quatro policiais e 45 tiros em Moema",
+      "subtitulo": "A chamada era de um homem em crise e terminou com um jovem de 20 anos morto",
+      "resumo": "Na madrugada de sábado (10), Gustavo Munis de Santana, de 20 anos, morreu em Moema, na zona sul de São Paulo, atingido por 27 tiros durante abordagem da PM. A Polícia Militar tinha sido chamada para atender um homem em sofrimento emocional que ameaçava se matar. Segundo o boletim de ocorrência, quatro policiais deram 45 disparos depois de ler como ameaça um movimento do jovem, e o único objeto encontrado com ele foi um celular. A Secretaria da Segurança Pública afastou os policiais do serviço operacional, abriu inquérito policial militar, e o caso foi para o DHPP, com as câmeras corporais requisitadas. Para quem defende a polícia, o caso exige apuração rápida e transparente, porque é a falha individual que desgasta a corporação inteira.",
+      "metafora": "Câmera corporal é o árbitro de vídeo da abordagem: não decide o jogo sozinha, mas acaba com a discussão sobre o que aconteceu no lance.",
+      "contexto": [
+        "A morte foi na madrugada de 10/10, em Moema, na zona sul de São Paulo.",
+        "A PM foi acionada para atender um homem em crise que ameaçava tirar a própria vida.",
+        "Quatro policiais teriam dado 45 tiros; 27 atingiram Gustavo Munis de Santana, de 20 anos.",
+        "Pelo relato dos policiais, ele correu e fez um movimento lido como ameaça; só um celular foi achado com ele.",
+        "Armas dos policiais e o celular foram apreendidos para perícia, e as imagens das câmeras corporais foram requisitadas."
+      ],
+      "angulo": [
+        "Defender a polícia é exigir que ela seja boa: o policial que atira 45 vezes diante de um celular falhou na técnica, e a corporação é a primeira a ter interesse em apurar.",
+        "O afastamento e o inquérito são o passo certo, mas só ganham valor se terminarem com resultado público e prazo.",
+        "Chamada de crise emocional pede preparo específico; o programa deve cobrar treinamento e protocolo de negociação antes do tiro.",
+        "Quem usa o caso para atacar toda a PM erra tanto quanto quem o esconde; a bancada deve manter a linha entre falha individual e instituição."
+      ],
+      "perguntas": [
+        "O que o policial deve fazer quando a chamada é de crise emocional e não de crime?",
+        "Em quanto tempo a sociedade tem direito a ver o resultado da apuração e das imagens das câmeras?",
+        "Como cobrar responsabilização sem enfraquecer a autoridade de quem policia as ruas?"
+      ],
+      "atencao": "O afastamento administrativo não é conclusão sobre responsabilidade criminal. Falar em \"policiais investigados\" e relato do boletim de ocorrência, sem afirmar crime.",
+      "fontes": [
+        {
+          "name": "Diário do Grande ABC",
+          "url": "https://www.dgabc.com.br/Noticia/4352165/policiais-sao-afastados-apos-jovem-morrer-ao-levar-27-tiros-em-abordagem-em-sp"
+        }
+      ]
+    },
+    {
+      "id": "mec-ameacas-universidades",
+      "bloco": "Educação",
+      "titulo": "A ameaça que chegou ao campus antes do segundo turno",
+      "subtitulo": "O MEC chamou a PF depois de fogo na UFPE e de recados de violência na UFF",
+      "resumo": "Em 8 de outubro, o ministro da Educação, Leonardo Barchini, anunciou que vai acionar a Diretoria de Combate a Crimes Cibernéticos da PF por causa de ameaças a universidades federais. A UFPE sofreu um incêndio de grandes proporções, com prejuízo estimado em R$ 100 milhões, o terceiro registrado na instituição em oito dias, e a PF já tem inquérito aberto. A UFF informou ter recebido mensagens em aplicativos e redes sociais que falam em incendiar a universidade e agredir estudantes em atos políticos. Barchini disse haver \"uma preocupação grande de que essa violência escale\" e que a universidade é \"um ambiente plural, um ambiente de manifestação política também\". O ponto que o programa deve levantar é que a segurança do campus vale para todos, e o discurso de pluralidade precisa valer também para o estudante que pensa diferente da maioria.",
+      "contexto": [
+        "Em 8/10, o MEC anunciou o acionamento da PF e da AGU, a partir de monitoramento das redes e relatos de estudantes, reitores e professores.",
+        "O incêndio na UFPE foi o terceiro em oito dias, com prejuízo estimado em R$ 100 milhões; a PF já ouviu pessoas consideradas suspeitas.",
+        "A UFF recebeu ameaças de incendiar a universidade e agredir estudantes em atos políticos, e também acionou a PF.",
+        "O MEC vai construir novo prédio para os laboratórios incendiados da UFPE."
+      ],
+      "angulo": [
+        "Ameaça e incêndio são crime e merecem investigação séria, venha de onde vier; o programa não pode relativizar nenhum dos dois.",
+        "Antes de atribuir autoria política, é preciso esperar a PF: no caso da UFPE ainda não há conclusão pública sobre as causas.",
+        "O ministro fala em pluralidade, e o programa deve cobrar que ela valha também quando o ato político no campus não é de esquerda.",
+        "Universidade pública é patrimônio do contribuinte; R$ 100 milhões em laboratório queimado é conta de todos."
+      ],
+      "perguntas": [
+        "Quem investiga, com isenção, três incêndios em oito dias na mesma universidade?",
+        "O mesmo MEC que cobra segurança para atos políticos no campus garante espaço para estudantes de direita?",
+        "Como proteger laboratórios e estudantes sem transformar o campus em área de vigilância?"
+      ],
+      "atencao": "Não afirmar autoria nem motivação política do incêndio na UFPE: a PF apura as causas. Usar \"segundo o MEC\" e \"segundo a UFF\" para as ameaças.",
+      "fontes": [
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://www.diariodepernambuco.com.br/brasil/2026/10/11726221-mec-ira-pedir-investigacao-de-ameacas-a-universidades-em-redes-sociais.html"
+        }
+      ]
+    },
+    {
+      "id": "petroleo-houthis-bolso",
+      "bloco": "Economia",
+      "titulo": "O barril de US$ 100 que chega ao posto de gasolina",
+      "subtitulo": "Os ataques houthis à Arábia Saudita mantêm o petróleo no patamar de três dígitos",
+      "resumo": "Em 6 de outubro, o Brent fechou a US$ 100,58 o barril, e o WTI, a US$ 89,44, num mercado pressionado pelo conflito entre os houthis do Iêmen e a Arábia Saudita. A Arábia Saudita disse que dois aeroportos foram atacados em 5 de outubro, depois de os houthis afirmarem ter disparado mísseis e drones contra o reino. Em meados de setembro, ataques danificaram o Oleoduto Leste-Oeste, e o Brent chegou a US$ 108, com o mercado temendo perder 4% da oferta mundial. O Departamento de Energia dos EUA elevou a projeção do Brent para 2026, a US$ 96 o barril, enquanto o Irã segue atacando petroleiros em Ormuz. Para o brasileiro, isso quer dizer pressão sobre combustível, frete e inflação, justamente quando o governo pede paciência com os juros.",
+      "contexto": [
+        "Em 6/10, o Brent (contrato de dezembro) fechou a US$ 100,58 e o WTI (contrato de novembro), a US$ 89,44.",
+        "Em 5/10, a Arábia Saudita informou ataque a dois aeroportos, depois de os houthis reivindicarem mísseis e drones contra o reino.",
+        "Em 14/09, o Brent subiu 3,25% e chegou a US$ 108 após ataques que fecharam trechos do Oleoduto Leste-Oeste; o mercado temia afetar 4% da oferta mundial.",
+        "O Departamento de Energia dos EUA projeta Brent a US$ 96 em 2026 e US$ 84 em 2027.",
+        "O trânsito por Ormuz segue restrito, com o Irã atacando petroleiros, segundo analista citado."
+      ],
+      "angulo": [
+        "Petróleo caro é imposto invisível: chega ao diesel, ao frete e ao supermercado, e quem paga é o consumidor, não o governo.",
+        "O Brasil produz petróleo, mas gasolina e diesel dependem de preço internacional; o programa deve cobrar como o governo evita o populismo de segurar preço na marra e quebrar a Petrobras.",
+        "Cenário externo hostil é motivo a mais para responsabilidade fiscal: sem espaço no orçamento, qualquer choque vira inflação.",
+        "As projeções de queda são condicionais ao risco geopolítico; quem promete combustível barato na campanha precisa dizer como."
+      ],
+      "perguntas": [
+        "Quanto do preço do diesel que o brasileiro paga hoje é petróleo caro e quanto é imposto?",
+        "O governo deve segurar o preço do combustível ou deixar o mercado ajustar?",
+        "A que preço do barril o Banco Central e a Fazenda estão trabalhando nas contas de 2027?"
+      ],
+      "atencao": "Os preços citados são fechamentos de 6/10 e de setembro, não de hoje; confirmar a cotação do dia antes de falar no ar.",
+      "fontes": [
+        {
+          "name": "Diário do Grande ABC",
+          "url": "https://www.dgabc.com.br/Noticia/4351274/petroleo-fecha-em-leve-alta-com-tensoes-no-mar-vermelho-e-aumento-da-oferta"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://www.diariodepernambuco.com.br/mundo/2026/09/11723890-petroleo-dispara-apos-ataques-dos-houthis-a-oleoduto-saudita.html"
+        }
+      ]
     }
   ]
 }
