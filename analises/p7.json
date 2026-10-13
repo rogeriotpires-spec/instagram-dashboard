@@ -1,65 +1,113 @@
 {
-  "generated": "2026-10-13T05:05:50-03:00",
+  "generated": "2026-10-13T05:54:23-03:00",
   "dias": 7,
-  "period": {"start": "2026-10-06", "end": "2026-10-12"},
+  "period": {
+    "start": "2026-10-06",
+    "end": "2026-10-12"
+  },
   "compare": "2026-09-29 a 2026-10-05",
-  "headline": "Nos 7 dias até 12/10 a conta teve 3,7 mi de views (−32%), e uma única imagem, publicada no domingo às 6h30, somou 623.344 views e 544 novos seguidores.",
+  "headline": "De 6 a 12/10 a conta teve 3,7 mi de views (−33%) e 2.162 novos seguidores (−40%); uma imagem de 11/10 teve 623.344 views e os 6 Reels ficaram com mediana de 2.152.",
   "kpis": [
-    {"label": "Views recebidas pela conta", "value": "3,7 mi", "delta": "−32%", "dir": "down"},
-    {"label": "Novos seguidores (6 de 7 dias)", "value": "2.162", "delta": "−40%", "dir": "down"},
-    {"label": "Deixaram de seguir (6 de 7 dias)", "value": "124", "delta": "+10%", "dir": "down"},
-    {"label": "Compartilhamentos recebidos", "value": "67 mil", "delta": "−55%", "dir": "down"},
-    {"label": "Comentários recebidos", "value": "4.020", "delta": "−48%", "dir": "down"},
-    {"label": "Alcance médio por dia", "value": "242 mil", "delta": "−22%", "dir": "down"}
+    {
+      "label": "Views recebidas pela conta",
+      "value": "3,7 mi",
+      "delta": "−33%",
+      "dir": "down"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "2.162",
+      "delta": "−40%",
+      "dir": "down"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "124",
+      "delta": "+10%",
+      "dir": "down"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "67 mil",
+      "delta": "−55%",
+      "dir": "down"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "4.020",
+      "delta": "−48%",
+      "dir": "down"
+    },
+    {
+      "label": "Contas com interação por dia",
+      "value": "29 mil",
+      "delta": "−37%",
+      "dir": "down"
+    }
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "\"Como dizia o TAXAD, quem foge do debate é bundão?\" (dom, 6h30) teve 623.344 views, 13.104 compartilhamentos, 1.087 salvamentos, 120 comentários e 544 novos seguidores em 46 horas. Depois vieram \"O Rio pode ter governador eleito hoje\" (qua, 7h, 89.973 views, 27 seguidores) e \"VIRADA HISTÓRICA NO RIO!\" (qui, 12h33, 69.527 views, 259 compartilhamentos). As 12 imagens tiveram mediana de 9,8 mil views, contra 2.152 dos 6 Reels.",
+      "diagnosis": "\"Como dizia o TAXAD, quem foge do debate é bundão?\" (11/10, 6h30) teve 623.344 views, 13.104 compartilhamentos e 544 novos seguidores. \"O Rio pode ter governador eleito hoje, sem segundo turno.\" (7h) chegou a 89.973 views e 27 seguidores, e \"VIRADA HISTÓRICA NO RIO!\" a 69.527 views e 259 compartilhamentos. As 12 imagens tiveram mediana de 9.801 views.",
       "actions": [
-        "Guarde o horário das 6h30 às 7h para a imagem mais forte do dia.",
-        "Use título em forma de pergunta, como no post de domingo.",
-        "Aproveite temas de eleição e resultado enquanto o assunto está quente."
+        "Repita imagens de opinião com frase forte e pergunta direta, publicadas cedo.",
+        "Use fatos do dia da política do Rio como gancho, como nas duas imagens de 7 e 8/10.",
+        "Reaproveite o tom do TAXAD em outros confrontos, sem copiar o mesmo assunto."
       ],
-      "posts": ["DeVAkiqtPwL", "DeL6bqctDFk", "DePQzA4NYLR"]
+      "posts": [
+        "DeVAkiqtPwL",
+        "DeL6bqctDFk",
+        "DePQzA4NYLR"
+      ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Evitar",
-      "diagnosis": "Os 3 posts com menos views foram Reels de Política: \"Pense num amor inimaginável\" (sáb, 1.236 views), \"Sabe se isso é IA?\" (ter, 1.269) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (sex, 1.437). Os 2 carrosséis tiveram mediana de 3,5 mil views. Tema Política teve mediana de 2.152 views nos 6 posts, contra 5.683,5 de Opinião nos 14.",
-      "actions": [
-        "Reduza a frequência de Reels de Política que não tenham um fato novo no começo.",
-        "Use carrossel só quando o assunto precisar de várias telas.",
-        "Compare Reels só depois de 3 dias, porque os mais novos ainda acumulam."
-      ],
-      "posts": ["DeUk6JyNW9Y", "DeKCMhiNIxP", "DeRrXNgtZMa"]
-    },
-    {
-      "title": "Retenção dos Reels",
-      "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "Os 3 Reels de menos views tiveram pulo de 53%, 48% e 50% e foram assistidos em média por 10, 8 e 17 segundos. Dois deles tinham 39,4s e 79,5s. O Reel \"Inacreditável!\" (dom, 19h, 70,1s) teve pulo de 29%, tempo médio de 29 segundos, 3.980 compartilhamentos e 58.323 views em 9,9 horas.",
+      "diagnosis": "Os 6 Reels tiveram mediana de 2.152 views, e os piores ficaram perto de 1.200 a 1.400: \"Pense num amor inimaginável.\" (1.236 views, 53% de pulo), \"Sabe se isso é IA?\" (1.269, 48%) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (1.437, 50%). Metade das pessoas pulou esses vídeos. A exceção foi \"Inacreditável!\" (12/10), com 58.323 views, ainda recente.",
       "actions": [
-        "Comece o Reel pelo fato ou pela frase mais forte, sem introdução.",
-        "Veja o que o Reel \"Inacreditável!\" fez nos primeiros segundos e repita a estrutura.",
-        "Acompanhe nos próximos dias se as views do Reel continuam subindo."
+        "Abra os Reels com a imagem ou a frase mais forte nos primeiros 2 segundos.",
+        "Corte os vídeos que perdem metade da audiência cedo.",
+        "Publique menos Reels e escolha os de maior tema, como o de 12/10."
       ],
-      "posts": ["DeaQZPRNABT", "DeKCMhiNIxP", "DeRrXNgtZMa"]
+      "posts": [
+        "DeUk6JyNW9Y",
+        "DeKCMhiNIxP",
+        "DeRrXNgtZMa"
+      ]
     },
     {
-      "title": "Seguidores e comentários",
+      "title": "Seguidores",
       "status": "warn",
-      "status_label": "Depende de picos",
-      "diagnosis": "A conta ganhou 2.162 seguidores (−40%, 6 dias com dado) e 124 deixaram de seguir (+10%). Só o post de domingo trouxe 544 dos novos seguidores. \"50 MIL!\" (sáb, 20h22) teve 43 comentários e 21 seguidores com 6.615 views. O comparativo inclui a semana do 1º turno, que teve o Reel de 646.033 views de 4/10.",
+      "status_label": "Ajustar",
+      "diagnosis": "Entraram 2.162 seguidores (−40%) e 124 deixaram de seguir (+10%), com 6 dias de dado no período. A imagem do TAXAD teve 544 novos seguidores. \"50 MIL!\" teve 21 seguidores com 6.615 views, uma taxa alta para o alcance que teve.",
       "actions": [
-        "Use os 50 mil seguidores como gancho: fixe no perfil um post que explique o que a pessoa ganha seguindo.",
-        "Responda os comentários das imagens da manhã na primeira hora.",
-        "Repita o formato de pergunta direta do \"50 MIL!\" para gerar conversa."
+        "Publique mais posts de comemoração e de marcos, como \"50 MIL!\", que converteram bem.",
+        "Convide para seguir nas imagens que passam de 100 mil views.",
+        "Acompanhe as saídas, que subiram enquanto as entradas caíram."
       ],
-      "posts": ["DeVQClAsvVV", "DeVAkiqtPwL", "DeL6bqctDFk"]
+      "posts": [
+        "DeVAkiqtPwL",
+        "DeL6bqctDFk",
+        "DeVQClAsvVV"
+      ]
+    },
+    {
+      "title": "Horários",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "A mediana de views dos posts das 6h foi de 313.806, contra 27.708 às 7h, 40.119 às 9h, 69.527 às 12h e 16.106 às 19h. Esse valor das 6h vem do post de 11/10 e há poucos posts por horário, então vale como sinal. Os posts das 11h e das 14h ficaram em torno de 1.353 e 1.642 views.",
+      "actions": [
+        "Teste publicar mais imagens entre 6h e 9h.",
+        "Evite concentrar posts de política às 11h e 14h até ter mais dados.",
+        "Compare horários só entre posts do mesmo formato."
+      ],
+      "posts": [
+        "DeVAkiqtPwL",
+        "DePQzA4NYLR"
+      ]
     }
   ]
 }
