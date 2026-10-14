@@ -53,53 +53,7 @@
    }
   }
  ],
- "slots": [
-  {
-   "time": "19h",
-   "type": "r",
-   "kind": "Reel de até 30s reagindo ao fato do dia",
-   "options": [
-    {
-     "title": "Eles responderam com a rua. Agora é a nossa vez",
-     "tone": "mobilizador, sóbrio",
-     "duration": "20 a 30s",
-     "fact": "Depois do ato de Lula na Avenida Paulista, em 11/10, o PL e o deputado Nikolas Ferreira divulgaram o calendário de atos de apoio a Flávio Bolsonaro. O principal é o \"Bloquinho 22\", na Paulista, no domingo 18/10, às 11h. No mesmo dia há ato em Belo Horizonte, às 16h, e manifestações em outras cidades estão previstas para 24/10, véspera do segundo turno. O Poder360 informa que Flávio e Nikolas convocam atos em ao menos 14 cidades. A PM relatou depredação, tumulto e pichações na dispersão do ato pró-Lula.",
-     "sources": [
-      {
-       "name": "Jovem Pan",
-       "url": "https://jovempan.com.br/politica/bloquinho-22-pl-e-nikolas-ferreira-agendam-manifestacao-na-paulista-para-dia-18/"
-      },
-      {
-       "name": "Poder360",
-       "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-nikolas-convocam-atos-para-a-reta-final-em-ao-menos-14-cidades/"
-      },
-      {
-       "name": "Metrópoles",
-       "url": "https://www.metropoles.com/sao-paulo/apos-ato-pro-lula-flavio-e-nikolas-confirmam-bloquinho-na-av-paulista"
-      }
-     ],
-     "hooks": [
-      "Dia 18, 11h, Avenida Paulista. Anota aí.",
-      "A Paulista foi do Lula no domingo. No dia 18 tem outra convocação."
-     ],
-     "script": "Dia 18, domingo, onze da manhã, Avenida Paulista. É o Bloquinho 22, convocado pelo PL e pelo Nikolas Ferreira em apoio ao Flávio. No mesmo dia tem ato em Belo Horizonte, às quatro da tarde, e no dia 24, véspera da eleição, tem manifestações em outras cidades. Se você vai, vá em paz, leve a família e a bandeira do Brasil, sem confusão. Segundo a Polícia Militar, o ato do outro lado terminou em depredação, e a gente mostra a diferença com o exemplo. Manda esse vídeo para quem quer ir com você.",
-     "screen_text": [
-      "Domingo, 18/10, 11h",
-      "Avenida Paulista",
-      "Bloquinho 22",
-      "Vá em paz"
-     ],
-     "caption": "Domingo, 18/10, às 11h, na Paulista. Manda para quem vai com você.",
-     "risk": "médio",
-     "risk_note": "Convite a ato legal: reforce paz e ordem, sem provocar o outro lado. A depredação é relato da PM sobre o ato pró-Lula, atribua se citar. Confira horário e local no perfil de Nikolas antes de publicar.",
-     "timeline": {
-      "rende": false,
-      "motivo": "Convocação de ato com data e local, sem fato novo que sustente um artigo de 600 a 1.200 palavras."
-     }
-    }
-   ]
-  }
- ],
+ "slots": [],
  "excluidos": [
   {
    "titulo": "A caneta que fechou a porta voltou a abri-la",
@@ -112,6 +66,10 @@
   {
    "titulo": "Quem investiga o investigador da PF?",
    "em": "2026-10-14T12:54:09-03:00"
+  },
+  {
+   "titulo": "Eles responderam com a rua. Agora é a nossa vez",
+   "em": "2026-10-14T12:54:43-03:00"
   }
  ]
 }
