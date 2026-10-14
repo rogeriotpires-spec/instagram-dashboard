@@ -55,44 +55,6 @@
  ],
  "slots": [
   {
-   "time": "7h",
-   "type": "i",
-   "kind": "Imagem com pergunta provocativa",
-   "options": [
-    {
-     "title": "45 tiros, uma câmera e uma pergunta",
-     "tone": "sóbrio, com cobrança",
-     "style": "realista",
-     "fact": "Gustavo Munis de Santana, de 20 anos, foi morto em Moema, zona sul de São Paulo, na madrugada de 11/10. Os PMs foram chamados às 2h35 para uma tentativa de suicídio; não há registro de que ele estivesse armado. Segundo os agentes, ele estendeu os braços segurando um objeto escuro, que era um celular. O boletim de ocorrência registra 45 disparos dos policiais, oito PMs participaram da abordagem e um deles atirou 14 vezes. Pelo menos quatro foram afastados do serviço operacional, a SSP abriu inquérito policial militar e as câmeras corporais, as armas e o celular foram recolhidos. O DHPP registrou o caso como resistência seguida de homicídio decorrente de intervenção policial. A manchete da imprensa fala em 27 tiros no corpo.",
-     "sources": [
-      {
-       "name": "Metrópoles",
-       "url": "https://www.metropoles.com/sao-paulo/policiais-militares-sao-afastados-apos-matar-jovem-com-27-tiros-em-sp"
-      },
-      {
-       "name": "Jovem Pan",
-       "url": "https://jovempan.com.br/brasil/quem-era-gustavo-munis-jovem-morto-com-27-tiros-disparados-por-4-pms-em-sp/"
-      }
-     ],
-     "art_text": [
-      "45 tiros. Um celular na mão.",
-      "As câmeras vão mostrar tudo?",
-      "Imagem ilustrativa (canto inferior direito)",
-      "Siga @rogerrio (Instagram) @rogerrioX (X)"
-     ],
-     "faces": "Nenhum rosto. Viatura da PM à noite sob luz azul e vermelha, ponte de pedestres vazia e, em primeiro plano, uma câmera corporal sobre uma mesa. Não use foto da vítima nem dos policiais.",
-     "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, madrugada urbana, granulação leve. Em primeiro plano, uma câmera corporal preta de policial sobre uma mesa metálica, com luz de flash dura; ao fundo desfocado, uma viatura com giroflex azul e vermelho ao lado de uma passarela de pedestres vazia, sem pessoas e sem inscrições legíveis. Clima sério e frio. No terço superior, faixa escura semitransparente com texto em branco, letras grandes e pesadas: \"45 tiros. Um celular na mão.\". No terço inferior, em amarelo: \"As câmeras vão mostrar tudo?\". No canto inferior direito, discreto, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
-     "caption": "Segundo o boletim de ocorrência, os PMs deram 45 tiros em um jovem que segurava um celular, em um chamado por tentativa de suicídio. A polícia que protege precisa ser cobrada quando erra. As câmeras corporais devem ficar sempre ligadas? Sim ou não?",
-     "risk": "alto",
-     "risk_note": "Caso em apuração: não afirme crime nem culpa dos policiais, atribua tudo ao boletim de ocorrência. Os números diferem (27 tiros que atingiram o jovem, segundo a manchete, e 45 disparos, segundo o BO): use 45 disparos só com a atribuição ao BO. Respeite a família e não use foto da vítima. Evite generalizar a corporação.",
-     "timeline": {
-      "rende": false,
-      "motivo": "Caso local ainda no começo da apuração, sem fatos suficientes para artigo de 600 a 1.200 palavras."
-     }
-    }
-   ]
-  },
-  {
    "time": "19h",
    "type": "r",
    "kind": "Reel de até 30s reagindo ao fato do dia",
@@ -177,6 +139,10 @@
   {
    "titulo": "A caneta que fechou a porta voltou a abri-la",
    "em": "2026-10-14T12:53:29-03:00"
+  },
+  {
+   "titulo": "45 tiros, uma câmera e uma pergunta",
+   "em": "2026-10-14T12:53:59-03:00"
   }
  ]
 }
