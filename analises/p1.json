@@ -1,109 +1,101 @@
 {
-  "generated": "2026-10-13T05:54:23-03:00",
-  "dias": 1,
-  "period": {
-    "start": "2026-10-12",
-    "end": "2026-10-12"
+ "generated": "2026-10-14T06:07:21-03:00",
+ "dias": 1,
+ "period": {
+  "start": "2026-10-13",
+  "end": "2026-10-13"
+ },
+ "compare": "média dos 7 dias anteriores",
+ "headline": "Terça (13/10) a conta teve 335 mil views, 36% abaixo da média diária dos 7 dias anteriores, com só 3 imagens publicadas e nenhum Reel.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "335 mil",
+   "delta": "−36%",
+   "dir": "down"
   },
-  "compare": "média dos 7 dias anteriores",
-  "headline": "Dia 12: 537 mil views (−38% contra a média da semana anterior), com só 5 publicações e um Reel, \"Inacreditável!\", responsável por 58.323 views e 3.980 compartilhamentos.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "537 mil",
-      "delta": "−38%",
-      "dir": "down"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "13.160",
-      "delta": "−33%",
-      "dir": "down"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "603",
-      "delta": "−56%",
-      "dir": "down"
-    },
-    {
-      "label": "Salvamentos recebidos",
-      "value": "1.392",
-      "delta": "−40%",
-      "dir": "down"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "O Reel \"Inacreditável!\" (19h) teve 58.323 views, 3.980 compartilhamentos e 392 salvamentos em menos de 10 horas no ar. Só 29% das pessoas pularam o vídeo, que tem 70,1 segundos. Foi o único Reel do dia e ficou muito acima das imagens, cuja mediana foi de 2.358 views.",
-      "actions": [
-        "Repita o formato: vídeo longo de política com tema forte e abertura direta.",
-        "Acompanhe o Reel amanhã, ele ainda está acumulando views.",
-        "Publique o próximo Reel no mesmo horário da noite para comparar."
-      ],
-      "posts": [
-        "DeaQZPRNABT"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "As 4 imagens do dia somaram 9.956 views, bem abaixo do que as imagens costumam entregar. \"No Fla-Flu, torcedores levantaram uma faixa contra Lula,…\" (22h28) tinha 1.611 views e 4 comentários, mas está no ar há só 6,5 horas. \"Onde andarão os artistas mamadores da Rouanet?\" ficou em 2.049 views e 20 compartilhamentos.",
-      "actions": [
-        "Não julgue as imagens mais recentes ainda: elas continuam acumulando views.",
-        "Teste uma imagem com a mesma abertura forte das que passaram de 100 mil views em outros dias.",
-        "Evite publicar duas imagens de opinião seguidas sem pergunta ou gancho."
-      ],
-      "posts": [
-        "DeaoJazsyMz",
-        "DeZwJj9NW39"
-      ]
-    },
-    {
-      "title": "Comentários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Foram 603 comentários no dia, 56% abaixo da média da semana anterior. \"PRIMEIRO DERRUBARAM.\" (7h38) foi a imagem com mais conversa, com 31 comentários, e o Reel da noite teve 74. As outras imagens ficaram entre 3 e 12 comentários.",
-      "actions": [
-        "Feche cada imagem com uma pergunta curta que o seguidor possa responder em uma palavra.",
-        "Responda os primeiros comentários na primeira hora de cada post.",
-        "Repita o tom de \"PRIMEIRO DERRUBARAM.\", que gerou mais comentários entre as imagens do dia."
-      ],
-      "posts": [
-        "DeZCHj7NArJ",
-        "DeaQZPRNABT"
-      ]
-    },
-    {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "A publicação das 19h teve 58.323 views, contra 2.667 às 7h, 3.629 às 13h, 2.049 às 14h e 1.611 às 22h. Com só 5 posts e a diferença de formato (um Reel e quatro imagens), isso é um sinal, não uma regra. Os seguidores do dia ainda não estão disponíveis nos dados.",
-      "actions": [
-        "Mantenha um Reel por dia no começo da noite por mais alguns dias.",
-        "Distribua as imagens em horários diferentes para ter comparação de verdade.",
-        "Volte a olhar os seguidores do dia quando o dado fechar."
-      ],
-      "posts": [
-        "DeaQZPRNABT",
-        "DeZF__ftFXx"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "sem dado",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "sem dado",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "12.303",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "395",
+   "delta": "−31%",
+   "dir": "down"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "174 mil",
+   "delta": "−28%",
+   "dir": "down"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "\"ANISTIA PARA CRIMINOSO?\" (21h) foi o melhor post do dia: 11.386 views em 8 horas, 50 comentários e 20 compartilhamentos, e trouxe 3 seguidores. Foi o post com mais comentários e mais views entre os 3 publicados, e a pergunta no título coincidiu com a conversa na caixa de comentários.",
+   "actions": [
+    "Repita o formato de título em pergunta sobre um tema de debate público no fim do dia.",
+    "Responda os comentários desse post logo cedo, enquanto a conversa está ativa."
+   ],
+   "posts": [
+    "DedCyqss4O6"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "O post do meio-dia, \"O papa Leão XIV será operado hoje ao meio dia em Roma.\", teve 1.596 views em 17 horas, o menor resultado do dia, ainda que tenha tido 20 comentários. A imagem das 7h, \"Diminuiu a COVARDIA!\", chegou a 5.907 views em 22 horas, com 2 compartilhamentos e nenhum salvamento.",
+   "actions": [
+    "Use o horário do meio-dia para assuntos com gancho próprio, não para notícia que já circula em todo lugar.",
+    "Dê mais força à imagem da manhã: ela é a que mais ensinou nas semanas anteriores."
+   ],
+   "posts": [
+    "Deb6SlYNJ2P",
+    "DebUqsKNk11"
+   ]
+  },
+  {
+   "title": "Poucos posts no dia",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Foram 3 publicações, todas imagens, com 18.889 views somadas. Como a conta teve 335.446 views no dia, a maior parte veio de posts de dias anteriores, e o dia mostra que o conteúdo antigo ainda segura o alcance quando se publica pouco.",
+   "actions": [
+    "Publique ao menos 1 Reel curto de noite para manter o ritmo da conta.",
+    "Planeje o post do dia seguinte antes de dormir, para não deixar a manhã vazia."
+   ],
+   "posts": []
+  },
+  {
+   "title": "Interações em queda",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Os comentários caíram para 395 e o alcance médio para 174.464 pessoas, 28% abaixo da média dos 7 dias anteriores. As salvas ficaram em 989 e a conta com interação por dia em 23.802, contra 37.969 na média da semana anterior.",
+   "actions": [
+    "Termine posts com uma pergunta direta para estimular comentário.",
+    "Use os Stories para chamar o público para o post do feed."
+   ],
+   "posts": [
+    "DedCyqss4O6"
+   ]
+  }
+ ]
 }

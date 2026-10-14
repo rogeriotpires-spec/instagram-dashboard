@@ -1,113 +1,108 @@
 {
-  "generated": "2026-10-13T05:54:23-03:00",
-  "dias": 90,
-  "period": {
-    "start": "2026-07-15",
-    "end": "2026-10-12"
+ "generated": "2026-10-14T06:07:21-03:00",
+ "dias": 90,
+ "period": {
+  "start": "2026-07-16",
+  "end": "2026-10-13"
+ },
+ "compare": "2026-04-17 a 2026-07-15 (só 7 dias com dado)",
+ "headline": "Em 90 dias a conta teve 34,7 mi de views, com 52 imagens (mediana 27.279 views) à frente de 113 Reels (8.082).",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "34,7 mi",
+   "delta": "sem comparação",
+   "dir": "na"
   },
-  "compare": "2026-04-16 a 2026-07-14",
-  "headline": "De 15/07 a 12/10 a conta teve 34,4 mi de views e 13.634 novos seguidores nos 36 dias com dado; as imagens tiveram mediana de 33.913 views e os 114 Reels de 7.977.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "34,4 mi",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "13.634",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "530",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "403 mil",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "24 mil",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Alcance médio por dia",
-      "value": "128 mil",
-      "delta": "sem comparação",
-      "dir": "na"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "As imagens são o formato mais forte: 50 posts, mediana de 33.913 views e 245 compartilhamentos, com 6.581 seguidores somados. Os dois maiores resultados foram \"Bem vindo a este manicômio chamado Brasil!\" (1.489.569 views) e \"Quando dizem que uma imagem vale mais do que mil p…\" (1.441.935 views, 42.769 compartilhamentos e 1.409 seguidores).",
-      "actions": [
-        "Mantenha as imagens de opinião como motor de views e de seguidores.",
-        "Estude as duas campeãs para repetir o tipo de frase e de imagem.",
-        "Publique mais imagens que falem de um símbolo ou de uma cena forte."
-      ],
-      "posts": [
-        "DcGTcGzN_5i",
-        "DbWUq-ltrx8",
-        "Dd08gl4tibs"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Os 114 Reels tiveram mediana de 7.977 views e 64 compartilhamentos, contra 33.913 e 245 das imagens. Os piores tiveram de 473 a 551 views e 37% a 43% de pulo: \"Quase 18 anos no poder\", \"O STF virou um manicômio institucional\" e \"Candidato perdeu Instagram e Fundo Eleitoral\". Política (93 posts) teve mediana de 8.521 views.",
-      "actions": [
-        "Reduza o volume de Reels de política sem fato novo.",
-        "Troque a abertura dos Reels por uma frase de impacto nos primeiros segundos.",
-        "Use o Reel como complemento da imagem que já funcionou."
-      ],
-      "posts": [
-        "Db73S3ZBiej",
-        "Dc3EY5cNint",
-        "Dcvng7kNnHA"
-      ]
-    },
-    {
-      "title": "Comentários",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Os maiores volumes vieram de conversa direta: o Reel \"Essa pesquisa parece ótima pra um lado…\" teve 743 comentários, 7.663 compartilhamentos e 82.743 views; \"Qual número você escolheria?\" teve 488 e \"Responda nos comentários, só um nome!\" 355. Em todos, o post pedia uma resposta simples.",
-      "actions": [
-        "Mantenha um post por semana pedindo uma resposta curta.",
-        "Faça enquetes e pesquisas em Reel, que tiveram muito comentário.",
-        "Responda os comentários no mesmo dia."
-      ],
-      "posts": [
-        "Da38CFtMZuP",
-        "DdumKq_tAX_",
-        "DcfJMHasopg"
-      ]
-    },
-    {
-      "title": "Temas e horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Entrevista (5 posts) teve a maior mediana, 88.362 views, seguida de Opinião (50), com 15.137, Política (93), com 8.521, Bastidores e pessoal (11), com 5.292, e Eventos e discursos (6), com 2.687. Por horário, 16h teve mediana de 90.124, 18h de 54.181 e 21h de 51.246, contra 1.442 às 15h e 3.034 às 6h. Os dados de interação cobrem só 36 dias.",
-      "actions": [
-        "Teste mais entrevistas, que têm poucos posts mas mediana alta.",
-        "Concentre posts importantes entre 16h e 21h e de manhã.",
-        "Reduza eventos e discursos, que ficaram com a menor mediana."
-      ],
-      "posts": [
-        "DbWUq-ltrx8",
-        "DcGTcGzN_5i"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores (36 dias com dado)",
+   "value": "14.222",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir (36 dias com dado)",
+   "value": "556",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos (37 dias com dado)",
+   "value": "415 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Comentários recebidos (37 dias com dado)",
+   "value": "24.304",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "130 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "As imagens tiveram mediana de 27.279 views e as 3 maiores foram \"Bem vindo a este manicômio chamado Brasil\" (1.489.573 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (28/7, 1.442.064 views e 1.409 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (958.315). Entrevista teve mediana de 88.363 views em 5 posts.",
+   "actions": [
+    "Mantenha a imagem forte como o principal formato.",
+    "Aposte mais em entrevistas."
+   ],
+   "posts": [
+    "DcGTcGzN_5i",
+    "DbWUq-ltrx8",
+    "Dd08gl4tibs"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Evitar",
+   "diagnosis": "Os 113 Reels tiveram mediana de 8.082 views. Os piores foram longos: \"Quase 18 anos no poder\" (102,4s, 473 views), \"O STF virou um manicômio institucional\" (65,5s, 535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (72,1s, 551), todos assistidos em média por 15 segundos. Bastidores e pessoal teve mediana de 5.292 views em 11 posts.",
+   "actions": [
+    "Limite os Reels a até 30 segundos.",
+    "Use bastidores como complemento, não como post principal."
+   ],
+   "posts": [
+    "Db73S3ZBiej",
+    "Dc3EY5cNint",
+    "Dcvng7kNnHA"
+   ]
+  },
+  {
+   "title": "Comentários",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "O Reel \"Essa pesquisa parece ótima pra um lado…\" (16/7, 197,6s) teve 743 comentários, 7.663 compartilhamentos e 82.743 views, mostrando que tema de pesquisa mobiliza o público. \"Qual número você escolheria?\" teve 488 e \"Responda nos comentários, só um nome!\" teve 355.",
+   "actions": [
+    "Volte a temas de pesquisa e disputa eleitoral para estimular comentários.",
+    "Alterne com posts de resposta curta."
+   ],
+   "posts": [
+    "Da38CFtMZuP",
+    "DdumKq_tAX_",
+    "DcfJMHasopg"
+   ]
+  },
+  {
+   "title": "Horários",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Por mediana, 16h (90.132), 18h (54.182), 19h (48.940) e 9h (43.708) ficaram à frente; 15h (1.442) e 12h (2.978) ficaram atrás. Como são poucos posts por faixa, trate como indício e não como regra.",
+   "actions": [
+    "Teste mais posts às 16h e 18h.",
+    "Evite 12h e 15h para o conteúdo principal."
+   ],
+   "posts": [
+    "DbWUq-ltrx8"
+   ]
+  }
+ ]
 }

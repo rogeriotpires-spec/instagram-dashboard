@@ -1,113 +1,108 @@
 {
-  "generated": "2026-10-13T05:54:23-03:00",
-  "dias": 7,
-  "period": {
-    "start": "2026-10-06",
-    "end": "2026-10-12"
+ "generated": "2026-10-14T06:07:21-03:00",
+ "dias": 7,
+ "period": {
+  "start": "2026-10-07",
+  "end": "2026-10-13"
+ },
+ "compare": "2026-09-30 a 2026-10-06",
+ "headline": "Na semana de 7 a 13/10 a conta teve 3,3 mi de views, 40% abaixo da semana anterior, mas a imagem de domingo (649 mil views) e o Reel \"Inacreditável!\" (177 mil) seguraram o resultado.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "3,3 mi",
+   "delta": "−40%",
+   "dir": "down"
   },
-  "compare": "2026-09-29 a 2026-10-05",
-  "headline": "De 6 a 12/10 a conta teve 3,7 mi de views (−33%) e 2.162 novos seguidores (−40%); uma imagem de 11/10 teve 623.344 views e os 6 Reels ficaram com mediana de 2.152.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "3,7 mi",
-      "delta": "−33%",
-      "dir": "down"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "2.162",
-      "delta": "−40%",
-      "dir": "down"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "124",
-      "delta": "+10%",
-      "dir": "down"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "67 mil",
-      "delta": "−55%",
-      "dir": "down"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "4.020",
-      "delta": "−48%",
-      "dir": "down"
-    },
-    {
-      "label": "Contas com interação por dia",
-      "value": "29 mil",
-      "delta": "−37%",
-      "dir": "down"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "\"Como dizia o TAXAD, quem foge do debate é bundão?\" (11/10, 6h30) teve 623.344 views, 13.104 compartilhamentos e 544 novos seguidores. \"O Rio pode ter governador eleito hoje, sem segundo turno.\" (7h) chegou a 89.973 views e 27 seguidores, e \"VIRADA HISTÓRICA NO RIO!\" a 69.527 views e 259 compartilhamentos. As 12 imagens tiveram mediana de 9.801 views.",
-      "actions": [
-        "Repita imagens de opinião com frase forte e pergunta direta, publicadas cedo.",
-        "Use fatos do dia da política do Rio como gancho, como nas duas imagens de 7 e 8/10.",
-        "Reaproveite o tom do TAXAD em outros confrontos, sem copiar o mesmo assunto."
-      ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DeL6bqctDFk",
-        "DePQzA4NYLR"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Os 6 Reels tiveram mediana de 2.152 views, e os piores ficaram perto de 1.200 a 1.400: \"Pense num amor inimaginável.\" (1.236 views, 53% de pulo), \"Sabe se isso é IA?\" (1.269, 48%) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (1.437, 50%). Metade das pessoas pulou esses vídeos. A exceção foi \"Inacreditável!\" (12/10), com 58.323 views, ainda recente.",
-      "actions": [
-        "Abra os Reels com a imagem ou a frase mais forte nos primeiros 2 segundos.",
-        "Corte os vídeos que perdem metade da audiência cedo.",
-        "Publique menos Reels e escolha os de maior tema, como o de 12/10."
-      ],
-      "posts": [
-        "DeUk6JyNW9Y",
-        "DeKCMhiNIxP",
-        "DeRrXNgtZMa"
-      ]
-    },
-    {
-      "title": "Seguidores",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Entraram 2.162 seguidores (−40%) e 124 deixaram de seguir (+10%), com 6 dias de dado no período. A imagem do TAXAD teve 544 novos seguidores. \"50 MIL!\" teve 21 seguidores com 6.615 views, uma taxa alta para o alcance que teve.",
-      "actions": [
-        "Publique mais posts de comemoração e de marcos, como \"50 MIL!\", que converteram bem.",
-        "Convide para seguir nas imagens que passam de 100 mil views.",
-        "Acompanhe as saídas, que subiram enquanto as entradas caíram."
-      ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DeL6bqctDFk",
-        "DeVQClAsvVV"
-      ]
-    },
-    {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "A mediana de views dos posts das 6h foi de 313.806, contra 27.708 às 7h, 40.119 às 9h, 69.527 às 12h e 16.106 às 19h. Esse valor das 6h vem do post de 11/10 e há poucos posts por horário, então vale como sinal. Os posts das 11h e das 14h ficaram em torno de 1.353 e 1.642 views.",
-      "actions": [
-        "Teste publicar mais imagens entre 6h e 9h.",
-        "Evite concentrar posts de política às 11h e 14h até ter mais dados.",
-        "Compare horários só entre posts do mesmo formato."
-      ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DePQzA4NYLR"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores (6 dias com dado)",
+   "value": "2.298",
+   "delta": "−38%",
+   "dir": "down"
+  },
+  {
+   "label": "Deixaram de seguir (6 dias com dado)",
+   "value": "134",
+   "delta": "+22%",
+   "dir": "down"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "71 mil",
+   "delta": "−51%",
+   "dir": "down"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "3.755",
+   "delta": "−53%",
+   "dir": "down"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "231 mil",
+   "delta": "−22%",
+   "dir": "down"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "\"Como dizia o TAXAD, quem foge do debate é bundão?\" (dom, 6h30) teve 649.698 views, 14.310 compartilhamentos e 675 novos seguidores. \"O Rio pode ter governador eleito hoje, sem segundo turno.\" (qua, 7h) teve 90.072 views, 82 comentários e 27 seguidores. As 15 imagens tiveram mediana de 11.386 views, contra 2.965 dos 5 Reels.",
+   "actions": [
+    "Mantenha a imagem forte entre 6h30 e 7h.",
+    "Use título em forma de pergunta provocativa, como no post de domingo.",
+    "Prepare a imagem na noite anterior para não perder o horário."
+   ],
+   "posts": [
+    "DeVAkiqtPwL",
+    "DeL6bqctDFk"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Evitar",
+   "diagnosis": "Os piores posts foram Reels do fim da manhã e da tarde: \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (qui, 11h06, 79,5s) teve 1.462 views e \"Pense num amor inimaginável.\" (sáb, 14h07) teve 1.296, assistido em média por 10 segundos. Os 2 carrosséis tiveram mediana de 3.538 views. A imagem do meio-dia de terça (papa) tinha 1.596 views com 17 horas de vida e ainda acumula.",
+   "actions": [
+    "Evite Reels longos no fim da manhã e à tarde.",
+    "Use carrossel só quando o assunto pedir várias telas.",
+    "Antes de publicar, confira se o motivo para assistir aparece nos 3 primeiros segundos."
+   ],
+   "posts": [
+    "DeRrXNgtZMa",
+    "DeUk6JyNW9Y",
+    "Deb6SlYNJ2P"
+   ]
+  },
+  {
+   "title": "Reel de exceção",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "\"Inacreditável!\" (seg, 19h, 70,1s) teve 176.966 views, 12.637 compartilhamentos e 211 comentários, o post com mais comentários da semana, mesmo sendo assistido em média por 28 segundos e com 37% de pulos. A mediana dos 5 Reels foi 2.965 views. Um Reel isolado que funciona não muda o padrão da semana.",
+   "actions": [
+    "Estude o início e o tema desse Reel e teste a mesma estrutura em outro assunto.",
+    "Publique Reels à noite e acompanhe se o resultado se repete."
+   ],
+   "posts": [
+    "DeaQZPRNABT"
+   ]
+  },
+  {
+   "title": "Seguidores e comentários",
+   "status": "warn",
+   "status_label": "Atenção",
+   "diagnosis": "Os novos seguidores somaram 2.298 em 6 dias com dado, contra 3.729 na semana anterior, e as saídas foram 134, contra 110. Os comentários caíram para 3.755 (8.063 antes). Entre os posts, \"50 MIL!\" (sáb, 20h22) teve 43 comentários e 21 seguidores com 6.666 views.",
+   "actions": [
+    "Responda os comentários das imagens da manhã na primeira hora.",
+    "Fixe no perfil um post que diga quem você é e o que a pessoa ganha seguindo."
+   ],
+   "posts": [
+    "DeVQClAsvVV",
+    "DeL6bqctDFk"
+   ]
+  }
+ ]
 }
