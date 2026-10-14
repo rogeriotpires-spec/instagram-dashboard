@@ -31,7 +31,7 @@ Crie ou altere apenas pautas/AAAA-MM-DD.json e pautas/index.json. Scripts auxili
    - Stories: poll com pergunta e opções.
    - risk baixo, médio ou alto e risk_note objetiva. Nunca afirme crime sem condenação.
    - timeline: rende true quando sustenta artigo de 600 a 1.200 palavras, com o ângulo; false com o motivo.
-   - Títulos que abrem curiosidade, não descritivos. Português do Brasil, direto. NUNCA use travessão (— ou –). Primeira pessoa quando for fala dele.
+   - Títulos (campo "title") DIRETOS, no estilo da manchete dos portais: o fato principal com sujeito e verbo, fiel ao que os jornais publicaram, sem metáfora nem enigma (até cerca de 90 caracteres). A provocação e a curiosidade ficam no texto da arte, nos ganchos e na legenda, não no título. Português do Brasil, direto. NUNCA use travessão (— ou –). Primeira pessoa quando for fala dele.
    - summary: 1 ou 2 frases de contexto; agenda: compromissos com hora e fonte.
 4. Grave pautas/AAAA-MM-DD.json (com "generated" em ISO -03:00), inclua a data em pautas/index.json ("days", sem duplicar, ordenada) e valide: python3 -c "import json;p=json.load(open('pautas/ARQUIVO'));assert all(len(s['options'])==2 for s in p['slots'])" e grep sem "—" nem "–".
    Depois rode `python3 tools/repeticao.py pautas/AAAA-MM-DD.json`. Se ele apontar REPETIDO, troque a opção por outro tema (ou, se for desdobramento real, refaça-a em torno do fato novo e preencha "desdobramento") e rode de novo até sair sem erro.
