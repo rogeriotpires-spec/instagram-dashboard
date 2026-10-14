@@ -42,12 +42,13 @@ def main():
     for k in range(1, 4):
         f = os.path.join(pasta, (d0 - timedelta(days=k)).isoformat() + ".json")
         if os.path.exists(f): anteriores += [(f"{os.path.basename(f)[:10]} {r}", t, norm(txt)) for r, t, txt, _ in itens(f)]
+    excluidos = []
     # temas apagados com a lixeira não voltam: os "excluidos" do próprio dia e dos 3 anteriores contam como já usados
     for k in range(0, 4):
         f = os.path.join(pasta, (d0 - timedelta(days=k)).isoformat() + ".json")
         if os.path.exists(f):
             for x in json.load(open(f, encoding="utf-8")).get("excluidos", []):
-                anteriores.append((f"excluído pelo usuário em {os.path.basename(f)[:10]}", x.get("titulo", ""), norm(x.get("titulo", ""))))
+                excluidos.append((f"excluído pelo usuário em {os.path.basename(f)[:10]}", x.get("titulo", ""), norm(x.get("titulo", ""))))
     if pasta.endswith("pautas"):
         for extra, chave, campo_t, campo_f in (("sob-demanda.json", "items", None, None), ("quentes.json", "alerts", "title", "fact")):
             f = os.path.join(pasta, extra)
@@ -63,12 +64,15 @@ def main():
         for r2, t2, w2 in anteriores:
             s = sim(w, w2)
             if s >= limiar: achados.append((s, dd and not r2.startswith("excluído"), f'{r} "{t}" repete {r2} "{t2}" ({s:.0%})'))
+        for r2, t2, w2 in excluidos:  # compara título com título (o excluído só tem título)
+            wt = norm(t); s = sim(wt, w2)
+            if s >= 0.5 and len(wt & w2) >= 3: achados.append((s, False, f'{r} "{t}" repete tema {r2} "{t2}" ({s:.0%})'))
         for r2, t2, w2, _ in atuais[i+1:]:
             if r.split(" ")[0] == r2.split(" ")[0] and pasta.endswith("pautas"): continue  # opções A e B do mesmo horário já são temas diferentes por regra
             s = sim(w, w2)
-            if s >= limiar: achados.append((s, dd, f'{r} "{t}" repete {r2} "{t2}" no mesmo dia ({s:.0%})'))
+            if s >= (0.24 if pasta.endswith("programa") else limiar): achados.append((s, False, f'{r} "{t}" repete {r2} "{t2}" no mesmo dia ({s:.0%}): funda os dois num item só'))
     ruins = [a for a in achados if not a[1]]
-    for s, dd, msg in sorted(achados, reverse=True): print(("OK (desdobramento) " if dd else "REPETIDO: ") + msg)
+    for s, dd, msg in sorted(achados, key=lambda a: a[0], reverse=True): print(("OK (desdobramento) " if dd else "REPETIDO: ") + msg)
     if not achados: print("sem repetição")
     sys.exit(1 if ruins else 0)
 
