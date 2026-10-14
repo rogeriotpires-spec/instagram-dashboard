@@ -810,76 +810,6 @@
   {
    "requested": "2026-10-13",
    "done": "2026-10-13T11:20:00-03:00",
-   "issue": 39,
-   "slot_hint": "Imagem hoje (13) às 12h e reel às 19h, se houver novidade da investigação.",
-   "source": {
-    "edition": "2026-10-13-06h",
-    "item_id": "bope-fogo-amigo",
-    "title": "Subtenente do Bope morre baleado por PMs após equipe ser confundida com criminosos; polícia apreende armas"
-   },
-   "options": [
-    {
-     "type": "r",
-     "title": "Bope morto por PMs: como uma equipe é confundida com bandidos?",
-     "tone": "contundente, respeitoso com a vítima",
-     "duration": "30s",
-     "fact": "Um subtenente do Bope morreu após troca de tiros com PMs que confundiram a equipe com criminosos, em Jacarepaguá, Rio de Janeiro, segundo a Agência Brasil e o Diário do Rio. A Polícia do Rio apreendeu armas. O iG informa que ele era irmão de PM morto em megaoperação. O Globo e o Extra registram que a ex-mulher lembrou a frase 'Se um dia eu morrer, quero estar fardado'. O Estadão diz que a família quer entender o ocorrido. As circunstâncias ainda são apuradas.",
-     "sources": [
-      {
-       "name": "Agência Brasil",
-       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcThSZy1NbGxQaEdZYmpUSk1HQVN0WnlpWmxSWlJEX0EtMmI1TWRtb3NUU1RMTkM5d3B4bGd5Y0RETENmWnM5STNrODJpdXQ4U29BRnVnNXRsTGxJZGFoY2IwcUxzN0pjWVJHTXNxZWJMdzZsMGE1X3VnU3JlSHhUZUREa2hVd3d2X0c3VkxNb0JNa2E2N1lMWGZSZ2lmUENMTzA0X1lNcFpXVXpjNEFDa1EyR19wc21n?oc=5"
-      },
-      {
-       "name": "Diário do Rio",
-       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLWs5X1ZIMnE5cG9ET1R1Y0FwNHJ5NzYwZ3BhaXZTUV93QlhvbXRjWmttYk1JS1JDbTM1RTdseWc1MHcyOTRXU0NyclQ0YzdTRmNZb1JrRThzTXpqeXBEd0EwYXZnZVJ6SFVZUmxrYlVUbGpNNjRSOHVVaWM3Unk0VXZMTGpSNWM4NklXaEl0WmJqdEpBcUs3T0JMbERzNDMwSC1SMjhnX1o0WVZrSFgtSEZxZzg0WWdfbGtIVldZeFYtWTNDeDRfV3N3?oc=5"
-      },
-      {
-       "name": "O Globo",
-       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWkszcEdfX3VRSVpoSW9CbmpiLWJ3UUxFMHRtMUttMGRrYmMyZlJUV1c2ZDk4cVp4T01wTTVrQWFrWHdHNlBabFM4MUVIU25tSjJzd2habF9XdWJQalFaaWdTaWhyUUpSNWdNZVlwZVY1U0dGYnQ4Tk5kRXJHRkhsa3B1RDQ0NWpmdmJISGg2OGhRR0RLRVlWZW90dmttSGxBNHVqLW51SnBWSkZuamNpaWt4NXBwUkVWNllTYjJNUno3SEFTcEtYSEc3Yy1uZllIVmRoWjdtTjhRQ0oybUw5VTlaY1B2YWRBQktmS2dLUlVUdjjSAYICQVVfeXFMT2Y4NEJFRVJFdUtRSmxFdlBrck9LZmJPZTlwbzhUMXM1ZldSMWM5c2RnOFVVODZxUlQ0NW53RzM4MjhSQjhJM3I4M0lvTnBSZWs0V3hQQy1SS2c3MlhVTE0xR016NWpneXJYTmI4U0pRX1lHc0YxRkFQd0E0MkFiMDVyQ3lxbGs4dW42WmxSTmtjb2VSWmpBeWY5QU9Dci02MmtOcmJnbTdYcnhNVTJzczItTFd4bng3YVNoVXRpWC0zY1dIZmhWd0pRYXZkV1Flc3FiNENUUHhlR05hLWRDUTE2TTc5RzRjN1Y0aFo0bEtmVDRONjY1bGZicUtRQzlBb0JB?oc=5"
-      },
-      {
-       "name": "Extra",
-       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZnIxdHlQajBvUVdnRS1uZEgzbkE5UmV3c2ZoR1NyS2xuRUFWY1ZsS0lRMEZ3NjVMSUh1Ukhua2Rjd2lhSmY5aS1LUDdYMkRqLVJTb3VWSHdpV0hSMkpCRnAtaUdjWGtnN292LXRIRVVYdmlUdzA0QkFfcTlVTWFEbzlMQm5IbEViWWcwLXJnT3RCOXNrcGVkOVFuMjM1OWgxQWNseThmLVVZbWpLWG5fV1RaV1ItTnd4NldXWVRiSnYzRTlMNWR0Y2M0WGYtQmlPNzViQXJPNDFTMENCblZzZ9IB7wFBVV95cUxNZ3lBampZV3JWX1VXN1BuanJZZDk1SVNmZmt1bzd3SjEtbEd4UWhscnlNZlpyQUc1QzhSWDlQTkNyTWZ5VDk4OU5LbjVwOGF0b0pxSUt2a3dXV3B1cVl0ajNQaVRqUl84eU9MY004M1ZVdGlnV1FzUndnZXVUMS1tY2hDMU51enRKU2tzTEdDNy1kVXBGU2tUTXkyODhPS0EyeFZUWUg4enY1SVFJcW4zdENLYTJJSVpNeGpFNXp5Z2lZcGVQNUw0MXZIejhndlpNSDZYc0loLWpUNHU0eExMRW1rQTcxZWxnX2gxSUlnQQ?oc=5"
-      },
-      {
-       "name": "Meia Hora",
-       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOXRyc0s0RU12OWlNZDlPOS1JSVRZbWxUWWJYRG9iLS10cUJsSkRBeXZZdHVfOFYxdTNSSktobW5pYkFfZEFTZWN6YUZlMnRxZ01EUnlLQWVyNEw5cUdPV0tkaTh5TVBHNWJOajU2NDRvd3JKV0xsTWtpVnBBUk41SGRITUx1VVI4M3lvOVZ6alVnRy1RM0prZEFMQXFvZ2F2SXZKTXMxM2hSZ1h6S3N4MkNBdHJ5eUgxQVhlZFhqeUozMFp5dE5z?oc=5"
-      },
-      {
-       "name": "Portal iG",
-       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaDRKOXBLRm1SSkUyRUpfWXNoYWJ6VDlZeGJFWkdYeXJhdzBhX0NGQ080T2NkZTJaRTVEdW01QTZrY3diQm9ITkRkODNqOGw2amlSWWtsZGVHRWdQRHhQUGpPT0pYd2dYVGtjdUJacmE2STZvVkp3eTV4MXV3Y19CdlBDV1luR0tZN3lJaTJUUHFWRU5NaTd3cWZwNWZBS20zeWfSAacBQVVfeXFMUHRhZnJMT3BIenB5eUNIenlIdkc1STFjdW1MSW1ySmxnbU8zQ0NUWnZhNVU2aFNGbnNWU2hvcTFfUFlDdTZuUW5QNFVIdktpXzFnY2xYTG9rTGVjTG9YeVdTb3FBQ1VQak9OS25fa2NheUJaQUZ4dUZvSDdnNmdMY01CRHViYkEzbXBLaEdiNTgwdWhjQkFXekFzanBVWjl1T0pRM2tKcUE?oc=5"
-      },
-      {
-       "name": "Jornal do Commercio",
-       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYXEwQ3ctNU9jZXV0ankycEQ4UFZRSVprZTloSmEtMktsaWdCYUxCaEpGVEZvaVFJd0pvaUV6d0RwS2h1ZVBQZzFvVEprbXdpTTRUQzdRZjNpT2xwRGlOaUhfek4zTEVRelhwLTVZc3hYeVo1THFEQncya05vQzgtRTFGM1FnZ1JsNVBkSktja0pBQlRQMFhHdGlJUGpIaDB4QXlmSFhkZnA4UnVuWlpKZG1OM3FXVnI4WF8zYXBSOGNHb0F0cDloeg?oc=5"
-      }
-     ],
-     "hooks": [
-      "Um policial do Bope morreu baleado por outros policiais.",
-      "Equipe do Bope confundida com criminosos termina em morte no Rio.",
-      "Ele disse: 'Se um dia eu morrer, quero estar fardado'."
-     ],
-     "script": "Um subtenente do Bope morreu baleado por PMs que confundiram a equipe dele com criminosos, em Jacarepaguá, segundo a Agência Brasil e o Diário do Rio. A polícia apreendeu armas. O iG informa que ele era irmão de um PM morto em megaoperação. A ex-mulher lembrou que ele dizia: se um dia eu morrer, quero estar fardado, segundo O Globo e o Extra. A família diz que só quer entender o que aconteceu, conforme o Estadão. E essa é a pergunta que o Rio inteiro faz: como uma equipe fardada é confundida com bandidos? Falta comunicação? Falta protocolo? A apuração precisa responder, com transparência. Qual a sua opinião? Comenta aqui.",
-     "screen_text": [
-      "Subtenente do Bope morre baleado por PMs",
-      "Equipe foi confundida com criminosos",
-      "Jacarepaguá, Rio de Janeiro",
-      "Família quer entender o ocorrido",
-      "Apuração em andamento"
-     ],
-     "caption": "Subtenente do Bope morreu baleado por PMs que confundiram a equipe com criminosos. A família quer respostas. Comenta o que você acha.",
-     "risk": "baixo",
-     "risk_note": "Tema de luto e de segurança pública: tom respeitoso, sem culpar PMs individualmente nem afirmar erro antes da apuração. Não mostrar rosto, corpo ou foto da vítima. Links do Google News retornam página vazia; fatos atribuídos aos veículos conforme o resumo do pedido. Conferir atualização da investigação antes de publicar.",
-     "timeline": {
-      "rende": true,
-      "angle": "Retomar quando a perícia e a investigação da PM/Polícia Civil explicarem como a equipe foi confundida e quem atirou."
-     }
-    }
-   ]
-  },
-  {
-   "requested": "2026-10-13",
-   "done": "2026-10-13T11:20:00-03:00",
    "issue": 38,
    "slot_hint": "Reel hoje (13) às 13h e imagem às 20h, com a versão da defesa se sair.",
    "source": {
@@ -3029,6 +2959,10 @@
   {
    "titulo": "Policial morto por policial: o Bope confundido com bandidos",
    "em": "2026-10-14T12:56:57-03:00"
+  },
+  {
+   "titulo": "Bope morto por PMs: como uma equipe é confundida com bandidos?",
+   "em": "2026-10-14T12:57:23-03:00"
   }
  ]
 }
