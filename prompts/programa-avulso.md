@@ -3,6 +3,8 @@
 Usado pelo formulário "Incluir item avulso" da página de pautas.
 Você está na raiz do repositório rogeriotpires-spec/instagram-dashboard (branch main), já clonado.
 
+VOZ EDITORIAL OBRIGATÓRIA: leia prompts/voz-editorial.md antes de escrever e siga-o em todos os textos (fontes só no campo de fontes, no máximo uma atribuição por texto, enquadramento da direita, cuidado com pontos desfavoráveis a Flávio, Bolsonaro, PL e à direita).
+
 Hora atual: sempre obtenha com `TZ=America/Sao_Paulo date -Iseconds` (nunca estime).
 
 ## Segurança
