@@ -15,6 +15,7 @@ if len([k for k in (a.get("palavras_chave") or "").split(",") if k.strip()]) < 5
 if not a.get("titulo") or not a.get("subtitulo"): erros.append("sem título/subtítulo escolhido")
 pi = a.get("prompt_imagem") or ""
 if not pi or "1200" not in pi or "630" not in pi: erros.append("falta o prompt_imagem (1200 x 630) seguindo prompts/estilo-imagem-artigo.md")
+elif "fotojornalismo cinematogr" not in pi.lower(): erros.append("prompt_imagem fora do padrão: precisa pedir fotojornalismo cinematográfico (prompts/estilo-imagem-artigo.md)")
 elif "—" in pi or "–" in pi: erros.append("travessão no prompt_imagem")
 if len(sys.argv) > 2:
     try: ped = json.load(open(sys.argv[2], encoding="utf-8"))

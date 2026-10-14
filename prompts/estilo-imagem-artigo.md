@@ -1,23 +1,37 @@
-PADRÃO OFICIAL DE IMAGENS PARA ARTIGOS DA REVISTA TIMELINE
+PADRÃO OFICIAL DE IMAGENS PARA ARTIGOS DA REVISTA TIMELINE (versão de 14/10/2026)
 
-As imagens dos artigos da Revista Timeline devem seguir uma identidade visual jornalística própria, com forte impacto, qualidade editorial e composição cinematográfica. Cada imagem deve traduzir visualmente o assunto central da reportagem, despertando a curiosidade do leitor sem depender de manchetes, frases ou outros textos sobrepostos.
+A imagem dos artigos da Revista Timeline é jornalística, cinematográfica, realista e impactante. Ela precisa despertar curiosidade e incentivar o clique, sem parecer uma montagem artificial. A imagem deve contar parte da história antes mesmo de o leitor abrir o artigo. Priorizamos tensão visual, expressões humanas, luz cinematográfica e uma composição limpa.
 
-O formato obrigatório é horizontal, com resolução de 1200 × 630 pixels e proporção aproximada de 1,91:1, adequado para capas de artigos, sites e compartilhamentos em redes sociais e aplicativos de mensagens. As imagens devem apresentar alta definição, excelente nitidez, enquadramento equilibrado e margens de segurança para evitar cortes dos elementos principais nas diferentes plataformas.
+ESPECIFICAÇÃO (obrigatória em todo prompt)
+- Dimensão: 1200 × 630 pixels.
+- Proporção: 1,91:1, horizontal.
+- Estilo: fotojornalismo cinematográfico.
+- Qualidade: alta definição, aparência fotográfica real.
+- Iluminação: dramática, com contraste e profundidade.
+- Composição: um assunto principal, enquadramento forte.
+- Personagens: rostos naturais, reconhecíveis e sem deformações.
+- Texto na imagem: preferencialmente nenhum.
+- Logomarcas: não incluir, salvo solicitação.
+- Montagens: evitar colagens, divisões artificiais e excesso de elementos.
+- Objetivo: despertar emoção, curiosidade e vontade de ler.
 
-A identidade visual combina três linguagens, escolhidas conforme o conteúdo da reportagem: charge política em estilo HQ ou graphic novel, fotojornalismo cinematográfico realista e ilustração editorial conceitual. As charges são utilizadas preferencialmente em matérias envolvendo política, decisões judiciais, conflitos institucionais e contradições públicas. O fotojornalismo realista é indicado para acontecimentos concretos, economia e questões sociais. Já as ilustrações conceituais são destinadas a investigações, estudos, análises e temas abstratos. A escolha deve respeitar a natureza da notícia, evitando transformar todas as reportagens em charges ou repetir composições semelhantes.
+DIREÇÃO ARTÍSTICA (linguagem visual desejada; são referências de clima, não modelos para copiar literalmente)
+Escolha UMA destas famílias de cena, a que melhor conta a história do artigo, e adapte ao Brasil (Congresso Nacional, Supremo Tribunal Federal, Palácio do Planalto, Alerj, sede da Polícia Federal, redações brasileiras):
+1. Retrato low-key: uma figura central em plano fechado, de três quartos, terno escuro, fundo preto, luz lateral dura recortando o rosto e expressão contida e tensa.
+2. Instituição sob tempestade: o prédio que simboliza o tema (Congresso, STF, Planalto) em ângulo baixo, sob céu carregado de nuvens, tons frios ou sépia dramático, sensação de crise iminente.
+3. Ação institucional sem rostos: agentes ou servidores de costas subindo a escadaria de um tribunal ou órgão público, pastas e documentos na mão, céu escuro ao fundo.
+4. Redação à noite: um jornalista concentrado diante do monitor, luz quente de luminária, documentos e câmera sobre a mesa, colegas desfocados ao fundo.
+5. Sala de controle em tensão: um grupo em pé diante de monitores, braços cruzados, rostos sérios acompanhando algo decisivo, como uma cena de cinema.
+6. Preto e branco cinematográfico: redação ou plenário em alto contraste, com movimento desfocado em primeiro plano.
+7. Ambiente frio e silencioso: uma redação ou gabinete moderno quase vazio, uma pessoa ao fundo, luz azulada com pontos de vermelho e reflexos em vidro.
+8. Arquivo analógico: mesa com pilhas de papéis e pastas, luz natural difusa pela janela, um personagem olhando para a câmera ou para os documentos.
 
-Nas charges políticas, o estilo deve apresentar traços expressivos de nanquim, contornos marcados, hachuras, sombreamento chapado e texturas que remetam às histórias em quadrinhos e às grandes ilustrações editoriais. A paleta deve privilegiar cores quentes, sóbrias e dessaturadas, especialmente preto, grafite, marrom, ocre, bege envelhecido e vermelho profundo. A iluminação deve ser dramática, com sombras intensas, contraste elevado, profundidade visual e atmosfera cinematográfica. Nas imagens realistas, devem ser preservadas as proporções anatômicas, as características faciais e as texturas naturais, evitando rostos artificiais, pele plastificada e qualquer aparência genérica de imagem produzida por inteligência artificial.
+REGRAS DE CONTEÚDO
+- Uma ideia central por imagem: o conflito, a pressão ou a consequência que o artigo defende. O cenário contextualiza sem disputar atenção.
+- Personalidades públicas, quando ligadas diretamente ao tema, aparecem com rosto natural e reconhecível (formato do rosto, cabelo, idade aparente), preferencialmente em retrato (família 1). Nunca as coloque numa cena ou acontecimento que não ocorreu como se fosse foto real, nunca presas, algemadas, feridas, cometendo crime ou em situação degradante.
+- Sem texto sobreposto: nada de título, subtítulo, frase, pergunta, número em destaque, ícone de rede social, nome de perfil, logomarca, assinatura, marca-d'água ou moldura. Só textos que façam parte natural da cena, como placas de edifícios.
+- Margens de segurança para que os elementos principais não sejam cortados; a imagem precisa continuar compreensível em tamanho reduzido.
+- Pele, olhos e mãos naturais, sem pele plastificada nem aparência genérica de imagem feita por inteligência artificial.
 
-Cada imagem deve contar uma história visual clara, construída em torno de um único acontecimento, conflito ou ideia central. Os personagens e objetos principais precisam ser imediatamente reconhecíveis, enquanto o cenário deve contextualizar a reportagem sem disputar a atenção do leitor. Símbolos como relógios, documentos, portas, tribunais, urnas e outros elementos podem ser utilizados quando contribuírem diretamente para a narrativa. Devem ser evitados cenários excessivamente carregados, elementos decorativos desnecessários, montagens desconexas e a repetição de enquadramentos, poses ou composições utilizadas anteriormente.
-
-Quando forem retratadas personalidades públicas, como políticos, ministros, parlamentares e autoridades, suas características físicas devem ser preservadas de maneira reconhecível, incluindo formato do rosto, cabelo, idade aparente e expressões. A linguagem de caricatura permite exagerar gestos e emoções para reforçar a crítica editorial, mas não deve descaracterizar os personagens. Cenas simbólicas ou imaginadas precisam manter aparência claramente ilustrativa, evitando confusão com registros fotográficos de acontecimentos reais.
-
-As imagens dos artigos não devem conter manchetes, títulos, subtítulos, frases de impacto, perguntas, números destacados, chamadas de engajamento, ícones de redes sociais, nomes de perfis, logomarcas, assinaturas, marcas-d’água ou molduras decorativas. Essas informações pertencem à estrutura editorial da página e não à ilustração. Textos que façam parte naturalmente da cena, como placas de edifícios e identificações institucionais, são permitidos quando necessários à compreensão do contexto.
-
-A composição deve priorizar originalidade, força narrativa, equilíbrio visual e qualidade artística. O enquadramento deve valorizar o assunto principal, utilizando perspectiva, iluminação, expressões e elementos simbólicos para transmitir tensão, conflito, expectativa ou gravidade, conforme o conteúdo da reportagem. A imagem precisa continuar compreensível e impactante mesmo quando exibida em tamanho reduzido.
-
-Como referência, em uma reportagem sobre um impasse entre ministros do Supremo Tribunal Federal, a imagem pode apresentar os personagens em posições opostas, com gestos e expressões que comuniquem o conflito, documentos em destaque, a arquitetura do tribunal ao fundo e um relógio simbolizando a pressão do tempo. A própria composição deve transmitir a essência da notícia, sem necessidade de inserir frases explicativas.
-
-O resultado final deve ter aparência de uma ilustração produzida especialmente para uma publicação jornalística de alto nível, com personalidade visual, acabamento profissional e capacidade de despertar imediatamente o interesse do leitor.
-
-A regra fundamental da Revista Timeline é que imagens de artigos não são cartazes de Instagram. São capas jornalísticas horizontais, cinematográficas, originais e visualmente impactantes, nas quais a força da mensagem está na cena representada, e não em textos sobrepostos.
+DISTINÇÃO IMPORTANTE
+A imagem do artigo segue o formato horizontal de 1200 × 630. Os cards para Instagram seguem o formato vertical de 1080 × 1350, com títulos e elementos gráficos próprios (padrão em prompts/estilo-imagem.md). Imagem de artigo não é cartaz de Instagram.
