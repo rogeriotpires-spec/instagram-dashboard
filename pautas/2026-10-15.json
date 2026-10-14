@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-15",
+  "weekday": "Qui",
+  "generated": "2026-10-14T17:06:39-03:00",
+  "summary": "Quinta é Dia do Professor, data sem feriado nacional, e a CCJ do Senado concluiu a PEC da Segurança, que o governo quer votar antes do segundo turno. À noite, o assunto é o debate da Band: Lula e Flávio confirmaram presença para o domingo (18).",
+  "agenda": [
+    {
+      "time": "15/10",
+      "text": "Dia do Professor. A data não é feriado nacional nem ponto facultativo.",
+      "source": {
+        "name": "Toda Matéria",
+        "url": "https://www.todamateria.com.br/dia-do-professor/"
+      }
+    },
+    {
+      "time": "18/10",
+      "text": "Debate da Band entre Lula e Flávio Bolsonaro, o primeiro do segundo turno. Quem faltar deixa o púlpito vazio.",
+      "source": {
+        "name": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-confirma-ida-ao-debate-da-band/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Dia do Professor: imagem com sua história na educação",
+      "options": [
+        {
+          "title": "Em 1827 uma lei mandou abrir escola em cada cidade; quem a mantém aberta é o mestre",
+          "tone": "emocional",
+          "style": "realista",
+          "fact": "A lei de 15 de outubro de 1827, assinada por Dom Pedro I, determinou a criação de escolas de primeiras letras nas cidades. É a data que dá origem ao 15 de outubro de hoje.",
+          "sources": [
+            {
+              "name": "Toda Matéria",
+              "url": "https://www.todamateria.com.br/dia-do-professor/"
+            },
+            {
+              "name": "JB",
+              "url": "https://www.jb.com.br/sociedade-aberta/noticias/2013/10/15/amp/cinquentenario-do-dia-do-professor.html"
+            }
+          ],
+          "art_text": [
+            "Obrigado, professor",
+            "A lei mandou abrir a escola em 1827. Quem a mantém aberta é você.",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Sala de aula vazia ao amanhecer, quadro-negro com giz e uma mão (sem rosto) apoiada na mesa do professor. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz dourada de manhã entrando pela janela de uma sala de aula pública simples, carteiras enfileiradas, quadro-negro com restos de giz e, na mesa do professor, uma pilha de cadernos corrigidos e uma caneta vermelha. Sem rosto de ninguém. No terço superior, sobre sombra escura semitransparente, texto em branco, letras grandes e muito pesadas: \"Obrigado, professor\". No terço inferior, em amarelo, letras condensadas: \"A lei mandou abrir a escola em 1827. Quem a mantém aberta é você.\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Sou professor e sei o peso de uma sala de aula. Hoje é dia de agradecer a quem ensina, mesmo com a escola cheia e o salário curto. Você teve um professor que mudou a sua vida? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Homenagem sem ataque. As fontes divergem sobre o nome do idealizador de 1947, então não cite nome. Não é feriado nacional: não diga que é.",
+          "timeline": {
+            "rende": false,
+            "angle": "Data comemorativa sem fato novo para sustentar artigo de 600 a 1.200 palavras."
+          }
+        },
+        {
+          "title": "CCJ conclui a PEC da Segurança e o texto vai ao plenário do Senado",
+          "tone": "contundente",
+          "style": "realista",
+          "fact": "Na quarta (14), a CCJ do Senado concluiu a análise da PEC da Segurança Pública, que segue ao plenário e precisa de 49 votos em cada um de dois turnos. O texto endurece o regime penal para líderes e integrantes de facções e milícias, com presídio de segurança máxima, restrição à progressão de regime e confisco de bens sem indenização, e inclui o Susp na Constituição. O governo quer votar antes do segundo turno (25/10) para criar o Ministério da Segurança Pública.",
+          "sources": [
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/ccj-do-senado-aprova-pec-da-seguranca-texto-vai-ao-plenario"
+            }
+          ],
+          "art_text": [
+            "Facção na cadeia de segurança máxima",
+            "Bens confiscados sem indenização",
+            "O Senado vota antes da urna?",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Corredor escuro de presídio de segurança máxima, grades e cadeados em primeiro plano, viatura ao fundo. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, corredor escuro de presídio de segurança máxima, portas de aço e grades, cadeado pesado em primeiro plano, luz fria de lâmpada fluorescente, granulação leve. Sem nenhuma pessoa. No terço superior, sobre faixa escura semitransparente, em branco, letras grandes e muito pesadas: \"Facção na cadeia de segurança máxima\". No terço inferior, em amarelo: \"Bens confiscados sem indenização\" e, abaixo, em branco com sublinhado vermelho pincelado: \"O Senado vota antes da urna?\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A PEC manda chefe de facção e de milícia para presídio de segurança máxima e permite confiscar os bens. A CCJ já concluiu. O Senado deve votar antes do segundo turno? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "É texto em tramitação, não lei. O placar na CCJ não foi informado, então não cite. A data de votação em plenário não está confirmada. Não atribua autoria política além do que a fonte diz.",
+          "timeline": {
+            "rende": true,
+            "angle": "PEC da Segurança: o que muda para facções e milícias, o que o governo pretende fazer com o novo ministério e o que o plenário ainda decide a 11 dias do segundo turno."
+          }
+        }
+      ]
+    },
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de até 30s com recado aos professores",
+      "options": [
+        {
+          "title": "Quinta é dia normal de trabalho para quem ensina: um recado",
+          "tone": "emocional",
+          "duration": "25 a 30s",
+          "fact": "A comemoração começou em São Paulo, em 1947, e o Decreto Federal nº 52.682, de 14 de outubro de 1963, a oficializou como feriado escolar. Não é feriado nacional nem ponto facultativo: na maior parte do país, quinta é dia normal de trabalho.",
+          "sources": [
+            {
+              "name": "Toda Matéria",
+              "url": "https://www.todamateria.com.br/dia-do-professor/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/nacional/dia-dos-professores-e-feriado-confira/"
+            }
+          ],
+          "script": "Hoje é Dia do Professor e, na maior parte do país, é dia de trabalho normal. A homenagem nasceu em São Paulo, em 1947, e virou data oficial em 1963, mas só como feriado escolar. Eu sou professor e sei o que é isso: ninguém chega a lugar nenhum sem ter passado pelas mãos de um. Obrigado a você que corrige prova de madrugada, que paga caneta do próprio bolso e ainda acredita no aluno. Marque aqui um professor que mudou a sua vida e mande este vídeo para ele. Combinado?",
+          "screen_text": [
+            "Dia do Professor",
+            "15 de outubro",
+            "Dia normal de trabalho",
+            "Marque o seu"
+          ],
+          "caption": "Obrigado, professor. Marque aqui quem mudou a sua vida e mande este vídeo para ele. Vai mandar? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Recado afetivo. A frase sobre caneta do próprio bolso é licença de linguagem; se quiser evitar, troque por 'que prepara aula de noite'. Não é feriado nacional.",
+          "timeline": {
+            "rende": false,
+            "angle": "Data comemorativa sem fato novo para sustentar artigo."
+          }
+        },
+        {
+          "title": "Flávio confirma o debate da Band no domingo (18), depois de Lula confirmar",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "desdobramento": "Flávio Bolsonaro confirmou na quarta (14) presença no debate da Band, depois de dizer na terça que não iria",
+          "fact": "Na quarta (14), Flávio Bolsonaro (PL) confirmou presença no primeiro debate do segundo turno, promovido pela Band no domingo (18): \"É claro que eu vou no debate.\" Na terça (13) ele tinha dito que não iria. Lula já havia enviado à Band um vídeo confirmando presença. Em vídeo, Flávio explicou que a recusa foi uma estratégia para forçar Lula a confirmar. Se um candidato faltar, o púlpito fica vazio. O debate reúne Band, Estadão, Cultura, Gazeta, Jovem Pan e YouTube.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-confirma-ida-ao-debate-da-band/"
+            },
+            {
+              "name": "O Povo",
+              "url": "https://www.opovo.com.br/noticias/politica/2026/10/14/flavio-bolsonaro-recua-de-desistencia-e-confirma-presenca-em-debate-da-band-no-domingo.html"
+            },
+            {
+              "name": "JD1 Notícias",
+              "url": "https://www.jd1noticias.com/politica/2026/10/14/flavio-bolsonaro-confirma-presenca-em-debate-na-band-neste-domingo.html"
+            }
+          ],
+          "hooks": [
+            "Os dois confirmaram. Domingo tem debate.",
+            "Lula só confirmou quando Flávio disse que não ia."
+          ],
+          "script": "Domingo tem debate. Lula e Flávio confirmaram presença no primeiro frente a frente do segundo turno, na Band. Flávio disse que a recusa de ontem foi estratégia para obrigar Lula a se comprometer, e funcionou: Lula enviou o vídeo confirmando na sequência. Agora quem faltar deixa o púlpito vazio. O Brasil vai poder comparar os dois, lado a lado, a uma semana da eleição. Você vai assistir ao debate de domingo? Responde sim ou não.",
+          "screen_text": [
+            "Debate na Band",
+            "Domingo, 18",
+            "Lula x Flávio",
+            "Quem faltar, púlpito vazio"
+          ],
+          "caption": "Os dois confirmaram o debate da Band no domingo (18). Você vai assistir? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A explicação da estratégia é de Flávio: atribua a ele, como no roteiro. Não afirme o que Lula pensou. O horário (20h) aparece em uma única fonte, então fica fora do roteiro.",
+          "timeline": {
+            "rende": true,
+            "angle": "O primeiro frente a frente do segundo turno: o que está em jogo no debate da Band e por que a presença dos dois decide a pauta da última semana."
+          }
+        }
+      ]
+    }
+  ]
+}
