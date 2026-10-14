@@ -212,7 +212,19 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .ag a{color:var(--text-2);font-size:12.5px}
 .time{display:inline-block;background:var(--text);color:var(--surface);border-radius:8px;padding:0 8px;margin-right:6px}
 .dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
-.slot-sec{margin-bottom:36px}
+
+/* modo enxuto: cards recolhidos */
+.optd>summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;gap:8px}
+.optd>summary::-webkit-details-marker{display:none}
+.optd>summary .fact{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--text-2)}
+.optd[open]>summary .fact{-webkit-line-clamp:unset;color:var(--text)}
+.optd .tog{font:600 12.5px Inter,sans-serif;color:var(--s1)}
+.optd[open] .tog .a{display:none}.optd:not([open]) .tog .f{display:none}
+.optd>.ob{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.more>summary,.olds>summary,.wkd>summary{cursor:pointer;font:600 13px Inter,sans-serif;color:var(--text-2);padding:6px 0}
+.wkd{margin-bottom:18px}
+.sd .pills .pill{white-space:normal;max-width:100%}
+.slot-sec{margin-bottom:24px}
 .sd{border-left:4px solid var(--good);padding-left:12px;margin-bottom:18px}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--text);color:var(--surface);padding:8px 14px;border-radius:10px;font-size:13px;font-weight:600;opacity:0;transition:.2s;pointer-events:none;z-index:60}
 .toast.on{opacity:1;transform:translateX(-50%)}
@@ -340,8 +352,8 @@ h3 .pill.nov{display:inline-block;vertical-align:3px;margin-right:8px;cursor:hel
       <button class="act gen" id="c-gen" type="button">↻ Gerar conteúdo de amanhã</button>
       <span class="st" id="c-st" role="status"></span>
     </div>
-    <div class="sec-h"><h2>Semana sugerida</h2><p id="wk-sub">Plano da análise semanal (área de métricas). O dia em destaque é o do conteúdo abaixo.</p></div>
-    <div class="wk" id="wk"></div>
+    <details class="wkd"><summary>Ver a semana sugerida (plano da análise semanal)</summary><p id="wk-sub" class="small-n">Plano da análise semanal (área de métricas). O dia em destaque é o do conteúdo abaixo.</p>
+    <div class="wk" id="wk"></div></details>
     <div class="sec-h"><h2 id="c-title">Conteúdo do dia</h2><p id="c-sub"></p></div>
     <div class="novbar" id="c-novbar"></div>
     <div id="slots"></div>
@@ -429,7 +441,7 @@ const slugify=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").t
 const artId=(day,o)=>`${day}-${slugify(o.title)||"artigo"}`;
 function artBtn(o,ctx){const i=OPTR.push({o,ctx})-1,id=artId(ctx.day,o),has=ARTS.has(id);
   return`<button type="button" class="pill good tl-btn" data-r="${i}" title="${has?"Abrir o artigo já escrito":"Escrever um artigo para a Revista Timeline com base nesta pauta"}">${has?"Ver artigo da Timeline ↗":"Rende artigo na Timeline ✍"}</button>`}
-document.addEventListener("click",e=>{const b=e.target.closest(".tl-btn");if(!b)return;const{o,ctx}=OPTR[+b.dataset.r],id=artId(ctx.day,o);
+document.addEventListener("click",e=>{const b=e.target.closest(".tl-btn");if(!b)return;e.preventDefault();const{o,ctx}=OPTR[+b.dataset.r],id=artId(ctx.day,o);
   if(ARTS.has(id)){window.open("artigos.html#"+id,"_blank");return}
   const pick=(({title,fact,sources,timeline,caption,script,slides,art_text,hooks})=>({title,fact,sources,timeline,caption,script,slides,art_text,hooks}))(o);
   const req={id,origem:{rotulo:ctx.rotulo,dia:ctx.day},pauta:pick};
@@ -438,9 +450,9 @@ document.addEventListener("click",e=>{const b=e.target.closest(".tl-btn");if(!b)
 function option(o,type,idx,ctx){
   const STY={ilustracao:"Ilustração (charge)",realista:"Imagem realista",cartaz:"Cartaz de texto","foto-oficial":"Foto oficial editada",print:"Print"};
   const pills=`${o.style?`<span class="pill neutral">${esc(STY[o.style]||o.style)}</span>`:""}<span class="pill neutral">${esc(o.tone||"")}</span>${o.duration?`<span class="pill neutral">${esc(o.duration)}</span>`:""}<span class="pill ${RISK[o.risk]||"neutral"}" title="${esc(o.risk_note||"")}">Risco ${esc(o.risk||"n/d")}</span>${o.timeline?(o.timeline.rende&&ctx?artBtn(o,ctx):`<span class="pill ${o.timeline.rende?"good":"neutral"}">${o.timeline.rende?"Rende artigo na Timeline":"Só rede social"}</span>`):""}`;
-  let body=`<p class="fact">${esc(o.fact)}</p><div class="src">${srcs(o.sources)}</div>`;
+  let body="";
   if(o.art_text)body+=block("Texto na arte",`<ul>${o.art_text.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`,o.art_text.join("\n"));
-  if(o.faces)body+=block("Rostos e imagem base",`<p>${esc(o.faces)}</p>`);
+
   if(o.prompt)body+=block("Prompt para o ChatGPT",`<pre>${esc(o.prompt)}</pre>`,o.prompt);
   if(o.hooks)body+=block("Ganchos (primeiros 3 segundos)",o.hooks.map((h,i)=>`<div class="hook"><b>${i+1}</b><span>${esc(h)}</span>${copyBtn(h)}</div>`).join(""));
   if(o.script)body+=block("Roteiro para teleprompter",`<pre>${esc(o.script)}</pre>`,o.script);
@@ -448,11 +460,15 @@ function option(o,type,idx,ctx){
   if(o.slides)body+=block(`Slides (${o.slides.length})`,`<ol class="slides">${o.slides.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>`,o.slides.map((s,i)=>`Slide ${i+1}: ${s}`).join("\n"));
   if(o.poll)body+=block("Stories",`<p><b>${esc(o.poll.question)}</b></p>${o.poll.options?`<ul>${o.poll.options.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}`,[o.poll.question,...(o.poll.options||[])].join("\n"));
   if(o.caption)body+=block("Legenda",`<p>${esc(o.caption)}</p>`,o.caption);
-  if(o.risk_note)body+=`<div class="note"><b>Cuidado:</b> ${esc(o.risk_note)}</div>`;
-  if(o.timeline&&o.timeline.angle)body+=`<div class="note tl"><b>${o.timeline.rende?"Ângulo para a Timeline":"Por que só rede"}:</b> ${esc(o.timeline.angle)}</div>`;
+  let more="";
+  if(o.faces)more+=block("Rostos e imagem base",`<p>${esc(o.faces)}</p>`);
+  if(o.risk_note)more+=`<div class="note"><b>Cuidado:</b> ${esc(o.risk_note)}</div>`;
+  if(o.timeline&&o.timeline.angle)more+=`<div class="note tl"><b>${o.timeline.rende?"Ângulo para a Timeline":"Por que só rede"}:</b> ${esc(o.timeline.angle)}</div>`;
+  if((o.sources||[]).length)more+=`<div class="src">${srcs(o.sources)}</div>`;
+  if(more)body+=`<details class="more"><summary>Fontes, rostos e cuidados</summary>${more}</details>`;
   if(ctx&&ctx.del&&gone(ctx.del,ctx.delDay||"",o.title))return"";
   const nv=ctx&&ctx.nov;
-  return`<article class="opt"${nv?` data-nov="${nv.st==="new"?"new":"rep"}"`:""}><div class="opt-h"><span class="opt-n">Opção ${"AB"[idx]||idx+1}</span><h3>${nv?novPill(nv):""}${esc(o.title)}</h3>${ctx&&ctx.del?xbtn(ctx.del,ctx.delDay||"",o.title):""}</div><div class="pills">${pills}</div>${body}</article>`;
+  return`<article class="opt"${nv?` data-nov="${nv.st==="new"?"new":"rep"}"`:""}><details class="optd"><summary><div class="opt-h"><span class="opt-n">Opção ${"AB"[idx]||idx+1}</span><h3>${nv?novPill(nv):""}${esc(o.title)}</h3>${ctx&&ctx.del?xbtn(ctx.del,ctx.delDay||"",o.title):""}</div><div class="pills">${pills}</div><p class="fact">${esc(o.fact)}</p><span class="tog"><span class="a">Abrir post ▾</span><span class="f">Fechar ▴</span></span></summary><div class="ob">${body}</div></details></article>`;
 }
 function renderWeek(day){
   const wp=(AN&&AN.week_plan)||[];if(!wp.length){$("#wk").innerHTML=`<div class="empty" style="grid-column:1/-1">A semana sugerida aparece depois da análise semanal.</div>`;return}
@@ -461,15 +477,17 @@ function renderWeek(day){
   if(AN.period)$("#wk-sub").textContent=`Plano da análise semanal de ${dBR(AN.period.end)} (área de métricas). O dia em destaque é o do conteúdo abaixo.`;
 }
 function renderHot(list,day){
-  const cut=new Date(new Date(day+"T12:00:00").getTime()-2*864e5);
+  const cut=new Date(Date.now()-24*36e5);
   const L=(list||[]).filter(a=>new Date(a.time)>=cut&&!gone("quente","",a.title)).sort((a,b)=>b.time.localeCompare(a.time));
-  $("#quentes").innerHTML=`<div class="sec-h"><h2>Pautas quentes</h2><p>Alertas enviados durante o dia quando surge algo grande</p></div>`+(L.length?L.map(a=>{const t=new Date(a.time);
-    return`<article class="hot"><div class="opt-h"><span class="pill bad">${t.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${t.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span><h3>${esc(a.title)}</h3>${xbtn("quente","",a.title)}</div><p class="fact">${esc(a.fact)}</p><div class="src">${srcs(a.sources)}</div>${a.suggestion?`<p><b>Sugestão:</b> ${esc(a.suggestion)}</p>`:""}${a.hook?block("Gancho",`<p>${esc(a.hook)}</p>`,a.hook):""}${a.script?block("Roteiro curto",`<pre>${esc(a.script)}</pre>`,a.script):""}${a.image_prompt?block("Prompt da imagem para o ChatGPT",`<pre>${esc(a.image_prompt)}</pre>`,a.image_prompt):""}</article>`}).join(""):`<div class="empty">Nenhum alerta nos últimos dois dias.</div>`);
+  $("#quentes").innerHTML=`<div class="sec-h"><h2>Pautas quentes</h2><p>Alertas das últimas 24 horas, quando surge algo grande</p></div>`+(L.length?L.map(a=>{const t=new Date(a.time);
+    return`<article class="hot"><div class="opt-h"><span class="pill bad">${t.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${t.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span><h3>${esc(a.title)}</h3>${xbtn("quente","",a.title)}</div><p class="fact">${esc(a.fact)}</p><div class="src">${srcs(a.sources)}</div>${a.suggestion?`<p><b>Sugestão:</b> ${esc(a.suggestion)}</p>`:""}${a.hook?block("Gancho",`<p>${esc(a.hook)}</p>`,a.hook):""}${a.script?block("Roteiro curto",`<pre>${esc(a.script)}</pre>`,a.script):""}${a.image_prompt?block("Prompt da imagem para o ChatGPT",`<pre>${esc(a.image_prompt)}</pre>`,a.image_prompt):""}</article>`}).join(""):`<div class="empty">Nenhum alerta nas últimas 24 horas.</div>`);
 }
+function sdItem(x){const d=new Date(x.done||x.requested);
+    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">${(x.source?.edition||"").startsWith("programa/")?"Virou conteúdo · Programa "+dBR(x.source.edition.slice(9)):"Virou pauta · Notícias"}</span>${x.source?.title&&(x.source?.edition||"").startsWith("programa/")?`<span class="pill neutral">${esc(x.source.title)}</span>`:""}<span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i,{day:(x.done||x.requested||"").slice(0,10),del:"sobdemanda",rotulo:`Sob demanda de ${dBR((x.done||x.requested||"").slice(0,10))} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`}
 function renderSD(list){
-  const L=(list||[]).slice().sort((a,b)=>(b.done||"").localeCompare(a.done||"")).slice(0,10);
-  $("#sob-demanda").innerHTML=`<div class="sec-h"><h2>Sob demanda</h2><p>Pedidas pelo botão "Virar pauta" da aba Notícias ou "Virar conteúdo" da pauta do programa</p></div>`+(L.length?L.map(x=>{const d=new Date(x.done||x.requested);
-    return`<div class="sd"><div class="pills" style="margin-bottom:8px"><span class="pill good">${(x.source?.edition||"").startsWith("programa/")?"Virou conteúdo · Programa "+dBR(x.source.edition.slice(9)):"Virou pauta · Notícias"}</span>${x.source?.title&&(x.source?.edition||"").startsWith("programa/")?`<span class="pill neutral">${esc(x.source.title)}</span>`:""}<span class="pill neutral">${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} ${d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}</span>${x.slot_hint?`<span class="pill neutral">Sugestão: ${esc(x.slot_hint)}</span>`:""}</div><div class="opts">${(x.options||[]).map((o,i)=>option(o,o.type,i,{day:(x.done||x.requested||"").slice(0,10),del:"sobdemanda",rotulo:`Sob demanda de ${dBR((x.done||x.requested||"").slice(0,10))} · opção ${"AB"[i]||i+1}`})).join("")}</div></div>`}).join(""):`<div class="empty">Nenhuma pauta pedida ainda.</div>`);
+  const ALL=(list||[]).slice().sort((a,b)=>(b.done||b.requested||"").localeCompare(a.done||a.requested||"")).slice(0,15);
+  const lim=Date.now()-24*36e5,L=ALL.filter(x=>new Date(x.done||x.requested)>=lim),OLD=ALL.filter(x=>new Date(x.done||x.requested)<lim);
+  $("#sob-demanda").innerHTML=`<div class="sec-h"><h2>Sob demanda</h2><p>Pedidas pelo botão "Virar pauta" da aba Notícias ou "Virar conteúdo" da pauta do programa</p></div>`+(L.length?L.map(sdItem).join(""):`<div class="empty">Nenhum pedido nas últimas 24 horas.</div>`)+(OLD.length?`<details class="olds"><summary>Pedidos anteriores (${OLD.length})</summary>${OLD.map(sdItem).join("")}</details>`:"");
 }
 /* selo Nova / Repetida / Desdobramento: mesmo critério do verificador tools/repeticao.py (3 dias anteriores) */
 let CNF="all";
