@@ -1,6 +1,233 @@
 {
   "items": [
     {
+      "requested": "2026-10-14",
+      "done": "2026-10-14T08:54:10-03:00",
+      "issue": 43,
+      "slot_hint": "Imagem hoje (14) às 12h ou reel às 19h.",
+      "source": {
+        "edition": "2026-10-14-06h",
+        "item_id": "master-fachin-pf",
+        "title": "Fachin manda a PF enviar ao STF todas as menções a ministros no caso Master, em caráter estritamente descritivo"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Quem investiga o ministro quando a PF manda tudo para o próprio STF?",
+          "tone": "contundente, com pergunta",
+          "duration": "imagem única",
+          "fact": "Segundo O Globo, Poder360, UOL, CartaCapital e Agência Brasil, o presidente do STF, Edson Fachin, recebeu o diretor-geral da PF, Andrei Rodrigues, e determinou que todas as menções a ministros da Corte no caso Master sejam encaminhadas ao tribunal. De acordo com O Globo e o Jornal do Commercio, o material deve ser enviado em caráter estritamente descritivo, sem exceção. O JOTA e o Brasil 247 registram que a PF só pode investigar ministros com aval do plenário do STF. A Gazeta do Povo discute a lacuna da Constituição sobre o impedimento de ministros. O próximo passo é o envio do material pela PF ao Supremo, enquanto a PGR contesta o afastamento da cúpula da corporação.",
+          "sources": [
+            {
+              "name": "O Globo",
+              "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVEVRb3ZGQjAzdV9RTVVUZTJpbTF2RDBxZXVsNVl3Zk5OeW1rZzRFLUstdVQtMjZGV1lRa3l4ZkxOZmZRcXdPZHp6UnloSWg5ZXVvSmlJbGJNQnRtR2h3SkRiSzZKc1I2bGliakI5VThydE41ZS1LdXJUZFpMUVBSWXpmUTc0UlZORW5JdmFvaE84VW9LQUhrSmJJU0dldVp4NHFOdVAwVkhVV2tJVzl0TUllSzdGbU8zTmJzWkpyU1l3bGwwTWpRRmhkRUFkVmRLajRiTE5wa0tZQmx6WFF0YnhLeUZVckpGWTBfeWhVa0FpdDZBbTdvcTI4Vy1jR0JqRnJsMDhveXk2ekNTbk0tVGtXOTNrMW5IMmtj0gGqAkFVX3lxTFBVQURJUlBzQ0w0b2tVcUZvMV95VW83VjNaSzJTVUNRQkNsUHpYTjRQU3VEOGJhblJfWW9SeGo5aWQzNmU5ZU1SUnF4T2dhczNEcmpwZkN4ZWFycUtMSjB6Z21VVVkxQUhNNkE5cjVCLUs1Um5IWmhCblhzcW5MbXFOVlA5NlBna2NtWVNvNl9zMXJKLTRMMUt3VHV1c0tqQll1UUtIeWU2emxWZWg5cE01bnNZdUNpZm1ZeW1VbVhvSTd5NVE3Qnlkci1BN1B5bHRFZkI4cDFXTFEtbWp4ek9JeTk2R3owLVZxbzVrQkthOWdaXzYwMFM2VElMN2J1OElqSG1xV255R3hUT0ZWOVhtcFhKOE9CYW1HUjI0VnNUQjJLT0RDYkVUUWc?oc=5"
+            },
+            {
+              "name": "UOL",
+              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORF8tcF9QNVlDWDFaZVUxaFFBcEQ1V2JNUGFudTl2MTNPWUdibUlEUWdlcnZpWVlQWF90WEVWRDdNVmZnM3drZk16cGkxOXozOTZlWEtuTFJPU2xIWmhWb09sVzhjc05LR0dvWmRqcVhlZ2JHM2thT0lyT3Q4SE56YTJURFVueVM2OThmVWEzYzZkN1VXUUR4TlJKdTBBbkVaX201MFZacVpkNGR6SE5QZzdUTzVBV29qOEsxUGlaVzBVcTV5eUN6eWZiSi1zbktwYUt5SF93?oc=5"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2oxSnFDODd5STVoMk9uVVhpcFI2bDZzdnJON2FhTWRJYmdFR0VlUjBaUFVoZ3NvWlV5eVJwYy1qeWVkaWE5WE8zeXVYc0h1TUxxRW5Cb2NtTl8yOXY2UDdmeDBYRmpXcDhWNHZHWTduN0dSeTZOMnlHQmhxTDJyX0lleWQ5OWprZnk5UDlhcUU5eE9QWElTSVo0ZEVTUGo4SzY0R0Rrd01BcGdtSXc?oc=5"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHRUZl9nc1NqQ2h5bjY1cUhTYXdqdzVEZnVkUkg3azJkejlBYk5qY1ByU2ktSy01Vk1kN3oteHZWSWdzOTNxdXV2YVNMOEQ5VmZ4X054YUl4M3V2dnlzblBzMkFISGU3a2tQcW9VcVZ4TmV1R2x4c3lOMlkwb2JCYklYMkFUTnB2Tm5BbjE0WDcxSUpWN2pIQzljTk14Sklxd0FteTVpc05MQjdRT3VSZzF6ZHFncUhyanpPdA?oc=5"
+            },
+            {
+              "name": "JOTA",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLXczSlU5WEIxeWtyNFF1ai12RHpCeFhTUy1MVEpSQnN3ZF92V2dLVnVjMFF0eU5McjJSUnFVbVNyMlp6SExWMFE5WlppVlI5cmFYbjdvU3RJRzZXMS01M2Z5VUtLek1aX3JQOVJsWnYxWU5sWUtaLTJGMFZFbjBSTDJIYVpxWXUtRjRYbWd1T0lJX29OcHJ3T0Q2QXRSZVBMdTFSRFBXRUVjazZZd2hHR1k3aFRpbGVyVHc?oc=5"
+            },
+            {
+              "name": "Jornal do Commercio",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdUI3RXB3ZEFqd1hheE9WUlZkaWVsRVNXWEdROGE4QWsxWHhuM2ExTDlYdFp2R2J4OVA4VFpiNWZtYTItVVhiRjl3VUVaV3RLbnFRY01Sc3hnYmtkSnNHRVJ3TkVrU1JUTEZ3TlIxOXlURVMtSFJtUDFHWkM5SVQ1OG5RR1RzVWctWVoxUjJZWTJFSTVIM01tMUFwWV9ObGplSW9EQ2xLQW5oTXU5MDcwLTZPZXh3ZnNlMmVjaEVUczBFTmFf?oc=5"
+            }
+          ],
+          "art_text": [
+            "Menções a ministros do STF no caso Master",
+            "vão para o próprio STF",
+            "Quem fiscaliza quem?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Edson Fachin (presidente do STF) e Andrei Rodrigues (diretor-geral da PF), que se reuniram, segundo os veículos. Ilustração estilo charge, sem foto real. Risco baixo: aparecem apenas conversando numa mesa, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Edson Fachin (presidente do STF, toga preta) e Andrei Rodrigues (diretor-geral da PF, terno escuro), sentados frente a frente numa mesa, com uma pasta de documentos entre eles, expressões sérias e reservadas. Ao fundo, a fachada estilizada do prédio do STF com a estátua da Justiça. No alto, em branco, letras condensadas e muito pesadas: \"Menções a ministros do STF no caso Master\". Abaixo, num quadro amarelo: \"vão para o próprio STF\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Quem fiscaliza quem?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "A PF vai enviar ao STF todas as menções a ministros no caso Master, em caráter descritivo. É um procedimento normal ou o Supremo decidindo o que investigar sobre si mesmo? Comenta.",
+          "risk": "médio",
+          "risk_note": "Não insinua que ministro cometeu crime; o caso é de menções, em caráter descritivo. Diga \"segundo O Globo\". A PGR contesta o afastamento da cúpula da PF, cite o contraponto se comentar. Os links vieram do Google News e não puderam ser abertos; os fatos seguem o resumo do painel, atribuído aos veículos. Confira na fonte antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quando a PF envia o material, o que o STF fará e se o plenário autorizará investigação de ministros."
+          }
+        },
+        {
+          "type": "r",
+          "title": "A PF manda ao STF o que cita ministros. E se o caso for deles?",
+          "tone": "contundente",
+          "duration": "30s",
+          "fact": "Segundo O Globo, Poder360, UOL, CartaCapital e Agência Brasil, o presidente do STF, Edson Fachin, recebeu o diretor-geral da PF, Andrei Rodrigues, e determinou que todas as menções a ministros da Corte no caso Master sejam encaminhadas ao tribunal. De acordo com O Globo e o Jornal do Commercio, o material deve ser enviado em caráter estritamente descritivo, sem exceção. O JOTA e o Brasil 247 registram que a PF só pode investigar ministros com aval do plenário do STF. A Gazeta do Povo discute a lacuna da Constituição sobre o impedimento de ministros. O próximo passo é o envio do material pela PF ao Supremo, enquanto a PGR contesta o afastamento da cúpula da corporação.",
+          "sources": [
+            {
+              "name": "O Globo",
+              "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPVEVRb3ZGQjAzdV9RTVVUZTJpbTF2RDBxZXVsNVl3Zk5OeW1rZzRFLUstdVQtMjZGV1lRa3l4ZkxOZmZRcXdPZHp6UnloSWg5ZXVvSmlJbGJNQnRtR2h3SkRiSzZKc1I2bGliakI5VThydE41ZS1LdXJUZFpMUVBSWXpmUTc0UlZORW5JdmFvaE84VW9LQUhrSmJJU0dldVp4NHFOdVAwVkhVV2tJVzl0TUllSzdGbU8zTmJzWkpyU1l3bGwwTWpRRmhkRUFkVmRLajRiTE5wa0tZQmx6WFF0YnhLeUZVckpGWTBfeWhVa0FpdDZBbTdvcTI4Vy1jR0JqRnJsMDhveXk2ekNTbk0tVGtXOTNrMW5IMmtj0gGqAkFVX3lxTFBVQURJUlBzQ0w0b2tVcUZvMV95VW83VjNaSzJTVUNRQkNsUHpYTjRQU3VEOGJhblJfWW9SeGo5aWQzNmU5ZU1SUnF4T2dhczNEcmpwZkN4ZWFycUtMSjB6Z21VVVkxQUhNNkE5cjVCLUs1Um5IWmhCblhzcW5MbXFOVlA5NlBna2NtWVNvNl9zMXJKLTRMMUt3VHV1c0tqQll1UUtIeWU2emxWZWg5cE01bnNZdUNpZm1ZeW1VbVhvSTd5NVE3Qnlkci1BN1B5bHRFZkI4cDFXTFEtbWp4ek9JeTk2R3owLVZxbzVrQkthOWdaXzYwMFM2VElMN2J1OElqSG1xV255R3hUT0ZWOVhtcFhKOE9CYW1HUjI0VnNUQjJLT0RDYkVUUWc?oc=5"
+            },
+            {
+              "name": "UOL",
+              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORF8tcF9QNVlDWDFaZVUxaFFBcEQ1V2JNUGFudTl2MTNPWUdibUlEUWdlcnZpWVlQWF90WEVWRDdNVmZnM3drZk16cGkxOXozOTZlWEtuTFJPU2xIWmhWb09sVzhjc05LR0dvWmRqcVhlZ2JHM2thT0lyT3Q4SE56YTJURFVueVM2OThmVWEzYzZkN1VXUUR4TlJKdTBBbkVaX201MFZacVpkNGR6SE5QZzdUTzVBV29qOEsxUGlaVzBVcTV5eUN6eWZiSi1zbktwYUt5SF93?oc=5"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM2oxSnFDODd5STVoMk9uVVhpcFI2bDZzdnJON2FhTWRJYmdFR0VlUjBaUFVoZ3NvWlV5eVJwYy1qeWVkaWE5WE8zeXVYc0h1TUxxRW5Cb2NtTl8yOXY2UDdmeDBYRmpXcDhWNHZHWTduN0dSeTZOMnlHQmhxTDJyX0lleWQ5OWprZnk5UDlhcUU5eE9QWElTSVo0ZEVTUGo4SzY0R0Rrd01BcGdtSXc?oc=5"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHRUZl9nc1NqQ2h5bjY1cUhTYXdqdzVEZnVkUkg3azJkejlBYk5qY1ByU2ktSy01Vk1kN3oteHZWSWdzOTNxdXV2YVNMOEQ5VmZ4X054YUl4M3V2dnlzblBzMkFISGU3a2tQcW9VcVZ4TmV1R2x4c3lOMlkwb2JCYklYMkFUTnB2Tm5BbjE0WDcxSUpWN2pIQzljTk14Sklxd0FteTVpc05MQjdRT3VSZzF6ZHFncUhyanpPdA?oc=5"
+            },
+            {
+              "name": "JOTA",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLXczSlU5WEIxeWtyNFF1ai12RHpCeFhTUy1MVEpSQnN3ZF92V2dLVnVjMFF0eU5McjJSUnFVbVNyMlp6SExWMFE5WlppVlI5cmFYbjdvU3RJRzZXMS01M2Z5VUtLek1aX3JQOVJsWnYxWU5sWUtaLTJGMFZFbjBSTDJIYVpxWXUtRjRYbWd1T0lJX29OcHJ3T0Q2QXRSZVBMdTFSRFBXRUVjazZZd2hHR1k3aFRpbGVyVHc?oc=5"
+            },
+            {
+              "name": "Jornal do Commercio",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdUI3RXB3ZEFqd1hheE9WUlZkaWVsRVNXWEdROGE4QWsxWHhuM2ExTDlYdFp2R2J4OVA4VFpiNWZtYTItVVhiRjl3VUVaV3RLbnFRY01Sc3hnYmtkSnNHRVJ3TkVrU1JUTEZ3TlIxOXlURVMtSFJtUDFHWkM5SVQ1OG5RR1RzVWctWVoxUjJZWTJFSTVIM01tMUFwWV9ObGplSW9EQ2xLQW5oTXU5MDcwLTZPZXh3ZnNlMmVjaEVUczBFTmFf?oc=5"
+            }
+          ],
+          "hooks": [
+            "Todas as menções a ministros no caso Master vão para o STF. Quem decide o que fazer com elas?",
+            "A PF só investiga ministro com aval do plenário. Pense nisso."
+          ],
+          "script": "O presidente do STF, Edson Fachin, recebeu o diretor da PF, Andrei Rodrigues, e determinou que todas as menções a ministros da Corte no caso Master sejam enviadas ao tribunal, em caráter estritamente descritivo, segundo O Globo. Pelo que registram o JOTA e o Brasil 247, a PF só pode investigar ministro com aval do plenário do Supremo. Ou seja: o material sobre ministros passa pela mão do próprio tribunal. Isso é o rito legal? Pode ser. Mas a pergunta que o brasileiro faz é simples: quando o assunto é o Supremo, quem fiscaliza o Supremo? E enquanto isso, a PGR contesta o afastamento da cúpula da PF. O próximo passo é o envio do material. Vamos acompanhar. Você confia nesse sistema? Comenta aqui.",
+          "screen_text": [
+            "Caso Master: PF envia ao STF menções a ministros",
+            "\"Em caráter estritamente descritivo\"",
+            "PF só investiga ministro com aval do plenário",
+            "Quem fiscaliza o Supremo?"
+          ],
+          "caption": "Menções a ministros no caso Master vão para o STF. Quem fiscaliza quem? Comenta.",
+          "risk": "médio",
+          "risk_note": "Não afirme que há ministro investigado ou envolvido; trata-se de menções, em caráter descritivo. Atribua aos veículos. Os links vieram do Google News e não puderam ser abertos; os fatos seguem o resumo do painel, atribuído aos veículos. Confira na fonte antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Envio do material pela PF, decisão do plenário e a contestação da PGR."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-14",
+      "done": "2026-10-14T08:54:10-03:00",
+      "issue": 42,
+      "slot_hint": "Reel hoje (14) antes da votação, ou imagem às 12h.",
+      "source": {
+        "edition": "2026-10-14-06h",
+        "item_id": "escala-6x1-senado",
+        "title": "Senado deve votar nesta quarta (14) a PEC do fim da escala 6x1 em dois turnos; Flávio anuncia voto a favor"
+      },
+      "options": [
+        {
+          "type": "r",
+          "title": "6x1 vota hoje no Senado, e Flávio entrou na fila do voto a favor",
+          "tone": "direto, com cobrança sobre quem paga a conta",
+          "duration": "30s",
+          "fact": "Segundo Exame, SBT News, Agência Brasil e Revista Oeste, o governo diz ter as assinaturas para um calendário especial que permite votar a PEC do fim da escala 6x1 em dois turnos nesta quarta (14). O presidente do Senado, Davi Alcolumbre, afirmou que já há número regimental para apreciar o calendário e que a votação pode terminar no mesmo dia, de acordo com Pleno.News e Diário de Pernambuco. Flávio Bolsonaro anunciou que votará a favor do fim da 6x1 e defende compensação pelo governo, conforme a Tribuna do Norte, e a oposição liberou as bancadas, segundo O Popular. A Folha relata que a campanha de Lula usará o recuo de Flávio como sinal de frouxidão; o Painel da Folha diz que ele garante a aliados que defenderá revisão da PEC se eleito.",
+          "sources": [
+            {
+              "name": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc1N6ZHNvQWg5ajVNY3gwUmxweDFYZE02QURyVU9kaWRzOE9BSGZTMFpXdDA4R1ViWXI4YmZsVXE5SFhaby1jWkZBclp6RzdoMDlITjVWOVM2RWVGWTdkTTBHWC1NeE51elcyaWo2ZzlhbFgzOUZ4c011R29iTE9rZTZsbTVyY3RDSEEtME9IVUsyY2VscHFCdG1LbXZXcnEyR0ZycXpwajA5ckZQeHctbnhycWE5ZU45RXg4dlZMT2VlVDF1?oc=5"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS2VZU0E1dkxxTlpzTjIwWDZmd1gwNTZCVS1OQ09lTERzeUhGLXpiQ2hLVWlaMF9iYTR2ajVvUzVKZ1JiVUplWWZpMFBxS2dRUlItaV85MDRhb2pxWXpIeTJ0YkZXb19wQlNvQWtxM0xrTWlILVNUSnVKQlc0TXBmWFNKTS1vSzRIcldRQmtwNngteVl0VXFhOXZxUE9Sakl6UVMyTkFQYzlwODV0RnNMY3hR?oc=5"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcmtfbDByUUpXM19pQ2ZjTlotNDlROHJlZXJUTlZwclgxNGpxNUIwQlk3VVdMQkJ4eDY1QnpaSzExTTBSZzEtYTBhbGlpcWFWQnNPWkh4azJZcG1hUXNKSGt1QmlXZ2tYZTV4Rk50Z0pNSFl1aHBQN3g3RFg3SFJvOGdtdWhqYWkxS1VTTlYwUlduVm9WQlBnQm1UZFpqU241RHpDMW42UWNpeF9Ma1lDand4dDdzYjVxaWdsQktQcXN2cjdHSVE?oc=5"
+            },
+            {
+              "name": "Revista Oeste",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYTZSZjE0Sk01dE5yVUVsV01pSXJ6WEFLYzhiZUh6eDdGUkktQkl6cUVFaWFtZWJGZ0p3ZUU1d1RVMVlBbE5ydDZLcFhuWHNCTWNnX0hUaG8zR1RWa0staWh1c0tJZFdOZHlBXzVDZXlRRG54R2Jna2NqazZLLS1IQ210UHVzWWNZVGRlTm9ocHN6OWZCa0l6QWpIai0yY2ttVjNCNDRKQjA1WVl1U0wtNk9QNlhiUm05aWc?oc=5"
+            },
+            {
+              "name": "Pleno.News",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQi11ZEI5THMxZ0VWZkoxY3dtWGJGcXkzd3FuMzNpX1piWThZYlV6VjhRWVFTTkRGeWJzenYzd0lQM1cxQWJsZFhEWklmYm5PSmpPTm9Xa0NxOWNQREY3SThndlZUakUxQVhZVWtQYUhJR2x5RmhMWTFESzUzQ0pRaUtpRjhqay02V1BsRTBVUHQ0TDJVeUpsWFVDWjNhZ1FWU1g1Qk9uaExPN0haWWhadNIBuAFBVV95cUxOcVduX3NUY25TM25uVy04d1FqTmMzbDAyZDM5cFBWY0ktaWFIOV9iNGdiR01NM3NlaEctMm13a1FNTl82Nm01bzBPTW5pd2YwcFFMRUx3WkxTbHNfTFhEZ21VeXlNRVVvbnJCTUF0ODQ1SjdwdDJlM1FFNGRBcHl2OXlnRzVKMnV5N3RCdzhoczFha3FZSmJRYWZBN2llU05iQzZvZXhhOUhnM3hmM0Vwa3dKVGZfcmtK?oc=5"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVkxiQXFlZU5nNEM1M3NRRDRLQlo2Z3VKOXZlZXJaN2lMX2lsYnNUdXZTTXlQcGdJMzFTaExJSTlRc3JxOXNvNHRjSUNrVmk3SENYMkUyQUhsVmkxT3pBRjJLdGptT2VlSDBFU0djdlpPX3FzOWlOZ0ZPQ0stRmhURUdkbkpLM2dEcmVHNzRpV1NJUkk5S2R4cnBSb2M2SFZZVUQ3bw?oc"
+            }
+          ],
+          "hooks": [
+            "O Senado pode votar hoje o fim da escala 6x1 em dois turnos. Quem paga essa conta?",
+            "Flávio vai votar a favor da 6x1. E a compensação?"
+          ],
+          "script": "Hoje pode ser o dia. O governo diz ter as assinaturas para um calendário especial e votar a PEC do fim da escala 6x1 em dois turnos no Senado, segundo a Agência Brasil e o SBT News. Alcolumbre afirmou que há número regimental e que tudo pode terminar no mesmo dia. Flávio Bolsonaro anunciou voto a favor e defende que o governo compense quem vai pagar a conta, conforme a Tribuna do Norte. A oposição liberou as bancadas. E a Folha diz que a campanha de Lula vai explorar o movimento do Flávio. Mas o ponto central continua: reduzir jornada é popular, e a conta cai em quem emprega, principalmente o pequeno negócio. Votar a favor é fácil. Difícil é explicar quem paga. Você é a favor do fim da 6x1? Comenta.",
+          "screen_text": [
+            "Senado pode votar HOJE a PEC do fim da 6x1",
+            "Dois turnos, calendário especial",
+            "Flávio: voto a favor, com compensação",
+            "Quem paga a conta?"
+          ],
+          "caption": "A PEC do fim da 6x1 pode ser votada hoje no Senado. Votar a favor é fácil, explicar quem paga é o difícil. E você, a favor ou contra? Comenta.",
+          "risk": "médio",
+          "risk_note": "A votação é prevista, não confirmada: se o resultado sair antes de publicar, troque pelo desfecho real. A fala de Flávio vem de uma única matéria (Tribuna do Norte); atribua. Não afirme custo em reais sem fonte. Os links vieram do Google News e não puderam ser abertos; os fatos seguem o resumo do painel, atribuído aos veículos. Confira na fonte antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Resultado da votação no Senado, compensação ao empregador e uso eleitoral no segundo turno."
+          }
+        },
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "6x1: o Senado vota hoje, e a conta ainda não tem dono",
+          "tone": "sóbrio com urgência",
+          "duration": "imagem única",
+          "fact": "Segundo Exame, SBT News, Agência Brasil e Revista Oeste, o governo diz ter as assinaturas para um calendário especial que permite votar a PEC do fim da escala 6x1 em dois turnos nesta quarta (14). O presidente do Senado, Davi Alcolumbre, afirmou que já há número regimental para apreciar o calendário e que a votação pode terminar no mesmo dia, de acordo com Pleno.News e Diário de Pernambuco. Flávio Bolsonaro anunciou que votará a favor do fim da 6x1 e defende compensação pelo governo, conforme a Tribuna do Norte, e a oposição liberou as bancadas, segundo O Popular. A Folha relata que a campanha de Lula usará o recuo de Flávio como sinal de frouxidão; o Painel da Folha diz que ele garante a aliados que defenderá revisão da PEC se eleito.",
+          "sources": [
+            {
+              "name": "Folha de S.Paulo",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc1N6ZHNvQWg5ajVNY3gwUmxweDFYZE02QURyVU9kaWRzOE9BSGZTMFpXdDA4R1ViWXI4YmZsVXE5SFhaby1jWkZBclp6RzdoMDlITjVWOVM2RWVGWTdkTTBHWC1NeE51elcyaWo2ZzlhbFgzOUZ4c011R29iTE9rZTZsbTVyY3RDSEEtME9IVUsyY2VscHFCdG1LbXZXcnEyR0ZycXpwajA5ckZQeHctbnhycWE5ZU45RXg4dlZMT2VlVDF1?oc=5"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS2VZU0E1dkxxTlpzTjIwWDZmd1gwNTZCVS1OQ09lTERzeUhGLXpiQ2hLVWlaMF9iYTR2ajVvUzVKZ1JiVUplWWZpMFBxS2dRUlItaV85MDRhb2pxWXpIeTJ0YkZXb19wQlNvQWtxM0xrTWlILVNUSnVKQlc0TXBmWFNKTS1vSzRIcldRQmtwNngteVl0VXFhOXZxUE9Sakl6UVMyTkFQYzlwODV0RnNMY3hR?oc=5"
+            },
+            {
+              "name": "Agência Brasil",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcmtfbDByUUpXM19pQ2ZjTlotNDlROHJlZXJUTlZwclgxNGpxNUIwQlk3VVdMQkJ4eDY1QnpaSzExTTBSZzEtYTBhbGlpcWFWQnNPWkh4azJZcG1hUXNKSGt1QmlXZ2tYZTV4Rk50Z0pNSFl1aHBQN3g3RFg3SFJvOGdtdWhqYWkxS1VTTlYwUlduVm9WQlBnQm1UZFpqU241RHpDMW42UWNpeF9Ma1lDand4dDdzYjVxaWdsQktQcXN2cjdHSVE?oc=5"
+            },
+            {
+              "name": "Revista Oeste",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYTZSZjE0Sk01dE5yVUVsV01pSXJ6WEFLYzhiZUh6eDdGUkktQkl6cUVFaWFtZWJGZ0p3ZUU1d1RVMVlBbE5ydDZLcFhuWHNCTWNnX0hUaG8zR1RWa0staWh1c0tJZFdOZHlBXzVDZXlRRG54R2Jna2NqazZLLS1IQ210UHVzWWNZVGRlTm9ocHN6OWZCa0l6QWpIai0yY2ttVjNCNDRKQjA1WVl1U0wtNk9QNlhiUm05aWc?oc=5"
+            },
+            {
+              "name": "Pleno.News",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQi11ZEI5THMxZ0VWZkoxY3dtWGJGcXkzd3FuMzNpX1piWThZYlV6VjhRWVFTTkRGeWJzenYzd0lQM1cxQWJsZFhEWklmYm5PSmpPTm9Xa0NxOWNQREY3SThndlZUakUxQVhZVWtQYUhJR2x5RmhMWTFESzUzQ0pRaUtpRjhqay02V1BsRTBVUHQ0TDJVeUpsWFVDWjNhZ1FWU1g1Qk9uaExPN0haWWhadNIBuAFBVV95cUxOcVduX3NUY25TM25uVy04d1FqTmMzbDAyZDM5cFBWY0ktaWFIOV9iNGdiR01NM3NlaEctMm13a1FNTl82Nm01bzBPTW5pd2YwcFFMRUx3WkxTbHNfTFhEZ21VeXlNRVVvbnJCTUF0ODQ1SjdwdDJlM1FFNGRBcHl2OXlnRzVKMnV5N3RCdzhoczFha3FZSmJRYWZBN2llU05iQzZvZXhhOUhnM3hmM0Vwa3dKVGZfcmtK?oc=5"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVkxiQXFlZU5nNEM1M3NRRDRLQlo2Z3VKOXZlZXJaN2lMX2lsYnNUdXZTTXlQcGdJMzFTaExJSTlRc3JxOXNvNHRjSUNrVmk3SENYMkUyQUhsVmkxT3pBRjJLdGptT2VlSDBFU0djdlpPX3FzOWlOZ0ZPQ0stRmhURUdkbkpLM2dEcmVHNzRpV1NJUkk5S2R4cnBSb2M2SFZZVUQ3bw?oc"
+            }
+          ],
+          "art_text": [
+            "Fim da 6x1",
+            "Senado pode votar HOJE",
+            "Dois turnos no mesmo dia",
+            "E quem paga a conta?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Davi Alcolumbre (presidente do Senado), que conduz a votação, e Flávio Bolsonaro, que anunciou voto a favor. Ilustração estilo charge, sem foto real. Risco baixo: aparecem no plenário, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, o plenário estilizado do Senado; em primeiro plano, Davi Alcolumbre (presidente do Senado, terno escuro) na mesa diretora, expressão firme, e Flávio Bolsonaro (senador, terno escuro) em pé na bancada, mão no peito, expressão séria. Ao fundo, a cúpula do Congresso Nacional e um relógio marcando a tarde. No alto, em branco, letras condensadas e muito pesadas: \"Fim da 6x1\". Em um quadro amarelo: \"Senado pode votar HOJE\". Abaixo, em branco: \"Dois turnos no mesmo dia\". Embaixo, com sublinhado vermelho pincelado: \"E quem paga a conta?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "O Senado pode votar hoje o fim da escala 6x1 em dois turnos. Você é a favor? E quem deve pagar a conta? Comenta.",
+          "risk": "médio",
+          "risk_note": "Votação prevista, não confirmada: ajuste se houver adiamento. Flávio é descrito como apoiador conforme a Tribuna do Norte; não invente fala. Os links vieram do Google News e não puderam ser abertos; os fatos seguem o resumo do painel, atribuído aos veículos. Confira na fonte antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Resultado da votação e o debate sobre compensação."
+          }
+        }
+      ]
+    },
+    {
       "requested": "2026-10-13",
       "done": "2026-10-13T18:46:28-03:00",
       "issue": 41,
