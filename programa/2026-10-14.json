@@ -2,8 +2,8 @@
  "date": "2026-10-14",
  "generated": "2026-10-14T10:20:24-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Senado vota a PEC da 6x1, Fachin manda a PF entregar as menções a ministros e papa Leão XIV passa noite tranquila após cirurgia",
- "abertura": "O papa Leão XIV teve uma noite tranquila após a cirurgia de adenocarcinoma de pulmão e o Vaticano promete novas informações ao longo do dia. Na política, Flávio Bolsonaro disse que não iria ao debate da Band, Lula confirmou presença e Flávio avisou que vai, o que reabre o primeiro confronto direto da eleição no domingo (18). No Senado, a PEC do fim da escala 6x1 corre contra o calendário eleitoral, e no STF Fachin mandou a PF enviar todas as menções a ministros no caso Master. A pesquisa mostra uma eleição dentro da margem de erro, e o debate pode ser o último grande lance antes da urna.",
+ "titulo": "Senado vota a PEC da 6x1, Fachin manda a PF entregar as menções a ministros e governo decreta bloqueio de celulares em presídios",
+ "abertura": "Na política, o Senado vota a PEC do fim da escala 6x1 contra o calendário eleitoral, e Fachin mandou a PF enviar ao STF todas as menções a ministros no caso Master. O governo publicou o Decreto 13.136, que cria o programa de bloqueio de celulares e sinais em presídios, a poucos dias do segundo turno. Flávio Bolsonaro confirmou presença no debate da Band no domingo (18), e o papa Leão XIV passou noite tranquila após a cirurgia. A pesquisa mostra uma eleição dentro da margem de erro, e o debate pode ser o último grande lance antes da urna.",
  "agenda": [
   {
    "time": "Quarta (14)",
@@ -351,6 +351,49 @@
    ]
   },
   {
+   "id": "decreto-celular-presidios",
+   "bloco": "Segurança pública",
+   "titulo": "Governo publica decreto que cria programa para bloquear celulares em presídios",
+   "subtitulo": "Decreto 13.136 prevê bloqueio por IMEI e de sinal no entorno das unidades; adesão dos estados é voluntária e há divergência sobre ordem judicial",
+   "resumo": "O Decreto 13.136, assinado por Lula em 9 de outubro e publicado no Diário Oficial em 13 de outubro, cria o Programa Nacional de Neutralização de Comunicações Ilícitas em Estabelecimentos Penais. O programa prevê o bloqueio de aparelhos pelo código IMEI e de sinais de radiocomunicação dentro de perímetros cadastrados de cada presídio, com a Anatel analisando os pedidos. Os estados e o Distrito Federal aderem por termo de adesão, e o Ministério da Justiça tem até 180 dias para colocar no ar a plataforma que vai receber os pedidos. Para o cidadão, a promessa é cortar a ferramenta com que facções comandam crimes de dentro da cadeia, algo que se discute há mais de duas décadas. O programa só vale se sair do papel nos estados, e o anúncio a poucos dias do segundo turno pede que a bancada cobre prazo, equipamento e resultado.",
+   "contexto": [
+    "Decreto de 9 de outubro de 2026, publicado em 13 de outubro, em vigor desde a publicação (Telesíntese).",
+    "Bloqueio individual por IMEI: o pedido vai ao Banco Nacional de Celulares com Restrição, criado pelo Decreto 13.034, de junho de 2026.",
+    "Bloqueio por área: bloqueadores de sinal operados pelo estado dentro do perímetro cadastrado, com comunicação prévia à Anatel, que avalia interferência nas áreas vizinhas.",
+    "O Painel Político afirma que a norma dispensa autorização judicial prévia; o Sou Brasília diz que o texto não menciona ordem judicial.",
+    "Faltam ainda o acordo de cooperação técnica, o termo de adesão de cada estado e o ato que cria o comitê gestor (Sou Brasília).",
+    "A lei 10.792/2003 já atribui aos presídios a instalação de bloqueadores, e o STF derrubou em 2016 leis estaduais sobre o tema por tratar de telecomunicações."
+   ],
+   "angulo": [
+    "Tirar o celular da mão do preso é medida de segurança pública que o programa defende há anos, e o decreto só será levado a sério se vier com equipamento instalado e prazo.",
+    "Duas décadas depois da lei de 2003, o país ainda debate como bloquear sinal em cadeia: o problema é de execução, e decreto sem fiscalização não derruba facção.",
+    "A adesão voluntária deixa a conta e a responsabilidade com os estados, e a bancada deve cobrar do governo federal o financiamento dos bloqueadores.",
+    "Se a dispensa de ordem judicial for confirmada, o governo precisa explicar os limites do poder da Anatel e do informe penitenciário com presunção de veracidade."
+   ],
+   "perguntas": [
+    "O decreto resolve o problema do celular na cadeia ou só repete o que a lei de 2003 já mandava fazer?",
+    "Qual é o risco de o bloqueio de sinal atingir moradores e comércios ao redor dos presídios?",
+    "Por que anunciar o programa às vésperas do segundo turno, e quando os primeiros bloqueios saem do papel?"
+   ],
+   "atencao": "Fontes divergem sobre a dispensa de ordem judicial e o texto oficial do decreto não foi aberto; conferir no Diário Oficial antes de afirmar no ar.",
+   "fontes": [
+    {
+     "name": "Telesíntese",
+     "url": "https://telesintese.com.br/governo-cria-programa-para-bloquear-comunicacoes-ilicitas-em-presidios/"
+    },
+    {
+     "name": "Painel Político",
+     "url": "https://painelpolitico.com/lula-assina-decreto-que-bloqueia-celular-em-presidio-sem-autorizacao-judicial"
+    },
+    {
+     "name": "Sou Brasília",
+     "url": "https://soubrasilia.com/decreto-13136-bloqueio-celular-presidio-anatel-imei-df-pode-aderir-outubro-2026/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Título: Bloqueio de celulares em presídios: Governo publica novo decreto (G1, 13/10/2026)"
+  },
+  {
    "id": "fmi-corta-pib-brasil",
    "bloco": "Economia",
    "titulo": "FMI reduz para 2,2% a previsão de crescimento do Brasil em 2026",
@@ -482,7 +525,7 @@
    ]
   }
  ],
- "atualizado": "2026-10-14T10:27:00-03:00",
+ "atualizado": "2026-10-14T12:23:52-03:00",
  "excluidos": [
   {
    "titulo": "Nexus/BTG: Flávio tem 52% e Lula 48% na disputa pela Presidência",
