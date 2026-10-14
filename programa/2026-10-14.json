@@ -1,6 +1,6 @@
 {
  "date": "2026-10-14",
- "generated": "2026-10-13T19:17:52-03:00",
+ "generated": "2026-10-14T10:20:24-03:00",
  "programa": "Conversa Timeline",
  "titulo": "Senado vota a PEC da 6x1, Fachin manda a PF entregar as menções a ministros e Flávio faz Lula confirmar o debate da Band",
  "abertura": "Flávio Bolsonaro disse que não iria ao debate da Band, Lula confirmou presença e, um dia depois, Flávio avisou que vai e chamou o adversário de previsível, o que reabre o primeiro confronto direto da eleição no domingo (18). Na mesma semana, Lula prometeu um Pé-de-Meia universitário de R$ 700 por mês, o PixMEI e o perdão de dívidas, enquanto Flávio prometeu meio milhão de vagas em presídios, dizendo que El Salvador é pouco. No Senado, a PEC do fim da escala 6x1 corre contra o calendário eleitoral, e no STF Fachin mandou a PF enviar todas as menções a ministros no caso Master. A pesquisa mostra uma eleição dentro da margem de erro, e o debate pode ser o último grande lance antes da urna.",
@@ -304,23 +304,24 @@
   {
    "id": "pesquisas-empate-tecnico",
    "bloco": "Política nacional",
-   "titulo": "Pesquisa Nexus/BTG mostra Flávio com 52% e Lula com 48% dos votos válidos",
-   "subtitulo": "Com margem de 2 pontos, a disputa está em empate técnico a 11 dias do segundo turno",
-   "resumo": "A pesquisa Nexus/BTG divulgada nesta terça (13) dá Flávio Bolsonaro com 52% dos votos válidos e Lula com 48% no segundo turno. A margem de erro é de 2 pontos para mais ou para menos, e a própria CNN Brasil fala em empate técnico. No primeiro turno, Flávio teve 47,03% e Lula 45,16%, a menor diferença desde a redemocratização. Para quem paga a conta do país, o que está em jogo é se o eleitor quer mudar o rumo da economia ou renovar a aposta no governo atual. Pesquisa mostra retrato de uma semana e não decide eleição, e quem decide é o eleitor que ainda não se mexeu.",
+   "titulo": "Nexus/BTG: Flávio tem 52% e Lula 48% na disputa pela Presidência",
+   "subtitulo": "Margem de 2 pontos mantém a disputa em empate técnico a 11 dias da votação; Quaest nacional sai hoje e Datafolha amanhã",
+   "desdobramento": "Nova pesquisa Nexus/BTG, divulgada na terça (13), mostra Flávio com 52% e Lula com 48% dos votos válidos, e a Quaest nacional do segundo turno sai hoje.",
+   "resumo": "A pesquisa Nexus/BTG divulgada na terça (13) dá Flávio Bolsonaro com 52% dos votos válidos e Lula com 48% no segundo turno. Foram ouvidos 2.002 eleitores por telefone de 10 a 12 de outubro, com margem de erro de 2 pontos, e a CNN Brasil fala em empate técnico. No primeiro turno Flávio teve 47,03% (56,1 milhões de votos) e Lula 45,16% (53,8 milhões), a menor diferença desde a redemocratização. A última Quaest, de 3 de outubro, já mostrava Flávio com 44% e Lula com 42% nos votos totais. Para o cidadão, a escolha é entre mudar o rumo da economia e da segurança ou renovar a aposta no governo atual, e quem decide é o eleitor que ainda não se mexeu.",
    "contexto": [
-    "Nexus/BTG: Flávio 52% e Lula 48% nos votos válidos, com 2.002 eleitores ouvidos por telefone de 10 a 12 de outubro.",
-    "Margem de erro de 2 pontos, registro no TSE sob o protocolo BR-07997/2026.",
-    "Primeiro turno com 100% das urnas apuradas: Flávio 47,03% e Lula 45,16%.",
+    "Nexus/BTG: Flávio 52% e Lula 48% nos votos válidos, 2.002 entrevistas por telefone de 10 a 12 de outubro, margem de 2 pontos, registro BR-07997/2026 no TSE.",
+    "Primeiro turno com 100% das urnas apuradas: Flávio 47,03% e Lula 45,16%, diferença de menos de 2 pontos.",
+    "Quaest de 2 e 3 de outubro (Globo): Flávio 44%, Lula 42%, brancos e nulos 13%, indecisos 1%.",
     "Segundo turno marcado para 25 de outubro."
    ],
    "angulo": [
-    "O voto de quem quer mudança já tem dono e agora o jogo é a abstenção: vence quem leva o eleitor desanimado até a urna.",
-    "Uma vantagem dentro da margem de erro não autoriza ninguém a descansar, e a bancada deve dizer isso com todas as letras.",
-    "O governo reage com pacotes de última hora, como o dos MEIs, porque sabe que o retrato não lhe favorece."
+    "Quem quer mudança já tem candidato, e agora o jogo é a abstenção: vence quem leva o eleitor desanimado até a urna.",
+    "Vantagem dentro da margem de erro não autoriza ninguém a descansar, e a bancada deve dizer isso com todas as letras.",
+    "O governo reage com pacotes de última hora, como o dos MEIs, porque o retrato não lhe favorece."
    ],
    "perguntas": [
-    "O que explica a virada de ritmo entre os dois turnos e o que ainda pode mexer nesses 2 pontos?",
-    "Quem é o eleitor que ainda não decidiu e o que ele quer ouvir nos últimos dias?",
+    "O que ainda pode mexer nesses 2 pontos nos 11 dias que restam?",
+    "Quem é o eleitor que ainda não decidiu e o que ele quer ouvir?",
     "Pesquisa influencia o comportamento de quem vota ou só mede o que já existe?"
    ],
    "atencao": "Pesquisa é retrato do momento, com margem de erro; não é previsão de resultado.",
@@ -328,32 +329,132 @@
     {
      "name": "CNN Brasil",
      "url": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
+    },
+    {
+     "name": "CNN Brasil (Quaest)",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-2-turno/"
     }
    ]
+  },
+  {
+   "id": "fmi-corta-pib-brasil",
+   "bloco": "Economia",
+   "titulo": "FMI reduz para 2,2% a previsão de crescimento do Brasil em 2026",
+   "subtitulo": "Em 2027 a projeção cai de 2,2% para 1,9%, e o Fundo alerta para dívida alta e juros caros",
+   "resumo": "O FMI cortou a projeção de crescimento do PIB brasileiro em 2026 de 2,4% para 2,2%, no relatório divulgado na terça (13). Para 2027 a previsão caiu de 2,2% para 1,9%. A análise de O Tempo cita juros altos para trazer a inflação à meta, retirada de estímulo fiscal e incerteza global. O Fundo diz que a combinação de custo de financiamento e dívida elevados cria vulnerabilidade e pede \"medidas firmes e deliberadas\". O número ainda fica acima dos 2% que a Fazenda usa, e o que está em jogo é o emprego e a renda de quem depende de um país que cresce pouco com a conta pública pesada.",
+   "contexto": [
+    "FMI: PIB de 2026 de 2,4% para 2,2%; 2027 de 2,2% para 1,9%.",
+    "Dívida bruta, pela metodologia do FMI, de 95,4% do PIB em julho para 94,5% em agosto.",
+    "Projeção da Fazenda para 2026: 2%. Banco Mundial elevou 2026 para 2,1% e cortou 2027 para 1,7%.",
+    "FMI elevou o crescimento mundial de 2026 para 3,1% e cortou a China para 4,5%."
+   ],
+   "angulo": [
+    "Crescer pouco com dívida de 94,5% do PIB é a prova de que o problema é gasto público, e não falta de estímulo.",
+    "Juros altos são consequência de contas desorganizadas: quem quer baixar a Selic precisa cortar despesa.",
+    "O governo vende pacotes de benefício em plena campanha enquanto o Fundo pede medidas firmes na conta."
+   ],
+   "perguntas": [
+    "O que o governo precisa cortar para a dívida deixar de ser vulnerabilidade?",
+    "O eleitor sente o PIB de 2,2% no bolso ou só nos juros?",
+    "Pacotes anunciados em campanha ajudam ou pioram a nota fiscal do país?"
+   ],
+   "atencao": "Projeção não é resultado: o FMI revisa os números a cada trimestre.",
+   "fontes": [
+    {
+     "name": "O Tempo",
+     "url": "https://www.otempo.com.br/economia/2026/10/13/fmi-reduz-projecao-de-crescimento-do-pib-no-brasil-e-preve-expansao-de-2-2"
+    }
+   ]
+  },
+  {
+   "id": "bets-devolucao-mp",
+   "bloco": "Economia",
+   "titulo": "Prazo para bancos devolverem R$ 1,3 bilhão a apostadores de bets termina hoje",
+   "subtitulo": "A Caixa assume os casos pendentes a partir de hoje; a MP que proíbe as bets ainda precisa passar pelo Congresso",
+   "resumo": "Os bancos devolvem desde sexta (9) cerca de R$ 1,325 bilhão a apostadores de bets, e o prazo termina nesta quarta (14). Segundo a Agência Brasil, até 26,5 milhões de apostadores podem ser beneficiados, e a Caixa assume os casos com obstáculo a partir de hoje. A MP 1.394/2026, assinada por Lula em 25 de setembro, proíbe a exploração, a oferta e a publicidade de apostas, e as plataformas saíram do ar em 6 de outubro. O ministro da Fazenda, Dario Durigan, disse que cerca de 40 CPFs estão sob análise por saldos altos, inclusive por suspeita de lavagem. O debate de fundo é se o Estado deve proibir por decreto de urgência ou regular um setor que movimentava R$ 600 milhões por dia.",
+   "contexto": [
+    "Devolução de R$ 1,325 bilhão a até 26,5 milhões de apostadores entre 9 e 14 de outubro (Agência Brasil).",
+    "MP 1.394/2026 assinada em 25 de setembro; precisa ser aprovada pelo Congresso para continuar valendo.",
+    "Antes da MP, a movimentação diária das casas era de cerca de R$ 600 milhões; uma semana depois caiu a zero.",
+    "Cerca de 40 CPFs em análise por saldos altos, inclusive por possível lavagem de dinheiro, segundo Durigan.",
+    "Bancos nunca cobram taxa para devolver o saldo; pedido de pagamento antecipado é golpe."
+   ],
+   "angulo": [
+    "Proibir tudo por medida provisória, em véspera de eleição, é atalho: o certo seria regular, fiscalizar e punir a fraude, como faz um país sério.",
+    "A devolução prova que o dinheiro do apostador passou por plataformas sem controle do Estado por anos, e a responsabilidade é de quem legalizou sem fiscalizar.",
+    "Congresso deve debater a MP com calma, sem empurrá-la por pressa eleitoral."
+   ],
+   "perguntas": [
+    "Proibir resolve o vício e a fraude ou empurra o apostador para o mercado ilegal?",
+    "Quem deve responder pelos anos de bets sem fiscalização efetiva?",
+    "O Congresso deve aprovar a MP como está ou regular o setor?"
+   ],
+   "atencao": "A MP ainda não foi votada pelo Congresso e há questionamento no STF, segundo a cobertura; confirmar o status antes de ir ao ar.",
+   "fontes": [
+    {
+     "name": "Forbes Brasil (Agência Brasil)",
+     "url": "https://forbes.com.br/forbes-money/2026/10/bancos-comecam-a-devolver-r-13-bilhao-a-apostadores-de-bets/"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-brasil/termina-nesta-2a-prazo-para-sacar-dinheiro-das-bets/"
+    }
+   ]
+  },
+  {
+   "id": "argentina-inflacao-setembro",
+   "bloco": "Internacional",
+   "titulo": "Inflação da Argentina fica em 1,9% em setembro, abaixo de 2% pelo segundo mês",
+   "subtitulo": "Acumulado em 12 meses cai para 33,4%, e analistas esperam cerca de 30% até o fim do ano",
+   "resumo": "A inflação da Argentina foi de 1,9% em setembro, abaixo de 2% pelo segundo mês seguido, em linha com a mediana dos analistas ouvidos pela Bloomberg. O acumulado em 12 meses recuou para 33,4%, contra 35% antes. Quando Javier Milei assumiu, há três anos, a alta anual passava de três dígitos. A projeção é de cerca de 30% em 12 meses até o fim de 2026 e de 1,6% a 1,8% ao mês até março de 2027. A esquerda brasileira usa o caso argentino como argumento contra Flávio, e o dado mostra o outro lado: ajuste fiscal sério derruba a inflação que mais pesa no bolso do pobre.",
+   "contexto": [
+    "Inflação mensal de 1,9% em setembro; agosto foi de 1,7%, o menor número de 2026.",
+    "Acumulado em 12 meses: 33,4%, contra 35% no dado anterior.",
+    "Projeção: perto de 30% em 12 meses até dezembro e 1,6% a 1,8% ao mês até março de 2027.",
+    "Milei assumiu com inflação anual de três dígitos."
+   ],
+   "angulo": [
+    "Inflação de 1,9% ao mês ainda é alta, mas o caminho de queda mostra que cortar gasto funciona onde a gastança falhou.",
+    "Quem usa a Argentina para assustar o eleitor brasileiro omite que o país saiu do descontrole de preços.",
+    "Controle de gastos e inflação baixa são a melhor política para o pobre: a conta chega primeiro ao supermercado."
+   ],
+   "perguntas": [
+    "O que o Brasil pode aprender do caso argentino sem copiar o remédio?",
+    "Inflação de 33% ao ano é vitória ou ainda é problema?",
+    "Por que o dado argentino entrou na campanha brasileira?"
+   ],
+   "atencao": "Aposentadorias e pobreza na Argentina são disputadas por fontes de campo oposto; neste item só valem os números de inflação, de matéria aberta.",
+   "fontes": [
+    {
+     "name": "Tribuna do Sertão",
+     "url": "https://www.tribunadosertao.com.br/financas/2026/10/13/996370-argentina-registra-segundo-mes-consecutivo-com-inflacao-abaixo-de-2"
+    }
+   ],
+   "metafora": "Inflação de 33% ao ano é como febre que cedeu: o paciente melhorou, mas ainda não está curado."
   },
   {
    "id": "ruas-transicao-rombo",
    "bloco": "Rio de Janeiro",
    "titulo": "Douglas Ruas inicia a transição e rejeita orçamento do Rio com déficit de R$ 14 bilhões",
-   "subtitulo": "Governador eleito defende teto de gastos e promete chegar a 60 mil policiais militares",
-   "desdobramento": "Douglas Ruas, governador eleito, inicia nesta terça (13) a transição com Ricardo Couto e promete reabrir o orçamento de 2027.",
-   "resumo": "Douglas Ruas, governador eleito do Rio, reuniu-se nesta terça (13) com o desembargador Ricardo Couto, da gestão interina, para iniciar a transição. O orçamento de 2027 prevê receitas líquidas de R$ 124,39 bilhões e despesas de R$ 138,37 bilhões, um déficit de R$ 13,98 bilhões. Ruas diz que não concorda em aprovar a peça como está e defende um teto de gastos que limite as despesas dos poderes à evolução da arrecadação. Ele também promete elevar a PM de pouco mais de 44 mil para 60 mil policiais, a um custo estimado de R$ 1,6 bilhão. A posse no Palácio Guanabara está marcada para 6 de janeiro de 2027, e o primeiro teste será conciliar corte de despesa com mais policiais e mais hospital.",
+   "subtitulo": "Governador eleito defende teto de gastos para os três Poderes e promete chegar a 60 mil policiais militares",
+   "desdobramento": "Ruas inicia a transição com Ricardo Couto, e a equipe de transição deve funcionar na sede da Firjan.",
+   "resumo": "Douglas Ruas, governador eleito do Rio, reuniu-se com o desembargador Ricardo Couto, da gestão interina, para iniciar a transição. A proposta de orçamento de 2027 prevê déficit de quase R$ 14 bilhões: receitas de R$ 124,39 bilhões e despesas de R$ 138,37 bilhões. Ruas diz que não concorda em aprovar a peça como está e quer cortar despesas dos três Poderes, lembrando que a arrecadação subiu 21% em cinco anos e as despesas cresceram mais. Ele promete elevar a PM de pouco mais de 44 mil para 60 mil policiais, a um custo estimado de R$ 1,6 bilhão. A posse está marcada para 6 de janeiro de 2027, e Firjan e Fecomércio ofereceram espaço para a equipe de transição.",
    "contexto": [
-    "Orçamento de 2027: receitas de R$ 124,39 bilhões, despesas de R$ 138,37 bilhões, déficit de R$ 13,98 bilhões, cerca de R$ 5 bilhões menor que o de 2026.",
-    "Ruas: \"Não concordo que a gente aprove essa peça da maneira que se encontra, com mais de R$ 13 bilhões em déficit.\"",
-    "Votação do orçamento prevista para dezembro; Ruas quer negociar ajustes antes, ainda na presidência da Alerj.",
+    "Orçamento de 2027: receitas de R$ 124,39 bilhões, despesas de R$ 138,37 bilhões, déficit de R$ 13,98 bilhões.",
+    "Segundo Ruas, a arrecadação subiu 21% em cinco anos, e as despesas dos Poderes subiram mais.",
     "Meta de 60 mil PMs (hoje pouco mais de 44 mil), custo de R$ 1,6 bilhão; Hospital do Câncer e do Coração de Nova Friburgo em 100 dias.",
-    "Posse em 6 de janeiro de 2027; Ruas teve 50,88% dos votos válidos após a anulação de 274.411 votos de Garotinho."
+    "Firjan e Fecomércio ofereceram espaço à transição; Maria Gabriela Bessa é a mais cotada para coordená-la.",
+    "Posse em 6 de janeiro de 2027."
    ],
    "angulo": [
-    "Governo que herda rombo tem de começar cortando a própria carne: o teto de gastos para os três Poderes é o caminho certo.",
-    "Segurança é prioridade, e 15 mil PMs a mais só fazem sentido com o orçamento equilibrado para pagar salário em dia.",
+    "Governo que herda rombo tem de começar cortando a própria carne, e o teto de gastos para os três Poderes é o caminho certo.",
+    "Mais 15 mil policiais só fazem sentido com orçamento equilibrado para pagar salário em dia.",
     "A bancada deve cobrar números: onde sai o corte, quanto e em quanto tempo."
    ],
    "perguntas": [
     "Dá para cortar despesa dos três Poderes e ainda contratar 15 mil policiais?",
     "O teto de gastos proposto por Ruas passa pela Alerj e pelo Judiciário?",
-    "Quais serviços não podem esperar os 100 dias para melhorar?"
+    "Quais serviços não podem esperar os 100 dias?"
    ],
    "fontes": [
     {
@@ -367,35 +468,38 @@
    ]
   },
   {
-   "id": "celulares-presidios-decreto",
-   "bloco": "Segurança pública",
-   "titulo": "Governo publica decreto para bloquear celulares em presídios",
-   "subtitulo": "Programa reúne União, estados e Anatel, mas a execução depende de cada unidade",
-   "resumo": "O governo federal publicou nesta terça (13) decreto que institui programa nacional para acelerar o bloqueio de celulares usados ilegalmente em presídios. O modelo reúne União, estados, Distrito Federal e Anatel, com bloqueio de aparelhos identificados e interrupção de sinal em perímetros de segurança em volta das unidades. Varreduras coordenadas pelo Ministério da Justiça retiraram quase 10 mil celulares de presídios nos últimos três anos. A publicação veio a menos de duas semanas do segundo turno, com Lula usando a segurança como tema central da campanha. Celular na cela é o que mantém o crime organizado funcionando de dentro da cadeia, e uma medida só vale se chegar na prática a cada presídio.",
+   "id": "papa-leao-adenocarcinoma",
+   "bloco": "Internacional",
+   "titulo": "Papa Leão XIV passa por cirurgia e Vaticano confirma adenocarcinoma de pulmão",
+   "subtitulo": "Lobo inferior do pulmão direito foi retirado em operação de 90 minutos; recuperação deve levar cerca de uma semana",
+   "resumo": "O papa Leão XIV, de 71 anos, foi operado na terça (13) no Hospital Gemelli, em Roma, e o Vaticano confirmou adenocarcinoma de pulmão. A equipe retirou o lobo inferior do pulmão direito por videocirurgia, em cerca de 90 minutos, e descreveu a operação como bem-sucedida. A histologia feita durante a cirurgia confirmou o diagnóstico que a equipe já esperava, segundo o comunicado assinado pelos cirurgiões Luigi Carbone e Stefano Margaritora. O papa anunciou o nódulo no domingo (11), dizendo que foi \"identificado em uma fase muito inicial e bem localizado\". Para milhões de católicos brasileiros, o que importa agora é a recuperação e a viagem de 6 a 17 de novembro à Argentina, ao Uruguai e ao Peru.",
    "contexto": [
-    "Decreto publicado em 13/10/2026 institui programa nacional para acelerar o bloqueio de celulares em presídios (Estado de Minas).",
-    "Dois formatos: bloqueio de aparelhos identificados individualmente e interrupção coordenada de sinais em perímetros de segurança.",
-    "As administrações penitenciárias estaduais identificam os aparelhos e enviam relatórios por plataforma do Ministério da Justiça ligada ao Sisdepen.",
-    "Quase 10 mil celulares retirados de presídios em varreduras nos últimos três anos.",
-    "Na semana anterior, Lula defendeu a PEC que amplia o papel federal no combate ao crime organizado."
+    "Cirurgia na terça (13), no Gemelli: retirada do lobo inferior do pulmão direito por técnica videoassistida, cerca de 90 minutos.",
+    "Diagnóstico: adenocarcinoma pulmonar, confirmado pela histologia feita durante a operação.",
+    "Anúncio do nódulo no Angelus de domingo (11): \"identificado em uma fase muito inicial e bem localizado\".",
+    "Internação prevista de cerca de uma semana; viagem de 6 a 17 de novembro à Argentina, ao Uruguai e ao Peru era mantida antes da cirurgia."
    ],
    "angulo": [
-    "Bloquear sinal é medida correta e antiga: a pergunta é por que só agora, às vésperas da eleição.",
-    "Sem presídio federal bem equipado e estados cooperando, decreto vira letra morta; a bancada deve cobrar prazo e orçamento.",
-    "Quem comanda facção de dentro da cadeia só perde poder quando perde o telefone."
+    "A saúde do papa é assunto de respeito: a bancada deve acompanhar com sobriedade e sem especulação sobre sucessão.",
+    "A transparência do Vaticano, que anunciou o nódulo e depois o diagnóstico em dois dias, é exemplo de como autoridade deve tratar a própria saúde.",
+    "Para o público de fé, o momento pede oração e informação confiável, e não boato."
    ],
    "perguntas": [
-    "O decreto resolve o problema ou só organiza o que já devia ser feito?",
-    "Quem fiscaliza para que o bloqueio realmente chegue aos presídios estaduais?",
-    "Que relação há entre o telefone na cela e as operações recentes contra o Comando Vermelho no Rio?"
+    "O que a notícia significa para a Igreja e para os católicos brasileiros?",
+    "A viagem de novembro deve ser mantida?",
+    "Autoridades públicas devem ser tão transparentes quanto o Vaticano sobre a saúde?"
    ],
+   "atencao": "Estadiamento e tratamento complementar ainda não foram informados; não especular sobre prognóstico.",
    "fontes": [
     {
-     "name": "Estado de Minas",
-     "url": "https://www.em.com.br/politica/2026/10/7519633-lula-assina-decreto-para-facilitar-bloqueio-de-celulares-em-presidios.html"
+     "name": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2026/10/13/papa-leao-xiv-e-diagnosticado-com-cancer-de-pulmao-e-retira-parte-do-orgao/"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/papa-leao-xiv-cirurgia-nodulo-pulmao/"
     }
    ]
   }
- ],
- "atualizado": "2026-10-14T09:37:21-03:00"
+ ]
 }
