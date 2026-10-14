@@ -28,6 +28,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Esperar a vez (outra ação mexendo no mesmo arquivo)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 tools/esperar.py programa.yml programa-avulso.yml pauta-excluir.yml
+          git pull -q --ff-only origin main || git reset -q --hard origin/main
       - uses: anthropics/claude-code-action@v1
         id: claude
         env:

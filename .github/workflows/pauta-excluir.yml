@@ -11,20 +11,18 @@ permissions:
   contents: write
   actions: write
 
-concurrency:
-  group: pauta-excluir
-  cancel-in-progress: false
-
 jobs:
   excluir:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 50
     env:
       TZ: America/Sao_Paulo
       PAYLOAD: ${{ inputs.payload }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
+      - name: Esperar a vez (outra ação mexendo no mesmo arquivo)
+        run: python3 tools/esperar.py programa.yml programa-avulso.yml pautas.yml sob-demanda.yml quentes.yml pauta-excluir.yml
       - name: Excluir e publicar
         run: |
           git config user.name "github-actions[bot]"
