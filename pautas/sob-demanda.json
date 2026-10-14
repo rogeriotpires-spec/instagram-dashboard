@@ -2,6 +2,101 @@
   "items": [
     {
       "requested": "2026-10-14",
+      "done": "2026-10-14T10:40:30-03:00",
+      "issue": 58,
+      "slot_hint": "Imagem hoje (14) às 18h ou reel amanhã (15) às 12h.",
+      "source": {
+        "edition": "programa/2026-10-14",
+        "item_id": "flavio-el-salvador-pouco",
+        "title": "Flávio diz que \"El Salvador é pouco\" e promete meio milhão de vagas em presídios"
+      },
+      "options": [
+        {
+          "type": "i",
+          "style": "ilustracao",
+          "title": "Flávio diz que \"El Salvador é pouco\" e promete meio milhão de vagas em presídios",
+          "tone": "contundente, cobrando a conta",
+          "duration": "imagem única",
+          "fact": "Em evento da Associação Comercial de São Paulo na terça (13), Flávio Bolsonaro (PL) disse que \"El Salvador é pouco\" e que conversa com Guilherme Derrite sobre o tema (Money Times, Metrópoles). Prometeu mais de meio milhão de vagas em presídios, castração química e penas maiores para estupradores e abusadores, e pena mínima de 8 anos para roubo de celular, a depender do Congresso (Money Times, Metrópoles). O plano de junho prevê 5 presídios federais com 500 mil vagas (CNN Brasil). Em 30 de agosto, ele estimou o custo em R$ 35 bilhões a R$ 40 bilhões em quatro anos, estimativa do próprio candidato (SBT News). A castração química já passou pela Câmara e aguarda o Senado (CNN Brasil).",
+          "sources": [
+            {
+              "name": "Money Times",
+              "url": "https://www.moneytimes.com.br/flavio-bolsonaro-diz-que-el-salvador-e-pouco-aqueles-que-acham-que-sou-radical-na-seguranca-publica-nao-viram-nada-ainda/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/sao-paulo/el-salvador-e-pouco-diz-flavio-sobre-planos-para-seguranca-publica"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-anuncia-plano-de-seguranca-com-presidio-a-bukele-e-castracao-quimica/"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://sbtnews.sbt.com.br/noticia/politica/o-brasil-tem-pouco-preso-avalia-flavio-bolsonaro"
+            }
+          ],
+          "art_text": [
+            "El Salvador é pouco",
+            "500 mil vagas em presídios",
+            "R$ 35 a 40 bi em 4 anos (estimativa de Flávio)",
+            "Dureza sem execução vira só discurso",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Flávio Bolsonaro (candidato do PL à Presidência), autor da fala e da promessa. Ilustração de charge, sem foto real, discursando num palanque com o dedo em riste; ao fundo, apenas silhuetas de grades e de um presídio. Risco médio.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Flávio Bolsonaro (senador e candidato do PL à Presidência, cabelo curto escuro, terno escuro) discursando num palanque, dedo em riste, expressão firme; ao fundo, silhueta de um grande presídio com grades e torres de vigia. No alto, em letras condensadas, brancas e pesadas: 'EL SALVADOR É POUCO'. Num quadro amarelo à esquerda: '500 mil vagas'. Num quadro vermelho à direita: 'R$ 35 a 40 bi em 4 anos (estimativa de Flávio)'. Embaixo, com sublinhado vermelho pincelado, em branco: 'Dureza sem execução vira só discurso'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Flávio Bolsonaro disse que \"El Salvador é pouco\" e prometeu mais de meio milhão de vagas em presídios, castração química para estupradores e 8 anos de prisão para roubo de celular. A segurança é a maior cobrança do brasileiro e o governo atual não entregou. Mas vaga sem gestão vira escritório do crime, e mudança de lei passa pelo Congresso. Cada promessa precisa vir com artigo e custo. Você apoia? Comenta.",
+          "risk": "médio",
+          "risk_note": "É promessa de campanha de Flávio: atribua a ele e aos veículos, sem afirmar que será cumprida. A castração química é proposta de lei sem aprovação final no Senado, e algumas matérias parafraseiam a fala, então só cite entre aspas o trecho \"El Salvador é pouco\". O custo de R$ 35 bi a R$ 40 bi é estimativa do próprio candidato. Críticos lembram as denúncias de direitos humanos sobre o regime de exceção salvadorenho, sem ser preciso entrar nelas. Dureza só vale com gestão, artigo de lei e custo."
+        },
+        {
+          "type": "r",
+          "title": "Flávio diz que \"El Salvador é pouco\" e promete meio milhão de vagas em presídios",
+          "tone": "contundente, com cobrança",
+          "duration": "45s",
+          "fact": "Em evento da Associação Comercial de São Paulo na terça (13), Flávio Bolsonaro (PL) disse que \"El Salvador é pouco\" e que conversa com Guilherme Derrite sobre o tema (Money Times, Metrópoles). Prometeu mais de meio milhão de vagas em presídios, castração química e penas maiores para estupradores e abusadores, e pena mínima de 8 anos para roubo de celular, a depender do Congresso (Money Times, Metrópoles). O plano de junho prevê 5 presídios federais com 500 mil vagas (CNN Brasil). Em 30 de agosto, ele estimou o custo em R$ 35 bilhões a R$ 40 bilhões em quatro anos, estimativa do próprio candidato (SBT News). A castração química já passou pela Câmara e aguarda o Senado (CNN Brasil).",
+          "sources": [
+            {
+              "name": "Money Times",
+              "url": "https://www.moneytimes.com.br/flavio-bolsonaro-diz-que-el-salvador-e-pouco-aqueles-que-acham-que-sou-radical-na-seguranca-publica-nao-viram-nada-ainda/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/sao-paulo/el-salvador-e-pouco-diz-flavio-sobre-planos-para-seguranca-publica"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-anuncia-plano-de-seguranca-com-presidio-a-bukele-e-castracao-quimica/"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://sbtnews.sbt.com.br/noticia/politica/o-brasil-tem-pouco-preso-avalia-flavio-bolsonaro"
+            }
+          ],
+          "hooks": [
+            "\"El Salvador é pouco.\" Flávio Bolsonaro prometeu meio milhão de vagas em presídios.",
+            "Segurança é a maior cobrança do brasileiro. Mas quem paga meio milhão de vagas?"
+          ],
+          "script": "Flávio Bolsonaro disse na terça, em São Paulo, que \"El Salvador é pouco\", e que conversa com Guilherme Derrite sobre o assunto. Prometeu mais de meio milhão de vagas em presídios, castração química para estupradores e abusadores de mulheres e crianças, e pena mínima de 8 anos para quem roubar celular. O brasileiro quer menos crime e mais cadeia para quem rouba e estupra, e o governo atual não deu prioridade a isso. Mas vamos aos fatos. Em agosto, o próprio Flávio estimou o custo das vagas em 35 a 40 bilhões de reais em quatro anos. A castração química ainda não passou pelo Senado, e mudar pena depende do Congresso. E vaga sem gestão e inteligência vira escritório do crime. Então a cobrança é simples: cada promessa tem que vir com artigo de lei, custo e prazo. Dureza sem execução vira só discurso. Você apoia a proposta? Comenta aqui.",
+          "screen_text": [
+            "\"El Salvador é pouco\"",
+            "500 mil vagas em presídios",
+            "Custo estimado por Flávio: R$ 35 a 40 bi",
+            "Castração química: ainda no Senado",
+            "Promessa precisa de artigo e custo"
+          ],
+          "caption": "Flávio Bolsonaro prometeu mais de meio milhão de vagas em presídios, castração química e 8 anos de prisão para roubo de celular. Segurança é prioridade, mas a conta e a lei precisam fechar. Comenta.",
+          "risk": "médio",
+          "risk_note": "É promessa de campanha de Flávio: atribua a ele e aos veículos, sem afirmar que será cumprida. A castração química é proposta de lei sem aprovação final no Senado, e algumas matérias parafraseiam a fala, então só cite entre aspas o trecho \"El Salvador é pouco\". O custo de R$ 35 bi a R$ 40 bi é estimativa do próprio candidato. Críticos lembram as denúncias de direitos humanos sobre o regime de exceção salvadorenho, sem ser preciso entrar nelas. Dureza só vale com gestão, artigo de lei e custo.",
+          "timeline": {
+            "rende": true,
+            "angle": "Como gerir 500 mil novas vagas: custo, prazo, o que depende do Congresso e o que cabe na Constituição."
+          }
+        }
+      ]
+    },
+    {
+      "requested": "2026-10-14",
       "done": "2026-10-14T08:59:21-03:00",
       "issue": 48,
       "slot_hint": "Imagem hoje (14) às 18h ou carrossel amanhã (15) às 12h.",
