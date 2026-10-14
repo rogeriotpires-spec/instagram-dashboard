@@ -1,521 +1,492 @@
 {
-  "date": "2026-10-14",
-  "generated": "2026-10-14T10:20:24-03:00",
-  "programa": "Conversa Timeline",
-  "titulo": "Senado vota a PEC da 6x1, Fachin manda a PF entregar as menções a ministros e papa Leão XIV passa noite tranquila após cirurgia",
-  "abertura": "O papa Leão XIV teve uma noite tranquila após a cirurgia de adenocarcinoma de pulmão e o Vaticano promete novas informações ao longo do dia. Na política, Flávio Bolsonaro disse que não iria ao debate da Band, Lula confirmou presença e Flávio avisou que vai, o que reabre o primeiro confronto direto da eleição no domingo (18). No Senado, a PEC do fim da escala 6x1 corre contra o calendário eleitoral, e no STF Fachin mandou a PF enviar todas as menções a ministros no caso Master. A pesquisa mostra uma eleição dentro da margem de erro, e o debate pode ser o último grande lance antes da urna.",
-  "agenda": [
+ "date": "2026-10-14",
+ "generated": "2026-10-14T10:20:24-03:00",
+ "programa": "Conversa Timeline",
+ "titulo": "Senado vota a PEC da 6x1, Fachin manda a PF entregar as menções a ministros e papa Leão XIV passa noite tranquila após cirurgia",
+ "abertura": "O papa Leão XIV teve uma noite tranquila após a cirurgia de adenocarcinoma de pulmão e o Vaticano promete novas informações ao longo do dia. Na política, Flávio Bolsonaro disse que não iria ao debate da Band, Lula confirmou presença e Flávio avisou que vai, o que reabre o primeiro confronto direto da eleição no domingo (18). No Senado, a PEC do fim da escala 6x1 corre contra o calendário eleitoral, e no STF Fachin mandou a PF enviar todas as menções a ministros no caso Master. A pesquisa mostra uma eleição dentro da margem de erro, e o debate pode ser o último grande lance antes da urna.",
+ "agenda": [
+  {
+   "time": "Quarta (14)",
+   "text": "Senado deve votar em primeiro turno a PEC que acaba com a escala 6x1 (exige 49 votos).",
+   "source": {
+    "name": "Gazeta do Povo",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-diz-que-votara-pelo-fim-da-escala-6x1-e-defende-compensacao-a-empresarios/"
+   }
+  }
+ ],
+ "itens": [
+  {
+   "id": "pec-6x1-senado-flavio",
+   "bloco": "Política nacional",
+   "titulo": "Senado vota hoje a PEC do fim da escala 6x1, e Flávio anuncia voto a favor",
+   "subtitulo": "Governo quer calendário especial para aprovar antes de 25 de outubro; Flávio diz que o governo terá de bancar a compensação aos empresários",
+   "resumo": "O presidente do Senado, Davi Alcolumbre, pautou para esta quarta (14) a votação em primeiro turno da PEC 221/2019, que reduz gradualmente a jornada de 44 para 40 horas sem corte de salário. Depois de visitar o pai em Brasília, Flávio Bolsonaro anunciou que votará a favor e disse que o governo vai ter que bancar a compensação aos empresários. A PEC já passou pela Câmara, precisa de 49 votos nas duas rodadas do Senado e já cumpriu 3 das 5 sessões de discussão exigidas antes da votação. Depois do primeiro turno o regimento pede mais três sessões, e a base do governo articula um calendário especial para aprovar antes de 25 de outubro, enquanto a oposição tenta empurrar a votação para depois da eleição. O que está em jogo é o bolso do trabalhador e a sobrevivência do pequeno empresário, e as duas coisas só cabem juntas se a conta não sobrar para quem produz.",
+   "contexto": [
+    "Sessões de discussão de 6 a 8 de outubro cumpriram 3 das 5 exigidas antes da votação (SBT News).",
+    "Flávio anunciou o voto favorável depois de visitar Jair Bolsonaro em Brasília, na terça (13) (Gazeta do Povo).",
+    "Para o segundo turno, o regimento exige mais 3 sessões de discussão, e a base do governo busca um calendário especial.",
+    "Citação: \"o governo vai ter que bancar essa compensação\".",
+    "A PEC precisa de 49 dos 81 votos em cada um dos dois turnos.",
+    "PEC 221/2019: dois dias de descanso remunerado, jornada de 44 para 40 horas sem corte de salário, transição de 14 meses."
+   ],
+   "angulo": [
+    "O trabalhador merece uma votação feita com calma e com a conta da compensação definida, e não um calendário apertado para render voto no segundo turno.",
+    "Quem defende o trabalhador defende também quem dá emprego: sem compensação à pequena empresa, o fim da 6x1 vira demissão e informalidade.",
+    "Se o governo só descobriu a urgência do tema agora, a bancada deve perguntar por que a proposta ficou parada durante o primeiro turno.",
+    "A posição de Flávio é coerente com o que ouviu nas ruas, e o ônus de financiar a mudança é de quem criou a proposta."
+   ],
+   "perguntas": [
+    "Um calendário especial só para antes da eleição é legítimo ou é uso eleitoral do regimento?",
+    "Quem deve pagar a transição: o governo, as empresas ou o trabalhador?",
+    "Quem deve pagar a transição: o governo, as empresas ou o trabalhador, com menos vagas?"
+   ],
+   "atencao": "Fontes divergem sobre o dia da votação (quarta 14 ou quinta 15); confirmar a pauta do plenário antes de ir ao ar.",
+   "fontes": [
     {
-      "time": "Quarta (14)",
-      "text": "Senado deve votar em primeiro turno a PEC que acaba com a escala 6x1 (exige 49 votos).",
-      "source": {
-        "name": "Gazeta do Povo",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-diz-que-votara-pelo-fim-da-escala-6x1-e-defende-compensacao-a-empresarios/"
-      }
+     "name": "SBT News",
+     "url": "https://sbtnews.sbt.com.br/noticia/politica/alcolumbre-votara-fim-da-escala-6x1-na-quarta-feira-14"
+    },
+    {
+     "name": "Folha de Pernambuco",
+     "url": "https://www.folhape.com.br/politica/fim-da-escala-6x1-oposicao-tenta-adiar-votacao-para-depois-das/517098/"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-diz-que-votara-pelo-fim-da-escala-6x1-e-defende-compensacao-a-empresarios/"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722955-senado-oposicao-obstrui-e-fim-da-escala-6x1-nao-vai-a-plenario.html"
     }
-  ],
-  "itens": [
+   ],
+   "pedido": "Senado deve votar nesta quarta (14) a PEC do fim da escala 6x1 em dois turnos; Flávio anuncia voto a favor",
+   "avulsa": true,
+   "metafora": "Mudar a jornada sem dizer quem paga é como marcar a festa e deixar a conta do salão para o vizinho: o convite é bonito, mas alguém vai ter que abrir a carteira.",
+   "fundido": [
+    "Flávio anuncia voto a favor da PEC do fim da escala 6x1"
+   ]
+  },
+  {
+   "id": "master-fachin-pf-ministros",
+   "bloco": "STF e instituições",
+   "titulo": "Fachin manda a PF enviar ao STF todas as menções a ministros no caso Master",
+   "subtitulo": "Relatório cita ao menos 6 dos 10 ministros ou parentes deles; o plenário decide depois se abre inquérito",
+   "resumo": "O diretor-geral da PF, Andrei Rodrigues, reuniu-se nesta terça (13) com o presidente do STF, Edson Fachin, para tratar de como enviar ao Supremo o material do caso Banco Master que cita ministros. Segundo a reportagem, ao menos 6 dos 10 ministros em exercício, ou parentes deles, aparecem nas mensagens dos celulares de Daniel Vorcaro e Fabiano Zettel, além de integrantes do STJ e do TST. Fachin determinou que nenhuma menção seja omitida e que cada uma venha com contexto, em caráter estritamente descritivo. Recebido o material, a PGR dá parecer prévio e o plenário decide se abre inquérito, enquanto aliados de Moraes defendem esperar o fim das eleições. Ser citado não é ser investigado, mas quem decide se os ministros serão investigados são os próprios colegas dos citados.",
+   "contexto": [
+    "Ofício da PF ao STF em 2 de outubro pediu esclarecimentos sobre o procedimento (Poder360).",
+    "Reunião de Fachin com Andrei Rodrigues marcada para terça (13), pedida em ofício de Fachin enviado no dia 2.",
+    "Nota conjunta de STF e PF: atos de investigação de ministro dependem de autorização do plenário, mas isso não elimina o dever de comunicar todas as referências.",
+    "Ao menos 6 dos 10 ministros em exercício, ou parentes, citados; também há menções a STJ e TST.",
+    "Citados em diferentes contextos, segundo o Poder360: Toffoli, Moraes, Fux e Nunes Marques.",
+    "Citados: Moraes (contrato de cerca de R$ 130 milhões do Master com o escritório da mulher), Toffoli, Nunes Marques, Fux, Mendonça e Gilmar Mendes (A Crítica)."
+   ],
+   "angulo": [
+    "A determinação de enviar tudo é correta, mas o desenho final é problemático: o plenário que decide sobre inquérito é composto por colegas dos citados.",
+    "Tratar todos os citados do mesmo jeito é o mínimo: o Supremo não pode exigir transparência dos outros e adiar a sua.",
+    "Ser citado não é ser investigado, e o programa deve repetir isso, sem abrir mão de cobrar transparência total.",
+    "Esperar passar a eleição para encaminhar o material soa como escolha de calendário, e o público merece explicação."
+   ],
+   "perguntas": [
+    "Quem deveria decidir sobre investigar um ministro do STF: o próprio plenário ou outra instância?",
+    "Fachin deve divulgar o relatório inteiro ou tratar caso a caso?",
+    "A exigência de contexto e de texto sem juízo de valor protege a Corte ou protege a verdade?"
+   ],
+   "atencao": "Menção em mensagem não é indício de crime; todos os citados negam irregularidades e ninguém foi denunciado. Citação em mensagens não equivale a investigação ou acusação; todos os citados negam irregularidades.",
+   "fontes": [
     {
-      "id": "pec-6x1-senado-flavio",
-      "bloco": "Política nacional",
-      "titulo": "Senado vota hoje a PEC do fim da escala 6x1, e Flávio anuncia voto a favor",
-      "subtitulo": "Governo quer calendário especial para aprovar antes de 25 de outubro; Flávio diz que o governo terá de bancar a compensação aos empresários",
-      "resumo": "O presidente do Senado, Davi Alcolumbre, pautou para esta quarta (14) a votação em primeiro turno da PEC 221/2019, que reduz gradualmente a jornada de 44 para 40 horas sem corte de salário. Depois de visitar o pai em Brasília, Flávio Bolsonaro anunciou que votará a favor e disse que o governo vai ter que bancar a compensação aos empresários. A PEC já passou pela Câmara, precisa de 49 votos nas duas rodadas do Senado e já cumpriu 3 das 5 sessões de discussão exigidas antes da votação. Depois do primeiro turno o regimento pede mais três sessões, e a base do governo articula um calendário especial para aprovar antes de 25 de outubro, enquanto a oposição tenta empurrar a votação para depois da eleição. O que está em jogo é o bolso do trabalhador e a sobrevivência do pequeno empresário, e as duas coisas só cabem juntas se a conta não sobrar para quem produz.",
-      "contexto": [
-        "Sessões de discussão de 6 a 8 de outubro cumpriram 3 das 5 exigidas antes da votação (SBT News).",
-        "Flávio anunciou o voto favorável depois de visitar Jair Bolsonaro em Brasília, na terça (13) (Gazeta do Povo).",
-        "Para o segundo turno, o regimento exige mais 3 sessões de discussão, e a base do governo busca um calendário especial.",
-        "Citação: \"o governo vai ter que bancar essa compensação\".",
-        "A PEC precisa de 49 dos 81 votos em cada um dos dois turnos.",
-        "PEC 221/2019: dois dias de descanso remunerado, jornada de 44 para 40 horas sem corte de salário, transição de 14 meses."
-      ],
-      "angulo": [
-        "O trabalhador merece uma votação feita com calma e com a conta da compensação definida, e não um calendário apertado para render voto no segundo turno.",
-        "Quem defende o trabalhador defende também quem dá emprego: sem compensação à pequena empresa, o fim da 6x1 vira demissão e informalidade.",
-        "Se o governo só descobriu a urgência do tema agora, a bancada deve perguntar por que a proposta ficou parada durante o primeiro turno.",
-        "A posição de Flávio é coerente com o que ouviu nas ruas, e o ônus de financiar a mudança é de quem criou a proposta."
-      ],
-      "perguntas": [
-        "Um calendário especial só para antes da eleição é legítimo ou é uso eleitoral do regimento?",
-        "Quem deve pagar a transição: o governo, as empresas ou o trabalhador?",
-        "Quem deve pagar a transição: o governo, as empresas ou o trabalhador, com menos vagas?"
-      ],
-      "atencao": "Fontes divergem sobre o dia da votação (quarta 14 ou quinta 15); confirmar a pauta do plenário antes de ir ao ar.",
-      "fontes": [
-        {
-          "name": "SBT News",
-          "url": "https://sbtnews.sbt.com.br/noticia/politica/alcolumbre-votara-fim-da-escala-6x1-na-quarta-feira-14"
-        },
-        {
-          "name": "Folha de Pernambuco",
-          "url": "https://www.folhape.com.br/politica/fim-da-escala-6x1-oposicao-tenta-adiar-votacao-para-depois-das/517098/"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-diz-que-votara-pelo-fim-da-escala-6x1-e-defende-compensacao-a-empresarios/"
-        },
-        {
-          "name": "Diário de Pernambuco",
-          "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11722955-senado-oposicao-obstrui-e-fim-da-escala-6x1-nao-vai-a-plenario.html"
-        }
-      ],
-      "pedido": "Senado deve votar nesta quarta (14) a PEC do fim da escala 6x1 em dois turnos; Flávio anuncia voto a favor",
-      "avulsa": true,
-      "metafora": "Mudar a jornada sem dizer quem paga é como marcar a festa e deixar a conta do salão para o vizinho: o convite é bonito, mas alguém vai ter que abrir a carteira.",
-      "fundido": [
-        "Flávio anuncia voto a favor da PEC do fim da escala 6x1"
-      ]
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/fachin-manda-pf-enviar-todas-as-mencoes-a-ministros-no-caso-master/"
     },
     {
-      "id": "master-fachin-pf-ministros",
-      "bloco": "STF e instituições",
-      "titulo": "Fachin manda a PF enviar ao STF todas as menções a ministros no caso Master",
-      "subtitulo": "Relatório cita ao menos 6 dos 10 ministros ou parentes deles; o plenário decide depois se abre inquérito",
-      "resumo": "O diretor-geral da PF, Andrei Rodrigues, reuniu-se nesta terça (13) com o presidente do STF, Edson Fachin, para tratar de como enviar ao Supremo o material do caso Banco Master que cita ministros. Segundo a reportagem, ao menos 6 dos 10 ministros em exercício, ou parentes deles, aparecem nas mensagens dos celulares de Daniel Vorcaro e Fabiano Zettel, além de integrantes do STJ e do TST. Fachin determinou que nenhuma menção seja omitida e que cada uma venha com contexto, em caráter estritamente descritivo. Recebido o material, a PGR dá parecer prévio e o plenário decide se abre inquérito, enquanto aliados de Moraes defendem esperar o fim das eleições. Ser citado não é ser investigado, mas quem decide se os ministros serão investigados são os próprios colegas dos citados.",
-      "contexto": [
-        "Ofício da PF ao STF em 2 de outubro pediu esclarecimentos sobre o procedimento (Poder360).",
-        "Reunião de Fachin com Andrei Rodrigues marcada para terça (13), pedida em ofício de Fachin enviado no dia 2.",
-        "Nota conjunta de STF e PF: atos de investigação de ministro dependem de autorização do plenário, mas isso não elimina o dever de comunicar todas as referências.",
-        "Ao menos 6 dos 10 ministros em exercício, ou parentes, citados; também há menções a STJ e TST.",
-        "Citados em diferentes contextos, segundo o Poder360: Toffoli, Moraes, Fux e Nunes Marques.",
-        "Citados: Moraes (contrato de cerca de R$ 130 milhões do Master com o escritório da mulher), Toffoli, Nunes Marques, Fux, Mendonça e Gilmar Mendes (A Crítica)."
-      ],
-      "angulo": [
-        "A determinação de enviar tudo é correta, mas o desenho final é problemático: o plenário que decide sobre inquérito é composto por colegas dos citados.",
-        "Tratar todos os citados do mesmo jeito é o mínimo: o Supremo não pode exigir transparência dos outros e adiar a sua.",
-        "Ser citado não é ser investigado, e o programa deve repetir isso, sem abrir mão de cobrar transparência total.",
-        "Esperar passar a eleição para encaminhar o material soa como escolha de calendário, e o público merece explicação."
-      ],
-      "perguntas": [
-        "Quem deveria decidir sobre investigar um ministro do STF: o próprio plenário ou outra instância?",
-        "Fachin deve divulgar o relatório inteiro ou tratar caso a caso?",
-        "A exigência de contexto e de texto sem juízo de valor protege a Corte ou protege a verdade?"
-      ],
-      "atencao": "Menção em mensagem não é indício de crime; todos os citados negam irregularidades e ninguém foi denunciado. Citação em mensagens não equivale a investigação ou acusação; todos os citados negam irregularidades.",
-      "fontes": [
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-justica/fachin-manda-pf-enviar-todas-as-mencoes-a-ministros-no-caso-master/"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/no-ponto/fachin-diz-a-andrei-que-todas-as-mencoes-a-ministros-no-caso-master-devem-ser-enviadas-ao-stf/"
-        },
-        {
-          "name": "A Crítica de Campo Grande",
-          "url": "https://acritica.net/politica/fachin-recebe-relatorios-pf-ministros-stf-caso-master/"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/ministros-do-stf-articulam-saida-de-moraes-da-crise-e-vorcaro-implica-andrei/"
-        }
-      ],
-      "pedido": "Fachin manda a PF enviar ao STF todas as menções a ministros no caso Master, em caráter estritamente descritivo",
-      "avulsa": true,
-      "metafora": "Um árbitro que apita o jogo inteiro não pode escolher quando a câmera vai revisar a jogada dele: ou o VAR vale para todos, ou ninguém acredita no apito.",
-      "fundido": [
-        "PF leva a Fachin relatório do caso Master que cita ao menos 6 ministros do STF"
-      ]
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/no-ponto/fachin-diz-a-andrei-que-todas-as-mencoes-a-ministros-no-caso-master-devem-ser-enviadas-ao-stf/"
     },
     {
-      "id": "pacote-mei-pix-perdao",
-      "bloco": "Economia",
-      "titulo": "Governo anuncia PixMEI de até R$ 5 mil e propõe perdoar R$ 12,6 bilhões em dívidas de MEIs",
-      "subtitulo": "Pacote sobe o teto de faturamento para R$ 140 mil até 2028 e não diz de onde sai o dinheiro",
-      "resumo": "O governo vai mandar ao Congresso, com pedido de urgência, um projeto que perdoa cerca de R$ 12,6 bilhões em dívidas de MEIs e alcança cerca de 3,6 milhões de microempreendedores. O mesmo pacote cria o PixMEI, pagamento de até R$ 5 mil por MEI para investimento produtivo que, segundo o ministro Paulo Pereira, \"não é crédito\" e não precisa ser devolvido. A meta do PixMEI é chegar a cerca de 1 milhão de MEIs em quatro anos, com apoio do Sebrae. O teto de faturamento sobe de R$ 81 mil para R$ 110 mil em 2027 e R$ 140 mil em 2028, a um custo estimado de cerca de R$ 8 bilhões em três anos, três meses depois do Desenrola MEI. Ajudar o pequeno empreendedor é justo, mas o anúncio chega a 12 dias da eleição sem dizer quanto custa o PixMEI, de onde sai o dinheiro e quem recebe.",
-      "contexto": [
-        "PixMEI: até R$ 5 mil por MEI, \"sem necessidade de reembolso\" e para investimento produtivo (Exame).",
-        "Perdão estimado em R$ 12,6 bilhões, para cerca de 3,6 milhões de MEIs, segundo números do Ministério do Empreendedorismo (Exame).",
-        "Meta: cerca de 1 milhão de MEIs em até 4 anos, com apoio do Sebrae.",
-        "PixMEI: até R$ 5 mil por MEI, \"Não é crédito\", segundo o ministro Paulo Pereira.",
-        "A medida vai em projeto de lei complementar com o perdão de dívidas, e o governo quer a Câmara votando também o novo teto de faturamento.",
-        "Teto de faturamento de R$ 81 mil para R$ 110 mil em 2027 e R$ 140 mil em 2028; custo estimado de R$ 8 bilhões em três anos."
-      ],
-      "angulo": [
-        "Dinheiro a fundo perdido anunciado a 12 dias da urna precisa de custo, fonte e critério, e hoje nenhum dos três foi apresentado.",
-        "Perdoar dívida em massa a duas semanas da eleição é política de voto, e a bancada deve dizer isso sem rodeio.",
-        "O pequeno empreendedor precisa de menos burocracia e menos imposto, não de um benefício que depende de decisão do governo.",
-        "Quem pagou o imposto em dia fica com a sensação de ter sido o trouxa: o Estado premia o inadimplente e castiga o cumpridor."
-      ],
-      "perguntas": [
-        "Quem será escolhido entre os cerca de 3,6 milhões de MEIs para receber o PixMEI?",
-        "Qual o custo fiscal total do pacote e de onde sai o dinheiro?",
-        "Qual é a diferença prática entre esse pagamento e o crédito, e para que serve dizer que não é crédito?"
-      ],
-      "atencao": "O custo de R$ 5 bilhões é conta aproximada do programa (1 milhão x R$ 5 mil), não número oficial.",
-      "fontes": [
-        {
-          "name": "Exame",
-          "url": "https://exame.com/brasil/governo-lula-perdoa-r-126-bi-em-dividas-de-meis-e-anuncia-pix-de-ate-r-5mil-por-empreendedor/"
-        },
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/?p=3399039"
-        }
-      ],
-      "pedido": "Lula anuncia Pix MEI de até R$ 5 mil e projeto para perdoar R$ 12,6 bilhões em dívidas de MEIs",
-      "avulsa": true,
-      "fundido": [
-        "Governo propõe perdoar R$ 12,6 bilhões em dívidas de MEIs"
-      ]
+     "name": "A Crítica de Campo Grande",
+     "url": "https://acritica.net/politica/fachin-recebe-relatorios-pf-ministros-stf-caso-master/"
     },
     {
-      "id": "flavio-debate-band",
-      "bloco": "Política nacional",
-      "titulo": "Flávio diz que só negou ida ao debate da Band para Lula confirmar presença, e vai",
-      "subtitulo": "Lula confirmou logo depois do \"não vou\"; o debate é no domingo (18), às 20h, na Band com a Jovem Pan",
-      "resumo": "Na terça (13), Flávio Bolsonaro disse que não iria ao debate da Band no domingo (18), e Lula confirmou presença em seguida, em vídeo enviado à emissora. Na quarta (14), Flávio explicou em vídeo nas redes que o anúncio tinha sido de propósito: \"Bastou eu falar que não ia no debate da Band, pra você no minuto seguinte falar que iria ao debate\". \"É claro que eu vou no debate. Eu só queria que você confirmasse\", disse ele, que abriu o vídeo com \"Lula, como você é previsível\" e prometeu \"esfregar a verdade\" na cara do petista. O debate será às 20h, promovido pela Band em parceria com Jovem Pan, TV Cultura, TV Gazeta e Estadão, e a emissora tinha avisado que deixaria o púlpito vazio para quem faltasse. Nenhum dos dois foi aos debates do primeiro turno, e a jogada de Flávio garante o primeiro confronto direto da eleição a uma semana da urna.",
-      "contexto": [
-        "Terça (13): Flávio disse \"Não vou, não está previsto ir nesse debate domingo\" (Brasil de Fato); Lula confirmou presença em vídeo à Band.",
-        "Quarta (14): Flávio disse que só negou a presença para Lula confirmar: \"Eu só queria que você confirmasse\" (Jovem Pan).",
-        "Debate de domingo (18), às 20h: Band em parceria com Jovem Pan, TV Cultura, TV Gazeta e Estadão.",
-        "Outros debates: quinta (15), pool com CNN Brasil, SBT, RedeTV!, Metrópoles e outros; sexta (23), Globo.",
-        "No primeiro turno, nenhum dos dois foi aos debates, e o confronto da Globo foi cancelado horas antes de começar."
-      ],
-      "angulo": [
-        "Flávio usou o anúncio como isca e Lula mordeu em minutos: quem fugiu dos debates do primeiro turno agora não tem como recuar.",
-        "A jogada mostra leitura do adversário: Lula só confirmou quando achou que estaria sozinho no palco, e isso diz muito sobre a disposição dele de enfrentar o contraditório.",
-        "O eleitor ganha o confronto direto que foi negado no primeiro turno, e a cobrança agora é que o debate traga dados e propostas sobre custo de vida e segurança.",
-        "Chamar o adversário de previsível só vale se Flávio entregar no domingo o que prometeu, porque a campanha de Lula vai tentar vender a mudança como hesitação."
-      ],
-      "perguntas": [
-        "Lula teria confirmado presença se soubesse que Flávio iria?",
-        "Quem chega mais pressionado ao debate de domingo depois dessa troca de recados?",
-        "O que Flávio precisa mostrar no palco para que a provocação de \"previsível\" não se volte contra ele?"
-      ],
-      "atencao": "A explicação de que a recusa foi uma isca é do próprio Flávio; a campanha de Lula não comentou até a publicação da Jovem Pan. Confirmar antes do ar a presença dos dois e se Flávio vai também ao debate de quinta (15).",
-      "fontes": [
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/politica/flavio-diz-que-vai-ao-debate-band-jovem-pan-apos-lula-confirmar-presenca/"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-nao-vai-a-debate-da-band-e-lula-confirma-presenca/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/sao-paulo/apos-pt-confirmar-lula-em-debate-da-band-flavio-diz-que-nao-vai-participar"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/14/apos-anunciar-ausencia-flavio-bolsonaro-confirma-que-vai-ao-debate-da-band-contra-lula"
-        },
-        {
-          "name": "Brasil de Fato",
-          "url": "https://www.brasildefato.com.br/2026/10/13/flavio-bolsonaro-muda-de-ideia-desiste-do-primeiro-debate-e-evita-confronto-direto-com-lula-no-domingo-18/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/igor-gadelha/band-mantera-debate-so-com-lula-e-deixara-pulpito-de-flavio-vazio"
-        }
-      ],
-      "pedido": "Flávio diz que não vai ao debate da Band no domingo (18); Lula confirma e a emissora mantém púlpito vazio | Flávio Bolsonaro chama Lula de previsível e avisa que irá ao Debate da Band. Ele usou a estratégia de dizer que não iria para que Lula confirmasse.",
-      "avulsa": true,
-      "fundido": [
-        "Flávio recua e confirma presença no debate da Band no domingo"
-      ]
-    },
-    {
-      "id": "flavio-el-salvador-pouco",
-      "bloco": "Segurança pública",
-      "titulo": "Flávio diz que \"El Salvador é pouco\" e promete meio milhão de vagas em presídios",
-      "subtitulo": "Proposta inclui castração química para estupradores e 8 anos de prisão para roubo de celular",
-      "resumo": "Em evento em São Paulo na terça (13), Flávio Bolsonaro disse que já troca ideias com Guilherme Derrite porque está achando que \"El Salvador é pouco\". Ele prometeu mais de meio milhão de vagas em presídios, endurecimento das penas e castração química para estupradores e abusadores de mulheres e crianças. Defendeu também mudança na lei para que ladrão de celular fique preso ao menos 8 anos. A proposta de 500 mil vagas já constava do plano Brasil sem Medo, de junho, com 5 presídios de segurança máxima, e ele estimou em agosto o custo em R$ 35 bilhões a R$ 40 bilhões em quatro anos. O eleitor precisa saber o que sai do orçamento e o que cabe na Constituição, porque dureza sem execução vira só discurso.",
-      "contexto": [
-        "Fala de 13 de outubro em São Paulo: \"Já tenho trocado umas ideias com o Derrite, porque eu estou achando que El Salvador é pouco\" (Money Times e Metrópoles).",
-        "Plano de junho prevê 500 mil vagas e 5 presídios federais de segurança máxima, complexo \"Treva\" (CNN Brasil).",
-        "Em 30 de agosto, depois de encontro com o ministro da Justiça de El Salvador, estimou o custo das vagas em R$ 35 bilhões a R$ 40 bilhões em quatro anos (SBT News).",
-        "Críticos citam que o estado de exceção salvadorenho vigora desde 2022, com denúncias de entidades de direitos humanos."
-      ],
-      "angulo": [
-        "A população quer menos crime e mais prisão para quem rouba e estupra, e o programa deve apoiar a prioridade à segurança que o governo atual não deu.",
-        "Vagas não bastam: sem gestão e inteligência o presídio vira escritório do crime, e o candidato precisa mostrar como gerir 500 mil novas vagas.",
-        "Mudança de lei depende do Congresso e respeita a Constituição, e o programa deve cobrar que cada promessa venha com artigo e custo."
-      ],
-      "perguntas": [
-        "Qual o limite entre o rigor penal necessário e o que a Constituição permite?",
-        "R$ 40 bilhões em presídios cabem no orçamento sem tirar de outra área?",
-        "Oito anos por roubo de celular resolvem o problema ou só lotam a cadeia?"
-      ],
-      "atencao": "Castração química é proposta de lei, ainda sem aprovação final no Senado; algumas matérias parafraseiam a fala, sem citação literal.",
-      "fontes": [
-        {
-          "name": "Money Times",
-          "url": "https://www.moneytimes.com.br/flavio-bolsonaro-diz-que-el-salvador-e-pouco-aqueles-que-acham-que-sou-radical-na-seguranca-publica-nao-viram-nada-ainda/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/sao-paulo/el-salvador-e-pouco-diz-flavio-sobre-planos-para-seguranca-publica"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-anuncia-plano-de-seguranca-com-presidio-a-bukele-e-castracao-quimica/"
-        },
-        {
-          "name": "SBT News",
-          "url": "https://sbtnews.sbt.com.br/noticia/politica/o-brasil-tem-pouco-preso-avalia-flavio-bolsonaro"
-        }
-      ],
-      "pedido": "Flávio diz que 'El Salvador é pouco' e promete meio milhão de vagas em presídios e castração química para abusadores",
-      "avulsa": true
-    },
-    {
-      "id": "pe-de-meia-universitario-promessa",
-      "bloco": "Educação",
-      "titulo": "Lula promete Pé-de-Meia universitário com bolsa de R$ 700 por mês se for reeleito",
-      "subtitulo": "Campanha fala em R$ 4,6 bilhões por ano para 1 milhão de estudantes, sem critérios definidos",
-      "resumo": "Na terça (13), em vídeo nas redes, Lula prometeu criar o Pé-de-Meia universitário caso seja reeleito, com início em 2027. A proposta paga R$ 700 por mês durante dez meses e mais R$ 2,5 mil depositados ao fim de cada ano, e o presidente diz que o estudante chegaria a R$ 10 mil em quatro anos. O senador Camilo Santana, da campanha, falou em cerca de R$ 4,6 bilhões por ano, metade vinda do Fundo Social do Pré-Sal, para atender 1 milhão de estudantes de federais, estaduais e ProUni. Os critérios de acesso e de renda não foram detalhados, e o anúncio chega a 11 dias da urna, com o dinheiro público como argumento de campanha. Para o contribuinte, a pergunta é quem paga a promessa e se um benefício criado no calor da eleição cabe no orçamento.",
-      "contexto": [
-        "Anúncio feito em 13/10/2026, em vídeo nas redes sociais, condicionado à reeleição e com início previsto para 2027.",
-        "Valores: R$ 700 por mês durante 10 meses e depósito de R$ 2,5 mil ao fim de cada ano de curso; os R$ 10 mil citados por Lula correspondem a 4 depósitos anuais de R$ 2,5 mil.",
-        "Segundo Camilo Santana, o custo é de cerca de R$ 4,6 bilhões por ano, metade do Fundo Social do Pré-Sal, para 1 milhão de estudantes no início.",
-        "O Pé-de-Meia do ensino médio, criado em 2024, paga R$ 200 por mês mais R$ 1.000 ao fim do ano letivo, com exigência de frequência e de participação nas avaliações.",
-        "Os veículos que cobriram o anúncio dizem que não há detalhes sobre critérios de renda nem sobre o orçamento necessário."
-      ],
-      "angulo": [
-        "Promessa de gasto bilionário feita a 11 dias da eleição, sem regra de acesso e sem fonte de recursos fechada, é propaganda, e o eleitor tem o direito de cobrar a conta antes do voto.",
-        "Pela soma divulgada, cada estudante receberia R$ 7 mil em mensalidades mais R$ 2,5 mil por ano, cerca de R$ 9,5 mil anuais; com 1 milhão de beneficiários, isso passa de R$ 9 bilhões, o dobro dos R$ 4,6 bilhões informados pela campanha. A bancada deve pedir que a conta feche.",
-        "Usar o Fundo Social do Pré-Sal para um benefício recorrente compromete uma poupança que deveria servir a investimentos de longo prazo, e a política que não tem prazo para acabar vira gasto permanente."
-      ],
-      "perguntas": [
-        "Um benefício bilionário prometido na reta final da campanha é política de Estado ou compra de voto jovem?",
-        "Se a conta da campanha dobra quando se multiplica o valor pelo número de estudantes, quem explica a diferença ao contribuinte?",
-        "A bolsa deveria vir com exigência de desempenho e de renda, ou valer para todo universitário de instituição pública?"
-      ],
-      "atencao": "Os números de custo e de público vêm do anúncio de campanha e de Camilo Santana, não de documento oficial; veículos divergem sobre a fonte (fundo social do petróleo ou metade do Fundo Social do Pré-Sal). A conta de R$ 9 bilhões é cálculo do programa a partir dos valores divulgados, não dado oficial.",
-      "fontes": [
-        {
-          "name": "A Crítica de Campo Grande",
-          "url": "https://acritica.net/eleicoes-2026/lula-promete-pe-de-meia-para-universitarios-com-r-700-por-mes-e-r-10-mil-ao-fim-do-curso/"
-        },
-        {
-          "name": "Meio News",
-          "url": "https://www.meionews.com/politica/lula-promete-criar-pe-de-meia-para-universitarios-caso-seja-reeleito-578171"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/brasil/pe-de-meia-lula-promete-ampliar-programa-para-universitarios-com-bolsas-de-r-700/"
-        }
-      ],
-      "pedido": "Lula promete criar o Pé-de-Meia universitário, com bolsa de R$ 700 por mês, se for reeleito",
-      "avulsa": true
-    },
-    {
-      "id": "papa-leao-noite-tranquila",
-      "bloco": "Internacional",
-      "titulo": "Papa Leão XIV passa noite tranquila após operar adenocarcinoma de pulmão",
-      "subtitulo": "Vaticano diz que a cirurgia de 90 minutos não teve complicações; internação deve durar cerca de uma semana e audiências foram canceladas até 20 de outubro",
-      "resumo": "A Sala de Imprensa da Santa Sé informou na manhã desta quarta (14) que o papa Leão XIV, de 71 anos, teve uma noite tranquila no Hospital Gemelli, em Roma, e prometeu mais informações ao longo do dia. Ele foi operado na terça (13), com retirada do lobo inferior do pulmão direito por videocirurgia, em cerca de 90 minutos e sem complicações, segundo o comunicado assinado pelos cirurgiões Luigi Carbone e Stefano Margaritora. A histologia feita durante a operação confirmou o adenocarcinoma de pulmão que os exames já indicavam, e o próprio papa havia dito no domingo (11) que o nódulo foi \"identificado em uma fase muito inicial e bem localizada\". A internação deve durar cerca de uma semana, com mais exames e observação, e o Vaticano cancelou os compromissos públicos até 20 de outubro. Para milhões de católicos brasileiros, o que importa agora é a recuperação e a viagem de 6 a 17 de novembro à Argentina, ao Uruguai e ao Peru, que ainda não teve mudança anunciada.",
-      "contexto": [
-        "Boletim da manhã de quarta (14), pelo Telegram da Sala de Imprensa: \"O Papa transcorreu uma noite tranquila. Mais informações serão divulgadas ao longo do dia\" (Vatican News).",
-        "Cirurgia na terça (13), no Gemelli: retirada do lobo inferior do pulmão direito por técnica videoassistida, cerca de 90 minutos, sem complicações.",
-        "Diagnóstico: adenocarcinoma pulmonar, confirmado pela histologia feita durante a operação.",
-        "Anúncio do nódulo no Angelus de domingo (11): \"identificado em uma fase muito inicial e bem localizado\".",
-        "Internação prevista de cerca de uma semana, com novos exames e observação; compromissos públicos cancelados até 20 de outubro (Metrópoles).",
-        "Viagem de 6 a 17 de novembro à Argentina, ao Uruguai e ao Peru era mantida antes da cirurgia."
-      ],
-      "angulo": [
-        "A saúde do papa é assunto de respeito: a bancada deve acompanhar com sobriedade e sem especulação sobre sucessão.",
-        "A transparência do Vaticano, que anunciou o nódulo, a cirurgia e o diagnóstico em dois dias e já deu boletim na manhã seguinte, é exemplo de como autoridade deve tratar a própria saúde.",
-        "Para o público de fé, o momento pede oração e informação confiável, e não boato."
-      ],
-      "perguntas": [
-        "O que a notícia significa para a Igreja e para os católicos brasileiros?",
-        "A viagem de novembro deve ser mantida?",
-        "Autoridades públicas devem ser tão transparentes quanto o Vaticano sobre a saúde?"
-      ],
-      "atencao": "Estadiamento e tratamento complementar ainda não foram informados; não especular sobre prognóstico.",
-      "fontes": [
-        {
-          "name": "Vatican News",
-          "url": "https://vaticannews.va/pt/papa/news/2026-10/noite-tranquila-para-o-papa-no-gemelli-comunicado-manha-14.html"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/mundo/papa-leao-teve-noite-tranquila-apos-cirurgia-informa-vaticano"
-        },
-        {
-          "name": "Brasil de Fato",
-          "url": "https://www.brasildefato.com.br/2026/10/13/papa-leao-xiv-e-diagnosticado-com-cancer-de-pulmao-e-retira-parte-do-orgao/"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/mundo/papa-leao-xiv-cirurgia-nodulo-pulmao/"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "https://g1.globo.com/google/amp/mundo/noticia/2026/10/14/papa-leao-xiv-passou-noite-tranquila-apos-cirurgia-cancer-pulmao.ghtml",
-      "fundido": [
-        "Papa Leão XIV passa por cirurgia e Vaticano confirma adenocarcinoma de pulmão"
-      ]
-    },
-    {
-      "id": "pesquisas-empate-tecnico",
-      "bloco": "Política nacional",
-      "titulo": "Nexus/BTG: Flávio tem 52% e Lula 48% na disputa pela Presidência",
-      "subtitulo": "Margem de 2 pontos mantém a disputa em empate técnico a 11 dias da votação; Quaest nacional sai hoje e Datafolha amanhã",
-      "desdobramento": "Nova pesquisa Nexus/BTG, divulgada na terça (13), mostra Flávio com 52% e Lula com 48% dos votos válidos, e a Quaest nacional do segundo turno sai hoje.",
-      "resumo": "A pesquisa Nexus/BTG divulgada na terça (13) dá Flávio Bolsonaro com 52% dos votos válidos e Lula com 48% no segundo turno. Foram ouvidos 2.002 eleitores por telefone de 10 a 12 de outubro, com margem de erro de 2 pontos, e a CNN Brasil fala em empate técnico. No primeiro turno Flávio teve 47,03% (56,1 milhões de votos) e Lula 45,16% (53,8 milhões), a menor diferença desde a redemocratização. A última Quaest, de 3 de outubro, já mostrava Flávio com 44% e Lula com 42% nos votos totais. Para o cidadão, a escolha é entre mudar o rumo da economia e da segurança ou renovar a aposta no governo atual, e quem decide é o eleitor que ainda não se mexeu.",
-      "contexto": [
-        "Nexus/BTG: Flávio 52% e Lula 48% nos votos válidos, 2.002 entrevistas por telefone de 10 a 12 de outubro, margem de 2 pontos, registro BR-07997/2026 no TSE.",
-        "Primeiro turno com 100% das urnas apuradas: Flávio 47,03% e Lula 45,16%, diferença de menos de 2 pontos.",
-        "Quaest de 2 e 3 de outubro (Globo): Flávio 44%, Lula 42%, brancos e nulos 13%, indecisos 1%.",
-        "Segundo turno marcado para 25 de outubro."
-      ],
-      "angulo": [
-        "Quem quer mudança já tem candidato, e agora o jogo é a abstenção: vence quem leva o eleitor desanimado até a urna.",
-        "Vantagem dentro da margem de erro não autoriza ninguém a descansar, e a bancada deve dizer isso com todas as letras.",
-        "O governo reage com pacotes de última hora, como o dos MEIs, porque o retrato não lhe favorece."
-      ],
-      "perguntas": [
-        "O que ainda pode mexer nesses 2 pontos nos 11 dias que restam?",
-        "Quem é o eleitor que ainda não decidiu e o que ele quer ouvir?",
-        "Pesquisa influencia o comportamento de quem vota ou só mede o que já existe?"
-      ],
-      "atencao": "Pesquisa é retrato do momento, com margem de erro; não é previsão de resultado.",
-      "fontes": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/"
-        },
-        {
-          "name": "CNN Brasil (Quaest)",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-2-turno/"
-        }
-      ]
-    },
-    {
-      "id": "fmi-corta-pib-brasil",
-      "bloco": "Economia",
-      "titulo": "FMI reduz para 2,2% a previsão de crescimento do Brasil em 2026",
-      "subtitulo": "Em 2027 a projeção cai de 2,2% para 1,9%, e o Fundo alerta para dívida alta e juros caros",
-      "resumo": "O FMI cortou a projeção de crescimento do PIB brasileiro em 2026 de 2,4% para 2,2%, no relatório divulgado na terça (13). Para 2027 a previsão caiu de 2,2% para 1,9%. A análise de O Tempo cita juros altos para trazer a inflação à meta, retirada de estímulo fiscal e incerteza global. O Fundo diz que a combinação de custo de financiamento e dívida elevados cria vulnerabilidade e pede \"medidas firmes e deliberadas\". O número ainda fica acima dos 2% que a Fazenda usa, e o que está em jogo é o emprego e a renda de quem depende de um país que cresce pouco com a conta pública pesada.",
-      "contexto": [
-        "FMI: PIB de 2026 de 2,4% para 2,2%; 2027 de 2,2% para 1,9%.",
-        "Dívida bruta, pela metodologia do FMI, de 95,4% do PIB em julho para 94,5% em agosto.",
-        "Projeção da Fazenda para 2026: 2%. Banco Mundial elevou 2026 para 2,1% e cortou 2027 para 1,7%.",
-        "FMI elevou o crescimento mundial de 2026 para 3,1% e cortou a China para 4,5%."
-      ],
-      "angulo": [
-        "Crescer pouco com dívida de 94,5% do PIB é a prova de que o problema é gasto público, e não falta de estímulo.",
-        "Juros altos são consequência de contas desorganizadas: quem quer baixar a Selic precisa cortar despesa.",
-        "O governo vende pacotes de benefício em plena campanha enquanto o Fundo pede medidas firmes na conta."
-      ],
-      "perguntas": [
-        "O que o governo precisa cortar para a dívida deixar de ser vulnerabilidade?",
-        "O eleitor sente o PIB de 2,2% no bolso ou só nos juros?",
-        "Pacotes anunciados em campanha ajudam ou pioram a nota fiscal do país?"
-      ],
-      "atencao": "Projeção não é resultado: o FMI revisa os números a cada trimestre.",
-      "fontes": [
-        {
-          "name": "O Tempo",
-          "url": "https://www.otempo.com.br/economia/2026/10/13/fmi-reduz-projecao-de-crescimento-do-pib-no-brasil-e-preve-expansao-de-2-2"
-        }
-      ]
-    },
-    {
-      "id": "bets-devolucao-mp",
-      "bloco": "Economia",
-      "titulo": "Prazo para bancos devolverem R$ 1,3 bilhão a apostadores de bets termina hoje",
-      "subtitulo": "A Caixa assume os casos pendentes a partir de hoje; a MP que proíbe as bets ainda precisa passar pelo Congresso",
-      "resumo": "Os bancos devolvem desde sexta (9) cerca de R$ 1,325 bilhão a apostadores de bets, e o prazo termina nesta quarta (14). Segundo a Agência Brasil, até 26,5 milhões de apostadores podem ser beneficiados, e a Caixa assume os casos com obstáculo a partir de hoje. A MP 1.394/2026, assinada por Lula em 25 de setembro, proíbe a exploração, a oferta e a publicidade de apostas, e as plataformas saíram do ar em 6 de outubro. O ministro da Fazenda, Dario Durigan, disse que cerca de 40 CPFs estão sob análise por saldos altos, inclusive por suspeita de lavagem. O debate de fundo é se o Estado deve proibir por decreto de urgência ou regular um setor que movimentava R$ 600 milhões por dia.",
-      "contexto": [
-        "Devolução de R$ 1,325 bilhão a até 26,5 milhões de apostadores entre 9 e 14 de outubro (Agência Brasil).",
-        "MP 1.394/2026 assinada em 25 de setembro; precisa ser aprovada pelo Congresso para continuar valendo.",
-        "Antes da MP, a movimentação diária das casas era de cerca de R$ 600 milhões; uma semana depois caiu a zero.",
-        "Cerca de 40 CPFs em análise por saldos altos, inclusive por possível lavagem de dinheiro, segundo Durigan.",
-        "Bancos nunca cobram taxa para devolver o saldo; pedido de pagamento antecipado é golpe."
-      ],
-      "angulo": [
-        "Proibir tudo por medida provisória, em véspera de eleição, é atalho: o certo seria regular, fiscalizar e punir a fraude, como faz um país sério.",
-        "A devolução prova que o dinheiro do apostador passou por plataformas sem controle do Estado por anos, e a responsabilidade é de quem legalizou sem fiscalizar.",
-        "Congresso deve debater a MP com calma, sem empurrá-la por pressa eleitoral."
-      ],
-      "perguntas": [
-        "Proibir resolve o vício e a fraude ou empurra o apostador para o mercado ilegal?",
-        "Quem deve responder pelos anos de bets sem fiscalização efetiva?",
-        "O Congresso deve aprovar a MP como está ou regular o setor?"
-      ],
-      "atencao": "A MP ainda não foi votada pelo Congresso e há questionamento no STF, segundo a cobertura; confirmar o status antes de ir ao ar.",
-      "fontes": [
-        {
-          "name": "Forbes Brasil (Agência Brasil)",
-          "url": "https://forbes.com.br/forbes-money/2026/10/bancos-comecam-a-devolver-r-13-bilhao-a-apostadores-de-bets/"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-brasil/termina-nesta-2a-prazo-para-sacar-dinheiro-das-bets/"
-        }
-      ]
-    },
-    {
-      "id": "argentina-inflacao-setembro",
-      "bloco": "Internacional",
-      "titulo": "Inflação da Argentina fica em 1,9% em setembro, abaixo de 2% pelo segundo mês",
-      "subtitulo": "Acumulado em 12 meses cai para 33,4%, e analistas esperam cerca de 30% até o fim do ano",
-      "resumo": "A inflação da Argentina foi de 1,9% em setembro, abaixo de 2% pelo segundo mês seguido, em linha com a mediana dos analistas ouvidos pela Bloomberg. O acumulado em 12 meses recuou para 33,4%, contra 35% antes. Quando Javier Milei assumiu, há três anos, a alta anual passava de três dígitos. A projeção é de cerca de 30% em 12 meses até o fim de 2026 e de 1,6% a 1,8% ao mês até março de 2027. A esquerda brasileira usa o caso argentino como argumento contra Flávio, e o dado mostra o outro lado: ajuste fiscal sério derruba a inflação que mais pesa no bolso do pobre.",
-      "contexto": [
-        "Inflação mensal de 1,9% em setembro; agosto foi de 1,7%, o menor número de 2026.",
-        "Acumulado em 12 meses: 33,4%, contra 35% no dado anterior.",
-        "Projeção: perto de 30% em 12 meses até dezembro e 1,6% a 1,8% ao mês até março de 2027.",
-        "Milei assumiu com inflação anual de três dígitos."
-      ],
-      "angulo": [
-        "Inflação de 1,9% ao mês ainda é alta, mas o caminho de queda mostra que cortar gasto funciona onde a gastança falhou.",
-        "Quem usa a Argentina para assustar o eleitor brasileiro omite que o país saiu do descontrole de preços.",
-        "Controle de gastos e inflação baixa são a melhor política para o pobre: a conta chega primeiro ao supermercado."
-      ],
-      "perguntas": [
-        "O que o Brasil pode aprender do caso argentino sem copiar o remédio?",
-        "Inflação de 33% ao ano é vitória ou ainda é problema?",
-        "Por que o dado argentino entrou na campanha brasileira?"
-      ],
-      "atencao": "Aposentadorias e pobreza na Argentina são disputadas por fontes de campo oposto; neste item só valem os números de inflação, de matéria aberta.",
-      "fontes": [
-        {
-          "name": "Tribuna do Sertão",
-          "url": "https://www.tribunadosertao.com.br/financas/2026/10/13/996370-argentina-registra-segundo-mes-consecutivo-com-inflacao-abaixo-de-2"
-        }
-      ],
-      "metafora": "Inflação de 33% ao ano é como febre que cedeu: o paciente melhorou, mas ainda não está curado."
-    },
-    {
-      "id": "ruas-transicao-rombo",
-      "bloco": "Rio de Janeiro",
-      "titulo": "Douglas Ruas inicia a transição e rejeita orçamento do Rio com déficit de R$ 14 bilhões",
-      "subtitulo": "Governador eleito defende teto de gastos para os três Poderes e promete chegar a 60 mil policiais militares",
-      "desdobramento": "Ruas inicia a transição com Ricardo Couto, e a equipe de transição deve funcionar na sede da Firjan.",
-      "resumo": "Douglas Ruas, governador eleito do Rio, reuniu-se com o desembargador Ricardo Couto, da gestão interina, para iniciar a transição. A proposta de orçamento de 2027 prevê déficit de quase R$ 14 bilhões: receitas de R$ 124,39 bilhões e despesas de R$ 138,37 bilhões. Ruas diz que não concorda em aprovar a peça como está e quer cortar despesas dos três Poderes, lembrando que a arrecadação subiu 21% em cinco anos e as despesas cresceram mais. Ele promete elevar a PM de pouco mais de 44 mil para 60 mil policiais, a um custo estimado de R$ 1,6 bilhão. A posse está marcada para 6 de janeiro de 2027, e Firjan e Fecomércio ofereceram espaço para a equipe de transição.",
-      "contexto": [
-        "Orçamento de 2027: receitas de R$ 124,39 bilhões, despesas de R$ 138,37 bilhões, déficit de R$ 13,98 bilhões.",
-        "Segundo Ruas, a arrecadação subiu 21% em cinco anos, e as despesas dos Poderes subiram mais.",
-        "Meta de 60 mil PMs (hoje pouco mais de 44 mil), custo de R$ 1,6 bilhão; Hospital do Câncer e do Coração de Nova Friburgo em 100 dias.",
-        "Firjan e Fecomércio ofereceram espaço à transição; Maria Gabriela Bessa é a mais cotada para coordená-la.",
-        "Posse em 6 de janeiro de 2027."
-      ],
-      "angulo": [
-        "Governo que herda rombo tem de começar cortando a própria carne, e o teto de gastos para os três Poderes é o caminho certo.",
-        "Mais 15 mil policiais só fazem sentido com orçamento equilibrado para pagar salário em dia.",
-        "A bancada deve cobrar números: onde sai o corte, quanto e em quanto tempo."
-      ],
-      "perguntas": [
-        "Dá para cortar despesa dos três Poderes e ainda contratar 15 mil policiais?",
-        "O teto de gastos proposto por Ruas passa pela Alerj e pelo Judiciário?",
-        "Quais serviços não podem esperar os 100 dias?"
-      ],
-      "fontes": [
-        {
-          "name": "Diário do Rio",
-          "url": "https://diariodorio.com/politica/2026/10/11/douglas-ruas-anuncia-revisao-de-gastos-reforco-de-15-mil-pms-e-hospital-em-100-dias.html"
-        },
-        {
-          "name": "Agenda do Poder",
-          "url": "https://agendadopoder.com.br/ruas-e-couto-abrem-transicao-com-rombo-bilionario-no-centro-da-negociacao/"
-        }
-      ]
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/ministros-do-stf-articulam-saida-de-moraes-da-crise-e-vorcaro-implica-andrei/"
     }
-  ],
-  "atualizado": "2026-10-14T10:27:00-03:00"
+   ],
+   "pedido": "Fachin manda a PF enviar ao STF todas as menções a ministros no caso Master, em caráter estritamente descritivo",
+   "avulsa": true,
+   "metafora": "Um árbitro que apita o jogo inteiro não pode escolher quando a câmera vai revisar a jogada dele: ou o VAR vale para todos, ou ninguém acredita no apito.",
+   "fundido": [
+    "PF leva a Fachin relatório do caso Master que cita ao menos 6 ministros do STF"
+   ]
+  },
+  {
+   "id": "pacote-mei-pix-perdao",
+   "bloco": "Economia",
+   "titulo": "Governo anuncia PixMEI de até R$ 5 mil e propõe perdoar R$ 12,6 bilhões em dívidas de MEIs",
+   "subtitulo": "Pacote sobe o teto de faturamento para R$ 140 mil até 2028 e não diz de onde sai o dinheiro",
+   "resumo": "O governo vai mandar ao Congresso, com pedido de urgência, um projeto que perdoa cerca de R$ 12,6 bilhões em dívidas de MEIs e alcança cerca de 3,6 milhões de microempreendedores. O mesmo pacote cria o PixMEI, pagamento de até R$ 5 mil por MEI para investimento produtivo que, segundo o ministro Paulo Pereira, \"não é crédito\" e não precisa ser devolvido. A meta do PixMEI é chegar a cerca de 1 milhão de MEIs em quatro anos, com apoio do Sebrae. O teto de faturamento sobe de R$ 81 mil para R$ 110 mil em 2027 e R$ 140 mil em 2028, a um custo estimado de cerca de R$ 8 bilhões em três anos, três meses depois do Desenrola MEI. Ajudar o pequeno empreendedor é justo, mas o anúncio chega a 12 dias da eleição sem dizer quanto custa o PixMEI, de onde sai o dinheiro e quem recebe.",
+   "contexto": [
+    "PixMEI: até R$ 5 mil por MEI, \"sem necessidade de reembolso\" e para investimento produtivo (Exame).",
+    "Perdão estimado em R$ 12,6 bilhões, para cerca de 3,6 milhões de MEIs, segundo números do Ministério do Empreendedorismo (Exame).",
+    "Meta: cerca de 1 milhão de MEIs em até 4 anos, com apoio do Sebrae.",
+    "PixMEI: até R$ 5 mil por MEI, \"Não é crédito\", segundo o ministro Paulo Pereira.",
+    "A medida vai em projeto de lei complementar com o perdão de dívidas, e o governo quer a Câmara votando também o novo teto de faturamento.",
+    "Teto de faturamento de R$ 81 mil para R$ 110 mil em 2027 e R$ 140 mil em 2028; custo estimado de R$ 8 bilhões em três anos."
+   ],
+   "angulo": [
+    "Dinheiro a fundo perdido anunciado a 12 dias da urna precisa de custo, fonte e critério, e hoje nenhum dos três foi apresentado.",
+    "Perdoar dívida em massa a duas semanas da eleição é política de voto, e a bancada deve dizer isso sem rodeio.",
+    "O pequeno empreendedor precisa de menos burocracia e menos imposto, não de um benefício que depende de decisão do governo.",
+    "Quem pagou o imposto em dia fica com a sensação de ter sido o trouxa: o Estado premia o inadimplente e castiga o cumpridor."
+   ],
+   "perguntas": [
+    "Quem será escolhido entre os cerca de 3,6 milhões de MEIs para receber o PixMEI?",
+    "Qual o custo fiscal total do pacote e de onde sai o dinheiro?",
+    "Qual é a diferença prática entre esse pagamento e o crédito, e para que serve dizer que não é crédito?"
+   ],
+   "atencao": "O custo de R$ 5 bilhões é conta aproximada do programa (1 milhão x R$ 5 mil), não número oficial.",
+   "fontes": [
+    {
+     "name": "Exame",
+     "url": "https://exame.com/brasil/governo-lula-perdoa-r-126-bi-em-dividas-de-meis-e-anuncia-pix-de-ate-r-5mil-por-empreendedor/"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://www.infomoney.com.br/?p=3399039"
+    }
+   ],
+   "pedido": "Lula anuncia Pix MEI de até R$ 5 mil e projeto para perdoar R$ 12,6 bilhões em dívidas de MEIs",
+   "avulsa": true,
+   "fundido": [
+    "Governo propõe perdoar R$ 12,6 bilhões em dívidas de MEIs"
+   ]
+  },
+  {
+   "id": "flavio-debate-band",
+   "bloco": "Política nacional",
+   "titulo": "Flávio diz que só negou ida ao debate da Band para Lula confirmar presença, e vai",
+   "subtitulo": "Lula confirmou logo depois do \"não vou\"; o debate é no domingo (18), às 20h, na Band com a Jovem Pan",
+   "resumo": "Na terça (13), Flávio Bolsonaro disse que não iria ao debate da Band no domingo (18), e Lula confirmou presença em seguida, em vídeo enviado à emissora. Na quarta (14), Flávio explicou em vídeo nas redes que o anúncio tinha sido de propósito: \"Bastou eu falar que não ia no debate da Band, pra você no minuto seguinte falar que iria ao debate\". \"É claro que eu vou no debate. Eu só queria que você confirmasse\", disse ele, que abriu o vídeo com \"Lula, como você é previsível\" e prometeu \"esfregar a verdade\" na cara do petista. O debate será às 20h, promovido pela Band em parceria com Jovem Pan, TV Cultura, TV Gazeta e Estadão, e a emissora tinha avisado que deixaria o púlpito vazio para quem faltasse. Nenhum dos dois foi aos debates do primeiro turno, e a jogada de Flávio garante o primeiro confronto direto da eleição a uma semana da urna.",
+   "contexto": [
+    "Terça (13): Flávio disse \"Não vou, não está previsto ir nesse debate domingo\" (Brasil de Fato); Lula confirmou presença em vídeo à Band.",
+    "Quarta (14): Flávio disse que só negou a presença para Lula confirmar: \"Eu só queria que você confirmasse\" (Jovem Pan).",
+    "Debate de domingo (18), às 20h: Band em parceria com Jovem Pan, TV Cultura, TV Gazeta e Estadão.",
+    "Outros debates: quinta (15), pool com CNN Brasil, SBT, RedeTV!, Metrópoles e outros; sexta (23), Globo.",
+    "No primeiro turno, nenhum dos dois foi aos debates, e o confronto da Globo foi cancelado horas antes de começar."
+   ],
+   "angulo": [
+    "Flávio usou o anúncio como isca e Lula mordeu em minutos: quem fugiu dos debates do primeiro turno agora não tem como recuar.",
+    "A jogada mostra leitura do adversário: Lula só confirmou quando achou que estaria sozinho no palco, e isso diz muito sobre a disposição dele de enfrentar o contraditório.",
+    "O eleitor ganha o confronto direto que foi negado no primeiro turno, e a cobrança agora é que o debate traga dados e propostas sobre custo de vida e segurança.",
+    "Chamar o adversário de previsível só vale se Flávio entregar no domingo o que prometeu, porque a campanha de Lula vai tentar vender a mudança como hesitação."
+   ],
+   "perguntas": [
+    "Lula teria confirmado presença se soubesse que Flávio iria?",
+    "Quem chega mais pressionado ao debate de domingo depois dessa troca de recados?",
+    "O que Flávio precisa mostrar no palco para que a provocação de \"previsível\" não se volte contra ele?"
+   ],
+   "atencao": "A explicação de que a recusa foi uma isca é do próprio Flávio; a campanha de Lula não comentou até a publicação da Jovem Pan. Confirmar antes do ar a presença dos dois e se Flávio vai também ao debate de quinta (15).",
+   "fontes": [
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/flavio-diz-que-vai-ao-debate-band-jovem-pan-apos-lula-confirmar-presenca/"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-nao-vai-a-debate-da-band-e-lula-confirma-presenca/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/sao-paulo/apos-pt-confirmar-lula-em-debate-da-band-flavio-diz-que-nao-vai-participar"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/14/apos-anunciar-ausencia-flavio-bolsonaro-confirma-que-vai-ao-debate-da-band-contra-lula"
+    },
+    {
+     "name": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2026/10/13/flavio-bolsonaro-muda-de-ideia-desiste-do-primeiro-debate-e-evita-confronto-direto-com-lula-no-domingo-18/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/igor-gadelha/band-mantera-debate-so-com-lula-e-deixara-pulpito-de-flavio-vazio"
+    }
+   ],
+   "pedido": "Flávio diz que não vai ao debate da Band no domingo (18); Lula confirma e a emissora mantém púlpito vazio | Flávio Bolsonaro chama Lula de previsível e avisa que irá ao Debate da Band. Ele usou a estratégia de dizer que não iria para que Lula confirmasse.",
+   "avulsa": true,
+   "fundido": [
+    "Flávio recua e confirma presença no debate da Band no domingo"
+   ]
+  },
+  {
+   "id": "flavio-el-salvador-pouco",
+   "bloco": "Segurança pública",
+   "titulo": "Flávio diz que \"El Salvador é pouco\" e promete meio milhão de vagas em presídios",
+   "subtitulo": "Proposta inclui castração química para estupradores e 8 anos de prisão para roubo de celular",
+   "resumo": "Em evento em São Paulo na terça (13), Flávio Bolsonaro disse que já troca ideias com Guilherme Derrite porque está achando que \"El Salvador é pouco\". Ele prometeu mais de meio milhão de vagas em presídios, endurecimento das penas e castração química para estupradores e abusadores de mulheres e crianças. Defendeu também mudança na lei para que ladrão de celular fique preso ao menos 8 anos. A proposta de 500 mil vagas já constava do plano Brasil sem Medo, de junho, com 5 presídios de segurança máxima, e ele estimou em agosto o custo em R$ 35 bilhões a R$ 40 bilhões em quatro anos. O eleitor precisa saber o que sai do orçamento e o que cabe na Constituição, porque dureza sem execução vira só discurso.",
+   "contexto": [
+    "Fala de 13 de outubro em São Paulo: \"Já tenho trocado umas ideias com o Derrite, porque eu estou achando que El Salvador é pouco\" (Money Times e Metrópoles).",
+    "Plano de junho prevê 500 mil vagas e 5 presídios federais de segurança máxima, complexo \"Treva\" (CNN Brasil).",
+    "Em 30 de agosto, depois de encontro com o ministro da Justiça de El Salvador, estimou o custo das vagas em R$ 35 bilhões a R$ 40 bilhões em quatro anos (SBT News).",
+    "Críticos citam que o estado de exceção salvadorenho vigora desde 2022, com denúncias de entidades de direitos humanos."
+   ],
+   "angulo": [
+    "A população quer menos crime e mais prisão para quem rouba e estupra, e o programa deve apoiar a prioridade à segurança que o governo atual não deu.",
+    "Vagas não bastam: sem gestão e inteligência o presídio vira escritório do crime, e o candidato precisa mostrar como gerir 500 mil novas vagas.",
+    "Mudança de lei depende do Congresso e respeita a Constituição, e o programa deve cobrar que cada promessa venha com artigo e custo."
+   ],
+   "perguntas": [
+    "Qual o limite entre o rigor penal necessário e o que a Constituição permite?",
+    "R$ 40 bilhões em presídios cabem no orçamento sem tirar de outra área?",
+    "Oito anos por roubo de celular resolvem o problema ou só lotam a cadeia?"
+   ],
+   "atencao": "Castração química é proposta de lei, ainda sem aprovação final no Senado; algumas matérias parafraseiam a fala, sem citação literal.",
+   "fontes": [
+    {
+     "name": "Money Times",
+     "url": "https://www.moneytimes.com.br/flavio-bolsonaro-diz-que-el-salvador-e-pouco-aqueles-que-acham-que-sou-radical-na-seguranca-publica-nao-viram-nada-ainda/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/sao-paulo/el-salvador-e-pouco-diz-flavio-sobre-planos-para-seguranca-publica"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-anuncia-plano-de-seguranca-com-presidio-a-bukele-e-castracao-quimica/"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://sbtnews.sbt.com.br/noticia/politica/o-brasil-tem-pouco-preso-avalia-flavio-bolsonaro"
+    }
+   ],
+   "pedido": "Flávio diz que 'El Salvador é pouco' e promete meio milhão de vagas em presídios e castração química para abusadores",
+   "avulsa": true
+  },
+  {
+   "id": "pe-de-meia-universitario-promessa",
+   "bloco": "Educação",
+   "titulo": "Lula promete Pé-de-Meia universitário com bolsa de R$ 700 por mês se for reeleito",
+   "subtitulo": "Campanha fala em R$ 4,6 bilhões por ano para 1 milhão de estudantes, sem critérios definidos",
+   "resumo": "Na terça (13), em vídeo nas redes, Lula prometeu criar o Pé-de-Meia universitário caso seja reeleito, com início em 2027. A proposta paga R$ 700 por mês durante dez meses e mais R$ 2,5 mil depositados ao fim de cada ano, e o presidente diz que o estudante chegaria a R$ 10 mil em quatro anos. O senador Camilo Santana, da campanha, falou em cerca de R$ 4,6 bilhões por ano, metade vinda do Fundo Social do Pré-Sal, para atender 1 milhão de estudantes de federais, estaduais e ProUni. Os critérios de acesso e de renda não foram detalhados, e o anúncio chega a 11 dias da urna, com o dinheiro público como argumento de campanha. Para o contribuinte, a pergunta é quem paga a promessa e se um benefício criado no calor da eleição cabe no orçamento.",
+   "contexto": [
+    "Anúncio feito em 13/10/2026, em vídeo nas redes sociais, condicionado à reeleição e com início previsto para 2027.",
+    "Valores: R$ 700 por mês durante 10 meses e depósito de R$ 2,5 mil ao fim de cada ano de curso; os R$ 10 mil citados por Lula correspondem a 4 depósitos anuais de R$ 2,5 mil.",
+    "Segundo Camilo Santana, o custo é de cerca de R$ 4,6 bilhões por ano, metade do Fundo Social do Pré-Sal, para 1 milhão de estudantes no início.",
+    "O Pé-de-Meia do ensino médio, criado em 2024, paga R$ 200 por mês mais R$ 1.000 ao fim do ano letivo, com exigência de frequência e de participação nas avaliações.",
+    "Os veículos que cobriram o anúncio dizem que não há detalhes sobre critérios de renda nem sobre o orçamento necessário."
+   ],
+   "angulo": [
+    "Promessa de gasto bilionário feita a 11 dias da eleição, sem regra de acesso e sem fonte de recursos fechada, é propaganda, e o eleitor tem o direito de cobrar a conta antes do voto.",
+    "Pela soma divulgada, cada estudante receberia R$ 7 mil em mensalidades mais R$ 2,5 mil por ano, cerca de R$ 9,5 mil anuais; com 1 milhão de beneficiários, isso passa de R$ 9 bilhões, o dobro dos R$ 4,6 bilhões informados pela campanha. A bancada deve pedir que a conta feche.",
+    "Usar o Fundo Social do Pré-Sal para um benefício recorrente compromete uma poupança que deveria servir a investimentos de longo prazo, e a política que não tem prazo para acabar vira gasto permanente."
+   ],
+   "perguntas": [
+    "Um benefício bilionário prometido na reta final da campanha é política de Estado ou compra de voto jovem?",
+    "Se a conta da campanha dobra quando se multiplica o valor pelo número de estudantes, quem explica a diferença ao contribuinte?",
+    "A bolsa deveria vir com exigência de desempenho e de renda, ou valer para todo universitário de instituição pública?"
+   ],
+   "atencao": "Os números de custo e de público vêm do anúncio de campanha e de Camilo Santana, não de documento oficial; veículos divergem sobre a fonte (fundo social do petróleo ou metade do Fundo Social do Pré-Sal). A conta de R$ 9 bilhões é cálculo do programa a partir dos valores divulgados, não dado oficial.",
+   "fontes": [
+    {
+     "name": "A Crítica de Campo Grande",
+     "url": "https://acritica.net/eleicoes-2026/lula-promete-pe-de-meia-para-universitarios-com-r-700-por-mes-e-r-10-mil-ao-fim-do-curso/"
+    },
+    {
+     "name": "Meio News",
+     "url": "https://www.meionews.com/politica/lula-promete-criar-pe-de-meia-para-universitarios-caso-seja-reeleito-578171"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/pe-de-meia-lula-promete-ampliar-programa-para-universitarios-com-bolsas-de-r-700/"
+    }
+   ],
+   "pedido": "Lula promete criar o Pé-de-Meia universitário, com bolsa de R$ 700 por mês, se for reeleito",
+   "avulsa": true
+  },
+  {
+   "id": "papa-leao-noite-tranquila",
+   "bloco": "Internacional",
+   "titulo": "Papa Leão XIV passa noite tranquila após operar adenocarcinoma de pulmão",
+   "subtitulo": "Vaticano diz que a cirurgia de 90 minutos não teve complicações; internação deve durar cerca de uma semana e audiências foram canceladas até 20 de outubro",
+   "resumo": "A Sala de Imprensa da Santa Sé informou na manhã desta quarta (14) que o papa Leão XIV, de 71 anos, teve uma noite tranquila no Hospital Gemelli, em Roma, e prometeu mais informações ao longo do dia. Ele foi operado na terça (13), com retirada do lobo inferior do pulmão direito por videocirurgia, em cerca de 90 minutos e sem complicações, segundo o comunicado assinado pelos cirurgiões Luigi Carbone e Stefano Margaritora. A histologia feita durante a operação confirmou o adenocarcinoma de pulmão que os exames já indicavam, e o próprio papa havia dito no domingo (11) que o nódulo foi \"identificado em uma fase muito inicial e bem localizada\". A internação deve durar cerca de uma semana, com mais exames e observação, e o Vaticano cancelou os compromissos públicos até 20 de outubro. Para milhões de católicos brasileiros, o que importa agora é a recuperação e a viagem de 6 a 17 de novembro à Argentina, ao Uruguai e ao Peru, que ainda não teve mudança anunciada.",
+   "contexto": [
+    "Boletim da manhã de quarta (14), pelo Telegram da Sala de Imprensa: \"O Papa transcorreu uma noite tranquila. Mais informações serão divulgadas ao longo do dia\" (Vatican News).",
+    "Cirurgia na terça (13), no Gemelli: retirada do lobo inferior do pulmão direito por técnica videoassistida, cerca de 90 minutos, sem complicações.",
+    "Diagnóstico: adenocarcinoma pulmonar, confirmado pela histologia feita durante a operação.",
+    "Anúncio do nódulo no Angelus de domingo (11): \"identificado em uma fase muito inicial e bem localizado\".",
+    "Internação prevista de cerca de uma semana, com novos exames e observação; compromissos públicos cancelados até 20 de outubro (Metrópoles).",
+    "Viagem de 6 a 17 de novembro à Argentina, ao Uruguai e ao Peru era mantida antes da cirurgia."
+   ],
+   "angulo": [
+    "A saúde do papa é assunto de respeito: a bancada deve acompanhar com sobriedade e sem especulação sobre sucessão.",
+    "A transparência do Vaticano, que anunciou o nódulo, a cirurgia e o diagnóstico em dois dias e já deu boletim na manhã seguinte, é exemplo de como autoridade deve tratar a própria saúde.",
+    "Para o público de fé, o momento pede oração e informação confiável, e não boato."
+   ],
+   "perguntas": [
+    "O que a notícia significa para a Igreja e para os católicos brasileiros?",
+    "A viagem de novembro deve ser mantida?",
+    "Autoridades públicas devem ser tão transparentes quanto o Vaticano sobre a saúde?"
+   ],
+   "atencao": "Estadiamento e tratamento complementar ainda não foram informados; não especular sobre prognóstico.",
+   "fontes": [
+    {
+     "name": "Vatican News",
+     "url": "https://vaticannews.va/pt/papa/news/2026-10/noite-tranquila-para-o-papa-no-gemelli-comunicado-manha-14.html"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/mundo/papa-leao-teve-noite-tranquila-apos-cirurgia-informa-vaticano"
+    },
+    {
+     "name": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2026/10/13/papa-leao-xiv-e-diagnosticado-com-cancer-de-pulmao-e-retira-parte-do-orgao/"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/papa-leao-xiv-cirurgia-nodulo-pulmao/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "https://g1.globo.com/google/amp/mundo/noticia/2026/10/14/papa-leao-xiv-passou-noite-tranquila-apos-cirurgia-cancer-pulmao.ghtml",
+   "fundido": [
+    "Papa Leão XIV passa por cirurgia e Vaticano confirma adenocarcinoma de pulmão"
+   ]
+  },
+  {
+   "id": "fmi-corta-pib-brasil",
+   "bloco": "Economia",
+   "titulo": "FMI reduz para 2,2% a previsão de crescimento do Brasil em 2026",
+   "subtitulo": "Em 2027 a projeção cai de 2,2% para 1,9%, e o Fundo alerta para dívida alta e juros caros",
+   "resumo": "O FMI cortou a projeção de crescimento do PIB brasileiro em 2026 de 2,4% para 2,2%, no relatório divulgado na terça (13). Para 2027 a previsão caiu de 2,2% para 1,9%. A análise de O Tempo cita juros altos para trazer a inflação à meta, retirada de estímulo fiscal e incerteza global. O Fundo diz que a combinação de custo de financiamento e dívida elevados cria vulnerabilidade e pede \"medidas firmes e deliberadas\". O número ainda fica acima dos 2% que a Fazenda usa, e o que está em jogo é o emprego e a renda de quem depende de um país que cresce pouco com a conta pública pesada.",
+   "contexto": [
+    "FMI: PIB de 2026 de 2,4% para 2,2%; 2027 de 2,2% para 1,9%.",
+    "Dívida bruta, pela metodologia do FMI, de 95,4% do PIB em julho para 94,5% em agosto.",
+    "Projeção da Fazenda para 2026: 2%. Banco Mundial elevou 2026 para 2,1% e cortou 2027 para 1,7%.",
+    "FMI elevou o crescimento mundial de 2026 para 3,1% e cortou a China para 4,5%."
+   ],
+   "angulo": [
+    "Crescer pouco com dívida de 94,5% do PIB é a prova de que o problema é gasto público, e não falta de estímulo.",
+    "Juros altos são consequência de contas desorganizadas: quem quer baixar a Selic precisa cortar despesa.",
+    "O governo vende pacotes de benefício em plena campanha enquanto o Fundo pede medidas firmes na conta."
+   ],
+   "perguntas": [
+    "O que o governo precisa cortar para a dívida deixar de ser vulnerabilidade?",
+    "O eleitor sente o PIB de 2,2% no bolso ou só nos juros?",
+    "Pacotes anunciados em campanha ajudam ou pioram a nota fiscal do país?"
+   ],
+   "atencao": "Projeção não é resultado: o FMI revisa os números a cada trimestre.",
+   "fontes": [
+    {
+     "name": "O Tempo",
+     "url": "https://www.otempo.com.br/economia/2026/10/13/fmi-reduz-projecao-de-crescimento-do-pib-no-brasil-e-preve-expansao-de-2-2"
+    }
+   ]
+  },
+  {
+   "id": "bets-devolucao-mp",
+   "bloco": "Economia",
+   "titulo": "Prazo para bancos devolverem R$ 1,3 bilhão a apostadores de bets termina hoje",
+   "subtitulo": "A Caixa assume os casos pendentes a partir de hoje; a MP que proíbe as bets ainda precisa passar pelo Congresso",
+   "resumo": "Os bancos devolvem desde sexta (9) cerca de R$ 1,325 bilhão a apostadores de bets, e o prazo termina nesta quarta (14). Segundo a Agência Brasil, até 26,5 milhões de apostadores podem ser beneficiados, e a Caixa assume os casos com obstáculo a partir de hoje. A MP 1.394/2026, assinada por Lula em 25 de setembro, proíbe a exploração, a oferta e a publicidade de apostas, e as plataformas saíram do ar em 6 de outubro. O ministro da Fazenda, Dario Durigan, disse que cerca de 40 CPFs estão sob análise por saldos altos, inclusive por suspeita de lavagem. O debate de fundo é se o Estado deve proibir por decreto de urgência ou regular um setor que movimentava R$ 600 milhões por dia.",
+   "contexto": [
+    "Devolução de R$ 1,325 bilhão a até 26,5 milhões de apostadores entre 9 e 14 de outubro (Agência Brasil).",
+    "MP 1.394/2026 assinada em 25 de setembro; precisa ser aprovada pelo Congresso para continuar valendo.",
+    "Antes da MP, a movimentação diária das casas era de cerca de R$ 600 milhões; uma semana depois caiu a zero.",
+    "Cerca de 40 CPFs em análise por saldos altos, inclusive por possível lavagem de dinheiro, segundo Durigan.",
+    "Bancos nunca cobram taxa para devolver o saldo; pedido de pagamento antecipado é golpe."
+   ],
+   "angulo": [
+    "Proibir tudo por medida provisória, em véspera de eleição, é atalho: o certo seria regular, fiscalizar e punir a fraude, como faz um país sério.",
+    "A devolução prova que o dinheiro do apostador passou por plataformas sem controle do Estado por anos, e a responsabilidade é de quem legalizou sem fiscalizar.",
+    "Congresso deve debater a MP com calma, sem empurrá-la por pressa eleitoral."
+   ],
+   "perguntas": [
+    "Proibir resolve o vício e a fraude ou empurra o apostador para o mercado ilegal?",
+    "Quem deve responder pelos anos de bets sem fiscalização efetiva?",
+    "O Congresso deve aprovar a MP como está ou regular o setor?"
+   ],
+   "atencao": "A MP ainda não foi votada pelo Congresso e há questionamento no STF, segundo a cobertura; confirmar o status antes de ir ao ar.",
+   "fontes": [
+    {
+     "name": "Forbes Brasil (Agência Brasil)",
+     "url": "https://forbes.com.br/forbes-money/2026/10/bancos-comecam-a-devolver-r-13-bilhao-a-apostadores-de-bets/"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-brasil/termina-nesta-2a-prazo-para-sacar-dinheiro-das-bets/"
+    }
+   ]
+  },
+  {
+   "id": "argentina-inflacao-setembro",
+   "bloco": "Internacional",
+   "titulo": "Inflação da Argentina fica em 1,9% em setembro, abaixo de 2% pelo segundo mês",
+   "subtitulo": "Acumulado em 12 meses cai para 33,4%, e analistas esperam cerca de 30% até o fim do ano",
+   "resumo": "A inflação da Argentina foi de 1,9% em setembro, abaixo de 2% pelo segundo mês seguido, em linha com a mediana dos analistas ouvidos pela Bloomberg. O acumulado em 12 meses recuou para 33,4%, contra 35% antes. Quando Javier Milei assumiu, há três anos, a alta anual passava de três dígitos. A projeção é de cerca de 30% em 12 meses até o fim de 2026 e de 1,6% a 1,8% ao mês até março de 2027. A esquerda brasileira usa o caso argentino como argumento contra Flávio, e o dado mostra o outro lado: ajuste fiscal sério derruba a inflação que mais pesa no bolso do pobre.",
+   "contexto": [
+    "Inflação mensal de 1,9% em setembro; agosto foi de 1,7%, o menor número de 2026.",
+    "Acumulado em 12 meses: 33,4%, contra 35% no dado anterior.",
+    "Projeção: perto de 30% em 12 meses até dezembro e 1,6% a 1,8% ao mês até março de 2027.",
+    "Milei assumiu com inflação anual de três dígitos."
+   ],
+   "angulo": [
+    "Inflação de 1,9% ao mês ainda é alta, mas o caminho de queda mostra que cortar gasto funciona onde a gastança falhou.",
+    "Quem usa a Argentina para assustar o eleitor brasileiro omite que o país saiu do descontrole de preços.",
+    "Controle de gastos e inflação baixa são a melhor política para o pobre: a conta chega primeiro ao supermercado."
+   ],
+   "perguntas": [
+    "O que o Brasil pode aprender do caso argentino sem copiar o remédio?",
+    "Inflação de 33% ao ano é vitória ou ainda é problema?",
+    "Por que o dado argentino entrou na campanha brasileira?"
+   ],
+   "atencao": "Aposentadorias e pobreza na Argentina são disputadas por fontes de campo oposto; neste item só valem os números de inflação, de matéria aberta.",
+   "fontes": [
+    {
+     "name": "Tribuna do Sertão",
+     "url": "https://www.tribunadosertao.com.br/financas/2026/10/13/996370-argentina-registra-segundo-mes-consecutivo-com-inflacao-abaixo-de-2"
+    }
+   ],
+   "metafora": "Inflação de 33% ao ano é como febre que cedeu: o paciente melhorou, mas ainda não está curado."
+  },
+  {
+   "id": "ruas-transicao-rombo",
+   "bloco": "Rio de Janeiro",
+   "titulo": "Douglas Ruas inicia a transição e rejeita orçamento do Rio com déficit de R$ 14 bilhões",
+   "subtitulo": "Governador eleito defende teto de gastos para os três Poderes e promete chegar a 60 mil policiais militares",
+   "desdobramento": "Ruas inicia a transição com Ricardo Couto, e a equipe de transição deve funcionar na sede da Firjan.",
+   "resumo": "Douglas Ruas, governador eleito do Rio, reuniu-se com o desembargador Ricardo Couto, da gestão interina, para iniciar a transição. A proposta de orçamento de 2027 prevê déficit de quase R$ 14 bilhões: receitas de R$ 124,39 bilhões e despesas de R$ 138,37 bilhões. Ruas diz que não concorda em aprovar a peça como está e quer cortar despesas dos três Poderes, lembrando que a arrecadação subiu 21% em cinco anos e as despesas cresceram mais. Ele promete elevar a PM de pouco mais de 44 mil para 60 mil policiais, a um custo estimado de R$ 1,6 bilhão. A posse está marcada para 6 de janeiro de 2027, e Firjan e Fecomércio ofereceram espaço para a equipe de transição.",
+   "contexto": [
+    "Orçamento de 2027: receitas de R$ 124,39 bilhões, despesas de R$ 138,37 bilhões, déficit de R$ 13,98 bilhões.",
+    "Segundo Ruas, a arrecadação subiu 21% em cinco anos, e as despesas dos Poderes subiram mais.",
+    "Meta de 60 mil PMs (hoje pouco mais de 44 mil), custo de R$ 1,6 bilhão; Hospital do Câncer e do Coração de Nova Friburgo em 100 dias.",
+    "Firjan e Fecomércio ofereceram espaço à transição; Maria Gabriela Bessa é a mais cotada para coordená-la.",
+    "Posse em 6 de janeiro de 2027."
+   ],
+   "angulo": [
+    "Governo que herda rombo tem de começar cortando a própria carne, e o teto de gastos para os três Poderes é o caminho certo.",
+    "Mais 15 mil policiais só fazem sentido com orçamento equilibrado para pagar salário em dia.",
+    "A bancada deve cobrar números: onde sai o corte, quanto e em quanto tempo."
+   ],
+   "perguntas": [
+    "Dá para cortar despesa dos três Poderes e ainda contratar 15 mil policiais?",
+    "O teto de gastos proposto por Ruas passa pela Alerj e pelo Judiciário?",
+    "Quais serviços não podem esperar os 100 dias?"
+   ],
+   "fontes": [
+    {
+     "name": "Diário do Rio",
+     "url": "https://diariodorio.com/politica/2026/10/11/douglas-ruas-anuncia-revisao-de-gastos-reforco-de-15-mil-pms-e-hospital-em-100-dias.html"
+    },
+    {
+     "name": "Agenda do Poder",
+     "url": "https://agendadopoder.com.br/ruas-e-couto-abrem-transicao-com-rombo-bilionario-no-centro-da-negociacao/"
+    }
+   ]
+  }
+ ],
+ "atualizado": "2026-10-14T10:27:00-03:00",
+ "excluidos": [
+  {
+   "titulo": "Nexus/BTG: Flávio tem 52% e Lula 48% na disputa pela Presidência",
+   "em": "2026-10-14T10:35:37-03:00"
+  }
+ ]
 }
