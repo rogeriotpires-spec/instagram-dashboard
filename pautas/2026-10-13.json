@@ -60,41 +60,6 @@
    "kind": "Reel de até 30s reagindo ao fato do dia",
    "options": [
     {
-     "title": "Quem investiga o investigador da PF?",
-     "tone": "contundente",
-     "duration": "25 a 30s",
-     "desdobramento": "Defesa de Flávio apresentou notícia-crime à Justiça Eleitoral contra o diretor-geral da PF em 11/10",
-     "fact": "Em 11/10, a defesa de Flávio Bolsonaro apresentou uma notícia-crime à Justiça Eleitoral contra o diretor-geral da PF, Andrei Rodrigues. A acusação é de que ele usou a estrutura da PF em benefício do PT ao divulgar, no dia do primeiro turno, a abertura de uma apuração sobre possível influência dos EUA nas eleições. Na coletiva de 4/10, Andrei disse que a PF recebeu uma representação da AGU e havia apuração preliminar, sem inquérito formal. A defesa pede depoimento dele e documentos da AGU, da PF e da PGR. Segundo a reportagem, a PF arquivou a apuração preliminar três dias depois, por falta de elementos mínimos. O presidente do TSE, Nunes Marques, disse que não havia indícios concretos de interferência internacional. Cabe à Justiça Eleitoral decidir se abre investigação.",
-     "sources": [
-      {
-       "name": "Poder360",
-       "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-pede-investigacao-contra-diretor-da-pf-por-interferencia-eleitoral/"
-      },
-      {
-       "name": "Metrópoles",
-       "url": "https://www.metropoles.com/brasil/flavio-aciona-justica-eleitoral-contra-diretor-geral-da-pf"
-      }
-     ],
-     "hooks": [
-      "No dia da eleição, a PF falou de interferência. Três dias depois, arquivou.",
-      "A PF abriu uma apuração no dia da urna e a fechou em três dias."
-     ],
-     "script": "No dia do primeiro turno, o diretor da PF disse que havia uma apuração sobre possível interferência dos Estados Unidos na eleição. Três dias depois, a PF arquivou: faltavam elementos mínimos para abrir um inquérito. Agora a defesa do Flávio pediu à Justiça Eleitoral que investigue se a estrutura da PF foi usada em favor do PT. É uma acusação da defesa, e quem decide é a Justiça. Mas a pergunta fica: por que anunciar uma apuração no dia da votação? Você acha que o diretor da PF deve explicar isso? Responde sim ou não.",
-     "screen_text": [
-      "Dia 4/10: PF fala em apuração",
-      "3 dias depois: arquivada",
-      "Defesa de Flávio pede investigação",
-      "Por que no dia da urna?"
-     ],
-     "caption": "A PF anunciou uma apuração no dia da eleição e arquivou três dias depois. O diretor da PF deveria explicar? Sim ou não?",
-     "risk": "médio",
-     "risk_note": "É pedido da defesa de Flávio, não decisão judicial: atribua sempre a ele. Não afirme que Andrei agiu a favor do PT. A resposta da PF à notícia-crime não consta nas reportagens abertas; confira antes de publicar.",
-     "timeline": {
-      "rende": true,
-      "angle": "Os limites da atuação da PF em período eleitoral: o que a lei diz sobre divulgar apurações no dia da votação e o que a Justiça Eleitoral pode fazer com a notícia-crime."
-     }
-    },
-    {
      "title": "Eles responderam com a rua. Agora é a nossa vez",
      "tone": "mobilizador, sóbrio",
      "duration": "20 a 30s",
@@ -143,6 +108,10 @@
   {
    "titulo": "45 tiros, uma câmera e uma pergunta",
    "em": "2026-10-14T12:53:59-03:00"
+  },
+  {
+   "titulo": "Quem investiga o investigador da PF?",
+   "em": "2026-10-14T12:54:09-03:00"
   }
  ]
 }
