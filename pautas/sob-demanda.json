@@ -809,54 +809,6 @@
   },
   {
    "requested": "2026-10-13",
-   "done": "2026-10-13T18:46:28-03:00",
-   "issue": 41,
-   "slot_hint": "Reel hoje (13) às 19h ou imagem amanhã (14) às 12h.",
-   "source": {
-    "edition": "programa/2026-10-13",
-    "item_id": "pazuello-anistia-ampla",
-    "title": "A anistia que Pazuello quer estender a quem prendeu"
-   },
-   "options": [
-    {
-     "type": "r",
-     "title": "Anistia para quem prendeu? Isso dá munição ao adversário",
-     "tone": "contundente",
-     "duration": "30s",
-     "fact": "Segundo o Agenda do Poder (12/10), o deputado reeleito Eduardo Pazuello (PL-RJ) defende uma anistia ampla que alcance os condenados pela trama golpista, Jair Bolsonaro entre eles, e também autoridades dos processos, como o ministro Alexandre de Moraes. Ele disse que \"a anistia tem de ser para todos os lados, inclusive para quem prendeu\", citou a Lei da Anistia de 1979 e não explicou como isso funcionaria juridicamente. A proposta ainda não foi apresentada a Flávio Bolsonaro e não livraria ministros do STF de impeachment. Em 29/09, segundo o SBT News, Flávio disse que, se a anistia não passar, dará indulto aos condenados do 8 de janeiro na transição, se eleito. Anistia é lei do Congresso; indulto é decreto do presidente; a Constituição veda graça ou anistia a tortura, tráfico, terrorismo e crimes hediondos. Datafolha de 2025, citado pela matéria: 54% contra a anistia a Bolsonaro e 39% a favor.",
-     "sources": [
-      {
-       "name": "Agenda do Poder",
-       "url": "https://agendadopoder.com.br/pazuello-defende-anistia-para-moraes-e-preve-jair-bolsonaro-livre-em-eventual-governo-flavio/"
-      },
-      {
-       "name": "SBT News",
-       "url": "https://sbtnews.sbt.com.br/noticia/politica/8-1-sem-anistia-darei-indulto-a-todo-mundo-diz-flavio"
-      }
-     ],
-     "hooks": [
-      "Pazuello quer anistia até para quem prendeu. Isso ajuda ou atrapalha?",
-      "Anistia é legítima. Mas essa mistura enfraquece a causa."
-     ],
-     "script": "O deputado Pazuello defendeu uma anistia ampla, que alcance os condenados do 8 de janeiro, Bolsonaro entre eles, e também as autoridades dos processos, como o ministro Moraes, segundo o Agenda do Poder. Ele disse: a anistia tem de ser para todos os lados, inclusive para quem prendeu. Calma. Anistia é instrumento legítimo do Congresso, usado em 1979. Mas misturar quem foi condenado com quem condenou enfraquece o argumento mais forte, que é a desproporção das penas. E dá munição para o adversário falar em autoanistia. A proposta nem foi apresentada ao Flávio. Ele já prometeu indulto por decreto se a anistia não passar. Então a pergunta é objetiva: anistia por lei, debatida às claras, ou indulto por decreto? Qual você prefere? Comenta aqui.",
-     "screen_text": [
-      "Pazuello: anistia \"inclusive para quem prendeu\"",
-      "Anistia = lei do Congresso",
-      "Indulto = decreto do presidente",
-      "Qual você prefere?"
-     ],
-     "caption": "Anistia é legítima, mas precisa de lei e debate aberto. Por lei ou por decreto? Comenta.",
-     "risk": "médio",
-     "risk_note": "Fala de Pazuello vem de uma única matéria. Diga \"segundo o Agenda do Poder\". Não afirme que Flávio apoia a proposta; ela não foi apresentada a ele.",
-     "timeline": {
-      "rende": true,
-      "angle": "Anistia por lei versus indulto por decreto e os limites constitucionais."
-     }
-    }
-   ]
-  },
-  {
-   "requested": "2026-10-13",
    "done": "2026-10-13T11:20:00-03:00",
    "issue": 39,
    "slot_hint": "Imagem hoje (13) às 12h e reel às 19h, se houver novidade da investigação.",
@@ -3123,6 +3075,10 @@
   {
    "titulo": "Anistia para quem prendeu? O argumento forte virou munição",
    "em": "2026-10-14T12:56:17-03:00"
+  },
+  {
+   "titulo": "Anistia para quem prendeu? Isso dá munição ao adversário",
+   "em": "2026-10-14T12:56:40-03:00"
   }
  ]
 }
