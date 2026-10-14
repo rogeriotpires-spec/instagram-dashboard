@@ -50,11 +50,13 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           EXEC: ${{ steps.claude.outputs.execution_file }}
         run: |
-          N=$(gh api "repos/${{ github.repository }}/issues?state=open&per_page=50" --jq '[.[] | select(.title|startswith("[Pauta avulsa]")) | select(.user.login=="rogeriotpires-spec")] | length')
+          # só conta pedidos que já existiam quando esta execução começou (os que chegaram depois ficam para a próxima)
+          T=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}" --jq .created_at)
+          N=$(gh api "repos/${{ github.repository }}/issues?state=open&per_page=50" --jq "[.[] | select(.title|startswith(\"[Pauta avulsa]\")) | select(.user.login==\"rogeriotpires-spec\") | select(.created_at <= \"$T\")] | length")
           if [ "$N" != "0" ]; then
             MSG=$(python3 -c "import json,os;d=json.load(open(os.environ['EXEC']));t=[m for m in d if m.get('type')=='result'];print((t[-1].get('result') if t else str(d[-1]))[:900].replace(chr(10),' '))" 2>/dev/null || echo "sem registro")
             echo "::error::Pedido avulso não foi incluído. Última mensagem do redator: $MSG"
-            for I in $(gh api "repos/${{ github.repository }}/issues?state=open&per_page=50" --jq '.[] | select(.title|startswith("[Pauta avulsa]")) | select(.user.login=="rogeriotpires-spec") | .number'); do
+            for I in $(gh api "repos/${{ github.repository }}/issues?state=open&per_page=50" --jq ".[] | select(.title|startswith(\"[Pauta avulsa]\")) | select(.user.login==\"rogeriotpires-spec\") | select(.created_at <= \"$T\") | .number"); do
               gh api -X POST "repos/${{ github.repository }}/issues/$I/comments" -f body="Não foi possível incluir este item: $MSG" >/dev/null
               gh api -X PATCH "repos/${{ github.repository }}/issues/$I" -f state=closed >/dev/null
             done
