@@ -2,8 +2,8 @@
   "date": "2026-10-14",
   "generated": "2026-10-13T19:17:52-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Pesquisa no limite, 6x1 em votação, ministros na gaveta e o perdão dos MEIs: quem paga a conta antes da urna?",
-  "abertura": "Faltam 11 dias para o segundo turno e a pesquisa Nexus/BTG, com Flávio Bolsonaro em 52% dos votos válidos e Lula em 48%, está dentro da margem de erro. Na quarta (14) o Senado vota o fim da escala 6x1 e Flávio já anunciou que vota a favor, cobrando que o governo pague a compensação. O governo, por sua vez, anuncia perdão de R$ 12,6 bilhões a MEIs e um decreto contra celulares em presídios, tudo a 12 dias da eleição. Enquanto isso, a PF levou ao presidente do STF arquivos que citam ao menos seis ministros, e no Rio o governador eleito já abre a transição com um déficit de R$ 13,98 bilhões.",
+  "titulo": "Púlpito vazio, El Salvador “pouco”, 6x1 contra o relógio e ministros no relatório: quem fala e quem foge a 11 dias da urna?",
+  "abertura": "O debate da Band no domingo (18) pode ter um só candidato, já que Flávio disse que não vai e Lula confirmou, com púlpito vazio garantido pela emissora. Na segurança, Flávio prometeu meio milhão de vagas em presídios e castração química, dizendo que El Salvador é pouco. No Senado, a PEC do fim da escala 6x1 entra em votação, mas o calendário e a eleição disputam o mesmo relógio. O governo responde com o PixMEI e o perdão de dívidas, e no STF Fachin mandou a PF enviar todas as menções a ministros no caso Master, enquanto a pesquisa mostra uma eleição dentro da margem de erro.",
   "agenda": [
     {
       "time": "Quarta (14)",
@@ -15,6 +15,185 @@
     }
   ],
   "itens": [
+    {
+      "id": "seis-por-um-calendario-senado",
+      "bloco": "Política nacional",
+      "titulo": "A votação que corre contra o calendário",
+      "subtitulo": "A PEC entra em pauta, mas o regimento ainda exige tempo que a eleição não dá",
+      "resumo": "O presidente do Senado, Davi Alcolumbre, pautou para esta quarta (14) a votação em primeiro turno da PEC 221/2019, em sessão semipresencial. O Senado já fez 3 das 5 sessões de discussão exigidas antes da votação, entre os dias 6 e 8 de outubro. Depois do primeiro turno, o regimento pede mais três sessões de discussão, e por isso a base do governo articula um calendário especial para aprovar antes de 25 de outubro. A oposição tenta o caminho contrário e quer empurrar a votação para depois das eleições. Quando o prazo regimental vira instrumento de campanha, o trabalhador que espera a mudança fica refém do relógio eleitoral dos dois lados.",
+      "contexto": [
+        "Sessões de discussão de 6 a 8 de outubro cumpriram 3 das 5 exigidas antes da votação (SBT News).",
+        "Para o segundo turno, o regimento exige mais 3 sessões de discussão, e a base do governo busca um calendário especial.",
+        "A PEC precisa de 49 dos 81 votos em cada um dos dois turnos.",
+        "Segundo a Folha de Pernambuco, a oposição tenta adiar a votação para depois das eleições."
+      ],
+      "angulo": [
+        "O trabalhador merece uma votação feita com calma e com a conta da compensação definida, e não um calendário apertado para render voto no segundo turno.",
+        "Se o governo só descobriu a urgência do tema agora, a bancada deve perguntar por que a proposta ficou parada durante o primeiro turno.",
+        "Aprovar rápido e deixar a conta para o pequeno empresário é trocar um problema por outro."
+      ],
+      "perguntas": [
+        "Um calendário especial só para antes da eleição é legítimo ou é uso eleitoral do regimento?",
+        "Quem deve pagar a transição: o governo, as empresas ou o trabalhador, com menos vagas?",
+        "O que acontece com o pequeno comércio se a aprovação sair sem regra de compensação?"
+      ],
+      "atencao": "Complementa o item 7 (O voto que mudou na véspera da votação). Fontes divergem sobre o dia da votação (quarta 14 ou quinta 15); confirmar a pauta do plenário antes de ir ao ar.",
+      "fontes": [
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/alcolumbre-votara-fim-da-escala-6x1-na-quarta-feira-14"
+        },
+        {
+          "name": "Folha de Pernambuco",
+          "url": "https://www.folhape.com.br/politica/fim-da-escala-6x1-oposicao-tenta-adiar-votacao-para-depois-das/517098/"
+        }
+      ],
+      "pedido": "Senado deve votar nesta quarta (14) a PEC do fim da escala 6x1 em dois turnos; Flávio anuncia voto a favor"
+    },
+    {
+      "id": "master-fachin-carater-descritivo",
+      "bloco": "STF e instituições",
+      "titulo": "O ofício que a PF mandou pedir licença",
+      "subtitulo": "A dúvida era como enviar. A resposta do STF foi: tudo, e sem opinião",
+      "resumo": "A reunião com Fachin foi pedida pela própria PF, que em ofício de 2 de outubro perguntou ao STF como enviar o material do caso Master que cita ministros. O diretor-geral Andrei Rodrigues tinha dúvidas sobre o formato correto da remessa. Fachin determinou que nenhuma menção seja omitida e que cada uma venha com contexto, em caráter estritamente descritivo. Recebido o material, a PGR dá parecer prévio e o plenário decide se abre inquérito, porque qualquer ato de investigação contra ministro depende do plenário. Ou seja, quem decide se os ministros serão investigados são os próprios colegas dos citados.",
+      "contexto": [
+        "Ofício da PF ao STF em 2 de outubro pediu esclarecimentos sobre o procedimento (Poder360).",
+        "Nota conjunta de STF e PF: atos de investigação de ministro dependem de autorização do plenário, mas isso não elimina o dever de comunicar todas as referências.",
+        "Citados em diferentes contextos, segundo o Poder360: Toffoli, Moraes, Fux e Nunes Marques.",
+        "Depois do envio, a PGR emite parecer prévio e o plenário delibera."
+      ],
+      "angulo": [
+        "A determinação de enviar tudo é correta, mas o desenho final é problemático: o plenário que decide sobre inquérito é composto por colegas dos citados.",
+        "Ser citado não é ser investigado, e o programa deve repetir isso, sem abrir mão de cobrar transparência total.",
+        "O caráter descritivo protege os ministros e também impede que se esconda uma menção incômoda."
+      ],
+      "perguntas": [
+        "Quem deveria decidir sobre investigar um ministro do STF: o próprio plenário ou outra instância?",
+        "A exigência de contexto e de texto sem juízo de valor protege a Corte ou protege a verdade?",
+        "O que muda para a confiança do cidadão se o plenário decidir esperar o fim da eleição?"
+      ],
+      "atencao": "Complementa o item 8 (Seis ministros na mesma gaveta). Menção em mensagem não é indício de crime; todos os citados negam irregularidades e ninguém foi denunciado.",
+      "fontes": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/fachin-manda-pf-enviar-todas-as-mencoes-a-ministros-no-caso-master/"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/no-ponto/fachin-diz-a-andrei-que-todas-as-mencoes-a-ministros-no-caso-master-devem-ser-enviadas-ao-stf/"
+        }
+      ],
+      "pedido": "Fachin manda a PF enviar ao STF todas as menções a ministros no caso Master, em caráter estritamente descritivo"
+    },
+    {
+      "id": "pixmei-sem-devolucao",
+      "bloco": "Economia",
+      "titulo": "O Pix que não precisa ser devolvido",
+      "subtitulo": "Quanto custa dar R$ 5 mil a cada microempreendedor, e quem paga",
+      "resumo": "O PixMEI é um pagamento direto de até R$ 5 mil por microempreendedor para investimento produtivo, como equipamentos, e o ministro Paulo Pereira disse que \"não é crédito\". A matéria da Exame fala em dinheiro público sem necessidade de reembolso. A meta é chegar a cerca de 1 milhão de MEIs em até quatro anos, com a ajuda do Sebrae para estruturar planos de negócio. Pelas contas do próprio programa, se todos recebessem o valor máximo o custo seria da ordem de R$ 5 bilhões, número que a Exame não confirma como oficial. A proposta depende do Congresso e o governo pede urgência, embora nada nas matérias explique de onde sai o dinheiro.",
+      "contexto": [
+        "PixMEI: até R$ 5 mil por MEI, \"sem necessidade de reembolso\" e para investimento produtivo (Exame).",
+        "Meta: cerca de 1 milhão de MEIs em até 4 anos, com apoio do Sebrae.",
+        "A medida vai em projeto de lei complementar com o perdão de dívidas, e o governo quer a Câmara votando também o novo teto de faturamento.",
+        "A matéria não informa custo total, fonte do dinheiro nem critérios de quem recebe."
+      ],
+      "angulo": [
+        "Dinheiro a fundo perdido anunciado a 12 dias da urna precisa de custo, fonte e critério, e hoje nenhum dos três foi apresentado.",
+        "O pequeno empreendedor precisa de menos burocracia e menos imposto, não de um benefício que depende de decisão do governo.",
+        "Quem trabalha e paga em dia aparece em desvantagem diante de quem recebe sem devolver."
+      ],
+      "perguntas": [
+        "Quem será escolhido entre os cerca de 3,6 milhões de MEIs para receber o PixMEI?",
+        "Qual é a diferença prática entre esse pagamento e o crédito, e para que serve dizer que não é crédito?",
+        "O pequeno empresário prefere um repasse do governo ou um imposto menor?"
+      ],
+      "atencao": "Complementa o item 9 (O perdão que chega 12 dias antes da urna). O custo de R$ 5 bilhões é conta aproximada do programa (1 milhão x R$ 5 mil), não número oficial.",
+      "fontes": [
+        {
+          "name": "Exame",
+          "url": "https://exame.com/brasil/governo-lula-perdoa-r-126-bi-em-dividas-de-meis-e-anuncia-pix-de-ate-r-5mil-por-empreendedor/"
+        }
+      ],
+      "pedido": "Lula anuncia Pix MEI de até R$ 5 mil e projeto para perdoar R$ 12,6 bilhões em dívidas de MEIs"
+    },
+    {
+      "id": "debate-band-pulpito-vazio",
+      "bloco": "Política nacional",
+      "titulo": "O debate para um candidato só",
+      "subtitulo": "Flávio recusa a Band, Lula aceita, e a emissora promete deixar um púlpito vazio",
+      "resumo": "Flávio Bolsonaro disse na terça (13), em São Paulo, que não vai ao debate da Band no domingo (18): \"Não vou, não está previsto ir nesse debate domingo\". Lula confirmou presença em vídeo enviado à emissora e desafiou o adversário a comparecer. A Band informou à CNN Brasil que o debate está mantido e que, sem o candidato, o púlpito ficará vazio. A presença de Flávio no debate da Globo, em 23 de outubro, ficou em aberto e será decidida pela equipe técnica da campanha. Seria o primeiro confronto direto da eleição entre os dois, e a escolha de faltar tem custo e benefício que o programa precisa pesar.",
+      "contexto": [
+        "Flávio anunciou a ausência após evento com 17 diretórios estaduais do MDB, que declararam apoio a ele (CNN Brasil).",
+        "Lula enviou vídeo à Band confirmando presença e disse esperar que o adversário compareça.",
+        "A Band disse que o debate segue, com púlpito vazio para quem faltar.",
+        "Debate da Globo em 23 de outubro, dois dias antes do segundo turno, com participação de Flávio em aberto."
+      ],
+      "angulo": [
+        "Debate é direito do eleitor, e a ausência de qualquer candidato precisa de justificativa clara, que até aqui não foi dada.",
+        "Escolher onde e com quem debater faz parte da estratégia, mas deixar a tribuna a um só candidato é um risco real.",
+        "O mesmo critério vale para os dois lados: Lula também faltou a debates no primeiro turno."
+      ],
+      "perguntas": [
+        "Quem perde mais com o púlpito vazio: o candidato ausente ou o eleitor?",
+        "Faz sentido escolher debates por emissora, ou o candidato deveria ir a todos?",
+        "Um debate sem confronto direto muda o voto indeciso?"
+      ],
+      "atencao": "Presença no debate da Globo (23/10) ainda não definida; checar a situação antes do ar.",
+      "fontes": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-nao-vai-a-debate-da-band-e-lula-confirma-presenca/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/sao-paulo/apos-pt-confirmar-lula-em-debate-da-band-flavio-diz-que-nao-vai-participar"
+        }
+      ],
+      "pedido": "Flávio diz que não vai ao debate da Band no domingo (18); Lula confirma e a emissora mantém púlpito vazio"
+    },
+    {
+      "id": "flavio-el-salvador-pouco",
+      "bloco": "Segurança pública",
+      "titulo": "Quando El Salvador ainda parece pouco",
+      "subtitulo": "Meio milhão de vagas, castração química e oito anos de cadeia por roubo de celular",
+      "resumo": "Em evento em São Paulo na terça (13), Flávio Bolsonaro disse que já troca ideias com Guilherme Derrite porque está achando que \"El Salvador é pouco\". Ele prometeu mais de meio milhão de vagas em presídios, endurecimento das penas e castração química para estupradores e abusadores de mulheres e crianças. Defendeu também mudança na lei para que ladrão de celular fique preso ao menos 8 anos. A proposta de 500 mil vagas já constava do plano Brasil sem Medo, de junho, com 5 presídios de segurança máxima, e ele estimou em agosto o custo em R$ 35 bilhões a R$ 40 bilhões em quatro anos. O eleitor precisa saber o que sai do orçamento e o que cabe na Constituição, porque dureza sem execução vira só discurso.",
+      "contexto": [
+        "Fala de 13 de outubro em São Paulo: \"Já tenho trocado umas ideias com o Derrite, porque eu estou achando que El Salvador é pouco\" (Money Times e Metrópoles).",
+        "Plano de junho prevê 500 mil vagas e 5 presídios federais de segurança máxima, complexo \"Treva\" (CNN Brasil).",
+        "Em 30 de agosto, depois de encontro com o ministro da Justiça de El Salvador, estimou o custo das vagas em R$ 35 bilhões a R$ 40 bilhões em quatro anos (SBT News).",
+        "Críticos citam que o estado de exceção salvadorenho vigora desde 2022, com denúncias de entidades de direitos humanos."
+      ],
+      "angulo": [
+        "A população quer menos crime e mais prisão para quem rouba e estupra, e o programa deve apoiar a prioridade à segurança que o governo atual não deu.",
+        "Vagas não bastam: sem gestão e inteligência o presídio vira escritório do crime, e o candidato precisa mostrar como gerir 500 mil novas vagas.",
+        "Mudança de lei depende do Congresso e respeita a Constituição, e o programa deve cobrar que cada promessa venha com artigo e custo."
+      ],
+      "perguntas": [
+        "Qual o limite entre o rigor penal necessário e o que a Constituição permite?",
+        "R$ 40 bilhões em presídios cabem no orçamento sem tirar de outra área?",
+        "Oito anos por roubo de celular resolvem o problema ou só lotam a cadeia?"
+      ],
+      "atencao": "Castração química é proposta de lei, ainda sem aprovação final no Senado; algumas matérias parafraseiam a fala, sem citação literal.",
+      "fontes": [
+        {
+          "name": "Money Times",
+          "url": "https://www.moneytimes.com.br/flavio-bolsonaro-diz-que-el-salvador-e-pouco-aqueles-que-acham-que-sou-radical-na-seguranca-publica-nao-viram-nada-ainda/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/sao-paulo/el-salvador-e-pouco-diz-flavio-sobre-planos-para-seguranca-publica"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-anuncia-plano-de-seguranca-com-presidio-a-bukele-e-castracao-quimica/"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/o-brasil-tem-pouco-preso-avalia-flavio-bolsonaro"
+        }
+      ],
+      "pedido": "Flávio diz que 'El Salvador é pouco' e promete meio milhão de vagas em presídios e castração química para abusadores"
+    },
     {
       "id": "pesquisas-empate-tecnico",
       "bloco": "Política nacional",
@@ -217,5 +396,6 @@
         }
       ]
     }
-  ]
+  ],
+  "atualizado": "2026-10-14T09:24:04-03:00"
 }
