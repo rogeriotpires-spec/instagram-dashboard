@@ -26,6 +26,12 @@ Escolha UMA destas famílias de cena, a que melhor conta a história do artigo, 
 7. Ambiente frio e silencioso: uma redação ou gabinete moderno quase vazio, uma pessoa ao fundo, luz azulada com pontos de vermelho e reflexos em vidro.
 8. Arquivo analógico: mesa com pilhas de papéis e pastas, luz natural difusa pela janela, um personagem olhando para a câmera ou para os documentos.
 
+REALISMO E ROSTOS (prioridade máxima)
+- A imagem deve parecer uma foto de agência tirada por um fotógrafo profissional, nunca uma ilustração ou render: câmera full frame, lente 85 mm para retratos ou 35 mm para cenas, abertura f/2.8, foco nítido nos olhos, profundidade de campo rasa, grão fino de filme, cores naturais levemente dessaturadas, sem retoque.
+- Pele com poros, linhas de expressão, marcas e imperfeições reais; olhos com reflexo natural; cabelo fio a fio; mãos com cinco dedos e proporção correta. Proibido: pele lisa de porcelana, brilho de plástico, simetria perfeita, rosto "embelezado", rejuvenescido, emagrecido ou com traços genéricos.
+- Pessoa real só com FOTO DE REFERÊNCIA: o prompt manda o Rogerio anexar, no ChatGPT, uma foto nítida e recente de frente de cada pessoa real retratada, e manda o ChatGPT usar essa foto como referência de identidade e preservar o rosto exatamente como é: formato do rosto e do queixo, olhos, sobrancelhas, nariz, boca, orelhas, linha do cabelo, barba, rugas, pintas, cor da pele e idade aparente. Só muda luz, roupa, pose e cenário.
+- No máximo duas pessoas reais por imagem, de preferência uma, com o rosto ocupando boa parte do quadro (retrato ou plano médio). Rostos pequenos ao fundo perdem a semelhança; figuras secundárias ficam desfocadas, de costas ou em silhueta.
+
 REGRAS DE CONTEÚDO
 - Uma ideia central por imagem: o conflito, a pressão ou a consequência que o artigo defende. O cenário contextualiza sem disputar atenção.
 - Personalidades públicas, quando ligadas diretamente ao tema, aparecem com rosto natural e reconhecível (formato do rosto, cabelo, idade aparente), preferencialmente em retrato (família 1). Nunca as coloque numa cena ou acontecimento que não ocorreu como se fosse foto real, nunca presas, algemadas, feridas, cometendo crime ou em situação degradante.
