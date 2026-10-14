@@ -460,62 +460,6 @@
   {
    "requested": "2026-10-14",
    "done": "2026-10-14T08:56:42-03:00",
-   "issue": 45,
-   "slot_hint": "Imagem hoje (14) às 12h ou reel hoje às 19h.",
-   "source": {
-    "edition": "2026-10-14-06h",
-    "item_id": "debate-band-flavio",
-    "title": "Flávio diz que não vai ao debate da Band no domingo (18); Lula confirma e a emissora mantém púlpito vazio"
-   },
-   "options": [
-    {
-     "type": "r",
-     "title": "Flávio fora do debate da Band? O que isso muda na reta final",
-     "tone": "contundente",
-     "duration": "30s",
-     "fact": "Segundo Poder360, Brasil 247 e Diário do Poder, Flávio Bolsonaro afirmou que não participará do debate Band/Estadão marcado para domingo (18) e avalia ir ao debate da Globo. Metrópoles, Terra e Revista Oeste informam que Lula confirmou presença e que a Band manterá o debate, deixando o púlpito do candidato do PL vazio. Jovem Pan e Pleno.News registram a resposta de Flávio de que a ida não está prevista. A Folha informa que a campanha de Flávio não assinou as regras do debate da Globo e não garante presença; o UOL diz que a Globo marcou sabatinas e debate com os dois no segundo turno. O Correio Braziliense afirma que a desistência abre caminho para Lula.",
-     "sources": [
-      {
-       "name": "Poder360",
-       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOczBKNTkzNEp1VzVDN2xkejBUdnR1VGVFamM2ZmNiN3VldmpPOFFQTUQ3YVZaaUNNYWtuQXNCZUphVG5wLVpwWG5TanFvelpYclhNWHVOazlfdVZUc1ZOMUNPTWF6YjZVTjc5V3JTaXlJbVZOQkJqVXFPMTlZVHJJZmt3TEtLT000YWZiczJKSDZPNFJGaXI1blJieVhUM0x6cFVXNnBSQkhZQQ?oc=5"
-      },
-      {
-       "name": "Metrópoles",
-       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS0tXaWtrWE81ZHJQY18yYllOUEpibkVUdjNpYXUxZjBadDZYeW1kMnpGdFVYZTNCQWxDZ29LRlJBSDFTZ2lfaDZwekF0SXU0NU90d1ZxM1R0VnFkUmk4VFRIWVZoVTdqWkI1NzlMYVpuaTQwVk9WLVp3Yl96cm1EcWxFemttLWlfeldjQ25GZkFvblBZLVBuR2p1UzRNV0hnOW12SklxblAyaXpXTG5LeHdKUQ?oc=5"
-      },
-      {
-       "name": "Jovem Pan",
-       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONkNLbl9EOVlMRFYzUFRDLWJyUnFJRWhkQzFxamY4X0NNRGpodVN3MFFnRk9UYnRPcU1rdTJNZzVqOVlZR1lyTDdFWnZTYUtoalRWUmFuMFcxLVRrSHFUWFhFdW9MeTJYTkNDYU9vSTRSdHlMSTRDYnU4VHkxMTZ5azdyWnEyRE5Eb0VidTRKbWswZVJFWmgzTDFOWmppWnBQZUQ4?oc=5"
-      },
-      {
-       "name": "Folha de S.Paulo",
-       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMF9OOTVZT1pxdVFzenpjQ3pBd25vR1RwbmN4bElTRGEzME5HaEZUbWlXR1Zjc0RXdzFheF9RRk1WbDlVdHdmTGIwTXNyMWtaOGVrNXZJTDlHbDRmT2ZhcWdYSGdidkViRFJFUk84cXhrVFJ4Z1FtdDF0d1Y0SnVYQllBdVVGbTZ3N2t5LTBpcVc4YU5QSlRZQWk4ZzJ1anFBQ2pEblA1NFEwbjNiMnhLU0tkNXJPdTcwcUxvakRPU09jcWMxUV9PZGV1TjBzVmdCX0pN?oc=5"
-      }
-     ],
-     "hooks": [
-      "Domingo, na Band, vai ter um púlpito vazio.",
-      "Flávio diz que não vai ao debate. Foi boa ideia?"
-     ],
-     "script": "Domingo tem debate na Band e o púlpito do Flávio Bolsonaro pode ficar vazio. Segundo Poder360 e Brasil 247, ele afirmou que não vai, e avalia o debate da Globo. A Band diz que mantém o debate e deixa o lugar dele reservado, e o Lula confirmou presença, segundo Metrópoles. A Folha informa que a campanha ainda nem assinou as regras do debate da Globo. Olha, debate é onde o eleitor compara. Quem falta entrega o microfone ao adversário, e o Correio Braziliense já diz que isso abre caminho para o Lula. Agora, a campanha tem o direito de escolher a estratégia, mas precisa explicar bem. Você acha que Flávio deveria ir? Comenta aqui.",
-     "screen_text": [
-      "Domingo (18): debate na Band",
-      "Flávio diz que não vai",
-      "Lula confirmou presença",
-      "Flávio deveria ir? Comenta"
-     ],
-     "caption": "Flávio diz que não vai ao debate da Band; Lula confirma. Candidato deve ir a todos os debates? Comenta.",
-     "risk": "médio",
-     "risk_note": "Os links das fontes (Google News) não puderam ser abertos; os fatos seguem o resumo do pedido, atribuídos a cada veículo. Confira antes de publicar se o debate segue confirmado e se Flávio mudou de posição. Não diga que Flávio 'fugiu': diga que ele afirmou que não vai.",
-     "timeline": {
-      "rende": true,
-      "angle": "Estratégia de debates no segundo turno e o efeito da cadeira vazia."
-     }
-    }
-   ]
-  },
-  {
-   "requested": "2026-10-14",
-   "done": "2026-10-14T08:56:42-03:00",
    "issue": 44,
    "slot_hint": "Imagem hoje (14) às 18h ou carrossel amanhã (15) às 12h.",
    "source": {
@@ -3204,6 +3148,10 @@
   {
    "titulo": "Domingo na Band: um púlpito vazio fala por quem não vem?",
    "em": "2026-10-14T12:55:04-03:00"
+  },
+  {
+   "titulo": "Flávio fora do debate da Band? O que isso muda na reta final",
+   "em": "2026-10-14T12:55:39-03:00"
   }
  ]
 }
