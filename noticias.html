@@ -239,7 +239,7 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
 .crit{display:grid;grid-template-columns:190px 1fr 26px;gap:10px;align-items:center;font-size:12.5px}
 .crit small{color:var(--muted)}
 .cbar{height:8px;background:var(--grid);border-radius:4px;overflow:hidden}.cbar i{display:block;height:100%;background:var(--s1)}
-.acts{display:flex;gap:8px}
+.acts{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .acts .btn{margin:0}
 @media (max-width:600px){.crit{grid-template-columns:1fr 26px}.crit .cbar{grid-column:1/-1;order:3}}
 </style>
@@ -289,7 +289,12 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const REPO="rogeriotpires-spec/instagram-dashboard";
 const CAMP={direita:["Direita","var(--s1)"],"centro-direita":["Centro-direita","var(--s1)"],centro:["Centro","var(--muted)"],"centro-esquerda":["Centro-esquerda","var(--s2)"],esquerda:["Esquerda","var(--s2)"],estatal:["Estatal","var(--s4)"],internacional:["Internacional","var(--s3)"],rio:["Rio","var(--s5)"],regional:["Regional","var(--s5)"]};
 const POS={manchete:"manchete",topo:"topo",secundario:"secundário","secundário":"secundário",editoria:"editoria"};
-let CFG,EDS=[],CUR,ED,SEG="top",DONE={},BODIES={},NV={},NF="all";
+let CFG,EDS=[],CUR,ED,SEG="top",DONE={},BODIES={},NV={},NF="all",DONEP={};
+/* dia da pauta do programa que recebe o item: hoje até 14h; depois, o próximo dia útil */
+function progDay(){const n=new Date(Date.now()-3*36e5);let d=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate()));
+  if(n.getUTCHours()>=14)d.setUTCDate(d.getUTCDate()+1);while([0,6].includes(d.getUTCDay()))d.setUTCDate(d.getUTCDate()+1);return d.toISOString().slice(0,10)}
+const dBR=s=>s.slice(8,10)+"/"+s.slice(5,7);
+const progPedido=it=>(it.title+" "+(((it.outlets||[])[0]||{}).url||"")).trim();
 const NV_JAN=9; /* compara com as 9 edições anteriores (3 dias) */
 const label=id=>{const [y,m,d,h]=id.split("-");return`${d}/${m} ${h}`};
 function seal(text,cls){return`<span class="pill ${cls}">${text}</span>`}
@@ -302,13 +307,15 @@ function card(it,rank){
   const body=`Pedido gerado pelo painel de Notícias.\n\nEdição: ${ED.id}\nItem: ${it.id}\nTítulo: ${it.title}\nBloco: ${segL}\n\nResumo:\n${it.summary}\n\nFontes:\n${(it.outlets||[]).map(o=>`- ${o.name}: ${o.url}`).join("\n")}\n\nFormato desejado (opcional, apague o que não quiser): imagem, reel, carrossel, stories\nObservação (opcional):\n`;
   BODIES[it.id]=body;
   const issue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Virar pauta] "+it.title)}&body=${encodeURIComponent(body)}`;
+  const pb=`Pedido de item avulso para a pauta do programa.\n\nData da pauta: ${progDay()}\nPedido: ${progPedido(it)}\nObservação: Veio da página de Notícias.\n`;
+  const progIssue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Pauta avulsa] "+progPedido(it).slice(0,90))}&body=${encodeURIComponent(pb)}`;
   return`<article class="news">
-    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${done?`<a class="pill good" href="pautas-nova.html#sob-demanda" style="text-decoration:none">Virou pauta ✓</a>`:""}</div><h3>${novPill(it)}${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
+    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${DONEP[it.title]?`<a class="pill good" href="pautas-nova.html#programa/${DONEP[it.title]}" style="text-decoration:none">Na pauta do programa ✓</a>`:""}${done?`<a class="pill good" href="pautas-nova.html#sob-demanda" style="text-decoration:none">No Instagram ✓</a>`:""}</div><h3>${novPill(it)}${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
     <p class="sum">${esc(it.summary)}</p>
     ${it.asymmetry?.flag?`<div class="note"><b>Assimetria:</b> ${esc(it.asymmetry.note||"")}</div>`:""}
     <div class="outs"><span class="small-n">${(it.outlets||[]).length} portais:</span>${outs}</div>
     <details><summary>Como a nota foi calculada</summary><div class="crits">${crit}</div></details>
-    <div class="acts">${done?`<a class="btn ghost" href="pautas-nova.html#sob-demanda">Ver pauta</a>`:(Painel.API?`<button class="btn" type="button" data-pauta="${esc(it.id)}">Virar pauta</button><span class="small-n pst"></span>`:`<a class="btn" href="${issue}" target="_blank" rel="noopener">Virar pauta</a>`)}</div>
+    <div class="acts">${DONEP[it.title]?`<a class="btn ghost" href="pautas-nova.html#programa/${DONEP[it.title]}">Ver na pauta do programa</a>`:(Painel.API?`<button class="btn" type="button" data-prog="${esc(it.id)}" title="Entra como primeiro item da pauta do programa de ${dBR(progDay())}">📺 Pauta do programa</button>`:`<a class="btn" href="${progIssue}" target="_blank" rel="noopener">📺 Pauta do programa</a>`)}${done?`<a class="btn ghost" href="pautas-nova.html#sob-demanda">Ver post do Instagram</a>`:(Painel.API?`<button class="btn ghost" type="button" data-pauta="${esc(it.id)}" title="Gera opções de post na aba Conteúdo do Instagram, seção Sob demanda">📲 Post do Instagram</button>`:`<a class="btn ghost" href="${issue}" target="_blank" rel="noopener">📲 Post do Instagram</a>`)}<span class="small-n pst"></span></div>
   </article>`;
 }
 function novPill(it){const n=NV[it.id];if(!n)return"";
@@ -354,6 +361,7 @@ async function load(id){
 }
 Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("noticias/index.json?"+Date.now()).then(r=>r.ok?r.json():{editions:[]}).catch(()=>({editions:[]})),fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([c,ix,sd])=>{
   CFG=c;method();(sd.items||[]).forEach(x=>{if(x.source){DONE[x.source.title]=1;DONE[x.source.item_id]=1}});
+  fetch("programa/index.json?"+Date.now()).then(r=>r.json()).then(ix=>Promise.all((ix.days||[]).sort().slice(-3).map(d=>fetch(`programa/${d}.json?`+Date.now()).then(r=>r.json()).then(p=>(p.itens||[]).forEach(x=>{if(x.avulsa&&x.pedido)(ED&&ED.items||[]).forEach(it=>{if(String(x.pedido).includes(it.title))DONEP[it.title]=d})})).catch(()=>{})))).then(()=>{if(ED&&Object.keys(DONEP).length)render()}).catch(()=>{});
   EDS=(ix.editions||[]).sort();
   if(!EDS.length){$("#updated").textContent="A primeira edição sai no próximo horário (6h, 12h ou 19h).";$("#list").innerHTML=`<div class="empty">Nenhuma edição publicada ainda.</div>`;return}
   $("#ed").innerHTML=EDS.slice().reverse().map(e=>`<option value="${e}">${label(e)}</option>`).join("");
@@ -365,16 +373,28 @@ Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("
   stamp:()=>fetch("noticias/index.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(i=>{const e=i.editions[i.editions.length-1];return fetch("noticias/"+e+".json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(x=>e+x.generated)}),
   labels:{running:"Gerando a edição: lendo os portais (10 a 20 minutos)…"}});
 
-/* Virar pauta com um clique (via intermediário) */
+/* Pauta do programa com um clique: entra como item avulso no início da pauta */
+document.addEventListener("click",async e=>{
+  const b=e.target.closest("button[data-prog]");if(!b)return;
+  const it=(ED.items||[]).find(x=>x.id===b.dataset.prog);if(!it)return;
+  const st=b.parentElement.querySelector(".pst"),say=t=>{if(st)st.textContent=" "+t};const d=progDay();
+  b.disabled=true;say("Enviando…");
+  try{await Painel.call("/avulso",{pedido:progPedido(it),data:d,obs:"Veio da página de Notícias."});
+    b.textContent="Enviado para o programa ✓";
+    say(`Entra no início da pauta do programa de ${dBR(d)} em 3 a 10 minutos (se a pauta estiver sendo gerada, espera ela terminar).`);
+  }catch(err){say(err.message);b.disabled=false}
+});
+
+/* Post do Instagram com um clique (via intermediário) */
 document.addEventListener("click",async e=>{
   const b=e.target.closest("button[data-pauta]");if(!b)return;
   const it=(ED.items||[]).find(x=>x.id===b.dataset.pauta);if(!it)return;
-  const st=b.nextElementSibling,say=t=>{if(st)st.textContent=" "+t};
+  const st=b.parentElement.querySelector(".pst"),say=t=>{if(st)st.textContent=" "+t};
   b.disabled=true;say("Enviando pedido…");
   try{
     await Painel.call("/pauta",{title:it.title,body:BODIES[it.id]});
     b.textContent="Pedido enviado ✓";
-    say("A pauta fica pronta em uns 10 minutos, em Pautas > Sob demanda.");
+    say("As opções de post ficam prontas em uns 10 minutos, em Pautas > Conteúdo do Instagram > Sob demanda.");
     Painel.track({wf:"sob-demanda.yml",since:new Date(Date.now()-90e3),minutes:20,say,
       stamp:()=>fetch("pautas/sob-demanda.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(j=>String((j.items[0]||{}).done)),
       labels:{wait:"Pedido na fila…",running:"Gerando a pauta (uns 10 minutos)…"}});
