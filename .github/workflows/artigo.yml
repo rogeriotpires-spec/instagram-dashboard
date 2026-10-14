@@ -47,6 +47,7 @@ jobs:
           python3 tools/artigo_preservar.py "artigos/$ID.json" pedido-artigo.json /tmp/original.json
           if ! OUT=$(python3 tools/artigo_validar.py "artigos/$ID.json" 2>&1); then echo "::error::$OUT"; exit 1; fi
           python3 tools/artigo_validar.py "artigos/$ID.json" pedido-artigo.json >/dev/null 2>/tmp/av || echo "::warning::$(cat /tmp/av)"
+          python3 tools/voz_check.py "artigos/$ID.json" >/tmp/vz 2>&1 || echo "::warning::Voz editorial: $(tr '\n' ' ' </tmp/vz)"
           echo "::notice::$OUT"
           cp "artigos/$ID.json" /tmp/artigo.json
           [ -f novos-aprendizados.json ] && cp novos-aprendizados.json /tmp/novos.json || echo "[]" > /tmp/novos.json
