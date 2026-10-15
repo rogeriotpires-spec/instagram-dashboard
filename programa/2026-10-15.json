@@ -2,8 +2,8 @@
  "date": "2026-10-15",
  "generated": "2026-10-15T10:26:02-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Senado aprova o fim da escala 6x1 por 75 a 1, vota a PEC da Segurança e vídeo de Vorcaro em Londres reabre o caso Master",
- "abertura": "O Senado aprovou o fim da escala 6x1 por 75 votos a 1, e o plenário vota hoje a PEC da Segurança, com a oposição pedindo maioridade penal aos 16 anos. O vídeo da festa de Vorcaro em Londres, em 2024, colocou a mulher de Moraes, Gonet e o diretor da PF na mesma recepção do dono do Master. No Rio, a PF prendeu Márcio Canella e o ex-chefe da Polícia Civil na oitava fase da Operação Unha e Carne, com R$ 7,6 bilhões sob investigação. Na economia, o querosene de aviação 74% mais caro faz a Gol cortar rotas, e o TSE cobra explicações da Meta sobre a campanha de Lula.",
+ "titulo": "TSE libera o canal Exército do Lula com condições, Senado vota a PEC da Segurança e aprova o fim da escala 6x1 por 75 a 1",
+ "abertura": "O presidente do TSE, Nunes Marques, autorizou a volta do canal Exército do Lula, de Janones, em 48 horas e com a obrigação de identificar o responsável pela propaganda, num caso aberto a pedido da campanha de Flávio. O Senado vota hoje a PEC da Segurança, com a oposição pedindo maioridade penal aos 16 anos. Na quarta, os senadores aprovaram o fim da escala 6x1 por 75 votos a 1. O vídeo da festa de Vorcaro em Londres reabre o caso Master, e no Rio a PF prendeu Márcio Canella na Operação Unha e Carne.",
  "agenda": [
   {
    "time": "Quinta (15), 14h",
@@ -23,6 +23,97 @@
   }
  ],
  "itens": [
+  {
+   "id": "exercito-do-lula-canal",
+   "bloco": "STF e instituições",
+   "titulo": "Nunes Marques libera o canal Exército do Lula no WhatsApp após registro na campanha",
+   "subtitulo": "Canal de Janones, com cerca de 4 milhões de seguidores, volta em 48 horas e precisa identificar o responsável pela propaganda",
+   "resumo": "O presidente do TSE, Nunes Marques, mandou suspender o canal Exército do Lula no domingo (11), a pedido da campanha de Flávio Bolsonaro, e na terça (13) autorizou a volta depois de a campanha de Lula informar o endereço no registro de candidatura. O canal foi criado em 5 de outubro pelo deputado André Janones (Rede-MG) e tem cerca de 4 milhões de seguidores. A volta vale em 48 horas e vem com a obrigação de identificar perante os usuários o responsável pela propaganda eleitoral, e informar o endereço à Justiça não substitui essa exigência. A campanha de Flávio sustenta que o canal espalhou notícias falsas, como cortes em aposentadorias e a retirada do título de padroeira de Nossa Senhora Aparecida, e aponta 219 postagens apagadas em 18 minutos na madrugada de 8 de outubro. A decisão final cabe ao plenário do TSE, e o corregedor Ricardo Villas Bôas Cueva já havia restabelecido o canal no mesmo domingo, em menos de 4 minutos, e abriu uma ação de investigação judicial.",
+   "contexto": [
+    "5 de outubro: Janones cria o canal para mobilizar apoiadores da reeleição de Lula.",
+    "11 de outubro: Nunes Marques manda a Meta suspender o canal até a homologação do 2º turno, marcada para 25 de outubro; o corregedor Cueva o restabelece no mesmo dia.",
+    "12 de outubro: a defesa de Flávio pede à Meta e ao Google registros de exclusões e edições e a exclusão de 499 mensagens é citada na petição; a Meta recebe 24 horas para se manifestar.",
+    "13 de outubro: Nunes Marques autoriza a volta em 48 horas, com a obrigação de identificar o responsável pela propaganda; as fontes divergem sobre de quando o prazo é contado.",
+    "Ministros do TSE criticaram a decisão de Nunes Marques de atropelar o prazo de 72 horas que Cueva havia dado à campanha de Lula para prestar informações."
+   ],
+   "angulo": [
+    "Canal de propaganda de campanha com 4 milhões de seguidores tem de dizer quem paga e quem responde, e a decisão do TSE confirma que essa regra vale para o lado de Lula.",
+    "A campanha de Flávio levou à Justiça fatos concretos: mensagens falsas sobre aposentadoria e Aparecida, e 219 postagens apagadas em 18 minutos, o que dificulta a prova.",
+    "A discussão sobre quem decide, a Presidência ou a Corregedoria, mostra como a eleição fica refém de decisões monocráticas, e o plenário precisa dar a palavra final.",
+    "A direita não pede censura: pede transparência e cumprimento da lei eleitoral por quem faz propaganda."
+   ],
+   "perguntas": [
+    "Quem responde pelo conteúdo do canal depois que ele identificar o responsável pela propaganda?",
+    "Por que apagar 219 postagens em 18 minutos, na madrugada, se o conteúdo era regular?",
+    "O plenário do TSE deve decidir antes do segundo turno?"
+   ],
+   "atencao": "Fontes divergem sobre a contagem das 48 horas e o plenário do TSE ainda não deu decisão final; a campanha de Flávio fala em notícias falsas, o que ainda será apurado.",
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes/nunes-marques-libera-canal-de-whatsapp-exercito-do-lula/"
+    },
+    {
+     "name": "Tribuna do Sertão",
+     "url": "https://tribunadosertao.com.br/geral/2026/10/12/995617-flavio-critica-decisao-do-tse-que-restabeleceu-canal-pro-lula-criado-por-janones"
+    },
+    {
+     "name": "DGABC",
+     "url": "https://www.dgabc.com.br/Noticia/4352509/nunes-marques-autoriza-que-canal-exercito-do-lula-volte-a-funcionar-apos-48h"
+    },
+    {
+     "name": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/123215/nunes-marques-libera-exercito-do-lula-apos-registro-como-propaganda"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Nunes Marques manda restabelecer o canal \"Exército do Lula\" no WhatsApp; Flávio defendeu a liberação"
+  },
+  {
+   "id": "pec-seguranca-votacao",
+   "bloco": "Segurança pública",
+   "titulo": "Senado vota a PEC da Segurança nesta quinta, e oposição quer incluir maioridade penal aos 16",
+   "subtitulo": "Calendário especial dispensa sessões de discussão, e emenda de Marinho com 36 assinaturas a mais pode fazer o texto voltar à Câmara",
+   "resumo": "O Senado pauta para esta quinta (15), a partir das 14h, a PEC 18/2025, da Segurança Pública, depois de aprovar na quarta um calendário especial sem sessões de discussão. O texto cria o Sistema Único de Segurança Pública na Constituição e a Polícia Viária Federal, endurece o combate às facções e prevê fundos para estados e municípios. A oposição apoia a pressa, mas Rogério Marinho (PL-RN) apresentou emenda, com mais 36 assinaturas, que reduz a maioridade penal de 18 para 16 anos, com responsabilização a partir de 14 em crimes como hediondos, tortura, tráfico e terrorismo. Flávio Bolsonaro defende a emenda para aprimorar o texto e chama a PEC de nome bonitinho se não enfrentar o crime de verdade. Se a emenda passar, a PEC volta à Câmara, e o brasileiro que vive sob o domínio de facções espera mais que um rótulo de integração.",
+   "contexto": [
+    "A CCJ concluiu a análise na quarta (14), sem alterar os trechos destacados.",
+    "O relator, Rogério Carvalho (PT-SE), manteve o texto da Câmara para evitar que a PEC volte para lá.",
+    "A emenda de Marinho pede maioridade de 16 anos, com responsabilização a partir de 14 em crimes hediondos, tortura, tráfico e terrorismo.",
+    "PT e governo são contra projetos de redução da maioridade.",
+    "A Câmara já tem uma comissão especial sobre uma PEC da maioridade penal.",
+    "O requerimento de calendário especial foi apresentado por Eduardo Braga (MDB) e outros líderes, e Alcolumbre incluiu a PEC na pauta de quinta ao fim da sessão de quarta."
+   ],
+   "angulo": [
+    "Segurança pública é a maior preocupação do cidadão, e a PEC só vale a pena se mirar quem comanda o crime, não a burocracia de integração.",
+    "Reduzir a maioridade penal é resposta a um problema real: facções recrutam menores justamente porque sabem que não pagam o preço.",
+    "Se o governo e o PT barram a emenda, ficam diante do eleitor como quem protege o aliciamento de adolescentes pelo tráfico.",
+    "A oposição ajuda a votar rápido e quer um texto melhor, sem esperar a eleição."
+   ],
+   "perguntas": [
+    "A PEC resolve o problema das facções sem a mudança na maioridade penal?",
+    "Vale o risco de a PEC voltar à Câmara para incluir a emenda de Marinho?",
+    "O que o cidadão do Rio vai notar de diferente com o SUSP e a Polícia Viária Federal?"
+   ],
+   "fontes": [
+    {
+     "name": "ND Mais",
+     "url": "https://ndmais.com.br/politica/pec-da-seguranca-publica-pode-ser-votada-nesta-quinta-15-no-senado/"
+    },
+    {
+     "name": "Bahia Notícias",
+     "url": "https://www.bahianoticias.com.br/noticia/322472-senado-vota-pec-da-seguranca-publica-nesta-quinta-e-oposicao-quer-incluir-fim-da-maioridade-penal-no-texto"
+    },
+    {
+     "name": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/politica/senado-deve-votar-ainda-esta-semana-pec-da-seguranca-publica-diz-otto-alencar/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Senado vota a PEC da Segurança Pública nesta quinta (15) após aprovar rito acelerado",
+   "fundido": [
+    "Senado vota a PEC da Segurança nesta quinta, e oposição quer incluir maioridade penal aos 16"
+   ]
+  },
   {
    "id": "pec-6x1-aprovada",
    "bloco": "Política nacional",
@@ -92,41 +183,6 @@
     {
      "name": "Terra",
      "url": "https://www.terra.com.br/noticias/brasil/politica/video-mostra-vorcaro-com-dirigente-da-pf-e-ex-ministros-de-lula-e-bolsonaro-em-festa-em-londres,4905e5796d98601bf3cbeef8f8b83f63390tp4r3.html"
-    }
-   ]
-  },
-  {
-   "id": "pec-seguranca-votacao",
-   "bloco": "Segurança pública",
-   "titulo": "Senado vota a PEC da Segurança nesta quinta, e oposição quer incluir maioridade penal aos 16",
-   "subtitulo": "Emenda de Marinho tem 36 assinaturas além da dele, e, se passar, o texto volta à Câmara",
-   "resumo": "O Senado pauta para esta quinta (15), a partir das 14h, a PEC 18/2025, da Segurança Pública, depois de aprovar na quarta um calendário especial sem sessões de discussão. O texto cria o Sistema Único de Segurança Pública na Constituição e a Polícia Viária Federal, endurece o combate às facções e prevê fundos para estados e municípios. A oposição apoia a pressa, mas Rogério Marinho (PL-RN) apresentou emenda, com mais 36 assinaturas, que reduz a maioridade penal de 18 para 16 anos, com responsabilização a partir de 14 em crimes como hediondos, tortura, tráfico e terrorismo. Flávio Bolsonaro defende a emenda para aprimorar o texto e chama a PEC de nome bonitinho se não enfrentar o crime de verdade. Se a emenda passar, a PEC volta à Câmara, e o brasileiro que vive sob o domínio de facções espera mais que um rótulo de integração.",
-   "contexto": [
-    "A CCJ concluiu a análise na quarta (14), sem alterar os trechos destacados.",
-    "O relator, Rogério Carvalho (PT-SE), manteve o texto da Câmara para evitar que a PEC volte para lá.",
-    "A emenda de Marinho pede maioridade de 16 anos, com responsabilização a partir de 14 em crimes hediondos, tortura, tráfico e terrorismo.",
-    "PT e governo são contra projetos de redução da maioridade.",
-    "A Câmara já tem uma comissão especial sobre uma PEC da maioridade penal."
-   ],
-   "angulo": [
-    "Segurança pública é a maior preocupação do cidadão, e a PEC só vale a pena se mirar quem comanda o crime, não a burocracia de integração.",
-    "Reduzir a maioridade penal é resposta a um problema real: facções recrutam menores justamente porque sabem que não pagam o preço.",
-    "Se o governo e o PT barram a emenda, ficam diante do eleitor como quem protege o aliciamento de adolescentes pelo tráfico.",
-    "A oposição ajuda a votar rápido e quer um texto melhor, sem esperar a eleição."
-   ],
-   "perguntas": [
-    "A PEC resolve o problema das facções sem a mudança na maioridade penal?",
-    "Vale o risco de a PEC voltar à Câmara para incluir a emenda de Marinho?",
-    "O que o cidadão do Rio vai notar de diferente com o SUSP e a Polícia Viária Federal?"
-   ],
-   "fontes": [
-    {
-     "name": "ND Mais",
-     "url": "https://ndmais.com.br/politica/pec-da-seguranca-publica-pode-ser-votada-nesta-quinta-15-no-senado/"
-    },
-    {
-     "name": "Bahia Notícias",
-     "url": "https://www.bahianoticias.com.br/noticia/322472-senado-vota-pec-da-seguranca-publica-nesta-quinta-e-oposicao-quer-incluir-fim-da-maioridade-penal-no-texto"
     }
    ]
   },
@@ -234,5 +290,6 @@
     }
    ]
   }
- ]
+ ],
+ "atualizado": "2026-10-15T10:49:43-03:00"
 }
