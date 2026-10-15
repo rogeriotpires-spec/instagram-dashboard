@@ -2,6 +2,84 @@
  "items": [
   {
    "requested": "2026-10-15",
+   "done": "2026-10-15T20:30:34-03:00",
+   "issue": 65,
+   "slot_hint": "Imagem hoje (15) às 22h ou reel amanhã (16) às 12h.",
+   "source": {
+    "edition": "2026-10-15-19h",
+    "item_id": "x:7",
+    "title": "Em alta no X: Grupo Globo"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "realista",
+     "title": "Globo demite diretor-geral Frederic Kachar após vazamento de conversas com Vorcaro",
+     "tone": "seco, contundente",
+     "duration": "imagem única",
+     "fact": "O Grupo Globo demitiu em 15 de outubro de 2026 Frederic Kachar, diretor-geral de Mídia Impressa e Rádio, depois do vazamento de conversas dele com Daniel Vorcaro, ex-dono do Banco Master, preso desde março. As mensagens, de outubro de 2023 a julho de 2025, vieram do celular de Vorcaro apreendido pela PF em novembro de 2025. Nelas, Kachar trata de patrocínio do Banco Master a eventos do grupo e de reportagens de interesse do banqueiro. Em abril de 2025, Vorcaro reclama de matéria de Malu Gaspar e diz que vai falar com ela; Kachar responde que tenta conversar com a jornalista. Em nota, a Globo diz que as conversas revelam relação inadequada de um executivo com um anunciante e reafirma compromisso com a independência editorial. Não há confirmação de que a cobertura tenha mudado.",
+     "sources": [
+      {
+       "name": "Gazeta do Povo",
+       "url": "https://www.gazetadopovo.com.br/republica/diretor-demitido-da-globo-tratou-de-reportagens-com-vorcaro/"
+      },
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/colunas/fabia-oliveira/globo-demite-frederic-kachar-apos-vazamento-de-conversas-com-vorcaro"
+      }
+     ],
+     "art_text": [
+      "Globo demite diretor-geral",
+      "Conversas com Vorcaro",
+      "Patrocínio e reportagens na mesma mensagem",
+      "Imagem ilustrativa",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Sem rosto de pessoa real. Cena fotográfica de uma redação vazia à noite, com um crachá corporativo sem nome sobre uma mesa ao lado de um celular. Risco médio.",
+     "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo: redação de um grande grupo de mídia vazia à noite, fileira de mesas com monitores apagados, em primeiro plano um crachá corporativo sem nome e um celular com a tela acesa mostrando apenas balões de conversa borrados, sem texto legível. Sem pessoas reconhecíveis, sem logos. No alto, em letras condensadas, brancas e pesadas: 'GLOBO DEMITE DIRETOR-GERAL'. Num quadro amarelo no meio: 'Conversas com Vorcaro'. Embaixo, com sublinhado vermelho pincelado: 'Patrocínio e reportagens na mesma mensagem'. No canto inferior esquerdo, selo pequeno: 'Imagem ilustrativa'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+     "caption": "A Globo demitiu o diretor-geral Frederic Kachar depois do vazamento de conversas dele com Daniel Vorcaro. As mensagens tratam de patrocínio do Banco Master a eventos do grupo e de reportagens de interesse do banqueiro. A própria Globo diz que revelam relação inadequada de um executivo com um anunciante. Quem cobra independência da imprensa tem de cobrar de todos. Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Vorcaro é investigado e está preso: não afirme crime dele nem de Kachar. Kachar foi demitido por relação inadequada com anunciante, segundo a Globo; não há confirmação de que a cobertura mudou, não diga que mudou. Não generalize para todos os jornalistas do grupo. Não cite Malu Gaspar como alvo de ato ilícito de Kachar."
+    },
+    {
+     "type": "r",
+     "title": "Globo demite diretor-geral Frederic Kachar após vazamento de conversas com Vorcaro",
+     "tone": "contundente",
+     "duration": "40s",
+     "fact": "O Grupo Globo demitiu em 15 de outubro de 2026 Frederic Kachar, diretor-geral de Mídia Impressa e Rádio, depois do vazamento de conversas dele com Daniel Vorcaro, ex-dono do Banco Master, preso desde março. As mensagens, de outubro de 2023 a julho de 2025, vieram do celular de Vorcaro apreendido pela PF em novembro de 2025. Nelas, Kachar trata de patrocínio do Banco Master a eventos do grupo e de reportagens de interesse do banqueiro. Em abril de 2025, Vorcaro reclama de matéria de Malu Gaspar e diz que vai falar com ela; Kachar responde que tenta conversar com a jornalista. Em nota, a Globo diz que as conversas revelam relação inadequada de um executivo com um anunciante e reafirma compromisso com a independência editorial. Não há confirmação de que a cobertura tenha mudado.",
+     "sources": [
+      {
+       "name": "Gazeta do Povo",
+       "url": "https://www.gazetadopovo.com.br/republica/diretor-demitido-da-globo-tratou-de-reportagens-com-vorcaro/"
+      },
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/colunas/fabia-oliveira/globo-demite-frederic-kachar-apos-vazamento-de-conversas-com-vorcaro"
+      }
+     ],
+     "hooks": [
+      "A Globo demitiu o diretor-geral depois das conversas com Vorcaro.",
+      "Patrocínio do Master e reportagem na mesma conversa."
+     ],
+     "script": "A Globo demitiu o diretor-geral Frederic Kachar. O motivo são conversas dele com Daniel Vorcaro, o ex-dono do Banco Master, que está preso. As mensagens, de 2023 a 2025, vieram do celular do banqueiro, apreendido pela Polícia Federal. Nelas, Kachar fala de patrocínio do Master a eventos do grupo e de reportagens do interesse de Vorcaro. Em abril de 2025, o banqueiro reclama de uma matéria e diz que vai falar com a jornalista. Kachar responde que também tenta conversar com ela. A própria Globo diz, em nota, que as conversas mostram uma relação inadequada de um executivo com um anunciante. Não há confirmação de que a cobertura tenha mudado. Mas a pergunta fica: quem cobra a independência dos outros, cobra a própria? Comenta aqui.",
+     "screen_text": [
+      "Globo demite diretor-geral",
+      "Conversas com Vorcaro",
+      "Patrocínio do Master a eventos do grupo",
+      "Globo fala em relação inadequada com anunciante"
+     ],
+     "caption": "A Globo demitiu o diretor-geral Frederic Kachar depois do vazamento de conversas com Vorcaro. A empresa fala em relação inadequada com um anunciante. Não há confirmação de que a cobertura tenha mudado. Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Vorcaro é investigado e está preso: não afirme crime dele nem de Kachar. Kachar foi demitido por relação inadequada com anunciante, segundo a Globo; não há confirmação de que a cobertura mudou, não diga que mudou. Não generalize para todos os jornalistas do grupo. Não cite Malu Gaspar como alvo de ato ilícito de Kachar.",
+     "timeline": {
+      "rende": true,
+      "angle": "Imprensa e independência: a relação entre anunciantes, patrocínio de eventos e cobertura, a partir da demissão de Kachar."
+     }
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-15",
    "done": "2026-10-15T18:57:23-03:00",
    "issue": 64,
    "slot_hint": "Imagem hoje (15) às 21h ou reel amanhã (16) às 12h.",
