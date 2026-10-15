@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-16",
+  "weekday": "Sex",
+  "generated": "2026-10-15T20:00:08-03:00",
+  "summary": "Sexta com a Globo às voltas com o caso Vorcaro: o grupo demitiu o diretor-geral Frederic Kachar por conversas com o banqueiro. No Rio, o PSD foi ao STF para tentar derrubar a eleição de Douglas Ruas no 1º turno. E o fim da escala 6x1, aprovado por 75 a 1, segue para a promulgação, enquanto Lula barrou o plano do PT de reduzir a maioridade penal.",
+  "agenda": [
+    {
+      "time": "16/10",
+      "text": "Promulgação do fim da escala 6x1 prevista pelo Congresso depois da aprovação no Senado por 75 a 1. A jornada cai para 42 horas dois meses após a promulgação.",
+      "source": {
+        "name": "Senado Notícias",
+        "url": "https://www12.senado.leg.br/noticias/senado-agora/2026/10/14/aprovado-em-segundo-turno-fim-da-6x1-vai-a-promulgacao"
+      }
+    },
+    {
+      "time": "A definir",
+      "text": "STF analisa a ação do PSD que pede restabelecer o 2º turno entre Ruas e Paes no Rio. O partido pede decisão urgente e que ministros que julgaram o caso no TSE fiquem fora do sorteio.",
+      "source": {
+        "name": "Metrópoles",
+        "url": "https://www.metropoles.com/brasil/rj-psd-vai-ao-stf-contra-decisao-que-elegeu-douglas-ruas-no-1o-turno"
+      }
+    },
+    {
+      "time": "18/10",
+      "text": "Debate da Band entre Lula e Flávio Bolsonaro, o primeiro do segundo turno.",
+      "source": {
+        "name": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-confirma-ida-ao-debate-da-band/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem de impacto",
+      "options": [
+        {
+          "title": "Globo demite o diretor-geral Frederic Kachar por conversas com Vorcaro",
+          "tone": "contundente",
+          "style": "realista",
+          "fact": "Na quinta (15), o Grupo Globo comunicou o desligamento de Frederic Kachar, diretor-geral de Mídia Impressa e Rádio, 29 anos de casa. Segundo a nota da empresa, as conversas dele com Daniel Vorcaro, de outubro de 2023 a julho de 2025, revelam uma \"relação inadequada do executivo com um anunciante\". A Globo diz que teve acesso ao conteúdo na quarta (14) e que o substituto será anunciado em breve. A nota reafirma a \"absoluta independência editorial\" dos veículos do grupo.",
+          "sources": [
+            {
+              "name": "Correio Braziliense",
+              "url": "https://www.correiobraziliense.com.br/politica/2026/10/7521310-globo-anuncia-saida-do-ceo-frederic-kachar-apos-conversas-com-vorcaro.html"
+            }
+          ],
+          "art_text": [
+            "Demitido por conversas com Vorcaro",
+            "\"Relação inadequada com um anunciante\"",
+            "Anunciante manda em redação?",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Redação vazia à noite, mesa com celular de tela acesa mostrando apenas balões de conversa borrados, jornais empilhados e uma cadeira de diretor vazia. Não use foto de Kachar nem de Vorcaro. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, redação de jornal vazia à noite, luz fria de monitores, uma mesa de diretoria em primeiro plano com um celular de tela acesa mostrando balões de conversa ilegíveis e borrados, pilha de jornais impressos sem títulos legíveis e uma cadeira de couro vazia afastada da mesa. Sem pessoas e sem nenhum logo de veículo. No terço superior, sobre faixa escura semitransparente, em branco, letras condensadas, grandes e muito pesadas: \"Demitido por conversas com Vorcaro\". No meio, num quadro amarelo com letras pretas: \"Relação inadequada com um anunciante\". Embaixo, em branco com sublinhado vermelho pincelado: \"Anunciante manda em redação?\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A Globo demitiu o diretor-geral de Mídia Impressa e Rádio por conversas com Daniel Vorcaro e diz que a relação com o anunciante era inadequada. Anunciante deve ter esse tipo de acesso a quem comanda a imprensa? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "O ponto é a nota da Globo, que fala em relação inadequada com anunciante. Não acuse Kachar de crime nem repita o conteúdo de mensagens que não foi confirmado em matéria aberta (há relatos sensacionalistas). Vorcaro é investigado, não condenado.",
+          "timeline": {
+            "rende": true,
+            "angle": "Imprensa, anunciante e banqueiro: o que a demissão na Globo revela sobre a relação entre quem paga e quem noticia, e por que o caso Master chegou às redações."
+          }
+        },
+        {
+          "title": "PSD vai ao STF para derrubar a eleição de Douglas Ruas no 1º turno",
+          "tone": "sóbrio com urgência",
+          "style": "ilustracao",
+          "desdobramento": "O PSD protocolou na quarta (14) uma ação no STF para restabelecer o 2º turno entre Ruas e Paes, fato que não existia nas pautas anteriores.",
+          "fact": "Depois que o TSE anulou os 274.411 votos de Anthony Garotinho e o TRE-RJ refez a totalização, Douglas Ruas (PL) foi de 49,27% para 50,88% dos votos válidos e Eduardo Paes (PSD), de 42,76% para 44,16%. Na quarta (14), o PSD pediu ao STF urgência para suspender os efeitos da decisão do TSE e restabelecer o 2º turno em 25/10; o partido também quer fora do sorteio os ministros que participaram do julgamento no TSE. O TRE-RJ marcou para quinta (15) a proclamação do resultado definitivo.",
+          "sources": [
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/rj-psd-vai-ao-stf-contra-decisao-que-elegeu-douglas-ruas-no-1o-turno"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/eleicoes/tre-rj-anuncia-resultado-definitivo-da-eleicao-para-governador-nesta-quinta/"
+            }
+          ],
+          "art_text": [
+            "50,88%",
+            "Ruas já foi eleito. O PSD quer outra eleição.",
+            "Segundo turno no tapetão?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Douglas Ruas (PL), governador eleito, e Eduardo Paes (PSD), adversário, ambos com relação direta com a ação no STF. Ilustração estilo charge, sem foto real. Risco baixo: Ruas de braços cruzados e Paes olhando para o prédio do STF ao fundo, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Douglas Ruas (governador eleito do Rio pelo PL, cabelo curto, terno escuro) de braços cruzados, firme, e ao lado Eduardo Paes (PSD, terno escuro) olhando de canto para a fachada estilizada do prédio do STF ao fundo, com expressão de contrariedade. Ao fundo, menor, a silhueta do Cristo Redentor. No alto, número gigante em amarelo, letras condensadas e muito pesadas: \"50,88%\". Logo abaixo, em branco, letras grandes e pesadas: \"Ruas já foi eleito. O PSD quer outra eleição.\". Embaixo, com sublinhado vermelho pincelado: \"Segundo turno no tapetão?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "O TSE anulou os votos de Garotinho, Ruas passou de 50% e foi eleito no 1º turno. O PSD foi ao STF pedir o 2º turno. O resultado das urnas deve ser respeitado? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A ação é do PSD e o STF ainda não decidiu: não antecipe o resultado nem insinue pressão sobre ministros. Se o STF decidir antes de publicar, troque a frase pelo desfecho real. Percentuais variam entre veículos; use os do TRE-RJ.",
+          "timeline": {
+            "rende": true,
+            "angle": "Voto anulado e eleição decidida: a tese do PSD, a regra dos votos sub judice e o que o STF pode decidir sobre o segundo turno no Rio."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Caixa de pergunta: o que você quer saber?",
+      "options": [
+        {
+          "title": "Lula barra a emenda do PT e manda votar a PEC da Segurança sem mudanças",
+          "tone": "irônico, sem ofensa",
+          "style": "print",
+          "desdobramento": "Lula orientou a base a votar a PEC da Segurança sem emendas e barrou o plano do líder do PT, Camilo Santana, de reduzir a maioridade penal para 16 anos em crimes hediondos, fato novo em 15/10.",
+          "fact": "O líder do PT no Senado, Camilo Santana, articulava reduzir a maioridade penal de 18 para 16 anos em crimes hediondos, para neutralizar uma emenda mais dura da oposição. Lula interrompeu o plano e orientou a base a aprovar a PEC da Segurança sem emendas. O Planalto alega que qualquer mudança faria o texto voltar à Câmara e atrasaria a votação, que o governo quer antes do segundo turno para anunciar o Ministério da Segurança Pública. O PT é historicamente contra reduzir a maioridade.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-lula-interrompe-plano-do-pt-sobre-maioridade-penal-e-prioriza-pec-da-seguranca-publica/"
+            }
+          ],
+          "slides": [
+            "O líder do PT queria reduzir a maioridade penal",
+            "De 18 para 16 anos, em crimes hediondos",
+            "Lula mandou parar e votar sem emendas",
+            "Motivo: o texto voltaria à Câmara",
+            "Antes do segundo turno, o governo quer o Ministério da Segurança"
+          ],
+          "poll": {
+            "question": "Você é a favor de reduzir a maioridade penal em crimes hediondos?",
+            "options": [
+              "Sou a favor",
+              "Sou contra"
+            ]
+          },
+          "caption": "O PT queria reduzir a maioridade penal, e Lula mandou parar. Na caixa de perguntas: o que você quer saber sobre segurança pública?",
+          "risk": "médio",
+          "risk_note": "Tema sensível: trate a maioridade como debate de política pública, sem generalizar jovens. A ideia de Camilo é reportada pela Gazeta do Povo; atribua a ela se citar a motivação política do Planalto.",
+          "timeline": {
+            "rende": true,
+            "angle": "Maioridade penal na PEC da Segurança: por que o PT recuou, o que a oposição propõe e como o tema entrou na disputa do segundo turno."
+          }
+        },
+        {
+          "title": "Senado aprova o fim da escala 6x1 por 75 a 1, e o texto vai à promulgação",
+          "tone": "sóbrio",
+          "style": "print",
+          "desdobramento": "O Senado concluiu a votação da PEC em 14/10, por 75 a 1, e o texto vai à promulgação: fato novo em relação às pautas anteriores sobre o calendário.",
+          "fact": "O Senado aprovou em segundo turno, por 75 votos a 1, a PEC 221/2019, que acaba com a escala 6x1. A jornada semanal cai para 42 horas dois meses após a promulgação da emenda, que deve sair nos próximos dias. O único voto contrário foi do senador Hamilton Mourão (Republicanos-RS).",
+          "sources": [
+            {
+              "name": "Senado Notícias",
+              "url": "https://www12.senado.leg.br/noticias/senado-agora/2026/10/14/aprovado-em-segundo-turno-fim-da-6x1-vai-a-promulgacao"
+            }
+          ],
+          "slides": [
+            "Senado aprova o fim da 6x1",
+            "75 votos a 1",
+            "Jornada cai para 42 horas",
+            "Vale dois meses após a promulgação",
+            "Quem vai pagar a conta da transição?"
+          ],
+          "poll": {
+            "question": "Dois meses de transição bastam para o pequeno comércio se adaptar?",
+            "options": [
+              "Bastam",
+              "Não bastam"
+            ]
+          },
+          "caption": "A 6x1 acabou no Senado por 75 a 1. Dois meses bastam para o pequeno comércio? Abra a caixa de perguntas e mande o que você quer saber.",
+          "risk": "médio",
+          "risk_note": "Tema popular: critique o prazo e o custo para o pequeno negócio, nunca o descanso do trabalhador. Prazos e horas variam entre veículos (42h em dois meses é o que consta do Senado); cite só o que está na fonte. A promulgação ainda não ocorreu até a geração desta pauta.",
+          "timeline": {
+            "rende": true,
+            "angle": "O fim da 6x1 aprovado: o que muda, quem paga a transição nos pequenos negócios e por que a votação avançou às vésperas do segundo turno."
+          }
+        }
+      ]
+    }
+  ]
+}
