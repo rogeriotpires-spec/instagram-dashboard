@@ -562,6 +562,20 @@
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTGFnZE1qMlB2QXhnWVpvZzNZV21yMG9oN0FyU0RqTnlsRXdtV2xhYThiWkV2QUFiVzBocVVhcjBQR3plOGlacXpZcHBsVlZ5djQtZ0tPb1I0NGZwb1d4ZVpGajM2TEV2dmRxT0xHbXJFVkUxMnBXVDl3eThuZTIzVkQxMk8ySlRXSFFqaG9WU3E0TTM3MllmVG4zQlVtNUg2ZXJTS20xZUpEdjA?oc=5",
      "camp": "regional",
      "position": "editoria"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUHJIZkRwZlZlSHR0VTBrNXBBRkt3RFJOUWh6VnBkRHkySk8yUFU2aDJ3NXpveXBZNFd0T19jVnF4ZWJHemxmVzl0TWItbjFuU2hhVVMySkw5S05pMHVnMFAxWVFzb0Z1Rzk2ci1DSGV6WG44MlhDTzlKTWsxcFM1U1plcU96T19vM3M5eXUxa1ZlREJjNlliakdNYjJ4dnNVdmtBZDBXUU8?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWkpXM0RmTGVzbkhnSEZjOUE5MTByblFBYlpHZkNHaFJLTUtjZ1R4WlhGLUtLZVlETVBCTzVELU1xTFpaRk8zSDV4aFBiZVBBUHBKUFNnMlUxMzdWOTFLdjFlOUc0QnMyVnZyaU5PSFEtTHByOHJZdHFrSlFfeFY0UHlDS3BycEwtOVUySTBPOTd6N3JBVXFnWllvQUhBYjYyeTNGN2R2WHQ3eUR0QmlNbEF0d2NpRjNOeTJxYnlCUHRtMTI1OXhseEFKYWVoRmVhbE1HdmdTQVoxLXhKQ25Dc1VHdDZmRXJ2WEpN?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1507,12 +1521,12 @@
    "title": "Ucrânia diz que empresa de Musk limitou Starlink em drones; Musk afirma que Trump decide a velocidade da versão militar",
    "summary": "A Ucrânia acusa os EUA de limitar o Starlink em meio a um ataque russo. Elon Musk afirmou que Trump decide a velocidade do Starlink militar na Ucrânia. O Starshield é a versão militar do sistema e é operado pela SpaceX. Zelensky pediu aos Estados Unidos que não fiquem ao lado do agressor. A Ucrânia também planeja usar IA para prever onde os drones russos atacarão.",
    "scores": {
-    "cobertura": 9.3,
+    "cobertura": 10,
     "destaque": 3,
     "persistencia": 5,
     "peso_voce": 4
    },
-   "score": 5.6,
+   "score": 5.9,
    "outlets": [
     {
      "name": "UOL",
@@ -1561,6 +1575,13 @@
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcHNhRkJpRm5tRTVST2pDRFdrT1RVa3ZNNkZqTzlScm1GbFJFMDZNOXBPVkphWlRHc3gxSnl2YjZ3TW42MlNMRjRyMXcySEJEWHdCemhYdndBZWh5QlhqZ21FanpxNWU4akNjbkFWWlBPRkZFX0k1X3N4S3VkNlE2RDViYXZsSTJUbWpUNW9MRUxtNS1EZUlhX2FWWlJVS09aVTUtZW9HV2RXT01DMkRzZkRYdmE3ZUtZaWszWWhsVXh1Zw?oc=5",
      "camp": "centro",
      "position": "editoria"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdlRqSTNnbVVmYjB5eUFha1l3dWpmZ1BoelVjZ19JYkgteGtmUUVSZFg4WHZjNDdLYkRQMW5sWEtVc1ZhRlAwYjRZMjV1ZUNPamkxZkNXdVNXOWgzSG9zM2c0aklnNzY0RGNpVnNGUXBGaUlXQU01MWhZX2JPdGdWZ2I2UE9tQmhOYkl6TU1UNVE3VWFhejNnaThPQUxDU3hXSGxpam5lUjEtRURkTDg3Nw?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1839,6 +1860,13 @@
     {
      "name": "R7",
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaWVFMWtiZGw1TjZZeGg0VmNpMURncGJBMUUtUTlIenhYb0JfcGktakQwNzdCWVZIei1WMzNuM1VwOVdFSFE0Q0dYOGtYNEZ4OHdOT0pNbHVwQmF3aEU4am05aU5KVmZHcXhOdGJEeS1aclVVNmowMWNnS3pQYUFDbERiM255UEgyWEN1RndVSFAxUng1OWdYajZDQzJUOVpOU3RsRjJuZnRjdnJpOWhBbHRwRW1naGNhalMtZk5FT3FfaDR0R3B0UkVITDlFZWxiZjR1aTgyb0s1a2hPazl5X1ZJaw?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUHJIZkRwZlZlSHR0VTBrNXBBRkt3RFJOUWh6VnBkRHkySk8yUFU2aDJ3NXpveXBZNFd0T19jVnF4ZWJHemxmVzl0TWItbjFuU2hhVVMySkw5S05pMHVnMFAxWVFzb0Z1Rzk2ci1DSGV6WG44MlhDTzlKTWsxcFM1U1plcU96T19vM3M5eXUxa1ZlREJjNlliakdNYjJ4dnNVdmtBZDBXUU8?oc=5",
      "camp": "centro",
      "position": "editoria",
      "via": "coleta"
@@ -2356,6 +2384,27 @@
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc2l4d1VRQjVXQ3U4VHUxWWx5NVltV1JTYmRZWWZweVNlbTM0NVYyMHZoM2wxWGpnT21vSDZTclpQSWlCVk0wb3NyVmpZRnJ2U1VEMWVSeGhTcU5idWdpbVQ0MlBLRVh1Q3VUYzlmclQ0ZVZBYWhRMzFBN1h5NGp5N0hoVnZ1Wnl3RC1ucDFiZ1FkT3lGeV9TRTF2NlZlalE?oc=5",
      "camp": "outro",
      "position": "editoria"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHFVMkFwcFg4RTlvdTZKQnY5bTdIaE1xbkdjV21rOTFCRUlwMGZzeFA2d1JuZ29QbW9MYTFnV3ctOEJxVGxQUDVrVVBvM2RaQ1NOSFJtY0Z3Z0hRaUJ4NE80bm1sNklRZjd2LVIzcmYxMUE5NU92OEI1R0hxX3A1RHZQbHFpbXJPTHRwRHF4QUxURnJRTTAydTd6b191S3FnanlTT1d4ODVtZTZpa3Y5MjlPTG1jZjdDQ051akxWSEZaWHJEZUhUdUg0dGg?oc=5",
+     "camp": "centro-esquerda",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORnFQcjg1TjBRXzRnMkdNdUx5MWJUSjB5WnNJdkVaR0hfNEZJUE9LVEdrYmEyQnVSX0ttOUhfTGVsVnhiZkR4Smstak9rd2YxTVdTVHVLWi1OQkxuNVpZOURXa1F6N180ODFCRVZDR1J4UHpXdTR1NjgtSno5YzZUYzY4U2xhdFpjWFo2WVNhb2VuelJ0YXVZNHdyVUh2cVFGOWtJOWxweUNrTFExdUVmemZrZVBtMHlHaXJFSEk3MUU5U3B1SDBrUmRoTmtUVlVPOGxzY9IB4wFBVV95cUxNYVBYa0lpcXNRT1IyZEM4ZkdZUEZ3MTlCWmRSVExjcVc5YnIwYWl4TU1vaDFUVlNjYnFsYVJlc1dlbnJZSzFzWXVGbkVCU21Hb1haWlE1dXh4a25ETXhCOWRLNGlBdkFQUFNMZHltOXdPMHBRNTRUOVVucHN3QVlVb3RPU3RZcW53YzZ1ZEV5MGhPcUNnZlNnVGZ4UkR4QURDVUZhc0lhaDh2eTZzMnRDaHpXamJTR0FEYTZ6U1k0MzM4SlVHZTlyNVdnVkI0clowVEZFZzhxS05jLWUzcnFiWWZfcw?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaEx1VTdnQjlNWUJhSWlFWFBRcGgyQ2d1SjNsQVUwR05BLXFqTHBZV0ZzbWVqb1p5dTI0eEk3MUJfR0NlVksyNUpBbkNxT0N0U2RCN2tnS2pFUUZkMlhnb0N2MlB5UzUxSlAzUFI0YnFBV3RxNG5jTnVPYlViRDJXQVFsRkktQ1BoTGFlbkFod21Xd255QWdXMUJFMm1rNmVxX29VVw?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
