@@ -1,6 +1,34 @@
 {
   "alerts": [
     {
+      "time": "2026-10-15T12:20:04-03:00",
+      "title": "PF prende deputado estadual eleito Márcio Canella e ex-secretário de Polícia Civil do Rio em operação contra lavagem de R$ 7,6 bilhões",
+      "fact": "Nesta quinta (15/10), a Polícia Federal prendeu o deputado estadual eleito Márcio Canella (União-RJ), segundo mais votado para a Alerj, e o delegado Marcus Amim, ex-secretário estadual de Polícia Civil, na 8ª fase da Operação Unha e Carne. Moraes autorizou seis prisões e 16 buscas, o sequestro de bens e a suspensão de 112 empresas, 96 delas postos de combustíveis. Segundo a PF, a rede lavou R$ 7,6 bilhões em seis anos e Canella fazia a articulação política do grupo. As defesas dizem que só falam após acesso aos autos.",
+      "sources": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/canella-exercia-funcao-estrategica-em-esquema-de-r-76-bi-diz-pf/"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/brasil/pf-prende-deputado-eleito-delegado-rj-ligacao-crime-organizado/"
+        },
+        {
+          "name": "Poder360 (decisão de Moraes)",
+          "url": "https://www.poder360.com.br/poder-flash/leia-a-decisao-de-moraes-que-autorizou-a-prisao-de-marcio-canella/"
+        }
+      ],
+      "suggestion": "Reel de reação ainda hoje, entre 14h e 15h, com o que se sabe até agora; imagem realista às 18h com a pergunta sobre crime organizado dentro das instituições do Rio.",
+      "hook": "Um deputado eleito e um ex-secretário de Polícia Civil presos no Rio. A PF fala em R$ 7,6 bilhões lavados em postos de combustível.",
+      "script": "Um deputado eleito e um ex-secretário de Polícia Civil, presos no Rio, na mesma operação. Márcio Canella, o segundo mais votado para a Alerj, e o delegado Marcus Amim. A PF diz que uma rede de postos de combustível lavou R$ 7,6 bilhões em seis anos, com agentes públicos e articulação política. Moraes mandou suspender 112 empresas. Os dois são investigados e as defesas só falam depois de ver os autos. Mas a pergunta fica: quanto do crime organizado já chegou perto do poder no Rio? Você quer que eu acompanhe esse caso aqui? Responde sim ou não nos comentários.",
+      "image_prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, de madrugada, fileira de viaturas da Polícia Federal com giroflex ligado diante de um posto de combustível no Rio de Janeiro, bombas ao fundo e fita de isolamento, sem rosto de ninguém reconhecível, pessoas apenas em silhueta e de costas. No alto, em letras condensadas, brancas e pesadas, em caixa alta: \"R$ 7,6 BILHÕES EM POSTOS\". Num quadro amarelo com letras pretas: \"PF prende deputado eleito no Rio\". Faixa vermelha com \"112 empresas suspensas\". Embaixo, frase forte em branco com sublinhado vermelho pincelado: \"Até onde o crime chegou?\". Selo pequeno \"Imagem ilustrativa\" no canto inferior direito. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+      "style": "realista",
+      "timeline": {
+        "rende": true,
+        "angle": "Deputado eleito e ex-secretário de Polícia Civil presos em esquema de R$ 7,6 bilhões com postos de combustível no Rio: o que a operação diz sobre a infiltração do crime organizado na política e na segurança do estado."
+      }
+    },
+    {
       "time": "2026-10-11T18:01:34-03:00",
       "title": "41 minutos: o TSE mandou derrubar e o corregedor mandou voltar",
       "fact": "Na manhã deste domingo (11/10), o presidente do TSE, Kassio Nunes Marques, mandou a Meta suspender em até 3 horas o canal \"Exército do Lula\", de André Janones (Rede-MG), com 3,3 milhões de inscritos, a pedido da campanha de Flávio Bolsonaro. À tarde, o corregedor-geral Ricardo Villas Bôas Cueva suspendeu a ordem e liberou o canal, dizendo que a defesa de Flávio pediu direto a Nunes Marques 41 minutos depois de um despacho dele. Cueva levou o caso ao plenário, com julgamento preferencial em até 24 horas. Lula chamou a primeira decisão de \"intromissão indevida da Justiça Eleitoral\" e a campanha de Flávio falou em \"complacência com fake news\".",
