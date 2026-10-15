@@ -1,295 +1,337 @@
 {
- "date": "2026-10-15",
- "generated": "2026-10-15T10:26:02-03:00",
- "programa": "Conversa Timeline",
- "titulo": "TSE libera o canal Exército do Lula com condições, Senado vota a PEC da Segurança e aprova o fim da escala 6x1 por 75 a 1",
- "abertura": "O presidente do TSE, Nunes Marques, autorizou a volta do canal Exército do Lula, de Janones, em 48 horas e com a obrigação de identificar o responsável pela propaganda, num caso aberto a pedido da campanha de Flávio. O Senado vota hoje a PEC da Segurança, com a oposição pedindo maioridade penal aos 16 anos. Na quarta, os senadores aprovaram o fim da escala 6x1 por 75 votos a 1. O vídeo da festa de Vorcaro em Londres reabre o caso Master, e no Rio a PF prendeu Márcio Canella na Operação Unha e Carne.",
- "agenda": [
-  {
-   "time": "Quinta (15), 14h",
-   "text": "Plenário do Senado vota a PEC da Segurança Pública (PEC 18/2025).",
-   "source": {
-    "name": "ND Mais",
-    "url": "https://ndmais.com.br/politica/pec-da-seguranca-publica-pode-ser-votada-nesta-quinta-15-no-senado/"
-   }
-  },
-  {
-   "time": "Semana que vem",
-   "text": "Alcolumbre sinaliza promulgar a PEC do fim da escala 6x1 antes do segundo turno.",
-   "source": {
-    "name": "Gazeta do Povo",
-    "url": "https://www.gazetadopovo.com.br/economia/senado-aprova-pec-do-fim-da-escala-6x1/"
-   }
-  }
- ],
- "itens": [
-  {
-   "id": "exercito-do-lula-canal",
-   "bloco": "STF e instituições",
-   "titulo": "Nunes Marques libera o canal Exército do Lula no WhatsApp após registro na campanha",
-   "subtitulo": "Canal de Janones, com cerca de 4 milhões de seguidores, volta em 48 horas e precisa identificar o responsável pela propaganda",
-   "resumo": "O presidente do TSE, Nunes Marques, mandou suspender o canal Exército do Lula no domingo (11), a pedido da campanha de Flávio Bolsonaro, e na terça (13) autorizou a volta depois de a campanha de Lula informar o endereço no registro de candidatura. O canal foi criado em 5 de outubro pelo deputado André Janones (Rede-MG) e tem cerca de 4 milhões de seguidores. A volta vale em 48 horas e vem com a obrigação de identificar perante os usuários o responsável pela propaganda eleitoral, e informar o endereço à Justiça não substitui essa exigência. A campanha de Flávio sustenta que o canal espalhou notícias falsas, como cortes em aposentadorias e a retirada do título de padroeira de Nossa Senhora Aparecida, e aponta 219 postagens apagadas em 18 minutos na madrugada de 8 de outubro. A decisão final cabe ao plenário do TSE, e o corregedor Ricardo Villas Bôas Cueva já havia restabelecido o canal no mesmo domingo, em menos de 4 minutos, e abriu uma ação de investigação judicial.",
-   "contexto": [
-    "5 de outubro: Janones cria o canal para mobilizar apoiadores da reeleição de Lula.",
-    "11 de outubro: Nunes Marques manda a Meta suspender o canal até a homologação do 2º turno, marcada para 25 de outubro; o corregedor Cueva o restabelece no mesmo dia.",
-    "12 de outubro: a defesa de Flávio pede à Meta e ao Google registros de exclusões e edições e a exclusão de 499 mensagens é citada na petição; a Meta recebe 24 horas para se manifestar.",
-    "13 de outubro: Nunes Marques autoriza a volta em 48 horas, com a obrigação de identificar o responsável pela propaganda; as fontes divergem sobre de quando o prazo é contado.",
-    "Ministros do TSE criticaram a decisão de Nunes Marques de atropelar o prazo de 72 horas que Cueva havia dado à campanha de Lula para prestar informações."
-   ],
-   "angulo": [
-    "Canal de propaganda de campanha com 4 milhões de seguidores tem de dizer quem paga e quem responde, e a decisão do TSE confirma que essa regra vale para o lado de Lula.",
-    "A campanha de Flávio levou à Justiça fatos concretos: mensagens falsas sobre aposentadoria e Aparecida, e 219 postagens apagadas em 18 minutos, o que dificulta a prova.",
-    "A discussão sobre quem decide, a Presidência ou a Corregedoria, mostra como a eleição fica refém de decisões monocráticas, e o plenário precisa dar a palavra final.",
-    "A direita não pede censura: pede transparência e cumprimento da lei eleitoral por quem faz propaganda."
-   ],
-   "perguntas": [
-    "Quem responde pelo conteúdo do canal depois que ele identificar o responsável pela propaganda?",
-    "Por que apagar 219 postagens em 18 minutos, na madrugada, se o conteúdo era regular?",
-    "O plenário do TSE deve decidir antes do segundo turno?"
-   ],
-   "atencao": "Fontes divergem sobre a contagem das 48 horas e o plenário do TSE ainda não deu decisão final; a campanha de Flávio fala em notícias falsas, o que ainda será apurado.",
-   "fontes": [
+  "date": "2026-10-15",
+  "generated": "2026-10-15T10:26:02-03:00",
+  "programa": "Conversa Timeline",
+  "titulo": "Eduardo Bolsonaro diz em Washington que não volta para cumprir pena, TSE libera o canal Exército do Lula, Senado vota a PEC da Segurança e aprova o fim da escala 6x1 por 75 a 1",
+  "abertura": "Ao lado de Milei em Washington, Eduardo Bolsonaro disse que não volta ao Brasil para cumprir pena e que Moraes não fica no STF se Flávio vencer. O presidente do TSE, Nunes Marques, autorizou a volta do canal Exército do Lula, de Janones, com a obrigação de identificar o responsável pela propaganda. O Senado vota hoje a PEC da Segurança, com a oposição pedindo maioridade penal aos 16 anos, e na quarta aprovou o fim da escala 6x1 por 75 votos a 1. O vídeo da festa de Vorcaro em Londres reabre o caso Master, e no Rio a PF prendeu Márcio Canella na Operação Unha e Carne.",
+  "agenda": [
     {
-     "name": "Poder360",
-     "url": "https://www.poder360.com.br/poder-eleicoes/nunes-marques-libera-canal-de-whatsapp-exercito-do-lula/"
+      "time": "Quinta (15), 14h",
+      "text": "Plenário do Senado vota a PEC da Segurança Pública (PEC 18/2025).",
+      "source": {
+        "name": "ND Mais",
+        "url": "https://ndmais.com.br/politica/pec-da-seguranca-publica-pode-ser-votada-nesta-quinta-15-no-senado/"
+      }
     },
     {
-     "name": "Tribuna do Sertão",
-     "url": "https://tribunadosertao.com.br/geral/2026/10/12/995617-flavio-critica-decisao-do-tse-que-restabeleceu-canal-pro-lula-criado-por-janones"
-    },
-    {
-     "name": "DGABC",
-     "url": "https://www.dgabc.com.br/Noticia/4352509/nunes-marques-autoriza-que-canal-exercito-do-lula-volte-a-funcionar-apos-48h"
-    },
-    {
-     "name": "Congresso em Foco",
-     "url": "https://www.congressoemfoco.com.br/noticia/123215/nunes-marques-libera-exercito-do-lula-apos-registro-como-propaganda"
+      "time": "Semana que vem",
+      "text": "Alcolumbre sinaliza promulgar a PEC do fim da escala 6x1 antes do segundo turno.",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/economia/senado-aprova-pec-do-fim-da-escala-6x1/"
+      }
     }
-   ],
-   "avulsa": true,
-   "pedido": "Nunes Marques manda restabelecer o canal \"Exército do Lula\" no WhatsApp; Flávio defendeu a liberação"
-  },
-  {
-   "id": "pec-seguranca-votacao",
-   "bloco": "Segurança pública",
-   "titulo": "Senado vota a PEC da Segurança nesta quinta, e oposição quer incluir maioridade penal aos 16",
-   "subtitulo": "Calendário especial dispensa sessões de discussão, e emenda de Marinho com 36 assinaturas a mais pode fazer o texto voltar à Câmara",
-   "resumo": "O Senado pauta para esta quinta (15), a partir das 14h, a PEC 18/2025, da Segurança Pública, depois de aprovar na quarta um calendário especial sem sessões de discussão. O texto cria o Sistema Único de Segurança Pública na Constituição e a Polícia Viária Federal, endurece o combate às facções e prevê fundos para estados e municípios. A oposição apoia a pressa, mas Rogério Marinho (PL-RN) apresentou emenda, com mais 36 assinaturas, que reduz a maioridade penal de 18 para 16 anos, com responsabilização a partir de 14 em crimes como hediondos, tortura, tráfico e terrorismo. Flávio Bolsonaro defende a emenda para aprimorar o texto e chama a PEC de nome bonitinho se não enfrentar o crime de verdade. Se a emenda passar, a PEC volta à Câmara, e o brasileiro que vive sob o domínio de facções espera mais que um rótulo de integração.",
-   "contexto": [
-    "A CCJ concluiu a análise na quarta (14), sem alterar os trechos destacados.",
-    "O relator, Rogério Carvalho (PT-SE), manteve o texto da Câmara para evitar que a PEC volte para lá.",
-    "A emenda de Marinho pede maioridade de 16 anos, com responsabilização a partir de 14 em crimes hediondos, tortura, tráfico e terrorismo.",
-    "PT e governo são contra projetos de redução da maioridade.",
-    "A Câmara já tem uma comissão especial sobre uma PEC da maioridade penal.",
-    "O requerimento de calendário especial foi apresentado por Eduardo Braga (MDB) e outros líderes, e Alcolumbre incluiu a PEC na pauta de quinta ao fim da sessão de quarta."
-   ],
-   "angulo": [
-    "Segurança pública é a maior preocupação do cidadão, e a PEC só vale a pena se mirar quem comanda o crime, não a burocracia de integração.",
-    "Reduzir a maioridade penal é resposta a um problema real: facções recrutam menores justamente porque sabem que não pagam o preço.",
-    "Se o governo e o PT barram a emenda, ficam diante do eleitor como quem protege o aliciamento de adolescentes pelo tráfico.",
-    "A oposição ajuda a votar rápido e quer um texto melhor, sem esperar a eleição."
-   ],
-   "perguntas": [
-    "A PEC resolve o problema das facções sem a mudança na maioridade penal?",
-    "Vale o risco de a PEC voltar à Câmara para incluir a emenda de Marinho?",
-    "O que o cidadão do Rio vai notar de diferente com o SUSP e a Polícia Viária Federal?"
-   ],
-   "fontes": [
+  ],
+  "itens": [
     {
-     "name": "ND Mais",
-     "url": "https://ndmais.com.br/politica/pec-da-seguranca-publica-pode-ser-votada-nesta-quinta-15-no-senado/"
+      "id": "exercito-do-lula-canal",
+      "bloco": "STF e instituições",
+      "titulo": "Nunes Marques libera o canal Exército do Lula no WhatsApp após registro na campanha",
+      "subtitulo": "Canal de Janones, com cerca de 4 milhões de seguidores, volta em 48 horas e precisa identificar o responsável pela propaganda",
+      "resumo": "O presidente do TSE, Nunes Marques, mandou suspender o canal Exército do Lula no domingo (11), a pedido da campanha de Flávio Bolsonaro, e na terça (13) autorizou a volta depois de a campanha de Lula informar o endereço no registro de candidatura. O canal foi criado em 5 de outubro pelo deputado André Janones (Rede-MG) e tem cerca de 4 milhões de seguidores. A volta vale em 48 horas e vem com a obrigação de identificar perante os usuários o responsável pela propaganda eleitoral, e informar o endereço à Justiça não substitui essa exigência. A campanha de Flávio sustenta que o canal espalhou notícias falsas, como cortes em aposentadorias e a retirada do título de padroeira de Nossa Senhora Aparecida, e aponta 219 postagens apagadas em 18 minutos na madrugada de 8 de outubro. A decisão final cabe ao plenário do TSE, e o corregedor Ricardo Villas Bôas Cueva já havia restabelecido o canal no mesmo domingo, em menos de 4 minutos, e abriu uma ação de investigação judicial.",
+      "contexto": [
+        "5 de outubro: Janones cria o canal para mobilizar apoiadores da reeleição de Lula.",
+        "11 de outubro: Nunes Marques manda a Meta suspender o canal até a homologação do 2º turno, marcada para 25 de outubro; o corregedor Cueva o restabelece no mesmo dia.",
+        "12 de outubro: a defesa de Flávio pede à Meta e ao Google registros de exclusões e edições e a exclusão de 499 mensagens é citada na petição; a Meta recebe 24 horas para se manifestar.",
+        "13 de outubro: Nunes Marques autoriza a volta em 48 horas, com a obrigação de identificar o responsável pela propaganda; as fontes divergem sobre de quando o prazo é contado.",
+        "Ministros do TSE criticaram a decisão de Nunes Marques de atropelar o prazo de 72 horas que Cueva havia dado à campanha de Lula para prestar informações."
+      ],
+      "angulo": [
+        "Canal de propaganda de campanha com 4 milhões de seguidores tem de dizer quem paga e quem responde, e a decisão do TSE confirma que essa regra vale para o lado de Lula.",
+        "A campanha de Flávio levou à Justiça fatos concretos: mensagens falsas sobre aposentadoria e Aparecida, e 219 postagens apagadas em 18 minutos, o que dificulta a prova.",
+        "A discussão sobre quem decide, a Presidência ou a Corregedoria, mostra como a eleição fica refém de decisões monocráticas, e o plenário precisa dar a palavra final.",
+        "A direita não pede censura: pede transparência e cumprimento da lei eleitoral por quem faz propaganda."
+      ],
+      "perguntas": [
+        "Quem responde pelo conteúdo do canal depois que ele identificar o responsável pela propaganda?",
+        "Por que apagar 219 postagens em 18 minutos, na madrugada, se o conteúdo era regular?",
+        "O plenário do TSE deve decidir antes do segundo turno?"
+      ],
+      "atencao": "Fontes divergem sobre a contagem das 48 horas e o plenário do TSE ainda não deu decisão final; a campanha de Flávio fala em notícias falsas, o que ainda será apurado.",
+      "fontes": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes/nunes-marques-libera-canal-de-whatsapp-exercito-do-lula/"
+        },
+        {
+          "name": "Tribuna do Sertão",
+          "url": "https://tribunadosertao.com.br/geral/2026/10/12/995617-flavio-critica-decisao-do-tse-que-restabeleceu-canal-pro-lula-criado-por-janones"
+        },
+        {
+          "name": "DGABC",
+          "url": "https://www.dgabc.com.br/Noticia/4352509/nunes-marques-autoriza-que-canal-exercito-do-lula-volte-a-funcionar-apos-48h"
+        },
+        {
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/123215/nunes-marques-libera-exercito-do-lula-apos-registro-como-propaganda"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Nunes Marques manda restabelecer o canal \"Exército do Lula\" no WhatsApp; Flávio defendeu a liberação"
     },
     {
-     "name": "Bahia Notícias",
-     "url": "https://www.bahianoticias.com.br/noticia/322472-senado-vota-pec-da-seguranca-publica-nesta-quinta-e-oposicao-quer-incluir-fim-da-maioridade-penal-no-texto"
+      "id": "pec-seguranca-votacao",
+      "bloco": "Segurança pública",
+      "titulo": "Senado vota a PEC da Segurança nesta quinta, e oposição quer incluir maioridade penal aos 16",
+      "subtitulo": "Calendário especial dispensa sessões de discussão, e emenda de Marinho com 36 assinaturas a mais pode fazer o texto voltar à Câmara",
+      "resumo": "O Senado pauta para esta quinta (15), a partir das 14h, a PEC 18/2025, da Segurança Pública, depois de aprovar na quarta um calendário especial sem sessões de discussão. O texto cria o Sistema Único de Segurança Pública na Constituição e a Polícia Viária Federal, endurece o combate às facções e prevê fundos para estados e municípios. A oposição apoia a pressa, mas Rogério Marinho (PL-RN) apresentou emenda, com mais 36 assinaturas, que reduz a maioridade penal de 18 para 16 anos, com responsabilização a partir de 14 em crimes como hediondos, tortura, tráfico e terrorismo. Flávio Bolsonaro defende a emenda para aprimorar o texto e chama a PEC de nome bonitinho se não enfrentar o crime de verdade. Se a emenda passar, a PEC volta à Câmara, e o brasileiro que vive sob o domínio de facções espera mais que um rótulo de integração.",
+      "contexto": [
+        "A CCJ concluiu a análise na quarta (14), sem alterar os trechos destacados.",
+        "O relator, Rogério Carvalho (PT-SE), manteve o texto da Câmara para evitar que a PEC volte para lá.",
+        "A emenda de Marinho pede maioridade de 16 anos, com responsabilização a partir de 14 em crimes hediondos, tortura, tráfico e terrorismo.",
+        "PT e governo são contra projetos de redução da maioridade.",
+        "A Câmara já tem uma comissão especial sobre uma PEC da maioridade penal.",
+        "O requerimento de calendário especial foi apresentado por Eduardo Braga (MDB) e outros líderes, e Alcolumbre incluiu a PEC na pauta de quinta ao fim da sessão de quarta."
+      ],
+      "angulo": [
+        "Segurança pública é a maior preocupação do cidadão, e a PEC só vale a pena se mirar quem comanda o crime, não a burocracia de integração.",
+        "Reduzir a maioridade penal é resposta a um problema real: facções recrutam menores justamente porque sabem que não pagam o preço.",
+        "Se o governo e o PT barram a emenda, ficam diante do eleitor como quem protege o aliciamento de adolescentes pelo tráfico.",
+        "A oposição ajuda a votar rápido e quer um texto melhor, sem esperar a eleição."
+      ],
+      "perguntas": [
+        "A PEC resolve o problema das facções sem a mudança na maioridade penal?",
+        "Vale o risco de a PEC voltar à Câmara para incluir a emenda de Marinho?",
+        "O que o cidadão do Rio vai notar de diferente com o SUSP e a Polícia Viária Federal?"
+      ],
+      "fontes": [
+        {
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/politica/pec-da-seguranca-publica-pode-ser-votada-nesta-quinta-15-no-senado/"
+        },
+        {
+          "name": "Bahia Notícias",
+          "url": "https://www.bahianoticias.com.br/noticia/322472-senado-vota-pec-da-seguranca-publica-nesta-quinta-e-oposicao-quer-incluir-fim-da-maioridade-penal-no-texto"
+        },
+        {
+          "name": "Itatiaia",
+          "url": "https://www.itatiaia.com.br/politica/senado-deve-votar-ainda-esta-semana-pec-da-seguranca-publica-diz-otto-alencar/"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Senado vota a PEC da Segurança Pública nesta quinta (15) após aprovar rito acelerado",
+      "fundido": [
+        "Senado vota a PEC da Segurança nesta quinta, e oposição quer incluir maioridade penal aos 16"
+      ]
     },
     {
-     "name": "Itatiaia",
-     "url": "https://www.itatiaia.com.br/politica/senado-deve-votar-ainda-esta-semana-pec-da-seguranca-publica-diz-otto-alencar/"
-    }
-   ],
-   "avulsa": true,
-   "pedido": "Senado vota a PEC da Segurança Pública nesta quinta (15) após aprovar rito acelerado",
-   "fundido": [
-    "Senado vota a PEC da Segurança nesta quinta, e oposição quer incluir maioridade penal aos 16"
-   ]
-  },
-  {
-   "id": "pec-6x1-aprovada",
-   "bloco": "Política nacional",
-   "titulo": "Senado aprova o fim da escala 6x1 por 75 votos a 1, e Mourão é o único contra",
-   "subtitulo": "Jornada cai de 44 para 40 horas sem corte de salário, e Alcolumbre sinaliza promulgação na semana que vem, antes do segundo turno",
-   "desdobramento": "O Senado aprovou a PEC em dois turnos na noite de quarta (14), por 75 votos a 1, e ela segue para promulgação.",
-   "resumo": "O Senado aprovou na noite de quarta (14), em dois turnos, a PEC 221/2019 por 75 votos a 1, com Hamilton Mourão (Republicanos-RS) como único voto contrário. A jornada máxima semanal cai de 44 para 40 horas, com dois dias de descanso remunerado, um deles preferencialmente no domingo, e sem redução de salário. A transição começa dois meses depois da vigência e termina um ano depois, e Davi Alcolumbre sinalizou a promulgação para a semana que vem, antes do segundo turno. Flávio Bolsonaro votou a favor e o PL liberou a bancada, com o partido prometendo levar a PEC da hora trabalhada ao plenário em 2027. Para o trabalhador a conquista é o fim de uma jornada que roubava o convívio com a família, e para o pequeno empresário o desafio é a transição, que o Congresso precisa regulamentar rápido.",
-   "contexto": [
-    "Os dois turnos terminaram 75 a 1; eram necessários 49 votos em cada um.",
-    "A CCJ aprovou a PEC em 2 de setembro; na quarta, líderes dispensaram as três sessões de discussão do segundo turno.",
-    "O relator Omar Aziz (PSD-AM) rejeitou a emenda de Oriovisto Guimarães (PSDB-PR), assinada por 27 senadores para preservar jornadas já abaixo de 40 horas, e ela foi retirada.",
-    "Aziz admitiu que alguns setores, como o dos petroleiros, vão precisar de ajustes por lei.",
-    "A PEC 12/2026, de Rogério Marinho, que prevê regime flexível pago por hora trabalhada, segue em tramitação."
-   ],
-   "angulo": [
-    "O trabalhador conquistou mais tempo com a família, e a direita votou com ele: Flávio e o PL não ficaram contra a mudança.",
-    "A hora trabalhada continua sendo a melhor saída para quem quer escolher a própria jornada, e a bancada do PL vai defender essa proposta em 2027.",
-    "Quem emprega precisa de regulamentação rápida e de transição previsível, para a mudança não virar informalidade.",
-    "O governo colheu a foto da aprovação, mas a conquista é do Congresso, onde a oposição também votou a favor."
-   ],
-   "perguntas": [
-    "O que a regulamentação precisa resolver primeiro para a mudança funcionar nos pequenos negócios?",
-    "A proposta da hora trabalhada deve ser a próxima pauta trabalhista do Congresso?",
-    "Como garantir que a escala 5x2 não vire corte de emprego em setores como comércio e serviços?"
-   ],
-   "fontes": [
-    {
-     "name": "Gazeta do Povo",
-     "url": "https://www.gazetadopovo.com.br/economia/senado-aprova-pec-do-fim-da-escala-6x1/"
+      "id": "eduardo-milei-washington",
+      "bloco": "Internacional",
+      "titulo": "Eduardo Bolsonaro diz em Washington que não volta para cumprir pena e quer Moraes fora do STF",
+      "subtitulo": "Ao lado de Milei, Eduardo condiciona o retorno ao fim da pena e liga a saída de Moraes à eleição de Flávio",
+      "resumo": "Eduardo Bolsonaro participou na quarta (14), em Washington, de um evento com o presidente argentino Javier Milei e disse que só volta ao Brasil se a pena for extinta. Ele resumiu a posição numa frase: \"Não vou puxar cadeia sendo inocente\". Eduardo mora nos Estados Unidos desde fevereiro de 2025 e foi condenado a 4 anos e 2 meses por coação no curso do processo, e Moraes mandou expedir mandado de prisão na semana passada. No mesmo evento, Milei declarou apoio a Flávio Bolsonaro no segundo turno e chamou Lula de ditador comunista. Eduardo afirmou que Moraes não ficará no Supremo se Flávio vencer, e o debate sobre o tamanho do poder do ministro entra de vez na campanha.",
+      "contexto": [
+        "14 de outubro: evento em Washington com Milei, na plataforma Latino Wall Street e no portal La Derecha Diario.",
+        "Eduardo vive nos EUA desde fevereiro de 2025 e foi condenado a 4 anos e 2 meses de prisão por coação no curso do processo.",
+        "Na semana anterior, Moraes determinou a expedição de mandado de prisão contra Eduardo.",
+        "Eduardo disse que a questão com Moraes é \"muito pessoal\" e que o PL rejeitou uma proposta de acordo atribuída ao ministro.",
+        "Aliados de Flávio discutem uma anistia a condenados ligados ao bolsonarismo se ele for eleito, e Eduardo é cotado para o Itamaraty, sem confirmar."
+      ],
+      "angulo": [
+        "Um parlamentar condenado por ter conversado com autoridades americanas sobre sanções é a imagem de um Judiciário que criminaliza opinião e atuação política.",
+        "O apoio de Milei a Flávio mostra que a direita da América tem aliados de peso fora do país e que a eleição brasileira é acompanhada lá fora.",
+        "Moraes no centro da campanha: o eleitor vota também sobre os limites do poder de um ministro do STF, e o tema é legítimo.",
+        "A saída de ministro do Supremo tem rito próprio, no Senado, e o programa deve explicar esse caminho com clareza."
+      ],
+      "perguntas": [
+        "Quem é condenado por coação por falar com autoridades de outro país está sendo punido por quê?",
+        "O que muda no Supremo, na prática, se Flávio vencer?",
+        "A presença de Milei pesa a favor de Flávio no segundo turno?"
+      ],
+      "atencao": "Eduardo foi condenado em ação penal e tem mandado de prisão expedido; ele nega o crime e recorre. A saída de ministro do STF depende do Senado.",
+      "fontes": [
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/eduardo-bolsonaro-diz-que-moraes-nao-vai-seguir-no-stf-se-flavio-vencer/"
+        },
+        {
+          "name": "Blog do BG",
+          "url": "https://www.blogdobg.com.br/video-ao-lado-de-eduardo-bolsonaro-milei-chama-lula-de-ditador-comunista-e-diz-que-vai-expulsa-lo-a-chutes/"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/15/em-evento-com-milei-eduardo-bolsonaro-rechaca-retorno-ao-brasil-para-puxar-cadeia-sendo-inocente-e-defende-fora-moraes.ghtml"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/15/em-evento-com-milei-eduardo-bolsonaro-rechaca-retorno-ao-brasil-para-puxar-cadeia-sendo-inocente-e-defende-fora-moraes.ghtml"
     },
     {
-     "name": "Agência Senado",
-     "url": "https://www12.senado.leg.br/noticias/materias/2026/10/14/senado-aprova-fim-da-6x1-em-primeiro-turno"
-    }
-   ]
-  },
-  {
-   "id": "vorcaro-londres",
-   "bloco": "STF e instituições",
-   "titulo": "Vídeo mostra autoridades em festa de Vorcaro em Londres em 2024, com a mulher de Moraes",
-   "subtitulo": "Gonet e o diretor da PF Andrei Rodrigues também aparecem na recepção do Banco Master, e Vorcaro mandou barrar a divulgação na época",
-   "resumo": "O Globo divulgou um vídeo da recepção do Banco Master em Londres, em abril de 2024, durante o I Fórum Jurídico Brasil de Ideias. Aparecem Viviane Barci, mulher do ministro Alexandre de Moraes, o procurador-geral Paulo Gonet e o diretor-geral da PF, Andrei Rodrigues, além de outras autoridades de diferentes governos. Mensagens achadas pela PF no celular de Daniel Vorcaro indicam que ele reclamou da exposição dos convidados e impediu a publicação do material na época. A assessoria da PGR confirmou o encontro de Gonet e lembrou que o ministro André Mendonça, do STF, não encontrou ilícito envolvendo o procurador. Estar numa recepção não é crime, mas quem fiscaliza o banqueiro e quem investiga o caso Master tinha o dever de explicar a proximidade.",
-   "contexto": [
-    "A recepção ocorreu entre 24 e 26 de abril de 2024, na Hertford House, em Londres; o Banco Master foi o principal patrocinador do fórum.",
-    "O vídeo foi divulgado pelo O Globo; a Revista Oeste relaciona ainda Gilmar Mendes, Benedito Gonçalves, Hugo Motta, Jorge Messias, Michel Temer e Ciro Nogueira entre os presentes.",
-    "Vorcaro está preso preventivamente em Brasília desde 4 de março de 2026.",
-    "Mensagens reveladas pelo Estadão indicam que Vorcaro pediu a Moraes que falasse com Andrei Rodrigues e Gonet sobre as investigações do Master.",
-    "Nenhuma das pessoas que aparecem no vídeo foi denunciada por ter comparecido."
-   ],
-   "angulo": [
-    "O povo tem o direito de saber quem convivia com o dono do Master antes de a PF e a PGR conduzirem o caso.",
-    "Quem investiga não pode ter jantado com o investigado: Gonet e Andrei Rodrigues devem explicar a relação com Vorcaro.",
-    "O silêncio de Moraes e de Viviane Barci sobre o evento alimenta a desconfiança em torno do Supremo.",
-    "O caso Master precisa de investigação sem sombra de conflito de interesse, e isso exige transparência de todos os citados."
-   ],
-   "perguntas": [
-    "Autoridades que participaram do evento devem se declarar impedidas de atuar no caso Master?",
-    "O que o vídeo muda na confiança do público na investigação do Master?",
-    "Quais explicações o STF e a PGR devem dar antes do segundo turno?"
-   ],
-   "atencao": "Comparecer ao evento não é crime e ninguém no vídeo foi denunciado; os citados não se manifestaram em parte das reportagens.",
-   "fontes": [
-    {
-     "name": "Revista Oeste",
-     "url": "https://revistaoeste.com/politica/festa-de-vorcaro-em-londres-reuniu-a-mulher-de-moraes-gonet-e-andrei-rodrigues-video/"
+      "id": "pec-6x1-aprovada",
+      "bloco": "Política nacional",
+      "titulo": "Senado aprova o fim da escala 6x1 por 75 votos a 1, e Mourão é o único contra",
+      "subtitulo": "Jornada cai de 44 para 40 horas sem corte de salário, e Alcolumbre sinaliza promulgação na semana que vem, antes do segundo turno",
+      "desdobramento": "O Senado aprovou a PEC em dois turnos na noite de quarta (14), por 75 votos a 1, e ela segue para promulgação.",
+      "resumo": "O Senado aprovou na noite de quarta (14), em dois turnos, a PEC 221/2019 por 75 votos a 1, com Hamilton Mourão (Republicanos-RS) como único voto contrário. A jornada máxima semanal cai de 44 para 40 horas, com dois dias de descanso remunerado, um deles preferencialmente no domingo, e sem redução de salário. A transição começa dois meses depois da vigência e termina um ano depois, e Davi Alcolumbre sinalizou a promulgação para a semana que vem, antes do segundo turno. Flávio Bolsonaro votou a favor e o PL liberou a bancada, com o partido prometendo levar a PEC da hora trabalhada ao plenário em 2027. Para o trabalhador a conquista é o fim de uma jornada que roubava o convívio com a família, e para o pequeno empresário o desafio é a transição, que o Congresso precisa regulamentar rápido.",
+      "contexto": [
+        "Os dois turnos terminaram 75 a 1; eram necessários 49 votos em cada um.",
+        "A CCJ aprovou a PEC em 2 de setembro; na quarta, líderes dispensaram as três sessões de discussão do segundo turno.",
+        "O relator Omar Aziz (PSD-AM) rejeitou a emenda de Oriovisto Guimarães (PSDB-PR), assinada por 27 senadores para preservar jornadas já abaixo de 40 horas, e ela foi retirada.",
+        "Aziz admitiu que alguns setores, como o dos petroleiros, vão precisar de ajustes por lei.",
+        "A PEC 12/2026, de Rogério Marinho, que prevê regime flexível pago por hora trabalhada, segue em tramitação."
+      ],
+      "angulo": [
+        "O trabalhador conquistou mais tempo com a família, e a direita votou com ele: Flávio e o PL não ficaram contra a mudança.",
+        "A hora trabalhada continua sendo a melhor saída para quem quer escolher a própria jornada, e a bancada do PL vai defender essa proposta em 2027.",
+        "Quem emprega precisa de regulamentação rápida e de transição previsível, para a mudança não virar informalidade.",
+        "O governo colheu a foto da aprovação, mas a conquista é do Congresso, onde a oposição também votou a favor."
+      ],
+      "perguntas": [
+        "O que a regulamentação precisa resolver primeiro para a mudança funcionar nos pequenos negócios?",
+        "A proposta da hora trabalhada deve ser a próxima pauta trabalhista do Congresso?",
+        "Como garantir que a escala 5x2 não vire corte de emprego em setores como comércio e serviços?"
+      ],
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/economia/senado-aprova-pec-do-fim-da-escala-6x1/"
+        },
+        {
+          "name": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/10/14/senado-aprova-fim-da-6x1-em-primeiro-turno"
+        }
+      ]
     },
     {
-     "name": "Terra",
-     "url": "https://www.terra.com.br/noticias/brasil/politica/video-mostra-vorcaro-com-dirigente-da-pf-e-ex-ministros-de-lula-e-bolsonaro-em-festa-em-londres,4905e5796d98601bf3cbeef8f8b83f63390tp4r3.html"
-    }
-   ]
-  },
-  {
-   "id": "canella-unha-e-carne-8",
-   "bloco": "Rio de Janeiro",
-   "titulo": "PF prende Márcio Canella e o ex-chefe da Polícia Civil Marcus Amim na Operação Unha e Carne",
-   "subtitulo": "Esquema com rede de postos teria movimentado R$ 7,6 bilhões em seis anos; 112 empresas foram suspensas",
-   "resumo": "A Polícia Federal prendeu nesta quinta (15) o deputado estadual eleito Márcio Canella (União Brasil), segundo mais votado do Rio, e o ex-secretário de Polícia Civil Marcus Amim, na oitava fase da Operação Unha e Carne. Segundo a PF, um grupo usaria uma rede de postos de combustíveis da região metropolitana para lavar dinheiro com ajuda de agentes públicos, e o relatório do Coaf aponta R$ 7,6 bilhões movimentados em seis anos. Foram cumpridos seis mandados de prisão preventiva e 16 de busca, expedidos pelo ministro Alexandre de Moraes, e a Justiça determinou o bloqueio de bens e a suspensão de 112 empresas, 96 delas postos. Entre os presos há policiais civis e um secretário de Ordem Pública de Belford Roxo, e a Corregedoria da Polícia Civil disse que apoia a operação. Todos são investigados e a defesa ainda não se manifestou, mas o caso mostra o crime organizado batendo à porta da polícia e das urnas no Rio.",
-   "contexto": [
-    "Canella foi eleito com 197.178 votos.",
-    "Em julho, na sexta fase, ele foi preso em flagrante com um fuzil no carro, disse que a arma era do segurança policial e foi solto três dias depois por Moraes, com tornozeleira e passaporte retido.",
-    "Também foram presos Pablo Jukia Felix Ferreira, o Pablo Russo, Giovanni Gaspar Fernandes, Christiano Gaspar Fernandes e José Carlos Alves de Souza Júnior.",
-    "A operação integra a Força-Tarefa Missão Redentor II, coordenada pela PF por determinação do STF (ADPF 365).",
-    "Os investigados podem responder por organização criminosa, contratação direta ilegal e lavagem de dinheiro."
-   ],
-   "angulo": [
-    "Crime que lava R$ 7,6 bilhões em postos de gasolina é crime que o carioca paga na bomba e na insegurança.",
-    "A polícia precisa ser limpa por dentro: quando um ex-chefe da Civil e um secretário municipal são investigados, a confiança no policial honesto também é atingida.",
-    "A Polícia Federal faz o trabalho que o cidadão espera, e a presunção de inocência vale para todos os investigados.",
-    "O Rio só se livra do crime organizado quando o dinheiro dele é rastreado e confiscado."
-   ],
-   "perguntas": [
-    "O que a repetição de fases da operação mostra sobre a infiltração do crime nas instituições do Rio?",
-    "Como o consumidor pode saber se o posto onde abastece está limpo?",
-    "Que medidas o novo governo do Rio deve tomar na Polícia Civil para recuperar a confiança?"
-   ],
-   "atencao": "Todos são investigados e a defesa de Canella e de Amim ainda não se manifestou; não há condenação.",
-   "fontes": [
-    {
-     "name": "CNN Brasil",
-     "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-prende-marcio-canella-segundo-deputado-estadual-mais-votado-do-rj/"
+      "id": "vorcaro-londres",
+      "bloco": "STF e instituições",
+      "titulo": "Vídeo mostra autoridades em festa de Vorcaro em Londres em 2024, com a mulher de Moraes",
+      "subtitulo": "Gonet e o diretor da PF Andrei Rodrigues também aparecem na recepção do Banco Master, e Vorcaro mandou barrar a divulgação na época",
+      "resumo": "O Globo divulgou um vídeo da recepção do Banco Master em Londres, em abril de 2024, durante o I Fórum Jurídico Brasil de Ideias. Aparecem Viviane Barci, mulher do ministro Alexandre de Moraes, o procurador-geral Paulo Gonet e o diretor-geral da PF, Andrei Rodrigues, além de outras autoridades de diferentes governos. Mensagens achadas pela PF no celular de Daniel Vorcaro indicam que ele reclamou da exposição dos convidados e impediu a publicação do material na época. A assessoria da PGR confirmou o encontro de Gonet e lembrou que o ministro André Mendonça, do STF, não encontrou ilícito envolvendo o procurador. Estar numa recepção não é crime, mas quem fiscaliza o banqueiro e quem investiga o caso Master tinha o dever de explicar a proximidade.",
+      "contexto": [
+        "A recepção ocorreu entre 24 e 26 de abril de 2024, na Hertford House, em Londres; o Banco Master foi o principal patrocinador do fórum.",
+        "O vídeo foi divulgado pelo O Globo; a Revista Oeste relaciona ainda Gilmar Mendes, Benedito Gonçalves, Hugo Motta, Jorge Messias, Michel Temer e Ciro Nogueira entre os presentes.",
+        "Vorcaro está preso preventivamente em Brasília desde 4 de março de 2026.",
+        "Mensagens reveladas pelo Estadão indicam que Vorcaro pediu a Moraes que falasse com Andrei Rodrigues e Gonet sobre as investigações do Master.",
+        "Nenhuma das pessoas que aparecem no vídeo foi denunciada por ter comparecido."
+      ],
+      "angulo": [
+        "O povo tem o direito de saber quem convivia com o dono do Master antes de a PF e a PGR conduzirem o caso.",
+        "Quem investiga não pode ter jantado com o investigado: Gonet e Andrei Rodrigues devem explicar a relação com Vorcaro.",
+        "O silêncio de Moraes e de Viviane Barci sobre o evento alimenta a desconfiança em torno do Supremo.",
+        "O caso Master precisa de investigação sem sombra de conflito de interesse, e isso exige transparência de todos os citados."
+      ],
+      "perguntas": [
+        "Autoridades que participaram do evento devem se declarar impedidas de atuar no caso Master?",
+        "O que o vídeo muda na confiança do público na investigação do Master?",
+        "Quais explicações o STF e a PGR devem dar antes do segundo turno?"
+      ],
+      "atencao": "Comparecer ao evento não é crime e ninguém no vídeo foi denunciado; os citados não se manifestaram em parte das reportagens.",
+      "fontes": [
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/festa-de-vorcaro-em-londres-reuniu-a-mulher-de-moraes-gonet-e-andrei-rodrigues-video/"
+        },
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/noticias/brasil/politica/video-mostra-vorcaro-com-dirigente-da-pf-e-ex-ministros-de-lula-e-bolsonaro-em-festa-em-londres,4905e5796d98601bf3cbeef8f8b83f63390tp4r3.html"
+        }
+      ]
     },
     {
-     "name": "InfoMoney",
-     "url": "https://www.infomoney.com.br/politica/entenda-por-que-marcio-canella-candidato-ao-senado-apoiado-por-flavio-foi-preso/"
-    }
-   ]
-  },
-  {
-   "id": "gol-querosene",
-   "bloco": "Economia",
-   "titulo": "Gol corta rotas e voos internacionais com o querosene de aviação 74% mais caro desde março",
-   "subtitulo": "Fortaleza perde Orlando, Montevidéu e Foz do Iguaçu, e Brasília e Belém ficam sem voo para Miami a partir de janeiro",
-   "resumo": "A Gol informou que o querosene de aviação dobrou de preço desde o início da guerra entre Estados Unidos e Irã e já pesa cerca de 40% nos seus custos operacionais. Em 1º de outubro a Petrobras reajustou o QAV em 11,8%, e o acumulado desde março chega a 74%. Em Fortaleza, a companhia suspende voos para Orlando, Montevidéu e Foz do Iguaçu, e a partir de janeiro acaba com Brasília a Orlando e Miami e Belém a Miami. Salvador perde as ligações com Petrolina, Aracaju e Campina Grande, e o Rio de Janeiro mantém Miami com menos frequência, como única rota da empresa entre Brasil e Estados Unidos. Para o passageiro, o efeito é passagem mais cara e menos opção, e para o Brasil é a conta de um combustível que depende de preço e de impostos.",
-   "metafora": "O querosene é o prato de comida da companhia aérea: quando o preço dobra, ela corta a mesa antes de cortar o avião.",
-   "contexto": [
-    "A Petrobras elevou o QAV em 11,8% em 1º de outubro; o acumulado desde março é de 74%.",
-    "O presidente da Abear, Juliano Noman, disse em junho que as aéreas gastaram R$ 3,8 bilhões a mais em combustível do que o previsto, sendo cerca de R$ 1,6 bilhão só em maio.",
-    "O colunista Igor Pires foi quem antecipou os cortes; a Gol não confirmou rota por rota.",
-    "O secretário de Turismo do Ceará, Gustavo Montenegro, chamou a decisão de operacional e disse que o estado trabalhará para restabelecer as rotas.",
-    "A matéria liga a alta ao fechamento do Estreito de Ormuz."
-   ],
-   "angulo": [
-    "Quando o combustível sobe por decisão da estatal, quem paga é o passageiro, o turista e o estado que perde voo.",
-    "O Brasil precisa de política de preços de combustíveis que não deixe o setor aéreo à mercê de reajustes da Petrobras.",
-    "A menor oferta de voos prejudica o turismo e o emprego nas capitais, e o governo deve explicar o que fará por elas.",
-    "A desoneração do QAV e a concorrência no refino são as respostas que o consumidor espera."
-   ],
-   "perguntas": [
-    "O governo deve mexer em tributos do querosene para segurar as passagens?",
-    "Que estados mais perdem com o corte de rotas e o que podem fazer?",
-    "A política de preços da Petrobras pode ser usada para segurar esse custo sem prejudicar a empresa?"
-   ],
-   "fontes": [
-    {
-     "name": "O Povo",
-     "url": "https://mais.opovo.com.br/jornal/economia/2026/10/13/gol-suspende-dois-voos-internacionais-em-fortaleza.html"
-    }
-   ]
-  },
-  {
-   "id": "meta-campanha-lula",
-   "bloco": "Política nacional",
-   "titulo": "TSE dá 48 horas para a Meta explicar restrições a posts da campanha de Lula, e a empresa diz que as acusações são falsas",
-   "subtitulo": "Campanha cita conta de anúncios derrubada em 23 de setembro e rede de 255 perfis com IA com 58 milhões de visualizações",
-   "resumo": "O TSE deu 48 horas para a Meta explicar se restringiu de forma seletiva o conteúdo da campanha de Lula, depois de a coligação acusar a empresa de interferir na eleição. A campanha cita a desabilitação da conta de anúncios em 23 de setembro, falhas de métricas em vídeos de 7 de outubro e o bloqueio de impulsionamento de posts sobre o fim das bets e a escala 6x1. Ela também aponta uma rede de 255 perfis no Instagram operada com inteligência artificial que somou 58 milhões de visualizações em um mês, segundo levantamento do projeto VigIA, da Agência Lupa. A Meta classificou as acusações como simplesmente falsas e disse que os problemas técnicos citados não afetaram só o Brasil nem contas específicas. O tribunal também pediu a metodologia à Lupa e ao Instituto Democracia em Xeque antes de decidir, o que é o cuidado mínimo para não tratar queixa de campanha como fato.",
-   "contexto": [
-    "A decisão do TSE é de sábado (10), e a Meta deve responder em 48 horas.",
-    "A Meta tem de preservar logs de moderação e informar, perfil a perfil, o que aplicou desde 16 de agosto aos perfis oficiais de Lula e a contas de terceiros.",
-    "Depois da resposta, a coligação e a Procuradoria-Geral Eleitoral têm 24 horas cada para se manifestar, antes da análise do pedido de urgência.",
-    "A campanha disse que também recorreria à ANPD; o jornal JB não confirmou se isso ocorreu.",
-    "O TSE pediu à Lupa e ao Instituto Democracia em Xeque a metodologia dos levantamentos."
-   ],
-   "angulo": [
-    "Acusar uma plataforma de beneficiar o adversário sem prova pública é tática de campanha, e a Justiça acertou em pedir dados antes de decidir.",
-    "Se a regra de recomendação vale para os dois candidatos, não há o que reclamar; o TSE pediu justamente que a Meta diga se aplica a mesma regra a ambos.",
-    "A narrativa de interferência estrangeira nas eleições serve ao governo para desviar a atenção de temas que pesam para o eleitor.",
-    "A liberdade de expressão exige transparência das plataformas, mas não permite que o governo escolha o que o algoritmo deve impulsionar."
-   ],
-   "perguntas": [
-    "O TSE deve exigir a mesma transparência de todas as plataformas e de todas as campanhas?",
-    "Como separar falha técnica de interferência política sem dados auditáveis?",
-    "Uma rede de perfis com IA atacando candidatos é problema da plataforma ou da lei eleitoral?"
-   ],
-   "atencao": "Os números da rede de 255 perfis vêm de levantamento cuja metodologia o TSE pediu; a Meta nega as acusações.",
-   "fontes": [
-    {
-     "name": "Diário do Grande ABC",
-     "url": "https://www.dgabc.com.br/Noticia/4352067/tse-determina-que-dona-do-facebook-esclareca-em-48h-restricoes-a-posts-da-campanha-de-lula"
+      "id": "canella-unha-e-carne-8",
+      "bloco": "Rio de Janeiro",
+      "titulo": "PF prende Márcio Canella e o ex-chefe da Polícia Civil Marcus Amim na Operação Unha e Carne",
+      "subtitulo": "Esquema com rede de postos teria movimentado R$ 7,6 bilhões em seis anos; 112 empresas foram suspensas",
+      "resumo": "A Polícia Federal prendeu nesta quinta (15) o deputado estadual eleito Márcio Canella (União Brasil), segundo mais votado do Rio, e o ex-secretário de Polícia Civil Marcus Amim, na oitava fase da Operação Unha e Carne. Segundo a PF, um grupo usaria uma rede de postos de combustíveis da região metropolitana para lavar dinheiro com ajuda de agentes públicos, e o relatório do Coaf aponta R$ 7,6 bilhões movimentados em seis anos. Foram cumpridos seis mandados de prisão preventiva e 16 de busca, expedidos pelo ministro Alexandre de Moraes, e a Justiça determinou o bloqueio de bens e a suspensão de 112 empresas, 96 delas postos. Entre os presos há policiais civis e um secretário de Ordem Pública de Belford Roxo, e a Corregedoria da Polícia Civil disse que apoia a operação. Todos são investigados e a defesa ainda não se manifestou, mas o caso mostra o crime organizado batendo à porta da polícia e das urnas no Rio.",
+      "contexto": [
+        "Canella foi eleito com 197.178 votos.",
+        "Em julho, na sexta fase, ele foi preso em flagrante com um fuzil no carro, disse que a arma era do segurança policial e foi solto três dias depois por Moraes, com tornozeleira e passaporte retido.",
+        "Também foram presos Pablo Jukia Felix Ferreira, o Pablo Russo, Giovanni Gaspar Fernandes, Christiano Gaspar Fernandes e José Carlos Alves de Souza Júnior.",
+        "A operação integra a Força-Tarefa Missão Redentor II, coordenada pela PF por determinação do STF (ADPF 365).",
+        "Os investigados podem responder por organização criminosa, contratação direta ilegal e lavagem de dinheiro."
+      ],
+      "angulo": [
+        "Crime que lava R$ 7,6 bilhões em postos de gasolina é crime que o carioca paga na bomba e na insegurança.",
+        "A polícia precisa ser limpa por dentro: quando um ex-chefe da Civil e um secretário municipal são investigados, a confiança no policial honesto também é atingida.",
+        "A Polícia Federal faz o trabalho que o cidadão espera, e a presunção de inocência vale para todos os investigados.",
+        "O Rio só se livra do crime organizado quando o dinheiro dele é rastreado e confiscado."
+      ],
+      "perguntas": [
+        "O que a repetição de fases da operação mostra sobre a infiltração do crime nas instituições do Rio?",
+        "Como o consumidor pode saber se o posto onde abastece está limpo?",
+        "Que medidas o novo governo do Rio deve tomar na Polícia Civil para recuperar a confiança?"
+      ],
+      "atencao": "Todos são investigados e a defesa de Canella e de Amim ainda não se manifestou; não há condenação.",
+      "fontes": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pf-prende-marcio-canella-segundo-deputado-estadual-mais-votado-do-rj/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/entenda-por-que-marcio-canella-candidato-ao-senado-apoiado-por-flavio-foi-preso/"
+        }
+      ]
     },
     {
-     "name": "Jornal do Brasil",
-     "url": "https://www.jb.com.br/brasil/politica/2026/10/1061194-campanha-de-lula-acusa-meta-de-interferir-em-eleicoes-em-prol-de-flavio.html"
+      "id": "gol-querosene",
+      "bloco": "Economia",
+      "titulo": "Gol corta rotas e voos internacionais com o querosene de aviação 74% mais caro desde março",
+      "subtitulo": "Fortaleza perde Orlando, Montevidéu e Foz do Iguaçu, e Brasília e Belém ficam sem voo para Miami a partir de janeiro",
+      "resumo": "A Gol informou que o querosene de aviação dobrou de preço desde o início da guerra entre Estados Unidos e Irã e já pesa cerca de 40% nos seus custos operacionais. Em 1º de outubro a Petrobras reajustou o QAV em 11,8%, e o acumulado desde março chega a 74%. Em Fortaleza, a companhia suspende voos para Orlando, Montevidéu e Foz do Iguaçu, e a partir de janeiro acaba com Brasília a Orlando e Miami e Belém a Miami. Salvador perde as ligações com Petrolina, Aracaju e Campina Grande, e o Rio de Janeiro mantém Miami com menos frequência, como única rota da empresa entre Brasil e Estados Unidos. Para o passageiro, o efeito é passagem mais cara e menos opção, e para o Brasil é a conta de um combustível que depende de preço e de impostos.",
+      "metafora": "O querosene é o prato de comida da companhia aérea: quando o preço dobra, ela corta a mesa antes de cortar o avião.",
+      "contexto": [
+        "A Petrobras elevou o QAV em 11,8% em 1º de outubro; o acumulado desde março é de 74%.",
+        "O presidente da Abear, Juliano Noman, disse em junho que as aéreas gastaram R$ 3,8 bilhões a mais em combustível do que o previsto, sendo cerca de R$ 1,6 bilhão só em maio.",
+        "O colunista Igor Pires foi quem antecipou os cortes; a Gol não confirmou rota por rota.",
+        "O secretário de Turismo do Ceará, Gustavo Montenegro, chamou a decisão de operacional e disse que o estado trabalhará para restabelecer as rotas.",
+        "A matéria liga a alta ao fechamento do Estreito de Ormuz."
+      ],
+      "angulo": [
+        "Quando o combustível sobe por decisão da estatal, quem paga é o passageiro, o turista e o estado que perde voo.",
+        "O Brasil precisa de política de preços de combustíveis que não deixe o setor aéreo à mercê de reajustes da Petrobras.",
+        "A menor oferta de voos prejudica o turismo e o emprego nas capitais, e o governo deve explicar o que fará por elas.",
+        "A desoneração do QAV e a concorrência no refino são as respostas que o consumidor espera."
+      ],
+      "perguntas": [
+        "O governo deve mexer em tributos do querosene para segurar as passagens?",
+        "Que estados mais perdem com o corte de rotas e o que podem fazer?",
+        "A política de preços da Petrobras pode ser usada para segurar esse custo sem prejudicar a empresa?"
+      ],
+      "fontes": [
+        {
+          "name": "O Povo",
+          "url": "https://mais.opovo.com.br/jornal/economia/2026/10/13/gol-suspende-dois-voos-internacionais-em-fortaleza.html"
+        }
+      ]
+    },
+    {
+      "id": "meta-campanha-lula",
+      "bloco": "Política nacional",
+      "titulo": "TSE dá 48 horas para a Meta explicar restrições a posts da campanha de Lula, e a empresa diz que as acusações são falsas",
+      "subtitulo": "Campanha cita conta de anúncios derrubada em 23 de setembro e rede de 255 perfis com IA com 58 milhões de visualizações",
+      "resumo": "O TSE deu 48 horas para a Meta explicar se restringiu de forma seletiva o conteúdo da campanha de Lula, depois de a coligação acusar a empresa de interferir na eleição. A campanha cita a desabilitação da conta de anúncios em 23 de setembro, falhas de métricas em vídeos de 7 de outubro e o bloqueio de impulsionamento de posts sobre o fim das bets e a escala 6x1. Ela também aponta uma rede de 255 perfis no Instagram operada com inteligência artificial que somou 58 milhões de visualizações em um mês, segundo levantamento do projeto VigIA, da Agência Lupa. A Meta classificou as acusações como simplesmente falsas e disse que os problemas técnicos citados não afetaram só o Brasil nem contas específicas. O tribunal também pediu a metodologia à Lupa e ao Instituto Democracia em Xeque antes de decidir, o que é o cuidado mínimo para não tratar queixa de campanha como fato.",
+      "contexto": [
+        "A decisão do TSE é de sábado (10), e a Meta deve responder em 48 horas.",
+        "A Meta tem de preservar logs de moderação e informar, perfil a perfil, o que aplicou desde 16 de agosto aos perfis oficiais de Lula e a contas de terceiros.",
+        "Depois da resposta, a coligação e a Procuradoria-Geral Eleitoral têm 24 horas cada para se manifestar, antes da análise do pedido de urgência.",
+        "A campanha disse que também recorreria à ANPD; o jornal JB não confirmou se isso ocorreu.",
+        "O TSE pediu à Lupa e ao Instituto Democracia em Xeque a metodologia dos levantamentos."
+      ],
+      "angulo": [
+        "Acusar uma plataforma de beneficiar o adversário sem prova pública é tática de campanha, e a Justiça acertou em pedir dados antes de decidir.",
+        "Se a regra de recomendação vale para os dois candidatos, não há o que reclamar; o TSE pediu justamente que a Meta diga se aplica a mesma regra a ambos.",
+        "A narrativa de interferência estrangeira nas eleições serve ao governo para desviar a atenção de temas que pesam para o eleitor.",
+        "A liberdade de expressão exige transparência das plataformas, mas não permite que o governo escolha o que o algoritmo deve impulsionar."
+      ],
+      "perguntas": [
+        "O TSE deve exigir a mesma transparência de todas as plataformas e de todas as campanhas?",
+        "Como separar falha técnica de interferência política sem dados auditáveis?",
+        "Uma rede de perfis com IA atacando candidatos é problema da plataforma ou da lei eleitoral?"
+      ],
+      "atencao": "Os números da rede de 255 perfis vêm de levantamento cuja metodologia o TSE pediu; a Meta nega as acusações.",
+      "fontes": [
+        {
+          "name": "Diário do Grande ABC",
+          "url": "https://www.dgabc.com.br/Noticia/4352067/tse-determina-que-dona-do-facebook-esclareca-em-48h-restricoes-a-posts-da-campanha-de-lula"
+        },
+        {
+          "name": "Jornal do Brasil",
+          "url": "https://www.jb.com.br/brasil/politica/2026/10/1061194-campanha-de-lula-acusa-meta-de-interferir-em-eleicoes-em-prol-de-flavio.html"
+        }
+      ]
     }
-   ]
-  }
- ],
- "atualizado": "2026-10-15T10:49:43-03:00"
+  ],
+  "atualizado": "2026-10-15T10:51:38-03:00"
 }
