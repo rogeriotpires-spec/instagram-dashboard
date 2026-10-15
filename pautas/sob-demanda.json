@@ -1,6 +1,92 @@
 {
  "items": [
   {
+   "requested": "2026-10-15",
+   "done": "2026-10-15T11:37:36-03:00",
+   "issue": 63,
+   "slot_hint": "Imagem hoje (15) às 18h ou reel amanhã (16) às 12h.",
+   "source": {
+    "edition": "programa/2026-10-15",
+    "item_id": "eduardo-milei-washington",
+    "title": "Eduardo Bolsonaro diz em Washington que não volta para cumprir pena e quer Moraes fora do STF"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Eduardo Bolsonaro diz em Washington que não volta para cumprir pena e quer Moraes fora do STF",
+     "tone": "contundente, com foco na campanha",
+     "duration": "imagem única",
+     "fact": "Na quarta (14), em Washington, Eduardo Bolsonaro disse que só volta ao Brasil se a pena for extinta: \"Não vou puxar cadeia sendo inocente\". Ele vive nos EUA desde fevereiro de 2025, foi condenado a 4 anos e 2 meses por coação no curso do processo, nega o crime e recorre; na semana passada Moraes mandou expedir mandado de prisão. Eduardo afirmou que Moraes não segue no STF se Flávio vencer. Na gala da Herança Hispânica, Javier Milei declarou apoio a Flávio Bolsonaro no segundo turno e chamou Lula de ditador comunista. A saída de ministro do Supremo tem rito próprio, no Senado.",
+     "sources": [
+      {
+       "name": "Revista Oeste",
+       "url": "https://revistaoeste.com/politica/eduardo-bolsonaro-diz-que-moraes-nao-vai-seguir-no-stf-se-flavio-vencer/"
+      },
+      {
+       "name": "Blog do BG",
+       "url": "https://www.blogdobg.com.br/video-ao-lado-de-eduardo-bolsonaro-milei-chama-lula-de-ditador-comunista-e-diz-que-vai-expulsa-lo-a-chutes/"
+      },
+      {
+       "name": "O Globo",
+       "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/15/em-evento-com-milei-eduardo-bolsonaro-rechaca-retorno-ao-brasil-para-puxar-cadeia-sendo-inocente-e-defende-fora-moraes.ghtml"
+      }
+     ],
+     "art_text": [
+      "\"Não vou puxar cadeia sendo inocente\"",
+      "Eduardo Bolsonaro, em Washington",
+      "Milei apoia Flávio no 2º turno",
+      "Moraes no centro da campanha",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Eduardo Bolsonaro (ex-deputado, em Washington), autor da fala, e Javier Milei (presidente da Argentina), que declarou apoio a Flávio no mesmo evento. Ilustração de charge, sem foto real, os dois lado a lado num palco, em pose firme; ao fundo, silhueta do Capitólio. Risco médio.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Eduardo Bolsonaro (cabelo curto escuro, barba rala, terno escuro) e Javier Milei (cabelo volumoso grisalho, costeletas, terno escuro) lado a lado num palco, em pose firme, de frente para o público; ao fundo, a silhueta do Capitólio de Washington e bandeiras. No alto, em letras condensadas, brancas e pesadas: 'NÃO VOU PUXAR CADEIA SENDO INOCENTE'. Num quadro amarelo à esquerda: 'Eduardo, em Washington'. Num quadro vermelho à direita: 'Milei apoia Flávio no 2º turno'. Embaixo, com sublinhado vermelho pincelado, em branco: 'Moraes entra de vez na campanha'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Em Washington, Eduardo Bolsonaro disse que só volta ao Brasil se a pena for extinta: \"Não vou puxar cadeia sendo inocente\". Ele nega o crime e recorre da condenação. No mesmo evento, Javier Milei declarou apoio a Flávio Bolsonaro no segundo turno. Moraes entrou de vez na campanha, e o eleitor vai decidir também sobre os limites do poder de um ministro do STF. Qual é a sua opinião? Comenta.",
+     "risk": "médio",
+     "risk_note": "Eduardo foi condenado em ação penal, tem mandado de prisão expedido, nega o crime e recorre: diga isso se citar a condenação. A fala sobre Moraes é de Eduardo, atribua a ele. A saída de ministro do STF depende do Senado, não é decisão do presidente sozinho. O apoio de Milei a Flávio e a expressão \"ditador comunista\" são falas de Milei, só como citação. Não cite a imagem de Moraes com adjetivos de Eduardo."
+    },
+    {
+     "type": "r",
+     "title": "Eduardo Bolsonaro diz em Washington que não volta para cumprir pena e quer Moraes fora do STF",
+     "tone": "contundente, explicando o rito",
+     "duration": "45s",
+     "fact": "Na quarta (14), em Washington, Eduardo Bolsonaro disse que só volta ao Brasil se a pena for extinta: \"Não vou puxar cadeia sendo inocente\". Ele vive nos EUA desde fevereiro de 2025, foi condenado a 4 anos e 2 meses por coação no curso do processo, nega o crime e recorre; na semana passada Moraes mandou expedir mandado de prisão. Eduardo afirmou que Moraes não segue no STF se Flávio vencer. Na gala da Herança Hispânica, Javier Milei declarou apoio a Flávio Bolsonaro no segundo turno e chamou Lula de ditador comunista. A saída de ministro do Supremo tem rito próprio, no Senado.",
+     "sources": [
+      {
+       "name": "Revista Oeste",
+       "url": "https://revistaoeste.com/politica/eduardo-bolsonaro-diz-que-moraes-nao-vai-seguir-no-stf-se-flavio-vencer/"
+      },
+      {
+       "name": "Blog do BG",
+       "url": "https://www.blogdobg.com.br/video-ao-lado-de-eduardo-bolsonaro-milei-chama-lula-de-ditador-comunista-e-diz-que-vai-expulsa-lo-a-chutes/"
+      },
+      {
+       "name": "O Globo",
+       "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/15/em-evento-com-milei-eduardo-bolsonaro-rechaca-retorno-ao-brasil-para-puxar-cadeia-sendo-inocente-e-defende-fora-moraes.ghtml"
+      }
+     ],
+     "hooks": [
+      "\"Não vou puxar cadeia sendo inocente.\" Eduardo Bolsonaro falou em Washington.",
+      "Milei apoia Flávio no segundo turno e Moraes entra de vez na campanha."
+     ],
+     "script": "\"Não vou puxar cadeia sendo inocente.\" Foi o que Eduardo Bolsonaro disse na quarta, em Washington. Ele mora nos Estados Unidos desde fevereiro de 2025, foi condenado a quatro anos e dois meses por coação no curso do processo, nega o crime e recorre. Na semana passada, Moraes mandou expedir mandado de prisão. Eduardo diz que só volta se a pena for extinta e que Moraes não fica no Supremo se Flávio vencer. No mesmo evento, o presidente argentino Javier Milei declarou apoio a Flávio no segundo turno. Mas atenção ao caminho: a saída de um ministro do STF passa pelo Senado, e é nesse ponto que o eleitor precisa prestar atenção. O poder de um ministro do Supremo vai estar na urna. Você acha que esse tema pesa na eleição? Comenta aqui.",
+     "screen_text": [
+      "\"Não vou puxar cadeia sendo inocente\"",
+      "Eduardo Bolsonaro, em Washington",
+      "Milei apoia Flávio no 2º turno",
+      "Saída de ministro do STF passa pelo Senado"
+     ],
+     "caption": "Eduardo Bolsonaro disse em Washington que só volta ao Brasil se a pena for extinta. Ele nega o crime e recorre. Milei apoiou Flávio no segundo turno, e o poder de Moraes entrou na campanha. Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Eduardo foi condenado em ação penal, tem mandado de prisão expedido, nega o crime e recorre: diga isso se citar a condenação. A fala sobre Moraes é de Eduardo, atribua a ele. A saída de ministro do STF depende do Senado, não é decisão do presidente sozinho. O apoio de Milei a Flávio e a expressão \"ditador comunista\" são falas de Milei, só como citação. Não cite a imagem de Moraes com adjetivos de Eduardo.",
+     "timeline": {
+      "rende": true,
+      "angle": "Como funciona a saída de um ministro do STF: o rito no Senado, os votos necessários e o que o eleitor pode e não pode decidir na urna."
+     }
+    }
+   ]
+  },
+  {
    "requested": "2026-10-14",
    "done": "2026-10-14T10:40:30-03:00",
    "issue": 58,
