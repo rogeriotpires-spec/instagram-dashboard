@@ -16,8 +16,8 @@
 :root{
   color-scheme:light;
   --bg:#f3f2ee; --surface:#fcfcfb; --surface-2:#f6f5f1; --border:#e3e1da;
-  --text:#0b0b0b; --text-2:#52514e; --muted:#85847e; --grid:#ebe9e3;
-  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#4a3aa7; --s5:#eda100;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#6b6a64; --grid:#ebe9e3;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#4a3aa7; --s5:#966600;
   --good:#0f7a4c; --good-bg:#e5f4ec; --warn:#9a5b00; --warn-bg:#fbf0dc; --bad:#b4302f; --bad-bg:#fbe6e5;
 }
 @media (prefers-color-scheme:dark){
@@ -37,7 +37,7 @@
   --good:#4cc28a; --good-bg:#16291f; --warn:#e3a43c; --warn-bg:#2d2414; --bad:#ef7b7a; --bad-bg:#311a1a;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:64px}
+html{scroll-padding-top:110px}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 .hero{position:relative;color:#fff;background:#0d1b2e url(capa.jpg) center 40%/cover no-repeat;isolation:isolate}
@@ -50,11 +50,11 @@ a{color:inherit}
 .who .handle{display:flex;align-items:center;gap:8px;font-size:15px;opacity:.92}
 .badge{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:#3b9cf6}
 .badge svg{width:11px;height:11px}
-.who .bio{font-size:14px;opacity:.78;margin-top:8px;max-width:560px}
+.who .bio{font-size:15px;opacity:.88;margin-top:8px;max-width:560px}
 .hero-stats{display:flex;gap:26px;text-align:right}
 .hero-stats b{display:block;font-size:26px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
-.hero-stats span{font-size:12px;opacity:.75}
-.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.hero-stats span{font-size:13px;opacity:.85}
+.hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:13px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
 .hero-meta #updated{opacity:.75}
 .refresh{font:inherit;font-size:12px;font-weight:700;color:#0d1b2e;background:#ffd23f;border:1px solid #ffd23f;border-radius:999px;padding:5px 14px;cursor:pointer;box-shadow:0 2px 10px rgba(255,210,63,.35)}
 .refresh:hover{background:#ffe17a;border-color:#ffe17a}
@@ -63,7 +63,7 @@ a{color:inherit}
 nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
 .nav-in{max-width:1180px;margin:0 auto;padding:10px 16px;display:flex;gap:10px 14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;max-width:100%}
-.tabs a{white-space:nowrap;text-decoration:none;font-size:13px;font-weight:500;color:var(--text-2);padding:6px 9px;border-radius:8px}
+.tabs a{white-space:nowrap;text-decoration:none;font-size:14px;font-weight:500;color:var(--text-2);padding:6px 9px;border-radius:8px}
 .tabs a:hover{background:var(--surface);color:var(--text)}
 .filters{display:flex;gap:8px;flex-wrap:wrap}
 .seg{display:inline-flex;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:3px}
@@ -73,39 +73,39 @@ nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,
 section.block{margin-bottom:44px}
 .sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 14px;flex-wrap:wrap}
 .sec-h h2{font:700 24px/1.15 Fraunces,Georgia,serif;margin:0;letter-spacing:-.01em}
-.sec-h p{margin:0;color:var(--text-2);font-size:13px}
+.sec-h p{margin:0;color:var(--text-2);font-size:14px}
 .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:12px}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;min-width:0}
-.kpi .label{font-size:12.5px;color:var(--text-2);font-weight:600}
+.kpi .label{font-size:14px;color:var(--text-2);font-weight:600}
 .kpi .val{font-size:28px;font-weight:800;letter-spacing:-.02em;margin-top:2px;font-variant-numeric:tabular-nums}
-.kpi .note{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.4}
+.kpi .note{font-size:13px;color:var(--muted);margin-top:4px;line-height:1.4}
 .g2{display:grid;grid-template-columns:1.4fr 1fr;gap:12px;margin-bottom:12px}
 .g2e{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
 .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px}
 .card h3{font-size:15px;margin:0 0 2px;font-weight:650}
-.card .desc{font-size:12.5px;color:var(--text-2);margin:0 0 10px}
+.card .desc{font-size:14px;color:var(--text-2);margin:0 0 10px}
 .head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;flex-wrap:wrap}
-.per{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--text-2);background:var(--surface-2);border:1px solid var(--border);padding:2px 8px;border-radius:999px;white-space:nowrap}
+.per{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:600;color:var(--text-2);background:var(--surface-2);border:1px solid var(--border);padding:2px 8px;border-radius:999px;white-space:nowrap}
 .per.diff{color:var(--warn);background:var(--warn-bg);border-color:transparent}
 .per.diff::before{content:"!";font-weight:800}
-.def{font-size:11.5px;color:var(--muted);margin-top:8px;line-height:1.45}
+.def{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.45}
 .def b{color:var(--text-2);font-weight:600}
-.delta{font-size:12px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
+.delta{font-size:13px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
 .delta.up{color:var(--good)} .delta.down{color:var(--bad)} .delta.na{color:var(--muted);font-weight:500}
-.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--text-2);margin:2px 0 8px}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--text-2);margin:2px 0 8px}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 .legend i.ln{height:3px;border-radius:2px;vertical-align:3px;width:14px}
 .legend i.tr{height:0;border-top:2.5px dotted var(--s5);background:none!important;vertical-align:3px;width:16px;border-radius:0}
-.trend-note{font-size:12px;color:var(--text-2);margin-top:4px}
+.trend-note{font-size:13px;color:var(--text-2);margin-top:4px}
 .trend-note b{color:var(--text)}
 .legend i.dash{height:0;border-top:2px dashed var(--muted);background:none!important;vertical-align:3px;width:14px;border-radius:0}
 svg{display:block;width:100%;height:auto;overflow:visible}
-svg text{font:11px Inter,sans-serif;fill:var(--muted)}
+svg text{font:12px Inter,sans-serif;fill:var(--muted)}
 .tip{position:fixed;pointer-events:none;background:var(--text);color:var(--surface);font-size:12px;padding:8px 10px;border-radius:8px;opacity:0;transition:opacity .1s;z-index:50;max-width:290px;line-height:1.45}
 .callout{font-size:13px;color:var(--text-2);border-top:1px solid var(--border);padding-top:10px;margin-top:10px}
 .callout b{color:var(--text)}
 .empty{font-size:13px;color:var(--muted);border:1px dashed var(--border);border-radius:12px;padding:18px;text-align:center}
-.warnline{font-size:12px;color:var(--warn);margin-top:6px}
+.warnline{font-size:13px;color:var(--warn);margin-top:6px}
 .pick{margin-top:10px;padding:12px;border:1px dashed var(--border);border-radius:12px;font-size:13px;color:var(--text-2)}
 .pick.on{border-style:solid;background:var(--surface-2);color:var(--text)}
 .btn{display:inline-block;margin-top:8px;background:var(--text);color:var(--surface);text-decoration:none;font-weight:600;padding:7px 12px;border-radius:9px;border:0;font-size:13px;cursor:pointer}
@@ -119,29 +119,29 @@ svg text{font:11px Inter,sans-serif;fill:var(--muted)}
 .fstep .bar{height:26px;border-radius:6px;background:var(--s1);min-width:3px}
 .fstep.na .bar{background:repeating-linear-gradient(45deg,var(--grid),var(--grid) 6px,transparent 6px,transparent 12px);border:1px dashed var(--border)}
 .fstep b{font-variant-numeric:tabular-nums}
-.frate{font-size:12px;color:var(--text-2);padding-left:160px}
+.frate{font-size:13px;color:var(--text-2);padding-left:160px}
 .frate b{color:var(--text)}
 /* calendar */
-.cal{display:grid;grid-template-columns:28px repeat(7,1fr);gap:4px;font-size:11px}
+.cal{display:grid;grid-template-columns:28px repeat(7,1fr);gap:4px;font-size:12px}
 .cal .dh{color:var(--muted);text-align:center;font-weight:600}
-.cal .wk{color:var(--muted);font-size:10px;display:flex;align-items:center}
+.cal .wk{color:var(--muted);font-size:12px;display:flex;align-items:center}
 .cell{min-height:44px;border-radius:8px;background:var(--surface-2);border:1px solid var(--border);padding:4px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;position:relative}
 .cell.out{opacity:.35;cursor:default}
-.cell .dn{font-size:10px;color:var(--muted)}
+.cell .dn{font-size:12px;color:var(--muted)}
 .cell .dots{display:flex;flex-wrap:wrap;gap:2px}
 .cell .dots i{width:7px;height:7px;border-radius:2px}
 .cell.sel{outline:2px solid var(--text)}
 /* tables */
-table.t{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+table.t{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
 .t th,.t td{padding:9px 8px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
 .t th.l,.t td.l{text-align:left}
 .t td.w{white-space:normal;min-width:200px}
-.t th{font-size:11px;color:var(--text-2);text-transform:uppercase;letter-spacing:.04em;font-weight:600}
+.t th{font-size:13px;color:var(--text-2);font-weight:600}
 .t.sort th{cursor:pointer;user-select:none}
 .t th.on{color:var(--text)}
 .t td a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--border)}
 .small-n{color:var(--muted)}
-.tag{display:inline-block;font-size:11px;font-weight:600;padding:2px 7px;border-radius:6px;border:1px solid var(--border);color:var(--text-2);margin-right:4px;white-space:nowrap}
+.tag{display:inline-block;font-size:12px;font-weight:600;padding:2px 7px;border-radius:6px;border:1px solid var(--border);color:var(--text-2);margin-right:4px;white-space:nowrap}
 .tag i{display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:5px}
 .tablewrap{overflow-x:auto}
 .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;align-items:center}
@@ -153,28 +153,42 @@ table.t{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:
 .ins{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px}
 .ins-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .ins h3{margin:0;font-size:16px;font-weight:700}
-.pill{font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.pill{font-size:12px;font-weight:700;padding:3px 8px;border-radius:999px;white-space:nowrap}
 .pill.good{background:var(--good-bg);color:var(--good)} .pill.warn{background:var(--warn-bg);color:var(--warn)} .pill.bad{background:var(--bad-bg);color:var(--bad)} .pill.neutral{background:var(--surface-2);color:var(--text-2)}
 .ins .diag{font-size:14px;color:var(--text-2);margin:0}
 .ins .diag b{color:var(--text)}
 .ins ol{margin:0;padding-left:20px;font-size:14px}
 .ins li{margin:5px 0}
-.metric-row{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.metric-row{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 .metric-row b{display:block;font-size:20px;color:var(--text);font-weight:800;font-variant-numeric:tabular-nums}
 .plan{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
 .day{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:12px;font-size:13px}
-.day h4{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-2)}
+.day h4{margin:0 0 8px;font-size:14px;color:var(--text)}
 .slot{border-left:3px solid var(--s1);padding:2px 0 2px 8px;margin:6px 0;line-height:1.35}
-.slot small{display:block;color:var(--muted);font-size:11px}
+.slot small{display:block;color:var(--muted);font-size:12px}
 .slot.r{border-color:var(--s2)} .slot.c{border-color:var(--s4)} .slot.s{border-color:var(--s3)}
 .limits{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 20px;font-size:13px}
 .limits div{padding:8px 0;border-bottom:1px solid var(--border)}
 .limits b{display:block}
-.limits span{color:var(--text-2);font-size:12.5px}
-.sources{font-size:12.5px;color:var(--text-2);margin-top:14px}
+.limits span{color:var(--text-2);font-size:14px}
+.sources{font-size:14px;color:var(--text-2);margin-top:14px}
 .sources a{text-decoration:none;border-bottom:1px dotted var(--muted)}
-footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padding-top:16px}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--border);padding-top:16px}
+.subh{font-size:15px;font-weight:650;color:var(--text);margin:0 0 8px}
+.tabs a.ext{font-weight:700;color:var(--text);background:var(--surface);border:1px solid var(--border)}
+.tabs a[aria-current="page"]{background:var(--text);color:var(--surface)}
+.next{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+.next a{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px 18px}
+.next a:hover{border-color:var(--text-2)}
+.next b{display:block;font-size:16px;margin-bottom:2px}
+.next span{font-size:14px;color:var(--text-2)}
+#weekly .wk-kpis{display:none}
+:focus-visible{outline:2px solid var(--s1);outline-offset:2px}
+.seg button:focus-visible,.tabs a:focus-visible{outline-offset:-2px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media (max-width:900px){
+  .next{grid-template-columns:repeat(2,1fr)}
+  .tabs{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 32px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 32px),transparent);padding-right:24px}
   .hero-in{grid-template-columns:auto 1fr;padding-top:40px}
   .hero-stats{grid-column:1/-1;justify-content:flex-start;text-align:left}
   .kpis{grid-template-columns:repeat(2,1fr)}
@@ -189,6 +203,10 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
   .hero-stats{gap:18px}.hero-stats b{font-size:20px}
   .kpi .val{font-size:22px}
   .cell{min-height:36px}
+  .today{grid-template-columns:1fr;gap:8px}
+  .today .card{padding:14px 16px}
+  .next{grid-template-columns:1fr}
+  .card{padding:16px}
 }
 </style>
 </head>
@@ -198,7 +216,6 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
   <div class="hero-in">
     <a class="avatar-link" href="index.html" title="Página inicial" aria-label="Ir para a página inicial"><img class="avatar" src="rogerio.jpg" alt="Foto de Rogerio Pires"></a>
     <div class="who">
-      <div class="eyebrow">Painel de desempenho no Instagram</div>
       <h1>Rogerio Pires</h1>
       <div class="handle">@rogerrio <span class="badge" title="Conta verificada"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span></div>
       <div class="bio">Professor, gestor público e comentarista político. Educação, inovação e política no Rio de Janeiro e no Brasil.</div>
@@ -211,7 +228,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 <nav>
   <div class="nav-in">
     <div class="tabs">
-      <a href="pautas-nova.html" style="font-weight:700;color:var(--text);background:var(--surface);border:1px solid var(--border)">Pautas →</a><a href="noticias.html" style="font-weight:700;color:var(--text);background:var(--surface);border:1px solid var(--border)">Notícias →</a><a href="artigos.html" style="font-weight:700;color:var(--text);background:var(--surface);border:1px solid var(--border)">Artigos →</a><a href="#diario">Diário</a><a href="#visao">Visão geral</a><a href="#conversao">Conversão</a><a href="#vida">Vida do post</a><a href="#conteudo">Conteúdo</a><a href="#reels">Reels</a><a href="#temas">Temas</a><a href="#publico">Público</a><a href="#analise">Análise</a><a href="#benchmark">Benchmark</a><a href="#posts">Posts</a>
+      <a href="pautas-nova.html" class="ext">Pautas →</a><a href="noticias.html" class="ext">Notícias →</a><a href="artigos.html" class="ext">Artigos →</a><a href="#resumo">Resumo</a><a href="#diario">Dia a dia</a><a href="#conteudo">Conteúdo</a><a href="#reels">Reels</a><a href="#conversao">Conversão</a><a href="#publico">Público</a><a href="#analise">Indicadores</a><a href="#posts">Posts</a><a href="#limites">Sobre os dados</a>
     </div>
     <div class="filters">
       <div class="seg" id="f-range" role="group" aria-label="Período"><button data-v="1" title="Último dia completo (ontem)">1d</button><button data-v="7">7d</button><button data-v="30" aria-pressed="true">30d</button><button data-v="60">60d</button><button data-v="90">90d</button></div>
@@ -222,9 +239,24 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 
 <main class="wrap">
 
-  <section class="block" id="diario">
-    <div class="sec-h"><h2>Acompanhamento diário</h2><p id="daily-sub">Métricas da conta por dia (data de Brasília)</p></div>
+  <section class="block" id="resumo" data-page="resumo">
+    <div class="sec-h"><h2>Resumo do período</h2><p id="daily-sub">Métricas da conta por dia (data de Brasília)</p></div>
     <div class="today" id="today"></div>
+    <div id="weekly"></div>
+    <div class="card" style="margin-top:12px"><h3>Semana modelo sugerida</h3><p class="desc" id="plan-sub">Baseada nos horários e formatos com melhor mediana no seu histórico.</p>
+      <div class="legend"><span><i style="background:var(--s1)"></i>Imagem</span><span><i style="background:var(--s2)"></i>Reel</span><span><i style="background:var(--s4)"></i>Carrossel</span><span><i style="background:var(--s3)"></i>Stories / interação</span></div><div class="plan" id="plan"></div></div>
+    <div class="next" role="navigation" aria-label="Detalhes">
+      <a href="#diario"><b>Dia a dia</b><span>Seguidores hora a hora, alcance, views e interações</span></a>
+      <a href="#conteudo"><b>Conteúdo</b><span>Formatos, horários, dias e temas que rendem mais</span></a>
+      <a href="#reels"><b>Reels</b><span>Taxa de pulo, tempo assistido e duração</span></a>
+      <a href="#conversao"><b>Conversão</b><span>Quais posts trazem seguidores</span></a>
+      <a href="#publico"><b>Público</b><span>Idade, gênero e estados de quem segue</span></a>
+      <a href="#posts"><b>Todos os posts</b><span>Tabela completa com busca e CSV</span></a>
+    </div>
+  </section>
+
+  <section class="block" id="diario" data-page="diario">
+    <div class="sec-h"><h2>Dia a dia</h2><p>Métricas da conta por dia, data de Brasília</p></div>
     <div class="card" style="margin-bottom:12px"><div class="head"><h3>Seguidores hoje, hora a hora</h3><span class="per" data-per="intra"></span></div><p class="desc" id="intra-desc">Saldo acumulado desde a meia-noite (quem começou a seguir menos quem deixou de seguir), medido a cada coleta.</p><div class="legend" id="intra-leg"></div><div id="d-intra"></div><div class="def" id="intra-note"></div></div>
     <div class="g2e">
       <div class="card"><div class="head"><h3>Alcance da conta por dia</h3><span class="per" data-per="daily"></span></div><p class="desc">Contas únicas alcançadas em cada dia. Não somar dias: a mesma pessoa pode aparecer em vários.</p><div class="legend"><span><i class="ln" style="background:var(--s1)"></i>Por dia</span><span><i class="dash"></i>Média móvel 7 dias</span></div><div id="d-reach"></div></div>
@@ -246,16 +278,14 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     </div>
   </section>
 
-  <section class="block" id="visao">
-    <div class="sec-h"><h2>Visão geral</h2><p>Cada indicador mostra o próprio período e a comparação com o período anterior de mesmo tamanho</p></div>
-    <h3 style="font-size:13px;color:var(--text-2);margin:0 0 8px;text-transform:uppercase;letter-spacing:.06em">Conta <span id="acc-note" style="text-transform:none;letter-spacing:0;font-weight:500;color:var(--muted)"></span></h3>
-    <div class="kpis" id="kpis-acc"></div>
-    <h3 style="font-size:13px;color:var(--text-2);margin:14px 0 8px;text-transform:uppercase;letter-spacing:.06em">Publicações do período</h3>
-    <div class="kpis" id="kpis-post"></div>
+  <section class="block" id="visao" data-page="conteudo">
+    <div class="sec-h"><h2>Publicações do período</h2><p>Cada indicador compara com o período anterior de mesmo tamanho</p></div>
+    <div hidden><span id="acc-note"></span><div class="kpis" id="kpis-acc"></div></div>
+        <div class="kpis" id="kpis-post"></div>
     <div class="card" id="reach-split"></div>
   </section>
 
-  <section class="block" id="conversao">
+  <section class="block" id="conversao" data-page="conversao">
     <div class="sec-h"><h2>Conversão em seguidores</h2><p>Do alcance ao seguidor, com as taxas entre etapas</p></div>
     <div class="g2e">
       <div class="card"><div class="head"><h3>Funil das publicações</h3><span class="per" data-per="global"></span></div><p class="desc" id="funnel-post-desc"></p><div id="funnel-post"></div></div>
@@ -264,12 +294,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     <div class="card"><div class="head"><h3>Posts que mais convertem</h3><span class="per" data-per="global"></span></div><p class="desc">Seguidores por mil contas alcançadas, entre posts com pelo menos 10 mil de alcance. Só imagens e carrosséis têm esse dado na fonte.</p><div class="tablewrap"><table class="t" id="conv-tbl"></table></div></div>
   </section>
 
-  <section class="block" id="vida">
-    <div class="sec-h"><h2>Curva de vida do post</h2><p>Compare posts na mesma idade: 24 horas, 3 dias, 7 dias e 30 dias após publicar</p></div>
-    <div class="card"><div class="head"><h3>Visualizações por idade do post</h3><span class="per" data-per="tracking"></span></div><p class="desc">A fonte entrega só o total atual de cada post. A curva é montada com as leituras diárias: cada post entra numa janela quando foi lido com idade próxima dela (a idade exata aparece no detalhe).</p><div id="life"></div></div>
-  </section>
-
-  <section class="block" id="conteudo">
+  <section class="block" id="conteudo" data-page="conteudo">
     <div class="sec-h"><h2>Conteúdo</h2><p>Mediana por post, quartis e tamanho da amostra</p></div>
     <div class="g2">
       <div class="card"><div class="head"><h3>Views acumuladas por semana de publicação</h3><span class="per" data-per="dist"></span></div><p class="desc">Soma das views totais (até a coleta) dos posts publicados em cada semana. Posts recentes ainda estão acumulando.</p><div class="legend" id="lg-weekly"></div><div id="c-weekly"></div></div>
@@ -285,7 +310,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     </div>
   </section>
 
-  <section class="block" id="reels">
+  <section class="block" id="reels" data-page="reels">
     <div class="sec-h"><h2>Reels: retenção</h2><p>Associações dentro da amostra, não relação de causa</p></div>
     <div class="g2">
       <div class="card"><div class="head"><h3>Taxa de pulo x visualizações</h3><span class="per" data-per="dist"></span></div><p class="desc">Cada ponto é um Reel. Taxa de pulo = % de quem passou adiante nos 3 primeiros segundos. <b>Eixo vertical em escala logarítmica</b>: cada linha vale 10 vezes a anterior.</p>
@@ -303,12 +328,17 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     </div>
   </section>
 
-  <section class="block" id="temas">
+  <section class="block" id="temas" data-page="conteudo">
     <div class="sec-h"><h2>Desempenho por tema</h2><p>Classificação automática pela legenda (pode ter erros pontuais)</p></div>
     <div class="card"><div class="head"><h3>Temas por formato</h3><span class="per" data-per="dist"></span></div><p class="desc">Mediana por post. Taxa de compartilhamento = compartilhamentos ÷ views. Amostras com menos de 5 posts em cinza.</p><div class="tablewrap"><table class="t" id="theme-tbl"></table></div></div>
   </section>
 
-  <section class="block" id="publico">
+  <section class="block" id="vida" data-page="conteudo">
+    <div class="sec-h"><h2>Curva de vida do post</h2><p>Compare posts na mesma idade: 24 horas, 3 dias, 7 dias e 30 dias após publicar</p></div>
+    <div class="card"><div class="head"><h3>Visualizações por idade do post</h3><span class="per" data-per="tracking"></span></div><p class="desc">A fonte entrega só o total atual de cada post. A curva é montada com as leituras diárias: cada post entra numa janela quando foi lido com idade próxima dela (a idade exata aparece no detalhe).</p><div id="life"></div></div>
+  </section>
+
+  <section class="block" id="publico" data-page="publico">
     <div class="sec-h"><h2>Público</h2><p id="aud-sub"></p></div>
     <div style="margin-bottom:12px">
       <div class="card"><div class="head"><h3>Idade e gênero dos seguidores</h3><span class="per" data-per="aud"></span></div><div class="legend"><span><i style="background:var(--s1)"></i>Homens</span><span><i style="background:var(--s2)"></i>Mulheres</span><span><i style="background:var(--muted)"></i>Não informado</span></div><div id="c-age"></div></div>
@@ -317,17 +347,13 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     <div class="def">Esses dados descrevem quem <b>segue</b> o perfil, não todas as pessoas alcançadas: mais de 99% do alcance vem de não seguidores, cujo perfil a fonte não informa.</div>
   </section>
 
-  <section class="block" id="analise">
-    <div class="sec-h"><h2>Análise e sugestões</h2><p id="ai-sub">Análise semanal + indicadores automáticos</p></div>
-    <div id="weekly"></div>
-    <h3 id="auto-h" style="font-size:13px;color:var(--text-2);margin:22px 0 4px;text-transform:uppercase;letter-spacing:.06em">Indicadores automáticos</h3>
-    <p class="def" id="auto-sub" style="margin:0 0 10px">Recalculados a cada coleta e conforme o filtro de período e formato.</p>
+  <section class="block" id="analise" data-page="analise">
+    <div class="sec-h"><h2>Indicadores automáticos</h2><p id="ai-sub">Recalculados a cada coleta e conforme o filtro de período e formato</p></div>
+    <span id="auto-h" hidden></span><span id="auto-sub" hidden></span>
     <div class="ins-grid" id="insights"></div>
-    <div class="card" style="margin-top:12px"><h3>Semana modelo sugerida</h3><p class="desc" id="plan-sub">Baseada nos horários e formatos com melhor mediana no seu histórico.</p>
-      <div class="legend"><span><i style="background:var(--s1)"></i>Imagem</span><span><i style="background:var(--s2)"></i>Reel</span><span><i style="background:var(--s4)"></i>Carrossel</span><span><i style="background:var(--s3)"></i>Stories / interação</span></div><div class="plan" id="plan"></div></div>
   </section>
 
-  <section class="block" id="benchmark">
+  <section class="block" id="benchmark" data-page="analise">
     <div class="sec-h"><h2>Benchmark</h2><p>Comparação com referências externas, sempre na mesma fórmula</p></div>
     <div class="card"><div class="tablewrap"><table class="t" id="bench"></table></div>
       <div class="def"><b>Atenção:</b> referências externas misturam contas de muitos segmentos e tamanhos. Servem como ordem de grandeza, não como meta exata. Pesos do algoritmo não são divulgados em números pelo Instagram.</div>
@@ -335,7 +361,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     </div>
   </section>
 
-  <section class="block" id="posts">
+  <section class="block" id="posts" data-page="posts">
     <div class="sec-h"><h2>Todos os posts</h2><p>Filtros próprios + período e formato do topo</p></div>
     <div class="card">
       <div class="toolbar">
@@ -349,12 +375,12 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
     </div>
   </section>
 
-  <section class="block" id="limites">
+  <section class="block" id="limites" data-page="limites">
     <div class="sec-h"><h2>Limites da fonte de dados</h2><p>O que o painel não mostra e por quê</p></div>
     <div class="card"><div class="limits" id="limits"></div></div>
   </section>
 
-  <footer id="foot">Dados: Instagram Insights via Supermetrics (coleta às 4h50) e API oficial do Instagram (coleta às 4h20, horário de Brasília).</footer>
+  <footer id="foot">Dados: Instagram Insights via Supermetrics (coleta às 4h50) e API oficial do Instagram (coleta às 4h20, horário de Brasília). <a href="#limites">O que o painel não mostra e por quê</a></footer>
 </main>
 <div class="tip" id="tip"></div>
 
@@ -447,12 +473,12 @@ function intraday(){
   let step=nice((hi-lo)/3),y0=Math.floor(lo/step)*step,y1=Math.ceil(hi/step)*step;
   const Yp=n=>m.t+h1-h1*(n-y0)/(y1-y0);
   for(let v=y0;v<=y1+1e-9;v+=step){const y=Yp(v);el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:v===0?"var(--border)":"var(--grid)"},svg);const t=el("text",{x:m.l-8,y:y+4,"text-anchor":"end"},svg);t.textContent=(v>0?"+":"")+fmt(v)}
-  const lab=(y,txt)=>{const t=el("text",{x:m.l,y,style:"font-size:11px;font-weight:600;fill:var(--text-2)"},svg);t.textContent=txt};
+  const lab=(y,txt)=>{const t=el("text",{x:m.l,y,style:"font-size:12px;font-weight:600;fill:var(--text-2)"},svg);t.textContent=txt};
   if(yOk)el("polyline",{points:Y.out.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" "),fill:"none",stroke:"var(--muted)","stroke-width":1.5,"stroke-dasharray":"4 3"},svg);
   el("polygon",{points:`${X(pts[0].h)},${Yp(0)} `+pts.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" ")+` ${X(last.h)},${Yp(0)}`,fill:"var(--s3)",opacity:.12},svg);
   el("polyline",{points:pts.map(p=>`${X(p.h)},${Yp(p.n)}`).join(" "),fill:"none",stroke:"var(--s3)","stroke-width":2.2,"stroke-linejoin":"round"},svg);
   if(proj!=null){el("line",{x1:X(last.h),y1:Yp(last.n),x2:X(24),y2:Yp(proj),stroke:"var(--s5)","stroke-width":2.5,"stroke-dasharray":"1 5","stroke-linecap":"round"},svg);
-    const pt=el("text",{x:X(24)-2,y:Yp(proj)-8,"text-anchor":"end",style:"font-size:11px;font-weight:700;fill:var(--s5)"},svg);pt.textContent=`~${proj>=0?"+":""}${full(Math.round(proj))} às 24h`}
+    const pt=el("text",{x:X(24)-2,y:Yp(proj)-8,"text-anchor":"end",style:"font-size:12px;font-weight:700;fill:var(--s5)"},svg);pt.textContent=`~${proj>=0?"+":""}${full(Math.round(proj))} às 24h`}
   pts.forEach((p,i)=>{if(p.k)el("circle",{cx:X(p.h),cy:Yp(p.n),r:i===pts.length-1?4:2.6,fill:"var(--s3)",stroke:"var(--surface)","stroke-width":1.2},svg)});
   const lt=el("text",{x:Math.min(X(last.h)+8,W-m.r-40),y:Yp(last.n)-8,style:"font-size:12px;font-weight:700;fill:var(--text)"},svg);lt.textContent=(last.n>=0?"+":"")+full(last.n);
   /* painel de baixo: saldo de cada hora */
@@ -464,7 +490,7 @@ function intraday(){
   HB.forEach(b=>{const x=X(b.h)+(bw-w)/2,yv=Yb(Math.max(b.g,0)),hh=Math.abs(Yb(b.g)-Yb(0));
     if(b.g>=0)el("path",{d:barPath(x,yv,w,hh,Math.min(3,w/3)),fill:"var(--s1)",opacity:b.est||b.part?.4:1},svg);
     else el("rect",{x,y:Yb(0),width:w,height:hh,fill:"var(--s1)",opacity:b.est||b.part?.4:1},svg);
-    if(!b.est&&!b.part&&W>=500){const t=el("text",{x:x+w/2,y:yv-4,"text-anchor":"middle",style:"font-size:10px"},svg);t.textContent=b.g}});
+    if(!b.est&&!b.part&&W>=500){const t=el("text",{x:x+w/2,y:yv-4,"text-anchor":"middle",style:"font-size:12px"},svg);t.textContent=b.g}});
   for(let h=0;h<=24;h+=W<500?6:3){const t=el("text",{x:X(h),y:H-6,"text-anchor":h===0?"start":h===24?"end":"middle"},svg);t.textContent=h+"h"}
   /* interação */
   const hm=h=>`${String(Math.floor(h)).padStart(2,"0")}h${String(Math.round(h%1*60)).padStart(2,"0")}`;
@@ -487,13 +513,13 @@ function intraday(){
 function qbars(host,{labels,series,tipFn,minN=5}){
   host.innerHTML="";const W=host.clientWidth||600,H=Math.max(200,Math.min(250,W*.5)),m={t:16,r:4,b:24,l:46};
   const svg=el("svg",{viewBox:`0 0 ${W} ${H}`},host),iw=W-m.l-m.r,ih=H-m.t-m.b,n=labels.length;
-  const top=Math.max(1,...series.flatMap(s=>s.stats.map(x=>x&&x.q3!=null?x.q3:0)));const max=yAxis(svg,m,W,ih,top);
+  const meds=series.flatMap(s=>s.stats.map(x=>x&&x.n?x.med||0:0)),q3s=series.flatMap(s=>s.stats.map(x=>x&&x.q3!=null?x.q3:0));const top=Math.max(1,Math.min(Math.max(...q3s),Math.max(...meds)*2.2)); /* escala pelas medianas: quartis muito altos são cortados no topo (seta) para não achatar as barras */const max=yAxis(svg,m,W,ih,top);
   const bw=iw/n,gap=Math.max(4,bw*.24),w=bw-gap,k=series.length,sw=(w-2*(k-1))/k;
   labels.forEach((lab,i)=>{const x=m.l+i*bw+gap/2;
     series.forEach((s,si)=>{const st=s.stats[i];if(!st||!st.n)return;const bx=x+si*(sw+2),h=ih*Math.min(st.med,max)/max;const small=st.n<minN;
       el("path",{d:barPath(bx,m.t+ih-h,sw,h,Math.min(4,sw/3)),fill:s.color,opacity:small?.35:1},svg);
-      if(st.n>=3&&st.q1!=null){const cx=bx+sw/2,y1=m.t+ih-ih*Math.min(st.q1,max)/max,y3=m.t+ih-ih*Math.min(st.q3,max)/max;el("line",{x1:cx,x2:cx,y1,y2:y3,stroke:"var(--text)","stroke-width":1.2,opacity:.55},svg);[y1,y3].forEach(y=>el("line",{x1:cx-3,x2:cx+3,y1:y,y2:y,stroke:"var(--text)","stroke-width":1.2,opacity:.55},svg))}
-      const yTop=Math.min(m.t+ih-h,st.n>=3&&st.q3!=null?m.t+ih-ih*Math.min(st.q3,max)/max:1e9);const t=el("text",{x:bx+sw/2,y:Math.max(10,yTop-5),"text-anchor":"middle",style:"font-size:10px;font-weight:600"},svg);t.textContent=st.n});
+      if(st.n>=3&&st.q1!=null){const cx=bx+sw/2,y1=m.t+ih-ih*Math.min(st.q1,max)/max,y3=m.t+ih-ih*Math.min(st.q3,max)/max;el("line",{x1:cx,x2:cx,y1,y2:y3,stroke:"var(--text)","stroke-width":1.2,opacity:.55},svg);[y1,y3].forEach((y,j)=>{if(j===1&&st.q3>max)el("path",{d:`M${cx-4},${y+5}L${cx},${y}L${cx+4},${y+5}`,fill:"none",stroke:"var(--text)","stroke-width":1.2,opacity:.7},svg);else el("line",{x1:cx-3,x2:cx+3,y1:y,y2:y,stroke:"var(--text)","stroke-width":1.2,opacity:.55},svg)})}
+      const yTop=Math.min(m.t+ih-h,st.n>=3&&st.q3!=null?m.t+ih-ih*Math.min(st.q3,max)/max:1e9);const t=el("text",{x:bx+sw/2,y:Math.max(10,yTop-5),"text-anchor":"middle",style:"font-size:12px;font-weight:600"},svg);t.textContent=st.n});
     const t=el("text",{x:x+w/2,y:H-6,"text-anchor":"middle"},svg);t.textContent=lab;hit(svg,{x:m.l+i*bw,y:m.t,width:bw,height:ih},()=>tipFn(i))});
 }
 const statsOf=a=>({n:a.length,med:median(a),q1:quant(a,.25),q3:quant(a,.75)});
@@ -802,7 +828,7 @@ function renderContent(){
   const metas=[1000,5000,20000,100000,500000];
   $("#c-dist").innerHTML=types.map(t=>{const a=R.filter(p=>p.type===t);if(!a.length)return"";
     return`<div style="margin-bottom:14px"><div style="font-size:13px;font-weight:600;margin-bottom:6px"><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:${TYPE[t].c};margin-right:6px"></i>${TYPE[t].name} <span class="small-n">(${a.length} posts)</span></div>
-    ${metas.map(m=>{const k=a.filter(p=>p.views>=m).length;return`<div style="display:grid;grid-template-columns:92px 1fr 80px;gap:8px;align-items:center;font-size:12.5px;margin:3px 0"><span class="small-n">≥ ${m>=1000?m/1000+" mil":m} views</span><div style="height:9px;background:var(--grid);border-radius:3px"><div style="height:100%;width:${k/a.length*100}%;background:${TYPE[t].c};border-radius:3px"></div></div><b style="text-align:right;font-variant-numeric:tabular-nums">${pct(k/a.length,0)} <span class="small-n">(${k})</span></b></div>`}).join("")}</div>`}).join("")||`<div class="empty">Sem posts no período.</div>`;
+    ${metas.map(m=>{const k=a.filter(p=>p.views>=m).length;return`<div style="display:grid;grid-template-columns:92px 1fr 80px;gap:8px;align-items:center;font-size:14px;margin:3px 0"><span class="small-n">≥ ${m>=1000?m/1000+" mil":m} views</span><div style="height:9px;background:var(--grid);border-radius:3px"><div style="height:100%;width:${k/a.length*100}%;background:${TYPE[t].c};border-radius:3px"></div></div><b style="text-align:right;font-variant-numeric:tabular-nums">${pct(k/a.length,0)} <span class="small-n">(${k})</span></b></div>`}).join("")}</div>`}).join("")||`<div class="empty">Sem posts no período.</div>`;
   renderCalendar(R,types);
 }
 function renderCalendar(R,types){
@@ -933,9 +959,9 @@ function renderWeekly(){
   const vs=dyn?(r===1?"média da semana":`${r} dias anteriores`):"semana anterior";
   host.innerHTML=`<div class="card" style="border-left:4px solid var(--s1)">
     <div class="head"><h3>${ttl}</h3><span class="per keep" data-per="weekly-x">${A.period.start===A.period.end?dBR(A.period.end):perLabel(A.period.start,A.period.end)}${dyn?"":" · fixo"}</span></div>
-    <p class="desc">Escrita pelo Claude em ${new Date(A.generated).toLocaleDateString("pt-BR")}${ago>(dyn?2:8)?` <b style="color:var(--warn)">(há ${ago} dias)</b>`:""}, comparando com ${cmpTxt}. ${dyn?"Muda com o filtro de período do topo e é refeita todo dia às 5h40.":(AP[r]===undefined?"Carregando a análise do período escolhido…":"Ainda não há análise para este período; mostrando a semanal.")} <button type="button" class="refresh" id="an-gen" style="margin-left:6px;font-size:11px;padding:3px 10px">↻ Refazer análises</button> <span id="an-st" class="small-n"></span></p>
-    <p style="font-size:16px;font-weight:600;margin:6px 0 14px;line-height:1.4">${A.headline}</p>
-    <div class="kpis" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:0">${(A.kpis||[]).map(k=>`<div style="padding:10px 12px;background:var(--surface-2);border-radius:12px"><div class="label" style="font-size:12px;color:var(--text-2)">${k.label}</div><div style="font-size:20px;font-weight:800">${k.value}</div><div class="delta ${k.dir}">${k.delta}${k.dir==="na"?"":" vs "+vs}</div></div>`).join("")}</div></div>
+    <p class="desc">Escrita pelo Claude em ${new Date(A.generated).toLocaleDateString("pt-BR")}${ago>(dyn?2:8)?` <b style="color:var(--warn)">(há ${ago} dias)</b>`:""}, comparando com ${cmpTxt}. ${dyn?"Muda com o filtro de período do topo e é refeita todo dia às 5h40.":(AP[r]===undefined?"Carregando a análise do período escolhido…":"Ainda não há análise para este período; mostrando a semanal.")} <button type="button" class="refresh" id="an-gen" style="margin-left:6px;font-size:12px;padding:3px 10px">↻ Refazer análises</button> <span id="an-st" class="small-n"></span></p>
+    <p style="font-size:19px;font-weight:600;margin:8px 0 4px;line-height:1.4">${A.headline}</p>
+    <div class="kpis wk-kpis" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:0">${(A.kpis||[]).map(k=>`<div style="padding:10px 12px;background:var(--surface-2);border-radius:12px"><div class="label" style="font-size:12px;color:var(--text-2)">${k.label}</div><div style="font-size:20px;font-weight:800">${k.value}</div><div class="delta ${k.dir}">${k.delta}${k.dir==="na"?"":" vs "+vs}</div></div>`).join("")}</div></div>
     <div class="ins-grid" style="margin-top:12px">${A.cards.map(c=>`<article class="ins"><div class="ins-top"><h3>${c.title}</h3><span class="pill ${c.status}">${c.status_label}</span></div><p class="diag">${c.diagnosis}</p><ol>${c.actions.map(x=>`<li>${x}</li>`).join("")}</ol>${(c.posts||[]).filter(k=>byCode[k]).length?`<div style="display:flex;flex-wrap:wrap;gap:6px">${c.posts.filter(k=>byCode[k]).map(k=>{const p=byCode[k];return`<a class="tag" style="text-decoration:none" href="${linkOf(p)}" target="_blank" rel="noopener"><i style="background:${TYPE[p.type].c}"></i>${p.title.slice(0,38)}${p.title.length>38?"…":""} · ${fmt(p.views)} ↗</a>`}).join("")}</div>`:""}</article>`).join("")}</div>`;
   if(window.Painel&&$("#an-gen"))Painel.wire({btn:$("#an-gen"),st:$("#an-st"),job:"analises",wf:"analises.yml",minutes:20,needsClaude:true,
     stamp:()=>fetch(`analises/p${state.range}.json?`+Date.now(),{cache:"no-store"}).then(x=>x.ok?x.json():{}).then(j=>j.generated||""),
@@ -1004,6 +1030,23 @@ function seg(id,key,num){$$(`#${id} button`).forEach(b=>b.onclick=()=>{$$(`#${id
 function ftoast(t){let e=document.getElementById("ftoast");if(!e){e=document.createElement("div");e.id="ftoast";e.style.cssText="position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--text);color:var(--bg);padding:8px 16px;border-radius:999px;font-size:13px;font-weight:600;z-index:60;transition:opacity .2s;pointer-events:none;max-width:90vw;text-align:center";document.body.appendChild(e)}
   e.textContent=t;e.style.opacity=1;clearTimeout(e._t);e._t=setTimeout(()=>e.style.opacity=0,1800)}
 
+/* ---------- páginas: uma seção por vez, estado na URL (#resumo, #conteudo…) ---------- */
+function showPage(){
+  const h=decodeURIComponent(location.hash.slice(1)),target=h&&document.getElementById(h),secs=[...document.querySelectorAll("section[data-page]")];
+  const pg=target&&target.closest("section[data-page]")?target.closest("section[data-page]").dataset.page:"resumo";
+  secs.forEach(s=>s.hidden=s.dataset.page!==pg);
+  $$(".tabs a[href^='#']").forEach(a=>{const t=document.getElementById(a.getAttribute("href").slice(1));const on=t&&t.dataset.page===pg;if(on){a.setAttribute("aria-current","page");a.scrollIntoView({block:"nearest",inline:"center"})}else a.removeAttribute("aria-current")});
+  if(D)render();
+  const first=secs.find(s=>s.dataset.page===pg);const nav=document.querySelector("nav");
+  const init=showPage.init;showPage.init=false;const go=()=>{if(target&&h!==pg&&target!==first&&!target.hidden){target.scrollIntoView()}else{const y=init?0:document.querySelector("main").offsetTop-nav.offsetHeight;if(init||scrollY>y)scrollTo({top:y,behavior:"instant"})}};
+  go();setTimeout(go,0); /* o navegador também pula para a âncora; repetir garante o início da página */
+}
+if("scrollRestoration" in history)history.scrollRestoration="manual";
+showPage.init=true;addEventListener("hashchange",showPage);showPage();
+/* ao abrir um link direto (#conteudo…), o navegador tenta pular para a âncora enquanto a página carrega; mantém o início da página, a menos que a pessoa já tenha rolado */
+let touched=false;["wheel","touchstart","keydown","pointerdown"].forEach(ev=>addEventListener(ev,()=>touched=true,{once:true,passive:true}));
+const keepTop=()=>{if(!touched&&location.hash&&scrollY>0)scrollTo({top:0,behavior:"instant"})};addEventListener("load",()=>{keepTop();setTimeout(keepTop,300)});
+
 Promise.all([fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}),fetch("analysis.json?"+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([d,an])=>{D=d;AN=an;prep();
   const types=["I","R","C"].filter(t=>ALL.some(p=>p.type===t));
   $("#f-type").innerHTML=`<button data-v="all" aria-pressed="true">Todos</button>`+types.map(t=>`<button data-v="${t}">${TYPE[t].name}</button>`).join("");
@@ -1014,7 +1057,7 @@ Promise.all([fetch("data.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error(r.
   const au=d.account_updated?new Date(d.account_updated):null;
   $("#updated").textContent=`Última coleta completa: ${u.toLocaleDateString("pt-BR")} às ${hm(u)} · dados da conta até ${dBR(d.period.end)}`+(au&&au>u?` · seguidores atualizados em ${au.toLocaleDateString("pt-BR")} às ${hm(au)}`:"");
   heroStats(d);
-  plan();renderLimits();render();let t;addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(render,150)})
+  plan();renderLimits();render();setTimeout(keepTop,0);let t;addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(render,150)})
 }).catch(err=>{$("#updated").textContent="Não foi possível carregar os dados agora. Tente recarregar a página.";document.querySelector("main").insertAdjacentHTML("afterbegin",`<div class="empty" style="margin-bottom:20px">Erro ao carregar data.json (${err.message}).</div>`)});
 
 /* ---------- botão Atualizar agora ---------- */
