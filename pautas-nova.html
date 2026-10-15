@@ -414,11 +414,20 @@ async function loadP(d){
         ${(x.perguntas||[]).length?block("Perguntas para a conversa",`<ol>${x.perguntas.map(q=>`<li>${esc(q)}</li>`).join("")}</ol>`,x.perguntas.join("\n")):""}
         ${x.atencao?`<div class="note"><b>Atenção:</b> ${esc(x.atencao)}</div>`:""}
         <div class="src">${srcs(x.fontes)}</div>
-        <div class="vc">${VC.has(x.titulo)?`<a class="act" href="#sob-demanda" data-gosd="1">Virou conteúdo ✓ Ver no Instagram</a>`:`<button class="act" type="button" data-vc="${esc(x.titulo)}" data-vd="${esc(d)}">📲 Virar conteúdo do Instagram</button><span class="small-n vst"></span>`}</div></article>`).join("")}`;
+        <div class="vc">${progArtBtn(x,d,k)}${VC.has(x.titulo)?`<a class="act" href="#sob-demanda" data-gosd="1">Virou conteúdo ✓ Ver no Instagram</a>`:`<button class="act" type="button" data-vc="${esc(x.titulo)}" data-vd="${esc(d)}">📲 Virar conteúdo do Instagram</button><span class="small-n vst"></span>`}</div></article>`).join("")}`;
     pdfLink(d);if(TAB==="programa"){history.replaceState(null,"","#programa/"+d);updHero()}
   }catch(e){$("#p-body").innerHTML=`<div class="empty">Não foi possível carregar a pauta de ${dBR(d)}.</div>`}
 }
 
+/* botão "Escrever artigo" no item da pauta do programa: mesmo fluxo do "Rende artigo na Timeline" */
+function progArtBtn(x,d,k){
+  const o={title:x.titulo,
+    fact:[x.subtitulo,x.resumo,...(x.contexto||[])].filter(Boolean).join(" "),
+    sources:x.fontes||[],
+    timeline:{rende:true,angle:[...(x.angulo||[]),x.atencao?"Atenção: "+x.atencao:""].filter(Boolean).join(" ")}};
+  const ctx={day:d,rotulo:`Pauta do programa de ${dBR(d)} · item ${k+1}`};
+  const i=OPTR.push({o,ctx})-1,has=ARTS.has(artId(d,o));
+  return`<button type="button" class="act tl-btn" data-r="${i}" title="${has?"Abrir o artigo já escrito":"Escrever um artigo para a Revista Timeline a partir deste item"}">${has?"Ver artigo da Timeline ↗":"✍ Escrever artigo"}</button>`}
 /* ---------- conteúdo do Instagram ---------- */
 /* excluir item da pauta (lixeira) */
 const TRASH=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6M10 11v6M14 11v6"/></svg>`;
