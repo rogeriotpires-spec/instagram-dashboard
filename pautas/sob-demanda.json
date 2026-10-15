@@ -2,6 +2,84 @@
  "items": [
   {
    "requested": "2026-10-15",
+   "done": "2026-10-15T18:57:23-03:00",
+   "issue": 64,
+   "slot_hint": "Imagem hoje (15) às 21h ou reel amanhã (16) às 12h.",
+   "source": {
+    "edition": "2026-10-15-19h",
+    "item_id": "vorcaro-sigilo-fab",
+    "title": "FAB impõe sigilo de 100 anos sobre lista de passageiros do jato de Vorcaro; Vorcaro depõe de novo à PF"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "realista",
+     "title": "FAB impõe sigilo de 100 anos sobre lista de passageiros do jato de Vorcaro",
+     "tone": "contundente, cobrando transparência",
+     "duration": "imagem única",
+     "fact": "A FAB negou um pedido feito pela Lei de Acesso à Informação e impôs sigilo de até 100 anos sobre a lista de passageiros do jato PS-FST, um Falcon 7X de Daniel Vorcaro, ex-dono do Banco Master. O pedido era sobre o plano de voo de 10 a 20 de novembro de 2025, período em que Vorcaro foi preso em Guarulhos, prestes a embarcar para Malta. A Aeronáutica cita o artigo 31 da LAI e diz que a divulgação exporia a intimidade dos passageiros. Em nota, a FAB afirma que não impõe sigilo em listas de passageiros e que o controle cabe aos operadores das aeronaves. Em 2022, Lula prometeu acabar com o sigilo de 100 anos, e o dispositivo segue em vigor.",
+     "sources": [
+      {
+       "name": "Revista Oeste",
+       "url": "https://revistaoeste.com/politica/fab-impoe-sigilo-de-100-anos-sobre-passageiros-de-jato-de-vorcaro/"
+      },
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/colunas/tacio-lorran/sigilo-100-anos-fab-vorcaro"
+      }
+     ],
+     "art_text": [
+      "Sigilo de 100 anos",
+      "Quem voou no jato de Vorcaro?",
+      "Lula prometeu acabar com isso em 2022",
+      "Imagem ilustrativa",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Sem rosto de pessoa real. Cena fotográfica de um jato executivo no pátio de um aeroporto ao anoitecer, com uma pasta de documentos lacrada em primeiro plano. Risco médio.",
+     "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo: um jato executivo branco estacionado no pátio de um aeroporto ao anoitecer, escada baixada e porta fechada, em primeiro plano uma pasta de documentos com uma tarja de lacre. Sem pessoas reconhecíveis. No alto, em letras condensadas, brancas e pesadas: 'SIGILO DE 100 ANOS'. Num quadro amarelo no meio: 'Quem voou no jato de Vorcaro?'. Embaixo, com sublinhado vermelho pincelado: 'Lula prometeu acabar com isso em 2022'. No canto inferior esquerdo, selo pequeno: 'Imagem ilustrativa'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+     "caption": "A FAB impôs sigilo de até 100 anos sobre a lista de passageiros do jato de Daniel Vorcaro. O pedido cobria o período da prisão dele, em novembro de 2025. A FAB diz que não impõe sigilo em listas de passageiros. Em 2022, Lula prometeu acabar com o sigilo de 100 anos, e ele continua em vigor. Você acha que o público tem direito de saber? Comenta.",
+     "risk": "médio",
+     "risk_note": "Vorcaro é investigado e está preso: não afirme crime. A FAB nega impor sigilo em listas de passageiros (diga isso se citar a negativa). Não sugira quem voou no jato: a lista é desconhecida. Não cite Viana, Pollon, Mendonça nem os depoimentos: não foram confirmados em matéria aberta."
+    },
+    {
+     "type": "r",
+     "title": "FAB impõe sigilo de 100 anos sobre lista de passageiros do jato de Vorcaro",
+     "tone": "contundente",
+     "duration": "40s",
+     "fact": "A FAB negou um pedido feito pela Lei de Acesso à Informação e impôs sigilo de até 100 anos sobre a lista de passageiros do jato PS-FST, um Falcon 7X de Daniel Vorcaro, ex-dono do Banco Master. O pedido era sobre o plano de voo de 10 a 20 de novembro de 2025, período em que Vorcaro foi preso em Guarulhos, prestes a embarcar para Malta. A Aeronáutica cita o artigo 31 da LAI e diz que a divulgação exporia a intimidade dos passageiros. Em nota, a FAB afirma que não impõe sigilo em listas de passageiros e que o controle cabe aos operadores das aeronaves. Em 2022, Lula prometeu acabar com o sigilo de 100 anos, e o dispositivo segue em vigor.",
+     "sources": [
+      {
+       "name": "Revista Oeste",
+       "url": "https://revistaoeste.com/politica/fab-impoe-sigilo-de-100-anos-sobre-passageiros-de-jato-de-vorcaro/"
+      },
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/colunas/tacio-lorran/sigilo-100-anos-fab-vorcaro"
+      }
+     ],
+     "hooks": [
+      "Sigilo de 100 anos sobre quem voou no jato de Vorcaro.",
+      "Lula prometeu acabar com o sigilo de 100 anos. Ele continua valendo."
+     ],
+     "script": "Sigilo de cem anos. É isso que a FAB aplicou à lista de passageiros do jato de Daniel Vorcaro, o ex-dono do Banco Master. Alguém pediu o plano de voo do avião entre 10 e 20 de novembro do ano passado, período em que Vorcaro foi preso em Guarulhos, prestes a embarcar para Malta. A Aeronáutica negou e citou a Lei de Acesso à Informação, dizendo que isso exporia a intimidade dos passageiros. A FAB diz em nota que não impõe sigilo em lista de passageiros e que isso é controle dos operadores das aeronaves. Mas o fato é que o brasileiro não consegue saber quem voou. E em 2022 Lula prometeu acabar com o sigilo de cem anos. Ele continua em vigor. Você acha que isso deve ser público? Comenta aqui.",
+     "screen_text": [
+      "Sigilo de 100 anos",
+      "Jato de Vorcaro",
+      "Prisão em Guarulhos, rumo a Malta",
+      "Lula prometeu acabar com isso em 2022"
+     ],
+     "caption": "A FAB impôs sigilo de até 100 anos sobre a lista de passageiros do jato de Vorcaro. A FAB diz que não impõe sigilo em listas de passageiros. Lula prometeu acabar com o sigilo de 100 anos em 2022, e ele segue em vigor. Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Vorcaro é investigado e está preso: não afirme crime. A FAB nega impor sigilo em listas de passageiros (diga isso se citar a negativa). Não sugira quem voou no jato: a lista é desconhecida. Não cite Viana, Pollon, Mendonça nem os depoimentos: não foram confirmados em matéria aberta.",
+     "timeline": {
+      "rende": true,
+      "angle": "Como funciona o sigilo de 100 anos da Lei de Acesso à Informação, quem já usou e a promessa não cumprida de 2022."
+     }
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-15",
    "done": "2026-10-15T11:37:36-03:00",
    "issue": 63,
    "slot_hint": "Imagem hoje (15) às 18h ou reel amanhã (16) às 12h.",
