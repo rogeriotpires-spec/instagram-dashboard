@@ -33,6 +33,8 @@ jobs:
         run: |
           python3 tools/esperar.py programa-avulso.yml pauta-excluir.yml
           git pull -q --ff-only origin main || git reset -q --hard origin/main
+      - name: Coletar os assuntos em alta no X
+        run: python3 tools/coleta_trends.py || true
       - name: Já existe pauta de hoje?
         id: chk
         run: |

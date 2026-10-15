@@ -221,6 +221,11 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .segbar button{border:1px solid var(--border);background:var(--surface);color:var(--text-2);font:600 13px Inter,sans-serif;padding:7px 12px;border-radius:999px;cursor:pointer}
 .segbar button.on{background:var(--text);color:var(--surface);border-color:var(--text)}
 .segbar small{opacity:.6;font-weight:500}
+.xtr{margin-top:14px}.xtr>summary{cursor:pointer;font:700 14px Inter,sans-serif;padding:4px 0;list-style:none}.xtr>summary::-webkit-details-marker{display:none}
+.xtr>summary:before{content:"▸ ";color:var(--muted)}.xtr[open]>summary:before{content:"▾ "}
+.xt{border-top:1px solid var(--border);padding:12px 0}.xt:first-of-type{border-top:0}
+.xt-h{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.xt-h a{font-weight:700;font-size:15px;color:var(--text);text-decoration:none}
+.xt p{margin:6px 0;font-size:14px;line-height:1.45}.xt .uso{color:var(--text-2)}
 .pill.info{background:color-mix(in srgb,var(--s1) 14%,transparent);color:var(--s1)}
 h3 .pill.nov{display:inline-block;vertical-align:3px;margin-right:8px;cursor:help}
 .novbar{margin-top:8px}.novbar .lbl{font:600 12px Inter,sans-serif;color:var(--muted);align-self:center;margin-right:2px}
@@ -272,6 +277,7 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
   <section class="block">
     <div class="sec-h"><h2 id="ed-title">Notícias</h2><p id="ed-sub"></p></div>
     <div class="card" id="headline"></div>
+    <details class="card xtr" id="xtr" open hidden></details>
     <div class="segbar" id="segbar"></div>
     <div class="segbar novbar" id="novbar"></div>
   </section>
@@ -294,7 +300,7 @@ let CFG,EDS=[],CUR,ED,SEG="top",DONE={},BODIES={},NV={},NF="all",DONEP={};
 function progDay(){const n=new Date(Date.now()-3*36e5);let d=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate()));
   if(n.getUTCHours()>=14)d.setUTCDate(d.getUTCDate()+1);while([0,6].includes(d.getUTCDay()))d.setUTCDate(d.getUTCDate()+1);return d.toISOString().slice(0,10)}
 const dBR=s=>s.slice(8,10)+"/"+s.slice(5,7);
-const progPedido=it=>(it.title+" "+(((it.outlets||[])[0]||{}).url||"")).trim();
+const progPedido=it=>((it.segment==="x"?"Assunto em alta no X: "+it.title+". "+(it.summary||""):it.title)+" "+(((it.outlets||[])[0]||{}).url||"")).trim().slice(0,1400);
 const NV_JAN=9; /* compara com as 9 edições anteriores (3 dias) */
 const label=id=>{const [y,m,d,h]=id.split("-");return`${d}/${m} ${h}`};
 function seal(text,cls){return`<span class="pill ${cls}">${text}</span>`}
@@ -310,7 +316,7 @@ function card(it,rank){
   const pb=`Pedido de item avulso para a pauta do programa.\n\nData da pauta: ${progDay()}\nPedido: ${progPedido(it)}\nObservação: Veio da página de Notícias.\n`;
   const progIssue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Pauta avulsa] "+progPedido(it).slice(0,90))}&body=${encodeURIComponent(pb)}`;
   return`<article class="news">
-    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${DONEP[it.title]?`<a class="pill good" href="pautas-nova.html#programa/${DONEP[it.title]}" style="text-decoration:none">Na pauta do programa ✓</a>`:""}${done?`<a class="pill good" href="pautas-nova.html#sob-demanda" style="text-decoration:none">No Instagram ✓</a>`:""}</div><h3>${novPill(it)}${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
+    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${(ED.x_trends||[]).some(x=>x.item_id===it.id)?`<a class="pill info" href="#xtr" style="text-decoration:none" title="Assunto em alta no X agora">Em alta no X</a>`:""}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${DONEP[it.title]?`<a class="pill good" href="pautas-nova.html#programa/${DONEP[it.title]}" style="text-decoration:none">Na pauta do programa ✓</a>`:""}${done?`<a class="pill good" href="pautas-nova.html#sob-demanda" style="text-decoration:none">No Instagram ✓</a>`:""}</div><h3>${novPill(it)}${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
     <p class="sum">${esc(it.summary)}</p>
     ${it.asymmetry?.flag?`<div class="note"><b>Assimetria:</b> ${esc(it.asymmetry.note||"")}</div>`:""}
     <div class="outs"><span class="small-n">${(it.outlets||[]).length} portais:</span>${outs}</div>
@@ -327,6 +333,18 @@ async function novidade(){
   (ED.items||[]).forEach(it=>{const t=NOV.norm(it.title),s=NOV.norm(it.title+" "+String(it.summary||"").slice(0,300));
     const eds=old.filter(o=>o.items.some(x=>x.id===it.id||NOV.sim(t,x.t)>=.5||NOV.sim(s,x.s)>=.5)).map(o=>o.e);
     NV[it.id]={rep:eds.length>0,eds,jan:prev.length}});
+}
+const LEIT={"a favor da direita":"good","ataque à direita":"bad","neutro":"neutral"};
+function xItem(x,i){return{id:"x:"+i,title:x.nome,summary:(x.sobre||"")+(x.uso?" Como usar: "+x.uso:""),outlets:[{name:"X (em alta)",url:x.url}],segment:"x"}}
+function getItem(id){return (ED.items||[]).find(i=>i.id===id)||(ED.x_trends||[]).map(xItem).find(i=>i.id===id)}
+function renderX(){
+  const L=ED.x_trends||[],el=$("#xtr");if(!L.length){el.hidden=true;return}el.hidden=false;
+  el.innerHTML=`<summary>Em alta no X agora <small class="small-n">(${L.length} assuntos ligados ao seu perfil)</small></summary>`+L.map((x,i)=>{const it=xItem(x,i),d=progDay();
+    BODIES[it.id]=`Pedido gerado pelo painel de Notícias (assunto em alta no X).\n\nEdição: ${ED.id}\nItem: ${it.id}\nTítulo: Em alta no X: ${x.nome}\n\nResumo:\n${it.summary}\n\nFontes:\n- X (busca): ${x.url}\n\nFormato desejado (opcional, apague o que não quiser): imagem, reel, carrossel, stories\nObservação (opcional):\n`;
+    const rel=x.item_id&&(ED.items||[]).find(n=>n.id===x.item_id);
+    return`<div class="xt"><div class="xt-h"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nome)} ↗</a>${x.volume?`<span class="small-n">${Number(x.volume).toLocaleString("pt-BR")} posts</span>`:""}<span class="pill ${LEIT[x.leitura]||"neutral"}">${esc(x.leitura||"")}</span></div>
+      <p>${esc(x.sobre||"")}</p>${x.uso?`<p class="uso"><b>Como usar:</b> ${esc(x.uso)}</p>`:""}${rel?`<p class="small-n">Notícia ligada: ${esc(rel.title)}</p>`:""}
+      <div class="acts">${Painel.API?`<button class="btn" type="button" data-prog="${it.id}" title="Entra como primeiro item da pauta do programa de ${dBR(d)}">📺 Pauta do programa</button><button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
 }
 function render(){
   const items=ED.items||[];
@@ -356,7 +374,7 @@ async function load(id){
     $("#ed-sub").textContent=`Gerada em ${g.toLocaleDateString("pt-BR")} às ${g.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · ${(ED.items||[]).length} notícias`;
     $("#updated").textContent=$("#ed-sub").textContent;
     $("#headline").innerHTML=`<p style="font-size:16px;font-weight:600;margin:0;line-height:1.45">${esc(ED.headline||"")}</p>`;
-    NV={};render();await novidade();if(CUR===id)render();history.replaceState(null,"","#"+id)}
+    NV={};renderX();render();await novidade();if(CUR===id)render();history.replaceState(null,"","#"+id)}
   catch(e){$("#list").innerHTML=`<div class="empty">Não foi possível carregar a edição ${esc(id)}.</div>`}
 }
 Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("noticias/index.json?"+Date.now()).then(r=>r.ok?r.json():{editions:[]}).catch(()=>({editions:[]})),fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([c,ix,sd])=>{
@@ -376,7 +394,7 @@ Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("
 /* Pauta do programa com um clique: entra como item avulso no início da pauta */
 document.addEventListener("click",async e=>{
   const b=e.target.closest("button[data-prog]");if(!b)return;
-  const it=(ED.items||[]).find(x=>x.id===b.dataset.prog);if(!it)return;
+  const it=getItem(b.dataset.prog);if(!it)return;
   const st=b.parentElement.querySelector(".pst"),say=t=>{if(st)st.textContent=" "+t};const d=progDay();
   b.disabled=true;say("Enviando…");
   try{await Painel.call("/avulso",{pedido:progPedido(it),data:d,obs:"Veio da página de Notícias."});
@@ -388,7 +406,7 @@ document.addEventListener("click",async e=>{
 /* Post do Instagram com um clique (via intermediário) */
 document.addEventListener("click",async e=>{
   const b=e.target.closest("button[data-pauta]");if(!b)return;
-  const it=(ED.items||[]).find(x=>x.id===b.dataset.pauta);if(!it)return;
+  const it=getItem(b.dataset.pauta);if(!it)return;
   const st=b.parentElement.querySelector(".pst"),say=t=>{if(st)st.textContent=" "+t};
   b.disabled=true;say("Enviando pedido…");
   try{
