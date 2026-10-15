@@ -1,108 +1,114 @@
 {
- "generated": "2026-10-14T06:07:21-03:00",
- "dias": 7,
- "period": {
-  "start": "2026-10-07",
-  "end": "2026-10-13"
- },
- "compare": "2026-09-30 a 2026-10-06",
- "headline": "Na semana de 7 a 13/10 a conta teve 3,3 mi de views, 40% abaixo da semana anterior, mas a imagem de domingo (649 mil views) e o Reel \"Inacreditável!\" (177 mil) seguraram o resultado.",
- "kpis": [
-  {
-   "label": "Views recebidas pela conta",
-   "value": "3,3 mi",
-   "delta": "−40%",
-   "dir": "down"
+  "generated": "2026-10-15T06:06:52-03:00",
+  "dias": 7,
+  "period": {
+    "start": "2026-10-08",
+    "end": "2026-10-14"
   },
-  {
-   "label": "Novos seguidores (6 dias com dado)",
-   "value": "2.298",
-   "delta": "−38%",
-   "dir": "down"
-  },
-  {
-   "label": "Deixaram de seguir (6 dias com dado)",
-   "value": "134",
-   "delta": "+22%",
-   "dir": "down"
-  },
-  {
-   "label": "Compartilhamentos recebidos",
-   "value": "71 mil",
-   "delta": "−51%",
-   "dir": "down"
-  },
-  {
-   "label": "Comentários recebidos",
-   "value": "3.755",
-   "delta": "−53%",
-   "dir": "down"
-  },
-  {
-   "label": "Alcance médio por dia",
-   "value": "231 mil",
-   "delta": "−22%",
-   "dir": "down"
-  }
- ],
- "cards": [
-  {
-   "title": "O que funcionou",
-   "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "\"Como dizia o TAXAD, quem foge do debate é bundão?\" (dom, 6h30) teve 649.698 views, 14.310 compartilhamentos e 675 novos seguidores. \"O Rio pode ter governador eleito hoje, sem segundo turno.\" (qua, 7h) teve 90.072 views, 82 comentários e 27 seguidores. As 15 imagens tiveram mediana de 11.386 views, contra 2.965 dos 5 Reels.",
-   "actions": [
-    "Mantenha a imagem forte entre 6h30 e 7h.",
-    "Use título em forma de pergunta provocativa, como no post de domingo.",
-    "Prepare a imagem na noite anterior para não perder o horário."
-   ],
-   "posts": [
-    "DeVAkiqtPwL",
-    "DeL6bqctDFk"
-   ]
-  },
-  {
-   "title": "O que não funcionou",
-   "status": "bad",
-   "status_label": "Evitar",
-   "diagnosis": "Os piores posts foram Reels do fim da manhã e da tarde: \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (qui, 11h06, 79,5s) teve 1.462 views e \"Pense num amor inimaginável.\" (sáb, 14h07) teve 1.296, assistido em média por 10 segundos. Os 2 carrosséis tiveram mediana de 3.538 views. A imagem do meio-dia de terça (papa) tinha 1.596 views com 17 horas de vida e ainda acumula.",
-   "actions": [
-    "Evite Reels longos no fim da manhã e à tarde.",
-    "Use carrossel só quando o assunto pedir várias telas.",
-    "Antes de publicar, confira se o motivo para assistir aparece nos 3 primeiros segundos."
-   ],
-   "posts": [
-    "DeRrXNgtZMa",
-    "DeUk6JyNW9Y",
-    "Deb6SlYNJ2P"
-   ]
-  },
-  {
-   "title": "Reel de exceção",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "\"Inacreditável!\" (seg, 19h, 70,1s) teve 176.966 views, 12.637 compartilhamentos e 211 comentários, o post com mais comentários da semana, mesmo sendo assistido em média por 28 segundos e com 37% de pulos. A mediana dos 5 Reels foi 2.965 views. Um Reel isolado que funciona não muda o padrão da semana.",
-   "actions": [
-    "Estude o início e o tema desse Reel e teste a mesma estrutura em outro assunto.",
-    "Publique Reels à noite e acompanhe se o resultado se repete."
-   ],
-   "posts": [
-    "DeaQZPRNABT"
-   ]
-  },
-  {
-   "title": "Seguidores e comentários",
-   "status": "warn",
-   "status_label": "Atenção",
-   "diagnosis": "Os novos seguidores somaram 2.298 em 6 dias com dado, contra 3.729 na semana anterior, e as saídas foram 134, contra 110. Os comentários caíram para 3.755 (8.063 antes). Entre os posts, \"50 MIL!\" (sáb, 20h22) teve 43 comentários e 21 seguidores com 6.666 views.",
-   "actions": [
-    "Responda os comentários das imagens da manhã na primeira hora.",
-    "Fixe no perfil um post que diga quem você é e o que a pessoa ganha seguindo."
-   ],
-   "posts": [
-    "DeVQClAsvVV",
-    "DeL6bqctDFk"
-   ]
-  }
- ]
+  "compare": "2026-10-01 a 2026-10-07",
+  "headline": "Em 7 dias a conta teve 3,1 mi de views (−46% contra a semana anterior), mas uma só imagem, a de domingo, fez 702.684 views e 732 novos seguidores.",
+  "kpis": [
+    {
+      "label": "Views recebidas pela conta",
+      "value": "3,1 mi",
+      "delta": "−46%",
+      "dir": "down"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "2.321",
+      "delta": "−41%",
+      "dir": "down"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "139",
+      "delta": "+20%",
+      "dir": "down"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "65 mil",
+      "delta": "−56%",
+      "dir": "down"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "3.472",
+      "delta": "−60%",
+      "dir": "down"
+    },
+    {
+      "label": "Alcance médio por dia",
+      "value": "232 mil",
+      "delta": "−22%",
+      "dir": "down"
+    }
+  ],
+  "cards": [
+    {
+      "title": "O que funcionou",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "\"Como dizia o TAXAD, quem foge do debate é bundão?\" (imagem, 6h30) teve 702.684 views, 14.632 compartilhamentos e 732 novos seguidores. O Reel \"Inacreditável!\" (19h) teve 192.292 views, 13.856 compartilhamentos e 236 comentários. O Reel das 21h36 de ontem já está em 117.550 views.",
+      "actions": [
+        "Mantenha a imagem forte de manhã cedo como aposta principal do dia.",
+        "Repita o formato de \"Inacreditável!\": Reel de política às 19h com reação curta.",
+        "Escolha o tema do próximo debate com a mesma pergunta provocativa do post de domingo."
+      ],
+      "posts": [
+        "DeVAkiqtPwL",
+        "DeaQZPRNABT",
+        "DefrVOZMUGw"
+      ]
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "bad",
+      "status_label": "Evitar",
+      "diagnosis": "Os piores posts foram Reels de Política: \"Pense num amor inimaginável.\" (1.338 views, 52% de pulo) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (1.483 views, 49% de pulo, 79,5 segundos). A imagem sobre o papa Leão XIV teve 1.842 views. A semana anterior tinha 5.763.679 views, quase o dobro desta.",
+      "actions": [
+        "Corte os Reels que passam de 60 segundos ou divida em partes.",
+        "Abra o Reel com a frase mais forte para reduzir quem pula logo.",
+        "Releia a imagem sobre o papa e teste um título com mais opinião."
+      ],
+      "posts": [
+        "DeUk6JyNW9Y",
+        "DeRrXNgtZMa",
+        "Deb6SlYNJ2P"
+      ]
+    },
+    {
+      "title": "Seguidores",
+      "status": "warn",
+      "status_label": "Depende de picos",
+      "diagnosis": "Foram 2.321 novos seguidores (−41%) e 139 saídas (+20%), com dados de 6 dos 7 dias. As imagens somaram 800 seguidores. Só o post de domingo trouxe 732. \"50 MIL!\" trouxe 21 e \"Fux pediu a íntegra do inquérito das fake news para…\" trouxe 19.",
+      "actions": [
+        "Publique imagens de opinião com tese clara, que é o formato que mais trouxe seguidores.",
+        "Fixe um post de apresentação para quem chega pelo pico.",
+        "Acompanhe as saídas, que subiram 20% contra a semana anterior (116)."
+      ],
+      "posts": [
+        "DeVAkiqtPwL",
+        "DeVQClAsvVV",
+        "DeUEJRVtcIH"
+      ]
+    },
+    {
+      "title": "Horários",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "Pela mediana de views, 6h teve 353.496,5, 19h teve 104.374 e 21h teve 76.898. Já 8h teve 1.873, 11h teve 1.483 e 12h teve 3.428. Os posts têm de 7,6 a 137,8 horas de vida, e posts de ontem ainda acumulam views, então a comparação favorece os mais antigos.",
+      "actions": [
+        "Reserve 6h30 para a imagem principal.",
+        "Use 19h e 21h para Reels de política.",
+        "Evite o fim da manhã para posts de maior aposta."
+      ],
+      "posts": [
+        "DeVAkiqtPwL",
+        "DeaQZPRNABT",
+        "DeRrXNgtZMa"
+      ]
+    }
+  ]
 }

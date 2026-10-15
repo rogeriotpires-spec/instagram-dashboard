@@ -1,101 +1,109 @@
 {
- "generated": "2026-10-14T06:07:21-03:00",
- "dias": 1,
- "period": {
-  "start": "2026-10-13",
-  "end": "2026-10-13"
- },
- "compare": "média dos 7 dias anteriores",
- "headline": "Terça (13/10) a conta teve 335 mil views, 36% abaixo da média diária dos 7 dias anteriores, com só 3 imagens publicadas e nenhum Reel.",
- "kpis": [
-  {
-   "label": "Views recebidas pela conta",
-   "value": "335 mil",
-   "delta": "−36%",
-   "dir": "down"
+  "generated": "2026-10-15T06:06:52-03:00",
+  "dias": 1,
+  "period": {
+    "start": "2026-10-14",
+    "end": "2026-10-14"
   },
-  {
-   "label": "Novos seguidores",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Deixaram de seguir",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Compartilhamentos recebidos",
-   "value": "12.303",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Comentários recebidos",
-   "value": "395",
-   "delta": "−31%",
-   "dir": "down"
-  },
-  {
-   "label": "Alcance médio por dia",
-   "value": "174 mil",
-   "delta": "−28%",
-   "dir": "down"
-  }
- ],
- "cards": [
-  {
-   "title": "O que funcionou",
-   "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "\"ANISTIA PARA CRIMINOSO?\" (21h) foi o melhor post do dia: 11.386 views em 8 horas, 50 comentários e 20 compartilhamentos, e trouxe 3 seguidores. Foi o post com mais comentários e mais views entre os 3 publicados, e a pergunta no título coincidiu com a conversa na caixa de comentários.",
-   "actions": [
-    "Repita o formato de título em pergunta sobre um tema de debate público no fim do dia.",
-    "Responda os comentários desse post logo cedo, enquanto a conversa está ativa."
-   ],
-   "posts": [
-    "DedCyqss4O6"
-   ]
-  },
-  {
-   "title": "O que não funcionou",
-   "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "O post do meio-dia, \"O papa Leão XIV será operado hoje ao meio dia em Roma.\", teve 1.596 views em 17 horas, o menor resultado do dia, ainda que tenha tido 20 comentários. A imagem das 7h, \"Diminuiu a COVARDIA!\", chegou a 5.907 views em 22 horas, com 2 compartilhamentos e nenhum salvamento.",
-   "actions": [
-    "Use o horário do meio-dia para assuntos com gancho próprio, não para notícia que já circula em todo lugar.",
-    "Dê mais força à imagem da manhã: ela é a que mais ensinou nas semanas anteriores."
-   ],
-   "posts": [
-    "Deb6SlYNJ2P",
-    "DebUqsKNk11"
-   ]
-  },
-  {
-   "title": "Poucos posts no dia",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Foram 3 publicações, todas imagens, com 18.889 views somadas. Como a conta teve 335.446 views no dia, a maior parte veio de posts de dias anteriores, e o dia mostra que o conteúdo antigo ainda segura o alcance quando se publica pouco.",
-   "actions": [
-    "Publique ao menos 1 Reel curto de noite para manter o ritmo da conta.",
-    "Planeje o post do dia seguinte antes de dormir, para não deixar a manhã vazia."
-   ],
-   "posts": []
-  },
-  {
-   "title": "Interações em queda",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Os comentários caíram para 395 e o alcance médio para 174.464 pessoas, 28% abaixo da média dos 7 dias anteriores. As salvas ficaram em 989 e a conta com interação por dia em 23.802, contra 37.969 na média da semana anterior.",
-   "actions": [
-    "Termine posts com uma pergunta direta para estimular comentário.",
-    "Use os Stories para chamar o público para o post do feed."
-   ],
-   "posts": [
-    "DedCyqss4O6"
-   ]
-  }
- ]
+  "compare": "média dos 7 dias anteriores",
+  "headline": "Dia 14/10: 400 mil views (−15% contra a média da semana anterior), com 4 posts e um Reel das 21h36 que chegou a 117.550 views em 7,6 horas.",
+  "kpis": [
+    {
+      "label": "Views recebidas pela conta",
+      "value": "400 mil",
+      "delta": "−15%",
+      "dir": "down"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "5.145",
+      "delta": "−49%",
+      "dir": "down"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "477",
+      "delta": "−11%",
+      "dir": "down"
+    },
+    {
+      "label": "Salvamentos recebidos",
+      "value": "607",
+      "delta": "−43%",
+      "dir": "down"
+    }
+  ],
+  "cards": [
+    {
+      "title": "O que funcionou",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Os 2 Reels do dia somaram 160.305 views, contra 5.301 das 2 imagens. O Reel das 21h36 (\"Hispanic Heritage Gala 2026 - Washington DC.\") teve 117.550 views, 793 compartilhamentos e 175 salvamentos em 7,6 horas de vida. O das 18h49 teve 42.755 views e 471 compartilhamentos.",
+      "actions": [
+        "Repita Reels de cobertura de evento no fim da tarde e à noite.",
+        "Acompanhe o Reel das 21h36 amanhã: ele ainda está acumulando views.",
+        "Publique o próximo Reel do tema Política entre 18h e 21h."
+      ],
+      "posts": [
+        "DefrVOZMUGw",
+        "DefYvipjdwR"
+      ]
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "bad",
+      "status_label": "Ajustar",
+      "diagnosis": "As 2 imagens do dia ficaram em 1.873 views (\"A defesa das mulheres não pode depender da conversinha…\", 8h) e 3.428 views (\"A Venezuela com previsão de crescimento de 5% em 2026.\", 12h). Nenhuma das duas trouxe seguidores. Compartilhamentos caíram 49% e salvamentos 43% contra a média da semana anterior.",
+      "actions": [
+        "Troque uma das imagens de Opinião do meio do dia por um Reel curto.",
+        "Dê à imagem das 8h um título com pergunta ou fato forte.",
+        "Lembre que as imagens têm 16,2 e 21,2 horas de vida, então os números ainda podem subir."
+      ],
+      "posts": [
+        "DedHox4MOY4",
+        "DeewehHNAFV"
+      ]
+    },
+    {
+      "title": "Comentários",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "A conta recebeu 477 comentários, 11% abaixo da média da semana anterior. O Reel das 18h49 (\"Hispanic Heritage Gala - Washington DC\") teve 173 comentários, contra 46 do Reel das 21h36, que teve mais views (117.550).",
+      "actions": [
+        "Feche os Reels com uma pergunta direta para o público.",
+        "Responda os comentários do Reel das 18h49 ainda hoje.",
+        "Use o Reel de 166,5 segundos como exemplo de tema que gera conversa, mesmo sendo longo."
+      ],
+      "posts": [
+        "DefYvipjdwR",
+        "DefrVOZMUGw"
+      ]
+    },
+    {
+      "title": "Horários",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "Pela mediana de views por hora, 8h teve 1.873, 12h teve 3.428, 18h teve 42.755 e 21h teve 117.550. Cada hora tem só 1 post e as idades são diferentes (de 7,6 a 21,2 horas), então vale como pista e não como regra.",
+      "actions": [
+        "Concentre os posts de maior aposta depois das 18h.",
+        "Teste uma imagem às 18h para comparar com a das 8h."
+      ],
+      "posts": [
+        "DefrVOZMUGw",
+        "DedHox4MOY4"
+      ]
+    }
+  ]
 }
