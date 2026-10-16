@@ -55,8 +55,9 @@ jobs:
             E=$(python3 -c "import json;print(json.load(open('noticias/index.json'))['editions'][-1])" 2>/dev/null || ls noticias/2*.json | sort | tail -1 | xargs -n1 basename | sed 's/.json//')
             F="noticias/${E%.json}.json"; [ -f "$F" ] || { echo "::warning::edição não encontrada"; exit 0; }
             OUT=$(python3 tools/noticias_cobertura.py "$F" /tmp/coleta.json); echo "::notice::$OUT"
+            REP=$(python3 tools/noticias_repeticao.py "$F" --aplicar | tail -1); echo "::notice::Repetição entre dias: $REP"
             git add "$F"; git diff --cached --quiet && exit 0
-            git commit -qm "Notícias: cobertura completada pela coleta" && git push -q origin HEAD:main && exit 0
+            git commit -qm "Notícias: cobertura completada e repetidas de outros dias retiradas" && git push -q origin HEAD:main && exit 0
             sleep $((i*3))
           done
       - name: Rede de segurança dos pedidos Virar pauta

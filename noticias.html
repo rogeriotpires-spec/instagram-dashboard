@@ -335,14 +335,15 @@ function card(it,rank){
   </article>`;
 }
 function novPill(it){const n=NV[it.id];if(!n)return"";
-  return n.rep?`<span class="pill warn nov" title="Já apareceu em ${n.eds.length} ${n.eds.length>1?"edições anteriores":"edição anterior"}: ${n.eds.map(label).join(", ")}">Repetida · ${n.eds.length+1}ª edição · desde ${label(n.eds[0])}</span>`
-    :`<span class="pill good nov" title="Não apareceu em nenhuma das ${n.jan} edições anteriores">Nova</span>`}
+  if(n.desd)return`<span class="pill info nov" title="${esc("Fato novo: "+n.desd)}">Desdobramento</span>`;
+  return n.rep?`<span class="pill warn nov" title="Já apareceu hoje em: ${n.eds.map(label).join(", ")}">Repetida · ${n.eds.length+1}ª edição de hoje · desde ${n.eds[0].slice(-3)}</span>`
+    :`<span class="pill good nov" title="Primeira vez no painel">Nova</span>`}
 async function novidade(){
-  NV={};const i=EDS.indexOf(ED.id),prev=EDS.slice(Math.max(0,i-NV_JAN),i);
+  NV={};const i=EDS.indexOf(ED.id),prev=EDS.slice(Math.max(0,i-NV_JAN),i).filter(e=>e.slice(0,10)===ED.id.slice(0,10)); /* repetida = só no mesmo dia */
   const old=await Promise.all(prev.map(e=>fetch(`noticias/${e}.json`).then(r=>r.json()).then(j=>({e,items:(j.items||[]).map(x=>({id:x.id,t:NOV.norm(x.title),s:NOV.norm(x.title+" "+String(x.summary||"").slice(0,300))}))})).catch(()=>({e,items:[]}))));
   (ED.items||[]).forEach(it=>{const t=NOV.norm(it.title),s=NOV.norm(it.title+" "+String(it.summary||"").slice(0,300));
     const eds=old.filter(o=>o.items.some(x=>x.id===it.id||NOV.sim(t,x.t)>=.5||NOV.sim(s,x.s)>=.5)).map(o=>o.e);
-    NV[it.id]={rep:eds.length>0,eds,jan:prev.length}});
+    NV[it.id]={rep:!it.desdobramento&&eds.length>0,eds,jan:prev.length,desd:it.desdobramento||null}});
 }
 const LEIT={"a favor da direita":"good","ataque à direita":"bad","neutro":"neutral"};
 function xItem(x,i){return{id:"x:"+i,title:x.nome,summary:(x.sobre||"")+(x.uso?" Como usar: "+x.uso:""),outlets:[{name:"X (em alta)",url:x.url}],segment:"x"}}
