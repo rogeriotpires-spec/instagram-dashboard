@@ -2,6 +2,142 @@
  "items": [
   {
    "requested": "2026-10-16",
+   "done": "2026-10-16T20:15:43-03:00",
+   "issue": 73,
+   "slot_hint": "Imagem hoje (16) às 21h ou reel amanhã (17) às 12h.",
+   "source": {
+    "edition": "2026-10-16-19h",
+    "item_id": "x:4",
+    "title": "Em alta no X: Gabriela Prioli"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Mensagens indicam que Vorcaro pedia mudanças em vídeos de Gabriela Prioli; ela nega",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Reportagem do Estadão, de 16 de outubro de 2026, diz que diálogos do celular de Daniel Vorcaro indicam que ele e a equipe do Banco Master sugeriam pautas e pediam mudanças em vídeos de Gabriela Prioli, apresentados como opinião espontânea e ligados, segundo a reportagem, a um acordo de 12 meses. Ana Matos, então superintendente de Comunicação e Marketing do banco, aparece nas conversas. O valor pago a Prioli não consta nos diálogos divulgados. Prioli nega ter sido contratada pelo banco e diz que Vorcaro jamais editou seu conteúdo. As informações vêm de mensagens divulgadas pela imprensa e não foram verificadas de forma independente.",
+     "sources": [
+      {
+       "name": "Terra Brasil Notícias (republica o Estadão)",
+       "url": "https://terrabrasilnoticias.com/2026/10/vorcaro-editava-videos-de-gabriela-prioli-vendidos-como-opiniao-espontanea-dizem-dialogos/"
+      }
+     ],
+     "art_text": [
+      "Opinião espontânea?",
+      "Vorcaro editava os vídeos, dizem mensagens",
+      "Ela nega",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Gabriela Prioli (comentarista), pela relação direta com a notícia. Pose diante de câmera e ring light, com um roteiro com marcas vermelhas ao lado. Não retrata ato ilícito; a cena é gesto gráfico e a negativa dela consta no texto. Risco médio.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): a comentarista Gabriela Prioli diante de uma câmera com ring light em um estúdio escuro com textura, ao lado uma folha de roteiro cheia de marcas de caneta vermelha e um celular com balões de mensagem. No alto, em letras condensadas, brancas e pesadas: 'OPINIÃO ESPONTÂNEA?'. Num quadro amarelo no meio: 'Mensagens de Vorcaro indicam pedidos de mudança nos vídeos'. Embaixo, com sublinhado vermelho pincelado: 'Prioli nega'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Mensagens do celular de Daniel Vorcaro indicam que ele e a equipe do Banco Master sugeriam pautas e pediam mudanças em vídeos de Gabriela Prioli, que eram apresentados como opinião espontânea. Ela nega ter sido contratada e diz que ele jamais editou seu conteúdo. O público tem o direito de saber quem está por trás do que assiste. Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Cite o Estadão uma só vez e como atribuição, e inclua sempre a negativa de Prioli. Não afirme que ela recebeu pagamento: o valor não consta nos diálogos e ela nega contrato. Não afirme crime nem ilegalidade. Fatos vêm de mensagens divulgadas, não verificadas de forma independente.",
+     "timeline": {
+      "rende": true,
+      "angle": "Gabriela Prioli e a influência de Vorcaro sobre vídeos de comentarista: o que as mensagens indicam e o que ela nega."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Mensagens indicam que Vorcaro pedia mudanças em vídeos de Gabriela Prioli; ela nega",
+     "tone": "contundente",
+     "duration": "40s",
+     "fact": "Reportagem do Estadão, de 16 de outubro de 2026, diz que diálogos do celular de Daniel Vorcaro indicam que ele e a equipe do Banco Master sugeriam pautas e pediam mudanças em vídeos de Gabriela Prioli, apresentados como opinião espontânea e ligados, segundo a reportagem, a um acordo de 12 meses. Ana Matos, então superintendente de Comunicação e Marketing do banco, aparece nas conversas. O valor pago a Prioli não consta nos diálogos divulgados. Prioli nega ter sido contratada pelo banco e diz que Vorcaro jamais editou seu conteúdo. As informações vêm de mensagens divulgadas pela imprensa e não foram verificadas de forma independente.",
+     "sources": [
+      {
+       "name": "Terra Brasil Notícias (republica o Estadão)",
+       "url": "https://terrabrasilnoticias.com/2026/10/vorcaro-editava-videos-de-gabriela-prioli-vendidos-como-opiniao-espontanea-dizem-dialogos/"
+      }
+     ],
+     "hooks": [
+      "Opinião espontânea? As mensagens de Vorcaro sugerem que não.",
+      "Vorcaro pedia mudanças nos vídeos de Gabriela Prioli, segundo o Estadão."
+     ],
+     "script": "Mensagens do celular de Daniel Vorcaro indicam que ele e a equipe do Banco Master sugeriam pautas e pediam mudanças em vídeos de Gabriela Prioli. Os vídeos eram apresentados como opinião espontânea. A equipe do banco aparece nas conversas revisando o material antes de ir ao ar. Gabriela Prioli nega: diz que nunca foi contratada e que Vorcaro jamais editou o conteúdo dela. O valor pago, se houve, não aparece nos diálogos divulgados. O que fica é a pergunta: quando alguém fala como opinião própria, o público não precisa saber quem leu o texto antes? Comenta aqui.",
+     "screen_text": [
+      "Opinião espontânea?",
+      "Mensagens indicam pedidos de mudança nos vídeos",
+      "Prioli nega ter sido contratada",
+      "Valor pago não aparece nos diálogos"
+     ],
+     "risk": "médio",
+     "risk_note": "Cite o Estadão uma só vez e como atribuição, e inclua sempre a negativa de Prioli. Não afirme que ela recebeu pagamento: o valor não consta nos diálogos e ela nega contrato. Não afirme crime nem ilegalidade. Fatos vêm de mensagens divulgadas, não verificadas de forma independente."
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-16",
+   "done": "2026-10-16T20:15:43-03:00",
+   "issue": 72,
+   "slot_hint": "Imagem hoje (16) às 21h ou reel amanhã (17) às 12h.",
+   "source": {
+    "edition": "2026-10-16-19h",
+    "item_id": "x:3",
+    "title": "Em alta no X: Reinaldo Azevedo"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Reinaldo Azevedo recebeu R$ 100 mil mensais do Banco Master, diz Oeste com base em mensagens de Vorcaro",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Reportagem da Revista Oeste, de 16 de outubro de 2026, diz que mensagens extraídas do celular de Daniel Vorcaro indicam que Reinaldo Azevedo recebeu R$ 100 mil mensais do Banco Master. O contrato previa 12 parcelas a partir de março de 2024, somando R$ 1,2 milhão. Azevedo confirmou ter recebido valores ligados ao banco e diz que o contrato foi firmado entre o podcast Reconversa, que apresenta com o advogado Walfrido Warde, e a empresa Super, ligada ao Master. Segundo ele, nunca escreveu textos em defesa do banco e nunca falou com Vorcaro nem com Fabiano Zettel. As informações vêm das mensagens e não foram verificadas de forma independente.",
+     "sources": [
+      {
+       "name": "Revista Oeste",
+       "url": "https://revistaoeste.com/politica/reinaldo-azevedo-recebeu-daniel-vorcaro/"
+      }
+     ],
+     "art_text": [
+      "R$ 100 mil por mês",
+      "Do Banco Master, a Reinaldo Azevedo",
+      "12 parcelas, R$ 1,2 milhão",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Reinaldo Azevedo (comentarista), pela relação direta com a notícia. Pose séria diante de um microfone de podcast, com um papel de contrato sobre a mesa. Não retrata ato ilícito; ele próprio confirmou os valores. Risco médio.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): o comentarista Reinaldo Azevedo sentado diante de um microfone de estúdio de podcast, expressão séria, com um contrato e um celular sobre a mesa, fundo escuro com textura. No alto, em letras condensadas, brancas e pesadas: 'R$ 100 MIL POR MÊS'. Num quadro amarelo no meio: 'Do Banco Master, segundo mensagens de Vorcaro'. Embaixo, com sublinhado vermelho pincelado: '12 parcelas, R$ 1,2 milhão'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Reinaldo Azevedo recebeu R$ 100 mil por mês do Banco Master, segundo mensagens do celular de Daniel Vorcaro. O contrato previa 12 parcelas, R$ 1,2 milhão no total. Ele confirma os valores e diz que nunca falou com Vorcaro. Quem vive de dar lição de moral na TV precisa explicar isso com a mesma firmeza. Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Cite a Revista Oeste uma só vez e como atribuição. Não afirme que Azevedo defendeu o banco nem que houve ilegalidade: ele nega, e a própria reportagem diz que receber por serviço prestado não é irregular. Não use o termo propina. Valores vêm de mensagens não verificadas de forma independente.",
+     "timeline": {
+      "rende": true,
+      "angle": "Reinaldo Azevedo e os R$ 100 mil mensais do Banco Master: contrato de 12 parcelas e a explicação do comentarista."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Reinaldo Azevedo recebeu R$ 100 mil mensais do Banco Master, diz Oeste com base em mensagens de Vorcaro",
+     "tone": "contundente",
+     "duration": "40s",
+     "fact": "Reportagem da Revista Oeste, de 16 de outubro de 2026, diz que mensagens extraídas do celular de Daniel Vorcaro indicam que Reinaldo Azevedo recebeu R$ 100 mil mensais do Banco Master. O contrato previa 12 parcelas a partir de março de 2024, somando R$ 1,2 milhão. Azevedo confirmou ter recebido valores ligados ao banco e diz que o contrato foi firmado entre o podcast Reconversa, que apresenta com o advogado Walfrido Warde, e a empresa Super, ligada ao Master. Segundo ele, nunca escreveu textos em defesa do banco e nunca falou com Vorcaro nem com Fabiano Zettel. As informações vêm das mensagens e não foram verificadas de forma independente.",
+     "sources": [
+      {
+       "name": "Revista Oeste",
+       "url": "https://revistaoeste.com/politica/reinaldo-azevedo-recebeu-daniel-vorcaro/"
+      }
+     ],
+     "hooks": [
+      "R$ 100 mil por mês. Foi o que o Banco Master pagou a Reinaldo Azevedo, segundo mensagens de Vorcaro.",
+      "Reinaldo Azevedo confirmou: recebeu do Banco Master."
+     ],
+     "script": "Mensagens do celular de Daniel Vorcaro indicam que Reinaldo Azevedo recebeu cem mil reais por mês do Banco Master. Eram doze parcelas, um milhão e duzentos mil no total, a partir de março de 2024. Ele não nega: confirmou que recebeu, por um contrato entre o podcast dele e uma empresa ligada ao banco. Diz que nunca escreveu em defesa do Master e que nunca falou com Vorcaro. Esse é o argumento dele. Agora o público sabe quem pagava a conta de parte da pregação moral que a gente ouve todo dia. Qual é a sua leitura? Comenta aqui.",
+     "screen_text": [
+      "R$ 100 mil por mês",
+      "12 parcelas: R$ 1,2 milhão",
+      "Contrato do podcast com empresa ligada ao Master",
+      "Ele confirma e diz que não defendeu o banco"
+     ],
+     "risk": "médio",
+     "risk_note": "Cite a Revista Oeste uma só vez e como atribuição. Não afirme que Azevedo defendeu o banco nem que houve ilegalidade: ele nega, e a própria reportagem diz que receber por serviço prestado não é irregular. Não use o termo propina. Valores vêm de mensagens não verificadas de forma independente."
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-16",
    "done": "2026-10-16T10:38:30-03:00",
    "issue": 71,
    "slot_hint": "Imagem hoje (16) às 18h ou reel amanhã (17) às 12h.",
