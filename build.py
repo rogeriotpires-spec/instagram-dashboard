@@ -194,7 +194,7 @@ hist.setdefault("intraday", {})
 _me = ig.get("me") or {}
 if _me.get("followers_count") is not None and ig.get("collected"):
     hist["intraday"][ig["collected"]] = _me["followers_count"]
-_cut = (datetime.now(BRT).date() - timedelta(days=8)).isoformat()
+_cut = (datetime.now(BRT).date() - timedelta(days=120)).isoformat()  # guarda 120 dias para o filtro por dia do gráfico hora a hora
 hist["intraday"] = {k: v for k, v in sorted(hist["intraday"].items()) if k[:10] >= _cut}
 
 # ---------- conta ----------
