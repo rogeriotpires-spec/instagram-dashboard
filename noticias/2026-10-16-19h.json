@@ -529,6 +529,13 @@
      "camp": "centro",
      "position": "editoria",
      "via": "coleta"
+    },
+    {
+     "name": "Correio Braziliense",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNX0tlNzZheTR0c3lfTVQ3Z2E3d0QtYVhIeWtGdDdjQlNXa0dlbXozcE9nMHRXRFlpaUdvd2s0aUxuaFZQb0l0YkxFQXYtTkM3S3NTeWV3bENzckpEMGZJczlSMHFZVUhTc1VYaDY0YV9menNQcUJST1IzS0tqalhUSk9TX09ZWTVQZVZkaVJseGtQdmJ1Qld6XzYtd2NpM3piQjZVQ0pmSDJMcjl2cFdaY2VJSXEtbjZoNU1hT1RoNlZlVURILU5fWXJaV2thOWtqVzRJb0wyQWE1QdIB3wFBVV95cUxQdnR0T3dkUzRDRFpCVlVXTUt4OVFJa01hTEM1VU9aWTdyMzRMWWpuUlg0dTRQR1FVcjZTS0dnb3g4UUFlZ0Q4MFhNNHY2eDhfLUliZ3V6THN2RVplTEpteXFfQ0ZYUE5JUzlRX2lwOEx2T0RtOXdFa0t4RW9uTm1ONzQ2VWtGYVZnZ0EtcWRpS05Hdk8xUVVYZ1A2SmNlNUZJTEo3SkJPcXBsR3pEbWQyU3FQT1Z1Q19nMUpBdGVZcUpEUXpSVWZmY0Z6b3FlV0FsMEt1czZwWVV5OUJGRXZF?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -759,6 +766,20 @@
      "name": "Diário do Poder",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXJreC0wd2dnUGd3eGYxU3JnWG90ZGlOUlcyQThWZmZtSTl1a2ZLbGZVaEZCUDB1REczSW1WRjNMb2R2QVVIYklYTTVQSVNZMXdwaEFncFYxc2VCSUVXQ3pKclZLM1J6OGZzWXd5RmVoaU53UzBKeVI3cHdLYVNrVEw3UTRoYlJ0dGlPcTZEX085T0wwbTFOaFN4TE1Uc2xXY1NCTE1XbnXSAa4BQVVfeXFMTmNCWThWc2hmeDZEYXI3RlZvV0JQeHVORnlSTGhhWGFwbnVIdUZQclM5MUlCc3p1UFRSUDQ4Y3BtQ2VTbk9NUXFqLUZ1aERKdWdfaXFaVkp3Tlk3N2FobUFwak9EZ1NDM1NCVmpSTzZmcGEzYWFyOTFaZHVNMktZVFB4ZXJQUlJPakZ6RTlhcVczN0RTa1ZVR0VCanZualFuYW00SUJMYldEYlhJbVZn?oc=5",
      "camp": "direita",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVWdncldWOXJ1aWlSei16QTlodDJfcjA4MFBvY2RyNkU5Mk13OVRuZmlLbUJkTVBWVXVNMnlMc0Z6T25NalVGNURlSmtSNG42ZnVqaUJJU0oxX3BCVF91d0pJcG91bjVRTHRtZlowVmthanlxUERETndiNGVGalNLb3dJakhmYW44Uk4wUmFlLWNrVFBCM09JNFkwcmlaazh1d1R0N1ln?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYjFrWlM5ZkVCRnFmQWVSLWlQQ2VpeFFDclpxa3hJVTNMSUY4UXg2YmZiVXIweWNvQV9LRHBSQndWQ09VeXJMUllGZG1FaGQ3QWJXb1ozX1h2SUtmaW5XbWZBaXdjLWUzeFdLRnhjTjZJaC1XRWNkMVd0YlEwY3VRMExaZGllcEFDRU9NMEgwWUYzLTY5V19QczM0MzI3S2U1NUtvOEJUdzFoUQ?oc=5",
+     "camp": "centro",
      "position": "editoria",
      "via": "coleta"
     }
@@ -2546,12 +2567,12 @@
    "title": "UFPE interdita o prédio do CFCH por infestação de pulgas; aulas voltam na segunda (19)",
    "summary": "A UFPE suspendeu as atividades presenciais no prédio do CFCH, no Recife, após uma infestação de pulgas. O prédio chegou a ser interditado. O local passou por dedetização contra as pulgas. A universidade informou que o prédio será liberado na segunda-feira (19). As aulas no CFCH retomam no mesmo dia.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 3.9,
+   "score": 4.0,
    "outlets": [
     {
      "name": "Jornal do Commercio",
