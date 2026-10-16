@@ -1,18 +1,18 @@
 {
-  "generated": "2026-10-15T06:06:52-03:00",
+  "generated": "2026-10-16T06:06:30-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-10-14",
-    "end": "2026-10-14"
+    "start": "2026-10-15",
+    "end": "2026-10-15"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Dia 14/10: 400 mil views (−15% contra a média da semana anterior), com 4 posts e um Reel das 21h36 que chegou a 117.550 views em 7,6 horas.",
+  "headline": "Quinta-feira teve 668.061 views na conta (+49% sobre a média da semana anterior) e 14.107 compartilhamentos, mas só 2 publicações: uma imagem com 48.511 views e um Reel com 537.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "400 mil",
-      "delta": "−15%",
-      "dir": "down"
+      "value": "668 mil",
+      "delta": "+49%",
+      "dir": "up"
     },
     {
       "label": "Novos seguidores",
@@ -28,21 +28,21 @@
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "5.145",
-      "delta": "−49%",
-      "dir": "down"
+      "value": "14 mil",
+      "delta": "+52%",
+      "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "477",
-      "delta": "−11%",
-      "dir": "down"
+      "value": "2.404",
+      "delta": "+385%",
+      "dir": "up"
     },
     {
-      "label": "Salvamentos recebidos",
-      "value": "607",
-      "delta": "−43%",
-      "dir": "down"
+      "label": "Contas com interação",
+      "value": "69.975",
+      "delta": "+166%",
+      "dir": "up"
     }
   ],
   "cards": [
@@ -50,59 +50,54 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os 2 Reels do dia somaram 160.305 views, contra 5.301 das 2 imagens. O Reel das 21h36 (\"Hispanic Heritage Gala 2026 - Washington DC.\") teve 117.550 views, 793 compartilhamentos e 175 salvamentos em 7,6 horas de vida. O das 18h49 teve 42.755 views e 471 compartilhamentos.",
+      "diagnosis": "A imagem \"Você conhece alguém que prometeu acabar com SIGILOS?\" (21h) teve 48.511 views em 8,9 horas, com 283 compartilhamentos, 52 salvamentos, 22 comentários e 15 novos seguidores. Foi o único post do dia com seguidores atribuídos. Ela ainda está acumulando views.",
       "actions": [
-        "Repita Reels de cobertura de evento no fim da tarde e à noite.",
-        "Acompanhe o Reel das 21h36 amanhã: ele ainda está acumulando views.",
-        "Publique o próximo Reel do tema Política entre 18h e 21h."
+        "Repita o formato de pergunta direta no título, que reuniu compartilhamentos e salvamentos no mesmo post.",
+        "Responda os 22 comentários nas primeiras horas para manter o post circulando."
       ],
       "posts": [
-        "DefrVOZMUGw",
-        "DefYvipjdwR"
+        "Deh_rUstC5a"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "O Reel \"O PROFESSOR É UMA AMEAÇA!\" (18h41) teve 537 views em 11,2 horas, 1 compartilhamento e 4 comentários. Ele tem 45,4 segundos e 40% de pulos. É um post recente e ainda acumula, mas está muito abaixo da imagem do mesmo dia.",
+      "actions": [
+        "Corte o Reel para até 30 segundos e abra com a frase mais forte.",
+        "Antes de publicar, veja se o motivo para assistir aparece nos 3 primeiros segundos."
+      ],
+      "posts": [
+        "Deh8WzvtR28"
+      ]
+    },
+    {
+      "title": "Comentários e interação",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "A conta recebeu 2.404 comentários no dia, contra 477 na média dos 7 dias anteriores (+385%). As contas com interação foram 69.975, contra 26.596 (+166%). Os dois posts do dia tiveram apenas 22 e 4 comentários, então a maior parte veio de publicações anteriores.",
+      "actions": [
+        "Abra os comentários dos posts mais antigos que ainda estão recebendo resposta e responda os principais.",
+        "Fixe a pergunta mais comentada para prolongar a conversa."
+      ],
+      "posts": [
+        "Deh_rUstC5a",
+        "Deh8WzvtR28"
+      ]
+    },
+    {
+      "title": "Dia com poucas publicações",
+      "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "As 2 imagens do dia ficaram em 1.873 views (\"A defesa das mulheres não pode depender da conversinha…\", 8h) e 3.428 views (\"A Venezuela com previsão de crescimento de 5% em 2026.\", 12h). Nenhuma das duas trouxe seguidores. Compartilhamentos caíram 49% e salvamentos 43% contra a média da semana anterior.",
+      "diagnosis": "Foram 2 publicações, às 18h e às 21h. Juntas somam 48.511 e 537 views, bem abaixo das 668.061 views da conta no dia. O dia ensina que o alcance de quinta veio de conteúdo já publicado, e que a imagem das 21h rendeu mais que o Reel das 18h.",
       "actions": [
-        "Troque uma das imagens de Opinião do meio do dia por um Reel curto.",
-        "Dê à imagem das 8h um título com pergunta ou fato forte.",
-        "Lembre que as imagens têm 16,2 e 21,2 horas de vida, então os números ainda podem subir."
+        "Publique também no começo da manhã, quando a conta costuma render mais.",
+        "Se o dia tiver só um post forte, escolha uma imagem."
       ],
       "posts": [
-        "DedHox4MOY4",
-        "DeewehHNAFV"
-      ]
-    },
-    {
-      "title": "Comentários",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "A conta recebeu 477 comentários, 11% abaixo da média da semana anterior. O Reel das 18h49 (\"Hispanic Heritage Gala - Washington DC\") teve 173 comentários, contra 46 do Reel das 21h36, que teve mais views (117.550).",
-      "actions": [
-        "Feche os Reels com uma pergunta direta para o público.",
-        "Responda os comentários do Reel das 18h49 ainda hoje.",
-        "Use o Reel de 166,5 segundos como exemplo de tema que gera conversa, mesmo sendo longo."
-      ],
-      "posts": [
-        "DefYvipjdwR",
-        "DefrVOZMUGw"
-      ]
-    },
-    {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Pela mediana de views por hora, 8h teve 1.873, 12h teve 3.428, 18h teve 42.755 e 21h teve 117.550. Cada hora tem só 1 post e as idades são diferentes (de 7,6 a 21,2 horas), então vale como pista e não como regra.",
-      "actions": [
-        "Concentre os posts de maior aposta depois das 18h.",
-        "Teste uma imagem às 18h para comparar com a das 8h."
-      ],
-      "posts": [
-        "DefrVOZMUGw",
-        "DedHox4MOY4"
+        "Deh_rUstC5a",
+        "Deh8WzvtR28"
       ]
     }
   ]

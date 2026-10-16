@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-15T06:06:52-03:00",
+  "generated": "2026-10-16T06:06:30-03:00",
   "dias": 30,
   "period": {
-    "start": "2026-09-15",
-    "end": "2026-10-14"
+    "start": "2026-09-16",
+    "end": "2026-10-15"
   },
-  "compare": "2026-08-16 a 2026-09-14",
-  "headline": "Em 30 dias a conta somou 17,4 mi de views (+95% contra o período anterior) e 11.765 novos seguidores, com 72 publicações.",
+  "compare": "2026-08-17 a 2026-09-15",
+  "headline": "Em 30 dias a conta somou 17,7 mi de views (+100%) e 12.125 novos seguidores, com as imagens de manhã liderando: três delas passaram de 840 mil views.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "17,4 mi",
-      "delta": "+95%",
+      "value": "17,7 mi",
+      "delta": "+100%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "11.765",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "12.125",
+      "delta": "+304%",
+      "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "479",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "483",
+      "delta": "+299%",
+      "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "390 mil",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "402 mil",
+      "delta": "+1160%",
+      "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "21,6 mil",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "23.477",
+      "delta": "+534%",
+      "dir": "up"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "235 mil",
-      "delta": "+181%",
+      "value": "242 mil",
+      "delta": "+201%",
       "dir": "up"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As imagens carregaram o período: 34 posts, mediana de 45.434 views e 4.137 seguidores, contra 36 Reels com mediana de 11.833. \"Ninguém aguenta mais o Lula e o PT!\" (7h15) teve 962.440 views, 33.096 compartilhamentos e 945 seguidores. \"Chega até a arrepiar!!\" teve 850.700 views e \"Fica a reflexão.\" teve 828.894, ambas publicadas às 7h.",
+      "diagnosis": "As imagens carregaram o mês: 33 posts com mediana de 48.106 views e 259 compartilhamentos, contra 12.711 views e 131 compartilhamentos dos 35 Reels. As três maiores, \"Ninguém aguenta mais o Lula e o PT!\" (966.445 views), \"Chega até a arrepiar!!\" (851.162) e \"Fica a reflexão.\" (842.839), saíram por volta das 7h. Opinião teve mediana de 44.830 views em 35 posts, contra 11.837 de Política em 34.",
       "actions": [
-        "Mantenha a imagem de opinião às 7h como aposta principal.",
-        "Use frases curtas e emocionais no título, como nos 3 melhores posts.",
-        "Reaproveite o formato nos dias em que não houver fato novo."
+        "Mantenha a imagem de opinião no começo da manhã como post principal.",
+        "Use frases curtas e emocionais no título, como nas três maiores.",
+        "Transforme o tema das imagens campeãs em Reel curto no mesmo dia."
       ],
       "posts": [
         "Dd08gl4tibs",
@@ -65,48 +65,49 @@
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Evitar",
-      "diagnosis": "Os piores posts foram Reels de Política com 1.301 a 1.338 views e pulo de 48% a 60%: \"Sabe se isso é IA?\", \"Autoexplicativo (debate)\" e \"Pense num amor inimaginável.\". O tema Política teve mediana de 10.958 views, contra 36.284 de Opinião. Os 2 carrosséis tiveram mediana de 3.560,5.",
+      "status_label": "Atenção",
+      "diagnosis": "Os piores posts foram Reels de Política: \"O PROFESSOR É UMA AMEAÇA!\" (537 views), \"Sabe se isso é IA?\" (1.312 views, 48% de pulos) e \"Autoexplicativo (debate)\" (1.338 views, 60% de pulos, 23,1 segundos). Os 2 carrosséis tiveram mediana de 3.585 views. O primeiro post é recente e ainda acumula.",
       "actions": [
-        "Pare de publicar Reels de Política sem gancho nos primeiros segundos.",
-        "Transforme o tema Política em imagem de opinião quando possível.",
-        "Use carrossel só quando o assunto pedir várias telas."
+        "Reduza Reels de debate sem gancho inicial.",
+        "Use carrossel só quando o assunto precisar de várias telas.",
+        "Reaproveite em imagem o assunto dos Reels que não renderam."
       ],
       "posts": [
+        "Deh8WzvtR28",
         "DeKCMhiNIxP",
-        "Dd_agBPN6Mi",
-        "DeUk6JyNW9Y"
+        "Dd_agBPN6Mi"
       ]
     },
     {
       "title": "Comentários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Foram 21.591 comentários no período. O post que mais teve foi \"Qual número você escolheria?\", com 488 comentários e 13.745 views. O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" teve 259 comentários e 646.360 views. Já a imagem mais vista, com 962.440 views, teve só 49 comentários.",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Foram 23.477 comentários no mês. \"Qual número você escolheria?\" teve 488 comentários com 13.746 views, o que mostra que pergunta de escolha gera conversa mesmo com alcance menor. O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" teve 259 comentários, 25.146 compartilhamentos e 646.559 views. A comparação de compartilhamentos e comentários usa só 9 dias com dado do período anterior, então as altas percentuais são inflacionadas.",
       "actions": [
-        "Use perguntas diretas e fáceis de responder, como a dos números.",
-        "Peça a opinião do público no fim das imagens que têm muito alcance.",
-        "Responda os comentários na primeira hora."
+        "Use perguntas de escolha simples (número, nome) pelo menos uma vez por semana.",
+        "Responda os comentários na primeira hora.",
+        "Fixe o comentário que melhor puxa a conversa."
       ],
       "posts": [
         "DdumKq_tAX_",
         "DeFIOryNZpn",
-        "Dd08gl4tibs"
+        "DeaQZPRNABT"
       ]
     },
     {
-      "title": "Horários",
+      "title": "Seguidores",
       "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Pela mediana de views, 9h teve 455.127, 22h teve 156.838, 21h teve 76.898 e 8h teve 64.930. Já 12h teve 3.203, 15h teve 2.172 e 20h teve 4.364. Cada hora tem poucos posts e as idades são muito diferentes, então use como pista.",
+      "status_label": "Ajustar",
+      "diagnosis": "Entraram 12.125 seguidores e saíram 483, em 29 dias com dado. As imagens trouxeram 4.236 seguidores, com destaque para \"Ninguém aguenta mais o Lula e o PT!\" (960), \"Como dizia o TAXAD, quem foge do debate é bundão?\" (850) e \"Fica a reflexão.\" (585). O período anterior tem só 9 dias com dado de seguidores, então as altas de +304% e +299% não são uma comparação justa.",
       "actions": [
-        "Evite 12h e 15h para posts importantes.",
-        "Teste a faixa de 21h a 22h com Reels de política.",
-        "Mantenha a manhã para as imagens principais."
+        "Faça das imagens campeãs a vitrine do perfil.",
+        "Acompanhe as saídas depois de posts polêmicos.",
+        "Peça para seguir só em posts que já tenham alcance alto."
       ],
       "posts": [
         "Dd08gl4tibs",
-        "DeKCMhiNIxP"
+        "DeVAkiqtPwL",
+        "Dd8pQedtGZL"
       ]
     }
   ]

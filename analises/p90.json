@@ -1,60 +1,60 @@
 {
-  "generated": "2026-10-15T06:06:52-03:00",
+  "generated": "2026-10-16T06:06:30-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-07-17",
-    "end": "2026-10-14"
+    "start": "2026-07-18",
+    "end": "2026-10-15"
   },
-  "compare": "2026-04-18 a 2026-07-16",
-  "headline": "Em 90 dias foram 35 mi de views em 169 publicações, 114 Reels e 53 imagens, e as imagens tiveram mediana de 28.156 views, contra 8.301,5 dos Reels.",
+  "compare": "2026-04-19 a 2026-07-17",
+  "headline": "Em 90 dias a conta somou 35,5 mi de views; as 52 imagens tiveram mediana de 27.870 views, contra 7.977 dos 114 Reels, e as duas maiores passaram de 1,4 mi.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "35 mi",
+      "value": "35,5 mi",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Novos seguidores",
-      "value": "14.677",
+      "value": "15.130",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "583",
+      "value": "604",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "420 mil",
+      "value": "434 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "24,8 mil",
+      "value": "27.183",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "132 mil",
+      "value": "134 mil",
       "delta": "sem comparação",
       "dir": "na"
     }
   ],
   "cards": [
     {
-      "title": "O que funcionou",
+      "title": "Formatos",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As imagens somaram 10.660.222 views e 6.857 seguidores. Os 3 maiores posts foram imagens: \"Bem vindo a este manicômio chamado Brasil!\" (1.489.579 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.442.087 views, 42.779 compartilhamentos, 1.409 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (962.440). Os dados de seguidores e interações cobrem só 37 a 38 dos 90 dias.",
+      "diagnosis": "As 52 imagens somaram 10.597.517 views, com mediana de 27.870 e 195 compartilhamentos, e 6.916 seguidores atribuídos. Os 114 Reels somaram 5.099.511 views, com mediana de 7.977 e 68 compartilhamentos. As maiores foram imagens: \"Bem vindo a este manicômio chamado Brasil!\" (1.489.607 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.442.096, com 1.409 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (966.445).",
       "actions": [
-        "Mantenha a imagem de opinião como principal aposta.",
-        "Reaproveite o estilo dos 3 maiores posts, com frase curta e forte.",
-        "Registre os dados de seguidores todos os dias para comparar períodos."
+        "Mantenha a imagem de opinião como base do perfil.",
+        "Estude o que as três maiores têm em comum: frase curta e tema nacional.",
+        "Use Reels para complementar, não para substituir."
       ],
       "posts": [
         "DcGTcGzN_5i",
@@ -65,48 +65,47 @@
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Evitar",
-      "diagnosis": "Os 114 Reels tiveram mediana de 8.301,5 views. Os piores foram de Política: \"Quase 18 anos no poder\" (473 views, 43% de pulo), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). Eventos e discursos teve 6 posts e mediana de 2.687.",
+      "status_label": "Atenção",
+      "diagnosis": "Os piores posts foram Reels de Política: \"Quase 18 anos no poder\" (473 views, 102,4 segundos, 43% de pulos), \"O STF virou um manicômio institucional\" (535) e \"O PROFESSOR É UMA AMEAÇA!\" (537). Por tema, Eventos e discursos tiveram mediana de 2.687 views em 6 posts, e Bastidores e pessoal 3.845 em 9. O último post é recente e ainda acumula.",
       "actions": [
-        "Publique menos Reels e escolha os de maior potencial.",
-        "Reduza Reels de política sem fato novo.",
-        "Corte os discursos e entrevistas longos em trechos curtos."
+        "Evite Reels longos de Política sem gancho.",
+        "Reduza posts de eventos e discursos.",
+        "Teste bastidores em formatos mais curtos."
       ],
       "posts": [
         "Db73S3ZBiej",
         "Dc3EY5cNint",
-        "Dcvng7kNnHA"
+        "Deh8WzvtR28"
       ]
     },
     {
       "title": "Temas",
       "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Entrevista teve a maior mediana (88.366 views, 5 posts), seguida de Opinião (16.529, 53 posts) e Política (10.253, 93 posts). Bastidores e pessoal teve 11 posts e mediana de 5.292. Política é o tema mais publicado, mas não o de melhor resultado.",
+      "status_label": "Ajustar",
+      "diagnosis": "Opinião teve mediana de 16.529 views em 53 posts e Política de 9.387 em 94. Entrevista teve 88.368 em 5 posts, amostra pequena, mas a melhor mediana do período. Política é o tema com mais posts e rende menos que Opinião.",
       "actions": [
-        "Teste mais entrevistas.",
-        "Troque parte dos posts de Política por Opinião.",
-        "Use bastidores com moderação."
+        "Faça mais uma ou duas entrevistas para confirmar o resultado.",
+        "Diminua o volume de Política e mantenha só os melhores assuntos.",
+        "Compare os resultados de Entrevista de novo no próximo mês."
       ],
       "posts": [
-        "DcfJMHasopg",
-        "DeFIOryNZpn"
+        "DbWUq-ltrx8",
+        "DcfJMHasopg"
       ]
     },
     {
-      "title": "Comentários e perguntas",
+      "title": "Dados do período",
       "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os posts com perguntas diretas lideraram os comentários: \"Qual número você escolheria?\" teve 488 e \"Responda nos comentários, só um nome!\" teve 355, com 136.371 views, 1.658 compartilhamentos e 57 seguidores. O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" teve 259.",
+      "status_label": "Atenção",
+      "diagnosis": "O período anterior tem apenas 9 dias com dado de views, e nenhum de seguidores, comentários ou compartilhamentos, por isso não há comparação confiável. Comentários, compartilhamentos e seguidores têm 38 a 39 dias com dado dos 90. Por horário, 16h teve mediana de 90.136, 19h de 49.194 e 21h de 51.253, mas com poucos posts por faixa.",
       "actions": [
-        "Publique uma imagem de pergunta por semana.",
-        "Peça uma resposta curta, como um nome ou um número.",
-        "Responda os comentários na primeira hora."
+        "Use este período para ver tendências de formato e tema, não para comparar com o anterior.",
+        "Confira o 16h e o 19h com mais testes.",
+        "Preencha os dados que faltam para comparar os próximos períodos."
       ],
       "posts": [
-        "DdumKq_tAX_",
-        "DcfJMHasopg",
-        "DeFIOryNZpn"
+        "DcGTcGzN_5i",
+        "DbWUq-ltrx8"
       ]
     }
   ]

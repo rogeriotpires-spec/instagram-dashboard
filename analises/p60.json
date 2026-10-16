@@ -1,110 +1,112 @@
 {
-  "generated": "2026-10-15T06:06:52-03:00",
+  "generated": "2026-10-16T06:06:30-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-08-16",
-    "end": "2026-10-14"
+    "start": "2026-08-17",
+    "end": "2026-10-15"
   },
-  "compare": "2026-06-17 a 2026-08-15",
-  "headline": "Em 60 dias a conta recebeu 26,3 mi de views (+187% contra o período anterior) em 127 publicações, e as imagens renderam mais que os Reels.",
+  "compare": "2026-06-18 a 2026-08-16",
+  "headline": "Em 60 dias a conta recebeu 26,6 mi de views (+178%) e 15.130 novos seguidores; as 46 imagens tiveram mediana de 22 mil views, contra 9.387 dos 76 Reels.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "26,3 mi",
-      "delta": "+187%",
+      "value": "26,6 mi",
+      "delta": "+178%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "14.677",
+      "value": "15.130",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "583",
+      "value": "604",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "420 mil",
+      "value": "434 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "24,8 mil",
+      "value": "27.183",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "159 mil",
-      "delta": "+150%",
+      "value": "161 mil",
+      "delta": "+146%",
       "dir": "up"
     }
   ],
   "cards": [
     {
-      "title": "O que funcionou",
+      "title": "Formatos",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As 47 imagens somaram 8.910.177 views, com mediana de 27.212 e 4.981 seguidores, contra 78 Reels com 3.325.908 views e mediana de 10.605,5. O maior post foi \"Bem vindo a este manicômio chamado Brasil!\" (16/8, 8h), com 1.489.579 views e 28.401 compartilhamentos. Os dados de seguidores e interações cobrem 37 a 38 dos 60 dias.",
+      "diagnosis": "As 46 imagens somaram 7.459.531 views, com mediana de 22 mil e 157 compartilhamentos. Os 76 Reels somaram 3.316.284 views, com mediana de 9.387 e 68 compartilhamentos. Os 2 carrosséis ficaram em 3.585. As imagens também trouxeram 4.588 seguidores atribuídos.",
       "actions": [
-        "Mantenha a imagem de opinião como principal aposta do dia.",
-        "Publique menos Reels e escolha melhor quais.",
-        "Reveja as imagens de maior sucesso para repetir o estilo."
+        "Mantenha a imagem como formato principal.",
+        "Faça menos Reels, mas com mais cuidado em duração e gancho.",
+        "Evite carrossel, a menos que o assunto peça."
       ],
       "posts": [
-        "DcGTcGzN_5i",
         "Dd08gl4tibs",
-        "DdqoEI_tiw6"
+        "DdqoEI_tiw6",
+        "Dd8pQedtGZL"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Evitar",
-      "diagnosis": "Os piores posts foram Reels de Política com 535 e 551 views (\"O STF virou um manicômio institucional\" e \"Candidato perdeu Instagram e Fundo Eleitoral\"), com 37% e 42% de pulo. O tema Eventos e discursos teve 6 posts e mediana de 2.687 views. Política teve 65 posts e mediana de 10.958.",
+      "status_label": "Atenção",
+      "diagnosis": "Os piores posts foram Reels de Política: \"O STF virou um manicômio institucional\" (535 views, 11 comentários), \"O PROFESSOR É UMA AMEAÇA!\" (537) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). Por tema, Eventos e discursos tiveram mediana de 3.949 views em 5 posts. O post mais recente ainda acumula.",
       "actions": [
-        "Reduza Reels de Política sem fato novo.",
-        "Evite posts de discurso sem corte curto e um gancho.",
-        "Corte Reels que passam de 60 segundos."
+        "Reduza Reels sobre eventos e discursos longos.",
+        "Prefira o fato central em imagem a um Reel de explicação.",
+        "Revise o início dos Reels que tiveram mais de 35% de pulos."
       ],
       "posts": [
         "Dc3EY5cNint",
+        "Deh8WzvtR28",
         "Dcvng7kNnHA"
       ]
     },
     {
       "title": "Temas",
       "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Entrevista teve a maior mediana (57.755 views, 4 posts), seguida de Bastidores e pessoal (40.792, 2 posts) e Opinião (16.529, 49 posts). Política, o tema mais publicado, teve 10.958. São poucos posts em Entrevista e Bastidores, então a leitura é uma pista.",
+      "status_label": "Ajustar",
+      "diagnosis": "Opinião teve mediana de 15.137 views em 48 posts, Política 10.608 em 66, e Bastidores e pessoal 40.812 em 2 posts, amostra pequena. O post mais comentado, \"Qual número você escolheria?\", teve 488 comentários, e \"Responda nos comentários, só um nome!\" teve 355 comentários e 136.371 views.",
       "actions": [
-        "Teste mais entrevistas curtas.",
-        "Teste um conteúdo de bastidores por semana.",
-        "Mantenha Opinião como base do perfil."
+        "Aumente a proporção de Opinião em relação a Política.",
+        "Teste mais um post de Bastidores para confirmar o resultado de 2 posts.",
+        "Repita perguntas de resposta curta."
       ],
       "posts": [
+        "DdumKq_tAX_",
         "DcfJMHasopg",
         "DeFIOryNZpn"
       ]
     },
     {
-      "title": "Horários",
+      "title": "Horários e dados do período",
       "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "Pela mediana de views, 17h teve 88.366, 21h teve 64.073, 9h teve 46.456 e 18h teve 45.360. Já 12h teve 2.729, 15h teve 1.442,5 e 11h teve 3.676. Cada hora tem poucos posts, então a leitura é uma tendência.",
+      "diagnosis": "A mediana foi maior às 21h (51.253), às 9h (49.479), às 23h (48.106) e às 18h (45.372), e menor às 11h (2.673) e às 12h (2.978). Muitos horários têm poucos posts. Os dados de seguidores, saídas, comentários e compartilhamentos têm 38 a 39 dias dos 60, e o período anterior não tem esses dados, por isso não há comparação.",
       "actions": [
-        "Priorize a tarde e a noite para Reels.",
-        "Evite 11h, 12h e 15h para posts importantes.",
-        "Acompanhe 17h, que teve a maior mediana, com mais posts."
+        "Teste o fim da noite com imagens de opinião.",
+        "Evite concentrar posts entre 11h e 12h.",
+        "Não tire conclusões de horários com um ou dois posts."
       ],
       "posts": [
-        "DcGTcGzN_5i",
-        "Dc3EY5cNint"
+        "DcfJMHasopg",
+        "Dd08gl4tibs"
       ]
     }
   ]
