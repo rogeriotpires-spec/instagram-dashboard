@@ -1,6 +1,95 @@
 {
  "items": [
   {
+   "requested": "2026-10-16",
+   "done": "2026-10-16T10:38:30-03:00",
+   "issue": 71,
+   "slot_hint": "Imagem hoje (16) às 18h ou reel amanhã (17) às 12h.",
+   "source": {
+    "edition": "2026-10-16-12h",
+    "item_id": "x:2",
+    "title": "Em alta no X: Bolsa Família"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Lula anuncia reajuste de 15% no Bolsa Família 17 dias antes da eleição; benefício estava parado desde 2023",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Lula anunciou em 17 de setembro de 2026 reajuste de 15,04% no Bolsa Família para 2027, elevando o mínimo de R$ 600 para uma média de R$ 691, que pode chegar a R$ 777 conforme a família. O benefício não era reajustado desde o relançamento do programa, em março de 2023, e o projeto de Orçamento enviado ao Congresso no fim de agosto não previa a correção. O custo estimado é de cerca de R$ 22 bilhões em 2027, financiado, segundo o ministro Bruno Moretti, por remanejamento de outras rubricas. O ministro da Fazenda, Dario Durigan, diz que o reajuste só repõe a inflação. O anúncio veio a 17 dias do primeiro turno. A frase atribuída a Lula na Globo (que não sabia da falta de reajuste) não foi localizada em matéria aberta.",
+     "sources": [
+      {
+       "name": "Itatiaia",
+       "url": "https://www.itatiaia.com.br/politica/lula-anuncia-reajuste-do-bolsa-familia-e-beneficio-vai-a-r-691-em-2027/"
+      },
+      {
+       "name": "O Liberal",
+       "url": "https://www.oliberal.com/politica/lula-diz-que-bolsa-familia-e-melhor-programa-social-do-mundo-apos-reajuste-de-15-1.1169960"
+      },
+      {
+       "name": "Diário do Grande ABC",
+       "url": "https://www.dgabc.com.br/Noticia/4347913/durigan-reajuste-do-bolsa-familia-foi-pela-inflacao-nao-foi-real"
+      }
+     ],
+     "art_text": [
+      "Bolsa Família parado desde 2023",
+      "Reajuste de 15% a 17 dias da eleição",
+      "Por que só agora?",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Lula (presidente), pela relação direta com o anúncio do reajuste. Pose de quem assina um papel diante de um calendário, expressão confiante. Não retrata ato ilícito. Risco médio.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): o presidente Lula de terno, em um gabinete escuro com textura, assinando um documento com sorriso confiante, atrás dele um calendário grande com o dia 17 de setembro circulado em vermelho e uma urna ao canto. No alto, em letras condensadas, brancas e pesadas: 'BOLSA FAMÍLIA PARADO DESDE 2023'. Num quadro amarelo no meio: 'Reajuste de 15% a 17 dias da eleição'. Embaixo, com sublinhado vermelho pincelado: 'Por que só agora?'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "O Bolsa Família ficou sem reajuste desde março de 2023. O projeto de Orçamento enviado em agosto não previa correção. Em 17 de setembro, a 17 dias do primeiro turno, Lula anunciou 15%. Por que só agora? Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Não consegui confirmar em matéria aberta a frase de Lula na Globo (que não sabia e achou inexplicável): não a cite como fato nem entre aspas. Use só o que está nas matérias: sem reajuste desde março de 2023, Orçamento de agosto sem a correção, anúncio a 17 dias do primeiro turno. Não afirme crime nem ilegalidade eleitoral.",
+     "timeline": {
+      "rende": true,
+      "angle": "Bolsa Família parado desde 2023: o que ficou de fora do Orçamento de agosto e o reajuste anunciado na reta final da eleição."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Lula anuncia reajuste de 15% no Bolsa Família 17 dias antes da eleição; benefício estava parado desde 2023",
+     "tone": "contundente",
+     "duration": "40s",
+     "fact": "Lula anunciou em 17 de setembro de 2026 reajuste de 15,04% no Bolsa Família para 2027, elevando o mínimo de R$ 600 para uma média de R$ 691, que pode chegar a R$ 777 conforme a família. O benefício não era reajustado desde o relançamento do programa, em março de 2023, e o projeto de Orçamento enviado ao Congresso no fim de agosto não previa a correção. O custo estimado é de cerca de R$ 22 bilhões em 2027, financiado, segundo o ministro Bruno Moretti, por remanejamento de outras rubricas. O ministro da Fazenda, Dario Durigan, diz que o reajuste só repõe a inflação. O anúncio veio a 17 dias do primeiro turno. A frase atribuída a Lula na Globo (que não sabia da falta de reajuste) não foi localizada em matéria aberta.",
+     "sources": [
+      {
+       "name": "Itatiaia",
+       "url": "https://www.itatiaia.com.br/politica/lula-anuncia-reajuste-do-bolsa-familia-e-beneficio-vai-a-r-691-em-2027/"
+      },
+      {
+       "name": "O Liberal",
+       "url": "https://www.oliberal.com/politica/lula-diz-que-bolsa-familia-e-melhor-programa-social-do-mundo-apos-reajuste-de-15-1.1169960"
+      },
+      {
+       "name": "Diário do Grande ABC",
+       "url": "https://www.dgabc.com.br/Noticia/4347913/durigan-reajuste-do-bolsa-familia-foi-pela-inflacao-nao-foi-real"
+      }
+     ],
+     "hooks": [
+      "Bolsa Família ficou três anos sem reajuste. O anúncio veio a 17 dias da eleição.",
+      "O Orçamento de agosto não tinha reajuste. Em setembro, apareceram 15%."
+     ],
+     "script": "O Bolsa Família ficou sem reajuste desde março de 2023. O Orçamento que o governo mandou ao Congresso no fim de agosto não previa correção nenhuma. Aí, em 17 de setembro, a 17 dias do primeiro turno, Lula anunciou 15%. O mínimo vai de seiscentos para uma média de seiscentos e noventa e um reais, em 2027. Custo estimado: cerca de vinte e dois bilhões. O governo diz que vai remanejar de outras rubricas. E o próprio ministro da Fazenda admite que é só reposição da inflação, não é aumento real. Então a pergunta é simples: por que o reajuste só apareceu na reta final da eleição? Comenta aqui.",
+     "screen_text": [
+      "Bolsa Família sem reajuste desde 2023",
+      "Orçamento de agosto: sem correção",
+      "17/09: reajuste de 15%",
+      "A 17 dias do primeiro turno"
+     ],
+     "caption": "Bolsa Família sem reajuste desde março de 2023, Orçamento de agosto sem correção e anúncio de 15% a 17 dias do primeiro turno. O ministro da Fazenda diz que é só reposição da inflação. Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Não consegui confirmar em matéria aberta a frase de Lula na Globo (que não sabia e achou inexplicável): não a cite como fato nem entre aspas. Use só o que está nas matérias: sem reajuste desde março de 2023, Orçamento de agosto sem a correção, anúncio a 17 dias do primeiro turno. Não afirme crime nem ilegalidade eleitoral.",
+     "timeline": {
+      "rende": true,
+      "angle": "Bolsa Família parado desde 2023: o que ficou de fora do Orçamento de agosto e o reajuste anunciado na reta final da eleição."
+     }
+    }
+   ]
+  },
+  {
    "requested": "2026-10-15",
    "done": "2026-10-15T22:25:00-03:00",
    "issue": 66,
