@@ -38,7 +38,9 @@ jobs:
       - name: Já existe pauta de hoje?
         id: chk
         run: |
-          H=$(date +%F); G=$(python3 -c "import json;print(json.load(open('programa/$H.json')).get('generated',''))" 2>/dev/null || true)
+          H=$(date +%F)
+          # só conta como "já gerada" se a pauta tiver itens próprios; um arquivo criado apenas por itens avulsos não basta
+          G=$(python3 -c "import json;p=json.load(open('programa/$H.json'));n=sum(1 for i in p.get('itens',[]) if not (i.get('avulsa') or i.get('pedido')));print(p.get('generated','') if n>=3 else '')" 2>/dev/null || true)
           if [ "${{ github.event_name }}" = "schedule" ] && [[ "$G" == $H* ]] && [[ "${G:11:5}" > "08:00" ]]; then echo "skip=1" >> "$GITHUB_OUTPUT"; echo "::notice::Pauta de hoje já gerada às ${G:11:5}; nada a fazer."; fi
       - uses: anthropics/claude-code-action@v1
         if: steps.chk.outputs.skip != '1'
