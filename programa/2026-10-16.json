@@ -1,9 +1,9 @@
 {
  "date": "2026-10-16",
- "generated": "2026-10-16T09:41:54-03:00",
+ "generated": "2026-10-16T10:42:51-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Lula diz que não sabia do Bolsa Família parado e muda de posição sobre maioridade penal, e Musk apresenta o novo Tesla Roadster",
- "abertura": "Na Globo, Lula disse que não sabia que o Bolsa Família estava sem reajuste, mas o ministro dele havia descartado a correção em 31 de agosto, e o piso só subiu 17 dias antes do primeiro turno. Na mesma entrevista, ele defendeu a maioridade penal de 16 anos em crimes hediondos, o contrário do que dizia em 2007, e pediu apuração sobre ministros do STF no caso Master. Fora da política, Elon Musk apresentou o novo Tesla Roadster, com propulsores da SpaceX, e prometeu produção em 2028. A conversa de hoje separa o que é fato do que é promessa em cada tema.",
+ "titulo": "Lula diz que não sabia do Bolsa Família parado e muda sobre maioridade penal, Musk apresenta o novo Tesla Roadster, Congresso promulga o fim da 6x1 e PoderData mostra empate de 50% a 50%",
+ "abertura": "Na Globo, Lula disse que não sabia que o Bolsa Família estava sem reajuste, mas o ministro dele havia descartado a correção em 31 de agosto, e defendeu a maioridade penal de 16 anos em crimes hediondos, o contrário do que dizia em 2007. Fora da política, Elon Musk apresentou o novo Tesla Roadster, com propulsores da SpaceX, e prometeu produção em 2028. O Congresso promulgou o fim da escala 6x1 com a presença de Lula, e a pesquisa PoderData/Aya mostra Lula e Flávio Bolsonaro empatados com 50% dos votos válidos a nove dias do segundo turno. O dia traz ainda a demissão de um diretor da Globo por conversas com Vorcaro, a proclamação de Douglas Ruas no Rio e a MP que cria o exame obrigatório para médicos.",
  "agenda": [],
  "itens": [
   {
@@ -146,7 +146,236 @@
    ],
    "avulsa": true,
    "pedido": "Assunto em alta no X: Bolsa Família. Lula disse na Globo que não sabia que o governo ficou sem reajustar o Bolsa Família e chamou a situação de inexplicável. Como usar: Rebater com fato a explicação de Lula e lembrar o tempo sem reajuste. https://x.com/search?q=Bolsa%20Fam%C3%ADlia"
+  },
+  {
+   "id": "pec-6x1-promulgada",
+   "bloco": "Economia",
+   "titulo": "Congresso promulga a PEC do fim da escala 6x1 com Lula na cerimônia",
+   "subtitulo": "Jornada cai para 42 horas em 60 dias e para 40 horas um ano depois, e entidades já cobram a conta",
+   "desdobramento": "O Congresso promulgou a emenda nesta sexta (16), um dia depois da aprovação no Senado por 75 a 1.",
+   "resumo": "O Congresso promulgou nesta sexta (16), em sessão solene com Lula, a emenda que acaba com a escala 6x1 e leva a jornada máxima de 44 para 40 horas semanais sem redução de salário. A emenda garante dois dias de descanso por semana, um deles preferencialmente no domingo, e como é emenda constitucional não precisou de sanção. A direita votou a favor, Flávio Bolsonaro inclusive, e a vitória é de quem defendeu a mudança no Congresso, não de um único palanque. Agora vem a parte que o trabalhador sente no bolso: prefeituras, indústria e comércio já divulgam estimativas de custo e pedem regras de transição. O programa acompanha o que a lei complementar vai dizer sobre as regras, porque é ali que se decide se o emprego e o preço no mercado aguentam a mudança.",
+   "contexto": [
+    "16 de outubro: sessão solene de promulgação da PEC 221/2019, conduzida por Davi Alcolumbre, com Lula presente; na mesma sessão foi promulgada a PEC da aposentadoria especial dos agentes de saúde.",
+    "O Senado aprovou a PEC na quarta (14), em dois turnos, por 75 votos a 1, mantendo o texto da Câmara, o que dispensou novo voto dos deputados.",
+    "Em 60 dias a jornada máxima cai para 42 horas e passa a valer o mínimo de dois dias de descanso por semana; um ano depois o limite é de 40 horas.",
+    "A Confederação Nacional de Municípios estima R$ 6,6 bilhões por ano de custo extra para as prefeituras, e a CNI calcula entre R$ 178,2 bilhões e R$ 267,2 bilhões por ano para as empresas, conforme horas extras ou novas contratações.",
+    "A regulamentação dos dois dias de folga ainda depende de lei; o texto promulgado não detalha como será."
+   ],
+   "angulo": [
+    "A mudança é do Congresso e da sociedade, e a direita votou a favor: Flávio Bolsonaro apoiou a PEC, e quem quer apropriar a vitória para um só lado ignora quem aprovou 75 a 1.",
+    "O que importa agora é a regulamentação: o trabalhador precisa de regra clara, e o pequeno empresário precisa de transição realista para não demitir.",
+    "Prefeituras e pequenos negócios são os que mais precisam de prazo e de apoio, e o programa deve cobrar de qualquer governo uma conta aberta, sem criar imposto novo para pagar a mudança."
+   ],
+   "perguntas": [
+    "Que regra de transição protege o pequeno empresário sem tirar o direito já aprovado?",
+    "Quem paga a conta nas prefeituras, e como evitar que ela vire corte de serviço ou tarifa mais cara?",
+    "O que deve estar na lei complementar para o trabalhador sentir a folga de verdade?"
+   ],
+   "atencao": "Os valores de impacto são estimativas de entidades, com metodologias diferentes, e não números oficiais.",
+   "fontes": [
+    {
+     "name": "Exame",
+     "url": "https://exame.com/brasil/congresso-promulga-pec-do-fim-da-escala-6x1-com-a-presenca-de-lula/"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/prefeituras-custo-extra-5-bi-terceirizados-fim-da-escala-6x1/"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/fim-da-escala-6x1-tera-impacto-bilionario-nos-municipios-estima-cnm/"
+    }
+   ]
+  },
+  {
+   "id": "poderdata-empate-2turno",
+   "bloco": "Política nacional",
+   "titulo": "PoderData/Aya mostra Lula e Flávio empatados com 50% dos votos válidos no 2º turno",
+   "subtitulo": "Pesquisa ouviu 3 mil pessoas de 13 a 15 de outubro; o segundo turno é no dia 25",
+   "resumo": "A pesquisa PoderData/Aya divulgada nesta sexta (16) mostra Lula e Flávio Bolsonaro empatados com 50% dos votos válidos cada um. O levantamento ouviu 3 mil pessoas em 644 municípios, de 13 a 15 de outubro, com margem de erro de 1,8 ponto. Na rodada anterior Flávio tinha 51% a 49%, e em 8 de outubro, 53% a 47%, e o Datafolha de quinta já registrava Flávio com 47% e Lula com 45%. Apesar do empate, 51% dos entrevistados esperam a vitória de Flávio, contra 42% que esperam a de Lula. A corrida está aberta, e o que decide é a mobilização do eleitor nos nove dias que faltam.",
+   "metafora": "Uma pesquisa é como o placar parcial de uma partida: mostra quem está na frente naquele minuto, mas só o apito final vale.",
+   "contexto": [
+    "PoderData/Aya, 13 a 15 de outubro, 3 mil entrevistas em 644 municípios, margem de erro de 1,8 ponto, registro BR-04258/2026.",
+    "Votos válidos: Lula 50% e Flávio 50%; na rodada de 8 de outubro era Flávio 53% e Lula 47%.",
+    "Aprovação de Lula: 46% aprovam e 47% desaprovam o trabalho dele; o governo tem 46% de aprovação e 49% de desaprovação.",
+    "No primeiro turno, nas urnas, Flávio teve 47,03% e Lula 45,16% dos votos válidos.",
+    "Datafolha de quinta (15): Flávio 47% e Lula 45%, empate técnico."
+   ],
+   "angulo": [
+    "Pesquisa não é voto: os institutos mostram um cenário apertado e o resultado depende de quem vai às urnas no dia 25.",
+    "O eleitor que quer mudança tem o primeiro turno a seu favor, em que Flávio terminou na frente nas urnas, e precisa transformar isso em comparecimento.",
+    "O programa deve tratar as pesquisas pelo que são, números com margem de erro, sem dar o jogo por ganho ou perdido."
+   ],
+   "perguntas": [
+    "O que explica o empate depois de uma semana em que Flávio liderava?",
+    "Como o eleitor de direita deve encarar o fato de 51% esperarem a vitória de Flávio?",
+    "Que tema ainda pode decidir o voto nos nove dias que restam?"
+   ],
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poderdata/pesquisa-poderdata-aya-leia-os-resultados-de-lula-e-flavio-no-2o-turno-3/"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/pesquisa-poder-data-aya-flavio-bolsonaro-lula/"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/poderdata-aya-lula-e-flavio-empatam-em-intencao-de-voto-para-2o-turno/"
+    }
+   ]
+  },
+  {
+   "id": "globo-demite-kachar-vorcaro",
+   "bloco": "STF e instituições",
+   "titulo": "Globo demite o diretor-geral Frederic Kachar após mensagens com Vorcaro",
+   "subtitulo": "Grupo diz que as conversas de 2023 a 2025 mostram relação inadequada com um anunciante",
+   "resumo": "O Grupo Globo anunciou na quinta (15) a demissão de Frederic Kachar, diretor-geral de Mídia Impressa e Rádio, depois do vazamento de conversas dele com Daniel Vorcaro, ex-dono do Banco Master. A própria empresa diz que o conteúdo, de outubro de 2023 a julho de 2025, revela uma relação inadequada do executivo com um anunciante, e que teve acesso ao material na quarta. As mensagens vieram do celular de Vorcaro apreendido pela PF no caso Master. Reportagens citam pedidos do banqueiro sobre textos e reportagens, e a Jovem Pan lista ao menos oito veículos sobre os quais ele teria exercido influência. O público tem o direito de saber quem o anunciante pode ter tentado pautar, e a imprensa que cobra transparência dos outros precisa dar o exemplo.",
+   "contexto": [
+    "15 de outubro: o Grupo Globo comunica a saída de Frederic Kachar, 29 anos de casa, e diz reafirmar a independência editorial.",
+    "Segundo a nota, as conversas com Vorcaro foram de outubro de 2023 a julho de 2025, e a empresa teve acesso a elas na quarta (14).",
+    "As mensagens foram extraídas do celular de Vorcaro, preso desde março, na investigação do caso Master.",
+    "A Jovem Pan lista ao menos oito veículos e grupos citados nas mensagens; a maior parte do levantamento vem do UOL e não foi confirmada de forma independente, e o próprio texto diz que não há comprovação de censura ou retirada de reportagens.",
+    "O Metrópoles sustenta que os valores recebidos do Master eram de publicidade e patrocínio."
+   ],
+   "angulo": [
+    "Quem passou anos dando lição de ética à política precisa explicar como lidou com um anunciante que o Banco Master pagava e queria influir no noticiário.",
+    "A demissão só veio depois do vazamento, e o público precisa saber o que a Globo sabia e quando, a mesma transparência que a imprensa cobra dos outros.",
+    "O caso mostra por que o programa trabalha com fonte aberta e fato checado: dinheiro de anunciante não pode virar pauta."
+   ],
+   "perguntas": [
+    "A Globo explicou o que fará para provar que nenhuma reportagem foi alterada por pedido do anunciante?",
+    "Que regra separa publicidade de influência editorial em qualquer veículo?",
+    "O que o caso Master ainda pode revelar sobre a relação entre dinheiro e noticiário?"
+   ],
+   "atencao": "As mensagens não comprovam, por si, censura ou alteração de reportagens, e ninguém foi condenado; os fatos seguem em apuração.",
+   "fontes": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/fabia-oliveira/globo-demite-frederic-kachar-apos-vazamento-de-conversas-com-vorcaro"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/brasil/vorcaro-exercia-influencia-sobre-ao-menos-oito-veiculos-de-comunicacao-veja-lista/"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/diretor-demitido-da-globo-tratou-de-reportagens-com-vorcaro/"
+    }
+   ]
+  },
+  {
+   "id": "lula-pcc-cv-terroristas",
+   "bloco": "Segurança pública",
+   "titulo": "Lula diz que PCC e CV são terroristas só para a comunidade brasileira e rejeita a lista dos EUA",
+   "subtitulo": "No Jornal Nacional, o presidente afirma que as facções 'só querem dinheiro'",
+   "resumo": "Na entrevista ao Jornal Nacional na quinta (15), Lula disse que PCC e Comando Vermelho são terroristas para a comunidade brasileira, mas não do tipo que os Estados Unidos definem. Ele afirmou que as facções 'só querem dinheiro' e que o terrorismo de que os americanos falam é o das torres gêmeas. Desde 28 de maio o governo Trump classifica as duas facções como terroristas, e a decisão foi publicada nos EUA em 5 de junho. O Brasil se opôs à classificação, que permite bloquear contas e ativos e punir quem mantenha relações com os grupos. O morador que convive com fuzil e toque de recolher não vê diferença entre as palavras, e a conversa é sobre o que o Estado faz de concreto contra quem domina o território.",
+   "contexto": [
+    "15 de outubro: sabatina de Lula no Jornal Nacional. Frases: 'Os Estados Unidos falam em terrorismo como aqueles que atentaram contra as duas torres americanas' e 'o caso das facções [...] só querem dinheiro'.",
+    "28 de maio: o governo Trump passa a classificar PCC e CV como terroristas; a publicação oficial nos EUA foi em 5 de junho.",
+    "Na prática a classificação permite bloquear contas e ativos, restringir o acesso ao sistema bancário americano e punir quem mantenha relações com os grupos.",
+    "Lula disse que ofereceu a Trump uma proposta de combate ao crime organizado e ao tráfico, e que o governo brasileiro e o Itamaraty se opuseram à decisão americana.",
+    "Em 15 de setembro, Trump disse que o governo Lula falhou em enfrentar as facções e que o país virou 'centro de distribuição global de cocaína'."
+   ],
+   "angulo": [
+    "Facção que controla território, cobra taxa e impõe regra pela violência aterroriza a população, e chamar de terrorista reconhece a gravidade do problema que o morador vive todos os dias.",
+    "Quem quer proteger a soberania faz a coisa certa combatendo o crime com inteligência, asfixia financeira e polícia, em vez de discutir o rótulo.",
+    "O presidente fala em combate, e o programa deve cobrar resultado: território retomado, líderes presos, dinheiro bloqueado e investigação que alcance quem lava o dinheiro."
+   ],
+   "perguntas": [
+    "Que diferença prática o rótulo de terrorista faz para o morador de comunidade dominada por facção?",
+    "O que o Brasil precisa fazer para bloquear o dinheiro das facções sem depender dos EUA?",
+    "A PEC da Segurança dá à polícia as ferramentas para retomar o território?"
+   ],
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-seguranca-publica/pcc-e-cv-sao-terroristas-para-a-comunidade-brasileira-diz-lula/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/lula-diz-que-pcc-e-cv-sao-terroristas-para-a-comunidade-brasileira"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/lula-diz-que-pcc-e-cv-aterrorizam-pais-mas-nega-terrorismo"
+    }
+   ]
+  },
+  {
+   "id": "ruas-proclamado-psd-stf",
+   "bloco": "Rio de Janeiro",
+   "titulo": "TRE-RJ proclama Douglas Ruas governador eleito, e o PSD recorre ao STF para ter segundo turno",
+   "subtitulo": "Ruas tem 50,88% dos votos válidos depois que o TSE anulou 274 mil votos de Garotinho",
+   "desdobramento": "O TRE-RJ proclamou Ruas eleito no primeiro turno, e o PSD pediu ao STF a volta do segundo turno.",
+   "resumo": "O TRE-RJ proclamou Douglas Ruas (PL) governador eleito do Rio no primeiro turno, com 50,88% dos votos válidos depois da retotalização. A mudança veio de decisão do TSE que negou o registro de Anthony Garotinho e anulou os 274.411 votos dele, o que levou Ruas de 49,27% a 50,88% e Eduardo Paes (PSD) de 42,76% a 44,16%. O PSD acionou o STF na quarta (14) para restabelecer o segundo turno entre Ruas e Paes em 25 de outubro, ou ao menos antes da diplomação, e pediu que Nunes Marques, André Mendonça e Dias Toffoli fiquem fora do sorteio de relator. Antes, o ministro Cristiano Zanin recusou pedido da coligação de Paes por haver recursos a esgotar na Justiça Eleitoral. A diplomação está marcada para 18 de dezembro, e o eleitor fluminense espera que a vontade das urnas seja respeitada.",
+   "contexto": [
+    "15 de outubro: o TRE-RJ homologa a retotalização por unanimidade e proclama Ruas eleito no primeiro turno.",
+    "Retotalização de 10 de outubro: depois de o TSE negar o registro de Garotinho e anular 274.411 votos, Ruas passou de 49,27% para 50,88% dos votos válidos.",
+    "Paes foi de 42,76% para 44,16%; o PSD diz que a maioria absoluta 'não surgiu nas urnas'.",
+    "O PSD aciona o STF em 14 de outubro e pede segundo turno em 25 de outubro, ou ao menos antes da diplomação.",
+    "A diplomação dos eleitos será em 18 de dezembro, no Theatro Municipal."
+   ],
+   "angulo": [
+    "Votos de candidato que a Justiça Eleitoral considerou sem registro não valem, e a regra eleitoral vale para todos, com o resultado proclamado por unanimidade no TRE.",
+    "O Rio precisa de governo definido e de estabilidade para tratar de segurança e das contas, e a insegurança jurídica prolongada prejudica o cidadão.",
+    "O programa defende que a decisão final seja rápida e respeite a lei, sem manobra para virar a mesa."
+   ],
+   "perguntas": [
+    "O pedido do PSD ao STF tem base na lei ou é tentativa de reabrir a disputa?",
+    "O que muda para o Rio se a transição ficar na incerteza até dezembro?",
+    "Como a definição do governador entra na eleição presidencial no estado?"
+   ],
+   "atencao": "A ação do PSD no STF ainda não teve decisão; o texto trata apenas do que foi pedido.",
+   "fontes": [
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11726733-tre-rj-proclama-douglas-ruas-eleito-para-o-governo-do-rio-de-janeiro.html"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/rj-psd-vai-ao-stf-contra-decisao-que-elegeu-douglas-ruas-no-1o-turno"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://www.revistaoeste.com/politica/eduardo-paes-manobra/"
+    }
+   ]
+  },
+  {
+   "id": "enamed-mp-aprovada",
+   "bloco": "Educação",
+   "titulo": "Congresso aprova MP que exige o Enamed para o registro de médicos, e o texto vai à sanção",
+   "subtitulo": "Exame em três etapas vale para quem entrou em Medicina a partir de 19 de junho de 2026",
+   "resumo": "O Congresso aprovou na quinta (15) a Medida Provisória 1.370/2026, que condiciona o registro profissional de médicos à aprovação no Enamed, e o texto segue para sanção de Lula. A avaliação ocorre ao final do 2º, 4º e 6º anos da graduação, com média acumulada e maior peso para a última prova. Vale para quem ingressou no curso a partir de 19 de junho de 2026, e quem já estava matriculado fica dispensado. Quem reprovar pode refazer a última prova, e as faculdades terão de divulgar seus resultados. O paciente tem direito de saber se o médico que o atende foi avaliado, e a qualidade da formação importa mais que a quantidade de vagas.",
+   "contexto": [
+    "15 de outubro: Câmara e Senado aprovam a MP 1.370/2026, editada por Lula em junho, um dia antes de perder a validade.",
+    "Relator: deputado Doutor Luizinho (PP-RJ); a comissão mista foi presidida por Camilo Santana (PT-CE).",
+    "Etapas: ao final do 2º, 4º e 6º anos, com nota final em média e maior peso para a última.",
+    "A nota mínima não está no texto: caberá à Comissão Nacional de Avaliação da Formação Médica, com quatro indicados do CFM, dois do MEC e dois do Ministério da Saúde.",
+    "Graduados reprovados poderão se inscrever para atividades técnico-científicas, sem atender pacientes nem praticar atos privativos de médico."
+   ],
+   "angulo": [
+    "Exigir prova para registrar médico protege o paciente, e a medida chega depois do aumento de cerca de 50% nos cursos de medicina em cinco anos.",
+    "O CFM terá quatro indicados na comissão que fixa a nota mínima, e o programa deve cobrar que o critério seja técnico e transparente.",
+    "A regra deve valer para a qualidade da formação, sem virar barreira para o jovem de baixa renda."
+   ],
+   "perguntas": [
+    "O Enamed resolve a qualidade dos cursos ou só filtra o profissional no final?",
+    "Quem define a nota mínima e como evitar que vire disputa política?",
+    "O que acontece com o estudante que já está matriculado e fica de fora da regra?"
+   ],
+   "fontes": [
+    {
+     "name": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/123308/senado-aprova-mp-da-obrigatoriedade-do-enamed-texto-vai-a-sancao"
+    },
+    {
+     "name": "Atlas Público",
+     "url": "https://atlaspublico.com.br/senado/noticias/senado-aprova-mp-que-torna-o-enamed-requisito-para-exercer-92699"
+    }
+   ]
   }
- ],
- "atualizado": "2026-10-16T10:39:27-03:00"
+ ]
 }
