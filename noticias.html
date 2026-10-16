@@ -225,7 +225,8 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .xtr>summary:before{content:"▸ ";color:var(--muted)}.xtr[open]>summary:before{content:"▾ "}
 .xt{border-top:1px solid var(--border);padding:12px 0}.xt:first-of-type{border-top:0}
 .xt-h{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.xt-h a{font-weight:700;font-size:15px;color:var(--text);text-decoration:none}
-.xt p{margin:6px 0;font-size:14px;line-height:1.45}.xt .uso{color:var(--text-2)}
+.xt p{margin:6px 0;font-size:14px;line-height:1.45}
+.xl{display:flex;gap:14px;flex-wrap:wrap}.xl a{font:600 13px Inter,sans-serif;color:var(--s1);text-decoration:none}.xt .uso{color:var(--text-2)}
 .pill.info{background:color-mix(in srgb,var(--s1) 14%,transparent);color:var(--s1)}
 h3 .pill.nov{display:inline-block;vertical-align:3px;margin-right:8px;cursor:help}
 .novbar{margin-top:8px}.novbar .lbl{font:600 12px Inter,sans-serif;color:var(--muted);align-self:center;margin-right:2px}
@@ -315,7 +316,7 @@ function card(it,rank){
   const issue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Virar pauta] "+it.title)}&body=${encodeURIComponent(body)}`;
   const pb=`Pedido de item avulso para a pauta do programa.\n\nData da pauta: ${progDay()}\nPedido: ${progPedido(it)}\nObservação: Veio da página de Notícias.\n`;
   const progIssue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Pauta avulsa] "+progPedido(it).slice(0,90))}&body=${encodeURIComponent(pb)}`;
-  return`<article class="news">
+  return`<article class="news" id="n-${esc(it.id)}">
     <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${(ED.x_trends||[]).some(x=>x.item_id===it.id)?`<a class="pill info" href="#xtr" style="text-decoration:none" title="Assunto em alta no X agora">Em alta no X</a>`:""}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${DONEP[it.title]?`<a class="pill good" href="pautas-nova.html#programa/${DONEP[it.title]}" style="text-decoration:none">Na pauta do programa ✓</a>`:""}${done?`<a class="pill good" href="pautas-nova.html#sob-demanda" style="text-decoration:none">No Instagram ✓</a>`:""}</div><h3>${novPill(it)}${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
     <p class="sum">${esc(it.summary)}</p>
     ${it.asymmetry?.flag?`<div class="note"><b>Assimetria:</b> ${esc(it.asymmetry.note||"")}</div>`:""}
@@ -342,8 +343,8 @@ function renderX(){
   el.innerHTML=`<summary>Em alta no X agora <small class="small-n">(${L.length} assuntos ligados ao seu perfil)</small></summary>`+L.map((x,i)=>{const it=xItem(x,i),d=progDay();
     BODIES[it.id]=`Pedido gerado pelo painel de Notícias (assunto em alta no X).\n\nEdição: ${ED.id}\nItem: ${it.id}\nTítulo: Em alta no X: ${x.nome}\n\nResumo:\n${it.summary}\n\nFontes:\n- X (busca): ${x.url}\n\nFormato desejado (opcional, apague o que não quiser): imagem, reel, carrossel, stories\nObservação (opcional):\n`;
     const rel=x.item_id&&(ED.items||[]).find(n=>n.id===x.item_id);
-    return`<div class="xt"><div class="xt-h"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nome)} ↗</a>${x.volume?`<span class="small-n">${Number(x.volume).toLocaleString("pt-BR")} posts</span>`:""}<span class="pill ${LEIT[x.leitura]||"neutral"}">${esc(x.leitura||"")}</span></div>
-      <p>${esc(x.sobre||"")}</p>${x.uso?`<p class="uso"><b>Como usar:</b> ${esc(x.uso)}</p>`:""}${rel?`<p class="small-n">Notícia ligada: ${esc(rel.title)}</p>`:""}
+    return`<div class="xt"><div class="xt-h"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nome)}</a>${x.volume?`<span class="small-n">${Number(x.volume).toLocaleString("pt-BR")} posts</span>`:""}<span class="pill ${LEIT[x.leitura]||"neutral"}">${esc(x.leitura||"")}</span></div>
+      <p>${esc(x.sobre||"")}</p>${x.uso?`<p class="uso"><b>Como usar:</b> ${esc(x.uso)}</p>`:""}<p class="xl"><a href="${esc(x.url)}" target="_blank" rel="noopener">Ver no X ↗</a>${(()=>{const f=(x.fonte&&x.fonte.url)?x.fonte:(rel&&(rel.outlets||[])[0]);return f&&f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">Ler matéria${f.name?" ("+esc(f.name)+")":""} ↗</a>`:""})()}${rel?`<a href="#n-${esc(rel.id)}" data-goto="${esc(rel.id)}">Ver notícia ligada ↓</a>`:""}</p>${rel?`<p class="small-n">Notícia ligada: ${esc(rel.title)}</p>`:""}
       <div class="acts">${Painel.API?`<button class="btn" type="button" data-prog="${it.id}" title="Entra como primeiro item da pauta do programa de ${dBR(d)}">📺 Pauta do programa</button><button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
 }
 function render(){
@@ -390,6 +391,12 @@ Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("
 Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"noticias",wf:"noticias.yml",minutes:25,needsClaude:true,
   stamp:()=>fetch("noticias/index.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(i=>{const e=i.editions[i.editions.length-1];return fetch("noticias/"+e+".json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(x=>e+x.generated)}),
   labels:{running:"Gerando a edição: lendo os portais (10 a 20 minutos)…"}});
+
+/* "Ver notícia ligada": abre o bloco da notícia e rola até ela */
+document.addEventListener("click",e=>{const a=e.target.closest("a[data-goto]");if(!a)return;e.preventDefault();
+  const it=(ED.items||[]).find(i=>i.id===a.dataset.goto);if(!it)return;
+  if(!(SEG==="top"&&(ED.top||[]).includes(it.id)))SEG=it.segment;NF="all";render();
+  const el=document.getElementById("n-"+it.id);if(el){el.scrollIntoView({behavior:"smooth",block:"start"});el.style.outline="2px solid var(--s1)";setTimeout(()=>el.style.outline="",2500)}});
 
 /* Pauta do programa com um clique: entra como item avulso no início da pauta */
 document.addEventListener("click",async e=>{
