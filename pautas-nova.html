@@ -389,14 +389,23 @@ function setTab(t){TAB=t;document.querySelectorAll(".maintabs button").forEach(b
   $("#programa").hidden=t!=="programa";$("#conteudo").hidden=t!=="conteudo";
   const d=t==="programa"?P_CUR:C_CUR;history.replaceState(null,"","#"+t+(d?"/"+d:""));updHero()}
 document.querySelectorAll(".maintabs button").forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
-function updHero(){const g=TAB==="programa"?window._pg:window._cg;$("#updated").textContent=g?`Gerada em ${new Date(g).toLocaleDateString("pt-BR")} às ${new Date(g).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`:""}
+/* próxima geração automática, no horário de Brasília: programa 9h45 de segunda a sexta; conteúdo do Instagram 19h40 todos os dias */
+function nextRun(tab){const now=new Date(),brt=new Date(now.getTime()-3*36e5);
+  const [hh,mm,dias]=tab==="programa"?[9,45,[1,2,3,4,5]]:[19,40,[0,1,2,3,4,5,6]];
+  for(let k=0;k<8;k++){const d=new Date(Date.UTC(brt.getUTCFullYear(),brt.getUTCMonth(),brt.getUTCDate()+k,hh+3,mm));
+    if(d>now&&dias.includes(new Date(d.getTime()-3*36e5).getUTCDay()))return d}return null}
+function quando(d){const f=new Date(d),hoje=new Date(),am=new Date(Date.now()+864e5),mesmo=(a,b)=>a.toLocaleDateString("pt-BR",{timeZone:"America/Sao_Paulo"})===b.toLocaleDateString("pt-BR",{timeZone:"America/Sao_Paulo"});
+  const dia=mesmo(f,hoje)?"hoje":mesmo(f,am)?"amanhã":f.toLocaleDateString("pt-BR",{timeZone:"America/Sao_Paulo",weekday:"long",day:"2-digit",month:"2-digit"});
+  return `${dia} às ${f.toLocaleTimeString("pt-BR",{timeZone:"America/Sao_Paulo",hour:"2-digit",minute:"2-digit"}).replace(":","h")}`}
+function updHero(){const g=TAB==="programa"?window._pg:window._cg,n=nextRun(TAB);
+  $("#updated").innerHTML=`${g?`<b>Última geração:</b> ${quando(g)}`:"Ainda sem geração"} · <b>Próxima automática:</b> ${n?quando(n):"sem previsão"} <span class="small-n">(horário de Brasília)</span>`}
 
 /* ---------- pauta do programa ---------- */
 async function pdfLink(d){const a=$("#pdf");a.href=`programa-pdf.html?d=${d}`;a.removeAttribute("download");
   try{const r=await fetch(`programa/${d}.pdf`,{method:"HEAD",cache:"no-store"});if(r.ok){a.href=`programa/${d}.pdf`;a.setAttribute("download",`Pauta-Conversa-Timeline-${d}.pdf`)}}catch(e){}}
 async function loadP(d){
   P_CUR=d;$("#p-day").value=d;const i=P_DAYS.indexOf(d);$("#p-prev").disabled=i<=0;$("#p-next").disabled=i>=P_DAYS.length-1;
-  try{const [p,sd]=await Promise.all([nocache(`programa/${d}.json`).then(r=>r.json()),nocache("pautas/sob-demanda.json").then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]);window._pg=p.generated;
+  try{const [p,sd]=await Promise.all([nocache(`programa/${d}.json`).then(r=>r.json()),nocache("pautas/sob-demanda.json").then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]);window._pg=[p.generated,p.atualizado].filter(Boolean).sort().pop();
     const VC=new Set((sd.items||[]).filter(x=>(x.source?.edition||"")==="programa/"+d).map(x=>x.source.title));P_IT[d]=p.itens||[];
     const dt=new Date(p.date+"T12:00:00");
     const it=(p.itens||[]).filter(x=>!gone("programa",d,x.titulo));
