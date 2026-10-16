@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-17",
+  "weekday": "Sáb",
+  "generated": "2026-10-16T20:02:42-03:00",
+  "summary": "Sábado a oito dias do segundo turno e a um dia do debate da Band. O PoderData/Aya acaba de apontar Flávio e Lula empatados com 50% dos votos válidos, o ministro André Mendonça, do TSE, suspendeu a propaganda de Lula que liga Flávio a milícias e o pacote de benefícios do governo já soma R$ 298,4 bilhões em 2026. No Rio, a arqueóloga do Cais do Valongo foi baleada em um assalto no Leblon.",
+  "agenda": [
+    {
+      "time": "17/10",
+      "text": "Propaganda eleitoral gratuita segue no ar, agora sem a peça de Lula sobre milícias, suspensa por Mendonça sob multa de R$ 10 mil por exibição.",
+      "source": {
+        "name": "Revista Oeste",
+        "url": "https://revistaoeste.com/politica/andre-mendonca-suspende-propaganda-de-lula-que-liga-flavio-a-milicias/"
+      }
+    },
+    {
+      "time": "18/10",
+      "text": "Debate da Band entre Lula e Flávio Bolsonaro, o primeiro do segundo turno.",
+      "source": {
+        "name": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-confirma-ida-ao-debate-da-band/"
+      }
+    },
+    {
+      "time": "18/10 11h",
+      "text": "Bloquinho 22 na Avenida Paulista, convocado pelo PL e por Nikolas Ferreira. Ato em BH às 16h.",
+      "source": {
+        "name": "Jovem Pan",
+        "url": "https://jovempan.com.br/politica/bloquinho-22-pl-e-nikolas-ferreira-agendam-manifestacao-na-paulista-para-dia-18/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "O Tempo",
+        "url": "https://www.otempo.com.br/politica/congresso/2026/10/7/alcolumbre-senado-vota-fim-da-escala-6x1-antes-do-2-turno-se-houver-pedido-para-acelerar-texto"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem com pergunta fechada",
+      "options": [
+        {
+          "title": "PoderData/Aya: Flávio e Lula empatam com 50% dos votos válidos no 2º turno",
+          "tone": "sóbrio com urgência",
+          "style": "cartaz",
+          "fact": "O PoderData/Aya, com campo de 13 a 15 de outubro, 3.000 entrevistas em 644 municípios das 27 UFs e margem de 1,8 ponto, mostra Flávio Bolsonaro (PL) e Lula (PT) empatados com 50% dos votos válidos cada, a nove dias do segundo turno. A mesma rodada registra 51% de expectativa de vitória de Flávio contra 42% de Lula.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poderdata/pesquisa-poderdata-aya-leia-resultados-de-lula-e-flavio-no-2o-turno/"
+            }
+          ],
+          "art_text": [
+            "50% x 50%",
+            "Faltam 9 dias",
+            "Quem decide é você, no dia 25",
+            "Sim ou não: você já tem o seu voto?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Cartaz só de texto e números, sem personagem. Risco baixo.",
+          "prompt": "Crie um cartaz vertical 4:5 (1080x1350), estilo gráfico de política em HQ / graphic novel, fundo escuro com textura de papel envelhecido e hachuras, paleta quente e dessaturada (ocre, marrom, vermelho). No centro, dois quadros lado a lado do mesmo tamanho, um azul-escuro e um vermelho-escuro, cada um com o número \"50%\" gigante em branco, letras condensadas e muito pesadas, separados por um \"x\" amarelo. No alto, em branco, letras grandes e pesadas: \"Faltam 9 dias\". Abaixo dos quadros, em amarelo: \"Quem decide é você, no dia 25\". Embaixo, com sublinhado vermelho pincelado, em branco: \"Sim ou não: você já tem o seu voto?\". Sem fotos, sem rostos, sem logos de institutos. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Nove dias para o segundo turno e o PoderData/Aya mostra 50% a 50% nos votos válidos. Cada voto vai pesar. Você já decidiu o seu voto? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "É uma pesquisa, não uma previsão: não escreva que alguém vai ganhar. A margem é de 1,8 ponto, então o empate é técnico. Se sair outra pesquisa até as 7h, confira o número antes de publicar.",
+          "timeline": {
+            "rende": false,
+            "angle": "Pesquisa de uma rodada só dura pouco; serve melhor como artigo se for reunida com as outras pesquisas da semana."
+          }
+        },
+        {
+          "title": "Arqueóloga do Cais do Valongo, de 81 anos, é baleada em assalto no Leblon",
+          "tone": "emocional",
+          "style": "realista",
+          "fact": "Tânia Andrade Lima, arqueóloga e professora aposentada da UFRJ que liderou as escavações do Cais do Valongo, foi baleada na quinta (15) na esquina das ruas João de Barros e General Venâncio Flores, no Leblon, depois de sair de uma agência bancária. Foi atingida na mão, no ombro e no pescoço e levada ao Hospital Miguel Couto. Os criminosos fugiram de moto, que foi abandonada e é roubada, e um dos suspeitos foi identificado. O caso é da 14ª DP.",
+          "sources": [
+            {
+              "name": "ISTOÉ",
+              "url": "https://istoe.com.br/arqueologa-ufrj-baleada-assalto-leblon-tania-andrade-lima"
+            }
+          ],
+          "art_text": [
+            "Baleada aos 81 anos, depois de sair do banco",
+            "Leblon, Zona Sul do Rio",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Esquina de rua do Rio à noite, ao fundo a fachada genérica de uma agência bancária sem logo, uma bolsa feminina caída na calçada e uma motocicleta desfocada ao longe. Não retratar a vítima nem os suspeitos. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz fria de poste ao entardecer, granulação leve. Esquina de rua arborizada de bairro de classe alta do Rio de Janeiro, calçada de pedras portuguesas, ao fundo desfocada a fachada de uma agência bancária genérica, sem nenhum logo ou nome. No chão da calçada, uma bolsa feminina de couro caída e um par de óculos. Ao longe, desfocada, uma motocicleta preta se afastando. Nenhuma pessoa em foco, sem rostos. Clima pesado e silencioso. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"Baleada aos 81 anos, depois de sair do banco\". Abaixo, em amarelo, menor: \"Leblon, Zona Sul do Rio\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A arqueóloga que ajudou a revelar o Cais do Valongo foi baleada em um assalto no Leblon, aos 81 anos, ao sair do banco. O Rio tem cada vez menos lugar seguro para quem mais merece respeito. Você acha que o criminoso reincidente deveria ficar preso até o julgamento? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não cite nome de suspeito nem diga que o autor tem antecedentes: a polícia só informa que um suspeito foi identificado. A idade aparece como 81 anos na ISTOÉ e como 80 em outro veículo; confirme antes de publicar. Não atribua o crime a política de ninguém sem fato.",
+          "timeline": {
+            "rende": true,
+            "angle": "Violência contra idosos na saída de bancos no Rio: o que a polícia faz, o perfil das quadrilhas de moto e o que mudaria com a PEC da Segurança."
+          }
+        }
+      ]
+    },
+    {
+      "time": "20h",
+      "type": "r",
+      "kind": "Reel curto de bastidor",
+      "options": [
+        {
+          "title": "Mendonça suspende propaganda de Lula que liga Flávio a milícias",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "Na quinta (15), o ministro André Mendonça, do TSE, suspendeu a propaganda da campanha de Lula que associa Flávio Bolsonaro a milícias, exibida no horário eleitoral gratuito em 13/10. Ele apontou o uso de personagens criados por inteligência artificial para simular depoimentos reais e escreveu que a peça traz \"imputação factual grave, consistente na vinculação do representante à própria atividade criminosa\". A multa é de R$ 10 mil por exibição. O pedido foi da campanha de Flávio.",
+          "sources": [
+            {
+              "name": "Revista Oeste",
+              "url": "https://revistaoeste.com/politica/andre-mendonca-suspende-propaganda-de-lula-que-liga-flavio-a-milicias/"
+            }
+          ],
+          "hooks": [
+            "A TV de Lula acusou Flávio de ligação com milícia usando atores feitos por inteligência artificial.",
+            "O TSE mandou tirar do ar a propaganda que chamava Flávio de miliciano sem provar nada."
+          ],
+          "script": "A propaganda de Lula na TV ligava Flávio Bolsonaro a milícia. O ministro André Mendonça, do TSE, mandou tirar do ar. Os depoimentos eram de personagens criados por inteligência artificial, fingindo ser gente de verdade. E a acusação era sem prova nenhuma. Se voltar ao ar, a multa é de dez mil reais por exibição. Eleição se ganha com proposta, não com depoimento falso. Você acha que a campanha que mentiu na TV deveria ser punida? Responde sim ou não e manda pra alguém que ainda assiste à propaganda.",
+          "screen_text": [
+            "TSE suspende propaganda de Lula",
+            "Personagens de inteligência artificial",
+            "Multa de R$ 10 mil por exibição",
+            "Punir quem mentiu na TV?"
+          ],
+          "caption": "O TSE mandou tirar do ar a propaganda de Lula que ligava Flávio a milícia com depoimentos feitos por inteligência artificial. Quem usa depoimento falso na TV deveria ser punido? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A decisão é liminar e individual de Mendonça; ainda cabe recurso ao plenário. Diga 'sem provas' só como fundamento da decisão, nunca como acusação sua de crime. Não afirme que Lula sabia dos personagens de IA.",
+          "timeline": {
+            "rende": true,
+            "angle": "Propaganda eleitoral e inteligência artificial: o que o TSE já proibiu nos dois lados do segundo turno e o limite entre crítica política e imputação de crime."
+          }
+        },
+        {
+          "title": "IFI: benefícios anunciados por Lula mobilizam R$ 298,4 bilhões em 2026",
+          "tone": "irônico",
+          "duration": "até 60s",
+          "fact": "A IFI, órgão ligado ao Senado, calcula que os benefícios anunciados pelo governo Lula somam R$ 298,4 bilhões em 2026: R$ 185,7 bi em crédito com juros subsidiados, R$ 63,2 bi em despesas primárias, R$ 30,6 bi em renúncia fiscal e R$ 18,9 bi de recursos de terceiros. Entram Desenrola, Bolsa Família, isenção do IR, subsídios aos combustíveis e Minha Casa, Minha Vida para a classe média. A tarifa zero aos fins de semana tem impacto previsto em 2027. O déficit primário previsto pelo governo para 2026 é de R$ 80,9 bi e a dívida chegou a 82,9% do PIB em agosto.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/pacote-de-bondades-de-lula-soma-quase-r-290-bi-as-vesperas-do-2o-turno/"
+            }
+          ],
+          "hooks": [
+            "Quase R$ 300 bilhões em bondades a nove dias da eleição.",
+            "O governo achou dinheiro para tudo, menos para explicar a conta."
+          ],
+          "script": "Quase trezentos bilhões de reais em benefícios, anunciados justo agora. É o que calcula a IFI, órgão do Senado: duzentos e noventa e oito bilhões e quatrocentos milhões só em 2026. Tem crédito subsidiado, Desenrola, isenção de imposto de renda, subsídio de combustível. E tem mais: a tarifa zero no fim de semana, que só pesa no ano que vem. Enquanto isso, o déficit do governo para este ano já está em oitenta bilhões e a dívida passou de oitenta e dois por cento do PIB. Quem paga essa conta é você, depois da eleição. Isso é política social ou é pacote eleitoral? Responde pacote ou política social e manda pra quem ainda acha que não tem custo.",
+          "screen_text": [
+            "R$ 298,4 bilhões em 2026",
+            "Crédito, Desenrola, IR, combustível",
+            "Dívida: 82,9% do PIB",
+            "Pacote eleitoral ou política social?"
+          ],
+          "caption": "A IFI calcula R$ 298,4 bilhões em benefícios anunciados em 2026, a poucos dias do segundo turno. Isso é pacote eleitoral ou política social? Responde pacote ou política social.",
+          "risk": "médio",
+          "risk_note": "Os R$ 298,4 bi misturam crédito (R$ 185,7 bi), gasto, renúncia e recursos de terceiros: diga 'mobilizam' ou 'somam em medidas', nunca 'gastou'. Critique o momento e a conta, não o benefício ao pobre. A atribuição à IFI vale uma vez.",
+          "timeline": {
+            "rende": true,
+            "angle": "O pacote de R$ 298,4 bilhões em ano eleitoral: o que é crédito, o que é gasto e quem paga a conta em 2027, com a tarifa zero e o reajuste do Bolsa Família no orçamento."
+          }
+        }
+      ]
+    }
+  ]
+}
