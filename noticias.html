@@ -225,7 +225,12 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .fbar{position:sticky;top:var(--navh,58px);z-index:15;background:var(--bg);padding:2px 0 10px;margin-bottom:6px}
 .fbar.stuck{border-bottom:1px solid var(--border);box-shadow:0 8px 14px -12px rgba(0,0,0,.45)}
 .fbar .segbar{margin-top:8px}
-@media (max-width:760px){.fbar .segbar{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}.fbar .segbar::-webkit-scrollbar{display:none}.fbar .segbar button,.fbar .segbar .lbl{flex:0 0 auto}}
+.segbar .sh{display:none}
+@media (max-width:760px){
+  #segbar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+  #segbar button{padding:7px 4px;font-size:12.5px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #segbar .ln{display:none}#segbar .sh{display:inline}
+  #novbar{flex-wrap:nowrap;gap:6px}#novbar button{padding:6px 10px;font-size:12.5px}#novbar .lbl{font-size:12px}}
 .xtr{margin-top:14px}.xtr>summary{cursor:pointer;font:700 14px Inter,sans-serif;padding:4px 0;list-style:none}.xtr>summary::-webkit-details-marker{display:none}
 .xtr>summary:before{content:"▸ ";color:var(--muted)}.xtr[open]>summary:before{content:"▾ "}
 .xt{border-top:1px solid var(--border);padding:12px 0}.xt:first-of-type{border-top:0}
@@ -351,14 +356,15 @@ function renderX(){
       <p>${esc(x.sobre||"")}</p>${x.uso?`<p class="uso"><b>Como usar:</b> ${esc(x.uso)}</p>`:""}<p class="xl"><a href="${esc(x.url)}" target="_blank" rel="noopener">Ver no X ↗</a>${(()=>{const f=(x.fonte&&x.fonte.url)?x.fonte:(rel&&(rel.outlets||[])[0]);return f&&f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">Ler matéria${f.name?" ("+esc(f.name)+")":""} ↗</a>`:""})()}${rel?`<a href="#n-${esc(rel.id)}" data-goto="${esc(rel.id)}">Ver notícia ligada ↓</a>`:""}</p>${rel?`<p class="small-n">Notícia ligada: ${esc(rel.title)}</p>`:""}
       <div class="acts">${Painel.API?`<button class="btn" type="button" data-prog="${it.id}" title="Entra como primeiro item da pauta do programa de ${dBR(d)}">📺 Pauta do programa</button><button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
 }
-function fbarSetup(){const nav=document.querySelector("nav"),fb=$("#fbar");const upd=()=>document.documentElement.style.setProperty("--navh",(nav?nav.offsetHeight:0)+"px");upd();addEventListener("resize",upd);
+function fbarSetup(){const nav=document.querySelector("nav"),fb=$("#fbar");const upd=()=>document.documentElement.style.setProperty("--navh",(nav?Math.round(nav.getBoundingClientRect().height):0)+"px");upd();addEventListener("resize",upd);if(nav&&window.ResizeObserver)new ResizeObserver(upd).observe(nav);
   addEventListener("scroll",()=>{const top=fb.getBoundingClientRect().top,nh=nav?nav.offsetHeight:0;fb.classList.toggle("stuck",top<=nh+1&&scrollY>40)},{passive:true})}
 function afterFilter(){const fb=$("#fbar");if(fb.classList.contains("stuck")){const nh=document.querySelector("nav")?.offsetHeight||0;scrollTo({top:$("#list").getBoundingClientRect().top+scrollY-nh-fb.offsetHeight-6})}
-  document.querySelectorAll("#fbar .segbar button.on").forEach(b=>b.scrollIntoView({block:"nearest",inline:"center"}))}
+}
 function render(){
   const items=ED.items||[];
   const segs=[{key:"top",label:"Destaques"},...CFG.segments];
-  $("#segbar").innerHTML=segs.map(s=>{const n=s.key==="top"?(ED.top||[]).length:items.filter(i=>i.segment===s.key).length;return`<button class="${SEG===s.key?"on":""}" data-s="${s.key}">${esc(s.label)} <small>${n}</small></button>`}).join("");
+  const SHORT={"Política nacional":"Política","Internacional":"Internac.","Segurança pública":"Segurança","Rio de Janeiro":"Rio","Ciência e tecnologia":"Ciência"};
+  $("#segbar").innerHTML=segs.map(s=>{const n=s.key==="top"?(ED.top||[]).length:items.filter(i=>i.segment===s.key).length;return`<button class="${SEG===s.key?"on":""}" data-s="${s.key}" title="${esc(s.label)}"><span class="ln">${esc(s.label)}</span><span class="sh">${esc(SHORT[s.label]||s.label)}</span> <small>${n}</small></button>`}).join("");
   document.querySelectorAll("#segbar button").forEach(b=>b.onclick=()=>{SEG=b.dataset.s;render();afterFilter()});
   const L0=SEG==="top"?(ED.top||[]).map(id=>items.find(i=>i.id===id)).filter(Boolean):items.filter(i=>i.segment===SEG).sort((a,b)=>b.score-a.score);
   const isRep=it=>!!NV[it.id]?.rep,nN=L0.filter(it=>!isRep(it)).length,nR=L0.length-nN;
