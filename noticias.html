@@ -221,6 +221,11 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);padd
 .segbar button{border:1px solid var(--border);background:var(--surface);color:var(--text-2);font:600 13px Inter,sans-serif;padding:7px 12px;border-radius:999px;cursor:pointer}
 .segbar button.on{background:var(--text);color:var(--surface);border-color:var(--text)}
 .segbar small{opacity:.6;font-weight:500}
+/* filtros congelados no topo ao rolar */
+.fbar{position:sticky;top:var(--navh,58px);z-index:15;background:var(--bg);padding:2px 0 10px;margin-bottom:6px}
+.fbar.stuck{border-bottom:1px solid var(--border);box-shadow:0 8px 14px -12px rgba(0,0,0,.45)}
+.fbar .segbar{margin-top:8px}
+@media (max-width:760px){.fbar .segbar{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}.fbar .segbar::-webkit-scrollbar{display:none}.fbar .segbar button,.fbar .segbar .lbl{flex:0 0 auto}}
 .xtr{margin-top:14px}.xtr>summary{cursor:pointer;font:700 14px Inter,sans-serif;padding:4px 0;list-style:none}.xtr>summary::-webkit-details-marker{display:none}
 .xtr>summary:before{content:"▸ ";color:var(--muted)}.xtr[open]>summary:before{content:"▾ "}
 .xt{border-top:1px solid var(--border);padding:12px 0}.xt:first-of-type{border-top:0}
@@ -279,9 +284,8 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
     <div class="sec-h"><h2 id="ed-title">Notícias</h2><p id="ed-sub"></p></div>
     <div class="card" id="headline"></div>
     <details class="card xtr" id="xtr" open hidden></details>
-    <div class="segbar" id="segbar"></div>
-    <div class="segbar novbar" id="novbar"></div>
   </section>
+  <div class="fbar" id="fbar"><div class="segbar" id="segbar"></div><div class="segbar novbar" id="novbar"></div></div>
   <section class="block" id="list"></section>
   <section class="block" id="method"></section>
   <footer>Ranking calculado a cada edição a partir dos portais listados no método. Confira as fontes antes de publicar.</footer>
@@ -347,16 +351,20 @@ function renderX(){
       <p>${esc(x.sobre||"")}</p>${x.uso?`<p class="uso"><b>Como usar:</b> ${esc(x.uso)}</p>`:""}<p class="xl"><a href="${esc(x.url)}" target="_blank" rel="noopener">Ver no X ↗</a>${(()=>{const f=(x.fonte&&x.fonte.url)?x.fonte:(rel&&(rel.outlets||[])[0]);return f&&f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">Ler matéria${f.name?" ("+esc(f.name)+")":""} ↗</a>`:""})()}${rel?`<a href="#n-${esc(rel.id)}" data-goto="${esc(rel.id)}">Ver notícia ligada ↓</a>`:""}</p>${rel?`<p class="small-n">Notícia ligada: ${esc(rel.title)}</p>`:""}
       <div class="acts">${Painel.API?`<button class="btn" type="button" data-prog="${it.id}" title="Entra como primeiro item da pauta do programa de ${dBR(d)}">📺 Pauta do programa</button><button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
 }
+function fbarSetup(){const nav=document.querySelector("nav"),fb=$("#fbar");const upd=()=>document.documentElement.style.setProperty("--navh",(nav?nav.offsetHeight:0)+"px");upd();addEventListener("resize",upd);
+  addEventListener("scroll",()=>{const top=fb.getBoundingClientRect().top,nh=nav?nav.offsetHeight:0;fb.classList.toggle("stuck",top<=nh+1&&scrollY>40)},{passive:true})}
+function afterFilter(){const fb=$("#fbar");if(fb.classList.contains("stuck")){const nh=document.querySelector("nav")?.offsetHeight||0;scrollTo({top:$("#list").getBoundingClientRect().top+scrollY-nh-fb.offsetHeight-6})}
+  document.querySelectorAll("#fbar .segbar button.on").forEach(b=>b.scrollIntoView({block:"nearest",inline:"center"}))}
 function render(){
   const items=ED.items||[];
   const segs=[{key:"top",label:"Destaques"},...CFG.segments];
   $("#segbar").innerHTML=segs.map(s=>{const n=s.key==="top"?(ED.top||[]).length:items.filter(i=>i.segment===s.key).length;return`<button class="${SEG===s.key?"on":""}" data-s="${s.key}">${esc(s.label)} <small>${n}</small></button>`}).join("");
-  document.querySelectorAll("#segbar button").forEach(b=>b.onclick=()=>{SEG=b.dataset.s;render()});
+  document.querySelectorAll("#segbar button").forEach(b=>b.onclick=()=>{SEG=b.dataset.s;render();afterFilter()});
   const L0=SEG==="top"?(ED.top||[]).map(id=>items.find(i=>i.id===id)).filter(Boolean):items.filter(i=>i.segment===SEG).sort((a,b)=>b.score-a.score);
   const isRep=it=>!!NV[it.id]?.rep,nN=L0.filter(it=>!isRep(it)).length,nR=L0.length-nN;
   const ready=Object.keys(NV).length>0;
   $("#novbar").innerHTML=!ready?`<span class="lbl">Conferindo o que é novo desde as edições anteriores…</span>`:`<span class="lbl">Mostrar:</span>`+[["all","Todas",L0.length],["new","Novas",nN],["rep","Repetidas",nR]].map(([k,t,n])=>`<button class="${NF===k?"on":""}" data-nf="${k}">${t} <small>${n}</small></button>`).join("");
-  document.querySelectorAll("#novbar button").forEach(b=>b.onclick=()=>{NF=b.dataset.nf;render()});
+  document.querySelectorAll("#novbar button").forEach(b=>b.onclick=()=>{NF=b.dataset.nf;render();afterFilter()});
   const L=L0.filter(it=>!ready||NF==="all"||(NF==="rep")===isRep(it));
   $("#list").innerHTML=L.length?L.map(it=>card(it,L0.indexOf(it)+1)).join(""):`<div class="empty">${L0.length?(NF==="new"?"Nenhuma notícia nova neste bloco nesta edição.":"Nenhuma notícia repetida neste bloco nesta edição."):"Nenhuma notícia neste bloco nesta edição."}</div>`;
 }
@@ -379,7 +387,7 @@ async function load(id){
   catch(e){$("#list").innerHTML=`<div class="empty">Não foi possível carregar a edição ${esc(id)}.</div>`}
 }
 Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("noticias/index.json?"+Date.now()).then(r=>r.ok?r.json():{editions:[]}).catch(()=>({editions:[]})),fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([c,ix,sd])=>{
-  CFG=c;method();(sd.items||[]).forEach(x=>{if(x.source){DONE[x.source.title]=1;DONE[x.source.item_id]=1}});
+  CFG=c;method();fbarSetup();(sd.items||[]).forEach(x=>{if(x.source){DONE[x.source.title]=1;DONE[x.source.item_id]=1}});
   fetch("programa/index.json?"+Date.now()).then(r=>r.json()).then(ix=>Promise.all((ix.days||[]).sort().slice(-3).map(d=>fetch(`programa/${d}.json?`+Date.now()).then(r=>r.json()).then(p=>(p.itens||[]).forEach(x=>{if(x.avulsa&&x.pedido)(ED&&ED.items||[]).forEach(it=>{if(String(x.pedido).includes(it.title))DONEP[it.title]=d})})).catch(()=>{})))).then(()=>{if(ED&&Object.keys(DONEP).length)render()}).catch(()=>{});
   EDS=(ix.editions||[]).sort();
   if(!EDS.length){$("#updated").textContent="A primeira edição sai no próximo horário (6h, 12h ou 19h).";$("#list").innerHTML=`<div class="empty">Nenhuma edição publicada ainda.</div>`;return}
