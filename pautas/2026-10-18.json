@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-18",
+  "weekday": "Dom",
+  "generated": "2026-10-17T20:00:51-03:00",
+  "summary": "Domingo do primeiro debate do segundo turno: Lula e Flávio se enfrentam na Band às 20h, a uma semana da eleição. O governo acionou o MPF e a ANPD contra a Meta, e o BTG estimou o custo do fim da 6x1 para as empresas.",
+  "agenda": [
+    {
+      "time": "20h",
+      "text": "Debate Band/Estadão entre Lula e Flávio Bolsonaro, em São Paulo: duas horas, com perguntas entre os candidatos e respostas a jornalistas.",
+      "source": {
+        "name": "Jornal do Comércio",
+        "url": "https://www.jornaldocomercio.com/politica/2026/10/1266919-veja-como-sera-o-debate-entre-lula-e-flavio-na-band-neste-domingo-18.html"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/debate-da-band-com-lula-e-flavio-sera-em-18-de-outubro/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "6h30",
+      "type": "i",
+      "kind": "Imagem forte com pergunta",
+      "options": [
+        {
+          "title": "Debate da Band: Lula e Flávio se enfrentam hoje, às 20h, em São Paulo",
+          "tone": "sóbrio com urgência",
+          "style": "ilustracao",
+          "desdobramento": "O debate acontece hoje (18), às 20h, com os dois candidatos confirmados; a data deixou de ser expectativa e virou compromisso do dia.",
+          "fact": "O primeiro debate do segundo turno entre Lula (PT) e Flávio Bolsonaro (PL) é hoje (18), às 20h, em São Paulo, promovido pela Band com o Estadão. Os dois confirmaram presença. Serão duas horas em dois blocos: em um os candidatos perguntam um ao outro, no outro respondem a jornalistas. A Band informou que, se um deles faltasse, o púlpito vazio seria mostrado. O segundo turno é em 25/10.",
+          "sources": [
+            {
+              "name": "Jornal do Comércio",
+              "url": "https://www.jornaldocomercio.com/politica/2026/10/1266919-veja-como-sera-o-debate-entre-lula-e-flavio-na-band-neste-domingo-18.html"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/debate-da-band-com-lula-e-flavio-sera-em-18-de-outubro/"
+            }
+          ],
+          "art_text": [
+            "Hoje, 20h",
+            "Frente a frente: sem roteiro, sem desculpa",
+            "Quem você quer ouvir responder?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Lula (PT) e Flávio Bolsonaro (PL), os dois candidatos do segundo turno, que confirmaram presença no debate. Ilustração estilo charge, sem foto real. Risco baixo: aparecem apenas em pé, frente a frente, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Lula (presidente, cabelo e barba grisalhos, terno escuro) e Flávio Bolsonaro (senador, cabelo curto escuro, terno escuro), cada um atrás de um púlpito de estúdio, frente a frente, olhando um para o outro com expressão firme e concentrada. Ao fundo, o cenário estilizado de um estúdio de TV com luzes fortes e a silhueta de São Paulo. No alto, em amarelo, letras condensadas e muito pesadas: \"Hoje, 20h\". Logo abaixo, em branco, letras grandes e pesadas: \"Frente a frente: sem roteiro, sem desculpa\". Embaixo, com sublinhado vermelho pincelado: \"Quem você quer ouvir responder?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Hoje, às 20h, Lula e Flávio ficam frente a frente na Band, com perguntas diretas entre os dois. Você vai assistir ao debate? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Não antecipe resultado nem declare vencedor. O formato (dois blocos, duas horas) vem de matérias sobre as regras; tempos e ordem não foram divulgados nas fontes, não cite.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que cada lado precisa levar ao debate da Band: economia no bolso, segurança e a decisão do STF, e como o formato de perguntas diretas muda a campanha na última semana."
+          }
+        },
+        {
+          "title": "Governo aciona MPF e ANPD contra a Meta; empresa admite falhas na campanha de Lula",
+          "tone": "contundente",
+          "style": "ilustracao",
+          "fact": "O Ministério da Justiça pediu à ANPD que esclareça os critérios de restrição de conteúdo da Meta e ao MPF que apure possível descumprimento do Marco Civil da Internet. A Meta admitiu falhas técnicas que afetaram a campanha de Lula, como a suspensão temporária da conta de anúncios em setembro, e negou ter favorecido Flávio ou interferido na eleição. O governo Lula, em plena campanha, passa a cobrar na Justiça e em órgãos federais as regras de moderação de uma plataforma que usa para pedir voto.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/eleicoes/2026/ministerio-da-justica-pede-investigacao-sobre-possiveis-violacoes-da-meta/"
+            },
+            {
+              "name": "O Antagonista",
+              "url": "https://oantagonista.com.br/brasil/governo-lula-recomenda-acao-judicial-contra-a-meta/"
+            },
+            {
+              "name": "NC News",
+              "url": "https://ncnews.com.br/2026/10/16/meta-lula-interferencia-eleitoral/"
+            }
+          ],
+          "art_text": [
+            "Governo Lula aciona a Meta",
+            "Em plena campanha, quem vigia as regras das redes?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Sem rosto de político. Silhueta de um homem de terno com celular na mão diante de um grande painel de redes sociais com cadeados, para representar a cobrança do governo sobre a plataforma. Risco baixo.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, a silhueta de um homem de terno escuro segurando um celular, diante de um grande painel de redes sociais cheio de cadeados e ícones de alerta, com o prédio estilizado do Palácio do Planalto ao fundo. Expressão tensa, braço em riste apontando para o painel. No alto, em branco, letras condensadas e muito pesadas: \"Governo Lula aciona a Meta\". Em quadro amarelo ao centro: \"MPF + ANPD\". Embaixo, com sublinhado vermelho pincelado: \"Em plena campanha, quem vigia as regras das redes?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "O governo acionou o MPF e a ANPD contra a Meta, a uma semana do segundo turno. Quem deve definir o que pode circular nas redes: a Justiça ou o governo? Responda: Justiça ou governo?",
+          "risk": "médio",
+          "risk_note": "A Meta admitiu falhas técnicas e nega interferência: não afirme perseguição nem má-fé do governo. Não cite o valor de multa (as matérias divergem sobre quem a fixou). Fale em pedido de apuração, não em condenação.",
+          "timeline": {
+            "rende": true,
+            "angle": "Governo, plataformas e eleição: o que o Marco Civil permite, o que o TSE já decidiu sobre isonomia e por que a cobrança sobre a Meta ganhou força a uma semana do segundo turno."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Resumo da semana nos Stories",
+      "options": [
+        {
+          "title": "Resumo da semana: 6x1 aprovada, Globo demite diretor e eleição empatada",
+          "tone": "sóbrio",
+          "style": "cartaz",
+          "desdobramento": "resumo da semana",
+          "fact": "A semana teve: Senado aprova o fim da escala 6x1 por 75 a 1; Grupo Globo demite o diretor-geral Frederic Kachar por conversas com Vorcaro; PoderData/Aya aponta empate de 50% a 50% nos votos válidos; Mendonça, do TSE, suspende propaganda de Lula que liga Flávio a milícias; IFI calcula R$ 298,4 bilhões em benefícios do governo em 2026. Fatos novos nas últimas 24 horas: o governo aciona MPF e ANPD contra a Meta, e o BTG estima que o fim da 6x1 pode custar até R$ 1 bilhão por ano à JBS.",
+          "sources": [
+            {
+              "name": "Diário do Poder",
+              "url": "https://diariodopoder.com.br/brasil-e-regioes/e02-brasil/fim-da-6-x-1-pode-custar-ate-r-1-bilhao-por-ano-a-jbs-estima-btg"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/eleicoes/2026/ministerio-da-justica-pede-investigacao-sobre-possiveis-violacoes-da-meta/"
+            }
+          ],
+          "slides": [
+            "A semana em 5 fatos",
+            "6x1: Senado aprova por 75 a 1",
+            "Globo demite o diretor-geral Frederic Kachar",
+            "PoderData/Aya: 50% a 50% nos votos válidos",
+            "Mendonça suspende propaganda que liga Flávio a milícias",
+            "IFI: R$ 298,4 bi em benefícios do governo em 2026",
+            "Hoje, 20h: debate na Band. Qual fato pesa mais?"
+          ],
+          "art_text": [
+            "A semana em 5 fatos",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Cartaz de texto sobre fundo escuro com textura, lista numerada dos fatos.",
+          "prompt": "Crie um cartaz vertical 9:16 (1080x1920), fundo escuro com textura, letras condensadas brancas e pesadas. No alto, em amarelo: \"A semana em 5 fatos\". Lista numerada em branco: \"1. 6x1: Senado aprova por 75 a 1\", \"2. Globo demite diretor por conversas com Vorcaro\", \"3. PoderData: 50% a 50%\", \"4. Mendonça suspende propaganda de Lula\", \"5. IFI: R$ 298,4 bi em benefícios\". Embaixo, com sublinhado vermelho pincelado: \"Qual pesa mais no seu voto?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "poll": {
+            "question": "Qual fato da semana mais pesa no seu voto?",
+            "options": [
+              "Fim da escala 6x1",
+              "Pacote de benefícios",
+              "Propaganda suspensa pelo TSE",
+              "Demissão na Globo"
+            ]
+          },
+          "caption": "Cinco fatos que marcaram a semana, a uma semana do segundo turno. Qual pesa mais para você? Vote na enquete.",
+          "risk": "baixo",
+          "risk_note": "Todos os números já foram publicados nesta semana. Mantenha o resumo factual; o empate do PoderData é de uma pesquisa, não de todas. Não cite o Datafolha nem outras pesquisas sem conferir.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Resumo de fatos já tratados nos dias anteriores; não sustenta artigo próprio."
+          }
+        },
+        {
+          "title": "Fim da 6x1 pode custar até R$ 1 bilhão por ano à JBS, estima o BTG",
+          "tone": "sóbrio",
+          "style": "cartaz",
+          "desdobramento": "Estudo do BTG estima o custo do fim da escala 6x1 para as empresas: até R$ 1 bilhão por ano para a JBS, fato novo em 17/10.",
+          "fact": "O BTG Pactual estima que o fim da escala 6x1 pode custar até R$ 1 bilhão por ano à JBS (3,2% do Ebitda) e R$ 824 milhões à MBRF (6,8% do Ebitda projetado para 2027), no estudo \"The Price of a Shorter Week\". O cálculo considera a jornada caindo de 44 para 42 horas dois meses após a promulgação e para 40 horas após 12 meses, sem corte de salário. A CNI estima alta média de 6,2% nos preços ao consumidor; o Ipea projeta impacto de 38 a 42 pontos-base no IPCA. São projeções de cenário.",
+          "sources": [
+            {
+              "name": "Diário do Poder",
+              "url": "https://diariodopoder.com.br/brasil-e-regioes/e02-brasil/fim-da-6-x-1-pode-custar-ate-r-1-bilhao-por-ano-a-jbs-estima-btg"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/agro/fim-da-6x1-pode-reduzir-lucro-de-empresas-do-agro-em-ate-15-aponta-btg/"
+            },
+            {
+              "name": "O Tempo",
+              "url": "https://www.otempo.com.br/economia/2026/10/15/especialistas-avaliam-se-fim-da-escala-6x1-pode-impactar-inflacao"
+            }
+          ],
+          "slides": [
+            "O fim da 6x1 foi aprovado",
+            "BTG: custo de até R$ 1 bi por ano para a JBS",
+            "CNI: alta média de 6,2% nos preços",
+            "Ipea: impacto de 0,38 a 0,42 ponto no IPCA",
+            "Quem paga a conta: o pequeno comerciante?"
+          ],
+          "art_text": [
+            "Quem paga a conta da 6x1?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Cartaz de texto e números sobre fundo escuro com textura.",
+          "prompt": "Crie um cartaz vertical 9:16 (1080x1920), fundo escuro com textura. No alto, em branco, letras condensadas e pesadas: \"Quem paga a conta da 6x1?\". No centro, número gigante em amarelo: \"R$ 1 bilhão\" e abaixo, em branco: \"custo anual estimado pelo BTG para a JBS\". Abaixo, dois quadros: \"CNI: +6,2% nos preços\" e \"Ipea: 0,38 a 0,42 ponto no IPCA\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "poll": {
+            "question": "O fim da 6x1 vai pesar nos preços?",
+            "options": [
+              "Vai pesar",
+              "Não vai pesar"
+            ]
+          },
+          "caption": "Estimativas divergem sobre o efeito do fim da 6x1 nos preços. Na sua opinião, vai pesar no bolso do consumidor? Vote.",
+          "risk": "médio",
+          "risk_note": "Tema popular: critique a conta e a pressa, nunca o descanso do trabalhador. Os números são projeções de cenário (BTG, CNI, Ipea), não custos contratados; atribua-os se citar. A PEC já foi aprovada.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem paga a conta do fim da 6x1: o que dizem BTG, CNI e Ipea, o efeito nos pequenos negócios e nos preços em 2027."
+          }
+        }
+      ]
+    }
+  ]
+}
