@@ -387,7 +387,7 @@ async function load(id){
   CUR=id;$("#ed").value=id;const i=EDS.indexOf(id);$("#prev").disabled=i<=0;$("#next").disabled=i>=EDS.length-1;
   try{ED=await fetch(`noticias/${id}.json?`+Date.now()).then(r=>r.json());ED.id=id;
     const g=new Date(ED.generated);$("#ed-title").textContent=`Edição das ${id.slice(-3)} · ${label(id).slice(0,5)}`;
-    $("#ed-sub").textContent=`Gerada em ${g.toLocaleDateString("pt-BR")} às ${g.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · ${(ED.items||[]).length} notícias`;
+    $("#ed-sub").textContent=`Gerada em ${g.toLocaleDateString("pt-BR",{timeZone:"America/Sao_Paulo"})} às ${g.toLocaleTimeString("pt-BR",{timeZone:"America/Sao_Paulo",hour:"2-digit",minute:"2-digit"})} (Brasília) · ${(ED.items||[]).length} notícias`;
     $("#updated").textContent=$("#ed-sub").textContent;
     $("#headline").innerHTML=`<p style="font-size:16px;font-weight:600;margin:0;line-height:1.45">${esc(ED.headline||"")}</p>`;
     NV={};renderX();render();await novidade();if(CUR===id)render();history.replaceState(null,"","#"+id)}
@@ -400,7 +400,7 @@ Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("
   if(!EDS.length){$("#updated").textContent="A primeira edição sai no próximo horário (6h, 12h ou 19h).";$("#list").innerHTML=`<div class="empty">Nenhuma edição publicada ainda.</div>`;return}
   $("#ed").innerHTML=EDS.slice().reverse().map(e=>`<option value="${e}">${label(e)}</option>`).join("");
   $("#ed").onchange=e=>load(e.target.value);$("#prev").onclick=()=>load(EDS[EDS.indexOf(CUR)-1]);$("#next").onclick=()=>load(EDS[EDS.indexOf(CUR)+1]);
-  const h=location.hash.slice(1);load(EDS.includes(h)?h:EDS[EDS.length-1]);
+  load(EDS[EDS.length-1]); /* abre sempre a edição mais recente; as anteriores ficam nas setas e na lista */
 });
 
 Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"noticias",wf:"noticias.yml",minutes:25,needsClaude:true,
