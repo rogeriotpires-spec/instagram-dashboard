@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-16T06:06:30-03:00",
+  "generated": "2026-10-17T05:59:00-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-10-15",
-    "end": "2026-10-15"
+    "start": "2026-10-16",
+    "end": "2026-10-16"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Quinta-feira teve 668.061 views na conta (+49% sobre a média da semana anterior) e 14.107 compartilhamentos, mas só 2 publicações: uma imagem com 48.511 views e um Reel com 537.",
+  "headline": "Sexta (16/10): a conta recebeu 518.739 views (+16%) e 1.307 comentários (+70%) com só 3 publicações, e o Reel das 18h29 foi o destaque, com 38.394 views.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "668 mil",
-      "delta": "+49%",
+      "value": "519 mil",
+      "delta": "+16%",
       "dir": "up"
     },
     {
@@ -28,20 +28,20 @@
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "14 mil",
-      "delta": "+52%",
-      "dir": "up"
+      "value": "8.082",
+      "delta": "−13%",
+      "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "2.404",
-      "delta": "+385%",
+      "value": "1.307",
+      "delta": "+70%",
       "dir": "up"
     },
     {
       "label": "Contas com interação",
-      "value": "69.975",
-      "delta": "+166%",
+      "value": "33.481",
+      "delta": "+9%",
       "dir": "up"
     }
   ],
@@ -50,54 +50,59 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "A imagem \"Você conhece alguém que prometeu acabar com SIGILOS?\" (21h) teve 48.511 views em 8,9 horas, com 283 compartilhamentos, 52 salvamentos, 22 comentários e 15 novos seguidores. Foi o único post do dia com seguidores atribuídos. Ela ainda está acumulando views.",
+      "diagnosis": "O Reel \"Complete a frase abaixo senão: Quem ficar parado é...\" (18h29) teve 38.394 views, 119 compartilhamentos, 45 comentários e 54 salvamentos. Foi assistido por 10 segundos em média, com 27% de pulos. Ele tem só 10,5 horas e ainda acumula.",
       "actions": [
-        "Repita o formato de pergunta direta no título, que reuniu compartilhamentos e salvamentos no mesmo post.",
-        "Responda os 22 comentários nas primeiras horas para manter o post circulando."
+        "Repita o formato de frase para completar, que puxou comentários e compartilhamentos.",
+        "Publique o Reel no começo da noite, horário em que ele rendeu mais hoje.",
+        "Acompanhe o Reel nos próximos dias antes de comparar com outros."
       ],
       "posts": [
-        "Deh_rUstC5a"
+        "DekfWuXNS39"
       ]
     },
     {
       "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "O Reel \"O PROFESSOR É UMA AMEAÇA!\" (18h41) teve 537 views em 11,2 horas, 1 compartilhamento e 4 comentários. Ele tem 45,4 segundos e 40% de pulos. É um post recente e ainda acumula, mas está muito abaixo da imagem do mesmo dia.",
-      "actions": [
-        "Corte o Reel para até 30 segundos e abra com a frase mais forte.",
-        "Antes de publicar, veja se o motivo para assistir aparece nos 3 primeiros segundos."
-      ],
-      "posts": [
-        "Deh8WzvtR28"
-      ]
-    },
-    {
-      "title": "Comentários e interação",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "A conta recebeu 2.404 comentários no dia, contra 477 na média dos 7 dias anteriores (+385%). As contas com interação foram 69.975, contra 26.596 (+166%). Os dois posts do dia tiveram apenas 22 e 4 comentários, então a maior parte veio de publicações anteriores.",
-      "actions": [
-        "Abra os comentários dos posts mais antigos que ainda estão recebendo resposta e responda os principais.",
-        "Fixe a pergunta mais comentada para prolongar a conversa."
-      ],
-      "posts": [
-        "Deh_rUstC5a",
-        "Deh8WzvtR28"
-      ]
-    },
-    {
-      "title": "Dia com poucas publicações",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Foram 2 publicações, às 18h e às 21h. Juntas somam 48.511 e 537 views, bem abaixo das 668.061 views da conta no dia. O dia ensina que o alcance de quinta veio de conteúdo já publicado, e que a imagem das 21h rendeu mais que o Reel das 18h.",
+      "diagnosis": "A imagem sobre a demissão na Globo (8h15) teve 1.216 views, 3 compartilhamentos e 1 comentário, e não trouxe seguidores. As 2 imagens do dia tiveram mediana de 3.384 views. Com 20,7 horas, esse post já acumulou boa parte do que vai ter.",
       "actions": [
-        "Publique também no começo da manhã, quando a conta costuma render mais.",
-        "Se o dia tiver só um post forte, escolha uma imagem."
+        "Reserve a manhã para a imagem mais forte do dia, não para notícia de bastidor da imprensa.",
+        "Coloque o fato central no título, como nas imagens que mais renderam no mês.",
+        "Evite duas imagens fracas no mesmo dia: troque a segunda por uma pergunta."
       ],
       "posts": [
-        "Deh_rUstC5a",
-        "Deh8WzvtR28"
+        "DejZbguNSy6"
+      ]
+    },
+    {
+      "title": "Comentários e compartilhamentos",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "A conta recebeu 1.307 comentários (+70% sobre a média da semana anterior) e 8.082 compartilhamentos (−13%). Os 3 posts do dia somaram só 49 comentários, então a maior parte veio de publicações antigas. As contas com interação por dia chegaram a 33.481 (+9%).",
+      "actions": [
+        "Responda os comentários dos posts antigos que ainda estão ativos.",
+        "Fixe uma pergunta nos posts novos para manter a conversa.",
+        "Veja quais posts antigos puxaram comentários hoje e republique o tema."
+      ],
+      "posts": [
+        "DekfWuXNS39",
+        "DekRLcmNMhi"
+      ]
+    },
+    {
+      "title": "Horários",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "A mediana de views foi 38.394 às 18h, 5.552 às 16h e 1.216 às 8h. Cada horário teve um só post e de formatos diferentes, então a leitura é só um indicativo. Posts mais recentes ainda acumulam views.",
+      "actions": [
+        "Teste de novo o início da noite para o Reel do dia.",
+        "Compare imagens e Reels no mesmo horário antes de concluir algo.",
+        "Observe o dia seguinte para ver se as 3 publicações mudam de posição."
+      ],
+      "posts": [
+        "DekfWuXNS39",
+        "DekRLcmNMhi",
+        "DejZbguNSy6"
       ]
     }
   ]
