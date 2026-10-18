@@ -3,10 +3,10 @@
  "headline": "Luchsinger diz que fará delação e Lula nega contato; Lula e Flávio debatem hoje na Band; TSE mantém atos pró-Lula; Vox e Quaest apertam a disputa; Vorcaro e a imprensa",
  "top": [
   "debate-band",
-  "luchsinger-delacao",
   "verde-amarelo-janones",
-  "franca-protestos",
-  "sp-vasco"
+  "luchsinger-delacao",
+  "pesquisas-vox-quaest",
+  "franca-protestos"
  ],
  "items": [
   {
@@ -276,12 +276,12 @@
    "title": "Vox Brasil dá Lula 51% a 49% nos votos válidos; Quaest dá Flávio 51% a 49%",
    "summary": "A pesquisa Vox Brasil mostra Lula com 51% e Flávio Bolsonaro com 49% dos votos válidos no segundo turno. Nos votos totais, o levantamento aponta Lula com 46,4% e Flávio com 44,6%, o que a Metrópoles descreve como empate técnico. A Quaest, por sua vez, divulgou Flávio com 51% e Lula com 49% dos votos válidos. Os resultados vêm depois de Ipespe e Veritá apontarem Flávio à frente. As pesquisas divergem entre si e a margem de erro cobre as diferenças.",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 9.3,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 10
    },
-   "score": 5.4,
+   "score": 6.8,
    "outlets": [
     {
      "name": "Poder360",
@@ -306,6 +306,34 @@
      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZVB5YjhBNGZvbzc0dk04UDBjZ2t2cmx6QXRQbmpMdHVEVTF6b3ZRYlY4VmZVeVFoVlY4LUtfd0ZKTS1tZFB6OWI5R2Z4UTI0ek9BMDh1OG0ydmdsSFFpWmpOVEdXajM3Wk14WnJuZ1JFMXZESm0wbFJyS1FaUFdXSGtDYWQ5UWVGVE9LeDFWMEVma3pMcUhQNFJpVVpfT1JhOGFFVlBvUGlwYkxlNU43U29tVkZtbFFKeGNGTnJKdzhCVlJWa1pGR096eHlUNzlYaHoyVV8yeDNiekp1S3F4WWVVOGE0SHNXcW5xcmdjMkdqRjgtMzNHVExiYllyRkQ4V09UWVNnaXJoYWs?oc=5",
      "camp": "outro",
      "position": "editoria"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTDVGczFRUldUVk9EcXlFNWZVcEIyanduNEpPQTNXY2lIRFZkMUpxQ3pmNjNYR0lIOGZqeVUwZS1jV1NoNmZsRHRxc0FOTHRrbUlXT2haZ0V6N3lMNXRYMkVvMGlmSFl1dzJ2dDZ3ZVFWMTUzRlVRMWpZTzBUQXBQZmp1YUZjZmktWU5VVjlrMGhhc0lUNzZvOHh2ZmUyOUM5QWdVUF9qVHBaMXNUSVpyN2pGekQ4VWEyeV93?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTzQtaFJ3bFJnMXNTX2o4Q3RXSGM0RkFjd1JvLXVKanQ1RTQ3a3hibHhpRUQwck4ySTdZOEQweXJmenJmbUhTYmFpWkZTQTJTdzdRZjhzMWJiTDdkV2U4ZWxQNmdEeHlzVDRvRF9xSEJiU1Y0WDhmU2N3bzlnUW9Pb2ZpdW0wRlM0QW4ydzlBRmJaOUhleUcxM0thLXBHZGJwUUVvT3A2b2w2ZUpWZXlEMw?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYld0eHhYdUUzVmdNQzBSRERBdXRvYVFOZHVMS1ZLcXNSM29qVXo2WHZHN1dkSUNVdHhaeGpoYmw4Uzk0dWxpcDhEaUFlSTdYRGoxdU9LZmRlVDA2cFBPSnoydVdxUVNxTTJ2SS1oSmg3VGx1eTJJVTlHRWtJRWFzR0NudXZKWEE0ZTVXbElwbEJBRUU1QXQ5VW1nTDh6UkVUQ1pkUGtCY2xFblpz?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNGxtbmNORDBLNzFkMVpwRjBfLUxnV1Uxa0dNMUt3SElqNG5iU0g0aDdjbVRQcmFVUXk1bTRiNFR6QVdFQ1RwLWU2a1BVS0hrU21DdURfUkJwWnVYWDN3UXdJS0dvdGVYOFFoLXJqUUJqMWFRN01XeENxanA0ZEFzYm5HUU8tU3FiNVJ6YWFIOVEyQnk2VkRXWkNNM0RDemJMZG53SGdfWWZwWHYz?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -320,12 +348,12 @@
    "title": "TSE rejeita pedido do Novo para barrar atos com artistas em apoio a Lula e mantém os shows",
    "summary": "Um ministro do TSE rejeitou o pedido do Partido Novo para barrar atos com artistas em apoio a Lula. Os atos com mote de democracia foram mantidos no Rio, em Salvador e em Porto Alegre, e a proibição de shows foi afastada. O Novo alegava que a campanha de Lula promove \"showmícios\" e pediu produção de provas. Os atos estão marcados para este domingo (18). A decisão vale para esse pedido e não encerra outras ações sobre a campanha.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 9.3,
     "destaque": 3,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 7.0,
+   "score": 7.4,
    "outlets": [
     {
      "name": "O Globo",
@@ -368,6 +396,13 @@
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTXQ4cEpDN2h6UV9FTVZlWGNtaHFvME5MbnRXTzdsY3hSU1dGVWMydl9RRWR0X0UxN3lHTjh6Q2ViaHpzWTgxUU1DVHBfY25WSVFsWGJuUW1wRXkzRnBXdzRWRkcwVFBJeDhySHE4d1RqWTA4blNUNVpWNkpBaUdTUnFMWWJYbXJKTHYxSEdCMW5uaXpjZEVnb0Q0WHJKYzlseGU3RjhacnJmb2Jpd0JZ?oc=5",
      "camp": "centro",
      "position": "editoria"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOb0oyLXpqVWNaU01mQVdLV2E3T2Q1U183clpET2x4RDBNaGJJeS1zNHMtYUxucEpNQ1lhMmlzS0o1cllOV2NIS0hMQmNSRHgxMEhmTTdvU0pRT0I1elduU0NjcTh4TjVWY1BqVGk3Vk42TjRNTXBmOEtEbW5penM5dEpuRFVJLTVPelFqRjlvVWpRNXJtMmJ4VHZmamF5MWltU3dWYXM1MVJYMHN5QTJkclN6Wmh1TTFMU09RRlctTmhyN0xmVWducEFQYV9Fd1ZpdXF3MFY4RjdXR0hB?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -382,12 +417,12 @@
    "title": "Mensagens de Vorcaro apontam vídeos apócrifos contra colunistas, ameaça a repórter e R$ 1 milhão por influência na imprensa",
    "summary": "Segundo O Globo, Daniel Vorcaro encomendou vídeos apócrifos para atacar os colunistas Malu Gaspar e Lauro Jardim. O Estadão informa que Vorcaro ameaçou um repórter do jornal por revelar crimes do Master, com a frase \"entrar com criminal\". Mensagens apontam que ele pagou R$ 1 milhão por influência na imprensa, segundo a Revista Oeste. O Jornal do Commercio descreve um editor ativo na mídia muito além dos patrocínios oficiais do Master. O caso está em apuração e não há condenação.",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 7.0,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 10
    },
-   "score": 5.4,
+   "score": 6.1,
    "outlets": [
     {
      "name": "O Globo",
@@ -431,12 +466,12 @@
    "title": "Base de Lula prepara texto para excluir setores do fim da escala 6x1 depois da eleição",
    "summary": "Segundo o Estadão, o fim da escala 6x1 terá mudanças após a eleição para excluir setores, e o texto já é preparado pela base de Lula. O Globo publica um guia sobre como a nova jornada vai alterar a rotina dos trabalhadores. O Extra detalha como ficam as jornadas de 30 profissões que mais empregam no país. Veículos orientam MEIs e pequenas empresas a se prepararem para a mudança. A promulgação do fim da 6x1 já elevou os prêmios de inflação, como mostrou a edição anterior.",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 6.0,
     "destaque": 3,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 6.0,
+   "score": 6.3,
    "outlets": [
     {
      "name": "Estadão",
@@ -512,12 +547,12 @@
    "title": "MP das bets: mercado prevê queda nos patrocínios em 2027 e São Paulo protesta com mensagem na camisa",
    "summary": "A medida provisória das bets foi alvo de protesto do São Paulo, que entrou em campo com mensagem na camisa contra a MP. O Extra informa que a MP estoura a bolha do setor e que o mercado prevê queda nos valores dos patrocínios em 2027. O Extra aponta o impacto sobre os contratos de patrocínio dos clubes. O protesto do São Paulo foi noticiado pelo Poder360. O mercado já projeta valores menores para 2027.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "Poder360",
@@ -635,12 +670,12 @@
    "title": "Trump promete \"poderes inacreditáveis\" e se coloca no centro das eleições de meio de mandato nos EUA",
    "summary": "Donald Trump prometeu \"poderes inacreditáveis\" e se colocou no centro da campanha das eleições de meio de mandato nos Estados Unidos. Protestos nos EUA tentam mobilizar eleitores para o voto antecipado contra Trump. Os democratas apostam em frente ampla e estratégia digital contra o que chamam de extrema direita. A Gazeta do Povo diz que Trump também \"faz o diabo\" por uma eleição ao descartar a Ucrânia. As eleições de meio de mandato renovam o Congresso americano.",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 7.0,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.8,
+   "score": 4.5,
    "outlets": [
     {
      "name": "InfoMoney",
@@ -684,12 +719,12 @@
    "title": "Aliados de Trump no Partido Republicano chamam de erro a suspensão das sanções à Rússia; Zelenski diz que só Putin ganha",
    "summary": "Aliados importantes de Trump no Partido Republicano classificaram como erro a suspensão das sanções contra a Rússia. Uma senadora republicana divergiu publicamente do presidente. A Veja informa que Trump desistiu das sanções comerciais para impedir alta do petróleo. Zelenski disse que a suspensão favorece apenas Putin. A suspensão foi anunciada pouco antes de a lei entrar em vigor, como saiu na edição anterior.",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 6.0,
     "destaque": 3,
     "persistencia": 7,
     "peso_voce": 3
    },
-   "score": 4.4,
+   "score": 4.7,
    "outlets": [
     {
      "name": "Valor Econômico",
@@ -728,12 +763,12 @@
    "title": "EUA pedem que Israel combata ataques de colonos na Cisjordânia; colonos mascarados atacam diplomatas europeus",
    "summary": "Os Estados Unidos pediram a Israel que combata os ataques de colonos na Cisjordânia. Colonos mascarados atacaram diplomatas europeus na Cisjordânia ocupada. A CNN Brasil e O Povo noticiaram os dois fatos. O pedido americano e o ataque aos diplomatas foram noticiados neste sábado. Não há balanço de feridos nas matérias consultadas.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "CNN Brasil",
@@ -759,12 +794,12 @@
    "title": "Polícia afasta três delegados, um investigador e um carcereiro por suspeita de regalias a Milton Leite na cadeia",
    "summary": "A polícia afastou três delegados, um investigador e um carcereiro por suspeita de regalias a Milton Leite na cadeia. Segundo o Ministério Público, Leite recebeu visita de um deputado, de um prefeito e de um PM condenado. Na edição anterior, o MP-SP havia apreendido dinheiro com o carcereiro. O afastamento foi noticiado por O Globo, Folha e SBT News. O caso segue em apuração e ninguém foi condenado.",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 6.0,
     "destaque": 3,
     "persistencia": 7,
     "peso_voce": 6
    },
-   "score": 5.1,
+   "score": 5.4,
    "outlets": [
     {
      "name": "O Globo",
@@ -840,12 +875,12 @@
    "title": "Motorista avança sobre manifestantes em ato pró-Lula em BH, atropela aposentado e é preso",
    "summary": "Um motorista avançou sobre manifestantes durante o ato \"mulheres com Lula\" em Belo Horizonte. Um aposentado foi atropelado. O motorista foi preso. O ato reunia mulheres em apoio a Lula. O episódio foi registrado em vídeo.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "Estado de Minas",
@@ -908,12 +943,12 @@
    "title": "Ufopa abre seleção para 2027 com 60 cursos e 2 mil vagas e inscrição gratuita",
    "summary": "A Universidade Federal do Oeste do Pará abriu o Processo Seletivo Regular 2027. São 2 mil vagas em 60 cursos. A inscrição é gratuita. A universidade fica no Pará. A seleção vale para ingresso em 2027.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "DOL",
@@ -1064,12 +1099,12 @@
    "title": "Erika Hilton protocola pedido de CPI das big techs para investigar atuação na eleição",
    "summary": "A deputada Erika Hilton diz colher assinaturas para instalar uma CPI que investigue a atuação das big techs na eleição. O pedido foi protocolado, segundo a Jovem Pan. Valor, UOL e InfoMoney também noticiaram. A iniciativa ocorre depois de o governo acionar a Meta por falhas que afetaram a campanha de Lula. A CPI depende do número mínimo de assinaturas para ser instalada.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 8.7,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.5,
+   "score": 5.7,
    "outlets": [
     {
      "name": "UOL",
@@ -1125,12 +1160,12 @@
    "title": "IAs chinesas colam nas líderes, mas a corrida por chips pode definir o jogo",
    "summary": "Modelos de inteligência artificial chineses se aproximam dos líderes do setor. A Exame afirma que a corrida por chips pode definir o futuro. A DeepSeek atualizou seu modelo na sexta com promessa de respostas mais rápidas. O custo por tarefa deve ser menor. A disputa envolve também data centers de alto custo.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "Exame",
@@ -1259,6 +1294,13 @@
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdDlBT1pycFRSRFgySlc0YWJWalQxM2FNR0RaZWRRR3MxWGtEQmgtSXRZcGg4OU5GTTJJRzk1OTNkQ2l0cUhJdUNFWHdMWm1hQ1BNOUNwT3BsSmVHSTlYdnFfU2xBR3NEMjh4V29Ib0R0UVAzTVVSUTR3alRaZWRoMHBPak9MZE9GM1g4Y0NudjRLWlRlMEJPdnptc3BnVlROUHkyQU5TWlBxUktOSGxTMEduNHNGcFk?oc=5",
      "camp": "centro-esquerda",
      "position": "editoria"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbGdaNDBFVDdYc1dxZWhDRk5nUHFNUXgxTG5Sdk81cGlKNG1ZZkE3bUI0ZHhjbElzamtoRUk5NnZIV1llT3FZQzBpenV6cThMeS0zRElsRzY3TWlLU1hRbFI4d2R5VXdEeWtXdFVJeUVWeXZCbTdMb3JNb0ZYMm1RRzBsMFFESGFLa0stOWhLenJwMDUwZGtGeHRSNEwwWHktUzlsanota2FaaDdmeHc?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1272,12 +1314,12 @@
    "title": "Tiquinho decide, Botafogo vence a Chapecoense por 1 a 0 e Tite estreia com vitória",
    "summary": "O Botafogo venceu a Chapecoense por 1 a 0 com gol de Tiquinho Soares. Foi a primeira vitória de Tite no comando do clube. O resultado afasta o time da zona de rebaixamento. Tite elogiou Tiquinho pela presença de área. O gol encerrou um jejum de gols de atacantes de três meses.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 9.3,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.5,
+   "score": 5.9,
    "outlets": [
     {
      "name": "CNN Brasil",
@@ -1320,6 +1362,13 @@
      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObjVmMUF5NDJ2REJpaUUyTk5IY1l4VWdRd3F5bldPa1JjNDEzb05YUHc4VWpkbkk2UXl0VjA1d0dYZVhQVDRTYkdGTXlzQW5XUzY4T01EUngwamk1aU5leFd3dm5sWTZQUFZqdkJjc3QxQTNhVnUzcC1aRkQ0a0U3OTNJaWYzT0JVNkFSMkxYS1cyTm5ZSXQ1VUhoaHpqRXA0U2M4V3VkQlhhdzd1U09WRDFQYTkwSl8xV1lUVVhncEJHRW9SZ2dOT21sM2otWEd5NGMtWEJacm52LUZBcjhmWTBwX0NhWlgyM24tQkh2OHlQQkhlSGExbm5TdWlLMzF4Ny1lZGlseG91TXB0X0g4RdIBnwJBVV95cUxPN2ZtOGR6WVBmM1poVzhWSkRfQmlWbkdJMm9mcnRMdXN5LVpWTTNQUXJKOXVldl9ndWZKUDB6bmMxcWp1S1lFdkx6VDUxbERVNUdzS2NFTkN1VHN4bVQ1Umw3OUw1ZzNOdDByaE1oY0loR1V3dUhEU1VLQmcxQ05aRkJsVk92dE5HbXdhSk5qeGM5WWMtOTRrNW45Nmhhc3k0cDl0bXcyXzNHLXVub2VVUE1Cai1aQTMyV29zLUdSRGY4SXEzdVlNUlhHSmNoSU9YWnQ1OVIxSDRvQTZOTHBDa0FEVTNfdm5qc1dUaV9xeHoyX21PaWNHSUhEN2hJQmJIb1BoRDJjLW5jNUhMWG1QUFNQeHZfQm5LbTRBcGRSOA?oc=5",
      "camp": "centro",
      "position": "editoria"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMFhwZUxZYk9ycXlLWWxrRzd6eU9hZ1ZPYlVmdFpVSHpqVTRhYTJtZ1dqSmtYejNwUzhGeTlVM01Mcm9VS01VNk5wSDE4dm9NamJTakRoU3U4UjM3cGtPSklTWjBqVDdXUEZ3UklSci16TDRVRzhVNllZNVpQUXpfM1JaZGRCYnl6NTZjV0REejZQc2ppM3F1UHJqaU42OXBNQmszVFNkaUgtVFkxeC16MG9ja3lCY3lvT1czVlV2U1hjcnNkNDRQaUpTMlpjNnk1YXhmOTNBR1V2UQ?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1333,12 +1382,12 @@
    "title": "Palmeiras bate o Athletico-PR por 2 a 0 com um jogador a menos e dorme na liderança do Brasileirão",
    "summary": "O Palmeiras venceu o Athletico-PR por 2 a 0, com gols no início do jogo. O time jogou com um a menos depois da expulsão de Andreas Pereira, lance que gerou debate. O Palmeiras dorme na liderança provisória do Brasileirão. O Flamengo joga hoje contra o Bahia. Houve briga entre torcedores em Curitiba que mobilizou a PM.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 10,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 4.8,
+   "score": 5.5,
    "outlets": [
     {
      "name": "Estadão",
@@ -1387,6 +1436,13 @@
      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaUd2ZkU1VU13eGNiSm9SN3Q4TVkzc0MxU2gwTlRwQV9zdUhkMDRDRHRYZWZ3R2ZURjdBS2VqT1FXX0lZaFgzdE9yYUtUcXdxdmNTREZQTXROYnkzNXNWVkR4Y3gzRjlfeTdOc084XzFTSHgxZERMSHpzaHNLOHVEWGdoUGhKc0ZuMm01SVRhRUh2dEJ6MmktMmNfOUF3RWtBSkQ3YlE2eWVUbi1xRml0ZVdES3hXeDRUbjhFVm9HbXdkUi1JZjlhZTJoT3ZtREJYSDZqbXN2OUF0M0hjSEE?oc=5",
      "camp": "rio",
      "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSTBQWW5felczUEpfTS1EV3g0SzlkUlFXMXpVV0I1eHZLNkIwell3N0hxTWgxUWZOQWxkMUowSjNKWG9IQ2kyMUFPN3pWTUhwbFBVTEhwT1BoZ1RVSk5OUmhuQ0hVNldLR0VzUWIxSjY5MzB6RHRJWF9CMUdOLWpmWGxRMXFmQ3NWTFlReU85MTZ2S3hYVG11aW5kYTBJRGxNVUFxUi0zQ2dwRG8?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1400,12 +1456,12 @@
    "title": "Ceará empata com o Juventude por 2 a 2 em pênalti polêmico e presidente do Juventude cobra a CBF",
    "summary": "Ceará e Juventude empataram por 2 a 2 no Castelão, pela Série B, com gol de pênalti nos acréscimos. O empate frustrou a liderança do Juventude. O presidente do clube gaúcho classificou como indignante a arbitragem e cobrou providências da CBF. O clube emitiu nota dizendo que não aceitará calado o prejuízo. O Ceará comemorou o ponto na luta pela permanência.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 8.7,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 4.8,
+   "score": 5.0,
    "outlets": [
     {
      "name": "Diário do Nordeste",
@@ -1461,12 +1517,12 @@
    "title": "Rayssa Leal garante vaga na final do Mundial de Skate Street no Paraguai",
    "summary": "Rayssa Leal garantiu vaga na final do Mundial de Skate Street, disputado no Paraguai. A gaúcha Maria Lúcia Campos também avançou à decisão. A informação foi divulgada neste sábado. A disputa ocorre no Paraguai. A informação consta no Meia Hora e no GZH.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "Meia Hora",
@@ -1579,5 +1635,6 @@
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkwzaE1ZdkViSVFLb1ZPbmRiaW9GTktVc3dTMXpPaGFSS1pzc0dBUjRoT2hqbjZzWjl2NDVqZlB3NDFYdkQ2UkZoZWdfS0MzX01leU5UUEpQZkJlTTRsUG9BaV9vREZpOENpSzBlWmJmZWprOXNGTXZfZWNIZDZSQ2xiekRrTGZUOWZ0b3VMQXdiSXZJTkdUamtYZDRPbjdDMzVaNk9wR3M2dTdrSFJGOWtVdWxMejhGdVBBUGhnMHpJZw?oc=5"
    }
   }
- ]
+ ],
+ "portais_na_coleta": 55
 }
