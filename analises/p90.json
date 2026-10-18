@@ -1,46 +1,46 @@
 {
-  "generated": "2026-10-17T05:59:00-03:00",
+  "generated": "2026-10-18T05:59:46-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-07-19",
-    "end": "2026-10-16"
+    "start": "2026-07-20",
+    "end": "2026-10-17"
   },
-  "compare": "2026-04-20 a 2026-07-18",
-  "headline": "Em 90 dias a conta teve 35,8 mi de views e as imagens de opinião ficaram com os maiores posts, todos acima de 960 mil views, enquanto os Reels de Política ficaram nos piores resultados.",
+  "compare": "2026-04-21 a 2026-07-19",
+  "headline": "Em 90 dias a conta somou 36,2 mi de views; as 55 imagens tiveram mediana de 27.619 views contra 8.302 dos 112 Reels, e as maiores passaram de 1,4 mi.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "35,8 mi",
+      "value": "36,2 mi",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Novos seguidores",
-      "value": "15.921",
+      "value": "16.422",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "629",
+      "value": "652",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "442 mil",
+      "value": "449 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "28.489",
+      "value": "29.357",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "136 mil",
+      "value": "137 mil",
       "delta": "sem comparação",
       "dir": "na"
     }
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As 54 imagens tiveram mediana de 22.026 views e 161 compartilhamentos, contra 8.082 views e 72 compartilhamentos dos 111 Reels, e trouxeram 7.198 seguidores. Os maiores posts foram imagens de opinião: \"Bem vindo a este manicômio chamado Brasil!\" (16/8) com 1.489.612 views, \"Quando dizem que uma imagem vale mais do que mil palavras\" (28/7) com 1.442.111 views e 1.409 seguidores, e \"Ninguém aguenta mais o Lula e o PT!\" (28/9) com 969.945.",
+      "diagnosis": "As imagens dominam o topo: \"Bem vindo a este manicômio chamado Brasil!\" (1.489.634 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.442.127, 42.788 compartilhamentos e 1.409 novos seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (973.429). As imagens tiveram mediana de 27.619 views e 158 compartilhamentos, contra 8.302 views e 71 compartilhamentos dos Reels.",
       "actions": [
-        "Mantenha a imagem de opinião como o post principal do dia.",
-        "Use títulos que levam a uma opinião clara, como nos três maiores posts.",
-        "Reaproveite imagens que renderam seguidores, trocando o assunto do dia."
+        "Mantenha a imagem de opinião como principal aposta.",
+        "Use imagens com tom forte e título curto.",
+        "Crie uma série de imagens parecidas com as duas maiores."
       ],
       "posts": [
         "DcGTcGzN_5i",
@@ -66,11 +66,11 @@
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Os 3 piores posts foram Reels de Política: \"Quase 18 anos no poder\" (473 views, 102 segundos, 43% de pulos), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). Os três foram publicados às 6h30, 6h40 e 9h04. Os 2 carrosséis tiveram mediana de 3.604 views.",
+      "diagnosis": "Os piores posts foram Reels de Política com mais de 60 segundos: \"Quase 18 anos no poder\" (473 views, 102,4 segundos), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). A taxa de pulo ficou entre 37% e 43%. Os 112 Reels têm mediana de 8.302 views.",
       "actions": [
-        "Corte os Reels de Política para menos de 60 segundos, com o fato nos primeiros segundos.",
-        "Não use a manhã cedo para Reels de assunto geral: esse horário rende mais com imagens.",
-        "Use carrossel só quando o assunto precisar de várias telas."
+        "Limite os Reels a até 30 segundos.",
+        "Evite Reels de Política sem um fato novo no começo.",
+        "Revise o que foi publicado antes de repetir o formato."
       ],
       "posts": [
         "Db73S3ZBiej",
@@ -82,31 +82,27 @@
       "title": "Temas",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Entrevista teve a maior mediana de views (88.373), mas em só 5 posts. Opinião teve 13.747 em 55 posts, Política 8.522 em 93, Bastidores e pessoal 5.295 em 7 e Eventos e discursos 2.687 em 6. Política concentra a maior parte dos posts e tem a segunda menor mediana.",
+      "diagnosis": "Entrevista (5 posts) teve a maior mediana, 88.374 views, seguida de Opinião (56 posts, 15.139,5) e Política (94 posts, 9.387,5). Bastidores e pessoal (7 posts) teve 5.295 e Eventos e discursos (6 posts), 2.687. A conta publica mais Política, que rende menos por post.",
       "actions": [
-        "Faça mais uma ou duas entrevistas para confirmar se o resultado se repete.",
-        "Reduza o volume de Política e escolha só o assunto mais forte do dia.",
-        "Publique menos eventos e discursos, que tiveram a menor mediana."
+        "Teste mais entrevistas, mesmo que cortadas.",
+        "Reduza o volume de Política em Reels e mantenha só os fatos mais fortes."
       ],
       "posts": [
-        "DbWUq-ltrx8",
-        "DcGTcGzN_5i"
+        "DbWUq-ltrx8"
       ]
     },
     {
-      "title": "Horários e comentários",
+      "title": "Horários e dados",
       "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "A mediana de views foi maior às 21h (82.355), às 9h (50.691), às 19h (49.255) e às 23h (48.139), e menor à 1h (2.455), às 12h (2.979) e às 15h (1.443). Às 6h foi 4.337, porque ali ficaram Reels fracos, enquanto as imagens de 6h30 a 8h estão entre os maiores posts. Muitos horários têm poucos posts, então a leitura é só um indicativo. Em comentários, \"Qual número você escolheria?\" teve 488 e \"Responda nos comentários, só um nome!\" teve 355, com 57 seguidores.",
+      "status_label": "Atenção",
+      "diagnosis": "Os horários com maior mediana foram 21h (88.824 views), 09h (51.142) e 18h (50.952,5), contra 4.369 às 6h e 9.912 às 7h. Esses números dependem de poucos posts em cada hora e mudam com os grandes picos. Os dados de seguidores e interações cobrem só 41 dos 90 dias, então não há comparação segura com o período anterior.",
       "actions": [
-        "Separe o horário por formato: imagem de manhã, Reel no começo da noite.",
-        "Repita as perguntas fechadas, que renderam mais comentários.",
-        "Evite publicar perto do meio-dia e no começo da tarde."
+        "Teste de forma planejada os horários de 18h, 19h e 21h.",
+        "Compare horários só com posts de formato igual.",
+        "Use a leitura de 7 e 30 dias para decisões do dia a dia."
       ],
       "posts": [
-        "DdumKq_tAX_",
-        "DcfJMHasopg",
-        "DeFIOryNZpn"
+        "DcGTcGzN_5i"
       ]
     }
   ]

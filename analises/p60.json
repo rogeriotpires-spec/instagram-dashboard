@@ -1,46 +1,46 @@
 {
-  "generated": "2026-10-17T05:59:00-03:00",
+  "generated": "2026-10-18T05:59:46-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-08-18",
-    "end": "2026-10-16"
+    "start": "2026-08-19",
+    "end": "2026-10-17"
   },
-  "compare": "2026-06-19 a 2026-08-17",
-  "headline": "Em 60 dias a conta teve 26,6 mi de views (+166%) e 15.921 novos seguidores, com as imagens de opinião no topo e os Reels de Política abaixo de 600 views nos piores casos.",
+  "compare": "2026-06-20 a 2026-08-18",
+  "headline": "Em 60 dias a conta somou 26,8 mi de views, 16.422 novos seguidores e 449 mil compartilhamentos; as imagens renderam mais por post do que os Reels.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "26,6 mi",
-      "delta": "+166%",
-      "dir": "up"
+      "value": "26,8 mi",
+      "delta": "sem comparação",
+      "dir": "na"
     },
     {
       "label": "Novos seguidores",
-      "value": "15.921",
+      "value": "16.422",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "629",
+      "value": "652",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "442 mil",
+      "value": "449 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "28.489",
+      "value": "29.357",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "163 mil",
+      "value": "164 mil",
       "delta": "+145%",
       "dir": "up"
     }
@@ -50,58 +50,56 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As 48 imagens somaram 7.656.066 views, contra 3.277.530 dos 73 Reels, com mediana de 15.139 views e 157 compartilhamentos, contra 10.253 e 70. Elas também trouxeram 4.870 seguidores. Os três maiores posts foram imagens de opinião: \"Ninguém aguenta mais o Lula e o PT!\" (969.945 views), \"Como dizia o TAXAD...\" (876.697) e \"Fica a reflexão.\" (863.668).",
+      "diagnosis": "As 49 imagens tiveram mediana de 16.532 views e 156 compartilhamentos, contra 10.253 views e 66 compartilhamentos dos 73 Reels. As maiores foram \"Ninguém aguenta mais o Lula e o PT!\" (973.429 views), \"Fica a reflexão.\" (911.072) e \"Como dizia o TAXAD, quem foge do debate é bundão?\" (906.733). Elas trouxeram 1.006, 712 e 1.097 novos seguidores.",
       "actions": [
         "Mantenha a imagem de opinião como o post principal do dia.",
-        "Publique as imagens mais fortes entre 6h30 e 7h15, horário dos três maiores posts.",
-        "Use os 3 maiores posts como modelo de título curto e direto."
+        "Repita títulos curtos e diretos.",
+        "Use os melhores posts como modelo nos próximos dois meses."
       ],
       "posts": [
         "Dd08gl4tibs",
-        "DeVAkiqtPwL",
-        "Dd8pQedtGZL"
+        "Dd8pQedtGZL",
+        "DeVAkiqtPwL"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Os 3 piores posts foram Reels de Política: \"O STF virou um manicômio institucional\" (535 views), \"Candidato perdeu Instagram e Fundo Eleitoral\" (551) e \"O PROFESSOR É UMA AMEAÇA!\" (677, ainda acumulando). Os dois primeiros foram assistidos até 37% e 42%, e têm mais de 1.000 horas. Os 2 carrosséis tiveram mediana de 3.604 views.",
+      "diagnosis": "Reels longos de Política foram os piores: \"O STF virou um manicômio institucional\" (535 views, 65,5 segundos) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551, 72,1 segundos), com taxas de pulo de 37% e 42%. Entre os temas, Eventos e discursos (5 posts) teve mediana de 3.949 views, a mais baixa do período, e os 2 carrosséis, 3.630.",
       "actions": [
-        "Reduza os Reels de Política sem fato novo ou imagem forte.",
-        "Teste o assunto em imagem de opinião antes de gravar o Reel.",
-        "Use carrossel só quando o assunto precisar de várias telas."
+        "Reduza os Reels acima de 60 segundos.",
+        "Evite eventos e discursos sem um recorte forte e curto.",
+        "Troque carrossel por imagem única."
       ],
       "posts": [
         "Dc3EY5cNint",
         "Dcvng7kNnHA",
-        "Deh8WzvtR28"
+        "DcT_YEutG6d"
       ]
     },
     {
       "title": "Temas",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Opinião teve mediana de 13.428 views em 50 posts e Política, 10.964 em 65. Bastidores e pessoal teve 40.821, mas em só 2 posts. Eventos e discursos teve 3.949 em 5 posts, e Serviço, 5.054 em 1. Com tão poucos posts nesses temas, a leitura é só um indicativo.",
+      "diagnosis": "Opinião (51 posts) teve mediana de 13.747 views e Política (65 posts), 10.969. Bastidores e pessoal (2 posts) teve 40.832, mas com amostra mínima. A diferença entre os dois principais temas é pequena; o formato pesa mais que o tema.",
       "actions": [
-        "Teste mais um ou dois posts de bastidores para ver se o resultado se repete.",
-        "Reduza posts de eventos e discursos sem um fato forte no título.",
-        "Mantenha Opinião como base e escolha o melhor assunto de Política para a imagem."
+        "Teste mais um post de bastidores por semana para confirmar o resultado.",
+        "Não troque de tema só por esses números; compare por formato."
       ],
       "posts": [
-        "DeVAkiqtPwL",
-        "Dd08gl4tibs"
+        "DemP7GNt_P7"
       ]
     },
     {
-      "title": "Horários, seguidores e comentários",
+      "title": "Comentários e perguntas",
       "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Entraram 15.921 seguidores e saíram 629 em 39 dias com dado, e as outras métricas da conta só existem em 40 dos 60 dias, por isso não há comparação. A mediana de views foi maior às 21h (82.355), às 9h (50.691) e às 23h (48.139), e menor às 15h (1.443) e às 11h (2.674), em horários com poucos posts. \"Qual número você escolheria?\" teve 488 comentários e \"Responda nos comentários, só um nome!\" teve 355 comentários e 57 seguidores.",
+      "status_label": "Aproveitar",
+      "diagnosis": "Os posts com mais comentários foram perguntas diretas: \"Qual número você escolheria?\" (488) e \"Responda nos comentários, só um nome!\" (355, com 136.375 views e 57 novos seguidores). O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" teve 259 comentários. Os comentários somaram 29.357 no período, com dados de 41 dos 60 dias.",
       "actions": [
-        "Repita as imagens de pergunta fechada, que renderam mais comentários.",
-        "Evite deixar o Reel do dia para o fim da manhã ou para a tarde.",
-        "Teste o fim da noite com mais de um post para confirmar o padrão."
+        "Publique uma pergunta fechada por semana.",
+        "Responda nos comentários nas primeiras horas.",
+        "Leia as variações dos totais com cuidado: só há dados de interação de 41 dias."
       ],
       "posts": [
         "DdumKq_tAX_",

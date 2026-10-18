@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-17T05:59:00-03:00",
+  "generated": "2026-10-18T05:59:46-03:00",
   "dias": 7,
   "period": {
-    "start": "2026-10-10",
-    "end": "2026-10-16"
+    "start": "2026-10-11",
+    "end": "2026-10-17"
   },
-  "compare": "2026-10-03 a 2026-10-09",
-  "headline": "Semana de 10 a 16/10 com 3,3 mi de views (−47%) e 2.782 novos seguidores (−32%), com destaque para a imagem de domingo, que teve 876.697 views e 1.046 seguidores.",
+  "compare": "2026-10-04 a 2026-10-10",
+  "headline": "A semana teve 3,7 mi de views, 41% abaixo da anterior, e uma única imagem (906 mil views) trouxe 1.097 dos 3.166 novos seguidores.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "3,3 mi",
-      "delta": "−47%",
+      "value": "3,7 mi",
+      "delta": "−41%",
       "dir": "down"
     },
     {
       "label": "Novos seguidores",
-      "value": "2.782",
-      "delta": "−32%",
+      "value": "3.166",
+      "delta": "−21%",
       "dir": "down"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "145",
-      "delta": "+18%",
+      "value": "146",
+      "delta": "+9%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "68 mil",
-      "delta": "−56%",
+      "value": "72 mil",
+      "delta": "−52%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "6.504",
-      "delta": "−27%",
+      "value": "7.234",
+      "delta": "−19%",
       "dir": "down"
     },
     {
-      "label": "Alcance médio por dia",
-      "value": "223 mil",
-      "delta": "−31%",
+      "label": "Salvamentos",
+      "value": "8.194",
+      "delta": "−49%",
       "dir": "down"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "A imagem \"Como dizia o TAXAD, quem foge do debate é bundão?\" (dom, 6h30) teve 876.697 views, 15.545 compartilhamentos e 1.046 novos seguidores. Entre os Reels, \"Hispanic Heritage Gala 2026\" (qua, 21h36) chegou a 290.827 views e \"Inacreditável!\" (seg, 19h) a 199.066, com 14.246 compartilhamentos e 246 comentários. Os 7 Reels tiveram mediana de 38.394 views e as 16 imagens, 6.522.",
+      "diagnosis": "A imagem \"Como dizia o TAXAD, quem foge do debate é bundão?\" (dom 11/10, 6h30) teve 906.733 views, 15.661 compartilhamentos e 1.097 novos seguidores. Entre os Reels, \"Hispanic Heritage Gala 2026 - Washington DC.\" chegou a 302.902 views e \"Inacreditável!\" a 200.350, com 14.468 compartilhamentos e 256 comentários.",
       "actions": [
-        "Reserve a manhã cedo para a imagem mais forte da semana.",
-        "Repita o tema dos Reels que renderam compartilhamentos: fatos que as pessoas querem mostrar a outras.",
-        "Acompanhe o Reel de quarta, que tem 55 horas e ainda acumula."
+        "Repita a imagem de manhã cedo com pergunta provocativa.",
+        "Faça novos Reels sobre fatos que gerem indignação e compartilhamento, como \"Inacreditável!\".",
+        "Acompanhe os 3 posts como modelo de título para a próxima semana."
       ],
       "posts": [
         "DeVAkiqtPwL",
@@ -66,48 +66,44 @@
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Os piores posts foram \"O PROFESSOR É UMA AMEAÇA!\" (Reel, qui, 677 views, 39% de pulos), a imagem sobre a Globo (sex, 1.216 views) e \"Pense num amor inimaginável.\" (Reel, sáb, 1.431 views, 51% de pulos). Os dois primeiros têm menos de 35 horas e ainda acumulam; o terceiro já tem 158,8 horas.",
+      "diagnosis": "As 14 imagens da semana tiveram mediana de 7.160 views, e três posts ficaram muito abaixo: o Reel \"O PROFESSOR É UMA AMEAÇA!\" (738 views), a imagem sobre a Globo (1.513) e a do papa Leão XIV (1.985). Os compartilhamentos da conta caíram 52% e os salvamentos, 49% contra a semana anterior. Posts muito recentes ainda acumulam views.",
       "actions": [
-        "Evite Reels de assunto genérico sem um fato forte logo no início.",
-        "Troque o título vago por uma frase com o fato central.",
-        "Teste o mesmo assunto em imagem antes de gravar o Reel."
+        "Publique menos imagens de opinião soltas e escolha a mais forte do dia.",
+        "Evite assuntos de nicho sem gancho de indignação ou pergunta.",
+        "Revise o Reel de 45,4 segundos: ele teve taxa de pulo de 40%."
       ],
       "posts": [
         "Deh8WzvtR28",
         "DejZbguNSy6",
-        "DeUk6JyNW9Y"
+        "Deb6SlYNJ2P"
       ]
     },
     {
-      "title": "Seguidores e saídas",
+      "title": "Reels contra imagens",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Entraram 2.782 seguidores (−32%) e saíram 145 (+18%), em 6 dias com dado. As 16 imagens somaram 1.135 seguidores, e só a de domingo trouxe 1.046. A imagem \"Você conhece alguém que prometeu acabar com SIGILOS?\" (qui, 21h) trouxe 26 e a sobre Fux, 22. Os Reels não têm esse dado.",
+      "diagnosis": "Os 7 Reels tiveram mediana de 56.522 views e 155 compartilhamentos, contra 7.160 views e 24,5 compartilhamentos das 14 imagens. O tema Política (7 posts) teve mediana de 56.522, e Opinião (14 posts), 7.160. Na semana, o formato que mais trouxe views por post foi o Reel.",
       "actions": [
-        "Use as imagens fortes como porta de entrada, pois são elas que trazem seguidores.",
-        "Fixe no perfil um post que diga o que a pessoa ganha seguindo.",
-        "Se as saídas continuarem subindo, veja quais posts vieram antes."
+        "Mantenha ao menos 1 Reel de Política por dia.",
+        "Reserve a imagem para o assunto mais forte, em vez de publicar duas ou três por dia."
       ],
       "posts": [
-        "DeVAkiqtPwL",
-        "Deh_rUstC5a",
-        "DeUEJRVtcIH"
+        "DefrVOZMUGw",
+        "DeaQZPRNABT"
       ]
     },
     {
       "title": "Horários",
       "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "A mediana de views foi de 876.697 às 6h (um só post, no domingo), 199.066 às 19h, 88.530 às 21h e 50.691 às 9h. Às 7h foi 5.092, às 8h 2.723 e às 14h 2.749. Quase todos os horários tiveram um ou dois posts, então a leitura é só um indicativo, e os posts mais recentes ainda acumulam views.",
+      "status_label": "Testar",
+      "diagnosis": "Os horários com maior mediana foram 19h (106.957 views) e 21h (92.349,5), contra 5.179 às 7h, 3.642 às 8h e 4.693 às 12h. O 06h (906.733) tem só um post. A semana foi diferente do padrão de manhã cedo, então vale testar mais noites antes de mudar a rotina.",
       "actions": [
-        "Teste o 6h30 de novo em dias de semana, não só no domingo.",
-        "Programe o Reel principal para o começo da noite, entre 19h e 21h.",
-        "Evite deixar o Reel do dia para o começo da tarde."
+        "Teste Reels às 19h e imagens às 21h por duas semanas.",
+        "Mantenha uma imagem às 6h30 em dia de assunto forte."
       ],
       "posts": [
         "DeVAkiqtPwL",
-        "DeaQZPRNABT",
-        "DefrVOZMUGw"
+        "DeaQZPRNABT"
       ]
     }
   ]
