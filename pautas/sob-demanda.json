@@ -1,6 +1,186 @@
 {
  "items": [
   {
+   "requested": "2026-10-18",
+   "done": "2026-10-18T08:45:00-03:00",
+   "issue": 77,
+   "slot_hint": "Carrossel hoje (18) às 12h ou stories às 18h, antes do debate.",
+   "source": {
+    "edition": "2026-10-18-06h",
+    "item_id": "x:2",
+    "title": "Em alta no X: DELATA ROBERTA"
+   },
+   "options": [
+    {
+     "type": "c",
+     "style": "ilustracao",
+     "title": "Luchsinger diz que quer fazer delação, mas ela ainda não foi firmada",
+     "tone": "contundente",
+     "duration": "carrossel 5 slides",
+     "fact": "Em entrevista à CNN Brasil no sábado, 17 de outubro de 2026, a lobista Roberta Luchsinger, que se diz a melhor amiga de Lulinha, disse que quer firmar delação premiada e que não vai poupar ninguém, nem filho de presidente. Afirmou que Lulinha se reuniu inúmeras vezes com ministros e que ministros pediam ajuda a ela para conseguir agenda com Lula. Ela nega ter cometido crime. Em nota, o Planalto diz que Lula desconhece inteiramente os fatos, nunca teve interlocução com ela e que não há contrato do governo federal com ela, e diz que o momento, às vésperas do segundo turno, causa estranheza. O MEC e o Ministério das Comunicações negam tratativas. A delação não foi firmada nem homologada: ela só manifestou a intenção. A defesa de Lulinha diz que ele comprovará sua inocência nos autos. Ela e Lulinha são alvos de inquéritos da PF por suspeita de tráfico de influência, entre outros.",
+     "sources": [
+      {
+       "name": "Jovem Pan",
+       "url": "https://jovempan.com.br/politica/luchsinger-nega-crime-mas-diz-que-fara-delacao-premiada-lula-e-mentiroso/"
+      },
+      {
+       "name": "CNN Brasil (confere fato e data)",
+       "url": "https://www.cnnbrasil.com.br/politica/luchsinger-diz-que-quer-fazer-delacao-e-nao-vai-poupar-lula-nem-lulinha/"
+      }
+     ],
+     "slides": [
+      {
+       "n": 1,
+       "text": "Delação de Luchsinger: o que ela diz e o que ainda não existe",
+       "note": "Capa. Ilustração de charge: mesa de interrogatório com microfone da imprensa, pasta lacrada com a palavra DELAÇÃO e uma caneta sem assinatura. Assinatura no rodapé."
+      },
+      {
+       "n": 2,
+       "text": "A lobista Roberta Luchsinger diz que quer fazer delação premiada e que não vai poupar ninguém."
+      },
+      {
+       "n": 3,
+       "text": "Ela diz que Lulinha se reuniu inúmeras vezes com ministros e que ministros pediam ajuda a ela para chegar a Lula."
+      },
+      {
+       "n": 4,
+       "text": "O Planalto diz que Lula desconhece os fatos e nunca falou com ela. A delação ainda não foi firmada."
+      },
+      {
+       "n": 5,
+       "text": "A palavra dela agora precisa de prova e de investigação séria. Comenta o que você acha. Siga @rogerrio (Instagram) @rogerrioX (X)"
+      }
+     ],
+     "art_text": [
+      "Delação de Luchsinger",
+      "Ainda não foi firmada",
+      "Ela diz que não poupa ninguém",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Sem rosto de pessoa real: pasta lacrada com a palavra DELAÇÃO, caneta sem assinatura e microfones. Risco alto.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): mesa escura com textura, uma pasta lacrada com a palavra 'DELAÇÃO', uma caneta sem assinatura ao lado e microfones de imprensa apontados para a mesa, sem rostos e sem logos. No alto, em letras condensadas, brancas e pesadas: 'A DELAÇÃO QUE AINDA NÃO EXISTE'. Num quadro amarelo no meio: 'Luchsinger diz que não poupará ninguém'. Embaixo, com sublinhado vermelho pincelado: 'Ainda não foi firmada'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição. Capa de carrossel; os demais slides repetem o fundo escuro com texto branco.",
+     "caption": "A lobista Roberta Luchsinger disse à CNN que quer fazer delação premiada e que não vai poupar ninguém. Diz que Lulinha se reuniu inúmeras vezes com ministros. O Planalto diz que Lula nunca falou com ela. A delação ainda não foi firmada, então o que vale agora é o que for provado. Comenta o que você acha.",
+     "risk": "alto",
+     "risk_note": "Alto: delação não foi firmada nem homologada, diga sempre 'diz que vai' e nunca 'delatou'. Não afirme crime de Lulinha, de ministros ou de Lula: são alegações de uma investigada, com negativa do Planalto, do MEC e das Comunicações. Cite a negativa do governo. Atribuir a fala a ela uma só vez.",
+     "timeline": {
+      "rende": true,
+      "angle": "Delação anunciada de Luchsinger: o que ela diz, o que o governo nega e o que ainda precisa ser provado."
+     }
+    },
+    {
+     "type": "s",
+     "title": "Enquete: o caso Luchsinger deve ser investigado a fundo antes do segundo turno?",
+     "tone": "direto, com enquete",
+     "fact": "Em entrevista à CNN Brasil no sábado, 17 de outubro de 2026, a lobista Roberta Luchsinger, que se diz a melhor amiga de Lulinha, disse que quer firmar delação premiada e que não vai poupar ninguém, nem filho de presidente. Afirmou que Lulinha se reuniu inúmeras vezes com ministros e que ministros pediam ajuda a ela para conseguir agenda com Lula. Ela nega ter cometido crime. Em nota, o Planalto diz que Lula desconhece inteiramente os fatos, nunca teve interlocução com ela e que não há contrato do governo federal com ela, e diz que o momento, às vésperas do segundo turno, causa estranheza. O MEC e o Ministério das Comunicações negam tratativas. A delação não foi firmada nem homologada: ela só manifestou a intenção. A defesa de Lulinha diz que ele comprovará sua inocência nos autos. Ela e Lulinha são alvos de inquéritos da PF por suspeita de tráfico de influência, entre outros.",
+     "sources": [
+      {
+       "name": "Jovem Pan",
+       "url": "https://jovempan.com.br/politica/luchsinger-nega-crime-mas-diz-que-fara-delacao-premiada-lula-e-mentiroso/"
+      },
+      {
+       "name": "CNN Brasil (confere fato e data)",
+       "url": "https://www.cnnbrasil.com.br/politica/luchsinger-diz-que-quer-fazer-delacao-e-nao-vai-poupar-lula-nem-lulinha/"
+      }
+     ],
+     "slides": [
+      "Story 1: A lobista Roberta Luchsinger diz que quer fazer delação e que não vai poupar ninguém. A delação ainda não foi firmada.",
+      "Story 2: Ela diz que ministros pediam ajuda a ela para chegar a Lula. O Planalto diz que Lula nunca falou com ela.",
+      "Story 3: Enquete: as acusações dela devem ser investigadas a fundo?"
+     ],
+     "poll": {
+      "question": "As acusações de Luchsinger devem ser investigadas a fundo?",
+      "options": [
+       "Sim",
+       "Não"
+      ]
+     },
+     "caption": "A lobista Luchsinger diz que quer fazer delação e não poupar ninguém. A delação ainda não foi firmada e o Planalto nega contato. Vote na enquete.",
+     "risk": "alto",
+     "risk_note": "Alto: delação não foi firmada nem homologada, diga sempre 'diz que vai' e nunca 'delatou'. Não afirme crime de Lulinha, de ministros ou de Lula: são alegações de uma investigada, com negativa do Planalto, do MEC e das Comunicações. Cite a negativa do governo. Atribuir a fala a ela uma só vez.",
+     "timeline": {
+      "rende": false,
+      "angle": "Use o resultado da enquete como gancho para um post sobre o caso Luchsinger."
+     }
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-18",
+   "done": "2026-10-18T08:45:00-03:00",
+   "issue": 75,
+   "slot_hint": "Imagem hoje (18) às 10h ou reel às 12h.",
+   "source": {
+    "edition": "2026-10-18-06h",
+    "item_id": "x:0",
+    "title": "Em alta no X: Roberta Luchsinger"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "cartaz",
+     "title": "Luchsinger diz que fará delação e que não poupará ninguém; Lula nega ter falado com ela",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Em entrevista à CNN Brasil no sábado, 17 de outubro de 2026, a lobista Roberta Luchsinger, que se diz a melhor amiga de Lulinha, disse que quer firmar delação premiada e que não vai poupar ninguém, nem filho de presidente. Afirmou que Lulinha se reuniu inúmeras vezes com ministros e que ministros pediam ajuda a ela para conseguir agenda com Lula. Ela nega ter cometido crime. Em nota, o Planalto diz que Lula desconhece inteiramente os fatos, nunca teve interlocução com ela e que não há contrato do governo federal com ela, e diz que o momento, às vésperas do segundo turno, causa estranheza. O MEC e o Ministério das Comunicações negam tratativas. A delação não foi firmada nem homologada: ela só manifestou a intenção. A defesa de Lulinha diz que ele comprovará sua inocência nos autos. Ela e Lulinha são alvos de inquéritos da PF por suspeita de tráfico de influência, entre outros.",
+     "sources": [
+      {
+       "name": "Jovem Pan",
+       "url": "https://jovempan.com.br/politica/luchsinger-nega-crime-mas-diz-que-fara-delacao-premiada-lula-e-mentiroso/"
+      },
+      {
+       "name": "CNN Brasil (confere fato e data)",
+       "url": "https://www.cnnbrasil.com.br/politica/luchsinger-diz-que-quer-fazer-delacao-e-nao-vai-poupar-lula-nem-lulinha/"
+      }
+     ],
+     "art_text": [
+      "Luchsinger quer fazer delação",
+      "\"Não vou poupar ninguém\"",
+      "Planalto: Lula nunca falou com ela",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Sem rosto de pessoa real: cartaz com texto sobre fundo escuro com textura. Risco alto.",
+     "prompt": "Crie um cartaz vertical 4:5 (1080x1350), fundo escuro com textura de papel rasgado e paleta quente e dessaturada (ocre, marrom, vermelho), sem rostos e sem logos. No alto, em letras condensadas, brancas e pesadas: 'LUCHSINGER QUER FAZER DELAÇÃO'. Num quadro amarelo no meio: '\"Não vou poupar ninguém\"'. Embaixo, com sublinhado vermelho pincelado: 'Planalto: Lula nunca falou com ela'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+     "caption": "A lobista Roberta Luchsinger disse à CNN que quer fazer delação premiada e que não vai poupar ninguém. Diz que ministros pediam ajuda a ela para chegar a Lula. O Planalto diz que Lula nunca teve interlocução com ela. A delação ainda não foi firmada. Comenta o que você acha.",
+     "risk": "alto",
+     "risk_note": "Alto: delação não foi firmada nem homologada, diga sempre 'diz que vai' e nunca 'delatou'. Não afirme crime de Lulinha, de ministros ou de Lula: são alegações de uma investigada, com negativa do Planalto, do MEC e das Comunicações. Cite a negativa do governo. Atribuir a fala a ela uma só vez.",
+     "timeline": {
+      "rende": true,
+      "angle": "Luchsinger promete delação e Lula nega contato: o que ela diz e o que o governo responde."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Luchsinger diz que fará delação e que não poupará ninguém; Lula nega ter falado com ela",
+     "tone": "contundente",
+     "duration": "40s",
+     "fact": "Em entrevista à CNN Brasil no sábado, 17 de outubro de 2026, a lobista Roberta Luchsinger, que se diz a melhor amiga de Lulinha, disse que quer firmar delação premiada e que não vai poupar ninguém, nem filho de presidente. Afirmou que Lulinha se reuniu inúmeras vezes com ministros e que ministros pediam ajuda a ela para conseguir agenda com Lula. Ela nega ter cometido crime. Em nota, o Planalto diz que Lula desconhece inteiramente os fatos, nunca teve interlocução com ela e que não há contrato do governo federal com ela, e diz que o momento, às vésperas do segundo turno, causa estranheza. O MEC e o Ministério das Comunicações negam tratativas. A delação não foi firmada nem homologada: ela só manifestou a intenção. A defesa de Lulinha diz que ele comprovará sua inocência nos autos. Ela e Lulinha são alvos de inquéritos da PF por suspeita de tráfico de influência, entre outros.",
+     "sources": [
+      {
+       "name": "Jovem Pan",
+       "url": "https://jovempan.com.br/politica/luchsinger-nega-crime-mas-diz-que-fara-delacao-premiada-lula-e-mentiroso/"
+      },
+      {
+       "name": "CNN Brasil (confere fato e data)",
+       "url": "https://www.cnnbrasil.com.br/politica/luchsinger-diz-que-quer-fazer-delacao-e-nao-vai-poupar-lula-nem-lulinha/"
+      }
+     ],
+     "hooks": [
+      "Ela diz que não vai poupar ninguém, nem filho de presidente.",
+      "Luchsinger quer fazer delação. Lula diz que nunca falou com ela."
+     ],
+     "script": "A lobista Roberta Luchsinger deu entrevista à CNN e disse que quer fazer delação premiada. Ela afirma que não vai poupar ninguém, nem filho de presidente. Diz que Lulinha se reuniu inúmeras vezes com ministros e que ministros pediam ajuda a ela para chegar a Lula. O Planalto responde que Lula nunca teve interlocução com ela, e o MEC e as Comunicações negam tratativas. Atenção: a delação ainda não foi firmada. Ela só disse que quer fazer. O que vale é o que for provado, e o brasileiro tem o direito de ver isso investigado a fundo. Comenta aqui o que você acha.",
+     "screen_text": [
+      "Luchsinger quer fazer delação",
+      "\"Não vou poupar ninguém\"",
+      "Planalto: Lula nunca falou com ela",
+      "Delação ainda não foi firmada"
+     ],
+     "risk": "alto",
+     "risk_note": "Alto: delação não foi firmada nem homologada, diga sempre 'diz que vai' e nunca 'delatou'. Não afirme crime de Lulinha, de ministros ou de Lula: são alegações de uma investigada, com negativa do Planalto, do MEC e das Comunicações. Cite a negativa do governo. Atribuir a fala a ela uma só vez."
+    }
+   ]
+  },
+  {
    "requested": "2026-10-16",
    "done": "2026-10-16T20:15:43-03:00",
    "issue": 73,
