@@ -2,6 +2,95 @@
  "items": [
   {
    "requested": "2026-10-18",
+   "done": "2026-10-18T08:50:00-03:00",
+   "issue": 78,
+   "slot_hint": "Imagem hoje (18) às 15h e stories às 18h, antes do debate das 20h.",
+   "source": {
+    "edition": "2026-10-18-06h",
+    "item_id": "debate-band",
+    "title": "Lula e Flávio Bolsonaro se enfrentam hoje no debate da Band no segundo turno"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Lula e Flávio Bolsonaro se enfrentam hoje às 20h no debate da Band",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "O primeiro debate do segundo turno entre Lula (PT) e Flávio Bolsonaro (PL) acontece neste domingo, 18 de outubro de 2026, às 20h, na Band, em São Paulo, com cerca de duas horas em dois blocos: perguntas entre os candidatos e perguntas de jornalistas. O segundo turno é em 25 de outubro. Flávio confirmou presença na quarta-feira (14), depois de Lula anunciar que iria. A Band disse que o debate seria realizado de qualquer forma, com púlpito vazio para quem faltasse. Segundo o presidente do PT, Edinho, Lula quer confronto direto no debate. A transmissão também sai na BandNews TV, nas rádios BandNews FM e Bandeirantes, no YouTube e no Estadão.",
+     "sources": [
+      {
+       "name": "Tribuna de Jundiaí",
+       "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/flavio-bolsonaro-confirma-debate-lula-band/"
+      },
+      {
+       "name": "Bem Paraná",
+       "url": "https://www.bemparana.com.br/eleicoes-2026/como-sera-o-primeiro-debate-entre-lula-e-flavio-na-band/"
+      },
+      {
+       "name": "DGABC (confere fato e data)",
+       "url": "https://www.dgabc.com.br/Noticia/4351273/debate-band-estadao-do-2-turno-entre-flavio-bolsonaro-e-lula-sera-dia-18-de-outubro"
+      }
+     ],
+     "art_text": [
+      "Hoje, 20h",
+      "Lula x Flávio Bolsonaro",
+      "Debate na Band, a uma semana do segundo turno",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Lula e Flávio Bolsonaro, frente a frente em dois púlpitos: são os dois participantes do debate. Sem nenhuma ação que não tenha acontecido.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): Lula (presidente) e Flávio Bolsonaro (senador, candidato) em dois púlpitos frente a frente num estúdio de TV escuro com textura, olhares firmes, braços apoiados no púlpito, câmeras e luzes de estúdio ao fundo, uma urna eletrônica como elemento simbólico entre eles, sem logos. No alto, em letras condensadas, brancas e pesadas: 'HOJE, 20H: O DEBATE'. Num quadro amarelo no meio: 'Lula x Flávio Bolsonaro'. Embaixo, com sublinhado vermelho pincelado: 'A uma semana do segundo turno'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Hoje, às 20h, Lula e Flávio Bolsonaro se enfrentam no primeiro debate do segundo turno, na Band. São cerca de duas horas, com perguntas entre os candidatos e de jornalistas. A votação é no dia 25. Comenta o que você quer ouvir do Flávio hoje.",
+     "risk": "médio",
+     "risk_note": "Médio: confirmar horário e formato na hora de publicar, pois houve idas e vindas sobre a presença de Flávio e as regras. Sem adjetivo contra nenhum candidato; fala de Edinho entra uma vez, atribuída a ele.",
+     "timeline": {
+      "rende": false,
+      "angle": "Cobertura do debate da Band: o que cada candidato disse e o que o eleitor precisa saber a uma semana do segundo turno."
+     }
+    },
+    {
+     "type": "s",
+     "title": "Enquete: você vai assistir ao debate da Band hoje às 20h?",
+     "tone": "direto, com enquete",
+     "fact": "O primeiro debate do segundo turno entre Lula (PT) e Flávio Bolsonaro (PL) acontece neste domingo, 18 de outubro de 2026, às 20h, na Band, em São Paulo, com cerca de duas horas em dois blocos: perguntas entre os candidatos e perguntas de jornalistas. O segundo turno é em 25 de outubro. Flávio confirmou presença na quarta-feira (14), depois de Lula anunciar que iria. A Band disse que o debate seria realizado de qualquer forma, com púlpito vazio para quem faltasse. Segundo o presidente do PT, Edinho, Lula quer confronto direto no debate. A transmissão também sai na BandNews TV, nas rádios BandNews FM e Bandeirantes, no YouTube e no Estadão.",
+     "sources": [
+      {
+       "name": "Tribuna de Jundiaí",
+       "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/flavio-bolsonaro-confirma-debate-lula-band/"
+      },
+      {
+       "name": "Bem Paraná",
+       "url": "https://www.bemparana.com.br/eleicoes-2026/como-sera-o-primeiro-debate-entre-lula-e-flavio-na-band/"
+      },
+      {
+       "name": "DGABC (confere fato e data)",
+       "url": "https://www.dgabc.com.br/Noticia/4351273/debate-band-estadao-do-2-turno-entre-flavio-bolsonaro-e-lula-sera-dia-18-de-outubro"
+      }
+     ],
+     "slides": [
+      "Story 1: Hoje, às 20h, Lula e Flávio Bolsonaro se enfrentam no debate da Band. A votação do segundo turno é dia 25.",
+      "Story 2: São cerca de duas horas, com perguntas entre os candidatos e de jornalistas. Também passa na BandNews, no YouTube e no Estadão.",
+      "Story 3: Enquete: você vai assistir ao debate?"
+     ],
+     "poll": {
+      "question": "Você vai assistir ao debate da Band hoje?",
+      "options": [
+       "Vou assistir",
+       "Vou ver os cortes depois"
+      ]
+     },
+     "caption": "Hoje, às 20h, tem Lula x Flávio Bolsonaro no debate da Band. Vote na enquete e depois volta aqui para comentar.",
+     "risk": "médio",
+     "risk_note": "Médio: confirmar horário e formato na hora de publicar, pois houve idas e vindas sobre a presença de Flávio e as regras. Sem adjetivo contra nenhum candidato; fala de Edinho entra uma vez, atribuída a ele.",
+     "timeline": {
+      "rende": false,
+      "angle": "Use o resultado da enquete como gancho para a cobertura do debate."
+     }
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-18",
    "done": "2026-10-18T08:45:00-03:00",
    "issue": 77,
    "slot_hint": "Carrossel hoje (18) às 12h ou stories às 18h, antes do debate.",
