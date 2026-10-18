@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-19",
+  "weekday": "Seg",
+  "generated": "2026-10-18T20:01:33-03:00",
+  "summary": "Segunda, a seis dias do segundo turno e na manhã seguinte ao debate da Band entre Lula e Flávio. O mercado e as consultorias acompanham a reta final: a Eurasia subiu para 80% a chance de vitória de Flávio. No Rio, a coligação de Lula cobra o TRE por mudança de local de votação de 610 mil eleitores.",
+  "agenda": [
+    {
+      "time": "19/10",
+      "text": "Primeiro dia útil depois do debate da Band entre Lula e Flávio, marcado para a noite de domingo (18/10). Confira as falas antes de publicar.",
+      "source": {
+        "name": "Tribuna de Jundiaí",
+        "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/flavio-bolsonaro-confirma-debate-lula-band/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro. A coligação de Lula pede ao TRE-RJ avisos individuais sobre mudança de local de votação.",
+      "source": {
+        "name": "TVT News",
+        "url": "https://tvtnews.com.br/?p=806236"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem de impacto sobre o 2º turno",
+      "options": [
+        {
+          "title": "Eurasia eleva para 80% a chance de vitória de Flávio no segundo turno",
+          "tone": "sóbrio com urgência",
+          "style": "ilustracao",
+          "fact": "A Eurasia Group elevou de 70% para 80% a chance de vitória de Flávio Bolsonaro (PL) no segundo turno, em relatório divulgado em 14/10. A consultoria cita a vantagem que ele mantém nas pesquisas e a dificuldade de Lula para recuperar terreno na reta final. Silvio Cascione, diretor da Eurasia para o Brasil, diz que Flávio adotou uma imagem mais moderada que a do pai e focou em mudança, o que funcionou melhor que a campanha de Lula. A melhora nas perspectivas de Flávio também reforçou a expectativa do mercado de ajuste fiscal e queda de juros. É projeção de consultoria, não pesquisa de voto: a eleição é em 25/10.",
+          "sources": [
+            {
+              "name": "Money Times",
+              "url": "https://www.moneytimes.com.br/radar-das-eleicoes-14-10-26-apsa/"
+            },
+            {
+              "name": "Bloomberg Línea (estimativa anterior de 70%)",
+              "url": "https://www.bloomberglinea.com.br/brasil/eurasia-eleva-de-45-para-70-a-chance-de-vitoria-de-flavio-bolsonaro-no-segundo-turno/"
+            }
+          ],
+          "art_text": [
+            "80%",
+            "Eurasia: chance de Flávio vencer no dia 25",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Flávio Bolsonaro (PL), candidato no segundo turno, sozinho, de pé, olhando para a frente. Ilustração estilo charge, sem foto real. Risco baixo: nenhuma ação inventada, só postura confiante.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Flávio Bolsonaro (senador e candidato do PL, terno escuro, sem gravata), de pé, postura firme, queixo erguido, olhando para a frente, com a silhueta estilizada de uma urna eletrônica ao lado e, ao fundo, o Congresso Nacional em tom de sombra. No alto, número gigante em amarelo, letras condensadas e muito pesadas: \"80%\". Logo abaixo, em branco, letras grandes e pesadas: \"Eurasia: chance de Flávio vencer no dia 25\", com sublinhado vermelho pincelado. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "A consultoria Eurasia subiu de 70% para 80% a chance de Flávio vencer no dia 25. Projeção não é voto: quem decide é você, na urna. Você já está decidido? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "É projeção de consultoria, não pesquisa nem resultado. Não afirme vitória como certa e não transforme em desmobilização do eleitor: o texto deve chamar ao voto no dia 25.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quanto consultorias de risco político pesam na leitura do segundo turno, o que o mercado espera de um governo Flávio em fiscal e juros, e por que projeção não substitui o voto."
+          }
+        },
+        {
+          "title": "Coligação de Lula aciona TRE-RJ por mudança de local de votação de 610 mil eleitores",
+          "tone": "sóbrio",
+          "style": "realista",
+          "fact": "A coligação de Lula, Brasil Pronto Pra Mais, acionou o TRE-RJ em 9/10 por causa da transferência de 268 locais de votação no Rio, que atinge mais de 610 mil eleitores. Em 72 locais, de 20 municípios, a mudança foi por segurança e afeta cerca de 202 mil pessoas. Na Maré, 52% dos eleitores tiveram de votar fora da comunidade, e a abstenção no 1º turno foi de 28,46%, contra 21,08% da média nacional. A coligação pede divulgação dos endereços antigos e novos, avisos individuais por SMS, WhatsApp ou e-Título, placas nos locais antigos e transporte gratuito para idosos e pessoas com mobilidade reduzida. O segundo turno é em 25/10.",
+          "sources": [
+            {
+              "name": "TVT News",
+              "url": "https://tvtnews.com.br/?p=806236"
+            }
+          ],
+          "art_text": [
+            "610 mil eleitores",
+            "mudaram de local de votação no Rio",
+            "Confira o seu antes do dia 25",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Cabine de votação vazia e placas de sinalização de seção eleitoral, com mãos de eleitores segurando o celular com o e-Título, sem mostrar rosto.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz natural de manhã, escola pública com portão aberto e placas genéricas de seção eleitoral, sem logos nem brasões. Em primeiro plano, mãos de um eleitor idoso, sem mostrar o rosto, segurando um celular com a tela de um aplicativo de título de eleitor genérico e olhando uma placa de direção. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"610 mil eleitores mudaram de local de votação no Rio\". No terço inferior, sobre sombra escura, em amarelo: \"Confira o seu antes do dia 25\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Mais de 610 mil eleitores do Rio mudaram de local de votação, segundo a coligação de Lula. Quem não confere na véspera perde tempo na fila e pode desistir. Você já conferiu onde vai votar? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Os números são da petição da coligação, não do TRE. Atribua a ela. Tom de serviço, sem insinuar fraude ou manipulação do TRE.",
+          "timeline": {
+            "rende": false,
+            "angle": "Tema de serviço, de curta duração: perde valor depois do dia 25 e não sustenta artigo de 600 a 1.200 palavras."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Tarde",
+      "type": "s",
+      "kind": "Stories da tarde: enquete",
+      "options": [
+        {
+          "title": "Lula e Flávio se enfrentaram no debate da Band; quem foi melhor?",
+          "tone": "direto",
+          "style": "print",
+          "desdobramento": "o debate da Band aconteceu na noite de 18/10; a opção gira em torno do pós-debate e da enquete, não da prévia pautada em 18/10.",
+          "fact": "O primeiro debate do segundo turno entre Lula (PT) e Flávio Bolsonaro (PL) estava marcado para domingo, 18/10, às 20h, na Band, em São Paulo, com cerca de duas horas, em dois blocos: perguntas entre os candidatos e perguntas de jornalistas. Flávio confirmou presença em 14/10, depois de Lula. O segundo turno é em 25/10. Antes de publicar, confira no ar o que de fato foi dito e troque o enunciado por um trecho real do debate.",
+          "sources": [
+            {
+              "name": "Tribuna de Jundiaí",
+              "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/flavio-bolsonaro-confirma-debate-lula-band/"
+            },
+            {
+              "name": "Bem Paraná",
+              "url": "https://www.bemparana.com.br/eleicoes-2026/como-sera-o-primeiro-debate-entre-lula-e-flavio-na-band/"
+            }
+          ],
+          "slides": [
+            "O debate da Band foi ontem à noite",
+            "Dois blocos, duas horas, Lula e Flávio frente a frente",
+            "Qual foi o momento mais forte? Mande no direct",
+            "Vote na enquete: quem foi melhor?"
+          ],
+          "poll": {
+            "question": "Quem foi melhor no debate da Band?",
+            "options": [
+              "Flávio Bolsonaro",
+              "Lula"
+            ]
+          },
+          "caption": "O debate acabou. Agora a palavra é sua: quem foi melhor? Vote na enquete e mande o trecho que mais marcou.",
+          "risk": "médio",
+          "risk_note": "A pauta foi escrita antes do debate. Não cite fala nem resultado sem ter assistido; edite os slides com um trecho real. Sem adjetivo contra Flávio.",
+          "timeline": {
+            "rende": true,
+            "angle": "Os melhores e piores momentos do debate da Band e o que muda na última semana de campanha, com falas conferidas."
+          }
+        },
+        {
+          "title": "Áudio publicado pela Veja liga Vorcaro a filme sobre Lula; Lula nega envolvimento",
+          "tone": "sóbrio",
+          "style": "print",
+          "fact": "A Veja publicou em 9/10 um áudio em que Daniel Vorcaro, do Banco Master, diz ter financiado o documentário de Oliver Stone sobre Lula, e afirma que o pagamento seria irregular. Segundo mensagens citadas pela revista, a negociação teria sido tratada pelo ex-tesoureiro do PT João Vaccari Neto e pelo advogado Augusto Lima. A equipe de Lula nega qualquer envolvimento e pediu à PF que investigue e periciar o áudio. O advogado de Vorcaro reconheceu a voz do cliente em um dos áudios, mas disse não saber quando foi gravado, e a PF e a PGR dizem que Vorcaro não prestou depoimento sobre isso. Alckmin disse que defende investigar, mas que não há prova até agora. A autenticidade do áudio não foi confirmada.",
+          "sources": [
+            {
+              "name": "SBT News",
+              "url": "https://sbtnews.sbt.com.br/noticia/politica/em-audio-vorcaro-diz-ter-financiado-filme-sobre-lula"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/alckmin-diz-que-nao-ha-prova-sobre-vorcaro-e-filme-de-lula/"
+            }
+          ],
+          "slides": [
+            "Áudio atribuído a Vorcaro fala em financiar filme sobre Lula",
+            "Quem negociou, segundo a Veja: Vaccari e um advogado do Master",
+            "Lula nega e pede perícia da PF",
+            "A voz foi reconhecida pela defesa, a data não",
+            "Alckmin: investigar, mas sem prova até agora"
+          ],
+          "poll": {
+            "question": "O caso do áudio de Vorcaro deve ser investigado a fundo antes do dia 25?",
+            "options": [
+              "Sim, antes da eleição",
+              "Não, só depois"
+            ]
+          },
+          "caption": "Um áudio atribuído a Vorcaro fala em financiar um filme sobre Lula. O presidente nega, e a PF ainda não confirmou nada. Na sua opinião, isso deve ser apurado antes do dia 25? Vote.",
+          "risk": "alto",
+          "risk_note": "Áudio de autenticidade não confirmada. Atribua à Veja uma única vez, diga que Lula nega e que não há prova, e não afirme crime nem pagamento como fato. Tema já foi muito tratado: abra com o que há de novo se houver.",
+          "timeline": {
+            "rende": false,
+            "angle": "Sem novidade confirmada desde 10/10: só rende artigo se a PF periciar o áudio ou houver desdobramento oficial."
+          }
+        }
+      ]
+    }
+  ]
+}
