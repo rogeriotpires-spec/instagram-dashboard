@@ -134,7 +134,7 @@
     "Como fica a atuação da militância digital de Lula nos dias que faltam para o segundo turno?",
     "Qual o tom adequado para tratar o assunto no ar, sem politizar um problema de saúde?"
    ],
-   "atencao": "Assunto de saúde: sem declaração do deputado nem boletim detalhado, não especular sobre causa nem relacionar ao debate.",
+   "atencao": "Assunto de saúde: sem declaração do deputado nem boletim detalhado, não especular sobre causa nem relacionar ao debate. Nenhuma matéria aberta sustenta boatos sobre o motivo da arritmia; não repetir nem insinuar.",
    "fontes": [
     {
      "name": "Metrópoles",
@@ -150,7 +150,10 @@
     }
    ],
    "avulsa": true,
-   "pedido": "https://www.metropoles.com/colunas/matheus-leitao/andre-janones-e-internado-na-uti-apos-arritmia-cardiaca-depois-do-debate"
+   "pedido": "https://www.metropoles.com/colunas/matheus-leitao/andre-janones-e-internado-na-uti-apos-arritmia-cardiaca-depois-do-debate | https://www.metropoles.com/colunas/matheus-leitao/andre-janones-e-internado-na-uti-apos-arritmia-cardiaca-depois-do-debate",
+   "fundido": [
+    "Janones, porta-voz digital da campanha de Lula, é internado na UTI após arritmia"
+   ]
   },
   {
    "id": "debate-sigilos",
@@ -360,5 +363,5 @@
    ]
   }
  ],
- "atualizado": "2026-10-19T11:20:31-03:00"
+ "atualizado": "2026-10-19T11:55:00-03:00"
 }
