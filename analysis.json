@@ -1,50 +1,50 @@
 {
-  "generated": "2026-10-12T06:38:15-03:00",
+  "generated": "2026-10-19T06:38:16-03:00",
   "period": {
+    "start": "2026-10-12",
+    "end": "2026-10-18"
+  },
+  "compare": {
     "start": "2026-10-05",
     "end": "2026-10-11"
   },
-  "compare": {
-    "start": "2026-09-28",
-    "end": "2026-10-04"
-  },
-  "headline": "Semana pós 1º turno: a conta dobrou as views (6,1 mi, +99%) e os novos seguidores, mas quase metade das views veio só da segunda-feira, e nenhum Reel passou de 16 mil views.",
+  "headline": "Sem o pico do dia seguinte ao 1º turno, as views caíram para 3,66 mi (-40%), mas sem a segunda 5/10 na conta a semana subiu 17%; os Reels viraram o motor (mediana de 62 mil views, contra 1,6 mil) e as imagens da manhã perderam força.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "6,1 mi",
-      "delta": "+99%",
-      "dir": "up"
+      "value": "3,66 mi",
+      "delta": "-40%",
+      "dir": "down"
     },
     {
       "label": "Novos seguidores (seg a sáb)",
-      "value": "3.746",
-      "delta": "+122%",
-      "dir": "up"
+      "value": "3.153",
+      "delta": "-16%",
+      "dir": "down"
     },
     {
       "label": "Deixaram de seguir (seg a sáb)",
-      "value": "124",
-      "delta": "+32%",
+      "value": "138",
+      "delta": "+11%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "138 mil",
-      "delta": "+86%",
-      "dir": "up"
+      "value": "67 mil",
+      "delta": "-51%",
+      "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "9.675",
-      "delta": "+402%",
-      "dir": "up"
+      "value": "6.580",
+      "delta": "-32%",
+      "dir": "down"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "294 mil",
-      "delta": "+14%",
-      "dir": "up"
+      "value": "224 mil",
+      "delta": "-24%",
+      "dir": "down"
     }
   ],
   "cards": [
@@ -52,62 +52,64 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As imagens publicadas cedo carregaram a semana. \"Avalanche Bolsonarista!\" (seg, 7h) teve 614 mil views, 9.876 compartilhamentos e 466 novos seguidores. \"Quem foge do debate é bundão?\" (dom, 6h30) chegou a 422 mil views em 22 horas, com 219 seguidores e 92 comentários. As 4 imagens publicadas até 7h tiveram mediana de 256 mil views; as 5 publicadas mais tarde, 12,9 mil. Em 30 dias o padrão se repete: 7 imagens até 7h15 com mediana de 614 mil views e 219 seguidores, contra 42,8 mil views e 14 seguidores nas 19 imagens mais tarde.",
+      "diagnosis": "Os 3 melhores posts da semana foram Reels publicados entre 18h29 e 21h36: \"Hispanic Heritage Gala 2026\" (qua, 21h36, 51,6s, assistido até 23%, 313.791 views e 2.963 compartilhamentos), \"Inacreditável!\" (seg, 19h, 70s, assistido até 39%, 201.596 views, 14.589 compartilhamentos e 260 comentários) e \"Complete a frase\" (sex, 18h29, 40,8s, 160.918 views e 80 comentários). Os 7 Reels publicados a partir das 18h tiveram mediana de 92,6 mil views. As duas imagens das 21h também se destacaram: \"ANISTIA PARA CRIMINOSO?\" (ter, 100.933 views, 99 comentários) e \"Você conhece alguém que prometeu acabar com SIGILOS?\" (qui, 95.982 views, 26 seguidores).",
       "actions": [
-        "Guarde o horário entre 6h30 e 7h para a imagem mais forte do dia, todos os dias.",
-        "Use título em forma de pergunta provocativa, como no post de domingo, que esteve associado a 92 comentários.",
-        "Prepare a imagem da manhã na noite anterior para não perder o horário."
+        "Publique um Reel por dia entre 19h e 21h30, o horário que coincidiu com os 3 melhores resultados da semana.",
+        "Use 21h para a imagem de opinião com pergunta no título, como \"ANISTIA PARA CRIMINOSO?\".",
+        "Repita o formato de \"Inacreditável!\": reação direta a um fato, que esteve associada a 14.589 compartilhamentos."
       ],
       "posts": [
-        "DeGlubltKVX",
-        "DeVAkiqtPwL"
+        "DefrVOZMUGw",
+        "DeaQZPRNABT",
+        "DekfWuXNS39",
+        "DedCyqss4O6",
+        "Deh_rUstC5a"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Evitar",
-      "diagnosis": "Os 3 piores posts da semana foram Reels publicados entre 11h06 e 14h07: \"Pense num amor inimaginável\" (sáb, 14h07, 1.171 views), \"Sabe se isso é IA?\" (ter, 11h51, 39s, assistido até 22%, 1.246 views) e \"R$ 30 milhões em dinheiro vivo\" (sex, 11h06, 80s, assistido até 23%, 1.406 views). A mediana dos 5 Reels foi 1.406 views, contra 12.683 na semana anterior; os Reels daquela semana tiveram mais tempo para acumular, mas o melhor desta semana parou em 15,6 mil. Os 2 carrosséis também ficaram abaixo de 4,3 mil views.",
+      "diagnosis": "As imagens da manhã, que carregaram as semanas anteriores, perderam força: as 4 publicadas até 8h15 tiveram mediana de 5,3 mil views e nenhum seguidor atribuído. Os piores da semana foram \"O PROFESSOR É UMA AMEAÇA!\" (Reel, qui, 18h41, 45,4s, assistido até 24%, 772 views), \"A Globo demitiu o diretor-geral\" (sex, 8h15, 1.626 views) e \"O papa Leão XIV será operado\" (ter, 12h, 2.028 views). A mediana das 13 imagens foi 7,5 mil views, contra 52,2 mil na semana anterior, e elas trouxeram 121 seguidores, contra 1.713. As imagens da semana anterior tiveram mais tempo para acumular, mas a diferença é grande demais para ser só isso.",
       "actions": [
-        "Não publique Reels longos no fim da manhã: nesta semana esse horário coincidiu com os piores resultados.",
-        "Use carrossel só quando o assunto precisar de várias telas; dados de eleição em carrossel renderam menos de 4,3 mil views.",
-        "Antes de publicar um Reel, pergunte: o motivo para assistir aparece nos 3 primeiros segundos?"
+        "Evite repassar notícia sem opinião, como os posts sobre a Globo e o papa, que ficaram abaixo de 2,1 mil views.",
+        "Não abandone a manhã, mas use esse horário só para a imagem de opinião mais forte, como as de 5/10 e 11/10.",
+        "Teste por uma semana a imagem principal às 21h e compare com a das 7h."
       ],
       "posts": [
-        "DeUk6JyNW9Y",
-        "DeKCMhiNIxP",
-        "DeRrXNgtZMa"
+        "Deh8WzvtR28",
+        "DejZbguNSy6",
+        "Deb6SlYNJ2P"
       ]
     },
     {
       "title": "Retenção dos Reels",
       "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "Em 30 dias, os 6 Reels assistidos em média até 40% ou mais tiveram mediana de 163 mil views; os 31 abaixo disso ficaram em 8,5 mil. Os 3 Reels de até 30 segundos tiveram mediana de 349 mil views, contra 12,7 mil nos 27 acima de 60 segundos. Nesta semana, 3 dos 4 Reels com duração medida tinham 39 segundos ou mais e foram assistidos só até 22% a 32%. O único curto, \"O Lula conseguiu!\" (27,5s), foi assistido até 52%, mas foi publicado domingo à noite e ainda está acumulando.",
+      "diagnosis": "Em 30 dias, os 8 Reels assistidos em média até 35% ou mais tiveram mediana de 125,5 mil views; os 25 abaixo disso ficaram em 12,7 mil. Os 4 Reels de até 30 segundos tiveram mediana de 176,1 mil views, contra 23,5 mil nos 21 acima de 60 segundos. Nesta semana nenhum Reel teve até 30 segundos. \"VÍDEO FUNDAMENTAL!\" (138s) foi assistido só até 8%. O de melhor retenção, \"Inacreditável!\" (39%), foi também o mais compartilhado.",
       "actions": [
         "Corte os Reels para até 30 segundos; se o assunto pedir mais, divida em partes.",
-        "Comece pelo fato ou pela frase mais forte, sem introdução.",
-        "Acompanhe \"O Lula conseguiu!\" nos próximos dias para ver se a retenção alta se traduz em alcance."
+        "Abra com a frase ou a imagem mais forte, sem introdução.",
+        "Evite Reels acima de 1 minuto; os 21 de 30 dias tiveram mediana de 23,5 mil views."
       ],
       "posts": [
-        "DeX-jQRMQ3y",
-        "DeP9Tsbtn64",
-        "DeRrXNgtZMa"
+        "DeotTkCtFuc",
+        "DeaQZPRNABT",
+        "DefYvipjdwR"
       ]
     },
     {
-      "title": "Seguidores e comentários",
-      "status": "warn",
-      "status_label": "Depende de picos",
-      "diagnosis": "A segunda-feira (5/10), dia seguinte ao 1º turno, concentrou 52% dos novos seguidores (1.962 de 3.746), 49% das views e 65% dos comentários da semana. Sem esse dia, as views da semana (3,12 mi) ficaram perto da semana anterior inteira (3,07 mi). As saídas subiram para 124 (+32%, seg a sáb). O perfil passou de 50 mil seguidores no sábado, e o post \"50 MIL!\" teve 42 comentários e 21 seguidores. Nos Stories, a partir de terça, foram 46 stories, 13 mil visualizações e alcance médio de 230 pessoas por story.",
+      "title": "Stories e seguidores",
+      "status": "good",
+      "status_label": "Manter",
+      "diagnosis": "Os Stories cresceram: 64 stories, 30.033 visualizações (+127%), alcance médio de 388 pessoas por story (+67%) e 111 respostas (+61%). O perfil foi de 50.374 para 53.868 seguidores na semana, mas as saídas subiram para 138 (+11%, seg a sáb). O post que mais trouxe seguidores foi a imagem \"Estar diante do túmulo do professor Olavo de Carvalho\" (sáb, 10h48): 74 seguidores e 148 visitas ao perfil com 43.860 views. A quinta (15/10) concentrou 2.404 comentários, 37% da semana. Não foi possível classificar o estilo das imagens nesta rodada, então não há comparação por estilo.",
       "actions": [
-        "Use os 50 mil seguidores como gancho: fixe no perfil um post dizendo quem você é e o que a pessoa ganha seguindo.",
-        "Responda os comentários das imagens da manhã na primeira hora.",
-        "Nos Stories, publique menos e com enquete ou caixa de pergunta sobre o 2º turno, para gerar respostas."
+        "Mantenha o ritmo de Stories e use enquete ou caixa de pergunta sobre o 2º turno para manter as respostas subindo.",
+        "Publique mais imagens em tom pessoal, como a do sábado, que esteve associada ao maior número de seguidores da semana.",
+        "Responda os comentários dos posts das 21h na primeira hora."
       ],
       "posts": [
-        "DeVQClAsvVV",
-        "DeGlubltKVX"
+        "DemP7GNt_P7"
       ]
     }
   ],
@@ -116,14 +118,14 @@
       "Seg",
       [
         [
-          "i",
-          "7h",
-          "Imagem de impacto sobre o 2º turno"
+          "r",
+          "19h",
+          "Reel de até 30s reagindo ao fato do dia"
         ],
         [
-          "s",
-          "Tarde",
-          "Feriado e Dia das Crianças: momento em família"
+          "i",
+          "21h",
+          "Imagem de opinião com pergunta sobre a reta final do 2º turno"
         ]
       ]
     ],
@@ -133,12 +135,12 @@
         [
           "i",
           "7h",
-          "Imagem com pergunta provocativa"
+          "Imagem de opinião forte, sem repassar notícia"
         ],
         [
           "r",
-          "19h",
-          "Reel de até 30s reagindo ao fato do dia"
+          "21h",
+          "Reel curto de reação direta, estilo \"Inacreditável!\""
         ]
       ]
     ],
@@ -146,9 +148,9 @@
       "Qua",
       [
         [
-          "i",
-          "7h",
-          "Imagem de impacto"
+          "r",
+          "19h",
+          "Reel de até 30s com a frase mais forte no início"
         ],
         [
           "s",
@@ -162,23 +164,8 @@
       [
         [
           "i",
-          "7h",
-          "Dia do Professor: imagem com sua história na educação"
-        ],
-        [
-          "r",
-          "19h",
-          "Reel de até 30s com recado aos professores"
-        ]
-      ]
-    ],
-    [
-      "Sex",
-      [
-        [
-          "i",
-          "7h",
-          "Imagem de impacto"
+          "21h",
+          "Imagem com pergunta provocativa"
         ],
         [
           "s",
@@ -188,17 +175,32 @@
       ]
     ],
     [
+      "Sex",
+      [
+        [
+          "r",
+          "19h",
+          "Reel de até 30s sobre a última semana de campanha"
+        ],
+        [
+          "i",
+          "21h",
+          "Imagem com pergunta fechada"
+        ]
+      ]
+    ],
+    [
       "Sáb",
       [
         [
           "i",
-          "7h",
-          "Imagem com pergunta fechada"
+          "10h30",
+          "Imagem em tom pessoal, como a que trouxe 74 seguidores"
         ],
         [
           "r",
           "20h",
-          "Reel curto de bastidor"
+          "Reel curto de bastidor da véspera"
         ]
       ]
     ],
@@ -206,14 +208,14 @@
       "Dom",
       [
         [
-          "i",
-          "6h30",
-          "Imagem forte com pergunta (domingo rendeu 422 mil)"
+          "s",
+          "Manhã",
+          "Dia do 2º turno: lembrete para votar, sem propaganda"
         ],
         [
           "s",
           "Noite",
-          "Resumo da semana nos Stories"
+          "Stories acompanhando o resultado"
         ]
       ]
     ]
