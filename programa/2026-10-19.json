@@ -2,8 +2,8 @@
  "date": "2026-10-19",
  "generated": "2026-10-19T10:28:38-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Alerta falso de bomba em carro de Flávio, lobista amiga de Lulinha que promete delação e debate da Band dominam a reta final",
- "abertura": "A pauta abre com a lobista Roberta Luchsinger, investigada, que disse à CNN que fará delação e não vai poupar Lula, enquanto o Planalto nega qualquer interlocução com ela. Em seguida, o alerta de bomba no carro de Flávio após o debate da Band: os cães indicaram um componente químico, mas a varredura não achou explosivo, e a origem da denúncia segue sem explicação. No debate, Lula desafiou Flávio a abrir os sigilos das duas famílias, e Flávio respondeu cobrando explicações sobre o filho do presidente, o filme Dark Horse e a reunião com Vorcaro. A segurança pública também pesou, com a promessa de guerra ao narcoterrorismo e a PEC da Segurança retirada da pauta do Senado, e a pauta fecha com os locais de votação trocados no Rio e o reajuste do Bolsa Família.",
+ "titulo": "Alerta falso de bomba em carro de Flávio, lobista que promete delação e Janones na UTI marcam a reta final",
+ "abertura": "A pauta abre com a lobista Roberta Luchsinger, investigada, que disse à CNN que fará delação e não vai poupar Lula, enquanto o Planalto nega qualquer interlocução com ela. Em seguida, o alerta de bomba no carro de Flávio após o debate da Band: os cães indicaram um componente químico, mas a varredura não achou explosivo, e a origem da denúncia segue sem explicação. Também depois do debate, o deputado André Janones, da campanha de Lula, foi internado na UTI com arritmia cardíaca e está estável. No confronto, Lula desafiou Flávio a abrir os sigilos das duas famílias, e Flávio respondeu cobrando explicações sobre o filho do presidente, o filme Dark Horse e a reunião com Vorcaro. A segurança pública também pesou, com a promessa de guerra ao narcoterrorismo e a PEC da Segurança fora da pauta do Senado, e a pauta fecha com os locais de votação trocados no Rio e o reajuste do Bolsa Família.",
  "agenda": [
   {
    "time": "19/10",
@@ -110,6 +110,47 @@
    ],
    "avulsa": true,
    "pedido": "Suspeita de bomba em carro de Flávio bolsonaro"
+  },
+  {
+   "id": "janones-uti",
+   "bloco": "Política nacional",
+   "titulo": "Janones, porta-voz digital da campanha de Lula, é internado na UTI após arritmia",
+   "subtitulo": "Deputado está clinicamente estável, em monitoramento cardíaco contínuo, no Hospital Vila Nova Star, em São Paulo",
+   "resumo": "O deputado federal André Janones foi internado na UTI do Hospital Vila Nova Star, em São Paulo, depois de um episódio de arritmia cardíaca ocorrido após o debate da Band entre Lula e Flávio. Ele está clinicamente estável e sob monitoramento cardíaco contínuo, com acompanhamento da equipe da cardiologista Ludhmila Hajjar. Janones é um dos nomes mais ativos da campanha de Lula na internet e comanda o canal de WhatsApp Exército de Lula, com mais de cinco milhões de usuários. Não há declaração dele nem boletim médico detalhado, e nenhuma matéria relaciona o mal-estar a algo ocorrido no debate. O tom do programa deve ser de respeito e de desejo de recuperação, sem especulação sobre a causa.",
+   "contexto": [
+    "19 de outubro: a internação foi divulgada pela coluna de Matheus Leitão, no Metrópoles, às 10h37, e a nota foi atualizada às 10h53.",
+    "O episódio de arritmia aconteceu depois do debate promovido pela Band, o primeiro confronto direto entre Lula e Flávio no segundo turno.",
+    "Quadro descrito como clinicamente estável, com monitoramento cardíaco contínuo; novas informações devem sair conforme a evolução.",
+    "Ainda não foram informados detalhes da arritmia, os procedimentos adotados nem previsão de alta.",
+    "Janones comanda o canal Exército de Lula, no WhatsApp, com mais de 5 milhões de usuários, peça da comunicação digital da campanha petista."
+   ],
+   "angulo": [
+    "Antes de tudo, a notícia é de saúde: o programa deseja pronta recuperação ao deputado, independentemente de divergência política.",
+    "Não cabe especular sobre causa nem ligar o caso ao debate: nenhuma informação publicada autoriza isso, e o programa deve dizer que não há essa relação comprovada.",
+    "Para quem acompanha a eleição, o fato prático é a ausência de uma das vozes mais ativas da militância digital de Lula na semana que antecede o segundo turno; vale acompanhar quem assume essa frente e se há novo boletim."
+   ],
+   "perguntas": [
+    "A campanha de Lula deve divulgar um boletim médico para encerrar a especulação nas redes?",
+    "Como fica a atuação da militância digital de Lula nos dias que faltam para o segundo turno?",
+    "Qual o tom adequado para tratar o assunto no ar, sem politizar um problema de saúde?"
+   ],
+   "atencao": "Assunto de saúde: sem declaração do deputado nem boletim detalhado, não especular sobre causa nem relacionar ao debate.",
+   "fontes": [
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/matheus-leitao/andre-janones-e-internado-na-uti-apos-arritmia-cardiaca-depois-do-debate"
+    },
+    {
+     "name": "Correio",
+     "url": "https://www.correio24horas.com.br/eleicoes/lider-do-exercito-de-lula-andre-janones-vai-parar-na-uti-apos-com-arritimia-cardiaca-apos-debate-1026"
+    },
+    {
+     "name": "Bahia Notícias",
+     "url": "https://www.bahianoticias.com.br/noticia/322629-andre-janones-e-internado-na-uti-apos-apresentar-arritmia-cardiaca"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "https://www.metropoles.com/colunas/matheus-leitao/andre-janones-e-internado-na-uti-apos-arritmia-cardiaca-depois-do-debate"
   },
   {
    "id": "debate-sigilos",
@@ -319,5 +360,5 @@
    ]
   }
  ],
- "atualizado": "2026-10-19T10:52:54-03:00"
+ "atualizado": "2026-10-19T11:20:31-03:00"
 }
