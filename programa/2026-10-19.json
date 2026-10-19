@@ -2,8 +2,8 @@
  "date": "2026-10-19",
  "generated": "2026-10-19T10:28:38-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Lobista amiga de Lulinha promete delação, Lula desafia Flávio a abrir sigilos no debate da Band, facções e a PEC da Segurança dominam a reta final",
- "abertura": "A pauta abre com a lobista Roberta Luchsinger, investigada, que disse à CNN que fará delação e não vai poupar Lula, enquanto o Planalto nega qualquer interlocução com ela. No debate da Band, Lula desafiou Flávio a abrir os sigilos das duas famílias, e Flávio respondeu cobrando explicações sobre o filho do presidente, o filme Dark Horse e a reunião com Vorcaro. A segurança pública também pesou: Flávio prometeu guerra ao narcoterrorismo, e a PEC da Segurança foi retirada da pauta do Senado. A uma semana do segundo turno, a pauta fecha com os locais de votação trocados no Rio, o vazamento sobre Flávio e o reajuste do Bolsa Família.",
+ "titulo": "Alerta falso de bomba em carro de Flávio, lobista amiga de Lulinha que promete delação e debate da Band dominam a reta final",
+ "abertura": "A pauta abre com a lobista Roberta Luchsinger, investigada, que disse à CNN que fará delação e não vai poupar Lula, enquanto o Planalto nega qualquer interlocução com ela. Em seguida, o alerta de bomba no carro de Flávio após o debate da Band: os cães indicaram um componente químico, mas a varredura não achou explosivo, e a origem da denúncia segue sem explicação. No debate, Lula desafiou Flávio a abrir os sigilos das duas famílias, e Flávio respondeu cobrando explicações sobre o filho do presidente, o filme Dark Horse e a reunião com Vorcaro. A segurança pública também pesou, com a promessa de guerra ao narcoterrorismo e a PEC da Segurança retirada da pauta do Senado, e a pauta fecha com os locais de votação trocados no Rio e o reajuste do Bolsa Família.",
  "agenda": [
   {
    "time": "19/10",
@@ -69,6 +69,47 @@
    ],
    "avulsa": true,
    "pedido": "Assunto em alta no X: Roberta Luchsinger. A lobista, amiga de Lulinha, deu entrevista à CNN dizendo que fará delação premiada e que Lulinha se reuniu com ministros. Lula nega ter tido interlocução com ela. Como usar: Amplificar com fato: ela promete delação, e Lula nega contato em nota. | Assunto em alta no X: DELATA ROBERTA. Hashtag em torno da promessa de delação de Roberta Luchsinger. Como usar: Amplificar o tema, deixando claro que a delação ainda não foi firmada."
+  },
+  {
+   "id": "bomba-carro-flavio",
+   "bloco": "Segurança pública",
+   "titulo": "Polícia descarta bomba em carro de Flávio após alerta de ameaça no debate da Band",
+   "subtitulo": "Cães farejadores indicaram componente químico, mas a varredura não achou pacote nem objeto suspeito; Flávio deixou a emissora no carro de Tarcísio",
+   "resumo": "Durante o debate da Band, a Polícia do Senado, que faz a segurança de Flávio, acionou a PM de São Paulo por causa de uma denúncia de possível artefato explosivo em veículo da comitiva. O Gate, esquadrão antibombas da PM, fez a varredura no carro, e dois cães sinalizaram um componente químico que poderia ser usado em explosivo. Os especialistas concluíram que foi alarme falso: nenhum pacote ou objeto suspeito foi encontrado, e o comandante do Gate, capitão Vitor Capello Haddad, disse que não se tratava de uma bomba. Por segurança, Flávio deixou a emissora no carro do governador Tarcísio de Freitas, e convidados e equipes ficaram retidos na Band até o fim da inspeção. O ponto que continua sem resposta é de onde partiu a denúncia, a uma semana do segundo turno.",
+   "contexto": [
+    "Domingo, 18 de outubro: debate entre Lula e Flávio na Band, em São Paulo, com início às 20h15.",
+    "A Polícia Legislativa do Senado, que protege Flávio, disse ter recebido uma ameaça de bomba e pediu a inspeção do Gate, da PM paulista.",
+    "Dois cães farejadores indicaram um componente químico associado a explosivos; a varredura seguinte não achou nenhum objeto suspeito no carro.",
+    "A PM atribui o alerta a uma mistura de componentes químicos volatilizados, possivelmente um produto de limpeza. A SSP-SP informou que, após a varredura, nada foi encontrado.",
+    "As reportagens não dizem quem fez a denúncia nem se a origem da ameaça é investigada."
+   ],
+   "angulo": [
+    "O candidato da oposição foi tratado como alvo de um possível atentado na noite do debate. A segurança agiu rápido e o protocolo funcionou, e isso merece ser dito.",
+    "A pergunta que importa é a origem da denúncia: quem ligou, de onde e com que objetivo. Ameaça falsa contra candidato a uma semana do segundo turno precisa ser apurada.",
+    "O programa deve lembrar que Flávio já enfrentou ataques de ódio na campanha e que a segurança de candidatos precisa ser tratada como assunto de Estado."
+   ],
+   "perguntas": [
+    "A Polícia Federal deveria investigar a origem da ameaça de bomba contra a comitiva de Flávio?",
+    "A segurança dos dois candidatos está à altura de uma reta final tão tensa?",
+    "Que cuidado o eleitor deve ter com boatos e versões que circulam depois de um alerta como esse?"
+   ],
+   "atencao": "Foi alarme falso: nenhum explosivo foi encontrado. Não atribuir a ameaça a ninguém enquanto a origem da denúncia não for apurada.",
+   "fontes": [
+    {
+     "name": "ND Mais",
+     "url": "https://ndmais.com.br/politica/policia-descarta-bomba-em-carro-de-flavio-bolsonaro/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/sao-paulo/material-em-carro-de-flavio-na-band-enganaram-olfato-de-caes-farejadores"
+    },
+    {
+     "name": "Tribuna Online",
+     "url": "https://tribunaonline.com.br/politica/eleicoes2026/policia-investiga-suspeita-de-explosivos-em-carro-de-flavio-ameaca-e-descartada-333041"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Suspeita de bomba em carro de Flávio bolsonaro"
   },
   {
    "id": "debate-sigilos",
@@ -277,5 +318,6 @@
     }
    ]
   }
- ]
+ ],
+ "atualizado": "2026-10-19T10:52:54-03:00"
 }
