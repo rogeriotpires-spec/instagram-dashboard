@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-20",
+  "weekday": "Ter",
+  "generated": "2026-10-19T20:06:55-03:00",
+  "summary": "Terça com a PF mirando o monopólio de internet do Comando Vermelho no Rio, o STF cobrando o TSE sobre a eleição de Douglas Ruas e o Bolsa Família reajustado sendo pago a seis dias do 2º turno. Na campanha, Lula lançou o desafio do sigilo com prazo de uma semana.",
+  "agenda": [
+    {
+      "time": "26/10",
+      "text": "Fim do prazo de uma semana que Lula deu para Flávio responder ao desafio do sigilo.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes/lula-afirma-que-abrira-sigilo-bancario-se-flavio-fizer-o-mesmo/"
+      }
+    },
+    {
+      "time": "até 30/10",
+      "text": "Calendário escalonado do Bolsa Família com o valor reajustado, por final do NIS.",
+      "source": {
+        "name": "SBT News",
+        "url": "https://sbtnews.sbt.com.br/noticia/economia/reajuste-do-bolsa-familia-sera-pago-entre-turnos-da-eleicao"
+      }
+    },
+    {
+      "time": "próximos dias",
+      "text": "TSE tem cinco dias para responder a Zanin; depois, AGU e PGR têm cinco dias cada.",
+      "source": {
+        "name": "O Tempo",
+        "url": "https://www.otempo.com.br/eleicoes/2026/governadores/2026/10/19/zanin-da-5-dias-ao-tse-para-explicar-decisao-que-garantiu-vitoria-de-ruas-no-rio"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes/lula-afirma-que-abrira-sigilo-bancario-se-flavio-fizer-o-mesmo/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem de opinião forte",
+      "options": [
+        {
+          "title": "Bolsa Família sobe 15,04% e o novo valor começa a ser pago seis dias antes do 2º turno",
+          "tone": "contundente",
+          "style": "realista",
+          "fact": "O governo anunciou em 17/9 o reajuste de 15,04% no Bolsa Família: o piso vai de R$ 600 para R$ 691 e o valor médio por família, de R$ 675 para R$ 777. Os pagamentos com o valor novo começaram em 19/10, seis dias antes do 2º turno (25/10), com calendário até 30/10. O governo diz que o índice só recompõe a inflação (INPC de março de 2023 a agosto de 2026). O custo é de R$ 5,8 bilhões em 2026 e R$ 22,7 bilhões por ano a partir de 2027, e o aumento não estava no orçamento enviado ao Congresso. Economistas questionam o momento, já que a inflação acumulada justificaria a correção desde janeiro.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/governo-lula-eleva-valor-do-bolsa-familia-as-vesperas-do-segundo-turno/"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://sbtnews.sbt.com.br/noticia/economia/reajuste-do-bolsa-familia-sera-pago-entre-turnos-da-eleicao"
+            }
+          ],
+          "art_text": [
+            "R$ 600 para R$ 691",
+            "Reajuste pago a 6 dias do 2º turno",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Mãos de uma pessoa comum de costas, segurando um cartão de banco genérico e notas de real sobre uma mesa de cozinha simples. Sem logos nem marcas.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz natural de fim de tarde. Sobre uma mesa de cozinha simples de madeira, mãos de uma pessoa comum, sem mostrar o rosto, seguram um cartão de banco genérico, sem logo, ao lado de algumas notas de real e de um calendário de parede desfocado ao fundo. Clima sóbrio. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"Reajuste pago a 6 dias do 2º turno\". No terço inferior, sobre sombra escura, em amarelo, letras condensadas e muito pesadas: \"R$ 600 para R$ 691\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "O novo valor do Bolsa Família começou a ser pago ontem, seis dias antes do 2º turno. O governo diz que é só reposição da inflação. A conta é de R$ 5,8 bilhões em 2026 e R$ 22,7 bilhões por ano depois, fora do orçamento enviado ao Congresso. Reajustar na véspera da eleição é certo? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Tema sensível para o público beneficiário: critique o momento e a conta, nunca o benefício nem quem recebe. Não use a expressão compra de votos como afirmação. Cite o argumento do governo (reposição da inflação) na legenda, como está.",
+          "timeline": {
+            "rende": true,
+            "angle": "Reajuste do Bolsa Família entre os turnos: o que o decreto fez, o custo de R$ 22,7 bilhões ao ano em 2027 fora do orçamento e o debate sobre o momento da medida."
+          }
+        },
+        {
+          "title": "Zanin dá cinco dias ao TSE para explicar a decisão que elegeu Douglas Ruas no 1º turno",
+          "tone": "sóbrio com urgência",
+          "style": "ilustracao",
+          "desdobramento": "Em 19/10, o ministro Cristiano Zanin, do STF, deu cinco dias ao TSE para explicar a decisão sobre os votos de Garotinho; depois, AGU e PGR terão cinco dias cada para se manifestar.",
+          "fact": "O ministro Cristiano Zanin, do STF, deu cinco dias ao TSE para explicar a decisão que anulou os 274.411 votos de Garotinho, por 5 a 2, em 8/10, e levou Douglas Ruas (PL) de 49,27% para 50,88% dos votos válidos, o suficiente para vencer no 1º turno. Depois da resposta, AGU e PGR terão cinco dias cada. O PSD de Eduardo Paes pede que os votos de Garotinho continuem contando para decidir se há 2º turno. Zanin ainda não analisou o mérito nem se o STF pode julgar a ação. Ruas segue eleito, e o TRE-RJ confirmou o resultado em 10/10.",
+          "sources": [
+            {
+              "name": "O Tempo",
+              "url": "https://www.otempo.com.br/eleicoes/2026/governadores/2026/10/19/zanin-da-5-dias-ao-tse-para-explicar-decisao-que-garantiu-vitoria-de-ruas-no-rio"
+            },
+            {
+              "name": "Correio Braziliense",
+              "url": "https://www.correiobraziliense.com.br/politica/2026/10/7523514-zanin-cobra-explicacoes-do-tse-sobre-eleicao-em-primeiro-turno-no-rio.html"
+            }
+          ],
+          "art_text": [
+            "50,88%",
+            "Eleito no 1º turno. E o STF pediu explicações",
+            "Quem decide o Rio: a urna ou o tribunal?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Douglas Ruas (PL), eleito governador do Rio, e o ministro Cristiano Zanin (STF), que pediu explicações ao TSE. Ilustração estilo charge, sem foto real. Risco baixo: Ruas aparece firme e Zanin examinando um processo, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Douglas Ruas (governador eleito do Rio pelo PL, terno escuro), de pé e firme, de braços cruzados, olhando para frente. À frente dele, o ministro Cristiano Zanin (STF, toga preta), sentado atrás de uma mesa, examinando um processo grosso com expressão séria. Ao fundo, a fachada estilizada do STF e, menor, a silhueta do Cristo Redentor. No alto, número gigante em amarelo, letras condensadas e muito pesadas: \"50,88%\". Logo abaixo, em branco, letras grandes e pesadas: \"Eleito no 1º turno. E o STF pediu explicações\". Embaixo, com sublinhado vermelho pincelado: \"Quem decide o Rio: a urna ou o tribunal?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Ruas foi eleito no 1º turno com 50,88% dos votos válidos, e o resultado foi confirmado pelo TRE-RJ. Agora o ministro Zanin deu cinco dias ao TSE para explicar a decisão. O voto do eleitor do Rio deve ser respeitado? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não insinue que Zanin vai reverter nem que há acordo. Ele apenas pediu informações e não analisou o mérito. Se houver decisão nova antes de publicar, troque pelo fato real.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem pode reabrir uma eleição já confirmada pelo TRE: a tese do PSD sobre os votos de Garotinho, a competência do STF e os prazos do TSE, da AGU e da PGR."
+          }
+        }
+      ]
+    },
+    {
+      "time": "21h",
+      "type": "r",
+      "kind": "Reel curto de reação direta",
+      "options": [
+        {
+          "title": "PF prende 19 e bloqueia até R$ 558 milhões do Comando Vermelho na Operação Backbone",
+          "tone": "contundente",
+          "duration": "20 a 30s",
+          "fact": "A Operação Backbone, da PF, em 19/10, cumpriu ordens do STF dadas por Alexandre de Moraes: 23 mandados de prisão preventiva e 24 de busca. Entre os presos estão a mãe e o irmão do rapper Oruam e o vereador do Rio Fábio Silva (Podemos), achado em Londrina. Segundo a PF, o Comando Vermelho mantinha monopólio de internet nos complexos do Alemão, da Penha e do Chapadão: provedores rivais tinham cabos cortados e pagavam taxa à facção, que passou de 40% da receita do grupo na Penha em um mês. A Justiça mandou bloquear até R$ 558 milhões de 40 pessoas e 42 empresas. Não há confirmação de que Oruam seja investigado nesta operação. Todos são suspeitos, sem condenação.",
+          "sources": [
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/brasil/mae-e-irmao-de-oruam-sao-presos-em-operacao-da-pf-contra-o-comando-vermelho/"
+            },
+            {
+              "name": "O Tempo",
+              "url": "https://www.otempo.com.br/brasil/2026/10/19/mae-e-irmao-de-oruam-sao-presos-em-operacao-da-pf"
+            }
+          ],
+          "hooks": [
+            "A facção cobrava até pela sua internet. R$ 558 milhões bloqueados.",
+            "Cortavam o cabo do concorrente e ficavam com a taxa. Hoje a PF prendeu."
+          ],
+          "script": "Cobravam até pela sua internet. Segundo a PF, o Comando Vermelho cortava o cabo do provedor concorrente e obrigava o morador a pagar o provedor autorizado pela facção. Em um mês, essa taxa passou de 40% da receita do grupo na Penha. Hoje a Operação Backbone prendeu suspeitos, entre eles um vereador do Rio, e a Justiça mandou bloquear até 558 milhões de reais. É o crime organizado virando empresa, com nota, contrato e lavagem. São suspeitos, ninguém foi condenado ainda. Mas o morador que paga é vítima. Você acha que quem cobra pedágio da comunidade deveria perder os bens? Responde sim ou não.",
+          "screen_text": [
+            "Internet do crime",
+            "R$ 558 milhões bloqueados",
+            "Operação Backbone",
+            "Suspeitos, sem condenação"
+          ],
+          "caption": "Segundo a PF, o morador era obrigado a pagar a internet da facção. Quem cobra pedágio do crime organizado deve perder todos os bens? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Todos são suspeitos, não condenados: use \"segundo a PF\" e \"suspeitos\". Não cite Oruam como investigado, pois não há confirmação. Não generalize para moradores de comunidade. A contagem de presos varia por horário (19 a 20).",
+          "timeline": {
+            "rende": true,
+            "angle": "O crime que virou provedor de internet: como o monopólio funcionava nos complexos do Rio, a lavagem de dinheiro e o que a cassação de licenças pela Anatel pode mudar."
+          }
+        },
+        {
+          "title": "Lula diz que abre o sigilo dele e dos filhos se Flávio fizer o mesmo, e dá uma semana de prazo",
+          "tone": "irônico",
+          "duration": "20 a 30s",
+          "fact": "Em vídeo publicado em 19/10, Lula disse que prepara procurações para abrir o sigilo bancário e telefônico dele e dos filhos, incluindo Lulinha, mas só se Flávio Bolsonaro e os familiares fizerem o mesmo, e deu uma semana para a resposta. Pela proposta, os dados seriam entregues aos presidentes do STF e do TSE antes do 2º turno, em 25/10. Flávio respondeu que não tem nada a esconder. Também citou suspeitas envolvendo o filho do presidente e o Instituto Lula.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes/lula-afirma-que-abrira-sigilo-bancario-se-flavio-fizer-o-mesmo/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/lula-diz-que-vai-autorizar-tse-a-quebrar-sigilo-dele-e-de-familiares"
+            }
+          ],
+          "hooks": [
+            "Lula quer abrir o sigilo. Mas só se for combinado.",
+            "Prazo de uma semana, e a eleição é em cinco dias. Repara na conta."
+          ],
+          "script": "Lula diz que abre o próprio sigilo. Mas só se o Flávio abrir também. Isso não é transparência, é condição. Quem quer mostrar não precisa de combinado. E o prazo? Uma semana. A eleição é em cinco dias. Flávio já respondeu que não tem nada a esconder e lembrou das suspeitas sobre o filho do presidente e o Instituto Lula. Quem tem sigilo para mostrar, mostra sem condição. Você acha que Lula deveria abrir o sigilo sem impor condição? Responde sim ou não.",
+          "screen_text": [
+            "Abro, se você abrir",
+            "Prazo: uma semana",
+            "Eleição: 25/10",
+            "Sem condição?"
+          ],
+          "caption": "Lula diz que abre o sigilo, mas só se Flávio abrir também, com prazo de uma semana. Abrir sem condição não seria mais simples? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Fale só da condição e do prazo, que são fatos do vídeo. A fala de Flávio entra como resposta dele, sem adotar rótulo. As suspeitas sobre o filho de Lula e o Instituto Lula são citadas por Flávio, atribua a ele; não afirme crime nem investigação que não consta.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Pedido de campanha com prazo curto e sem desdobramento jurídico confirmado; rende melhor como reação rápida."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
