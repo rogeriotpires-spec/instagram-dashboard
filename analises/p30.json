@@ -1,109 +1,109 @@
 {
-  "generated": "2026-10-18T05:59:46-03:00",
-  "dias": 30,
-  "period": {
-    "start": "2026-09-18",
-    "end": "2026-10-17"
+ "generated": "2026-10-19T06:14:00-03:00",
+ "dias": 30,
+ "period": {
+  "start": "2026-09-19",
+  "end": "2026-10-18"
+ },
+ "compare": "2026-08-20 a 2026-09-18",
+ "headline": "Em 30 dias a conta teve 17,6 mi de views (+83%) e 13.066 novos seguidores; as imagens renderam mediana de 44.532 views contra 12.718 dos Reels.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "17,6 mi",
+   "delta": "+83%",
+   "dir": "up"
   },
-  "compare": "2026-08-19 a 2026-09-17",
-  "headline": "Em 30 dias a conta somou 17,2 mi de views (+80%), 12.805 novos seguidores e 389 mil compartilhamentos, puxados por 3 imagens de quase 1 mi de views cada.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "17,2 mi",
-      "delta": "+80%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "12.805",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "505",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "389 mil",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "22.311",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Alcance médio por dia",
-      "value": "251 mil",
-      "delta": "+226%",
-      "dir": "up"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Três imagens de Opinião passaram de 900 mil views: \"Ninguém aguenta mais o Lula e o PT!\" (973.429), \"Fica a reflexão.\" (911.072) e \"Como dizia o TAXAD, quem foge do debate é bundão?\" (906.733). Juntas trouxeram 1.006, 712 e 1.097 novos seguidores. As 36 imagens tiveram mediana de 39.597,5 views, contra 12.715 dos 35 Reels.",
-      "actions": [
-        "Mantenha a imagem de opinião como principal aposta do dia.",
-        "Use títulos curtos e diretos, como nesses três posts.",
-        "Publique pela manhã cedo: os três saíram entre 6h30 e 7h15."
-      ],
-      "posts": [
-        "Dd08gl4tibs",
-        "Dd8pQedtGZL",
-        "DeVAkiqtPwL"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Os piores posts foram Reels de Política: \"O PROFESSOR É UMA AMEAÇA!\" (738 views), \"Sabe se isso é IA?\" (1.321, taxa de pulo de 48%, 39,4 segundos) e \"Autoexplicativo (debate)\" (1.340, taxa de pulo de 60%). Os 2 carrosséis tiveram mediana de 3.630 views. O tema Política (34 posts) teve mediana de 11.842, contra 31.186,5 de Opinião (38 posts).",
-      "actions": [
-        "Pare de publicar Reels que dependem de contexto que o espectador não tem.",
-        "Evite carrossel para opinião; prefira imagem única.",
-        "Revise o começo dos Reels: o primeiro segundo precisa explicar o assunto."
-      ],
-      "posts": [
-        "Deh8WzvtR28",
-        "DeKCMhiNIxP",
-        "Dd_agBPN6Mi"
-      ]
-    },
-    {
-      "title": "Comentários",
-      "status": "warn",
-      "status_label": "Aproveitar",
-      "diagnosis": "\"Qual número você escolheria?\" teve 488 comentários com 13.747 views, uma conversa muito acima do que o alcance indicaria. O Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" somou 259 comentários, 646.841 views e 25.147 compartilhamentos. Os comentários da conta chegaram a 22.311.",
-      "actions": [
-        "Faça uma imagem de pergunta fechada por semana.",
-        "Fixe a pergunta nos Stories para estender a conversa."
-      ],
-      "posts": [
-        "DdumKq_tAX_",
-        "DeFIOryNZpn"
-      ]
-    },
-    {
-      "title": "Comparação com o período anterior",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Só a comparação de views cobre os 30 dias do período anterior. Para compartilhamentos, comentários, salvamentos e seguidores há dados de apenas 11 dias antes, por isso as variações não foram usadas. Pelo alcance médio por dia, o período anterior teve 77.073, contra 251.042 agora.",
-      "actions": [
-        "Leia os valores de seguidores e compartilhamentos como totais do mês, sem comparar com o mês anterior.",
-        "Considere que posts recentes ainda acumulam views."
-      ],
-      "posts": [
-        "Dd08gl4tibs"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "13.066",
+   "delta": "+251%",
+   "dir": "up"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "509",
+   "delta": "+220%",
+   "dir": "down"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "392 mil",
+   "delta": "+512%",
+   "dir": "up"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "22.183",
+   "delta": "+188%",
+   "dir": "up"
+  },
+  {
+   "label": "Salvamentos recebidos",
+   "value": "36.021",
+   "delta": "+299%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "As 36 imagens tiveram mediana de 44.532 views e somaram 5.027 seguidores; os 35 Reels, mediana de 12.718. Os três melhores posts foram imagens de Opinião publicadas entre 6h30 e 7h15: \"Fica a reflexão.\" (1.039.563 views, 884 seguidores), \"Ninguém aguenta mais o Lula e o PT!\" (976.471, 1.040) e \"Como dizia o TAXAD...\" (922.733, 1.166). A mediana das 7h foi 90.402 views.",
+   "actions": [
+    "Reserve a faixa das 6h30 às 7h15 para a imagem mais forte do dia.",
+    "Prefira Opinião com crítica direta ao governo, que repetiu o resultado nos três casos."
+   ],
+   "posts": [
+    "Dd8pQedtGZL",
+    "Dd08gl4tibs",
+    "DeVAkiqtPwL"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Os piores posts foram Reels de Política: \"O PROFESSOR É UMA AMEAÇA!\" (772 views), \"Sabe se isso é IA?\" (1.324) e \"Autoexplicativo (debate)\" (1.341). Os 2 carrosséis tiveram mediana de 3.635 views.",
+   "actions": [
+    "Corte Reels que não tenham fato novo ou imagem forte nos primeiros segundos.",
+    "Use carrossel só quando o assunto exigir várias telas."
+   ],
+   "posts": [
+    "Deh8WzvtR28",
+    "DeKCMhiNIxP",
+    "Dd_agBPN6Mi"
+   ]
+  },
+  {
+   "title": "Comentários",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os comentários chegaram a 22.183 (+188%). O post \"Qual número você escolheria?\" teve 488 comentários com 13.748 views; \"Inacreditável!\" teve 260 e o Reel \"Inacreditável o que esse sujeito asqueroso fez depois de votar\", 259, com 646.907 views.",
+   "actions": [
+    "Faça pergunta fechada (escolher um número ou um nome) em imagens, 1 vez por semana.",
+    "Responda os primeiros comentários na primeira hora."
+   ],
+   "posts": [
+    "DdumKq_tAX_",
+    "DeaQZPRNABT",
+    "DeFIOryNZpn"
+   ]
+  },
+  {
+   "title": "Temas e seguidores",
+   "status": "warn",
+   "status_label": "Cuidado",
+   "diagnosis": "Opinião (38 posts) teve mediana de 36.143 views contra 12.304 de Política (34 posts). Os números de seguidores subiram (13.066, e 509 saídas, +220%), mas o período anterior só tem dados de 12 dos 30 dias para seguidores, compartilhamentos e comentários, então as variações estão infladas.",
+   "actions": [
+    "Interprete as altas de compartilhamento e seguidores com cautela até ter mais histórico.",
+    "Acompanhe as saídas por semana; 509 em 30 dias é a base para comparar."
+   ],
+   "posts": [
+    "DeVAkiqtPwL",
+    "Dd8pQedtGZL"
+   ]
+  }
+ ]
 }

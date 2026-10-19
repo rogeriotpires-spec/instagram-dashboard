@@ -1,106 +1,105 @@
 {
-  "generated": "2026-10-18T05:59:46-03:00",
-  "dias": 1,
-  "period": {
-    "start": "2026-10-17",
-    "end": "2026-10-17"
+ "generated": "2026-10-19T06:14:00-03:00",
+ "dias": 1,
+ "period": {
+  "start": "2026-10-18",
+  "end": "2026-10-18"
+ },
+ "compare": "média dos 7 dias anteriores",
+ "headline": "Domingo (18/10): a conta teve 634.917 views (+20% contra a média da semana), mas só 2 Reels foram publicados e comentários caíram 49%.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "635 mil",
+   "delta": "+20%",
+   "dir": "up"
   },
-  "compare": "média dos 7 dias anteriores",
-  "headline": "Sábado com só 2 publicações: a conta recebeu 560 mil views (+19% contra a média da semana anterior), mas o alcance médio caiu 34,5% e os compartilhamentos, 27%.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "560 mil",
-      "delta": "+19%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "7.040",
-      "delta": "−27%",
-      "dir": "down"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "869",
-      "delta": "−7%",
-      "dir": "down"
-    },
-    {
-      "label": "Alcance médio por dia",
-      "value": "146 mil",
-      "delta": "−34,5%",
-      "dir": "down"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "A imagem das 10h48, \"Estar diante do túmulo do professor Olavo de Carvalho…\", foi o destaque do dia: 33.942 views, 45 novos seguidores, 37 comentários, 34 salvamentos e 28 compartilhamentos em 18 horas. Foi o post com mais comentários e mais seguidores do sábado. Os 1.180 salvamentos da conta no dia ficaram 15% acima da média da semana anterior.",
-      "actions": [
-        "Repita imagens de opinião com um fato forte e pessoal no título.",
-        "Responda os comentários dessa imagem nas primeiras horas para manter a conversa viva.",
-        "Use o assunto em um segundo post, com outro ângulo, em vez de deixá-lo morrer em um só."
-      ],
-      "posts": [
-        "DemP7GNt_P7"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "O Reel \"PROSTITUTA CAOLHA?\" (19h30, 78,8 segundos) teve 13.564 views em 9 horas, com taxa de pulo de 30% e 12 comentários. Ele é bem mais longo do que os Reels de até 30 segundos que a análise semanal recomenda. Os compartilhamentos da conta caíram 27% contra a média da semana anterior, e o alcance médio por dia, 34,5%.",
-      "actions": [
-        "Corte o Reel para até 30 segundos ou divida em duas partes.",
-        "Troque o título por algo que explique o assunto, não só provoque.",
-        "Compare o resultado dele daqui a 2 dias, pois ainda está acumulando views."
-      ],
-      "posts": [
-        "DenL30bNUwf"
-      ]
-    },
-    {
-      "title": "Poucas publicações",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Foram só 2 publicações no sábado: uma imagem e um Reel. O dia teve 560.438 views, mas boa parte vem de posts antigos, já que o alcance médio por dia ficou em 146.052, contra 211.011 na média da semana anterior. Com pouco material novo, a conta depende do que já foi publicado.",
-      "actions": [
-        "Mantenha ao menos uma imagem forte e um Reel curto por dia.",
-        "Deixe pronta uma imagem reserva para dias em que o assunto principal sair tarde."
-      ],
-      "posts": [
-        "DemP7GNt_P7",
-        "DenL30bNUwf"
-      ]
-    },
-    {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Testar",
-      "diagnosis": "A imagem das 10h teve mediana de 33.942 views e o Reel das 19h, 13.564. São só dois posts de formatos diferentes, então não dá para concluir que o horário explica a diferença. Os dois ainda acumulam views: um tem 18,2 horas e o outro, 9,5.",
-      "actions": [
-        "Publique um Reel curto em horário parecido ao da imagem para comparar de forma justa.",
-        "Olhe o resultado de novo amanhã antes de decidir."
-      ],
-      "posts": [
-        "DemP7GNt_P7",
-        "DenL30bNUwf"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "sem dado",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "sem dado",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "7.310",
+   "delta": "−29%",
+   "dir": "down"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "527",
+   "delta": "−49%",
+   "dir": "down"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "288 mil",
+   "delta": "+24%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "O Reel \"VÍDEO FUNDAMENTAL!\" (9h45, 138 segundos) teve 23.336 views, 407 compartilhamentos, 52 comentários e 36 salvamentos, e foi o melhor post do dia. A conta teve alcance médio de 287.962 contas, 24% acima da média dos 7 dias anteriores.",
+   "actions": [
+    "Repita o horário da manhã (9h45) para o Reel mais forte do dia.",
+    "Releia esse vídeo e veja o que gerou 407 compartilhamentos para reaproveitar o tema.",
+    "Responda os 52 comentários nas primeiras horas."
+   ],
+   "posts": [
+    "DeotTkCtFuc"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Compartilhamentos caíram 29% (7.310), comentários 49% (527) e salvamentos 25% (883) contra a média da semana anterior. O Reel \"Siga e\" (20h53) tinha 11.891 views, 2 compartilhamentos e 5 comentários com 8,4 horas de vida, e ainda pode acumular.",
+   "actions": [
+    "Reels com chamada só para seguir geram pouca conversa; abra com um fato ou uma pergunta.",
+    "Acompanhe esse Reel amanhã antes de tirar conclusões."
+   ],
+   "posts": [
+    "Dep6Cp9sR_3"
+   ]
+  },
+  {
+   "title": "Poucos posts no dia",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Foram só 2 publicações, ambas Reels, somando 35.227 views, enquanto a conta recebeu 634.917. Nenhuma imagem foi publicada, e nos últimos 30 dias as imagens tiveram mediana de 44.532 views contra 12.718 dos Reels.",
+   "actions": [
+    "Publique ao menos uma imagem forte na manhã de domingo.",
+    "Distribua os posts em mais de dois horários."
+   ],
+   "posts": [
+    "DeotTkCtFuc",
+    "Dep6Cp9sR_3"
+   ]
+  },
+  {
+   "title": "Horários",
+   "status": "warn",
+   "status_label": "Observar",
+   "diagnosis": "O post das 9h teve 23.336 views e o das 20h, 11.891. A diferença coincidiu com idades diferentes: o primeiro tinha 19,5 horas e o segundo 8,4, então ainda não dá para comparar.",
+   "actions": [
+    "Compare os dois posts de novo amanhã, já com idade parecida.",
+    "Teste uma imagem às 7h no próximo domingo."
+   ],
+   "posts": [
+    "DeotTkCtFuc",
+    "Dep6Cp9sR_3"
+   ]
+  }
+ ]
 }

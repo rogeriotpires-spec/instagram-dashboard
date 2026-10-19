@@ -1,110 +1,110 @@
 {
-  "generated": "2026-10-18T05:59:46-03:00",
-  "dias": 7,
-  "period": {
-    "start": "2026-10-11",
-    "end": "2026-10-17"
+ "generated": "2026-10-19T06:14:00-03:00",
+ "dias": 7,
+ "period": {
+  "start": "2026-10-12",
+  "end": "2026-10-18"
+ },
+ "compare": "2026-10-05 a 2026-10-11",
+ "headline": "Na semana, a conta teve 3,7 mi de views (−40% contra a semana anterior); os Reels tiveram mediana de 62.133 views contra 7.470 das imagens.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "3,7 mi",
+   "delta": "−40%",
+   "dir": "down"
   },
-  "compare": "2026-10-04 a 2026-10-10",
-  "headline": "A semana teve 3,7 mi de views, 41% abaixo da anterior, e uma única imagem (906 mil views) trouxe 1.097 dos 3.166 novos seguidores.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "3,7 mi",
-      "delta": "−41%",
-      "dir": "down"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "3.166",
-      "delta": "−21%",
-      "dir": "down"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "146",
-      "delta": "+9%",
-      "dir": "down"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "72 mil",
-      "delta": "−52%",
-      "dir": "down"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "7.234",
-      "delta": "−19%",
-      "dir": "down"
-    },
-    {
-      "label": "Salvamentos",
-      "value": "8.194",
-      "delta": "−49%",
-      "dir": "down"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "A imagem \"Como dizia o TAXAD, quem foge do debate é bundão?\" (dom 11/10, 6h30) teve 906.733 views, 15.661 compartilhamentos e 1.097 novos seguidores. Entre os Reels, \"Hispanic Heritage Gala 2026 - Washington DC.\" chegou a 302.902 views e \"Inacreditável!\" a 200.350, com 14.468 compartilhamentos e 256 comentários.",
-      "actions": [
-        "Repita a imagem de manhã cedo com pergunta provocativa.",
-        "Faça novos Reels sobre fatos que gerem indignação e compartilhamento, como \"Inacreditável!\".",
-        "Acompanhe os 3 posts como modelo de título para a próxima semana."
-      ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DefrVOZMUGw",
-        "DeaQZPRNABT"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "As 14 imagens da semana tiveram mediana de 7.160 views, e três posts ficaram muito abaixo: o Reel \"O PROFESSOR É UMA AMEAÇA!\" (738 views), a imagem sobre a Globo (1.513) e a do papa Leão XIV (1.985). Os compartilhamentos da conta caíram 52% e os salvamentos, 49% contra a semana anterior. Posts muito recentes ainda acumulam views.",
-      "actions": [
-        "Publique menos imagens de opinião soltas e escolha a mais forte do dia.",
-        "Evite assuntos de nicho sem gancho de indignação ou pergunta.",
-        "Revise o Reel de 45,4 segundos: ele teve taxa de pulo de 40%."
-      ],
-      "posts": [
-        "Deh8WzvtR28",
-        "DejZbguNSy6",
-        "Deb6SlYNJ2P"
-      ]
-    },
-    {
-      "title": "Reels contra imagens",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os 7 Reels tiveram mediana de 56.522 views e 155 compartilhamentos, contra 7.160 views e 24,5 compartilhamentos das 14 imagens. O tema Política (7 posts) teve mediana de 56.522, e Opinião (14 posts), 7.160. Na semana, o formato que mais trouxe views por post foi o Reel.",
-      "actions": [
-        "Mantenha ao menos 1 Reel de Política por dia.",
-        "Reserve a imagem para o assunto mais forte, em vez de publicar duas ou três por dia."
-      ],
-      "posts": [
-        "DefrVOZMUGw",
-        "DeaQZPRNABT"
-      ]
-    },
-    {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Testar",
-      "diagnosis": "Os horários com maior mediana foram 19h (106.957 views) e 21h (92.349,5), contra 5.179 às 7h, 3.642 às 8h e 4.693 às 12h. O 06h (906.733) tem só um post. A semana foi diferente do padrão de manhã cedo, então vale testar mais noites antes de mudar a rotina.",
-      "actions": [
-        "Teste Reels às 19h e imagens às 21h por duas semanas.",
-        "Mantenha uma imagem às 6h30 em dia de assunto forte."
-      ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DeaQZPRNABT"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "3.153",
+   "delta": "−24%",
+   "dir": "down"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "138",
+   "delta": "−7%",
+   "dir": "up"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "67 mil",
+   "delta": "−51%",
+   "dir": "down"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "6.580",
+   "delta": "−32%",
+   "dir": "down"
+  },
+  {
+   "label": "Salvamentos recebidos",
+   "value": "7.690",
+   "delta": "−52%",
+   "dir": "down"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os 8 Reels tiveram mediana de 62.133 views, contra 7.470 dos 13 posts de imagem. O Reel \"Hispanic Heritage Gala 2026\" (qua, 21h36) chegou a 313.791 views e 2.963 compartilhamentos. \"Inacreditável!\" (seg, 19h) teve 201.596 views, 14.589 compartilhamentos e 260 comentários.",
+   "actions": [
+    "Mantenha ao menos 1 Reel por dia sobre o assunto mais comentado.",
+    "Repita o formato de \"Inacreditável!\": título curto e reação direta."
+   ],
+   "posts": [
+    "DefrVOZMUGw",
+    "DeaQZPRNABT",
+    "DekfWuXNS39"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Todos os indicadores caíram: compartilhamentos 51%, salvamentos 52% e comentários 32%. Os piores posts foram \"O PROFESSOR É UMA AMEAÇA!\" (772 views), a imagem sobre a Globo (1.626) e a imagem sobre o papa Leão XIV (2.028, mas com 22 comentários).",
+   "actions": [
+    "Evite imagens de notícia de fim de manhã sem gancho; as duas piores imagens saíram às 8h15 e às 12h.",
+    "Cheque o título do Reel do professor: 41% pularam, e ele teve só 1 compartilhamento."
+   ],
+   "posts": [
+    "Deh8WzvtR28",
+    "DejZbguNSy6",
+    "Deb6SlYNJ2P"
+   ]
+  },
+  {
+   "title": "Seguidores",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "A conta ganhou 3.153 novos seguidores (−24%) e 138 saíram (−7%); só 6 dos 7 dias têm dado de seguidores. Os posts que mais trouxeram seguidores foram imagens de Opinião: o do túmulo de Olavo de Carvalho (sáb, 10h48) com 73 e \"Você conhece alguém que prometeu acabar com SIGILOS?\" com 26.",
+   "actions": [
+    "Use imagens de Opinião com posicionamento claro para atrair seguidores.",
+    "Acrescente um convite curto para seguir nos posts que passam de 40 mil views."
+   ],
+   "posts": [
+    "DemP7GNt_P7",
+    "Deh_rUstC5a",
+    "DedCyqss4O6"
+   ]
+  },
+  {
+   "title": "Horários",
+   "status": "warn",
+   "status_label": "Observar",
+   "diagnosis": "As medianas mais altas foram em 19h (116.647 views), 21h (100.933) e 18h (92.567). As mais baixas foram em 22h (3.329), 14h (4.208) e 12h (4.807). Há poucos posts por faixa e idades de 8 a 154 horas, então trate como pista.",
+   "actions": [
+    "Concentre os posts principais entre 18h e 21h.",
+    "Evite o horário de 12h a 14h para conteúdo importante."
+   ],
+   "posts": [
+    "DeaQZPRNABT",
+    "DefYvipjdwR",
+    "DedCyqss4O6"
+   ]
+  }
+ ]
 }
