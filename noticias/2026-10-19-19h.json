@@ -245,6 +245,13 @@
      "camp": "centro",
      "position": "secundario",
      "via": "coleta"
+    },
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZzdtaU1IdVJ2WGRQM2NKbElMdnVTTXdPRFlKZjhDbUs0cDBQa0Y1Q2gzTzdlS1ZkYTZrVjB4cFU2UV93OFhDdmc3d0k2Nk5pd2lRRkQxN1hxMENBbVoyWC0wV0VWSVJ2THhhUUJpcnBYXy0ycUNMM2otbUsySmtwb0M5SXdBZWZWTjN2R2VwbUJxU0J3RmcwZ2dOeDR2ZGozeWt2ZEVaSG14NkRnNGI4OVR3TndVclR5V3MwY1NadTFZanhXOVdhUkdlYzVIWmhmV0lZdWR4QWQxRktVSFk2X19Lclh0WXBia1o0?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -779,6 +786,13 @@
      "camp": "regional",
      "position": "editoria",
      "via": "coleta"
+    },
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdUtTVEZoeDg0WmpLcTZmc0RzdEZhZUZrZVB6dHZDWjFTcWpsTHlvcFVxejl3cU92NU84bUZLWTVFMmQ1bDU3SlFUWXVaR096NDBtTTBJZWpRNXM0bHY2b3JWUXhZSi1ZdUg3bzBTdUdNbU8yelVTZnJvTXZreGxEYS1uUjNRWlI1STJVMnYxRFB2dUg5NFg0WDdaNUgxMEJDWEE0Q3BoWFRyMW5fc2xsd2ItbnpIWXdDak9R?oc=5",
+     "camp": "centro-esquerda",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -936,6 +950,13 @@
      "name": "O Popular",
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaUQybVp6ZGdEWEV2MTBTYzVJa2ZWdU5NSEtYSlVSR3RJMFAzbl93T0NhakFjOC0zNnpWZ3F4bmlIblMyb2hyZHdpc2twbFdVOERQdnRROW00RHlMeFpSUENadE54aXFsa3dlZFNjemVfbFV0NUlISTJ4ZTZQVnJ1LVY5R1FYZG1ybnlhNXptVzNVYkI1VzhFbGtIeElURXFKM2FaOHR2WUJIRS1VTWNlVnB2SFpDZDVrTjZJN0dHTUFaSXhLVGc?oc=5",
      "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPelllZmdXdFhPSW9rbXNOenBJRG1BTjFQcE1uV2dFRzJZdmI1LVp6dzJGeV92QUowd3Z6VDd5elc3YmFmelQ0UlNncVdFQTlxSnlmT3liWDM3S2t3c0xrZWFVZXlNd0Nhb2ZncHl0Q2NZeWdNOHFUWFRmdkVLSWhlM3UzcUJsVzBhcjNTY2V0MjVhd2FGTkIyd3N4czdyb2pIZ2h1SVd1OVVtRlh0dXVZ?oc=5",
+     "camp": "centro",
      "position": "editoria",
      "via": "coleta"
     }
@@ -1213,12 +1234,12 @@
    "title": "Focus reduz a projeção do PIB de 2026 para 1,83%, IGP-10 sobe 1,76% em outubro e FMI projeta PIB brasileiro de 2,2%",
    "summary": "O boletim Focus reduziu a projeção de crescimento do PIB de 2026 para 1,83% e manteve a inflação acima da meta. O mercado mantém a alta do IPCA de 2026 em 5,22% e elevou a de 2027 para 4,32%. O IGP-10 subiu 1,76% em outubro e acumula 5,02% em 12 meses, segundo a FGV, acima do esperado. A FGV estima que a economia cresceu 0,5% em agosto depois de dois meses de recuo. O FMI projeta crescimento de 2,2% do PIB brasileiro em 2026.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 9.3,
     "destaque": 6,
     "persistencia": 7,
     "peso_voce": 8
    },
-   "score": 7.3,
+   "score": 7.7,
    "outlets": [
     {
      "name": "Folha de S.Paulo",
@@ -1384,12 +1405,12 @@
    "title": "Agricultura confirma doença de Newcastle em granja comercial de perus em Santa Catarina, e acordo com a China prevê autoembargo brasileiro",
    "summary": "O Ministério da Agricultura confirmou um foco de doença de Newcastle em uma granja comercial de perus em Santa Catarina. A detecção ocorreu sem sintomas nas aves e levou à interdição da granja. Segundo a ABPA, o acordo com a China prevê autoembargo brasileiro em caso de Newcastle. A confirmação foi divulgada nesta segunda. A CNN Brasil explicou o que é a doença, os sintomas e como ela é transmitida.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 7.0,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.6,
+   "score": 5.9,
    "outlets": [
     {
      "name": "CNN Brasil",
@@ -1725,12 +1746,12 @@
    "title": "Governo Milei lança plano de demissão voluntária para cortar 20 mil cargos públicos, e trabalhadores reagem",
    "summary": "O governo de Javier Milei lançou um plano de demissão voluntária para cortar 20 mil cargos públicos na Argentina. Os trabalhadores do setor público reagiram contra a medida. A Veja lembra que dois em cada três argentinos dizem ficar sem dinheiro antes do fim do mês. Milei também foi citado por Lula no debate da Band e provocou o presidente com uma caricatura. A economia argentina virou tema paralelo da campanha brasileira.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 7.0,
     "destaque": 4,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.1,
+   "score": 5.4,
    "outlets": [
     {
      "name": "O Globo",
@@ -1945,12 +1966,12 @@
    "title": "Alcolumbre desiste de pautar a PEC da Segurança antes da eleição por falta de acordo sobre maioridade penal",
    "summary": "O presidente do Senado, Davi Alcolumbre, decidiu não pautar a PEC da Segurança Pública antes das eleições. A proposta chegou a ser cotada para o plenário na terça (20). O impasse é a divergência sobre a maioridade penal. A votação fica para depois do segundo turno. Alcolumbre também desistiu de convocar sessões do Senado, em linha com o Planalto.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 8.7,
     "destaque": 6,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 7.7,
+   "score": 8.0,
    "outlets": [
     {
      "name": "Metrópoles",
@@ -2256,12 +2277,12 @@
    "title": "Suspeita de bomba em carro da equipe de Flávio Bolsonaro depois do debate é descartada",
    "summary": "Uma substância encontrada em carro da equipe de Flávio Bolsonaro acionou o alerta de bomba depois do debate da Band. A suspeita de bomba foi descartada. O diretor da Band disse que tudo terminou bem. O Brasil 247 informa que a substância é usada no processamento de cocaína. O caso foi noticiado nesta segunda.",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 8.0,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 8
    },
-   "score": 5.7,
+   "score": 6.7,
    "outlets": [
     {
      "name": "Brasil 247",
@@ -2282,6 +2303,27 @@
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMGVvcU1uZzY5VUFsTlZiOHZBdDB0WkFCcEROUDBrMEhzWWwySE5yTTloSUFXcVFOak1ZRVdaMkxvSmtzR3pVbnR0UTgyWFpKTElrOEsxNnFmWU1HSXFMelN6TWhaYVI3RjNYR282WS1oYm5GcEFUSmFZUkhacDkwR1NlNFdnQ3Rid3NRZHJOUXNTdjdNV2FCbXd5Y0VneWlYQjJhV0ltMnd1VTJqekVjQWNfMW02QQ?oc=5",
      "camp": "centro",
      "position": "secundario",
+     "via": "coleta"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPelllZmdXdFhPSW9rbXNOenBJRG1BTjFQcE1uV2dFRzJZdmI1LVp6dzJGeV92QUowd3Z6VDd5elc3YmFmelQ0UlNncVdFQTlxSnlmT3liWDM3S2t3c0xrZWFVZXlNd0Nhb2ZncHl0Q2NZeWdNOHFUWFRmdkVLSWhlM3UzcUJsVzBhcjNTY2V0MjVhd2FGTkIyd3N4czdyb2pIZ2h1SVd1OVVtRlh0dXVZ?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQalZfMHlYd2NHa3hVdkxndDFlcVZOS25yN1o2c1RScHozLUJIbkJfYllwOHdiQzF5NllHdzJkdmNQZ1FSZ3VaZjkwUlNhaS1HV0txcEsxQWJCYk02ZWREaDFMTDVZLWdLRnlyQXRPcENlZzRLMktWeUtVTmFhR2dfQlluMTY0aDhVS2FpYTZXUUV5QQ?oc=5",
+     "camp": "centro-direita",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNT1A5WmVRZE1WVE5kU1I1NXY1TVdJY3ZaVmRLRjNOQjl2QW9UMlRERVpPU256MVRVQ1NUbjFPOERlS2ZkR2N4LU5CMGFzWWlwRWFDUHVualMwbkJXTjF1UXM5eDRLMjdWS3h4XzlnN1VLdzJlcDBTRWxLQTFVUTNIODdjbEszMDgtbEM2c2ZVcV9SbHkzckZfTkJVR09ITUJYQ2xyR2VBV3RTZVFuZGdOWFpOck14X3VmSWNEVkE3aU84bmlPWFBPYmRuRXFfQTN1TVI4UXJB?oc=5",
+     "camp": "regional",
+     "position": "editoria",
      "via": "coleta"
     }
    ],
@@ -2358,12 +2400,12 @@
    "title": "Pé-de-Meia inicia nova rodada de pagamentos a estudantes, e licenciandos poderão receber bolsa de R$ 1.050",
    "summary": "O Pé-de-Meia iniciou nesta segunda a nova rodada de pagamentos, com a sétima parcela. O programa paga estudantes inscritos. Estudantes de licenciatura podem receber bolsa mensal de R$ 1.050 pelo programa. A proposta de um Pé-de-Meia universitário foi apresentada por Lula caso seja reeleito. O Guia do Estudante explica a proposta.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 8.0,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.6,
+   "score": 6.3,
    "outlets": [
     {
      "name": "Extra",
@@ -2390,6 +2432,20 @@
      "name": "Guia do Estudante",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFRWdUNrNFZaVWUyZ1BIbmZCTWNMaEVlVXpCMHUxYlJDZUhzWXFKTEdFX05sODBhTWdDNVlZUXd2Q1FDZFJzRnRCVHJjbEJuX0o2WHpjR0dLMTJwUHpZWldDVUlZSVltLWMwdFJZNmNIclhjYUVoZWNVaUlWeklKTWE0UGR2QUJRUklmRFJRcGVPZDdNNzluemtBTElkM1Rsb0p4VVc1bXQ4RHd4RlJ1MGZlcnlUbTBs?oc=5",
      "camp": "outro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOTNiNzNhUHBGWWJ5NnVnYW1qbDEwUXNLdnhiNk9MeFpGSVd2akF6MkdGUnEwbEctTmhQSEM3bzVKN1hTSnVVWHVxQ2k2TXZwR0cyRE9zLXYyQkUyTGxUSjRLb202c2xTS05OWEpvZ3BMd1g1dmQzdzJQeVlCTXAxU0VqSlRiTU0yR1NZSDlGMGM5ZWhzX2E3ck42dTRrcnVLWUxwdWJiUDJwN0FGT3liZzZUU0c5RUZ4QXc?oc=5",
+     "camp": "estatal",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN3JNU1duejlZS1FPYzRuWkFXajB2dmpISHpaaXFxVFp1ck1yYXV6Z3N6NlVnSUxKMXJDV05qcTY3MXJLZXo3bG5MX1lLcjNfTkFnbzNFTlQ0dGRfMVVaTGlhcG5XTThUcjc4OTg2Vk5YTjU3YlpsdlBvVW02OHptdGQ1UURxWUNrSzI2MkwzQnBfMC1WbmNmRWdzOFctZXVnWUgxdmxDZXBZNXJFdk5Kam44WGJoMG05?oc=5",
+     "camp": "centro",
      "position": "editoria",
      "via": "coleta"
     }
@@ -2757,12 +2813,12 @@
    "title": "Eduardo Paes declara voto em Lula e prepara ofensiva nas redes, depois da derrota para Douglas Ruas",
    "summary": "O prefeito Eduardo Paes declarou voto em Lula e disse que nenhum presidente fez tanto pelo Rio. Ele prepara uma ofensiva nas redes sociais pelo presidente depois de perder a disputa para Douglas Ruas. Paes responsabilizou Witzel e Cláudio Castro pela crise de segurança do Rio. Moradores de favelas do Rio também declararam voto em Lula nas redes. O PSD tenta, na ação no STF, levar Paes ao segundo turno.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 10,
     "destaque": 4,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.7,
+   "score": 6.4,
    "outlets": [
     {
      "name": "InfoMoney",
@@ -2819,6 +2875,13 @@
      "camp": "outro",
      "position": "editoria",
      "via": "coleta"
+    },
+    {
+     "name": "Diário do Poder",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeThLa0w4VVc2V1MtVzUwdF9FWUtEa3BIVGRXaWxQNmNpTXBxeTVTVHMxUXltaXNxSWwyV1RseXE3NUlJSnVseFZ3OUlYSlNHS2lBV3dZNmxaY1o3Uk1mZmdHWjgxLWpxTURSZDFtcmlDSnl0SEg0cnpFUXpiRThLQUJia0FRdjBHVThIVnFsSGdJa2RIWDBrUDFQdFk0TTQ0d3M2NTRDb0U1Zl9Zc0Jka3FsQktMZHlNVmxvbGtuUjFzMHIwblVoS3Fsdi1MX2ZKSmVNem1mRdIB3AFBVV95cUxPS0lEckxkWmZFdHoxV2F1b0RDM2ZWdWZFVGVtZXpweWRkTHZlc2tMdmc0Qld0MUpGZDZxT1JFY2V0M242N1JBaTNFZHp1dXVDLURJcEdBc201M0NmS2pYcDBxUzE5TmpLbzdxNGtnOXg5dWx6a1BBM21NSmdHalgwT3ZSZExQRTlaU3laUlUwMW1TOUl5bnhzbk85WjBqUkczbjdYR1FGQUpKeWxES3NEV1Bid1lVX0dsNXU3WHljUnA0MkplVklJQURWczBXR1dxdVBzV2I2UkVWaUdn?oc=5",
+     "camp": "direita",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -2832,12 +2895,12 @@
    "title": "Prefeitura do Rio exonera servidor do Procon Carioca suspeito de vazar operações contra postos ligados a Canella e Amim",
    "summary": "A Prefeitura do Rio exonerou um servidor do Procon Carioca suspeito de vazar informações sobre fiscalizações. As operações miravam postos de combustíveis ligados a Canella e Amim. A exoneração foi divulgada nesta segunda. O caso foi noticiado pela imprensa carioca. O servidor é suspeito de vazar operações do Procon-RJ ao grupo de Canella.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 8.0,
     "destaque": 4,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.1,
+   "score": 5.7,
    "outlets": [
     {
      "name": "Diário do Rio",
@@ -2864,6 +2927,20 @@
      "name": "CBN",
      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY05SSlRfX01WeGpBQnNOQS0zOGtEZVljZkpfRVl4dzhRYmJDNDFuNnkwUUZzWWE0ZTF1dG1kcTBiR3Q2dHFxWXRnbGozX1JpZ1dYdHFtMTdnZnZzRnVvX1AzSWl6Zm9UeGpiQ0IzYnhVQkVseWM1NlUzVlFobUgwc3FucThnOWhmV1RkdXhaRXFKNWR1SzFCQVhpQTBfWUFDZ3J1aFdlaUlSWFZsS29LT2s1ZlJVdWV4MjB5MXFEakJKaEQ5cllRcG9OMF9MV1pVeEQxZ1BhSnhmMHJIVTlVVlNhWVJsUdIB9AFBVV95cUxNUE1adF9JVVgyV2R2SGJmQmhra244Ujg3c0xRZThvRmluRzFsZmNZTjlyazRnTjgyUmdNUERfdWRZanRrMTR1a2tNM1NmVVVjS2Via3VuYUxVOTU4RXpzTWFwUDRYY29aam9YUUVKNU5SUWtSTWgtQlZkNERXb3RvT2lYTURVa2pndXlyMzhTRDFXR3Mxd2UwOVpBX2Y4ZzZpVVlsWlY0bUV3WDlHcXRwbHBZdk85b200U005VTBJQWIwTXFpMWtSNVQ4ZHFHUWNIenY2bVZsT05ZT1pmcVpsRVhCaS1FRHM3a2cwYTE5SDhxZkNy?oc=5",
      "camp": "outro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcHN4QmRHSmo3dFI4RjFXYmkyR0lKalBkMmsxZ0hwWV9GZUFnckp6cWtIUUY0NGU1NlRFaFUySHIzazJkQTZyemVnbUxlTVBYRkluOHZodFBDZm1kSm1YdXI4Q0NWSXNkSkNRdWV5OVRaNzdMNTY3SjJHYnVabXNjZXU5UDdPSDg4b21lSnFRZHhuZmRnT0trRVE1RVhycmlSbjBvUG9CeUlCM3NlS2wyUGhXeXMzNXM?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "ND Mais",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ0p0UDVJZUFPWTJZM1J1Z2NaemQ4Y3pWQl9FSzdsM0xGa3pPRzVlMjd5cmw5X3ZjU1lBM2R2UlNvaHEtUXNCa0dtR2J0bGQ5N3BnX3dKOXZvU1cxbGpLWmlKQmFkVFpGWU5jVno4ZmpFbUkzU3hJMVBfamdUbDF1TGhFRVlMSUNuand0NzFIY3RLQVlQSERV?oc=5",
+     "camp": "regional",
      "position": "editoria",
      "via": "coleta"
     }
@@ -2940,12 +3017,12 @@
    "title": "ANPD dá cinco dias para a Meta explicar bloqueio de contas e remoção de publicações",
    "summary": "A Autoridade Nacional de Proteção de Dados deu cinco dias para a Meta explicar a suspensão de contas e a remoção de conteúdos. A medida atende a denúncias de censura a usuários nas plataformas da empresa. O pedido acontece em paralelo à decisão do TSE sobre tratamento igual às campanhas. Entidades convocaram ato na sede da Meta em São Paulo. A cobrança foi noticiada por portais de diferentes campos editoriais.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 7.0,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 8
    },
-   "score": 6.1,
+   "score": 6.4,
    "outlets": [
     {
      "name": "CartaCapital",
@@ -2994,12 +3071,12 @@
    "title": "Elon Musk promete dar ações da SpaceX a cada criança dos EUA",
    "summary": "Elon Musk prometeu dar uma ação da SpaceX a cada criança dos Estados Unidos. A promessa vale para 2027, segundo a Exame. O Poder360 registra que Musk diz que doará as ações a crianças nos EUA. A promessa foi feita nesta segunda. A notícia foi replicada por portais nacionais.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 7.0,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.6,
+   "score": 5.9,
    "outlets": [
     {
      "name": "CNN Brasil",
@@ -3330,12 +3407,12 @@
    "title": "São Paulo, Atlético-MG, Grêmio e Inter recebem prazo para pagar dívidas sob risco de transfer ban",
    "summary": "São Paulo, Atlético-MG, Grêmio e Inter receberam prazo para pagar dívidas sob risco de transfer ban. O Atlético pode sofrer a punição por dívidas com Santos e Bahia. O Santos alega dívidas não pagas por Botafogo, Ceará, Fluminense, Vitória e Grêmio. Ceará e Fortaleza correm risco de novo transfer ban se não pagarem. O transfer ban impede o registro de novos jogadores.",
    "scores": {
-    "cobertura": 6,
+    "cobertura": 7.0,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 4.9,
+   "score": 5.3,
    "outlets": [
     {
      "name": "Estadão",
