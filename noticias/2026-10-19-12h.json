@@ -1,0 +1,2285 @@
+{
+ "generated": "2026-10-19T11:36:09-03:00",
+ "headline": "Pesquisas da segunda-feira mostram Flávio à frente, TSE aperta a Meta e limita Nikolas e Marçal, PF prende 19 e bloqueia R$ 558 milhões do CV no Rio e França adota toques de recolher",
+ "top": [
+  "pesquisas-pos-debate",
+  "luchsinger-delacao",
+  "franca-protestos",
+  "pf-backbone-cv",
+  "bolsa-familia-reajuste"
+ ],
+ "items": [
+  {
+   "id": "pesquisas-pos-debate",
+   "segment": "politica",
+   "title": "Pesquisas de segundo turno mostram Flávio com 50,3% a 52% dos votos válidos e Lula com 48% a 49,7%, a seis dias da eleição",
+   "summary": "A BTG/Nexus mostra Flávio Bolsonaro com 50,3% dos votos válidos e Lula com 49,7%, enquanto a AtlasIntel/Bloomberg registra 51,1% a 48,9% e a PoderData/Aya, 52% a 48%. Na Atlas a diferença caiu para 2,2 pontos, e na PoderData Flávio reage e se distancia de Lula. A desaprovação de Lula é de 48,8% na Nexus, de 52,3% na Atlas e de 50% na PoderData. A rejeição de Lula é de 47,8% contra 46,8% de Flávio na Nexus, e de 48% contra 44% na PoderData. O Datafolha divulga nova pesquisa de segundo turno na quinta-feira (22), e a votação é no dia 25.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 9.4,
+   "outlets": [
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWV1NExjdEhpRzJ6dWVqLUdTMEhWdElrYjlKRWZPaW1rN29RZE80VDlxZ3Zlek1ycVZxWGlsVWc5NkcyMzk3emhBblVLR0RQLTZTWklfZzB1QmFkVXZVRk1fV2YtUW1aTzdQLWpkT3JVdmNpYkxHWWgtd19TLS1NMTR3MDhBVXAyVGlNR3pUcTRWc2hPc1V3dEllWm5yaDNlRUJpbFgtQVM0M2JuenpoTjVB?oc=5",
+     "camp": "centro-esquerda",
+     "position": "manchete"
+    },
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVc5VndrQ2FDQ3B0ZDJKalJ5aE9sNVVrTjJZVUZVVVJyQkZKMG14MDJqTVFtb1Q2VnRncUsydjFlR3NLU0pWdjlkVFdON2xVTEZCZUR1OGZIOFNhSnFaSTVzNk5NOTRJaXU5TDBFU3RKWjdsZG9UQjUxaWtla29XbE5Bam5qd05ZaTlqTUxaQWMwb2p2T1B4ai0tZFR6UVNTMFJZ0gGoAUFVX3lxTFAwVFF0YmdFa2VpZEpac3V4LXhXZ3RjQ2lKaG1rRlROY0xRSTl6NzRlbFhodE0yaFdkOVFvNkZGSWlYVUdseVR1TlZ4amNxTlVIRXRVZXBKRXM4TlRIckl2ei1UTmNDS1hMS1dFeTQ3NWZYSjJFbTdtQl8yVHVsMGM1VHpyd3MzRUE2QzJlMGM1eGlKbHhMMWRsMmZHWW5aU2RBWE83MjlPbA?oc=5",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZTk3QkxBQXFjMERNVkxBRVFzQy1yVUR2V3RMZGlFNlZBQTFmM2tGNGN1M2F1bFNXdVpsVkFqVUk3cWNIbzNvdmgtNm5XX196WTNtWDZIaVBGV1F5UUNhS0FvYjJFNnFPSEN5VG9iVHdFSE52UDhvSmJZeDk1aGN3UE54U2RZZVpXTEhxRnF3ZjgyaXVieUs3U01QbUUzdw?oc=5",
+     "camp": "centro-esquerda",
+     "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYmdBdHREdlNJYmZNWTdoU3R5a1JqOENSa1AtMVN6elJpbTR2OUNfOTZVQTV1d25CMEh2RFROQmNmak9pMzNXUlFDbW9KS3BTODkzNFl2V2ItdTZWcnRJMkJBa3VTQWxOU1FuR3dhUGtoVUhkSXVhZ3ZPdUhZVGlENDFjNXE0SFlkeEowNGFyeU5EbENla0o1TGpTUmhrbkFQa0VtVWR2SQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYkZTcW9BcWlvTS1ZamcybnpDUUQ2dFowYXpGblRhcHBmMWpLV0RVOU0xa2FZc0FWajRyUmtUTEZzVFJRU2F2TUE2U1BHaElNQmdQSnpSVHFiNXRaNURLa2hEVEM3VzRUZHF1aWFicHQ1elludXhQV1l6bVJSUzdxSllsT3JGSHBETnZmdVFoRFVrbHlJd09JODA0VWxiWDRrN1VwdWpyaHY2VjRj?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNTdtS1ZkSW9KNEdIeUJ5YUF2NmtTTW9LVnA1eHZWMXBqbGJwc2p2cHlTb1V3SDlFcFhIbVliR0VoN0VOZEJkaTh3M3Q3WnBGeW11OWxrODdKY0xfWi1FdkJRUVB3a1EtbkU3eWkxSWdoM0lZUkpFRXZQZ3FWdmNNMDltNkZUZllBbEhBS0hRaE1DWHlf?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkNsRWFEbzZQYW9qMk9OZHYwM25haHdVNEI1NXJ6dVhELUtPNlh3V2RDZUVxUTlPdW5LTll2NkE1SDcwX09oNFQ2S1lBVWRfaXBaMWhZZWlJVGlpUEZvamlCMlA5cFBJdnNHUzNUbGd6RTdGWnJTUUFvSGd0blFuQl92X3hkVlAyRmFrR0FYczNFMUZfeXJPRjhhaEc5OWdmMkIyOWliYm5MTzNzdFJUQm1NM0xUcDVrZkx30gHAAUFVX3lxTFBTRFJkeXE5OVBEME4tNm9LUjg2ZVhnczRrSkxjM1NxbGI0ektLVG5hMWg0VVp0RzFGLVZwS01YX0hBS29WYWI2dVd3ZExTTVNOQW8yYW9XUlVPaTVBb042MWlQRlE5d0s3aER0UFFOc0pHTXJXQXhfeHRfRXdLRWdQOVBGWTNZTWdHaWtIc0VfY1hhSmZyWS11MnlXb2hzQ3JraC1SLVpDcUk5ZXJGTjk2eWg4b2JhLUhyNFJoWXJNSQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSTdlZW5fMFdId0pob3hHcnBzMmhxMFo3dkQxODNMSi1uOVZTNXVsUm1qU256ZHktdDA1NzBxVUZEZ3ZkQzlqRDJoY1BGZEJLc0Y5T0w2OXR5WXNQMnJVWEo3c3YzS2pFTVlPbzlHSXhQOWVLR3QwVFA3cFNPZkZ1WGNORUxnX0RtXzlKQzBDWGY3ZnpwQVE?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2tNVmtPa2VqT3F1UnZGU2RDWkVRaWlHcTdoQXplUVZzWDc3NjlwandZV0NadEluZmJ5OFl1LTVKam1rSFFpNTM4bzJ6YkFhSUlfdXZCRlpNRWdBYmgwUllIQ2pLS21FTzZzVGJzQnBHNzBONzI0UkpPbGhLSC0yV0pZS1FvOUJMdS1HYVpSOEhubGNJeXdZ?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQnpDWnl2RFlLUmt4VEVXdW8tdzRoNkJNcXc3WXNwcE1neFZ3TWh4cHN4U256dEVyMXc3c21jZGhwZDlJVF9aYlhaNXFBcHotb25HUzlSeHlneTlPODl4QnRKalljdE9xeldGREttcFpPVTBvZTZGQVlkVm5RQS1QRFh3Z0pRLVlvcTZkRWpqbXIxU3NvZ1RiUVpoX013am1ZMkdEMDNNNGd2a3lRVGdZLVFoMWUzQWpXWjQ1ZV94MS1rUG9SQnBN?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMk1KNXV0OENvbjNpV0xrWE5CQkhtdndScU1hbkh0VkhPR1BsOExTNXNLNl95TUxtcG56YXNIRFVxMW1GWmwwMVNNbDBtcXBwYlg4SnF4MUQwX1VSaTVRS1N6YVozYTI2OGVKa1RxdmktS3k1UHp0MzZmNE8xRElQcU44VXZ6c2xtOFhnYmlENU5qY0ZsUzFZ?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWGNJaExCdUpjckR6d05YRHQ3UnBseVFXVk9TOFRfLVRGNFdPVjNzY2lweXVoN0ZqX0pKWkhLNXhwY2FPNjBVSzFlWmpRN05acjQ3cUE1Qm1WLXJ1OS1QaUkyRWJydmtKRjl0dzdpdEZ1c2VMS3laT1c3VWRzdmJYekxSck5YRHU4VmFHakhIT3FWdEplcU9ROHFZWXZkYlJpbDFiZ2tHV2FubzRQcmhVQ2I1TkN1NGdSZUc1WTUtY21tbGVucldsdjBmU05JUlk?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOGM1MmVRenVmNVppU1hKcHk3Ylh5VTI1a1BDWjBDN2dTc1E2NFVoU2xEQ182RDBHa2FKQ0tzN2dsTWh5RTJ5d1RlbG9Oc1NrdEp0ejB1SXFMUTllNi0wd1BjWEJpWjlYaHZWSVhLMXVsNzdqS3dJRlFGOWhnVVBTOFJYWnY0LW03TlNUaW1TVDVjNkdxQnJTaGw3UDdaU3RlLU5OZ1hHU3ltWG5SWmfSAbYBQVVfeXFMTnVNZC1jYk9JUzFvcjN1dHBQaml2Vzc3OTktajRnczFCUzVSVUJHS3JWSGVmS0VNRU96MzVSanJvS3BWaENzT0tNUzlldl9RWDA1TWZ0MVJxZ2FZaGdMbFhuRUx6Q29KYjk2V0MwSnVmN21FOWpxVTJrR21wUFM0bmxjMHc2b0VlMm54MEpoQzVESjdsVkFBd3dYWWk3d29peHFIVjByYnp4STZyM3lhbVRZS2I4NHc?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Poder",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcGpURjkzcHpKVHhvQl9DSWs1VDhqb1pEUEhHTERDcjR6a195WlJiTnRkUmRpcHVFN1I5TzMtNVlSaF9rN2RJVmJtWlQ5TmZiVkhqcENYUWRMME9Pckh2U0daemI5Ykt4NDVHRGFlMEJ6bS10TmNrWkxmdzVWVWxGTk01REVPUzZDOGtjdDhSa2UycW5YWEhoNVdJRHVFZ3lrNXJGdtIBqgFBVV95cUxQc0xzbG91dkxRdFFoMGJIVTRzbnl4UDJ5eDhOZjN4bFF6eDBIYldoYmRhSG52QlZXY01sVmlqalFtUlRXLVktcjRLVUhYZTBYQjZXYzdXdURYUWRSVF9NTzRUd2c5aEhJX1g4dXVUYzM3SEprS3FpWmVXclZ0aGxLQS1ZMC03WTJGRnBvY1BoT3owZ1RzSkVCR19wZFRjR2JJN0RJVUM3anZ0UQ?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTlQNHhUOUZSX1FJMlhCVFZHSFVZTTduS1RoQW9GeGxxcEVsNG5Nc1IwZUpWNk5fR0JPZzlyTERTdVVxbklSVTNGYUtEOXUyS0I2a21xdm5OanlZcTkwOXVjVHVuXzYzbHJrUnh3dk8tM2NaNXNGNE9JMS1KYVJCWHV6T2w1UXpEQW11SVd1ZmdUX1JXZW9qTTlBT2trYVJCUHE5RjJucU5jV0YxSWhn?oc=5",
+     "camp": "centro-direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOLUxxR2JUN0VVc0Z2TTFKaTlqMlpsM1NOZVhjWlAyWElTZVlFUmkyVlZtWjZiUG1fUTZMb3E5cVBTNXdPWHlIcE51cTJkckxRUG9GOV9hMFdJT0FLajdBSnJnaDlYZ3RxQnN4RVJrbjUwVmp3T3Y5ZkdBVnh3QzExSWxSV0hudzBkMFVacGxxLVFmNXk0dzFXa2lZdWFQT3N5aVRsN1o3TnNRalVyeE5zUjhEd05PV1VYZlFQQ2FNYUkwWEpzcUhOMGl0b3FUU2lVQnlyN09Vc0dKS0d1eTdtRkhmT1ZkUzFpa1VnaE1CYkxpZGZXZlc3amN2YnU2U1cwaUJ5bnpPT0REYUdXenAzQ3h3?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObTBOamNwVnZhbUNfeXNfMzZpV3NMTzFVR05PeXBQUE5oVW1nUVhOdENzZ0NoTHNaM0dPOHdlU2hlTlJnckM3QmhCcW1jQXcwZGtpaThOeWZDMjBiMkJaRGpxNXNLb2QtbFA4WTlNVU55eHdVdDNlOXpNWDNfcnloZHdydmhfUHFuM1YtOFRCdFllbWRkQndxWko5b3RkWlJD?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd3dNSk53MU9iRWRHM09vLTRkN1V2SW5CY1lzTGlxck5HZW5rNk51a1k4X2xQY3RkOWxrNXAzamNyVFlkbTFDcy01SUt3WlhaWFg2VUZwMU5EbWFhcUNrNTE1NnBRVVVERmVoaFg0V0kxLVpKblduNFBOcllOYjczdXZHeXZkNFVPUXFrTHNWUGRGdDhUcHUtNVRWejJ6alRBVUh0al9ZUkFwRlE5a1E?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio Braziliense",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYmU0N2tqUHUyUmdES3RSaFdlQWdQeWNmNkNBZGtxcTV6bFhoN1A2bTJvdzJVNGNUU3JiZmlNUGdDV2Nzd2xXaTNTZy01b2FYZ0RtVXBTX2REQW9WX2dRLW1KOTVMUVJmTkpXX1JldnB0clVYeWtzcFpqQm1MYVlIMnBJaFh6N1dyVlZpOE1SU2M0b0pTX2JWcXMzSzhZZDh0aG5JNkw5WWJ5eU5yYTlNSDA3NkcxTUVfUlVyc2puZmY5Ml9TcW03aXc4dm1tbXFRVVJYRGFtUdIB3AFBVV95cUxNcEgwWUhNRzV6d21BcmctNVBCQ05nellHek9hTGMzU3A0OW5GbXltYklGOFJJM2NkdXZnOEhRRzVEbHI2WW1qejRIN191bXFKQ1Zpc3dtU2xQQWhqSVhTMGhfVG5Xc1FWTzlzQ3UtdEZfa2dTNE9DeGFtM0dJbG5aZFFmSlhvVWVRQVhyQl9MN3RmZkJDajdETDJIX0RlY3l4LXp6TGw5VWhHbzFOTVVJcVhzLUZMemgtTlVLVzJTWnFna3haS0VUbmR1V3NZSjlNWmFBNVZHdlhkNFR5?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWk9BclVFa3RuUDQ1cjVlNDJ1Y3B3bnRKeUlCM251dG80OGZoYVFVODhNOFZVcUlBNDFjNDVmZ2hkTUE4UjB4TjczNWxPS1N4b3BJRWZxbE1MOUpHbS1RdzFGOHliWUtpNW1lTm41MU1FWjVnS3o1MHliTnYxR3I2LS14Y3ByZmc1c1ZlVUJfakh1Vm5IMGFZQjBVSTFoTDE1VVdEOW1WT2x5LXlWV1Zyd3FYWmRYcm41ZGFtN1paZFJ1VURrYnBRdzA3eVVOaXdHRVdaRDB3?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU0FPcE5uQ2RtVjBJZUtPYk1CLU02LTBEdnJib1VoNnFDVVNVSDZDX1gwUUhvT1JhRzljSUltbnFNVmY4Tk1JaHJMODRHZk5TOUgwTTVMODFXODV0SWs3d3RfRDQ0WHN5RFkwem1SVjMydmV0ZFJuMks1NjU0Mms5Z05wTHlPemNnZW54V2kyWjhkYkNqOGtUdjhfZEpvV3RvSERTRFhqRDVzWjZVbHZTMFk5VHVBaHPSAbwBQVVfeXFMTkg0YzBPMGJmNi1DQlhWU0lCOEZmS3NYVVlLcFpyYlhTYmxZdUt6THhJYW80YXA3ZlBPaF92VEw2amdpVnBuU0lNS3AtMk9DU3BVbUg0NFBUNVBmWjE0MF8xNjVtVjloNUhoYWNQQmcwUHlFLXN5aWRpMmVIaFluVEhvS2tBaXJ2SjhzdWhWQUxEdVBidC1jb05zQzQzLVNiQmpuMndRZ3pjZHlHVkhWOF9PQVdEODlOUnk1VzU?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS0UwajNQTENnSDVDcUJabkd3dXlSNlhUMzBaVGlsUTFHSUxfWGtlWVdVSGo5cG1HRU5DQ0l2RXpfZUxKMFBYbjhPZXB5ZVZRWEZPUE1nUWZyV3dWYUFEQk94VG1wcEdib0kxQWxKb3VjcDFDUDMxYmNYMjFLUU5idk03Um5Lbk1PS3RLUjRtZUZ6NWl5NjFLMHU3ZjBVYzFlWW9HdDZNOXpQOUFGZHdV?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb08xcXYtYXd6eldBM0NQYk5WNjFNZE9oVmFlQlR6cXFwLWw2QkU3Tkg2VVNqSHh4bVhEMG82ZU1kaU5GSEpONUJ6Q01ZMVdZT2MxNHdZeEx2aWQwTmtmaUpXeXlWeW5MNXdnMjF6Q1RaSzdTczNGQzZUU2dnTk82VGF4bk5HSDJ1WE1ZWHptSVBQTFMwbXpudTNhVnFPMU5XZ3B6a1g0OThPSTRWTGFDWmg0UnhwMTF3d2J4cUZLdGFHVVQwdTg4NV9fN0FrbDhnWGJn?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRkd6Vy1PdzlYdTI5dUoxRFhDZmNJYnFfVktIOHlBY0tuYWp1bmpWY282aGo4T0lfcWljWUE5RTlVUGFldjhYQVd0QlNjWlNFbWFLb2pxR3pncFMxS2pTWE5PcHNJSEpQc2ZRYW93QUI2TFBIR2h0ZHhhbVpZSElYYUc4cER3QnZETjNvWFFiY0FlbW5mSkJwNk15WGVRZlJDdWV1d2swYUd6VmxGX1JGejA0TklsRVRLQTR0WDJ2VjBsQ0tDQ2V1c3FEa3lqdm5abjJWMWhYYUZycUJRcGZ1a3NEYzlmUQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcmpQM0twdTBsZEtKUjl0am5EYkZDeVIzZl8xaFhLVmRMbXd6aTdNZldibFNnN2t5cTFpSWNvMDIxTEhyWjNGRHc1aXc3cUZEN3BkY1c4dUJjSXI4SGtRNmJNQUw3RnFBc1ZlcVE0eDJPSkRkVGJiYnVPSHBoTzg3NDY3UjhlUnlxRnhIdTItVFA1U0lrM1d3U0IxUkszWWdfMWRndjctYzgxbHlXcXdlVVVGR1Z2aXBCMDdpUWVBYXQxZng3aXfSAc4BQVVfeXFMTXM5a3NMc19EVXJnLVM3ZW03NEh6RU1DWE9XNko1QTl6bFZmck9lMTdZc2xtc0VyN2QtNkF5WVZQLXlFcWx2c041S0d4VjNrZkxBVDdZSG9BRVhYTUNBOUZMS09DbHBkaUVaV2ZDeDR0ZFJDNFVzNmxkVTdadEg0TFBySVNxc3dIVUVPYjJNQjdMbkhaTFVPUkh2dzc2OEZMbjRqYURCR19Rdm1kR1d4UElCTTdUekNHaU81eVlJcExvNTJ0Tl92c1dRU0tUT2c?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ2RFZmxfR3FhMV9nUThDSzVxSUJyNERLY2JGellFcDVyNDAtOXNrZVp4QnNqMGVHSnVPWEd1bDQ5S2VpMDI4emlnYVozd1ZfLVd2M19YdkZLcl9sb3BJdmhGdk1zNUlHeXN6YXI5ZWNPSGVUYXpHakx0Z0tkOTF0SmtMaU9KZWhhQ1U0aTZBR3RjbzBHQlBDME5sMXYxcEJaOGYtYnRXUGppdVhjZVJZNWtKLVFMZS01aXR4WG5PcUwzTmp6VDJsczdYYUJIZlF1WUQyaWhuOA?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "ND Mais",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTkFvcHNyamJHaXlCNkRXNC13TUV6VWxZRzJZZVpGTkh2LTg3QzBvZWlYMVBxd1l5MVR4OVZqNzEzaV96M2hYZ3Y3NXBYTDVtdFp4VWNZQi15UGlLQVNfNElTN3E3RUhLZWx1Z0htUVVrWl9LdGlpdHNacUZnX09Sd09R?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ2lWeWRNT1EwUUg5OElQQTJ0RjBTbkYySjlUZ1BqTFBiOHFNRzdwand1UzliZWREQm82dmhpZjFncGpKTG9mc3l6YkhBY1FXSWpTSmpnZEJ4RVZ2dWdtQ055S0pUYkh0eG9xdG1mU0N4eEV2SnBGRWdjamhKbHhaQ0pIV3dYMVhPZTMxX1pES0xEZTNGX2t0R1paM2JXZE1DNlBZS19UR1XSAbABQVVfeXFMT2ZCU1FTZlVLdHgweXN1TGlpN3FaVVdOeVRHMUtaOF9UY0I3cFdYRUFDVDg2UkR5R05ySTdUWmlKZ3BBYnNoMjloNzh0WldsUGdjRnN6VDdzT0Zya042VzBYQXRpQk5LcWYwZ243SXB2SVI3bDNWV18tNjFMQ2ZuMk5HRE5UNnBjR3hDbFNSTUg3dVNSc3Rvc3Bod1hKb3BYYk16YmpmSHU5cXg4MEVRVlk?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMjh4bEtzOVpDTHdncWs0U0RGdUFMUG55SXM5T1U4Q0FuVkVtVVpvR0xFc1BIbEsxZ2NMTzJCT3VoX3MwZXllQTNFcnhYR0xhYjA5blJtdUVHU19ya3V3OU9tS015X3JxYVZ5OGo3U3FyMzc2Nkh4bVBTXy15MG02RHVpNlc2SmZENTB2TmRlcVNYSFBLQThLTkFzNUs5WWlDWjJ2MFYxOEJuZ0U4VGpFRy1mSnlTWXkzbTNuVzVqTDVmVUhxYlI4SHU5WGpPMjhNVjI4S3oxWTNPaVBzZnVpUUFyTWZJUQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "BHAZ",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcnZZU2xTMmZYTGNxcmRpeG5MMFJfbDZWMy1PbURCZk5RR3RMM09GQ2FnSWhPYXRHclhQZ3NWcDN3YUFqVHVyeUlSM0JueFVFWkZ2LXE2bkY0dE9PRTdqc29SRjhJbnprMXNfWC1heFUtanNrOWhnRHczVmN0MjIzWU9fNlFWaXd3STFqVzNKT1NqY24wZU9wSEZVMGdpdnR3ejJadUlTNnY?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio (Bahia)",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeTA1UllZZVpRWjVQenJaVk11UF90Nlk2UDNYbVRFbkRQNk9RWXE5VTNLdzdxX0FmSkdOMGctRGV4V2ZfUjBCV1FjX3VsUzJ5MXNGYklGRWZwcmsyRjUycjF6c2VCNTREbVpxdHVpb0R5THBXRWtEcmV3Qld3TU9iN0w2ZldFNExGemRJSjd2X1dsUjEwTy1wUjQ4MGhrdkxFYllxVlM5RDFUN3haamNoS09Wa1plcHFPNFdJ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR3k3ODBMSkYzMUZmQk1hMUozWlJXTS1EdEhqcWdLN0FNWFpiQlY1SktSR0lJeFhHMEJaN05VTG1IMjlrdFJpZndSSWtiUVNEZm1tckhxXzN2ZWRSa1pqSGxMY1E3Mk5wN2RpaDVaVE5aU0lTRXoxWUt4R0tIM1VxUzBib2M2aThRdWpidVFRYUw4R0UwZXkwZ0ZPZ3I4Sm1iWDNVVDd1emVvZ0NFQ3RTUzNyVQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "JOTA",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUFJmQW02ejdnSTYxRnMtQW9vYjJFelVwbWp2M3VYeVFiR2w3Q2hlSmtFa1RvZlNKLXZ0ZmZObWtnRUF1YjVYQVMtS05pblRyeGZzSTdaNHBZTnpSQ21YaGdkTFBCa0xUYnVqMlBFWndjTUQ2SEUwZHhyb2EtUHNrblJFTjFILUV4eGpUUEZsSUZFaWF4RmFObXNrdF9lMG90MHpoTWNlM2ppN0RITDZlc2FGZld0RzVteFVVbnBqVE1yY1R0SkNSdlJOWDBsUUwyT0I0bEpvaGk?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbUZRTmxUOWNONTBTX1dUVEJ4RnZMOFJJVVRGZWMtdmlWakJZRnJvYndHNFBZMllKQS1UZUFPTlJ6WlpaTVNIQzlPbU1LdTRQVzFCcU1TWUZQcFc0NVo4RUticElPMjhkOTlVSDR0SmdQd2NvX2NQcEZVbnk1cWZ5VTRQZ1VPaWplcnR1RERxVWQ1cEZCSlYwNDF6YUlqS3lVbkJ6NWJyUkRBU2dUR2hicWpXUlU0ODjSAbcBQVVfeXFMT21GUU5sVDljTjUwU19XVFRCeEZ2TDhSSVVURmVjLXZpVmpCWUZyb2J3RzRQWTJZSkEtVGVBT05SelpaWk1TSEM5T21NS3U0UFcxQnFNU1lGUHBXNDVaOEVLYnBJTzI4ZDk5VUg0dEpnUHdjb19jUHBGVW55NXFmeVU0UGdVT2lqZXJ0dUREcVVkNXBGQkpWMDQxemFJakt5VW5CejViclJEQVNnVEdoYnFqV1JVNDg4?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Três pesquisas divulgadas nesta segunda (BTG/Nexus, AtlasIntel e PoderData) mostram Flávio à frente depois do debate"
+  },
+  {
+   "id": "luchsinger-delacao",
+   "segment": "politica",
+   "title": "Roberta Luchsinger rebate Lula com 'Mentiroso é você' e diz que quer fazer delação premiada",
+   "summary": "Citada por Lula no debate da Band, a lobista Roberta Luchsinger respondeu 'Mentiroso é você' e afirmou que quer fazer delação premiada, que poderia atingir o presidente. Ela disse ter se reunido com ministros, e Lula nega ter havido qualquer intermediação. A Presidência da República e a defesa de Fábio Luiz, filho de Lula, divulgaram notas rejeitando integralmente os relatos e dizendo que não há provas. A oposição pediu proteção a Luchsinger depois da entrevista dela à CNN. O R7 informa que a PF nunca apreendeu o celular dela.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 9
+   },
+   "score": 8.7,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQZTBzekFWbm94cWQ0US0zSmpnRTFYamdPblVXSkFBMUdObnFWclk3a1cxbkNvVzB0bHRjdW1JWjZHWGFXNDRjdE1JVlJuNDMtOXU0V19XbUpLV1NCUDg0aHU2Rkx4UExLNFdLSFVtS1RyQlRIR0NvVGk5Z1NlYlJCR2dDbzhnb09RZFZCTGt1cmxJR1MyLWE0R2hObUkwcHdxNVFxZGJBREV0MGRzaTd5aFF5SW11cG55ckx1dG1SeXNEWG0yaVBqMGphcnJRRGkzU2ExSUhNSEY4cHk3akJEUGRBdTFEUUluVlpXNkZtUzhfdVhXRVlsSmt1WmJXb2Z0Y3fSAZACQVVfeXFMUEZOT2lSdFZRMlpLMWhDVXY2UHI0X1k5QnNyNkNVNFpyNkd4aTAwazBhNmJ4V0FOd1VmRzcxaXpMTzVPckxBd1NaRU84S01WUW85YzVRcU1yOEFQeGVwZGNyQk9QQnNxNlEwTkhxOUEzcVdfLVZnOWQ3T0xUVkUtWFNaeklBQWVfLWFvN21OX3h1RElvM1Z1Z2RJRVpxejY3X0Q0dnYzZlEwaHBON1JKX0hLOS10RDROWWthZHRLMVVrYmxhU1k3U0VXU3FPbG5Yd1NPTzYzeWU5TWNfblVFQ3RfV2JDR2lpRElLYktGdVluVEJKdFIwTmY0TndycENWU1V2aHpLSlFxZjhDQnRWZlo?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQk54MV93T1Vsc2RnM3FDWmxlRkw2VUV6dkYzaFZoRF9vT3lKZkVKYVZHSHdkM3JkVDdWSW1CcHlmVU1xTERQX29pY29pZUZBSkpkaVo3eFp0S29HYlFmazNHbTAzLWp2N3l1U3F6Z0VJSTBTUWl2UE1lMFdyTy1MRUNpZlVQUHFJQlJ2NUJsZ3M5OXQ3MGlOZXJxNjZfTVFpZkJj?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWmtFZWNVei1JcEE4ckRiOHVwVmV0SXdUTE9vaXBzcWlGUkgzUmVjSnVuLWlZUFJkc19NQ0trZ2s5Mlg5MEQ3em81LUczNTJCVC0zZTBOZmdNY3BxbTZOdVhldjZnclo3Q25PMUYxRFM3dDFMVVItOGpfcWFqem5CQjg5MF83WFIwWjVRdktmWm9RYTdneXNLMW9PeXo2QWNSd3pTRHU3Yw?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUGJqT1hRSXVvVThfZFV3bDMwTGJfMkZfNGtXS212YUxrOWJBNXhVODI3dG9FYW5jdjctcWczWVUwbHgtTFQwSm8tUUhQaV9pTkJVcFgzSGRLM09xMEJ2ZVczVXkyVlE0VWRGS3dXU19XZ1VoWHF2UGFyak9ZYUVVNW1zZmZfVk9JcnNzZHNmLTVzOEplNEtqR09SWERBOEVPUWlJY0RvYWFtb3BjcW1vN1JvdlJCUQ?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeVA0dlZGTXlpR0ZPeUFqdDlQTjNNcnhJcGlFWGZIUmJudlhBX1BBenBLZGVKY2xMY2xWM2JKcExkd214Ymk3OGUtN2FCN0cxZFZPbnRiUGE2UHlEOHVpSVR5SG1mWDk1bjBxZUdNOW5vSjh5dkdrdlJKVExQdEh6Q3lmVlU1V1Utd3JmT2FScXoybUhqamFoYmhiYzZnZUUybXFWTlVmcw?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Rio",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNXzc5cGNOUUtrQzdyWWZzaFBjQ3llQW5jRkhZUm9ISzhwaGJEaFYxRGdJcVFaRnhkYWlyVjJTYVVNRF9JWWl4c0NtbzMwQWhOcDNFRlRpVElYQnNma3g4NC1sWDRGQVlrLVhVb0prNnJoUG1TdlRhMnYzczEtLWdjSmNnMXlRZm9RdWFOOEg3SEdPamQ3azA5TkN5LWwxMTBmUU5zZExpNThLUFZYc0Q5VS1PWnRvXzE0S0xlX0pjZmhyQlV6bWxvb3hTR1A?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbUQ2MWZPLWZNUjNiZm95YUc1cFVTUHlkbEY5T1NqTzVRa3RYek5udW5RZHVOdmd2SlFOb0VteGx4X0VJVXBkc0JYQi1BMXBHMllOeDFxNUNPZXVNWXlxT214bXA3RHpiQ1Y0Q28yVGJVOWdRR1VSMmZvTGYzYnJvVTBVWHBkSlMzYTVDaktXa2MxQ1J5NVVWNXhvSmVPWmxfS0ZWV2FHelJIMmY4SzdtX0hLZng?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "ND Mais",
+     "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNeHpLeVhLeXhQTWlrSjBLNnRLUTlKR2RwN1ZFaDN0QVphSER2d2ljT2tjWTlFMThVRXJUak1Wa25EbFJ2bk9aUy1ZS3pXUTJiZmlYZF9UbEpTZ2xORThlemZqQXNTdGxJZzBlZzVXanlxelF6NXhxZURFTzZELThDZUpzSHRvQ0UxQnJWa0hPbXJUQVo3UFpTUzdQZ1ljWXNSdmx3QjItOGJwOF9TRVBsMDJ1bWxmQi1pWHBsaTl6R2tYQjJSRGIwbGdsVEw5UU8zeDNNSzVDVjg0Y0JaU0NmdTlvci1nTkFMVGN2Rm5EMzM0ejRRMU9MbzEtZmRYNzlVVlVLMWdpdHRVS2JyUGRYV0dFbkpPckRv?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeURwVFRZNGNfZ3QwU0JtSFY1WHdNcXlXVmtleHJEU3NZb0lkUklicDJTcEtVM2FZd1F0dTI4allfdTR4TGJxN0cyS01ZZ2JtUURYdkg4TlAya01CYTVBcjk2VGxoWXBTVWxaMjdLYVFzNlMzbFNsRUhwZzlYZndoV3hUZFVyZWtHc0tfQnhtWkVmdnN0N2JmS1VXai05aHZiOS1leXhYRdIBpwFBVV95cUxNeURwVFRZNGNfZ3QwU0JtSFY1WHdNcXlXVmtleHJEU3NZb0lkUklicDJTcEtVM2FZd1F0dTI4allfdTR4TGJxN0cyS01ZZ2JtUURYdkg4TlAya01CYTVBcjk2VGxoWXBTVWxaMjdLYVFzNlMzbFNsRUhwZzlYZndoV3hUZFVyZWtHc0tfQnhtWkVmdnN0N2JmS1VXai05aHZiOS1leXhYRQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Depois do debate, Luchsinger rebateu Lula e reiterou que quer fazer delação"
+  },
+  {
+   "id": "tse-meta",
+   "segment": "politica",
+   "title": "TSE dá 24 horas para a Meta comprovar tratamento igual a Lula e Flávio, e a multa diária sobe para R$ 1 milhão",
+   "summary": "O ministro Marco Aurélio Bellizze, do TSE, deu 24 horas para a Meta comprovar que cumpriu a decisão que exige tratamento igual às campanhas de Lula e Flávio Bolsonaro. Ele afirmou que os prazos já haviam vencido e que não cabe à Meta definir prazos próprios. Em caso de descumprimento, a multa diária foi elevada para R$ 1 milhão. As campanhas acionaram a Justiça alegando restrições à distribuição de publicações, diferenças na geração de imagens pela IA da Meta e anúncios de IA sem o aviso de conteúdo sintético. A Meta deve ainda informar os parâmetros usados para aceitar ou recusar conteúdos político-eleitorais e apresentar relatórios individualizados sobre anúncios políticos.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 9
+   },
+   "score": 8.1,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYlBYeVp0Z1huZTMtZFppZi1aN1l1S3cyM3dfa1RIT2JITWx3ZkR3eVBLQ015TmZ6anhicXhMQTRzMENJc3dUNFZ1djRyUUtfSlpkSWQ5YkVTWjNQSFB6V1VNSTNxWnJLN0l2aFN0XzZuODVNdWZSN3JDYVBISjRLU3pRbXktYUdDNlBGY0hvdFEwR1NUcFVibjZKaFEzYUtlY3JNRW85cWNMUTd1?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbFhWeUZ2TUpyQ2ZqcDROeUw5dDNNVDRNc2VYME96NUgwclNLTUp6Z0xQMzJSdW5SN1dzd2VIM3RERzBnUGxrQ3BsRDA1R3EtdnJxMWxWUjJjaWtLQkNrTk92Y21aYmNldHBpdGJwSmVPcHU2LVJuakV3T0RzeW1oMWtqYVVVaFJGT3dLUkk4QzY4Z0RTNlE1eW9MUWFmeU9mSTZJVEFSSTFEaGRBelJtY3JUZ3g?oc=5",
+     "camp": "esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbFk2MGI0RWdjZWF5RUdTbXpfM2NFb1JnbzBsNUhLSV9DN3JRLTRfOWJIZm1RTzRQWlNTeDN4UFhoQmg1ZTlzQmVZVzFSbVhZblFVSG1ab0J0WHBaZ3BVZUp1Q3p2RS1NcWhvZUQteWxtc0toNHg1TnF0MnpQRVZZTm12LXYwTTRlX3BqSTA1djJ5dV9KWlY0bm14WFRUaXViekVLem9mVHRwOUUwUWF4U18xWVVWOEgxNERlYkNn?oc=5",
+     "camp": "esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hTFlSSW5IRk9XZW12Ti11aEUzWGV2Y0ZOeDYteFJxWGVTek9PRmUwNzZlVEE5R09UeG9ZeHA4TUpiaWU3Y3BWa243Mks2cnU4ZGNCUXNkb095cG9pcmMwZy1HdEo1VVhkV1g1UDUtZWcxOExhT1RCbzVjVQ?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMlNMV190SVJpbWFQUTRfcmM2RTF0anhPbEJnOWZ6NW5rZ1VsVnBLdklaOUd6Rnl0NFNrSFlYZEZhamVsdzQ2YzFZMC0xX2NmaXBneHlQVnFWVGFmV0Z4bjZ1Y0NkaTE0UmRBTGVPbXlRQnJDMzZxYzA1WlFOb21oZEtTSjBCeEdWOUNOanhFTDlsSldfOTRzdmZLYjlIMUhwVmp1NUt4UWN4ZlNzUTg1bmc4WUwxdjBHNG5meEtR?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUmFYMmhFQk5rMElkWkFIdGxCV3l2Rmpfa3NjZnNJQ3U5M2licVNBU3YzX3FnNU5VMnZCeEpralNNSDZzeGVUYmlHd296TktGeFVmc1ltd3dfVjNhTTl0NkxmZlZ0U1EyV2djVXdLSWdwUTdvb003bmZyVTJDOE9zM3Z5OTZ2cklOQmVXSHNOV0hjSWh4ZlhwNWdBby1UTlJKdVlRRVFLSdIBrwFBVV95cUxOTkhHZnFsM3psaDZQckVSb3dfZHpLV1ZnS2pZTWhXdlRXOEVvYjFCNVAycTVLaEhXMXU0TjhTUU5TMUZlSlJvX1N1Y1I1a3FWbFZfQUlKYy1VWlRXdENpRmRFMHhaQ2dlZnZYMjVNcFVVU2cyTFZUbHVkTERfa291X3ctNEtCSUViNW5wYTQyUUVibUlNSmdGMVdaOUp4dHNQSkdfeW04VEk4Z3J6WXFR?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdzNWX25vR3BhNnJPUlByejBPWVVhY0UwQU5lMVlHWm0zbTZlM1h2RFZLZzREekRJSl94S1FlWnJLakhrUU5CeDdqRmxnWEU4ZlNKZktHTjlPZlBBZ0ZPVEJIOGpQN29fRzVmX3hqM21RZ3NSNVZWSGRSbC1DUWFSMEJKN1drZ1FCdnFaaHpHOHY0akhwZDM5cGthaXNQeXVXb2RrM2Zack4wVV9xckVOVlRqUQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVmtreF9zbjRId0NSTlNmTDR0bFVjZTdlUkp3NWhwY3Y3Y21ldHE5YjVuVDdXbmJ2dnVBLU9PcndoNjhDYmp4SEZmZ0hlLUlfYWQ1Q0lvUUVkYWxjNDNzUF80S3BEVjNHWXA0TkdHbjNjM2p3RWJzc0wyV2xiNGpiTDRKQ0VVQ1VuMVFXa2hGMGlFMkszaXl1Z05QdzRCeEhmVTRn?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSktwejdjQkNSbXl2aHQ3ajdUcnhKdWF3dENEMjlwSHNZSlByaUYyZ1dzUUlQVW0wMFZzS0NGRHBzUGNYbGxqZzRoUnVtVm8tMGY2QXBSZklfNnhOTzVlSmUwS0xjQk5jaDE4dEo1OW9rcEd1WTlaRUJkeXEzdURnUUJBNlNqRmg3ODZ1djNFN0FRWWJvaFlqNWloT21XU2dSSXNEOS1pU1JmUdIBsgFBVV95cUxNb1FIcU9VeDFTNDgxMmtBR2dUTmhxemNUamsteXhwNEs4YTFKNVpjMVQzZ0JMSEtRNUJ0WFJWZnJmZzJGSXlIdTJZOGxqakg0VFJBOWpGWkFndkp1amg1UGkzWnF4am5oWE9YQ05ELXctamhVMUxZWFkyRUgwQk5vR2Z2Qng3bHVFQk1pWUxyWF8wc2dxQTdtRWxmSjRTTXRKMUhtVWRZOHpQUjVTeXpGWm5n?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUmNIaElHdlRYZ1JnWmtiQi1iNk1tTmVLdGdtWFJuNnlSWXY4N0tzelBCS0JoYlBHNHg5RUxUcWhrd0h3NXh0WlVuR0dyU3ptaDlWMG94SWNMcUlrVmRCbXNSbUl6LUtFbWp0V190cmxFSFY3RlRlQ0tBMjJpZnc2YW8xeGNmWWF3YXdEREUwaFhCeW4zZm5odTJkTlNCYmNVZDVDZVZkZkZkd20yb3Fqb0ZmczY2Z1FNc2tzWWVTOHY3bDd0Q19VN0xvNWU1LTlyS2pjMzlHLXotTUlzYm1sdTA1Mk8?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio do Povo",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPci03ZVNqX0Z6ODBRY2tUY2NKQ3hFcE1xSG9hdWpwb2tQOHFqVVpQVmQ1NHNFTHRuSTlMczhPanl5RFlkREhQRjRzbE5PQmgzN3RncWRnOWlxSHA1Q0JHaG9BdEQ4RHhVNGVleXNoVERlNWVWZHhweHlHU2M3bXhta3ZNOFduLXFTcnBCeEtGNFlvVlMzSjItTGdOS3VVU1ZLRXltWkdkNHBydHYwemdyUVZwTFhFMl8wTFEtUFg2N2F1NGNVSE1oNFlnNDI5S3ZxNFlNRTBpMGVqbmFoOWhKRzMzTFVPUTd4ZEg1bWhjRVhHYXpPQ2hLQ19IMVQzS0dH?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "NSC Total",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbzVxdXhDdzVjMDlVYkk5cXBNeTFzTUdNOWFBekVid3VQcEYyNXpYSGNJODUzWjAxZnFKZE83VnF4Y3dyTkNELW1DSWFBSGdIemhDWjZZeXBXcFlITGZWc3Z6aFdvOGtxOWxMLUFFODRUdWE4Q0RlVGktUTBzMXlydEpKYkFrSGViM0tUM3Z2WS0wMl9OX2V3QV9LRlNxblpORTlSNDJObTdCVU1xZTB6MmlSM3Blc1h0a3FodkxuaXpRWHdReDh0c2x1SS0wWlpBaldtTWdZQ2wzbWFx?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTm1QRzlVTmk2THE1c3N1UnY5NU9oeGpQOC14cnFFeHJQWFV5MzV4UzRLYkQxTFp0cFNVTU5Ma0h1bi0zYzFhNVhRYlhwazBoenVncUpiSVBPTGdBc3RYSkx2d0JGZmgwYl9mUy1rTUNZMURCaGgyU3ZJRmdfdllCd0FScFFGVzJBOWR6RE5lOUQ4SDRDNzN5NkR3U01vQy01UmVrb09ZYy0wWTlSdGwzcXRCMjE5c2NlanFfbkV2d0llUE1YWkpza19ialJiejlBRXMySVdZTng?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxObHdsSjVmdnR4SkYtQzljM3ZJczAzdzYxMVlONUl3QmR4LS1nRENFVnVxQjNpd0FVNVpPMXhOdEZUem8xN01USUlEU2RaNVdFaF9JMTNpWXFRMFBTLXhubDBTNTlvTFJkUUtEZGlhQW5qb3k1REdwWUdpRVJUWEZwNUhiRlgtbXNvVU4zRmdQQ3F1UkhZMExZMFdQVExnbzNKTTh1cTVpeUhSbkRRQS1Gb0dsLWRHVmFrSEdJV3FzQW9TejVyRkJoZGs3U2ZISDBZVXFTbzFWanliS1lWTDBxeGRUTzZIS2NaaWfSAfgBQVVfeXFMUGU5bXZWOGljdjg4dGNITm5SbEZNY21UZkdhRFMtcEtOYzBuSVdEQUItUjNTNlphQnh1Q2R1NExIQ1dvYl9TY1BTV0hzbmdfbjBIMEhGUGxJQ0o4ai1pVGxUVXBvSnlPRGVwOXMzY3ZTa085WXNlNzFDZlo3amhYV19PdEZBM2FyR3lCRHlFTDNNRzlMSnJXOEh3ZlJJYjFWUjNvZDJILVJpX1JsdFVDYXVmRkQtS2QwQVpIOVVFdVNuMDF4RVpSLTcyRDZPMkpoVE5YZGxWM1NjVEZPX0dEQmhncG82ekJpU1hBcjJobk9MYVF3QXhtaVc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "tse-nikolas-marcal",
+   "segment": "politica",
+   "title": "Corregedor do TSE proíbe impulsionamento pago de posts de Nikolas Ferreira e Pablo Marçal e a republicação de conteúdos vetados",
+   "summary": "O corregedor-geral eleitoral, Ricardo Villas Bôas Cueva, proibiu Meta e X de permitirem o impulsionamento pago de postagens de Nikolas Ferreira (PL-MG) e Pablo Marçal (PRTB) até o fim do segundo turno. O pedido partiu da campanha de Lula. Para o ministro, os dois não são candidatos, e sim apoiadores de Flávio Bolsonaro, e o alcance orgânico continua permitido. Ele também fixou multa de R$ 50 mil se publicarem conteúdos já vetados pela Justiça Eleitoral e de R$ 500 mil por dia às plataformas que descumprirem. O corregedor registrou que a alta capacidade de difusão levanta questionamentos, mas não comprova favorecimento algorítmico.",
+   "scores": {
+    "cobertura": 8.7,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 9
+   },
+   "score": 7.7,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRGJUN2ZrS2d1Yk5QRWt0Z0MzWjl2R3hqdkRiaGlOQ0FLNUNDZnVjWDBVTHlXelBuLUgwQmJ2LUJfdkoyOEVFVjUxNnVXem8tbXFFUkZPWjJWSGs2Nm05cU1FMUFuUW1ucXJXZzdqcVFBb1oza1VXbXRMRTJBbGxaQ0J2ZjYteEpqVUcwSTAzTnpRcHkyRzdJMWVOdjNlcFR1WmZiWm5QSWx5RlNIZHpFd0xlZ3Bqa1BqVWhTeGYwVzJUR3psNHFzZlZyNGR3N3gwMTkxX3hoeTFudHZYZ2k4dmMtRGxjcVRac1N2Z1M5UDc4UWtXLVdaeNIBhwJBVV95cUxNa0x4RXY3QzI0dlhiWWlVUi1FZWxBUzBEWEF0S0k0VHBRbjBHQkdZWWVpMHNEV0lva1Y2SHpjc3lIZk4wbnpGeUV3aVZmZ0pOd0FoLVQ1RGZzZS1fNERHM0xpQUpGaE1FUm9qMlNocmRwczJGVmI2RjZsVDB5alVkdFVNUmtuRW9uSk5pVnpLNjRZWlQxUmIweVJSSFVTeDZfM3gtYmVpNGpDQzU5amdMYUI0SllZZi1CX0MySWFYeklfMV9qbXlaZ2FKcFdqRHhZbE1BbGNZc08xT3RwNG1maU5rb01jZkVoZFBIemowdEo2eWNtWjQwTFdMWWZmUVVlSkJvRVV1bw?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR1hoY3g4SXd6Y1dTM2hMT0VMbzRPeXNhT3JpNkxfSXgwRVFKSFF0RktZT1VWR2RLbzVPa1R0aDF4anlxa3ZFYnh2UDctV0RpZ3BaX2dCZmQ1RXJtV3VuTzJnSmhkWV9Oa1FZM2xBeG5tTmk2dmFZT09kbEVWSTVETkNQRFo0bWlvY01ZY0hpZGFRcHZPaVBCVDAteW9NV1EwMXBLc2FfcTNJbTJ6NzBVLTcyUWdQeUcwMEFZ?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQUZjRUZiV0ZNaUF1blhTOGlDM1dsY0tpYVNJTnJ2d0x5Wm5TaHV6bDFNLS1TZmd1cUJkeFlENEtTbWVNS3NQV1dMNXN4dUhkR3FKbmRhbWVTMVRPUlBreVFIcXotVEVrODhOX0xzNVo3eXFzVU15Q29NaVBxd3pMdWN6bm9zTXRzXzlpTGFuYWNWRFFBQmVkcDJZRjdDUDVFNzJWemlsZ2pNeTBjX3RoODZ4VEhzS0o5VHJLZWJqS3RvdzMxbWc?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVGplTEFZTGpYeHNwOVRtWk51cGxnVndNWi1mU2ZveUxKRllta1hPTGNXSlktb0xkbi1NZVhSeFZqazAtemowdTlfLV9IQnRsbDVrTVRHTm1VeGtYdjVwb25lNVh2U3AwV1RQVTY5SmFmZUhWS0xURnc4bDFsRnlZQ3NjbWpTVHdfYlU3U2w5VEtWN3dNdkRsby01VlZiWElUbWFiakVlQllmNzN5NDlfak1na2FIZUtQcExqN1BGRDNfUQ?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTGwxODhmRnBDTkQ0eWk4OFp2TzFhLUEtaTQ5NWVQeFlUSWF3Y0ZybEdTTjg5MkNaMVk0d2NWMFg3UE1IYVZLMUhpVUtSYWRvU2xJQlhycG85eTJ6NmhLVWVCVWhDcDItR1N3dTV1Q3ZvMU9FQjdoYm1IQVhELXNmODVYelpJNkhFTFR2dUc5T0h6a005LTNzVEd6dEJNUVkxUFI0bUl0US0xLXVzQ19n?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSUwyLUZsYi1WRVZtbEV6Mnh5bU14RUF2WmwtcDgxY2dfVlNPVWt4ODhja094Z3Bub3hhdFRyODFodWdCbWNSOVFneEF0R2hzMlVEbzFDUlJWdGgwVWc2RWl1dGlNN3ZtZjZqcl90MGtkMVJVd0R2TXRwU2EycGhmUkR6QlhvbUwxOThWdDhUUlJEWTE0NkI0Ykc2YW9vTXh5Z2VSSGJBdVZkWG5uUVI1UmhyQ0NZcTFONzlyOUJzbTNJQUxCNDAyWEtPVExUOWpWZDBKTDZ2SjdKTVVieG1uWE1hRUtzT3fSAewBQVVfeXFMTUpUd240bWhsSndQdEJyUWtkY3dpeG1xU3RCTGdEVjFjakU5MFNJQ242aXVZQnY0V09XcTBCMFJ3d0UtbUtKMlBMTGQ1SUdLTlNQVnlRQVM4V0daN2NQcEZtRk5yUTIwaXV3WnZzVGZqVmtOZ2VHS0otU3JQeU1qZFFNQjlfQ2JYRWlhdUNmS0RrVGlaTzBPbFVxRTVCODR6dUE3Sk9mYTFUeGVkYnJKNkVCWE9rcVlpSE5PUTBNYzd6ZjREMXZMV2lDRXZ3ODZUcnZseTJqUlNuaWhXTzF6WHIzbTQ0Uk5Ib29idUU?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaG1MWlR5a2xJRld0cXVVaWxsdFAyUHBBcGNFUUszY2ZIaC1ZUDJKQnJPdXhDRWlZTGt2RUxjc2pNcl9qVUdTV2pUUFhfa0NaU0NwOEdoR0ZpV3E3UVRGdl8xZGMxc3VXaThkTjlrSERqeHZuZVlETEphY0s2bGVFbk5pUGQ3R2R0Uzd6MEJ6akNOY09aSHRUVE50YVJjSEVsNFZ4ZzZZRHRXMVozOVZDdks4dnR0T1RSblFrblFSTTZ5d1BqbUFmODFLVEZSa0xWd2ZacGF1eVlqWWRicGFLY1h30gHwAUFVX3lxTE1Pb3VocWZ3YWlsZ0d3a3h1Vzh3dHJHV2t0M3gxMGg2REdVU0w3eU5jT1NOeWR6S2NhRkgyVm1CWjljNDk1TXlxZ3drRDByam8xcU5tNmIxQjN3V2J4MUFUZ2NUQXhWSFZfeXkyRjItaFNJY2VpVW1GdnV0Z2Y5c0t1Vm5Dbk5QZEpRZkh4SEZvMEtCSDc1S1p3TGRsVVFfZjkzQVU1UE11TUcyRVJoT1VXemE3WGN1b3VWWkduSnAxaHk1NkFlSmU1QTVlMnhZdFN2LUZIdGNIM3l6QzlyOUhXU1ZOanl5Q2hGcTZvNnVsTQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "imprensa-debate",
+   "segment": "politica",
+   "title": "Imprensa internacional chama o debate da Band de 'caótico' e 'tenso', e campanhas dizem que não houve vencedor",
+   "summary": "A imprensa internacional classificou o primeiro debate entre Lula e Flávio Bolsonaro como caótico, tenso e com mais ataques que propostas. As campanhas avaliaram o confronto como conflituoso e sem vencedor claro. O PT considerou a postura de Flávio desrespeitosa, e o PL achou Lula raivoso. Uma pesquisa qualitativa da Quaest apontou ligeira vantagem para Flávio no debate. A campanha de Flávio planeja preparação ainda maior para o último debate do segundo turno, na TV Globo.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 7
+   },
+   "score": 7.7,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOekhLWUpCcjAyMTg2QThXTC15V2s3QlZUSW02cVdocVhRX3d4SlhRaE5nRmkxdDdsXzJzV2J2RFBLc1IwamxNM3NDZEJKV0N6ZndaQjlKcWRia3F1LTFkaUhSQ1NyQllBZVhKTXlGMG8teG1XMFNZQkpkTEFZdzlNWE5nblhaajZ1NmtYX1pCdEctSUVjdW9yVnFNTXlySjlVZHZWRHoyNkw3eFZCV1NUb193LUVxblJjSUlKWlpFNXA4d2h1N0VBWWxVdTJWXzljSFZwbjZOekljeFM1TWF5bER6c1JULTVsU2lpU2R2Vy02ZEhwaHlMWTN6blVNcE4zS2IyYWp5b9IBlgJBVV95cUxQX0R1VEtVS3VzZlFGMC1wVXRsbE05RTUwMkx1OVBoNmhzUVVVMUI1LUJUU3RmT01NTkNGZ1ZHbXdUVDlrWVJscVJRTDg0SnFRZlFrYmhXemVSY2lBQUV4UVRLMWNrc2ZIVDhRQzFMOEhtOXp0dlFXQXhfam1tbXRua1FXOVkzZVA1eVRXQy1SSndEUEN0TnBTT19PTEduaklkSExEaVVlQmppS2tEN2RKdnExX0hRZ3ZzQk1UVjNqSUZjU05tMkM3amY1YzhidmF0b25QTFlpZEQ3VW9ic0pZTUdaNGlyMjBtSWg5N3dTbXhtUkhpZ0JtT1dWajU4OHNna09qb3gwbm94U0NOWUZ3M20zekZ3QQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdVpEZ3lDeDZJNnB1b2s2bkRTS0tEYU1fYlBHeVFOV050bzI3YXU2bkZQZl9Sa1ROTjdOYzJzUTFzZldSNWV6VkNVWm4zUHRpT29FX3dZRzNRcXBVMTFKSG5Ob0E4TTBsSUpnOVR0cDd1TG1SalZBYlFPNGFkLUtSSktkQWZoMkc2SVBWTTFrcTU3ZklLbkNmMTN1NGI3WjYtenhLUVhBNjdJZk5BWHlKcnBNdURPUmZo?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX2lmMzJtbm1BLUtQZTduMDZmejN4LVZoQkl5RHFMQnU0LWVKWTgzM0R1LXEyRktuNWlLbGtwWXNURnU2OWFsdXRISVZLanE2X0VfZ1BIamgxdjZiWEF4ZG1xQXNBbTRFVW9lSjFtOTY2Q0V2c04zdU1YdGJ2YzIzUE1uT3RLdUNtMzY3aTgwbkJ2Y1RHRWdGdUUyRzVTeTgtQ0E?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPYnhvbWMwMHlydmluVVozRk1vZ1QwRWJSRVFraVV6dDYtZV9BeVBYbFZpeFV5bFBkUjZsQ0RKOEtJN0tNSnZHYXNqSUdEcGJKZW0yVTNiSHExU3g2ZTVmNllhbWw5Y282T1lwLVJIOFYtOHNXUGtJWmZOYlVMMW1PLXpHSUZmSFpXcmQyWmZhcEd2Nk1NaXBHSlVBVWxDd0E1SDAyeEZ3M3FiU2dSdUNjcW84dmRJNTdIaVpOcUpHOVJBYXhyOHhhYXdHMHpZc2tVdks0SGxmTTZDQmVoS2EzRllxOTh5M3NQZ3d2OEZqck5QR2ot?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQnhGdzE4LThZMnhuU2RFT1pHem9oeXoyQV9rRngxTk1XMmt0ckswcU95QnJUUm9PaU8tUlU2RXZ2eG9Ea1M2TDRRQnQxajhINndDNDNGQThOYmI5SzhTWVBfekwyUHRjbWZJcTVFSDNwdFF0VzFyUnlvMkRaV2ZIa1IwREIyM2tuRm9Calo3SVRJTTEweXFXMjZTTFhqZGFiak45cHZMRW02X1dFUnd3cG4wT2c?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObGR6RmdON1VMMmdqWGd0YnktUXAxM0Zfa2J2U1YxWUV1TDkzMlFnTjdrWjBVTUdFcHlVSzdNck1rcEg1a0JPdlVDLWl2Q2lQNlJVUURQNFIyRGN2VnhZMFZWMXdza1k0emFxd25aejNsWnBLcEwyZXRIUWV3SnVKOFlDMEZRb3JEeWlIM29vX1NKMzdjMThMM3o5V2IyM3k1bzRPV25fWlo?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWVB0N1VJQlRVNWlfZFdzQ2lmUlNaWDZ5WkFxa1VOZUN1QzR4OWdyV0RMdmItbWlVVDA3MFpLa2tWRnVJcS1kQ2FjbWVzb0kzblBVWXpXWGlsQnk0WUFneDl5Y2FEMGhjUDJ3aTdWNFpuc0d1T0NjNktWTHZaSFh0Ty1VV1pkUVlpTFlWSjJncjhCY1lhYm1QMjhrSlZVMDdvZ1lmYnpn?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fbGJyNDJWODNGSXNCRExfR1g5ajZrbEpnTlRQWmRlUDBZbGpjNlNvaElmeEVKVTAzd25fNVllSEg4OHJGMXFsNHVqdnpXSjR4Wl95dTBTMTg1TlFQTzNRQmV2Yl9aZmdfVTdnb1ROOG9TNXQzSXRF0gF_QVVfeXFMT1ZIdGM2eUZsSkhKcXFlNU9SQklmdWZ2NVgyenN2MDlISkxqd0d4Z1M3U2FlZDR2SmVZZkN2dWwwYXBDMndBTk5UOHpxYmYycXRldm1NVklRUGQ2VW9za1Zod0pKWkh4LVhwTDBEbTM0VXJDdjNmek9Lb3hvZGZtOA?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTjMyRFF6LWNPR19ac0JOWEZGN08xV0pQU3lNQXRrNXpOdWZ0LXFubzB6VmQ1T1JpY1RtWkFseUtueU95S1UzYjdsSC04a2hMd2ZFWmxhSmY5LU5xakRWdGdWQndKQ0R2ZnJBelBQNGNoX3g5bjNSbHpUTEJyck9vMXBCTG9ObE5Zc1QxaFVKVk5oU3JKM0JDUFhjcHlsSzlNV0VOaw?oc=5",
+     "camp": "centro-direita",
+     "position": "secundario"
+    },
+    {
+     "name": "BBC News Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXS0dOc3poTHJmNG02VEdiUDZONGZYRjVTbGd0YnF6UkhaV2ZRUFBCRXhnRlExYnJwLXJjb2dMNi00SEJTV0xjUlVsYk92SFR6QVpvbEt6Vi01NExteGNTc3QwTQ?oc=5",
+     "camp": "internacional",
+     "position": "secundario"
+    },
+    {
+     "name": "DW Brasil",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbmdYUEJySzJRcHFULWptbENNbmZFRjNYS0VNV09Dc0JCbWxUdDNXa1BSSnhWcFNBa2xwYWIxVl9ma1pMTERlV1BLMGpHZnBuSzBEc3VSTDRrZEdlUU9xc0xJYUZOc3Q5YjhOM3Y4VGhKeTE3U1lPc1NFWndGZmVIcXRDN1A1OUN5SlJYQzJjU2xoS0xhMlUwTnYxOFlWVUFWTndrYlV4SFBoSDlxVms0VXdwTDJIZVpqZkJteDlHaVVEcjUzWlQ5Y3NYLS01bHlmUHJhRHFDMEN0MGoydzNnaVVfQy1vbXVnUDRWSHZCXzVPbnli0gH0AUFVX3lxTFBuZ1hQQnJLMlFwcVQtam1sQ01uZkVGM1hLRU1XT0NzQkJtbFR0M1drUFJKeFZwU0FrbHBhYjFWX2ZrWkxMRGVXUEswakdmcG5LMERzdVJMNGtkR2VRT3FzTElhRk5zdDliOE4zdjhUaEp5MTdTWU9zU0Vad0ZmZUhxdEM3UDU5Q3lKUlhDMmNTbGhLTGEyVTBOdjE4WVZVQVZOd2tiVXhIUGhIOXFWazRVd3BMMkhlWmpmQm14OUdpVURyNTNaVDljc1gtLTVseWZQcmFEcUMwQ3QwajJ3M2dpVV9DLW9tdWdQNFZIdkJfNU9ueWI?oc=5",
+     "camp": "internacional",
+     "position": "secundario"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOVzBkakw2dk51aWJnUEwtbFZUYVFrUWo5enJlLWxXUDNQTzFKN2g5STVERmprb2FkZXoycEV4N2Z3LXNneWU4Slo4N1NNdEVhVFJQX0tSOHlhYjRaWlNUMDJiVWRFRjBLcTZFa1Z2N2ZNeVotYmpqOTJBM0k0d0NOcjFlaS1lejZaTTd5T1RUbnZGX04wT3ZIY3JUeVVtOEZnT3lncXkzZTJGaml0R091VDBwWGFxTFVQV21xZ3IyTVpNTmdzZEZUVmlyMm5IcjVWUzJQVVFNSWY5c0FWUVhHNUZmSWs2Qm80OVRFdUVkb25QN0g4TWhGcXhqbm9BcUJVM2JCTVVpVGpkYWdzOG1pNUZUNk9KcUppalQtUW1OQk9WUWUxZi1OYQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUmhYS0xQNTM0TVg4djRwSUpfc2l2OFNhaHU1U3B0TUp5Q1VoSWdvMG9BQS1rV3RqTV9MajJ2VVR6bmhDb2FWZ2xIazFKdHdSLXlTd3VHRDNJOFo2aWZEcWFJNVhhY2dkZVQ5MmlUQUVkYkNMTEhfZXRxM2dnQlRqN2lDSXFncEN5ZWx2cHB3?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeXJuZm1wYzlFZnBTWWEzaXVJWVVSMlZuVm9Pd0VWSzNWdWd6cGh5TzBvcE5DREowLU00ZFlLcTdEUVBqN2tmQVczcnA4bUtFd01sZmFNUjFGVXNpcWI3UWs5bmtmZFI1VkFPSVVZZzdjWnc2N0lGOUEwVnhucGh1WktGc2RqbWY5MEQzTUpISElTZENLMll1NEF1TnVrdHJfd0NCSGl6Q2xZbDNEMkJYeFN3RUJjVnJPQ2NmZFZtSVhCVWvSAcgBQVVfeXFMTTR1RVFFeU0ydW5QVmRscDhqTGhnMlZzN2Z4QTBfMVNvS29VV1pIRmkzQnJqdTBwVTd2UFAtVXoyLUlMNEk5cHZmNzFDVk1HQlNSNmJEQWg1aEo2My0ycjZ5RDFrbjlnSmk0OFJzVWk0aFVxd2VvTnlDOUFoMWRablp1NVZVTW1qb0xjazVYTFhjVTBnVFJRZFlNSFFfUmJFWGZkSjZKLXNFZUhiMzNfRUhHeDhndy1TRlBoNnJlQWhmRUtMeXdRb2Q?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVHlPWHZRa1FxNmNLeHlnc1FKa05WbEhKb0hoQnFCRzczUW43MTc1R0xqX1BvUE9IR0ZOV0xtMFNnVnZMZjZvWGJlamFxYVlNVUZDbE0wRzdFTWlxaEdUSVhBRldHMGotV01BZUowQzAwUHJ3SDdhek1mV3NJZXdtd3VfbXJwbmhiQkVSUnozaFZxclUyYldoVVA4UDNHX0o2NDhUdUVpN1I4bnc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVGlhR0pnM1NfX3pRMVFPOG1qaWxHRDFCQnp0NGtESVJYQUlVb1I5cmZMbG9OWVhmcTlfYTZja2VQLWhzS0dhUHM0Sk1ULWNUeTF0U1RYMkZULU9WakZ4RnRvQ2FnRWNVdm1GSmg1dmo4clM5ejdXWkw0ekFNZ1ozYmVLOVp4Vk9yRzVHcldQbWNvXzdHRng3Y0I5dWdfdTI1X3BWei1hZUtfOWVHeVd1b1hzcUdNdnJhNURqRHF6OHUyTnZmYjJLZk1WUUc2cDlrTFZXZWNEMzhYZVk?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Repercussão internacional e avaliação das campanhas depois do debate"
+  },
+  {
+   "id": "bolsa-familia-reajuste",
+   "segment": "economia",
+   "title": "Bolsa Família começa a pagar nesta segunda com reajuste de cerca de 15%, e o governo antecipa datas antes da eleição",
+   "summary": "Os pagamentos de outubro do Bolsa Família começam nesta segunda-feira (19) com reajuste de cerca de 15%, e o piso por família sobe de R$ 600 para R$ 691. O governo antecipou as datas do calendário, o que o colunista Carlos Madeiro, do UOL, relaciona à proximidade da eleição. Os depósitos seguem o final do NIS, do final 1 em 19 de outubro ao final 0 em 30 de outubro. O ministro do Planejamento, Bruno Moretti, estimou que o reajuste custará R$ 5,8 bilhões em 2026. No debate da Band, Flávio disse que o reajuste será mantido caso seja eleito.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 8
+   },
+   "score": 8.5,
+   "outlets": [
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSWFtUUtzVldqWjZjNVY1RDRSbFd3YWtQNXgxRGY5a1ZuTTNINnk5LXMxbEpqOWxTU1VjMDlXV1ZfTmRuZ05aMEdmb0FydHpmenlxVGR2bDJSeDR1MGxVQU9HWEdrTDVraHVHQkQ5T081LURnbnFwbzQtZDl0cjdOb3F1bV9kVGloYXZENVpPbVdjOTRwemdfMVNZS3BZU3kwSm1EMmdHS0lqdEJKRGVWN0Y0bzJscUV3djUwTlA1eUtmT2M2SEo0WWtUbmRfWVM2ekEwMw?oc=5",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbVhrRDNEY2VyZkFJLXQwbUppQmh6d0ljTzNUWHQ2MnpfQjJ4NEJQSnU2bV9MQ1lNLVNZWXUyVkxvelRrQUhvdjI0RFJubEpTeG9LVDYxZlc4RW5jdEh3WWhIaGwtUm1GRnVsR213RlhxQ0NHamZ6dzdXUVZvSnJnTG44QXJvM0lzOXdObWRhSmhCeGplYW9HaGxxSGZOR1ZheTFjcVU4eVZuSEE3OFlYb3F6Ml9MNzIyai1jZDJQb3BhaVEzT3BqWjNTbUMydlB5S0otRW5R?oc=5",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOTNiNzNhUHBGWWJ5NnVnYW1qbDEwUXNLdnhiNk9MeFpGSVd2akF6MkdGUnEwbEctTmhQSEM3bzVKN1hTSnVVWHVxQ2k2TXZwR0cyRE9zLXYyQkUyTGxUSjRLb202c2xTS05OWEpvZ3BMd1g1dmQzdzJQeVlCTXAxU0VqSlRiTU0yR1NZSDlGMGM5ZWhzX2E3ck42dTRrcnVLWUxwdWJiUDJwN0FGT3liZzZUU0c5RUZ4QXc?oc=5",
+     "camp": "estatal",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWGNsVEROb29xeDZOYmVadGlqS3FTOE1PYS1waEFWRFdCeWJkQXZnM1BjaHN6Qm5JU2RKTVpUSFVKNEx2cm41QkN1WnBZcklvZVp3MmlybThsNGpiRjY4RVRxSUtKRW1YOE9MZHJ2Nk16a04zUFluVHRuTEFfRVFJMW9VQ3RHcS1TbDFlSDYyQzBfN1pNbUl6cVRwaUJqYjRjS0tfeWxadVVmWTQ3RzFuT2t4VW5Zb2k2QzA2eG1OcHdhZw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CQjloVE8wVXJXTkUyamZFdjhQNzBxdnNaand0YWNQYmxQc2NXcFV5bVNYang1Y2ViNmJjc25SUmZObVp2a29yS0NfMENzN0hrZFBRdzcwLU9mZXozSDhpb2VsMzJsbkQtTC1faWp5Sy1uVDluQ1RsbjdncU1Udw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRzU2TUdtaXJzMXpxS1VXNWJ6TkVaTU5uTnR1blZ1cktGOUNUa2tyVUdpQi1mYnF2ZFZ5SUw4Rm1lTUF6akZfRTlTSWFMMHB5OV94MTE0QXN0UE5zZHFwdDk3eHFmRUJXMkV1UVNyM2NDcUFmcDJnWUxBS1I0Q3NPS1Q5c0UzV1dWZ0NIdWRHOFJvdUN6amtDLUlwdHhfQ2wtNmN3ZV95aGZTeDQzSGcyT0s2UjZOaHdyaHdFMjhOU05kUVpXRm1IVEd0bkwwZ9IB3AFBVV95cUxPSVlva20xeDU5WEVsNmhuamVTZnc5aEVoYmEycHF4V2tBWDJiNEg3eVZRaHFEY1AzSmZRMDJIYjIxbUNiWkFsQ1VrcU5Cb043TXBFLXhQRGV3TUp6V1cyWjhIR3duU2lOZTI0cll2b1MxbXJoa0c1WlNSQV9iY2VJRkQ1NXB5YWh4VFZXcTlfNFNjOU4yeGZjcHJXV3BhOXctMnZ3dEM2TGpKbFBFeV9ZVjJfOUUwMVd6NjUzNE1vOTFad1hrSHhQZnRnSGdpVlVtTnNnYk5wck1FekFT?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0VNMERnci1XYllwNndoQVZOTDdLU2s3QUdiSVpBNUxQRFQtLXNNVWZfdFcza0V2NmtBTmRvZThkamJvUGg2eEhlbmxwUGFlN2ZQOVp5bWllMm01QmNZRjNVQ3dSQWRleTFMWk5ZTmwwal96T2Y0TlF6ME9UUTJIT1JPcE1ENnBMUjk4TERDb1gzZGdaRVptVHduQzZZeG1XUVVMbQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Meia Hora",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmt2WFpINS1IdFl5eXBKeHlILTlvcGlpc0RxZzN0V0ZqbTc0THZjMUFCVkNja2hWWFlYRlFFcGc1d2NYSVpqTEpRdERBcXFpQTJmMGZrTFRVb2tQZ19hTzJYOGYtRmJaT1AzQnBmdjVKRWFiSDJ1c2RWZjhmS2FNY1VrTThMMGxsOUNyRWNxV3RIT00zcTM5S2tyT0VaSE9ySV9DNFpWbEFDdkFfT015RnlGR0FUZw?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbkhnRWlBSEw5cWR6WGwxN3JPWHF4OS1xd3hMdF9IcXhNejJxZkVocUdxT2lYMS1vNERhRUNTaFlGWVNZZElBemhsaW8xT0w1Yi1NX0NyNUFWaDRIeE5Hd3o3VkVxQ2ktU3hjZU5JeEtSc1FNanFiNkpSOHlleWdGaXZNUHhJWWIzUmdJWHE5SnVVRDBfR281UkxxLUE1MTNfMEtxMGEtYk5KTXNrNWYxTW1yVzRPNWlfbUVIV3o5QVhZN1otVVowXzFhWURiXzF2U2lQLVMtcw?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZnhxVkIxYmNNTVpFTlNJRnl0UVV2UlhVOWRTQml2X3B6bFF4Q0xxeTNYM2xPOEM1bWxmMGItd1VDc1pheGRfT0MwcEI3M0Z1NVBsZVdfY2tuUW0yOFFiaWxQZGlNRlcxbXZjdnliQXg3QWlQeWJZVW9VOEFhM1o5SzhZY1lIa19rbFJCbFV2Q3RJbU54bVp2dFRTRmlYQlBuaGlJTkp6bU90QkpNS3dERnUwZ2d3M08zbWMxR2tZcnludw?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZUxzSWU5NnpMcFd1X2ZYVmlPWnFxVzhXNTFFYzBfU2JaaHQwT0VkajhhdDctMkFFanBqVWE1Vi0zQWx2SEk1NWxYRXYxSjc2YzFTY3BIX0JqWjgxMXY4MUZybXFNZ1NnbzNkX3RiM0hKV0N5bmMxaGh3dXBESk9Cb01VTzNYN0doOEJBVnJTVFFzc1FEeUhfM3hwTmhCOEJfbEJOMkhtZ2Nxd2ZGMDBVbEhfZ0RtUENWd1k2cE5qVkVwdlVYd3NZVlRJUDg?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Pagamento começa hoje com calendário antecipado"
+  },
+  {
+   "id": "fim-6x1",
+   "segment": "economia",
+   "title": "BTG/Nexus: 66,2% dos eleitores apoiam o fim da escala 6x1, e a base de Lula prepara mudanças depois da eleição",
+   "summary": "A base de Lula prepara um texto com mudanças depois da eleição para excluir setores do fim da escala 6x1, segundo o Estadão. Pesquisa BTG/Nexus mostra que 66,2% dos eleitores aprovam o fim da escala e 26,4% desaprovam, com apoio de 78,8% no Nordeste. Flávio Bolsonaro nega que vá rever o fim da escala 6x1 caso eleito. Empresas correm para se adaptar ao fim da escala. Os comerciários, que celebram o seu dia nesta segunda, estão entre as categorias mais beneficiadas.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 8
+   },
+   "score": 7.9,
+   "outlets": [
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMC13eXA0dS0xYkp3amZJSlJCZlBJR3pPMElVTzdaSTJFTUY1dWh3S3ZubS1ieE50eXZUVDZDNUQyRTAyNHlTekhlaWotZG1xam1PaEVTdEVlRklrMlBnOTNyLWhNUTZaVUtQeHFSOUNyM0doYi1NYUJCVG5JcFpTN0xncWtLY0lqQ2RSc3V5Q1o5a3pVY2Jaa3IyR3RXQldHaUxIU3lRRk9RNm1yMzB5bktmWkh1LXFNY2Q4RWdtc0FfT056SDdITHpqOA?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTkZDY24xR0RBd1A4dS02a2RjYmNMUkVYcWZzUkdub0E1cm14cmtjSl94Nm1SZTdVcFA0b040aXhTQUd0dE1yTkxBUE5GcUJjYldWTkFLRG4xSkMzVXpNLWpGblVuenBYYlpKc3JnZGs1VmUyTnhRaS1mNzVLUnplejk1Z2dSWmt2TFRQY1hjQk81RG0zNzl6dy1INHhJVzd5NjJQZ29ySUdSeWhXWVpSWEZaaDdrSHgzcUE0VXVMS3pweTNWdml2M2IzbXhsUExsLXNxdlppQUtEdHRFR3FjYnRnWWZMTzhvanZJc2Z3bw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNV0JUV2lRaU5EQWpaN2c4bnh3cGhDeUZPU0t1cGxReHJFQzJkQ2RKMkRaY3JXT2N1NTRnUkEwbFVkUjBXbkpCeUxsLUMwZl9TUWpaY3VzQ2lfbGNseHVfWTJIdjRWNTI3ZDhRN2dWWDlwUm9wV3VlQVBCNjNrZEdtcnJlaXBTM3M0TDRaY2NxbU5Ub1g1MzMyUUdSeGs2UktSUFlnNTM2WUpXaGx6SGVmWEFHVy3SAcMBQVVfeXFMUFphbWhvUWRyQ0lZOE1yN2pzOENJS196MFJoeFF1NzViWEtmT2FkTFFsMHozM2d5ZVlxVnluTVFDSlVKb0VaNVlmVTBlTFdhUEFZVFZLUi1pR3g3VDNpdFBkNTN3bV9CMWxPNEVQcFBsdjd3MEdKRXdIbkY1SnFtSk00dWhUcnJDalNiVEhoMEZBdVVSMlFaRjJNcHRQcy1CWkpjUTRlNEhveEU4ZG8zQzdFbWhfLTc4ZWg1X3ZYRk1sb3pz?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdE1GT0VIZ2tBNU9mbUZzeHJJSW1LX1Q5MU05S2lXYXRKT1QtY1VMdW5Ib3FnRGJZM1dyNm52NG5oeE5tMmotUzZSOFVveFNsSjVYLTA0UktjakVVVzZNcFRPLW9rUTlEcmFMaHR2cWJjbW9DSmJVUy00Zk5XQmJLOU9vVkhkcERZNVpXM1ZWZ0dtT0FwS29mTFFvSFJsUQ?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVy1qVlN0UzQtRGpuQUZxVUNyV25kOW1RWTVBMzFielVRTnFmempIUXA0V05qRmVIbE8tNVQ4OXE3UDNwcExLWjg2Um9JbFlqb1lMaUpiZXQ4cjQtZkdHQnZoYmdzcC1fSEZtR0Zoa0U0Sk1jUTJoaENTeEIxRjRjZkVHTElESGdaZm8tSzdlZXY0cVJkLVRRVm5ldjZ4NzhqN1VIQ2FWU3lrXzRMUFlYaFFsa2RTTFEydFNzUXVxRkFwQW9sSGg4SER5Z3R1b1Znd05n0gHiAUFVX3lxTE5fNE5OZi1laWlkMVhJWlRwYUpYY0dSWnZ2aWdRY212MlgybmdmeXI5TkV0V1hCd2JHT0l0cDZvbG41T2wwSzlqUGN0ME9Ed0lfcVdfaHc0WTNMQVJQa1FXUjcwU0MxYm51di1pZndpaHVuQjZtbVBDdlp3UFY1MnJZVXE2WVFycmhocGhlR2xwWTRWUXNBaVZmblpWTWdtZjN0bnV4RkNPVW5seHl3MXhjNjM1VTBLdllUVFhLZHgtbUpmZUNJQU1SWkx2YUJjTVFoYXRLLWRXSkRQRjRFZXhBR0E?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPLVdTWjgydG1jRlk2N1FRZ1M5YkozaF9EVkhNemJ6c3E2enlickRCTm5Bcm1hc0RWekZ4ZzdaRE8wdk1qcGJfd2l1YU96Y0xlODlTSTF5cUQxWlo0Q2oxRjUwU0twVzhJYmNMQjd2d2RZbzJVU0U4RUx0bkN1NHpPLVR3VE41VWp4V3Y4a1FyQ2ltYkEwTnFLbTBzWlduLUlKSFhvMndpNzJHZXA0VTFKRnlVTGEyNFkyZ1NXakFjd3hlSGVxYkk5QXU5WlRPZzlyT2tBTkFjSlJhcHg2dWFzbE5YUkJYU0N5OGZCUTlVS0lQd2lXTmEyZTdiUU9oOUdpV3ppZWVPdGsxQkdlaXFRdnVaZGs5U3U1dnBqdnAtTGtJVGlXaUVF?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio (Bahia)",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeW80QzdUWWM3SlhtY3hEZzB6YnR4b3Ezajg3Sk13aUdoUTZvOU1ESmIwcHJRci1ZbVRUU1ZlYk9HbnpnR0pVaVdaMVJRcFNaUk0yUkE5b1RidVhLbDdvTU9vdXo3MTZ5ejctcm1fRHZxMTVkMzJDbk01YnBvM3NEbXFlc3BibGtxRUM2RkllVk9hWmZvaEtabjRyZ1NjQklNYklKUFE5YVRob2J0Y1B4RFhoQ3k3ckdEeU5neVM5bUVOUlU?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVFhCdThQM0E5eWxoRGdrejJlcTBpdnVDQzVwcnNjS3k1cGZTMmpnczhnV1dDOHNldm5GMEdSZmJvZFd6ck91a1ItY0ZuTVRVQ3VEM09FQ2NEdzRtN2h3NTN4MlJ3aDBtZmF2Z0lrbFpjSmFDaE9FV2dCdXB1YVV0dDhEQ29CWXlEdnhIYWJLT3R4WEFobkdoeWlWZFR3Mm5hdTZob0VJUWpvUXpCRGRJZUN3QXFOOHVXX2FZa0dzQk13Q0E?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "JOTA",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObTUyOWVKWEtucGx3VzEwWVItNzh3c01kQUNPT0VBNXNLSEYzWXNrclpQY2lnQWRxNVoxU05NOTJVRU1kLTI0VC1KdldvamhPYVZZS2stUEYxSWNXaGt1M0Q1eHdDX3ByYUtEOXJpNi1DSTUyYXNLMXVaX29WNWlGeVZUM3JzQVIzZ2tXTGl4RFhfeXV0S0pVb1NGZG1VUGtubWZqb0hn?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUkI0MWFROF9lMTNZemoyT21yMk96NmxiMk9zV3IxSUo1M0JoMkJZWndZaHBYcFFxUGNlX0JfcXRNd0VpWEhGX1MzUGRzTnFORkZwNFhRZHdYN0RhV3F6MjVIaTNPMXp3QXJtZ1lmWjR2NkN4blZsVm1USkJUeWJGVVdGY0UxSU9ycHd4dWVkNXhZU0haUU95VWtxS2xvY2U3dTAycWNrVGxCRlRIc1ZYOGRZSVp1WGpmV1Jua1JsNHVGa21lYWhMbzVPS1VXVVltTzZleTJsNWFBZnpKVGpMeVhR0gHwAUFVX3lxTFBZdmtUUjV2N3hhUUFXMjZOaGhRa1lqNDB3eTFkc2NsUGFWY1ZoSkp2Tjl2YzV1WFlkaUZoMnBMSm5CZjZuUXJGMi1tNjF5d3UyNWhTQkJQckppdnktY3U3YWZVVFBTSlI4WmFTd3prd0Npa0xLdms3R0FjcGYweFdnX1o5RWh2ZlF0c1JycVI0MVlYZ2FvRlBsaWtCcThKQXJtZWthV05qdjJaUDJTaXBSOXJIZTJOWDJNcmFqNGlUbWMtWl95RUFCcnRtTHA5clo3bm1BaVhJcEt6ZFBreTV1UlUwUnVXQWVSbzhXemZGdA?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Pesquisa BTG/Nexus mede 66,2% de apoio ao fim da escala 6x1, com 78,8% no Nordeste"
+  },
+  {
+   "id": "focus-igp10",
+   "segment": "economia",
+   "title": "Boletim Focus reduz a projeção do PIB de 2026 para 1,83%, e o IGP-10 sobe 1,76% em outubro",
+   "summary": "O Boletim Focus reduziu a projeção de crescimento do PIB de 2026 de 1,85% para 1,83% e passou a prever um dólar mais baixo. O IGP-10 subiu 1,76% em outubro, acima do esperado, e acumula alta de 5,02% em 12 meses, segundo a FGV. Economistas também aumentaram a previsão de inflação para o próximo ano. Os juros futuros recuaram depois das novas pesquisas eleitorais e do debate, e o Ibovespa subiu com Vale e bancos. O mercado acompanha ainda a possibilidade de um estresse depois das eleições.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 7
+   },
+   "score": 7.1,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQckRweFZkSHhwUXRaU3FhalptcmJ4dFVYTHV3YjhXNFctWURqZjRmRnpScWVxc3cyZzNmaE9MWDF1M1lBaFhlUGZRYUNhNHctblNmb2pobXV2ZG1aTVlBNXN5ZEdkb0EwUklZYzlXd2xFcHhqekRGWWlaSEwwUU9URVVpVDVZTnI1OHlpNm5zdF9hWm1lSDRDMklra01hUEIzNDl0VS1mWWpEMkhBRExMM2JSUjF1Q0hqTmw4QktfTVVOZGtrSzhyeC1PRklJXzNpY2VvblVaNHEwLWlIZ3FxaVFFdXRYVTl0eFlF0gH6AUFVX3lxTFBrdVZncjFIaUxZdnhicjVVbnpMYWZ5Q1NDeEQyNWVFZURIbDhhMHYwMDFfWDM5ejhHV3FmRFpZRWJYTzc1U2ZyOU1rdG1XbGhLX1pfa29IVnVtY1RHQlNGT0h3MVJGV25SVVVyM29xUTE1ejM0LXpBSXI3ZjhqYkJBWWRsd2R0TlBRQkhGQ0taeXYwZHoxT1RQb1BkSTk1SFlwNm9aZW5OSFRwSHc5QkFDNXFtdllXTUdEQ3ZhaEw4OWVfWGlSdFZNblRxQ3pJRTJtdkN2MHUyUmx6dWhISEFOVWxMcEtZNGFYZWxndFVLQVB0WmktRm9GX2c?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdWZkUTR1em5Xblh3bWNsamJBN2Y0bDFPWFNVa3VNbkxVS0xkTjRTOEUzM3gxSW9ZdzZ0MVlfdXBHTHRaMEgxOVdrSTNUbEd1a284Z1ZrN2xWUGlJMTdIU3NMc2FmbGZhNm02b1JyMkktS1ZuRUExaDRlaVVEcHlVSnBieU9wTVNvekhsb0FNeHZwVjhESkRyVmxJZw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcFNZdHNhQjN3MGJGWUZIc2gtWVJ6dEc5dlk0MC1wYTItdnFfdk5XanBWaVJ4d1AwWTJRX2g4SXhEZE9MRjNFd1JsUnRKRjBsZUZvaWxvemxPR0N6SFo0aGVEM1RRbnhFWkE5VTN3S3Zic19LcjNDUHk5VDkwWnBwSGl4UWI5QnhSUkhZVnRIem1pb2RFNVFTZ2FGYU1OOEMxcjZld1hMNmIyM1ZhUldqZlN5c1BjbUhUUUhoY1V2ZHRaWGdtLUd2bkw5WWZSSnhEUlM3clVhT2dtWlXSAeoBQVVfeXFMTS1sMDlZWW45OTRKQnVINDRGNHpxSXpuT3E5Qm5aakZzN2dqajl2enhFRnVDcUZUdURWMzl3THg5RE1OLWI3VG05WS1YdUszRERxOHhxWWJRME1YSFF0VTJTYXduV2dmdFZZdGluNXg3VDhPWVpkSmxJb1FtbTkyYkJ3OE8wZ1ZrekM0SXlscFgxMmxjR19mVHZwZXVoWlJac09jLWFZNlJuWGctZW1zZzFVdnBNUWMtb0F4RmZRU1U0bWYteVI1S0NObkoxVHNYbFZhc09Mc0JuRmpKTHU2TThraVE4SXhlV2NB?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaRUZBalVQUDZGQTNnOVNEMXg1bmNiZWIxSlcxSGloRVQzRVBQSFphVkpjVEJIQTFLbThlRkxOZjZnYzAySC13NE45UF9IaDJFTkRnUU1YRkVQekdZVDRVa0pEWDI5aHBYMS1aZE01dTZPMzVOV0FsM3hwb9IBgAFBVV95cUxNTEN3azRaVXRsWEpSSzdBN083Zl9vQUxIZVB5STNvcHBLRlBLcFJ3cEhvWGRNTlFNV19ZNTlGbjlRMkxtUjV5SWhpRXFsODBDRDNuSjZEeWQxQmRLVEROWHJVUlBZMENlMnpVQ1dUX1ZYLVVjaEkwUTlpYUdUaHVSeQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWXg5X3B5ekRZUl9OZ0JjLUNkRVYwaUppMEhTazZvSktEVzNUcUhEdVFaNmJIMlUwRVE1bnVQLWYzSzVKVlg5Q2QxdTZSdTRtODZENm1GQTB6akJvYjJZV1FiXzhCZ0FmdlJFN2xkWUtnZmEtQkxQRTNzdnhQeWVlNUcwMUNWNkJIUEJWdlRabzN3ZUEteFdMdjBYekY1R1p5bWltaFl1ZjBzcHBhX2NXVWw0bUhmZFE?oc=5",
+     "camp": "estatal",
+     "position": "secundario"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdS0yaklEWWRZU3BQNWU5cXM5Q2JRNURPeTZYdVZocnFpU3FVaXpHc21QWnlCeE5CSDVwSFZUZUJVb1h1MUhCeGlzS0U4SlZYeGQxdkVMQkNwVUt6SWFuM2o2aElPeTdWTFAyMHY5TkRyWkFwa05henZmREdLQTNUS0oyc3pnSk85WjVGRlZGREdsNE5NYjc1T2dGNkJwWlRfbG5hMzcwV3p1eHpKbU9zUVZ5MThCX29JVi04VVc1aElHcUdySFNOSFBuSC1uV2tGWUxyWmlXS1k?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1icDUzNW1uSE1TZVdUcEhlZVFEVXJ1Ui0yZ0tOWlJtNWFzS0VGVzVKVFo2QXVhUXVSY185Wkh3c3h4RUh1UVNHNWpFdTV0dlZia2JsQ1Y1SEtiUWp0ZUViSmMtV1c2dnVXS1hnUjJn?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KcHprX0VCa3NDSkdaQWF6VGV1ZmVTMkpILW1HV2pYbm54bTdmbTRxNjE0T1hUcmFpWl9DLUJNRUNPaVpYaXI4QnFramhyUFZGbjZxRmctbzJvaS1xbWZyZG9nNmhqeEs1MnFxaldOU3N4bGM2?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQkYxRkdFaW9Fbi1CQUlBNFozMkhWWk51R014RUV1SlF1ZnFwT3YxZ1NyZW4zbDFJcW9IbUNfY0JmNktYOVVTcVVIVjZGUUJYRkM0aU5HdGNfT21MRmk5THZfM0dPaGZ0azFOMWQ0VHloZ3ByV3dhcG45VFRmNmQwQXUzZHZVLWNnVGpPclBVNDdYemEycGgwT0xTNkhKckdoeWNV0gGrAUFVX3lxTE55QklJUkpSMXo2ZHlJQ0loMGhlYW80bXlZdGZUZVlMN29Sbm5Jc21WcHBBMmVnTTNxc0JBNjExNzBPY0xsNXpseDJTSjdFT2JXNmRxTTF3eWZtLXNTOUhXTXREckFDdnZUTExCQXJ0aUh0OS1PVzd6RXc0ekwyWmVyTlQwM3JwbkJ0TlhTcW9KTUhVYktNc0w1elRaVkQ5LWV5cVFWcEl0cmNiMA?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTTduenBVeXVJbGtManpjTjJaSnJYNVpad3IwZHE3bmRUaHlhUExuZnh4LXN3RXlZcnhZUEtxU2tSTmVwTXFBVHF6OFBfVmxVOWZwZXB3dGRKQjZ4c2NvS09IZ3YtVVlud2szTzgtQ1dneUdIZlR0djdkSDB4cjRsYXBZc2taWHduNHRWVm5rMjIxRS1GVm9lRGFIZk4xUQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Meia Hora",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUJZUGdWOUVTLWlvUmw2dXkycW4xQlNTUDRoRUFnVUloQjBYd3JGS2F1bi1CZkJyQU9KYmdQbDdvZUFUUzJyT2pscWxwcVF4ajhDYldCVjJkRU5rT3NzQjlIX01jWENfQVh0Ym5haTlHdnczamZiQ2Z4SzZDNUNRRGRyX1lCUlFrSFZxdDN3a2lJeHQxNjFGX0FnYkJUb2t3a0c5NnNBOE56RVlCUHV0WElUaHo?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Super Notícia",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdXM1eF9GRm9QV1V3ZTVYT2puTkhUUUd2MWliN3R4V2ktT3dTTlllVkNaQWwybHQySm9tbGZIV2F6REYwZG9KaEl1Nm5hTE1lMWtfRS1Bem1SaDMwdFVMM2ZMVEUyNFFwVlpsNFF1TEdGUjZKdHBteE1XWXUxUXJWOFlLdXlFcG5aRE5kbndiVFh6eUltS3d6VGlxSE5zMHhmLXBveEtGWHRieVNNNmFITTBvSVFMcVVsR0hWMmctb2kzcXlrZ3Zyay1Sb0o4a3FESlB6akJyS0UzV0E0?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNUkxBanA5Y1NsQmFWc01yaEJOY1pWdEVjczEyWjVkcnRZQmFoZDM2LVcxMG9ZbEtYeG4xdFN5OXF3T25xSWVpWTZJU0NZUk9Iank2dmFEU3gyNUFQNlNydHlleFp3V1ZCaVNzNGZ3RkRSRXdLTF9kQjBXdkxUb05pbEhBYWx1U2FMOUlfOVdfWG1GYng4R0F6LXBrSElDby1qR2pZQ2VWeG1vcmZiZ3M3RDk5TEQzckpLNnFYS0d6TlVjVTJFQmVzRFo5NUF6SXhWcTUwd2VfRkZON2FSZ1ptbUczRUpmUkJUX3lYYUo0QjBxS2xJMGY2clRva1plektqTGNQVXp6XzBoZUdXdHZnRw?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTllsMm4zNlJqRElVdTljRGpUY1FtNUJVa2IzWnhvMVNLcUlFMHh5YlpVVkRvUVRaN2VyTUFRMVNscEcyQ3JYLVUtXy05QWxsSXF2c0xKblZ3ZEZtZHdsZ3hBd0ozMFpXTk5sZ0xGM3h6VlpocU9fWjFYbGhLckVFNkNTeU5oU1JnUW1nOElWU2ZlUUJkM3pQcVR4MDlKa21BaV9rLURJcVZfZDdYb3lOSVRvMVBXNmd4YWc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdXM1eF9GRm9QV1V3ZTVYT2puTkhUUUd2MWliN3R4V2ktT3dTTlllVkNaQWwybHQySm9tbGZIV2F6REYwZG9KaEl1Nm5hTE1lMWtfRS1Bem1SaDMwdFVMM2ZMVEUyNFFwVlpsNFF1TEdGUjZKdHBteE1XWXUxUXJWOFlLdXlFcG5aRE5kbndiVFh6eUltS3d6VGlxSE5zMHhmLXBveEtGWHRieVNNNmFITTBvSVFMcVVsR0hWMmctb2kzcXlrZ3Zyay1Sb0o4a3FESlB6akJyS0UzV0E0?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUmRiNi1uMU5sQUttcjQyRFVCOU8tcmJUX1JZcmdMRlF2LV85YmRhai1qbHp2cDg1UWEzZzUyS2REcGtqbHUxZExHSk93MERnZWxmRWt3NHVidVc2RnJ2aUxITG1pM21vUklGMGhEbTZnejhWUjdsUzdYNEx0cGZEclZpWGhtOGdnRkMtSWxDbTVheV9OT1F5VlJjb0p6VVUtZk9zcjZlVnhDZnFnVThZQXpOQXBNODJRT0h5RnBPSXI?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ0RJTnpZdmdmdzBGd0c2Vl90UG1EWmNRLW9lZkpPa0x6TWNfMGZ0QUVLQjdkUy02Y1VreDJ0UTBRWHVwbWpFQW81X2ZnOGtQMjdhUGItZk1adWZYQ0x0dU5MZUZjellwbWxjUUIzVjJ4UVRnck51WlNXZGI3b0lqdDJHaTVxNEpSVndJbkwtanI2ZHVVOGY3bnBtQVBRY01NNjRyVHdyV0N4Z9IBsgFBVV95cUxOUkNrdDdyWElJajJzTTRoYVdOLVBrQlRxU1pkLVM5SUVpSlpzRTYyTU1rV3RucEFjSU51TU9lVEJjaW9ZRVd2TC1mQmp4Q0xBLUJFbTVJU3BfOEM4aGd6eF8zTkc4N09tcUkzcTAxY2lxcmJPclJNR1VXYmoyQk1DTnVIaUVyMW81S2RMSWpGcUUySWVBWlpLVTZqZXl1eWU2dWRtczlxNnhWaUVSYXJ5NEtR?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQ05lb3d4X2JEbXZ2SXZYTFVuSElRQ3U5NWlTYUsxNGotVUladU5PSlFJZk8yYURfT1EzTS1SbFpiTGhJbWtDaDd4WmFoU0FMTjdTUHU3UzRZZ2tUVS0yWW5VczdSRFhEWGUycmpuTXVnWm0wdzEyN0JxWTdPNVpRU01yQXM0S1NPTmsyOWhLZkhjczk5VHRWby1oZzZpOFBmVVRMNkdFYlFVM3hSRXJjQ21UdndFNXpZNTU0UElCeHZQX2hQWG9mZ0tlQTFXSnZpX3lVc0JtNjdkSS05R2hzSTJn0gHiAUFVX3lxTFBDTmVvd3hfYkRtdnZJdlhMVW5ISVFDdTk1aVNhSzE0ai1VSVp1Tk9KUUlmTzJhRF9PUTNNLVJsWmJMaElta0NoN3haYWhTQUxON1NQdTdTNFlna1RVLTJZblVzN1JEWERYZTJyam5NdWdabTB3MTI3QnFZN081WlFTTXJBczRLU09OazI5aEtmSGNzOTlUdFZvLWhnNmk4UGZVVEw2R0ViUVUzeFJFcmNDbVR2d0U1elk1NTRQSUJ4dlBfaFBYb2ZnS2VBMVdKdmlfeVVzQm02N2RJLTlHaHNJMmc?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "BHAZ",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fQWRvRTFXbWJhV1hCTTh4LWhORFlOcnBZWnQ5UTZhS0E0MVA2TUJLM3NtVmJER0RGcFVaUnJfMERTSF9sMHdEck8yS1d2N1VUWWNHd2FWWWMwM3dlR0pDWWg0QlNNVm9HbWE5VTBMOA?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Folha de Londrina",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcGczOVJvajh1RG9RTGZCemxqV0diVFN4MGhIZjJsbmZpbkI0aFdIdE91TUFzZjgwb2xoWlhQUUc4Y3p4REFrT2RGY3RubXpjQ0Z5czVRTk1pTGtjMHpHclZWd0xZZjdjM3hIbDBNRVlGUGFwWmduaEg4OGw1WDB5VmpSNjh1cU5USVV5bndHN3pTOElyY2VFMzRpZXFkN1YwZG51UVpJdzNnZUVHdUV0bVJ30gG6AUFVX3lxTFA0bWFpalZ4cXZWeUJ2SWdWYWJoTnFHUU85b25RbVhDcnJqNS15N1pnVHZzdTZTVjJGZjBOUXJ3YUFoNjA2N0ZfelUtMUJiSGlPY1Bxd3ktSUZxQWI4NnREOVJfUWVSMlJuQkRHMXV1QzlUb2hLM2o0WlRKOHdNSm45ajU4ZU5MakNFeWxkT2JQRE1aeHZ5UkhCVks0cHN0dGtaZTVZendIZEhSMzYzZGxDNExtU1lRdkktZw?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Popular",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTHNjaW1kY01NOHZkdW9jdVhPemFfcFI3TS1zSW8zTkktX3hVcUM4cnlQQlBnOEw2SEVQbEt1d1ZNOTEtLUlBejNUVU1zYmNXVEJ4LU5WYUxYby1SNU42UTNmWmc5cFVja0RLY2RPaDJyRjh0Mm01OGJJOTZYZVVCVC00M3lJTnFpdS1GQ3JnSXYwN2c?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "minerais-criticos",
+   "segment": "economia",
+   "title": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
+   "summary": "O setor de minerais críticos e estratégicos emprega 129 mil pessoas no Brasil, quase 130 mil empregos, segundo dado divulgado neste domingo (18). O tema entrou na campanha: no debate, Lula questionou Flávio sobre uma suposta cessão de terras raras aos EUA, e Flávio rebateu citando CV e PCC. As terras raras estão entre os minerais considerados estratégicos. O assunto une emprego, soberania e a relação com os Estados Unidos. O JOTA noticia ainda que o níquel brasileiro está na mira da Comissão Europeia.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 6.2,
+   "outlets": [
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdmZOSzdvM1hNVzhsR3VBTVNxMGlZbFNUYmh6enZyc21QN0MxdDdJVU1JaXZEaHZwT3BNWm1sRlhvZ2hhckhuZ0tHdVJyS2pFTEVpRGotOExsY3FiM1VpTDdPNF9WSGFLTUhKVXU0TFY2R0s5TE5rLU4xcTBKWW5vZHNpd0dTbUZTX2Q2X3RaeHdwRlM5R0tMTjlHdkNEQlRVc2c0NUd3dm1ybmE3TEM1WV9PTWpNc0VPWHllWjZZN0FhRjRLM0UzbWFDMW4zeVI3TXRj?oc=5",
+     "camp": "estatal",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TLTRTaEp3OHFxU2lNbnNPWWNpdWdXQnFhUGdSeklKREY5S2Qyc1BoaHhKQWVoSjBVRm5pQzMwU1JsUnFGamI3SEkzNjU0bXdmdGdMV2kxZXBaRmNWc1UwUU5UbmpGVklFcXlrcGN1cGpDYXhhYkFCVw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdjNVTFlFWDZ5YlBFMXc2YWlVQXg3RlVfRF95bTA4OTVQYkxqemlZTnFCOVBGdmV1a3N1SmU1TS1laXV1dnI4MkRjSFltNGpQUExIaHl3c1ozNUFtbzlVc29OYzlHYzRqMkJHSkVMSFFCeHlJOThYZnN6SnhpdVE3UHBLZUVYalpfc3dieFYwQ1BSaEZKNk1xMUV6ODdoM2VnZjJlMWJLNzVsa2gwcEo5Y2lQLW42bFZMQ21LMFllWdIBzgFBVV95cUxQdnlUNWNuNjZKRUdFM2RpVDdXNDJkMjJCemo5VU8yWjQ3T2ZiSC0wb2hMeFY1dnpUdjhQenJORDZ3R1B5aDluOHhCZkVHRFBWdEhGejBETFJYa2VfMGR1c04wY1RrYTVKOFVQd1FXRHQ4SVNCZk1XdVNOaFlETUpaeXNrbVp6cE1Jd0h6NWNEMjVZV2NOb0JmUjBnTERrS1I0RkJheUw4cjVsM1piY0tVc1Z0YzNmNDFMUUNRQlhyWFBtc1dkWnFNVUpKR0tUQQ?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "JOTA",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbFduc2g3SUp6UWVWRjFfSnpPS0w3azhiLVRTZ29mM2p4elVVbW8zanpBZXkyQ3FnQ1FYeXd0dl9fWDBJai1IVlZLNS1laU52aEswM0w2amVLemJSZmVSaDV2NFNVV1pGek0ySmtmRG5iQU1xRl9BS25YaURtRXl2WF9ESF9RVFVjWnF1SFZ6WlJxUkNPRS1LTUg1WnZHeExXaHlQNUVyMVFJZw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "franca-protestos",
+   "segment": "internacional",
+   "title": "França adota toques de recolher parciais e Louvre fecha com bloqueio de estudantes; Macron admite falhas e mantém ministro do Interior",
+   "summary": "O primeiro-ministro francês pediu toques de recolher parciais em cidades depois do fim de semana de protestos violentos, e Marselha proibiu aglomerações entre 12h e 20h. O Louvre suspendeu as visitas depois que manifestantes bloquearam a entrada, citando um movimento social estudantil. Macron admitiu falhas de inteligência e de previsão, recusou o pedido de demissão do ministro do Interior, Laurent Nuñez, e o ministro da Justiça disse que o governo falhou. Cerca de 2,4 mil pessoas foram presas, e os protestos, que começaram em setembro contra o custo de vida, chegaram à Itália. Trump escreveu que a França precisa fechar as fronteiras, e os títulos franceses caíram.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 7
+   },
+   "score": 8.7,
+   "outlets": [
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbFFqU2R5Q0IyaGhLUDgzZHQ2bjFKQ1dGajZIYjV6UmxlMWF6a0hPZUJqRkpUbWhGaFBoQTFnODNLWkQ4a3lZTFhvNmdvYnRya25iZ2dRREU1QWktY202Nk44eER4azkzYy1KS0E2WXZLcnhHNmpNVEtTVUw3MFo1dHRZR1Jib3FQRDVJVHBpb0U3Q0kwTC1kN1RuektScU5qNUZMbGtoVTdlcFFXZVNKbElxMW4tN1hsQzhycEtFX3RnZ9IBxwFBVV95cUxOcG5qQVlfS0lJWWJPV2tScTlRZzByZHU3TUwtWTcyUWpRZUZaRUhaSVpIU3NPV0NEY1BVbDlhM0gxX3l2d1FrLVdLQXlOQVRONm5FUnNvd2RHR29Mb3BEMWhubFRKNy1vS0YyUW1BQlNQX0JEMTVHb1pPVnhtTlo2dldlM2ptQ0dtR1RBd010NnFKa1QxX21Za2lRQzdBTi1jMXhxamdBOGZuX3Z5RXhWazRjbUhaZWhBcXJBN2tfOHQyUThwREU0?oc=5",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTFZuenhCS3ppSV8zQlNYZGRPSkM4QlVTQlZ2Q0N3RjBnZkF4aTBhc0FxbTBXS1FTUTBVNHpoV0xrNlZhdm5YR1R1S2VLYjhiZ0FoZGVubGFxbndpZTl3T3ZIXzFOc0hSS3E4RFlob2JhSEk0WFA3N2lzSHFySDhmamxhbGdyRjVGckM5aHZJM1ZTQUdpRE1OVmtoSEdxNTI0RlFTR3lYRWNwZGczQXdFSUdiTEpXdmxjUmZwQXdPN03SAc8BQVVfeXFMTk9zTEpFMVpFdTRYN3UwcGw5OUt5N2VHSy04anA5a2hwb3p2RDFKdTkxRkVRNzdwaGplNEZKekVfd29yaWI0dHZJdWNORGpwdVVJUFhDZ0YxN1FVQ0plYzBFNnJJRXllUjV0aWcwdDdaNHRxSDd5cUJkOVA3OTRiNHdQb1lrNldOVU1mVlJrODBXU2NRT1ZqZGh6NUFickdxRTNtSGdVcFpock1ZeVZ6d1Uyd1lWRjBSS3hBR2VGU1RUbTVmc2hxaVB1QkNjXy04?oc=5",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbmUzeDBzQnZ6MXpBTFhreDZXRFA3S0M5a2lQNFZEMnJPQUY0YmEwWHpxbE9iY1psczQxTWF3VjZXeWZzQkEzelVmRjU4cFJldDhBOU9lQVJVbjBWMzZYOHRHTDNPWGwyNEFwRlYwdjVpUFI3UE1MUU01VnUySS1LZ2JWb2w1V3lWakUxUGJHRUR0eXgzX2tyU3NfZFpTSXVTUDhhbFlIbGtEaHV2NlN0aXJn0gGyAUFVX3lxTE9uZTN4MHNCdnoxekFMWGt4NldEUDdLQzlraVA0VkQyck9BRjRiYTBYenFsT2JjWmxzNDFNYXdWNld5ZnNCQTN6VWZGNThwUmV0OEE5T2VBUlVuMFYzNlg4dEdMM09YbDI0QXBGVjB2NWlQUjdQTUxRTTVWdTJJLUtnYlZvbDVXeVZqRTFQYkdFRHR5eDNfa3JTc19kWlNJdVNQOGFsWUhsa0RodXY2U3Rpcmc?oc=5",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzJYaDRJTzVjQngxVHJYUkxOcmpQdDJ1eVA0LTF6enVPbVlUS2Q3aDFvTlRaaDJWVUljVDZ2NHVHTHZPQXJ3UV91NUtXeDc5alJZeXJ3T3N1LVBlZ1Y4U3FOSmVobDVUbVZsQ2Rkb2M0NnZ5QzA1dnIyZkUtR0pkM0tPY3lxUkVrVlFrQ0FTN3hPM1NfQWJ6UTRhcGJIcVJ1b3NyVlBKRnZGU1Z5Sm1UNFFhZ0dhQQ?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaml0V3NBTEpKV1p2X3RMTzZ0NXk4Y3pwN3k0NGI0alRYVnFqYXBJVW5TaGVyMVV4bTJpVUJ0VHJsRk92anhDXzhWcmxGOXh2a21SSnJzYnVCWXpXdllGa01QcXdWblZPSDltUmx1b0NQLUJJTC1oMlhBZEhENHhBQllXbGtYYUtnNzhHQzBCOURxVnZCNUJyZWJjMTZxc3p1b016RDA5cHFFX1hwNDVRZFRNOTFMOW1NWVk1NFp4ZEMwVG5QUHZkSXhB?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVc5QVBZa0ZRYzFKU3phMkVsSTRSdUFBU3M2Nm1fTHM2QmxxMHk3cmZkMFdPMEM0c3RsYzhtYlJoQXMxTW4yaGFwb09jelBHY2JBaVhKRWxSbzU3SHdyc3JjU3dEbGZJcXRGRmt0WUdROXptLUZEck5uSWVOcmlIQ3I2bzN4ZVMtQk9WbnZYY1Rza0JnRUF6d0JMbFJTeHZ0?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "BBC News Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1sRTBXaDlfMzAtRGw3VXVjS3l2ci1SYUpKN091M3NpdEE5NlBueEVtYUZCcjRIOEotV0JKY21aMzBLVXZLTzRsZEt6NHVBMVVhb0ZmMV9ud1lXcTZIMkRpQXRVY9IBaEFVX3lxTE5uRHlhbk9TUUxsUkJPQzc2U2dQV21OeTRISGFXcjc2clZDOU5hLUxqRHpSa2tiS01VS2ItVUlTRU9HWk5NNW9ZdDk5dV9sMVE5RDNyT1FvTUxwNmVld1RkNk1sQkZEV0VI?oc=5",
+     "camp": "internacional",
+     "position": "secundario"
+    },
+    {
+     "name": "DW Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVzQzNXo1d2ZEWXFEQS0tenhLTTJtM2QwMkFFMEZzVldRT1lzMy1ZUm5TZ3VyS0NWX2pnWFl3c1J6N2hiQk1yQ0ZVZlN0TDJVUlhXVlpLbFpEQVNNT2Fubm10d0duZHVGNjZKYXJHR0ZGWmtkSVFZRVNXbEJFRmZfdktrRDl1dGxDUml2Y1NuSjI5VjVfZ1M0S3AydXgtRkRMUjJ6cEhvMTItQdIBqgFBVV95cUxPVzQzNXo1d2ZEWXFEQS0tenhLTTJtM2QwMkFFMEZzVldRT1lzMy1ZUm5TZ3VyS0NWX2pnWFl3c1J6N2hiQk1yQ0ZVZlN0TDJVUlhXVlpLbFpEQVNNT2Fubm10d0duZHVGNjZKYXJHR0ZGWmtkSVFZRVNXbEJFRmZfdktrRDl1dGxDUml2Y1NuSjI5VjVfZ1M0S3AydXgtRkRMUjJ6cEhvMTItQQ?oc=5",
+     "camp": "internacional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Dia",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaGJFSWFyZXRVZzRoUTlSVnNuUXJHVUlhbWJHQzdGN1ZfUHI3aHotS0t0ZnNyUkI3YnljUDVwLWNzSnZodTBEUlI3dHBtX2JBSmRqdWF4NnRYcGRtX05taFBkVVlmZXpsR1hIX0lYMkNDaFNlNXo0OGdlMWJVODN3TzJmWlctbjBUQ21JQXhiTVU0WWF1amIxNnlsM1hpX2RUM1hVT0ZFWWxnZm9PODJKTU03NUV1OVVoYVJXQk5B0gHDAUFVX3lxTE4tVlpnVHNpVnZGLUhCUUlVcHpaVXNyVVg5Yk9ORkNfTmNVcGNNaWhiTEpyaUxKYlo5dk52R2NvUXBTSnVjV2xTbE0wNnVpZG5JTllNR3B2bDl3WkRpTWNFZGVsbFRBQzhSb0dvZDctNXRWUUpERS14a09IYlJYVGlObDlZS3FhbFZLUWR0N1dLTEdCUGt2R3hIZFJBNjQtVVhtNzVSbXpUYjFMOFZ5SWg2TGM4NThHWjZQcEo1eXJxbE00UQ?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQSm9HbUVUVmJKQU1UZEY1SEVaV1JidVBmVkh3NnNkN2ZJOUZDNjVxSnFsNjBlQm51eFpKOHhWS2Z4LTN5RnpCc2ZXZWxORmVfZlBuQmFkWDcydnFZNjdtUURTand6ZC13LS00dTI3blNhdkNicVZPNC1MWWU1WE5NX3BNaEVVWEZfTEwwUXJZelZWNURZdGc5a2w1b1dZV0FQNU93RktlYUNaaTVBdGt5c3VycXFBdDFRRV9SeVZOcXplVE0xc3YzQVpUajYyamk5aFJfNWxxQ1l5RXlRcHM5ZU9lemZfdWVIUVZQSmZzczdJV2twOU1NaF9DMVkwX2o5QkRpTDdKSQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR3RhYUFTVGpKLXExbHA1eEt0dVNYcFU5ejMtckxxTVVjYTJKVXlKSjhidE9ZdkhQdjhQdE1ESkxkZm16SWhJMW5BUTVVOGdsT01VQXJQbnlSdHUtcmZDY0tfSzhHMGg3Sm9mNEdCWTh0cjN6Z1ZfSUpXbDUzMnhZS1NRZU9zUlYzNWNWMHpBbElHSE1mMlR2V0VvWnhOM08zU09J?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNanVXTWI3aUJQXzRES0hfSGlpZE94cUVjVzdta0ZYdzFmc08wdWN1emNIUFJmeDhBb0pFRnhfa1dyY0lEY1lYUHV3dm9HY2lyYjhqLVJkRjBFS3JuZmVJWWg5YWFiZWlTbzFDR2JOSUpjZVViY2RtMVdRV0NjeVNlYUhqang4eG85dHBIakI0VXR6dkhKRFVqVHZ3bnB0R2VMbnhHN2R5S1o4YVExSFg4WlZIREt4R2NPcTBKMTNTZkJDZFpwS3JJejJzbnRvOU0xY3k3U1hSOURVS29fVzFKcThNN1gtTUgxeFdia1g0NVFZbXdGRG1zcy1nMTdheUdvd1E?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14d01JcEtfal9PSTFPV3UxcmtoQWFOdXpSWTdxM01BTmF6cmI1bG5IY3BkYVRRZVBRVnctM1kzR2RTRFBySXR0b2JCSzlUUXhvX1pTeGJmN24tZ0FKX2s3V0YzZXA0WHJqaHBSbHhKa0F0QkNPaUZFT9IBfkFVX3lxTFBwNDJJV195RW9SZkE0b1pSb3RqNHBOb1UwSjE5U1d2UENtMDZBM3ZPSlVOWHdXY1RkUGNyeno3UGJCcFl0Tk8tWFhHa1I5SFRlQ3paT2pvR1pLZUh2cUdldDRIY0xtSE91dGFoZDdLaTZ1amtwXzE0ZDRDam15UQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "MSN Notícias",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93V21TelkxdDFidDZZXzdRcjU5X3QtOFMtRXN4MlFVdHpLSFpYOUE1VVluV0pTZkhEWVVjVXRsd3E0S1N0N3pTVndVMzdTNTllbnlLZTFxbFNGX3RIM1g1NXFCaFNjRXBBdlpRbXY3U0ZKSk9hbUR4OWtn?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU1F5Qk9adWNwbnhRUTZ1VUc2YlphcGpRMjhzVHpKR01tVHQ1WF92QUlVcDN5c2szTTNoNXhueUlCbDNNSENBNWhGSkxEcXc1Ym5aUXBnQmNrNzVUc3FVMkN1WEY1ZDREZ2RFcWZyNzR5LV9fQlQzZ19ncF9LbE5STFhKanh3eTVZSGIzR2lXX1F4MXl4a0ZTRzEzNlJtbk85TGRUVHRZVldRUU9qeVVKbzFlS0U?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWVc0ZlNUcU9RczlaS1ZSQnNSQXY4bU1LaFozemNVTGZKMnBWNW9jSE1SQTV0amkzYU5hVktoc1NaLVZDZ2ZGeThHbm1XZk5TdjFaUGpuOExBMUdyeUtuYjRWNTVWUnBiaEtReFpxLXRtenA0VFhVcEN3X3IzOG9VYldhODJIN0xhMWdWRjh4bVZFRVZ0S0hmVzhsek44UExkUUM3M3M3NEU0UHNUOWdLUUJ2Y2NCYnYzQVF4RG0wUFlTQ1Ffd3JMWjVoZ2dUUGxpZ1E?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio do Povo",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTll3YmVCVThNU1VIckpmMHppLTkzbFhnTWoxa1U5MEpxUzVLaFE2WXJpYzBHRTZ3UC0wekd0eTV0eUxmOEZ2OUNRelBuOTNZWTc0V2piejJ0Zk1zSnlCVHFIektsQ2Q4ZElUc1JDeV9XRWg2dzJ1a0YzRjlzaW85VTRPeXQxbm43LUxWbUpxMWVnZm9GNFB1WGFON29tRUpDZjJreER0V0lQVVRlQVpDQTBLc3Fnc211MUFBSGN4TkVHU1pBWTBmdA?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOc29OY3JkLUxsWEZJYThZTlNNS0xaQ3BwM0dSQ2pnNFN4R3J4MlZxWVJLaDdSWktlWTM2enZaRjlMT2phY2E5UFBRck1xeEgtdHUwWm9BOTNYdGVERjM0YU82STRyYm5FVFBaYmcyb0FxWWtGODlXOWNQQ3RuUkl3elZ2amQ1WXNmX3BlalV5QWoxVVkxcVpWWWhhV1kxck0wZ19jU1dTczNBbUZhanMxWXRfS0wzWTRYanl1MDJJOTVUbGx5WnVCVmtMOU9MRklOdy1KeTN5Z2JuTEFydHRvLTJTNTE?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUWtSZ3RfN2t4RnMzUFd3aW5ic3VmVHZZUUQ4ZFpMSGxCUUQ5ZWwwdzhYaXVtV0tFU3hNTl9jYk84R0VsUjRRZTM5Qk9MWHJ5TU5SeEw3cmxVNGVBaHR5b0ppYktSNVNxQVBvellzUHZoeGJyY3VsLVh2bUIta1VUMnlsdEJVb2MzVnBGV05UOFNKTWJvVkFLT3BsVlRMMklsbDlIWjdUN3hiOG05VTY5VnFvWlpoYzFnR3gyc3hIOG02T3ZCdXNoRXo3S09UN24wZWFvaWZQajlaR0Jx0gHrAUFVX3lxTE0tV29QTEExUTduVWVXd1h2U1gwMUVzVkx6enFGa3F1c1N6OHpsMFlQZC1nYWd5ZGdIMXhkeFhvOHlYU0dLRVZWYmp2M0t4V1pnUWFjRkF1WWFMRkxCS1VtV09Zc0QtZjIzc0RHVVBfQlJwdDFsNWdRUHlzSUlhanQwUWhqbG1SckU1dTlRY3QxR3piaGt0ZHJ1Q1JDSEstTHhRaHlaYi1xTWM4dV9ZYTM4MTFEYkVlbXBkOG1NQ0F0MEFJRDVTR0JHRlN1LWxUNzljcHR4eXh6dV9FZFdPNGlaZEpUdjk3bWJGVEU?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "G1",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZmhtQlpXNExQWmR4MDBJNklVM3JmSVlCV0JjWXRWU1hOd3ZINFR0bTJ4MzY5dGtxZXBwZ090SWsyVVZSRWJJNmVpWVRxb1FUaC0xTjZTY1M3aE5pTVU4dVJzemNuVDFibmlMYjNsTTJiczVCUEdIUXdyUnFkWjU3MkplWl9seWcyRVpIUGVnQ3JBa3FXeXVSWkVub2F3S01PRDZKMmxoYVd3QWcwR3FQX1U2NU96V3ZpMkZaTWswbFNweXBBeHhSRWJJWFgwOExPbnhFQm5CaDFKUUttWGFQS2lnSEJPWjBnOEM1MFRETE1uenV4Zkc5dnNGN3ZGcFFNNWVHYXNVRUZLc2Z1M3fSAY4CQVVfeXFMUGZobUJaVzRMUFpkeDAwSTZJVTNyZklZQldCY1l0VlNYTnd2SDRUdG0yeDM2OXRrcWVwcGdPdElrMlVWUkViSTZlaVlUcW9RVGgtMU42U2NTN2hOaU1VOHVSc3pjblQxYm5pTGIzbE0yYnM1QlBHSFF3clJxZFo1NzJKZVpfbHlnMkVaSFBlZ0NyQWtxV3l1UlpFbm9hd0tNT0Q2SjJsaGFXd0FnMEdxUF9VNjVPeld2aTJGWk1rMGxTcHlwQXh4UkViSVhYMDhMT254RUJuQmgxSlFLbVhhUEtpZ0hCT1owZzhDNTBURExNbnp1eGZHOXZzRjd2RnBRTTVlR2FzVUVGS3NmdTN3?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Governo francês pede toques de recolher, Louvre fecha e Macron admite falhas"
+  },
+  {
+   "id": "russia-ucrania-alerta",
+   "segment": "internacional",
+   "title": "Zelensky diz que a Rússia atacou sem alerta dos aliados, e Putin propõe cúpula com Trump e Xi sobre a guerra",
+   "summary": "O presidente ucraniano, Volodymyr Zelensky, disse que a Rússia atacou a Ucrânia sem alerta dos Estados Unidos de novo e acusou aliados de omitir o aviso, e os EUA negam pausa no compartilhamento de informações. O ataque atingiu a rede elétrica ucraniana e ampliou a tensão entre Kiev e Washington. Putin propôs uma cúpula com Trump e Xi Jinping para negociar o fim da guerra, e a Ucrânia diz que o encontro estimularia o conflito. Trump suspendeu novas sanções à Rússia por 60 dias. Drones ucranianos atingiram terminais de petróleo, que pegaram fogo.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 8.0,
+   "outlets": [
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQy0zMXEwc09pTHBIbTh6RERCTF9PazVmeTVvRUh6dnhTVmV3QXJzeE9jVzBjamJET1B1bUsxeXFUY2ZZVkhSMmFiVVloU3lqMUx0ZlNLT2lLQzlPQ3NLVnl0eE4zWThBNzVYY1VGWVVXMWlaWFl0Q2Zic19DeDNQOFFCMkpBUWgya1k3bldBQ01adzg1cFc4ejIxMVJUSENHM2RFSnJjS1ZOSVhPMmNn?oc=5",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcFNNXzBlcmZnUkhkcUVBM2d5S0NTWENob0xBLWVtTDVKTjZlaGtiWkUtQnpOV3Y3bXVoelhnbTdYa1JDQjlBbkhEUTFTUzBQVnVyZEcwNUJLVEItWG1wdDk2MXNOVThHQmdVZmtvSnF6ZTBqRGFCNWJLRWNqR3lTWWc3VUQtUXVrM2M0Y0JtYlhDYVFVYl9mRTVXbm50WEFXX0Q5a24zdW81MDduZEhUck1jNFVpVHJPOEtVRmFKMWhCVXlrLW4xR1RGTE5GVW1BZkZPdy1tSVhqZkVs?oc=5",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTFBvVGoyRkhoMTNuRUY4ejBNVDIweUJ2RnYwQi04TFpYZEpTWHVQbjZnNWMzNEpDMDNZZGFZVkFLY092T1dEQWdGRnRYaW5lRWxZVlMwTDR0bkNramxwaHlxbmcwYkRrNWFDZEZvcVVwbkthR3dEQzRrbVhRTmhTWGRLTFEyaDRKdzl5YUhURDZwdTJaNldUWW5FellTLVFkcmNDSS1PSVAxSHZ3d2c?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc1M4bkFvNVlZaVBVdXF0OUVYYnF4V0hsUEJoWDR0X1ktSXhBSVJvaEZfQmlyYWdJbVdmTWFsbnZfcUdnWHQ3bGNxcVBTa2tsQ3dFajY5a1hnR0p6Mlc5WWhNakZUTWUtdHpSWWJsblFrVUdJNzVyUTJOUWdvN2tvTngwYjVlZldlZWkzREhIdndJenE1NlBTNjJkVGFwbzIyMXJ2aFdCbXRrVzF2R3ZPWXF6TzZOUTVfNkdTMkZTQ21ZM0HSAdIBQVVfeXFMTWpwaTVXRFdrOHlFOV9lV0YzcHZxUGpxWld4N0V3OEpJOGZKV2s3QXBUd3g0a2FXQ2hReFdiaFJPNUhPMWRTUXZ5eE5nV0dsb1BiTWpkX19yYUliYVhLay05QVJ3U1FMbVJabEZUTm5IY1J4NGF6empHQUVYblR1Ym9ZVTlUWHlGb1owbmpHNmpmRi1pVm5peFJVemhfcld2TGdaQlptS0c1djNqRmEtYUZ4cFFxRHVFUGxBUXRwM1Q5TTdyU3BKMHNVLU0wV1d0WUVR?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFBjTWFxdDFQUTNhWE5lTW42ZTdZSzg3UklSTks0UFM3NjZRWEJfSjB2QVpsUmFGTVc5ZkM4NzJ4ZmhoU21adVl4dEFEUC1fTmhFZmVBZGFBX0o4NFF6Q2NFd0xYdHZVUE5vOWtRZzZrdGxkU1FkSkZuT0lxTzB2UWc3SXJrX0RVX3RMcklDTUpnLVdqV0hnb1pzTEszRThoOGk4Q2ZuRVgxZw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVkFza2tWVVFLeS1sLUNlanRkVGpiajlWMXRCYTUzX0JjUmRILUoyeEJCTzg3d3U2ckF1TEh4Zl8xVnZCVE1hZnYtZUM5ZmkyWnlfZ05mTFRfXzAxbkRkcHVQTE4yMXB4cVpWQVQ1N1FsOUhuN05TcnRYcEF1d05RTWxFT0FVSnVWNmc?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "DW Brasil",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSmcyN29tVjEyRDdqc2ptNTYxVXFHUlZmMjNjd3FZQmg3Y2FIMDIwOEU1YjFZRzAzMWRJRElvU2xoTUowM01mUmNFX1hwaHN3R0JPc3RETFRZclJPckl3bHNKakxXUW13VjB4MWJaczlBSldMY0g5WXhhRnY2blJCcGl4c3JvSGtNMnVzTW02ZDVIMkU4bDJaYXVhcTI4Tk9wYVJUdzNyZHFKcjFRalVUM01QQ0ZtZnlBZ0Y3NlYtNHVfei1GMVlMNmpnTGJFZ9IBzgFBVV95cUxOSmcyN29tVjEyRDdqc2ptNTYxVXFHUlZmMjNjd3FZQmg3Y2FIMDIwOEU1YjFZRzAzMWRJRElvU2xoTUowM01mUmNFX1hwaHN3R0JPc3RETFRZclJPckl3bHNKakxXUW13VjB4MWJaczlBSldMY0g5WXhhRnY2blJCcGl4c3JvSGtNMnVzTW02ZDVIMkU4bDJaYXVhcTI4Tk9wYVJUdzNyZHFKcjFRalVUM01QQ0ZtZnlBZ0Y3NlYtNHVfei1GMVlMNmpnTGJFZw?oc=5",
+     "camp": "internacional",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNOVZCaWtRQ0llMGJyM291UXRWYnZQWmx5NU1pWXZvMWFjNGE5d1FmT2l1bVhXdjQ2YTM5RmNxSWVWVXpGbFc4dTJqLXV6YnRGekhfQ01ta1hleXM3NVRpbFpqT2lHU2tNOUpzOUIwNUtHcWJac1FzcWtZbkd3SmdtYVJfVE9ZYnFXbFFmUlhLLUYwbWtfVzlqZXFQbEJFMmxFV3IyZjUxeE1lWnU1bUVyZUFsbnJUWUtybFZHNkpmZzlUWGFKM1NkZ0NHbjBoNU4wXzhzUzBqUjZjS3RDcTJvYzJLOGdHTHVWdUZScVRXQ3hJdHA0cnpScW5oNNIBigJBVV95cUxPcUk3SUw4ZHZqZ3VkRVF6QktuUDdpOHhxTVV0ZGdaSVgwamw1ejlNMUxDYmM2UEhkMkVEc1Z4d2Y3Zzh5cE9POG5va3l0WjZvY05YX2RtNWxkOHJWcVRHWnJmSEpiVlZzdk1uMDNzWjlFai0ya1hxN2JsUlpJNlJ6YkdXSkxiRHRPZDVwR3F3aE5PWktuVmFfUjJYaTJtRDRvRmVjbkFSbjJwZWgwMnRnOTlvR0tHMkplRFg4YmcxWG9GREpWQ0lWcDdxS0FPd3pQcWpEWHpZa0pLbWsxaHNWYl9rMmttbmFJZUd5eWlyemFXY0R3NVBWRWZBU3FCVWFQSzgtYUJTZUhnUQ?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNb3lwNkFmZ1RTQktHcXpyNHhLdi1CR2lGSHhMNVBKYWdGbnhhQVlRMnpWaHY1WFV2YWVPQmJWbllsRkJldDhZcFpObkNmY0d3UnZ0TE9WOGtBMmJGV0M1cUZiMGxKbExYekdWWmxYRGRSMlVZN1BxS3JMUUVOVE9XN2VmRkFZWUs4X1FMLXdkUFJvNjJ0QjJNbUhrT3VwSmNZMXJEeHJqck44VURUQjZLMmhTTFpJZ2NnQmlVUGFWVUpDREptSnVEal9QZExnd2hHZ0Zhdjh4YUdtSklDMzdWZFZtMjJ5UWxkdm5aTER3?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaW00MDlkc3BiSF9LcWg0Zlc3Z3gzUlB0aXU2cUpsNkt6c1Nmb0xlYVhadjV5dFZ3a1pHOHg1eE5McV9idk84VENhUnhZM3h6NC1JWU0zRUIwM2lCcTlPZGd6N21BU242REdNWFpPenlCMzJMZk9RamRFamVTalU2d0VKb3EyWUdUcXhXZkVPMDlQUElrSGpwLXVRdE5RWHB6Wmc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio do Povo",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNOFBfWHZlc19jaFdGMFhKdkp1T2tqYVRGQWJFX0U0WW9raC1EcTZIbnYwVU9VRnpmUy1hVzdIbGtCOEJId0JtWHlZMGtFc0RsR1Azd3FBU2tKOUhkWHFxYjZGZU9SN0VmeEV4amNoVmRCZE9VdWZnVGVEVDZTSThGVGVtZ2tDeG9aeFRaZEktZUstQWNuT2xMWXNIWWs5V3lWUEJlMXk1ZmFxSkpRTHA1UnRiVTM5aG02Q2NNZ2xaMUlvM1A5dm15a1ZEREpPV2ltRGZWdnlETkltcmF5ZERTdnNxb0tJUmxB?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOXFQMjQxU2hzOHg5MjM5OS1TcHkxcS1oV0cteklIR2xuVkdsdGUzRmQtVWJqNFhyeDkzcVhNb29IT3c3VmJDM0RQX2VnXzQ2Qkp3QlhFdDRteVhoc0VWTHlLdUdDSGVQdjVrcFhPcF9URTdhX3JKTkRyUjk4S1o2SkRfTFhCbDRhWVZMUE5SYUNwX2p0R2pLWGVTbUhLMmJWaDJ1Q2pPb0lTZlFwWGdOeFgyZzVQeDFVMHlEa1RR?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSS13bkdLX2hyU2VtQ2tJenhNLUN2eklJUXZsQ2Q5WHJiM3ZqXzBjelBsU1RnUlVzTGxWYk5ySjhsV05rci0ybTBfZzMzd0FRS2Nta045M005RVRkb2tzYUN3UUZpZEFTOTBMYkFvS25ac3ZreW5DRkE2eGxPQ0VTaWkwZGRlSDgtSW12OUdNNUlTWjBXOEotN2U3anJaNHlZOFNGdUtVMEJxSWgyNlUyVXZsWGtKM0tmUDhlUThac2RhMXBocDU0cEpuT0VhaWRzUDB1Zk50QTDSAdgBQVVfeXFMT0ktd25HS19oclNlbUNrSXp4TS1DdnpJSVF2bENkOVhyYjN2al8wY3pQbFNUZ1JVc0xsVmJOcko4bFdOa3ItMm0wX2czM3dBUUtjbWtOOTNNOUVUZG9rc2FDd1FGaWRBUzkwTGJBb0tuWnN2a3luQ0ZBNnhsT0NFU2lpMGRkZUg4LUltdjlHTTVJU1owVzhKLTdlN2pyWjR5WThTRnVLVTBCcUloMjZVMlV2bFhrSjNLZlA4ZVE4WnNkYTFwaHA1NHBKbk9FYWlkc1AwdWZOdEEw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNX1lUd0kxRlByS09xOV8wemZrb3NEVklqXzlicl9YY3lIZEZFQm1OZ3htV3FhVFk3UHEtbGcxTzJzYmptYWZvM19YcUlQZzdLeU9QdmRXUU1QSzlLanl1YXl3dGExM3FuNGd3TVhIT2Y4WTJSQkY3VXN6bnZ1eFNBZGxhNVljWFAwYVlJNVd2SHRYd2dPWG9GRUV6R3U2RWdSQTQ0NDl1aHZGdkpRdWE3RzBMMVJ2TGxWaHpkQWpDS1FmemdZS1FxYzd2alJzcXYydVYyM0hiUjhBbUNUcHloNUI4OXBWdGPSAfYBQVVfeXFMTlJzR0lwdTkzcVFiZmM3N2U1WC1FcE1YYmFsQXg0T1FtT2hDc2t2bElEZnAtbk1sc2ZUdXdwLWxIUWEyOWZrOUpYSlJScC1KNlRIZzJ0T0tQZ3BTT1BUbGEtUFBicGo4WU1QTmN5aGN3MjRYbDFiM0RwLXBzaHF5aC1sd1AzVm1rc3E5YmEyN0JRVWNaTFRqYWpIVDMzX3hJWDdrUlVmMzBMa3AtbjI0WVJlcUdPVDVseFNKSXpOVm5WalJFYlJjMWRQaDhOQ2ZYVWJSeVJHS2JwRHRrdFB0d0phVGlRNks2V24xa3JzUER4RW1oY3RB?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQLUg1OHFjV0dnNXBaTGpNei05X1ZEazNaSXViRVhneXR6OC1FXzZnellMcF8tOW1zNFBhWlJtQXlBY3hzWjBFQVpwcG5PeEVNRkROdkZ6OXhoQnhyc2NWTERhWWdaSzRRbFBTbTNkOURSYktVQjBrM0RuMkNzUWFQZ25jYXpQbVppdERKek1VZzE2cXQ1dlZ2NHJCYjJZNFhOWEZqZlFQak1fd1NQSlN5ZGFpaWN5QUh0OWE5dkoxd1RRcjFILXQxYVkzTnp3NFhZQXBOV3dsc1NEZU5GQVpoZG5CRXpBUENVVzNpajE2NVNFdVQ1THBpVXc3N1RjNkpKTV9fUU5vUld5V29r0gGbAkFVX3lxTE5QSnVackZUQUFIUU04ZTJWckp5QTUzXzZDVkJKR0l4R012LS0zSlJ1d2dBOVNYMExyM1FMcEktWlFPYm5hWUU2anc3TkQ0YlhiMG1LMTdBb05LM0loeGpQSm9UaHBnQ3NhVnJMXzBEQ2tUaWltX0lRYVp1OGhISHZEMzhLSzBhS3NsUFhIWDVYNkY4aXI5VUJzWHVXNEtyOGxOa3N3WXNVM1lXdTlGOVV0R25lOHN0ZDJsVXczTFl5emRVcFM5VWRmeGk5MVNKRWZyZTRqY0EzeEVPQ0U4OER5MmtTQ0c1UVladVdfdWliSWhrSVNfc3Y1c3diTldoZzVnN3pVeXVGd2JNdHRrN2ZubkxOU0hkakNxQTg?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Zelensky diz que não foi avisado de ataque russo, e Trump suspende sanções por 60 dias"
+  },
+  {
+   "id": "houthis-iemen",
+   "segment": "internacional",
+   "title": "Ataque houthi contra base militar no Iêmen deixa ao menos 18 mortos, e Arábia Saudita impõe teletrabalho em Riade",
+   "summary": "Um ataque dos houthis contra um acampamento militar do governo iemenita deixou ao menos 18 mortos, segundo fontes ouvidas pela imprensa. A Zero Hora noticia ao menos 50 mortos nos bombardeios, e o balanço diverge entre os veículos. A Arábia Saudita impôs teletrabalho em Riade devido a ataques houthis. Os Estados Unidos pediram vigilância redobrada a americanos no Oriente Médio. Nos EUA, a aprovação do governo Trump atingiu os piores números da história às vésperas das eleições de meio de mandato.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 4
+   },
+   "score": 4.6,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnNpbER5VWZZLUtkcURhMV9nU1NxaC1vNUl0bk03TExOZmdLdHAtS0VYQm1iT1BUMjliSlJ6czR6b0xhdVh4MU1jZWw3WE1vc0JfOEJzNS1Denc1Rm9fQ1R2LUFmRVBrR1BTN3NHNTdkZ3llQkZVUmdqRUo4Tkw4emdKejhOd3lBTzRseUo3NEtRVDBWeEpDcW1wYlFBVUhhaVl6dHRxY1hTYVE?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbWw4VVVaakl1T1FyRGRUZVd1N3hQbzd5WjlHYzdKbmdJQWt3VW96Ymk5eXBhUUxrT1h0VnFOOV9saVVTTFY1MHhLcjhOazV0TVZ2Y2xtLWVuZHFvbTdDMVBMNk1yLVltcFNLSGFORUk4Q1FOZjVVd0J4aTFZekdzOVVOT0ZvNW9sbUFwZk5SRkJtUzJxeDFYQV9LS1VBWmwwRTBRSmlfa2xlalJSeENLNTAxZUctdGlwUGRsNFdJcUJtU2xQbzVRUmN1LTV0N2RsYlVEMkVIMUNCcm05blFOdFRmWlcwMVRVMHNXZTNVTUR5UjFCU3FySDRqZjh0dmxYTGY4cHJMTUN3cFprM2c?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOcmhRN21jb3BFN0VacU1DSHhxb0dibmVLZjB4SVo2RDVydV84Yy1WM05XNEJJRUs1bS1fdjc4Rm1QUmxJemQ2dTZ1SE1LRUw2WXBrVnpDa2R2QW5PejVrSVBST0VKWFREeHg5ekpiN2JyeV9UYkZ1Njl3bTVJb1RSbDhBNW10VFpINnItVm4yczg1R1ZnTXhiazRWaXczYmlmRmFlTGRnVTB6X0ZBQmpCd0dhVVRzM1ZhTkN0akRIdVk0S1RZN0UydUl4NDNNNTlBN1NyZEkwcVlWMEpnZlhoWkJ5WE41S1IzMFhz?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdi1wd05WRVdwNGFqbEF5dWxZY21jUmk3NlpKRXpnZ1B3MktGaVJpSFh1UjZVX0xtal9YUUFFeW1UNmZqaVVSVWRSYmExRWNhS2RJamYybWpBZmUtTWRXNXp2MFF4dll5RXI2aHFFOHN2WWZPNEh1RHBvYmFpc0R4REpNcXh1VzZzeTJqdlNsWWdXN2ktOEc1VXFJYVdSUVZqNTQ0cU02dE9rZFJRV25vTUhwaDVfcHhrUktrcEZEb3Q?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "fato_diferente": "É o ataque houthi no Iêmen e o teletrabalho em Riade, não o incêndio em base militar no Canadá"
+  },
+  {
+   "id": "china-pib",
+   "segment": "internacional",
+   "title": "PIB da China cresce 4,5% no terceiro trimestre e supera previsões, com boom de exportações",
+   "summary": "O PIB da China cresceu 4,5% ao ano no terceiro trimestre e superou as previsões, com impulso das exportações. Em setembro, a produção industrial chinesa subiu 5,5% e as vendas no varejo avançaram 1,1%. Os preços de imóveis na China tiveram queda mais branda no mês. As bolsas da Ásia fecharam sem rumo único, com cautela sobre inteligência artificial. O minério de ferro avançou 1,26% na Bolsa de Dalian.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 4
+   },
+   "score": 3.8,
+   "outlets": [
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZXR5UUZWRGh5dXZHMktPR1FYcHdXams5YXRMVE5ZN3NVZ1F6VmdhZFVXVHJaa1pINHFFSk1MUUZYMUtkd2p5VUJMUkJhN0dDeWE2Q2Jrd0ptUVRqVDFwcVJWbkFHODhKLXpLMEVJMG5rSGFpbjR1Y3FSRW54eklSR2llaEltWlZWUklMRDRNN2pyN0pOMkxCTmVraG55d1dXUzdqdEs1YmlNVm9WcDZ4MVJUZmlZZHprN1BESGplcXQ1d1hs0gHTAUFVX3lxTE5mNkZST2I5SS1saTQ3RzR3OVpLdkdDS1F4U0U4cnltMmNPMFV1bnpuUXI0UGFkdFprU0NkRUtBTl92eW9UMFJfcnVZaUJDeDdGUVdjQjAwNnpYc2xUSm5hZUE2MXFuMTNmdmxrZFdtMEFOVjEtSFdXNGZraW5FNXVoRUxMR3loLU5GOEx0aXNHZjAxNk5BcHloSGFpcVdneHNEbFRnZHk0cm1OTmdPVExVV0Z1UXNOeFQ0cl9hbFVwSXc4c0t1OE5xMWJjcEV1MUZQUkk?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeGZ0Y3RjUTNENWdwOFdRWlB1cF9jWkkzbGkyNlZ4YjRBVFpTekxvcGp1a0hZM3JPQkg2TFl3ck0xTU5xYlhYQTNmNHBub3UwMm1GLUNCbWtMMS12NU9teHE3MnU2MjVXTVZfUUtvR1RkMzFieGhvZTVKdjYxTldpTkd5Y2dtSFJCdHJNOWYzeWQ5S1Q1RGZocTRRaUhCRzhYV3RpblBzZEl6MDRxLXYycNIBtgFBVV95cUxON0ZGOGxvd3NzZW5kQjkyLWJtVWgwbE1FRlV2c3RMS3NQUDhKZnZPNnEtNnloQnRISkRSaVZmWUgtTnF3YmtJRlN2OHVxREYyYzc1WERHNkRpWE95T01nNk9zbzNwWXFFQmx4ZHBySEFMSGhrckYyM3A1S0hWZ1ZmczNwSWZjeVZPRW15b3BQdExVNjNJZnlYd2xlWE03aFo1OVZXVXcwWC02bEl3aG90eUpvcXROdw?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "pf-backbone-cv",
+   "segment": "seguranca",
+   "title": "PF prende 19 e bloqueia R$ 558 milhões do Comando Vermelho em operação contra monopólio de internet no Rio; mãe e irmão de Oruam e um vereador estão entre os presos",
+   "summary": "A Polícia Federal deflagrou a Operação Backbone, com 23 mandados de prisão preventiva e 24 de busca expedidos pelo STF, e prendeu 19 pessoas. A PF bloqueou R$ 558 milhões ligados ao Comando Vermelho. A operação mira a exploração ilegal de internet pelo tráfico nos complexos do Alemão, da Penha e do Chapadão, onde provedores pagam uma tarifa mensal à facção. Entre os presos estão o vereador do Rio Fabio Silva (Podemos), localizado em Londrina, e a mãe e o irmão do rapper Oruam. A PF afirma que Marcinho VP, já preso, continuava a controlar atividades da facção, e a Anatel será comunicada para cassar autorizações.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 10,
+    "persistencia": 4,
+    "peso_voce": 9
+   },
+   "score": 8.6,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX000aUtqNUFtMTgtckNGN0hndzJobEhBQ1lTbUQ3Z1NNVFhIeFlUcEtyeWwyWU1VQTV6U2FIZUl4TkZKenhVb0FmcGtFYk96Mms3OWoydHZkNUdneW9Ya1BKbE15dlViX25wTVd1WVRKREpuay1WQ0xvRHN5T1lNa1h2NXpDdkhxZi1IRGhsY2hhZlZfNnRwZzNDbzF4V2k1X2tjZHNGVUw1ald2Z3ZzRWtLX09HMmlYQlUxVVl3S2dUUjFzOGFrMGR6UTFzQ2vSAd4BQVVfeXFMTVJ1c3FBd2tzYVlPRm1ITGNYRTlSeU5jeVhNeUgycFpXa0Vaai1yRnc0a0R5MFRJR1BtNl9yVmNObkg5azlvbGFfdDZZblo0RmFPWEZ2a1pTaWRjQlk1TDVhdmtlQ1ROS1NXWjV2MHJ0N0QyZ0lvaDMyQnBfVXM0SDR0endYRXVuaFhZd1R2bGdTdXZGaWlybU5sUHpGMzJGbVhtbnVVeHhSbHRxQTFTWkJaQjlxX2dIU1VVVDRxeWtfRmVKcm1TV2pDUV9pRE1FX0k0dG92TGFPRW9nVkdR?oc=5",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZXNRSWlyTzJTMkFoZTVpZDZIaVc0X2RDRmtWRlc3bTM1ZHV1QnBLeUkzbDZRallJcUNjMkRVcDlKYjVBdmhERndjRW9ielBELVUxY2NYMTdRcF9sc2FhQVlwQnk1ZzIwcU1jclZTcmZKVXMtXzVya3VDZTJ2SEtwWWU4dDVkU05XTTFhdHNYVDZuV3g1TE1jcDZwWEZvUlBIbkc2RQ?oc=5",
+     "camp": "centro",
+     "position": "manchete"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWWRIVFBqNVgtOThUSDQ4TGE3OElNNzRET1Zub2JUUnhSSDJPREdKMy1vaVN1ZG9wVTVFamtsRnRPX1VYVUtYeWF6aFRCX3h6XzZZNDkteERYRkozSEs3TjZBN1JWWkpHZElMSHJUSDJYRTJxLTZjWDZpc2dZQklfWVlDdllkWGVYbHhGNFdKa1hVaHdZdENmdHVFWjdKZUwyem5VTGVzRS15N01lTDlpOTdYdmktVy0yaGdxak92TEg?oc=5",
+     "camp": "estatal",
+     "position": "manchete"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVHl0eHVqdWNZX21RTFBPWnJ0azZsZFhHeTdKMU81R3NZbHZKZXdqNXd1TVd4Z1FPNGdwQlB3Z2xzZEw2cmtfM2lJTUJaQkowWkRULUMwN2ZZNmtuSmphUW5GSmZoTmFseXlrMUxGZW45dVNtdEpaRUpGcVUtZzRlYzdlemhsSTY2ajJSQUFHZVhpd2pJLXo0WFhJbHZKQWRhOUE3Q2Z4TGxlZkJ2b3V6Sw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVGVPdDhrd0g0bDJ5WmxiVDJpS0pOYl9pSlRjQUxqZkdVSzZ5MlFvNVRabUo4M1JpTWpDMEcxbUFtLXRoMWtoWkJJUEtzblE4VUhRb1dmUDFlRndicmdFbVRuUGlYeG9IYkpUbllQYS1JaGYySXg2T0x5UDIxTTA3bw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHNTVm9HcE5YZ0FsN2VKR1hSSlJFdmpZSFFZeDBPLUVJRVRWb0VMQmRnN0RINjBIWjIzaUlMRDBLaFhxVUJQd2NtUlRRT3FPelVJZ2draHpDbG0xVjFTTnVLTnc1cVVyck9oNWgzV0RZTGdLQlR6NzhaMjNkRXVzNnc5MDVYN2daZVhYM29lX2lnZ2R2Vl94Vg?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "O Dia",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRVFEYTFnYzI0Sm50Ml9JdE5Ydk9KVmV4RlNHeHpBVjZMbldCLVVYMXZRdW5YM251VTNIMkV6NTFDOUdlUkc0M3VyVmxQak1QZjlUWVB5TkFKOFhsYlI0Vmg0eURfN2hlSUQtRXVMQXh1YUg1alA1blh5ODU3R09iVUtsdmltcU1UcVR4VHc4MUp1SHFER3hZOHB1LUVhSWxSMFVCMFpsejI1ZjdwSXhnUC1PQlAxZ0VxVU9EV2hn0gHDAUFVX3lxTE1TTHUxRWxGMjV2NE1EdUlmZzJnUFktTllYVnVXd19SRHprUEFidk41UlhHTHhfYUpJOFJMbThNTjQ1LTdSTVlEVDMtbk9nYmc3VXphVmVzdnZkZHJJR3FvUDhuZGJxODhSV2Jwa3k5bk01WDFHNGltRWNMa285TVdMRERPNWljTVdBbkYtUk10MVY5Q0dqWkhLSnh1V3kxNEVtLTdNV1ltWHZQc0xrUjZ0MU1DR0VFOGJHSGJENFM2MlMwcw?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUmtnSWhZbmgzYU5qekZKczZ4VHNiX0tpeGVmWlZSRmJQTEs1Qk1tREpqemw4NkNNVjFWUS1JMnB3VmRWamJYNXA1aTJWTWstdHpHVEktczltYXJnQVJKWjBoVVAzcExlZDU5RXQtZkxlcTFDTmxGLVRMZHpfWmREU3doTFU2YUI2ajdwWTdYZjVDRnBMTkFfX3oyaFRwUV9WbUltS29GTHVZVEpnYnFQTkdMLUdCNS16X3k4ZXBJeVJQazNnV1hVaE0xeHVRaFdCbnExYXRLb1JEdDdIMFRMWlBGaXdyUW5UQ3Btb3pQUmFfWnE4WkJTRUpsRl_SAYsCQVVfeXFMUHBMRTJZZUtieEktdklkWmRVX3J1R3dwRi1YR05UcExMaTRhYzZvdG1MVVBzcTVaUkFlWmVQOFJhOHJ2Y0owT1JPdFdTVnNjWnZNNFd6TkllUzNWMkNhaEgzeHpmNG4xZUJVM3NFemRwZmVlakNld3lteE1sM0VxQzB3QzIyMHdsUERtU2YzUllnRFFNaDR4NTdJREVOVU9NUHFMQkhBUTc0SjlEaEtKcVltS011YWFYS0x4OFY0aUVWQnpob2VrYm5oNGN4NGNtMDhmSGZrVlcteGNuX3JicG5keU5Lc2lYR2VjNUNneF82NWo1eU9CZ1BLdzUwS2RFS0FhUUM3RnlVUmtN?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Rio",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPemJ6cnV0TFhjMGxqcDV1UVliU0dfZkpXTFg1YXVKcXkzdWZVM085TjNjcUYtd2Y5elgyUkphRnQ0em5IT215Sl81NTNrREE4N3lMUmlLZHRZdVpLSV94bVdWX2ZzaW13enRCbllLRlFEem1UbV84cEdyZGRnOFEyeFgtX2MyaUZlelI1Rmh1OWJlWFlUOF9tUHc2TkdqXzFZMkVCRnMteEpUMDZjR3dVODhtNmxVMHpwenFSbUl5Y0RqbVdzNFJSTEIzcDN4SWJiazI2bGJJc0hqU25BQ2lFeDdSTW16UGtQRndR?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZHpNdF9BNmpkZnc1LXE5UVozYWxldm56RlFhUkstSUFiN2VZbWJ2Zi0xLWNLRE5nc1FuZTJ1YVp3WlJUY20waDJkZ0JucGc2aDlsTjJyQ3ZibGlXM1VLMmtsNGVnTklKRXdOTV9NMlQzQWlnSG5JS0VwRlVVLUQ3S3lQa2czS1VWUndWdkpTaTJ6WEJlQW5pQkdmS0VJekNqb1gtSmZHeFlEbThycWpHM084Z2tDSTItaTNoODlUTnpUY2NiNllOaw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdUpwQ3ZlZlk5NnVaSVVXN185bHJsMlJjVFRMazhhWWtnbGE4NjR2UjE3c3ZieUc0cXozMFNOVVk2NzNGRXF5b1dYTVNuY2I3NmNHZDVLV0NsTzluQVNybnlXWGctMDdXcWFfWHFzNU55N3NQeWUzeW55TEN0MEhyVWdtT0t2RFBOUzJmcnFuOThRSXdxUTdCTXUtd2g?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Meia Hora",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSG5ma0tUUFktMHFpb2hNVzRYa0k3WnpFU0JSbkpjbFM0Szk4SlZpMTF3VC1McWJCdEVvaEE3eklrdnotcW5Ra2s3N2JWVEpYZklDT3BqT0hubTV1VmhYeEh6MG80N3J2UnczbXk4TkNyZTZWN0FoaU0tOHh1RXgyQm5pWG44OUcxMGhNYW9SZ1E1ZTFJWHFNMEJQSVRqb05mN3JIUklsSWxiNHJnMEF1TVl5VWdvUDJtcXdmNGNfQ2FQTEFPN0sxcg?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT3Fkc190SVo5anRPU2xxdHR4QjVCb3huS200aUdvR2ZYWjZ1VE9wV0NBSDN2WlNvdC1GcmNFRWt0QjNnNW1QTEJUWWFBc2FnU3M2aUl3UU5FRHlnLXBCYi1JTmNkUEk0QmhhQzhWQ2tmVWZ4T1pWNk1iNG9jVWg5eERsZlZXQzRVYnZSOG1YOXdLeldEdTBldGF4TW9WcEZlV3FGRnBKOXp3M21HMTZjaDFsZ9IB5gFBVV95cUxOSDdtRTlrY1R6VWV2R25ldW5HbG93c3RKQUdlYXlFRUZyTlZFUlNSMVZTUFRraUNRanBlbDNXR09yTWRJWE0yU2hKVmRmZHhWUXNtZ29kYmVpWnMyeWlJb0lnYVNFdTJsTVRIR1B5SEVYT0VFSThVMmtsd0gxcUhnZEk2RUtJNno0NlBJT3hHQWtWc3A0QTJpbVJSNW12MENMcFhLSHc5TGJIZ29yVjFldDctYXdycDF5MUlaOFhNa01iemcyNUQxc0ZSRVN0TWJVVW1YekNiMHRfei1GMEJWdWtjQXp3UQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio do Povo",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMXZSY0IxaVd4MVd5TXBCN1NvZnQzUWRPOHZzUzJRcVpGUnFfU0x3YnFoeFFyMDJncGhUd0tkZ3pYVlpVeG1HUEZEOHluTFNRRVc5TUc0andROGxEZ0FvM2NIa1lKcHFZMDFwbVN1ZTlBeVp5WC1oSXRLQ3lDRWpWNURucnF0QUNGNks0bTNkTW5NOXdhLV9SVWw3MVJVNE9FbEVGVGU3VFRPOXo1VkpnX0FBSWNrYXY0WmdydUdLR3VzTmt0Q2xVTmVvaEd1RTFkbzNNSUwzZmlUSGF1VVd3MkNsY3V6aEE?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0V3MVpoSDJ6M1ZOalFkUDh2RjhHQzdlRXdiaFBpYzNJSTBYWlcyOGw4Q1FWTGprSjM1MHlvNFQyeTJmelFzMXFkMEtKS1JEMU1CT0d5bEh1dTRIcVNGUEp0SGtYTHlVd2pLaHJvUE5TMmFBdU96TXFpdVVwdC1yaVZzaGNEcUpSX0VqVk9KSXgwd25MbXVaenBhSUZCXzUySHJB0gGoAUFVX3lxTE1ublR0aGs1S0xpdG8yQ3N6UHZtcGxVUzk5YlNpR2ljaC1FVVVGTVR5QjFSdHJvZEJJWUNtUHpVb19tbWJJdXMwd3ctNzlKTHhXT1FDMUdZUnJERmFrdTM4Y3RscHNiRUZqZ2JweDNQdGlQeWVKakhtSGQ1bXdudDJGQUkwYTg3anpXZTlDQnFWSUNYczlXRGtaT3JwWlNtNS16cy1aZjlHcA?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU25UTnk1bjJTR0R6OXRheFJIUk9LX1dHWGhvdHM3a0dWRmVPM2diQUptLU1GSGtVQi1VU29QSXFmY2FBbkdCOGFralVMbktZaUxPcXhzZTctUHJtOXlMLThoMlNXREVSeHJKQmNoZHhLbngzYUZ6dVRvUDJDRkozNm9uRkhjdXY2Z2NxYXQzRzRIckJSWjd5SnRjYzJVOXdTS3MweFVpc3JBZjFkMFhEVHBWcElVbmRJdXfSAcgBQVVfeXFMTUdkb1JKeHhRTWJYeTNodXllVlVUNlFlYTIyN1BGQ1lJVElYc0k1WmdOUmx4bGZhUDRTSlU2dksxWDZSMDYxSFVXUFJvd2R5MFpnWVI2Zmx3WTVtT3JIX0ZLNnNadnZKTzJBQlhwaU5oNUVMalBoY1ZpRHFMSFpoTFZQMVFGa1QtOGZ6YlRBNE81SkRXcEs4aWdOUVp4WUptMTF1NjRvc0hLeHBpQ1Y3RDB3cEQwSzljR1E4bkNkNE5lTFZsOS00YTk?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "G1",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdjJZVzI0N3dSV0VnaVQwdENrT0ZvYUQzX3VxY1B4aUxGMXhnNzQzdUZYdC1uRHJpVDM4MjZHOC0tQmRqc2taVGRSWEp0UW5US3NicVpUa2w4SzFPUGVYT0N2OHdITWF4UExDTDVQWlZ5SXU3NFhjTzZZODZfWHZzWWpFaWU1eXZhU2lDNXJvQWc4d1gwdmx3SnVGb9IBqgFBVV95cUxOeHJ1TEN4VTZuc1ZCYVZQV1FJSmZyTm1Ybkl5LWpSSF9HVUJ4dWJ0OUpuRmZ0VmZneGhUQkoxbzcza1VRbW5xRHdSRWVuZ2szZmxQN3pfdm1DcWY1b2szUTRRcU5BeXItSDE3YUdYWGdyc0t6bzduZlpkeUxHZGdqek1KS0t3NmdxTC0yd0s2M202NHlSd0RVQ2pTSWpiQUpGNENsZUlxU2lXUQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUUFUMHVaeTY2ZkdfV2dNTEFhMmxSdlFsV3d5UlNpYnhQaDQ5Qmg4RnhTb2JvNGxtaDRzQVBFdUdRZkxwdDU3NFhkbkhzQXBWU0ZrcjVDdmtSSElBZC1IMzVzWHJ2eWZ2akxpMU1KcklPWFFxbkxVdFJRMDQ5RTM2MXVpOW56Z0twZVpIVzRtU2gza1ItTjB5TmpPN0JaeHNOcDI2TmVKcHZuMnVDcGxjWkswak9NM3YzUXc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQclo1akJaNzFZMld2WDJSdENDV24tZDJ0ckJzRkhWcWFvWl9MMVNkcXBicUNkc2RuRHdnUXl4NndQdE9kbjJ3TU1mUmNmZDB3QUxQWnZJU0UyLU9FS29hLXZrZ1ZiTkJ3b3c4WE5iWkJrTUhwOVRNbE1JUFVvWjhoMmNQSVJaVm15Z1F6OXk3eGprT1VSdHZkMUE5ZFlQYWVqTWNTOFo5VmlfRjZVbXczY9IBtgFBVV95cUxQOXBVU2VzeWdRZEpLR3ZNNjB2bG9WU1pGNFpabkMzcXM4RUNXbVN2cTluSFJKMWtoNmNoTlZXcVUteDVDRk9GRFljLTVibUFXTkFYS1U1NGhfeXpwYUtYYkVtUjBuUEZzZzY5bzRoM1ZwamI3VmVVZ0dwQVUtRkhBZU5yX0I0TGJQbDZubGxZem9NcVc5S3B6YXlXZHh5cTNWSkhWUGhUZVYzQWhJY2k0RkZEYU44QQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaVFNTjZySWxpNXV1VzJXLXRESGNicDBObGhrV3U4WkNGUS0tcFhNLVZaWTN4clFvc3pPNmZfdDV0NlZ2dGZHSEI4UEoxQTV2S2FiSU02M2hyZnUxQkpWR20taENRYkNIX3B6eHVzaVBPcWxkWGpfY01ZeWc5bjdfM3cwU0NBSzgtdU9YekYzWDU2MkxtMkhHN1g3T1ctdzJKMk9hdzdacVpCRnl5UUwtSmQtZW11dXNmTE5VbENUR21XTG8?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdlVTUy1OeWstQy1tN2RPbTl5OTVzeWFhS2R2enkxS3d2bmlWY1VaMnNrTF9BQmo0OWJ1eUJJdWZITVhPUEgta0tJc2JuRmphLTRGSjFuWjhBa05nVDd1dTVXaTNXOVIzYjVVcUNJdDV1b2UwcnI0ZWR4XzFCQUthQmk2ZnNtVS15eV8xVkZ4MUgxcUFDaUFETHZSSFRITXcwUXItWElfeERqMjg?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSjh4a0RFc0kyb3lsclhHN1Z4bm16YldGUElrbnVubzZROGhISmF2dHhNb09JeGNfYmZVVFhrNTJ2LTJzQVQzbGxNTTRuODdfeUVCYzlEY3R2dFNVMGdXeExBV1FwbUlVVzgxU3FjbDZ5SkJFQnV3NDQtbGtxczZRT3ItUmY1cURRLU9lcTh1NGQ4S0hjWmxIbnF4aFFqRmRXVTVMSGd1RVlpMmlVTHZpZUl4X2VCYm8?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "marcelo-aguiar-balada",
+   "segment": "seguranca",
+   "title": "Deputado estadual Marcelo Aguiar (PL) é detido após arma disparar em balada de São Paulo, e Fred Bruno é atingido de raspão",
+   "summary": "O deputado estadual Marcelo Aguiar (PL-SP), cantor gospel, foi detido depois de uma arma disparar dentro de uma casa noturna em São Paulo. O apresentador Fred Bruno, da Globo, foi atingido de raspão no pé. Segundo a Metrópoles, o deputado esteve antes no ato de Flávio Bolsonaro na Paulista. O caso é apurado pela polícia, e o parlamentar é tratado como investigado, sem condenação. Veículos divergem sobre se o disparo foi acidental.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 5
+   },
+   "score": 7.2,
+   "outlets": [
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZGFNdHJBODlTeU0ybkRFSGN3djRCeXZmSTIxS2IzNGE0ZE51cE9RendIc2lSeDBWOC00UGg3UEZtb1VMdnNNeVVjOS1DLXJBanZvSlN3eXBISzB3YWJYenQ2dG8zb3BVNFRhY3FGb3hJbVRBZmpkTWZhemtSVHhPekpsMUFlMkJYU09IUUg0M1dCOHg5dWktbFcycWlKN082bzhzSjQyUFo0cFQ5akl5Y3J2bkVmNThhNTNrX3RsWmp3LW14c3FwQ3NtVHE?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcmp5OXRsY0ctX1Jnamx2bXI4dHFZVlBPZmt6QUZHMnFiaElPN2xHVTBWeGZqVjZvdUZEVmhudUhHOWx6c1BRb1lTaEtBZ1B5cVN4a0NsTFU3WTJCTEJxQzlzMll5U2V3d3YwajFUdzBZQWY4YzNrSzNwcTFlMVhUNnVzZzQ5dUtzTnB2aHhSczFGdDZUeEE?oc=5",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkR0RiLTdoMU5KbllKSkNrT2FSeXFCNnNuYVRuei11WlRScU5McDhZYl9PMlNobXo2MDUzR2ZRZDM5ekJYdHRERkpTVXYzV0dIdjRWSUR3ODNJRUU5R0Z3eUdHWlVidzFyc1ZXaW9OeEFSc2E1SmpCOW5n?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOelBZV1F4R3A0SWZQS0U1Y3pjZkFPVndNSzNZN0wyc05uVGRoQWVEU1VONzhvWmtZWFg1d0l3NUlNOEFydzE3NDVrdFM0TzBRaUdsSmNfN3Q5dmRpd0FFTjhIYVBaNnkxc2UwWE1NUk9nWGhsdlZIdXlSZDd1eDluNVNJNTNuTDdJVzFMaXNPV3R1MGZkQ0NWaVpHczllbVEwOS1hRXF6SXpVUmZ5WEVzbTdZNUVwUHBZTnMwZFBVYWhZaDdGX19NV3gtRVdBQdIB3AFBVV95cUxPYjRBc2RTZHlRVnZReE1rWlk2dzZXZ055X1BvTTRfbG04cUlueEdTN1BNWGlPZzVPZ0hsdEpCZHFMY29rRFFDMFhrQXRVOUlsQTBGSHIydnlOLXdjNnJVTDI2aW1RSUJzck9IZWZwYk96cXA2RlNxS1BhMnVGZm8tSk9pTllmSzF5WjFoR2liVVdmeE1WTmdmUTdyM3QyLVJCSWlHeWRmMVc0MFVqS2pZbUdhSWs3aEkxb21obFJLR21BY2dKdTl4TVNWU1lkbm0tS0g3amoxRjV6Rndl?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTUY5eHFEUUQwcTFPZmU2b3BwZ0otWndXOGU3UXk1ZlM4WW5yTVl0MnFidUhwMVkxWU96YWpHRGJiZllOMkFsM2thcUpBSWN4Q0ZjU3N2bzBDVVJUWmFWakRTYTdrVDRkVlV6OVZMV3JOd19TWFVLUFZFQXo5SDZiSVVILXlnWVA4a3VMNnpsU29wZDZ3WERTVFUwTWppX0tLaWNDMURlak1TQW1VUkJIcV9ZV016YnM?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCamRnWDhNYVBEanVyUzlCVVA3bm9yZk9rd3g2Q1lnS3dVTkNhUWVrbFI3bjBjOGJpOEZtV0pSb1Y5ZGZ6Y2luMldLY1NDeFd1VDRTeWRyNWx5a2NYWkVKOC1QMW54eGFqbzJueEU0OS0?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTk1MSHVjc1ozODgtUElqM3k0NWYyNWlralNGVXFzVk9NQkdGcHJNREEtMHczNXlGRmt0TXZaTFFYTU1WT19CTi1XVXZFRFhEX3NYXzUxTFVMbWgybTJuaTZIRUJTa3kxMlNEWlFaczRVTm03elpUUlJyYmo2U2k2NTNZYzVlQ0dERllnNlVBRi0zbHZOakFINGF6NXIzSnROS2ZUUUpFLUlMUjlfUkxZWFFGS2ptTFpEWWhoMg?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeEw2T0hqNzZrUTJqVHJxUVdxd2JrbXpqT3dlWEZKSjRrOWRyRTFQS24zVWxpLVVWWTlCd0lTZnBMaEMzYjhXU2oyNEd4ZGRtYmR1ano0VVRmeFR2Wl9zbWlUUUQzMlpNWEhxMk1jX0FWSG90dGdodVRlSnFUZTJRYVFkbnJxZGE0dnFyQmR4S25pLTBDRnVzeU52MG1sSnhG0gGoAUFVX3lxTE1zYmpqdHhuX1pBTkpudzNPVnd5TW5pLV9Ma3VvYWxMV2VlVFUtamxjMno0VkFQNnpTZHQ2RmliYjVKdnVxOXl0T0xrT0g3TE9Jc3pPSEdMQ2Fzd0cxOXdxeFZqdTIybkRXcE5TTnpCUmlvM1VuUlNtNnlKTWdTckJFWmRFTVBEbUxLRHBKZVJYWE9Ydnp6SDhQbUJuX0ZGX0czM3dYdmlrbQ?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "O Dia",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRHN3VGhHUDVEenU4Ri02VW9MVjY4cWpWSFRCWlp4V2IwWHJVT3RuZTVBNzVNdTNvZkNsNVlMcmFZMFpIRXRjd29ZclBpQnhjaTJQUUVyb2YwSHNyMFp5T0x4bTJBeEZxWVg2Sk5SRGdTYm50ZWpsS3FQbXdRNlN1OFJrQ3dxU1lFLWxMeFI2aWUxc1hBVVFUYkYtcUcxLVFFbGFaYWxpZXhZTGhpX3hmLUhrdU5YMW1IaXFJYWFR0gHDAUFVX3lxTFBkc2w2cDVBSkV4dzVSYnlsTjV3YW5IcU0tdXNFVWFjc1cyNjBKQWdWbGNPMHd6VGRqaFdDNjFKbTZQZGRWVTYySk1qWUF0WmhlNnZRSFllRlUxaFVNZjRsLXVEZDBuT0dSUFNYM21WOGUyR1NWY2l0dXNzTlVHVERjTjJvUVJvNXNoRDlTNnp6a0RPTVRTOUJwbWdoRkhCTk9rZjFOdm1NbldKVGJyOXlNQWRJV0p6N3I4alBYRWI4WWdsSQ?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeFpVMlNDbFYyQllCdEJzUzRmTHBQWS1SUzMxcTRMTHhTbEdaWkRNRVZFcE5SaWNGbnpvQ3BHOVNhaGkzbDktcE5YQVhtd0tib2x2ajY4eWtfSVdPbjdsY1hRcVM4SDdrb1NCX2FEdUlpYjc1SlRrSE54Um1UWE5aeFVzTXFNeFJIc3hKeFY4NEg3dTZNU2U4VTVsSHp1TU80Vld3aGVqS0tYYVZBZ0cxZ2NsWHk3bE9lQ1JZZ1RtZEppckgxX0pyeHg3WdIB2gFBVV95cUxPNlRMMy0yRXJGUUdYZkMtaVlITmZUaEx0NGhFSGlQYWVGYUpBaktLQXFZWWNmZlR2Q3ZENDdHNmNFcjlhZjRqbmRNSEUzVjZhLWpjOURmbzFfVWJlS2Vfa0hWUVBibUtGbzVha09pVVlZODNaQ2NfcFZOOEFSRUlVZXJ4UWhDMFp2aFAxMEh6YWtZSjR1Q3JsQUxsSGE0cllPMGh3cThEQVNpN3NpaVNMZkhLQVpIZGwzNGNrenk4R3JzLWRBSDNpbVdaSnlPZHU1MlBkWHZ3akpVdw?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbnc4N0hWelFlZkZyR3BVM2FBZm5aMkRvOVo2YzRYX1BqNm5JN0ZkNnhtODlmOUpkMkdJOC1FYkt2ekRnRWVWZ0t2WXJYRktObGZSemxqMnY2VDQ2LWdNNENoLTVhakRTd19TZ3pYQ2JZZkVYU2Rhem9GMDdScFRsVUFGZEhrV0lFWWVlcUpGTTlvWGZPeUNBMHY5SlZUeG56cjZwWjRKa2RzMlM3bUNEZ1J5dE9lM3ZMZ2l5NDY5MEtTQklWdDV3b0lFYWp2UWtSX2JLZ0hpb3g0LUFOdWdvWWltU3RacVpWd1JTa05DdU8tSUZpNlZuM0Zna1paQVkxVEE?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaEdLWmdhZDhiRDF6YldfTVJmSFBqWnlDNEM5alZaR1p5aXdYMGVpdUo3LVNmalIwUjF2Z01qZ1pzRTlmRlFfR2Z0dHVyNm9CSUhqM05lZzBzVm9SR2Q3QnMxTS1wX2p1VnpWVUZGcW1MZmdlNjRDX2QzTVZ5QllqeWpKZEd4TkdHVlhkaDItS2FJODVSSDRFWFhpQlhHenBMYVE?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMWVSZERjRDE3X2hjTm9ZV2pnb2lxTm5OaGxGenZxNU9IczlKS0JOSmtJSGRZY1hpd3JUdE9aeFF1cVhxRGQxTUc4ZDBPeE1wVm1VZFVlUjI1ZV9Bbng3MVBDcmdNUXhZd2JWOFpueHpzbVUzYWY3QnV3YmgxVWN4OEpKbGhkWlhTX2Y1b1g0SHA0U3BGdGpaMHpBazU1akdKNEZQemxfSEZwaDZ3Z0xrNnQ5UHZfUDYyQ0xF?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNzlfaEdOa2loV2lYclFid2ZEVlI4V05oM1FFTFRfZ19fanBkTzJGQU9mMzA0SllGbU1OMmdJM19vSk5BUEdIM0Z6eGFkcDdoblhqbXVoaEpuRGYtcXFSdDZLZXJnWGprSldwbDRQZ2o0NWxQUm1QVHpJZEtseEFtQkY2NjBVZktuM1BhN2lINGtLbF9CaXEtenhHLUctLTM3SGFsenN1Q1FmWVZ4OEN0ZGpLMm0tVzJmUkI4SXFEX29QVlZnTzQwWHhZaTRFbDVlSDA4WEc0aW4tclQ0bTdxbE9aZw?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaW9CX2J6NXh3U2dlM3R1elBoLWZoR09vUGVQM0pEMXVDcFpYNEI2blVQTVZTNnBWS0p2dDFPeXVOOEZfOTNoN2RUOXp0Nkw1ekNJSzFlaHZPLW1jWnhaSjd0RVpMZ1N6amFhMmE3YlI2YmwySGRQMDhzSXpQQVRjdTFqQmFhZGdYeU9UVkJ2X0hjRHlIellRN21tRVNPc2lTRDdTcXZKNHgzZ2FDbWwtbWtXTUNMX1o5cDVMR0xtSlhlZTVSeVhRejZVZzV0ald4TXFGQlRR?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "ND Mais",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMnJ5REVYZEJrLW91MF8tbExaek9HNFNrOHdTNXQ5bmtRUklRUzZYakRRcUloUURucEN3a2RaRFR3S3dNX0pvOVZocDlQd3FYQUFvU0thVGpQTGVUVzkwVUZGYXJib0JCM2RqQUxqM3YtWTJBVzVrZC1pbnNERmc0U01UM2FxazVW?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZFBxZGxqVDNBMkNERDBveEx2Q2FQbWl1elRqd1VzeVA3a3Q4SWNHZ0l4bzdpcDBZek42LXJrWnl5UVZ0T0RLRjdkWi1aSkUwR1BUeWNsVWFscXdBX2hLbDFsclV3Yk1UdlQ5YlprN0d1RWw3cTB2TmJOT3laVy1sX2JIZExPUVhzWVB2dkJZX0h6dFFJWWdmbEFyOURvM2lRc0FKM0ZRN0R1UFNPZV9rTlVMc0tvXzlrSElsYXVaWDE3d3pmcHN4SFhvTW5xd1lHNG9SLQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "NSC Total",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMG9mMXhfRDZsLUhUSDFycDNaS0UyRFQ1WEM5TnpkdE9iNWt2NjFGbHdadHhTNTUwWW5tSWloS1p0MTdlMXh6dVdzWjNZaEhCODZMQlJ0UWtzN0dKeUZHOVRXLWsxemVuZWJ2Tll6djhWLWdaa1hRYkotMzZWQ25qem1ZN3ZGdFZoMzlKS19mR0ptUFluNF9HTF9MR01vVjhCRlFUbFZaWUhXN3RSSkJuSEhQR1hLQk1ocm92V09odExwcml0VTZOQ1ZQSXVoR28yX3FnblpILWExd09R?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio (Bahia)",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWC1pd29oZ3pqcV9jYlVSekU4R1JFb3g0cE0tbktuMERONFlfZHRNV1Jsd2dkLUFjcWxrZnhjNDNhaDQ0NjNLdFBSWkszVUZhQzRtbkxQM2ZwcjVDZjhrSlpxaEZMYkZZOHRtaERpTHJxYmpfVjZRVzVIek9hWjhSS2VLR0ZEOURIckZ3NUdIYkVBRGZXZ3htR1VTX3ZGUzBuUFBHbEV4SC1sYmdkelk4RUJXVVpYYkxCLTBCNVhWZ0ZJUnJoaXBr?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSXJHTmV6Q3JHM3RDQnFmSkJiUkU1anRsN1pUQTRrVE81YWUteFRERFJoaEE4eXNkWURqZzZSekQ1MTJCV2hGOUNpYmFiYVpqV3FmY0VDTXpsaDNfdTJlT0pRLWpPWVZfTU9XVnFWYVdoVjdhZ2xZeGw3SHJkSEtoeW50d0xERjdoclZMQzJXdVcxZFl2VWNaOTllMWNSWXlualpDYUd6RVA4VzA2alRjZlBvdHdpNmJ4emNEckFB0gHDAUFVX3lxTE9lZkRYRldab2pzeVVBb0poWHl4aUVVeU9hNDRvMjY5MEV3RU5MalY0Rmpod2pTU1BXdkpVT1VuNFowVWlCMHVsc0VUOXQzelY4d05vTFZRZHpHWlY4YlRIS1dnYzNwaEt2SE9HdmM4UHpyX2JINnY5TEJ3NmhfRkJENVBaUjVWVGhFV0hTNDZsWV9qN1ZXV3BRS1UweGRfV0FGenlyeU83TC1IV0ZZTUJtWm5qcnJDSGdvSTdmbG16VDUzNA?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMms3WUgxWWxPcTR6bDAxdHUxYlI0VUdHMGwtd3AxMk05VF9lZmVyOHM5Z0wyNHZ1UGxHZ2JQWTRpa1BXRzNnblhDMVYzdFRrb1pjSlpOc293cW9VTWx0MWNYbzJFY18wMWtoaTg5MXlwR2M3MHNGSFRDTlZOdkNEN3ZHS3lmMlpDRnVFQzJvS0lDRGJjZjlIcDlOWjhfUGc1TFRKek82QlJXcnJRdGpmZnJkWVpyNlF3VmNlVFJOVDlrX0JqX1NEbHY0QlNqMUt4bVpjQTZxNmlpVW_SAeoBQVVfeXFMTVZfZWdpOUhFWHplZ1pob1hZZnZQSTJqdmRCd1VTWXZWemNxVUJ1blNPV3I2MWZ1MGZDV1pielVWOFdNb1lYcXRBamU4Vl9NaWw5em50UlI2YlNXSHJUcnFFaUtHM3llUVczeGk4S1A3bTFyQUx2X1ZrMU92Vi00SHhoZGQwSFZoaV9UcnNuUUUxNm91d05KZktRanJOSGVsZVRpYTBwMjRGRFNrSVV5b0k3cTAwSTdjT2tSanZJMW9ydGUzTjNaWWFGWm1ZampQVkVDUVc5UHZ3UnBrMjlpWGRpVmRYLXZoZU1B?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "pec-seguranca",
+   "segment": "seguranca",
+   "title": "PEC da Segurança pode ir ao plenário do Senado na terça (20), mas depende de acordo sobre a maioridade penal",
+   "summary": "O governo quer acelerar a PEC da Segurança, que pode voltar à pauta do Senado com votação prevista para terça-feira (20), mas a discussão sobre a redução da maioridade penal travou o texto. O governo quer separar o tema em outra proposta, e Lula apoia reduzir a maioridade para 16 anos apenas em crimes hediondos, tratados à parte. A oposição insiste em votar a maioridade junto, com emenda de 14 anos para crimes hediondos e 16 para os demais, o que faria o texto voltar à Câmara. A PEC prevê integração entre União, estados e municípios, regras mais duras para facções e milícias e ampliação das atribuições da PRF. Para valer, precisa de 49 votos em dois turnos.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 9
+   },
+   "score": 6.1,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSHNvLWFiS09XOW1ib3ZkVHk3UExjenNmZ2xnd2w1dy0tRXpLa0VwYlQyMGpJSncwc3BweXE0a2sta25aTFV2Z0pvMDg2YVMzWk1vUGFkWW16NzdKWmVFU013MS01dmtVWTAzOVhabEVHWUxnWGVCOGVLaFpJUGFIVExiX3lONE5kR0I1TFhaRzVOMXJHdmdkN3BCQkdEZHd2U2Rrc2dKb29xMHRoLVhiUXdn?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdWd2d25kbV92TTctbXFXM3hsRUN4ZWpkUkxQWEhjMTBQeXRGNExnelRQY2dSNFktV2R2WXR3WFFVVWpzeTN2TGI1dE54VE1xclJxSGpjTHYwUENUelZrQ3JkYnJUMEpQaGhwb1BqQnF1aFdldzhQZ2tVdF80Sjk2YkZjbWxMWUNDZDVDM1pLeThIQ0U1dGlfRmN4N2hJdkN4b0ZYdmM3YnFoREpT?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Votação prevista para terça (20) no Senado, com impasse sobre a maioridade penal"
+  },
+  {
+   "id": "faccoes-madureira-caxias",
+   "segment": "seguranca",
+   "title": "Disputa entre facções deixa entregador morto em Madureira, e PM reforça policiamento em Caxias",
+   "summary": "Um entregador morreu e outro ficou ferido durante tiroteio entre criminosos em Madureira, na Zona Norte do Rio. Em Duque de Caxias, a PM reforçou o policiamento depois de uma guerra entre criminosos. Em Japeri, quatro criminosos ficaram feridos e fuzis foram apreendidos em confronto com a PM. Na Baixada, um suspeito de tráfico foi detido com drogas e rádios. No Recreio, a PM deteve quatro suspeitos com drogas durante ação em comunidade.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 4.5,
+   "outlets": [
+    {
+     "name": "O Dia",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHRCdV9nenI4Sk9fOHZmVkp6Q3B2QWQ3aG9KVUNBLWFOeXFtSXgzTkRHYTV5OGMwT3R6emwtNWEwMW5xUldjcHhVWGpuTGRXWEFNRVoyN193TURtVlZtTVhEMDBVQnNQNVhoaURtUV9aZzAzckhwZ29wSVJDZ1E5aEpvX0E3ZDdGOHEzRk9vMy1qOXNQTUdNRk10VUN3UzV0VmlrSTZRbFd1Tko0bE1ZZWZrT0VlYjTSAbwBQVVfeXFMUEdubkoxZ09QVTFMd1Zqa1pKX2FXeVU1ZlMyYmZMRnpQMXBNQlV1RWJqSjhsRTFpRExOLVRpc3V0aGxOdzdYR0lQTzBRNDEyRjZXQnQ3b1FSekJHWGJ5bGxKdTlkQXpBLVNESDRRTjdPbXNDSDJqZ1owN2lXSFkwOWpocWdNSUtDVFF6bmx6VkJZTzRyRExlQ0lYYmQwOFZEekhDSTFvNmg4UDBPaTF6cUlMWkt4bHI5N0FaMVk?oc=5",
+     "camp": "rio",
+     "position": "editoria"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTDBWTGpVUDlxYTZuU0NTOWhUeEF4ZE9VTXdrNUJramNDM2VYZ01peERUT3RMN2hFai1FVFRTaVVobUhtVEdlOTl6YWYtb2VldXZoM1psMjVUczRiR2ZDVkV5cDdKQXZkakZ6bU5GMmRGaVpzZVlvZ0ZuU1RDWVRjT1llNG10OTFmNERTMjZXdGJQdXFtenhGNlZTTDB6SjM4LUhYT24xNExROV9BUWFTaHhyb3pVcll2VEhrT2g2V3RzOFRhcnd5Mk1R?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Meia Hora",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORjdlc2ZWRHNuRmtHRWZXSlNycEtvZWI3QUhzY05QS2xhMmpJMEtBM3pCMUhtSHhRT0VmaDJTeXJRSHhKYjNpS0I5U0dDMnhWU2NnT3RJUnBYdXJJN25HSy1HLVJUSC1jZkZVbEpSTGlLYklFTExwdXFOQWxTV1lVc1hCRXM3WVVCTTIxNHlRb2NnTGE5MWJzSVFTOVpJZGlJQWluRmhrZmtfdmFuOGt5Q3NCYS02dlZSVlZ4NdIBwgFBVV95cUxOeHMzRm4wZ21EUVkwOUlOeWh4aWpKa1VibE1VZG1Ycnp6SmhPUDVnOVdBWUxnNDdYenBUQ3BiekNTSlJ6eWNMS19zaUVwZ2szRElWOXJVd19nX1NjbHFsZWNZZ0NvT1BITFotS3ZWZ05NLU9xVTcwZzNBaHdIYmcxQWw3LXVqaXVFT0w1M05FMEowUGxsdG1fYzY5clA2Qm9FZDJkQWRmM0ludVZGUkFsc2RZSXNYMGhXQ3UxdnVqcTJhQQ?oc=5",
+     "camp": "rio",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "enem-reta-final",
+   "segment": "educacao",
+   "title": "Enem 2026 entra na reta final com aulões, videoaulas e regras sobre documentos digitais e uso de celular",
+   "summary": "Candidatos ao Enem 2026 entram na reta final de preparação, com aulões gratuitos, supermaratona de videoaulas e dicas de redação e de matemática. A Band lista quais documentos digitais são aceitos na prova. A Rádio Itatiaia explica a regra sobre o celular que emitir alarme ou som dentro do envelope porta-objetos lacrado. Em São Paulo, a rede estadual iniciou um simulado inédito do Enem e do Provão Paulista para 325 mil alunos. O MEC liberou ainda dez cursos gratuitos no Avamec para professores.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 7
+   },
+   "score": 5.4,
+   "outlets": [
+    {
+     "name": "G1",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYkJUamEyU2V6R09PNUZhS2N0MUF0eEpIR2RoWmNTS1lDTV9PcF9GMmlKQmllQlNuR3pNX3NsQU1aQ0FOaC05Q09XV3BKXzk4bk1YQjRJdHJDcHlKQmtxSFlpRWFNOTRYR3cyUkg1dmZTOWVDN3JzWGc4b3l2bXNOdEMxci15RGRscGthSTRTYU90VWRIM04wSTlVdW04eHFNNjBCQnBfSDdUampmWmRQSG5EZWhqQWJPVzNBdGNwbjRJdWvSAdIBQVVfeXFMTXRGV3VlWmQwbWJidGV3QkM0YXlPQzJNVmZzZ014TW41V1ZXcHczNEdOMlNER09DS1FzM2JSeEZYeGtzUndtbGd3c2t4N1kzeUVXdVFMVHo4WWhIaFBUZHpPRm1TMlhGeDZMRFJZcVJLcTNXSmZqMWotVDExUWFfdTdyWkNfX0VraXJ5bHNad3JUY19mVVNCRTdRb0ZwUXBkelR4QUY3d1gxT29UOENjb2c5Q0RoOFllNkN0R0hmOWxwM3F1Yjc5YzZBVVhzWGRnc0FB?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQenJObXM4b1pXNXBZLWgzd2EyeFlYN0pybDA2aTVaNlhXeVExNTJieXdzYU1rZW9Ub012a3JSdVFGRElwQmhVVFZrajlFOUNmQndaUmFydGhueUkxUGhpV1BTLTR2ZGQxUTkxa1dNQzNqOXRXZHFpdUZlSTU2V214cjR1S1dDTUJ4dkVrRmtHM25OR1N5TmFRQ0VtSWlsR2x2a0NCMGhSTFFhOUNZUWV5SXAxVWo?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHJwOUNQWlFEb0dJWWxpYlF2djl2N0ZvdWtrUlVYZHpoWTlnWFdnc3RXZWhaaHJ5UnRNcmpvb0ZrRWZXM3JVcE9uTmhhR2Q5aC1UNUV1b0N2bjdhZjVRS3BiSHd0WEV3LXlndnc1eGprdl9uSGJWWlJWTmd5Z2JITmxLaGpXVGZTamJwaEQ1dTFjdVNnc1pyVmFLNnZ1cjNUTUxSZlRocjRQd0gtOFBJWHhLYXYxVGhScUppd9IBxAFBVV95cUxOZEhsN2psYkFQTkFBdHhXWHFjRlFxX0U1d1NOdHdTRnFxU0JZeXhQclY1cW9xUVYySUc3Q2NjVG1xSWV6ZFhhOUJwMXBMX0NJN0Q5OEktTngxeUJJUEtNSjNRMDdleEFtU1lWcW5YNUpEbzE1NnJJTlRIcnlUYTBrb3YwNUxfOEVLV3BrTU12b3BPMGR0T2E5N1hEREJodENROUU2N0xTSXRnN3dmNmg5T2JWT2dOWFNlT0V1Mk8wRnRpQ3NJ?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSS1KemQ5T1ZrdXJRamxJM1czcjhESjZNX2pTOEtuMWlhc3BBSzBBTmp3Wk11V1RteXJ2cmM2Wnlpc2pxcWtaQUR5ZnpOVl9ZWEM1MlN5ZG9RNEdtdUhuS1FZYU94aWxkYVdWNHQydS1IS1o0UHBXNUhDYTVMNDdUSFVfcVJOLUhxUFF2ZVZHNU4wSm9tWWExbEI4b2R3ODBRalZUS0l3QQ?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnBwajlHaHVHcHBYN2tQdC1qZFF2QU1meGRGSG1Jci1VOVF2UnJxbGdRM1JkQU00cDk3NG1DZXRXN05qSk90bWxtUGp6S0V2RGFBWWlibFdoR1pscmxfQ3VIdDRpTTJzcW9wNUpCNXd1Tld3b2RnVDFqMjFEX1pjejNVWWM2REdwUUVlc01iaGZDZjhxWGE0Snphbkd2Q1FIZ2hRd1hYb081Ym5UcFBiU0FrNzdiVzE3bDlPU19n?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Rede estadual de SP inicia simulado inédito do Enem para 325 mil alunos nesta segunda"
+  },
+  {
+   "id": "manaus-fumaca",
+   "segment": "educacao",
+   "title": "Fumaça das queimadas suspende aulas presenciais na UEA e no IFAM em Manaus, e ministros vão à cidade reforçar o combate aos incêndios",
+   "summary": "A UEA e o IFAM suspenderam as atividades presenciais de 19 a 23 de outubro por causa da fumaça das queimadas, e escolas e universidades de Manaus também suspenderam aulas. A qualidade do ar provocou a suspensão de aulas em instituições do Amazonas e alterou a rotina escolar. Ministros foram à cidade reforçar o combate aos incêndios, e o plano de ação contra incêndios no Amazonas terá R$ 14 milhões. Os incêndios também avançam sobre o oeste do Pará e deixam o ar insalubre. As Forças Armadas entram no combate aos incêndios florestais.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 5
+   },
+   "score": 5.2,
+   "outlets": [
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOR3dwT2oxRnNjVGZRbkdyRHVONzYwSTZXM05NNW5VZTNUbkdqS2tTWnB5NEVtWUNHbW5IWTU0a29ZUU5HX21vMkhUaDRseUd4TVZPNnR4dkgzZGpHV0JFTHM4amhSeV9PMUtLeHJSN1hERTUxd1dyN0xJY05aNlNCeWIzT2NwVWFPdElLWFhuYkRpZjhRRTNEdGZTajV6OVk2V0tTNEwzSW1jekFRZWJybVIzdjZ6VnM3aW0tZjdTbnNyYkpEOWpLTmdPSzlGc19wMDdNcmxzNFV4UkE?oc=5",
+     "camp": "estatal",
+     "position": "secundario"
+    },
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMkgtWTQ5b1VXbmcydWhmUElfcGdFcjJlVmx6b3pXWExIREVheHFsc01RRmUtQ2FBMW5Sb01rN1hyNzNwOE9Vc2lZeXNzV2R6dG83eENJTVpSRTBTS0wyeTVlQ2dUTHYxVm1NVGI3MnU0eWxSdVpxQ3dIdVNJNmlzYmU4ZG4?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "pe-de-meia-rodada",
+   "segment": "educacao",
+   "title": "Pé-de-Meia inicia nova rodada de pagamentos a estudantes nesta segunda (19)",
+   "summary": "O Pé-de-Meia inicia nesta segunda-feira (19) uma nova rodada de pagamentos a estudantes do ensino médio. Os depósitos vão até 26 de outubro, conforme o mês de nascimento do beneficiário. O incentivo-frequência é de R$ 200 para o ensino médio regular e de R$ 225 para a EJA. O pagamento exige presença mínima de 80% nas aulas. O MEC relaciona esta janela à frequência de agosto.",
+   "scores": {
+    "cobertura": 2,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 3.5,
+   "outlets": [
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQ0UybmwxUTZ5cjBMV2ZXV0M0UVpHRkgxSks3cjUxM19hNlBCQW1aX0poUHBzUTY1cjZCcloxTlkxajJkdzMxOFIxS3ZKVXhHZVVwcEd4QWFvODR3X2d2bFI1UkFTX3BVR2lTZVpFWEtkTm9kUHNMT3VIbW5TdlZYQld4VG1ISW9fM1BmU1ctbF9yQ2I2S1RBeVVWVDZpaGNIbXVTVzNFQmFHS0tBR2JUTXQyZWloRHA2eGs2REFqUzBvSXo0YnplQzRNQU9RVTBrcUo4SUV6cVo0dG9ydll4bzZjdnR1aGV5QlJBTg?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "arqueologa-leblon",
+   "segment": "rio",
+   "title": "Polícia faz operação no Morro da Coroa, no Catumbi, atrás de suspeito de baleiar arqueóloga de 81 anos em assalto no Leblon",
+   "summary": "A Polícia Civil fez uma operação no Morro da Coroa, no Catumbi, em busca do suspeito de assaltar e baleiar uma arqueóloga de 81 anos no Leblon, Zona Sul do Rio. A ação mira os responsáveis pela tentativa de latrocínio contra a idosa. A vítima foi baleada durante o roubo. O Diário do Rio informa que a idade da vítima aparece como 80 anos em parte da cobertura. Até a coleta não havia informação de prisão.",
+   "scores": {
+    "cobertura": 8.0,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 6.3,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbUtLVUNCY2NNTFVoM2FpN0x5UFlyVXI1SXhBSEdEU0puNVhVLWlsQ010QzVoU19uWGMtNnJLSS1VZmhoT1NWRWlFQWV0SW5rV3pmY2U5RVgwN0x0X2NQaWZyX3ZveFNHd3FjdTB1a1ZyNW0zLTQxLV80U3JLbUNGMjdqcDRldGVubjRvc2YwZ2FYN3Y3ZmlheHNfT09sZ2Q2Q0FRZnBOb1UzZzZjU1MwRjNfQlljUmJmR2k3ajY2LUJWQm9OMUtTY3RKTE1OTnA2U1JPb3NORXNTSzJBWU42T2pKNA?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYm9Mekd1aWtTalpEc3VCdl9aVmtQbndnMU1wMGdLQV9fMEJ0XzNFSU1Vam9VVzZrUXFzSW54cm1FVExXcWVfeDlzVlRBX3QyU2NkaG00OGROVDVmS0hSSGloSUVWTnc0d3VqRDhXcW1Rb0pEM1VEcmNRd0Q3a1dQVDljRkdsODJNWHdWb2tqamNhdDBHR29wLTBEdk43NUg2ZEc5NGFramdfeUpVRzJaUkkyOTJUMUg3eWdWbVkxOVh4a3dkNnAyNHZzMDZDbWdrVjRGcUpFRTVHdTdPSEJMeFc3aw?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Rio",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPa21OMk5kRUw1aE9zbEprWjJuMV9yaTcwOTNELW5MUlVTVDlYdTZ3QTI4VmZlaWZwZHNSMnZzQkdNX0k1NGhpVUlRd3RjU0FqZE5mVDFpV1ZOVjl6Sk9oMjN3UURyS0N1TEZfNUNOa2hhU1ZzbnVPS2YzQkdnTTlJdXRjU3MwWXVzVl80ZlJ3eEIyRWZvOFh4X3k1cnd3MVVNNjJYMjVDbE9xRG1UYU5GTmlHbWh2NjRuSmZKMGRfY3Ytc0pRSGl1TnhIS3hJUmxPYnowbldR?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ1VicXhqbHRVNk5uVHluanB4NDVZU2NabzVzN05kdDA2dFJ2eGtwalJQeGR4UXJZMndSSnIwX01GVV95aHkxc2Y3VWxFbkh4eFVUZ3E3eHAzc1BSd05DQ1ZaT0tfY3VtcGZ2OXhwSGFQNkFLLV9IQzNKYnVua2xmWThVaDVuSmw1ZmgtMjN0ci1tcnV2UDQ2UUhVRktDLXlramF1Sm40UzFiaHJ6Y1hOZmxnX01MRjJodmZjTk90a2ZUSW56LUI40gHWAUFVX3lxTE5Md3AzRDlIYzdsaUd5NDA5bFNlaFEyci1oLThtaG9GLXpQSVVYeGtzS3ZLYy1ERnNWSU10UWd1bEpUa1BzQjN1MUd1Qm9vdURDTlBzWFlQMzFoTHhHdFJNSTdHZG5jQkY5TkZPOWpLMmhwU0Y0Z09FbUdLOGV6RlU4R0lzdU1NZW1LenI1YUlBLWRuZ1Q1MjNhNGlzeG11QzZSMTNDZW9fU19kTkRLVHNCNjZYakN6c3VnQVlwWXAycUtCZnFrRmpScFEtZFlQTWdZU2hsemc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNDIybEFSTG5GVExRWUJqNGtwZzZjb1JoWEZDTmhIMU16eWdrLWp6MG1LVE5rQXh6ck1lNG4zWkRFWjJPajlva096TEUxdGtoVXVUNVRVV2RsQjNRY185a2ZCeElMYndlbi0xT1lYSmNsbnprVTFtSkM3cEtwSU5PQ0JCcmtVWDdDS1pRSDZNQ2tzUUpncm9DUG8zZkdGYTNXUUVvU3I5NDR3QWgxcC1lTGJyOXJoRjAyOTIyS2VtN0R2Q2ZadG9KamYyNmlwbVdXdUhCSUd1alFOVHhJckx0S1hsUTN2ZTVGR3VDc1VGS3fSAfABQVVfeXFMTTQyMmxBUkxuRlRMUVlCajRrcGc2Y29SaFhGQ05oSDFNenlnay1qejBtS1ROa0F4enJNZTRuM1pERVoyT2o5b2tPekxFMXRraFV1VDVUVVdkbEIzUWNfOWtmQnhJTGJ3ZW4tMU9ZWEpjbG56a1UxbUpDN3BLcElOT0NCQnJrVVg3Q0taUUg2TUNrc1FKZ3JvQ1BvM2ZHRmEzV1FFb1NyOTQ0d0FoMXAtZUxicjlyaEYwMjkyMktlbTdEdkNmWnRvSmpmMjZpcG1XV3VIQklHdWpRTlR4SXJMdEtYbFEzdmU1Rkd1Q3NVRkt3?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "G1",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWURGUFFsTHVyM1lNWjhTZm5sbmFxWmFIQ3NXdklYZnJocHZENVNXOTc3cTZLdWZMbG42UFo2MXhVeGx3cjJTYzJzcDZZM2l6QlZidlBHMzFxSjIzdkFXeFI2dXdZUy1ZRXJwbld1ckZzVzROaFpTLVg2Y19YaUt5Z0d3VjlCamdaTlhpbzdnTjJyN3o5YVVuT2Fsd1VHNEMwcmw1cWhuN2prVkczR3I2cGY2c3FUOGRnUm1YaGIzRll5WmhYLWNCUFBCMG8xTTJiSlRUTkhPYm1XdXIxSVQyNHJFcS1YcF9QU09lM9IB-wFBVV95cUxQRHhMLWdsZzhTVU8yaDBzRFA5U3l0a212VXlqQnpTdVJrVWlBU3EwN3R6SVZneEYydTcwdzlhOVA5cUJqTmJBR2gxV1VsaGNFMTlKVzZ3YmFOUEZsVmFZdUw1MjJZRi0zTHNNaGVxOFBXeFQzY0M5WkYwck1VaXRrX1R4NnlmYzlRNmwxNHFBNHREa2NaWF95YlhHaklEN1RxeS1tVklTNk9Hdk4ycndQM1pVVGt3LTNQMU5oZFlnYW5yUE0zaDVRMG1INGo0ZTJObWdEZG1jYWVBZDlGZnU0bkVmYlFVSy1MRkZKeUkzaXFLX1RtVThuSGtpTQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Polícia faz operação no Morro da Coroa em busca do suspeito de baleiar a arqueóloga"
+  },
+  {
+   "id": "douglas-ruas-transicao",
+   "segment": "rio",
+   "title": "Douglas Ruas oficializa equipe de transição do governo do Rio e nomeia Bruno Bonetti chefe de gabinete na Alerj",
+   "summary": "O governador eleito do Rio, Douglas Ruas, oficializou a equipe de transição para o novo governo, com publicação no Diário Oficial. Ele nomeou Bruno Bonetti, que também integra a comissão de transição, como chefe de gabinete na Alerj. Ruas participou de motociata em Maricá em apoio a Flávio Bolsonaro. A equipe de transição vai conduzir a passagem do governo estadual. Bonetti acumula a comissão de transição e a chefia de gabinete.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 7
+   },
+   "score": 5.0,
+   "outlets": [
+    {
+     "name": "Diário do Rio",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeTI2ejUteGd3WEV6S1hDNGpYcGtTT2dHNHR1Vmwta2dHNk5iV1dSbU5tVThpUkt1WGZRMWs0c3lzdHdNZ3VWYURwUnpCRGlCS25UcWVONHhjVDdIMmEtbFpiT2hjaV9kTFdrNVRKZ2ppSUhSc05jZDlqLVRIX2huOXBBa2w0ck9LSC1ENVRRUjRYN1ZTMDRRUnU5bXAyZGN3THkxdkVuSHNObFdqdXZKbXgtMzRjaW9XRWV2aXlKTWJDUEkyOHFCRTRlam5XTGJOSi1oUHhVV05ndw?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMTQ2RVFLT29HWEl4dmRFVFVMSll5RFY2ZzJzZGplLUFNV2luRFY1TUJVZlczNDBiaTRJX1hsWURRZG4yQWZYWGlyVUl1WWJrQzRFUG1oNE9BQWh4NzhBOGtESk1ZOG41d3FpLTMxcXE2ZTVCT29sek1PWnFueV9nSkp3WS1aR0lfT3dBTHZfTWpvd1p3eUstaFl2azNaRDloRV9ha0k5WlZGa3drbm1aY0t1M0Y0QdIBxAFBVV95cUxOMnh2RzR1Q08zQkFvWFJtak9BZDFOR2VwRHZJMzMzWEZRRUprVTdXdUxXNGtrSTVFMGhKOGxYMDFZSUFaSnoza21UTjh5VjhvUFk2UjVtMjRhbjBCMGk2WXJJSE9LYWVEUGZ2MTh6MUZfN3RUNVY5MDdhYnVIcFRLV2s3b05nc0lvZGtKTWNaN3hlNjAzUWJPQ2F0WE9NRmFrSUpqTURTeU9ZRi1QaXIySV90bnREYjdiRHgxQVRGQV9kaWVk?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Equipe de transição é oficializada em Diário Oficial e Bruno Bonetti é nomeado chefe de gabinete na Alerj"
+  },
+  {
+   "id": "tce-contrato-castro",
+   "segment": "rio",
+   "title": "TCE-RJ barra pagamentos de contrato milionário do governo Castro após identificar suspeita de superfaturamento",
+   "summary": "O TCE-RJ barrou os pagamentos de um contrato milionário do governo Cláudio Castro depois de identificar suspeita de superfaturamento. O contrato é de uma plataforma, e o tribunal suspendeu a execução por suspeita de irregularidades. O Diário do Rio destaca que a decisão trava os pagamentos do contrato. O InfoMoney também noticiou a suspensão. Não há condenação.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 4.8,
+   "outlets": [
+    {
+     "name": "Diário do Rio",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMDBhaWtEMkg1LTBjR1JaZkRrdEN2TE13dklmVUhFNXZZbmkyV1VqSUl5R1ZNNkptRGc3MThKcUR6YmxabjZuRUppdmJfWmF3bVhEQjVwRFRhYzVMeGgyOGtRbGRCcXN6bFdpclJTMnBhX1hVX3ZuOGdDbHlKdXN1RXZzTTdQT01WLWVfRy1ySUNTcjR4SDdmWHlJbW1jdVE1a090ZFA0TlBRYVpnRjFtR01nb05EdzFCTHZXem41d0k0WmF0N0NELWlNRTh4dTZDMVh5YVRmLUlWNEpvT3FPcmh3TzRaOHhUZTV1V2w0VEQ?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQekNuUUVEeUlTcTZEQzE2bkRmSVVQbVY3b3R0a1p2bUg2LVNUR0xrT3E1d2ZRS3FxYTZhVkxsaTVlMEoyU2ljck95R0RodVBvQl9OZi0tbWFTSnhHVkY2RWhyZGY3MnQwUHdhbzRweE44c0w4a0tVSDBnQVlVTEtJLTZlNnY2Uk5oaXB2cHE1dmR5X2lHS2RQc3FFTFFPbzdlaUgxVDl5ZVBmblhLU3paSGRUeGFuWlRp0gG-AUFVX3lxTE10d2tLUW1pbk1oczlTcVgxb3lHN2FtaVprVlpkLWJGTXBtWk9NR0ZlM3B1bzBhRFJDVkxKUHA4aEpSUUJVd1AtRnpxSUdRZjNKRFFWUElubklTa2J6aGl1VnZQbGFqVGFEMGhCR1ZJNHliVExEZlRWMFd2dlF5Qzk2ZGNCQjRHQ3ZaODlaUFRyb1FiUkcyZVJ4VnUtX3BzV3RMTHlkWldJSWdKTUZhdUd3SDZJMWtxZGNieWtSUnc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "paes-voto-lula",
+   "segment": "rio",
+   "title": "Eduardo Paes declara voto em Lula e responsabiliza Witzel e Cláudio Castro pela crise de segurança do Rio",
+   "summary": "O prefeito do Rio, Eduardo Paes, declarou voto em Lula em vídeo e disse que nenhum presidente fez tanto pelo Rio de Janeiro. Ele pediu voto racional e afirmou que eleição não é futebol. Paes responsabilizou Wilson Witzel e Cláudio Castro pela crise de segurança no estado e apontou responsabilidade do PL. O apoio vem na semana final do segundo turno. Atos pró-Lula estão previstos na cidade.",
+   "scores": {
+    "cobertura": 2,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 8
+   },
+   "score": 4.8,
+   "outlets": [
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUUVOTUZ1cTBvekM3M3Z5TUJPWl9mS0RFdEFQV0FEMUtuNHQ4TFI1TlFJQTk0TXFnNUZUeDVrd2FCbTdWVFJVb3Q3eERIMkhZclM0a0RqbVpHQWM3c2Q1Q1pzai1JQkk1ejcwWGdfRzR2X0JURnJkbDFiM2tkTVJWNmZONHVhN19PUnVDOTlIT2I0OGNpWnBOVU5SbjFXbmtpNTdmZXhmeEZraXFYXzQyVFdnRk5QcTVnOHp2NWlnaEoxT3dYN2c?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "vialagos-pedagio",
+   "segment": "rio",
+   "title": "Pedágio da ViaLagos pode cair 17% após decisão do TCE-RJ",
+   "summary": "O pedágio da ViaLagos pode cair 17% depois de uma decisão do TCE-RJ. A rodovia liga a Região Metropolitana às cidades da Região dos Lagos. O Diário do Rio também noticia uma mega-operação para retirar 40 mil m³ de lodo das lagoas da Barra para combater o mau cheiro. O governo do Rio e a Prefeitura transferiram o feriado do Dia do Servidor para 30 de outubro. A Prefeitura do Rio anunciou ainda 1.799 vagas de emprego.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 5
+   },
+   "score": 3.8,
+   "outlets": [
+    {
+     "name": "Diário do Rio",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcWY0WGJLS1EtaXU3b1Baa29uUHNtcENndk03T3VNM1BfQjRrWjNjQkVENlB0UExiQ0RFYzhVem9aWkdXc1JTaHN6TlhPeE41UURqYkppcUFVS2o2QVM5REFoRUVrYjdSWlg0ZzVXNEtqVXdnd2N4ajkzb091NFJkVGNBOFFKUWpDbEw3REIyNVFVOFhwX0tLeHkwZ3pBUGNJQ245STF6aFlnOVQ4VVlz?oc=5",
+     "camp": "rio",
+     "position": "editoria"
+    },
+    {
+     "name": "Correio (Bahia)",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdkxRQkF3R0xPOFhLSU1JOFJPazhHa283OUUxSFlvUU5vN29rMVVlVXJZQ1o2UzVfNzVMUTdCY05nNC1Oa0xfV0VUeUR3c0xaeXM1QUJxZXZid044cXptMVUyT2ZBb2EzSFEzUVM5UFRFYk44MF9ob1pqQVhTLXJfajMySVpaZjZZZ3R5QXdqckN6dTE1eExzNDNtYVphaHY0M1dtMHhFRzlPZFIyTVM5R0xuUU9JWHluaXhmYw?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "musk-spacex-criancas",
+   "segment": "ciencia",
+   "title": "Elon Musk promete dar ações da SpaceX a cada criança dos EUA",
+   "summary": "O bilionário Elon Musk prometeu dar ações da SpaceX a cada criança dos Estados Unidos. O anúncio veio depois de uma empresa de IA anunciar doação para um fundo público, segundo a CBN. A Anthropic prometeu destinar 5% de suas ações a um fundo de benefício público antes de abrir capital. A CNN Brasil e o InfoMoney publicaram a promessa de Musk nesta segunda-feira (19). Não há detalhes de como as ações seriam distribuídas.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 5
+   },
+   "score": 5.2,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaTdnVVZUbks4eVQ1NzBuRzN1VFRqb1F1THpETGhNOU96dDA3QjdtVTN6M1Jfd2puMFNaNDFGaTl3c1BqanhjaWZuaXRDVG1OSjZCbzZZSVZfNXVMREdrcHNfZkotVmZhdXdSdmhIaE1NRUFHOE1KUFBXUHBuUU1JeWgxTGIxemYyTG1FYUMyR0dueXMxTzhSMnBzVi1pYWlWdm52cmk3TDlaVDEwNTlGUm1sV2VnQXN5?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUnpuWWEwek5MMlVEQWxrMjhsRndsOHhvaXJmdHYySjVVenl3T1ZHZ2kwZXZVcjFFUXo2Q2J5VzI2RjJjVG8xYUJzbGI4ZWtmZ1UwMmxhcFlQdnRLQ3lZdEJrQWY0ci1KVWxvR3lmUnFiMllZYzJrWWhrQmVPc0staGF6MDJCcU94RW5ieTdiRFREeE90NWczUG53VVhTQzdzZE1fUXc2UU5HTnNwenlZblZFM09jS3kxeHlmTGxB?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOHoxdjJIeE82cVBveU5WakFuRXpmRDRia2Njd3I0cmlVZWw1R2pNTjJRc1RLUGt1cktZdlY2dnp6REVxRTBobTktdDBZR2NEZjdRcWFwcUxJcFpneTRiYm1yT3BnMkxVbF8zOXI5MGZlZ05OU2NEd0JoZlo1X1NxUk1yWkdiVU9PZC1JX0U3SlFqWkd1aktzTE1TT21KamV1V1JadHRrdnZSa0R4aWF3YVNLeWtVZTNXOWVId3hvSjFKZEZ0UmUwaHFDVQ?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPOGU2QlV2OGZqRERidmp2V2Q5TnlGUFBYaF9BVTNTY29kaGxfQkxMek1ZazV0VDJ1Vk1fMnhRMFNEUjVIWU1vYTJoM3BfRTNGWC02LTVORkRDbVNfcUVFb3R0OVdzU180X09LWWpkQThYeW9YeHZQRnF0ZXlSa3FnOFF3QTdtUng4cFZaTmFVSlBQVldNeUZQYi1DNmNSUDhWVlFLbHNuZ2hINlpsaXNUdGV0RVUzNFBHMVl4Ul9HUllRTGZsM2RLcVNxeHdLRnpITGN1WkZQUzZyUFc3VFRwbXFnZVlhNDhoRFRZcUpncFloOEnSAYICQVVfeXFMT3VqaWY5Yll3bndlRmRDOExkREc0RUFMZFNzN1Btd2Q1ZEZXRHZaSHJYemJHaGFzcUlUU3dncXUzaVR0TTVxeHotQVdReGo0VGdMbFNXX2lXX25sS3l3RUxoRzJUdFBfbXZGYXozWHJ6M1h4SzZFdm8zR05CSkU4eXdZQXhES21fZkxxSDZwZUFBVWkydW1OSm1YVnNXaW9jbHFPbTJhVDNBXzBtWXROQWE5U1FIcWN6T3YtakhqR29Uakgza2ZhSVBHdVFidlhtTElOY3hXazdlSG9vQXBRdXRXZzA2U09sUDM0NHNnSUFXZV83TEdydzhUOGE3N3FQcWRB?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOEJaNDUzUUdXeWtxd0ZKN2pZekpiYzVMeGs4dXlqQTA1UXU5N2VkeExaYmRDVXloRHk5QlQxZXZsMlNwTmNJbjJBUlJTU19BNUh3UDRmX2FVQ3RmcW5lTXlqekxCcVY2TmtMcmEwc1YxQTBaZENLWDB6UFR5cURyMklXTVFhVVhTOGRKbzYzSjZZUWZjT2R1MW02NFdiZHo2LUlrVXBGTkJnQdIBrwFBVV95cUxOUk8zZTBETmlVLVB4a2FnMzRweXJwQnNjVjNiRHVUeEZhRUdzWGtkNDFLUTJFaV9tLTBfT3dOX0pVUGF5T0c1aW1CUjFsSlFiZXB0dlVyM05pUnQ4LXhTQlc0dlp6WHVfbTFHeVlQamh4T2tuRkpBNGd5aG5PRXdrckt0ckJ2eE5UZlRXVjlsbmhBRl9QblYwZnd1S0I3aFpCQjItVDZmQm9nY040VFVz?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "fato_diferente": "É a promessa de Musk de dar ações da SpaceX a crianças dos EUA, não o Roadster da Tesla"
+  },
+  {
+   "id": "ia-bolsas",
+   "segment": "ciencia",
+   "title": "Temores com a inteligência artificial pesam nas bolsas asiáticas e nas big techs, e Character.AI pede falência",
+   "summary": "As bolsas asiáticas recuaram nesta segunda-feira apesar do crescimento da economia chinesa, por temores ligados à inteligência artificial. As big techs caem na bolsa diante da falta de regulação formal e do gasto crescente com IA. A Character.AI, criada por um brasileiro, pediu falência. A Disney aproveita para caçar talentos da empresa. Os balanços de tecnologia e IA estão em foco na semana.",
+   "scores": {
+    "cobertura": 2,
+    "destaque": 3,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 4.1,
+   "outlets": [
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWTlIaUp2N1hJVTA0dmNyYmtaLVI2RFRXTmFsQ18yRGVDd2h5VXRTNVRFRTNFN0M4djFSWUUxLWdubTBmV3R0VkFTaGRTcXV5MTYzU0VxU0plemZtQklhS2YzXzNfbHAxYU1SR1pfWEdwNDFrYjVQM192WFVaUG1OdUViQjQ3WWRGelcta0wydjdaY1ZuaWFkQlFuTmxMVlZvd01jQ2VYS2puZEc3MmktZ2oxU3JYN0psN2VfWmEyMWd5Y05l0gHTAUFVX3lxTE1iRnVpXzdyT0ViUFNNSS1yYjZDQlgzTWIwQzc2RjBVSDlNX2djT1RqSTBmaDR2NXNZejVZSTEyU19ZdHF1M19DMEh3VzBjajlGaVEwNXZWdm1QMk45OEdBRE81b2lZTk9uUy1NcmNLSHlXQnlhUGVBMVFoQmRjWk5UR2o1MEhEVjhUWXpUb1NQNHI1TmZaeGlSdlNtNFlrNldpWENqYnQtbWVXcXRLVGIwMXRCNkF6WU5vUjBHRTVidkZwSWthWHR5Q0NiVU5feVBmUDQ?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "deepseek-eua",
+   "segment": "ciencia",
+   "title": "EUA proíbem o uso da IA DeepSeek em agências e contratos federais",
+   "summary": "Os Estados Unidos mandaram banir o uso da IA chinesa DeepSeek dos sistemas de tecnologia do governo. A proibição vale para agências e contratos federais. O Fed vê a inteligência artificial pressionando a inflação e alerta para o impacto desigual dos juros. Os investimentos bilionários em IA dificultam o controle da inflação norte-americana. Um tribunal nos EUA também tenta conter deepfakes na apresentação de provas.",
+   "scores": {
+    "cobertura": 2,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 3.8,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZG44MTRRNnVuLUVqQVpjUFNjSDBvTUJ3UFhHV0NSTTBFOHZra3hMMlNWcEVYYWlLUXdrX3pRemRsVDQ2ZXhYMV9YdFdMNUd0Tlpxbjd2Q1BqS0dySUxpZDF6OUhiVzNIeDVpZHZjeXhkMHRXSVZKRS1TejM0SzRDNktWRkVISmVlTE85a2ZyOTIyV25vRC1iYU5FX19Eb01KN2hEeFdkeDZ1UUlvZkRZQnloUU0?oc=5",
+     "camp": "centro-esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "anpd-rolagem",
+   "segment": "ciencia",
+   "title": "ANPD, alvo de Flávio, vai mirar rolagem infinita e vício nas redes em 2027",
+   "summary": "A Autoridade Nacional de Proteção de Dados (ANPD) vai mirar a rolagem infinita e o vício nas redes sociais em 2027. O órgão é alvo de Flávio Bolsonaro, segundo o UOL. A rolagem infinita é o recurso que mantém o usuário rolando o feed sem pausas. O UOL publicou a matéria nesta segunda-feira (19). A medida mira práticas de plataformas que prendem o usuário no feed.",
+   "scores": {
+    "cobertura": 2,
+    "destaque": 3,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 3.5,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTERSZ1A4dldaU2ZNaDhDYmx2S1UwRzRiUjM2VC05WEl5YkZ6TVRNalpma21Sb2JBZy1aNTFtOEdXUFRGVS1ZRTRvRmdCWnEzdW5KSUpNeURRcGxXenRySG5VckdoamtHOUxJemZtT0VrLVNKUDRZVmhZaDg4Rk80aEVWdzkwa1ZhX3p4eDduM0Q4bG1TamQ3TmRGYVVCV2dDdHV1eDhoOEpxVF9WUDdWQk5IYTRzeUgwdno4MHJyZElDMFNHRklBZ3ZQQQ?oc=5",
+     "camp": "centro-esquerda",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "titulo-brasileirao",
+   "segment": "esportes",
+   "title": "Flamengo abre um ponto sobre o Palmeiras e tem chance de título perto de 70% a sete rodadas do fim do Brasileirão",
+   "summary": "O Flamengo lidera o Brasileirão com 67 pontos, um a mais que o Palmeiras, depois de golear o Bahia por 3 a 0 em Salvador. A chance de título do Flamengo vai a quase 70% após a 31ª rodada, segundo a Folha. Flamengo e Palmeiras se isolam em distância inédita para o terceiro colocado a sete rodadas do fim. O comentarista Mauro Cezar Pereira lembra que a vantagem mínima do Flamengo foi construída fora de casa. O Palmeiras não perde há oito jogos no Brasileiro.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 7
+   },
+   "score": 8.2,
+   "outlets": [
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNSXl2VE9lUDQ0NFJGNkwtdEFXdjVOWDlmZ2JubWcxRWVWX3VTQlg2RVpPMTc2UkxOb2tHbm1IU2x4QUFkeDZUQy1INWI2NVNtU2dBX2RpLWpwTXQxaDhYTjN4RnhPMmdtalVZZnlKUFpxeXpfZi1iR3ZrU2laRzIzdWJERGtXeHlxOC1GLXg3YS1ZaGg4b0o4clR4ZWNxZkxrdDdOMHQ4UzdyV1JTeDM0WnpyVDVGbkxMWDBzSlRGellUSHROb0V4aHU2SVhMTFhXZ1Q4RjVtUjZCLTBpcl9nQmRFeHVmSTBzY2tZWG01QTl1bEE4UUw2UlNIOTk4Nk55emhoN2J0dUROeVXSAZoCQVVfeXFMTm03LUtVQkNydU0yR094azBHTC11VGR2Q25lQkdEN3dJd2tFV0NXbEpvaTBZY1RGdF9Gb2dkZ1F5NXNibkpIOXcwd095YU5pZTVDWmdSNkNRSkNMQXBCLTJMSU1OLVdNdmY0UGZxNEdGM21iQU5LX3hOaDV5Q3NfOWpUaXA3TmJMVVFRRVFxYUpncE5UMmFXRHFXOEszNTVoTWNMQ0p2NDhTbUpmZ0NWVHhYWUFXRzMwSDJKckcyN2szRUhELVp1XzVWeko2R3VSZHBjUndUbDFIbEExbEhWbUk0cjJvLVNQSXVyVEJjNUQ2ZzRWdTJTOWFCYnR1TW9KTFVVOFJ2bnY0OXpLd1JwR2kxVXhlS2dJMkln?oc=5",
+     "camp": "rio",
+     "position": "topo"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOY3NycDc3OHAwX1dBcW1TUWM0dHp2dDhIT205aHhvT0w4dWd6Rl9JbXNJZ0RHY0ZvS1RJckVaODJuOEQ0d2hzdUVtcGRqTXZXdHNGSXZ0ZGxGRHo1bE9jVjd6LU9aVUhOY2pTa2JQenZTSndxdmJJbUZVVmtaQTMwNzVGZWVNT1k2V0pZRmhoODZra1Q1dFh6R0lJTExZbWtvbHZBdWEwR25pN1UxSGFJZTMxUmVhU3d0cHdraDhWUnQ5Y3lpTTFEX3JWY0FHMHFUc1lPVjNud0lPaVAyakgxTFpaaGJGSm9COUFxNDFRTjRZd3VMeFc1QXhkX0JSdXR3bHlTQnVkak0?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcjJMVENiNVllN0dPS3lJT3hTS3FkMTl1M3JoUldVVEVzUmR5RzZHMkZqai1EOGYxbjlMQTc0NlZudXBfbFJ6MENJWlVwSUVwVHVqem9hclBKN3YtSFRTbVZjcHM5MUZJXzFnQXgtQlluQkJOQVVLbERFNTNEcTBRS2d1cl9zUkFHQnhoOWlINGt4Zk1hT0IxUllBcUpkSGZuQmp0M3hJc0V3YUJiaFFnQdIBuAFBVV95cUxOU0FYbjh0ZEZxcjdwOTQ2bTUtVTVvdzBVS0c1SEt3UGdXdzZLTDZ4dUlEdk0xdGhDUDlhX3lnYnBDVFE0dUZFWHltMXdscTU0X1RPamNRbDZabHgwWmZ2LVRIV2RPZ0x1QWdrVjRJem1FZ2RDbUhQaGJhWGI4bXRTdWNZWjh0U084QkdKUmdFWDNXWEVaYmRnMUdyNktsYWw4OEgtTFZQUW5sM0tvdFRlSGZrMlhJSmlN?oc=5",
+     "camp": "regional",
+     "position": "topo"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLWpBb2EwZ3RXbldBbktWdXRUcVpfRl90TUVLdGxWZDN5bWxDdVFYb0tHV2I1eFo4elh4Nzd6bWhHdWkxSkx2RzNvNGRLb3I3REpVVUhLdGFNUlhuN2dBcHBtYWw4UzRWLWR3SUlsLWw4WGdiWGl1VFFNZEtZUzBoSTFBRXV0SlY0Ujd4Vm9mUFBCV3BaS0V5N25SME5KaFhncXZmNEhaMUxkZGRENFJBcDZuQ2liS000WEpTVi1GQ3pFUW5GVDdQMg?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZDZJSHI0TXdub05ITUtlYlNqa0c4ZWY5UXB3N3U3aElSTHB1R1lqajRKM0VJenotc2dISnZSdHBNazVlSi1xTno1dExpX1JaVTRBS3RzQUtxRnI2XzZxWG1oYnRGaWMtemt5Y05VM3FxUVVCRTE0VE05dmxnVWIwLUhsM1dyWnJfTGw3VHAwUWRPWUpUbG9OVkN5dUxoRWNyNnFISlhlcE00Q0xXMTJRNkRXNWxNMWVUeG4tNXc4T2FRRzB3UWJKRTdWMzJxWnF4?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ0V0Q1dYTUdHS1JfSldROXlWdFJFZkJ2MUxpV0F0Q3JnMllyckFjNVdEdGRkNHJRemtRTWtqT2dPMUZiTDMwdlB6MlNDa0p2N1I4R1B0THJnVzRnQk4xQjlyVWZta1RlOUxYbGE3Sk0wV2Y2T0xmblpCbXBFV2lvUnkwU3l2SG9hVHRray1MTlExd3dsWFY4UFRWcjZoMjlMYzJ2NUItZVV5SkJNOFdzQms5VDlMb1VqcHpCMF9R?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQU5NWUgxeUlfb2NpM19vNl9iRGNkOURHckIxUkVXWWNnMm01ZXB6QmNWQ3J2LU9STmJfWnEzbU5lN1dObnpjMXIyS29yOTl5QTVzS04yZ0d3d0xIUGpWZ1ViWGNySXpRMDl0OEJoOVFjRGxVNnNjVlB0dTFMdzBXdXZLd2RncHBsMW9oU25hU2RWd1dkanI0S1JIdGlVdXl6Z3pWRFpCN0hWR2RMbVZWdw?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNDltRm5LcDN1cTdCa1JKNHh1Tk1xT2lxeUdicUFubVdkMlVWUlljQ25NX0M0LVN6YzFTMHZRTlRYRlk1OXk4bF83VEhBWWkwREpkamlOdko4aEVqV1JGRW40MlJjQXdsVk1meHNubWU2TzRkODc4UHRlS19tX25FcUlfYkYwdGliZ3pDNVVhd2VCQ08wTkFUd0VLQk9VUjMxSzQwY2RtOThwNkFySThrcmF1bTdLT252Mkdza3g1T0pKSXd0Z0FKakZjZHJfYzNGSkFXQi1Ubl9IS2RNMXVDRkt4QXBxSEk4MDdV?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "O Dia",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZVFmQzczT2VjYjc4eHBNQjZVUm5PV0ZUSGFFUkNVUXFyQzZpUVNwOVhDVWo2a2dRWXpMYVFzUWJ3cXNJVFRoNnlEM1B6Tzk2MThGbVEtZHhtb1VIR09CYkEwZE13ODF4eFdUQlJVUnZqQl9OaFkwMFI3THUtVmRHQ1FmVlJobjNlQTAyakRnMjg3cUxnU1Nsbk9XVlFZSW5aR0d2OWVRcXlhY1RhY2dLZXN3X2ROSDZlZzg2bzRzaWFxRS05VjU0?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Flamengo retoma a liderança e chance de título passa de 70%"
+  },
+  {
+   "id": "flamengo-estudiantes",
+   "segment": "esportes",
+   "title": "Flamengo prepara a volta da semifinal da Libertadores contra o Estudiantes na quinta (22), no Maracanã, depois do 3 a 0 no Bahia",
+   "summary": "O Flamengo enfrenta o Estudiantes na quinta-feira (22), às 21h30, no Maracanã, no jogo de volta da semifinal da Libertadores. Os jogadores passam a semana em treinos no Ninho do Urubu. O uruguaio Arrascaeta pode voltar contra o Estudiantes, segundo os bastidores da recuperação. Royal compara o jogo ao da vitória sobre o Bahia. O goleiro Rossi falou sobre os rumores de renovação travada, e disse permanecer no clube por enquanto.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 7
+   },
+   "score": 6.4,
+   "outlets": [
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbnE1UmtEUm80aVpuRzRxUlpJM3lZRUhEZGZJR01KZ3FsMGxqOE1DTlMxOHZTN2FZcURyaTJUWHNRb1RXd3RTcGJwZFZtcW1OZFlsdjNVZXAtZmR1NDhyMXVSd05Xdk1icE5rdkZ1RHBBMHRiV2lQalR6LWRjcFR6QkotcUdob29GQzdfanFZTlNUU1NGQWdEMTNtUTBoVjl3LWJzaWpTd3ZUWWU0UDV3Mw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdGR6X1piQmhEUWhlamR6ZVI4Yy1fazl0U1BzeDBVMEs5Y2xaWmVXdXhhR3dacnVfelhZY3RhQnIwX0tuTHJDRXprUGNwdUV6clBPQnpFOVZ6aUF0c0dsZzM3LU1nTE95eHZoNEVUeS1KOEczdkMzSlFKcllJNzZ5SnBXVEo4SGg4X18ybXpVbHNmOUNxQ05JcGNlX1J1RllFM1RNTWVxalVobWVKTDNIdUxBNjJuRTJsSWt3S3I5QlJMamtCeVdUS0xnWVlocjYzSzJ4NFhZcFdxVVl2ZjRLMkdsbTk?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbnZMYldYUTRnRU9MajhpbF9PUXFxU1ZKT3pCdHZMaXJlM3cxb0xRTEQ1OWtfQ0o2b21ONmQwbW9LSzhhRXVxTm5qa2xXY3JTSzJxaVNnNUtXSEpDS19rbDhUNHB6N3FtRjFFNW9yNWI1QmNqNV9sMTl4T2UyUDU1NXBOUTJBcXctS0lnZEpvLTlBRV9HOEZHVG5sMF9BOEhaRzdvb09TSTB6VXZpcXJRc25kZWpITktzeUJqdi1wZ0dhTDVQOUtZQ012NnNnSmc?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNc1BRRGFBNzgxSHVWQ3hReVFYSFlkbnhkQzY2dWpDYUM1ZkFNa21uMHdMekN1M2MyWmlyU0c2d0sxa2QzM0t4ZThRTGJ0N0drTUFXZE1ZRFlJNUduTEgycHRrNEFURDZ3YW5oVWNHRVgzNXhvZkh2MnpfbVpqRnZyLVNuOFNtTXNQTUhYaE9UYzRKbW8xVEFxUXZES1J1akxLVzV4dVYwZlBEclcycWR6NVRsblNKcFhnbmN3TUtXZktnQURBMFhscjJGUnJtc0IzLUNpVjVQaDRTSVhxNHNJMFJCUUpocnh2VzhvS0FQVDRaWi15RnfSAYQCQVVfeXFMTmlWdzJ4ajgwTzU4YWlRZ0xMZldBSDZIZzZqTzdqaDhSVm1JbEQzclE3dTltbnh6akg0Q0hsM0w2dzJZWk1nZlljbjl4elJ4WnNJZFdIcjg0V2Y3Y0dFUnkwYXFLTENRdnQzYWlMNG9rX0pzb1hnOTI5QUw5OTN2WTJOaVU5TTcwNXNjWVk2MklCdEk0TjU4dlJkUDZNdk52RVFWREljSzc3LUZxcEtuR0liY19DN3BERlZNMHprS1k1d2huWUswbEdBQ0FHYV90RjREWlY3MFozbFV1Qi1BMTBJcmY4Tk1OSm9DUy1mWV9PSTl4OURGWGxoZFNuZl9QQzNOMzk?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Flamengo goleia o Bahia por 3 a 0 e se prepara para o jogo de volta, com Arrascaeta cotado"
+  },
+  {
+   "id": "gremio-renato",
+   "segment": "esportes",
+   "title": "Renato Gaúcho coloca o cargo à disposição do Grêmio, que não aceita a demissão, e time segue no Z-4 após derrota para o Cruzeiro",
+   "summary": "O técnico Renato Gaúcho colocou o cargo à disposição da diretoria do Grêmio, que não aceitou a demissão. O Grêmio perdeu por 4 a 2 para o Cruzeiro, com hat-trick de Kaio Jorge, e segue no Z-4. As chances de rebaixamento do Grêmio passam de 75%, segundo a CNN Brasil. O árbitro citou gesto de roubo na súmula sobre a expulsão de Kannemann. O Cruzeiro entra no G4 a sete jogos do fim.",
+   "scores": {
+    "cobertura": 8.7,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 5
+   },
+   "score": 6.3,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUDQ0Y200cjMzNEdLOVBSRklVdjhGUlBldnNCaWRoemtQNElVSWJGeHVURUx5ZzZMYWpaRDA4S2owdEkwZkxzb0pvSHp3aFJzSlBsTWVMcy13dFhER3V5dFN1aWlPdENEUUZySzlESUp4Rjd0aFpEXy1hQUVTb1EycHhhT2NqUjJtRW52MHlycXFPY19rVzh6SUdBbGFSeG5rbUdGMzRiQzBoLXFUWmRiSFZUV09NN2ExX3R1TDhjQXQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbkFndVZ5dVFORlVvRDJzaG5KYmNYcjBfc3VsR1lfQ2VtYm5ZR2l3YkhFVmZkQzZPRWdKd0o1REh4c2JsYTltdnVLLTduYlh3M2xUbFpyS0lXUWRua3RfZnRGWEVZUHRCSEw2SGVKSGhyYXpEdjRIalgxWGZwS0g4X3ZIb0pPNGE1LU1Td3lrZDRzSV9uVGhfNGRxdWNJQm1Jc25aWmE4dDhldE9yS2pGWHVPc1RkQVRDbWxWNS1HV09HaXNRQnhkaGRISkVvWV9BdTQ2X3NHaw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNajBvTDJ5VC13bDVQMmRGMUhLTkZRdTN6dlVteGYyZWgtQkQ5cHotaGRXLXh5VWExWlRibjhlT2ZEOVB3a0FWV2dIdXdpb25TOFFmbmNscDZHVFBiMTVBYk1CT29BRHZVaENRSU5kelFDbm1nQ2ctcHFUbHVQQk50Vi1LVmt4dXJheDRmanlQeUVLZWtkejVGRjlMLVpFUGtlSW50N1J1NWFkUXFMRXROMGdqenhHdlFmSlVZN0I5V285dUdBcEhwQ0dBZkxzdGtHNVNwLURQVEhhNUNwaElFSXBxOVo0RlcxdXF0SGdlUWp1Ulp5eGgwTVBiTVhmcjNqdUQw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Super Notícia",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcUpHelJnXzVMLXJnNDBmd0JxVG5hdW5JUndzdldIWnhBY1hUVjhqcUM5WEZPelB0eXJ2ODBDdzh4ZVp4S3JaeGFUUUFnU24tcTNlYWJGRURHNlduOFE1NmFjdkxRcHpfcGIyWEdIR0ZjdlJDY2I4T2tmQXU0VmhwdXktRE5BcmhrdjJoOTA3V0FzeHRiVnhPXzNBSVQ3OElPS0EwdFNOSTdCQ05iMVhCYW90WkxCbjBUM0V2ZkVhSm55R3RUbm95TkdlMTV3MDF4ODRISUR1T2JsN21HbzBF?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOXy0zX1hfRVM3bkNJLTRCTDdaaDlDOTI0T1pGZEFjVzhHUktnRl9DRFh1VFg2SFVjaUlocl9OcThkbzZCdVY3ay10WWp1b0t3YmI4dFNkZjN6TGIxVW9SV0s2cTVlVExVbFRoOThoOW94VF9WZktQczJsR0IxZGtLQUNYZXI4alc1dENJYzJ3MUE5ckVHakNTbjZ1Q19HVEVUSzBhX3JBdGJXQ0V1ZFpSOHdCb3FYRW5rb1NMSVFfUjBUWlY3VHlEM2Rhbm5tTjZ1aW1qZnJYbWNtZ3VtYXdKM21vdnhkazlNa1dGRjNvQUNENHljUmNicnhzaWljM2FHVUtpTUVWMDJUUkVON1U4SWM4MFdVTmM?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRkM2VkVCMEFKVko1MWstMllzN0JQbmFNY2F2Ynp5NGU2c2pZY280bmM2Ny1nWDcxeWVnYXFOYm40Q2JKTWNDdzZJUUxKdUtfSnU4Nkc2eVBKTFpHWHJfN3BWYy1aN003SmxMd0M5Z2UxelY5SnBONDFQbXVSaW9YRzhkcXVJYXc0X3ZzSjJzbW1HVDBfUjNnSjhOb2FZQjF6RzhFc0pUU3d3cE5RSTI5TlFwcklsRFlJTGZQZGdqN2hLdjJIREh2a3FUZnZ2bGkt?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcEdjOFVZVGNLOVFQT09sam9OUjF4NDE5aGZoTjZaWnNNQ0tsR1BiS1JPWTZWb1BMSDFkZUh4LVJPUDI5UEdHUlYwM0ZldzIyZks4VUtzdlJhXzExXzdoN2lESENZWUZhTllLOElBWUQySlNEWkZOTkR6UFRHcG4zUEpwY21OOW11QmdpWF83bzk4Q0hibGVKN29vdm9wZ0lSX2ZyaHhJZUdibks4WWhVOGMyOHB6Zw?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Renato Gaúcho coloca o cargo à disposição e a diretoria não aceita a demissão"
+  },
+  {
+   "id": "vasco-boca",
+   "segment": "esportes",
+   "title": "Vasco enfrenta o Boca Juniors nesta terça (20), no Maracanã, na volta da semifinal da Sul-Americana",
+   "summary": "O Vasco enfrenta o Boca Juniors nesta terça-feira (20), no Maracanã, na partida de volta da semifinal da Sul-Americana. O atacante Marino deve receber chance contra o clube que quase o contratou. A semana é decisiva para o Vasco, que também vive o processo de venda da SAF. O analista Breiller Pires diz que será uma final a cada jogo. A partida abre a semana de decisões dos clubes cariocas, com a semifinal da Libertadores do Flamengo na quinta.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 5.4,
+   "outlets": [
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMW42R1ljWXYyQWtaY3lxUFNta0p3clJEcl9Kck9wUmNuV1ZRTl9xRjFaOV9NdkEyUmhIeVptZmRmM1BZOHdyLWczUm9QYTBydEgwNG9PNmZ5c0UwUmJqSWRuLUtMdVB2S2tLR3RvUXFPOThzOVR4NlRGVmJQU1lLc3BnLU1RXzk3S180c05KV3I5WjVyU09qWmd1RkRLMHd4QkFWaEYxeGlPU2NkYVRuYm9BTm1neWNBUFZKelJLbS1HTFhJRGVCMWN6S1dwUzB4Zlc0UXFTeUdTRnpNa3VsZ2w3WQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSXVoekNZWUh5aHRzUlpISng1dWlGeVlKa0FreUdTUGtlOU5yTVcwZWU3ZzBjWE5rYjdld3pxNUkzV1FvaFcyRTdwdHVpelZOal9mTHRiSHdQb2V5WmxScTRyMUpLeFZjbUJWdE9HMWZJdXQ3eVFFamZ3T2dadGIxVFZCOFlXTmhiY0d6WFc3T3h5Vmoyd1IzOXB1M2tfQWF1RWxGMy1EeG1ybllaSW5CbHVVeW1iSkpiTC1Ha2VXSm15ZVpnV0l1ODJoS3JHam91NHd5cFEzV2RWc0Rxb3U5X2hTZlZ4UlpCRTNPQ3JGd1A?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Jogo de volta da semifinal é nesta terça, com Marino entre os cotados"
+  },
+  {
+   "id": "neymar-fluminense",
+   "segment": "esportes",
+   "title": "Neymar admite que quase jogou pelo Fluminense: 'Conversei com o Renato Gaúcho'",
+   "summary": "Neymar admitiu que quase jogou pelo Fluminense e disse ter conversado com Renato Gaúcho sobre a negociação. Depois da vitória do Santos sobre o Fluminense no Maracanã, ele brincou que o Santos é o Inter Miami do Brasil. Gabigol marcou pelo Santos no Maracanã e provocou a torcida do Fluminense. O Fluminense atingiu marca negativa no Maracanã. O Fluminense monta telão em Laranjeiras para a semifinal da Libertadores.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 5
+   },
+   "score": 4.1,
+   "outlets": [
+    {
+     "name": "O Dia",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSmY4ZEF0b3dZUlAyaVVReko2REVacFdfekVvVmF4WmFiakZqX0VXSGhtQy1QVEI1ZHBDRWtsWXVjUENYNWpxS1ZfQ1BlQktOV3I0QXpwZnJKX2VWRkFPVXBwdlRPMEV0UFBaT1lfc09xMVdyTVlzMEVNXzJ3Z0FxbV9CZE9fbEpLMlFkbXlRSEhhSERKRVpIeUxua0Nid3lIZWtYTXp2YzRhRDNFMDd0aTRmZE82R2_SAbwBQVVfeXFMTjd5ejk0dVI0TmYtVUJYMjZ6Z0dlLVo1bDEyejhYSE9oTDl1ZThCdGdQeU1qYU9CMVktaXhKMlZFLVBWSjR5dVNzcENwb3RHWEJRV1Jpejc1RThSdTkyVXgtMkRNUG9HZ1V2WUszdUxheldDZGFGd3RNakJiTXo3eE5RaEhJMVlPSjhmNWh4R0FvT01SZ2RQcjFzUmpYM0Z0RjVWWjNPamZweFRXc1ZyZG81dXJYanN0TXFobGI?oc=5",
+     "camp": "rio",
+     "position": "editoria"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb2RLTV9MLXlCTUYwamZwdmhfY3Nrb0pVSVZXVVV1Z2JzTEJZX0YwWHY4U2F6eEFxdVoxWGlSekFFN1RnR29MdXFkOEs1THFaUFdfOEZ6TFNGRzI1NmpIYklQcDNJa2d2RWtUenl5UU5XWE10bGpSN1JMT25CSHdDaTZONkxKdEpFRW5nWjdPNi1IWDNhUUxWamplT1pDR1M0a0lqWE9R?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  }
+ ],
+ "x_trends": []
+}
