@@ -1,10 +1,27 @@
 {
  "date": "2026-10-19",
- "generated": "2026-10-18T08:31:56-03:00",
+ "generated": "2026-10-19T10:28:38-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Lobista amiga de Lulinha promete delação e diz que não poupará Lula, que nega ter falado com ela",
- "abertura": "A pauta abre com a entrevista da lobista Roberta Luchsinger à CNN, em que ela diz que fará delação e que Lulinha se reunia com ministros, enquanto o Planalto nega qualquer interlocução com ela. A delação ainda não foi firmada e as acusações dela não têm prova apresentada. O assunto pesa a uma semana do segundo turno entre Lula e Flávio Bolsonaro.",
- "agenda": [],
+ "titulo": "Lobista amiga de Lulinha promete delação, Lula desafia Flávio a abrir sigilos no debate da Band, facções e a PEC da Segurança dominam a reta final",
+ "abertura": "A pauta abre com a lobista Roberta Luchsinger, investigada, que disse à CNN que fará delação e não vai poupar Lula, enquanto o Planalto nega qualquer interlocução com ela. No debate da Band, Lula desafiou Flávio a abrir os sigilos das duas famílias, e Flávio respondeu cobrando explicações sobre o filho do presidente, o filme Dark Horse e a reunião com Vorcaro. A segurança pública também pesou: Flávio prometeu guerra ao narcoterrorismo, e a PEC da Segurança foi retirada da pauta do Senado. A uma semana do segundo turno, a pauta fecha com os locais de votação trocados no Rio, o vazamento sobre Flávio e o reajuste do Bolsa Família.",
+ "agenda": [
+  {
+   "time": "19/10",
+   "text": "Começa o pagamento do Bolsa Família com piso de R$ 691, até 30 de outubro",
+   "source": {
+    "name": "BPMoney",
+    "url": "https://bpmoney.com.br/politica/governo/calendario-outubro-bolsa-familia-inss-bpc-pe-de-meia/"
+   }
+  },
+  {
+   "time": "25/10",
+   "text": "Segundo turno da eleição presidencial",
+   "source": {
+    "name": "TVT News",
+    "url": "https://tvtnews.com.br/?p=806236"
+   }
+  }
+ ],
  "itens": [
   {
    "id": "luchsinger-delacao",
@@ -52,6 +69,213 @@
    ],
    "avulsa": true,
    "pedido": "Assunto em alta no X: Roberta Luchsinger. A lobista, amiga de Lulinha, deu entrevista à CNN dizendo que fará delação premiada e que Lulinha se reuniu com ministros. Lula nega ter tido interlocução com ela. Como usar: Amplificar com fato: ela promete delação, e Lula nega contato em nota. | Assunto em alta no X: DELATA ROBERTA. Hashtag em torno da promessa de delação de Roberta Luchsinger. Como usar: Amplificar o tema, deixando claro que a delação ainda não foi firmada."
+  },
+  {
+   "id": "debate-sigilos",
+   "bloco": "Política nacional",
+   "titulo": "Lula desafia Flávio a abrir sigilos no debate, e Flávio devolve com perguntas sobre Lulinha, filme e Vorcaro",
+   "subtitulo": "Lula pediu sigilos bancário, fiscal e telefônico das duas famílias; Flávio não aceitou nos termos de Lula e cobrou explicações sobre o filme Dark Horse (R$ 134 milhões)",
+   "resumo": "No primeiro debate do segundo turno, na Band, em 18 de outubro, Lula desafiou Flávio Bolsonaro a abrir os sigilos bancário, fiscal e telefônico das duas famílias e entregar os dados à Justiça. Para Lula, em vez de ficar falando que é honesto, Flávio deveria provar e abrir a conta. Flávio não aceitou nos termos de Lula e foi ao ataque, com cobranças ao presidente: o filme Dark Horse, que teve R$ 134 milhões em financiamento ligado ao caso Master, a reunião de Lula com Daniel Vorcaro em dezembro de 2024 e a relação de familiares do presidente com o caso do INSS. O debate acabou sem acordo, e as acusações de lado a lado não tiveram documento apresentado no programa. O eleitor tem direito de saber o que o governo tem a explicar sobre o filho do presidente, o filme e o banqueiro antes de votar no dia 25.",
+   "metafora": "Desafiar o adversário a abrir a conta é como pedir ao vizinho que mostre a casa enquanto a sua tem a porta fechada: quem exige transparência precisa começar por ela.",
+   "contexto": [
+    "Debate da Band, 18 de outubro, em São Paulo, a uma semana do segundo turno (25 de outubro), com mediação de Adriana Araújo e Eduardo Oinegue.",
+    "Lula propôs a abertura dos sigilos bancário, fiscal e telefônico das duas famílias, com entrega dos dados à Justiça.",
+    "Flávio não aceitou a proposta nos termos apresentados e citou suspeitas ligadas a recursos de um filme, ao Instituto Lula e a uma declaração atribuída a Vorcaro.",
+    "Lula cobrou explicações sobre o financiamento de R$ 134 milhões ao filme Dark Horse; Flávio questionou a reunião de Lula com Vorcaro em dezembro de 2024.",
+    "Flávio cobrou explicações sobre familiares de Lula no caso do INSS e negou a insinuação sobre empresas suas ligadas a um operador do esquema."
+   ],
+   "angulo": [
+    "Quem governa há quase quatro anos é quem tem as respostas a dar: o programa deve cobrar de Lula explicações sobre o filme de R$ 134 milhões, o encontro com Vorcaro e o filho citado no caso do INSS.",
+    "O desafio dos sigilos foi lance de debate, feito a uma semana do voto. Flávio respondeu com perguntas diretas sobre o filho, o filme e o banqueiro.",
+    "Transparência vale para o Estado: a mesma exigência cabe aos gastos do governo, aos contratos e às reuniões do presidente."
+   ],
+   "perguntas": [
+    "Por que Lula, que exige abertura de sigilos, não explicou no debate a reunião com Vorcaro e o filme Dark Horse?",
+    "O que o eleitor precisa saber do filho do presidente antes de domingo?",
+    "Debate com tanta interrupção ainda ajuda o eleitor a decidir?"
+   ],
+   "atencao": "Nenhuma das acusações trocadas no debate teve documento apresentado. Ninguém foi condenado: usar sempre segundo o candidato e investigado.",
+   "fontes": [
+    {
+     "name": "Gazeta do Paraná",
+     "url": "https://gazetadoparana.com.br/publico/debate-lula-desafia-flavio-bolsonaro-a-abrir-sigilos-bancario-e-telefonico-mas-senador-nao-aceita-proposta"
+    },
+    {
+     "name": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/123351/ao-vivo-acompanhe-o-debate-entre-lula-e-flavio-bolsonaro-na-band"
+    }
+   ]
+  },
+  {
+   "id": "debate-seguranca",
+   "bloco": "Segurança pública",
+   "titulo": "Flávio promete declarar guerra ao narcoterrorismo e criar mais de 500 mil vagas em presídios",
+   "subtitulo": "No debate da Band, Flávio quer tratar PCC, CV e milícias como narcoterroristas; Lula promete Ministério da Segurança se a PEC avançar no Senado",
+   "resumo": "A segurança pública abriu o debate da Band, em 18 de outubro, e deu o contraste mais nítido da noite. Flávio Bolsonaro disse que \"a partir de janeiro do ano que vem\" vai declarar guerra ao narcoterrorismo e classificar PCC, Comando Vermelho e milícias como organizações narcoterroristas. Ele também prometeu mais de 500 mil vagas no sistema penitenciário, leis mais duras para integrantes de facções e a retomada de territórios dominados por criminosos. Lula respondeu que o governo fez mais contra o crime organizado do que os anteriores, defendeu a PEC da Segurança e prometeu criar um Ministério da Segurança Pública se a proposta passar no Senado. Para quem vive em área dominada por facção, a diferença é entre prometer coordenação e prometer enfrentamento.",
+   "contexto": [
+    "Flávio: \"A partir de janeiro do ano que vem, eu vou declarar guerra ao narcoterrorismo\", com PCC, CV e milícias classificados como narcoterroristas.",
+    "Flávio promete mais de 500 mil vagas no sistema penitenciário e critica a política de desencarceramento do atual governo.",
+    "Lula diz que o governo combate o crime organizado \"da esquina ao andar de cima\" e que enviou uma PEC para ampliar a atuação da União.",
+    "Lula promete o Ministério da Segurança Pública se a PEC avançar no Senado.",
+    "O debate também tocou na redução da maioridade penal e nas saidinhas."
+   ],
+   "angulo": [
+    "O Brasil precisa chamar a facção pelo nome: quem domina território com fuzil e controla a economia local não é só caso de polícia comum, e a proposta de Flávio dá resposta a isso.",
+    "A diferença está na ação: Flávio promete data de início (janeiro), metas (500 mil vagas) e endurecimento da lei. A proposta de Lula é um ministério condicionado à aprovação de uma PEC.",
+    "Quem paga a conta da insegurança é o trabalhador da periferia, e é ele quem mais precisa do Estado dentro do território."
+   ],
+   "perguntas": [
+    "Classificar facções como narcoterroristas muda o que na prática para a polícia e para o cidadão?",
+    "Mais de 500 mil vagas: como fazer a obra andar rápido e onde construir?",
+    "Um ministério novo resolve ou é só mais uma sigla se a lei continuar branda?"
+   ],
+   "atencao": "A classificação das facções como terroristas é promessa de campanha e depende de lei e de decisões do Congresso. Os números de resultados do governo citados no debate não foram verificados.",
+   "fontes": [
+    {
+     "name": "Estado de Minas",
+     "url": "https://www.em.com.br/politica/2026/10/7522994-lula-e-flavio-bolsonaro-discutem-seguranca-publica-em-debate-na-band.html"
+    },
+    {
+     "name": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/123351/ao-vivo-acompanhe-o-debate-entre-lula-e-flavio-bolsonaro-na-band"
+    }
+   ]
+  },
+  {
+   "id": "pec-seguranca-retirada",
+   "bloco": "Segurança pública",
+   "titulo": "Alcolumbre retira a PEC da Segurança da pauta por briga do PT sobre a maioridade penal",
+   "subtitulo": "A votação marcada para quinta (15) caiu sem nova data; a PEC precisa de 49 votos nos dois turnos no Senado",
+   "desdobramento": "Alcolumbre retirou a PEC da pauta do plenário na quinta (15), sem nova data de votação.",
+   "resumo": "O presidente do Senado, Davi Alcolumbre, retirou a PEC da Segurança Pública da pauta na quinta-feira (15), depois que o PT não chegou a acordo sobre emendas que reduzem a maioridade penal de 18 para 16 anos. A líder do governo, Teresa Leitão, havia combinado com ele votar o texto sem esse tema e chamou a emenda da oposição de chantagem. O líder da oposição, Rogério Marinho, do PL, apresentou emenda para baixar a maioridade para 16 anos na maioria dos crimes e para 14 em casos específicos. Dentro do PT, Camilo Santana propôs 16 anos apenas para crimes hediondos, sem consenso no partido. A PEC precisa de 49 votos em cada um dos dois turnos e, se o texto mudar, volta à Câmara.",
+   "metafora": "A PEC virou um ônibus parado no ponto: todo mundo quer chegar ao destino, mas o governo não decide se embarca o passageiro da maioridade penal.",
+   "contexto": [
+    "15 de outubro: Alcolumbre retira a PEC da pauta do plenário; a CCJ havia concluído a análise na quarta (14).",
+    "Teresa Leitão (PT-PE) disse: \"Não vamos ceder a esta chantagem da oposição\".",
+    "Rogério Marinho (PL-RN) propõe maioridade aos 16 anos na maioria dos crimes e aos 14 em casos específicos.",
+    "Camilo Santana (PT-CE) propõe 16 anos só para hediondos, sem consenso no PT; parte do partido teme associar Lula a pautas do bolsonarismo.",
+    "São necessários 49 votos em cada um dos dois turnos; o artigo não informa nova data."
+   ],
+   "angulo": [
+    "Quem trava a PEC é a divisão do próprio PT: o governo que cobra a aprovação no debate não consegue fechar posição na própria bancada.",
+    "A maioridade penal é pauta que a sociedade quer discutir, e a oposição tem o direito de levá-la ao plenário.",
+    "Lula cobra de Flávio o voto na PEC, mas a votação foi retirada pelo comando do Senado sem data."
+   ],
+   "perguntas": [
+    "O governo quer mesmo aprovar a PEC antes da eleição ou prefere o assunto em aberto?",
+    "Maioridade aos 16, aos 14 ou só nos crimes hediondos: onde está o ponto de equilíbrio?",
+    "O PT teme a pauta da segurança quando ela chega ao plenário?"
+   ],
+   "atencao": "Alcolumbre disse que a retirada foi decisão da Presidência do Senado, não pedido do governo.",
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-retira-pec-da-seguranca-publica-da-pauta/"
+    },
+    {
+     "name": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/123351/ao-vivo-acompanhe-o-debate-entre-lula-e-flavio-bolsonaro-na-band"
+    }
+   ]
+  },
+  {
+   "id": "pf-willer-flavio-negativa",
+   "bloco": "STF e instituições",
+   "titulo": "Flávio e o advogado Willer Tomaz negam conta conjunta citada em e-mails apreendidos pela PF",
+   "subtitulo": "A suspeita vem de e-mails ligados ao banco Santander na Operação Sem Desconto; não há denúncia nem condenação, e a defesa fala em motivação eleitoral",
+   "resumo": "E-mails obtidos pela Polícia Federal na Operação Sem Desconto, sobre lavagem de dinheiro ligada a fraudes no INSS, levaram a PF a verificar se Flávio Bolsonaro dividia uma conta no Santander com o advogado Willer Tomaz, que é investigado. Em maio de 2025, um funcionário de Tomaz pediu ao banco que desvinculasse o nome de Flávio de uma conta ligada à Alcazar Holdings, empresa sediada na Ilha da Madeira. A assessoria de Flávio nega que ele tenha tido conta com Tomaz ou com empresas dele, e Tomaz diz que os dois são apenas amigos, sem relação comercial ou financeira. A defesa do advogado afirma que as notícias são falsas, que tomou providências criminais contra a publicação e que há motivação eleitoral, e relata que a PF abriu investigação sobre o vazamento de informações sigilosas. Nada foi provado: os textos não dizem para que a conta teria sido usada nem se Flávio é alvo de denúncia.",
+   "contexto": [
+    "Os e-mails foram revelados pelo UOL a partir de material obtido pela PF; a Folha confirmou.",
+    "Operação Sem Desconto investiga lavagem ligada a fraude no INSS; em agosto de 2026, Tomaz e parentes do senador Weverton Rocha foram alvos de fase da operação.",
+    "Maio de 2025: pedido de funcionário de Tomaz ao Santander para desvincular Flávio de conta ligada à Alcazar Holdings.",
+    "A assessoria de Flávio diz que ele nunca teve conta com Tomaz ou suas empresas como titular principal.",
+    "A matéria não cita nota oficial da PF nem diz para que a conta foi usada."
+   ],
+   "angulo": [
+    "Vazamento seletivo de material sigiloso na última semana de campanha precisa de explicação: quem vazou e por que agora.",
+    "A resposta de Flávio é objetiva: nega a conta e não há denúncia nem condenação.",
+    "Investigação precisa de prova, e o eleitor não pode ser julgado por e-mail solto sem contexto."
+   ],
+   "perguntas": [
+    "Quem se beneficia de um vazamento desses a uma semana do segundo turno?",
+    "Como garantir que a PF investigue sem virar instrumento de campanha?",
+    "O que a PF precisa mostrar para que o caso seja mais que uma suspeita?"
+   ],
+   "atencao": "Flávio não é denunciado nem condenado; usar sempre segundo a PF, investigado (Tomaz) e nega. A matéria que cita Sputnik/UOL não traz posição oficial da PF.",
+   "fontes": [
+    {
+     "name": "A Gazeta",
+     "url": "https://www.agazeta.com.br/brasil/emails-indicam-que-flavio-bolsonaro-dividia-conta-com-suspeito-de-lavar-dinheiro-do-inss-1026"
+    },
+    {
+     "name": "Tribuna do Sertão",
+     "url": "https://tribunadosertao.com.br/geral/2026/10/10/994767-pf-investiga-possivel-conta-conjunta-entre-flavio-bolsonaro-e-advogado"
+    }
+   ]
+  },
+  {
+   "id": "rio-locais-votacao",
+   "bloco": "Rio de Janeiro",
+   "titulo": "Coligação de Lula pede ao TRE-RJ ajuda a eleitores que tiveram o local de votação trocado, mais de 610 mil",
+   "subtitulo": "Foram 268 locais mudados no estado; o TRE diz que o motivo foi segurança, acessibilidade e estrutura dos prédios; segundo turno é dia 25",
+   "desdobramento": "A coligação de Lula pediu ao TRE-RJ, em 9 de outubro, divulgação clara dos novos endereços e transporte gratuito para o segundo turno.",
+   "resumo": "A coligação que apoia Lula pediu ao TRE-RJ, em 9 de outubro, medidas para o segundo turno de 25 de outubro, depois de mudanças em 268 locais de votação que atingiram mais de 610 mil eleitores. Segundo a petição, 72 locais em 20 municípios foram mudados por razões de segurança, o que afetou cerca de 202 mil pessoas. A petição aponta abstenção de 28,46% na Maré e de 26,86% na Rocinha, acima da média nacional de 21,08%, e relata filas de até quatro horas. O TRE-RJ respondeu que as mudanças tiveram base em segurança, acessibilidade e problemas estruturais nos prédios, e recomenda que o eleitor confira o local e a seção antes. Para o cidadão do Rio, o conselho é prático: confira o endereço agora, não no domingo.",
+   "contexto": [
+    "Petição da coligação Brasil Pronto Pra Mais ao TRE-RJ em 9 de outubro: 268 locais mudados, mais de 610 mil eleitores atingidos.",
+    "72 locais em 20 municípios foram mudados por segurança, afetando cerca de 202 mil pessoas.",
+    "Abstenção de 28,46% na Maré e 26,86% na Rocinha no primeiro turno, contra média nacional de 21,08%.",
+    "A coligação pede divulgação clara dos endereços, alertas individuais e transporte gratuito.",
+    "Segundo turno: 25 de outubro; o TRE diz que as mudanças vieram de segurança, acessibilidade e problemas estruturais."
+   ],
+   "angulo": [
+    "Eleitor que mora em área dominada por facção não escolhe onde votar: quando o local muda por segurança, o problema de fundo é o território que o Estado perdeu.",
+    "A Justiça Eleitoral deve informar com clareza, e isso vale para todo eleitor, de qualquer candidato.",
+    "Conferir o local de votação antes do dia 25 é dever do eleitor e deve ser facilitado."
+   ],
+   "perguntas": [
+    "O que a Justiça Eleitoral pode fazer em uma semana para o eleitor saber onde votar?",
+    "Mudar a urna por segurança resolve ou só mostra o tamanho do domínio das facções?",
+    "Quem tem de bancar o transporte de eleitores em áreas isoladas?"
+   ],
+   "atencao": "O número de 592 mil eleitores citado nas edições de notícias não foi confirmado em matéria aberta; usar os 610 mil da petição, atribuídos à coligação.",
+   "fontes": [
+    {
+     "name": "TVT News",
+     "url": "https://tvtnews.com.br/?p=806236"
+    }
+   ]
+  },
+  {
+   "id": "bolsa-familia-691",
+   "bloco": "Economia",
+   "titulo": "Bolsa Família começa a pagar com reajuste de 15,04% e piso de R$ 691 por família",
+   "subtitulo": "Pagamentos vão de 19 a 30 de outubro pelo final do NIS, a uma semana do segundo turno",
+   "desdobramento": "O reajuste do benefício começa a ser pago em 19 de outubro, com piso de R$ 691.",
+   "resumo": "O Bolsa Família de outubro começa a ser pago nesta segunda-feira (19), com reajuste de 15,04% que leva o piso por família de R$ 600 para R$ 691. Os depósitos seguem o final do NIS e vão até 30 de outubro. Cada integrante recebe R$ 164, e os adicionais passam a R$ 173 para crianças de 0 a 6 anos e R$ 58 para os demais. O reajuste é automático e vem a seis dias do segundo turno. A pergunta para o cidadão é quanto isso custa e se o aumento sobrevive depois da eleição.",
+   "contexto": [
+    "Pagamentos de 19 a 30 de outubro, pelo último dígito do NIS.",
+    "Piso de R$ 600 para R$ 691 (15,04%), adicionais de R$ 173 e R$ 58.",
+    "O reajuste é automático, sem pedido da família.",
+    "Famílias cuja renda sobe dentro do limite de R$ 706 por pessoa podem receber 50% do benefício por um ano.",
+    "Segundo turno é dia 25."
+   ],
+   "angulo": [
+    "Programa social deve proteger quem precisa e ter porta de saída, não virar peça de campanha.",
+    "O eleitor tem o direito de saber o custo e a fonte do dinheiro.",
+    "A porta de saída com renda crescente é a melhor notícia do desenho do programa."
+   ],
+   "perguntas": [
+    "O reajuste a uma semana do voto é coincidência?",
+    "Como o benefício ajuda a família a sair do programa?",
+    "Qual a fonte para pagar o aumento?"
+   ],
+   "atencao": "Custo do reajuste e declarações do governo não foram conferidos em matéria aberta; não citar valor de custo no ar.",
+   "fontes": [
+    {
+     "name": "BPMoney",
+     "url": "https://bpmoney.com.br/politica/governo/calendario-outubro-bolsa-familia-inss-bpc-pe-de-meia/"
+    }
+   ]
   }
  ]
 }
