@@ -1,6 +1,28 @@
 {
   "alerts": [
     {
+      "time": "2026-10-20T15:30:00-03:00",
+      "title": "Pesquisa Real Time Big Data dá Flávio Bolsonaro 52% e Lula 48% nos votos válidos no 2º turno",
+      "fact": "Pesquisa Real Time Big Data divulgada nesta terça (20/10) mostra Flávio Bolsonaro (PL) com 52% dos votos válidos e Lula (PT) com 48% no segundo turno, que acontece domingo (25/10). Foram ouvidos 2 mil eleitores por telefone entre 15 e 19 de outubro, com margem de erro de 2 pontos e registro BR-02952/2026 no TSE.",
+      "sources": [
+        {
+          "name": "Tribuna PR",
+          "url": "https://www.tribunapr.com.br/noticias/brasil/5-dias-segundo-turno-pesquisa-mostra-flavio-bolsonaro-4-pontos-frente-lula/"
+        },
+        {
+          "name": "BP Money",
+          "url": "https://bpmoney.com.br/politica/real-time-big-data-flavio-52-lula-48-segundo-turno/"
+        }
+      ],
+      "suggestion": "Reel de reação hoje, entre 17h e 19h, e story com a pergunta ao público logo depois.",
+      "hook": "Cinco dias da eleição e Flávio abre vantagem em mais uma pesquisa.",
+      "script": "Faltam cinco dias para o segundo turno e saiu pesquisa nova. Flávio Bolsonaro tem 52% dos votos válidos. Lula, 48%. É a Real Time Big Data, ouvindo dois mil eleitores entre os dias 15 e 19. A margem é de dois pontos, e o número está registrado no TSE. A campanha chega na reta final com Flávio na frente. Você acha que esse voto vai se confirmar domingo? Responde aqui nos comentários.",
+      "timeline": {
+        "rende": "Alto: reta final do segundo turno, assunto dominante.",
+        "angle": "Flávio chega à última semana à frente, e a pesquisa de rua pesa mais que a militância do PT nas redes."
+      }
+    },
+    {
       "time": "2026-10-15T12:20:04-03:00",
       "title": "PF prende deputado estadual eleito Márcio Canella e ex-secretário de Polícia Civil do Rio em operação contra lavagem de R$ 7,6 bilhões",
       "fact": "Nesta quinta (15/10), a Polícia Federal prendeu o deputado estadual eleito Márcio Canella (União-RJ), segundo mais votado para a Alerj, e o delegado Marcus Amim, ex-secretário estadual de Polícia Civil, na 8ª fase da Operação Unha e Carne. Moraes autorizou seis prisões e 16 buscas, o sequestro de bens e a suspensão de 112 empresas, 96 delas postos de combustíveis. Segundo a PF, a rede lavou R$ 7,6 bilhões em seis anos e Canella fazia a articulação política do grupo. As defesas dizem que só falam após acesso aos autos.",
