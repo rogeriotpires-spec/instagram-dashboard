@@ -272,6 +272,13 @@
      "camp": "regional",
      "position": "editoria",
      "via": "coleta"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdXlsSTloQU1YWlBIVV84UnFVTHFDVVhvbGRuYW5FcXAtQWRNbWVxMGk3OERxeENwMC1JelpKYkFNQTFQNENnd0tWVm5lQXc1NWhVeGZiaHhfTUVvRmM3UWpvNmxIUkdzNlM2Sjg2LXJhZnNZR2g1dl84T0NVT2U4T0tleHJRekwzZWtnbjVpUmZKTm9hbW5GRGhRZ1c5OG5xTm4xWXhNWU9zbFp0emV2OFlQeUZOX2VJRlV0OUhR?oc=5",
+     "camp": "esquerda",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -452,12 +459,12 @@
    "title": "Campanhas de Flávio e de Lula recalculam a estratégia para o debate da Globo, marcado para sexta (23)",
    "summary": "Depois do debate da Band, as campanhas de Flávio Bolsonaro e de Lula revisam a estratégia para o confronto da TV Globo. O Globo informa que aliados de Flávio defendem mais propostas e menos agressividade, e que ele planeja nova visita ao pai antes do debate. Pelas regras divulgadas, os candidatos poderão circular pelo palco durante o debate. A campanha de Lula admite erros de comunicação, e o presidente do PT diz que Lula vai se preparar mais. A Globo marcou o encontro para sexta-feira, 23 de outubro.",
    "scores": {
-    "cobertura": 8.7,
+    "cobertura": 10,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 10
    },
-   "score": 7.4,
+   "score": 7.8,
    "outlets": [
     {
      "name": "O Globo",
@@ -505,6 +512,62 @@
      "name": "UOL",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWC1vc2ZjaVZEbzgxZ0dNR2lKVzFlb0pLZ3lJbG16aW1HY2U5SGdIUnZXcVNZWnVrQ1lkRHhsWmtST0VPdWFxMXJ2Ynphd3BJeVhvMG5UYUtaWjYyQmpTYU5iSzNtUVZjN1UzRmZaU2Q4ZmZPdmJuVnhVNXM4Yi1TR3JWbTU0TUw2RHpiblA4ekQwamhVaDhVUld4Zy1pVWVwSTFXWndEVjQxZGs0VFZZU1hiOFpqY3ExQ3U2SEt6Zlg2T181X0h3?oc=5",
      "camp": "centro-esquerda",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFJuTGZUSDF2VXdRQW54X1dNUGQtSFVlNGR4cmlMOUY3Z3dYdUlCWUhVZ1RpeGl4WmRNSmo2WkFmdE91VmQza0J0NlZEU21IdHk4LWtCMzV6N3ZYN3lnbFFNSlNrN2Qtd3ZGZ2FZQWVzVGhDek9uQVNSWG5YMjJlZWFqNjUwczE1WHp1RGN2VnFFSmZUeWFOTHdYU0Q4a3FxUEZiR2V1RDM3aDFvTDJnaGJ3?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTXRtam5tYjJlQU9zd3pYUmpVMFV0U1huM0h6WWVFczk0cXFTanpGSG5KR2xjTlFXQ3JpMUpHZGxpRFdLaF9uOXduVXp2WHpzQlRDZ2hQaFpqOGdIQ1JIdW9WSTg3REN6S2pjd0Z3Q05vSktEVnkza2dic2NQaENRZFlTc3hIQ1pXZ0hfbXlxNV9Gbmo0dVJDNS1GNGdGSUnSAacBQVVfeXFMTUlCYWQ0MDJEZ2dRWW44TjFJNTJzbVVXaWkyXzkxUy1wMXprbW1US1NvZklpcExfbklBejJIajcwYzdaUS1BREZ0alFXOFoyeHgyY2hjd0FtRUR2OXJ5UVhCUDFqVl8wVWI0ckFTT1QyY3FjSTBMQnhzYS04WG1TSUdfVU1fR0VMblliWGNNS2lRVkNzbHhWbXpXa3BETTFRb0pUNjdKUUU?oc=5",
+     "camp": "direita",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BBC News Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXVDVSaVZ0bnZXcEgwWDNOWWFyNy1RY2RaLUIxaFhTRzVqYk9VUERmTlZBMFdJTW03N1RSZm0wNzI4dVg1aHdLYWhZQ1E5NU5NNmdtdmo2akZGMk94cW5QZjN1UdIBaEFVX3lxTE1YUHVRT0xTTHR0djZjcmM1ZnpWMmhHdTAyQ2ZIOE54VGtCNUl5NHRad3FraFBvcFFqRGoxYUx5dGFKNVNxZFJib2NZVjVXVVo3amhZSDNpdU9ualVINlZMVW9XaTVaRHNH?oc=5",
+     "camp": "internacional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNmdTWVhnUFVfRExIaGl0aHpETURYNWZZbmhPY0FLR3NLOGpBTGlSLWdpN253aUs5MkZodWdmaG84Zm5xR3plSnBCS1Yya0RKMGV1M01nLTJUSlVLU1h0ZTVvbTF0YWpoLWtuTXUyN29RT243U0ZJT25Db0k4NENQc2FuMHVhSnQ3RlpPcGhvX2RzZG5ldC1RYVB6c1YwNWhmc091TS1Id01icDdHc1dwSlFYVXg1Z3lWa3c?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNWN4SVNhR0psNTQ3NWVHZE5pSC1iTTYwZFR6Ykp2Znk1ZlhkbjY0SDU4MTBfUURvUzVvWTktbVF0NDVqcjhoTkszRUx3Q3ZKMXJsYnY4WGlpNjlFVklxVDZYTmdqcTFQTDZQZjZwSVVYRS05ZE9oVzVEUC1WNklfZnpRZ0xlWmVKdFFKZDU3bF9LbXBNckk5U19vV0NoWkp0a2c?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQUphQlVCUGZobEFjSHRsZGlqZ3VVb1dfOXU0cm9pY1ZwenBLdkt2d1FURGZZWTJuX052bks5OXVSWC1idmdVZmFGcTFocTJ2d3lOaldTNjVQemtkSEg1Vno4X3NjMkJRRVVjNVphTEY4OVZYVzRjc1hlYWtEUmhsRHZIR19qNXBWTlRCY2dxczFTTnNaU0RIS0pDTkF6ZFg0SWZEZHZwTVhXeGpPUE5kUW1NMEtLY3lENURJckVDc0ttZw?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "NSC Total",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMU5SbDFxbzBuUHY3a3I5Sl9pNXAxYTZXb3k5aWo0N3NkbjA4SXJGMkcwUUxBNUlJZmtLS1RCNVVpZk9uT2dUbFQ2YXI2bWJLLTZzRC14WFJzSGxUUkJTYURES2ZVMkl0ZG9IUVU4TGYwUUlFWDVuZHhVNDVPdmxBV19EeDJwTm5RcUduaXBvTFltN3lOTG1hRVJ1ZnpkUWtoeTkzSkxwbG5UcS04M0ZnNUtR?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNZzlsdVp3MVlsY294S2l5UVp5VnRwdzc4Y0tFenBOZ05OX0JJRmtJVUI3akI1dm5vdG1GZllOMVJ0R0p4TU9oTjB5VWVwV042S2R6SEtiN0tjb2FKem9VVDJWd3ZkRU5IT2xvTEY2VHlYOFlTWVlDS2Utbl9NR0ViRnd1SnlJNFBZa0dYWEFjd1ZCdENzUTVaS3lHR3ctY0ZUTk52c3BrSGNpZmY1bGE4Y1JOQXZtcUJuVlRJXzU0UDNXazZQZXpiQkRvN2FySFc0endLZFFFdk8zSDg5OUVVcEFMV0xwbndrT1dMbTJzRWHSAfABQVVfeXFMTWc5bHVadzFZbGNveEtpeVFaeVZ0cHc3OGNLRXpwTmdOTl9CSUZrSVVCN2pCNXZub3RtRmZZTjFSdEdKeE1PaE4weVVlcFdONktkekhLYjdLY29hSnpvVVQyVnd2ZEVOSE9sb0xGNlR5WDhZU1lZQ0tlLW5fTUdFYkZ3dUp5STRQWWtHWFhBY3dWQnRDc1E1Wkt5R0d3LWNGVE5OdnNwa0hjaWZmNWxhOGNSTkF2bXFCblZUSV81NFAzV2s2UGV6YkJEbzdhckhXNHp3S2RRRXZPM0g4OTlFVXBBTFdMcG53a09XTG0yc0Vh?oc=5",
+     "camp": "centro",
      "position": "editoria",
      "via": "coleta"
     }
@@ -622,6 +685,13 @@
      "name": "O Tempo",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWHU2UDNoRlJYbC02dXdvdUNIenk1YVlBcUI3MlRGY0Z6YWo0d21rX0hJNkdkSDd0Mm9oRC1rMVRmcFh0LV9ZcmhqUkR2THgwZkFVclota2pMLTZnOEk4Zk8zY0ZWR3RPenNWZnQ1ZktDUURUNElyQ1NJcGdvOFRvNjE5aGpQMjUyNm9MeEtDRzNITHBJa0RFTHpDbl9SMWZzaVNyd2JaaXlmN3EtclV2S3VLTQ?oc=5",
      "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZGtSQWVUTmx0dUk1Qk1rYjNHRnV3c1VxX1BLX3Z5MXN1bFVqM1JJam9YQ2h6cmQ4U2J2QTZId3FUY0NCSFRySzU3MWZsWEJYSXl4bThLS19wQktHY0lyM29mLWRqZlBFOGFwUmd2RzRLZEp0bWljWS1DOC1TRVc0TXpWZWdqUUVoTDVsQlEtemRxc1VvUVo2MzUtRlFCanJLOTNya3RIam53Z2cxQnZwaEx1YVh1LUZ2NUFMWjZYVGVNUW9hcTlyODJPM01oMHROajUwVNIB1AFBVV95cUxNZGtSQWVUTmx0dUk1Qk1rYjNHRnV3c1VxX1BLX3Z5MXN1bFVqM1JJam9YQ2h6cmQ4U2J2QTZId3FUY0NCSFRySzU3MWZsWEJYSXl4bThLS19wQktHY0lyM29mLWRqZlBFOGFwUmd2RzRLZEp0bWljWS1DOC1TRVc0TXpWZWdqUUVoTDVsQlEtemRxc1VvUVo2MzUtRlFCanJLOTNya3RIam53Z2cxQnZwaEx1YVh1LUZ2NUFMWjZYVGVNUW9hcTlyODJPM01oMHROajUwVA?oc=5",
+     "camp": "centro",
      "position": "editoria",
      "via": "coleta"
     }
@@ -1942,5 +2012,6 @@
     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNV9EazlHVTVPclpGemZzQXFrY3Z0Qnp0NHVvOHBoMmtRNldNRmtScndrV25hYXVZVnlIZHZDVzZZQ1IzRGlBTVZ6RkIyNXR4bzFyQVVvT3VrYXhKcmI5a2VfdVRwSFdnUGNnVEY4ajRQTlBSTEs3cTBSaEF3MkZNM3JCSFVDVDhwNEFHNkstanBhTjdtWW1feGVyM1pPYUFrQUJLT2dyY0M4V1lwb0NPcG4tdlJaUGlRUjc2Vi0zRnJReERQWlRnN3dtU1IxQmZrYzhaLS1PWnk0YWxHeTJ5LUNn?oc=5"
    }
   }
- ]
+ ],
+ "portais_na_coleta": 55
 }
