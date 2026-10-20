@@ -1,47 +1,47 @@
 {
- "generated": "2026-10-19T06:14:00-03:00",
+ "generated": "2026-10-20T06:11:15-03:00",
  "dias": 60,
  "period": {
-  "start": "2026-08-20",
-  "end": "2026-10-18"
+  "start": "2026-08-21",
+  "end": "2026-10-19"
  },
- "compare": "2026-06-21 a 2026-08-19",
- "headline": "Em 60 dias a conta teve 27,2 mi de views (+155%) e alcance médio de 168 mil contas por dia; imagens somaram 7,9 mi de views contra 3,5 mi dos Reels.",
+ "compare": "2026-06-22 a 2026-08-20",
+ "headline": "Nos últimos 60 dias, a conta teve 27,5 mi de views e 17.295 novos seguidores; o alcance médio por dia foi de 171 mil (+164%), e as 49 imagens tiveram mediana de 16.533 views, contra 11.844 dos 74 Reels.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "27,2 mi",
-   "delta": "+155%",
-   "dir": "up"
+   "value": "27,5 mi",
+   "delta": "sem comparação",
+   "dir": "na"
   },
   {
    "label": "Novos seguidores",
-   "value": "16.787",
+   "value": "17.295",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Deixaram de seguir",
-   "value": "668",
+   "value": "690",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "457 mil",
+   "value": "462 mil",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Comentários recebidos",
-   "value": "29.883",
+   "value": "30,4 mil",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Alcance médio por dia",
-   "value": "168 mil",
-   "delta": "+155%",
+   "value": "171 mil",
+   "delta": "+164%",
    "dir": "up"
   }
  ],
@@ -50,10 +50,10 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "As 49 imagens tiveram mediana de 16.532 views e somaram 5.384 seguidores; os 74 Reels, mediana de 11.430. Os melhores posts foram imagens de Opinião: \"Fica a reflexão.\" (1.039.563 views), \"Ninguém aguenta mais o Lula e o PT!\" (976.471) e \"Como dizia o TAXAD...\" (922.733, 1.166 seguidores).",
+   "diagnosis": "As imagens de opinião concentraram os maiores resultados: \"Fica a reflexão.\" (1.167.985 views), \"Ninguém aguenta mais o Lula e o PT!\" (978.838) e \"Como dizia o TAXAD...\" (923.389, com 1.172 seguidores). As imagens somaram 5.608 seguidores no período e tiveram mediana de 156 compartilhamentos, contra 80 dos Reels.",
    "actions": [
-    "Mantenha a imagem de Opinião da manhã como pilar do perfil.",
-    "Use os três posts como modelo de título e de tema."
+    "Mantenha as imagens de opinião com posição clara como carro-chefe do perfil.",
+    "Publique essas imagens cedo, entre 6h30 e 7h15, horário dos três maiores resultados."
    ],
    "posts": [
     "Dd8pQedtGZL",
@@ -64,11 +64,11 @@
   {
    "title": "O que não funcionou",
    "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "Os piores posts foram Reels de Política: \"O STF virou um manicômio institucional\" (535 views) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551), além da imagem \"Quer entender o que é inflação?\" (713). Eventos e discursos (5 posts) tiveram mediana de 3.950 views, e os 2 carrosséis, 3.635.",
+   "status_label": "Evitar",
+   "diagnosis": "Os piores posts foram Reels de política publicados de manhã: \"O STF virou um manicômio institucional\" (535 views, 6h30), \"Candidato perdeu Instagram e Fundo Eleitoral\" (551, 9h04) e a imagem \"Quer entender o que é inflação?\" (713). Os 74 Reels tiveram mediana de 11.844 views, abaixo das imagens. Os 5 posts de Eventos e discursos tiveram mediana de 3.950.",
    "actions": [
-    "Reduza posts de evento e de explicação longa.",
-    "Teste Reels mais curtos e com fato novo no começo."
+    "Reduza Reels de 65s a 72s sobre política institucional, que perderam cerca de 40% do público no início.",
+    "Evite posts explicativos genéricos, como o da inflação."
    ],
    "posts": [
     "Dc3EY5cNint",
@@ -77,13 +77,13 @@
    ]
   },
   {
-   "title": "Comentários e conversa",
-   "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "Os posts com mais comentários pediram resposta direta: \"Qual número você escolheria?\" (488), \"Responda nos comentários, só um nome!\" (355, com 136.379 views e 57 seguidores) e \"Inacreditável!\" (260). Comentários, compartilhamentos e salvamentos têm dado de 42 dos 60 dias, então não há comparação.",
+   "title": "Comentários",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Os posts de chamada para comentar lideraram: \"Qual número você escolheria?\" teve 488 comentários, \"Responda nos comentários, só um nome!\" teve 355 comentários, 136.379 views e 57 seguidores, e o Reel \"Inacreditável!\" teve 262. Compartilhamentos, comentários e seguidores cobrem 43 dos 60 dias, e o período anterior não tem esses dados, por isso não há comparação.",
    "actions": [
-    "Publique uma pergunta de resposta curta por semana.",
-    "Acompanhe os comentários desde o início do período com dado completo."
+    "Use uma chamada direta para comentar, como \"só um nome\", pelo menos uma vez por semana.",
+    "Combine a chamada com tema quente para somar views, como no post de 136.379 views."
    ],
    "posts": [
     "DdumKq_tAX_",
@@ -92,16 +92,15 @@
    ]
   },
   {
-   "title": "Temas e horários",
+   "title": "Horários e temas",
    "status": "warn",
-   "status_label": "Observar",
-   "diagnosis": "Opinião (51 posts) teve mediana de 13.748 views e Política (66 posts), 12.304. Bastidores e pessoal (2 posts) chegou a 40.846. Por horário, 21h (95.982), 18h (54.197) e 9h (48.258) lideram; 15h (1.442), 11h (2.674) e 12h (2.979) ficam no fim. Algumas faixas têm poucos posts.",
+   "status_label": "Ajustar",
+   "diagnosis": "Pela mediana de views, 21h (96.021), 18h (54.208), 9h (48.613) e 23h (48.186) foram as melhores horas, e 15h (1.443), 11h (2.675), 12h (2.979) e 22h (3.426) as piores. Por tema, Política (66 posts) teve mediana de 14.736 e Opinião (51) de 13.748; os 2 posts de Bastidores e pessoal chegaram a 40.857. Poucos posts por hora, então são tendências.",
    "actions": [
-    "Concentre os posts fortes em 9h, 18h e 21h.",
-    "Teste mais um conteúdo de bastidores para confirmar se o resultado se repete."
+    "Priorize 18h e 21h para o conteúdo de noite e evite 11h, 12h e 15h.",
+    "Teste mais um post de Bastidores e pessoal, que teve mediana alta com amostra pequena."
    ],
    "posts": [
-    "DeVAkiqtPwL",
     "DcfJMHasopg"
    ]
   }

@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-19T06:14:00-03:00",
+ "generated": "2026-10-20T06:11:15-03:00",
  "dias": 1,
  "period": {
-  "start": "2026-10-18",
-  "end": "2026-10-18"
+  "start": "2026-10-19",
+  "end": "2026-10-19"
  },
  "compare": "média dos 7 dias anteriores",
- "headline": "Domingo (18/10): a conta teve 634.917 views (+20% contra a média da semana), mas só 2 Reels foram publicados e comentários caíram 49%.",
+ "headline": "Segunda (19/10): sem nenhuma publicação nova, a conta teve 390.031 views (−25% contra a média dos 7 dias anteriores), 5.977 compartilhamentos e 497 comentários.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "635 mil",
-   "delta": "+20%",
-   "dir": "up"
+   "value": "390 mil",
+   "delta": "−25%",
+   "dir": "down"
   },
   {
    "label": "Novos seguidores",
@@ -28,21 +28,21 @@
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "7.310",
-   "delta": "−29%",
+   "value": "5.977",
+   "delta": "−38%",
    "dir": "down"
   },
   {
    "label": "Comentários recebidos",
-   "value": "527",
-   "delta": "−49%",
+   "value": "497",
+   "delta": "−47%",
    "dir": "down"
   },
   {
-   "label": "Alcance médio por dia",
-   "value": "288 mil",
-   "delta": "+24%",
-   "dir": "up"
+   "label": "Salvamentos",
+   "value": "614",
+   "delta": "−44%",
+   "dir": "down"
   }
  ],
  "cards": [
@@ -50,56 +50,45 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "O Reel \"VÍDEO FUNDAMENTAL!\" (9h45, 138 segundos) teve 23.336 views, 407 compartilhamentos, 52 comentários e 36 salvamentos, e foi o melhor post do dia. A conta teve alcance médio de 287.962 contas, 24% acima da média dos 7 dias anteriores.",
+   "diagnosis": "Mesmo sem publicação no dia, a conta recebeu 390.031 views, 27.799 curtidas e 614 salvamentos, vindos de posts publicados nos dias anteriores. O alcance médio foi de 193.706 contas, e 27.656 contas interagiram.",
    "actions": [
-    "Repita o horário da manhã (9h45) para o Reel mais forte do dia.",
-    "Releia esse vídeo e veja o que gerou 407 compartilhamentos para reaproveitar o tema.",
-    "Responda os 52 comentários nas primeiras horas."
+    "Mantenha o ritmo de publicação dos dias anteriores, porque são esses posts que seguem entregando views.",
+    "Reaproveite nos stories o post mais forte da semana para manter a audiência ativa em dia sem post."
    ],
-   "posts": [
-    "DeotTkCtFuc"
-   ]
+   "posts": []
   },
   {
    "title": "O que não funcionou",
    "status": "bad",
    "status_label": "Atenção",
-   "diagnosis": "Compartilhamentos caíram 29% (7.310), comentários 49% (527) e salvamentos 25% (883) contra a média da semana anterior. O Reel \"Siga e\" (20h53) tinha 11.891 views, 2 compartilhamentos e 5 comentários com 8,4 horas de vida, e ainda pode acumular.",
+   "diagnosis": "Nenhum post foi publicado em 19/10, e todas as métricas ficaram abaixo da média dos 7 dias anteriores: views −25%, compartilhamentos −38%, comentários −47% e salvamentos −44%. A queda de comentários foi a maior entre as quatro.",
    "actions": [
-    "Reels com chamada só para seguir geram pouca conversa; abra com um fato ou uma pergunta.",
-    "Acompanhe esse Reel amanhã antes de tirar conclusões."
+    "Evite dia sem publicação durante a semana: programe ao menos um post por dia.",
+    "Deixe um post de opinião pronto na véspera para cobrir dias de pouco tempo."
    ],
-   "posts": [
-    "Dep6Cp9sR_3"
-   ]
+   "posts": []
   },
   {
-   "title": "Poucos posts no dia",
+   "title": "Interação",
    "status": "warn",
    "status_label": "Ajustar",
-   "diagnosis": "Foram só 2 publicações, ambas Reels, somando 35.227 views, enquanto a conta recebeu 634.917. Nenhuma imagem foi publicada, e nos últimos 30 dias as imagens tiveram mediana de 44.532 views contra 12.718 dos Reels.",
+   "diagnosis": "Comentários caíram 47% (497) e a interação por conta caiu 29% (27.656 contas com interação, contra a média da semana). Sem post novo, quase não há o que comentar.",
    "actions": [
-    "Publique ao menos uma imagem forte na manhã de domingo.",
-    "Distribua os posts em mais de dois horários."
+    "Publique cedo uma imagem de opinião com pergunta no título para abrir o dia com conversa.",
+    "Responda os comentários mais recentes para manter a conversa nos posts anteriores."
    ],
-   "posts": [
-    "DeotTkCtFuc",
-    "Dep6Cp9sR_3"
-   ]
+   "posts": []
   },
   {
-   "title": "Horários",
+   "title": "Alcance",
    "status": "warn",
-   "status_label": "Observar",
-   "diagnosis": "O post das 9h teve 23.336 views e o das 20h, 11.891. A diferença coincidiu com idades diferentes: o primeiro tinha 19,5 horas e o segundo 8,4, então ainda não dá para comparar.",
+   "status_label": "Ajustar",
+   "diagnosis": "O alcance médio do dia foi de 193.706 contas, 14% abaixo da média da semana anterior. A queda de alcance foi menor que a de views, o que indica que a audiência segue chegando, mas vendo menos conteúdo.",
    "actions": [
-    "Compare os dois posts de novo amanhã, já com idade parecida.",
-    "Teste uma imagem às 7h no próximo domingo."
+    "Acompanhe amanhã se o alcance volta à média com a retomada das publicações.",
+    "Prefira Reels e imagens de opinião no próximo dia útil, formatos que lideraram a semana passada."
    ],
-   "posts": [
-    "DeotTkCtFuc",
-    "Dep6Cp9sR_3"
-   ]
+   "posts": []
   }
  ]
 }

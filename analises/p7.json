@@ -1,48 +1,48 @@
 {
- "generated": "2026-10-19T06:14:00-03:00",
+ "generated": "2026-10-20T06:11:15-03:00",
  "dias": 7,
  "period": {
-  "start": "2026-10-12",
-  "end": "2026-10-18"
+  "start": "2026-10-13",
+  "end": "2026-10-19"
  },
- "compare": "2026-10-05 a 2026-10-11",
- "headline": "Na semana, a conta teve 3,7 mi de views (−40% contra a semana anterior); os Reels tiveram mediana de 62.133 views contra 7.470 das imagens.",
+ "compare": "2026-10-06 a 2026-10-12",
+ "headline": "Na semana de 13 a 19/10, a conta teve 3,51 mi de views (−4%), mas os comentários subiram 61% (6.474) e os novos seguidores 12% (3.073); os Reels tiveram mediana de 33.516 views contra 8.863 das imagens.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "3,7 mi",
-   "delta": "−40%",
+   "value": "3,51 mi",
+   "delta": "−4%",
    "dir": "down"
   },
   {
    "label": "Novos seguidores",
-   "value": "3.153",
-   "delta": "−24%",
-   "dir": "down"
+   "value": "3.073",
+   "delta": "+12%",
+   "dir": "up"
   },
   {
    "label": "Deixaram de seguir",
-   "value": "138",
-   "delta": "−7%",
+   "value": "134",
+   "delta": "−11%",
    "dir": "up"
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "67 mil",
-   "delta": "−51%",
+   "value": "60 mil",
+   "delta": "−11%",
    "dir": "down"
   },
   {
    "label": "Comentários recebidos",
-   "value": "6.580",
-   "delta": "−32%",
-   "dir": "down"
+   "value": "6.474",
+   "delta": "+61%",
+   "dir": "up"
   },
   {
-   "label": "Salvamentos recebidos",
-   "value": "7.690",
-   "delta": "−52%",
-   "dir": "down"
+   "label": "Contas com interação por dia",
+   "value": "37.212",
+   "delta": "+30%",
+   "dir": "up"
   }
  ],
  "cards": [
@@ -50,25 +50,26 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "Os 8 Reels tiveram mediana de 62.133 views, contra 7.470 dos 13 posts de imagem. O Reel \"Hispanic Heritage Gala 2026\" (qua, 21h36) chegou a 313.791 views e 2.963 compartilhamentos. \"Inacreditável!\" (seg, 19h) teve 201.596 views, 14.589 compartilhamentos e 260 comentários.",
+   "diagnosis": "Os Reels da noite lideraram: \"Hispanic Heritage Gala 2026\" (qua, 21h36, 51,6s) teve 320.475 views e 2.979 compartilhamentos, e \"Complete a frase\" (sex, 18h29, 40,8s) teve 209.887 views e 85 comentários. Entre os 7 Reels da semana, a mediana foi de 33.516 views, contra 8.863 das 9 imagens. A imagem \"ANISTIA PARA CRIMINOSO?\" (ter, 21h) teve 110.344 views e 99 comentários.",
    "actions": [
-    "Mantenha ao menos 1 Reel por dia sobre o assunto mais comentado.",
-    "Repita o formato de \"Inacreditável!\": título curto e reação direta."
+    "Publique um Reel por dia entre 18h e 21h30, faixa dos melhores resultados da semana.",
+    "Use 21h para imagem de opinião com pergunta no título.",
+    "Repita o formato de reação direta a um fato, como \"Hispanic Heritage Gala\", que levou 2.979 compartilhamentos."
    ],
    "posts": [
     "DefrVOZMUGw",
-    "DeaQZPRNABT",
-    "DekfWuXNS39"
+    "DekfWuXNS39",
+    "DedCyqss4O6"
    ]
   },
   {
    "title": "O que não funcionou",
    "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "Todos os indicadores caíram: compartilhamentos 51%, salvamentos 52% e comentários 32%. Os piores posts foram \"O PROFESSOR É UMA AMEAÇA!\" (772 views), a imagem sobre a Globo (1.626) e a imagem sobre o papa Leão XIV (2.028, mas com 22 comentários).",
+   "status_label": "Evitar",
+   "diagnosis": "Os piores posts foram \"O PROFESSOR É UMA AMEAÇA!\" (Reel, qui, 18h41), com 781 views, \"A Globo demitiu o diretor-geral\" (imagem, sex, 8h15), com 1.703, e \"O papa Leão XIV será operado\" (imagem, ter, 12h), com 2.052. Os dois últimos são imagens de notícia sem opinião própria. Posts mais recentes ainda acumulam views, então vale conferir de novo em alguns dias.",
    "actions": [
-    "Evite imagens de notícia de fim de manhã sem gancho; as duas piores imagens saíram às 8h15 e às 12h.",
-    "Cheque o título do Reel do professor: 41% pularam, e ele teve só 1 compartilhamento."
+    "Evite repassar notícia sem opinião, como os posts da Globo e do papa, ambos abaixo de 2,1 mil views.",
+    "Reveja o roteiro de Reels de 45s sobre pessoas, como o do professor: só 10 segundos foram assistidos em média."
    ],
    "posts": [
     "Deh8WzvtR28",
@@ -77,33 +78,33 @@
    ]
   },
   {
-   "title": "Seguidores",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "A conta ganhou 3.153 novos seguidores (−24%) e 138 saíram (−7%); só 6 dos 7 dias têm dado de seguidores. Os posts que mais trouxeram seguidores foram imagens de Opinião: o do túmulo de Olavo de Carvalho (sáb, 10h48) com 73 e \"Você conhece alguém que prometeu acabar com SIGILOS?\" com 26.",
+   "title": "Comentários e seguidores",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os comentários chegaram a 6.474 (+61%) e os novos seguidores a 3.073 (+12%, com 6 dos 7 dias com dado). A imagem sobre o túmulo do professor Olavo (sáb, 10h48) trouxe 85 seguidores com 47.066 views, e \"Você conhece alguém que prometeu acabar com SIGILOS?\" (qui, 21h) trouxe 26. O Reel \"Hispanic Heritage Gala - Washington DC\" (qua, 18h49, 166,5s) teve 216 comentários.",
    "actions": [
-    "Use imagens de Opinião com posicionamento claro para atrair seguidores.",
-    "Acrescente um convite curto para seguir nos posts que passam de 40 mil views."
+    "Repita imagens de opinião pessoal e de posição firme, que concentraram os seguidores da semana.",
+    "Feche posts de opinião com uma pergunta direta para estimular comentários."
    ],
    "posts": [
     "DemP7GNt_P7",
     "Deh_rUstC5a",
-    "DedCyqss4O6"
+    "DefYvipjdwR"
    ]
   },
   {
    "title": "Horários",
    "status": "warn",
-   "status_label": "Observar",
-   "diagnosis": "As medianas mais altas foram em 19h (116.647 views), 21h (100.933) e 18h (92.567). As mais baixas foram em 22h (3.329), 14h (4.208) e 12h (4.807). Há poucos posts por faixa e idades de 8 a 154 horas, então trate como pista.",
+   "status_label": "Ajustar",
+   "diagnosis": "Pela mediana de views por hora, 21h (110.344), 18h (93.632) e 10h (47.066) foram os melhores, e 12h (4.869), 8h (5.283) e 7h (7.062) os mais fracos. Cada horário tem poucos posts, então o dado indica tendência e não regra.",
    "actions": [
-    "Concentre os posts principais entre 18h e 21h.",
-    "Evite o horário de 12h a 14h para conteúdo importante."
+    "Mova para 18h a 21h os posts que você vinha soltando de manhã cedo e ao meio dia.",
+    "Teste uma imagem às 10h, que teve mediana de 47.066 views, antes de abandonar a manhã."
    ],
    "posts": [
-    "DeaQZPRNABT",
+    "DedCyqss4O6",
     "DefYvipjdwR",
-    "DedCyqss4O6"
+    "DemP7GNt_P7"
    ]
   }
  ]

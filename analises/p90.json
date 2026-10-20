@@ -1,48 +1,48 @@
 {
- "generated": "2026-10-19T06:14:00-03:00",
+ "generated": "2026-10-20T06:11:15-03:00",
  "dias": 90,
  "period": {
-  "start": "2026-07-21",
-  "end": "2026-10-18"
+  "start": "2026-07-22",
+  "end": "2026-10-19"
  },
- "compare": "2026-04-22 a 2026-07-20",
- "headline": "Em 90 dias a conta teve 36,8 mi de views e alcance médio de 140 mil contas por dia; imagens tiveram mediana de 27.747 views contra 10.253 dos Reels.",
+ "compare": "2026-04-23 a 2026-07-21",
+ "headline": "Nos últimos 90 dias, a conta teve 37,1 mi de views e 17.295 novos seguidores; as 55 imagens tiveram mediana de 27.881 views, contra 10.970 dos 111 Reels.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "36,8 mi",
-   "delta": "+3.464%",
-   "dir": "up"
+   "value": "37,1 mi",
+   "delta": "sem comparação",
+   "dir": "na"
   },
   {
    "label": "Novos seguidores",
-   "value": "16.787",
+   "value": "17.295",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Deixaram de seguir",
-   "value": "668",
+   "value": "690",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "457 mil",
+   "value": "462 mil",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Comentários recebidos",
-   "value": "29.883",
+   "value": "30,4 mil",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Alcance médio por dia",
-   "value": "140 mil",
-   "delta": "+519%",
-   "dir": "up"
+   "value": "142 mil",
+   "delta": "sem comparação",
+   "dir": "na"
   }
  ],
  "cards": [
@@ -50,10 +50,10 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "As 55 imagens tiveram mediana de 27.747 views e somaram 7.712 seguidores; os 113 Reels, mediana de 10.253. Os três maiores posts foram imagens de Opinião: \"Bem vindo a este manicômio chamado Brasil!\" (1.489.711 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.442.221 views e 1.409 seguidores) e \"Fica a reflexão.\" (1.039.563).",
+   "diagnosis": "As imagens de opinião dominaram: \"Bem vindo a este manicômio chamado Brasil!\" (1.489.771 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.442.239 views, 1.409 seguidores) e \"Fica a reflexão.\" (1.167.985). As imagens somaram 7.936 seguidores. Os 5 posts de Entrevista tiveram mediana de 88.374 views.",
    "actions": [
-    "Priorize imagens de Opinião com frase forte e visual direto.",
-    "Reaproveite o formato de \"uma imagem vale mais do que mil palavras\"."
+    "Mantenha imagens de opinião com uma frase forte como formato principal.",
+    "Publique mais conteúdo de Entrevista, tema com a maior mediana do período."
    ],
    "posts": [
     "DcGTcGzN_5i",
@@ -64,11 +64,11 @@
   {
    "title": "O que não funcionou",
    "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "Os piores posts foram Reels de Política publicados de manhã: \"Quase 18 anos no poder\" (473 views), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). Os 2 carrosséis tiveram mediana de 3.635 e Eventos e discursos (6 posts), 2.688.",
+   "status_label": "Evitar",
+   "diagnosis": "Os 111 Reels tiveram mediana de 10.970 views, bem abaixo das imagens, e os piores foram \"Quase 18 anos no poder\" (473 views), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). Os temas Eventos e discursos (6 posts, mediana de 2.689) e Bastidores e pessoal (7 posts, 5.295) ficaram abaixo de Opinião (15.141).",
    "actions": [
-    "Revise os Reels de Política de manhã: mude o gancho ou o horário.",
-    "Evite publicar eventos e discursos sem corte."
+    "Publique menos Reels e escolha só os com gancho forte nos primeiros segundos.",
+    "Evite posts de eventos e discursos sem uma frase de opinião no título."
    ],
    "posts": [
     "Db73S3ZBiej",
@@ -77,31 +77,31 @@
    ]
   },
   {
-   "title": "Temas",
+   "title": "Horários",
    "status": "warn",
-   "status_label": "Observar",
-   "diagnosis": "Entrevista (5 posts) teve mediana de 88.374 views, acima de Opinião (56 posts, 15.140) e de Política (95 posts, 10.969). Bastidores e pessoal (7 posts) ficou em 5.295. Entrevista tem poucos posts, então vale testar mais antes de decidir.",
+   "status_label": "Ajustar",
+   "diagnosis": "Pela mediana de views, 21h (103.183), 18h (54.208), 9h (52.953), 23h (48.186) e 17h (44.835) foram as melhores horas, e 15h (1.443), 1h (2.455), 12h (2.979) e 22h (3.459) as mais fracas. Várias horas têm poucos posts, então o dado mostra tendência.",
    "actions": [
-    "Publique mais 2 ou 3 trechos de entrevista no próximo mês.",
-    "Mantenha Opinião como base e Política com Reels mais curtos."
+    "Concentre os posts em 17h a 21h e em 9h.",
+    "Evite 12h, 15h e 22h, que ficaram abaixo de 3,5 mil views."
    ],
    "posts": [
-    "DbWUq-ltrx8",
     "DcGTcGzN_5i"
    ]
   },
   {
-   "title": "Horários e conversa",
+   "title": "Comentários e seguidores",
    "status": "warn",
-   "status_label": "Observar",
-   "diagnosis": "As maiores medianas foram em 21h (95.982 views), 18h (54.197) e 9h (52.245); as menores, 15h (1.442), 1h (2.455) e 12h (2.979). Em comentários, \"Qual número você escolheria?\" teve 488 e \"Responda nos comentários, só um nome!\", 355. Compartilhamentos, comentários e seguidores têm dado de apenas 42 dos 90 dias, e o período anterior tem 12 dias de views, então a comparação de views (+3.464%) está inflada.",
+   "status_label": "Ajustar",
+   "diagnosis": "Os dados de comentários (30.380), compartilhamentos e seguidores cobrem 43 dos 90 dias e não existem no período anterior, por isso não há comparação. Os posts com mais comentários foram \"Qual número você escolheria?\" (488), \"Responda nos comentários, só um nome!\" (355, com 57 seguidores) e o Reel \"Inacreditável!\" (262).",
    "actions": [
-    "Prefira publicar entre 18h e 21h e às 9h.",
-    "Use perguntas diretas, como as duas acima, para gerar comentários."
+    "Repita a chamada direta para comentar, que apareceu nos três posts mais comentados.",
+    "Acompanhe seguidores e saídas por mais semanas para formar uma base de comparação."
    ],
    "posts": [
     "DdumKq_tAX_",
-    "DcfJMHasopg"
+    "DcfJMHasopg",
+    "DeaQZPRNABT"
    ]
   }
  ]
