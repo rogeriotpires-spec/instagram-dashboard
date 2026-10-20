@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-21",
+  "weekday": "Qua",
+  "generated": "2026-10-20T20:06:42-03:00",
+  "summary": "Quarta a quatro dias do segundo turno: o Orçamento de 2027 mostra o governo admitindo que terá de rever R$ 53,7 bilhões em despesas até 2030, a Bolsa fecha perto dos 208 mil pontos com Flávio à frente nas pesquisas e o vídeo de Nikolas sobre o Nordeste passa de 70 milhões de visualizações e fica sem áudio.",
+  "agenda": [
+    {
+      "time": "21h30",
+      "text": "Palmeiras x Fluminense, jogo de volta da semifinal da Libertadores, no Nubank Parque. O Palmeiras venceu a ida por 1 a 0.",
+      "source": {
+        "name": "DGABC",
+        "url": "https://www.dgabc.com.br/Noticia/4352500/fluminense-x-palmeiras-pela-libertadores-veja-onde-assistir-e-as-provaveis-escalacoes"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "Tribuna PR",
+        "url": "https://www.tribunapr.com.br/noticias/brasil/5-dias-segundo-turno-pesquisa-mostra-flavio-bolsonaro-4-pontos-frente-lula/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de até 30s com a frase mais forte no início",
+      "options": [
+        {
+          "title": "Governo Lula admite que terá de rever R$ 53,7 bilhões em despesas até 2030",
+          "tone": "contundente",
+          "duration": "20 a 30s",
+          "fact": "O governo informou ao Congresso, no projeto do Orçamento de 2027, que precisará rever cerca de R$ 53,7 bilhões em despesas entre 2028 e 2030 para cumprir o limite de gastos do arcabouço fiscal: R$ 15,8 bilhões em 2028, R$ 14,9 bilhões em 2029 e R$ 23 bilhões em 2030. Em 2028, seriam necessários R$ 224,2 bilhões para manter as políticas atuais, mas o espaço fiscal é de R$ 208,4 bilhões. Os cálculos não incluem um reforço de R$ 9,9 bilhões para o mínimo da saúde em 2028 e 2029. O próprio governo chama o quadro de contido e estável, abaixo de 1% do limite de gastos a cada ano.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/governo-admite-que-tera-de-rever-53-7-bi-em-despesas-para-cumprir-limite-fiscal/"
+            },
+            {
+              "name": "Tribuna PR",
+              "url": "https://www.tribunapr.com.br/noticias/economia/governo-preve-corte-de-r-537-bilhoes-em-gastos-ate-2030/"
+            }
+          ],
+          "hooks": [
+            "O governo Lula já avisou: vai faltar dinheiro a partir de 2028.",
+            "R$ 53,7 bilhões para rever. Quem vai pagar essa conta?"
+          ],
+          "script": "O governo Lula já avisou o Congresso: vai faltar dinheiro. No projeto do Orçamento de 2027, o próprio governo admite que terá de rever 53 bilhões e 700 milhões de reais em despesas entre 2028 e 2030 só para caber no limite de gastos. São quase 16 bilhões em 2028, 15 bilhões em 2029 e 23 bilhões em 2030. E isso sem contar quase 10 bilhões a mais que a saúde vai exigir. O governo diz que é pouco. Mas é a conta de quem prometeu benefício atrás de benefício em ano de eleição. Quem paga é o seu bolso. Você acha que o brasileiro aguenta mais gasto sem corte? Responde sim ou não.",
+          "screen_text": [
+            "Vai faltar dinheiro",
+            "R$ 53,7 bilhões a rever até 2030",
+            "2028: R$ 15,8 bi",
+            "Quem paga a conta?"
+          ],
+          "caption": "O próprio governo Lula admite no Orçamento de 2027 que terá de rever R$ 53,7 bilhões em despesas até 2030. Sem corte de gasto, quem paga é o contribuinte. Você acha que o governo precisa cortar gastos? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Diga \"rever despesas\" e \"necessidade\", não \"rombo\" ou \"calote\": o número é estimativa do próprio governo e o texto oficial fala em quadro contido, abaixo de 1% do limite. Não misture com o pacote de bondades de ano eleitoral como fato, só como leitura.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que o Orçamento de 2027 revela: R$ 53,7 bilhões a rever até 2030, o peso da previdência (22,8% de alta contra 8% dos gastos livres) e o que isso significa para o próximo presidente."
+          }
+        },
+        {
+          "title": "Ibovespa fecha em 208 mil pontos e dólar cai com Flávio à frente nas pesquisas",
+          "tone": "direto, com ironia leve",
+          "duration": "20 a 30s",
+          "fact": "Em 20/10, o Ibovespa subiu 1,57% e fechou aos 208.295,98 pontos, o nível mais alto desde 9/10, quando bateu recorde histórico. O índice chegou a 208.941 pontos à tarde. O dólar caiu forte e os juros futuros fecharam em queda. Analista da Daycoval atribui a alta às pesquisas que mostram Flávio Bolsonaro à frente, como a Real Time Big Data (52% a 48% nos votos válidos). Outro analista, da AGF, vê empate técnico com ligeira vantagem de Flávio e volatilidade no trade eleitoral.",
+          "sources": [
+            {
+              "name": "DGABC",
+              "url": "https://www.dgabc.com.br/Noticia/4353859/ibovespa-tem-2-melhor-marca-apos-1-turno-com-alivio-externo-e-trade-eleitoral"
+            },
+            {
+              "name": "ACM Notícias",
+              "url": "https://acmnoticias.com.br/o-mercado-vota-ibovespa-fecha-acima-dos-208-mil-pontos-impulsionado-por-pesquisa-que-aponta-flavio-bolsonaro-com-52-dos-votos-validos/"
+            }
+          ],
+          "hooks": [
+            "Bolsa a 208 mil pontos e dólar em queda. O mercado já escolheu?",
+            "Cinco dias da eleição e o mercado comemora."
+          ],
+          "script": "A Bolsa subiu mais de 1,5% e fechou em 208 mil pontos, o melhor nível desde o recorde de 9 de outubro. O dólar caiu forte e os juros futuros também. O motivo, segundo um analista da Daycoval, são as pesquisas com Flávio Bolsonaro na frente. Quem investe olha para o bolso do brasileiro: dólar mais barato é comida mais barata e juro menor é crédito mais barato. Faltam cinco dias. O voto decide, não a Bolsa. Mas quando o dinheiro fala, vale ouvir. Você acha que a economia vai pesar no seu voto domingo? Responde sim ou não.",
+          "screen_text": [
+            "Ibovespa: 208 mil pontos",
+            "Dólar em queda",
+            "Melhor nível desde 9/10",
+            "Faltam 5 dias"
+          ],
+          "caption": "A Bolsa fechou em 208 mil pontos e o dólar caiu forte depois das pesquisas com Flávio à frente. A economia vai pesar no seu voto domingo? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não prometa nem preveja resultado: Bolsa não vota e a alta perdeu fôlego no fim do pregão. Atribua a explicação ao analista, uma vez. Confira o fechamento do dia 21 antes de gravar, pois o mercado pode inverter.",
+          "timeline": {
+            "rende": true,
+            "angle": "O mercado olha o segundo turno: o que a queda do dólar e dos juros futuros significa para o crédito, os preços e o bolso do eleitor, com cuidado para não tratar pesquisa como resultado."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Enquete sobre o 2º turno",
+      "options": [
+        {
+          "title": "Vídeo de Nikolas sobre o Nordeste passa de 70 milhões de visualizações e fica sem áudio",
+          "tone": "direto",
+          "style": "print",
+          "fact": "O vídeo \"O Nordeste que foi esquecido\", de Nikolas Ferreira, com depoimentos de nordestinos que criticam o governo Lula, publicado ao meio-dia de 20/10 no Instagram, passou de 70 milhões de visualizações e perdeu o áudio ao longo da tarde. Nikolas atribui o problema a direitos autorais da música usada e disse que a Sony foi acionada pelo cantor Rubel. Até a publicação das matérias, Rubel, Sony e Meta não haviam se manifestado, e a causa não foi confirmada. Aliados de Flávio cobraram explicação.",
+          "sources": [
+            {
+              "name": "O Tempo",
+              "url": "https://www.otempo.com.br/eleicoes/2026/2026/10/20/video-de-nikolas-ferreira-sobre-o-nordeste-fica-sem-audio-e-deputado-fala-em-direitos-autorais"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/tropa-do-flavio-cobra-rubel-apos-video-de-nikolas-perder-audio/"
+            }
+          ],
+          "slides": [
+            "O vídeo do Nordeste passou de 70 milhões de visualizações",
+            "Perdeu o áudio horas depois de publicado",
+            "Nikolas fala em direitos autorais e pede: liberem o áudio",
+            "Rubel, Sony e Meta ainda não se manifestaram",
+            "Vote na enquete e mande sua opinião no direct"
+          ],
+          "poll": {
+            "question": "O Nordeste vai ser ouvido nas urnas no domingo?",
+            "options": [
+              "Sim",
+              "Não"
+            ]
+          },
+          "caption": "O vídeo de Nikolas com relatos de nordestinos passou de 70 milhões de visualizações e ficou sem áudio. A causa ainda não foi confirmada. Vote: o Nordeste vai ser ouvido nas urnas domingo?",
+          "risk": "médio",
+          "risk_note": "A causa do silêncio NÃO está confirmada: não afirme censura nem acuse Rubel, Sony ou Meta. Escreva \"fica sem áudio\" e \"segundo Nikolas, direitos autorais\". Confira se o áudio já foi liberado antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "O vídeo que parou o Nordeste: 70 milhões de visualizações, os depoimentos e a disputa sobre o áudio, com a explicação de direitos autorais e o que ainda não foi esclarecido."
+          }
+        },
+        {
+          "title": "Douglas Ruas oficializa a equipe de transição do governo do Rio",
+          "tone": "sóbrio",
+          "style": "print",
+          "desdobramento": "a equipe de transição de Douglas Ruas foi publicada no Diário Oficial em 19/10, fato novo que não estava nas pautas anteriores sobre a eleição do Rio.",
+          "fact": "O Diário Oficial de 19/10 publicou a equipe de transição do governador eleito do Rio, Douglas Ruas (PL). A coordenação é de Maria Gabriela Bessa, atual secretária estadual das Cidades, e o grupo conta com Bruno Bonetti, presidente do PL no Rio, Fábio Araujo e Anderson Monteze. A equipe vai levantar dados da administração, avaliar as principais necessidades do estado e organizar as primeiras decisões do novo governo. A posse está marcada para 6 de janeiro de 2027, no Palácio Guanabara. A Revista Oeste informa que Ruas chegou ao cargo depois da recontagem aprovada pelo TRE-RJ, com 50,88% dos votos válidos.",
+          "sources": [
+            {
+              "name": "Revista Oeste",
+              "url": "https://revistaoeste.com/politica/douglas-ruas-oficializa-equipe-de-transicao-para-o-proximo-governo-do-rio/"
+            },
+            {
+              "name": "Agenda do Poder",
+              "url": "https://agendadopoder.com.br/diario-oficial-publica-transicao-do-governador-eleito-douglas-ruas/"
+            }
+          ],
+          "slides": [
+            "O governo Ruas começa a ser montado",
+            "Equipe de transição já está no Diário Oficial",
+            "Posse: 6 de janeiro de 2027, no Palácio Guanabara",
+            "Qual deve ser a prioridade do novo governo? Vote"
+          ],
+          "poll": {
+            "question": "Qual deve ser a primeira prioridade do governo Ruas?",
+            "options": [
+              "Segurança pública",
+              "Saúde",
+              "Economia e emprego"
+            ]
+          },
+          "caption": "A equipe de transição de Douglas Ruas foi oficializada. O Rio já pensa no dia 6 de janeiro. Qual deve ser a prioridade do novo governo? Vote na enquete.",
+          "risk": "baixo",
+          "risk_note": "Fale em \"governador eleito\" e \"transição\"; não cite nomes de secretários, pois nenhum foi anunciado. Não reabra a disputa jurídica sobre os votos de Garotinho, que está em análise no STF.",
+          "timeline": {
+            "rende": false,
+            "angle": "Fato administrativo sem tese nem conflito para sustentar 600 a 1.200 palavras; vale só como enquete."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
