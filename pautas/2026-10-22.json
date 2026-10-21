@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-22",
+  "weekday": "Qui",
+  "generated": "2026-10-21T20:20:00-03:00",
+  "summary": "Quinta a três dias do segundo turno: Flávio respondeu ao desafio dos sigilos com um pedido ao TSE para que Lula também abra os dados de Marcola, do Instituto Lula, do cartão corporativo e de Janja, e a campanha de Lula já fala em aceitar. Lula segue prometendo passe livre aos fins de semana, proposta de R$ 16 bilhões por ano que não estava no programa registrado. Na sexta, às 21h20, é o debate da Globo.",
+  "agenda": [
+    {
+      "time": "22/10",
+      "text": "Reta final da campanha: Flávio e Lula seguem com agenda de rua e a disputa dos sigilos no TSE, sob relatoria do ministro André Mendonça.",
+      "source": {
+        "name": "Revista Oeste",
+        "url": "https://revistaoeste.com/politica/flavio-aceita-desafio-de-lula-e-autoriza-abertura-de-sigilos/"
+      }
+    },
+    {
+      "time": "23/10 21h20",
+      "text": "Debate Lula x Flávio na TV Globo, nos Estúdios Globo, no Rio, com mediação de César Tralli. É o último debate antes da votação.",
+      "source": {
+        "name": "DGABC",
+        "url": "https://www.dgabc.com.br/Noticia/4353569/ultimo-debate-do-2-turno-reunira-lula-e-flavio-bolsonaro-na-tv-globo-veja-quando-sera"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-impoe-condicoes-para-aceitar-desafio-de-lula-sobre-sigilo/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "21h",
+      "type": "i",
+      "kind": "Imagem com pergunta provocativa",
+      "options": [
+        {
+          "title": "Flávio aceita abrir sigilos de 20 anos e pede que Lula abra Marcola e Instituto Lula",
+          "tone": "contundente",
+          "style": "ilustracao",
+          "desdobramento": "Em 21/10, Flávio protocolou no TSE a autorização para abrir os próprios sigilos e condicionou a abertura aos dados de Lula, fato novo em relação ao desafio de Lula pautado em 20/10.",
+          "fact": "Em 21/10, Flávio Bolsonaro (PL) protocolou no TSE uma autorização para abrir os sigilos bancário, fiscal e telefônico dos últimos 20 anos, incluindo familiares citados por Lula e quatro empresas das quais é sócio ou administrador, e disse não se opor à divulgação de todas as mensagens que trocou com Daniel Vorcaro. Em contrapartida, pede que Lula apresente autorizações e dados do ex-chefe de gabinete Marco Aurélio Santana Ribeiro (Marcola), do Instituto Lula, de empresas dos filhos, de Frei Chico e do sindicato que ele lidera, além dos gastos do cartão corporativo da Presidência desde janeiro de 2023 e da agenda de Janja. Lula havia proposto abrir os sigilos dele e de familiares dos últimos oito anos se Flávio fizesse o mesmo. O pedido é dirigido ao ministro André Mendonça, e os dados só serão entregues quando as condições forem cumpridas.",
+          "sources": [
+            {
+              "name": "Revista Oeste",
+              "url": "https://revistaoeste.com/politica/flavio-aceita-desafio-de-lula-e-autoriza-abertura-de-sigilos/"
+            },
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-impoe-condicoes-para-aceitar-desafio-de-lula-sobre-sigilo/"
+            }
+          ],
+          "art_text": [
+            "Flávio abre 20 anos de sigilo",
+            "E o Instituto Lula?",
+            "Lula aceita abrir tudo? Sim ou não?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Flávio Bolsonaro (PL) e Lula (PT), os dois lados do desafio dos sigilos, em ilustração de charge, sem foto real. Risco baixo: aparecem frente a frente com pastas de documentos, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Flávio Bolsonaro (candidato do PL, terno escuro) de pé, com uma pasta aberta sobre a mesa e a mão estendida para frente, expressão firme, e em frente a ele Lula (candidato do PT, cabelo e barba grisalhos, terno escuro), de braços cruzados, olhando de lado. Sobre a mesa, duas pilhas de documentos, uma com a etiqueta 'Instituto Lula'. Ao fundo, a fachada estilizada do prédio do TSE. No alto, em branco, letras condensadas e muito pesadas: \"Flávio abre 20 anos de sigilo\". Em um quadro amarelo no meio: \"E o Instituto Lula?\". Embaixo, em branco com sublinhado vermelho pincelado: \"Lula aceita abrir tudo? Sim ou não?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Flávio protocolou no TSE a abertura de 20 anos de sigilo bancário, fiscal e telefônico e pediu que Lula abra também Marcola, o Instituto Lula e os cartões corporativos. Lula vai abrir tudo antes do domingo? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A autorização de Flávio é condicional e os dados ainda não são públicos; não escreva que ele já abriu. Não afirme irregularidade de Lula, de Marcola ou de familiares. Confira a resposta de Lula e o despacho de Mendonça antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "O desafio dos sigilos: o que cada lado propôs, o que cada lista de condições inclui, quem decide no TSE e o que pesa para o eleitor a três dias do segundo turno."
+          }
+        },
+        {
+          "title": "Lula promete passe livre aos fins de semana, proposta de R$ 16 bi por ano fora do programa de governo",
+          "tone": "irônico",
+          "style": "realista",
+          "fact": "Em 15/10, Lula anunciou que enviará ao Congresso uma PEC garantindo transporte público gratuito aos fins de semana em todas as cidades com transporte coletivo, e sugeriu usar emendas parlamentares para custear. A estimativa do deputado Jilmar Tatto (PT-SP) é de cerca de R$ 16 bilhões por ano, o equivalente a 26% dos R$ 61 bilhões de emendas previstos para 2026. Lula não detalhou as fontes nem como garantiria o financiamento permanente. A proposta não constava do programa de governo registrado em agosto. Para valer, a PEC precisa de 308 votos na Câmara e 49 no Senado, em dois turnos em cada Casa. Segundo Tatto, o fim de semana seria a primeira etapa de uma tarifa zero integral.",
+          "sources": [
+            {
+              "name": "Congresso em Foco",
+              "url": "https://www.congressoemfoco.com.br/noticia/123316/lula-propoe-usar-emendas-para-financiar-tarifa-zero-aos-fins-de-semana"
+            }
+          ],
+          "art_text": [
+            "Passe livre no fim de semana",
+            "R$ 16 bilhões por ano",
+            "Quem paga essa conta?",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Ponto de ônibus ao entardecer, ônibus parado com a porta aberta, pessoas só de costas e em silhueta. Não use foto de político.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz de fim de tarde, granulação leve. Um ponto de ônibus de uma avenida brasileira, com um ônibus urbano parado de porta aberta e algumas pessoas de costas, em silhueta, esperando, sem rostos visíveis; o ônibus sem nenhuma inscrição ou logo. No alto, sobre faixa escura semitransparente, em branco, letras grandes e muito pesadas: \"Passe livre no fim de semana\". No terço inferior, número de destaque em amarelo: \"R$ 16 bilhões por ano\" e, logo abaixo, em branco com sublinhado vermelho: \"Quem paga essa conta?\". No canto inferior direito, em letras pequenas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A proposta de passe livre aos fins de semana custaria cerca de R$ 16 bilhões por ano, segundo o deputado do PT que a estimou, e não estava no programa de governo registrado em agosto. Você acha que o Congresso aprovaria essa PEC? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "O valor de R$ 16 bi é estimativa do deputado Jilmar Tatto (PT-SP), não do governo; atribua. Há relatos divergentes de custo (R$ 8 a 12 bi) e não confirmei o envio formal da PEC: escreva \"anunciou que enviará\". Não afirme compra de voto.",
+          "timeline": {
+            "rende": false,
+            "angle": "Já tratada em pautas de economia eleitoral recentes; sem fato novo para 600 palavras."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Caixa de pergunta: o que você quer saber?",
+      "options": [
+        {
+          "title": "Debate da Globo é sexta às 21h20: o que você quer perguntar a Lula e a Flávio?",
+          "tone": "direto",
+          "style": "print",
+          "duration": "stories",
+          "fact": "O último debate do segundo turno entre Lula (PT) e Flávio Bolsonaro (PL) será na sexta (23/10), a partir das 21h20, na TV Globo, nos Estúdios Globo, no Rio, com mediação de César Tralli. Os dois candidatos votam no domingo (25/10).",
+          "sources": [
+            {
+              "name": "DGABC",
+              "url": "https://www.dgabc.com.br/Noticia/4353569/ultimo-debate-do-2-turno-reunira-lula-e-flavio-bolsonaro-na-tv-globo-veja-quando-sera"
+            }
+          ],
+          "slides": [
+            "Sexta, 21h20: debate da Globo entre Lula e Flávio",
+            "É o último debate antes da votação de domingo",
+            "Mediação de César Tralli, nos Estúdios Globo, no Rio",
+            "Caixa de pergunta: o que você quer ver cobrado no debate?",
+            "Mande sua pergunta e compartilhe com quem ainda não decidiu"
+          ],
+          "poll": {
+            "question": "O que você quer perguntar a Lula e a Flávio no debate da Globo?",
+            "options": [
+              "Responder na caixa de perguntas"
+            ]
+          },
+          "caption": "Sexta, às 21h20, é o último debate antes da urna. Qual pergunta você faria? Mande na caixa de perguntas.",
+          "risk": "baixo",
+          "risk_note": "Não prometa que as perguntas serão feitas no debate. Confirme horário e regras no dia, pois a Globo ainda ajustava o formato.",
+          "timeline": {
+            "rende": false,
+            "angle": "Debate ainda não aconteceu; vale artigo só depois, com a análise do que foi dito."
+          },
+          "desdobramento": "o debate da Globo, marcado para sexta (23/10) às 21h20, é um segundo debate novo, com data e mediador definidos; a pauta de 19/10 tratava do debate da Band, já realizado."
+        },
+        {
+          "title": "Pedido de CPMI sobre Lulinha e Luchsinger começa a coletar assinaturas no Congresso",
+          "tone": "sóbrio",
+          "style": "print",
+          "duration": "stories",
+          "desdobramento": "Em 19/10, a senadora Damares Alves e a deputada Coronel Fernanda abriram a coleta de assinaturas para instalar a CPMI, fato novo em relação à pauta de 18/10 sobre a delação de Luchsinger.",
+          "fact": "Em 19/10, a senadora Damares Alves (Republicanos-DF), em parceria com a deputada Coronel Fernanda (PL-MT), passou a coletar assinaturas para instalar uma CPMI sobre Roberta Luchsinger e Lulinha. São necessárias assinaturas de 171 deputados e 27 senadores, um terço de cada Casa. A defesa de Lulinha nega irregularidades. Luchsinger nega sociedade oculta com o filho do presidente e confirmou à PF que o apresentou ao \"Careca do INSS\", sem finalidade comercial. O Planalto nega contratos com ela, e Lula diz que não a conhece pessoalmente.",
+          "sources": [
+            {
+              "name": "Congresso em Foco",
+              "url": "https://www.congressoemfoco.com.br/noticia/123396/damares-busca-assinaturas-para-instalar-cpmi-sobre-roberta-luchsinger"
+            }
+          ],
+          "slides": [
+            "Damares e Coronel Fernanda coletam assinaturas para a CPMI",
+            "Mínimo: 171 deputados e 27 senadores",
+            "O alvo: Roberta Luchsinger e Lulinha",
+            "A defesa de Lulinha nega irregularidades",
+            "Vote na enquete e mande sua opinião no direct"
+          ],
+          "poll": {
+            "question": "A CPMI de Lulinha e Luchsinger deve ser instalada?",
+            "options": [
+              "Sim",
+              "Não"
+            ]
+          },
+          "caption": "Começou a coleta de assinaturas para a CPMI sobre Lulinha e Luchsinger: são 171 deputados e 27 senadores. Você quer a CPMI instalada? Vote.",
+          "risk": "médio",
+          "risk_note": "Não afirme crime: Lulinha e Luchsinger negam irregularidades e são investigados, não condenados. Confira a contagem atual de assinaturas antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "O caminho da CPMI: quórum exigido, quem assina, o que já foi dito à PF e o que depende de Alcolumbre."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
