@@ -1,6 +1,97 @@
 {
  "items": [
   {
+   "requested": "2026-10-21",
+   "done": "2026-10-21T13:17:00-03:00",
+   "issue": 86,
+   "slot_hint": "Imagem hoje (21) às 18h e reel amanhã (22) às 12h.",
+   "source": {
+    "edition": "programa/2026-10-21",
+    "item_id": "stf-eleicao-confianca",
+    "title": "Ministros do STF temem o resultado da eleição, e Flávio diz que Lula divide o poder com Moraes"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Desconfiança no STF chega a 43%, o maior nível do Datafolha desde 2012",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Pesquisa Datafolha de 3 a 5 de março de 2026 (2.004 entrevistados, margem de 2 pontos) mostra que 43% não confiam no STF, o maior nível desde 2012 (eram 38% em dezembro de 2024), e só 16% confiam muito. Na mesma pesquisa, 79% discordam de ministro julgar caso de cliente de parente, 78% rejeitam ministro sócio de empresa e 76% rejeitam pagamento por palestras de instituições privadas. Em 12 de fevereiro, Dias Toffoli deixou a relatoria do caso Banco Master depois de reunião dos ministros com o presidente do STF, Edson Fachin; os dez ministros assinaram nota dizendo não haver suspeição ou impedimento e aceitaram a redistribuição por altos interesses institucionais. A PF encontrou menções ligadas ao resort Tayayá, em que uma empresa dos irmãos de Toffoli tinha pouco mais de 30% até 2025. Toffoli não foi condenado nem denunciado por esses fatos. Em 15 de setembro, Flávio Bolsonaro (PL) disse que o governo Lula governa ao lado de parte do STF que descumpriu a lei.",
+     "sources": [
+      {
+       "name": "Poder360 (Datafolha sobre o STF)",
+       "url": "https://www.poder360.com.br/poder-pesquisas/desconfianca-no-stf-atinge-43-maior-nivel-desde-2012/"
+      },
+      {
+       "name": "Congresso em Foco (Flávio sobre Lula e Moraes)",
+       "url": "https://www.congressoemfoco.com.br/noticia/122266/lula-dividiu-poder-com-moraes-e-deixou-pais-sem-comando--diz-flavio"
+      },
+      {
+       "name": "SBT News (Toffoli deixa relatoria do caso Master)",
+       "url": "https://sbtnews.sbt.com.br/noticia/politica/stf-rejeita-suspeicao-contra-toffoli-no-caso-banco-master"
+      }
+     ],
+     "art_text": [
+      "43% não confiam no STF",
+      "O maior nível desde 2012",
+      "79% não aceitam ministro julgando caso de cliente de parente",
+      "Quem reconstrói a confiança no Supremo?",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Ministros do STF de forma genérica, em silhueta, ao redor de uma mesa no plenário: o tema é a Corte como instituição, sem acusar ministro específico.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): ministros do STF de toga em silhueta, de costas e cochichando, no plenário do Supremo com a fachada da Corte ao fundo escuro com textura, uma balança da Justiça levemente torta como elemento simbólico. No alto, em letras condensadas, brancas e pesadas: '43% NÃO CONFIAM NO STF'. Num quadro amarelo no meio: 'O maior nível desde 2012'. Num quadro vermelho: '79% não aceitam ministro julgando cliente de parente'. Embaixo, com sublinhado vermelho pincelado: 'Quem reconstrói a confiança no Supremo?'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "A desconfiança no STF chegou a 43%, a maior da série do Datafolha desde 2012. E 79% dos brasileiros não aceitam ministro julgando caso de cliente de parente. Isso não é pauta de partido. Defender um Supremo forte é exigir que ele funcione dentro da Constituição, com regras claras de impedimento. Comenta: o que o STF precisa mudar para recuperar a confiança?",
+     "risk": "médio",
+     "risk_note": "Médio: Toffoli não foi condenado nem denunciado; a arte não cita nomes. Números são do Datafolha de março de 2026, informar a data se perguntarem.",
+     "timeline": {
+      "rende": true,
+      "angle": "Datafolha mostra a maior desconfiança no STF em 14 anos e a rejeição ampla a ministro julgando caso de parente: o que a direita propõe de regras de impedimento e transparência."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Flávio diz que Lula governa ao lado de parte do STF que descumpriu a lei",
+     "tone": "contundente",
+     "duration": "45 a 60s",
+     "fact": "Pesquisa Datafolha de 3 a 5 de março de 2026 (2.004 entrevistados, margem de 2 pontos) mostra que 43% não confiam no STF, o maior nível desde 2012 (eram 38% em dezembro de 2024), e só 16% confiam muito. Na mesma pesquisa, 79% discordam de ministro julgar caso de cliente de parente, 78% rejeitam ministro sócio de empresa e 76% rejeitam pagamento por palestras de instituições privadas. Em 12 de fevereiro, Dias Toffoli deixou a relatoria do caso Banco Master depois de reunião dos ministros com o presidente do STF, Edson Fachin; os dez ministros assinaram nota dizendo não haver suspeição ou impedimento e aceitaram a redistribuição por altos interesses institucionais. A PF encontrou menções ligadas ao resort Tayayá, em que uma empresa dos irmãos de Toffoli tinha pouco mais de 30% até 2025. Toffoli não foi condenado nem denunciado por esses fatos. Em 15 de setembro, Flávio Bolsonaro (PL) disse que o governo Lula governa ao lado de parte do STF que descumpriu a lei.",
+     "sources": [
+      {
+       "name": "Poder360 (Datafolha sobre o STF)",
+       "url": "https://www.poder360.com.br/poder-pesquisas/desconfianca-no-stf-atinge-43-maior-nivel-desde-2012/"
+      },
+      {
+       "name": "Congresso em Foco (Flávio sobre Lula e Moraes)",
+       "url": "https://www.congressoemfoco.com.br/noticia/122266/lula-dividiu-poder-com-moraes-e-deixou-pais-sem-comando--diz-flavio"
+      },
+      {
+       "name": "SBT News (Toffoli deixa relatoria do caso Master)",
+       "url": "https://sbtnews.sbt.com.br/noticia/politica/stf-rejeita-suspeicao-contra-toffoli-no-caso-banco-master"
+      }
+     ],
+     "hooks": [
+      "43% dos brasileiros não confiam no STF. É o maior número desde 2012.",
+      "Flávio disse que Lula divide o poder com parte do Supremo. O dado do Datafolha ajuda a entender por quê."
+     ],
+     "script": "43% dos brasileiros não confiam no Supremo. É o maior nível da série do Datafolha, que começou em 2012. Em dezembro de 2024 eram 38%. Agora, só 16% confiam muito.\n\nE tem mais: 79% não aceitam que um ministro julgue caso de cliente de parente. 78% rejeitam ministro sócio de empresa. Isso não é pauta de partido, é o brasileiro comum dizendo o que espera da Corte.\n\nNesse cenário, Flávio Bolsonaro disse que o governo Lula governa ao lado de parte do STF que descumpriu a lei. É crítica política legítima, e o ponto grave é a suspeita de que o Judiciário se comporta como ator do jogo político.\n\nTem o caso Banco Master: Toffoli deixou a relatoria em fevereiro, e a Polícia Federal encontrou menções ligadas ao resort Tayayá, onde uma empresa dos irmãos dele tinha parte. Ele não foi condenado nem denunciado.\n\nA direita defende um Supremo forte, mas dentro da Constituição. A confiança volta com regras claras de impedimento, transparência e ministros que não atuam como políticos. Você concorda? Comenta aqui.",
+     "screen_text": [
+      "43% não confiam no STF",
+      "Maior nível desde 2012",
+      "79% contra ministro julgar caso de cliente de parente",
+      "Toffoli deixou a relatoria do caso Master (não foi condenado nem denunciado)",
+      "Supremo forte, dentro da Constituição"
+     ],
+     "caption": "43% não confiam no STF, o maior nível do Datafolha desde 2012. 79% rejeitam ministro julgando caso de cliente de parente. A confiança volta com regras claras de impedimento e transparência. Comenta a sua opinião.",
+     "risk": "médio",
+     "risk_note": "Médio: citar Toffoli só como saída da relatoria, sempre com 'não foi condenado nem denunciado'. A fala de Flávio entra como fala dele, uma vez. Não citar Gilmar, Moraes nem Barroso, pois não foram confirmados em matéria aberta.",
+     "timeline": {
+      "rende": true,
+      "angle": "Por que a desconfiança no STF bateu recorde e quais regras de impedimento a direita defende."
+     }
+    }
+   ]
+  },
+  {
    "requested": "2026-10-18",
    "done": "2026-10-18T08:50:00-03:00",
    "issue": 78,
