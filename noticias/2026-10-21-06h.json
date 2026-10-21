@@ -126,6 +126,13 @@
      "camp": "centro",
      "position": "editoria",
      "via": "coleta"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY0U1c0p6aHZ4Wm1MMkxnZHB6a0V2NVpPSmdKUHR3TDk0UVNraU1Ba0c1REd6Yk9YUmtaMm5PYThjRW1uSkItaGtxbE1UamRQaXdudVVHQVZDOXotUl93NGF3bmZFdHlIU3R0dTJCQVpRVTYtVGxKdzJDZUVHZmRzN0pjaUh5WElVLUxpRDYwWmxCMkZoRlJFU0ptcHlWT1hqbEhOWjNSTUZJOHFNa2c?oc=5",
+     "camp": "esquerda",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -207,6 +214,13 @@
      "name": "JOTA",
      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTkhrOGVSVklzUWlneTZwRWdVemtnWHNYZ0dxa0NzeUtuWVQtQzlYVFNNTHFWLS1qNzJQMUctcG5pXzhDNmVtVkZVb3NlUzk3TjRQLXFsUzhCUklQR1EwQ2Jfa2xsZ3ZSaFZyZ1BEcHNTcDVxN1ItR2NOV0ZJdnlHZWxXVGQ4REMyZ21nMU16dFEzZllNS0g3cFhuVEgyOEZLRWlUay0wU1NJSGpwaWp2V3IzZHROaEIxYllqZ3BtZjR0cEN2bFdRczc5NjFRdlAyOEdhQkYtUQ?oc=5",
      "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbUNTVVlmQUdaXzRSTGNCU2ZJQjFCMHVKTEJ6bEs5OGEtcFN6aVV2UHBUMEpWQkNVckU4VzYtNE1ZTlo1YldteXoxQXBVMzlwTjNPX0ZSRkFPOWdrV0p0bDB3Ujhwbi1YV3lfcDc1eXlXWlo5UVgtTDBISnhZMWxkOXg4Zi1FWHc1SFNpcllmWUJjLW91RXVJZ0pCdE9iZEpPR3NSUnN0NDBFZnNpOFBneXhzbXk4allfZS1aUWNzd0NUQkZPemNhcDZyeDRSdG8xRTk1Zw?oc=5",
+     "camp": "centro-esquerda",
      "position": "editoria",
      "via": "coleta"
     }
@@ -526,12 +540,12 @@
    "title": "Flávio propõe o Vira Pix e a volta do Perse, e Durigan diz que nenhum governo faz calote geral",
    "summary": "A campanha de Flávio Bolsonaro propõe o Vira Pix, programa que devolveria parte do valor pago em contas e prestações. O candidato também quer retomar o Perse, que teve custo de R$ 50 bilhões. Durigan disse que a proposta de comprar dívidas provocaria calote geral e que nenhum governo tem poder de implementar esse calote. A campanha ainda não detalhou como o Vira Pix funcionaria. O Vira Pix foi apresentado na terça (20).",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 8.7,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 10
    },
-   "score": 7.2,
+   "score": 7.4,
    "outlets": [
     {
      "name": "Poder360",
@@ -751,12 +765,12 @@
    "title": "ONU alerta contra força excessiva em protestos na Europa, Itália envia 500 militares a Milão, e Trump associa a França a uma vitória democrata",
    "summary": "A ONU alertou contra o uso desnecessário e excessivo da força nos protestos na Albânia, na França e na Itália. A Itália enviará 500 militares a Milão, e a França vai mobilizar forças militares para os protestos de sábado. O governo Macron acusa a extrema esquerda de planejar insurreição. Trump disse que os EUA queimarão como a França se os democratas vencerem as eleições. A França mantém toques de recolher parciais depois da onda de saques e violência.",
    "scores": {
-    "cobertura": 9,
+    "cobertura": 9.3,
     "destaque": 6,
     "persistencia": 7,
     "peso_voce": 6
    },
-   "score": 7.2,
+   "score": 7.3,
    "outlets": [
     {
      "name": "Jornal do Commercio",
@@ -971,12 +985,12 @@
    "title": "Tempestade Adam deixa ao menos cinco mortos na Espanha",
    "summary": "A tempestade Adam causou inundações na Espanha. Ao menos cinco pessoas morreram. O número de mortos pode mudar. As autoridades seguem avaliando os danos. Chuvas intensas também deixaram desabrigados na França e na Argentina.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "Revista Oeste",
@@ -1260,12 +1274,12 @@
    "title": "Direção da Faetec retorna a Quintino depois de deixar o bairro por causa da violência",
    "summary": "A direção da Faetec voltou a Quintino, na Zona Norte do Rio. A cúpula tinha deixado o bairro por causa da violência. O retorno ocorre sob nova direção na Secretaria de Ciência e Tecnologia. A Faetec é a rede estadual de ensino técnico do Rio. A volta foi destacada pelo Diário do Rio.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 3.9,
+   "score": 4.0,
    "outlets": [
     {
      "name": "Diário do Rio",
@@ -1293,12 +1307,12 @@
    "title": "Fies abre inscrição para vagas remanescentes em 26 de outubro, e Lula fala em anular dívida de jovens",
    "summary": "O Fies mantém 112.168 vagas anuais e abre inscrição para vagas remanescentes em 26 de outubro. O programa exige renda familiar de até três salários mínimos e média de 450 pontos no Enem. A renegociação de 2026 zera juros e divide o saldo devedor em até 15 anos para contratos desde 2018. Lula disse que resolveram anular essa dívida para os jovens começarem uma vida nova. O MEC incluiu etapa de frequência que pode reprovar aluno no Fies.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 3.9,
+   "score": 4.0,
    "outlets": [
     {
      "name": "Mix Vale",
@@ -1326,12 +1340,12 @@
    "title": "MEC inaugura campus do IFSul em São Leopoldo e obra de expansão do IFTM em Uberaba nesta quarta",
    "summary": "O MEC inaugura nesta quarta (21) o Campus São Leopoldo do IFSul, no Rio Grande do Sul. O ministério também entrega a obra de expansão do Campus Uberaba Parque Tecnológico do IFTM, em Minas Gerais. Os dois campi ampliam a oferta de ensino técnico e superior. As duas entregas estão previstas para a mesma data. As obras fazem parte da expansão da rede federal.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "Brasil de Fato",
@@ -1359,12 +1373,12 @@
    "title": "Alunos protestam após descoberta de câmera em banheiro de escola cívico-militar no Paraná",
    "summary": "Alunos protestaram após a descoberta de uma câmera em banheiro de escola cívico-militar no Paraná. Os estudantes falam em câmeras espiãs. O protesto ocorreu na terça (20). A escola integra o modelo cívico-militar do estado. Falta informação sobre responsabilização.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "Terra",
@@ -1673,12 +1687,12 @@
    "title": "Muse, IA da Meta, passa de 10 milhões de downloads nos EUA, e falha pode expor conversas compartilhadas",
    "summary": "A Muse, IA da Meta, superou 10 milhões de downloads nos EUA em 40 dias. Uma falha no Meta Muse pode expor conversas compartilhadas de usuários, segundo o Estadão. A Meta ainda não detalhou a correção. O caso reforça o debate sobre privacidade em assistentes de IA. Usuários podem rever o que compartilharam.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 3.9,
+   "score": 4.0,
    "outlets": [
     {
      "name": "Exame",
@@ -1706,12 +1720,12 @@
    "title": "Chuva de meteoros Orionidas tem pico visível no Brasil entre quarta (21) e quinta (22)",
    "summary": "A chuva de meteoros Orionidas tem pico entre 21 e 22 de outubro. O pico é visível no Brasil nesta quarta. O fenômeno pode ser visto a olho nu. O melhor horário é a madrugada, em locais escuros. Nuvens podem atrapalhar a observação em alguns estados.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 3,
     "persistencia": 4,
     "peso_voce": 3
    },
-   "score": 3.2,
+   "score": 3.4,
    "outlets": [
     {
      "name": "Jovem Pan",
@@ -1813,6 +1827,27 @@
      "name": "Estadão",
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdTNweGtzZkdiOWF0SC1JdkFCbFlMdkNUbGViMGRyTVdqa296Zlg5T3BsUFdUQVE3ZjZERnFWUmFsZVl6VmZGdjRTbXNsQS1XcU9oSWpTbXd0LXlHTDZNTEJDZlR3ZWNxalhqc0ZqVnVubERZQVpKYjJqTW1XbUhLeTNja3NmV0lreEk3LVh4cWczZkVqdElSUW9DVG13NDBNdzBVbk56cUhNR2pYal9zaVlkbXY2TEItdXZkWHZyY0tHcWxlT216dHF4LUtIVWF1Qk5wclRGbno1WVVYclByVTdxVDTSAeoBQVVfeXFMTWE1a3MyQkc0ZHpMeUtNYk1CRnZUMG5kMzQ2b0dxcUtSYkl0Y2s1YnZOVld2czZfd0tyQnFaVjBqRXVxVXd2c2w0NXJnQkkzNXpjaTVKY1dhMlRnVWh1aWhCcFhEM2RYZGhMYnB6UVpkbUk1Z2M3VkdKcjhsUnRzNzVKT2lfcGZrWnhpdVF5bmhCOGFpYWlYVndUX2hFbFFLVGJKOU40Y3ZqMHRaRUhqVFpmdG1rZHM1b1MtVkI3aXlYQTd6dXF6dC1jWnlNTXZDT0ZtdEw2Nng2clF3Uko0azY2dnZmQWxleWpR?oc=5",
      "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0pLcEF6M1NpcWR3LXBidWsyYWVIV2tkMmd4ZXpGYXlrMWZfU0pRRWkwaVdNbXBCSUZFaGRZUm14LTQ4Z2JFdEVoT2FBNVlCUEdXMEQySjNVUFBjNXV1dnVUM3ltUG9yVjhMNW5kRkNKYzhITXlQRVB6cF9TTEdSZ2J5eGR1UkoyRUVaRVB5R3h5a2EzMFJQX0NSU09iNGtNR3Rr?oc=5",
+     "camp": "direita",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUDdVYzVIOEd1NTB6NDlLV3JDcnZPbnhmblBkeWJIQWpNUmd1cGl5MFBPMFpVOWF6dFNrU2haUjhNOUkxN1ZqbERFUzEtLWE4TGJRQ2Z2SGVUclNTNUxrYTVzSWtJLWVhODl4c29veUxkbXFuVk84M3ZDVWhiSEh2dXgyOC0xdmNSRnZ5aGJUZHdoMXJncmV2dQ?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb1otVDU5UFJvdUF2ZTVmVHZaaGpKLTRQTkc1MmZyMkVqMGs3RjZ0QmpFRjhFUkFZcndqaEZmSkZMVDZYeVlEX0RrNUVBZktLMDZOVzlYNFRmTldfVUhwTVBtQ1VoTHRwM3VoVW1rajBqR0VjVzhRZjRiM3hUenZ5dGlWVmtUdVlyVlQ2X0lUV0pTMTRRQjZMdkJWSjdua1NTX2xlLWVqU3ZqN1R5RWlRNlNzU2lVUXRodlM4TjUyUExQRlU?oc=5",
+     "camp": "regional",
      "position": "editoria",
      "via": "coleta"
     }
