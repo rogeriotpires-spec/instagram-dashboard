@@ -1,104 +1,318 @@
 {
- "date": "2026-10-21",
- "generated": "2026-10-20T18:13:16-03:00",
- "programa": "Conversa Timeline",
- "titulo": "Lula oferece abrir sigilos, mas mantém 1.339 pedidos sob sigilo de 100 anos, e Justiça Eleitoral troca endereço de seções antes do 2º turno",
- "abertura": "A quarta-feira (21) abre com o blefe de Lula, que diz abrir os sigilos bancário e telefônico enquanto o governo mantém 1.339 pedidos sob sigilo de 100 anos e R$ 55,2 milhões do cartão corporativo fechados. O relato de Vorcaro sobre R$ 30 milhões em dinheiro vivo para o documentário de Lula, que a campanha nega, dá o pano de fundo. A quatro dias do segundo turno, a Justiça Eleitoral também trocou o endereço de seções em vários estados, e o recado ao eleitor é conferir o local de votação.",
- "agenda": [],
- "itens": [
-  {
-   "id": "secoes-trocadas",
-   "bloco": "Política nacional",
-   "titulo": "Justiça Eleitoral troca endereço de seções em vários estados antes do 2º turno",
-   "subtitulo": "TSE diz que mudar o prédio não reduz seções; eleitor deve conferir o local no e-Título antes de domingo (25)",
-   "resumo": "A Justiça Eleitoral mudou o endereço de seções em vários estados para o segundo turno, marcado para 25 de outubro. O TSE afirma que a troca de prédio não reduz o número de seções nem prejudica o eleitor. No Distrito Federal, o TRE aponta problemas de estrutura e de acessibilidade nos imóveis, e em Campo Grande e Terenos nove endereços deixaram de receber urnas. A zona e a seção do eleitor continuam as mesmas, mas o prédio pode ser outro. Quem vai votar precisa conferir o local no e-Título ou no Autoatendimento do TSE para não perder tempo nem o horário no domingo.",
-   "contexto": [
-    "O TSE publicou uma explicação sobre a troca de endereço de algumas seções para o 2º turno e diz que o segundo turno, só com presidente e governador em seis estados e no DF, deve ter filas menores.",
-    "No DF, o TRE alertou para mudanças em oito regiões, entre elas Águas Claras, onde quatro locais foram desativados, e Guará, onde dez seções saíram da Faculdade Projeção para o Colégio Liceu.",
-    "Em Mato Grosso do Sul, o TRE relacionou 9 endereços que deixam de ser locais de votação e 7 prédios que passam a receber urnas em Campo Grande e Terenos; 17 seções foram para a Unigran.",
-    "Em Mato Grosso do Sul a votação vai das 7h às 16h, o equivalente a 8h às 17h de Brasília, e quem estiver na fila no fim do horário vota.",
-    "Zona e seção não mudam; muda apenas o prédio onde fica a urna. A consulta é feita no aplicativo e-Título ou no Autoatendimento Eleitoral do portal do TSE."
-   ],
-   "angulo": [
-    "Eleição limpa começa com o eleitor sabendo onde votar: o programa deve orientar o público a conferir o local antes de domingo.",
-    "Mudança de endereço é ajuste logístico, e o TSE diz que não há redução de seções; cabe à Justiça Eleitoral avisar cedo e com clareza para ninguém ficar sem votar.",
-    "A fiscalização cidadã e dos partidos sobre a lista de seções e locais é parte do processo e deve ser incentivada, com base em dados oficiais."
-   ],
-   "perguntas": [
-    "A Justiça Eleitoral avisou com antecedência suficiente quem teve o local de votação trocado?",
-    "O que o eleitor que mora longe do novo endereço, idoso ou com deficiência, deve fazer para votar com tranquilidade?",
-    "Os partidos e a sociedade têm acesso fácil à lista completa de seções que mudaram para fiscalizar?"
-   ],
-   "atencao": "Não há registro, nas matérias abertas, de irregularidade na troca de seções; o número nacional de seções que mudaram para o 2º turno não foi localizado.",
-   "fontes": [
+  "date": "2026-10-21",
+  "generated": "2026-10-21T10:28:00-03:00",
+  "programa": "Conversa Timeline",
+  "titulo": "Lula oferece abrir sigilos mas põe condição para o debate da Globo, Justiça Eleitoral troca endereço de seções, PF mira Willer Tomaz e AGU confisca R$ 190 milhões do crime",
+  "abertura": "A quarta-feira (21) abre com o blefe de Lula, que oferece abrir os sigilos e condiciona o debate da Globo, marcado para sexta (23), à quebra dos sigilos de Flávio, enquanto o governo mantém 1.339 pedidos sob sigilo de 100 anos. A quatro dias do segundo turno, a Justiça Eleitoral também trocou o endereço de seções em vários estados, e o recado ao eleitor é conferir o local de votação. A campanha de Flávio apresenta o Vira Pix, e Nikolas denuncia que o vídeo com nordestinos ficou sem som no Instagram. No Rio, a morte do secretário de Queimados em tiroteio com a PM pede apuração, e a PF mira o advogado Willer Tomaz, amigo de Flávio, em inquérito que ainda não tem denúncia.",
+  "agenda": [
     {
-     "name": "SBT News",
-     "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/tre-df-alerta-eleitores-sobre-mudanca-em-locais-de-votacao"
-    },
-    {
-     "name": "A Crítica (MS)",
-     "url": "https://acritica.net/eleicoes-2026/locais-votacao-mudaram-campo-grande-terenos-domingo-eleicoes-2026/"
-    },
-    {
-     "name": "TSE",
-     "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno"
+      "time": "Quarta (21)",
+      "text": "Prazo para Flávio responder ao pedido de reciprocidade de Lula no TSE sobre a quebra de sigilos",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-condiciona-debate-na-globo-a-abertura-de-sigilo-de-flavio/"
+      }
     }
-   ],
-   "avulsa": true,
-   "pedido": "Seções eleitorais trocadas TSE"
-  },
-  {
-   "id": "lula-sigilo-blefe",
-   "bloco": "Política nacional",
-   "titulo": "Lula oferece abrir seus sigilos, mas mantém 1.339 pedidos sob sigilo de 100 anos",
-   "subtitulo": "Cartão corporativo da Presidência tem R$ 55,2 milhões sob sigilo; o dinheiro vivo que Vorcaro diz ter dado ao Instituto Lula não passaria pela conta pessoal",
-   "resumo": "No debate da Band, Lula desafiou Flávio Bolsonaro a abrir os sigilos bancário e telefônico, e na segunda (19) anunciou em Porto Alegre que entregaria ao TSE a autorização para quebrar os seus e os dos cinco filhos. O gesto é um blefe de campanha: os imóveis do triplex e do sítio de Atibaia nunca estiveram no nome dele, e abrir as próprias contas não mostra o que se discute hoje. O que está em debate é o relato de Vorcaro, publicado pela Veja, de R$ 30 milhões em dinheiro vivo, por fora, para o documentário sobre Lula, em troca de acesso a fundos de pensão, com um fundo de R$ 10 bilhões e comissão de R$ 1 bilhão ao PT. Dinheiro vivo pago ao Instituto Lula não aparece no extrato da pessoa física, e a campanha de Lula chama o caso de peça eleitoral e nega qualquer vantagem. Quem quer transparência de verdade pode abrir o que o governo esconde: 1.339 pedidos de informação com sigilo de 100 anos e R$ 55,2 milhões do cartão corporativo sob sigilo.",
-   "contexto": [
-    "No debate da Band, em 18/10, Lula propôs que ele e Flávio abram sigilos bancário e telefônico; em 19/10, em Porto Alegre, disse que entregaria ao presidente do TSE, no dia 20, o pedido para quebrar o sigilo dele e dos cinco filhos.",
-    "Áudio revelado pela Veja em 9/10: Vorcaro diria ter pago R$ 30 milhões em dinheiro vivo ao Instituto Lula, presidido por Paulo Okamotto, para o documentário de Oliver Stone, em busca de acesso a fundos de pensão.",
-    "Mensagens atribuídas a Vorcaro falam em Vaccari cobrando 10% sobre captação de fundos de pensão de Caixa, BB, Petrobras e Correios: operação de R$ 10 bilhões, com R$ 1 bilhão para o PT.",
-    "A PF diz que Vorcaro não prestou depoimento com esse conteúdo nem entregou documentos; a defesa não reconhece a origem do áudio; a campanha de Lula nega e anuncia ação judicial.",
-    "O governo Lula negou 1.339 pedidos de informação com sigilo de 100 anos em 2023 (em 2022 foram 1.332 no governo Bolsonaro); entre eles a agenda de Janja. Lula prometeu acabar com esse sigilo em 2022 e diz que a decisão é dos órgãos, que 'nem chega na Presidência'.",
-    "Auditoria do TCU aponta R$ 55,2 milhões de R$ 55,5 milhões do cartão corporativo da Presidência sob sigilo, de janeiro de 2023 a abril de 2025.",
-    "Lula recebeu Vorcaro em dezembro de 2024, fora da agenda oficial, com Galípolo e Augusto Lima, e pediu que ele procurasse o Banco Central."
-   ],
-   "angulo": [
-    "Lula blefa: ele sabe que triplex e sítio nunca estiveram no nome dele e que o dinheiro vivo de que se fala não passaria pela conta pessoal. Abrir o sigilo do CPF não responde ao que Vorcaro diz.",
-    "Se a vontade é de transparência, o caminho é abrir o que o governo dele mantém fechado: os 1.339 sigilos de 100 anos, o cartão corporativo, as viagens de Janja, as visitas ao Vorcaro no presídio e a lista de quem voou no jato do Vorcaro.",
-    "O Instituto Lula é quem tem de prestar contas: a quebra que esclareceria o caso é a das contas do instituto e das produtoras do filme, não a de um gesto combinado para a campanha.",
-    "O relato de Vorcaro ainda não foi comprovado e Lula nega; o programa cobra investigação e documentos, sem afirmar crime."
-   ],
-   "perguntas": [
-    "Por que Lula abre o sigilo da pessoa física, mas não o do Instituto Lula, onde Vorcaro diz que foi o dinheiro?",
-    "Se Lula é 'radicalmente contra' o sigilo de 100 anos, por que o governo dele já negou 1.339 pedidos assim e não revogou nenhum?",
-    "O que impede o governo de abrir o cartão corporativo, as viagens de Janja e a lista de passageiros do jato de Vorcaro antes de domingo?"
-   ],
-   "atencao": "O relato de R$ 30 milhões vem de áudio e reportagem da Veja que a defesa de Vorcaro não reconhece e que a PF e a campanha de Lula contestam; é alegação, não fato comprovado. Não localizei, nas matérias abertas, registro de visitas de Lula ou de Janja a Vorcaro no presídio nem a lista de passageiros do jato: tratar como pergunta. O pedido cita 1.341 sigilos; as matérias trazem 1.339.",
-   "fontes": [
+  ],
+  "itens": [
     {
-     "name": "Agência Brasil",
-     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-diz-que-vai-entregar-amanha-ao-tse-pedido-de-abertura-de-sigilo"
+      "id": "secoes-trocadas",
+      "bloco": "Política nacional",
+      "titulo": "Justiça Eleitoral troca endereço de seções em vários estados antes do 2º turno",
+      "subtitulo": "TSE diz que mudar o prédio não reduz seções; eleitor deve conferir o local no e-Título antes de domingo (25)",
+      "resumo": "A Justiça Eleitoral mudou o endereço de seções em vários estados para o segundo turno, marcado para 25 de outubro. O TSE afirma que a troca de prédio não reduz o número de seções nem prejudica o eleitor. No Distrito Federal, o TRE aponta problemas de estrutura e de acessibilidade nos imóveis, e em Campo Grande e Terenos nove endereços deixaram de receber urnas. A zona e a seção do eleitor continuam as mesmas, mas o prédio pode ser outro. Quem vai votar precisa conferir o local no e-Título ou no Autoatendimento do TSE para não perder tempo nem o horário no domingo.",
+      "contexto": [
+        "O TSE publicou uma explicação sobre a troca de endereço de algumas seções para o 2º turno e diz que o segundo turno, só com presidente e governador em seis estados e no DF, deve ter filas menores.",
+        "No DF, o TRE alertou para mudanças em oito regiões, entre elas Águas Claras, onde quatro locais foram desativados, e Guará, onde dez seções saíram da Faculdade Projeção para o Colégio Liceu.",
+        "Em Mato Grosso do Sul, o TRE relacionou 9 endereços que deixam de ser locais de votação e 7 prédios que passam a receber urnas em Campo Grande e Terenos; 17 seções foram para a Unigran.",
+        "Em Mato Grosso do Sul a votação vai das 7h às 16h, o equivalente a 8h às 17h de Brasília, e quem estiver na fila no fim do horário vota.",
+        "Zona e seção não mudam; muda apenas o prédio onde fica a urna. A consulta é feita no aplicativo e-Título ou no Autoatendimento Eleitoral do portal do TSE."
+      ],
+      "angulo": [
+        "Eleição limpa começa com o eleitor sabendo onde votar: o programa deve orientar o público a conferir o local antes de domingo.",
+        "Mudança de endereço é ajuste logístico, e o TSE diz que não há redução de seções; cabe à Justiça Eleitoral avisar cedo e com clareza para ninguém ficar sem votar.",
+        "A fiscalização cidadã e dos partidos sobre a lista de seções e locais é parte do processo e deve ser incentivada, com base em dados oficiais."
+      ],
+      "perguntas": [
+        "A Justiça Eleitoral avisou com antecedência suficiente quem teve o local de votação trocado?",
+        "O que o eleitor que mora longe do novo endereço, idoso ou com deficiência, deve fazer para votar com tranquilidade?",
+        "Os partidos e a sociedade têm acesso fácil à lista completa de seções que mudaram para fiscalizar?"
+      ],
+      "atencao": "Não há registro, nas matérias abertas, de irregularidade na troca de seções; o número nacional de seções que mudaram para o 2º turno não foi localizado.",
+      "fontes": [
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/tre-df-alerta-eleitores-sobre-mudanca-em-locais-de-votacao"
+        },
+        {
+          "name": "A Crítica (MS)",
+          "url": "https://acritica.net/eleicoes-2026/locais-votacao-mudaram-campo-grande-terenos-domingo-eleicoes-2026/"
+        },
+        {
+          "name": "TSE",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/entenda-por-que-a-justica-eleitoral-trocou-o-endereco-de-algumas-secoes-para-o-2o-turno"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Seções eleitorais trocadas TSE"
     },
     {
-     "name": "SBT News",
-     "url": "https://sbtnews.sbt.com.br/noticia/politica/em-audio-vorcaro-diz-ter-financiado-filme-sobre-lula"
+      "id": "lula-sigilo-blefe",
+      "bloco": "Política nacional",
+      "titulo": "Lula oferece abrir seus sigilos, mas mantém 1.339 pedidos sob sigilo de 100 anos",
+      "subtitulo": "Cartão corporativo da Presidência tem R$ 55,2 milhões sob sigilo; o dinheiro vivo que Vorcaro diz ter dado ao Instituto Lula não passaria pela conta pessoal",
+      "resumo": "No debate da Band, Lula desafiou Flávio Bolsonaro a abrir os sigilos bancário e telefônico, e na segunda (19) anunciou em Porto Alegre que entregaria ao TSE a autorização para quebrar os seus e os dos cinco filhos. O gesto é um blefe de campanha: os imóveis do triplex e do sítio de Atibaia nunca estiveram no nome dele, e abrir as próprias contas não mostra o que se discute hoje. O que está em debate é o relato de Vorcaro, publicado pela Veja, de R$ 30 milhões em dinheiro vivo, por fora, para o documentário sobre Lula, em troca de acesso a fundos de pensão, com um fundo de R$ 10 bilhões e comissão de R$ 1 bilhão ao PT. Dinheiro vivo pago ao Instituto Lula não aparece no extrato da pessoa física, e a campanha de Lula chama o caso de peça eleitoral e nega qualquer vantagem. Quem quer transparência de verdade pode abrir o que o governo esconde: 1.339 pedidos de informação com sigilo de 100 anos e R$ 55,2 milhões do cartão corporativo sob sigilo.",
+      "contexto": [
+        "No debate da Band, em 18/10, Lula propôs que ele e Flávio abram sigilos bancário e telefônico; em 19/10, em Porto Alegre, disse que entregaria ao presidente do TSE, no dia 20, o pedido para quebrar o sigilo dele e dos cinco filhos.",
+        "Áudio revelado pela Veja em 9/10: Vorcaro diria ter pago R$ 30 milhões em dinheiro vivo ao Instituto Lula, presidido por Paulo Okamotto, para o documentário de Oliver Stone, em busca de acesso a fundos de pensão.",
+        "Mensagens atribuídas a Vorcaro falam em Vaccari cobrando 10% sobre captação de fundos de pensão de Caixa, BB, Petrobras e Correios: operação de R$ 10 bilhões, com R$ 1 bilhão para o PT.",
+        "A PF diz que Vorcaro não prestou depoimento com esse conteúdo nem entregou documentos; a defesa não reconhece a origem do áudio; a campanha de Lula nega e anuncia ação judicial.",
+        "O governo Lula negou 1.339 pedidos de informação com sigilo de 100 anos em 2023 (em 2022 foram 1.332 no governo Bolsonaro); entre eles a agenda de Janja. Lula prometeu acabar com esse sigilo em 2022 e diz que a decisão é dos órgãos, que 'nem chega na Presidência'.",
+        "Auditoria do TCU aponta R$ 55,2 milhões de R$ 55,5 milhões do cartão corporativo da Presidência sob sigilo, de janeiro de 2023 a abril de 2025.",
+        "Lula recebeu Vorcaro em dezembro de 2024, fora da agenda oficial, com Galípolo e Augusto Lima, e pediu que ele procurasse o Banco Central.",
+        "Na terça (20), em ato de campanha com apoiadores da Bahia e de Petrolina, Lula disse que haverá debate na Globo se Flávio apresentar documento autorizando a quebra dos sigilos, e que o presidente não pode debater com ladrão; o debate está marcado para sexta (23).",
+        "A defesa de Lula pediu ao TSE a quebra dos sigilos bancário, fiscal e telefônico dele e de familiares nos últimos 8 anos, condicionada à reciprocidade de Flávio; o prazo para a resposta é quarta (21)."
+      ],
+      "angulo": [
+        "Lula blefa: ele sabe que triplex e sítio nunca estiveram no nome dele e que o dinheiro vivo de que se fala não passaria pela conta pessoal. Abrir o sigilo do CPF não responde ao que Vorcaro diz.",
+        "Se a vontade é de transparência, o caminho é abrir o que o governo dele mantém fechado: os 1.339 sigilos de 100 anos, o cartão corporativo, as viagens de Janja, as visitas ao Vorcaro no presídio e a lista de quem voou no jato do Vorcaro.",
+        "O Instituto Lula é quem tem de prestar contas: a quebra que esclareceria o caso é a das contas do instituto e das produtoras do filme, não a de um gesto combinado para a campanha.",
+        "O relato de Vorcaro ainda não foi comprovado e Lula nega; o programa cobra investigação e documentos, sem afirmar crime."
+      ],
+      "perguntas": [
+        "Por que Lula abre o sigilo da pessoa física, mas não o do Instituto Lula, onde Vorcaro diz que foi o dinheiro?",
+        "Se Lula é 'radicalmente contra' o sigilo de 100 anos, por que o governo dele já negou 1.339 pedidos assim e não revogou nenhum?",
+        "O que impede o governo de abrir o cartão corporativo, as viagens de Janja e a lista de passageiros do jato de Vorcaro antes de domingo?"
+      ],
+      "atencao": "O relato de R$ 30 milhões vem de áudio e reportagem da Veja que a defesa de Vorcaro não reconhece e que a PF e a campanha de Lula contestam; é alegação, não fato comprovado. Não localizei, nas matérias abertas, registro de visitas de Lula ou de Janja a Vorcaro no presídio nem a lista de passageiros do jato: tratar como pergunta. O pedido cita 1.341 sigilos; as matérias trazem 1.339.",
+      "fontes": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-diz-que-vai-entregar-amanha-ao-tse-pedido-de-abertura-de-sigilo"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/politica/em-audio-vorcaro-diz-ter-financiado-filme-sobre-lula"
+        },
+        {
+          "name": "Diário do Poder",
+          "url": "https://diariodopoder.com.br/brasil-e-regioes/e02-brasil/lula-coloca-mais-de-13-mil-pedidos-de-informacoes-em-sigilo-de-100-anos"
+        },
+        {
+          "name": "Jornal Razão",
+          "url": "https://jornalrazao.com/politica/pt-quebra-sigilo-flavio-lula-sigilo-cartao-corporativo-55-milhoes"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/lula-recebeu-vorcaro-em-dezembro-de-2024-fora-da-agenda/"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-condiciona-debate-na-globo-a-abertura-de-sigilo-de-flavio/"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Lula blefando ao dizer que vai abrir seu sigilo bancário e telefônico. Todos sabem que nada nunca esteve em seu nome. Triplex, sítio de Atibaia e muito mais. Vorcaro mesmo disse que deu 30 milhões em DINHEIRO VIVO por fora para o seu documentário, para poder ter acesso a um fundo de 10 bilhões. E ainda pagaria 1 bilhão de comissão. Além disso. Colocou 1341 sigilos de cem anos em seu governo. Porque ele não abre o sigilo do cartão corporativo, das viagens da janja, das visitas ao Vorcaro no presídio e das pessoas que voaram no jato do Vorcaro?"
     },
     {
-     "name": "Diário do Poder",
-     "url": "https://diariodopoder.com.br/brasil-e-regioes/e02-brasil/lula-coloca-mais-de-13-mil-pedidos-de-informacoes-em-sigilo-de-100-anos"
+      "id": "willer-links-pf",
+      "bloco": "STF e instituições",
+      "titulo": "PF diz que Willer Tomaz pagou R$ 9 mil para tirar do ar 12 links que o ligavam a Flávio",
+      "subtitulo": "Willer fala em ação contra o Google para desindexar conteúdo antigo; Flávio chama as reportagens de fake news",
+      "desdobramento": "PF aponta que Willer Tomaz pagou para remover ou desindexar 12 links, fato novo em relação à conta conjunta negada em 19/10",
+      "resumo": "A Polícia Federal apontou, em material apreendido, que o advogado Willer Tomaz pagou um serviço de reputação digital para remover ou desindexar 12 links de notícias que o ligavam ao senador Flávio Bolsonaro. As mensagens são de outubro de 2025, e o preço caiu de R$ 12 mil para R$ 9 mil. Willer responde que se trata de uma ação judicial contra o Google para desindexar conteúdos antigos e desatualizados, e Flávio chama as reportagens de fake news. O inquérito corre no STF, sob relatoria de Moraes, e apura suspeita de lavagem de dinheiro, sem denúncia nem condenação de ninguém. A cinco dias do segundo turno, o eleitor precisa separar o que é prova do que é vazamento seletivo de um inquérito ainda em apuração.",
+      "contexto": [
+        "As mensagens e a planilha apreendidas pela PF listam 12 endereços de notícias e registram que o conteúdo foi removido, segundo O Globo.",
+        "O serviço citado é a empresa Seu Nome Novo de Novo, que promete proteger a reputação digital; o preço inicial de R$ 12 mil (R$ 1 mil por link) virou R$ 9 mil com desconto.",
+        "Entre os links estavam reportagens sobre a amizade de Willer com Flávio e sobre visitas do senador a cassinos em Las Vegas; a planilha, por si só, não prova que esconder a relação era o único objetivo do serviço.",
+        "Willer e Flávio são investigados no STF, em inquérito de Alexandre de Moraes, por suspeita de lavagem de dinheiro e evasão de divisas ligada a plataformas de apostas; a PF vê indícios de que Willer controla a Rede Loto.",
+        "Willer disse, por meio de assessoria, que foi uma ação judicial contra o Google para desindexar conteúdos antigos e desatualizados, e que Flávio é seu amigo. Flávio não comentou os links e chamou as reportagens de fake news."
+      ],
+      "angulo": [
+        "Pedir a um buscador que desindexe conteúdo antigo é um direito de qualquer pessoa e não é crime; o que a PF precisa mostrar é o que isso tem a ver com Flávio, e até agora o relatório é sobre Willer.",
+        "Flávio é investigado, não denunciado nem condenado, e a presunção de inocência vale a cinco dias da eleição como vale em qualquer outra data.",
+        "Inquérito relatado por Moraes que vira reportagem em plena campanha pede uma pergunta direta: quem vaza e por que agora?"
+      ],
+      "perguntas": [
+        "O que, exatamente, no relatório da PF liga o pagamento de Willer ao senador Flávio?",
+        "Por que partes de um inquérito do STF aparecem na imprensa justamente na reta final do segundo turno?",
+        "Desindexar conteúdo antigo na internet é prática comum de pessoas públicas, ou há algo fora do normal neste caso?"
+      ],
+      "atencao": "Ninguém foi denunciado nem condenado; o relatório fala de Willer, e a ligação com Flávio é a leitura da imprensa sobre o material da PF. A matéria aberta cita O Globo como origem.",
+      "fontes": [
+        {
+          "name": "Diário Carioca (com base em O Globo)",
+          "url": "https://www.diariocarioca.com/2026/10/20/politica/corrupcao-investigacao/pf-aponta-que-willer-tomaz-pagou-r-9-mil-para-remover-links-sobre-sua-relacao-com-flavio-bolsonaro/"
+        }
+      ]
     },
     {
-     "name": "Jornal Razão",
-     "url": "https://jornalrazao.com/politica/pt-quebra-sigilo-flavio-lula-sigilo-cartao-corporativo-55-milhoes"
+      "id": "nikolas-audio-nordeste",
+      "bloco": "Política nacional",
+      "titulo": "Vídeo de Nikolas com depoimentos de nordestinos fica sem áudio no Instagram, e ele aponta o cantor Rubel",
+      "subtitulo": "Nikolas diz que o pedido de retirada partiu de Rubel, por direitos autorais; Meta e Rubel não se manifestaram nas matérias abertas",
+      "resumo": "O deputado Nikolas Ferreira (PL-MG) publicou na terça (20) o vídeo \"O Nordeste que foi esquecido\", com depoimentos de moradores da região sobre saúde, emprego, renda e segurança. Horas depois, a publicação passou a aparecer sem som no Instagram. Segundo Nikolas, o pedido partiu do cantor Rubel, que alegou direitos autorais sobre a música usada. Em resposta, ele publicou outro vídeo com imagens aéreas de uma multidão e a frase \"Ninguém cala o Nordeste\", e levou o \"Bloquinho do 22\" às ruas de Aracaju. O caso mostra como o eleitor do Nordeste, que a esquerda trata como cativo, quer falar e ser ouvido.",
+      "contexto": [
+        "O vídeo \"O Nordeste que foi esquecido\" foi publicado em 20/10, com relatos sobre saúde, emprego, renda e segurança.",
+        "Horas depois, o vídeo passou a aparecer sem som no Instagram; Nikolas atribui o pedido ao cantor Rubel, por direitos autorais sobre a música usada.",
+        "As matérias abertas não trazem declaração de Rubel nem da Meta sobre o caso.",
+        "No mesmo dia, Nikolas levou o \"Bloquinho do 22\" às ruas de Aracaju, em apoio a Flávio Bolsonaro, e puxou o coro: \"Ninguém vai calar o Nordeste\".",
+        "A hashtag \"Ninguém cala o Nordeste\" entrou nos assuntos em alta no X, segundo a edição de notícias do dia."
+      ],
+      "angulo": [
+        "Os nordestinos que aparecem no vídeo falam do que sentem na pele: saúde, emprego, renda e segurança. Calar o som é calar a voz deles.",
+        "Direito autoral é um argumento legítimo, mas a plataforma tem de explicar por que o vídeo ficou mudo no auge da campanha, e o eleitor merece clareza.",
+        "O voto do Nordeste não tem dono, e a mobilização em Aracaju mostra que a região está disputada."
+      ],
+      "perguntas": [
+        "A Meta vai explicar publicamente por que o áudio foi retirado e quem fez o pedido?",
+        "Qual é o limite entre proteger o direito autoral e dificultar a circulação de conteúdo político em plena campanha?",
+        "O que os depoimentos do vídeo dizem sobre o que o eleitor nordestino espera do próximo governo?"
+      ],
+      "atencao": "A autoria do pedido (Rubel) é a versão de Nikolas; as matérias abertas não trazem resposta do cantor nem da Meta. Número de visualizações não confirmado.",
+      "fontes": [
+        {
+          "name": "Jornal Razão",
+          "url": "https://jornalrazao.com/politica/bloquinho-do-22-multidao-aracaju-nikolas-video-silenciado"
+        },
+        {
+          "name": "Jornal Razão",
+          "url": "https://jornalrazao.com/politica/nordestina-sc-emociona-video-nikolas-silenciado"
+        }
+      ]
     },
     {
-     "name": "Jovem Pan",
-     "url": "https://jovempan.com.br/politica/lula-recebeu-vorcaro-em-dezembro-de-2024-fora-da-agenda/"
+      "id": "vira-pix-flavio",
+      "bloco": "Economia",
+      "titulo": "Flávio anuncia o Vira Pix, programa para devolver parte do que o brasileiro paga em contas e prestações",
+      "subtitulo": "Proposta seria desenvolvida com a Caixa e valeria para todos os brasileiros, segundo a campanha; regras ainda não foram detalhadas",
+      "resumo": "A campanha de Flávio Bolsonaro apresentou na terça (20) o Vira Pix, um plano de recompensas que devolveria via Pix parte do dinheiro gasto com contas, prestações e taxas, como a conta de luz. O anúncio foi feito nas redes por Daniella Marques, coordenadora econômica da campanha, em vídeo de 39 segundos. A proposta seria desenvolvida em parceria com a Caixa Econômica Federal. A campanha diz que o programa valeria para todos os brasileiros, e as regras de percentual, pagamentos contemplados e custo ainda serão detalhadas. A ideia põe no centro da eleição o bolso de quem paga conta todo mês.",
+      "contexto": [
+        "O Vira Pix foi anunciado em 20/10 por Daniella Marques, coordenadora econômica da campanha de Flávio, em vídeo de 39 segundos.",
+        "A promessa é devolver parte do que se paga em contas, prestações e taxas, na forma de plano de recompensas, e a proposta seria feita com a Caixa.",
+        "A campanha ainda não informou quais pagamentos seriam contemplados, o percentual de devolução, quem teria direito nem o custo.",
+        "A deputada Erika Hilton (PSOL-SP) disse que o cashback do imposto já está na Lei da Reforma Tributária, que vale a partir de 2027.",
+        "O cashback da reforma (LC 214, de 16/01/2025) é voltado a famílias de baixa renda do CadÚnico, com a devolução da CBS prevista para 2027 e do IBS para 2029; a campanha de Flávio diz que o Vira Pix alcançaria todos os brasileiros."
+      ],
+      "angulo": [
+        "O Vira Pix devolve dinheiro ao bolso de quem paga conta todo mês, e não apenas a quem está no CadÚnico: é uma proposta para a classe média e para o trabalhador.",
+        "A reforma tributária só devolve parte dos tributos a famílias de baixa renda e a partir de 2027 e 2029; o Vira Pix fala com quem sente o aperto agora.",
+        "O programa usa a Caixa e o Pix, ferramentas que já existem e que o brasileiro conhece, o que facilita colocar a ideia em prática."
+      ],
+      "perguntas": [
+        "Como o brasileiro comum vai receber a devolução do Vira Pix no dia a dia?",
+        "Por que um programa que alcança todos faz diferença diante do cashback da reforma tributária, voltado à baixa renda?",
+        "Que gastos do orçamento da família deveriam entrar primeiro: luz, água, aluguel, prestação?"
+      ],
+      "atencao": "Percentual, regras e custo ainda não foram divulgados pela campanha; tratar como proposta.",
+      "fontes": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-anuncia-vira-pix-para-devolver-parte-de-gastos-com-contas/"
+        }
+      ]
+    },
+    {
+      "id": "agu-antifaccao-190",
+      "bloco": "Segurança pública",
+      "titulo": "AGU usa a Lei Antifacção pela primeira vez e pede o confisco de R$ 190,3 milhões ligados a PCC e CV",
+      "subtitulo": "Quatro ações na Justiça Federal do PR, de SP e do RS; confisco depende de decisão judicial",
+      "resumo": "A Advocacia-Geral da União ajuizou na terça (20) quatro ações para recuperar R$ 190,3 milhões em bens de suspeitos ligados ao PCC e ao Comando Vermelho. É a primeira vez que o governo usa a Lei Antifacção, que permite o perdimento civil de bens de origem ilícita sem condenação criminal prévia. Três ações somam R$ 82 milhões e 87 réus, e a quarta pede R$ 108,2 milhões da Operação Hinterland, sobre tráfico de cocaína para a Europa. Quem decide o confisco é a Justiça Federal, e a AGU quer alcançar financiadores, empresas de fachada e familiares. Para o cidadão, o recado é que facção se combate no bolso de quem lucra com o crime.",
+      "metafora": "Prender o soldado do tráfico sem tocar no dinheiro é cortar o galho e deixar a raiz: a facção só seca quando perde o combustível que a financia.",
+      "contexto": [
+        "A AGU ajuizou quatro ações em 20/10, nas Justiças Federais do Paraná, de São Paulo e do Rio Grande do Sul, para recuperar R$ 190,3 milhões.",
+        "Três ações, de PCC, somam R$ 82 milhões e 87 réus, e vêm das operações Marola, Delivery e Contaminatus, sobre contrabando de cigarros paraguaios e agrotóxicos proibidos.",
+        "A quarta ação pede R$ 108,2 milhões, da Operação Hinterland, sobre tráfico internacional de cocaína para a Europa e lavagem de dinheiro.",
+        "A Lei Antifacção, sancionada em março, permite o perdimento civil de bens de origem ilícita sem condenação criminal prévia; a decisão cabe à Justiça.",
+        "A AGU diz que as investigações identificaram movimentações acima de R$ 230 milhões, além de imóveis, aeronaves, veículos de luxo, empresas e pedras preciosas."
+      ],
+      "angulo": [
+        "Atacar o patrimônio é o caminho certo contra o crime organizado: facção que perde dinheiro perde poder de fogo, e o programa deve apoiar a medida.",
+        "O governo demorou meses para usar a lei que o Congresso aprovou; a sociedade quer ver o confisco chegar ao fim, com bens apreendidos de fato.",
+        "Segurança pública é prioridade do eleitor, e a cobrança é por resultados: perdimento, prisão da cúpula e presídios que funcionem."
+      ],
+      "perguntas": [
+        "Quanto desse patrimônio será efetivamente confiscado e quando o dinheiro chega ao Estado?",
+        "A Lei Antifacção alcança a cúpula financeira das facções ou só os operadores de menor nível?",
+        "Por que o governo só usou a lei sete meses depois de sancionada?"
+      ],
+      "atencao": "Os alvos são suspeitos e réus em ações civis; o confisco depende de decisão judicial e ninguém está condenado por esta ação.",
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/agu-usa-lei-antifaccao-pela-1a-vez-para-confiscar-r-190-milhoes-ligados-ao-pcc-e-cv/"
+        }
+      ]
+    },
+    {
+      "id": "queimados-pms-tiros",
+      "bloco": "Rio de Janeiro",
+      "titulo": "PMs atiram contra carro e matam secretário de Queimados na Avenida Brasil, e governo afasta os policiais",
+      "subtitulo": "Jefferson Dias da Silva, 51 anos, morreu na noite de segunda (19); polícia não achou arma nem droga no carro",
+      "resumo": "Jefferson Dias da Silva, o Jefferson da Linave, de 51 anos, secretário de Desenvolvimento Econômico de Queimados e ex-vereador, foi baleado na noite de segunda (19) na Avenida Brasil, perto da Penha, durante uma abordagem da PM. Vídeos mostram policiais atirando contra o carro. O governador em exercício, Ricardo Couto, mandou afastar os PMs envolvidos, e a Divisão de Homicídios investiga. A PM diz que o carro estava em alta velocidade, com pneu danificado, e furou dois bloqueios; a polícia não encontrou arma nem droga no veículo. O caso exige apuração rigorosa e rápida, e a defesa da polícia que age dentro da lei passa por cobrar quem agiu fora dela.",
+      "contexto": [
+        "Jefferson Dias da Silva, 51 anos, secretário de Desenvolvimento Econômico de Queimados e ex-vereador, filiado à Democracia Cristã, foi baleado na noite de 19/10, na Avenida Brasil, perto da Penha.",
+        "Segundo o relatório da PM, o carro estava em alta velocidade, com pneu danificado, e rompeu dois bloqueios; um policial teria atirado no pneu depois de ouvir três tiros, e a perseguição seguiu por cerca de 2 km até o carro bater em um muro.",
+        "O governador em exercício, Ricardo Couto, mandou afastar os PMs envolvidos; os vídeos mostram ao menos dois policiais no local, e o número de afastados não foi informado nas matérias abertas.",
+        "A Divisão de Homicídios investiga quem deu o tiro que matou o secretário; os PMs não foram presos, e as armas foram apreendidas.",
+        "A polícia não encontrou armas nem drogas no carro, e as imagens das câmeras corporais dos policiais estão sob análise."
+      ],
+      "angulo": [
+        "A polícia que enfrenta o crime merece respaldo, e é por isso que casos como este precisam de apuração rápida e transparente: quem age dentro da lei se protege quando o erro é apurado.",
+        "As câmeras corporais já estão ajudando no caso e mostram por que o equipamento é importante para o policial e para o cidadão.",
+        "Ninguém deve ser condenado antes do laudo, mas a família do secretário e a população têm direito a saber quem atirou e por quê."
+      ],
+      "perguntas": [
+        "O que as imagens das câmeras corporais mostram sobre o momento em que o carro foi alvejado?",
+        "O que explica a perseguição de cerca de 2 km e os tiros quando o carro já havia sido atingido no pneu?",
+        "Que protocolo a PM deve seguir em perseguição de veículo que fura bloqueio, para proteger o policial e o motorista?"
+      ],
+      "atencao": "A autoria do tiro que matou o secretário ainda não foi esclarecida; não se sabe se havia mais pessoas no carro. Ninguém foi acusado.",
+      "fontes": [
+        {
+          "name": "O Tempo",
+          "url": "https://www.otempo.com.br/brasil/2026/10/20/pms-envolvidos-em-acao-que-terminou-na-morte-de-secretario-de-queimados-sao-afastados-entenda"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/imagens-mostram-acao-e-pms-sao-afastados-apos-morte-de-secretario-no-rj/"
+        }
+      ]
+    },
+    {
+      "id": "milao-protestos",
+      "bloco": "Internacional",
+      "titulo": "Itália envia mais 500 militares a Milão depois de protestos violentos, e Meloni prepara decreto de segurança",
+      "subtitulo": "Atos por custo de vida começaram em 17/10; grupo de extrema-esquerda promete protestos todo sábado",
+      "resumo": "O governo italiano anunciou na segunda (19) o envio de mais 500 militares a Milão depois de protestos com confrontos, saques e incêndios no fim de semana. A medida foi anunciada pelo vice-premiê Matteo Salvini e deve entrar em um decreto de segurança que o governo de Giorgia Meloni discutiria na terça (20). Os atos começaram no sábado (17) por causa do aumento do custo de vida, com confrontos também em Turim e Bolonha. O Movimento 17 de Outubro, de extrema-esquerda, disse que as mobilizações continuarão todos os sábados \"até a queda deste governo ladrão\" e negou atuação violenta. O presidente Sergio Mattarella condenou a violência, e o caso mostra que protesto legítimo não pode virar saque e depredação.",
+      "contexto": [
+        "Os protestos começaram no sábado (17/10) e tiveram novo dia de violência no domingo (18), em Milão, Turim e Bolonha, com atos também em Roma.",
+        "Salvini anunciou, na segunda (19), mais 500 militares para proteger Milão, dentro de um decreto de segurança que o governo discutiria na terça (20).",
+        "O governo estuda ampliar a operação Strade Sicure, dar a militares algumas funções de polícia judiciária, estender a detenção preventiva para 24 horas e criar o crime de dano qualificado.",
+        "Meloni convocou reunião de emergência na segunda (19) e disse que criminosos se aproveitam de manifestações para buscar confronto; a atuação de grupos de extrema-esquerda é investigada.",
+        "O Movimento 17 de Outubro disse que os atos seguirão todos os sábados e negou atuação violenta; Mattarella afirmou que toda forma de violência é inaceitável."
+      ],
+      "angulo": [
+        "Direito de protestar é uma coisa, quebrar loja e saquear é outra: o Estado que reage com firmeza protege o trabalhador e o comerciante.",
+        "O recado a Meloni é o mesmo que serve ao Brasil: autoridade e lei são pré-condição da liberdade, e quem depreda tem de responder.",
+        "O grupo que promete atos até a queda do governo mostra que há um projeto de pressão política por trás da pauta do custo de vida."
+      ],
+      "perguntas": [
+        "Onde termina o protesto legítimo e começa a baderna que justifica a presença de militares nas ruas?",
+        "O decreto de segurança de Meloni é proporcional ou há risco de excesso no uso das Forças Armadas como polícia?",
+        "O que a Europa do custo de vida em alta ensina ao eleitor brasileiro sobre inflação e segurança?"
+      ],
+      "atencao": "Os números de detidos e feridos variam entre as matérias abertas e não foram usados; o decreto era uma proposta em discussão na terça (20).",
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/mundo/milao-tem-outro-dia-protestos-violentos-grupo-extrema-esquerda-fala-expropriacao-proletaria/"
+        },
+        {
+          "name": "Times Brasil (CNBC)",
+          "url": "https://timesbrasil.com.br/mundo/italia-reforca-seguranca-em-milao-com-envio-de-500-militares-apos-confrontos-em-protestos/"
+        }
+      ]
     }
-   ],
-   "avulsa": true,
-   "pedido": "Lula blefando ao dizer que vai abrir seu sigilo bancário e telefônico. Todos sabem que nada nunca esteve em seu nome. Triplex, sítio de Atibaia e muito mais. Vorcaro mesmo disse que deu 30 milhões em DINHEIRO VIVO por fora para o seu documentário, para poder ter acesso a um fundo de 10 bilhões. E ainda pagaria 1 bilhão de comissão. Além disso. Colocou 1341 sigilos de cem anos em seu governo. Porque ele não abre o sigilo do cartão corporativo, das viagens da janja, das visitas ao Vorcaro no presídio e das pessoas que voaram no jato do Vorcaro?"
-  }
- ],
- "atualizado": "2026-10-20T20:59:11-03:00"
+  ]
 }
