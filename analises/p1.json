@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-20T06:11:15-03:00",
+ "generated": "2026-10-21T06:12:32-03:00",
  "dias": 1,
  "period": {
-  "start": "2026-10-19",
-  "end": "2026-10-19"
+  "start": "2026-10-20",
+  "end": "2026-10-20"
  },
  "compare": "média dos 7 dias anteriores",
- "headline": "Segunda (19/10): sem nenhuma publicação nova, a conta teve 390.031 views (−25% contra a média dos 7 dias anteriores), 5.977 compartilhamentos e 497 comentários.",
+ "headline": "Em 20/10 a conta teve 320.992 views (−36% contra a média da semana anterior), com só 2 posts publicados; o Reel \"Faltam seis dias.\" levou 48.873 views, contra 5.465 da imagem da manhã.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "390 mil",
-   "delta": "−25%",
+   "value": "321 mil",
+   "delta": "−36%",
    "dir": "down"
   },
   {
@@ -28,20 +28,20 @@
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "5.977",
-   "delta": "−38%",
+   "value": "3.866",
+   "delta": "−55%",
    "dir": "down"
   },
   {
    "label": "Comentários recebidos",
-   "value": "497",
-   "delta": "−47%",
+   "value": "365",
+   "delta": "−60,5%",
    "dir": "down"
   },
   {
-   "label": "Salvamentos",
-   "value": "614",
-   "delta": "−44%",
+   "label": "Alcance médio por dia",
+   "value": "101.958",
+   "delta": "−52%",
    "dir": "down"
   }
  ],
@@ -50,45 +50,54 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "Mesmo sem publicação no dia, a conta recebeu 390.031 views, 27.799 curtidas e 614 salvamentos, vindos de posts publicados nos dias anteriores. O alcance médio foi de 193.706 contas, e 27.656 contas interagiram.",
+   "diagnosis": "O Reel \"Faltam seis dias.\" (20h47, 196,1s) foi o destaque do dia: 48.873 views, 1.836 compartilhamentos e 356 salvamentos em 8,5 horas no ar. Foi assistido em média por 40 segundos, com 41% de pulo. Ele concentrou a maior parte das views dos posts do dia.",
    "actions": [
-    "Mantenha o ritmo de publicação dos dias anteriores, porque são esses posts que seguem entregando views.",
-    "Reaproveite nos stories o post mais forte da semana para manter a audiência ativa em dia sem post."
+    "Mantenha um Reel na faixa das 20h às 21h, horário do melhor post do dia.",
+    "Use a contagem regressiva para o 2º turno como gancho nos próximos Reels."
    ],
-   "posts": []
+   "posts": [
+    "DevC0V9s5Cp"
+   ]
   },
   {
    "title": "O que não funcionou",
-   "status": "bad",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "O dia teve só 2 posts e as views da conta ficaram em 320.992, contra 390.292 de média nos 7 dias anteriores. A imagem \"Se Lula é tão bom quanto dizem, cadê os filhos dele…\" (7h59) teve 5.465 views, 139 compartilhamentos e nenhum seguidor atribuído. Ela tinha 21,2 horas no ar, então ainda pode acumular.",
+   "actions": [
+    "Publique mais de 2 posts por dia; a semana anterior teve mais ritmo.",
+    "Confira a imagem de novo em alguns dias antes de tirar conclusões."
+   ],
+   "posts": [
+    "DetrJ4PxqWH"
+   ]
+  },
+  {
+   "title": "Comentários",
+   "status": "warn",
    "status_label": "Atenção",
-   "diagnosis": "Nenhum post foi publicado em 19/10, e todas as métricas ficaram abaixo da média dos 7 dias anteriores: views −25%, compartilhamentos −38%, comentários −47% e salvamentos −44%. A queda de comentários foi a maior entre as quatro.",
+   "diagnosis": "Os comentários somaram 365, contra 497 da média da semana anterior (−60,5%). A imagem das 7h59 teve 27 comentários e o Reel das 20h47 teve 9, apesar de ter 10 vezes mais views. Os compartilhamentos também caíram: 3.866, contra 5.977 (−55%).",
    "actions": [
-    "Evite dia sem publicação durante a semana: programe ao menos um post por dia.",
-    "Deixe um post de opinião pronto na véspera para cobrir dias de pouco tempo."
+    "Feche o Reel com uma pergunta direta para puxar comentários.",
+    "Responda os comentários da imagem nas primeiras horas."
    ],
-   "posts": []
+   "posts": [
+    "DetrJ4PxqWH",
+    "DevC0V9s5Cp"
+   ]
   },
   {
-   "title": "Interação",
+   "title": "Retenção do Reel",
    "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Comentários caíram 47% (497) e a interação por conta caiu 29% (27.656 contas com interação, contra a média da semana). Sem post novo, quase não há o que comentar.",
+   "status_label": "Atenção",
+   "diagnosis": "\"Faltam seis dias.\" tem 196,1 segundos e foi assistido em média por 40 segundos, com 41% de pulo. Mesmo longo, levou 1.836 compartilhamentos. Os dados de seguidores do dia ainda não estão disponíveis, então não dá para ver o que ele trouxe de gente nova.",
    "actions": [
-    "Publique cedo uma imagem de opinião com pergunta no título para abrir o dia com conversa.",
-    "Responda os comentários mais recentes para manter a conversa nos posts anteriores."
+    "Teste um corte de até 60 segundos do mesmo assunto.",
+    "Coloque a frase mais forte nos primeiros segundos."
    ],
-   "posts": []
-  },
-  {
-   "title": "Alcance",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "O alcance médio do dia foi de 193.706 contas, 14% abaixo da média da semana anterior. A queda de alcance foi menor que a de views, o que indica que a audiência segue chegando, mas vendo menos conteúdo.",
-   "actions": [
-    "Acompanhe amanhã se o alcance volta à média com a retomada das publicações.",
-    "Prefira Reels e imagens de opinião no próximo dia útil, formatos que lideraram a semana passada."
-   ],
-   "posts": []
+   "posts": [
+    "DevC0V9s5Cp"
+   ]
   }
  ]
 }
