@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-23",
+  "weekday": "Sex",
+  "generated": "2026-10-22T20:08:56-03:00",
+  "summary": "Sexta de reta final: às 21h20 acontece o último debate entre Lula e Flávio, na Globo, e o segundo turno é domingo. O Datafolha de quinta mostrou 50% a 50% nos votos válidos, e a Receita e o Banco Central divulgaram números que pesam no bolso.",
+  "agenda": [
+    {
+      "time": "21h20",
+      "text": "Debate entre Lula e Flávio na TV Globo, o último antes do segundo turno.",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/como-sera-debate-tv-globo-entre-lula-e-flavio-segundo-turno/"
+      }
+    },
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-50-dos-votos-validos-contra-50-de-lula-diz-datafolha/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de até 30s sobre a última semana de campanha",
+      "options": [
+        {
+          "title": "Governo Lula transferiu R$ 237,8 milhões a projeto de mensagens sem licitação tradicional",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "O Ministério do Desenvolvimento Social, de Wellington Dias, firmou em dezembro de 2023 um termo de fomento com o Iaupe, organização privada de Pernambuco, para o projeto Conexão Cidadã, que dispara mensagens de WhatsApp, SMS e RCS sobre Bolsa Família e outros programas. A parceria começou com R$ 34,5 milhões e foi ampliada cerca de 8 vezes: já foram transferidos R$ 237,8 milhões dos R$ 273,2 milhões previstos. O Iaupe fez ao menos 130 compras por inexigibilidade, sem disputa de preços, e a Microtarget recebeu R$ 110,8 milhões até abril de 2026. Entre agosto e setembro, durante a campanha, o MDS transferiu ao menos R$ 14,9 milhões. O ministério diz que não há irregularidades. A campanha de Flávio pediu ao TSE a cassação da chapa de Lula por disparos em massa em 20/10, e o corregedor negou o pedido.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-governo/governo-lula-gastou-r-238-mi-sem-licitacao-com-zaps-sobre-beneficios/"
+            }
+          ],
+          "hooks": [
+            "R$ 237 milhões para mandar mensagem no seu zap. Sem licitação.",
+            "Começou com 34 milhões. Já foram 237. Quem fiscaliza isso?"
+          ],
+          "script": "R$ 237 milhões. É quanto o governo Lula já transferiu para um projeto que manda mensagem no seu WhatsApp sobre programas do governo. Começou com 34 milhões e foi esticado oito vezes. Foram pelo menos 130 compras sem disputa de preço. E em agosto e setembro, em plena campanha, saíram mais 14 milhões. O ministério diz que não há irregularidade. Então a pergunta é simples: dinheiro do contribuinte, sem licitação, mandando mensagem em ano de eleição. Isso é normal? Responde sim ou não e manda esse vídeo para quem paga imposto.",
+          "screen_text": [
+            "R$ 237,8 milhões",
+            "Começou com R$ 34,5 mi",
+            "130 compras sem disputa",
+            "Isso é normal?"
+          ],
+          "caption": "R$ 237,8 milhões já saíram para um projeto de mensagens do governo, com compras sem disputa de preços. O ministério diz que não há irregularidade. Você acha isso normal? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "O ministério nega irregularidade, e a própria reportagem diz que a comparação de preços não prova sobrepreço. Não use \"desvio\", \"fraude\" nem \"sobrepreço\". Fale de valor, ampliação e ausência de licitação tradicional (termo de fomento permite). A cassação foi negada pelo corregedor; não cite como se fosse acolhida.",
+          "timeline": {
+            "rende": true,
+            "angle": "O termo de fomento de R$ 273 milhões do MDS: como a parceria cresceu oito vezes, o papel das inexigibilidades, a ligação de um fornecedor com a agência de publicidade do ministro da Secom e o que a lei diz sobre propaganda de governo em ano eleitoral."
+          }
+        },
+        {
+          "title": "Datafolha de 22/10 mostra Flávio e Lula com 50% dos votos válidos",
+          "tone": "sóbrio",
+          "duration": "20 a 30s",
+          "fact": "O Datafolha divulgado em 22/10, às 19h15, mostra Flávio Bolsonaro (PL) com 50% e Lula (PT) com 50% dos votos válidos. Nos votos totais, Flávio tem 47% e Lula, 46%. Foram 2.154 entrevistas entre 20 e 22 de outubro, margem de 2 pontos, registro BR-09709/2026. 94% dizem estar totalmente decididos e 6% ainda podem mudar. A rejeição é de 46% para Flávio e 45% para Lula. No primeiro turno, em 4/10, Flávio teve 47,03% dos votos válidos e Lula, 45,16%.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-50-dos-votos-validos-contra-50-de-lula-diz-datafolha/"
+            },
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/politica/datafolha-flavio-bolsonaro-e-lula-empatam-com-50-dos-votos-validos-no-2o-turno/"
+            }
+          ],
+          "hooks": [
+            "Empate. Cinquenta a cinquenta. E agora quem decide é você.",
+            "Faltam dois dias. 6% ainda podem mudar o voto."
+          ],
+          "script": "Cinquenta a cinquenta. É o novo Datafolha. Flávio tem 47% no total, Lula tem 46%, e a diferença cabe na margem de erro. Noventa e quatro por cento dizem que o voto está decidido. Só 6% ainda podem mudar. Ou seja: a eleição vai ser decidida por quem aparece na urna no domingo. Lembra que no primeiro turno o Flávio fez 47% na urna, bem acima do que as pesquisas mostravam? Pesquisa não vota, quem vota é você. Manda esse vídeo para quem ainda está em dúvida se vai votar.",
+          "screen_text": [
+            "Datafolha: 50% x 50%",
+            "94% já decidiram",
+            "Pesquisa não vota",
+            "Domingo: 25/10"
+          ],
+          "caption": "Empate no Datafolha, e quem decide é quem vai votar. Manda esse vídeo para aquele amigo que ainda pensa em não ir à urna.",
+          "risk": "baixo",
+          "risk_note": "Números públicos e checáveis. Não prometa vitória nem diga que o instituto erra de novo; o argumento é só que o voto decide. Cite o resultado do primeiro turno apenas como dado (47,03%), sem acusar o Datafolha. Se sair pesquisa mais nova antes das 19h, atualize o número.",
+          "timeline": {
+            "rende": true,
+            "angle": "Empate técnico a dois dias do segundo turno: o que as pesquisas do segundo turno mostram em conjunto, o peso dos 6% que podem mudar o voto e a mobilização como fator decisivo."
+          },
+          "desdobramento": "Em 22/10, às 19h15, o Datafolha divulgou 50% a 50% nos votos válidos, pesquisa nova que não existia nas pautas e alertas anteriores (Real Time Big Data de 20/10)."
+        }
+      ]
+    },
+    {
+      "time": "21h",
+      "type": "i",
+      "kind": "Imagem com pergunta fechada",
+      "options": [
+        {
+          "title": "Arrecadação federal de setembro bate recorde: R$ 239,4 bilhões",
+          "tone": "contundente",
+          "style": "ilustracao",
+          "fact": "A Receita Federal arrecadou R$ 239,4 bilhões em setembro, o maior valor para o mês desde 1995, alta real de 5,6% sobre setembro de 2025. De janeiro a setembro, o total é de R$ 2,38 trilhões em valores corrigidos, 7% acima do mesmo período de 2025. Entre as explicações estão a alta de tributos pelo governo, como IOF maior sobre crédito e câmbio, volta de impostos sobre combustíveis, reoneração gradual da folha e fim do benefício do Perse, além da alta do petróleo. O dado saiu em 22/10.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/arrecadacao-governo-lula-239-bi-bate-novo-recorde-setembro/"
+            }
+          ],
+          "art_text": [
+            "R$ 239,4 bi",
+            "Recorde de arrecadação em setembro",
+            "E o seu bolso, sentiu?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Lula (presidente), figura central da notícia como chefe do governo que arrecada. Ilustração estilo charge, sem foto real. Risco baixo: Lula só aparece ao lado de um cofre cheio, gesto satírico sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, o presidente Lula, de terno escuro, sorrindo satisfeito ao lado de um cofre enorme e transbordando de notas, com um funil de impostos entrando por cima; ao redor, pequenos contribuintes de costas, de bolsos virados para fora, olhando para o cofre. Ao fundo, a fachada estilizada do Palácio do Planalto. No alto, em letras brancas condensadas e muito pesadas: \"Recorde de arrecadação em setembro\". Ao centro, em um quadro amarelo com número gigante em preto: \"R$ 239,4 bi\". Embaixo, em branco com sublinhado vermelho pincelado: \"E o seu bolso, sentiu?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "A Receita arrecadou R$ 239,4 bilhões em setembro, o maior valor para o mês desde 1995. Imposto maior no crédito, no câmbio e nos combustíveis. Você sentiu isso no bolso? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Dados públicos da Receita. Atribua o aumento às medidas listadas e à alta do petróleo; não diga que o dinheiro foi desviado nem que o governo \"roubou\". A pergunta é sobre o bolso do eleitor.",
+          "timeline": {
+            "rende": true,
+            "angle": "Recorde de arrecadação e déficit projetado: quais impostos subiram desde 2023, quanto isso pesa para a classe média e o pequeno negócio, e o que a oposição propõe sobre carga tributária."
+          }
+        },
+        {
+          "title": "Brasil volta a dever ao exterior mais do que tem em reservas, após 19 anos",
+          "tone": "sóbrio com urgência",
+          "style": "cartaz",
+          "fact": "Segundo o Banco Central, o Brasil passou a ter dívida externa líquida de US$ 5,1 bilhões no segundo trimestre de 2026, deixando a condição de credor líquido que mantinha desde 2007. A dívida externa bruta era de US$ 407,1 bilhões em junho e as reservas, de US$ 402 bilhões. A diferença entre reservas e dívida era de US$ 27,5 bilhões em janeiro de 2023 e chegou perto de US$ 40 bilhões no primeiro trimestre daquele ano; desde então caiu. A reportagem ressalta que isso não significa que o país esteja perto de ficar sem dólares, mas a margem de segurança é menor.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/divida-externa-reservas-credor-liquido/"
+            }
+          ],
+          "art_text": [
+            "19 anos depois",
+            "O Brasil deve ao exterior mais do que tem em reservas",
+            "US$ 407,1 bi de dívida x US$ 402 bi de reservas",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Cartaz só com texto e números sobre fundo escuro texturizado. Sem risco de imagem.",
+          "prompt": "Crie um cartaz vertical 4:5 (1080x1350), estilo gráfico jornalístico, fundo escuro com textura de concreto, sem pessoas. No alto, em letras brancas condensadas e muito pesadas: \"19 anos depois\". Logo abaixo, em branco, letras grandes: \"O Brasil deve ao exterior mais do que tem em reservas\". No centro, dois blocos lado a lado: à esquerda um quadro vermelho com o número em branco \"US$ 407,1 bi\" e o rótulo \"dívida externa\"; à direita um quadro amarelo com o número em preto \"US$ 402 bi\" e o rótulo \"reservas\". Embaixo, uma pergunta em branco com sublinhado vermelho pincelado: \"Isso preocupa você?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Pela primeira vez em 19 anos, o Brasil deve ao exterior mais do que tem em reservas: US$ 407,1 bi contra US$ 402 bi, segundo o Banco Central. Isso preocupa você? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "O dado é do Banco Central (2º tri), mas a própria reportagem diz que não há risco imediato de falta de dólares. Não fale em \"quebra\" nem \"crise cambial\". Evite comparar governos anteriores; o foco é o dado e a pergunta ao público.",
+          "timeline": {
+            "rende": true,
+            "angle": "O fim de 19 anos como credor líquido: o que é dívida externa líquida, por que a folga das reservas encolheu desde 2023 e o que isso muda para câmbio, juros e investimento."
+          }
+        }
+      ]
+    }
+  ]
+}
