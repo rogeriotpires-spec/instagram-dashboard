@@ -2,8 +2,8 @@
  "date": "2026-10-22",
  "generated": "2026-10-22T10:44:07-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Flávio protocola 19 condições para abrir sigilos, Nunes Marques manda apagar 20 publicações e PF acha sala-cofre vazia em hangar de Willer",
- "abertura": "Os sigilos de Lula e de Flávio dominam a reta final, com Flávio aceitando abrir 20 anos dos seus e cobrando de Lula o cartão corporativo, Lulinha e o caso Master. O TSE agiu de novo: Nunes Marques deu três horas para apagar 20 publicações contra Lula, e a decisão reabre o debate sobre liberdade de expressão a quatro dias do voto. A PF achou uma sala-cofre sem dinheiro em hangar ligado a Willer Tomaz, e a perícia é que vai dizer o que ela significa. Ainda entram o orçamento de R$ 1,8 milhão da viagem de Lulinha, o foco de Newcastle que fechou o México ao frango brasileiro e o Enem, que reúne mais de 5 milhões de inscritos.",
+ "titulo": "PT acusa PM de SP de armar flagrante com camisetas de Lula, Flávio protocola 19 condições para abrir sigilos e Nunes Marques manda apagar 20 publicações",
+ "abertura": "Um caso de polícia em Piracicaba virou denúncia eleitoral: a PM prendeu três jovens com 160 porções de cocaína e um revólver, e o PT diz, sem prova apresentada, que as camisetas de Lula foram colocadas pela polícia. A quatro dias do voto, os sigilos de Lula e de Flávio dominam a reta final, com Flávio aceitando abrir 20 anos dos seus e cobrando de Lula o cartão corporativo, Lulinha e o caso Master. O TSE agiu de novo, e Nunes Marques deu três horas para apagar 20 publicações contra Lula. A PF achou uma sala-cofre sem dinheiro em hangar ligado a Willer Tomaz, e ainda entram o orçamento de R$ 1,8 milhão da viagem de Lulinha, o frango brasileiro e o Enem.",
  "agenda": [
   {
    "time": "11h",
@@ -23,6 +23,48 @@
   }
  ],
  "itens": [
+  {
+   "id": "pt-pm-camisetas-piracicaba",
+   "bloco": "Segurança pública",
+   "titulo": "PT aciona Procuradoria Eleitoral e acusa PM de SP de armar flagrante com camisetas de Lula",
+   "subtitulo": "Dois adultos e um adolescente foram detidos em Piracicaba com 160 porções de cocaína e um revólver; PM nega armação",
+   "resumo": "Em operação contra o tráfico na comunidade Vitória Pantanal, em Piracicaba, a PM prendeu dois homens de 21 e 24 anos e apreendeu um adolescente de 17, com 160 porções de cocaína, um revólver e R$ 340. A PM diz que agiu por denúncia anônima, que descrevia três homens de camisa branca alusiva a Lula vendendo droga em um beco. O PT levou o caso à Procuradoria-Geral Eleitoral, falou em armação e fake news e pediu inquérito da PF, sem apresentar prova de que as camisetas foram colocadas pela polícia. A mãe do adolescente diz que o filho vestia uma regata azul, mas admite que ele errou ao se envolver com drogas. A droga e a arma apreendidas são o fato central, e o senador eleito Guilherme Derrite usou o caso para defender a redução da maioridade penal diante do aliciamento de menores pelo tráfico.",
+   "contexto": [
+    "A operação foi na quarta (21), do 10º BPM/I e do Baep, na comunidade Vitória Pantanal, perto da Rua Senador Saraiva, em Piracicaba.",
+    "Dois adultos foram presos em flagrante e um adolescente foi apreendido; o caso foi registrado como tráfico, porte ilegal de arma de uso restrito e ato infracional.",
+    "As camisetas são da Apeoesp, sindicato de professores que participou naquela manhã de um ato pró-Lula na Esalq/USP.",
+    "O PT acionou a Procuradoria-Geral Eleitoral na noite de quarta e pediu que a PF investigue fraude eleitoral e a origem das imagens.",
+    "A assessoria de Derrite diz que a publicação no Instagram buscava mostrar o aliciamento de jovens pelo tráfico e que o post não citava as camisetas. A SSP diz que não tolera desvios e que não havia registro de queixas sobre o episódio."
+   ],
+   "angulo": [
+    "O fato é tráfico: 160 porções de cocaína e um revólver com três pessoas, sendo um menor de idade. É isso que a polícia apreendeu, e é isso que deveria render a pergunta pública sobre quem recruta adolescentes.",
+    "A acusação de armação é do PT e de uma mãe, sem prova apresentada até agora. A pergunta que cabe ao partido é por que levou à Justiça Eleitoral, a quatro dias do segundo turno, um caso de polícia.",
+    "O caso reforça o argumento de Derrite: o adolescente de 17 anos estava com droga e a lei trata o traficante menor de idade como se nada pudesse ser feito. É o debate da maioridade penal.",
+    "Se houve abuso de algum policial, que a Corregedoria e a Ouvidoria apurem com o que existir de prova. Uma denúncia eleitoral não substitui a investigação do caso."
+   ],
+   "perguntas": [
+    "Se a droga e a arma são reais, por que o PT concentrou a reação nas camisetas e não no aliciamento de um adolescente?",
+    "Qual prova existe de que a polícia vestiu os jovens, além da palavra da mãe e do partido?",
+    "O caso de Piracicaba mostra que está na hora de reduzir a maioridade penal para quem integra o tráfico?"
+   ],
+   "atencao": "A acusação de que a PM forjou o flagrante é do PT e da mãe do adolescente e não foi comprovada; os três detidos são suspeitos, e o adolescente é menor de idade, sem identificação.",
+   "fontes": [
+    {
+     "name": "Metrópoles (denúncia do PT)",
+     "url": "https://www.metropoles.com/sao-paulo/pt-denuncia-a-justica-suspeita-em-acao-da-pm-de-sp-armacao-e-fake-news"
+    },
+    {
+     "name": "Metrópoles (versão da PM e da mãe)",
+     "url": "https://www.metropoles.com/sao-paulo/pm-apreende-jovens-com-camiseta-de-lula-mas-mae-diz-que-flagra-foi-forjado"
+    },
+    {
+     "name": "Diário do Estado (mãe contesta a PM)",
+     "url": "https://diarioesp.com.br/politica/2026/10/21/mae-contesta-versao-da-pm-sobre-camiseta-de-lula-em-operacao-em-piracicaba.html"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "https://www.metropoles.com/sao-paulo/pt-denuncia-a-justica-suspeita-em-acao-da-pm-de-sp-armacao-e-fake-news"
+  },
   {
    "id": "sigilo-reciprocidade",
    "bloco": "Política nacional",
@@ -238,5 +280,6 @@
    ]
   }
  ],
- "excluidos": []
+ "excluidos": [],
+ "atualizado": "2026-10-22T11:00:04-03:00"
 }
