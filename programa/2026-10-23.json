@@ -272,38 +272,6 @@
    "pedido": "Professora é afastada após comentários sobre Flávio e fascismo em sala de aula https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNnhZZTRzMm5IdEV6c1l2VzdSNmhzdWxNY3ZLQVJoUmFmSEc1U3BndGplR3hnWDJaNFVoZm9SaWxIMWllemFnNUNfRFpNbHhqR3JCdERTaDVuLXJlZHoxYTZ3UDBQaW1NWHdnRnZEOXJVeVl6am5Ncm1rS1BIR1M4Tkp6TS1MVDJiaGhGbExJN2xfMFgzTTB5emt1bGtCcjFSa2VtOFh2MEtlcmM?oc=5"
   },
   {
-   "id": "datafolha-empate",
-   "bloco": "Política nacional",
-   "titulo": "Datafolha mostra Flávio 47% e Lula 46% e empate em 50% a 50% nos válidos",
-   "subtitulo": "É a última pesquisa antes do voto de domingo, com margem de erro de 2 pontos e 94% dos eleitores decididos",
-   "resumo": "O Datafolha divulgado na quinta (22) tem Flávio Bolsonaro com 47% e Lula com 46% nos votos totais, e 50% a 50% nos válidos. Nos válidos, Flávio vinha de 52% em 8 de outubro e 51% em 15 de outubro, enquanto Lula subia de 48% para 49% e agora 50%. A diferença de um ponto está dentro da margem de erro de 2 pontos, o que é empate técnico. O dado que o programa precisa explicar com calma é que 94% dizem estar totalmente decididos e só 6% ainda podem mudar o voto. Quem vai às urnas no domingo é quem decide, e não a pesquisa, que no primeiro turno chegou a mostrar Flávio com 42% dos válidos quando ele teve 47,03% nas urnas.",
-   "metafora": "Pesquisa é a foto do dia, não o resultado do jogo: quem decide é o placar de domingo.",
-   "contexto": [
-    "Datafolha divulgado em 22/10, a três dias do segundo turno (domingo, 25/10): Flávio 47%, Lula 46% nos totais.",
-    "Nos válidos, empate em 50% a 50%; na rodada anterior, de 15/10, era 51% a 49% para Flávio.",
-    "Brancos e nulos somam 5% e indecisos 2%; margem de erro de 2 pontos.",
-    "No primeiro turno, a última Datafolha deu Flávio 42% dos válidos; o resultado oficial foi 47,03%, contra 45,16% de Lula.",
-    "Nova Datafolha está prevista para sábado, 24/10."
-   ],
-   "angulo": [
-    "O empate técnico mostra que a eleição está aberta e que a mobilização até domingo vale mais que qualquer número de pesquisa.",
-    "O histórico do primeiro turno, em que Flávio superou a pesquisa em cerca de 5 pontos, mostra por que o programa não trata o placar como sentença.",
-    "Com 94% de eleitores decididos, o voto de quem ainda duvida e o comparecimento ao local de votação são o que resta em jogo."
-   ],
-   "perguntas": [
-    "O que o empate em 50% a 50% muda no tom dos candidatos nos últimos dias de campanha?",
-    "Pesquisas erraram no primeiro turno: quanto o eleitor deve confiar nelas agora?",
-    "Quem são os 6% que ainda podem mudar o voto e o que os convence?"
-   ],
-   "atencao": "Os veículos divulgam números diferentes de rejeição e de tamanho da amostra; use só os totais e válidos até sair o relatório completo.",
-   "fontes": [
-    {
-     "name": "Quenty (resumo da Datafolha de 20 a 22/10)",
-     "url": "https://quenty.com.br/resumo/23-outubro-2026/pesquisa-datafolha-2-turno-presidente-20-a-22-de-outubro"
-    }
-   ]
-  },
-  {
    "id": "zaps-238mi",
    "bloco": "Política nacional",
    "titulo": "Governo Lula repassou R$ 238 milhões sem licitação para zaps sobre benefícios",
@@ -398,6 +366,11 @@
    ]
   }
  ],
- "excluidos": [],
+ "excluidos": [
+  {
+   "titulo": "Datafolha mostra Flávio 47% e Lula 46% e empate em 50% a 50% nos válidos",
+   "em": "2026-10-23T10:58:44-03:00"
+  }
+ ],
  "atualizado": "2026-10-23T10:58:07-03:00"
 }
