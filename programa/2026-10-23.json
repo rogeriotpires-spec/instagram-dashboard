@@ -2,8 +2,8 @@
   "date": "2026-10-23",
   "generated": "2026-10-23T10:24:38-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Neymar declara voto em Flávio, Joice vota em Lula e a Polícia do DF já descartou agressão em 2021, Datafolha empata em 50% a 50% e Mendonça libera sigilos",
-  "abertura": "Neymar declarou voto em Flávio Bolsonaro com um comentário de uma linha que passou de 472 mil curtidas, e o programa mostra o que isso diz sobre o voto jovem. Joice Hasselmann anunciou voto em Lula e repetiu uma acusação a Bolsonaro, e a resposta é o registro da polícia de 2021. A três dias do segundo turno, o Datafolha traz Flávio com 47% e Lula com 46%, e empate em 50% a 50% nos válidos. A decisão de Mendonça diz que cada candidato pode abrir os próprios sigilos, e entram ainda os R$ 238 milhões em zaps do governo, o parecer da PGR sobre as visitas ao Senado, o alerta de Nardes sobre a Previdência e a urgência na Alerj contra CV e PCC.",
+  "titulo": "Neymar declara voto em Flávio, Lula aciona o TSE contra o alcance de Nikolas, Mendonça libera sigilos e mensagens indicam uísque de R$ 500 mil de Vorcaro para Lula",
+  "abertura": "Neymar declarou voto em Flávio Bolsonaro com um comentário de uma linha que passou de 472 mil curtidas, e Joice Hasselmann anunciou voto em Lula e repetiu uma acusação que a polícia descartou em 2021. A campanha de Lula acionou o TSE contra o alcance de Nikolas Ferreira e quer tirar do registro o canal de Janones, do qual o próprio Lula agora é administrador. Mendonça decidiu que cada candidato pode abrir os próprios sigilos, e o parecer da PGR mantém fechadas as visitas de Vorcaro e da mulher de Moraes ao Senado. Mensagens de Vorcaro indicam uísque de R$ 500 mil para Lula, a três dias do segundo turno, em que o Datafolha mostra Flávio 47% e Lula 46%.",
   "agenda": [],
   "itens": [
     {
@@ -89,6 +89,148 @@
       "pedido": "Assunto em alta no X: Joice. Joice Hasselmann declarou voto em Lula no segundo turno e disse que \"Bolsonaro tentou me matar\". Como usar: Rebater com fato e contextualizar a declaração, sem dar palco à acusação. https://x.com/search?q=Joice"
     },
     {
+      "id": "tse-meta-janones",
+      "bloco": "STF e instituições",
+      "titulo": "Lula aciona TSE contra alcance de Nikolas e quer o canal de Janones fora do registro",
+      "subtitulo": "A campanha pede dados da Meta sobre o perfil desde 16 de agosto; Lula já é administrador do canal que ela diz não ter vínculo com a campanha",
+      "resumo": "A campanha de Lula acionou o TSE contra a Meta para questionar o alcance das publicações do deputado Nikolas Ferreira, que tem cerca de 22,9 milhões de seguidores no Instagram. Ela pede que a Meta preserve os dados de moderação do perfil desde 16 de agosto e diga se os critérios de redução de alcance valem igualmente para Lula e Flávio. Na quinta (22), a defesa de Lula também pediu ao ministro André Mendonça que retire do registro da candidatura o endereço do canal \"Exército do Lula\", alegando que não há vínculo formal com a campanha. O canal foi criado e é administrado pelo deputado André Janones, que no mesmo dia anunciou que Lula passou a ser administrador, com uma mensagem \"cheguei\" atribuída ao presidente. A campanha de Flávio pede que o TSE rejeite a retirada e declare o canal vinculado à candidatura de Lula, com as obrigações que isso traz.",
+      "contexto": [
+        "Em 14/10, a campanha de Lula pediu ao TSE que a Meta informe a origem das visualizações de Nikolas e confirme se os critérios de limitação de conteúdo político valem igualmente para Lula e Flávio.",
+        "A petição cita que Nikolas tem cerca de 22,9 milhões de seguidores no Instagram e média de 40 milhões de visualizações, e pede tutela de urgência.",
+        "Em 22/10, a defesa de Lula pediu a Mendonça o \"cancelamento da anotação\" do canal \"Exército do Lula\" no sistema de candidaturas da Justiça Eleitoral.",
+        "O endereço do canal entrou no registro depois que Nunes Marques exigiu comunicação formal à Justiça Eleitoral; a campanha diz que fez isso só para o canal voltar a funcionar.",
+        "Janones diz ser criador, dono e único administrador do canal; no mesmo dia anunciou Lula como administrador."
+      ],
+      "angulo": [
+        "A campanha de Lula quer que a Justiça Eleitoral fiscalize o alcance de um deputado da oposição, e o programa deve mostrar que o alcance de Nikolas vem de audiência, não de favor de plataforma.",
+        "Com Lula como administrador do canal e uma mensagem \"cheguei\" em seu nome, fica difícil sustentar que o canal não tem ligação com a campanha.",
+        "O programa deve cobrar da campanha de Lula as mesmas regras que ela pede para os outros: se o canal fala em nome do candidato, responde por ele."
+      ],
+      "perguntas": [
+        "Qual critério deve valer para medir o alcance de um perfil político sem tratar audiência como irregularidade?",
+        "Se Lula é administrador do canal, o que ainda sustenta a tese de que não há vínculo com a campanha?",
+        "Que responsabilidade a campanha deve assumir pelo que um canal ligado ao candidato publica?"
+      ],
+      "atencao": "O pedido original citava prazo de 12 horas à Meta, que não encontrei confirmado nas matérias; o tratamento desigual é alegação da campanha de Lula, não decisão do TSE, e o pedido sobre o canal ainda não foi julgado.",
+      "fontes": [
+        {
+          "name": "Correio da Manhã",
+          "url": "https://www.correiodamanha.com.br/politica/2026/10/327021-lula-aciona-tse-contra-meta-e-questiona-alcance-de-nikolas-ferreira.html"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-pede-ao-tse-retirada-do-exercito-do-lula-de-registro-da-campanha/"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "TSE dá 12 horas à Meta sobre o alcance de perfil de Nikolas, e Lula pede a retirada do canal de Janones do registro da campanha"
+    },
+    {
+      "id": "gonet-visitas-senado",
+      "bloco": "STF e instituições",
+      "titulo": "PGR dá parecer contra divulgar visitas de Vorcaro e da mulher de Moraes ao Senado",
+      "subtitulo": "Gonet pede que o STF rejeite a ação de um vereador de Curitiba; relator é Luiz Fux",
+      "resumo": "O procurador-geral Paulo Gonet recomendou na quinta (22) que o STF rejeite o pedido para divulgar os registros de entrada e saída do Senado de Daniel Vorcaro e de Viviane Barci de Moraes, mulher do ministro Alexandre de Moraes. O pedido, feito pelo vereador de Curitiba Guilherme Kilter, cobre de fevereiro de 2019 a fevereiro de 2026 e inclui oito pessoas, entre elas Lulinha e Frei Chico. Gonet alegou que o STF não tem competência, que não há violação de direito individual e que mandado de segurança não serve para interesse coletivo genérico. O parecer é processual e não analisa se as visitas ocorreram. A decisão cabe a Luiz Fux, e o público quer saber por que o sigilo protege justamente quem está no centro do caso Master.",
+      "contexto": [
+        "Parecer da PGR de 22/10, no mandado de segurança do vereador Guilherme Kilter, relatado por Luiz Fux.",
+        "Pedido: registros de fevereiro de 2019 a fevereiro de 2026 de oito pessoas, incluindo Vorcaro, Viviane Barci de Moraes, Lulinha e Frei Chico.",
+        "O Senado negou com base na Lei de Acesso à Informação, alegando dados pessoais e risco de expor fontes e agendas de parlamentares.",
+        "Gonet sustenta que a negativa veio de setores administrativos e não do presidente do Senado, e por isso o STF não seria competente.",
+        "O parecer não analisa se as pessoas de fato visitaram o Senado; a decisão cabe a Fux."
+      ],
+      "angulo": [
+        "Transparência sobre quem entra no Senado é interesse público, principalmente quando o nome é o do banqueiro do caso Master.",
+        "O parecer se apoia em formalidade e não enfrenta a pergunta de fundo: por que esses registros precisam ficar escondidos?",
+        "Lulinha e a mulher de Moraes estarem na mesma lista reforça a cobrança por abertura, e o Supremo deve decidir com clareza."
+      ],
+      "perguntas": [
+        "Um parecer só com argumento processual responde à demanda de transparência?",
+        "O que o Senado teria a perder ao divulgar os registros de visita?",
+        "Qual deve ser o limite entre privacidade de visitantes e interesse público no caso Master?"
+      ],
+      "fontes": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/colunistas/bruno-pinheiro/gonet-defende-barrar-acesso-a-registros-de-visitas-de-vorcaro-e-mulher-de-moraes-ao-senado/"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "PGR dá parecer contra divulgar registros de visitas de Vorcaro e da mulher de Moraes ao Senado",
+      "fundido": [
+        "PGR dá parecer contra divulgar registros de visitas de Vorcaro e da mulher de Moraes ao Senado"
+      ]
+    },
+    {
+      "id": "mendonca-sigilos",
+      "bloco": "STF e instituições",
+      "titulo": "Mendonça decide que o TSE não divulga sigilos e que Lula e Flávio podem abri-los por ato próprio",
+      "subtitulo": "Decisão de quinta (22) não fixa prazo nem obriga a divulgação; investigações seguem com os órgãos competentes",
+      "desdobramento": "Na quinta (22), André Mendonça decidiu que cabe a cada candidato abrir os próprios sigilos, sem decisão judicial.",
+      "resumo": "O ministro André Mendonça decidiu na noite de quinta (22) que não cabe ao TSE decidir sobre a divulgação dos sigilos de Lula e de Flávio. Para ele, o sigilo existe para proteger o titular, que pode abrir mão dele quando quiser, sem decisão judicial. Candidatos e as pessoas e empresas citadas ficam autorizados a divulgar por ato próprio os dados de que são titulares. Extratos, declarações de Imposto de Renda e registros de ligações podem ser obtidos pelo próprio interessado nos bancos, na Receita e nas operadoras. Em resumo, nada impede Lula de abrir tudo agora, inclusive o cartão corporativo, e a decisão tira do governo a desculpa de esperar a Justiça.",
+      "contexto": [
+        "O desafio nasceu no debate da Band, em 18/10; na terça (20) Lula protocolou o pedido no TSE.",
+        "A defesa de Flávio aceitou abrir os dados com condições, entre elas os dados de Marcola, ex-chefe de gabinete de Lula; Lula aceitou, mas cobrou a offshore Alcazar Holdings.",
+        "Mendonça: \"O que se quiser divulgar é escolha de cada um, e avaliar essa escolha cabe ao eleitor\".",
+        "Gastos com recursos públicos, como o cartão corporativo, podem ter o sigilo revisto pela própria autoridade, com imediata publicidade.",
+        "A decisão ressalva que a abertura voluntária não substitui as investigações sob controle judicial.",
+        "Na manhã de 22/10, a campanha de Lula entregou documentos ao TSE; a defesa de Flávio disse que avaliaria se estão completos para apresentar os dados dele."
+      ],
+      "angulo": [
+        "A decisão derruba o argumento de que dependia do TSE: quem quer transparência abre agora, e Flávio já se disse disposto a abrir 20 anos dos seus.",
+        "O ponto mais simples de cumprir é o do dinheiro público: o cartão corporativo da Presidência pode ser aberto por ordem da própria autoridade.",
+        "Cabe ao eleitor avaliar quem abre e quem enrola, e o programa deve cobrar de Lula as condições que ele ainda não cumpriu."
+      ],
+      "perguntas": [
+        "Se não há mais obstáculo judicial, o que impede Lula de abrir o cartão corporativo hoje?",
+        "O que o eleitor deve concluir de quem abre tudo e de quem só abre parte?",
+        "As investigações do STF sobre Willer Tomaz e a Alcazar Holdings têm algo a ver com essa cobrança?"
+      ],
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-diz-que-lula-e-flavio-podem-abrir-sigilos-sem-aval-do-tse/"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Mendonça decide que o TSE não divulga os sigilos de Lula e Flávio, e que os dois podem abri-los por ato próprio",
+      "fundido": [
+        "Mendonça decide que o TSE não divulga os sigilos de Lula e Flávio, e que os dois podem abri-los por ato próprio"
+      ]
+    },
+    {
+      "id": "vorcaro-uisque",
+      "bloco": "Política nacional",
+      "titulo": "Mensagens de Vorcaro indicam uísque de R$ 500 mil para presentear Lula",
+      "subtitulo": "Conversas de outubro de 2024 citam garrafa Macallan 1945 vinda de Dubai; Planalto nega que Lula tenha recebido presente",
+      "resumo": "Mensagens do celular de Daniel Vorcaro, publicadas pela Veja, indicam que em 29 de outubro de 2024 ele mandou procurar uma garrafa de Macallan 1945 e escreveu \"Preciso dar pro Lula\". A garrafa custava cerca de R$ 500 mil, perto de 80 mil euros na época, e viria de Dubai. Em janeiro de 2025, o advogado Walfrido Warde escreveu que o presidente agradeceu pelo uísque e mandou um abraço. O encontro de Lula com Vorcaro no Planalto, em 4 de dezembro de 2024, aconteceu fora da agenda oficial. O Planalto nega que Lula tenha recebido o presente, e Lula disse na Band: \"Se me deu whisky, já bebi\".",
+      "contexto": [
+        "29/10/2024: Vorcaro pede a um assistente a garrafa de Macallan 1945 e autoriza a compra depois de ver a imagem de uma unidade.",
+        "O valor era de cerca de 80 mil euros, equivalente a uns R$ 500 mil na época; o envio seria de Dubai para o Brasil.",
+        "04/12/2024: encontro entre Lula e Vorcaro no Palácio do Planalto, fora da agenda oficial.",
+        "Janeiro de 2025: Warde escreve a Vorcaro que o presidente agradeceu pelo uísque.",
+        "O Planalto diz que Lula encontrou Vorcaro uma única vez e nega que tenha recebido presente."
+      ],
+      "angulo": [
+        "Um presente de meio milhão de reais de um banqueiro hoje investigado levanta uma pergunta que o presidente precisa responder com clareza, e não com a brincadeira de que \"já bebeu\".",
+        "Lula cobra transparência de adversários e fala em sigilos, mas ainda não explicou por que um encontro com Vorcaro ficou fora da agenda oficial.",
+        "A três dias do segundo turno, o eleitor tem o direito de saber o que o presidente recebeu e de quem."
+      ],
+      "perguntas": [
+        "Por que o encontro de dezembro de 2024 ficou fora da agenda oficial?",
+        "Lula vai dizer com clareza se recebeu ou não a garrafa, em vez de responder com ironia?",
+        "Que regras valem para presentes de valor tão alto a um presidente da República?"
+      ],
+      "atencao": "Não há prova de que a garrafa tenha chegado a Lula: a confirmação vem de mensagem de terceiro. Vorcaro é investigado na Operação Compliance Zero e não há condenação ligada ao presente.",
+      "fontes": [
+        {
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/politica/preciso-dar-pro-lula-mensagem-de-vorcaro-revela-encomenda-de-uisque-de-r-500-mil-para-presentear-o-presidente/"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Mensagens indicam que Vorcaro escolheu um uísque de R$ 500 mil para presentear Lula"
+    },
+    {
       "id": "datafolha-empate",
       "bloco": "Política nacional",
       "titulo": "Datafolha mostra Flávio 47% e Lula 46% e empate em 50% a 50% nos válidos",
@@ -121,37 +263,6 @@
       ]
     },
     {
-      "id": "mendonca-sigilos",
-      "bloco": "STF e instituições",
-      "titulo": "Mendonça decide que o TSE não divulga sigilos e que Lula e Flávio podem abri-los por ato próprio",
-      "subtitulo": "Decisão de quinta (22) não fixa prazo nem obriga a divulgação; investigações seguem com os órgãos competentes",
-      "desdobramento": "Na quinta (22), André Mendonça decidiu que cabe a cada candidato abrir os próprios sigilos, sem decisão judicial.",
-      "resumo": "O ministro André Mendonça decidiu na noite de quinta (22) que não cabe ao TSE decidir sobre a divulgação dos sigilos de Lula e de Flávio. Para ele, o sigilo existe para proteger o titular, que pode abrir mão dele quando quiser, sem decisão judicial. Candidatos e as pessoas e empresas citadas ficam autorizados a divulgar por ato próprio os dados de que são titulares. Extratos, declarações de Imposto de Renda e registros de ligações podem ser obtidos pelo próprio interessado nos bancos, na Receita e nas operadoras. Em resumo, nada impede Lula de abrir tudo agora, inclusive o cartão corporativo, e a decisão tira do governo a desculpa de esperar a Justiça.",
-      "contexto": [
-        "O desafio nasceu no debate da Band, em 18/10; na terça (20) Lula protocolou o pedido no TSE.",
-        "A defesa de Flávio aceitou abrir os dados com condições, entre elas os dados de Marcola, ex-chefe de gabinete de Lula; Lula aceitou, mas cobrou a offshore Alcazar Holdings.",
-        "Mendonça: \"O que se quiser divulgar é escolha de cada um, e avaliar essa escolha cabe ao eleitor\".",
-        "Gastos com recursos públicos, como o cartão corporativo, podem ter o sigilo revisto pela própria autoridade, com imediata publicidade.",
-        "A decisão ressalva que a abertura voluntária não substitui as investigações sob controle judicial."
-      ],
-      "angulo": [
-        "A decisão derruba o argumento de que dependia do TSE: quem quer transparência abre agora, e Flávio já se disse disposto a abrir 20 anos dos seus.",
-        "O ponto mais simples de cumprir é o do dinheiro público: o cartão corporativo da Presidência pode ser aberto por ordem da própria autoridade.",
-        "Cabe ao eleitor avaliar quem abre e quem enrola, e o programa deve cobrar de Lula as condições que ele ainda não cumpriu."
-      ],
-      "perguntas": [
-        "Se não há mais obstáculo judicial, o que impede Lula de abrir o cartão corporativo hoje?",
-        "O que o eleitor deve concluir de quem abre tudo e de quem só abre parte?",
-        "As investigações do STF sobre Willer Tomaz e a Alcazar Holdings têm algo a ver com essa cobrança?"
-      ],
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/mendonca-diz-que-lula-e-flavio-podem-abrir-sigilos-sem-aval-do-tse/"
-        }
-      ]
-    },
-    {
       "id": "zaps-238mi",
       "bloco": "Política nacional",
       "titulo": "Governo Lula repassou R$ 238 milhões sem licitação para zaps sobre benefícios",
@@ -179,36 +290,6 @@
         {
           "name": "Poder360",
           "url": "https://www.poder360.com.br/poder-governo/governo-lula-gastou-r-238-mi-sem-licitacao-com-zaps-sobre-beneficios/"
-        }
-      ]
-    },
-    {
-      "id": "gonet-visitas-senado",
-      "bloco": "STF e instituições",
-      "titulo": "PGR dá parecer contra divulgar visitas de Vorcaro e da mulher de Moraes ao Senado",
-      "subtitulo": "Gonet pede que o STF rejeite a ação de um vereador de Curitiba; relator é Luiz Fux",
-      "resumo": "O procurador-geral Paulo Gonet recomendou na quinta (22) que o STF rejeite o pedido para divulgar os registros de entrada e saída do Senado de Daniel Vorcaro e de Viviane Barci de Moraes, mulher do ministro Alexandre de Moraes. O pedido, feito pelo vereador de Curitiba Guilherme Kilter, cobre de fevereiro de 2019 a fevereiro de 2026 e inclui oito pessoas, entre elas Lulinha e Frei Chico. Gonet alegou que o STF não tem competência, que não há violação de direito individual e que mandado de segurança não serve para interesse coletivo genérico. O parecer é processual e não analisa se as visitas ocorreram. A decisão cabe a Luiz Fux, e o público quer saber por que o sigilo protege justamente quem está no centro do caso Master.",
-      "contexto": [
-        "Parecer da PGR de 22/10, no mandado de segurança do vereador Guilherme Kilter, relatado por Luiz Fux.",
-        "Pedido: registros de fevereiro de 2019 a fevereiro de 2026 de oito pessoas, incluindo Vorcaro, Viviane Barci de Moraes, Lulinha e Frei Chico.",
-        "O Senado negou com base na Lei de Acesso à Informação, alegando dados pessoais e risco de expor fontes e agendas de parlamentares.",
-        "Gonet sustenta que a negativa veio de setores administrativos e não do presidente do Senado, e por isso o STF não seria competente.",
-        "O parecer não analisa se as pessoas de fato visitaram o Senado."
-      ],
-      "angulo": [
-        "Transparência sobre quem entra no Senado é interesse público, principalmente quando o nome é o do banqueiro do caso Master.",
-        "O parecer se apoia em formalidade e não enfrenta a pergunta de fundo: por que esses registros precisam ficar escondidos?",
-        "Lulinha e a mulher de Moraes estarem na mesma lista reforça a cobrança por abertura, e o Supremo deve decidir com clareza."
-      ],
-      "perguntas": [
-        "Um parecer só com argumento processual responde à demanda de transparência?",
-        "O que o Senado teria a perder ao divulgar os registros de visita?",
-        "Qual deve ser o limite entre privacidade de visitantes e interesse público no caso Master?"
-      ],
-      "fontes": [
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/colunistas/bruno-pinheiro/gonet-defende-barrar-acesso-a-registros-de-visitas-de-vorcaro-e-mulher-de-moraes-ao-senado/"
         }
       ]
     },
@@ -277,5 +358,5 @@
     }
   ],
   "excluidos": [],
-  "atualizado": "2026-10-23T10:53:05-03:00"
+  "atualizado": "2026-10-23T10:56:07-03:00"
 }
