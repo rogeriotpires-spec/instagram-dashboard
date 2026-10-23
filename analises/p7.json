@@ -1,111 +1,113 @@
 {
-  "generated": "2026-10-22T06:12:11-03:00",
-  "dias": 7,
-  "period": {
-    "start": "2026-10-14",
-    "end": "2026-10-20"
+ "generated": "2026-10-23T06:11:11-03:00",
+ "dias": 7,
+ "period": {
+  "start": "2026-10-14",
+  "end": "2026-10-20"
+ },
+ "compare": "2026-10-07 a 2026-10-13",
+ "headline": "Nos 7 dias até 20/10 as views foram 3.495.313 (+6%) e os comentários 6.443 (+72%); os Reels (mediana de 41.249 views) ficaram à frente das imagens (9.267), mas os compartilhamentos caíram 28%.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "3,5 mi",
+   "delta": "+6%",
+   "dir": "up"
   },
-  "compare": "2026-10-07 a 2026-10-13",
-  "headline": "Entre 14 e 20/10 a conta teve 3,5 mi de views (+6%) e 3.187 novos seguidores (+16%), com os Reels da noite no topo e os comentários 72% acima da semana anterior.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "3,5 mi",
-      "delta": "+6%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "3.187",
-      "delta": "+16%",
-      "dir": "up"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "150",
-      "delta": "−7%",
-      "dir": "up"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "51,5 mil",
-      "delta": "−28%",
-      "dir": "down"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "6.443",
-      "delta": "+72%",
-      "dir": "up"
-    },
-    {
-      "label": "Contas com interação por dia",
-      "value": "37.006",
-      "delta": "+32%",
-      "dir": "up"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Os melhores posts foram Reels da noite: \"Hispanic Heritage Gala 2026\" (21h36) com 326.280 views e 2.996 compartilhamentos, \"Complete a frase abaixo\" (18h29) com 212.225 views e \"Faltam seis dias.\" (20h47) com 111.367. Os 8 Reels tiveram mediana de 64.251 views, contra 9.267 das 7 imagens. A mediana de views das 21h foi 211.194.",
-      "actions": [
-        "Publique um Reel por dia entre 18h e 21h30.",
-        "Repita a estrutura de \"Faltam seis dias.\", que teve 4.259 compartilhamentos.",
-        "Use a imagem das 21h como segundo post do dia."
-      ],
-      "posts": [
-        "DefrVOZMUGw",
-        "DekfWuXNS39",
-        "DevC0V9s5Cp"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Evitar",
-      "diagnosis": "O Reel \"O PROFESSOR É UMA AMEAÇA!\" teve 796 views e a imagem \"A Globo demitiu o diretor-geral\" teve 1.779. As imagens de manhã tiveram mediana de 5.523 views às 8h e 6.455 às 7h, bem abaixo das noturnas. Foram 15 publicações contra 22 na semana anterior.",
-      "actions": [
-        "Evite repassar notícia sem opinião, como o post da Globo.",
-        "Teste a imagem principal à noite em vez de às 7h ou 8h.",
-        "Revise o gancho dos Reels com título em caixa alta e sem pergunta."
-      ],
-      "posts": [
-        "Deh8WzvtR28",
-        "DejZbguNSy6",
-        "DetrJ4PxqWH"
-      ]
-    },
-    {
-      "title": "Comentários e compartilhamentos",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os comentários subiram para 6.443 (+72%), puxados por \"Hispanic Heritage Gala - Washington DC\" (216) e \"Complete a frase abaixo\" (85). Já os compartilhamentos caíram para 51,5 mil (−28%) e os salvamentos para 6.536 (−11%). Houve mais conversa e menos repasse.",
-      "actions": [
-        "Termine os posts com uma pergunta para manter os comentários.",
-        "Repita o formato de reação direta que gerou mais compartilhamentos, como \"Faltam seis dias.\"."
-      ],
-      "posts": [
-        "DefYvipjdwR",
-        "DekfWuXNS39",
-        "DevC0V9s5Cp"
-      ]
-    },
-    {
-      "title": "Seguidores",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "Foram 3.187 novos seguidores (+16%) e 150 saídas (−7%). A imagem \"Estar diante do túmulo do professor Olavo de Carvalho\" (sáb, 10h48) trouxe 99 seguidores com 49.670 views. \"Você conhece alguém que prometeu acabar com SIGILOS?\" (21h) trouxe 26 seguidores com 96.108 views.",
-      "actions": [
-        "Publique mais imagens de opinião em tom pessoal, como a do sábado.",
-        "Mantenha a imagem de pergunta às 21h."
-      ],
-      "posts": [
-        "DemP7GNt_P7",
-        "Deh_rUstC5a"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "3.187",
+   "delta": "+16%",
+   "dir": "up"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "150",
+   "delta": "−7%",
+   "dir": "up"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "51,5 mil",
+   "delta": "−28%",
+   "dir": "down"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "6.443",
+   "delta": "+72%",
+   "dir": "up"
+  },
+  {
+   "label": "Contas com interação por dia",
+   "value": "37 mil",
+   "delta": "+32%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os Reels (8 posts) tiveram mediana de 41.249 views, contra 9.267 das 7 imagens. Os melhores foram \"Hispanic Heritage Gala 2026\" (qua, 21h36, 51,6s, 326.280 views e 2.996 compartilhamentos) e \"Complete a frase\" (sex, 18h29, 40,8s, 212.225 views). Entre as imagens, \"Você conhece alguém que prometeu acabar com SIGILOS?\" (qui, 21h) fez 96.108 views e 26 seguidores.",
+   "actions": [
+    "Publique um Reel por dia entre 18h e 21h30.",
+    "Mantenha os Reels de política perto de 40 a 50 segundos.",
+    "Use a pergunta no título nas imagens da noite."
+   ],
+   "posts": [
+    "DefrVOZMUGw",
+    "DekfWuXNS39",
+    "Deh_rUstC5a"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Evitar",
+   "diagnosis": "Os piores foram \"O PROFESSOR É UMA AMEAÇA!\" (Reel, qui, 18h41, 796 views, assistido em média por 10 segundos), \"A Globo demitiu o diretor-geral de Mídia Impressa\" (sex, 8h15, 1.779 views) e \"Se Lula é tão bom quanto dizem\" (ter, 7h59, 5.460 views, ainda com 20,9 horas de vida). A mediana das imagens das 7h foi 5.460 views e a das 8h, 5.523, bem abaixo da das 21h, que foi 211.194.",
+   "actions": [
+    "Evite repassar notícia sem opinião, como o post da Globo.",
+    "Reduza as imagens da manhã a uma por dia.",
+    "Revise o gancho dos primeiros segundos dos Reels que passam de 40 segundos."
+   ],
+   "posts": [
+    "Deh8WzvtR28",
+    "DejZbguNSy6",
+    "DetrJ4PxqWH"
+   ]
+  },
+  {
+   "title": "Seguidores e comentários",
+   "status": "good",
+   "status_label": "Manter",
+   "diagnosis": "Entraram 3.187 seguidores (+16%) e saíram 150 (−7%). A imagem \"Estar diante do túmulo do professor Olavo de Carvalho\" (sáb, 10h48) trouxe 99 seguidores com 49.670 views. Os comentários subiram de 3.752 para 6.443; o Reel \"Hispanic Heritage Gala\" das 18h49 teve 216 comentários e \"Complete a frase\", 85.",
+   "actions": [
+    "Publique imagens em tom pessoal aos sábados de manhã.",
+    "Termine os Reels com uma pergunta para manter os comentários.",
+    "Responda os comentários dos posts mais comentados na primeira hora."
+   ],
+   "posts": [
+    "DemP7GNt_P7",
+    "DefYvipjdwR",
+    "DekfWuXNS39"
+   ]
+  },
+  {
+   "title": "Compartilhamentos",
+   "status": "warn",
+   "status_label": "Atenção",
+   "diagnosis": "Os compartilhamentos caíram de 71.108 para 51.527 (−28%) e os salvamentos, de 7.385 para 6.536 (−12%). O alcance médio por dia foi de 201.993 contas, contra 230.565 (−12%). O Reel \"Hispanic Heritage Gala 2026\" foi o que mais compartilhou (2.996), mas \"Complete a frase\" teve só 278 compartilhamentos, mesmo com 212.225 views.",
+   "actions": [
+    "Faça posts de reação direta a um fato, que costumam render mais envios.",
+    "Peça de forma simples para o seguidor mandar o post a alguém.",
+    "Compare na próxima semana se os envios voltam a subir."
+   ],
+   "posts": [
+    "DefrVOZMUGw",
+    "DekfWuXNS39"
+   ]
+  }
+ ]
 }
