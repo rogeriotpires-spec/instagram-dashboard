@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-24",
+  "weekday": "Sáb",
+  "generated": "2026-10-23T20:07:34-03:00",
+  "summary": "Sábado, véspera do segundo turno entre Lula e Flávio Bolsonaro. Doria declarou voto em Flávio, o governo anunciou perdão de dívidas ao setor de eventos depois de Flávio prometer o Perse, e o TSE decidiu que só o plenário pode suspender o canal Exército do Lula.",
+  "agenda": [
+    {
+      "time": "25/10",
+      "text": "Segundo turno: Lula x Flávio Bolsonaro.",
+      "source": {
+        "name": "Brasil em Folhas",
+        "url": "https://brasilemfolhas.com.br/2026/10/doria-apoia-flavio-bolsonaro-no-segundo-turno/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "10h30",
+      "type": "i",
+      "kind": "Imagem em tom pessoal, como a que trouxe 74 seguidores",
+      "options": [
+        {
+          "title": "João Doria declara voto em Flávio Bolsonaro: \"Contra Lula e a favor do Brasil\"",
+          "tone": "emocional, tom pessoal",
+          "style": "ilustracao",
+          "fact": "Em 23/10, o ex-governador de São Paulo João Doria declarou voto em Flávio Bolsonaro (PL) no segundo turno, em vídeo enviado à Jovem Pan: \"Neste domingo, o meu voto é Flávio Bolsonaro. Conscientemente. Contra Lula e a favor do Brasil.\" Doria, que rompeu com Jair Bolsonaro durante a pandemia, disse que aprendeu \"a perdoar, a compreender e olhar adiante\", afirmou que Lula perdeu a chance de pacificar o país e defendeu o fim da reeleição, promessa de Flávio. Disse ainda que o apoio é pessoal e não tem ligação com o LIDE, grupo empresarial que ele lidera.",
+          "sources": [
+            {
+              "name": "Brasil em Folhas",
+              "url": "https://brasilemfolhas.com.br/2026/10/doria-apoia-flavio-bolsonaro-no-segundo-turno/"
+            }
+          ],
+          "art_text": [
+            "Doria vota em Flávio",
+            "\"Contra Lula e a favor do Brasil\"",
+            "Quem mais vai deixar a mágoa de lado?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "João Doria (ex-governador de SP) e Flávio Bolsonaro (PL), relação direta com a notícia. Ilustração estilo charge, sem foto real. Risco baixo: Doria aparece falando para a câmera e Flávio ao fundo, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, João Doria, de terno escuro e sem gravata, falando de frente para uma câmera de celular, expressão firme e serena, mão no peito. Ao fundo, em tom mais escuro, Flávio Bolsonaro de terno, observando de lado com leve sorriso. Atrás deles, a silhueta estilizada do Congresso e uma bandeira do Brasil. No alto, em branco, letras condensadas e muito pesadas: \"Doria vota em Flávio\". Em um quadro amarelo no meio: \"Contra Lula e a favor do Brasil\", em preto. Embaixo, em branco com sublinhado vermelho pincelado: \"Quem mais vai deixar a mágoa de lado?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Domingo eu voto, e você? Até quem tinha rompido com os Bolsonaro, como João Doria, resolveu olhar adiante e declarou voto em Flávio. Amanhã é dia de decidir o Brasil. Você já sabe em quem vai votar? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Cite Doria como fala dele, sem dizer que a pesquisa muda por isso. Não traga o histórico de rivalidade como crítica a Flávio ou Bolsonaro; foque na decisão de olhar adiante.",
+          "timeline": {
+            "rende": false,
+            "angle": "Não sustenta artigo de 600 a 1.200 palavras: é um apoio pontual de véspera, sem desdobramento de política pública."
+          }
+        },
+        {
+          "title": "Governo Lula vai propor perdão de dívidas de empresas de eventos a dois dias da eleição",
+          "tone": "irônico",
+          "style": "ilustracao",
+          "fact": "Em 23/10, o ministro do Empreendedorismo, Paulo Henrique Pereira, anunciou após reunião com o presidente da Câmara, Hugo Motta, que o governo enviará ao Congresso projeto para perdoar dívidas com a União de empresas de eventos do Simples, nos moldes do que foi feito com os MEIs. A medida pode alcançar também bares e restaurantes. O ministro não detalhou o custo. Na mesma semana, Flávio Bolsonaro (PL) disse que pretende retomar o Perse, programa do setor de eventos, se for eleito.",
+          "sources": [
+            {
+              "name": "InfoMoney",
+              "url": "https://www.infomoney.com.br/politica/governo-lula-vai-propor-perdoar-dividas-de-empresas-de-eventos-do-simples-com-a-uniao/"
+            }
+          ],
+          "art_text": [
+            "Perdão de dívidas, a 2 dias da eleição",
+            "Flávio falou em Perse. Lula correu atrás.",
+            "Coincidência?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Lula (presidente) e Flávio Bolsonaro (PL), relação direta com a notícia. Ilustração estilo charge, sem foto real. Risco baixo: Lula só aparece apontando para um calendário e Flávio com uma pasta do Perse, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. À esquerda, Flávio Bolsonaro de terno, segurando uma pasta com a palavra \"Perse\", sereno. À direita, o presidente Lula, de terno escuro, olhando de lado para a pasta de Flávio e escrevendo às pressas num papel com a palavra \"perdão\", expressão apressada. Ao fundo, um calendário gigante com o domingo 25 circulado em vermelho e, menor, a silhueta do Palácio do Planalto. No alto, em branco, letras condensadas e muito pesadas: \"Perdão de dívidas, a 2 dias da eleição\". Em um quadro amarelo: \"Flávio falou em Perse. Lula correu atrás.\", em preto. Embaixo, em branco com sublinhado vermelho pincelado: \"Coincidência?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Sábado de véspera e o governo descobriu o setor de eventos. Flávio falou em retomar o Perse e, na mesma semana, saiu o anúncio de perdão de dívidas. O ministro não disse quanto custa. Você acha que é coincidência? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "O ministro não ligou o anúncio a Flávio; a relação é de calendário. Use a pergunta como opinião, sem afirmar compra de voto nem ilegalidade. Cite o custo como não informado.",
+          "timeline": {
+            "rende": true,
+            "angle": "Perse x perdão do Simples: o que cada programa faz, o custo estimado de cerca de R$ 60 bilhões do Perse em quatro anos, o precedente do MEI (R$ 15 bilhões perdoados) e o que a oposição propõe para o setor."
+          }
+        }
+      ]
+    },
+    {
+      "time": "20h",
+      "type": "r",
+      "kind": "Reel curto de bastidor da véspera",
+      "options": [
+        {
+          "title": "Ministro do TSE proíbe suspensão do canal Exército do Lula por decisão individual",
+          "tone": "sóbrio",
+          "duration": "25 a 30s",
+          "fact": "Em 23/10, o ministro do TSE Floriano de Azevedo Marques decidiu que o canal Exército do Lula no WhatsApp não pode ser suspenso ou restringido de novo por decisão individual: só o plenário do tribunal pode decidir. A decisão atende mandado de segurança preventivo da campanha de Lula e, na prática, impede o presidente do TSE, Nunes Marques, de suspender o canal. Na quinta, Nunes Marques, a pedido da campanha de Flávio Bolsonaro, havia mandado revisar as publicações do canal, criado pelo deputado André Janones e que passou de 10 milhões de inscritos.",
+          "sources": [
+            {
+              "name": "Conjur",
+              "url": "https://conjur.com.br/2026-out-23/ministro-do-tse-proibe-suspensao-monocratica-do-canal-exercito-do-lula/"
+            }
+          ],
+          "hooks": [
+            "O canal do Lula com 10 milhões de inscritos só pode ser suspenso pelo plenário do TSE.",
+            "Um ministro travou o presidente do TSE a dois dias da eleição."
+          ],
+          "script": "A dois dias da eleição, o TSE travou outro ministro do próprio TSE. O canal Exército do Lula no WhatsApp, criado pelo deputado André Janones, passou de 10 milhões de inscritos. A campanha do Flávio pediu a revisão das publicações, e o presidente do tribunal, Nunes Marques, mandou revisar. Agora o ministro Floriano de Azevedo Marques decidiu que nenhum ministro sozinho pode suspender esse canal: só o plenário. A pergunta é simples: a mesma régua vale para todos os canais, de todos os lados? Responde sim ou não e manda esse vídeo para quem vota domingo.",
+          "screen_text": [
+            "10 milhões de inscritos",
+            "Só o plenário do TSE pode suspender",
+            "A régua vale para todos?"
+          ],
+          "caption": "O canal Exército do Lula passou de 10 milhões de inscritos e agora só o plenário do TSE pode suspendê-lo. A régua vale igual para todos os canais? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Atribua a decisão ao ministro e à campanha de Lula (que pediu). Não diga que o TSE favorece Lula nem acuse o ministro; a pergunta é sobre isonomia, como opinião. A suspensão foi pedida pela campanha de Flávio, informe isso se perguntarem.",
+          "timeline": {
+            "rende": true,
+            "angle": "Decisão individual x plenário no TSE: o histórico do canal (suspenso, liberado, travado), a tese da isonomia entre campanhas e o que isso diz sobre o poder da Justiça Eleitoral nas redes."
+          }
+        },
+        {
+          "title": "Polícia prende suspeito de ser olheiro da quadrilha que baleou arqueóloga de 81 anos no Leblon",
+          "tone": "emocional",
+          "duration": "25 a 30s",
+          "fact": "A Polícia Civil do Rio prendeu em 22/10, em Benfica, Fabio Cassiano da Silva, suspeito de atuar como olheiro da quadrilha de \"saidinha de banco\" que baleou a arqueóloga Tania Andrade Lima, de 81 anos, no Leblon em 15/10. Segundo a polícia, ele entrava nas agências, fotografava quem sacava dinheiro e mandava as imagens aos comparsas; é investigado por ao menos cinco assaltos do tipo. Tania foi atingida por três tiros logo após sacar cerca de R$ 3 mil, e o quadro é estável. O suspeito de atirar, de 44 anos, segue foragido; o apontado como chefe do grupo morreu em confronto em Botafogo em 21/10.",
+          "sources": [
+            {
+              "name": "ICL Notícias",
+              "url": "https://iclnoticias.com.br/policia-prende-homem-sob-suspeita-de-atuar-como/"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://sbtnews.sbt.com.br/noticia/brasil/suspeito-morre-em-acao-que-apurava-ataque-a-arqueologa-no-rj"
+            }
+          ],
+          "hooks": [
+            "Uma senhora de 81 anos levou três tiros por R$ 3 mil.",
+            "O olheiro que escolhia a vítima dentro do banco foi preso."
+          ],
+          "script": "Uma senhora de 81 anos levou três tiros no Leblon depois de sacar R$ 3 mil. Agora a polícia prendeu o suspeito de ser o olheiro da quadrilha: ele entrava no banco, fotografava quem sacava dinheiro e mandava a foto para os comparsas. É a saidinha de banco. Ele é investigado por pelo menos cinco assaltos, e quem atirou continua foragido. A véspera da eleição também é dia de lembrar que segurança é o que o carioca pede todo dia. Quem tira foto de idoso no banco para o crime deveria pegar pena maior? Responde sim ou não e manda esse vídeo para quem tem pai ou mãe idosos.",
+          "screen_text": [
+            "3 tiros em idosa de 81 anos",
+            "O olheiro fotografava no banco",
+            "Quem atirou segue foragido",
+            "Pena maior?"
+          ],
+          "caption": "A polícia prendeu o suspeito de ser o olheiro da quadrilha que baleou uma arqueóloga de 81 anos no Leblon. Quem atirou segue foragido. Quem escolhe idoso no banco para o crime deveria ter pena maior? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Chame de suspeito, nunca de culpado: ninguém foi condenado. Não identifique o foragido como autor sem a atribuição \"segundo a polícia\". Sem imagem de vítima ou de suspeito.",
+          "timeline": {
+            "rende": false,
+            "angle": "Fato policial pontual; a saidinha de banco no Rio já foi coberta, e não há desdobramento de política pública para sustentar artigo."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
