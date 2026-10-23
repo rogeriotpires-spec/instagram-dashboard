@@ -1,6 +1,97 @@
 {
  "items": [
   {
+   "requested": "2026-10-23",
+   "done": "2026-10-23T10:54:11-03:00",
+   "issue": 94,
+   "slot_hint": "Imagem hoje (23) às 18h e reel amanhã (24) às 12h.",
+   "source": {
+    "edition": "2026-10-23-06h",
+    "item_id": "vorcaro-uisque-lula",
+    "title": "Mensagens indicam que Vorcaro encomendou uísque de R$ 500 mil para presentear Lula"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Mensagens indicam que Vorcaro encomendou uísque de R$ 500 mil para presentear Lula",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Segundo a Veja, que teve acesso a mensagens do celular de Daniel Vorcaro apreendido pela PF, em 29 de outubro de 2024 o então dono do Banco Master pediu a um assistente que procurasse em Londres uma garrafa de Macallan 1945, com a frase \"Preciso dar pro Lula\". Em 30 de outubro, o assistente diz ter achado uma garrafa por mais de 80 mil euros, cerca de R$ 500 mil na época, que viria de Dubai ao Brasil. 1945 é o ano de nascimento de Lula. Em 4 de dezembro de 2024, Vorcaro se reuniu com Lula no Planalto, fora da agenda oficial. A Secretaria de Comunicação da Presidência diz que Lula viu Vorcaro uma única vez, que não recebeu presente e que não enviou recado ao banqueiro. As mensagens indicam a encomenda; a entrega do presente não está confirmada. Vorcaro está preso e é investigado; ninguém foi condenado por esses fatos.",
+     "sources": [
+      {
+       "name": "Bahia Notícias (reportagem da Veja sobre o uísque)",
+       "url": "https://www.bahianoticias.com.br/noticia/322789-mensagens-apontam-presente-de-uisque-avaliado-em-rdollar-500-mil-de-daniel-vorcaro-a-lula-diz-revista-veja"
+      },
+      {
+       "name": "Revista Oeste",
+       "url": "https://revistaoeste.com/politica/vorcaro-buscou-uisque-de-r-500-mil-para-presentear-lula/"
+      },
+      {
+       "name": "O Antagonista",
+       "url": "https://oantagonista.com.br/brasil/uisque-de-vorcaro-para-lula-custava-r-500-mil-indicam-mensagens/"
+      }
+     ],
+     "art_text": [
+      "Uísque de R$ 500 mil",
+      "\"Preciso dar pro Lula\"",
+      "Macallan 1945, o ano de nascimento de Lula",
+      "Quem pediu, e por quê?",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Lula, em ilustração, olhando desconfiado para uma garrafa sobre uma mesa; Vorcaro em silhueta ao fundo. Ambos têm relação direta com a notícia. Ninguém aparece recebendo ou entregando a garrafa.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): o presidente Lula de terno, com expressão pensativa e sobrancelha erguida, ao lado de uma mesa de gabinete com uma garrafa antiga de uísque em destaque sob um foco de luz; ao fundo, em silhueta, um banqueiro de terno junto a uma janela, com a fachada do Palácio do Planalto escura e texturizada. No alto, em letras condensadas, brancas e pesadas: 'UÍSQUE DE R$ 500 MIL'. Num quadro amarelo no meio: '\"Preciso dar pro Lula\"'. Num quadro vermelho: 'Macallan 1945, o ano de nascimento de Lula'. Embaixo, com sublinhado vermelho pincelado: 'Quem pediu, e por quê?'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Mensagens do celular de Vorcaro indicam que ele mandou procurar uma garrafa de Macallan 1945, de cerca de R$ 500 mil, com a frase \"Preciso dar pro Lula\". 1945 é o ano em que Lula nasceu. O Planalto diz que Lula não recebeu presente. A pergunta que fica: por que um banqueiro com negócios pendentes no governo queria agradar o presidente? Comenta o que você acha.",
+     "risk": "médio",
+     "risk_note": "Médio: as mensagens indicam a encomenda, não a entrega; a arte usa condicional implícito na pergunta e não mostra Lula recebendo o presente. Citar a negativa do Planalto se perguntarem. Vorcaro é investigado, sem condenação.",
+     "timeline": {
+      "rende": true,
+      "angle": "Mensagens do celular de Vorcaro indicam uísque de R$ 500 mil encomendado para Lula semanas antes da reunião no Planalto; o Planalto nega que tenha recebido presente."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Mensagens indicam que Vorcaro encomendou uísque de R$ 500 mil para presentear Lula",
+     "tone": "contundente",
+     "duration": "45 a 60s",
+     "fact": "Segundo a Veja, que teve acesso a mensagens do celular de Daniel Vorcaro apreendido pela PF, em 29 de outubro de 2024 o então dono do Banco Master pediu a um assistente que procurasse em Londres uma garrafa de Macallan 1945, com a frase \"Preciso dar pro Lula\". Em 30 de outubro, o assistente diz ter achado uma garrafa por mais de 80 mil euros, cerca de R$ 500 mil na época, que viria de Dubai ao Brasil. 1945 é o ano de nascimento de Lula. Em 4 de dezembro de 2024, Vorcaro se reuniu com Lula no Planalto, fora da agenda oficial. A Secretaria de Comunicação da Presidência diz que Lula viu Vorcaro uma única vez, que não recebeu presente e que não enviou recado ao banqueiro. As mensagens indicam a encomenda; a entrega do presente não está confirmada. Vorcaro está preso e é investigado; ninguém foi condenado por esses fatos.",
+     "sources": [
+      {
+       "name": "Bahia Notícias (reportagem da Veja sobre o uísque)",
+       "url": "https://www.bahianoticias.com.br/noticia/322789-mensagens-apontam-presente-de-uisque-avaliado-em-rdollar-500-mil-de-daniel-vorcaro-a-lula-diz-revista-veja"
+      },
+      {
+       "name": "Revista Oeste",
+       "url": "https://revistaoeste.com/politica/vorcaro-buscou-uisque-de-r-500-mil-para-presentear-lula/"
+      },
+      {
+       "name": "O Antagonista",
+       "url": "https://oantagonista.com.br/brasil/uisque-de-vorcaro-para-lula-custava-r-500-mil-indicam-mensagens/"
+      }
+     ],
+     "hooks": [
+      "Um uísque de R$ 500 mil, \"pra dar pro Lula\". É o que as mensagens de Vorcaro indicam.",
+      "Macallan 1945: o ano em que Lula nasceu. Quem pediu a garrafa e por quê?"
+     ],
+     "script": "Mensagens do celular de Daniel Vorcaro, apreendido pela Polícia Federal, indicam que ele mandou procurar uma garrafa de uísque de R$ 500 mil para presentear Lula.\n\nEm 29 de outubro de 2024, Vorcaro escreve a um assistente: \"Preciso dar pro Lula\". A garrafa é uma Macallan 1945, o ano de nascimento do presidente. No dia seguinte, o assistente diz que achou uma por mais de 80 mil euros, cerca de R$ 500 mil, vinda de Dubai.\n\nPouco mais de um mês depois, em 4 de dezembro, Vorcaro se reuniu com Lula no Planalto, fora da agenda oficial.\n\nO Planalto diz que Lula não recebeu presente. As mensagens indicam a encomenda; a entrega não está confirmada. Mas a pergunta é inevitável: por que um banqueiro com interesses no governo queria agradar o presidente com uma garrafa de meio milhão?\n\nVorcaro é investigado e não foi condenado. Quem responde é o governo. Comenta aqui o que você acha.",
+     "screen_text": [
+      "Uísque de R$ 500 mil",
+      "\"Preciso dar pro Lula\" (mensagem de Vorcaro)",
+      "Macallan 1945, ano de nascimento de Lula",
+      "4/12/2024: reunião Lula e Vorcaro no Planalto",
+      "Planalto diz que Lula não recebeu presente"
+     ],
+     "caption": "Mensagens do celular de Vorcaro indicam uma garrafa de uísque de R$ 500 mil encomendada \"pra dar pro Lula\". O Planalto nega que tenha recebido. Por que um banqueiro com negócios no governo queria agradar o presidente? Comenta.",
+     "risk": "médio",
+     "risk_note": "Médio: tratar sempre no condicional ('indicam'); entrega não confirmada; incluir a negativa do Planalto; Vorcaro investigado, sem condenação.",
+     "timeline": {
+      "rende": true,
+      "angle": "Mensagens do celular de Vorcaro indicam uísque de R$ 500 mil encomendado para Lula semanas antes da reunião no Planalto; o Planalto nega que tenha recebido presente."
+     }
+    }
+   ]
+  },
+  {
    "requested": "2026-10-21",
    "done": "2026-10-21T13:17:00-03:00",
    "issue": 86,
