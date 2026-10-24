@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T06:11:11-03:00",
+ "generated": "2026-10-24T06:05:00-03:00",
  "dias": 7,
  "period": {
   "start": "2026-10-14",
@@ -50,7 +50,7 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "Os Reels (8 posts) tiveram mediana de 41.249 views, contra 9.267 das 7 imagens. Os melhores foram \"Hispanic Heritage Gala 2026\" (qua, 21h36, 51,6s, 326.280 views e 2.996 compartilhamentos) e \"Complete a frase\" (sex, 18h29, 40,8s, 212.225 views). Entre as imagens, \"Você conhece alguém que prometeu acabar com SIGILOS?\" (qui, 21h) fez 96.108 views e 26 seguidores.",
+   "diagnosis": "Os 8 Reels tiveram mediana de 41.249 views, contra 9.267 das 7 imagens. Os melhores foram \"Hispanic Heritage Gala 2026\" (qua, 21h36, 51,6s, 326.280 views e 2.996 compartilhamentos) e \"Complete a frase\" (sex, 18h29, 40,8s, 212.225 views). Entre as imagens, \"Você conhece alguém que prometeu acabar com SIGILOS?\" (qui, 21h) fez 96.108 views e 26 seguidores.",
    "actions": [
     "Publique um Reel por dia entre 18h e 21h30.",
     "Mantenha os Reels de política perto de 40 a 50 segundos.",
@@ -66,11 +66,11 @@
    "title": "O que não funcionou",
    "status": "bad",
    "status_label": "Evitar",
-   "diagnosis": "Os piores foram \"O PROFESSOR É UMA AMEAÇA!\" (Reel, qui, 18h41, 796 views, assistido em média por 10 segundos), \"A Globo demitiu o diretor-geral de Mídia Impressa\" (sex, 8h15, 1.779 views) e \"Se Lula é tão bom quanto dizem\" (ter, 7h59, 5.460 views, ainda com 20,9 horas de vida). A mediana das imagens das 7h foi 5.460 views e a das 8h, 5.523, bem abaixo da das 21h, que foi 211.194.",
+   "diagnosis": "Os piores foram \"O PROFESSOR É UMA AMEAÇA!\" (Reel, qui, 18h41, 796 views, assistido em média por 10 segundos), \"A Globo demitiu o diretor-geral de Mídia Impressa\" (sex, 8h15, 1.779 views) e \"Se Lula é tão bom quanto dizem\" (ter, 7h59, 5.460 views, ainda com 20,9 horas de vida). A mediana das 7h foi 5.460 views e a das 8h, 5.523, bem abaixo da das 21h, que foi 211.194.",
    "actions": [
     "Evite repassar notícia sem opinião, como o post da Globo.",
     "Reduza as imagens da manhã a uma por dia.",
-    "Revise o gancho dos primeiros segundos dos Reels que passam de 40 segundos."
+    "Revise o gancho dos primeiros segundos dos Reels fracos."
    ],
    "posts": [
     "Deh8WzvtR28",
@@ -98,7 +98,7 @@
    "title": "Compartilhamentos",
    "status": "warn",
    "status_label": "Atenção",
-   "diagnosis": "Os compartilhamentos caíram de 71.108 para 51.527 (−28%) e os salvamentos, de 7.385 para 6.536 (−12%). O alcance médio por dia foi de 201.993 contas, contra 230.565 (−12%). O Reel \"Hispanic Heritage Gala 2026\" foi o que mais compartilhou (2.996), mas \"Complete a frase\" teve só 278 compartilhamentos, mesmo com 212.225 views.",
+   "diagnosis": "Os compartilhamentos caíram de 71.108 para 51.527 (−28%) e os salvamentos, de 7.385 para 6.536 (−12%). O alcance médio por dia foi de 201.993 contas, contra 230.565 (−12%). O Reel \"Hispanic Heritage Gala 2026\" foi o que mais compartilhou (2.996), mas \"Complete a frase\" teve só 278, mesmo com 212.225 views.",
    "actions": [
     "Faça posts de reação direta a um fato, que costumam render mais envios.",
     "Peça de forma simples para o seguidor mandar o post a alguém.",

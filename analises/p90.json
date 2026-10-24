@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T06:11:11-03:00",
+ "generated": "2026-10-24T06:05:00-03:00",
  "dias": 90,
  "period": {
   "start": "2026-07-23",
   "end": "2026-10-20"
  },
  "compare": "2026-04-24 a 2026-07-22",
- "headline": "Nos 90 dias (23/07 a 20/10) a conta somou 37.350.134 views; as imagens de opinião lideram (mediana de 22.259 views contra 11.742 dos Reels) e os maiores posts passaram de 1,2 milhão de views.",
+ "headline": "Em 90 dias a conta recebeu 37.350.134 views com 169 publicações; as imagens (mediana de 22.259 views) foram quase o dobro dos Reels (11.742), que somam 111 dos 169 posts.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
@@ -34,13 +34,13 @@
   },
   {
    "label": "Comentários recebidos",
-   "value": "30,7 mil",
+   "value": "30.743",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
-   "label": "Alcance médio por dia",
-   "value": "143 mil",
+   "label": "Contas com interação por dia",
+   "value": "24.662",
    "delta": "sem comparação",
    "dir": "na"
   }
@@ -50,11 +50,11 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "As imagens de opinião dominam: \"Bem vindo a este manicômio chamado Brasil!\" (16/08, 1.489.782 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (28/07, 1.442.246 views, 42.800 compartilhamentos e 1.409 seguidores) e \"Fica a reflexão.\" (01/10, 1.216.652 views). As 56 imagens trouxeram 8.009 seguidores e tiveram mediana de 22.259 views.",
+   "diagnosis": "As 3 maiores audiências foram imagens de opinião: \"Bem vindo a este manicômio chamado Brasil!\" (16/8, 1.489.782 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (28/7, 1.442.246 views, 1.409 seguidores) e \"Fica a reflexão.\" (1/10, 1.216.652). As 56 imagens tiveram mediana de 22.259 views e 157 compartilhamentos, contra 11.742 views e 77 compartilhamentos dos 111 Reels. Entrevista teve só 5 posts, mas a maior mediana por tema (88.374).",
    "actions": [
-    "Mantenha a imagem de opinião como a base da semana.",
-    "Use frases curtas e fortes no título, como nos 3 maiores posts.",
-    "Repita a imagem que trouxe mais seguidores como modelo de formato."
+    "Faça da imagem de opinião o post principal do dia.",
+    "Teste mais conteúdos de entrevista, que renderam bem com poucos posts.",
+    "Mantenha frases curtas e diretas no texto da imagem."
    ],
    "posts": [
     "DcGTcGzN_5i",
@@ -66,11 +66,11 @@
    "title": "O que não funcionou",
    "status": "bad",
    "status_label": "Evitar",
-   "diagnosis": "Os piores foram Reels de política: \"Quase 18 anos no poder\" (12/08, 102,4s, 473 views), \"O STF virou um manicômio institucional\" (535 views) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551 views). Os 111 Reels tiveram mediana de 11.742 views. Os 2 carrosséis ficaram em 3.654 e \"Eventos e discursos\" (6 posts), em 2.689.",
+   "diagnosis": "Os piores posts são Reels de política: \"Quase 18 anos no poder\" (473 views), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551), todos com 37% a 43% de abandono no início. Política tem 94 posts e mediana de 12.230 views; Eventos e discursos, 6 posts e mediana de 2.689. Os Reels são 111 dos 169 posts, mas entregam menos que as imagens.",
    "actions": [
-    "Evite Reels de política com mais de um minuto.",
-    "Evite posts de eventos sem opinião.",
-    "Deixe o carrossel de lado até testar um novo tema."
+    "Reduza o volume de Reels de política sem gancho forte.",
+    "Corte eventos e discursos que não tenham opinião sua.",
+    "Troque quantidade de Reels por qualidade nos primeiros segundos."
    ],
    "posts": [
     "Db73S3ZBiej",
@@ -79,28 +79,34 @@
    ]
   },
   {
-   "title": "Temas",
-   "status": "good",
-   "status_label": "Manter",
-   "diagnosis": "\"Entrevista\" teve a maior mediana, 88.374 views, mas só 5 posts. Opinião (57 posts) ficou em 13.748, Política (94 posts) em 12.230 e Bastidores e pessoal (6 posts) em 9.301. Política concentra a maior parte das publicações e tem mediana abaixo de Opinião. A comparação mistura posts de idades diferentes.",
-   "actions": [
-    "Teste mais entrevistas, que tiveram boa mediana.",
-    "Mantenha a opinião como tema principal.",
-    "Reduza posts de política sem opinião própria."
-   ],
-   "posts": []
-  },
-  {
    "title": "Horários",
    "status": "warn",
    "status_label": "Ajustar",
-   "diagnosis": "A mediana foi mais alta às 21h (104.234), 18h (54.208,5), 9h (53.852), 23h (48.199), 17h (44.834,5) e 19h (41.820). Foi muito menor às 15h (1.442,5), 12h (2.730), 1h (2.455), 22h (3.459) e 11h (3.678). Vários horários têm poucos posts, então use como pista.",
+   "diagnosis": "Por horário, 21h teve a maior mediana (104.234 views), seguida de 18h (54.208,5), 9h (53.852), 23h (48.199) e 17h (44.834,5). As menores foram 15h (1.442,5), 1h (2.455) e 12h (2.730), com poucos posts em cada faixa. Em 7h a mediana foi 8.082, apesar de várias imagens campeãs saírem de manhã cedo, o que mostra que o horário sozinho não explica.",
    "actions": [
-    "Concentre os posts principais entre 17h e 21h.",
-    "Use as 9h para uma imagem forte.",
-    "Evite postar entre 11h e 15h."
+    "Priorize 18h, 21h e 9h para os posts mais fortes.",
+    "Evite publicar por volta de 12h e 15h.",
+    "Teste o mesmo post forte em horários diferentes ao longo de duas semanas."
    ],
-   "posts": []
+   "posts": [
+    "DbWUq-ltrx8",
+    "Dd8pQedtGZL"
+   ]
+  },
+  {
+   "title": "Seguidores e dados do período",
+   "status": "warn",
+   "status_label": "Atenção",
+   "diagnosis": "Entraram 17.864 seguidores e saíram 733 nos 44 dias com dado de conta. As imagens trouxeram 8.009 seguidores atribuídos; o maior número veio de \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.409). O período anterior tem só 14 dias de dados de views e nenhum de seguidores, então a comparação foi omitida.",
+   "actions": [
+    "Replique o formato de \"Quando dizem que uma imagem vale mais do que mil palavras\".",
+    "Confira a coleta diária de dados da conta.",
+    "Compare só períodos com dados completos."
+   ],
+   "posts": [
+    "DbWUq-ltrx8",
+    "DeVAkiqtPwL"
+   ]
   }
  ]
 }

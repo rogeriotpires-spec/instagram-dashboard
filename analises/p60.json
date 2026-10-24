@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T06:11:11-03:00",
+ "generated": "2026-10-24T06:05:00-03:00",
  "dias": 60,
  "period": {
   "start": "2026-08-22",
   "end": "2026-10-20"
  },
  "compare": "2026-06-23 a 2026-08-21",
- "headline": "Em 60 dias (22/08 a 20/10) a conta recebeu 27.631.923 views (+152%); as imagens (49 posts, mediana de 16.533 views) lideram os Reels (75 posts, 12.718), e a noite e o início da manhã rendem mais.",
+ "headline": "Em 60 dias a conta recebeu 27.631.923 views (+152%) e o alcance médio por dia foi de 172.691 contas; as imagens (mediana de 16.533 views) seguraram mais audiência que os Reels (12.718).",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
@@ -34,7 +34,7 @@
   },
   {
    "label": "Comentários recebidos",
-   "value": "30,7 mil",
+   "value": "30.743",
    "delta": "sem comparação",
    "dir": "na"
   },
@@ -47,14 +47,14 @@
  ],
  "cards": [
   {
-   "title": "Formatos",
+   "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "As imagens somaram 8.193.300 views e 5.681 seguidores, com mediana de 16.533 views e 156 compartilhamentos. Os 75 Reels somaram 3.611.250 views, com mediana de 12.718 views e 90 compartilhamentos. Os 3 maiores posts do período foram imagens de opinião: \"Fica a reflexão.\" (1.216.652 views), \"Ninguém aguenta mais o Lula e o PT!\" (979.686) e \"Como dizia o TAXAD\" (924.026).",
+   "diagnosis": "As imagens de opinião lideram o período: \"Fica a reflexão.\" (1.216.652 views), \"Ninguém aguenta mais o Lula e o PT!\" (979.686) e \"Como dizia o TAXAD\" (924.026, 1.174 seguidores). As 49 imagens tiveram mediana de 16.533 views, contra 12.718 dos 75 Reels. Política (67 posts) teve mediana de 16.777 e Opinião (51 posts), 13.748. Por horário, 21h (96.108), 18h (54.208,5) e 9h (49.062) tiveram as maiores medianas.",
    "actions": [
-    "Mantenha a imagem de opinião como formato principal do dia.",
-    "Use o Reel para reação rápida a fatos, em vez de assunto longo.",
-    "Mantenha de 1 a 2 imagens por dia com título curto."
+    "Mantenha uma imagem de opinião por dia, com frase curta e forte.",
+    "Concentre os Reels no fim da tarde e à noite.",
+    "Teste mais publicações às 21h, o horário de maior mediana."
    ],
    "posts": [
     "Dd8pQedtGZL",
@@ -66,11 +66,11 @@
    "title": "O que não funcionou",
    "status": "bad",
    "status_label": "Evitar",
-   "diagnosis": "Os piores posts foram Reels de política com mais de um minuto: \"O STF virou um manicômio institucional\" (04/09, 65,5s, 535 views), \"Candidato perdeu Instagram e Fundo Eleitoral\" (01/09, 72,1s, 551 views) e \"O PROFESSOR É UMA AMEAÇA!\" (15/10, 796 views). \"Eventos e discursos\" (5 posts) tiveram mediana de 3.950 views, contra 16.777 de Política e 13.748 de Opinião.",
+   "diagnosis": "Os Reels de política com pouca entrega aparecem de novo: \"O STF virou um manicômio institucional\" (535 views), \"Candidato perdeu Instagram e Fundo Eleitoral\" (551) e \"O PROFESSOR É UMA AMEAÇA!\" (796), com 37% a 42% de abandono no início. Os 5 posts de Eventos e discursos tiveram mediana de só 3.950 views. As medianas de 11h (2.674,5), 12h (2.979), 15h (2.172) e 22h (3.457,5) foram as mais baixas, com poucos posts em cada faixa.",
    "actions": [
-    "Evite Reels de política com mais de um minuto.",
-    "Evite posts de eventos e discursos sem um gancho de opinião.",
-    "Reveja a edição dos Reels com menos de 1.000 views."
+    "Evite Reels de política que começam sem frase de impacto.",
+    "Reduza os posts de eventos e discursos sem opinião sua.",
+    "Evite publicar entre 11h e 15h."
    ],
    "posts": [
     "Dc3EY5cNint",
@@ -79,30 +79,34 @@
    ]
   },
   {
-   "title": "Horários",
+   "title": "Comentários",
    "status": "warn",
    "status_label": "Ajustar",
-   "diagnosis": "A mediana de views por horário foi mais alta às 21h (96.108), 18h (54.208,5), 9h (49.062) e 23h (48.199). Foi bem menor às 15h (2.172), 11h (2.674,5) e 12h (2.979). Há horários com poucos posts, então a mediana pode ser de um ou dois posts.",
+   "diagnosis": "Os posts que mais geraram conversa foram de pergunta direta: \"Qual número você escolheria?\" (488 comentários, 13.748 views) e \"Responda nos comentários, só um nome!\" (355 comentários, 136.379 views, 57 seguidores). O Reel \"Inacreditável!\" teve 264 comentários e 14.706 compartilhamentos. Os dois posts de maior alcance do período tiveram bem menos comentários.",
    "actions": [
-    "Concentre os posts principais entre 18h e 21h.",
-    "Reserve as 9h para uma imagem forte.",
-    "Evite postar entre 11h e 15h."
-   ],
-   "posts": []
-  },
-  {
-   "title": "Comentários e temas",
-   "status": "good",
-   "status_label": "Manter",
-   "diagnosis": "\"Qual número você escolheria?\" (25/09) teve 488 comentários e \"Responda nos comentários, só um nome!\" (26/08, 16h45) teve 355 comentários, 136.379 views e 57 seguidores. Os posts de bastidores (2 posts) tiveram mediana de 40.863 views. Os comentários totais (30.743) cobrem só 44 dos 60 dias.",
-   "actions": [
-    "Repita as perguntas diretas pedindo uma resposta curta.",
-    "Teste mais posts de bastidores, que tiveram boa mediana.",
-    "Compare os comentários só em períodos com dado completo."
+    "Alterne posts de pergunta com posts de opinião.",
+    "Use perguntas de uma palavra, que pedem resposta curta.",
+    "Responda os comentários na primeira hora."
    ],
    "posts": [
     "DdumKq_tAX_",
-    "DcfJMHasopg"
+    "DcfJMHasopg",
+    "DeaQZPRNABT"
+   ]
+  },
+  {
+   "title": "Seguidores",
+   "status": "good",
+   "status_label": "Manter",
+   "diagnosis": "Entraram 17.864 seguidores e saíram 733 nos 44 dias com dado. As 49 imagens trouxeram 5.681 seguidores atribuídos, e os Reels não têm esse dado. Como os indicadores de conta do período anterior estão incompletos, não há comparação confiável de seguidores.",
+   "actions": [
+    "Mantenha as imagens de opinião como porta de entrada de seguidores.",
+    "Peça para seguir em posts que passam de 500 mil views.",
+    "Acompanhe as saídas a cada semana."
+   ],
+   "posts": [
+    "DeVAkiqtPwL",
+    "Dd8pQedtGZL"
    ]
   }
  ]
