@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-25",
+  "weekday": "Dom",
+  "generated": "2026-10-24T20:02:53-03:00",
+  "summary": "Domingo, dia do segundo turno entre Lula e Flávio Bolsonaro. A votação vai das 8h às 17h e as pesquisas de véspera apontam empate técnico, com a Quaest dando 51% a 49% para Flávio nos votos válidos. Os stories do dia são cívicos: lembrete para votar de manhã, sem pedir voto, e acompanhamento do resultado à noite.",
+  "agenda": [
+    {
+      "time": "8h às 17h",
+      "text": "Votação do segundo turno em todo o país, no horário de Brasília. Celular e câmera não entram na cabine, e boca de urna e pedido de voto são proibidos.",
+      "source": {
+        "name": "Times Brasil",
+        "url": "https://timesbrasil.com.br/brasil/decisao-2026-o-que-pode-e-nao-pode-fazer-no-dia-da-votacao-do-2o-turno/"
+      }
+    },
+    {
+      "time": "24h",
+      "text": "Transporte de armas e munições segue proibido em todo o território nacional por 24 horas depois do segundo turno.",
+      "source": {
+        "name": "Times Brasil",
+        "url": "https://timesbrasil.com.br/brasil/decisao-2026-o-que-pode-e-nao-pode-fazer-no-dia-da-votacao-do-2o-turno/"
+      }
+    },
+    {
+      "time": "Domingo",
+      "text": "TRE-RJ pediu tropas federais para 15 municípios da Região Metropolitana do Rio; o pedido dependia da aprovação do TSE.",
+      "source": {
+        "name": "Agência Brasil",
+        "url": "https://www.acessa.com/politica/2026/10/342345-tre-rj-decide-pedir-apoio-de-tropas-federais-para-o-segundo-turno.html"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "Manhã",
+      "type": "s",
+      "kind": "Dia do 2º turno: lembrete para votar, sem propaganda",
+      "options": [
+        {
+          "title": "Votação do 2º turno vai das 8h às 17h e celular não entra na cabine",
+          "tone": "direto",
+          "style": "print",
+          "duration": "stories",
+          "fact": "A votação do segundo turno é neste domingo (25/10), das 8h às 17h, no horário de Brasília. Celular, câmera e outros aparelhos que possam comprometer o sigilo do voto não podem entrar na cabine e ficam no local indicado pela mesa receptora. Pedir voto, fazer boca de urna e abordar eleitores para convencê-los é proibido. A manifestação individual e silenciosa, com camiseta, bandeira, broche ou adesivo, é permitida. Distribuir panfletos também é proibido.",
+          "sources": [
+            {
+              "name": "Times Brasil",
+              "url": "https://timesbrasil.com.br/brasil/decisao-2026-o-que-pode-e-nao-pode-fazer-no-dia-da-votacao-do-2o-turno/"
+            },
+            {
+              "name": "DGABC",
+              "url": "https://www.dgabc.com.br/Noticia/4353818/segundo-turno-o-que-muda-e-o-que-e-proibido-no-dia-25"
+            }
+          ],
+          "slides": [
+            "Hoje é dia de votar: das 8h às 17h, horário de Brasília",
+            "Leve seu documento com foto e, se quiser, uma anotação com os números",
+            "Celular e câmera não entram na cabine de votação",
+            "Boca de urna e pedido de voto são proibidos no dia",
+            "Vá votar e compartilhe com quem ainda não foi"
+          ],
+          "poll": {
+            "question": "Você já votou ou vai votar mais tarde?",
+            "options": [
+              "Já votei",
+              "Vou votar mais tarde"
+            ]
+          },
+          "caption": "Hoje é dia de votar, das 8h às 17h. Celular não entra na cabine. Você já votou? Responda na enquete.",
+          "risk": "baixo",
+          "risk_note": "Conteúdo cívico: não peça voto nem cite candidato, pois pedir voto é proibido no dia. Confirme o horário da sua seção no site do TSE.",
+          "timeline": {
+            "rende": false,
+            "angle": "Serviço do dia da votação, sem tese para artigo de 600 a 1.200 palavras."
+          }
+        },
+        {
+          "title": "TRE-RJ pediu tropas federais em 15 municípios do Rio para o 2º turno",
+          "tone": "sóbrio",
+          "style": "print",
+          "duration": "stories",
+          "fact": "O plenário do TRE-RJ decidiu em 15/10 pedir apoio de tropas federais para o segundo turno, de 25/10, em 15 municípios da Região Metropolitana, entre eles Rio de Janeiro, Niterói e São Gonçalo. Exército, Marinha e Aeronáutica atuariam no apoio logístico à distribuição de urnas e no patrulhamento. O presidente do tribunal, desembargador Claudio de Mello Tavares, citou o controle armado de facções e milícias sobre áreas e locais de votação. O pedido dependia da aprovação do TSE, e o governo estadual apoiava a medida.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://www.acessa.com/politica/2026/10/342345-tre-rj-decide-pedir-apoio-de-tropas-federais-para-o-segundo-turno.html"
+            }
+          ],
+          "slides": [
+            "Hoje o Rio vota sob preocupação com o controle armado de facções e milícias",
+            "TRE-RJ pediu tropas federais para 15 municípios da Região Metropolitana",
+            "Entre eles: Rio, Niterói e São Gonçalo",
+            "Exército, Marinha e Aeronáutica no apoio às urnas e no patrulhamento",
+            "Votou no Rio? Conte como foi na sua seção"
+          ],
+          "poll": {
+            "question": "O reforço de segurança no Rio, em dia de eleição, é necessário?",
+            "options": [
+              "Sim",
+              "Não"
+            ]
+          },
+          "caption": "Facções e milícias controlam áreas e locais de votação no Rio, disse o presidente do TRE-RJ ao pedir tropas federais. Você se sente seguro para votar hoje? Responda na enquete.",
+          "risk": "médio",
+          "risk_note": "Confirme no dia se o TSE aprovou o pedido e se as tropas foram mesmo empregadas; a matéria é de 15/10. Não afirme ocorrência em nenhuma seção sem fonte do dia.",
+          "timeline": {
+            "rende": true,
+            "angle": "A eleição sob controle armado: o que o pedido do TRE-RJ revela sobre milícias e facções nos locais de votação do Rio e o que a segurança pública tem a ver com o voto livre."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Stories acompanhando o resultado",
+      "options": [
+        {
+          "title": "Pesquisa Quaest de véspera dava Flávio 51% e Lula 49% nos votos válidos",
+          "tone": "direto",
+          "style": "print",
+          "duration": "stories",
+          "fact": "A Quaest, encomendada pela Globo e divulgada em 24/10, ouviu 3.702 eleitores presencialmente entre 23 e 24/10 e deu Flávio Bolsonaro (PL) com 51% e Lula (PT) com 49% dos votos válidos, empate técnico. Nos votos totais, Lula tinha 46% e Flávio 45%, com 8% de brancos, nulos ou ausências e 1% de indecisos. A margem de erro era de 2 pontos para mais ou para menos. Registro no TSE: BR-09158/2026.",
+          "sources": [
+            {
+              "name": "Correio Braziliense",
+              "url": "https://www.correiobraziliense.com.br/politica/2026/10/7526645-quaest-flavio-tem-51-e-lula-49-dos-votos-validos.html"
+            }
+          ],
+          "slides": [
+            "Véspera: Quaest dava Flávio 51% e Lula 49% nos votos válidos",
+            "3.702 entrevistas presenciais, margem de 2 pontos",
+            "Votos totais: Lula 46%, Flávio 45%",
+            "Agora a palavra é das urnas",
+            "Acompanhe o resultado aqui e mande sua reação"
+          ],
+          "poll": {
+            "question": "A pesquisa da véspera acertou o resultado?",
+            "options": [
+              "Acertou",
+              "Errou"
+            ]
+          },
+          "caption": "A Quaest dava 51% a 49% para Flávio na véspera. Agora as urnas respondem. A pesquisa acertou? Vote na enquete.",
+          "risk": "baixo",
+          "risk_note": "Poste só depois do fechamento das urnas e troque os slides pelo resultado oficial do TSE se já estiver fechado. Não antecipe vencedor nem comemore antes da totalização.",
+          "timeline": {
+            "rende": true,
+            "angle": "Pesquisa x urna: como os institutos se saíram na reta final do segundo turno, com margem de erro, metodologia e o que os números da véspera indicavam."
+          },
+          "desdobramento": "pesquisa de véspera divulgada no sábado (24/10), fato novo em relação à pauta de 23/10 sobre o Datafolha de 22/10."
+        },
+        {
+          "title": "Segundo turno entre Lula e Flávio será decidido por quem tiver mais votos válidos",
+          "tone": "sóbrio",
+          "style": "print",
+          "duration": "stories",
+          "fact": "No segundo turno vence quem obtiver mais votos válidos, que excluem brancos e nulos. A votação ocorre das 8h às 17h, no horário de Brasília. Transporte de armas e munições fica proibido em todo o território nacional por 24 horas antes e 24 horas depois da votação.",
+          "sources": [
+            {
+              "name": "Times Brasil",
+              "url": "https://timesbrasil.com.br/brasil/decisao-2026-o-que-pode-e-nao-pode-fazer-no-dia-da-votacao-do-2o-turno/"
+            }
+          ],
+          "slides": [
+            "O resultado sai da contagem dos votos válidos",
+            "Brancos e nulos não entram na conta",
+            "Urnas fecham às 17h, horário de Brasília",
+            "Acompanhe a totalização por aqui",
+            "Mande sua reação e compartilhe com quem está acompanhando"
+          ],
+          "poll": {
+            "question": "Você vai ficar acordado até sair o resultado?",
+            "options": [
+              "Sim",
+              "Não, vejo amanhã"
+            ]
+          },
+          "caption": "As urnas fecham às 17h e a contagem decide quem tem mais votos válidos. Você vai acompanhar até o fim? Responda na enquete.",
+          "risk": "baixo",
+          "risk_note": "Poste após o fechamento das urnas. Não divulgue resultado parcial como definitivo e use só números do TSE.",
+          "timeline": {
+            "rende": false,
+            "angle": "Explicação de regra, sem tese para artigo."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
