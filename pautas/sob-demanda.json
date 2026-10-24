@@ -3,6 +3,87 @@
   {
    "requested": "2026-10-24",
    "done": "2026-10-24T15:36:00-03:00",
+   "issue": 99,
+   "slot_hint": "Imagem hoje (24) às 18h ou reel amanhã (25) às 9h, antes da votação.",
+   "source": {
+    "edition": "2026-10-24-12h",
+    "item_id": "debate-globo-sexta",
+    "title": "Último debate da Globo entre Lula e Flávio tem 'nove dedos', 'miliciano', caso Ana Clara e a ilha de Richarlison; análises divergem sobre o vencedor"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Em debate da Globo, Flávio diz que Lula \"dá com uma mão e tira com nove dedos\" o salário mínimo",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Na noite de sexta (23), no último debate antes do segundo turno, na TV Globo, que chegou a 30 pontos de audiência, Flávio Bolsonaro (PL-RJ) disse que Lula \"dá com uma mão e tira com nove dedos\" o salário mínimo, ligou o petista ao \"tigrinho\" e perguntou o sabor do uísque de R$ 500 mil atribuído a Vorcaro. A votação do segundo turno é neste domingo (25). Atenção: as matérias das fontes não puderam ser abertas por leitura automática (links do Google News); os fatos seguem o resumo da edição das 12h de 24/10. Conferir antes de publicar.",
+     "sources": [
+      {
+       "name": "Diário do Poder",
+       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT1VsTy1Jc3h0TjVXVEJzQWNxWHMzcUpJS2E4YTNUUHhFazlLbkFiRVR4XzI5azNzeGkxazgzT0tmNGxpZUNVNTI1NkN1bkF5YlJaM3ZUWXJsTkR3OTFEcEdJakRvTWJaVm5Ba09sUlcxbVFZTDNVaVJEbTNvaFVyaU44NDZCMV9rWmdmRnRZUDdfYWl1QU5tNjdGRHdjUDFiWUU3ZE8zUGVxWUliOHhEazhaYzYzOTlDNW04LXlERFdoZ3N5TjF1T0o3bk1ZZ9IB0wFBVV95cUxPaHM0RDc4NzI4WDUyVGRTQ1RlU0NLU05iZG04dE94MC13cTM5aS1DNDZTRk51MXl2X1JxQVl3Y0tneTNKWlMwTGVYNkhIQUVRTk5FblpaamQxY2lOM1ZEaFNiVWRXcmFQRHFkQmlpNDJ2ZWVqS1RsOGJCbmttTTc0bkJ3TDJPX0k5SHhIRmRyMEstaTNSZ1VLWTdfaVdiWlpQWDFRSHlpMHRuZjVvV3hEdHUyV2d4eV9PRGYtRkxJellaLUJfejNNRFRxOU1HTmdQdDh3?oc=5"
+      },
+      {
+       "name": "CNN Brasil",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZWg2ZWJ5WS1mREZmbWF1SUlVMG0wa1dfNUxnQjhrTlJWUmd6YUd0RjhGdWY2V2M4NUR2Mi15TThBWkxISzlaTVF6OGFlUUkwZFVhRzdxVVBoLW02dEhYOTJ4ZktCTTNzZXEzd0RVRG5OUW00cVY3UzNpRlk0TEhqNm5xMzFZamJHdzJ4dWNlZDNkc2loYWNGZnFoMlRFODFhRmJwU085aHB0X2VGMnE2bVhMU3pDMG9kejNHOWJBWEVDTVox?oc=5"
+      }
+     ],
+     "art_text": [
+      "Dá com uma mão e tira com nove dedos",
+      "O salário mínimo no último debate",
+      "Flávio perguntou: qual o sabor do uísque de R$ 500 mil?",
+      "Domingo (25) você decide",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Flávio Bolsonaro e Lula, em ilustração, de frente um para o outro em púlpitos de debate; relação direta com a notícia, pois o confronto foi entre os dois. Nenhuma outra figura pública.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): Flávio Bolsonaro, de terno, dedo em riste e expressão firme, e o presidente Lula, de terno, de braços cruzados e olhar fechado, em púlpitos de um estúdio de debate de TV escuro e texturizado, com luzes de palco e câmeras ao fundo, sem logos. No alto, em letras condensadas, brancas e pesadas: 'DÁ COM UMA MÃO E TIRA COM NOVE DEDOS'. Num quadro amarelo no meio: 'O salário mínimo no último debate'. Num quadro vermelho: 'Qual o sabor do uísque de R$ 500 mil?'. Embaixo, com sublinhado vermelho pincelado: 'Domingo (25) você decide'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "No último debate antes do segundo turno, Flávio Bolsonaro disse que Lula dá com uma mão e tira com nove dedos o salário mínimo, ligou o petista ao tigrinho e perguntou o sabor do uísque de R$ 500 mil atribuído a Vorcaro. O debate chegou a 30 pontos de audiência. Domingo (25) é o dia de decidir. Comenta: qual frase pesou mais?",
+     "risk": "médio",
+     "risk_note": "Médio: fatos tirados do resumo da edição, sem matéria aberta. Frase sobre o uísque é pergunta de Flávio, e a atribuição a Vorcaro é só referência a algo atribuído a ele; não afirmar que Lula tenha relação. Não tratar Vorcaro como condenado.",
+     "timeline": {
+      "rende": true,
+      "angle": "Flávio acusa Lula de dar com uma mão e tirar com nove dedos o salário mínimo, no último debate antes do segundo turno."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Em debate da Globo, Flávio diz que Lula \"dá com uma mão e tira com nove dedos\" o salário mínimo",
+     "tone": "contundente",
+     "duration": "30 a 45s",
+     "fact": "Na noite de sexta (23), no último debate antes do segundo turno, na TV Globo, que chegou a 30 pontos de audiência, Flávio Bolsonaro (PL-RJ) disse que Lula \"dá com uma mão e tira com nove dedos\" o salário mínimo, ligou o petista ao \"tigrinho\" e perguntou o sabor do uísque de R$ 500 mil atribuído a Vorcaro. A votação do segundo turno é neste domingo (25). Atenção: as matérias das fontes não puderam ser abertas por leitura automática (links do Google News); os fatos seguem o resumo da edição das 12h de 24/10. Conferir antes de publicar.",
+     "sources": [
+      {
+       "name": "Diário do Poder",
+       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT1VsTy1Jc3h0TjVXVEJzQWNxWHMzcUpJS2E4YTNUUHhFazlLbkFiRVR4XzI5azNzeGkxazgzT0tmNGxpZUNVNTI1NkN1bkF5YlJaM3ZUWXJsTkR3OTFEcEdJakRvTWJaVm5Ba09sUlcxbVFZTDNVaVJEbTNvaFVyaU44NDZCMV9rWmdmRnRZUDdfYWl1QU5tNjdGRHdjUDFiWUU3ZE8zUGVxWUliOHhEazhaYzYzOTlDNW04LXlERFdoZ3N5TjF1T0o3bk1ZZ9IB0wFBVV95cUxPaHM0RDc4NzI4WDUyVGRTQ1RlU0NLU05iZG04dE94MC13cTM5aS1DNDZTRk51MXl2X1JxQVl3Y0tneTNKWlMwTGVYNkhIQUVRTk5FblpaamQxY2lOM1ZEaFNiVWRXcmFQRHFkQmlpNDJ2ZWVqS1RsOGJCbmttTTc0bkJ3TDJPX0k5SHhIRmRyMEstaTNSZ1VLWTdfaVdiWlpQWDFRSHlpMHRuZjVvV3hEdHUyV2d4eV9PRGYtRkxJellaLUJfejNNRFRxOU1HTmdQdDh3?oc=5"
+      },
+      {
+       "name": "CNN Brasil",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZWg2ZWJ5WS1mREZmbWF1SUlVMG0wa1dfNUxnQjhrTlJWUmd6YUd0RjhGdWY2V2M4NUR2Mi15TThBWkxISzlaTVF6OGFlUUkwZFVhRzdxVVBoLW02dEhYOTJ4ZktCTTNzZXEzd0RVRG5OUW00cVY3UzNpRlk0TEhqNm5xMzFZamJHdzJ4dWNlZDNkc2loYWNGZnFoMlRFODFhRmJwU085aHB0X2VGMnE2bVhMU3pDMG9kejNHOWJBWEVDTVox?oc=5"
+      }
+     ],
+     "hooks": [
+      "Nove dedos. A frase de Flávio que marcou o último debate.",
+      "30 pontos de audiência e uma pergunta sem resposta: qual o sabor do uísque?"
+     ],
+     "script": "O último debate antes do segundo turno foi na sexta, na Globo, e chegou a 30 pontos de audiência.\n\nFlávio Bolsonaro mandou: Lula dá com uma mão e tira com nove dedos o salário mínimo. Ligou o petista ao tigrinho. E ainda perguntou o sabor do uísque de R$ 500 mil atribuído a Vorcaro.\n\nFlávio encerrou pedindo que a população reze um pai-nosso.\n\nA votação é neste domingo, dia 25. E pra você, qual frase do debate ficou? Comenta aqui.",
+     "screen_text": [
+      "Dá com uma mão e tira com nove dedos",
+      "30 pontos de audiência",
+      "Votação: domingo (25)"
+     ],
+     "caption": "Flávio disse que Lula dá com uma mão e tira com nove dedos o salário mínimo, e perguntou o sabor do uísque de R$ 500 mil. Domingo (25) é o dia. Qual frase ficou pra você?",
+     "risk": "médio",
+     "risk_note": "Médio: fatos do resumo da edição, sem matéria aberta. Atribuir as falas a Flávio; conferir antes de gravar.",
+     "timeline": {
+      "rende": true,
+      "angle": "Flávio acusa Lula de dar com uma mão e tirar com nove dedos o salário mínimo, no último debate antes do segundo turno."
+     }
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-24",
+   "done": "2026-10-24T15:36:00-03:00",
    "issue": 98,
    "slot_hint": "Imagem hoje (24) às 18h ou reel amanhã (25) às 12h.",
    "source": {
