@@ -4,9 +4,9 @@
  "top": [
   "pesquisas-reta-final",
   "debate-globo-sexta",
+  "caso-ana-clara-debate",
   "rio-atos-encerramento",
-  "tse-nikolas-marcal-meta",
-  "caso-ana-clara-debate"
+  "willer-moraes-bloqueio-6bi"
  ],
  "items": [
   {
@@ -147,6 +147,83 @@
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcEQ1eThyV2dDZTVNc1ZaQkxvMWZTa1ZxTzl1MF91RlBzRkZZX2xGSUp6YmtUWnA2TGxzRDZSRzQyVjllUVUxUm9FMGVnV2VvTHhQOG0tRXo4bnFRNkF6SW0xdERreEI5UE82S0pjdVN5Skg5VTljX2hTZ3hmNnp2bzZPRkpBSVBoSHlzNllfRFlZZGd3WHVVTEV6T19jVEctV3NTVGpNcklEYnJfcWFqczdUOUM5YWluckhJQVZpN1NiZjVZczRYMnBCVjkxZEk?oc=5",
      "camp": "centro",
      "position": "manchete"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbFZFUlBFanBmRlRxMzlkNnprOW9NZ1FNTDN1S1hxRnlGUnJsLTdENHE4QS0yN1M1YmQwYnJEZk95LUoyNW85V3c1WFp3S1BWNXBteXVob3piQ3JGQ01wZ2kxQzhxcGduM0swb2RMVjU5NnhqdEN1dEs5NmNydzFaUDNYdjRHcE4zVC1tZ2YtbW1oYUk2U1BJMi1pRFhjcktRNHFlNlVYcGQ?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSjV0aUJNLTg2a25BeFhRYTA3RmN0UUh6THNzMk9BUFpXZ29lWGtLMkYwMjk3QTFNWFFoazVrVTVaQjdwazRkcmFQd3VhZElwNEFvYXdLMHNOS2JxNUhqTDY4WE5Obms3Y2FxQWs4WGF4Tkp4OUYzVF9NN1c0YWNWRFQ5WTVmVW11M1RibFl1WU9NbDY0WExOclJ6aE5SaXQzaVR2dzRtZ0tyTjdy?oc=5",
+     "camp": "estatal",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Diário do Poder",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLVM4ZmdQRXFrNWstZ2pEbmZScEl4NEhsSFluMFlyelBzOFJocU1YVEZ3TUVDdGpfdUVKN0VUbk5Hcmo4OXItYm4ya2hteXd2ems0Wjd6b2pDRWNpZ0x1Y0FyaEhEWEM2a3RDRW4zVE5IYUVtNzZUMURfMzNGM1RzdUQ5NEx3VVN6TThqTlhJZkdFdFAtV0FtcWpydWM0dkc3Z3FGRUNfUWdfNXljdElON1FCMklrU1ZoQXhoZjlB0gHDAUFVX3lxTE43LXhxVDA2eHZZblBDaUhLTUJXQWxHVXl2WlFJckxZbDJKVk50emhmdDVxOEthZlNSakxfOE1UUUFacG9hSzhmbHh6RFUzZHlCUEJMaGhuU2xEdEhsTnpkNkFpQm1uR3ptRzJoT3hzN1lHb05Fal9jdF8yaTN5N0oyVjVWaElLNnVmU1hoWFJ6dmtrb3BRaVRhaW1KdUUxWHM5aE5yU2gyd2tlQXlGLTdobFQ3WmlxdmE2b2ZzRDJoenk0NA?oc=5",
+     "camp": "direita",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BBC News Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96czlhQTZaY01SbDF2S0pIWXl1eF81eHFMR3ZfTkplTzUtc3NfLURxVk9JNVBoSndEMFpuX3prZjV4V1NPMWVfRkNESXZIb2VGTl9JRlV3UXlyWHFRZVBtOU1Ra9IBaEFVX3lxTE5GWHFUZDk2NENQNVJ1TEdRQUVqR3pfZ1V1RjlDaUZidURqcFBlQzhnN0xjbGY4R1hMWlVSV2RJbXBvZXNMZXBSd291YTZtc0FINUhQYy1hTXg2emNhQ0ZqelJhUW9FeGdx?oc=5",
+     "camp": "internacional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVTU3cXp2WWswTWFyNTY1REg2Nk5zUGdvOVFzSTJ6d3FBLTd0eTZTMEl1QXR4bUNkS0ZNcmhqVWpYQ1pCNm9BbEUxcVFIaVlyRnZPdnplbkpBNkxQRzREREd0TkpQbExwQ2JKQzhvMC0xbS05WmpjOFZsZ1F5UGY1OE5ra1pRVmFRMk9tQThzSlh3Mk5MUDEtT0RDaHYtakVOSVhHLUJqWld1blVZNTdRZVY5eFFaN01sWDBpSnp2VVpvdEtsRWdOZXJ4WdIBywFBVV95cUxPVTU3cXp2WWswTWFyNTY1REg2Nk5zUGdvOVFzSTJ6d3FBLTd0eTZTMEl1QXR4bUNkS0ZNcmhqVWpYQ1pCNm9BbEUxcVFIaVlyRnZPdnplbkpBNkxQRzREREd0TkpQbExwQ2JKQzhvMC0xbS05WmpjOFZsZ1F5UGY1OE5ra1pRVmFRMk9tQThzSlh3Mk5MUDEtT0RDaHYtakVOSVhHLUJqWld1blVZNTdRZVY5eFFaN01sWDBpSnp2VVpvdEtsRWdOZXJ4WQ?oc=5",
+     "camp": "rio",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMU95Y1owNXNWQ0wwT3BwZDEzNmNuRVBTMm9vOTd6T2hLTFpCcWQ3SERfY201OXp2b2tRYlNYc21BSk1fSkk5S3dJaXhpN0tYM0dZVUlNM0FITG1ydlQ4NmpvdElybjN3MThoa0tnZGxIeGFhdzdKUEpBZVBlRVpsWkZISk53a09zajJMM1lxY2F4ckhjNnlkdzdYb25lcnlta0tUTlA5X3RueEJpLTBKNnRYcGU1dUlQa3JHVEVwQXY1UjQ?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Correio Braziliense",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeU5rdVpFbVlSaGhPdG9kYkN0d2s0cGpveldZQ1BSeEh6dmRwSkZjbzI2MnEyLVJHYk1MVFNQMDludVc1b0EzYWdrQ3huVHNGYlZUOUZKM3dyZjBQVWhsRF9ydDE5Q1ppbnB6MHhtd3E2WVJzRWlYNlV4eU1wVDVJMHo5aTNhZFdKb1QycENqeHA3aEI3dkVncUhmQjE1YmlkLTlodGlrakwxX0luZDR2UUdkMVF6TDNzM1NjVW9qX1JLbl83TEhPdTNFc3XSAdIBQVVfeXFMUFVvOHRxbTRBak0xbEcwSU1tMUoyeS1zc09UaHhnWXB2WGdwN2dBaFB3elNaQjdONFg2VURmdS1JeUZPQ25DZDdaZXFicVZJeHVQbm55V1I1eXVVVzh0LVg3UGc0SFQwMFg0dEpya29fc2gxaWN2N3E3NVQ3TDVuVWFaN0ZHTjY2VXpRbjZsVGhMMDlJTkRoZnV3TlRNLUg0dFZ2Q2xiS2dsS3daSFMyRTRMNVRhMlQ0aXVwRmdKNWpINDY5NzJuVkU3RHZwTWlWYVp3?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT2JXNVhnYTkxbmJCWi1SY2VnSnRqM2pBcDJZT1BXUjN3UlA2anJhOUM3U2QxM2d6UHRMY0pVRTB5RDZfc0xMTGhEM05QQ1R6Tkl6Ykh5TVZNWi16WnRKOWg2Y2FWMlM0XzZyczliR0E0WGxyS05LRmRiU0pOOEc5VkFXOElWWUxsVnNFWGdvSUZjSDMyaWhYbUxHb3ZPUXZhdGp1MEVCblJPY3N0NUt6SEJ0RlpMaFRhRndPb2lyUzHSAcYBQVVfeXFMUE9GZHB6UlE4bWF0UXZBUG5CZ1JtXzJDMjhoVkt2MUp1S1hrdHdSYlNVT3VqYnBxU1lHUndyLUZaQ0ZLYUZTUlktVlByODVhNV90RUw5WFNaLWR3RnJYT2JVdnIxcnhBeFhiVkUwWVRGcGZVWFdDT1ZLcVNxdXV1YnFUV0lMWlc3SU1ENW9qaERzWEg4TVRoUi1CaG9tZ3FDYXJjTDdXS1l2b0h1ZnM0RDNUZ3Y0OXBhQ3lReGJ6dGZJVzdOMG5B?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "NSC Total",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdUFLQTRlMTJhV0tZelhwMXBROGdtNUhwOVozTW1Ec3M3NWN6bWpfMm52N0d1MHY5dF9PejA4WHAxZ1dVSFlFbXZTempSTUdHNzlXUldIb3dYSG9TcUg1QWhSLVJ3R3hTbGR5Z3hudTd3azJxV2Z6OUVBQWU2eFJPVlE0dTNDOE9VRnJvMU5ESDBRR1cydWhTRERIZ2IwN0FBa0JtdFBQRi1xMF9hbmpEbDVWb3FPVU5EUnM0VTFqOGZaWkJkSm82bGZ6el9TYThs?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Correio (Bahia)",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk5WVzFkY2sxNm5XRUJ6WGJyVXZIZXVUZ0dzbC1POXRHd2dwVHFpTTlzakRuUWZnWHkwWk1ldTlrcUJGV2xGb1k4MHMyaFVfRVRwWlRFR1J6aWx4eWY4bUpIRXdyTDRIdFdhQ2xaUU9jNkpLMFZYZmFhM21ZSlZCUVRiNzRNeFhYUDllUXR4dHM5U1BHcDVvZGZGMnE1OEVPZXc?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHkwbHBvdzFKMnlybTY0MDFuX0hvSURpMWpRalFSdlIwZnByZmhaN0pzNE1LbDlCNHRCaWhQOW9faE9FNlpNQm9BTDVDVUU5MUlYOTFvcXpzZGVFQVJ6cFdxd3BTeHJiME9MblVBM01XN1FKcDhpUko3UFY0bFBmWThfeUk0MUJ4YUR4Q09ucDUtUV94eWdHUXM2OFZyYzdULTBKY2w5d9IBpwFBVV95cUxQeHkwbHBvdzFKMnlybTY0MDFuX0hvSURpMWpRalFSdlIwZnByZmhaN0pzNE1LbDlCNHRCaWhQOW9faE9FNlpNQm9BTDVDVUU5MUlYOTFvcXpzZGVFQVJ6cFdxd3BTeHJiME9MblVBM01XN1FKcDhpUko3UFY0bFBmWThfeUk0MUJ4YUR4Q09ucDUtUV94eWdHUXM2OFZyYzdULTBKY2w5dw?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -487,6 +564,13 @@
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY1dnM2hZNHd1cXJJYkRwdFFxYzN3YXUyYjZreFBjalA3UmpBTjlka2pia0EyaGl2UzZtLWtNcktnNEVlcGdJTGFsc1NmZE5SRlVEajMzd3cybUtwaFp3dmROX01rTE81eEpDU2s1dGJPdDRNQnBFaU9QWkVQWUFNU2dhVHlseHppaTNoOHM2al8yTlUtTlN1ek5DZTFGUlJHaGRxY0J1ZzJDdUd4V29JcXdybDRPenhHTTdoay1IYUlVU0VYTmFvVi130gHKAUFVX3lxTE1jV2czaFk0d3VxckliRHB0UXFjM3dhdTJiNmt4UGNqUDdSakFOOWRramJrQTJoaXZTNm0ta01yS2c0RWVwZ0lMYWxzU2ZkTlJGVURqMzN3dzJtS3BoWnd2ZE5fTWtMTzV4SkNTazV0Yk90NE1CcEVpT1BaRVBZQU1TZ2FUeWx4emlpM2g4czZqXzJOVS1OU3V6TkNlMUZSUkdoZHFjQnVnMkN1R3hXb0lxd3JsNE96eEdNN2hrLUhhSVVTRVhOYW9WLXc?oc=5",
      "camp": "centro",
      "position": "manchete"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYldfdndGdDMxaXFyeFRSTFUxMXdnV0xVd1NKbDFtbXphMFF2bHdqbmNaT1d4bEM0MG4xTjdpMEdzVnNpSEk2dUdsMUROalNPTF9LZmdndmZhNFd3VlFZNXBLcXg2WTcwczdkX2VfQjdfM1U5T2JvVHdHcDh5cEpXUzl2c3VsandzYVg2QkF5aGpNTnF6TmxLdENaamdJaFY3N0daSEhuRmxBS2pLQUxwdElqZw?oc=5",
+     "camp": "esquerda",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -602,6 +686,27 @@
      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaEhVUlV6cXZfcjN3QnlNejdtVnFKb3lLTVBVNE5idlJVem5DTjJMNHJidGZyY0dzam1Vbm9DRHJEc1oycWJGRVVvTHRRbnlpTUZqZmpaN0RsVGd2TDJxalVGTHlpeWJiS1FDYnJUU25yR3RFckRDSmQxbmkxLXZLaHA5MU92Vml4T2N2R3NFQmd3WHdIYks4YVIyYVh3T29rS2VhdzYzZ2c3Nnd4UGJ4cjVwY21yNGIzY3dkS1ZVRWZ6VjZSalpxb09ncVZlRjdwOTFIb09NYzY2UnlxWnVqenFUWDI5Q2lvUTA4STFzeDRrajQyZm1JUG81VFZiY1llbnhBTXRRbVoxRjRnTnJOLUdFMWVld9IBlgJBVV95cUxQaEhVUlV6cXZfcjN3QnlNejdtVnFKb3lLTVBVNE5idlJVem5DTjJMNHJidGZyY0dzam1Vbm9DRHJEc1oycWJGRVVvTHRRbnlpTUZqZmpaN0RsVGd2TDJxalVGTHlpeWJiS1FDYnJUU25yR3RFckRDSmQxbmkxLXZLaHA5MU92Vml4T2N2R3NFQmd3WHdIYks4YVIyYVh3T29rS2VhdzYzZ2c3Nnd4UGJ4cjVwY21yNGIzY3dkS1ZVRWZ6VjZSalpxb09ncVZlRjdwOTFIb09NYzY2UnlxWnVqenFUWDI5Q2lvUTA4STFzeDRrajQyZm1JUG81VFZiY1llbnhBTXRRbVoxRjRnTnJOLUdFMWVldw?oc=5",
      "camp": "centro",
      "position": "topo"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdDlySnVscHFveVoyX0xmcjBQZlpwNmhyZlhRb3lWUXpJSHFlZkRId1R1UFQ5dnJIOWVsS0J5NGVzR09yb3NoMm9xRXFkNDZjdUZaOHlPWDRKMXNHOVA5elFYWmFRdFg3MjU4UW9DblM2S2EzanY3NjBnMHpyNEdPa0hITHpYUTF1WkVkLXJjRHpVUXN0alBlbTctZ1p2NVhZdGc5NHBfOA?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVm9mNW1nZ3NWdjFrUGotUndDTVNmRFI3U0pxN1ZnMFkyWmpHQ3F3a191LWFZMGFicGtQVUM3RU9sTWpWWFd1bVllemRiSENCRlh1bWQwT25QSmVTSTdkdjV1cmVjV3FiUHRwcHlJQkhpSllDTF9WdTZVb21xZ3F0VWY0T0JueFY0LVFNYnBBdXIxblQtMWZzWnRCQzRVRHNfWDR2UUNnVWFUNjdD?oc=5",
+     "camp": "esquerda",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWk04OGF3N0dpWUp3RnJQOGRyRGdfWktlXzdWbFczREd4d1ZjVk9yeF9Zc3ZQRmJ5TlhKTVphRFZpdjF2WTJMZzBKa0xiQWl4bll1OGtNdTFEdlRncTFuSWxyTGF5YXFDYzkzbjNGdU1iY0Y5Zkt2Zm15c011dTcwaGNobUlvcGpqOGc?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -615,12 +720,12 @@
    "title": "Caso Ana Clara: Flávio defende a inocência do único acusado e a mãe da menina diz que não teve a resposta que queria",
    "summary": "No debate da Globo, Flávio Bolsonaro defendeu a inocência do policial militar acusado pela morte de Ana Clara, de quem foi advogado. Ele disse querer saber quem fez o disparo que matou a menina. A mãe da menina afirmou que não teve respostas e acusou Flávio de falta de empatia. Lula voltou a citar a morte da menina em ato no Rio e para pedir voto de mulheres. O caso segue entre os temas mais citados nas redes após o debate.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 10,
     "destaque": 9,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 8.5,
+   "score": 9.2,
    "outlets": [
     {
      "name": "Folha de S.Paulo",
@@ -663,6 +768,27 @@
      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTDZIMnlsejREVDM5eFVKLW5lejlmalpoTXN4MVRkSVRMU3hiR2MxWl9ka2lsUnNZU3kxOXdtVnV5YU5ORzBiU2tjVDZyTXVwY3diZ2tDTjd5V1B4SjJkWkRiZnNhR1VQaE0tWmR4eG1nYlZRd2k2NTNNcHVJQ0NOOUNHOV9VM0FjbDlzQVlHT0llS3prZ09VOHhFUkZZT2JoZDVQS2RTckZuMUdMOG96QlprZzNQNWxpRi1NaVlTWmpJYTVmY1Qxc1JVUThqamNVOFN4ckVIX2JOY2xGRjZNakZhMTJSaUU?oc=5",
      "camp": "regional",
      "position": "topo"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQjJRVXhMY0ZScUo4Q3RuMHFYcVc2c1hmTWFjQXdRb0EwTHdTbFJVYVprQ2VJVnc0dzVhbkFCT20wOUMzVjc1U2Jfb2ZyaHZXUTZveFJkLU05NW1YNlE1Z29CVzlXZ0NHajlYcWg2M0hwSXVya0tHTHJ6TmFqWGdDdDlBV2VKaEdITGdJc2dFWW93VzhXX0taWEZqODFKYjIxQlNlQmc5c3NVSjJyQmVucVhVdk5ScEQwb2o1dzRrZWtRY3NoNEx3VnI0VGZCUEJ2Yzc4?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYTRtNzQ4Y19fRXFNUDBXYkhGZnRWWjd1UDM5bDR6Nk4ySmp0VU1pcHVwRTlka2NjMmd4Vms5ejk4aXpIbjlFMWRUZ1pSYkY5Qlh3LXZxNmNlVWRmc3pId0JQZmR0UHd3ZlJEZkl3UDQzVGRnRFVpY3lLa19BZnpMVVN6bGk5RHhNV1RqSVVBQUFURjg3aWtaTkVubi1hOS1sQ0Zuc1hnTmp4Q1ZvX203RXB3?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOHlCV3hvV1BKeVV3bG9Oa2NtcWNUd1ZIdWYtWUpvYVdXamNwOG4zQ1hGNlRENllIRGZRYk9nQ1l0UExzNnBXUjZtQmlob0Nhbk13WHJrT0JpaUIzSXUzSS1kUElTS09IYThxa1FmWDJSZFJjbXg5TWpxSDQ2bDJUWHJBakZ5aWdJaDcxZDBRTnJFLXIwODVlR29VY09vTnNPRThzY0daQXdYNFcydllRbDhwd1l5NTF6S0M0?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -676,12 +802,12 @@
    "title": "Moraes bloqueia até R$ 6 bilhões de Willer Tomaz, amigo de Flávio, que nega 'sala secreta' e é citado em tentativa de ampliar mansão em Angra",
    "summary": "O ministro Alexandre de Moraes determinou o bloqueio de até R$ 6 bilhões do advogado Willer Tomaz, a quebra de seus sigilos e o cancelamento do passaporte. Tomaz diz que a chamada sala secreta era usada por uma empresa de táxi-aéreo. Reportagens apontam que ele tem 15 imóveis que somam R$ 62 milhões e construiu casa com heliponto, e que tentou usar um decreto do governo Cláudio Castro para ampliar uma mansão em ilha de Angra disputada com o jogador Richarlison. Willer Tomaz é amigo de Flávio Bolsonaro. A decisão do STF ocorre na véspera da votação.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 10,
     "destaque": 8,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 8.3,
+   "score": 8.9,
    "outlets": [
     {
      "name": "Folha de S.Paulo",
@@ -730,6 +856,13 @@
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUWdfTTZhRUJjd2Q2Wk9QUlN5MW94dGJYNmFGTG1QeEtBQy03ajc0NVRoc0dNSDBBNkl6TGRBSkdya3F1LXhwRFJ2ZnY0czdoRENORDFPTmJ1MS1MR3AtNWt6TG1wdFJ3U3FFRFNaZHZoemN3YmFwYTF0ZHpmSkxNcTU0dHA5cWdMak01WW1UR2lxbHRHX09lOHVKNUZMQ3FfUnUtVGljQjdXNWNESkdEanJibTVlM2I5WjM5WXc4V0Yya1lrU1dmelhYTWtnRFXSAc8BQVVfeXFMT1FnX002YUVCY3dkNlpPUFJTeTFveHRiWDZhRkxtUHhLQUMtN2o3NDVUaHNHTUgwQTZJekxkQUpHcmtxdS14cERSdmZ2NHM3aERDTkQxT05idTEtTEdwLTVrekxtcHRSd1NxRURTWmR2aHpjd2JhcGExdGR6ZkpMTXE1NHRwOXFnTGpNNVltVEdpcWx0R19PZTh1SjVGTENxX1J1LVRpY0I3VzVjREpHRGpyYm01ZTNiOVozOVl3OFdGMmtZa1NXZnpYWE1rZ0RV?oc=5",
      "camp": "centro",
      "position": "topo"
+    },
+    {
+     "name": "Correio Braziliense",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNekFkOUprR3F0N3dzZFJiMXg0bjNBZ01uTkFaNUVNTlFMOVZMSFpaekNLSm14MGVXNnR5Rk9TNWwyWWFBczFsZXhpS2N6amFEZ0hkRkoybEhLdWJnSVhDdExybHBQOV9hcEZXaDFWTzluUlpIOERfMWRNSXZJSGxhU2tSdHMwNGxrdkhOa21KZ25LckpBS3FscnNLVlRqU29yRmpCLVlKSDBDVkI1UlptSnhra2d4UDR4ZVV1b2xIWDZ5Vm9fU09WQ0JXQkh5OUFLQklPdFRBc9IB3AFBVV95cUxNQUNPOEVLU09LbnJsOTNhWC1VYjZnblkxVDhiWTkzWGQzVmhRTlBCVENfY3Q4UUhVVkI4bjlsSjBFNlNiWHpVaUZpc2FpRENQa3lnZHRCOUV0aU1xRDN2ZHczelRQX1RuRi1xNXdBb2NkdUtfNXdxOF95NGg4S3N5bXBOckp5ZHZybXE5OEtqSXNmcklrRnNZdG5Fak44ZHdwWUx1WnFhSXg5V3c2SFQxeHNaSUJYU004NS03QlhsQ2F2UGhDcGw2NEwzVWdCZlB3M0Y3Vk1wN1Z3czlT?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -858,6 +991,20 @@
      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNQzN2eEFQbUVJcG11VGdfLW9aazFqUnFOYzdaV2FPS1kzMTl0cVFRN3pxR0F4V2xzLVdtSERiZXQ5clNMZEV3TUVJT3FGSjgxb3k3VGM2YXBYN2s5bWt3V01ubHlLeGp1c2UxZXItV1Qyclp5eXlwTWs0ZGlxMUpyOEdvSHFkeUlYNW02MjJQVDRRNmhrTm1UTVlDcUJuOW1jUURoSUVMVUVwczBQcURzWDd3RXIzNGc1X2NtbXBLcWJxZmJoSUFJU3lfT0ZEVWxkSlhRRW1LVlpRZTMzdFYwclRWUXpWMHdVSE9N0gHrAUFVX3lxTE1DM3Z4QVBtRUlwbXVUZ18tb1prMWpScU5jN1pXYU9LWTMxOXRxUVE3enFHQXhXbHMtV21IRGJldDlyU0xkRXdNRUlPcUZKODFveTdUYzZhcFg3azlta3dXTW5seUt4anVzZTFlci1XVDJyWnl5eXBNazRkaXExSnI4R29IcWR5SVg1bTYyMlBUNFE2aGtObVRNWUNxQm45bWNRRGhJRUxVRXBzMFBxRHNYN3dFcjM0ZzVfY21tcEtxYnFmYmhJQUlTeV9PRkRVbGRKWFFFbUtWWlFlMzN0VjByVFZRelYwd1VIT00?oc=5",
      "camp": "centro",
      "position": "topo"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOHlCV3hvV1BKeVV3bG9Oa2NtcWNUd1ZIdWYtWUpvYVdXamNwOG4zQ1hGNlRENllIRGZRYk9nQ1l0UExzNnBXUjZtQmlob0Nhbk13WHJrT0JpaUIzSXUzSS1kUElTS09IYThxa1FmWDJSZFJjbXg5TWpxSDQ2bDJUWHJBakZ5aWdJaDcxZDBRTnJFLXIwODVlR29VY09vTnNPRThzY0daQXdYNFcydllRbDhwd1l5NTF6S0M0?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcG5hblgzT2RYUDBLTnFTLUVrR1dCblY2blVKX2F1eGRNT0kxSGNSWFFhcEhJOTJPZE1iX0NwWVJCZDdWV3hrT09ZMHdFMjNqTWJUSmpQRzJlX2hoTE1QNXFyN2ZPUl80ZzZMVEY3VkFYRm16Q1pLaEI3Z050TjdaQUI4QVNRSXZwVzk3cnFKT0ZBVGxVVGF5V3lnWnVBVk84cGx5bzhsckxnZWNranVuU1RYY29KOGNYUVHSAcIBQVVfeXFMTXVlZHhqR0JkMndXOERLMWc2MElMWnFHUmFncDVTRExNakFTdFFyMkVMZk5PN2FfYkczOF9qWEI1ejJkU0hrUUpEcHZrLU5CV241WS1lWWdta0tJQVlkV3R6LWhkeE5WRDhMVVJsam0xdnVfMjEtT1VVemVfYWdhUjl3ckNNYmtSQjNsNzQ5dVBvRnE2Vjh5QktzRU91NjFvZ0hieHRSd3dKcUliUDBVUTJlbFJmT1JOaFhZbmg2RXctVXc?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1138,6 +1285,20 @@
      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMVI1eWFwZVY5RVN3a1Ewd1hHYmNiQTA1bU1vUDRUdklyR294RE1YNm03aHdlY01hb3oya1JiakV0cEdRdEd0dUkyNUszdWN0T1dHODFMOUtzT2dQWUZscUwwODRqSktNa3VHUDlXUGNVX3VCRlBmdGpJQTlqenhwWFhTWEhOS1pTMm01Y1o5TUZsc2dmOExhaUJWRG9YY2ZkbzZmVnMtV3lwNjZnal9WT2VZXzZ2TjRucllhLTh4YllIZXltNUgwaVpkeWcwcGN5SWFYRU9oT3V5SmJrWlZYQUcyUmFOd09QM1VxTGcweU1BSmNTZmVWMno2ZlpIUWItMVg0ZNIBkwJBVV95cUxQbXJvZGR5blRhOEItanFRQjBFcU9FTldVbll4NHlNZC1ZVlZVV1o5T3g0NUlMSkd0dU5HaXlxek0xSnc1eGZBYWF1XzZiUWhRSElQMFcwcTY0dlQwb2FQNTB0eUt3V3kzMmpxbGdUMldSOWdjU0Z0Y0FWWkZvSkNOcGU3MXN0X2pTeFczT0pPWURDRUdaRVZ0QkFXQlJWZl9tT0NZWmc5NjdaMEtZdFhQc2N4RHNsN1E2eVl0ZkVldDExTzVsck5kUUZCOG1veVYwS3pIbU9OX29RQXVJQTVIVnRSWXcyY01jZWF3MEJTdjlXNC12dW5EU0tuYTFhUFpZeS1RZVhjczZmSnZZSU1QQzZzNA?oc=5",
      "camp": "centro",
      "position": "topo"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbFA4b3BkRDVvVHNERkxFa2U0MnVGaHhLVzlGbll0VUZVOGZPS0tlcEx2bUlWb0w5bm96czUtb3ZUaVl2YnhpOGRld2JrTlR5MzZpdHo3UTk3YUcyc1hlVlR2R2QxUWUxMmVWNU8xN3V2WEhkek5HQ3NFMVZ2d2twZjdQQnQ3cVVtclZhY3JHQUIybVl6bmplWUszbURZaEsyNGNJTU5aakg5bkMycFJKbkRVMDdZN3FKVWJUeElld0ZHb0FIZ0lfUDl2OE05dmRERXRHcTdWZEtITGw1UnFuZl9ETlJIYjQ?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRXdMaXd2aVRJaTVjT1IwSE1vZEFDLW1wTFhheXR5YUl3Y3N0NVNndm5IeWpONVNtSzg2TGtBbVRCbUdMeU5GemVKcEtmVnFTM1BrNGVyYTF4WGRMXzN4OE1ET1oxZXc4Qk9UV0M3U0R5RWEtZllhQ2JUWC1PX1JiUlJUYVdnWnl0ekkzT1ZCQTZBSXdCQzB3M0lYYmF5bG_SAaQBQVVfeXFMUFJoWWxsbzVsU0ZsV2gtSTFTOFJISVYzZzlqdkFhZV9wZ0h4WW5nUjdSMWVweW04dlRzQ0ZETDVsdW5vdEtCcWluRWo4NFRjd3d1UHRrSWtyckQ4YV9UazYweXRqV3JGbmE1d2FSeHNGRVJkREh4ejZ3dUNmelZNYVNtbUkxY3lDZnhBY3pZYlIwUVB1dnZNVWs4RXZmMHBOTExla1Q?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1151,12 +1312,12 @@
    "title": "Oposição reage a fala de Lula sobre 'acabar com a polícia' no debate da Globo",
    "summary": "No debate de sexta (23), ao criticar a milícia, Lula falou em 'acabar com a polícia', e o trecho gerou reação da oposição. O deputado Nikolas Ferreira disse que Lula está 'completamente perdido'. Aliados de Flávio Bolsonaro criticaram as falas do presidente no debate. O vídeo sobre polícia alcançou 67 milhões de visualizações, segundo levantamento publicado pelo Jornal do Commercio. Fim do rastreamento de munições, defendido por Flávio, foi criticado por policiais ouvidos pela CartaCapital.",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 7.0,
     "destaque": 7,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 7.0,
+   "score": 7.7,
    "outlets": [
     {
      "name": "Revista Oeste",
@@ -1175,6 +1336,20 @@
      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOeUpwNC1wbU14R0tESVMySG9YLXpFLVp4YVNlVDg2a18yVTdZTnZaRFVlVjR1NE5CUGduN21Sdmp3ZURBOGFiX1JMa05uTndqSVVkTlpYSlVxUHZBSUFNSm1IeVdTaDl2TmFSY0tlVk01MkRzNnFIa1Z6WG1BSTJ2Mkg1clE3NURvdDJyd2VZSW80NTJ0bm5wUkNEV0V1N2lRMGdpSUZsWklWZzdmQzhQUXFxTlAwQU54QnB0QW1rSEFjWWlIVHRJU0NHMThzekZyQlZxT01yOU0xeXpnOTllcE5neXJYX3pqWU5xdEFBMDF5dk5hNmRGaTcxQTBSbF85bVhUbU1Tbw?oc=5",
      "camp": "regional",
      "position": "secundario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYlpJUC1yMnNCQTZSV0ZTaG1MQ3gtZ0JjTElFYVVQRlptX1F3OUppVDhxd0VVRDRTd3B6MVBZNEdzNFA0VHRXRDNjaDlEOG80aVdoT3hDeDk2UDdCSzUwS0RrZEFDU0hpYzktUWZmUVdBcnVPTFJodUo1ODlwQ3dQWGdINGUzSjBYT29RNVpmbUQycHgzVVRaSEk1X0RVSURST3o0?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUW0xMHZqOHpzU3JhbWhjWUVZSjI3Zkhpc05qM2NON0tzd1VCT1MxTmFlWjFkQlg0WndydU0ta1FidDJpZFdIWnFWVlJXNmIwX2FJV2h0Skp0d3Vmc19BM2VhdUp6WWdLNWRwWEszTFV2MVFyUWRzamRfajZSNEdoQ3FVRS1hR0pXLWExOVB3?oc=5",
+     "camp": "centro-direita",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1645,12 +1820,12 @@
    "title": "25 mil militares e operação do Ministério da Justiça reforçam a segurança do 2º turno; Brigada Militar mobiliza mais de 14 mil no RS",
    "summary": "As Forças Armadas mobilizam 25 mil militares para reforçar a segurança da votação e da apuração no 2º turno, informa o TSE. O Ministério da Justiça faz operação para garantir a segurança das eleições. No Rio Grande do Sul, mais de 14 mil integrantes da Brigada Militar atuam no dia da votação. O Distrito Federal também prepara operação da Polícia Militar para depois do 2º turno. O Ministério Público Eleitoral atua em 43,1 mil processos e reforça a fiscalização.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 8.7,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 6.3,
+   "score": 6.5,
    "outlets": [
     {
      "name": "Agência Brasil",
@@ -1780,12 +1955,12 @@
    "title": "TRE-RJ reforça a segurança para o segundo turno e convoca quase 13 milhões de eleitores, com tropas federais",
    "summary": "O TRE-RJ reforça a segurança para o 2º turno e convoca quase 13 milhões de eleitores às urnas. O reforço inclui tropas federais. Apenas um local de votação mudou no Rio, afetando quase 2 mil eleitores. Itaguaí terá eleição para prefeito junto com o segundo turno presidencial. A previsão é de pancadas de chuva e raios no domingo.",
    "scores": {
-    "cobertura": 6.5,
+    "cobertura": 8.0,
     "destaque": 5,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.5,
+   "score": 6.0,
    "outlets": [
     {
      "name": "O Globo",
@@ -1810,6 +1985,20 @@
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeE8tVWw4RGg0VTVwN19STDRtVVlGeVZ0dXpzMmV6MHhSaXMxanM2WGhHZDZhWlJQMlAxWWI3aHdMcjNKWm1mQ1RWd3R4akxCXzlIcTljYlp5M3lHWUNJaEdTWlJPS214czc2Q05mWEdUUHplWlI1cDVGOEdzeDBxRjkyWjdpdWgxbUxKbG10SHlZNm5iYmwxQ3RIOGhjc05hZlgybXN2Ym5TV3dISC03dUVtaVdZVW1ZNWF2SkZR0gHMAUFVX3lxTFBTZVJCQlp0eE9rWFdLdFUtSVllb2ZJVEdBNy1pS0JtQTV4QmdkMldXT3lOU05XSkZNb3ZERlZpeUU5TmdTRVJWeUh0NmJ3QnB4YzItMmhneUQwNi1yVFNjOC1kRTFZbFVjSHpFaEVEY1dvc1lLOHN1dmd2YlRjX2g3aVB4Zy1HYUJxU25SdnVwTTl0N2FFa2tjY18ydzR0S2hhd2J3NVdacGFwMVotQlNITnlvLVpWelFGX1NEOXBwdHZWc2JrbmphOElCYg?oc=5",
      "camp": "centro",
      "position": "secundario"
+    },
+    {
+     "name": "Folha de Londrina",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOGs5QnpGS3dxY3dkY09ramt1OUZMQldOVk9zQjczUjBGZlo3cXgyQWNsMUJoWkZCOUptQWx5c3o5dnVzMWdzOXFkdnEzcjFkeFlGSmFlYnBMTVNDVDJrM2xLOFdpR2p6U3ZBUmw0Qm9JUlFTNXFLdVFBcWtJRnJFMldwQUZJYnRFNVdDYl9LYV90aUpsRWdmSmYyTmhRbXRFbW10ZTRucmU4b0p6NURRbVl1RkttVmM30gHAAUFVX3lxTE5tSDQ5OWlpVGxJNDNRRktWNUx3cnNKYXI3am1tM0c4OWlLbXRUQlFDQ2c1TENiV2JIcndFZ25vVFYxWWh5aUtLajA1NFM5QzgxclhZTjdwS05mNjBMX1B5ZFp2QU5aQ2QyM1FvZHZLODAzV0ZsbHZIUTdFRGhCNFlPWU1RcV9pWFRBUVhoM3NfNmhiMlhLYjQ3VVM4TXVFSGRGaUxMLXlDTEU4d0ZoZHRHQUpDTXV3Qi1uZkNVUUNLcw?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa0RuMWJ2T0RGYTVlbEIxbng1dHNDM3BwbVpSOE1JbUdCYVI3V0lSNHRsUnZvTTJDNGVua2g0dmlVTkZ4UTQ0bHJVQUtXeDBxak5OMDQ5TDEwX1UtUnBzY2JZU1M5WkE0bnlaN3ZWcmY2LVhFM2RoeVNoV3ZidDNHSFlMLXhqZ1Zubi1ydnRyQWE3enFSc0d2NXB1NzJXM0M4cTdZOHZ1Q1ltVW8tbXRoVWVrLTQ0UEM0RDNN0gG7AUFVX3lxTE5rRG4xYnZPREZhNWVsQjFueDV0c0MzcHBtWlI4TUltR0JhUjdXSVI0dGxSdm9NMkM0ZW5raDR2aVVORnhRNDRsclVBS1d4MHFqTk4wNDlMMTBfVS1ScHNjYllTUzlaQTRueVo3dlZyZjYtWEUzZGh5U2hXdmJ0M0dIWUwteGpnVm5uLXJ2dHJBYTd6cVJzR3Y1cHU3MlczQzhxN1k4dnVDWW1Vby1tdGhVZWstNDRQQzREM00?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1823,12 +2012,12 @@
    "title": "CBF estuda poupar jogadores do Brasileirão na Data Fifa de novembro, e Ancelotti divulga pré-lista com quatro do Flamengo",
    "summary": "A CBF conversa com clubes e avalia preservar jogadores do Brasileirão durante a Data Fifa de novembro. O técnico Carlo Ancelotti tem pré-lista da Seleção com quatro jogadores do Flamengo. Eles são Pedro, Samuel Lino, Lucas Paquetá e Emerson Royal. O Uruguai também divulgou pré-lista com jogadores de Fla e Flu. A medida é discutida por clubes e pela entidade.",
    "scores": {
-    "cobertura": 6.5,
+    "cobertura": 7.0,
     "destaque": 5,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.5,
+   "score": 5.7,
    "outlets": [
     {
      "name": "O Dia",
@@ -1984,12 +2173,12 @@
    "title": "MEC Idiomas lança curso gratuito de coreano e MEC Livros bate 1 milhão de empréstimos",
    "summary": "O MEC Idiomas passou a oferecer curso gratuito de coreano. O curso tem aulas em vídeo e prática de pronúncia. O MEC Livros alcançou 1 milhão de empréstimos e ampliou o acervo. Os programas fazem parte da oferta digital do ministério. A notícia foi divulgada neste sábado (24).",
    "scores": {
-    "cobertura": 5,
+    "cobertura": 8.0,
     "destaque": 4,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 4.8,
+   "score": 5.7,
    "outlets": [
     {
      "name": "Governo Federal",
