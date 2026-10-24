@@ -1,6 +1,80 @@
 {
  "items": [
   {
+   "requested": "2026-10-24",
+   "done": "2026-10-24T15:36:00-03:00",
+   "issue": 98,
+   "slot_hint": "Imagem hoje (24) às 18h ou reel amanhã (25) às 12h.",
+   "source": {
+    "edition": "2026-10-24-12h",
+    "item_id": "x:3",
+    "title": "Em alta no X: iFood"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Flávio diz que brasileiro já parcela até pizza de R$ 60 no iFood",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Em vídeo publicado em 19 de julho de 2026, gravado num supermercado da Barra da Tijuca, no Rio, Flávio Bolsonaro (PL-RJ) mostrou uma compra de R$ 908,40, dos quais R$ 217,20 são impostos, e disse que o brasileiro está parcelando o arroz e o feijão e chega a fazer \"até pedidos de pizza de R$ 60 no iFood\". Ele comparou os preços com os de 2019 e afirmou que o poder de compra acabou. Atenção: o pedido citava um debate, mas a matéria aberta trata de vídeo nas redes, e não de debate; use a frase como fala do vídeo. Os números do vídeo são os mostrados por ele.",
+     "sources": [
+      {
+       "name": "Gazeta do Povo",
+       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-critica-custo-de-vida-e-diz-que-brasileiros-parcelam-ate-pizza-no-ifood/"
+      }
+     ],
+     "art_text": [
+      "Pizza de R$ 60 no parcelado",
+      "Compra de R$ 908,40, R$ 217,20 de imposto",
+      "O prato do brasileiro virou crédito",
+      "Quem paga essa conta?",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Flávio Bolsonaro, em ilustração, segurando a nota fiscal do supermercado; relação direta com a notícia, pois a fala é dele. Nenhuma outra figura pública.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho): o senador Flávio Bolsonaro de camisa social, expressão séria, mostrando uma longa nota fiscal de supermercado; ao fundo, corredor de supermercado escuro e texturizado, e em primeiro plano uma caixa de pizza fechada ao lado de um celular com a tela de um aplicativo de entrega genérico, sem logos. No alto, em letras condensadas, brancas e pesadas: 'PIZZA DE R$ 60 NO PARCELADO'. Num quadro amarelo no meio: 'Compra de R$ 908,40: R$ 217,20 de imposto'. Num quadro vermelho: 'O prato do brasileiro virou crédito'. Embaixo, com sublinhado vermelho pincelado: 'Quem paga essa conta?'. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Flávio Bolsonaro foi ao supermercado e mostrou a nota: R$ 908,40, sendo R$ 217,20 só de imposto. E disse que o brasileiro já parcela até pizza de R$ 60 no iFood. Quando o povo parcela o jantar, o poder de compra acabou. Comenta: você já parcelou comida?",
+     "risk": "baixo",
+     "risk_note": "Baixo: a fala e os números são do vídeo de Flávio, apresentados como dele. Não é debate, então não escrever 'no debate'.",
+     "timeline": {
+      "rende": true,
+      "angle": "Flávio mostra nota de R$ 908,40 com R$ 217,20 de imposto e diz que o brasileiro parcela até pizza no iFood, tema do bolso do eleitor."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Flávio diz que brasileiro já parcela até pizza de R$ 60 no iFood",
+     "tone": "contundente",
+     "duration": "30 a 45s",
+     "fact": "Em vídeo publicado em 19 de julho de 2026, gravado num supermercado da Barra da Tijuca, no Rio, Flávio Bolsonaro (PL-RJ) mostrou uma compra de R$ 908,40, dos quais R$ 217,20 são impostos, e disse que o brasileiro está parcelando o arroz e o feijão e chega a fazer \"até pedidos de pizza de R$ 60 no iFood\". Ele comparou os preços com os de 2019 e afirmou que o poder de compra acabou. Atenção: o pedido citava um debate, mas a matéria aberta trata de vídeo nas redes, e não de debate; use a frase como fala do vídeo. Os números do vídeo são os mostrados por ele.",
+     "sources": [
+      {
+       "name": "Gazeta do Povo",
+       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-critica-custo-de-vida-e-diz-que-brasileiros-parcelam-ate-pizza-no-ifood/"
+      }
+     ],
+     "hooks": [
+      "Parcelar pizza no iFood. É assim que está o bolso do brasileiro, diz Flávio.",
+      "R$ 908,40 de mercado, R$ 217,20 só de imposto. Olha a nota."
+     ],
+     "script": "Flávio Bolsonaro foi ao supermercado na Barra da Tijuca e mostrou a nota da compra: R$ 908,40. Desse total, R$ 217,20 são impostos.\n\nE ele disse o que muita família já vive: o brasileiro está parcelando o arroz e o feijão e chega a parcelar até pedido de pizza de R$ 60 no iFood.\n\nQuando o jantar vai para o cartão em prestações, o poder de compra acabou. Ele compara com 2019 e diz que o preço da comida pesava menos.\n\nE você, já parcelou comida? Comenta aqui.",
+     "screen_text": [
+      "Pizza de R$ 60 parcelada no iFood",
+      "Compra de R$ 908,40",
+      "R$ 217,20 de imposto",
+      "Fala de Flávio Bolsonaro (PL-RJ) em vídeo de 19/7"
+     ],
+     "caption": "Flávio mostrou a nota do mercado: R$ 908,40, com R$ 217,20 de imposto, e disse que o brasileiro parcela até pizza no iFood. Você já parcelou comida? Comenta.",
+     "risk": "baixo",
+     "risk_note": "Baixo: atribuir a fala a Flávio e ao vídeo de 19/7, sem chamar de debate.",
+     "timeline": {
+      "rende": true,
+      "angle": "Flávio mostra nota de R$ 908,40 com R$ 217,20 de imposto e diz que o brasileiro parcela até pizza no iFood."
+     }
+    }
+   ]
+  },
+  {
    "requested": "2026-10-23",
    "done": "2026-10-23T10:54:11-03:00",
    "issue": 94,
