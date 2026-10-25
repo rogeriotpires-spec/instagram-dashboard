@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T06:05:00-03:00",
+ "generated": "2026-10-25T06:05:00-03:00",
  "dias": 60,
  "period": {
   "start": "2026-08-22",
   "end": "2026-10-20"
  },
  "compare": "2026-06-23 a 2026-08-21",
- "headline": "Em 60 dias a conta recebeu 27.631.923 views (+152%) e o alcance médio por dia foi de 172.691 contas; as imagens (mediana de 16.533 views) seguraram mais audiência que os Reels (12.718).",
+ "headline": "Nos 60 dias até 20/10 as views da conta foram 27.631.923 (+152%); as imagens de opinião lideram em views e seguidores, e os horários da noite e do fim da tarde têm medianas mais altas.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
@@ -50,11 +50,11 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "As imagens de opinião lideram o período: \"Fica a reflexão.\" (1.216.652 views), \"Ninguém aguenta mais o Lula e o PT!\" (979.686) e \"Como dizia o TAXAD\" (924.026, 1.174 seguidores). As 49 imagens tiveram mediana de 16.533 views, contra 12.718 dos 75 Reels. Política (67 posts) teve mediana de 16.777 e Opinião (51 posts), 13.748. Por horário, 21h (96.108), 18h (54.208,5) e 9h (49.062) tiveram as maiores medianas.",
+   "diagnosis": "As 49 imagens tiveram mediana de 16.533 views e somaram 5.681 seguidores, contra 12.718 de mediana nos 75 Reels. Os 3 maiores posts foram imagens de opinião: \"Fica a reflexão.\" (1.216.652 views), \"Ninguém aguenta mais o Lula e o PT!\" (979.686) e \"Como dizia o TAXAD\" (924.026). Os dados de seguidores, compartilhamentos e comentários cobrem 44 dos 60 dias.",
    "actions": [
-    "Mantenha uma imagem de opinião por dia, com frase curta e forte.",
-    "Concentre os Reels no fim da tarde e à noite.",
-    "Teste mais publicações às 21h, o horário de maior mediana."
+    "Mantenha a imagem de opinião como formato principal.",
+    "Mantenha política na pauta: os 67 posts do tema tiveram mediana de 16.777 views.",
+    "Repita títulos curtos e provocativos."
    ],
    "posts": [
     "Dd8pQedtGZL",
@@ -66,11 +66,11 @@
    "title": "O que não funcionou",
    "status": "bad",
    "status_label": "Evitar",
-   "diagnosis": "Os Reels de política com pouca entrega aparecem de novo: \"O STF virou um manicômio institucional\" (535 views), \"Candidato perdeu Instagram e Fundo Eleitoral\" (551) e \"O PROFESSOR É UMA AMEAÇA!\" (796), com 37% a 42% de abandono no início. Os 5 posts de Eventos e discursos tiveram mediana de só 3.950 views. As medianas de 11h (2.674,5), 12h (2.979), 15h (2.172) e 22h (3.457,5) foram as mais baixas, com poucos posts em cada faixa.",
+   "diagnosis": "Os piores posts foram Reels de política de 65 a 72 segundos: \"O STF virou um manicômio institucional\" (535 views, 37% de pulo) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551 views, 42% de pulo). O tema \"Eventos e discursos\" teve mediana de 3.950 views em 5 posts.",
    "actions": [
-    "Evite Reels de política que começam sem frase de impacto.",
-    "Reduza os posts de eventos e discursos sem opinião sua.",
-    "Evite publicar entre 11h e 15h."
+    "Evite Reels de política acima de 1 minuto sem gancho forte.",
+    "Reduza posts de eventos e discursos.",
+    "Teste versões de até 30 segundos dos mesmos assuntos."
    ],
    "posts": [
     "Dc3EY5cNint",
@@ -79,34 +79,33 @@
    ]
   },
   {
-   "title": "Comentários",
+   "title": "Horários",
    "status": "warn",
    "status_label": "Ajustar",
-   "diagnosis": "Os posts que mais geraram conversa foram de pergunta direta: \"Qual número você escolheria?\" (488 comentários, 13.748 views) e \"Responda nos comentários, só um nome!\" (355 comentários, 136.379 views, 57 seguidores). O Reel \"Inacreditável!\" teve 264 comentários e 14.706 compartilhamentos. Os dois posts de maior alcance do período tiveram bem menos comentários.",
+   "diagnosis": "As medianas mais altas foram às 21h (96.108 views), às 18h (54.208) e às 9h (49.062). As mais baixas ficaram às 15h (2.172), às 11h (2.674) e às 12h (2.979). Há horários com poucos posts, então trate como pista e não como regra.",
    "actions": [
-    "Alterne posts de pergunta com posts de opinião.",
-    "Use perguntas de uma palavra, que pedem resposta curta.",
+    "Priorize 18h e 21h para os posts mais fortes.",
+    "Evite publicar entre 11h e 15h.",
+    "Teste um segundo post às 9h por duas semanas."
+   ],
+   "posts": [
+    "DeVAkiqtPwL"
+   ]
+  },
+  {
+   "title": "Comentários",
+   "status": "good",
+   "status_label": "Manter",
+   "diagnosis": "Os posts com mais comentários foram perguntas diretas: \"Qual número você escolheria?\" (488) e \"Responda nos comentários, só um nome!\" (355 comentários, 136.379 views e 57 seguidores). Entre os Reels, \"Inacreditável!\" teve 264 comentários e 14.706 compartilhamentos.",
+   "actions": [
+    "Peça uma resposta curta, como um nome ou um número.",
+    "Repita o formato de reação direta nos Reels.",
     "Responda os comentários na primeira hora."
    ],
    "posts": [
     "DdumKq_tAX_",
     "DcfJMHasopg",
     "DeaQZPRNABT"
-   ]
-  },
-  {
-   "title": "Seguidores",
-   "status": "good",
-   "status_label": "Manter",
-   "diagnosis": "Entraram 17.864 seguidores e saíram 733 nos 44 dias com dado. As 49 imagens trouxeram 5.681 seguidores atribuídos, e os Reels não têm esse dado. Como os indicadores de conta do período anterior estão incompletos, não há comparação confiável de seguidores.",
-   "actions": [
-    "Mantenha as imagens de opinião como porta de entrada de seguidores.",
-    "Peça para seguir em posts que passam de 500 mil views.",
-    "Acompanhe as saídas a cada semana."
-   ],
-   "posts": [
-    "DeVAkiqtPwL",
-    "Dd8pQedtGZL"
    ]
   }
  ]

@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T06:05:00-03:00",
+ "generated": "2026-10-25T06:05:00-03:00",
  "dias": 90,
  "period": {
   "start": "2026-07-23",
   "end": "2026-10-20"
  },
  "compare": "2026-04-24 a 2026-07-22",
- "headline": "Em 90 dias a conta recebeu 37.350.134 views com 169 publicações; as imagens (mediana de 22.259 views) foram quase o dobro dos Reels (11.742), que somam 111 dos 169 posts.",
+ "headline": "Nos 90 dias até 20/10 as views da conta foram 37.350.134 e o alcance médio ficou em 143.123 contas por dia; as imagens de opinião tiveram os 3 maiores posts, todos acima de 1,2 milhão de views.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
@@ -39,8 +39,8 @@
    "dir": "na"
   },
   {
-   "label": "Contas com interação por dia",
-   "value": "24.662",
+   "label": "Alcance médio por dia",
+   "value": "143 mil",
    "delta": "sem comparação",
    "dir": "na"
   }
@@ -50,11 +50,11 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "As 3 maiores audiências foram imagens de opinião: \"Bem vindo a este manicômio chamado Brasil!\" (16/8, 1.489.782 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (28/7, 1.442.246 views, 1.409 seguidores) e \"Fica a reflexão.\" (1/10, 1.216.652). As 56 imagens tiveram mediana de 22.259 views e 157 compartilhamentos, contra 11.742 views e 77 compartilhamentos dos 111 Reels. Entrevista teve só 5 posts, mas a maior mediana por tema (88.374).",
+   "diagnosis": "Os 3 maiores posts foram imagens de opinião: \"Bem vindo a este manicômio chamado Brasil!\" (1.489.782 views), \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.442.246 views, 42.800 compartilhamentos, 1.409 seguidores) e \"Fica a reflexão.\" (1.216.652). As 56 imagens tiveram mediana de 22.259 views e somaram 8.009 seguidores, contra 11.742 de mediana nos 111 Reels.",
    "actions": [
-    "Faça da imagem de opinião o post principal do dia.",
-    "Teste mais conteúdos de entrevista, que renderam bem com poucos posts.",
-    "Mantenha frases curtas e diretas no texto da imagem."
+    "Mantenha a imagem de opinião como base do perfil.",
+    "Use frases curtas e fortes no título.",
+    "Repita temas que geraram mais de 25 mil compartilhamentos."
    ],
    "posts": [
     "DcGTcGzN_5i",
@@ -66,11 +66,11 @@
    "title": "O que não funcionou",
    "status": "bad",
    "status_label": "Evitar",
-   "diagnosis": "Os piores posts são Reels de política: \"Quase 18 anos no poder\" (473 views), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551), todos com 37% a 43% de abandono no início. Política tem 94 posts e mediana de 12.230 views; Eventos e discursos, 6 posts e mediana de 2.689. Os Reels são 111 dos 169 posts, mas entregam menos que as imagens.",
+   "diagnosis": "Os piores posts foram Reels de política com menos de 600 views: \"Quase 18 anos no poder\" (473 views, 102,4s), \"O STF virou um manicômio institucional\" (535) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (551). Os 6 posts de \"Eventos e discursos\" tiveram mediana de 2.689 views.",
    "actions": [
-    "Reduza o volume de Reels de política sem gancho forte.",
-    "Corte eventos e discursos que não tenham opinião sua.",
-    "Troque quantidade de Reels por qualidade nos primeiros segundos."
+    "Evite Reels de política longos e sem gancho.",
+    "Reduza posts de eventos e discursos.",
+    "Prefira Reels curtos."
    ],
    "posts": [
     "Db73S3ZBiej",
@@ -79,34 +79,28 @@
    ]
   },
   {
+   "title": "Temas",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Por tema, \"Entrevista\" teve a maior mediana, 88.374 views em 5 posts. Opinião ficou em 13.748 (57 posts), Política em 12.230 (94 posts) e Bastidores e pessoal em 9.301 (6 posts). Política concentra mais posts do que qualquer outro tema e tem mediana menor que Opinião.",
+   "actions": [
+    "Teste mais entrevistas, que têm poucos posts e boa mediana.",
+    "Equilibre política e opinião na semana.",
+    "Use Bastidores como complemento, não como base."
+   ],
+   "posts": []
+  },
+  {
    "title": "Horários",
    "status": "warn",
    "status_label": "Ajustar",
-   "diagnosis": "Por horário, 21h teve a maior mediana (104.234 views), seguida de 18h (54.208,5), 9h (53.852), 23h (48.199) e 17h (44.834,5). As menores foram 15h (1.442,5), 1h (2.455) e 12h (2.730), com poucos posts em cada faixa. Em 7h a mediana foi 8.082, apesar de várias imagens campeãs saírem de manhã cedo, o que mostra que o horário sozinho não explica.",
+   "diagnosis": "As medianas mais altas foram às 21h (104.234 views), às 18h (54.208), às 9h (53.852), às 17h (44.835) e às 19h (41.820). As mais baixas ficaram às 15h (1.442), às 12h (2.730) e às 11h (3.678). Alguns horários têm poucos posts.",
    "actions": [
-    "Priorize 18h, 21h e 9h para os posts mais fortes.",
-    "Evite publicar por volta de 12h e 15h.",
-    "Teste o mesmo post forte em horários diferentes ao longo de duas semanas."
+    "Concentre os posts principais entre 17h e 21h.",
+    "Evite publicar entre 11h e 15h.",
+    "Mantenha uma imagem às 9h."
    ],
-   "posts": [
-    "DbWUq-ltrx8",
-    "Dd8pQedtGZL"
-   ]
-  },
-  {
-   "title": "Seguidores e dados do período",
-   "status": "warn",
-   "status_label": "Atenção",
-   "diagnosis": "Entraram 17.864 seguidores e saíram 733 nos 44 dias com dado de conta. As imagens trouxeram 8.009 seguidores atribuídos; o maior número veio de \"Quando dizem que uma imagem vale mais do que mil palavras\" (1.409). O período anterior tem só 14 dias de dados de views e nenhum de seguidores, então a comparação foi omitida.",
-   "actions": [
-    "Replique o formato de \"Quando dizem que uma imagem vale mais do que mil palavras\".",
-    "Confira a coleta diária de dados da conta.",
-    "Compare só períodos com dados completos."
-   ],
-   "posts": [
-    "DbWUq-ltrx8",
-    "DeVAkiqtPwL"
-   ]
+   "posts": []
   }
  ]
 }
