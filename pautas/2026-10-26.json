@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-26",
+  "weekday": "Seg",
+  "generated": "2026-10-25T20:03:00-03:00",
+  "summary": "Segunda de ressaca do segundo turno: a votação de domingo foi prorrogada até as 19h por decisão de Zanin e a totalização foi pausada, depois de pedidos ligados à falta de ônibus. As pautas abaixo não dependem de quem vencer, porque o resultado ainda não estava fechado quando esta pauta foi montada: se a apuração tiver desfecho, troque a abertura pelo número oficial do TSE.",
+  "agenda": [
+    {
+      "time": "26/10",
+      "text": "Início da semana pós-segundo turno: totalização final do TSE e reações de campanhas e governadores à prorrogação decidida por Zanin.",
+      "source": {
+        "name": "Money Times",
+        "url": "https://www.moneytimes.com.br/eleicoes-de-2026-flavio-bolsonaro-lula-segundo-turno-apuracao/"
+      }
+    },
+    {
+      "time": "26/10",
+      "text": "Prefeituras de São Paulo e Salvador seguem sob cobrança da Justiça Eleitoral pela frota de ônibus do dia da votação.",
+      "source": {
+        "name": "BP Money",
+        "url": "https://bpmoney.com.br/politica/onibus-retidos-garagens-salvador-2-turno-tre-ba-liberacao/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de até 30s reagindo ao fato do dia",
+      "options": [
+        {
+          "title": "PT pede a prisão de secretário de SP por ônibus, e Nunes diz que a frota superou a demanda",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "No domingo (25/10), a campanha de Lula afirmou que só 60% da frota de ônibus de São Paulo circulava, apesar da ordem judicial para operar 100%, e o PT pediu a prisão do secretário municipal de Mobilidade e Transportes, Celso Jorge Caldeira. O prefeito Ricardo Nunes negou a falta de ônibus: disse que a oferta foi superior à demanda e enviou vídeos de ônibus circulando. A Prefeitura afirma que a notificação chegou à SPTrans às 13h10 do domingo e que era preciso mobilizar mais de 10 mil profissionais. No primeiro turno, segundo Nunes, a frota foi 40% maior que a usual para um domingo.",
+          "sources": [
+            {
+              "name": "Terra",
+              "url": "https://www.terra.com.br/noticias/brasil/politica/tarcisio-cobra-explicacoes-para-decisao-de-zanin-nunes-nega-falta-de-onibus-em-sao-paulo,fd42df3da45f68b3abe47bb20b74da4br2d1ixza.html"
+            },
+            {
+              "name": "Times Brasil",
+              "url": "https://timesbrasil.com.br/eleicoes-2026/decisao-2026-ricardo-nunes-nega-falta-de-onibus-em-sp-e-critica-pt-apos-pedido-de-prisao-de-secretario/"
+            }
+          ],
+          "hooks": [
+            "Faltou ônibus ou faltou argumento?",
+            "O PT quer prender o secretário de transportes de SP. Veja o que ele respondeu."
+          ],
+          "script": "O PT pediu a prisão de um secretário de São Paulo por causa de ônibus. A campanha de Lula diz que só 60% da frota estava na rua. O prefeito Ricardo Nunes respondeu que a oferta foi maior que a demanda, mostrou vídeos e lembrou que a ordem chegou à SPTrans às 13h10 de domingo, com mais de 10 mil profissionais para mobilizar. No primeiro turno, a frota foi 40% maior que a de um domingo normal. Ou seja: prender secretário virou a resposta antes de provar a falha. Você acha que pedir prisão no dia da eleição é exagero? Responde sim ou não.",
+          "screen_text": [
+            "PT pede prisão",
+            "Frota: 60% x 100%",
+            "Nunes: oferta maior que a demanda",
+            "Pedir prisão é exagero?"
+          ],
+          "caption": "Pedir a prisão de secretário no dia da eleição, sem provar a falha, é exagero? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Os 60% são alegação da campanha de Lula; atribua a ela. Relatos de passageiros esperando mais de uma hora existem, não os negue. Não afirme que houve ou não falha de ônibus, e não afirme crime de ninguém.",
+          "timeline": {
+            "rende": true,
+            "angle": "Ônibus no dia da votação: o que a Justiça Eleitoral mandou em São Paulo e em Salvador, a corrida de pedidos de prisão contra gestores e a prorrogação do horário de votação."
+          }
+        },
+        {
+          "title": "Zanin prorroga a votação até as 19h em todo o país e o TSE pausa a totalização",
+          "tone": "sóbrio",
+          "duration": "25 a 30s",
+          "fact": "O ministro Cristiano Zanin, do STF, estendeu a votação do segundo turno de 17h para 19h em todo o país, a pedido da campanha de Lula, motivado por denúncias de falta de ônibus. A campanha de Flávio Bolsonaro também havia pedido duas horas a mais em cidades atingidas pela chuva. O Ministério Público Eleitoral era contra a prorrogação. A extensão vale só para as urnas ainda abertas, e o TSE pausou a totalização e retomou às 19h02. O governador Tarcísio de Freitas cobrou explicações e disse que 'o povo brasileiro merece respostas'. O prefeito Ricardo Nunes chamou a decisão de 'no mínimo estranha' e disse que o caso cabia ao TSE. Zanin foi advogado de Lula e indicado por ele ao STF.",
+          "sources": [
+            {
+              "name": "Money Times",
+              "url": "https://www.moneytimes.com.br/eleicoes-de-2026-flavio-bolsonaro-lula-segundo-turno-apuracao/"
+            },
+            {
+              "name": "Terra",
+              "url": "https://www.terra.com.br/noticias/brasil/politica/tarcisio-cobra-explicacoes-para-decisao-de-zanin-nunes-nega-falta-de-onibus-em-sao-paulo,fd42df3da45f68b3abe47bb20b74da4br2d1ixza.html"
+            }
+          ],
+          "hooks": [
+            "Votação até as 19h, por decisão de um ministro que já foi advogado de Lula.",
+            "O Ministério Público Eleitoral era contra. Zanin prorrogou mesmo assim."
+          ],
+          "script": "Uma decisão individual de um ministro do STF mudou o horário da eleição no país inteiro. Cristiano Zanin prorrogou a votação até as 19h, a pedido da campanha de Lula. O Ministério Público Eleitoral era contra. E quem é Zanin? Foi advogado de Lula e foi indicado por ele ao Supremo. O governador Tarcísio cobrou explicações e disse que o povo brasileiro merece respostas. O prefeito Nunes foi direto: decisão no mínimo estranha, que cabia ao TSE. Uma decisão dessas deveria ser tomada por um ministro sozinho? Responde sim ou não.",
+          "screen_text": [
+            "Votação: 17h para 19h",
+            "Decisão de Zanin",
+            "MP Eleitoral era contra",
+            "Decisão sozinho?"
+          ],
+          "caption": "Uma decisão que mexe no horário da eleição do país inteiro deveria sair de um ministro sozinho? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não afirme que a decisão favoreceu ou prejudicou candidato nem que houve fraude. Diga o que consta: quem pediu, o parecer contrário do MPE e as cobranças de Tarcísio e Nunes. Se o resultado oficial já estiver fechado, abra o reel com ele.",
+          "timeline": {
+            "rende": true,
+            "angle": "Decisão individual de ministro do STF sobre o horário da eleição: o que a lei diz sobre competência do TSE, o parecer contrário do MPE, as cobranças de Tarcísio e Nunes e o histórico de Zanin como advogado de Lula."
+          }
+        }
+      ]
+    },
+    {
+      "time": "21h",
+      "type": "i",
+      "kind": "Imagem de opinião com pergunta sobre o dia da eleição",
+      "options": [
+        {
+          "title": "Janja responde a repórter com 'Vai se catar, meu filho' depois de Lula votar",
+          "tone": "irônico",
+          "style": "ilustracao",
+          "fact": "No domingo (25/10), em São Bernardo do Campo, depois que Lula votou, um repórter comentou que o presidente parecia desanimado. A primeira-dama Janja reagiu na hora: 'Vai se catar, meu filho'. Antes, ao ser perguntado sobre o empate técnico nas pesquisas, Lula havia respondido que 'a pesquisa é de ontem'. O vídeo viralizou nas redes no dia da votação.",
+          "sources": [
+            {
+              "name": "Estado de Minas",
+              "url": "https://www.em.com.br/politica/2026/10/7527389-reporter-diz-que-lula-esta-desanimado-e-janja-rebate-vai-se-catar.html"
+            },
+            {
+              "name": "Band B",
+              "url": "https://www.bandab.com.br/politica/eleicoes-2026/janja-reage-a-fala-de-jornalista-apos-votacao-de-lula-vai-se-catar-meu-filho/"
+            }
+          ],
+          "art_text": [
+            "'Vai se catar, meu filho'",
+            "Janja ao repórter, no dia da votação",
+            "Pergunta sobre o ânimo de Lula",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Janja (primeira-dama) e, ao lado, silhueta de Lula, ambos relacionados diretamente ao episódio. Repórter só como silhueta com microfone, sem rosto. Ilustração estilo charge. Risco baixo: a cena retrata apenas a troca de palavras que foi gravada, sem inventar ação.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Janja (primeira-dama, cabelo escuro, blusa vermelha) com o dedo em riste e expressão irritada, de frente para a silhueta de um repórter de costas segurando um microfone. Ao lado dela, Lula (cabelo e barba brancos, camisa social) com expressão séria e cansada. Ao fundo, escuro, a fachada estilizada de uma escola com uma urna eletrônica na entrada. Do alto, em branco, letras condensadas e muito pesadas: \"Vai se catar, meu filho\". Logo abaixo, em amarelo, em um quadro de destaque: \"Janja ao repórter, no dia da votação\". Perto do rodapé, em branco, com sublinhado vermelho pincelado: \"Pergunta sobre o ânimo de Lula\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "No dia mais tenso da eleição, a primeira-dama mandou um repórter 'se catar' ao ouvir que Lula parecia desanimado. Quem representa o governo deveria tratar a imprensa assim? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Cite a frase exatamente como foi dita. Não identifique o repórter nem trate o desânimo de Lula como fato; foi o comentário que provocou a reação.",
+          "timeline": {
+            "rende": false,
+            "angle": "Episódio de um dia, sem desdobramento que sustente 600 a 1.200 palavras."
+          }
+        },
+        {
+          "title": "TRE-BA manda liberar a frota de Salvador sob multa de R$ 1 milhão por hora",
+          "tone": "direto",
+          "style": "realista",
+          "fact": "No segundo turno, o TRE da Bahia mandou toda a frota de ônibus de Salvador voltar a circular, sob multa de R$ 1 milhão por hora em caso de descumprimento. Pelo menos 75 ônibus foram retidos nas garagens, e o Procon-BA achou 55 parados na garagem da OT Trans. O prefeito Bruno Reis afirmou que a frota do consórcio Plataforma só saiu depois da retirada de adesivos do PT com o número 13, e disse que a Prefeitura mandou liberar todos os ônibus. O Ministério Público Eleitoral na Bahia se manifestou contra a prisão do prefeito, pedida pelo PT.",
+          "sources": [
+            {
+              "name": "BP Money",
+              "url": "https://bpmoney.com.br/politica/onibus-retidos-garagens-salvador-2-turno-tre-ba-liberacao/"
+            }
+          ],
+          "art_text": [
+            "55 ônibus parados em uma garagem",
+            "Multa de R$ 1 milhão por hora",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Fileira de ônibus urbanos parados em garagem, sem logo de empresa, e silhuetas de passageiros de costas em um ponto de ônibus ao amanhecer. Não use foto de autoridade.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz fria de amanhecer. Uma fileira de ônibus urbanos genéricos, sem logo nem marca, parados lado a lado dentro de uma garagem, com portões abertos ao fundo. No primeiro plano, desfocadas, silhuetas de passageiros de costas esperando em um ponto de ônibus vazio. Clima tenso e sóbrio. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"55 ônibus parados em uma garagem\". No terço inferior, sobre sombra escura, número de destaque em amarelo: \"Multa de R$ 1 milhão por hora\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A Justiça mandou liberar a frota de Salvador sob multa de R$ 1 milhão por hora, e o PT pediu a prisão do prefeito, que o Ministério Público Eleitoral rejeitou. Pedir prisão de prefeito por ônibus é exagero? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Os números variam entre reportagens (75, 217 e 544 ônibus parados); use só o que está no texto da arte. A causa da retenção é disputada: a Prefeitura cita adesivos, o PT e o TRE tratam como retenção. Não afirme crime de ninguém.",
+          "timeline": {
+            "rende": true,
+            "angle": "Ônibus e eleição em Salvador e São Paulo: o que determinou a Justiça Eleitoral, as versões das prefeituras e o uso de pedidos de prisão como arma de campanha no dia da votação."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
