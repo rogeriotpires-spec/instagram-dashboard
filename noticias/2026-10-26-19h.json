@@ -6,8 +6,8 @@
   "mercado-fecha-dolar",
   "trump-eleicao-fraudada",
   "flavio-passaporte",
-  "direita-reconhece-nikolas",
-  "votos-apos-17h"
+  "flavio-oposicao-cassacao",
+  "direita-reconhece-nikolas"
  ],
  "portais_na_coleta": 55,
  "items": [
@@ -203,6 +203,20 @@
      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTjdrRzZXbE1hUTJvMWtMU2Nyd2YzY1BaWHoyRDczZnNsRExnejAtNGVsWlkxZl9ZS3hhdXRsQ3JlNXR3dmE0WWN2UDlMOUlMUENzLVFmUm5UTHJwZm0wSEtpUVR6SVVVdjNEV3hqYThZSWFkY09hYVhDeVZSQ1JjeUJMb3U3bjlNcXduOVVta01aaThLQWh3Mk5BMWtQZ3poQjR3WXFRci1SLXFFdjhNYkVxeTE4ZjFsclZKZnFzRG1KQjF5US1vMW9zbHVHTUJnOGxvSllNQnR4Vzg2XzBjamtYazRlZ3ZN?oc=5",
      "camp": "regional",
      "position": "editoria"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRFdjMTNfWTlWZ2dvNnpoOEJNcTFFR1NKT1BPSHVfNWNuX3hYNkVrOVI5cFk4QURnM2VmLWszNWF0S0VrZHJtS3dnNF91MHk2MU0yUDNzdTk2M3pfNDYxVUF4TkZ6WWRLZzNVSDdLeUhFeU5ZN21WWGNSQ2duY1NyTGF1NDBQc05CdXUzM05vVU8wOGRBeE1SS1l2ZHRscnlzQWk5U0IxdVpsWko3UTdlQUJBZnNMbEVZYTZmeNIBwgFBVV95cUxPR1lNTEdvVEZXVUt0YVdzMW9zeEpFTkcweXFfQVMzLXVJSDluVHF6Zmo1ZllwTGNiRUpEZTdHRXBaT09sb3JUdlY5SG9ScWFxTG1NTEdaQlRSNHVyTDJNRnVMdkVxOGtqNmJuektYSGVKbmpFbTdZbEo5OWVsNzhDV25qZnZJVzFzRkN6WUo3OUN5NU9NQm9uekVXNmxDb3RwODZLazhXelRaUVlGR0tybzNLTmdxMS05cFBXTDFzVEtkUQ?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbHhDOUdvYWQ3WGhNa1BENGptXzZrcTBROUxIWEZHUFI5Nm05b3RjY0ZNbjJpZExPdDRVQkY1Z2d2TGp3eW9MWEpMYlRzMnpVb3hBOW1zTkU4OExzMVlUQy1pSFlUUDh6TzNnTW1vU1FvU3NLSzVPRGhhNHAzVnc4VTh1bnBWT2ZFSVI4WEhkT0ZoZUNuZmVONFlnb01YZlRMRzl5d1k0dXN2OXVRcTROd0hfYTU3ZFU?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -216,12 +230,12 @@
    "title": "Flávio diz que vai liderar a oposição e pedir a cassação da chapa eleita de Lula",
    "summary": "Flávio Bolsonaro afirmou que vai liderar a oposição ao governo Lula e que apresentará ação pedindo a cassação da chapa eleita. A informação é de que ele teria desistido do pedido de anulação da eleição e optado por uma ação por abuso de poder, segundo a coluna Painel, da Folha. O TSE já havia respondido que é falsa a acusação de que fiscais do PL foram retirados da sala-cofre. Ministros do STF e do TSE descartam a anulação. Parte do PL e aliados pediram que ele reveja a posição, e o centrão não quer se associar à contestação.",
    "scores": {
-    "cobertura": 7,
+    "cobertura": 10,
     "destaque": 9,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 8.2,
+   "score": 9.2,
    "outlets": [
     {
      "name": "Folha de S.Paulo",
@@ -252,6 +266,55 @@
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSTZrX0cyUDJ2T2h0VzRLczJmS21ZRHJ4M2MzVVVMYlhRSTFBWnFTZ0I5TXpZaS1zVU1MTXFTalR0QkFsTm5NX21VcTRjbkJQb3o4eDhqRHM2UUw5cU5xM0JDUUE2UG5pNXJXODAyQnN5azVSRkp5d3pCYWhOY24yTnBaRkRTUEFBMmVmekZGdGlmXzlzckJNSFgtQ1d1ZnpJck9XQW5qQXpfZ2wzbjJKYjQ4QmE1Z0VYbks4ODJUM2Jfb0hadW04?oc=5",
      "camp": "regional",
      "position": "editoria"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSk5KdWY2NnRsTjhEZ3EtcVNoaHRZQ09rWnNadDZJR3UwanhOTzczaTJIUFVmVEFvX29rb0NteHVMMG1GRlR0TENsems1bV9McjNPRTMyS0xIeEZGRGZwelloeGdFcEhVLXlxVTIxN3BENHZ4SFRnWWhwOHNJY3EwSFFDa3pENTh5TUR0aWowZ3phcDQwNmIzblVGMjNMYWJpRTUzeVJEYUVsbXNxMFFKUmJfeW50ZXhiVXhxUDFDZ3FTS3hGSEZwLW1ralcteENtWFZ4LdIB4wFBVV95cUxQaFZjdy1mdnlnVjFjVUVXdFhONU92enVnczFpVkI1cWl4SGdROGo2UXZFdTd6NnVCVXppMHRmV2NfR3FGRE80cERZdFo0UGExbmZUUDlkY0p1OFlGVm93b19OVmViTVVnRU5iT0ZuWW9LU25JR0NJVV90cmpfREZBYWhjdmlXYVVjRGlPTWx3MzdGdTRqa0lxaUVVTzNjcTY2YjZ4MWtXM1ktWW0xbUZvUkgwUFBDMkRfX1dodTZGVE9Ibmd4ekktOVdpMmpZdGMtUm1CVUV6RTE4NUZzNG1oNm9CQQ?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNWdzZmtOQklyZzFtVTdvamRSd2JzMm9QQlZzdGJvcjFHZGx5UEFHanBSMUcxSzV0c2xkVlp6MXpYZUF2WnM2YVJrZjBlc2Y0YmpXTUxEbEY4dmtQVTNnTXZyMVk1ZGt0X2R0bnNSelpSbGJlWnNHV3loOXZOV3RmbG9HMnJSakpwcTFta250dzFhVGRFaC1vY2NfRTdBd25DdGFyUDJvVlp2bDE2QzZiWWpIbWcybVJOcDRTb0FpNkJfbjZKQlRhT3UtZUR1dVE?oc=5",
+     "camp": "estatal",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "CartaCapital",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbktObW5KOFdLc0JzWnU2V18xdTllNkJiQVRZMFRxNmxDVDBZeDJrazZlUkR1dGdqX3p4b2pOSFl2ekFIVjBxRmlrRXJkWmIzRERqel9jaXUxaFpwb29EbEQ0dzRHOEVXN25jSFlBRzN4d2VfRm1rTEZzOUpjaDUyNmtockRERklwU2F1RnJhNldnUWprZlM5Y1ZyYy16UzVkR0d1U1ZCLURGbzNYektpWm5R?oc=5",
+     "camp": "esquerda",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNUJNaFhSdXdld21GRzkyeld5RHJ2ZUhDTE84aGJsV1ZWOW9xbW5IdmJsdVdYR0tPS09FQnBURE9KbFlHanhjckFtY1RLWG1OVUhQNTdkeVc0OFktbmh5RjVUaXpzT3FwRGNzcWZnaV9ndlU2UWpUNmRSVkJrOW1RS2E1UXAxeUllQnlHdVU4WjVDVXV6VDJtOUVGQXZFRGk4RXNpQkFZMzRUdzhnVVpZUw?oc=5",
+     "camp": "esquerda",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUXo2ejZWTGRfZEp4QldZcEk2TzA5NG9OOVFaSVVIc0ppWkhjeE5IeTZmVy1kMW9mUDZtWi1OZVdVT21MV0J2MWJ5UWVDWGR1TzBNQ3FZbjk5SEQxb2RjdEFYeDBxWHJNS25NT2pVbWNVN3prczhUQU1yMUU4ZFNpVDFyTnZvbUx0Q1lvTGF0MUFxdXVQY0tpa1hVT3hYVFNrMVZNRFMyTE1tRHNTaDRUVzNRRS1OTWVKMnFzR0UwRkJraGdUQ25J?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Correio do Povo",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQmlBWS1IdFlGbHAxZk54ZU1kcGdRTlNzUl9SQzR2a0VLNUJtMjIxWFdySGlIUEVxSVZFQ3NDdlZsamZiQTMybzRjMy1DSXJwa2NJWFpidWViTXlfNkh0eEFXMkdqWm1fX21FeFlKVkFORXpsaU95bHlRQVBsOENwVURzZWk0QVVfWEx1U3l1OXRMcnVjUkdadFJrY0FhVm5GTDE3alozTVMwcEVEUkJRZkRfQWNwazdYdDF0LVFXdl81NVFXTl92Ni1mV2dMMW9XMFl6Sjlldl84Q2xYOUtYZFBR?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Correio (Bahia)",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZlBvQzZMc1VHRk5zLUVrU0VrY09Dc0dabWgydG50eXVwM3lfWHQ3NEN1ZTJCbC15SVBnYjY2WEVvajJ2Qzk0c2R1S2FETVBwLTJwQnFMUk1jZXRtbGVMQjRKQmhVTFBydTF6SmdJSFhzYjFBZGdNME9pT0loNmlKRWsxZVg2TTRZZkNfNFdBdlpMbnV1N1pjN3JoSXFJc1ZHNDFHUlVIdng?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -356,6 +419,13 @@
      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUXNtNzBsdF9HejJWTC11cXoteFo0TWNaV1VwdHlCSHVTby10cHBLQzd0ZGZ6YUVYYmpXQ3NUUkxBWXRKMnpaeHR4SkRPMmFLMm5Ha0tmNEFib2pfSVNMZTY2NFpEanNqWTdjZk13ZEM5bXlIWTBxdjNGWVhuUFpLTnI1bkhKOElXZlBRSmZMWmJXZkFwYTN3X0kycVo0QVZfd1RyeFVLRGFoQlA4ckdqdFk2cWdCUWtPd2lvUWIydGh3SjJacG1ucUJMdVZUNFNTTi0ySXpOekVuR2ZHWWdkSdIB4AFBVV95cUxNUXNtNzBsdF9HejJWTC11cXoteFo0TWNaV1VwdHlCSHVTby10cHBLQzd0ZGZ6YUVYYmpXQ3NUUkxBWXRKMnpaeHR4SkRPMmFLMm5Ha0tmNEFib2pfSVNMZTY2NFpEanNqWTdjZk13ZEM5bXlIWTBxdjNGWVhuUFpLTnI1bkhKOElXZlBRSmZMWmJXZkFwYTN3X0kycVo0QVZfd1RyeFVLRGFoQlA4ckdqdFk2cWdCUWtPd2lvUWIydGh3SjJacG1ucUJMdVZUNFNTTi0ySXpOekVuR2ZHWWdkSQ?oc=5",
      "camp": "centro",
      "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNLU9GUmhQZDRwd3hSSFZuS2tINWpSWnNXSFRQc3YyejV6aW5Qa0ZmNzdwdkpibFpkUnM0enBXUWhheDE3MmVuWE1MZHpscWtVekNuUTc2ZU1rQkVudjZ3UFBiOFB6cjZ3Mllpa0VqbUNuUll2aU00R2puVl9maGhPdG5FMl80Skh4ZGhCSEJMd1A0bXlNSmJmZk4tRjZXQkcyam9n?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -459,6 +529,27 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTTNkb2ZMUjRkUGU2NWM1SU9XeWw1dVd1WjlVdy1zM1A1eU80dDdCd1MxdzRXVWRhTHZnNC1sbWRacC02cDlNLUpLeUJHUFZmcTR0RGIxX1FBY0NBNEtCS1VaZ0V0T1U3N0NHWFhfalJWdEhidTl6ZzRJdk52cnFXdEVOdWtMWnlZeGdIVWV1ZXRFaW9VZE1zY2ROaUpCRmx1YkhSOVpSV1lCc0ZXbnQ1b3ptTHlfb1lrdmRqdHlSWHE2RjB5VzZyX2MyREd5M3J3VWFRVzFyWkc?oc=5",
      "camp": "regional",
      "position": "editoria"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2FIM0lOLUw2TjlqSWNtUUc1a3ljS1pHZkpxaFVKRjViUmxuRnlBbEU5aG13WEJ6aWFhQ0ZjS2xkdjVyMG4zNWVWdlBkQ21uYUs0ZU5OYnJ0LXI4c0pvbGpxVDU2OUthRFlZbWZYTHVqYzdWdENudWNMS0xaZVNfc0lJX2Z0S2htWVdwa3lqZFAtSmZyaWJCTjdFVXBqQXYy0gGvAUFVX3lxTFBzSzByS1Vsenp4ZTFMRkN5ZTNnTFhINm5VSmlEU0laRE9VZUVtcFpYOTBQMGhsZTJpdmd2QmZHNVpqQVFEdk5ERTFFM0t0eXYwMFdiekx3el9ZUUd0TTNtdmV2SVVrdnlKdHhkb2dJRUNQU0Rpb2hhYmZjQ05VM0J6ZE9zbmZRZGNzSnRGRGdmOEtpQUg0eUpYWXNNWmFsOTVQNGVoR1lnNFd3eTZZSmc?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObDJkWWxlTENzbG40TERBblE1LVFab3ZfQXJlNm4yaFJaSFU1SzZpLWY5VmV2MVUwdC1iYkNpZ1VUZ01BUDUtNjdiVmJCeXlyOENiYnhVVGROM29GQ1JyRjdDSXh4OFlRdEVoSUdkY1RQNXl6NUJWM3NER0QtSzl4V25McVpTTVB1Xy0wMS1waFVCcmdwalB2X3hB?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb2F0QW91d2RaU2Q1N3NvbkdaVmlGSS11NGFzeDdfTVJIeUx4SmdDMFAwRFRTMW1zcHFoWnNkZTB5NzVLSDM3MnFEWDRBZ0JyRm9hdk9lTlBBOTZzOGRVc0NZT1E1b2hUQWhJbXg4Q09ZY0dtUFlEMUlxYjYwVXYybWhvQzhyQmVBWFN6WnRabTNfYjA0eHJxVXExSWXSAaQBQVVfeXFMTjFzMlMyd0ltVjU2elVSaGtUWWQ1UWFXZjBGSHlxU3M3QVJMRmpmTGZNYVVNbkdKbndQd2Jib0ZodWZYTlVzZW40QmhPeER4LWJNU3hFczBwLWhXZ0twUTRGQTM0dTJ3UzNZVWEwcVBLV1d2OUdUYXhnY1ZDMTd4SWs1U0JZc0FscUZrcTlKOXFwbWU5aFZzY3VZa2c3OENQaVg0RXI?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -472,12 +563,12 @@
    "title": "Deputadas do PL sugerem que patrões demitam funcionários que votaram em Lula",
    "summary": "A deputada estadual mais votada do Rio compartilhou posts que sugerem a demissão de eleitores de Lula, e uma deputada eleita no Paraná fez pedido semelhante aos seguidores. Pleno.News registra ainda uma campanha chamada \"Não contrate quem odeia empresário\". O UOL pergunta se pedir demissão de quem votou em Lula é crime. Um escritório de contabilidade em Minas fechou em protesto após a vitória de Lula. O caso é tratado como manifestação política das parlamentares, sem decisão judicial até agora.",
    "scores": {
-    "cobertura": 9,
+    "cobertura": 9.3,
     "destaque": 7,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 6.8,
+   "score": 6.9,
    "outlets": [
     {
      "name": "O Globo",
@@ -635,6 +726,13 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRTJ0dXRTY3dmY1BCZkE3eVhqN3JUakhRaGlDeGlnOEtiRnFpOUhxbmhCc3hCRExSRkd0dUIzMVFQM1VraXZNS01iSkp2eW5DNGYwTFNtOGtud1BZY3VKRDFweXVtMG1GdjJrekNqclE3VEx1WjdxeVBrZlNnN29OdVdIWnVTejhROEhrMkd4U0tKUUVIeWVELUtRX1FnMWREOTN4V0stemJNZFViUGRpWk1DWjNDNEE0ZGM5VEVlQm5mZDlaUHAwc2tJYm4tS1JIblUzUmxiY3TSAdgBQVVfeXFMT0UydHV0U2N3ZmNQQmZBN3lYajdyVGpIUWhpQ3hpZzhLYkZxaTlIcW5oQnN4QkRMUkZHdHVCMzFRUDNVa2l2TUtNYkpKdnluQzRmMExTbThrbndQWWN1SkQxcHl1bTBtRnYya3pDanJRN1RMdVo3cXlQa2ZTZzdvTnVXSFp1U3o4UThIazJHeFNLSlFFSHllRC1LUV9RZzFkRDkzeFdLLXpiTWRVYlBkaVpNQ1ozQzRBNGRjOVRFZUJuZmQ5WlBwMHNrSWJuLUtSSG5VM1JsYmN0?oc=5",
      "camp": "centro",
      "position": "secundario"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc01UR0M0cGg3YWdOQlRQcmVLMHk2aXhSS0hLZ2hrYmhWRjNPQTBmRGFDZlFCZ0dlN3d3SWllbFROSWF6d0dyd2tHNFlXZmRObF9La2JJWDh5c0xWUktIRzdGX0k3REJETV83ZXpJZmZtbWhJRTc5UE15ckVSZXBxTFJhOXprM2E0bnRCRS1kOEVTdDhRelVRd1BRM3psb0hqVWI0YVZLUUo1Wl9jTF9KOGZ5eFp4TFJLaG9yTFpzaWtWLXc30gHTAUFVX3lxTE5tV2dBX1NjVVo2QXJyZGo5aEVFZm0ydDBwcFdzVTRmWGQ5dDZpdmtKZXRwTkZvTk5YTFBqdDFpY1BrU3NRSXV0RHhqTWZpekNGTjNKNkFRNTRycXhOeXpoQzlFemZ6TGFVYlVpd0I2bDJlaXRaZGhaWVc0MjhCMGdWSmUzc1U0SGFRWjJRaWdxX1JkTk1SNzRtSTRrbGhRZFc5eHZYMWhwbjUzOFNmNC1RTTNpNTgyb1BOekoxbXN3ZGpDcUJNUFFCLUFHSFlHYW5JR00?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1000,6 +1098,13 @@
      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQnpzVDMxTmZ6RERvOTk5T2E0MXdaS0t0cnJNTzR4S2FHQ1BWRE5HeDgzdFdHbVhDcFVkalFkUWM2dlZZd2lqS2VoRTZqVDJITlJYbjJ4a011dmoySkVxbEpnLXppZ0tuODlQSnVuMnVrWU41Mm1GUkNyeVh5c1Z1cXRWaTlxOTNLaG1KeUV3R3FsUjFXRTVXRlVmbzZ1Y1BWeUhtRy13N19faDhjdGxITi1HN2FLbVBpVFJjUllGbGJDTmlxNjJVZnhSNkdVZFlPQ0tRcjJBNWlCV0ZWNWpB0gHuAUFVX3lxTE5tOXVwcFdwYTFjbXpveUR1NkhTZXJkbmpPei1xcmxXWmJ3d2NoeERkbHR2VkhTQ3FpMjhsUVdFdTJXakZsUzhCSnVYOUg2U2s2dTg3UlQyNHpjZi1BLVlMcWk4bkVoaHF5aUtSMk5LODhtMEhsd2tLcy1hYWo3ejBqQWhSYzFuN3VfaWFDYTBLeDVRQmlTeWlLNkVYYUY0czlvaThrMEpKNnJiYnQ5Y3dHbGkxMkJZMi1CQzAtcVhkU2hEcGFha3ZJR2o3elpGWjJlaUhPRmRYRERadVpTSThzYzNGUDBrN1hJZFdSWHc?oc=5",
      "camp": "centro",
      "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcG9QZ09saWJTc1dWYXdqMk50bkVyRDl5ankzSmNGc1JwRjJKNVl5R0dSSFEtQlVyUXFlVHFPcUpvRDl0ZmdXRmx5S1hJMGJSZ2VfaTYyN2h1Yms5S3Q1dFhLQ1E2OXNxWlNkenZ1UHcxVk04Y3hwanlmazZxWGNNRjl0MjI3clpmeWZYbm1PLXVoOEVFRkRRZktDamZydVAwZHpwUWk2NV9VcXM2ZkRj0gG0AUFVX3lxTE44LXIwY0JBbW5ubDgzM1NVVXVDRVNQYVAtZDFqMGRvYmo2TzBXdlZWYmFWN2pJOWJnX1paeC1xaTJCMUcweXJSMjZsUHhKYy1yMG94T0ZFS1RvTGlVMG81bjFaU2FCdFpsTW1uUlNVYVdDa1dlSWZST2VPLXdidEdXT2VrOTZka2lDVUVWVmtGa0JDTF9TMUhCX3ZsQjIxWnZ3TnY0UmM5QlpJMm94aEtUWEN6ag?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1091,6 +1196,48 @@
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdWRNRFA1ekVhQTlaeFdZcEJ5dk9HQmh5eGh2MkJsSktDRFV6Y2xwYk9DQmplS3JaTFB2Q0I2QlBidDhQODdkdzRUVTFNbFExOERxLXhLUkFzcUEyRTJwVVhxdDl5dnFpbU9zMThqX3VNOWZxQ19uY29hRjYyRlN4X3h5dDNBYlBQdjRaTHBqSW5pLTFhbXhTdFRaRUZKMGU4QlhRNmpkamdUVmZaaER3a0lWalhuZDA?oc=5",
      "camp": "centro",
      "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcG9QZ09saWJTc1dWYXdqMk50bkVyRDl5ankzSmNGc1JwRjJKNVl5R0dSSFEtQlVyUXFlVHFPcUpvRDl0ZmdXRmx5S1hJMGJSZ2VfaTYyN2h1Yms5S3Q1dFhLQ1E2OXNxWlNkenZ1UHcxVk04Y3hwanlmazZxWGNNRjl0MjI3clpmeWZYbm1PLXVoOEVFRkRRZktDamZydVAwZHpwUWk2NV9VcXM2ZkRj0gG0AUFVX3lxTE44LXIwY0JBbW5ubDgzM1NVVXVDRVNQYVAtZDFqMGRvYmo2TzBXdlZWYmFWN2pJOWJnX1paeC1xaTJCMUcweXJSMjZsUHhKYy1yMG94T0ZFS1RvTGlVMG81bjFaU2FCdFpsTW1uUlNVYVdDa1dlSWZST2VPLXdidEdXT2VrOTZka2lDVUVWVmtGa0JDTF9TMUhCX3ZsQjIxWnZ3TnY0UmM5QlpJMm94aEtUWEN6ag?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BBC News Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTWmpzcV9FeGJsMTRTQUJYQ3ViWF9WOVdtX0xWVjJrb0RvNklMWnBMaU96cGl1c0NKSjdjT2FaMUR0WHBKUDhpT3c3Z1BiNURQT2QyaFB1UTM1MEZPQ0k4TDVDaw?oc=5",
+     "camp": "internacional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3FGeC1xeHZQUFdaQ3NSQy1OdnBzSXBxZkc5aGNUWXF4TC03MEJneC1qYy1Qek55MzhKaDJTamNXYThxZ2VXLVE3a184YVZvMzFTVEZTZ0dVS18wYnJ2cVJTRFFJZWthamZnbElCbzk2TXlPc3pCNUllendSVU0zbW1qTll5cWZnZVRLNHJJY0EtaGZNUmYwdGxRYzhRbnpUYm4tQVR6SnpSZ0FZd051LQ?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUnVOTlMtcmI5M3NxOGpkbEgzSERqSXpJaGZfbXpQNmdMcWZiTGx3V0tBdnNMZ1ZOdll3VktnYldqTVFoV1V0bEZPNWdlY21QWl92QTdUOUpkN2tReVNSdl9pT0RJSVFydHZPRUdjU0t0V2RrU1A2NnExaXBjUkV0eHM2OFpFdWJsMDBHdWlJX20xT0tTOFJ3M0tHLXR3c095VE5TZHNsMEJtOFJ6T2pYdXZlLXlsT0VyOWc?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWm10S2xBSlE4dGwwVXZtVmRjeDhsdEgwRVZoVEJUbkYzakw5dGpYZ0FrQ0RhWDhqazBJdnRVN0dhWUZoQ3dOdjU2LVRuaDhBRTBIV0M1Znc2ZEdSMnJWUEV6QkxVVG5uVkRJOHJSMllHaWRtYnNMd2pWenhRQ3M4Y1M3Y3NZdDJfYlp1SWVNRzdHelY2WEkyWkF4MWVkeF9OTnpoUjlYaUFtZkxGSXJuOVhZNTFMYnhDMVIw?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "CBN",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQnpzVDMxTmZ6RERvOTk5T2E0MXdaS0t0cnJNTzR4S2FHQ1BWRE5HeDgzdFdHbVhDcFVkalFkUWM2dlZZd2lqS2VoRTZqVDJITlJYbjJ4a011dmoySkVxbEpnLXppZ0tuODlQSnVuMnVrWU41Mm1GUkNyeVh5c1Z1cXRWaTlxOTNLaG1KeUV3R3FsUjFXRTVXRlVmbzZ1Y1BWeUhtRy13N19faDhjdGxITi1HN2FLbVBpVFJjUllGbGJDTmlxNjJVZnhSNkdVZFlPQ0tRcjJBNWlCV0ZWNWpB0gHuAUFVX3lxTE5tOXVwcFdwYTFjbXpveUR1NkhTZXJkbmpPei1xcmxXWmJ3d2NoeERkbHR2VkhTQ3FpMjhsUVdFdTJXakZsUzhCSnVYOUg2U2s2dTg3UlQyNHpjZi1BLVlMcWk4bkVoaHF5aUtSMk5LODhtMEhsd2tLcy1hYWo3ejBqQWhSYzFuN3VfaWFDYTBLeDVRQmlTeWlLNkVYYUY0czlvaThrMEpKNnJiYnQ5Y3dHbGkxMkJZMi1CQzAtcVhkU2hEcGFha3ZJR2o3elpGWjJlaUhPRmRYRERadVpTSThzYzNGUDBrN1hJZFdSWHc?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1210,12 +1357,12 @@
    "title": "Viatura da PM atropela motociclista que comemorava a vitória de Lula em Florianópolis; Boulos diz que vai pedir prisão dos policiais",
    "summary": "Uma viatura da PM de Santa Catarina atingiu um motociclista que comemorava a vitória de Lula em Florianópolis, e o vídeo repercutiu nas redes. O Poder360 descreve o veículo como carro da PM Rodoviária. O Valor e a Folha também registraram o caso. Guilherme Boulos disse que pedirá a prisão dos policiais acusados. As matérias coletadas não informam o estado de saúde do motociclista.",
    "scores": {
-    "cobertura": 9,
+    "cobertura": 9.3,
     "destaque": 7,
     "persistencia": 7,
     "peso_voce": 6
    },
-   "score": 7.4,
+   "score": 7.5,
    "outlets": [
     {
      "name": "Folha de S.Paulo",
@@ -1561,6 +1708,13 @@
      "camp": "outros",
      "position": "editoria",
      "via": "coleta"
+    },
+    {
+     "name": "BHAZ",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HLUVVTUF2M3o4VXdYMWZ6Yzd0ZUVIMENBdW5BczRMZmdtUTMxRlQ2ZE5mRzBIRGVnWmhvX29uSlI3U3BWNmFUUGhqWGhoMmxQdkJSejNXc0dkcnVUM0ZoMWdGRHY4dzNJSmtpak1Yb1dDUnhZaU1Z?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1574,12 +1728,12 @@
    "title": "Criança é baleada durante comemoração no Complexo da Penha, e outra é atingida no Alemão",
    "summary": "Uma menina de 5 anos foi baleada durante comemoração da vitória de Lula no Complexo da Penha, na Zona Norte do Rio, segundo o R7. A CBN e o O Dia também registram a criança atingida por bala perdida na Penha. O UOL informa que outra criança foi baleada na perna no Complexo do Alemão. O SBT News fala em criança de 4 anos atingida por tiro no Rio. As matérias coletadas não informam o estado de saúde das crianças.",
    "scores": {
-    "cobertura": 8.5,
+    "cobertura": 10,
     "destaque": 8,
     "persistencia": 7,
     "peso_voce": 6
    },
-   "score": 7.5,
+   "score": 8.0,
    "outlets": [
     {
      "name": "UOL",
@@ -1622,6 +1776,27 @@
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd1M2Q0w5bXltckEwNHFLZGJZaVhkTDNORk5UQ3hnamhvVExORW1wbm1DSDJXN3FOMldHZC1WcmVDTDByaTNqTnZrd2x5cjNGSDJwNGdTVmF2VnJZQlhPOWx1eks4bzdVUFE4WDJxdnZYSzd6cjg2c3lwTHN6dmF2Q0tpS0IwZEptTGQ4Q0F1TVF5T1pFeGlyNGs3SzZvRmRFUUZSdmltblFRaThLYzBMSkVYX2J5bVNWZFE?oc=5",
      "camp": "centro",
      "position": "secundario"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQT2ZWUGZuNGM5SVhoMUNNODk5cEZNX2dWdkdEMVVudDdKTFJkWFUzRjdHeHZMVWg0THpyZ0swWmtkLWZGTjJpQmNpUnkwa2pOVU1ZdVpzUUxnb1lVNXdTQjBYUWFvV2JwdVJwMnNwajRwbW03bFFRbFdpTU1oYkUxTUx4bm15S0hZVHg0Z3ZVdERFVGxrMm1xWGE5LVlGNmJPYXpOcTJjX3FIOHN5Y2dEeGpDckhBWk9NcnpmN3hfVjgyT2hSbUNVaTlEOTNtM0wxMkpLRV9XTDdaRTFYYWY0enIteUNEdHlpdml2cEhtdUFtVjZZMmhVdkRfZ3AtRlhwZFpPbzRWZ9IBlgJBVV95cUxOQ2lVbnVPRG4zeFk5ZkN4Vk1qTElmclRHT1Z3NXpKeEJST2tUNjVVaGVXT1BEcXNBSTJxblhNRHFtNUJtenhGbHZqUmN2RWh2QWVqVnducGZ4MjZhQTFCaThlZUdQWU9FZTlHRjRMcWQzaS1LS3hXX1Ezcll1ZmNoX21qa1JKUHFCN3lNVFRPQ1FCV21ISHhqajNvbXVQN0FndDNSTjVSbnllQW43eHA5ZmFfeldmSVlRRHF2QUZfaXF2RlZxWms5ZkNMWmVJeWxQQzQ4el9IUGYzQUtaUE1vYlY1aTRsemRGS0V2MXRIeHRzczhMMUw4Vi13clI5SEhRYmR3b1BQVGdjcVdTUmJVenkzSVdXdw?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTZWZnNHg5dGxlYzhaYlZ1RS1GTDB1NElDTUh3U3VRWVBiTDdUZEt3aXNvMHhpNkRudmQ5U0cybUpwaGhhWEV6M0RucGplTVV4cGNrOFFmNVA4SjlwQlVnYTBYbkxrXzhFTV9jbXlwa3g4c29oOUp6dTlCMDNhVEU?oc=5",
+     "camp": "esquerda",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BBC News Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BMEhTM3F0NWdqZ1lDTDBMNE9nbktqdmtmTDdveGZocmVIaUQwcW9hYU55RHZJd0RjQXhMNU9Sei1uNVItVTh0TWk2VHp1TGp3LWtfWHlzaWZWVHNHLVYwSzJfVQ?oc=5",
+     "camp": "internacional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1672,12 +1847,12 @@
    "title": "Polícia identifica mulher filmada fazendo saudação nazista em seção eleitoral de Botafogo",
    "summary": "A polícia identificou a mulher filmada fazendo saudação nazista em uma seção eleitoral de Botafogo, segundo o Diário do Rio. A Polícia Civil investiga o caso e ouviu testemunhas. A G1 informa que a polícia tenta marcar o depoimento dela. O caso foi registrado no domingo, dia da votação. A Revista Oeste registra a fala de Dino de que símbolos nazistas nunca mais podem fazer parte de eleições.",
    "scores": {
-    "cobertura": 2,
+    "cobertura": 3.5,
     "destaque": 5,
     "persistencia": 7,
     "peso_voce": 6
    },
-   "score": 4.6,
+   "score": 5.1,
    "outlets": [
     {
      "name": "Diário do Rio",
@@ -2060,12 +2235,12 @@
    "title": "Vini Jr. fica em 17º na Bola de Ouro, e site da premiação publica vencedores antes da cerimônia",
    "summary": "Vini Jr. ficou em 17º lugar na Bola de Ouro, e o Brasil igualou sua pior colocação em 30 anos, segundo o Estadão. O site da premiação cometeu uma gafe e publicou textos de Kane, Mbappé e Yamal como vencedores antes da cerimônia. O Dia informa que Vini Jr., Marquinhos e Magalhães ficaram fora do top 10. A BandNews explica que a cerimônia trocou Paris por Londres em 2026. A Meia Hora publicou correção sobre a colocação de Vini Jr.",
    "scores": {
-    "cobertura": 8,
+    "cobertura": 8.7,
     "destaque": 7,
     "persistencia": 4,
     "peso_voce": 5
    },
-   "score": 6.3,
+   "score": 6.5,
    "outlets": [
     {
      "name": "Estadão",
@@ -2102,6 +2277,13 @@
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWERFSjZwV3kxSlJmVHFGZFlJUUY1YjdTbWRlLU1feHpKd1dnWXFKWlRtZjlmZlNuZVk1blFSX3Z3UWktbTc5LVBiVmJuQmRvY0RHdDdjWG1MU2F3TXpDazZKaDBDSVlqWU0xLVFrZ2ozVWs3dTQwOU13T0RWb2kyejhYN3dKR3pyWjg0dVhOOENtQW9PWG80em9yQ0x1clNOMHIyZVdMYXcwRkN6U0FraVN1UmJVYXJNdTZTUDlucjBpYW55d04yZ0o3VDlXX1JEdV9pbFNuNTVGTXZl?oc=5",
      "camp": "regional",
      "position": "editoria"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMEMzdlRsLWRZZG9QQ3o3c1FKSlVDc2Ytb2hUTlN3UUtTS0xDMWFRZGEzQTJNWTdJQlRlUWwyOXFXOFlBWDdvNjdfWmVseEdJd1dod0hrYlBDNHFlOExUbnFoakIwSlIyN2lDdGxfWGVuVFpLbm1yZW9wcHI4ZnFoSVNRZHp1dzJaVmdBU1FSYkdWOG4yN1VYZ2V3RVIyeW16aVBZeF9iaGpWQdIBsgFBVV95cUxPQ0pyNXU1YWZERHpxTWc4ak4wRGp1cld2OVMwM0NLU0tOeHptSlNYem9uT2ZaM21RX3pBNDhSemdFaTZTb1pyU2U4aWdPeVZlbWZCRGtNZjR4ZEk5TkNGelE5NHVmNTM1WDNSMW9yV1RxZ014bnZGNXp0cnRHVUE4WkMtNTF5TW05ZUNyaXdQdThuR0FCRWl0dXFNN2tBTGJGYS1TZWZCSU8yYjc1dzRJWGNB?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -2164,12 +2346,12 @@
    "title": "Flamengo cobra a Conmebol no caso Rojo, e Estudiantes diz que não houve infração",
    "summary": "O Flamengo cobrou a Conmebol depois de decisão do TAS sobre a atuação do zagueiro Rojo, do Estudiantes, na semifinal da Libertadores. O Estudiantes respondeu que não houve infração e tinha prazo até as 18h desta segunda-feira para se posicionar. O Portal GIRO informa que o recurso do Flamengo foi rejeitado e que o Estudiantes está confirmado na final. Rizek, do ge, disse não acreditar no sucesso do pedido. O Flamengo recebe o Atlético-MG hoje no Maracanã pelo Brasileirão.",
    "scores": {
-    "cobertura": 8.5,
+    "cobertura": 8.7,
     "destaque": 7,
     "persistencia": 10,
     "peso_voce": 5
    },
-   "score": 7.6,
+   "score": 7.7,
    "outlets": [
     {
      "name": "O Dia",
@@ -2300,6 +2482,13 @@
      "camp": "outros",
      "position": "editoria",
      "via": "coleta"
+    },
+    {
+     "name": "Meia Hora",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT2l6cngzTDNXYWlSNVh5cXlPelMxX3RCY2xlQl9pUnhkLW9weVB2M2stQjFoal9XR0ItRzMzQ2xhbmkyMkNnZ2Y1SWlEUjFhbmhoeGdmampLMU5QdmVNWmFWNHVfNDRISWZUZndpb1F0T2VsVjNOeW5aMktJN2NOeVJldVU5ZGJxTjhGdGRBeUt5OUxtamVyU282a3RHZFA3b2xsNHNDV2NFZ9IBrwFBVV95cUxQc2oxZFdoeThCU2Jzb3VNQ3F3aUNWdkpxN1NrOWNiTnZuWHgxOHNQZWk3UUFSZjk2QlpIS1A5cFV1bGo5M3NBd2lQUThsUUE3Nm1IYkJRa2JlNTYwaGtWd3dJYVp6NWJRZW9GRzF5cTZsd1UzLVg1Y2NZcjZoSnphaHRRRk8wRHhTWU82VVdKMEJ4anJoUmlWbDhpdDB3LXdsZGw5SFI0c0ZWZ2pkRFN3?oc=5",
+     "camp": "rio",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -2318,7 +2507,7 @@
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 3.8,
+   "score": 3.5,
    "outlets": [
     {
      "name": "Correio do Povo",
@@ -2343,7 +2532,7 @@
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 3.8,
+   "score": 3.5,
    "outlets": [
     {
      "name": "Governo Federal",
