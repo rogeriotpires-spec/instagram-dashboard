@@ -1,6 +1,32 @@
 {
   "alerts": [
     {
+      "time": "2026-10-26T12:58:00-03:00",
+      "title": "Bolsa aciona circuit breaker e dólar dispara 12% a R$ 5,60 após reeleição de Lula",
+      "fact": "Na primeira sessão depois da vitória de Lula no segundo turno, a B3 acionou o circuit breaker na abertura desta segunda (26/10), o primeiro desde março de 2020. O dólar, que fechou a sexta (23) em R$ 4,99, chegou a R$ 5,60, alta de cerca de 12%. Ao retomar os negócios, o Ibovespa caía cerca de 16%, as ações da Petrobras recuavam mais de 10% e as do Banco do Brasil, mais de 30%.",
+      "sources": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/economia/dolar-dispara-apos-vitoria-de-lula-acompanhe-a-reacao-do-mercado/"
+        },
+        {
+          "name": "Itatiaia",
+          "url": "https://www.itatiaia.com.br/economia/negocios/bolsa-circuit-breaker-dolar-dispara-eleicoes/"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/"
+        }
+      ],
+      "suggestion": "Reel de reação hoje, entre 14h e 16h, com o número do dólar na tela, e story com a pergunta ao público no fim do dia.",
+      "hook": "A Bolsa travou e o dólar foi a R$ 5,60 no primeiro dia depois da eleição.",
+      "script": "O mercado deu o recado logo na abertura. A Bolsa travou com o circuit breaker, o primeiro desde 2020. O dólar saiu de R$ 4,99 na sexta e foi a R$ 5,60. O Banco do Brasil caiu mais de 30%, a Petrobras, mais de 10%. Isso chega no preço do mercado, no juro e no bolso de quem paga conta. O governo vai ter que explicar como pretende acalmar esse cenário. Você sentiu o dólar no seu bolso? Me conta nos comentários.",
+      "timeline": {
+        "rende": "Alto: reação imediata do mercado ao resultado, assunto dominante do dia e com impacto direto no bolso.",
+        "angle": "O mercado reagiu à reeleição de Lula com circuit breaker e dólar a R$ 5,60, e a conta do cenário que o governo oferece chega ao bolso do brasileiro."
+      }
+    },
+    {
       "time": "2026-10-20T15:30:00-03:00",
       "title": "Pesquisa Real Time Big Data dá Flávio Bolsonaro 52% e Lula 48% nos votos válidos no 2º turno",
       "fact": "Pesquisa Real Time Big Data divulgada nesta terça (20/10) mostra Flávio Bolsonaro (PL) com 52% dos votos válidos e Lula (PT) com 48% no segundo turno, que acontece domingo (25/10). Foram ouvidos 2 mil eleitores por telefone entre 15 e 19 de outubro, com margem de erro de 2 pontos e registro BR-02952/2026 no TSE.",
