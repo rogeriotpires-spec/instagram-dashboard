@@ -281,6 +281,26 @@ for code, snaps in hist["posts"].items():
             out[str(w)] = {"age_h": s[1], "views": s[2], "reach": s[3], "comments": s[4], "shares": s[5], "saves": s[6], "follows": s[8]}
     if out: post_windows[code] = out
 
+# saldo de seguidores em 30 dias: total agora menos o total de 30 dias atrás (como o app do Instagram mostra).
+# Sem leitura daquele dia, parte da primeira leitura depois dele e desconta o saldo diário da API (seguiram - deixaram).
+def followers_30d_net():
+    now_total = account.get("followers")
+    if now_total is None: return None
+    start = (datetime.fromisoformat(account_updated).date() - timedelta(days=30))
+    reads = sorted({**hist.get("followers", {}), **hist.get("intraday", {})}.items())
+    after = [(k, v) for k, v in reads if k[:10] >= start.isoformat() and v is not None]
+    if not after: return None
+    k, base = after[0]
+    first = datetime.fromisoformat(k).date()
+    api = hist.get("daily_api", {})
+    d = start
+    while d < first:
+        r = api.get(d.isoformat()) or {}
+        if r.get("follows") is None or r.get("unfollows") is None: return None
+        base -= r["follows"] - r["unfollows"]
+        d += timedelta(days=1)
+    return {"net": now_total - base, "start": start.isoformat(), "base": base}
+
 data = {
     "updated": collected.isoformat(),
     "account": account,
@@ -294,6 +314,7 @@ data = {
     "stories_columns": ["ts", "type", "views", "reach", "replies", "shares", "seen"],
     "stories": stories,
     "daily": daily,
+    "followers_30d": followers_30d_net(),
     "follows_30d": {"gained": fu.get("FOLLOWER"), "lost": fu.get("NON_FOLLOWER"), "end": yesterday.isoformat(), "start": (yesterday - timedelta(days=29)).isoformat()},
     "reach_by_follow_type_30d": {"non_follower": ft.get("NON_FOLLOWER"), "follower": ft.get("FOLLOWER")},
     "audience": {"ref_date": yesterday.isoformat(),

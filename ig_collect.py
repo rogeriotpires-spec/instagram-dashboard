@@ -76,7 +76,8 @@ def main():
     out["me"] = safe("me", lambda: get("me", fields="user_id,username,followers_count,follows_count,media_count"))
 
     # ---- interações e seguidores por dia (últimos 30 dias completos) ----
-    METRICS = ["likes", "comments", "shares", "saves", "total_interactions", "reach", "views", "profile_links_taps"]
+    METRICS = ["likes", "comments", "shares", "saves", "total_interactions", "reach", "views", "profile_links_taps",
+               "accounts_engaged", "reposts", "replies"]
     daily = {}
     bad = set()
     for i in range(3 if QUICK else 30, 0, -1):
@@ -145,6 +146,10 @@ def main():
         code = m.get("shortcode") or m["permalink"].rstrip("/").split("/")[-1]
         rec = {}
         ins = safe(f"reel {code}", lambda: get(f"{m['id']}/insights", metric="ig_reels_avg_watch_time,views,reach"))
+        if ins and not QUICK:  # extras da coleta completa (substituem o Supermetrics); cada um pode faltar sem quebrar
+            for extra in ["ig_reels_video_view_total_time", "reels_skip_rate"]:
+                r = safe(f"reel {code} {extra}", lambda: get(f"{m['id']}/insights", metric=extra))
+                if r: ins["data"] = ins.get("data", []) + r.get("data", [])
         if ins:
             for x in ins.get("data", []):
                 v = (x.get("values") or [{}])[0].get("value")
@@ -216,11 +221,147 @@ def main():
         out["media_count_window"] = len(media)
     out["reels"] = reels
 
+    if not QUICK:
+        safe("arquivos brutos", lambda: write_raw(out, media, reels, now))
+
     json.dump(durations, open(DUR, "w"), separators=(",", ":"))
     json.dump(out, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     filled = sum(1 for r in daily.values() if r.get("shares") is not None)
     print(("rápida: " if QUICK else "") + f"ok: {filled}/{len(daily)} dias com interações, {len(stories)} stories ativos, {len(reels)} Reels, {sum(1 for r in reels.values() if r.get('duration_s'))} com duração, {len(errors)} erro(s)")
     for e in errors[:15]: print(" -", e)
+
+
+# ---------- arquivos brutos no formato que o build.py lê (antes vinham do Supermetrics) ----------
+RAW = os.path.join(HERE, "raw")
+
+
+def _save(name, header, rows):
+    if not rows:
+        errors.append(f"raw/{name}.json: sem dados, mantido o arquivo anterior")
+        return
+    with open(os.path.join(RAW, name + ".json"), "w", encoding="utf-8") as f:
+        json.dump([header] + rows, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def _old(name):
+    try:
+        d = json.load(open(os.path.join(RAW, name + ".json"), encoding="utf-8"))
+        return d[0], d[1:]
+    except Exception:
+        return None, []
+
+
+def _breakdown(res):
+    rows = []
+    for m in (res or {}).get("data", []):
+        for bd in m.get("total_value", {}).get("breakdowns", []):
+            for r in bd.get("results", []):
+                rows.append((r.get("dimension_values") or [], r.get("value")))
+    return rows
+
+
+def _val(x):
+    v = (x.get("values") or [{}])[0].get("value")
+    return x.get("total_value", {}).get("value") if v is None else v
+
+
+def write_raw(out, media, reels, now):
+    daily = out.get("daily") or {}
+    days = sorted(daily)
+
+    # conta
+    me = out.get("me") or {}
+    if me.get("followers_count") is not None:
+        _save("account", ["Username", "Profile followers", "Profile follows", "Profile media count"],
+              [[me.get("username"), me.get("followers_count"), me.get("follows_count"), me.get("media_count")]])
+
+    # métricas diárias da conta (90 dias: junta as novas com as antigas)
+    h, old = _old("daily")
+    by = {r[0]: r for r in old}
+    for d in days:
+        r = daily[d]
+        if r.get("reach") is None and r.get("views") is None: continue
+        by[d] = [d, r.get("reach"), r.get("views"), r.get("accounts_engaged"), r.get("reposts"), r.get("replies")]
+    cut = (now - timedelta(days=90)).date().isoformat()
+    _save("daily", ["Date", "Profile reach", "Profile views", "Accounts engaged", "Profile reposts", "Profile replies"],
+          [by[d] for d in sorted(by) if d >= cut])
+
+    # novos seguidores por dia e totais de 30 dias
+    fol = [[d, daily[d].get("follows")] for d in days if daily[d].get("follows") is not None]
+    _save("followers_daily", ["Date", "New followers"], fol)
+    gained = sum(daily[d].get("follows") or 0 for d in days)
+    lost = sum(daily[d].get("unfollows") or 0 for d in days)
+    if fol: _save("follows_unfollows", ["Follow type", "Follows and unfollows"], [["FOLLOWER", gained], ["NON_FOLLOWER", lost]])
+
+    # alcance e visualizações por tipo de público (seguidor ou não), 30 dias
+    if days:
+        since = day_bounds(datetime.fromisoformat(days[0]).date())[0]
+        until = day_bounds(datetime.fromisoformat(days[-1]).date())[1]
+        ft = {}
+        for met in ["reach", "views"]:
+            res = safe(f"{met} por tipo de público", lambda: get("me/insights", metric=met, period="day", metric_type="total_value", breakdown="follow_type", since=since, until=until))
+            for dims, v in _breakdown(res):
+                if dims: ft.setdefault(dims[0], {})[met] = v
+        _save("follow_types", ["Follow type", "Profile reach", "Profile views"],
+              [[k, v.get("reach"), v.get("views")] for k, v in ft.items() if k in ("FOLLOWER", "NON_FOLLOWER")])
+
+    # demografia dos seguidores
+    def demo(bd):
+        for tf in [None, "this_month", "last_30_days", "last_90_days"]:
+            kw = dict(metric="follower_demographics", period="lifetime", metric_type="total_value", breakdown=bd)
+            if tf: kw["timeframe"] = tf
+            res = safe(f"seguidores por {bd} ({tf or 'padrão'})", lambda: get("me/insights", **kw))
+            rows = _breakdown(res)
+            if rows: return rows
+        return []
+    G = {"M": "male", "F": "female", "U": "undefined"}
+    _save("age_gender", ["Age", "Gender", "Profile followers"],
+          [[d[0], G.get(d[1], d[1]), v] for d, v in demo("age,gender") if len(d) >= 2])
+    _save("cities", ["Area & city", "Profile followers"],
+          sorted(([d[0], v] for d, v in demo("city") if d), key=lambda r: -(r[1] or 0)))
+
+    # posts dos últimos 180 dias com os números de cada um
+    h, old = _old("media")
+    bad = set()  # métricas que a API recusou: não pede de novo nos próximos posts
+    by = {}
+    for r in old:
+        m = r[3] or ""
+        by[m.rstrip("/").split("/")[-1]] = r
+    for m in media:
+        code = m.get("shortcode") or m["permalink"].rstrip("/").split("/")[-1]
+        is_reel = m.get("media_product_type") == "REELS" or m.get("media_type") == "VIDEO"
+        mets = [k for k in ["views", "reach", "total_interactions", "likes", "comments", "shares", "saved", "reposts"] + ([] if is_reel else ["profile_visits", "follows"]) if k not in bad]
+        got = {}
+        ins = safe(f"post {code} insights", lambda: get(f"{m['id']}/insights", metric=",".join(mets)))
+        if ins is None:
+            for k in mets:
+                r = safe(f"post {code} {k}", lambda: get(f"{m['id']}/insights", metric=k))
+                if r: got.update({x["name"]: _val(x) for x in r.get("data", [])})
+                elif k == "reposts": bad.add(k)
+        else:
+            got = {x["name"]: _val(x) for x in ins.get("data", [])}
+        if not got and code in by: continue  # falhou: mantém a leitura anterior
+        info = safe(f"post {code} legenda", lambda: get(m["id"], fields="caption,like_count,comments_count")) or {}
+        ts = datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z").astimezone(BRT).strftime("%Y-%m-%d %H:%M:%S")
+        g = lambda k, alt=None: got.get(k) if got.get(k) is not None else info.get(alt) if alt else None
+        by[code] = [ts, m.get("media_type"), m.get("media_product_type"), m.get("permalink"), info.get("caption"),
+                    g("views"), g("reach"), g("total_interactions"), g("likes", "like_count"), g("comments", "comments_count"),
+                    g("shares"), g("saved"), g("reposts"), g("profile_visits"), g("follows")]
+    cut = (now - timedelta(days=180)).strftime("%Y-%m-%d")
+    _save("media", ["Media created", "Media type", "Media product type", "Media permalink", "Media caption", "Views", "Media reach",
+                    "Interactions", "Like count", "Comments count", "Shares", "Unique saves", "Reposts", "Profile visits", "Follows"],
+          sorted((r for r in by.values() if r[0] and r[0][:10] >= cut), key=lambda r: r[0], reverse=True))
+
+    # Reels: tempo médio assistido, taxa de pulo e minutos vistos
+    h, old = _old("reels")
+    by = {r[0]: r for r in old}
+    for code, r in reels.items():
+        ms = r.get("ig_reels_avg_watch_time")
+        if ms is None: continue
+        sec = round(ms / 1000)
+        tot = r.get("ig_reels_video_view_total_time")
+        by[code] = [code, f"{sec // 60:02d}:{sec % 60:02d}", r.get("reels_skip_rate"), round(tot / 60000) if tot is not None else None]
+    _save("reels", ["Media shortcode", "Reels average minutes watched", "Reels skip rate", "Reels minutes viewed"], list(by.values()))
 
 
 if __name__ == "__main__":
