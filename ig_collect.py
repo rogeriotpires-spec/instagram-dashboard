@@ -214,6 +214,15 @@ def main():
         stories[st["id"]] = rec
     out["stories"] = stories
 
+    # endereço da imagem dos posts de imagem e carrossel dos últimos 14 dias (a análise semanal classifica o estilo visual)
+    if QUICK:
+        out["thumbs"] = prev.get("thumbs") or {}
+    else:
+        lim14 = now - timedelta(days=14)
+        out["thumbs"] = {(m.get("shortcode") or m["permalink"].rstrip("/").split("/")[-1]): m.get("media_url")
+                         for m in media if m.get("media_type") in ("IMAGE", "CAROUSEL_ALBUM") and m.get("media_url")
+                         and datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z") >= lim14}
+
     if QUICK:
         reels = {**(prev.get("reels") or {}), **reels}
         out["media_count_window"] = prev.get("media_count_window")
