@@ -1,107 +1,65 @@
 {
- "generated": "2026-10-25T06:05:00-03:00",
- "dias": 1,
- "period": {
-  "start": "2026-10-20",
-  "end": "2026-10-20"
- },
- "compare": "média dos 7 dias anteriores",
- "headline": "Em 20/10 as views da conta foram 320.992 (−36% contra a média dos 7 dias anteriores) com só 2 publicações; o Reel \"Faltam seis dias.\" fez 48.229 views e 1.836 compartilhamentos.",
- "kpis": [
-  {
-   "label": "Views recebidas pela conta",
-   "value": "321 mil",
-   "delta": "−36%",
-   "dir": "down"
-  },
-  {
-   "label": "Novos seguidores",
-   "value": "219",
-   "delta": "−55%",
-   "dir": "down"
-  },
-  {
-   "label": "Deixaram de seguir",
-   "value": "26",
-   "delta": "+21%",
-   "dir": "down"
-  },
-  {
-   "label": "Compartilhamentos recebidos",
-   "value": "3.866",
-   "delta": "−55%",
-   "dir": "down"
-  },
-  {
-   "label": "Comentários recebidos",
-   "value": "365",
-   "delta": "−61%",
-   "dir": "down"
-  },
-  {
-   "label": "Alcance médio por dia",
-   "value": "102 mil",
-   "delta": "−52%",
-   "dir": "down"
-  }
- ],
- "cards": [
-  {
-   "title": "O que funcionou",
-   "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "O Reel \"Faltam seis dias.\" (20h47, 196,1s) fez 48.229 views, 1.836 compartilhamentos e 349 salvamentos, com 8,1 horas de vida. Foi o post da noite e tem muito mais views que a imagem da manhã (5.460). Os espectadores assistiram em média 40 segundos.",
-   "actions": [
-    "Mantenha o Reel no começo da noite, horário em que o dia teve seu melhor resultado.",
-    "Repita o tema de contagem regressiva ou de data marcada, que gerou compartilhamento.",
-    "Acompanhe o Reel nas próximas horas, porque ele ainda acumula views."
-   ],
-   "posts": [
-    "DevC0V9s5Cp"
-   ]
-  },
-  {
-   "title": "O que não funcionou",
-   "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "A imagem \"Se Lula é tão bom quanto dizem, cadê os filhos dele…\" (7h59) fez 5.460 views e 140 compartilhamentos, com 20,9 horas de vida, e nenhum seguidor atribuído. O dia teve só 2 publicações, e o alcance médio por dia ficou em 101.958 contas, contra 193.852 na média dos 7 dias anteriores.",
-   "actions": [
-    "Publique mais de duas vezes no dia; com poucos posts o alcance cai junto.",
-    "Reserve a manhã para a imagem de opinião mais forte e não repita assuntos já saturados.",
-    "Ponha uma pergunta no título para estimular resposta."
-   ],
-   "posts": [
-    "DetrJ4PxqWH"
-   ]
-  },
-  {
-   "title": "Retenção do Reel",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "O Reel \"Faltam seis dias.\" tem 196,1 segundos e foi assistido em média por 40 segundos. 41% das pessoas pularam o vídeo. O vídeo é longo e a maior parte do tempo não foi assistida.",
-   "actions": [
-    "Corte o vídeo para algo bem mais curto ou divida em partes.",
-    "Abra com a frase mais forte, sem introdução.",
-    "Fique de olho na retenção dos próximos Reels longos."
-   ],
-   "posts": [
-    "DevC0V9s5Cp"
-   ]
-  },
-  {
-   "title": "Comentários e seguidores",
-   "status": "warn",
-   "status_label": "Atenção",
-   "diagnosis": "Foram 365 comentários, contra 497 na média dos 7 dias anteriores (−61%), e 219 novos seguidores, contra 350. Quem deixou de seguir subiu para 26, contra 17. A imagem teve 27 comentários e o Reel, 9. A pergunta no título da imagem coincidiu com mais comentários.",
-   "actions": [
-    "Termine os Reels com uma pergunta direta.",
-    "Responda os comentários na primeira hora.",
-    "Veja nos próximos dias se as saídas voltam para perto de 17 por dia."
-   ],
-   "posts": [
-    "DetrJ4PxqWH",
-    "DevC0V9s5Cp"
-   ]
-  }
- ]
+  "generated": "2026-10-26T06:19:06-03:00",
+  "dias": 1,
+  "period": {"start": "2026-10-20", "end": "2026-10-20"},
+  "compare": "média dos 7 dias anteriores",
+  "headline": "Em 20/10 a conta recebeu 320.992 views (−36% contra a média dos 7 dias anteriores) e só 2 posts foram publicados; o Reel das 20h47 somou 48.229 views e 1.836 compartilhamentos.",
+  "kpis": [
+    {"label": "Views recebidas pela conta", "value": "321 mil", "delta": "−36%", "dir": "down"},
+    {"label": "Novos seguidores", "value": "219", "delta": "−55%", "dir": "down"},
+    {"label": "Deixaram de seguir", "value": "26", "delta": "+20,5%", "dir": "down"},
+    {"label": "Compartilhamentos recebidos", "value": "3.866", "delta": "−55%", "dir": "down"},
+    {"label": "Comentários recebidos", "value": "365", "delta": "−60,5%", "dir": "down"},
+    {"label": "Alcance médio por dia", "value": "102 mil", "delta": "−52%", "dir": "down"}
+  ],
+  "cards": [
+    {
+      "title": "O que funcionou",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O Reel “Faltam seis dias.” (20h47) teve 48.229 views, alcance de 30.891, 1.836 compartilhamentos e 349 salvamentos, mesmo com apenas 8,1 horas de vida e ainda acumulando. Foi o post que concentrou o dia: a imagem da manhã teve 5.460 views. O horário das 20h teve mediana de 48.229 views contra 5.460 às 7h, com um post em cada.",
+      "actions": [
+        "Repita o Reel de contagem regressiva ou de fato do dia no começo da noite.",
+        "Peça para compartilhar no final do vídeo: o post teve 1.836 compartilhamentos.",
+        "Olhe de novo o resultado dele em 48 horas, porque ainda estava acumulando."
+      ],
+      "posts": ["DevC0V9s5Cp"]
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Com só 2 posts, o dia ficou abaixo da semana anterior: 219 novos seguidores contra 350 de média, 3.866 compartilhamentos contra 5.977 e alcance médio de 101.958 contra 193.852. A imagem “Se Lula é tão bom quanto dizem, cadê os filhos dele…” (7h59) teve 5.460 views e nenhum seguidor atribuído. Deixaram de seguir 26 pessoas, contra 17 de média.",
+      "actions": [
+        "Publique pelo menos um post a mais entre 18h e 21h, quando a conta costuma render mais.",
+        "Use a imagem da manhã só quando tiver uma opinião mais forte que a deste dia.",
+        "Acompanhe as saídas de seguidores nos próximos dias para ver se os 26 foram um caso isolado."
+      ],
+      "posts": ["DetrJ4PxqWH"]
+    },
+    {
+      "title": "Comentários",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "Os comentários somaram 365, contra 496 de média da semana anterior. A imagem da manhã teve 27 comentários e o Reel teve só 9, mesmo com 48.229 views. O Reel foi compartilhado e salvo (1.836 e 349), mas conversou pouco.",
+      "actions": [
+        "Termine o Reel com uma pergunta simples que dê vontade de responder.",
+        "Responda os primeiros comentários do Reel na primeira hora.",
+        "Use a imagem com pergunta no título, que já rendeu 27 comentários neste dia."
+      ],
+      "posts": ["DetrJ4PxqWH", "DevC0V9s5Cp"]
+    },
+    {
+      "title": "Retenção do Reel",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "O Reel “Faltam seis dias.” tem 196,1 segundos e foi assistido em média por 40 segundos, com 41% de pulo no começo. Mesmo longo, rendeu 48.229 views, mas a maior parte do vídeo não é vista.",
+      "actions": [
+        "Corte a versão seguinte para até 60 segundos, com a frase mais forte logo no início.",
+        "Se o assunto for longo, divida em duas partes.",
+        "Teste uma abertura sem introdução para reduzir o pulo de 41%."
+      ],
+      "posts": ["DevC0V9s5Cp"]
+    }
+  ]
 }
