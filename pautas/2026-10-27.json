@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-27",
+  "weekday": "Ter",
+  "generated": "2026-10-26T20:11:51-03:00",
+  "summary": "Terça de ressaca do mercado: a Bolsa fechou em queda de quase 14% e o dólar a R$ 5,40 no primeiro pregão depois da eleição, o Tesouro Direto parou e cancelou leilões, a equipe de Lula prepara uma PEC para conter gastos e vence o prazo de 24 horas para Flávio Bolsonaro entregar os passaportes por ordem de Moraes.",
+  "agenda": [
+    {
+      "time": "27/10",
+      "text": "Leilão de NTN-B do Tesouro, marcado para a terça, foi cancelado; os leilões de NTN-F e LTN de quinta (29) também.",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/economia/tesouro-direto-suspende-negociacoes-apos-disparada-dos-juros/"
+      }
+    },
+    {
+      "time": "27/10",
+      "text": "Vence o prazo de 24 horas para Flávio Bolsonaro entregar os passaportes, por ordem de Moraes; ele disse que vai entregar.",
+      "source": {
+        "name": "Exame",
+        "url": "https://exame.com/brasil/moraes-determina-que-flavio-entregue-passaportes-em-24-horas-e-proibe-contato-com-willer-tomaz/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "7h",
+      "type": "i",
+      "kind": "Imagem de opinião forte",
+      "options": [
+        {
+          "title": "Ibovespa despenca 13,88% e dólar fecha a R$ 5,40 no primeiro pregão após a eleição",
+          "tone": "contundente",
+          "style": "realista",
+          "desdobramento": "fechamento do pregão de 26/10 (Ibovespa -13,88%, dólar a R$ 5,40), fato novo em relação à pauta quente do meio-dia, que cobriu só a abertura.",
+          "fact": "No primeiro pregão depois da vitória de Lula no segundo turno, a B3 acionou o circuit breaker logo na abertura, o primeiro desde 18/03/2020. O Ibovespa fechou em 176.608 pontos, queda de 13,88% sobre os 205.082 de sexta (23). Outro levantamento aponta 13,43%, então vale citar \"cerca de 14%\". O dólar fechou a R$ 5,403, alta de 8,21% sobre os cerca de R$ 4,99 de sexta, e tocou R$ 5,605 no dia. Na abertura, Petrobras caía mais de 10% e o Banco do Brasil, mais de 30%.",
+          "sources": [
+            {
+              "name": "SouBrasília",
+              "url": "https://soubrasilia.com/bolsa-cai-quase-14-dolar-sobe-r-5-40-reeleicao-lula-circuit-breaker-26-outubro-2026/"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/dolar-dispara-apos-vitoria-de-lula-acompanhe-a-reacao-do-mercado/"
+            }
+          ],
+          "art_text": [
+            "Dólar a R$ 5,40",
+            "A Bolsa perdeu quase 14% em um dia",
+            "Quem vai pagar essa conta?",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Painel de cotações em vermelho e mãos de operadores, de costas.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz fria de sala de operações, granulação leve. Um grande painel de cotações em vermelho, com setas para baixo e números ilegíveis, ao fundo desfocado; em primeiro plano, de costas, silhuetas de operadores de bolsa com as mãos na cabeça, sem rostos e sem logos. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes, condensadas e muito pesadas: \"Dólar a R$ 5,40\". Abaixo, em amarelo: \"A Bolsa perdeu quase 14% em um dia\". No terço inferior, em branco, com sublinhado vermelho pincelado: \"Quem vai pagar essa conta?\". No canto inferior direito, em letras pequenas, cinza claro: \"Imagem ilustrativa\".  No canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Primeiro pregão depois da eleição: a Bolsa caiu quase 14% e o dólar fechou a R$ 5,40. Isso chega ao preço do mercado e ao juro. Você já sentiu o dólar no seu bolso? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não atribua a queda a uma única causa nem a pessoas: fale do número e da conta que chega ao bolso. Os números de fechamento variam um pouco entre veículos (13,88% ou 13,43%); use \"quase 14%\". Confira a cotação antes de postar.",
+          "timeline": {
+            "rende": true,
+            "angle": "O pior dia da Bolsa desde a pandemia e o dólar a R$ 5,40: o que o mercado cobra do novo governo e como isso chega ao preço dos alimentos, ao juro e ao crédito."
+          }
+        },
+        {
+          "title": "Moraes manda Flávio entregar os passaportes em 24 horas e o proíbe de deixar o país",
+          "tone": "sóbrio com urgência",
+          "style": "realista",
+          "fact": "O ministro Alexandre de Moraes determinou que Flávio Bolsonaro (PL) entregue os passaportes comum e diplomático em 24 horas e o proibiu de deixar o Brasil e de ter contato com o advogado Willer Tomaz. A PF entregou a intimação na segunda (26), depois de Flávio visitar Jair Bolsonaro. Em vídeo, Flávio disse que a decisão saiu na noite de domingo, depois da eleição, e a ligou a uma fala de Eduardo Bolsonaro de que ele deveria sair do país se perdesse. Afirmou: \"nunca pensei em sair do país\", chamou a medida de \"uma clara tentativa de me intimidar\" e disse que vai entregar os documentos. Ele é investigado em inquérito sobre suspeita de lavagem de dinheiro por apostas e nega ter sociedade com o advogado; não há condenação.",
+          "sources": [
+            {
+              "name": "Exame",
+              "url": "https://exame.com/brasil/moraes-determina-que-flavio-entregue-passaportes-em-24-horas-e-proibe-contato-com-willer-tomaz/"
+            }
+          ],
+          "art_text": [
+            "\"Nunca pensei em sair do país\"",
+            "Passaporte em 24 horas, um dia depois da eleição",
+            "Você acha proporcional?",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Passaporte brasileiro fechado sobre uma mesa escura, sem nome nem foto legíveis.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz lateral dramática, fundo escuro. Sobre uma mesa de madeira escura, um passaporte brasileiro genérico fechado, sem nome, sem foto e sem brasão legível, ao lado de um relógio de bolsa marcando 24 horas, em foco raso. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes, condensadas e muito pesadas: \"Nunca pensei em sair do país\". Abaixo, em amarelo: \"Passaporte em 24 horas, um dia depois da eleição\". No terço inferior, em branco, com sublinhado vermelho pincelado: \"Você acha proporcional?\". No canto inferior direito, em letras pequenas, cinza claro: \"Imagem ilustrativa\". No canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Um dia depois da eleição, Flávio recebeu ordem para entregar os passaportes em 24 horas. Ele diz que nunca pensou em sair do país. Você acha a medida proporcional? Sim ou não?",
+          "risk": "alto",
+          "risk_note": "Há inquérito em andamento e nenhuma condenação: não afirme crime nem fuga. A frase de destaque é de Flávio e deve ficar entre aspas. Não mostre o rosto de ninguém. Se ele já tiver entregado os documentos ou a decisão mudar, atualize o texto.",
+          "timeline": {
+            "rende": true,
+            "angle": "Medida cautelar contra um senador recém-derrotado na eleição: o que a lei permite, o argumento da defesa e o debate sobre proporcionalidade das decisões individuais no STF."
+          }
+        }
+      ]
+    },
+    {
+      "time": "21h",
+      "type": "r",
+      "kind": "Reel de reação direta",
+      "options": [
+        {
+          "title": "Equipe de Lula prepara PEC para ampliar bloqueio de gastos e perseguir a meta fiscal de 2027",
+          "tone": "irônico",
+          "duration": "25 a 30s",
+          "fact": "A equipe econômica de Lula prepara uma PEC para ampliar a capacidade do governo de conter despesas quando a receita ficar abaixo do previsto. O texto ainda não foi formalmente apresentado e Lula ainda decide se o envia. A meta de 2027 é superávit primário de R$ 73,2 bilhões (0,5% do PIB). O limite de gastos de 2027 é de R$ 2,576 trilhões, R$ 183,8 bilhões (7,7%) a mais que em 2026. Uma PEC precisa de três quintos dos votos em dois turnos na Câmara e no Senado.",
+          "sources": [
+            {
+              "name": "Gazeta Mercantil",
+              "url": "https://gazetamercantil.com/lula-pec-ampliar-contingenciamento-orcamento-meta-fiscal-2027"
+            }
+          ],
+          "hooks": [
+            "Inacreditável! A campanha prometeu, e agora o governo prepara uma PEC para cortar gasto.",
+            "Um dia depois da eleição, o dólar foi a R$ 5,40 e o governo corre para cortar despesa."
+          ],
+          "script": "Inacreditável! Um dia depois da eleição, o dólar fecha a R$ 5,40 e a equipe de Lula prepara uma PEC para poder bloquear mais gastos. A campanha foi de promessa. Agora a conta chegou. A meta de 2027 é um superávit de R$ 73 bilhões, e o limite de despesa cresce R$ 183 bilhões em um ano. O texto nem foi apresentado, e precisa de três quintos dos votos nas duas Casas. Quem prometeu agora vai ter que explicar de onde sai o dinheiro. Você acha que o governo cumpre essa meta? Responde sim ou não e manda para quem acompanha a economia.",
+          "screen_text": [
+            "Dólar: R$ 5,40",
+            "PEC para cortar gastos",
+            "Meta 2027: superávit de R$ 73 bi",
+            "De onde sai o dinheiro?"
+          ],
+          "caption": "A campanha prometeu, a conta chegou e o governo prepara uma PEC para bloquear gastos. Você acha que a meta de 2027 será cumprida? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A PEC é informação de bastidor: diga \"prepara\" ou \"estuda\", nunca \"enviou\". Use \"segundo reportagens\" no máximo uma vez, se precisar. Não atribua o dólar a uma causa única.",
+          "timeline": {
+            "rende": true,
+            "angle": "Promessas de campanha e meta fiscal: o que a PEC de contenção de gastos muda, o que está em jogo em 2027 e por que o mercado cobra um sinal de ajuste."
+          }
+        },
+        {
+          "title": "Tesouro Direto suspende negociações e cancela três leilões depois da disparada dos juros",
+          "tone": "sóbrio",
+          "duration": "até 30s (teste com 2 ganchos)",
+          "fact": "Às 10h de segunda (26), o Tesouro Direto suspendeu as negociações por tempo indeterminado por causa da alta nas taxas dos títulos públicos. O Tesouro recomprou 8,4 milhões de títulos prefixados, cerca de R$ 7,1 bilhões, e cancelou três leilões da semana: NTN-B na terça (27), NTN-F e LTN na quinta (29). O Tesouro Prefixado 2032 foi de 12,89% para 15,78% ao ano entre sexta e segunda; o IPCA+ 2032, de 6,76% para 8,10%. Um dos valores citados na matéria não fecha com o total de R$ 7,1 bilhões: confira antes de falar.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/tesouro-direto-suspende-negociacoes-apos-disparada-dos-juros/"
+            }
+          ],
+          "hooks": [
+            "O Tesouro Direto saiu do ar no primeiro dia depois da eleição.",
+            "Em um dia, o juro do Tesouro Prefixado foi de 12,89% para 15,78%."
+          ],
+          "script": "O Tesouro Direto parou de negociar no primeiro dia depois da eleição. O juro do título prefixado 2032 saiu de 12,89% na sexta para 15,78% na segunda. O Tesouro cancelou três leilões da semana e ainda recomprou títulos para tentar acalmar o mercado. Isso é o preço do dinheiro do país subindo em um único dia. E quem sente é o governo, que paga mais para se financiar, e o brasileiro, no crédito e na parcela. O governo precisa dar um sinal de ajuste fiscal. Você confia nesse sinal? Responde sim ou não e manda para quem investe.",
+          "screen_text": [
+            "Tesouro Direto parou",
+            "Juro de 12,89% para 15,78%",
+            "3 leilões cancelados",
+            "Quem paga a conta?"
+          ],
+          "caption": "O juro do título prefixado saltou em um dia e o Tesouro cancelou três leilões. Você confia que o governo vai dar um sinal de ajuste fiscal? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Explique que a suspensão é por volatilidade das taxas e não afirme calote nem crise de dívida. O valor da recompra aparece com divergência na própria matéria: cite só o total de R$ 7,1 bilhões ou omita. Confira se o Tesouro Direto já reabriu.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que significa o Tesouro Direto sair do ar: a alta do juro prefixado, os leilões cancelados e o efeito no custo da dívida e no crédito do brasileiro."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
