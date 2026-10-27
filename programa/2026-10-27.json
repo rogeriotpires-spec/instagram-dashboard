@@ -1,260 +1,318 @@
 {
-  "date": "2026-10-27",
-  "generated": "2026-10-27T10:36:06-03:00",
-  "programa": "Conversa Timeline",
-  "titulo": "Nikolas pede prudência e Flávio lidera a oposição, Zanin vira alvo de impeachment, Moraes cancela passaportes de Flávio e Trump diz que a eleição pareceu fraudada",
-  "abertura": "O dia começa pela direita depois da derrota: Nikolas Ferreira disse que a chance de anular a eleição é praticamente nula e pediu que os apoiadores evitem protestos, enquanto o PL reconhece o resultado e Flávio promete liderar a oposição com 121 deputados e 19 senadores. A oposição também anunciou pedidos de impeachment de Zanin pela prorrogação até as 19h, e Trump disse, sem provas, que o processo pareceu fraudado, mas a diferença de 4.430.191 votos responde à suspeita. No mesmo dia, Alexandre de Moraes mandou cancelar os passaportes de Flávio e a Justiça italiana negou a extradição de Eduardo Tagliaferro. Na economia, o dólar subiu 8,21%, a Bolsa caiu 13,88% e o governo quer mudar a meta fiscal.",
-  "agenda": [],
-  "itens": [
+ "date": "2026-10-27",
+ "generated": "2026-10-27T10:36:06-03:00",
+ "programa": "Conversa Timeline",
+ "titulo": "Lula recebe Motta e Alcolumbre no Alvorada, Nikolas pede prudência, Zanin vira alvo de impeachment e a Itália nega extradir Tagliaferro",
+ "abertura": "O dia começa com Lula recebendo no Alvorada Hugo Motta e Davi Alcolumbre, que defendem harmonia entre os Poderes enquanto buscam a reeleição nas presidências das Casas, num Congresso em que o PL terá 121 deputados e 29 senadores. Nikolas Ferreira disse que a chance de anular a eleição é praticamente nula e pediu que os apoiadores evitem protestos, e Flávio promete liderar a oposição. A oposição anuncia pedidos de impeachment de Zanin pela prorrogação da votação até as 19h, e Trump disse, sem provas, que a eleição pareceu fraudada. A Justiça italiana negou a extradição de Eduardo Tagliaferro por dúvida sobre a imparcialidade de Alexandre de Moraes, que no mesmo dia mandou cancelar os passaportes de Flávio, e o governo quer mudar a meta fiscal.",
+ "agenda": [],
+ "itens": [
+  {
+   "id": "zanin-prorrogacao",
+   "bloco": "STF e instituições",
+   "titulo": "Oposição anuncia impeachment de Zanin por prorrogar a votação, e Trump diz que a eleição \"pareceu fraudada\"",
+   "subtitulo": "Lula venceu por 4.430.191 votos, e só 35.521 foram registrados depois das 17h; Nunes Marques diz que a prorrogação dificultou a eleição",
+   "resumo": "Van Hattem (Novo-RS) e o senador Jorge Seif (PL-SC) anunciaram pedidos de impeachment de Cristiano Zanin por ter prorrogado a votação do segundo turno até as 19h, em decisão divulgada às 17h03, a pedido da campanha de Lula. O presidente do TSE, Kassio Nunes Marques, disse que a decisão gerou dificuldades ao processo eleitoral e provocou a maior fila de boletins de urna já registrada pelo tribunal. Trump disse, sem apresentar provas, que a eleição \"pareceu fraudada\", e Geraldo Alckmin respondeu que a fala é \"totalmente equivocada\". O fato que responde à suspeita é o número: Lula teve 64.256.232 votos e Flávio Bolsonaro, 59.826.041, uma diferença de 4.430.191, e só 35.521 votos foram registrados depois das 17h, segundo levantamento com dados do TSE. Fraude exige prova, e a pergunta que fica é de competência: quem pode mudar o horário da votação no meio do dia.",
+   "contexto": [
+    "Linha do tempo de domingo (25): 16h22, a coligação de Lula aciona o STF; 16h33, Zanin é sorteado relator; 17h03, a decisão é divulgada para todos os estados; a campanha de Flávio já pedira prorrogação em 19 cidades de SP, PR e SC.",
+    "Zanin esclareceu que a prorrogação valia só onde as urnas não tinham fechado, e o TSE suspendeu por um tempo o recebimento dos boletins.",
+    "Van Hattem diz que Zanin decidiu sem competência e depois das 17h, e lembra que ele foi advogado pessoal de Lula; Rogério Marinho (PL-RN) chamou a decisão de \"intempestiva\".",
+    "Nunes Marques: a decisão \"gerou dificuldades ao processo eleitoral\"; ele também disse que o resultado não foi alterado.",
+    "Resultado final: Lula 51,79% dos votos válidos e Flávio 48,21%; depois das 17h foram 35.521 votos, pelos registros de 497.897 seções, que não indicam em quem cada eleitor votou.",
+    "Trump disse que gosta de Lula e não tomou partido; Amorim respondeu: \"Só se ele está se referindo à Meta\"."
+   ],
+   "angulo": [
+    "Mudar o horário da votação por decisão individual de um ministro, a pedido de uma campanha, é poder que o Congresso tem o direito de questionar.",
+    "A decisão passou por cima do TSE, que organiza a eleição, como mostram as dificuldades que o próprio presidente da Corte apontou.",
+    "A resposta a Trump é o número: 4,4 milhões de diferença e 35.521 votos depois das 17h não mudam resultado, e o programa não endossa a palavra fraude sem prova.",
+    "Responder a Trump atacando a Meta, como fez Amorim, desvia da pergunta sobre o horário."
+   ],
+   "perguntas": [
+    "Um ministro do STF pode prorrogar a votação em todo o país sem ouvir o TSE?",
+    "Com 4,4 milhões de votos de diferença e 35.521 votos depois das 17h, o que sobra da tese de fraude?",
+    "Qual deveria ser o critério para mudar o horário de votação durante a eleição?"
+   ],
+   "atencao": "Os pedidos de impeachment foram anunciados, sem confirmação de protocolo; Zanin não é acusado de crime. Trump não apresentou provas, e o número de votos depois das 17h vem de levantamento com dados do TSE, a conferir no painel oficial.",
+   "fontes": [
     {
-      "id": "zanin-prorrogacao",
-      "bloco": "STF e instituições",
-      "titulo": "Oposição anuncia impeachment de Zanin por prorrogar a votação, e Trump diz que a eleição \"pareceu fraudada\"",
-      "subtitulo": "Lula venceu por 4.430.191 votos, e só 35.521 foram registrados depois das 17h; Nunes Marques diz que a prorrogação dificultou a eleição",
-      "resumo": "Van Hattem (Novo-RS) e o senador Jorge Seif (PL-SC) anunciaram pedidos de impeachment de Cristiano Zanin por ter prorrogado a votação do segundo turno até as 19h, em decisão divulgada às 17h03, a pedido da campanha de Lula. O presidente do TSE, Kassio Nunes Marques, disse que a decisão gerou dificuldades ao processo eleitoral e provocou a maior fila de boletins de urna já registrada pelo tribunal. Trump disse, sem apresentar provas, que a eleição \"pareceu fraudada\", e Geraldo Alckmin respondeu que a fala é \"totalmente equivocada\". O fato que responde à suspeita é o número: Lula teve 64.256.232 votos e Flávio Bolsonaro, 59.826.041, uma diferença de 4.430.191, e só 35.521 votos foram registrados depois das 17h, segundo levantamento com dados do TSE. Fraude exige prova, e a pergunta que fica é de competência: quem pode mudar o horário da votação no meio do dia.",
-      "contexto": [
-        "Linha do tempo de domingo (25): 16h22, a coligação de Lula aciona o STF; 16h33, Zanin é sorteado relator; 17h03, a decisão é divulgada para todos os estados; a campanha de Flávio já pedira prorrogação em 19 cidades de SP, PR e SC.",
-        "Zanin esclareceu que a prorrogação valia só onde as urnas não tinham fechado, e o TSE suspendeu por um tempo o recebimento dos boletins.",
-        "Van Hattem diz que Zanin decidiu sem competência e depois das 17h, e lembra que ele foi advogado pessoal de Lula; Rogério Marinho (PL-RN) chamou a decisão de \"intempestiva\".",
-        "Nunes Marques: a decisão \"gerou dificuldades ao processo eleitoral\"; ele também disse que o resultado não foi alterado.",
-        "Resultado final: Lula 51,79% dos votos válidos e Flávio 48,21%; depois das 17h foram 35.521 votos, pelos registros de 497.897 seções, que não indicam em quem cada eleitor votou.",
-        "Trump disse que gosta de Lula e não tomou partido; Amorim respondeu: \"Só se ele está se referindo à Meta\"."
-      ],
-      "angulo": [
-        "Mudar o horário da votação por decisão individual de um ministro, a pedido de uma campanha, é poder que o Congresso tem o direito de questionar.",
-        "A decisão passou por cima do TSE, que organiza a eleição, como mostram as dificuldades que o próprio presidente da Corte apontou.",
-        "A resposta a Trump é o número: 4,4 milhões de diferença e 35.521 votos depois das 17h não mudam resultado, e o programa não endossa a palavra fraude sem prova.",
-        "Responder a Trump atacando a Meta, como fez Amorim, desvia da pergunta sobre o horário."
-      ],
-      "perguntas": [
-        "Um ministro do STF pode prorrogar a votação em todo o país sem ouvir o TSE?",
-        "Com 4,4 milhões de votos de diferença e 35.521 votos depois das 17h, o que sobra da tese de fraude?",
-        "Qual deveria ser o critério para mudar o horário de votação durante a eleição?"
-      ],
-      "atencao": "Os pedidos de impeachment foram anunciados, sem confirmação de protocolo; Zanin não é acusado de crime. Trump não apresentou provas, e o número de votos depois das 17h vem de levantamento com dados do TSE, a conferir no painel oficial.",
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-que-eleicao-no-brasil-pareceu-fraudada-mas-afirma-ter-boa-relacao-com-lula/"
-        },
-        {
-          "name": "Exame",
-          "url": "https://exame.com/brasil/oposicao-pede-impeachment-de-cristiano-zanin-apos-votacao-ser-prorrogada/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/nunes-marques-diz-que-decisao-de-zanin-nao-alterou-resultado-da-eleicao"
-        },
-        {
-          "name": "ICL Notícias",
-          "url": "https://iclnoticias.com.br/mais-de-35-mil-votos-foram-registrados-apos/"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "Assunto em alta no X: Trump. Trump disse, sem apresentar provas, que a eleição brasileira \"pareceu fraudada\", mas que gosta de Lula. Alckmin respondeu que a fala é \"totalmente equivocada\". Como usar: Rebater com fato: a diferença de votos é de milhões e o TSE mostrou o número de votos após as 17h. https://x.com/search?q=Trump | Assunto em alta no X: Zanin. A oposição prepara pedidos de impeachment contra o ministro Zanin depois da prorrogação do horário de votação, e Nunes Marques disse que a decisão dificultou a eleição. Como usar: Explicar com fato o que foi decidido na prorrogação e quantos votos houve depois das 17h. https://x.com/search?q=Zanin",
-      "fundido": [
-        "Trump diz que a eleição no Brasil \"pareceu fraudada\", e Alckmin e Amorim reagem"
-      ]
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-que-eleicao-no-brasil-pareceu-fraudada-mas-afirma-ter-boa-relacao-com-lula/"
     },
     {
-      "id": "nikolas-prudencia",
-      "bloco": "Política nacional",
-      "titulo": "Nikolas pede prudência e sem protestos de rua, e Flávio promete liderar a oposição",
-      "subtitulo": "Nikolas diz que a chance de anular a eleição é \"praticamente nula\"; o PL reconhece o resultado e a direita tem 121 deputados e 19 senadores",
-      "resumo": "Nikolas Ferreira (PL-MG) gravou um vídeo na segunda-feira (26) dizendo que, conhecendo o país, a chance de anular a eleição é \"praticamente nula\". Ele pediu que os apoiadores não vão às ruas no calor da emoção e lembrou que muita gente já pagou um alto preço por isso. O recado ajuda a pôr a energia da direita onde ela pesa de verdade: o PL divulgou nota reconhecendo o resultado proclamado pelo TSE, e Flávio Bolsonaro disse que assume a liderança da oposição. Com 121 deputados e 19 senadores, a direita tem a força para fiscalizar o governo e barrar no Congresso o que ameaça a liberdade e o bolso do cidadão. As dúvidas sobre a prorrogação da votação até as 19h seguem pelo caminho institucional, com pedido de cassação da chapa na Justiça Eleitoral e impeachment de Zanin.",
-      "contexto": [
-        "Vídeo de Nikolas, publicado em 26/10: \"Conhecendo o nosso país, a chance de anular essa eleição é praticamente nula\"; ele disse que \"a prudência agora, com as vidas que estão em jogo, deve falar mais alto\".",
-        "Nikolas disse que a primeira reação à derrota foi de raiva e indignação, e que há perguntas sem resposta, como a ampliação do horário de votação em meio a chuva, alagamentos e queda de energia.",
-        "Resultado: Lula com 64,2 milhões de votos (51,79%) e Flávio com 59,8 milhões (48,21%).",
-        "A nota do PL, assinada por Valdemar Costa Neto, aceita o resultado do TSE e cobra esclarecimento sobre os gastos com benefícios na reta final da campanha.",
-        "Flávio agradeceu a quase 60 milhões de eleitores, disse que vai pedir a cassação da chapa Lula e Alckmin e reunir deputados e senadores eleitos para definir a estratégia no Congresso.",
-        "O PL elegeu 121 deputados e 19 senadores."
-      ],
-      "angulo": [
-        "O pedido de prudência de Nikolas protege o eleitor de direita e tira o governo da posição de usar cenas de rua como argumento.",
-        "Quase 60 milhões de votos e maioria no Congresso dão à direita o papel de fiscalizar o governo e barrar o que ameaça liberdade e bolso do cidadão.",
-        "As dúvidas sobre a prorrogação e o pacote de benefícios perto da eleição são legítimas e têm caminho próprio: Justiça Eleitoral, Congresso e imprensa.",
-        "A oposição deve ser firme e institucional, com o Congresso como trincheira da liberdade de expressão, da segurança e da responsabilidade fiscal."
-      ],
-      "perguntas": [
-        "Que pautas a oposição deve priorizar no Congresso em 2027?",
-        "Como a direita transforma 60 milhões de votos em força de fiscalização do governo?",
-        "Que caminhos institucionais existem para esclarecer as dúvidas sobre a prorrogação da votação?"
-      ],
-      "atencao": "Nikolas não apresentou provas de irregularidade; o pedido de cassação da chapa e os impeachments anunciados são iniciativas políticas, sem decisão da Justiça.",
-      "fontes": [
-        {
-          "name": "Exame",
-          "url": "https://exame.com/brasil/nikolas-ferreira-ve-chance-praticamente-nula-de-anular-eleicao-e-pede-cautela-a-apoiadores/"
-        },
-        {
-          "name": "Minha Bahia",
-          "url": "https://minhabahia.com.br/politica/nikolas-ferreira-alerta-apoiadores-contra-novo-8-de-janeiro-e-admite-dificuldade-para-anular-eleicao-de-lula/"
-        },
-        {
-          "name": "ND Mais",
-          "url": "https://ndmais.com.br/politica/nikolas-ferreira-diz-que-anulacao-de-vitoria-de-lula/"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pl-contraria-flavio-e-reconhece-vitoria-de-lula/"
-        },
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/politica/flavio-diz-que-vai-liderar-oposicao-mas-pedira-cassacao-de-chapa-eleita-do-lula/"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "Assunto em alta no X: Nikolas. Nikolas Ferreira disse que a chance de anular a eleição é praticamente nula e pediu prudência aos apoiadores, evitando protestos. Como usar: Amplificar o pedido de prudência e o foco na oposição no Congresso. https://x.com/search?q=Nikolas",
-      "fundido": [
-        "PL reconhece a vitória de Lula, e Flávio diz que vai liderar a oposição"
-      ]
+     "name": "Exame",
+     "url": "https://exame.com/brasil/oposicao-pede-impeachment-de-cristiano-zanin-apos-votacao-ser-prorrogada/"
     },
     {
-      "id": "passaporte-flavio",
-      "bloco": "STF e instituições",
-      "titulo": "Moraes manda cancelar os passaportes de Flávio e o proíbe de deixar o país",
-      "subtitulo": "A PF deu 24 horas para Flávio entregar os documentos, inclusive o diplomático, e ele foi proibido de falar com Willer Tomaz",
-      "resumo": "Alexandre de Moraes, relator do inquérito que apura suspeita de lavagem de dinheiro envolvendo Flávio Bolsonaro e o advogado Willer Tomaz, mandou cancelar todos os passaportes do senador, inclusive o diplomático. A decisão foi assinada na noite de domingo (25), um dia depois da derrota de Flávio para Lula, e a PF o intimou na segunda (26) a entregar os documentos em 24 horas. Flávio diz que vai cumprir a ordem, mas afirma que ela se baseou numa fala do irmão Eduardo, de 23 de outubro, e que ele nunca disse que deixaria o país. O pedido partiu de deputados governistas, e a decisão é sigilosa, o que impede o público de conhecer os fundamentos. Para o cidadão, a pergunta é se um senador com quase 60 milhões de votos pode ter a liberdade de ir e vir restringida por causa da fala de outra pessoa.",
-      "contexto": [
-        "Moraes determinou o cancelamento do passaporte comum e do diplomático e a inclusão de Flávio no alerta migratório da PF.",
-        "Flávio também foi proibido de manter contato, direto ou por interposta pessoa, com Willer Tomaz.",
-        "O pedido partiu dos deputados Duda Salabert (Psol-MG), Otoni de Paula (PSD-RJ) e Rogério Correia (PT-MG).",
-        "Em 23 de outubro, Moraes já havia mandado bloquear até R$ 6 bilhões de Tomaz e cancelar os passaportes dele; Flávio e Tomaz negam irregularidades.",
-        "A decisão tramita em sigilo, e o STF disse à imprensa não ter informações sobre ela."
-      ],
-      "angulo": [
-        "Restringir o direito de ir e vir de um senador logo depois da eleição, com base na fala de terceiro, é medida desproporcional e precisa de fundamento público.",
-        "Flávio nunca foi condenado e vai cumprir a ordem: não há fuga nem desobediência a justificar a pressa.",
-        "A decisão sigilosa, pedida por adversários políticos, reforça a pergunta sobre os limites do poder individual de um ministro do STF."
-      ],
-      "perguntas": [
-        "Qual fundamento concreto justifica tirar o passaporte de um senador que diz que vai cumprir toda ordem judicial?",
-        "O pedido feito por deputados do governo, um dia depois da eleição, pesa na leitura da decisão?",
-        "Decisões sigilosas contra o principal líder da oposição cabem a um único ministro?"
-      ],
-      "atencao": "Flávio e Willer Tomaz são investigados e negam irregularidades; ninguém foi condenado e a decisão tramita em sigilo.",
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/politica/moraes-manda-flavio-entregar-passaporte-e-nao-se-comunicar-com-willer/"
-        },
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/politica/flavio-diz-que-vai-liderar-oposicao-mas-pedira-cassacao-de-chapa-eleita-do-lula/"
-        }
-      ]
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/nunes-marques-diz-que-decisao-de-zanin-nao-alterou-resultado-da-eleicao"
     },
     {
-      "id": "meta-fiscal-durigan",
-      "bloco": "Economia",
-      "titulo": "Durigan quer mudar a lei, ou a Constituição, para perseguir o centro da meta fiscal",
-      "subtitulo": "Governo enviará projeto de lei complementar depois de o dólar subir 8,21% e a Bolsa cair 13,88% na segunda",
-      "resumo": "O ministro da Fazenda, Dario Durigan, disse que o governo vai alterar a legislação ou, se preciso, a Constituição para buscar o centro da meta fiscal, com proposta ainda em 2026. Nesta terça (27), ele afirmou que a via será um projeto de lei complementar e que outras medidas estão em avaliação. A regra atual permite cumprir a meta com resultado no piso da tolerância, e a meta de 2027 é superávit de 0,5% do PIB (R$ 70,7 bilhões), com margem de 0,25 ponto percentual. Na segunda, depois da reeleição de Lula, o dólar fechou a R$ 5,40, alta de 8,21%, e a Bolsa caiu 13,88%. Durigan chamou o movimento de reação de posição, não de fundamento econômico, e disse que não vê expectativa fiscal por trás dele.",
-      "contexto": [
-        "Durigan disse que quer o centro da meta de forma formal, por lei complementar, e que a proposta sai ainda em 2026.",
-        "Metas: superávit de 0,25% do PIB em 2026, 0,5% (R$ 70,7 bilhões) em 2027 e 1% (R$ 150,7 bilhões) em 2028.",
-        "A regra atual considera a meta cumprida com resultado dentro da tolerância de 0,25 ponto percentual.",
-        "Dólar a R$ 5,40 (alta de 8,21%) e Bolsa em queda de 13,88% na segunda (26).",
-        "Durigan não apresentou novo percentual nem as medidas que pretende adotar."
-      ],
-      "angulo": [
-        "Quem paga a conta do descontrole fiscal é o cidadão, com juros, inflação e dólar mais caros; a meta não pode ser só promessa no papel.",
-        "Mudar a regra do jogo depois de um tombo de mais de 13% na Bolsa não substitui cortar gasto: o mercado quer corte, e o governo fala em mudar a norma.",
-        "Se o governo quer mesmo o centro da meta, a prova é o corte de despesa e a contenção de benefícios, e a oposição, com maioria no Congresso, deve cobrar isso."
-      ],
-      "perguntas": [
-        "O que o governo vai cortar para mostrar que o centro da meta não é só discurso?",
-        "Por que a mudança precisa de lei ou de emenda constitucional se a meta já existe?",
-        "O que o brasileiro sente primeiro no bolso com o dólar a R$ 5,40?"
-      ],
-      "fontes": [
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-economia/durigan-quer-mudar-constituicao-para-cumprir-centro-da-meta-fiscal/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/governo-apresentara-proposta-para-perseguir-centro-da-meta-diz-durigan"
-        }
-      ]
-    },
-    {
-      "id": "tagliaferro-extradicao",
-      "bloco": "STF e instituições",
-      "titulo": "Corte italiana nega a extradição de Tagliaferro por dúvida sobre a imparcialidade de Moraes",
-      "subtitulo": "Tribunal de Catanzaro devolveu os passaportes do ex-assessor e considerou política a acusação de tentar abolir o Estado de Direito",
-      "resumo": "A Corte de Apelação de Catanzaro, na Itália, negou o pedido brasileiro de extradição de Eduardo Tagliaferro, ex-assessor de Alexandre de Moraes no TSE. A corte entendeu que o ministro participou da condução da investigação, da análise das provas e das medidas restritivas, embora as revelações atribuídas a Tagliaferro também o atingissem. Para os magistrados italianos, essa sobreposição de funções cria dúvida objetiva sobre a garantia de um julgamento imparcial, e trocar o juiz não resolveria. A decisão é de 29 de abril, foi depositada em 22 de outubro e só veio a público na segunda (26). A corte revogou a proibição de Tagliaferro deixar a Itália e mandou devolver os passaportes, e a Gazeta do Povo ressalta que isso não é absolvição das acusações no Brasil.",
-      "metafora": "É como se o mesmo juiz fosse, ao mesmo tempo, quem apita o jogo, quem marca o pênalti e quem foi atingido pela falta.",
-      "contexto": [
-        "Tagliaferro foi chefe da assessoria do TSE contra a desinformação em 2022; mensagens de gabinete vazadas em 2024 trataram de relatórios paralelos contra críticos.",
-        "Ele é réu no STF por violação de sigilo funcional, coação, obstrução de investigação e tentativa de abolição violenta do Estado de Direito.",
-        "A corte italiana classificou como política a acusação de tentativa de abolição do Estado Democrático de Direito.",
-        "A decisão cita o precedente do caso Zambelli, da Corte de Cassação italiana.",
-        "A corte revogou a proibição de sair da Itália e mandou devolver os passaportes e documentos."
-      ],
-      "angulo": [
-        "Quando uma corte de um país democrático europeu aponta que o mesmo ministro investiga, julga a prova e decide medidas, é sinal de que o modelo brasileiro precisa de limites.",
-        "O problema não é Tagliaferro: é o acúmulo de papéis em um único ministro do STF, que a própria Itália considerou incompatível com a imparcialidade.",
-        "O Congresso, com maioria da direita, deve discutir regras de relatoria e de impedimento no Supremo."
-      ],
-      "perguntas": [
-        "O que a decisão italiana diz sobre a imagem da Justiça brasileira lá fora?",
-        "Moraes deveria ter se declarado impedido nos casos em que ele próprio foi atingido?",
-        "Que mudança o Congresso pode fazer para separar quem investiga de quem julga?"
-      ],
-      "atencao": "A decisão italiana não absolve Tagliaferro, que responde a ação penal no STF; ele nega irregularidades.",
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/italia-nega-extradicao-de-tagliaferro-por-duvidas-sobre-imparcialidade-no-brasil/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/tiago-pavinatto/justica-italiana-nega-extradicao-de-tagliaferro-ex-assessor-de-moraes"
-        }
-      ]
-    },
-    {
-      "id": "santos-engenheiro",
-      "bloco": "Segurança pública",
-      "titulo": "Marcelo de Oliveira Rocha morre depois de ser espancado em Santos ao sair de ato pró-Lula",
-      "subtitulo": "A Polícia Civil investiga; a motivação não foi confirmada e ninguém foi preso",
-      "resumo": "Marcelo de Oliveira Rocha, engenheiro ambiental e mestrando da Unifesp, morreu na segunda (26) depois de ser espancado em Santos, no litoral paulista. O ataque ocorreu por volta das 3h de sábado (24), quando ele se afastou de um ato de apoio a Lula e foi encontrado inconsciente por amigos. Ele foi levado à Santa Casa e depois transferido ao Hospital São Paulo, da Unifesp, onde morreu. A Polícia Civil registrou o caso e investiga a motivação e a autoria, sem confirmação de motivo político ou outro, e sem suspeito preso. O pai da vítima afirma que o crime teria sido motivado pelo posicionamento político e pela orientação sexual do filho, o que a polícia ainda não confirmou.",
-      "contexto": [
-        "O ataque foi na madrugada de sábado (24), na região da Avenida Conselheiro Nébias, em Santos.",
-        "Marcelo assistia à Banda Esquerdantina em ato de apoio a Lula e disse aos amigos que iria ao banheiro.",
-        "Foi encontrado inconsciente, com marcas de espancamento, atendido pelo Samu e levado à Santa Casa.",
-        "A Unifesp confirmou a morte e pediu investigação rigorosa; a Polícia Civil investiga, e nenhuma hipótese foi descartada.",
-        "A SSP registrou o caso como roubo com resultado de lesão corporal grave, segundo relatos; a motivação segue sob investigação."
-      ],
-      "angulo": [
-        "Violência política de qualquer lado é inaceitável, e a morte de um jovem exige investigação rápida e identificação dos autores.",
-        "Enquanto a polícia não fecha a motivação, ninguém deve usar o caso para condenar um lado político: a resposta correta é cobrar Estado presente e punição.",
-        "O caso mostra um problema de segurança pública: a violência que mata nas ruas não pode ser naturalizada, seja qual for a motivação."
-      ],
-      "perguntas": [
-        "O que as autoridades precisam fazer para identificar os agressores com rapidez?",
-        "Como tratar o caso sem antecipar uma motivação que a polícia ainda não confirmou?",
-        "O que falta para que atos políticos e eventos públicos tenham mais segurança?"
-      ],
-      "atencao": "A motivação não foi confirmada pela polícia; não atribuir o crime a nenhum grupo político antes da conclusão da investigação.",
-      "fontes": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/estudante-agredido-apos-ato-politico-em-santos-morre-em-hospital/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/distrito-federal/na-mira/engenheiro-e-espancado-e-morto-ao-se-afastar-de-ato-politico-de-lula"
-        }
-      ]
+     "name": "ICL Notícias",
+     "url": "https://iclnoticias.com.br/mais-de-35-mil-votos-foram-registrados-apos/"
     }
-  ],
-  "excluidos": [],
-  "atualizado": "2026-10-27T10:42:02-03:00"
+   ],
+   "avulsa": true,
+   "pedido": "Assunto em alta no X: Trump. Trump disse, sem apresentar provas, que a eleição brasileira \"pareceu fraudada\", mas que gosta de Lula. Alckmin respondeu que a fala é \"totalmente equivocada\". Como usar: Rebater com fato: a diferença de votos é de milhões e o TSE mostrou o número de votos após as 17h. https://x.com/search?q=Trump | Assunto em alta no X: Zanin. A oposição prepara pedidos de impeachment contra o ministro Zanin depois da prorrogação do horário de votação, e Nunes Marques disse que a decisão dificultou a eleição. Como usar: Explicar com fato o que foi decidido na prorrogação e quantos votos houve depois das 17h. https://x.com/search?q=Zanin",
+   "fundido": [
+    "Trump diz que a eleição no Brasil \"pareceu fraudada\", e Alckmin e Amorim reagem"
+   ]
+  },
+  {
+   "id": "nikolas-prudencia",
+   "bloco": "Política nacional",
+   "titulo": "Nikolas pede prudência e sem protestos de rua, e Flávio promete liderar a oposição",
+   "subtitulo": "Nikolas diz que a chance de anular a eleição é \"praticamente nula\"; o PL reconhece o resultado e a direita tem 121 deputados e 19 senadores",
+   "resumo": "Nikolas Ferreira (PL-MG) gravou um vídeo na segunda-feira (26) dizendo que, conhecendo o país, a chance de anular a eleição é \"praticamente nula\". Ele pediu que os apoiadores não vão às ruas no calor da emoção e lembrou que muita gente já pagou um alto preço por isso. O recado ajuda a pôr a energia da direita onde ela pesa de verdade: o PL divulgou nota reconhecendo o resultado proclamado pelo TSE, e Flávio Bolsonaro disse que assume a liderança da oposição. Com 121 deputados e 19 senadores, a direita tem a força para fiscalizar o governo e barrar no Congresso o que ameaça a liberdade e o bolso do cidadão. As dúvidas sobre a prorrogação da votação até as 19h seguem pelo caminho institucional, com pedido de cassação da chapa na Justiça Eleitoral e impeachment de Zanin.",
+   "contexto": [
+    "Vídeo de Nikolas, publicado em 26/10: \"Conhecendo o nosso país, a chance de anular essa eleição é praticamente nula\"; ele disse que \"a prudência agora, com as vidas que estão em jogo, deve falar mais alto\".",
+    "Nikolas disse que a primeira reação à derrota foi de raiva e indignação, e que há perguntas sem resposta, como a ampliação do horário de votação em meio a chuva, alagamentos e queda de energia.",
+    "Resultado: Lula com 64,2 milhões de votos (51,79%) e Flávio com 59,8 milhões (48,21%).",
+    "A nota do PL, assinada por Valdemar Costa Neto, aceita o resultado do TSE e cobra esclarecimento sobre os gastos com benefícios na reta final da campanha.",
+    "Flávio agradeceu a quase 60 milhões de eleitores, disse que vai pedir a cassação da chapa Lula e Alckmin e reunir deputados e senadores eleitos para definir a estratégia no Congresso.",
+    "O PL elegeu 121 deputados e 19 senadores."
+   ],
+   "angulo": [
+    "O pedido de prudência de Nikolas protege o eleitor de direita e tira o governo da posição de usar cenas de rua como argumento.",
+    "Quase 60 milhões de votos e maioria no Congresso dão à direita o papel de fiscalizar o governo e barrar o que ameaça liberdade e bolso do cidadão.",
+    "As dúvidas sobre a prorrogação e o pacote de benefícios perto da eleição são legítimas e têm caminho próprio: Justiça Eleitoral, Congresso e imprensa.",
+    "A oposição deve ser firme e institucional, com o Congresso como trincheira da liberdade de expressão, da segurança e da responsabilidade fiscal."
+   ],
+   "perguntas": [
+    "Que pautas a oposição deve priorizar no Congresso em 2027?",
+    "Como a direita transforma 60 milhões de votos em força de fiscalização do governo?",
+    "Que caminhos institucionais existem para esclarecer as dúvidas sobre a prorrogação da votação?"
+   ],
+   "atencao": "Nikolas não apresentou provas de irregularidade; o pedido de cassação da chapa e os impeachments anunciados são iniciativas políticas, sem decisão da Justiça.",
+   "fontes": [
+    {
+     "name": "Exame",
+     "url": "https://exame.com/brasil/nikolas-ferreira-ve-chance-praticamente-nula-de-anular-eleicao-e-pede-cautela-a-apoiadores/"
+    },
+    {
+     "name": "Minha Bahia",
+     "url": "https://minhabahia.com.br/politica/nikolas-ferreira-alerta-apoiadores-contra-novo-8-de-janeiro-e-admite-dificuldade-para-anular-eleicao-de-lula/"
+    },
+    {
+     "name": "ND Mais",
+     "url": "https://ndmais.com.br/politica/nikolas-ferreira-diz-que-anulacao-de-vitoria-de-lula/"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pl-contraria-flavio-e-reconhece-vitoria-de-lula/"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/flavio-diz-que-vai-liderar-oposicao-mas-pedira-cassacao-de-chapa-eleita-do-lula/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Assunto em alta no X: Nikolas. Nikolas Ferreira disse que a chance de anular a eleição é praticamente nula e pediu prudência aos apoiadores, evitando protestos. Como usar: Amplificar o pedido de prudência e o foco na oposição no Congresso. https://x.com/search?q=Nikolas",
+   "fundido": [
+    "PL reconhece a vitória de Lula, e Flávio diz que vai liderar a oposição"
+   ]
+  },
+  {
+   "id": "lula-motta-alcolumbre-alvorada",
+   "bloco": "Política nacional",
+   "titulo": "Lula recebe Motta e Alcolumbre no Alvorada, e os dois defendem harmonia entre os Poderes",
+   "subtitulo": "Presidentes da Câmara e do Senado querem se reeleger em fevereiro, e o PL terá 121 deputados e 29 dos 81 senadores",
+   "resumo": "Na segunda (26), um dia depois da vitória de Lula, o presidente da Câmara, Hugo Motta (Republicanos-PB), e o do Senado, Davi Alcolumbre (União-AP), foram ao Alvorada em visita de cortesia. Motta falou em diálogo, respeito institucional e harmonia entre Executivo, Legislativo e Judiciário, e Alcolumbre disse que os brasileiros esperam resultados e que as duas Casas seguirão atuando com independência. Os dois já tinham apoiado a reeleição de Lula e agora buscam o apoio do governo para continuar no comando das Casas na votação de fevereiro. Motta tem o apoio de 12 partidos e pode ter o do PT, que se reúne na terça (27) para decidir. Do outro lado, o PL elegeu 121 deputados e terá a maior bancada do Senado, com 29 das 81 cadeiras, e estuda candidatura própria às duas presidências.",
+   "contexto": [
+    "A visita foi no fim da tarde de segunda (26), no Palácio da Alvorada, a primeira dos três depois da reeleição de Lula, que teve 64,2 milhões de votos (51,79%) contra 59,8 milhões de Flávio Bolsonaro (48,21%).",
+    "Motta escreveu nas redes que o encontro foi de \"diálogo, respeito institucional e compromisso com o futuro\"; Alcolumbre disse que \"os brasileiros esperam de nós resultados\".",
+    "A disputa pelas mesas é em fevereiro: para a Câmara, o PL cogita Sóstenes Cavalcante (PL-RJ) ou Altineu Cortês (PL-RJ); para o Senado, Rogério Marinho (PL-RN) ou Tereza Cristina (PP-MS).",
+    "Alcolumbre garantiu, antes do segundo turno, a aprovação da PEC do fim da escala 6x1 e o perdão das dívidas tributárias dos MEIs, bandeiras da campanha de Lula.",
+    "Na pauta do governo no Congresso estão a PEC da Segurança Pública, com votação adiada por causa da discussão sobre a redução da maioridade penal, e a PEC da tarifa zero no transporte em fins de semana e feriados.",
+    "Em editorial de agosto, a Gazeta do Povo já tratava os almoços no Alvorada como um \"grande acordo nacional\" fechado entre as autoridades."
+   ],
+   "angulo": [
+    "Harmonia entre os Poderes é o que a Constituição pede, mas o eleitor de 48,21% quer saber o que foi combinado em troca do apoio à reeleição de Lula e à permanência de Motta e Alcolumbre.",
+    "A bancada do PL, com 121 deputados e 29 senadores, é a maior força de oposição e tem legitimidade para disputar as presidências das duas Casas em fevereiro.",
+    "Pauta de governo que passa por acordo de bastidor, como a 6x1 e o perdão aos MEIs, precisa ser debatida às claras no plenário, com custo e impacto para quem emprega.",
+    "A oposição deve cobrar que a independência prometida por Alcolumbre valha também para a fiscalização do governo e dos tribunais, como CPIs e pedidos de impeachment."
+   ],
+   "perguntas": [
+    "A visita ao Alvorada é gesto institucional normal ou já é o primeiro passo da disputa pelas mesas de 2027?",
+    "O PL deve lançar candidatura própria à presidência da Câmara e do Senado, ou negociar espaço?",
+    "Que pautas o Congresso deve aprovar com o governo e quais a oposição deve barrar?"
+   ],
+   "atencao": "Os compromissos de apoio entre Lula, Motta e Alcolumbre vêm de reportagens e de editorial; não há acordo público documentado.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/alcolumbre-e-motta-visitam-lula-apos-reeleicao-e-defendem-dialogo-entre-poderes/"
+    },
+    {
+     "name": "Correio Braziliense",
+     "url": "https://www.correiobraziliense.com.br/politica/2026/10/7528410-reeleito-lula-reune-alcolumbre-e-motta-no-alvorada.html"
+    },
+    {
+     "name": "Gazeta do Povo (editorial)",
+     "url": "https://www.gazetadopovo.com.br/opiniao/editoriais/acordo-lula-alexandre-de-moraes-davi-alcolumbre-hugo-motta/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Lula recebe Motta e Alcolumbre no Alvorada, e os dois defendem harmonia entre os Poderes"
+  },
+  {
+   "id": "tagliaferro-extradicao",
+   "bloco": "STF e instituições",
+   "titulo": "Corte italiana nega a extradição de Tagliaferro por dúvida sobre a imparcialidade de Moraes",
+   "subtitulo": "Tribunal de Catanzaro devolveu os passaportes do ex-assessor, considerou política a acusação e a decisão ainda cabe recurso",
+   "resumo": "A Corte de Apelação de Catanzaro, na Itália, negou o pedido brasileiro de extradição de Eduardo Tagliaferro, ex-assessor de Alexandre de Moraes no TSE. A corte entendeu que o ministro participou da condução da investigação, da análise das provas e das medidas restritivas, embora as revelações atribuídas a Tagliaferro também o atingissem. Para os magistrados italianos, essa sobreposição de funções cria dúvida objetiva sobre a garantia de um julgamento imparcial, e trocar o juiz não resolveria. A decisão é de 29 de abril, foi depositada em 22 de outubro e só veio a público na segunda (26). A corte revogou a proibição de Tagliaferro deixar a Itália e mandou devolver os passaportes, e a Gazeta do Povo ressalta que isso não é absolvição das acusações no Brasil.",
+   "metafora": "É como se o mesmo juiz fosse, ao mesmo tempo, quem apita o jogo, quem marca o pênalti e quem foi atingido pela falta.",
+   "contexto": [
+    "Tagliaferro foi chefe da assessoria do TSE contra a desinformação em 2022; mensagens de gabinete vazadas em 2024 trataram de relatórios paralelos contra críticos.",
+    "Ele é réu no STF por violação de sigilo funcional, coação, obstrução de investigação e tentativa de abolição violenta do Estado de Direito.",
+    "A corte italiana classificou como política a acusação de tentativa de abolição do Estado Democrático de Direito.",
+    "A decisão cita o precedente do caso Zambelli, da Corte de Cassação italiana.",
+    "A corte revogou a proibição de sair da Itália e mandou devolver os passaportes e documentos.",
+    "Moraes nega irregularidades e diz que os procedimentos foram regulares; o advogado Eduardo Kuntz chama Tagliaferro de vítima política e diz que todas as medidas cautelares foram revogadas.",
+    "O pedido de extradição foi feito em agosto de 2025, e a decisão ainda pode ser contestada por recurso."
+   ],
+   "angulo": [
+    "Quando uma corte de um país democrático europeu aponta que o mesmo ministro investiga, julga a prova e decide medidas, é sinal de que o modelo brasileiro precisa de limites.",
+    "O problema não é Tagliaferro: é o acúmulo de papéis em um único ministro do STF, que a própria Itália considerou incompatível com a imparcialidade.",
+    "O Congresso, com maioria da direita, deve discutir regras de relatoria e de impedimento no Supremo."
+   ],
+   "perguntas": [
+    "O que a decisão italiana diz sobre a imagem da Justiça brasileira lá fora?",
+    "Moraes deveria ter se declarado impedido nos casos em que ele próprio foi atingido?",
+    "Que mudança o Congresso pode fazer para separar quem investiga de quem julga?"
+   ],
+   "atencao": "A decisão italiana não absolve Tagliaferro, que responde a ação penal no STF; ele nega irregularidades.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/italia-nega-extradicao-de-tagliaferro-por-duvidas-sobre-imparcialidade-no-brasil/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/tiago-pavinatto/justica-italiana-nega-extradicao-de-tagliaferro-ex-assessor-de-moraes"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/politica/justica-italiana-nega-extradicao-de-ex-assessor-de-moraes/"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://oantagonista.com.br/brasil/justica-italiana-nega-extradicao-de-tagliaferro/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Justiça italiana nega a extradição de Eduardo Tagliaferro, ex-assessor de Alexandre de Moraes",
+   "fundido": [
+    "Justiça italiana nega a extradição de Eduardo Tagliaferro, ex-assessor de Alexandre de Moraes"
+   ]
+  },
+  {
+   "id": "passaporte-flavio",
+   "bloco": "STF e instituições",
+   "titulo": "Moraes manda cancelar os passaportes de Flávio e o proíbe de deixar o país",
+   "subtitulo": "A PF deu 24 horas para Flávio entregar os documentos, inclusive o diplomático, e ele foi proibido de falar com Willer Tomaz",
+   "resumo": "Alexandre de Moraes, relator do inquérito que apura suspeita de lavagem de dinheiro envolvendo Flávio Bolsonaro e o advogado Willer Tomaz, mandou cancelar todos os passaportes do senador, inclusive o diplomático. A decisão foi assinada na noite de domingo (25), um dia depois da derrota de Flávio para Lula, e a PF o intimou na segunda (26) a entregar os documentos em 24 horas. Flávio diz que vai cumprir a ordem, mas afirma que ela se baseou numa fala do irmão Eduardo, de 23 de outubro, e que ele nunca disse que deixaria o país. O pedido partiu de deputados governistas, e a decisão é sigilosa, o que impede o público de conhecer os fundamentos. Para o cidadão, a pergunta é se um senador com quase 60 milhões de votos pode ter a liberdade de ir e vir restringida por causa da fala de outra pessoa.",
+   "contexto": [
+    "Moraes determinou o cancelamento do passaporte comum e do diplomático e a inclusão de Flávio no alerta migratório da PF.",
+    "Flávio também foi proibido de manter contato, direto ou por interposta pessoa, com Willer Tomaz.",
+    "O pedido partiu dos deputados Duda Salabert (Psol-MG), Otoni de Paula (PSD-RJ) e Rogério Correia (PT-MG).",
+    "Em 23 de outubro, Moraes já havia mandado bloquear até R$ 6 bilhões de Tomaz e cancelar os passaportes dele; Flávio e Tomaz negam irregularidades.",
+    "A decisão tramita em sigilo, e o STF disse à imprensa não ter informações sobre ela."
+   ],
+   "angulo": [
+    "Restringir o direito de ir e vir de um senador logo depois da eleição, com base na fala de terceiro, é medida desproporcional e precisa de fundamento público.",
+    "Flávio nunca foi condenado e vai cumprir a ordem: não há fuga nem desobediência a justificar a pressa.",
+    "A decisão sigilosa, pedida por adversários políticos, reforça a pergunta sobre os limites do poder individual de um ministro do STF."
+   ],
+   "perguntas": [
+    "Qual fundamento concreto justifica tirar o passaporte de um senador que diz que vai cumprir toda ordem judicial?",
+    "O pedido feito por deputados do governo, um dia depois da eleição, pesa na leitura da decisão?",
+    "Decisões sigilosas contra o principal líder da oposição cabem a um único ministro?"
+   ],
+   "atencao": "Flávio e Willer Tomaz são investigados e negam irregularidades; ninguém foi condenado e a decisão tramita em sigilo.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/moraes-manda-flavio-entregar-passaporte-e-nao-se-comunicar-com-willer/"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/flavio-diz-que-vai-liderar-oposicao-mas-pedira-cassacao-de-chapa-eleita-do-lula/"
+    }
+   ]
+  },
+  {
+   "id": "meta-fiscal-durigan",
+   "bloco": "Economia",
+   "titulo": "Durigan quer mudar a lei, ou a Constituição, para perseguir o centro da meta fiscal",
+   "subtitulo": "Governo enviará projeto de lei complementar depois de o dólar subir 8,21% e a Bolsa cair 13,88% na segunda",
+   "resumo": "O ministro da Fazenda, Dario Durigan, disse que o governo vai alterar a legislação ou, se preciso, a Constituição para buscar o centro da meta fiscal, com proposta ainda em 2026. Nesta terça (27), ele afirmou que a via será um projeto de lei complementar e que outras medidas estão em avaliação. A regra atual permite cumprir a meta com resultado no piso da tolerância, e a meta de 2027 é superávit de 0,5% do PIB (R$ 70,7 bilhões), com margem de 0,25 ponto percentual. Na segunda, depois da reeleição de Lula, o dólar fechou a R$ 5,40, alta de 8,21%, e a Bolsa caiu 13,88%. Durigan chamou o movimento de reação de posição, não de fundamento econômico, e disse que não vê expectativa fiscal por trás dele.",
+   "contexto": [
+    "Durigan disse que quer o centro da meta de forma formal, por lei complementar, e que a proposta sai ainda em 2026.",
+    "Metas: superávit de 0,25% do PIB em 2026, 0,5% (R$ 70,7 bilhões) em 2027 e 1% (R$ 150,7 bilhões) em 2028.",
+    "A regra atual considera a meta cumprida com resultado dentro da tolerância de 0,25 ponto percentual.",
+    "Dólar a R$ 5,40 (alta de 8,21%) e Bolsa em queda de 13,88% na segunda (26).",
+    "Durigan não apresentou novo percentual nem as medidas que pretende adotar."
+   ],
+   "angulo": [
+    "Quem paga a conta do descontrole fiscal é o cidadão, com juros, inflação e dólar mais caros; a meta não pode ser só promessa no papel.",
+    "Mudar a regra do jogo depois de um tombo de mais de 13% na Bolsa não substitui cortar gasto: o mercado quer corte, e o governo fala em mudar a norma.",
+    "Se o governo quer mesmo o centro da meta, a prova é o corte de despesa e a contenção de benefícios, e a oposição, com maioria no Congresso, deve cobrar isso."
+   ],
+   "perguntas": [
+    "O que o governo vai cortar para mostrar que o centro da meta não é só discurso?",
+    "Por que a mudança precisa de lei ou de emenda constitucional se a meta já existe?",
+    "O que o brasileiro sente primeiro no bolso com o dólar a R$ 5,40?"
+   ],
+   "fontes": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-economia/durigan-quer-mudar-constituicao-para-cumprir-centro-da-meta-fiscal/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/governo-apresentara-proposta-para-perseguir-centro-da-meta-diz-durigan"
+    }
+   ]
+  },
+  {
+   "id": "santos-engenheiro",
+   "bloco": "Segurança pública",
+   "titulo": "Marcelo de Oliveira Rocha morre depois de ser espancado em Santos ao sair de ato pró-Lula",
+   "subtitulo": "A Polícia Civil investiga; a motivação não foi confirmada e ninguém foi preso",
+   "resumo": "Marcelo de Oliveira Rocha, engenheiro ambiental e mestrando da Unifesp, morreu na segunda (26) depois de ser espancado em Santos, no litoral paulista. O ataque ocorreu por volta das 3h de sábado (24), quando ele se afastou de um ato de apoio a Lula e foi encontrado inconsciente por amigos. Ele foi levado à Santa Casa e depois transferido ao Hospital São Paulo, da Unifesp, onde morreu. A Polícia Civil registrou o caso e investiga a motivação e a autoria, sem confirmação de motivo político ou outro, e sem suspeito preso. O pai da vítima afirma que o crime teria sido motivado pelo posicionamento político e pela orientação sexual do filho, o que a polícia ainda não confirmou.",
+   "contexto": [
+    "O ataque foi na madrugada de sábado (24), na região da Avenida Conselheiro Nébias, em Santos.",
+    "Marcelo assistia à Banda Esquerdantina em ato de apoio a Lula e disse aos amigos que iria ao banheiro.",
+    "Foi encontrado inconsciente, com marcas de espancamento, atendido pelo Samu e levado à Santa Casa.",
+    "A Unifesp confirmou a morte e pediu investigação rigorosa; a Polícia Civil investiga, e nenhuma hipótese foi descartada.",
+    "A SSP registrou o caso como roubo com resultado de lesão corporal grave, segundo relatos; a motivação segue sob investigação."
+   ],
+   "angulo": [
+    "Violência política de qualquer lado é inaceitável, e a morte de um jovem exige investigação rápida e identificação dos autores.",
+    "Enquanto a polícia não fecha a motivação, ninguém deve usar o caso para condenar um lado político: a resposta correta é cobrar Estado presente e punição.",
+    "O caso mostra um problema de segurança pública: a violência que mata nas ruas não pode ser naturalizada, seja qual for a motivação."
+   ],
+   "perguntas": [
+    "O que as autoridades precisam fazer para identificar os agressores com rapidez?",
+    "Como tratar o caso sem antecipar uma motivação que a polícia ainda não confirmou?",
+    "O que falta para que atos políticos e eventos públicos tenham mais segurança?"
+   ],
+   "atencao": "A motivação não foi confirmada pela polícia; não atribuir o crime a nenhum grupo político antes da conclusão da investigação.",
+   "fontes": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/estudante-agredido-apos-ato-politico-em-santos-morre-em-hospital/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/distrito-federal/na-mira/engenheiro-e-espancado-e-morto-ao-se-afastar-de-ato-politico-de-lula"
+    }
+   ]
+  }
+ ],
+ "excluidos": [],
+ "atualizado": "2026-10-27T10:44:29-03:00"
 }
