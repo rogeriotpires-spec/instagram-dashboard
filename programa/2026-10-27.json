@@ -2,10 +2,60 @@
   "date": "2026-10-27",
   "generated": "2026-10-27T10:36:06-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Moraes manda cancelar os passaportes de Flávio, o PL reconhece a vitória de Lula, a Itália nega a extradição de Tagliaferro e Durigan quer mudar a meta fiscal",
-  "abertura": "A primeira semana depois da eleição começa com a oposição se reorganizando: o PL reconheceu o resultado, e Flávio Bolsonaro disse que vai liderar a oposição e pedir a cassação da chapa de Lula. No mesmo dia, Alexandre de Moraes mandou cancelar os passaportes de Flávio, e a Justiça italiana negou a extradição de Eduardo Tagliaferro por dúvida sobre a imparcialidade do ministro. Na economia, o dólar subiu 8,21% e a Bolsa caiu 13,88%, e o governo anunciou que quer mudar a lei ou a Constituição para perseguir o centro da meta fiscal. Trump disse que a eleição brasileira pareceu fraudada, sem provas, e um jovem morreu depois de ser espancado em Santos.",
+  "titulo": "Oposição anuncia impeachment de Zanin, Trump diz que a eleição pareceu fraudada, Moraes cancela os passaportes de Flávio e o PL reconhece a vitória de Lula",
+  "abertura": "O dia começa pela votação do segundo turno: a oposição anunciou pedidos de impeachment de Zanin pela prorrogação até as 19h, e Nunes Marques disse que a decisão dificultou a eleição. Trump disse, sem provas, que o processo pareceu fraudado, mas a diferença de 4.430.191 votos e os 35.521 votos registrados depois das 17h respondem à suspeita. No mesmo dia, Alexandre de Moraes mandou cancelar os passaportes de Flávio Bolsonaro, o PL reconheceu o resultado e a Justiça italiana negou a extradição de Eduardo Tagliaferro. Na economia, o dólar subiu 8,21%, a Bolsa caiu 13,88% e o governo quer mudar a meta fiscal.",
   "agenda": [],
   "itens": [
+    {
+      "id": "zanin-prorrogacao",
+      "bloco": "STF e instituições",
+      "titulo": "Oposição anuncia impeachment de Zanin por prorrogar a votação, e Trump diz que a eleição \"pareceu fraudada\"",
+      "subtitulo": "Lula venceu por 4.430.191 votos, e só 35.521 foram registrados depois das 17h; Nunes Marques diz que a prorrogação dificultou a eleição",
+      "resumo": "Van Hattem (Novo-RS) e o senador Jorge Seif (PL-SC) anunciaram pedidos de impeachment de Cristiano Zanin por ter prorrogado a votação do segundo turno até as 19h, em decisão divulgada às 17h03, a pedido da campanha de Lula. O presidente do TSE, Kassio Nunes Marques, disse que a decisão gerou dificuldades ao processo eleitoral e provocou a maior fila de boletins de urna já registrada pelo tribunal. Trump disse, sem apresentar provas, que a eleição \"pareceu fraudada\", e Geraldo Alckmin respondeu que a fala é \"totalmente equivocada\". O fato que responde à suspeita é o número: Lula teve 64.256.232 votos e Flávio Bolsonaro, 59.826.041, uma diferença de 4.430.191, e só 35.521 votos foram registrados depois das 17h, segundo levantamento com dados do TSE. Fraude exige prova, e a pergunta que fica é de competência: quem pode mudar o horário da votação no meio do dia.",
+      "contexto": [
+        "Linha do tempo de domingo (25): 16h22, a coligação de Lula aciona o STF; 16h33, Zanin é sorteado relator; 17h03, a decisão é divulgada para todos os estados; a campanha de Flávio já pedira prorrogação em 19 cidades de SP, PR e SC.",
+        "Zanin esclareceu que a prorrogação valia só onde as urnas não tinham fechado, e o TSE suspendeu por um tempo o recebimento dos boletins.",
+        "Van Hattem diz que Zanin decidiu sem competência e depois das 17h, e lembra que ele foi advogado pessoal de Lula; Rogério Marinho (PL-RN) chamou a decisão de \"intempestiva\".",
+        "Nunes Marques: a decisão \"gerou dificuldades ao processo eleitoral\"; ele também disse que o resultado não foi alterado.",
+        "Resultado final: Lula 51,79% dos votos válidos e Flávio 48,21%; depois das 17h foram 35.521 votos, pelos registros de 497.897 seções, que não indicam em quem cada eleitor votou.",
+        "Trump disse que gosta de Lula e não tomou partido; Amorim respondeu: \"Só se ele está se referindo à Meta\"."
+      ],
+      "angulo": [
+        "Mudar o horário da votação por decisão individual de um ministro, a pedido de uma campanha, é poder que o Congresso tem o direito de questionar.",
+        "A decisão passou por cima do TSE, que organiza a eleição, como mostram as dificuldades que o próprio presidente da Corte apontou.",
+        "A resposta a Trump é o número: 4,4 milhões de diferença e 35.521 votos depois das 17h não mudam resultado, e o programa não endossa a palavra fraude sem prova.",
+        "Responder a Trump atacando a Meta, como fez Amorim, desvia da pergunta sobre o horário."
+      ],
+      "perguntas": [
+        "Um ministro do STF pode prorrogar a votação em todo o país sem ouvir o TSE?",
+        "Com 4,4 milhões de votos de diferença e 35.521 votos depois das 17h, o que sobra da tese de fraude?",
+        "Qual deveria ser o critério para mudar o horário de votação durante a eleição?"
+      ],
+      "atencao": "Os pedidos de impeachment foram anunciados, sem confirmação de protocolo; Zanin não é acusado de crime. Trump não apresentou provas, e o número de votos depois das 17h vem de levantamento com dados do TSE, a conferir no painel oficial.",
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-que-eleicao-no-brasil-pareceu-fraudada-mas-afirma-ter-boa-relacao-com-lula/"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/brasil/oposicao-pede-impeachment-de-cristiano-zanin-apos-votacao-ser-prorrogada/"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/nunes-marques-diz-que-decisao-de-zanin-nao-alterou-resultado-da-eleicao"
+        },
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/mais-de-35-mil-votos-foram-registrados-apos/"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Assunto em alta no X: Trump. Trump disse, sem apresentar provas, que a eleição brasileira \"pareceu fraudada\", mas que gosta de Lula. Alckmin respondeu que a fala é \"totalmente equivocada\". Como usar: Rebater com fato: a diferença de votos é de milhões e o TSE mostrou o número de votos após as 17h. https://x.com/search?q=Trump | Assunto em alta no X: Zanin. A oposição prepara pedidos de impeachment contra o ministro Zanin depois da prorrogação do horário de votação, e Nunes Marques disse que a decisão dificultou a eleição. Como usar: Explicar com fato o que foi decidido na prorrogação e quantos votos houve depois das 17h. https://x.com/search?q=Zanin",
+      "fundido": [
+        "Trump diz que a eleição no Brasil \"pareceu fraudada\", e Alckmin e Amorim reagem"
+      ]
+    },
     {
       "id": "passaporte-flavio",
       "bloco": "STF e instituições",
@@ -115,41 +165,6 @@
       ]
     },
     {
-      "id": "trump-fraudada",
-      "bloco": "Internacional",
-      "titulo": "Trump diz que a eleição no Brasil \"pareceu fraudada\", e Alckmin e Amorim reagem",
-      "subtitulo": "Trump não apresentou provas, criticou a prorrogação da votação e disse que gosta de Lula; Casa Branca ainda não reconheceu o resultado",
-      "resumo": "Na segunda (26), Trump disse que o processo eleitoral brasileiro \"pareceu fraudado\" e que a prorrogação da votação lhe pareceu \"muito estranha\", sem apresentar provas. Ele também disse que não tomou partido, que seu papel é governar os Estados Unidos e que gosta de Lula e se dá bem com ele. Geraldo Alckmin chamou a fala de \"totalmente equivocada\", e Celso Amorim respondeu: \"Só se ele está se referindo à Meta\". O Planalto orientou Lula a não reagir, e a Casa Branca ainda não reconheceu oficialmente a vitória, segundo Amorim. A prorrogação até as 19h foi decisão de Zanin e foi divulgada quando milhares de urnas já estavam fechadas, o que gerou confusão nos tribunais regionais.",
-      "contexto": [
-        "Trump: o processo \"pareceu fraudado\"; \"as eleições precisam ser incontestáveis\"; ele afirmou não ter tomado partido.",
-        "Zanin prorrogou a votação até as 19h a pedido da campanha de Lula; a decisão saiu quando milhares de urnas já tinham fechado, e o TSE suspendeu temporariamente a totalização.",
-        "Zanin esclareceu que a ampliação valia só onde a votação ainda estava em andamento.",
-        "Alckmin disse que a fala é \"totalmente equivocada\"; Amorim ligou a suspeita à Meta, alvo de ação da campanha de Lula no TSE.",
-        "China, França, Espanha, Portugal e Alemanha reconheceram o resultado, assim como Chile, Peru e Colômbia."
-      ],
-      "angulo": [
-        "A prorrogação decidida por um ministro do STF no fim do dia, depois de milhares de urnas fecharem, é uma dúvida legítima de procedimento e merece explicação clara, venha de onde vier.",
-        "Responder a Trump com ataque à Meta é desviar do ponto: a pergunta que ficou é por que a regra do horário mudou no meio da votação.",
-        "Sem provas, a palavra \"fraude\" é grave e deve ser tratada como opinião de Trump; o que cabe ao Brasil é transparência sobre a prorrogação."
-      ],
-      "perguntas": [
-        "Quem decide mudar o horário de votação no último minuto, e com que critério?",
-        "O governo acertou ao orientar Lula a não reagir a Trump?",
-        "O que o Brasil ganha ou perde se a Casa Branca demorar a reconhecer o resultado?"
-      ],
-      "atencao": "Trump não apresentou provas, e o TSE proclamou o resultado; a prorrogação foi decisão de Zanin atendendo pedido da campanha de Lula.",
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/mundo/trump-diz-que-eleicao-no-brasil-pareceu-fraudada-mas-afirma-ter-boa-relacao-com-lula/"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/amorim-rebate-suspeita-de-trump-so-se-ele-esta-se-referindo-a-meta/"
-        }
-      ]
-    },
-    {
       "id": "tagliaferro-extradicao",
       "bloco": "STF e instituições",
       "titulo": "Corte italiana nega a extradição de Tagliaferro por dúvida sobre a imparcialidade de Moraes",
@@ -221,5 +236,6 @@
       ]
     }
   ],
-  "excluidos": []
+  "excluidos": [],
+  "atualizado": "2026-10-27T10:38:29-03:00"
 }
