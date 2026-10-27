@@ -2,8 +2,8 @@
  "date": "2026-10-27",
  "generated": "2026-10-27T10:36:06-03:00",
  "programa": "Conversa Timeline",
- "titulo": "Lula recebe Motta e Alcolumbre no Alvorada, Nikolas pede prudência, Zanin vira alvo de impeachment e a Itália nega extradir Tagliaferro",
- "abertura": "O dia começa com Lula recebendo no Alvorada Hugo Motta e Davi Alcolumbre, que defendem harmonia entre os Poderes enquanto buscam a reeleição nas presidências das Casas, num Congresso em que o PL terá 121 deputados e 29 senadores. Nikolas Ferreira disse que a chance de anular a eleição é praticamente nula e pediu que os apoiadores evitem protestos, e Flávio promete liderar a oposição. A oposição anuncia pedidos de impeachment de Zanin pela prorrogação da votação até as 19h, e Trump disse, sem provas, que a eleição pareceu fraudada. A Justiça italiana negou a extradição de Eduardo Tagliaferro por dúvida sobre a imparcialidade de Alexandre de Moraes, que no mesmo dia mandou cancelar os passaportes de Flávio, e o governo quer mudar a meta fiscal.",
+ "titulo": "Itália decide extradição de Zambelli e nega a de Tagliaferro, Lula recebe Motta e Alcolumbre e oposição mira Zanin",
+ "abertura": "O dia começa com a Justiça italiana decidindo se extradita Carla Zambelli, um dia depois de a Itália negar a extradição de Eduardo Tagliaferro por dúvida sobre a imparcialidade de Alexandre de Moraes. Lula recebe Hugo Motta e Davi Alcolumbre no Alvorada, que defendem harmonia entre os Poderes enquanto buscam a reeleição nas Casas. Nikolas Ferreira pede prudência e sem protestos, Flávio promete liderar a oposição, e a oposição anuncia pedidos de impeachment de Zanin pela prorrogação da votação. Moraes manda cancelar os passaportes de Flávio, e o governo quer mudar a meta fiscal.",
  "agenda": [],
  "itens": [
   {
@@ -205,6 +205,47 @@
    ]
   },
   {
+   "id": "zambelli-extradicao",
+   "bloco": "STF e instituições",
+   "titulo": "Justiça italiana decide hoje se extradita Carla Zambelli ao Brasil",
+   "subtitulo": "Corte analisa as garantias de assistência médica na Colmeia, e a defesa promete revisões criminais e pedidos à Interpol se a extradição for negada",
+   "resumo": "A Justiça italiana decide nesta terça (27) se extradita a ex-deputada Carla Zambelli, condenada pelo STF a cinco anos e três meses de prisão pelo episódio da perseguição armada em São Paulo, em 2022. A sessão chegou a constar para quinta (29), e a defesa diz que houve erro de comunicação sobre a data. Em julho, a Corte de Cassação anulou a decisão que autorizava a extradição e mandou refazer o julgamento, e Zambelli está em liberdade desde maio. A corte italiana não reexamina o mérito da condenação: confere se o pedido cumpre a lei italiana e os tratados, e quer garantias de assistência médica na Penitenciária Feminina do Distrito Federal, a Colmeia. As autoridades brasileiras enviaram as informações pedidas, e a defesa afirma que as condenações são fruto de perseguição política.",
+   "contexto": [
+    "Zambelli deixou o Brasil e está na Itália; teve o mandato cassado após a condenação do STF.",
+    "Em maio, a Justiça italiana anulou decisões anteriores favoráveis à extradição, e ela voltou à liberdade.",
+    "Em julho, a Corte de Cassação anulou a decisão que autorizava a extradição e determinou novo julgamento.",
+    "A corte quer garantias de assistência médica na Colmeia; a defesa cita fibromialgia e episódios de desmaio.",
+    "O advogado Eduardo Maurício prepara duas revisões criminais e dois pedidos de exclusão de Zambelli da Interpol."
+   ],
+   "angulo": [
+    "A Itália já negou a extradição de Tagliaferro por dúvida sobre a imparcialidade de Moraes; o caso Zambelli é o precedente que o próprio tribunal italiano citou.",
+    "A defesa sustenta que as condenações são abusivas e decorrem de perseguição política e parcialidade, e o programa deve cobrar que o Brasil responda a essas dúvidas com transparência.",
+    "Garantia de saúde e de direitos humanos na prisão é o ponto que a Itália examina, e o Brasil precisa mostrar que cumpre o que promete."
+   ],
+   "perguntas": [
+    "Se a Itália negar a extradição, o que muda para a imagem da Justiça brasileira no exterior?",
+    "A exigência de garantias sobre a Colmeia mostra que a Europa olha de perto o sistema prisional e o STF?",
+    "As revisões criminais e os pedidos à Interpol têm chance de prosperar?"
+   ],
+   "atencao": "A condenação é do STF e a defesa nega as acusações; as alegações de perseguição são da defesa e não foram comprovadas. Confirmar o resultado da sessão de hoje antes de ir ao ar.",
+   "fontes": [
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/justica-italiana-decide-extradicao-de-carla-zambelli/"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-justica/tribunal-italiano-encerra-audiencia-sobre-extradicao-de-zambelli/"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://www.acessa.com/noticias/2026/07/amp/332973-corte-da-italia-manda-refazer-julgamento-sobre-extradicao-de-zambelli.html"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "https://revistaoeste.com/politica/justica-italiana-decide-extradicao-de-carla-zambelli/"
+  },
+  {
    "id": "passaporte-flavio",
    "bloco": "STF e instituições",
    "titulo": "Moraes manda cancelar os passaportes de Flávio e o proíbe de deixar o país",
@@ -314,5 +355,5 @@
   }
  ],
  "excluidos": [],
- "atualizado": "2026-10-27T10:44:29-03:00"
+ "atualizado": "2026-10-27T10:48:21-03:00"
 }
