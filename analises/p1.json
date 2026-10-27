@@ -1,65 +1,110 @@
 {
-  "generated": "2026-10-26T06:19:06-03:00",
+  "generated": "2026-10-27T06:16:00-03:00",
   "dias": 1,
-  "period": {"start": "2026-10-20", "end": "2026-10-20"},
+  "period": {
+    "start": "2026-10-26",
+    "end": "2026-10-26"
+  },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Em 20/10 a conta recebeu 320.992 views (−36% contra a média dos 7 dias anteriores) e só 2 posts foram publicados; o Reel das 20h47 somou 48.229 views e 1.836 compartilhamentos.",
+  "headline": "Em 26/10 a conta recebeu 2.325.316 views (+134% contra a média da semana anterior) com 2 Reels de política que somaram 1.515.033 views; os compartilhamentos da conta no dia foram 27.547 (+73%).",
   "kpis": [
-    {"label": "Views recebidas pela conta", "value": "321 mil", "delta": "−36%", "dir": "down"},
-    {"label": "Novos seguidores", "value": "219", "delta": "−55%", "dir": "down"},
-    {"label": "Deixaram de seguir", "value": "26", "delta": "+20,5%", "dir": "down"},
-    {"label": "Compartilhamentos recebidos", "value": "3.866", "delta": "−55%", "dir": "down"},
-    {"label": "Comentários recebidos", "value": "365", "delta": "−60,5%", "dir": "down"},
-    {"label": "Alcance médio por dia", "value": "102 mil", "delta": "−52%", "dir": "down"}
+    {
+      "label": "Views recebidas pela conta",
+      "value": "2,3 mi",
+      "delta": "+134%",
+      "dir": "up"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "27.547",
+      "delta": "+73%",
+      "dir": "up"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "1.065",
+      "delta": "−52%",
+      "dir": "down"
+    },
+    {
+      "label": "Alcance médio por dia",
+      "value": "867 mil",
+      "delta": "+385%",
+      "dir": "up"
+    }
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O Reel “Faltam seis dias.” (20h47) teve 48.229 views, alcance de 30.891, 1.836 compartilhamentos e 349 salvamentos, mesmo com apenas 8,1 horas de vida e ainda acumulando. Foi o post que concentrou o dia: a imagem da manhã teve 5.460 views. O horário das 20h teve mediana de 48.229 views contra 5.460 às 7h, com um post em cada.",
+      "diagnosis": "Os dois Reels do dia lideraram: “Fiz a conta do primeiro para o segundo turno e ela não…” (publicado à 0h) teve 950.790 views e 19.441 compartilhamentos, e “Meio milhão de seções.” (5h23) teve 564.243 views e 10.969 compartilhamentos. Ambos são de política e tiveram menos de 30 horas de vida na coleta, então os números ainda podem crescer.",
       "actions": [
-        "Repita o Reel de contagem regressiva ou de fato do dia no começo da noite.",
-        "Peça para compartilhar no final do vídeo: o post teve 1.836 compartilhamentos.",
-        "Olhe de novo o resultado dele em 48 horas, porque ainda estava acumulando."
+        "Mantenha um Reel de política com conta ou número concreto no título, como nos dois posts do dia.",
+        "Repita a publicação de madrugada e de manhã cedo, horários dos dois Reels do dia (0h e 5h23).",
+        "Acompanhe os dois Reels amanhã para ver até onde as views sobem."
       ],
-      "posts": ["DevC0V9s5Cp"]
+      "posts": [
+        "De8Q_S9MAJt",
+        "De8104Zt6iS"
+      ]
     },
     {
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Com só 2 posts, o dia ficou abaixo da semana anterior: 219 novos seguidores contra 350 de média, 3.866 compartilhamentos contra 5.977 e alcance médio de 101.958 contra 193.852. A imagem “Se Lula é tão bom quanto dizem, cadê os filhos dele…” (7h59) teve 5.460 views e nenhum seguidor atribuído. Deixaram de seguir 26 pessoas, contra 17 de média.",
+      "diagnosis": "O dia teve só 2 publicações, os dois Reels, e nenhuma imagem ou carrossel. Os comentários caíram para 1.065 (−52% contra a média da semana anterior) mesmo com mais views. Não há post fraco para apontar: a lista de piores está vazia.",
       "actions": [
-        "Publique pelo menos um post a mais entre 18h e 21h, quando a conta costuma render mais.",
-        "Use a imagem da manhã só quando tiver uma opinião mais forte que a deste dia.",
-        "Acompanhe as saídas de seguidores nos próximos dias para ver se os 26 foram um caso isolado."
+        "Inclua uma pergunta direta no Reel para estimular resposta, já que os comentários ficaram abaixo da semana anterior.",
+        "Teste uma imagem de opinião no dia seguinte para variar o formato.",
+        "Fixe um comentário com pergunta nos Reels maiores."
       ],
-      "posts": ["DetrJ4PxqWH"]
+      "posts": [
+        "De8Q_S9MAJt",
+        "De8104Zt6iS"
+      ]
     },
     {
-      "title": "Comentários",
+      "title": "Retenção dos Reels",
+      "status": "good",
+      "status_label": "Manter",
+      "diagnosis": "“Fiz a conta…” teve 128,3 segundos, 35% de pulo e foi assistido em média por 30 segundos. “Meio milhão de seções.” teve 69,7 segundos, 31% de pulo e 23 segundos assistidos. O Reel mais curto teve o pulo menor e rendeu 564.243 views em 23,9 horas.",
+      "actions": [
+        "Mantenha Reels de 70 segundos quando o assunto for direto.",
+        "Reserve os Reels de mais de 2 minutos para temas com conta e explicação.",
+        "Compare o pulo dos próximos Reels com esses 31% e 35%."
+      ],
+      "posts": [
+        "De8Q_S9MAJt",
+        "De8104Zt6iS"
+      ]
+    },
+    {
+      "title": "Comentários e seguidores",
       "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "Os comentários somaram 365, contra 496 de média da semana anterior. A imagem da manhã teve 27 comentários e o Reel teve só 9, mesmo com 48.229 views. O Reel foi compartilhado e salvo (1.836 e 349), mas conversou pouco.",
+      "diagnosis": "Os comentários somaram 1.065 e o post “Meio milhão de seções.” teve o maior número, 276, seguido de “Fiz a conta…” com 193. A conta não tem dado de novos seguidores nem de quem deixou de seguir para o dia, então não dá para dizer quanto cada Reel trouxe. Os salvamentos foram 6.825 (+155%).",
       "actions": [
-        "Termine o Reel com uma pergunta simples que dê vontade de responder.",
-        "Responda os primeiros comentários do Reel na primeira hora.",
-        "Use a imagem com pergunta no título, que já rendeu 27 comentários neste dia."
+        "Confira o dado de seguidores de 26/10 quando ele for atualizado.",
+        "Chame para comentar no fim dos Reels com uma pergunta de uma frase.",
+        "Responda os comentários na primeira hora dos próximos posts."
       ],
-      "posts": ["DetrJ4PxqWH", "DevC0V9s5Cp"]
-    },
-    {
-      "title": "Retenção do Reel",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "O Reel “Faltam seis dias.” tem 196,1 segundos e foi assistido em média por 40 segundos, com 41% de pulo no começo. Mesmo longo, rendeu 48.229 views, mas a maior parte do vídeo não é vista.",
-      "actions": [
-        "Corte a versão seguinte para até 60 segundos, com a frase mais forte logo no início.",
-        "Se o assunto for longo, divida em duas partes.",
-        "Teste uma abertura sem introdução para reduzir o pulo de 41%."
-      ],
-      "posts": ["DevC0V9s5Cp"]
+      "posts": [
+        "De8104Zt6iS",
+        "De8Q_S9MAJt"
+      ]
     }
   ]
 }

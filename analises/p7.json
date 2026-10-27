@@ -1,65 +1,113 @@
 {
-  "generated": "2026-10-26T06:19:06-03:00",
+  "generated": "2026-10-27T06:16:00-03:00",
   "dias": 7,
-  "period": {"start": "2026-10-14", "end": "2026-10-20"},
-  "compare": "2026-10-07 a 2026-10-13",
-  "headline": "A conta recebeu 3.495.313 views (+6%) e 3.187 novos seguidores (+16%) em 7 dias, com comentários em alta (+72%) e compartilhamentos em queda (−28%); os 8 Reels tiveram mediana de 41.249 views contra 9.267 das 7 imagens.",
+  "period": {
+    "start": "2026-10-20",
+    "end": "2026-10-26"
+  },
+  "compare": "2026-10-13 a 2026-10-19",
+  "headline": "A conta recebeu 8.888.579 views (+153%) e 7.330 novos seguidores (+114%) em 7 dias, com 20 publicações; os 17 Reels tiveram mediana de 28.166 views, contra 8.548 das 3 imagens.",
   "kpis": [
-    {"label": "Views recebidas pela conta", "value": "3,5 mi", "delta": "+6%", "dir": "up"},
-    {"label": "Novos seguidores", "value": "3.187", "delta": "+16%", "dir": "up"},
-    {"label": "Deixaram de seguir", "value": "150", "delta": "−7%", "dir": "up"},
-    {"label": "Compartilhamentos recebidos", "value": "51.527", "delta": "−28%", "dir": "down"},
-    {"label": "Comentários recebidos", "value": "6.442", "delta": "+72%", "dir": "up"},
-    {"label": "Contas com interação por dia", "value": "37 mil", "delta": "+32%", "dir": "up"}
+    {
+      "label": "Views recebidas pela conta",
+      "value": "8,9 mi",
+      "delta": "+153%",
+      "dir": "up"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "7.330",
+      "delta": "+114%",
+      "dir": "up"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "347",
+      "delta": "+130%",
+      "dir": "down"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "133 mil",
+      "delta": "+122%",
+      "dir": "up"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "16.028",
+      "delta": "+148%",
+      "dir": "up"
+    },
+    {
+      "label": "Salvamentos recebidos",
+      "value": "24.963",
+      "delta": "+261%",
+      "dir": "up"
+    }
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os Reels de política puxaram a semana: “Hispanic Heritage Gala 2026” (14/10, 21h36) teve 326.280 views e 2.996 compartilhamentos, e “Complete a frase abaixo” (16/10, 18h29) teve 212.225 views e 85 comentários. A imagem “Você conhece alguém que prometeu acabar com SIGILOS?” (15/10, 21h) teve 96.108 views e 26 seguidores. O horário das 21h teve mediana de 211.194 views, mas com poucos posts.",
+      "diagnosis": "Os Reels de política levaram a semana: “Fiz a conta do primeiro para o segundo turno e ela não…” (26/10, 0h) teve 950.790 views, “Meio milhão de seções.” (26/10, 5h23) teve 564.243 e “Faltam 4 dias!” (21/10, 8h39) teve 405.013 views e 13.074 compartilhamentos. Os 17 Reels tiveram mediana de 28.166 views. Por horário, 5h (288 mil) e 8h (203 mil) tiveram as maiores medianas depois da 0h, com poucos posts em cada.",
       "actions": [
-        "Mantenha ao menos um Reel por dia entre 18h e 21h30.",
-        "Use a imagem de opinião com pergunta no título às 21h.",
-        "Repita o formato de Reel curto (de 40,8 a 51,6 segundos), que foi o das duas maiores audiências."
+        "Mantenha Reels de política com contagem ou conta no título, como “Faltam 4 dias!”.",
+        "Publique mais de um Reel entre 5h e 8h30.",
+        "Repita o Reel longo com conta, como o de 128,3 segundos que teve 35% de pulo."
       ],
-      "posts": ["DefrVOZMUGw", "DekfWuXNS39", "Deh_rUstC5a"]
+      "posts": [
+        "De8Q_S9MAJt",
+        "De8104Zt6iS",
+        "DewUVynNr9y"
+      ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Três posts ficaram bem abaixo do resto: o Reel “O PROFESSOR É UMA AMEAÇA!” (796 views, 41% de pulo), a imagem sobre a Globo (1.779 views) e a imagem “Se Lula é tão bom quanto dizem, cadê os filhos dele…” (5.460 views, com só 20,9 horas de vida). A mediana das imagens foi 9.267 views, contra 41.249 dos Reels. Posts novos ainda acumulam views, então a comparação com os mais antigos favorece estes.",
+      "diagnosis": "O Reel “Se liga!!!” (25/10, 8h22) teve 541 views, 64% de pulo e 10 segundos assistidos. As imagens ficaram abaixo do resto: “Parabéns para você que paga essa conta!!!” teve 4.822 views e “A população perdeu a confiança!” teve 8.548. As 3 imagens somaram 23.331 views e nenhum seguidor. O horário das 7h teve mediana de 7.391,5 views.",
       "actions": [
-        "Evite repassar notícia sem opinião, como a da Globo (1.779 views).",
-        "Revise o título e o primeiro segundo do Reel antes de publicar, para evitar casos como os 796 views.",
-        "Reserve as imagens de manhã para as opiniões mais fortes, porque as outras ficaram perto de 5 mil views."
+        "Revise o título e os primeiros segundos do Reel antes de publicar, para evitar casos como os 541 views.",
+        "Reduza as imagens de opinião sem fato novo.",
+        "Teste outro horário no lugar das 7h."
       ],
-      "posts": ["Deh8WzvtR28", "DejZbguNSy6", "DetrJ4PxqWH"]
+      "posts": [
+        "De6lr9Ft3I5",
+        "De0uEUTtsi_",
+        "DexHJIUNV84"
+      ]
     },
     {
-      "title": "Comentários",
+      "title": "Comentários e compartilhamentos",
       "status": "good",
       "status_label": "Manter",
-      "diagnosis": "Os comentários subiram de 3.750 para 6.442 (+72%). O Reel “Hispanic Heritage Gala” das 18h49 teve 216 comentários com 94.233 views, e “Complete a frase” teve 85. As contas com interação por dia chegaram a 37.006, contra 28.081 na semana anterior.",
+      "diagnosis": "Os comentários foram de 6.467 para 16.028 (+148%) e os compartilhamentos de 59.964 para 132.999 (+122%). Os posts com mais comentários foram “Meio milhão de seções.” (276), “Fiz a conta…” (193) e “Que dor em fazer esse vídeo!” (173, com 9.193 compartilhamentos).",
       "actions": [
-        "Faça chamadas de resposta direta no Reel, como o “Complete a frase”.",
-        "Responda os comentários na primeira hora dos posts das 18h e das 21h.",
-        "Teste uma pergunta curta na legenda das imagens, que tiveram até 27 comentários."
+        "Faça chamadas de resposta direta nos Reels de política.",
+        "Responda os comentários nas primeiras horas dos Reels de maior audiência.",
+        "Repita o tom de desabafo de “Que dor em fazer esse vídeo!”."
       ],
-      "posts": ["DefYvipjdwR", "DekfWuXNS39", "DefrVOZMUGw"]
+      "posts": [
+        "De8104Zt6iS",
+        "De8Q_S9MAJt",
+        "De5B0swtZqZ"
+      ]
     },
     {
-      "title": "Seguidores e compartilhamentos",
+      "title": "Seguidores",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Entraram 3.187 seguidores (+16%) e saíram 150 (−7%). A imagem sobre o túmulo do professor Olavo de Carvalho (17/10, 10h48) foi a que mais trouxe seguidores: 99, com 49.670 views. Já os compartilhamentos caíram de 71.108 para 51.527 (−28%) e os salvamentos de 7.385 para 6.536.",
+      "diagnosis": "Entraram 7.330 seguidores (+114%) e saíram 347 (+130%), então as saídas cresceram um pouco mais que as entradas. A conta tem 6 dias de dado de seguidores na semana, e os Reels não têm seguidores atribuídos por post. As 3 imagens somaram 0 seguidores.",
       "actions": [
-        "Publique mais imagens em tom pessoal, como a do sábado de manhã.",
-        "Inclua um motivo para compartilhar no fim do Reel, como “mande para quem precisa ver”.",
-        "Acompanhe a queda de compartilhamentos na próxima semana antes de mudar o formato."
+        "Acompanhe as saídas de seguidores na próxima semana.",
+        "Publique uma imagem de opinião forte por semana, que é o formato com seguidores atribuídos.",
+        "Inclua um convite para seguir no fim dos Reels maiores."
       ],
-      "posts": ["DemP7GNt_P7", "Deh_rUstC5a"]
+      "posts": [
+        "De8Q_S9MAJt",
+        "De8104Zt6iS"
+      ]
     }
   ]
 }
