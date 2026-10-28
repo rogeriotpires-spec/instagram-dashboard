@@ -1,6 +1,29 @@
 {
   "alerts": [
     {
+      "time": "2026-10-28T10:05:00-03:00",
+      "title": "Flávio Bolsonaro deixa o Brasil e vai aos EUA com a família depois de Moraes mandar reter o passaporte",
+      "fact": "A Migração argentina informou que Flávio Bolsonaro, a mulher e as duas filhas cruzaram a fronteira em Misiones às 22h50 de terça (27/10) e embarcaram às 23h30 num voo privado para Guayaquil, no Equador, com documentação válida. Aliados da família afirmam que ele seguiu para Miami, e a imprensa americana diz que os EUA vão conceder vistos; Paulo Figueiredo, aliado, diz que haverá coletiva em Miami na quinta (29). Moraes havia determinado a retenção dos passaportes de Flávio, e a PF os cancelou depois que não foram entregues; o senador tem cidadania italiana, documento que a PF não pode cancelar.",
+      "sources": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/flavio-cruzou-a-fronteira-e-pegou-aviao-para-o-equador-diz-migracao-argentina/"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/mundo/argentina-flavio-passagem-equador-eua/"
+        }
+      ],
+      "suggestion": "Reel de reação hoje, entre 12h e 14h, e story com a pergunta ao público no começo da noite.",
+      "hook": "Flávio saiu do Brasil, e agora o que importa é o motivo.",
+      "script": "Flávio Bolsonaro deixou o Brasil com a família. A Migração argentina confirma que eles passaram pela fronteira na noite de terça e seguiram de avião para o Equador. Aliados dizem que o destino é Miami, e que haverá coletiva na quinta. Isso depois de Moraes mandar reter o passaporte dele logo após a eleição. Os aliados falam em perseguição política. Ele ainda tem cidadania italiana, que a PF não pode cancelar. O STF fez de um senador um perseguido? Me diz nos comentários.",
+      "image_prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). Cena: Flávio Bolsonaro, senador, de perfil, expressão séria e firme, ao lado de silhuetas da família, olhando para um aeroporto ao fundo, com um avião no céu ao entardecer, fundo escuro com textura. No alto, em letras condensadas, brancas e pesadas: \"FLÁVIO DEIXOU O BRASIL\". Num quadro amarelo no centro: \"PASSAPORTE RETIDO POR ORDEM DE MORAES\". Embaixo, com sublinhado vermelho pincelado: \"Perseguição ou fuga?\". Selo \"Imagem ilustrativa\" no canto inferior esquerdo. No rodapé, à direita, em letras pequenas e discretas: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+      "timeline": {
+        "rende": "Alto: assunto dominante do dia, com repercussão nacional e internacional e público cobrando posição.",
+        "angle": "Flávio deixou o Brasil depois de a ordem de Moraes reter o passaporte, e os aliados falam em perseguição política enquanto a coletiva em Miami fica marcada para quinta."
+      }
+    },
+    {
       "time": "2026-10-26T12:58:00-03:00",
       "title": "Bolsa aciona circuit breaker e dólar dispara 12% a R$ 5,60 após reeleição de Lula",
       "fact": "Na primeira sessão depois da vitória de Lula no segundo turno, a B3 acionou o circuit breaker na abertura desta segunda (26/10), o primeiro desde março de 2020. O dólar, que fechou a sexta (23) em R$ 4,99, chegou a R$ 5,60, alta de cerca de 12%. Ao retomar os negócios, o Ibovespa caía cerca de 16%, as ações da Petrobras recuavam mais de 10% e as do Banco do Brasil, mais de 30%.",
