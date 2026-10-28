@@ -1,113 +1,114 @@
 {
-  "generated": "2026-10-27T06:16:00-03:00",
-  "dias": 7,
-  "period": {
-    "start": "2026-10-20",
-    "end": "2026-10-26"
+ "generated": "2026-10-28T06:22:02-03:00",
+ "dias": 7,
+ "period": {
+  "start": "2026-10-21",
+  "end": "2026-10-27"
+ },
+ "compare": "2026-10-14 a 2026-10-20",
+ "headline": "Em 7 dias a conta somou 9.370.362 views (+168%) e 16.644 novos seguidores (+422%), com 20 posts; dois Reels políticos de 26/10 passaram de 670 mil views cada.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "9,4 mi",
+   "delta": "+168%",
+   "dir": "up"
   },
-  "compare": "2026-10-13 a 2026-10-19",
-  "headline": "A conta recebeu 8.888.579 views (+153%) e 7.330 novos seguidores (+114%) em 7 dias, com 20 publicações; os 17 Reels tiveram mediana de 28.166 views, contra 8.548 das 3 imagens.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "8,9 mi",
-      "delta": "+153%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "7.330",
-      "delta": "+114%",
-      "dir": "up"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "347",
-      "delta": "+130%",
-      "dir": "down"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "133 mil",
-      "delta": "+122%",
-      "dir": "up"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "16.028",
-      "delta": "+148%",
-      "dir": "up"
-    },
-    {
-      "label": "Salvamentos recebidos",
-      "value": "24.963",
-      "delta": "+261%",
-      "dir": "up"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Os Reels de política levaram a semana: “Fiz a conta do primeiro para o segundo turno e ela não…” (26/10, 0h) teve 950.790 views, “Meio milhão de seções.” (26/10, 5h23) teve 564.243 e “Faltam 4 dias!” (21/10, 8h39) teve 405.013 views e 13.074 compartilhamentos. Os 17 Reels tiveram mediana de 28.166 views. Por horário, 5h (288 mil) e 8h (203 mil) tiveram as maiores medianas depois da 0h, com poucos posts em cada.",
-      "actions": [
-        "Mantenha Reels de política com contagem ou conta no título, como “Faltam 4 dias!”.",
-        "Publique mais de um Reel entre 5h e 8h30.",
-        "Repita o Reel longo com conta, como o de 128,3 segundos que teve 35% de pulo."
-      ],
-      "posts": [
-        "De8Q_S9MAJt",
-        "De8104Zt6iS",
-        "DewUVynNr9y"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "O Reel “Se liga!!!” (25/10, 8h22) teve 541 views, 64% de pulo e 10 segundos assistidos. As imagens ficaram abaixo do resto: “Parabéns para você que paga essa conta!!!” teve 4.822 views e “A população perdeu a confiança!” teve 8.548. As 3 imagens somaram 23.331 views e nenhum seguidor. O horário das 7h teve mediana de 7.391,5 views.",
-      "actions": [
-        "Revise o título e os primeiros segundos do Reel antes de publicar, para evitar casos como os 541 views.",
-        "Reduza as imagens de opinião sem fato novo.",
-        "Teste outro horário no lugar das 7h."
-      ],
-      "posts": [
-        "De6lr9Ft3I5",
-        "De0uEUTtsi_",
-        "DexHJIUNV84"
-      ]
-    },
-    {
-      "title": "Comentários e compartilhamentos",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "Os comentários foram de 6.467 para 16.028 (+148%) e os compartilhamentos de 59.964 para 132.999 (+122%). Os posts com mais comentários foram “Meio milhão de seções.” (276), “Fiz a conta…” (193) e “Que dor em fazer esse vídeo!” (173, com 9.193 compartilhamentos).",
-      "actions": [
-        "Faça chamadas de resposta direta nos Reels de política.",
-        "Responda os comentários nas primeiras horas dos Reels de maior audiência.",
-        "Repita o tom de desabafo de “Que dor em fazer esse vídeo!”."
-      ],
-      "posts": [
-        "De8104Zt6iS",
-        "De8Q_S9MAJt",
-        "De5B0swtZqZ"
-      ]
-    },
-    {
-      "title": "Seguidores",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Entraram 7.330 seguidores (+114%) e saíram 347 (+130%), então as saídas cresceram um pouco mais que as entradas. A conta tem 6 dias de dado de seguidores na semana, e os Reels não têm seguidores atribuídos por post. As 3 imagens somaram 0 seguidores.",
-      "actions": [
-        "Acompanhe as saídas de seguidores na próxima semana.",
-        "Publique uma imagem de opinião forte por semana, que é o formato com seguidores atribuídos.",
-        "Inclua um convite para seguir no fim dos Reels maiores."
-      ],
-      "posts": [
-        "De8Q_S9MAJt",
-        "De8104Zt6iS"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "16.644",
+   "delta": "+422%",
+   "dir": "up"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "548",
+   "delta": "+265%",
+   "dir": "down"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "137 mil",
+   "delta": "+165%",
+   "dir": "up"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "16.080",
+   "delta": "+150%",
+   "dir": "up"
+  },
+  {
+   "label": "Salvamentos recebidos",
+   "value": "26.352",
+   "delta": "+303%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os 3 melhores posts foram Reels de política: \"Fiz a conta do primeiro para o segundo turno e ela não…\" (968.226 views, 19.544 compartilhamentos), \"Meio milhão de seções.\" (671.074 views, 12.733 compartilhamentos, 342 comentários) e \"Faltam 4 dias!\" (406.420 views, 13.074 compartilhamentos). Os 17 Reels tiveram mediana de 28.984 views.",
+   "actions": [
+    "Repita Reels que explicam um fato do momento com número, como a conta do segundo turno.",
+    "Mantenha títulos curtos e diretos, como \"Meio milhão de seções.\".",
+    "Publique mais de um Reel por dia enquanto o assunto estiver quente."
+   ],
+   "posts": [
+    "De8Q_S9MAJt",
+    "De8104Zt6iS",
+    "DewUVynNr9y"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "O Reel \"Se liga!!!\" (25/10, 8h22) teve só 629 views e 65% de pulo. As imagens \"Parabéns para você que paga essa conta!!!\" (5.760 views) e \"A população perdeu a confiança!\" (9.598 views) também ficaram abaixo do resto. As 3 imagens da semana tiveram mediana de 9.598 views, contra 28.984 dos Reels.",
+   "actions": [
+    "Evite título de alerta genérico, como \"Se liga!!!\", sem dizer o assunto.",
+    "Reserve a imagem de opinião para temas fortes do dia.",
+    "Revise o texto das imagens de manhã antes de publicar."
+   ],
+   "posts": [
+    "De6lr9Ft3I5",
+    "De0uEUTtsi_",
+    "DexHJIUNV84"
+   ]
+  },
+  {
+   "title": "Retenção dos Reels",
+   "status": "warn",
+   "status_label": "Atenção",
+   "diagnosis": "Os 3 melhores Reels foram assistidos em média até 29%, 23% e 30%, com pulo de 35%, 33% e 49%. Já o pior da semana foi assistido até 9% e teve 65% de pulo. Os dois maiores têm 128,3 e 69,7 segundos, então a duração sozinha não explica a diferença. Posts de 26/10 ainda acumulam views, então compare com cuidado.",
+   "actions": [
+    "Nos primeiros segundos, entregue o dado ou a pergunta principal.",
+    "Teste dividir os Reels de mais de 2 minutos em partes.",
+    "Acompanhe o pulo: os 3 melhores ficaram entre 33% e 49%."
+   ],
+   "posts": [
+    "De8Q_S9MAJt",
+    "De8104Zt6iS",
+    "De6lr9Ft3I5"
+   ]
+  },
+  {
+   "title": "Seguidores e comentários",
+   "status": "good",
+   "status_label": "Manter",
+   "diagnosis": "A conta teve 16.644 novos seguidores em 6 dias com dado e 548 saídas, que subiram 265%. A imagem \"Flávio Livre.\" (27/10) teve 96 seguidores atribuídos. Em comentários, \"Meio milhão de seções.\" teve 342, \"Fiz a conta…\" teve 205 e \"Que dor em fazer esse vídeo!\" teve 173.",
+   "actions": [
+    "Responda os comentários dos posts de política na primeira hora.",
+    "Acompanhe as saídas: com mais seguidores novos, elas também crescem.",
+    "Use a imagem de opinião no fim da noite, como \"Flávio Livre.\"."
+   ],
+   "posts": [
+    "DfBOEyBsDWf",
+    "De8104Zt6iS",
+    "De5B0swtZqZ"
+   ]
+  }
+ ]
 }

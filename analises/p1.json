@@ -1,110 +1,109 @@
 {
-  "generated": "2026-10-27T06:16:00-03:00",
-  "dias": 1,
-  "period": {
-    "start": "2026-10-26",
-    "end": "2026-10-26"
+ "generated": "2026-10-28T06:22:02-03:00",
+ "dias": 1,
+ "period": {
+  "start": "2026-10-27",
+  "end": "2026-10-27"
+ },
+ "compare": "média dos 7 dias anteriores",
+ "headline": "Em 27/10 você publicou 2 posts, ambos à noite, e a conta teve 802.486 views, 37% abaixo da média diária da semana anterior; a imagem \"Flávio Livre.\" fez 175.810 views e 96 novos seguidores.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "802 mil",
+   "delta": "−37%",
+   "dir": "down"
   },
-  "compare": "média dos 7 dias anteriores",
-  "headline": "Em 26/10 a conta recebeu 2.325.316 views (+134% contra a média da semana anterior) com 2 Reels de política que somaram 1.515.033 views; os compartilhamentos da conta no dia foram 27.547 (+73%).",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "2,3 mi",
-      "delta": "+134%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "27.547",
-      "delta": "+73%",
-      "dir": "up"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "1.065",
-      "delta": "−52%",
-      "dir": "down"
-    },
-    {
-      "label": "Alcance médio por dia",
-      "value": "867 mil",
-      "delta": "+385%",
-      "dir": "up"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Os dois Reels do dia lideraram: “Fiz a conta do primeiro para o segundo turno e ela não…” (publicado à 0h) teve 950.790 views e 19.441 compartilhamentos, e “Meio milhão de seções.” (5h23) teve 564.243 views e 10.969 compartilhamentos. Ambos são de política e tiveram menos de 30 horas de vida na coleta, então os números ainda podem crescer.",
-      "actions": [
-        "Mantenha um Reel de política com conta ou número concreto no título, como nos dois posts do dia.",
-        "Repita a publicação de madrugada e de manhã cedo, horários dos dois Reels do dia (0h e 5h23).",
-        "Acompanhe os dois Reels amanhã para ver até onde as views sobem."
-      ],
-      "posts": [
-        "De8Q_S9MAJt",
-        "De8104Zt6iS"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "O dia teve só 2 publicações, os dois Reels, e nenhuma imagem ou carrossel. Os comentários caíram para 1.065 (−52% contra a média da semana anterior) mesmo com mais views. Não há post fraco para apontar: a lista de piores está vazia.",
-      "actions": [
-        "Inclua uma pergunta direta no Reel para estimular resposta, já que os comentários ficaram abaixo da semana anterior.",
-        "Teste uma imagem de opinião no dia seguinte para variar o formato.",
-        "Fixe um comentário com pergunta nos Reels maiores."
-      ],
-      "posts": [
-        "De8Q_S9MAJt",
-        "De8104Zt6iS"
-      ]
-    },
-    {
-      "title": "Retenção dos Reels",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "“Fiz a conta…” teve 128,3 segundos, 35% de pulo e foi assistido em média por 30 segundos. “Meio milhão de seções.” teve 69,7 segundos, 31% de pulo e 23 segundos assistidos. O Reel mais curto teve o pulo menor e rendeu 564.243 views em 23,9 horas.",
-      "actions": [
-        "Mantenha Reels de 70 segundos quando o assunto for direto.",
-        "Reserve os Reels de mais de 2 minutos para temas com conta e explicação.",
-        "Compare o pulo dos próximos Reels com esses 31% e 35%."
-      ],
-      "posts": [
-        "De8Q_S9MAJt",
-        "De8104Zt6iS"
-      ]
-    },
-    {
-      "title": "Comentários e seguidores",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Os comentários somaram 1.065 e o post “Meio milhão de seções.” teve o maior número, 276, seguido de “Fiz a conta…” com 193. A conta não tem dado de novos seguidores nem de quem deixou de seguir para o dia, então não dá para dizer quanto cada Reel trouxe. Os salvamentos foram 6.825 (+155%).",
-      "actions": [
-        "Confira o dado de seguidores de 26/10 quando ele for atualizado.",
-        "Chame para comentar no fim dos Reels com uma pergunta de uma frase.",
-        "Responda os comentários na primeira hora dos próximos posts."
-      ],
-      "posts": [
-        "De8104Zt6iS",
-        "De8Q_S9MAJt"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "sem dado",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "sem dado",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "7.618",
+   "delta": "−60%",
+   "dir": "down"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "418",
+   "delta": "−82%",
+   "dir": "down"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "333 mil",
+   "delta": "+21%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "A imagem \"Flávio Livre.\" (22h13) foi o melhor post do dia: 175.810 views, 99.358 de alcance, 74 comentários, 127 salvamentos e 96 pessoas que passaram a seguir. O Reel \"Você confia no resultado da eleição?\" (20h32) fez 97.568 views, 1.107 compartilhamentos e 406 salvamentos.",
+   "actions": [
+    "Mantenha a imagem curta de opinião no fim da noite quando o assunto do dia for forte.",
+    "Use perguntas diretas no título do Reel, como no \"Você confia no resultado da eleição?\".",
+    "Responda os comentários dos dois posts ainda hoje cedo."
+   ],
+   "posts": [
+    "DfBOEyBsDWf",
+    "DfBClTANzh1"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "As views do dia ficaram em 802.486, contra uma média de 2.325.785 nos 7 dias anteriores (−37%). Comentários caíram 82% (418 contra 1.065) e compartilhamentos 60% (7.618 contra 27.547). Os dois posts só saíram depois das 20h e ainda acumulam views: têm 7,1 e 8,7 horas de vida.",
+   "actions": [
+    "Compare de novo amanhã, quando os dois posts tiverem mais horas de vida.",
+    "Reponha a publicação da manhã, que não aconteceu em 27/10.",
+    "Programe pelo menos um Reel curto fora do horário noturno."
+   ],
+   "posts": [
+    "DfBOEyBsDWf",
+    "DfBClTANzh1"
+   ]
+  },
+  {
+   "title": "Retenção do Reel",
+   "status": "warn",
+   "status_label": "Atenção",
+   "diagnosis": "O Reel \"Você confia no resultado da eleição?\" tem 144,5 segundos. Foi assistido em média até 22% e 54% das pessoas pularam. Mesmo assim, teve 1.107 compartilhamentos, mais que os 169 da imagem.",
+   "actions": [
+    "Teste uma versão de até 60 segundos do mesmo assunto.",
+    "Abra o vídeo com a pergunta, sem introdução.",
+    "Acompanhe a retenção do Reel nos próximos dias, pois ele ainda soma views."
+   ],
+   "posts": [
+    "DfBClTANzh1"
+   ]
+  },
+  {
+   "title": "Seguidores e comentários",
+   "status": "good",
+   "status_label": "Manter",
+   "diagnosis": "O dia não tem dado de novos seguidores da conta, mas a imagem \"Flávio Livre.\" tem 96 seguidores atribuídos e 74 comentários, e o Reel teve 71 comentários. O alcance médio por dia ficou em 332.610, 21% acima da média da semana anterior, mesmo com menos views.",
+   "actions": [
+    "Fixe um comentário com pergunta nos dois posts.",
+    "Publique de novo uma imagem de opinião curta nesta noite.",
+    "Confira os novos seguidores quando o dado do dia fechar."
+   ],
+   "posts": [
+    "DfBOEyBsDWf",
+    "DfBClTANzh1"
+   ]
+  }
+ ]
 }
