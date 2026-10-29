@@ -2,8 +2,8 @@
   "date": "2026-10-29",
   "generated": "2026-10-29T10:42:02-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Tarcísio chama pedido de passaporte de Flávio de intimidação, OEA alerta para decisões monocráticas, PL decide sobre Marinho no Senado e Vorcaro cita ministro de Lula",
-  "abertura": "Tarcísio de Freitas contou que aconselhou Flávio Bolsonaro a ficar no Brasil e chamou de intimidação o pedido de passaporte feito pela PF 7 minutos depois do resultado. A OEA, ao validar os dados do TSE, apontou o excesso de decisões individuais no STF e citou a prorrogação da votação feita por Zanin. No Senado, o PL decide em 4 de novembro se lança Rogério Marinho contra Davi Alcolumbre, que ainda precisa de mais 8 votos. Fora da política, o governo procura onde cortar para pagar as promessas da campanha, e a polícia do Rio atinge o dinheiro da quadrilha do gás do Comando Vermelho.",
+  "titulo": "CVM de Otto Lobo é acusada de atropelar a área técnica, Tarcísio chama pedido de passaporte de Flávio de intimidação e OEA aponta excesso de decisões monocráticas",
+  "abertura": "Uma coluna do UOL diz que a diretoria da CVM sob Otto Lobo passa por cima da área técnica, e o caso Ambipar é o exemplo mais citado. Tarcísio de Freitas contou que aconselhou Flávio Bolsonaro a ficar no Brasil e chamou de intimidação o pedido de passaporte feito pela PF. A OEA, ao validar os dados do TSE, apontou o excesso de decisões individuais no STF. No Senado, o PL decide em 4 de novembro se lança Rogério Marinho contra Davi Alcolumbre.",
   "agenda": [
     {
       "time": "4/11",
@@ -15,6 +15,51 @@
     }
   ],
   "itens": [
+    {
+      "id": "cvm-lobo",
+      "bloco": "Economia",
+      "titulo": "Coluna do UOL diz que diretoria da CVM de Otto Lobo atropela a área técnica",
+      "subtitulo": "Caso Ambipar, em que o voto de qualidade de Lobo derrubou a oferta pública pedida pelos técnicos, é o exemplo mais citado",
+      "resumo": "Uma coluna publicada hoje no UOL afirma que a diretoria da CVM sob Otto Lobo passa por cima da área técnica e esvazia os controles internos do órgão. O caso mais citado é o da Ambipar, cujas ações subiram mais de 1.000% em 2024 e em que os técnicos defendiam uma oferta pública de aquisição para os minoritários. Em julho de 2025, Lobo usou o voto de qualidade como presidente interino e a oferta não saiu, e no fim do ano a diretoria rejeitou por unanimidade o pedido da área técnica para reabrir a questão. Em junho, logo ao assumir, ele exonerou sete superintendentes, mudança que a CVM justificou como revisão estrutural. Para o investidor, o que está em jogo é saber se o xerife do mercado de capitais decide por critério técnico ou por conveniência de quem o indicou.",
+      "contexto": [
+        "Otto Lobo foi presidente interino da CVM desde julho de 2025, depois da saída de João Pedro Barroso do Nascimento, e foi indicado por Lula para a presidência em janeiro de 2026.",
+        "Caso Ambipar: a área técnica via suspeita de preço artificialmente inflado e defendia oferta pública para os minoritários; Lobo votou contra e decidiu com o voto de qualidade em julho de 2025.",
+        "No fim de 2025, a diretoria rejeitou por unanimidade o pedido da área técnica para reabrir o caso.",
+        "Em 8 de junho, Lobo exonerou sete superintendentes; a CVM falou em revisão estrutural e em novos olhares para áreas estratégicas, e os servidores seguem no quadro.",
+        "Lula indicou o servidor de carreira Antonio Carlos Berwanger para a vaga de diretor deixada por Lobo, e a indicação depende de sabatina na CAE e votação no plenário do Senado."
+      ],
+      "angulo": [
+        "Quem escolhe o presidente da CVM é o governo Lula, e é ele quem responde por um órgão que, segundo a coluna, deixa de ouvir os próprios técnicos.",
+        "Agência reguladora forte é a que protege o pequeno investidor; se a área técnica é vencida em série, o minoritário fica sem defesa.",
+        "O Senado, que aprovou o nome de Lobo e vai sabatinar Berwanger, tem a chance de cobrar explicações sobre os controles internos."
+      ],
+      "perguntas": [
+        "Qual é a função da área técnica da CVM, e o que muda para o investidor quando a diretoria decide contra ela?",
+        "O Senado deve usar a sabatina de Berwanger para cobrar explicações sobre o caso Ambipar e os controles internos?",
+        "Que garantia o pequeno investidor tem de que o regulador decide por critério técnico?"
+      ],
+      "atencao": "Não consegui abrir a coluna do UOL; os pontos sobre controles internos vêm do título e da tese dela, então confira o texto antes de citar detalhes. Lobo nega favorecimento e diz que decidiu dentro dos limites da lei.",
+      "fontes": [
+        {
+          "name": "UOL (coluna de Mariana Barbosa)",
+          "url": "https://economia.uol.com.br/colunas/mariana-barbosa/2026/10/29/cvm-sob-lobo-diretoria-atropela-area-tecnica-e-esvazia-controles-internos.htm"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/brasil/otto-lobo-assume-cvm-e-demite-7-superintendentes/"
+        },
+        {
+          "name": "Money Times",
+          "url": "https://www.moneytimes.com.br/do-caso-ambipar-ao-comando-da-cvm-por-que-o-mercado-torceu-o-nariz-para-a-indicacao-de-otto-lobo-jals/"
+        },
+        {
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/120993/lula-indica-antonio-berwanger-para-vaga-em-diretoria-da-cvm"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "https://economia.uol.com.br/colunas/mariana-barbosa/2026/10/29/cvm-sob-lobo-diretoria-atropela-area-tecnica-e-esvazia-controles-internos.htm"
+    },
     {
       "id": "tarcisio-flavio",
       "bloco": "Política nacional",
@@ -226,5 +271,6 @@
       ]
     }
   ],
-  "excluidos": []
+  "excluidos": [],
+  "atualizado": "2026-10-29T12:18:27-03:00"
 }
