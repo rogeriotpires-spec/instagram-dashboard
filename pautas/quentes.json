@@ -1,6 +1,38 @@
 {
   "alerts": [
     {
+      "time": "2026-10-29T12:38:26-03:00",
+      "title": "Valdemar diz que ninguém aprovou a carta de Flávio e que Bolsonaro não sabia da saída do país",
+      "fact": "Em Brasília, nesta quinta (29), ao visitar Jair Bolsonaro com autorização de Moraes, o presidente do PL, Valdemar Costa Neto, disse: \"Não gostei. Ninguém aprovou a carta do Flávio\". Sobre a viagem, afirmou: \"Nem o Bolsonaro sabia, ninguém sabia, eu também não sabia\". A carta, divulgada na quarta (28), trazia a expressão \"verdadeiro presidente eleito\", trocada depois por \"líder do Brasil\"; Valdemar disse ainda que o objetivo agora é \"tocar o partido para frente\".",
+      "sources": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/ninguem-aprovou-carta-de-flavio-e-bolsonaro-nao-sabia-de-fuga-diz-valdemar/"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/nao-gostei-reage-presidente-pl-carta-flavio-bolsonaro/"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/valdemar-diz-que-jair-bolsonaro-nao-sabia-de-fuga-de-flavio/"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/valdemar-diz-ter-desaprovado-carta-de-flavio-bolsonaro-nao-gostei/"
+        }
+      ],
+      "suggestion": "Story com enquete ainda hoje (19h) e reel curto amanhã cedo (8h), com o foco em Bolsonaro, que segundo Valdemar não sabia da saída.",
+      "hook": "Valdemar diz que Bolsonaro não sabia de nada.",
+      "script": "O presidente do PL, Valdemar Costa Neto, saiu da visita a Jair Bolsonaro e foi direto: Bolsonaro não sabia da saída do Flávio do país. Nas palavras dele, ninguém sabia, nem ele. Bolsonaro está em prisão domiciliar, sob as regras impostas por Moraes, e a visita só aconteceu com autorização do ministro. Valdemar diz que agora o partido vai tocar para frente. Você acha que a direita consegue se reorganizar até 2028? Responde aqui nos comentários.",
+      "image_prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). Cena: Valdemar Costa Neto, presidente do PL, diante de microfones de jornalistas na entrada de um condomínio em Brasília, expressão séria, braço levantado em gesto de explicação, fundo escuro com textura e a silhueta do Congresso. No alto, em letras condensadas, brancas e pesadas: \"BOLSONARO NÃO SABIA\". Num quadro amarelo no centro: \"VALDEMAR: NINGUÉM SABIA\". Embaixo, com sublinhado vermelho pincelado: \"E agora, direita?\". Selo \"Imagem ilustrativa\" no canto inferior esquerdo. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+      "style": "ilustracao",
+      "timeline": {
+        "rende": "alto",
+        "angle": "Bolsonaro, segundo o presidente do PL, não sabia da saída de Flávio, e o partido segue em frente."
+      }
+    },
+    {
       "time": "2026-10-28T18:23:50-03:00",
       "title": "Nos EUA, Flávio Bolsonaro se apresenta como líder do Brasil e diz que comandará a oposição de fora do país",
       "fact": "Em comunicado divulgado nesta quarta (28) por Paulo Figueiredo, Flávio Bolsonaro diz: \"Não fugi do Brasil, eu saí pelo Brasil, saí de um regime de exceção para poder ser o líder que o meu povo merece\", agradece a Donald Trump e Javier Milei e afirma que liderará a oposição do exterior; a primeira versão do texto dizia \"verdadeiro presidente eleito\" e foi trocada por \"líder do Brasil\" cerca de uma hora depois. Em nota, a PF diz que a decisão de Moraes sobre os passaportes não autoriza prisão e que isso, por si só, não caracteriza a condição de foragido; a corporação afirma que investiga as circunstâncias do descumprimento das ordens judiciais. O TSE confirmou a vitória de Lula com 51,79% dos votos.",
