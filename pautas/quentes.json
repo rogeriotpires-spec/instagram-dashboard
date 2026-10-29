@@ -1,6 +1,38 @@
 {
   "alerts": [
     {
+      "time": "2026-10-29T18:25:23-03:00",
+      "title": "Trump diz que não tomou partido na eleição do Brasil porque Lula pediu e chama a votação de \"desgraça\"",
+      "fact": "Nesta quinta (29), a jornalistas, Donald Trump disse que Lula lhe pediu para não tomar partido na eleição brasileira e que ele atendeu. Trump afirmou que a eleição foi uma desgraça e uma vergonha para o Brasil, disse que \"o mercado despencou\" e que vai conversar com Lula. Perguntado se reconhece a vitória do petista, não respondeu, e sobre Flávio Bolsonaro disse que ele e a família foram \"tratados de forma muito injusta\".",
+      "sources": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-me-pediu-para-nao-tomar-lado-nas-eleicoes-no-brasil-diz-trump/"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/mundo/trump-diz-que-nao-tomou-partido-na-eleicao-do-brasil-porque-lula-pediu/"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/trump-diz-que-conversara-com-lula-e-que-petista-pediu-para-nao-interferir-na-disputa/"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/debora-bergamasco/politica/lula-nao-vai-procurar-mas-aceitara-falar-com-trump/"
+        }
+      ],
+      "suggestion": "Reel curto hoje às 20h ou story com enquete às 19h30, antes de Lula e Trump conversarem.",
+      "hook": "Trump diz que a eleição brasileira foi uma desgraça.",
+      "script": "O presidente dos Estados Unidos, Donald Trump, disse hoje que a eleição brasileira foi uma desgraça e uma vergonha para o Brasil. Ele afirmou que o mercado despencou e que só não tomou partido porque Lula pediu. Perguntado se reconhece a vitória do petista, Trump não respondeu. Disse apenas que vai conversar com Lula. E falou que Flávio Bolsonaro e a família foram tratados de forma muito injusta. Você acha que Trump vai reconhecer o resultado? Responde aqui nos comentários.",
+      "image_prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). Cena: Donald Trump, presidente dos Estados Unidos, de terno escuro e gravata vermelha, diante de microfones de jornalistas ao ar livre, expressão séria, dedo em riste, fundo escuro com textura e a silhueta da Casa Branca. No alto, em letras condensadas, brancas e pesadas: \"TRUMP: ELEIÇÃO FOI UMA DESGRAÇA\". Num quadro amarelo no centro: \"LULA PEDIU PARA EU NÃO TOMAR PARTIDO\". Num quadro vermelho: \"MERCADO DESPENCOU\". Embaixo, com sublinhado vermelho pincelado: \"Ele vai reconhecer o resultado?\". Selo \"Imagem ilustrativa\" no canto inferior esquerdo. No rodapé, à direita, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+      "style": "ilustracao",
+      "timeline": {
+        "rende": "alto",
+        "angle": "Trump diz que não tomou partido porque Lula pediu, chama a eleição de desgraça e não responde se reconhece a vitória do petista."
+      }
+    },
+    {
       "time": "2026-10-29T12:38:26-03:00",
       "title": "Valdemar diz que ninguém aprovou a carta de Flávio e que Bolsonaro não sabia da saída do país",
       "fact": "Em Brasília, nesta quinta (29), ao visitar Jair Bolsonaro com autorização de Moraes, o presidente do PL, Valdemar Costa Neto, disse: \"Não gostei. Ninguém aprovou a carta do Flávio\". Sobre a viagem, afirmou: \"Nem o Bolsonaro sabia, ninguém sabia, eu também não sabia\". A carta, divulgada na quarta (28), trazia a expressão \"verdadeiro presidente eleito\", trocada depois por \"líder do Brasil\"; Valdemar disse ainda que o objetivo agora é \"tocar o partido para frente\".",
