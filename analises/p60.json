@@ -1,47 +1,47 @@
 {
- "generated": "2026-10-28T06:22:02-03:00",
+ "generated": "2026-10-29T06:26:06-03:00",
  "dias": 60,
  "period": {
-  "start": "2026-08-29",
-  "end": "2026-10-27"
+  "start": "2026-08-30",
+  "end": "2026-10-28"
  },
- "compare": "2026-06-30 a 2026-08-28",
- "headline": "Em 60 dias a conta somou 35.807.007 views (+195%) com 135 posts; Reels são mais frequentes (85), mas as imagens de opinião concentram os maiores picos de views.",
+ "compare": "2026-07-01 a 2026-08-29",
+ "headline": "Em 60 dias a conta teve 36,99 mi de views (+202%) e alcance médio de 215 mil por dia (+271%); as imagens de opinião das 7h concentram os maiores picos e os seguidores atribuídos (5.891).",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "35,8 mi",
-   "delta": "+195%",
+   "value": "36,99 mi",
+   "delta": "+202%",
    "dir": "up"
   },
   {
    "label": "Novos seguidores",
-   "value": "34.508",
+   "value": "36.832",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Deixaram de seguir",
-   "value": "1.281",
+   "value": "1.419",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "603 mil",
+   "value": "624.749",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Comentários recebidos",
-   "value": "46.809",
+   "value": "47.405",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Alcance médio por dia",
-   "value": "206 mil",
-   "delta": "+252%",
+   "value": "215 mil",
+   "delta": "+271%",
    "dir": "up"
   }
  ],
@@ -50,11 +50,10 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "As imagens de opinião formam o topo: \"Fica a reflexão.\" (1.235.613 views), \"Ninguém aguenta mais o Lula e o PT!\" (982.996) e, entre os Reels, \"Fiz a conta do primeiro para o segundo turno…\" (968.226). As 48 imagens tiveram 5.736 seguidores atribuídos. Bastidores e pessoal teve mediana de 41.015,5 views, com só 2 posts.",
+   "diagnosis": "As imagens de opinião publicadas de manhã aparecem entre os maiores picos: \"Fica a reflexão.\" (1.237.148 views, 1.186 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (983.014 views, 35.782 compartilhamentos, 1.133 seguidores). As 47 imagens somaram 5.891 seguidores atribuídos. Entre os Reels, o maior foi \"Fiz a conta do primeiro para o segundo turno e ela não…\" (974.417 views).",
    "actions": [
-    "Mantenha as imagens de opinião com frase forte e curta.",
-    "Teste mais um post de bastidor por semana.",
-    "Siga com Reels explicativos sobre o assunto do momento."
+    "Mantenha uma imagem de opinião por semana pela manhã.",
+    "Reserve os Reels para fatos novos e contas simples, como o do segundo turno."
    ],
    "posts": [
     "Dd8pQedtGZL",
@@ -66,47 +65,44 @@
    "title": "O que não funcionou",
    "status": "bad",
    "status_label": "Atenção",
-   "diagnosis": "Os piores posts foram Reels de política com menos de 700 views: \"O STF virou um manicômio institucional\" (537), \"Candidato perdeu Instagram e Fundo Eleitoral\" (552) e \"Se liga!!!\" (629). Serviço teve 1 post, com 5.058 views. Os 2 carrosséis tiveram mediana de 3.682 views.",
+   "diagnosis": "\"O STF virou um manicômio institucional\" (Reel, 04/09, 06h30, 65,5s) fez 537 views, 1 compartilhamento e 11 comentários. \"Se liga!!!\" ficou em 688 views. Dois posts aparecem com 0 views no arquivo, apesar de terem compartilhamentos, o que indica dado incompleto. Os 2 carrosséis tiveram mediana de 3.684 views.",
    "actions": [
-    "Evite Reels de notícia sem opinião marcada.",
-    "Não use carrossel para opinião política.",
-    "Revise os 3 primeiros segundos antes de publicar."
+    "Evite Reels longos de crítica genérica sem fato novo.",
+    "Reveja o dado dos posts com 0 views antes de decidir o que cortar."
    ],
    "posts": [
     "Dc3EY5cNint",
-    "Dcvng7kNnHA",
-    "De6lr9Ft3I5"
-   ]
-  },
-  {
-   "title": "Comentários",
-   "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "A pergunta direta rendeu comentários mesmo com poucas views: \"Qual número você escolheria?\" teve 487 comentários com 13.748 views, e \"Responda nos comentários, só um nome!\" teve 353 com 136.383 views. \"Meio milhão de seções.\" teve 342 comentários e \"Inacreditável!\" 290.",
-   "actions": [
-    "Publique uma pergunta de resposta curta por semana.",
-    "Responda os primeiros comentários na primeira hora.",
-    "Use perguntas em imagens, onde o comentário é mais simples."
-   ],
-   "posts": [
-    "DdumKq_tAX_",
-    "DcfJMHasopg",
-    "De8104Zt6iS"
+    "De6lr9Ft3I5",
+    "Dd4SfTDttPT"
    ]
   },
   {
    "title": "Formatos e temas",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Reels tiveram mediana de 23.242 views (85 posts) e imagens, 14.509,5 (48 posts), mas as imagens somaram 7.864.145 views e os Reels 6.637.417. Política (79 posts) teve mediana de 23.242 views, contra 13.475,5 de Opinião (50). Os horários variam muito: 21h teve mediana de 95.932 views e 22h, 7.121, então não dá para cravar uma hora só.",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Política tem a maior base: 81 posts e mediana de 23.213 views, contra 13.748 de Opinião (49 posts). Os 87 Reels tiveram mediana de 23.213 views e as 47 imagens, 16.106, mas as imagens somaram mais views (8.335.144 contra 6.501.980). Eventos e discursos (3 posts, 37.022) e Bastidores e pessoal (2 posts, 41.018) foram bem, com poucos posts.",
    "actions": [
-    "Mantenha os Reels de política como base da semana.",
-    "Escolha a imagem de opinião mais forte do dia, e não mais de uma.",
-    "Teste de novo 21h e 22h antes de decidir o horário fixo."
+    "Teste mais bastidores e eventos, que tiveram mediana alta com poucos posts.",
+    "Mantenha Política nos Reels e Opinião nas imagens."
    ],
    "posts": [
     "Dd8pQedtGZL",
     "De8Q_S9MAJt"
+   ]
+  },
+  {
+   "title": "Comentários e comparação",
+   "status": "warn",
+   "status_label": "Atenção",
+   "diagnosis": "Os comentários somaram 47.405. O post com mais comentários foi a imagem \"Qual número você escolheria?\" (25/09, 20h05), com 487 comentários e só 13.748 views, seguida por \"Meio milhão de seções.\" (364) e \"Inacreditável!\" (290). Compartilhamentos, comentários e seguidores não têm comparação, porque o período anterior não tem esses dados. Só as views foram comparadas (+202%, com 52 dias de dado antes).",
+   "actions": [
+    "Use perguntas de escolha simples, como a dos números, para gerar comentários.",
+    "Compare esses números só a partir dos próximos períodos."
+   ],
+   "posts": [
+    "DdumKq_tAX_",
+    "De8104Zt6iS",
+    "DeaQZPRNABT"
    ]
   }
  ]

@@ -1,47 +1,47 @@
 {
- "generated": "2026-10-28T06:22:02-03:00",
+ "generated": "2026-10-29T06:26:06-03:00",
  "dias": 30,
  "period": {
-  "start": "2026-09-28",
-  "end": "2026-10-27"
+  "start": "2026-09-29",
+  "end": "2026-10-28"
  },
- "compare": "2026-08-29 a 2026-09-27",
- "headline": "Em 30 dias a conta teve 22.918.476 views (+78%) e 26.964 novos seguidores (+257%) com 76 posts; as imagens de opinião das 6h30 e 7h somaram os maiores números de seguidores.",
+ "compare": "2026-08-30 a 2026-09-28",
+ "headline": "Em 30 dias a conta teve 23,5 mi de views (+75%) e 28.951 novos seguidores (+267%); as três imagens de opinião publicadas de manhã tiveram o maior número de seguidores atribuídos.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "22,9 mi",
-   "delta": "+78%",
+   "value": "23,5 mi",
+   "delta": "+75%",
    "dir": "up"
   },
   {
    "label": "Novos seguidores",
-   "value": "26.964",
-   "delta": "+257%",
+   "value": "28.951",
+   "delta": "+267%",
    "dir": "up"
   },
   {
    "label": "Deixaram de seguir",
-   "value": "1.003",
-   "delta": "+261%",
+   "value": "1.126",
+   "delta": "+284%",
    "dir": "down"
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "426 mil",
-   "delta": "+140%",
+   "value": "438.852",
+   "delta": "+136%",
    "dir": "up"
   },
   {
    "label": "Comentários recebidos",
-   "value": "35.105",
-   "delta": "+200%",
+   "value": "35.201",
+   "delta": "+188%",
    "dir": "up"
   },
   {
    "label": "Salvamentos recebidos",
-   "value": "55.867",
-   "delta": "+233%",
+   "value": "59.658",
+   "delta": "+241%",
    "dir": "up"
   }
  ],
@@ -50,64 +50,62 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "Os maiores posts foram imagens de opinião da manhã: \"Fica a reflexão.\" (01/10, 7h, 1.235.613 views, 39.457 compartilhamentos, 1.164 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (28/09, 7h15, 982.996 views, 1.133 seguidores). O Reel \"Fiz a conta do primeiro para o segundo turno…\" chegou a 968.226 views.",
+   "diagnosis": "As imagens de opinião das 6h30 às 7h lideraram os seguidores: \"Fica a reflexão.\" (01/10, 1.237.148 views, 39.548 compartilhamentos, 1.186 seguidores), \"Como dizia o TAXAD, quem foge do debate…\" (11/10, 926.380 views, 1.175 seguidores) e \"Avalanche Bolsonarista!\" (05/10, 615.513 views, 466 seguidores). Nos comentários, ganharam os Reels de reação: \"Meio milhão de seções.\" (364) e \"Inacreditável!\" (290, 15.028 compartilhamentos).",
    "actions": [
-    "Mantenha a imagem de opinião forte pela manhã nos dias de grande assunto.",
-    "Combine com um Reel de explicação à noite.",
-    "Repita frases curtas e diretas no título."
+    "Publique uma imagem de opinião por semana por volta das 7h, no estilo de \"Fica a reflexão.\".",
+    "Use Reels de reação com frase curta no título para gerar comentários."
    ],
    "posts": [
     "Dd8pQedtGZL",
-    "Dd08gl4tibs",
-    "De8Q_S9MAJt"
+    "DeVAkiqtPwL",
+    "DeGlubltKVX",
+    "De8104Zt6iS",
+    "DeaQZPRNABT"
    ]
   },
   {
    "title": "O que não funcionou",
    "status": "bad",
    "status_label": "Atenção",
-   "diagnosis": "Três Reels ficaram abaixo de 1.400 views: \"Se liga!!!\" (629), \"Autoexplicativo (debate)\" (1.344, 60% de pulo) e \"Sabe se isso é IA?\" (1.350). Os 2 carrosséis tiveram mediana de 3.682 views. Os posts de Opinião (36) tiveram mediana de 14.237 views, contra 26.924,5 dos de Política (40).",
+   "diagnosis": "\"Se liga!!!\" (Reel, 08h22) fez 688 views. \"Desculpem o desabafo!\" e \"Inacreditável o que esse sujeito asquero…\" aparecem com 0 views no arquivo, mas o segundo tem 25.148 compartilhamentos, então o dado de views parece incompleto. Os 2 carrosséis tiveram mediana de 3.684 views e 1 seguidor no total.",
    "actions": [
-    "Evite Reels curtos de 23 a 39 segundos sem fato novo.",
-    "Não invista em carrossel por enquanto.",
-    "Troque títulos vagos por um dado ou uma pergunta."
+    "Reveja o dado de views dos posts zerados antes de tirar conclusão sobre eles.",
+    "Deixe os carrosséis de lado até testar um com tema de maior apelo.",
+    "Evite posts sem assunto claro no título."
    ],
    "posts": [
     "De6lr9Ft3I5",
-    "Dd_agBPN6Mi",
-    "DeKCMhiNIxP"
+    "Dd4SfTDttPT",
+    "DeFIOryNZpn"
    ]
   },
   {
-   "title": "Seguidores e saídas",
+   "title": "Horários",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Os melhores horários por mediana foram 22h (310.805), 18h (143.347), 21h (99.655) e 12h (70.403). Manhã e tarde ficaram baixas: 08h (6.295), 11h (3.679) e 14h (766). Mas as imagens das 7h trouxeram os maiores números de seguidores, então a manhã serve para imagem, não para Reel.",
+   "actions": [
+    "Reels entre 18h e 22h.",
+    "Imagens de opinião às 7h.",
+    "Evite 11h e 14h até testar de novo."
+   ],
+   "posts": [
+    "Dd8pQedtGZL",
+    "De8Q_S9MAJt"
+   ]
+  },
+  {
+   "title": "Seguidores e comparação",
    "status": "warn",
    "status_label": "Atenção",
-   "diagnosis": "Foram 26.964 novos seguidores, e as saídas chegaram a 1.003 (+261%). As 34 imagens somaram 4.491 seguidores atribuídos, enquanto os Reels não têm esse dado. O post com mais seguidores foi \"Como dizia o TAXAD, quem foge do debate é bundão?\" (11/10, 6h30): 1.175 seguidores e 926.311 views. Os períodos de comparação têm 21 dias com dado de seguidores, então a alta é parcial.",
+   "diagnosis": "Foram 28.951 novos seguidores (+267%) e 1.126 que deixaram de seguir (+284%). O período anterior tem só 22 dias de dados de compartilhamentos, comentários, salvamentos e seguidores, então essas altas estão infladas; as views (+75%) têm dado dos 30 dias. As 33 imagens somaram 3.513 seguidores atribuídos, e Política (mediana de 25.845 views, 42 posts) ficou acima de Opinião (13.204, 35 posts).",
    "actions": [
-    "Repita imagens de opinião sobre debate e eleição.",
-    "Acompanhe as saídas por semana.",
-    "Use o texto da imagem para dizer quem você é, e não só o assunto."
+    "Use as views (+75%) como medida mais segura de crescimento.",
+    "Mantenha as imagens de opinião como fonte de seguidores e os Reels de política como fonte de alcance."
    ],
    "posts": [
-    "DeVAkiqtPwL",
     "Dd8pQedtGZL",
-    "Dd08gl4tibs"
-   ]
-  },
-  {
-   "title": "Horários e comentários",
-   "status": "good",
-   "status_label": "Manter",
-   "diagnosis": "Por hora de publicação, a mediana ficou em 175.810 views às 22h, 142.556,5 às 18h e 98.648 às 21h, contra 5.087 às 8h e 3.679 às 11h; várias horas têm poucos posts. Em comentários, \"Meio milhão de seções.\" teve 342, \"Inacreditável!\" 290 e \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" 259.",
-   "actions": [
-    "Concentre os Reels entre 18h e 22h.",
-    "Evite posts às 11h, a hora com menor mediana.",
-    "Peça opinião no fim do Reel para manter os comentários."
-   ],
-   "posts": [
-    "De8104Zt6iS",
-    "DeaQZPRNABT",
-    "DeFIOryNZpn"
+    "DeVAkiqtPwL"
    ]
   }
  ]
