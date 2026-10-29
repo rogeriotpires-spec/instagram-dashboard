@@ -1,6 +1,93 @@
 {
  "items": [
   {
+   "requested": "2026-10-28",
+   "done": "2026-10-28T23:59:30-03:00",
+   "issue": 118,
+   "slot_hint": "Imagem amanhã (29) às 12h ou reel às 18h, enquanto o assunto está em alta.",
+   "source": {
+    "edition": "2026-10-28-19h",
+    "item_id": "x:4",
+    "title": "Em alta no X: ICMS"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "cartaz",
+     "title": "Estados aprovam aumento do ICMS sobre gasolina, diesel e gás de cozinha a partir de fevereiro de 2027",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Os estados aprovaram no Confaz (27/10) e publicaram no Diário Oficial (28/10) os convênios ICMS 127 e 128/2026: a partir de 1º de fevereiro de 2027, o ICMS por litro da gasolina sobe de R$ 1,57 para R$ 1,64 (+4,45%), o do diesel de R$ 1,17 para R$ 1,30 (+11,11%) e o do gás de cozinha de R$ 1,47 para R$ 1,54 por quilo (+4,76%), cerca de R$ 0,91 a mais de imposto no botijão de 13 kg. O reajuste segue a Lei Complementar 192/2022, com base na média de preços da ANP de fevereiro a setembro de 2026 contra o mesmo período de 2025. Se repassado integralmente, o aumento na gasolina equivale a cerca de 1,1% do preço médio; o repasse às bombas não é automático.",
+     "sources": [
+      {
+       "name": "Exame",
+       "url": "https://exame.com/economia/estados-aprovam-aumento-do-icms-sobre-gasolina-diesel-e-gas-de-cozinha-a-partir-de-2027/"
+      },
+      {
+       "name": "O Povo",
+       "url": "https://www.opovo.com.br/noticias/economia/2026/10/28/confaz-estabelece-aliquotas-de-icms-de-combustiveis-e-glp-para-valer-a-partir-de-fevereiro.html"
+      }
+     ],
+     "art_text": [
+      "ICMS vai subir de novo",
+      "Gasolina: R$ 1,57 para R$ 1,64 por litro",
+      "Diesel: R$ 1,17 para R$ 1,30 por litro (+11%)",
+      "Gás de cozinha: R$ 1,47 para R$ 1,54 por kg",
+      "A partir de fevereiro de 2027",
+      "Quem paga a conta? Você.",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Nenhuma figura pública; cartaz só com texto e números.",
+     "prompt": "Crie um cartaz vertical 4:5 (1080x1350), estilo editorial político, fundo escuro com textura de concreto e leve vinheta, paleta quente e dessaturada (ocre, marrom, vermelho). No alto, em letras condensadas, brancas e pesadas: 'ICMS VAI SUBIR DE NOVO'. No meio, três quadros: um amarelo com 'GASOLINA: R$ 1,57 para R$ 1,64 por litro', um vermelho com 'DIESEL: R$ 1,17 para R$ 1,30 por litro (+11%)', um amarelo com 'GÁS DE COZINHA: R$ 1,47 para R$ 1,54 por kg'. Abaixo, em branco: 'A partir de fevereiro de 2027'. Embaixo, com sublinhado vermelho pincelado: 'Quem paga a conta? Você.' Sem logos nem marcas. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+     "caption": "Os estados aprovaram mais um aumento do ICMS: a partir de fevereiro de 2027, a gasolina vai de R$ 1,57 para R$ 1,64 por litro, o diesel de R$ 1,17 para R$ 1,30 e o gás de cozinha de R$ 1,47 para R$ 1,54 por quilo. São cerca de R$ 0,91 a mais de imposto em cada botijão. Imposto sobre o que move o país e põe comida na mesa. Comenta: quanto da sua renda já vai para o imposto?",
+     "risk": "baixo",
+     "risk_note": "Baixo: números conferidos em duas matérias abertas. Não atribuir o reajuste a partido ou governador específico; é regra automática da LC 192/2022 aprovada no Confaz. Lembrar que o repasse às bombas não é automático.",
+     "timeline": {
+      "rende": true,
+      "angle": "Estados aprovam novo aumento do ICMS: gasolina R$ 1,64, diesel R$ 1,30 e gás R$ 1,54 por kg a partir de fevereiro de 2027."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Confaz aprova aumento do ICMS: diesel sobe 11% e gás de cozinha ganha R$ 0,91 de imposto por botijão em 2027",
+     "tone": "contundente",
+     "duration": "45 a 60 segundos",
+     "fact": "Os estados aprovaram no Confaz (27/10) e publicaram no Diário Oficial (28/10) os convênios ICMS 127 e 128/2026: a partir de 1º de fevereiro de 2027, o ICMS por litro da gasolina sobe de R$ 1,57 para R$ 1,64 (+4,45%), o do diesel de R$ 1,17 para R$ 1,30 (+11,11%) e o do gás de cozinha de R$ 1,47 para R$ 1,54 por quilo (+4,76%), cerca de R$ 0,91 a mais de imposto no botijão de 13 kg. O reajuste segue a Lei Complementar 192/2022, com base na média de preços da ANP de fevereiro a setembro de 2026 contra o mesmo período de 2025. Se repassado integralmente, o aumento na gasolina equivale a cerca de 1,1% do preço médio; o repasse às bombas não é automático.",
+     "sources": [
+      {
+       "name": "Exame",
+       "url": "https://exame.com/economia/estados-aprovam-aumento-do-icms-sobre-gasolina-diesel-e-gas-de-cozinha-a-partir-de-2027/"
+      },
+      {
+       "name": "O Povo",
+       "url": "https://www.opovo.com.br/noticias/economia/2026/10/28/confaz-estabelece-aliquotas-de-icms-de-combustiveis-e-glp-para-valer-a-partir-de-fevereiro.html"
+      }
+     ],
+     "hooks": [
+      "O imposto do seu botijão vai subir de novo.",
+      "Diesel com 11% a mais de ICMS: quem paga é o seu mercado.",
+      "Mais imposto sobre gasolina, diesel e gás. Já tem data."
+     ],
+     "script": "O imposto do seu botijão vai subir de novo. Os estados aprovaram no Confaz o reajuste do ICMS sobre combustíveis, e vale a partir de 1º de fevereiro de 2027. A gasolina vai de R$ 1,57 para R$ 1,64 por litro. O diesel, de R$ 1,17 para R$ 1,30: onze por cento a mais. E o gás de cozinha, de R$ 1,47 para R$ 1,54 por quilo, o que dá cerca de 91 centavos de imposto a mais em cada botijão de 13 quilos. Eu sei que vão dizer que é só uma regra automática, uma lei de 2022 que atualiza o valor todo ano. Mas quem paga é o mesmo de sempre. O diesel move o caminhão, o caminhão leva o alimento, e a conta chega no mercado. O gás é de quem cozinha em casa. Nem todo aumento chega na bomba de uma vez, mas o imposto sobe, e o brasileiro que já carrega uma das maiores cargas tributárias do mundo é quem sente. Comenta aqui: o seu bolso aguenta mais imposto?",
+     "screen_text": [
+      "ICMS sobe em 2027",
+      "Gasolina: R$ 1,57 → R$ 1,64",
+      "Diesel: R$ 1,17 → R$ 1,30 (+11%)",
+      "Gás: R$ 1,47 → R$ 1,54 por kg",
+      "+R$ 0,91 de imposto por botijão",
+      "Vale a partir de 1º de fevereiro"
+     ],
+     "caption": "Estados aprovam novo aumento do ICMS sobre gasolina, diesel e gás de cozinha a partir de fevereiro de 2027. O diesel sobe 11% e o botijão leva cerca de R$ 0,91 a mais de imposto. Comenta: o seu bolso aguenta?",
+     "risk": "baixo",
+     "risk_note": "Baixo: números conferidos em duas matérias abertas. Dizer que o repasse às bombas não é automático. Evitar culpar partido ou governador; foco no peso do imposto sobre o consumidor.",
+     "timeline": {
+      "rende": true,
+      "angle": "Estados aprovam novo aumento do ICMS: gasolina R$ 1,64, diesel R$ 1,30 e gás R$ 1,54 por kg a partir de fevereiro de 2027."
+     }
+    }
+   ]
+  },
+  {
    "requested": "2026-10-24",
    "done": "2026-10-24T15:36:00-03:00",
    "issue": 99,
