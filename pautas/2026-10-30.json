@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-30",
+  "weekday": "Sex",
+  "generated": "2026-10-29T20:17:35-03:00",
+  "summary": "Sexta de contas públicas e de poder: o Tesouro informou que a dívida federal chegou a R$ 9,38 trilhões e a dívida bruta a 82,9% do PIB, o PL deve lançar Rogério Marinho à presidência do Senado na quarta que vem e a PF prendeu o presidente do Tribunal de Contas de Mato Grosso. No Rio, a PM mantém a Serrinha ocupada.",
+  "agenda": [
+    {
+      "time": "4/11",
+      "text": "O PL deve oficializar a candidatura de Rogério Marinho à presidência do Senado, em reunião com os congressistas.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-congresso/pl-deve-lancar-marinho-a-presidencia-do-senado-em-4-de-novembro/"
+      }
+    },
+    {
+      "time": "1º/2/2027",
+      "text": "Termina o mandato de Davi Alcolumbre na presidência do Senado, quando a Casa elege o novo presidente.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-congresso/pl-deve-lancar-marinho-a-presidencia-do-senado-em-4-de-novembro/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de até 30s sobre a última semana de campanha",
+      "options": [
+        {
+          "title": "Dívida pública federal chega a R$ 9,38 trilhões, e as estatais batem recorde de rombo",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "O Tesouro divulgou em 29/10 que a dívida pública federal chegou a R$ 9,38 trilhões em setembro, alta de 0,97% sobre agosto, e o custo médio em 12 meses subiu para 12,63% ao ano. O Banco Central informou que a dívida bruta do governo geral ficou em 82,9% do PIB (cerca de R$ 11,1 trilhões), contra 71,7% em dezembro de 2022, uma alta de 11,2 pontos desde o início do terceiro mandato de Lula. As estatais federais acumulam déficit de R$ 8,5 bilhões de janeiro a setembro, o pior resultado do período desde o início da série, em 2002, e o valor já supera o recorde anual de R$ 6,73 bilhões de 2024. A série não inclui Petrobras, Eletrobras nem bancos públicos.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/divida-publica-federal-chega-a-r-938-trilhoes-rombo-das-estatais-bate-recorde/"
+            },
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-economia/divida-bruta-fica-em-829-do-pib-diz-banco-central/"
+            }
+          ],
+          "hooks": [
+            "R$ 9,38 trilhões. É a dívida do Brasil hoje, e quem paga é você.",
+            "As estatais do Lula bateram um recorde que ninguém quer bater."
+          ],
+          "script": "R$ 9,38 trilhões. Esse é o tamanho da dívida pública federal, que o Tesouro divulgou hoje. A dívida bruta já está em 82,9% do PIB. Em dezembro de 2022 era 71,7. Onze pontos a mais desde que o Lula voltou. E tem mais: as estatais federais fecharam os nove primeiros meses com rombo de R$ 8,5 bilhões, o pior resultado desde 2002. Já passou o recorde do ano inteiro de 2024. Dívida alta puxa juro alto, e juro alto chega no seu financiamento e no seu cartão. Você sente essa conta no seu bolso? Responde sim ou não e manda esse vídeo para quem ainda acha que isso não é com ele.",
+          "screen_text": [
+            "Dívida federal: R$ 9,38 tri",
+            "Dívida bruta: 82,9% do PIB",
+            "Em 2022: 71,7%",
+            "Estatais: pior rombo desde 2002"
+          ],
+          "caption": "A dívida cresce e a conta chega no seu bolso. Você sente isso no dia a dia? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Números oficiais do Tesouro e do Banco Central. Diga que a série das estatais não inclui Petrobras, Eletrobras nem bancos públicos se citar o rombo. Não atribua a alta de juros a uma única causa.",
+          "timeline": {
+            "rende": true,
+            "angle": "Dívida em 82,9% do PIB e custo médio de 12,63%: o que isso significa para juros, crédito e para o orçamento de 2027, e por que a conta das estatais virou recorde."
+          }
+        },
+        {
+          "title": "PL deve lançar Rogério Marinho contra Alcolumbre na presidência do Senado em 4 de novembro",
+          "tone": "sóbrio",
+          "duration": "25 a 30s",
+          "fact": "O PL deve oficializar na quarta-feira, 4/11, a candidatura do senador Rogério Marinho (PL-RN) à presidência do Senado, contra Davi Alcolumbre (União Brasil-AP), que busca a reeleição. O mandato de Alcolumbre termina em 1º/2/2027. O PL terá a maior bancada em 2027, com 28 senadores, e a federação União Progressista (União Brasil e PP), que declarou apoio a Alcolumbre, terá 12. Para vencer, são necessários 41 votos se os 81 senadores participarem. Alcolumbre tem pautado projetos de interesse do governo Lula, como o fim da escala 6x1.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-congresso/pl-deve-lancar-marinho-a-presidencia-do-senado-em-4-de-novembro/"
+            }
+          ],
+          "hooks": [
+            "O PL vai ter 28 senadores. Quem manda no Senado em 2027?",
+            "Dia 4 o PL decide se enfrenta o Alcolumbre."
+          ],
+          "script": "O PL terá 28 senadores em 2027, a maior bancada do Senado. E quarta-feira, dia 4, o partido deve oficializar o Rogério Marinho como candidato à presidência da Casa, contra o Davi Alcolumbre. Alcolumbre tem colocado na pauta projetos de interesse do governo Lula, como o fim da escala 6x1. O Senado é quem barra ou aprova o que o governo manda. Por isso essa eleição, em fevereiro, importa mais do que parece. Para ganhar, são 41 votos. Você acha que a direita deve ter candidato próprio para presidir o Senado? Responde sim ou não e manda para quem acompanha política.",
+          "screen_text": [
+            "PL: 28 senadores em 2027",
+            "Dia 4: PL decide",
+            "41 votos para vencer",
+            "Marinho x Alcolumbre"
+          ],
+          "caption": "Quem preside o Senado decide o que o governo aprova. A direita deve ter candidato próprio? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "É previsão: a candidatura depende da reunião do PL em 4/11, então use \"deve oficializar\". Não cite Tereza Cristina nem apoios que a matéria não confirma.",
+          "timeline": {
+            "rende": true,
+            "angle": "A disputa pelo comando do Senado em 2027: o peso da maior bancada do PL, o apoio da União Progressista a Alcolumbre e o que a presidência da Casa decide no mandato de Lula."
+          }
+        }
+      ]
+    },
+    {
+      "time": "21h",
+      "type": "i",
+      "kind": "Imagem com pergunta fechada",
+      "options": [
+        {
+          "title": "PF prende o presidente do Tribunal de Contas de Mato Grosso por suspeita de desvio milionário",
+          "tone": "contundente",
+          "style": "realista",
+          "fact": "Em 29/10, a Polícia Federal prendeu preventivamente o presidente do TCE-MT, Sérgio Ricardo de Almeida, na Operação Tomada de Contas, autorizada pelo STJ. Foram 6 mandados de prisão e 26 de busca em MT, MS e SP, com mais de 180 policiais federais. Segundo a investigação, R$ 15,4 milhões foram depositados nas contas dele em menos de dez meses de 2025, cerca de 53 vezes a remuneração oficial de R$ 288 mil no período, e houve saques de R$ 15,6 milhões em dinheiro vivo. A PF apura uma suposta folha paralela com suspeita de propina de R$ 48,4 milhões a sete conselheiros. A defesa diz não conhecer os fundamentos da prisão, que corre sob sigilo.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/policia-federal-prende-presidente-do-tce-mt-por-suspeita-de-desvio-milionario/"
+            },
+            {
+              "name": "ND Mais",
+              "url": "https://ndmais.com.br/justica/presidente-tce-mt-preso-pf-operacao-corrupcao/"
+            }
+          ],
+          "art_text": [
+            "Quem fiscaliza o dinheiro público foi preso",
+            "53 vezes o salário",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Mesa de gabinete com pilhas de processos, uma balança da Justiça e maços de notas de real presos com elástico, sem identificar ninguém. Não use foto nem retrato do investigado.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz dura de flash, granulação leve. Sobre uma mesa de madeira escura de gabinete público, pilhas de processos com carimbos genéricos, uma balança da Justiça de bronze e maços de notas de real presos com elástico, ao lado de uma pasta aberta. Ao fundo, desfocadas, as portas de vidro de um prédio institucional, sem nenhuma inscrição, logo ou brasão. Nenhuma pessoa no quadro. Clima sério e frio. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"Quem fiscaliza o dinheiro público foi preso\". No terço inferior, sobre sombra escura, destaque em amarelo: \"53 vezes o salário\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A PF prendeu o presidente do tribunal que fiscaliza as contas públicas de Mato Grosso, suspeito de receber 53 vezes o salário. Quem fiscaliza o fiscal? A pena para quem desvia dinheiro público deveria ser maior? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "É prisão preventiva, não condenação: use \"suspeito\", \"segundo a investigação\" e cite que a defesa não conhece os fundamentos. Não cite o nome nem mostre o rosto do investigado na arte e não fale em caixas de dinheiro apreendidas, que não foi confirmado.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem fiscaliza os tribunais de contas: o caso do TCE-MT, a suspeita de folha paralela e o que falta de controle externo sobre quem controla o dinheiro público."
+          }
+        },
+        {
+          "title": "PM mantém a Serrinha ocupada por tempo indeterminado depois de operação com um morto e um fuzil apreendido",
+          "tone": "sóbrio",
+          "style": "realista",
+          "fact": "Na manhã de 29/10, a PM fez operação com apoio do Bope na Serrinha, em Madureira, Zona Norte do Rio. Um homem morreu em confronto e outro foi preso pela inteligência do 9º BPM com um fuzil e drogas. A PM informou que a comunidade ficará ocupada por tempo indeterminado para combater um grupo criminoso, cumprir mandados de prisão e recuperar veículos roubados. Criminosos incendiaram veículos e usaram carros como barricada na Avenida Edgar Romero, e 11 linhas de ônibus tiveram itinerário alterado. À tarde, um ônibus pegou fogo na Avenida Monsenhor Félix, em Irajá; a polícia não confirmou ligação com a operação.",
+          "sources": [
+            {
+              "name": "Brasil em Folhas",
+              "url": "https://brasilemfolhas.com.br/2026/10/tiroteio-na-serrinha-deixa-morto-e-preso-durante-operacao-da-pm/"
+            },
+            {
+              "name": "Brasil 247",
+              "url": "https://www.brasil247.com/sudeste/onibus-e-incendiado-em-iraja-apos-operacao-da-pm-com-um-morto-no-rio/"
+            }
+          ],
+          "art_text": [
+            "Serrinha ocupada por tempo indeterminado",
+            "11 linhas de ônibus alteradas",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Viatura da PM com giroflex à noite em rua de Madureira, ônibus parado ao fundo e silhuetas de policiais de costas. Sem identificar nenhum policial ou morador.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz fria de madrugada com o giroflex azul e vermelho refletido no asfalto molhado, granulação leve. Uma viatura genérica da polícia, sem número, brasão ou inscrição legível, parada no meio de uma avenida de bairro popular da Zona Norte do Rio, com um ônibus urbano parado e vazio ao fundo, desfocado, e duas silhuetas de policiais de costas, sem rosto. Clima tenso e sério. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"Serrinha ocupada por tempo indeterminado\". No terço inferior, sobre sombra escura, destaque em amarelo: \"11 linhas de ônibus alteradas\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A PM disse que fica na Serrinha por tempo indeterminado. Ocupação permanente é o caminho para tirar o território do crime no Rio? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não generalize para toda a comunidade nem para a polícia, e não ligue o ônibus incendiado em Irajá à operação, porque a polícia não confirmou. A morte foi em confronto, segundo a PM: use essa atribuição.",
+          "timeline": {
+            "rende": true,
+            "angle": "Ocupação por tempo indeterminado no Rio: o que a PM promete na Serrinha, o histórico de ocupações e o que realmente tira o território das facções."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
