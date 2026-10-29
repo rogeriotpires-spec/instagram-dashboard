@@ -1,6 +1,256 @@
 {
  "items": [
   {
+   "requested": "2026-10-29",
+   "done": "2026-10-29T05:58:59-03:00",
+   "issue": 121,
+   "slot_hint": "Depois da coletiva de Flávio em Miami (quinta, 29): reel às 18h ou imagem às 12h de sexta.",
+   "source": {
+    "edition": "2026-10-28-19h",
+    "item_id": "flavio-carta-presidente-eleito",
+    "title": "Em carta divulgada dos EUA, Flávio Bolsonaro se diz \"verdadeiro presidente eleito\", e o texto é alterado depois para \"líder do Brasil\""
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Flávio Bolsonaro divulga carta dos EUA, diz que lidera a oposição ao governo do PT e fala à imprensa em Miami na quinta",
+     "tone": "firme, sem adjetivar",
+     "duration": "imagem única",
+     "fact": "Na quarta-feira (28/10/2026), Flávio Bolsonaro (PL), que perdeu o segundo turno de 25/10, divulgou a aliados uma carta escrita dos Estados Unidos, onde chegou na manhã do dia 28 (Miami). A primeira versão o chamava de \"verdadeiro presidente eleito do Brasil\" e trazia o brasão antigo, com \"Estados Unidos do Brazil\"; cerca de 13 minutos depois saiu versão com o brasão atual, divulgada por Paulo Figueiredo, e o texto passou a dizer \"líder do Brasil\". A carta cita \"fraude eleitoral\" na apuração, sem apresentar provas (o coordenador da campanha, Marinho, diz que não há prova de fraude), agradece a Donald Trump e a Javier Milei, diz que vai liderar a oposição ao governo do PT a partir dos EUA e promete uma estratégia de mobilização em breve. Aliados dizem que ele falará a jornalistas na quinta (29), em Miami. Trump disse que não vai se envolver e o governador Tarcísio de Freitas defendeu respeito ao resultado. Moraes mandou Flávio entregar o passaporte no dia 27; ele é alvo de investigações no STF e não há mandado de prisão contra ele.",
+     "sources": [
+      {
+       "name": "Diário do Nordeste",
+       "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-bolsonaro-corrige-carta-apos-usar-brasao-antigo-com-inscricao-estados-unidos-do-brazil-1.3802110"
+      },
+      {
+       "name": "Tribuna Online",
+       "url": "https://tribunaonline.com.br/politica/carta-na-qual-flavio-se-diz-presidente-eleito-usa-brasao-estados-unidos-do-brazil-333769"
+      }
+     ],
+     "art_text": [
+      "Flávio Bolsonaro fala dos EUA",
+      "Carta: vai liderar a oposição ao governo do PT",
+      "Coletiva em Miami: quinta (29)",
+      "O que ele vai dizer?",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Flávio Bolsonaro (senador, ex-candidato do PL): é o autor da carta e personagem central da notícia. Retratado de pé, em posição serena, diante de uma janela com a bandeira do Brasil ao fundo, sem nenhuma cena de fuga, prisão ou crime.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). Quem aparece: Flávio Bolsonaro, senador, de terno escuro, de pé e sereno, segurando uma folha de carta, olhar firme para frente, diante de uma janela grande; ao fundo, a silhueta de Miami ao entardecer e uma bandeira do Brasil. Fundo escuro com textura. No alto, em letras condensadas, brancas e pesadas: 'FLÁVIO FALA DOS EUA'. Em um quadro amarelo no meio: 'CARTA: VAI LIDERAR A OPOSIÇÃO AO GOVERNO DO PT'. Em um quadro vermelho: 'COLETIVA EM MIAMI: QUINTA (29)'. Embaixo, com sublinhado vermelho pincelado: 'O que ele vai dizer?'. Sem logos nem marcas. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Flávio Bolsonaro divulgou uma carta dos Estados Unidos dizendo que vai liderar a oposição ao governo do PT e prometeu uma estratégia de mobilização em breve. A coletiva em Miami está prevista para quinta (29). Acompanha aqui e me diz: o que você espera ouvir dele?",
+     "risk": "alto",
+     "risk_note": "Alto: o texto da carta foi alterado em poucos minutos (\"presidente eleito\" para \"líder do Brasil\"), cita fraude sem provas e Flávio está sob investigação no STF. A pauta foi escrita para NÃO repetir a alegação de fraude nem a expressão \"presidente eleito\" como fato, e para focar no que ele vai dizer. Por ser assunto desfavorável à direita, decida se publica antes da coletiva de quinta ou espera o que ele disser. Se for citar a alteração do texto, atribua uma vez e sem adotar rótulo. Confirmar a coletiva antes de publicar.",
+     "timeline": {
+      "rende": true,
+      "angle": "Cobrir a coletiva de quinta em Miami e o que Flávio detalhar sobre a mobilização da oposição."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Flávio Bolsonaro divulga carta dos EUA e promete liderar a oposição ao governo do PT",
+     "tone": "firme",
+     "duration": "45 a 60 segundos",
+     "fact": "Na quarta-feira (28/10/2026), Flávio Bolsonaro (PL), que perdeu o segundo turno de 25/10, divulgou a aliados uma carta escrita dos Estados Unidos, onde chegou na manhã do dia 28 (Miami). A primeira versão o chamava de \"verdadeiro presidente eleito do Brasil\" e trazia o brasão antigo, com \"Estados Unidos do Brazil\"; cerca de 13 minutos depois saiu versão com o brasão atual, divulgada por Paulo Figueiredo, e o texto passou a dizer \"líder do Brasil\". A carta cita \"fraude eleitoral\" na apuração, sem apresentar provas (o coordenador da campanha, Marinho, diz que não há prova de fraude), agradece a Donald Trump e a Javier Milei, diz que vai liderar a oposição ao governo do PT a partir dos EUA e promete uma estratégia de mobilização em breve. Aliados dizem que ele falará a jornalistas na quinta (29), em Miami. Trump disse que não vai se envolver e o governador Tarcísio de Freitas defendeu respeito ao resultado. Moraes mandou Flávio entregar o passaporte no dia 27; ele é alvo de investigações no STF e não há mandado de prisão contra ele.",
+     "sources": [
+      {
+       "name": "Diário do Nordeste",
+       "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/flavio-bolsonaro-corrige-carta-apos-usar-brasao-antigo-com-inscricao-estados-unidos-do-brazil-1.3802110"
+      },
+      {
+       "name": "Tribuna Online",
+       "url": "https://tribunaonline.com.br/politica/carta-na-qual-flavio-se-diz-presidente-eleito-usa-brasao-estados-unidos-do-brazil-333769"
+      }
+     ],
+     "hooks": [
+      "Flávio Bolsonaro mandou uma carta dos Estados Unidos.",
+      "Quinta tem coletiva de Flávio em Miami.",
+      "A oposição ao PT vai ter comando de fora do país?"
+     ],
+     "script": "Flávio Bolsonaro divulgou uma carta dos Estados Unidos. Ele diz que vai liderar a oposição ao governo do PT e promete uma estratégia de mobilização em breve. Agradece ao presidente Trump e ao presidente Milei pelo apoio. A carta foi ajustada ao longo da tarde, com troca de brasão e de uma expressão no texto, e a versão final fala em líder do Brasil. Ele tem uma coletiva marcada para quinta-feira, em Miami. Agora, eu quero ouvir o que ele vai dizer sobre o dia seguinte da oposição. Quem votou nele quer saber qual é o plano, e quem se preocupa com o rumo do país também. A fala de quinta vai dizer muito. Me conta nos comentários: o que você espera dessa coletiva?",
+     "screen_text": [
+      "Flávio divulga carta dos EUA",
+      "Promete liderar a oposição ao governo do PT",
+      "Coletiva em Miami: quinta (29)",
+      "O que ele vai dizer?"
+     ],
+     "caption": "Flávio Bolsonaro divulgou uma carta dos EUA dizendo que vai liderar a oposição ao governo do PT. A coletiva em Miami é na quinta (29). O que você espera ouvir?",
+     "risk": "alto",
+     "risk_note": "Alto: mesmo cuidado da opção de imagem. O roteiro não repete a alegação de fraude (sem provas) e não afirma que ele é presidente eleito. A menção à troca de brasão e de expressão aparece uma vez, sem rótulo; corte essa frase se preferir evitar o tema. Revisar o roteiro depois da coletiva de quinta, que pode mudar o ângulo.",
+     "timeline": {
+      "rende": true,
+      "angle": "Atualizar com a coletiva de quinta em Miami."
+     }
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-29",
+   "done": "2026-10-29T05:58:59-03:00",
+   "issue": 120,
+   "slot_hint": "Imagem hoje (29) às 12h ou reel às 18h, enquanto o assunto está em alta.",
+   "source": {
+    "edition": "2026-10-28-19h",
+    "item_id": "x:7",
+    "title": "Em alta no X: Thayse Teixeira"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "cartaz",
+     "title": "SBT demite Thayse Teixeira um dia depois de ela questionar ao vivo a prorrogação do horário de votação",
+     "tone": "contundente, sem afirmar o motivo",
+     "duration": "imagem única",
+     "fact": "O SBT confirmou na quarta-feira (28/10/2026) o desligamento da apresentadora Thayse Teixeira, que fazia parte do time do Fofocalizando. Na terça (27/10), ao vivo no programa, ela questionou a prorrogação do horário de votação do segundo turno (25/10); colegas de bancada lembraram que as campanhas de Lula e de Flávio Bolsonaro tinham pedido à Justiça a ampliação do horário. Segundo a coluna de Fábia Oliveira, no Metrópoles, a direção já pretendia desligá-la e a polêmica pesou na decisão, mas a justificativa dada a ela foi \"corte de custos\" e a fala sobre a eleição não foi mencionada. O SBT não ligou oficialmente a saída à fala. Thayse disse à imprensa que está surpresa e prefere não comentar.",
+     "sources": [
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/colunas/fabia-oliveira/sbt-confirma-demissao-de-thayse-teixeira-leia-nota"
+      },
+      {
+       "name": "Terra",
+       "url": "https://www.terra.com.br/diversao/tv/sbt-anuncia-demissao-de-thayse-teixeira-apos-apresentadora-questionar-resultado-das-eleicoes-ao-vivo,aa385e6e74d032045b35e9258d6e9405ywn6hesb.html"
+      }
+     ],
+     "art_text": [
+      "SBT demite Thayse Teixeira",
+      "Um dia depois de questionar a eleição ao vivo",
+      "A emissora não ligou a saída à fala",
+      "Opinião na TV cabe em qual limite?",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Nenhuma figura pública retratada; cartaz só com texto, para não associar rosto real à demissão.",
+     "prompt": "Crie um cartaz vertical 4:5 (1080x1350), estilo editorial político, fundo escuro com textura de concreto e leve vinheta, paleta quente e dessaturada (ocre, marrom, vermelho). No alto, em letras condensadas, brancas e pesadas: 'SBT DEMITE THAYSE TEIXEIRA'. No meio, um quadro amarelo com 'UM DIA DEPOIS DE QUESTIONAR A ELEIÇÃO AO VIVO' e um quadro vermelho com 'A EMISSORA NÃO LIGOU A SAÍDA À FALA'. Embaixo, com sublinhado vermelho pincelado: 'Opinião na TV cabe em qual limite?'. Sem logos nem marcas. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+     "caption": "O SBT demitiu a apresentadora Thayse Teixeira um dia depois de ela questionar ao vivo a prorrogação do horário de votação do segundo turno. A emissora não ligou oficialmente a saída à fala, e a justificativa dada a ela foi corte de custos. Até onde vai a liberdade de opinar na TV? Comenta.",
+     "risk": "médio",
+     "risk_note": "Médio: o motivo da demissão não é confirmado (a justificativa dada foi corte de custos) e portais dizem que ela sugeriu fraude sem provas. A pauta só liga os fatos pelo calendário, sem afirmar censura nem defender a tese de fraude. Não repita a acusação de fraude.",
+     "timeline": {
+      "rende": false,
+      "angle": "Retomar se Thayse falar ou se o SBT explicar a saída."
+     }
+    },
+    {
+     "type": "r",
+     "title": "SBT demite Thayse Teixeira um dia depois de ela questionar ao vivo a prorrogação do horário de votação",
+     "tone": "contundente, sem afirmar o motivo",
+     "duration": "30 a 45 segundos",
+     "fact": "O SBT confirmou na quarta-feira (28/10/2026) o desligamento da apresentadora Thayse Teixeira, que fazia parte do time do Fofocalizando. Na terça (27/10), ao vivo no programa, ela questionou a prorrogação do horário de votação do segundo turno (25/10); colegas de bancada lembraram que as campanhas de Lula e de Flávio Bolsonaro tinham pedido à Justiça a ampliação do horário. Segundo a coluna de Fábia Oliveira, no Metrópoles, a direção já pretendia desligá-la e a polêmica pesou na decisão, mas a justificativa dada a ela foi \"corte de custos\" e a fala sobre a eleição não foi mencionada. O SBT não ligou oficialmente a saída à fala. Thayse disse à imprensa que está surpresa e prefere não comentar.",
+     "sources": [
+      {
+       "name": "Metrópoles",
+       "url": "https://www.metropoles.com/colunas/fabia-oliveira/sbt-confirma-demissao-de-thayse-teixeira-leia-nota"
+      },
+      {
+       "name": "Terra",
+       "url": "https://www.terra.com.br/diversao/tv/sbt-anuncia-demissao-de-thayse-teixeira-apos-apresentadora-questionar-resultado-das-eleicoes-ao-vivo,aa385e6e74d032045b35e9258d6e9405ywn6hesb.html"
+      }
+     ],
+     "hooks": [
+      "Demitida um dia depois de falar ao vivo.",
+      "O SBT demitiu Thayse Teixeira.",
+      "Qual é o limite da opinião na TV?"
+     ],
+     "script": "O SBT demitiu a apresentadora Thayse Teixeira. Foi na quarta-feira, um dia depois de ela questionar, ao vivo, a prorrogação do horário de votação do segundo turno. A emissora não ligou a saída à fala. Segundo a coluna de Fábia Oliveira, no Metrópoles, a justificativa dada a ela foi corte de custos. Eu não vou afirmar o motivo, porque não está provado. Mas o calendário chama atenção, e o público tem o direito de perguntar. Em país de imprensa livre, a emissora decide quem fica no ar, e o telespectador decide o que pensa disso. Me diz nos comentários: foi coincidência?",
+     "screen_text": [
+      "SBT demite Thayse Teixeira",
+      "Um dia depois de questionar a votação ao vivo",
+      "SBT não ligou a saída à fala",
+      "Justificativa dada: corte de custos"
+     ],
+     "caption": "O SBT demitiu Thayse Teixeira um dia depois de ela questionar ao vivo a prorrogação do horário de votação. A emissora não ligou a saída à fala. Foi coincidência? Comenta.",
+     "risk": "médio",
+     "risk_note": "Médio: o roteiro não afirma o motivo da demissão e não endossa a tese de fraude. Se o SBT ou ela se pronunciarem, atualize antes de publicar.",
+     "timeline": {
+      "rende": false,
+      "angle": "Só vale se houver novo desdobramento."
+     }
+    }
+   ]
+  },
+  {
+   "requested": "2026-10-29",
+   "done": "2026-10-29T05:58:59-03:00",
+   "issue": 119,
+   "slot_hint": "Reel hoje (29) às 18h ou imagem às 12h.",
+   "source": {
+    "edition": "2026-10-28-19h",
+    "item_id": "x:6",
+    "title": "Em alta no X: Alcolumbre"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "Alcolumbre planeja articular indulto ou anistia a Bolsonaro para ter votos da direita na reeleição ao Senado, diz Folha",
+     "tone": "contundente",
+     "duration": "imagem única",
+     "fact": "Em reportagem de 28/10/2026, baseada em dois aliados de Davi Alcolumbre (União-AP), a Folha informa que o presidente do Senado planeja articular um indulto humanitário a Jair Bolsonaro, pedido a Lula, ou, se Lula recusar, uma anistia aprovada pelo Congresso, em busca de votos da direita para se reeleger presidente do Senado na votação de fevereiro de 2027. O voto é secreto, e a direita é peça-chave: os senadores Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS) contam com a maioria da direita para derrotá-lo. As reportagens também citam que o acordo incluiria frear a pressão por impeachment de ministros do STF. Na terça (27/10), a federação União Brasil e PP formalizou apoio à recondução de Alcolumbre, esvaziando a candidatura de Tereza Cristina, e as bancadas ficaram divididas. É plano relatado por aliados, não negociação confirmada, e Alcolumbre e Lula não se manifestaram nas matérias consultadas.",
+     "sources": [
+      {
+       "name": "O Tempo",
+       "url": "https://www.otempo.com.br/politica/congresso/2026/10/28/alcolumbre-planeja-indulto-ou-anistia-a-bolsonaro-em-busca-de-votos-da-direita-para-se-reeleger"
+      },
+      {
+       "name": "Jornal do Comércio",
+       "url": "https://www.jornaldocomercio.com/politica/2026/10/1268469-uniao-brasil-e-pp-apoiam-reeleicao-de-alcolumbre-para-chefia-do-senado-e-escanteiam-tereza-cristina.html"
+      }
+     ],
+     "art_text": [
+      "Alcolumbre quer votos da direita",
+      "Plano: indulto ou anistia a Bolsonaro",
+      "Reeleição no Senado: fevereiro de 2027",
+      "Se pede o voto, tem que entregar a anistia",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Davi Alcolumbre (presidente do Senado): é o personagem central do plano noticiado. Retratado de terno, em pé diante do plenário do Senado, com uma urna de votação secreta à frente e um olhar calculista (opinião gráfica). Sem Bolsonaro em cena.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). Quem aparece: Davi Alcolumbre, presidente do Senado, de terno, em pé na tribuna do plenário do Senado, mão sobre uma urna de votação, olhar atento e calculista, sobrancelha levantada. Ao fundo, a cúpula do Congresso e as bancadas do plenário em sombra. Fundo escuro com textura. No alto, em letras condensadas, brancas e pesadas: 'ALCOLUMBRE QUER OS VOTOS DA DIREITA'. Em um quadro amarelo: 'PLANO: INDULTO OU ANISTIA A BOLSONARO'. Em um quadro vermelho: 'REELEIÇÃO NO SENADO: FEVEREIRO DE 2027'. Embaixo, com sublinhado vermelho pincelado: 'Pediu o voto? Entregue a anistia.'. Sem logos nem marcas. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "Segundo a Folha, aliados de Alcolumbre dizem que ele planeja articular indulto ou anistia a Bolsonaro em busca de votos da direita para se reeleger presidente do Senado em fevereiro. Se é para pedir o voto da direita, que a pauta da anistia saia do papel e não fique só na campanha. O que você acha?",
+     "risk": "médio",
+     "risk_note": "Médio: é plano relatado por dois aliados, não negociação confirmada; mantenha \"segundo a Folha\" (uma única atribuição) e não afirme acordo fechado. A cobrança da anistia é opinião do Rogerio. Confirmar se Alcolumbre ou Lula se manifestaram antes de publicar.",
+     "timeline": {
+      "rende": true,
+      "angle": "Acompanhar a disputa do Senado e a reação de Alcolumbre, Marinho e Tereza Cristina."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Alcolumbre planeja articular indulto ou anistia a Bolsonaro para ter votos da direita na reeleição ao Senado, diz Folha",
+     "tone": "contundente",
+     "duration": "45 a 60 segundos",
+     "fact": "Em reportagem de 28/10/2026, baseada em dois aliados de Davi Alcolumbre (União-AP), a Folha informa que o presidente do Senado planeja articular um indulto humanitário a Jair Bolsonaro, pedido a Lula, ou, se Lula recusar, uma anistia aprovada pelo Congresso, em busca de votos da direita para se reeleger presidente do Senado na votação de fevereiro de 2027. O voto é secreto, e a direita é peça-chave: os senadores Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS) contam com a maioria da direita para derrotá-lo. As reportagens também citam que o acordo incluiria frear a pressão por impeachment de ministros do STF. Na terça (27/10), a federação União Brasil e PP formalizou apoio à recondução de Alcolumbre, esvaziando a candidatura de Tereza Cristina, e as bancadas ficaram divididas. É plano relatado por aliados, não negociação confirmada, e Alcolumbre e Lula não se manifestaram nas matérias consultadas.",
+     "sources": [
+      {
+       "name": "O Tempo",
+       "url": "https://www.otempo.com.br/politica/congresso/2026/10/28/alcolumbre-planeja-indulto-ou-anistia-a-bolsonaro-em-busca-de-votos-da-direita-para-se-reeleger"
+      },
+      {
+       "name": "Jornal do Comércio",
+       "url": "https://www.jornaldocomercio.com/politica/2026/10/1268469-uniao-brasil-e-pp-apoiam-reeleicao-de-alcolumbre-para-chefia-do-senado-e-escanteiam-tereza-cristina.html"
+      }
+     ],
+     "hooks": [
+      "Alcolumbre quer o voto da direita e fala em anistia.",
+      "Indulto a Bolsonaro virou moeda de reeleição?",
+      "Pediu o voto da direita? Então entregue a anistia."
+     ],
+     "script": "Alcolumbre quer o voto da direita e agora fala em anistia. Segundo a Folha, aliados dele dizem que o presidente do Senado planeja articular um indulto humanitário a Bolsonaro, pedido a Lula, e, se Lula recusar, uma anistia no Congresso. Tudo para conseguir votos da direita na reeleição ao comando do Senado, em fevereiro. O voto é secreto, e a direita pesa. Marinho e Tereza Cristina contam justamente com ela para derrotá-lo. Enquanto isso, União Brasil e PP já formalizaram apoio à recondução dele. Eu digo o que a direita vai perguntar: se é para pedir voto, qual é o compromisso por escrito? Anistia não pode ser só promessa de campanha de Senado. É plano relatado por aliados, ainda não é acordo confirmado, mas o recado está dado. E você, confia?",
+     "screen_text": [
+      "Alcolumbre quer votos da direita",
+      "Plano: indulto ou anistia a Bolsonaro",
+      "Votação: fevereiro de 2027",
+      "Voto secreto",
+      "Compromisso por escrito?"
+     ],
+     "caption": "Segundo a Folha, aliados de Alcolumbre dizem que ele planeja articular indulto ou anistia a Bolsonaro em busca de votos da direita para se reeleger. Se é para pedir o voto, qual é o compromisso? Comenta.",
+     "risk": "médio",
+     "risk_note": "Médio: plano relatado por aliados, ainda não confirmado; o roteiro marca isso e usa uma única atribuição. Atualizar se Alcolumbre se manifestar.",
+     "timeline": {
+      "rende": true,
+      "angle": "Cobrar o compromisso de Alcolumbre com a anistia e acompanhar a disputa."
+     }
+    }
+   ]
+  },
+  {
    "requested": "2026-10-28",
    "done": "2026-10-28T23:59:30-03:00",
    "issue": 118,
