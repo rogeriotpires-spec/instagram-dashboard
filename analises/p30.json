@@ -1,112 +1,112 @@
 {
- "generated": "2026-10-29T06:26:06-03:00",
- "dias": 30,
- "period": {
-  "start": "2026-09-29",
-  "end": "2026-10-28"
- },
- "compare": "2026-08-30 a 2026-09-28",
- "headline": "Em 30 dias a conta teve 23,5 mi de views (+75%) e 28.951 novos seguidores (+267%); as três imagens de opinião publicadas de manhã tiveram o maior número de seguidores atribuídos.",
- "kpis": [
-  {
-   "label": "Views recebidas pela conta",
-   "value": "23,5 mi",
-   "delta": "+75%",
-   "dir": "up"
+  "generated": "2026-10-30T06:24:15-03:00",
+  "dias": 30,
+  "period": {
+    "start": "2026-09-30",
+    "end": "2026-10-29"
   },
-  {
-   "label": "Novos seguidores",
-   "value": "28.951",
-   "delta": "+267%",
-   "dir": "up"
-  },
-  {
-   "label": "Deixaram de seguir",
-   "value": "1.126",
-   "delta": "+284%",
-   "dir": "down"
-  },
-  {
-   "label": "Compartilhamentos recebidos",
-   "value": "438.852",
-   "delta": "+136%",
-   "dir": "up"
-  },
-  {
-   "label": "Comentários recebidos",
-   "value": "35.201",
-   "delta": "+188%",
-   "dir": "up"
-  },
-  {
-   "label": "Salvamentos recebidos",
-   "value": "59.658",
-   "delta": "+241%",
-   "dir": "up"
-  }
- ],
- "cards": [
-  {
-   "title": "O que funcionou",
-   "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "As imagens de opinião das 6h30 às 7h lideraram os seguidores: \"Fica a reflexão.\" (01/10, 1.237.148 views, 39.548 compartilhamentos, 1.186 seguidores), \"Como dizia o TAXAD, quem foge do debate…\" (11/10, 926.380 views, 1.175 seguidores) e \"Avalanche Bolsonarista!\" (05/10, 615.513 views, 466 seguidores). Nos comentários, ganharam os Reels de reação: \"Meio milhão de seções.\" (364) e \"Inacreditável!\" (290, 15.028 compartilhamentos).",
-   "actions": [
-    "Publique uma imagem de opinião por semana por volta das 7h, no estilo de \"Fica a reflexão.\".",
-    "Use Reels de reação com frase curta no título para gerar comentários."
-   ],
-   "posts": [
-    "Dd8pQedtGZL",
-    "DeVAkiqtPwL",
-    "DeGlubltKVX",
-    "De8104Zt6iS",
-    "DeaQZPRNABT"
-   ]
-  },
-  {
-   "title": "O que não funcionou",
-   "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "\"Se liga!!!\" (Reel, 08h22) fez 688 views. \"Desculpem o desabafo!\" e \"Inacreditável o que esse sujeito asquero…\" aparecem com 0 views no arquivo, mas o segundo tem 25.148 compartilhamentos, então o dado de views parece incompleto. Os 2 carrosséis tiveram mediana de 3.684 views e 1 seguidor no total.",
-   "actions": [
-    "Reveja o dado de views dos posts zerados antes de tirar conclusão sobre eles.",
-    "Deixe os carrosséis de lado até testar um com tema de maior apelo.",
-    "Evite posts sem assunto claro no título."
-   ],
-   "posts": [
-    "De6lr9Ft3I5",
-    "Dd4SfTDttPT",
-    "DeFIOryNZpn"
-   ]
-  },
-  {
-   "title": "Horários",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Os melhores horários por mediana foram 22h (310.805), 18h (143.347), 21h (99.655) e 12h (70.403). Manhã e tarde ficaram baixas: 08h (6.295), 11h (3.679) e 14h (766). Mas as imagens das 7h trouxeram os maiores números de seguidores, então a manhã serve para imagem, não para Reel.",
-   "actions": [
-    "Reels entre 18h e 22h.",
-    "Imagens de opinião às 7h.",
-    "Evite 11h e 14h até testar de novo."
-   ],
-   "posts": [
-    "Dd8pQedtGZL",
-    "De8Q_S9MAJt"
-   ]
-  },
-  {
-   "title": "Seguidores e comparação",
-   "status": "warn",
-   "status_label": "Atenção",
-   "diagnosis": "Foram 28.951 novos seguidores (+267%) e 1.126 que deixaram de seguir (+284%). O período anterior tem só 22 dias de dados de compartilhamentos, comentários, salvamentos e seguidores, então essas altas estão infladas; as views (+75%) têm dado dos 30 dias. As 33 imagens somaram 3.513 seguidores atribuídos, e Política (mediana de 25.845 views, 42 posts) ficou acima de Opinião (13.204, 35 posts).",
-   "actions": [
-    "Use as views (+75%) como medida mais segura de crescimento.",
-    "Mantenha as imagens de opinião como fonte de seguidores e os Reels de política como fonte de alcance."
-   ],
-   "posts": [
-    "Dd8pQedtGZL",
-    "DeVAkiqtPwL"
-   ]
-  }
- ]
+  "compare": "2026-08-31 a 2026-09-29",
+  "headline": "Em 30 dias (30/09 a 29/10) a conta recebeu 23,5 mi de views (+69%) e 31.983 novos seguidores (+290%), com as imagens de opinião no topo dos seguidores.",
+  "kpis": [
+    {
+      "label": "Views recebidas pela conta",
+      "value": "23,5 mi",
+      "delta": "+69%",
+      "dir": "up"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "31.983",
+      "delta": "+290%",
+      "dir": "up"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "1.207",
+      "delta": "+287%",
+      "dir": "down"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "442 mil",
+      "delta": "+124%",
+      "dir": "up"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "36.180",
+      "delta": "+190%",
+      "dir": "up"
+    },
+    {
+      "label": "Salvamentos recebidos",
+      "value": "61.651",
+      "delta": "+239%",
+      "dir": "up"
+    }
+  ],
+  "cards": [
+    {
+      "title": "O que funcionou",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "As imagens de opinião lideraram em views e seguidores. \"Fica a reflexão.\" teve 1.237.691 views, 39.552 compartilhamentos e 1.188 seguidores. \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 926.428 views e 1.175 seguidores. \"Avalanche Bolsonarista!\" teve 615.525 views e 466 seguidores. O Reel \"Fiz a conta do primeiro para o segundo turno e ela não…\" teve 977.159 views.",
+      "actions": [
+        "Mantenha uma imagem de opinião forte por semana, com frase curta e provocativa.",
+        "Repita Reels com conta ou número, como o do segundo turno.",
+        "Peça o compartilhamento no texto da legenda dos posts de opinião."
+      ],
+      "posts": [
+        "Dd8pQedtGZL",
+        "DeVAkiqtPwL",
+        "DeGlubltKVX",
+        "De8Q_S9MAJt"
+      ]
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "bad",
+      "status_label": "Evitar",
+      "diagnosis": "Os piores posts foram Reels de política: \"Se liga!!!\" (737 views, pulado por 65%), \"Autoexplicativo (debate)\" (1.345 views, pulado por 60%, 23,1s) e \"Sabe se isso é IA?\" (1.350 views, 39 comentários). Os dois carrosséis tiveram mediana de 3.686 views. Os posts mais recentes ainda acumulam views, então a comparação com os antigos precisa de cuidado.",
+      "actions": [
+        "Evite Reels que dependem do contexto de outro vídeo, como \"Autoexplicativo (debate)\".",
+        "Evite carrosséis por enquanto: 2 posts, mediana de 3.686 views.",
+        "Revise os títulos fracos: diga o fato na primeira linha."
+      ],
+      "posts": [
+        "De6lr9Ft3I5",
+        "Dd_agBPN6Mi",
+        "DeKCMhiNIxP"
+      ]
+    },
+    {
+      "title": "Formatos",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Os 40 Reels tiveram mediana de 28.993 views e 110,5 compartilhamentos, e as 32 imagens tiveram mediana de 14.815 views e 103,5 compartilhamentos. Mesmo assim, as imagens somam 3.513 seguidores, e os Reels não têm seguidores atribuídos no arquivo. Em soma de views, os Reels têm 5,58 mi e as imagens 4,60 mi.",
+      "actions": [
+        "Use Reels para alcance e imagens de opinião para ganhar seguidores.",
+        "Mantenha a proporção atual de Reels e imagens e acompanhe a mediana de cada um."
+      ],
+      "posts": [
+        "Dd8pQedtGZL",
+        "De8Q_S9MAJt"
+      ]
+    },
+    {
+      "title": "Horários",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Pela mediana de views, 22h lidera com 310.805, seguida de 18h com 143.620, 21h com 99.917 e 20h com 84.649. De manhã os números são menores: 06h teve 12.749 e 08h teve 5.568. Alguns horários têm só um post, como 00h (977.159), então use como tendência.",
+      "actions": [
+        "Priorize publicar entre 18h e 22h.",
+        "Teste uma imagem às 22h na próxima semana.",
+        "Evite as 14h, que tiveram mediana de 4.451 views."
+      ],
+      "posts": [
+        "DeVAkiqtPwL",
+        "De8Q_S9MAJt"
+      ]
+    }
+  ]
 }

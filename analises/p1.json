@@ -1,105 +1,94 @@
 {
- "generated": "2026-10-29T06:26:06-03:00",
- "dias": 1,
- "period": {
-  "start": "2026-10-28",
-  "end": "2026-10-28"
- },
- "compare": "média dos 7 dias anteriores",
- "headline": "Em 28/10 a conta teve 1.273.037 views (−5% contra a média dos 7 dias anteriores) e você publicou 2 Reels: o das 12h35 fez 229.650 views e 9.239 compartilhamentos.",
- "kpis": [
-  {
-   "label": "Views recebidas pela conta",
-   "value": "1,27 mi",
-   "delta": "−5%",
-   "dir": "down"
+  "generated": "2026-10-30T06:24:15-03:00",
+  "dias": 1,
+  "period": {
+    "start": "2026-10-29",
+    "end": "2026-10-29"
   },
-  {
-   "label": "Novos seguidores",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Deixaram de seguir",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Compartilhamentos recebidos",
-   "value": "21.637",
-   "delta": "+11%",
-   "dir": "up"
-  },
-  {
-   "label": "Comentários recebidos",
-   "value": "603",
-   "delta": "−74%",
-   "dir": "down"
-  },
-  {
-   "label": "Alcance médio por dia",
-   "value": "575 mil",
-   "delta": "+87%",
-   "dir": "up"
-  }
- ],
- "cards": [
-  {
-   "title": "O que funcionou",
-   "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "O Reel \"Recebi milhares de boletins de urna no meu Direct e não…\" (12h35, 51,6s) fez 229.650 views, 143.966 de alcance, 9.239 compartilhamentos e 1.796 salvamentos. Os compartilhamentos do dia (21.637) ficaram 11% acima da média diária da semana anterior e os salvamentos (4.521), 20% acima.",
-   "actions": [
-    "Repita o formato de bastidor com prova na tela, como os boletins de urna, perto do meio-dia.",
-    "Peça para salvar e compartilhar no fim do vídeo, já que esses dois números subiram no dia."
-   ],
-   "posts": [
-    "DfCvr4CN878"
-   ]
-  },
-  {
-   "title": "O que não funcionou",
-   "status": "warn",
-   "status_label": "Atenção",
-   "diagnosis": "Os comentários do dia foram 603, 74% abaixo da média diária da semana anterior, e as contas com interação por dia chegaram a 62.063, 24% abaixo. O Reel das 19h teve só 88 comentários, contra 231 do das 12h35.",
-   "actions": [
-    "Termine o próximo Reel com uma pergunta direta para o público responder nos comentários.",
-    "Responda os primeiros comentários na primeira hora depois de publicar."
-   ],
-   "posts": [
-    "DfDdHQiN914",
-    "DfCvr4CN878"
-   ]
-  },
-  {
-   "title": "Horários",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "O Reel das 12h (229.650 views) passou o das 19h (91.585 views), mas ele tinha 16,7 horas de vida e o outro, 10,3 horas, então a comparação ainda não é justa. Os dois somam 321.235 views, de 1.273.037 da conta no dia.",
-   "actions": [
-    "Compare os dois de novo amanhã, quando tiverem idades parecidas.",
-    "Mantenha um Reel ao meio-dia e outro à noite para testar."
-   ],
-   "posts": [
-    "DfCvr4CN878",
-    "DfDdHQiN914"
-   ]
-  },
-  {
-   "title": "Retenção dos Reels",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "O Reel das 12h35 foi assistido até 25s de 51,6s, com 32% de pulos. O das 19h, de 113,1s, foi assistido até 40s, com 36% de pulos e 6.031 compartilhamentos. Não há dado de novos seguidores nem de quem deixou de seguir para o dia.",
-   "actions": [
-    "Corte os Reels longos perto dos 60s e leve o ponto mais forte para os primeiros segundos.",
-    "Confira amanhã os seguidores do dia, que ainda não chegaram."
-   ],
-   "posts": [
-    "DfDdHQiN914",
-    "DfCvr4CN878"
-   ]
-  }
- ]
+  "compare": "média dos 7 dias anteriores",
+  "headline": "Em 29/10 a conta recebeu 582 mil views, 60% abaixo da média dos 7 dias anteriores, e o dia teve 0 publicações.",
+  "kpis": [
+    {
+      "label": "Views recebidas pela conta",
+      "value": "582 mil",
+      "delta": "−60%",
+      "dir": "down"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "15.408",
+      "delta": "−24%",
+      "dir": "down"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "1.262",
+      "delta": "−45%",
+      "dir": "down"
+    },
+    {
+      "label": "Alcance médio por dia",
+      "value": "141 mil",
+      "delta": "−60%",
+      "dir": "down"
+    }
+  ],
+  "cards": [
+    {
+      "title": "O que funcionou",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Mesmo sem publicação nova, a conta teve 15.408 compartilhamentos, 2.696 salvamentos e 38.088 curtidas em 29/10. Foram 36.421 contas com interação no dia, o que mostra que o conteúdo dos dias anteriores seguiu circulando.",
+      "actions": [
+        "Aproveite os posts que ainda circulam: responda os comentários mais recentes deles.",
+        "Fixe ou compartilhe nos Stories o post que segue rendendo, para estender o alcance."
+      ],
+      "posts": []
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "O dia teve 0 publicações e as views ficaram 60% abaixo da média da semana anterior. O alcance médio caiu 60% e as contas com interação por dia caíram 56%. A queda coincidiu com a ausência de posts novos.",
+      "actions": [
+        "Evite dias inteiros sem publicar durante a reta final da campanha.",
+        "Deixe pelo menos um Reel curto agendado para o fim da tarde, quando o dia estiver sem pauta."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Publicações do dia",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Não houve post publicado em 29/10, então não há melhores nem piores para comparar. A comparação é só com a média dos 7 dias anteriores, que teve 1.273.456 views.",
+      "actions": [
+        "Defina um mínimo de uma publicação por dia.",
+        "Se o dia ficar sem pauta, reaproveite um tema que já rendeu, com ângulo novo."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Comentários e interação",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Os comentários somaram 1.262 no dia, 45% abaixo da média dos 7 dias anteriores. Os compartilhamentos caíram menos, 24%, e os salvamentos caíram 34%. A conversa nos comentários perdeu mais força que o compartilhamento.",
+      "actions": [
+        "Faça uma pergunta direta no próximo post para recuperar os comentários.",
+        "Responda os comentários na primeira hora depois de publicar."
+      ],
+      "posts": []
+    }
+  ]
 }
