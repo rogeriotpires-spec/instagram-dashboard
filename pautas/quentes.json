@@ -1,6 +1,30 @@
 {
   "alerts": [
     {
+      "time": "2026-10-30T18:23:05-03:00",
+      "title": "Michelle diz que Bolsonaro defende união da direita e rejeita a busca por culpados pela derrota de Flávio",
+      "fact": "Nesta sexta (30), em redes sociais, a senadora eleita Michelle Bolsonaro (PL-DF) escreveu: \"O meu marido ressalta que é momento de união e não de procurar culpados\". Ela disse que Jair Bolsonaro, proibido de usar redes, agradece o empenho dos apoiadores na campanha de Flávio e sente respeito e gratidão por Tarcísio de Freitas, Damares Alves, Nikolas Ferreira e Silas Malafaia, que ela diz estarem sendo atacados. A mensagem vem um dia depois de Valdemar Costa Neto dizer que não gostou da carta de Flávio.",
+      "sources": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/bolsonaro-defende-uniao-e-rejeita-busca-por-culpados-pela-derrota-de-flavio-diz-michelle/"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/michelle-publica-mensagem-e-diz-que-bolsonaro-defende-uniao-entre-aliados/"
+        }
+      ],
+      "suggestion": "Story com enquete hoje às 19h30 e reel curto amanhã às 8h, com foco na mensagem de união atribuída a Bolsonaro.",
+      "hook": "Bolsonaro pede união da direita, diz Michelle.",
+      "script": "Jair Bolsonaro mandou um recado à direita por meio de Michelle: é momento de união, não de procurar culpados. Segundo ela, ele agradece o sacrifício de cada apoiador na campanha de Flávio e tem respeito e gratidão por Tarcísio, Damares, Nikolas e Malafaia. Michelle pediu que ninguém caia em enganação de quem semeia ódio e divisão. A direita saiu de 48% dos votos e não vai se dividir agora. Você concorda com o pedido de união? Responde aqui nos comentários.",
+      "image_prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho). Cena: Michelle Bolsonaro, senadora eleita, de pé diante de um microfone e de um celular erguido, expressão firme e serena, gesto de mão aberta pedindo calma; atrás dela, silhuetas de apoiadores lado a lado com bandeiras do Brasil, fundo escuro com textura e a silhueta do Congresso. No alto, em letras condensadas, brancas e pesadas: \"BOLSONARO PEDE UNIÃO\". Num quadro amarelo no centro: \"MOMENTO DE UNIÃO, NÃO DE PROCURAR CULPADOS\". Num quadro vermelho: \"RECADO VIA MICHELLE\". Embaixo, com sublinhado vermelho pincelado: \"A direita vai ouvir?\". Selo \"Imagem ilustrativa\" no canto inferior esquerdo. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+      "style": "ilustracao",
+      "timeline": {
+        "rende": "alto",
+        "angle": "Michelle diz que Bolsonaro pede união da direita e rejeita a busca por culpados pela derrota de Flávio."
+      }
+    },
+    {
       "time": "2026-10-29T18:25:23-03:00",
       "title": "Trump diz que não tomou partido na eleição do Brasil porque Lula pediu e chama a votação de \"desgraça\"",
       "fact": "Nesta quinta (29), a jornalistas, Donald Trump disse que Lula lhe pediu para não tomar partido na eleição brasileira e que ele atendeu. Trump afirmou que a eleição foi uma desgraça e uma vergonha para o Brasil, disse que \"o mercado despencou\" e que vai conversar com Lula. Perguntado se reconhece a vitória do petista, não respondeu, e sobre Flávio Bolsonaro disse que ele e a família foram \"tratados de forma muito injusta\".",
