@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-31",
+  "weekday": "Sáb",
+  "generated": "2026-10-30T20:16:03-03:00",
+  "summary": "Sábado de bolso e de poder: Fachin tirou da pauta, menos de 24 horas depois de marcá-lo, o julgamento dos royalties do petróleo que o Rio esperava para 4/11; os MEIs começaram a receber os avisos do perdão de dívidas, e golpistas já circulam em volta; Hugo Motta quer votar ainda em 2026 a PEC do voto distrital misto, e o PL ficou de fora da reunião do Centrão; e o Enem 2026 chega com 5 milhões de inscritos confirmados a oito dias da primeira prova.",
+  "agenda": [
+    {
+      "time": "4/11",
+      "text": "Data em que o STF havia marcado o julgamento dos royalties do petróleo, retirado da pauta por Fachin na noite de 29/10. Não há nova data.",
+      "source": {
+        "name": "Brasil em Folhas",
+        "url": "https://brasilemfolhas.com.br/2026/10/stf-adia-julgamento-sobre-royalties-do-petroleo/"
+      }
+    },
+    {
+      "time": "8/11",
+      "text": "Primeiro dia de provas do Enem 2026, que tem 5.051.345 inscrições confirmadas. A segunda prova é em 15/11.",
+      "source": {
+        "name": "Agência Gov",
+        "url": "https://agenciagov.ebc.com.br/noticias/202610/painel-enem-2026-apresenta-perfil-dos-participantes-do-exame"
+      }
+    },
+    {
+      "time": "1º/1/2027",
+      "text": "Data em que as dívidas federais de MEI previstas na Lei Complementar 238/2026 passam a ser extintas, sem pedido do empreendedor.",
+      "source": {
+        "name": "O Povo",
+        "url": "https://mais.opovo.com.br/jornal/farol/2026/10/28/meis-comecam-a-ser-notificados-sobre-perdao-de-dividas-pelo-governo.html"
+      }
+    },
+    {
+      "time": "Novembro",
+      "text": "Prazo que o Centrão quer para aprovar a reforma do sistema eleitoral, antes da posse dos novos parlamentares.",
+      "source": {
+        "name": "A Crítica",
+        "url": "https://acritica.net/politica/valdemar-critica-reforma-eleitoral-centrao/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "10h30",
+      "type": "i",
+      "kind": "Imagem em tom pessoal",
+      "options": [
+        {
+          "title": "Fachin tira da pauta os royalties, e o Rio segue sob risco de perder R$ 10 bi",
+          "tone": "emocional",
+          "style": "ilustracao",
+          "fact": "Na noite de quinta (29/10), o presidente do STF, Edson Fachin, retirou da pauta o julgamento da redistribuição dos royalties e das participações especiais do petróleo, marcado para quarta (4/11), menos de 24 horas depois de incluí-lo no calendário. Não há nova data. Pelas contas do governo fluminense, o Rio perde R$ 9,937 bilhões em 2026 se a Lei 12.734/2012 valer integralmente, e R$ 2,309 bilhões se valer só para contratos novos. A Associação Comercial do Rio fala em cerca de R$ 10 bilhões por ano. A relatora, Cármen Lúcia, já votou pela inconstitucionalidade de dispositivos centrais da lei, e o julgamento foi suspenso por pedido de vista de Flávio Dino.",
+          "sources": [
+            {
+              "name": "Brasil em Folhas",
+              "url": "https://brasilemfolhas.com.br/2026/10/stf-adia-julgamento-sobre-royalties-do-petroleo/"
+            },
+            {
+              "name": "Mancheterio",
+              "url": "https://mancheterio.com.br/stf-adia-julgamento-sobre-royalties-do-petroleo-rio-pode-perder-r-10-bilhoes-por-ano/"
+            }
+          ],
+          "art_text": [
+            "R$ 10 bilhões por ano",
+            "O Rio ainda não sabe quanto vai perder",
+            "Quando o STF volta a julgar?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Edson Fachin (presidente do STF), que retirou o julgamento da pauta. Ilustração estilo charge, sem foto real. Risco baixo: ele aparece apenas diante de um calendário, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Edson Fachin (presidente do STF, toga preta, óculos, barba grisalha) de pé diante de um grande calendário de parede em que a folha do dia 4 está sendo arrancada, com expressão séria e impassível. Ao fundo, a fachada estilizada do STF e, menor, a silhueta do Cristo Redentor com a luz apagada. No alto, em amarelo, letras condensadas e muito pesadas: \"R$ 10 bilhões por ano\". Logo abaixo, em branco, letras grandes e pesadas: \"O Rio ainda não sabe quanto vai perder\". Embaixo, em branco com sublinhado vermelho pincelado: \"Quando o STF volta a julgar?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essa pessoa, use silhueta reconhecível pelo contexto e mantenha o resto da composição.",
+          "caption": "O julgamento estava marcado para 4/11 e saiu da pauta menos de 24 horas depois. O Rio fala em até R$ 10 bilhões por ano em jogo e continua sem data. Você acha que o STF deveria julgar isso ainda este ano? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não atribua intenção a Fachin: a matéria só informa que ele retirou o processo da pauta, sem explicar o motivo. Os R$ 10 bilhões são estimativa da Associação Comercial; o número do governo estadual é R$ 9,937 bilhões em 2026. Se o STF marcar nova data antes da publicação, troque a pergunta.",
+          "timeline": {
+            "rende": true,
+            "angle": "Royalties do petróleo: o que a Lei 12.734/2012 muda, por que a liminar de 2013 segue valendo, quanto o Rio e os municípios produtores podem perder e o que o adiamento significa para o orçamento fluminense."
+          }
+        },
+        {
+          "title": "MEI começa a receber aviso do perdão de dívidas, e os golpistas já circulam",
+          "tone": "sóbrio",
+          "style": "realista",
+          "fact": "A Lei Complementar 238/2026, sancionada em 21/10, perdoa dívidas federais de MEI com vencimento até 13/10/2026, cerca de R$ 12,6 bilhões para até 3,6 milhões de empreendedores. A extinção é automática, a partir de 1º/1/2027, sem cadastro. Para manter o benefício, o MEI precisa continuar enquadrado, pagar em dia o DAS dos meses seguintes e desistir de ações contra a União sobre essas dívidas. ICMS e ISS não entram, e valores já pagos não são devolvidos. Os avisos oficiais chegam pelo WhatsApp do Governo Federal e pela caixa postal do Gov.br. O governo diz que não pede dados pessoais, não cobra taxa e não envia link de pagamento.",
+          "sources": [
+            {
+              "name": "O Povo",
+              "url": "https://mais.opovo.com.br/jornal/farol/2026/10/28/meis-comecam-a-ser-notificados-sobre-perdao-de-dividas-pelo-governo.html"
+            },
+            {
+              "name": "Diário do Grande ABC",
+              "url": "https://www.dgabc.com.br/Noticia/4365539/governo-avisa-meis-sobre-perdao-de-dividas-veja-as-regras"
+            }
+          ],
+          "art_text": [
+            "Perdão do MEI não tem taxa",
+            "Quem cobra para \"liberar\" é golpista",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Balcão de uma pequena loja de bairro, celular com mensagem de aviso sobre a mesa, mãos de um comerciante de costas. Sem logo do Gov.br ou de banco.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz natural de fim de tarde. Balcão de madeira de uma pequena loja de bairro, com uma calculadora, um caderno de anotações e um celular com a tela acesa mostrando uma notificação genérica sem logo. Ao fundo, desfocadas, prateleiras com produtos. Ao lado do balcão, as mãos de um comerciante, de costas, segurando uma caneta, sem mostrar rosto. Clima sério e acolhedor. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"Perdão do MEI não tem taxa\". No terço inferior, em amarelo, letras pesadas: \"Quem cobra para liberar é golpista\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Se você é MEI, guarde isto: o perdão é automático, não pede senha, não cobra taxa e não manda link de pagamento. Quem pedir dinheiro para liberar é golpista. Você conhece algum MEI que já recebeu mensagem suspeita? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A lei é do governo Lula: dê o serviço ao MEI sem elogiar o governo. Há divergência entre as matérias sobre os meses de pagamento em dia (uma cita janeiro a julho de 2027, a outra, seis meses após a vigência); por isso o texto diz só \"meses seguintes\". Não prometa que todo MEI será perdoado: ICMS e ISS ficam de fora.",
+          "timeline": {
+            "rende": true,
+            "angle": "Perdão de dívidas do MEI: quem entra, o que fica de fora, a regra dos pagamentos em dia, o novo teto de R$ 140 mil e como se proteger de golpes."
+          }
+        }
+      ]
+    },
+    {
+      "time": "20h",
+      "type": "r",
+      "kind": "Reel curto de bastidor da véspera",
+      "options": [
+        {
+          "title": "Motta quer votar o voto distrital misto ainda em 2026, e o PL ficou de fora",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "fact": "Hugo Motta quer votar ainda em 2026 uma PEC que troca o sistema proporcional pelo voto distrital misto a partir de 2034, com transição em 2030. Metade das vagas seria eleita por distritos e a outra metade por listas fechadas dos partidos. A PEC precisa de 3/5 dos membros de cada Casa em dois turnos. Na reunião de 28/10 estavam PSB, União Brasil, PP, PSD, Republicanos, MDB, PSDB-Cidadania e Podemos; PL e PT não foram. O PL tem 121 dos 513 deputados da próxima legislatura. Em 19/10, Valdemar Costa Neto disse: \"Somos contra, o povo não vai entender isso nunca. Só é bom para dirigente partidário.\" O Centrão quer aprovar em novembro, antes da posse dos novos parlamentares.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-congresso/deputados-negociam-voto-distrital-em-2034-em-reuniao-com-motta/"
+            },
+            {
+              "name": "A Crítica",
+              "url": "https://acritica.net/politica/valdemar-critica-reforma-eleitoral-centrao/"
+            }
+          ],
+          "hooks": [
+            "Metade da Câmara escolhida por lista fechada do partido. Você escolhe o nome?",
+            "Mudam a regra do seu voto e o maior partido da Câmara nem foi chamado."
+          ],
+          "script": "Querem mudar a regra do seu voto e o maior partido da Câmara nem foi chamado para a reunião. O presidente da Câmara, Hugo Motta, quer votar ainda este ano uma PEC do voto distrital misto, para valer em 2034. Metade das vagas sairia de distritos. A outra metade, de lista fechada do partido, em que você não escolhe o nome. O PL elegeu 121 deputados e ficou de fora da conversa. Valdemar já disse: somos contra, o povo não vai entender isso nunca. Mudar a regra do jogo logo depois da eleição, com pressa, é para o eleitor entender ou para o dirigente de partido? Responde: o eleitor deve poder escolher o nome do deputado? Sim ou não.",
+          "screen_text": [
+            "Voto distrital misto",
+            "Metade por lista fechada",
+            "PL de fora da reunião",
+            "Você escolhe o nome?"
+          ],
+          "caption": "Querem votar ainda este ano a mudança na regra do seu voto. O eleitor deve poder escolher o nome do deputado? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A fala de Valdemar é de 19/10, sobre a articulação do Centrão, e não sobre o texto final da PEC, que ainda não existe. Não diga que o PL aprovou ou rejeitou a PEC; o partido só não foi à reunião de 28/10. Não traga a avaliação de Aécio sobre o PL.",
+          "timeline": {
+            "rende": true,
+            "angle": "Voto distrital misto: como funciona, o que muda para o eleitor que hoje escolhe o nome do candidato, por que o Centrão tem pressa e o que o PL e a direita defendem."
+          }
+        },
+        {
+          "title": "Enem 2026 chega a 5 milhões de inscritos, e a primeira prova é dia 8",
+          "tone": "emocional",
+          "duration": "20 a 25s",
+          "fact": "O Painel Enem 2026 mostra 5.051.345 inscrições confirmadas, de 5.655.423 feitas. Dessas, 3.432.111 são gratuitas. Já concluíram o ensino médio 1.610.522 candidatos, e 2.364.868 estão no último ano. Há 359.607 participantes entre 31 e 59 anos e 13.821 com 60 anos ou mais. As provas são em 8 e 15 de novembro.",
+          "sources": [
+            {
+              "name": "Agência Gov",
+              "url": "https://agenciagov.ebc.com.br/noticias/202610/painel-enem-2026-apresenta-perfil-dos-participantes-do-exame"
+            }
+          ],
+          "hooks": [
+            "Faltam 8 dias. 13.821 pessoas com 60 anos ou mais vão fazer o Enem.",
+            "5 milhões de brasileiros dormem tensos na véspera do Enem."
+          ],
+          "script": "Faltam oito dias para o Enem. São 5 milhões de inscrições confirmadas. Mais de 3 milhões e 400 mil são gratuitas. Tem 1 milhão e 600 mil que já terminaram o ensino médio e tentam de novo, e 13 mil e 800 com 60 anos ou mais. Atrás de cada número tem uma família rezando, pagando cursinho, apertando o orçamento. Se você tem filho, neto ou sobrinho fazendo a prova, manda este vídeo para ele com um recado de força. Você já fez o Enem? Responde sim ou não.",
+          "screen_text": [
+            "Enem: 8 e 15 de novembro",
+            "5.051.345 inscritos",
+            "13.821 têm 60 anos ou mais",
+            "Manda para quem vai fazer"
+          ],
+          "caption": "Faltam 8 dias para a primeira prova do Enem. Marque ou envie para quem vai fazer. Você já fez o Enem? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Tema de serviço e de afeto, sem crítica política. Confirme as datas no site do Inep antes de publicar. Não diga que há mais de 5 milhões fazendo a prova: são inscrições confirmadas.",
+          "timeline": {
+            "rende": false,
+            "angle": "Não rende artigo: é conteúdo de serviço e emoção, sem fato novo nem tese política que sustente 600 a 1.200 palavras."
+          }
+        }
+      ]
+    }
+  ]
+}
