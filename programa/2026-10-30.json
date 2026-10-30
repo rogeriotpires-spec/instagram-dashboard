@@ -1,396 +1,434 @@
 {
-  "date": "2026-10-30",
-  "generated": "2026-10-30T10:42:13-03:00",
-  "programa": "Conversa Timeline",
-  "titulo": "Flávio perde e deixa o Brasil, Tarcísio é criticado por falar em 2030, Washington Post cobra o STF, e Binance sofre hack de US$ 6,3 bilhões",
-  "abertura": "O programa começa pela direita depois da derrota: Flávio Bolsonaro perdeu por pouco mais de 4,4 milhões de votos, deixou o Brasil e abriu a disputa pelo comando da oposição, com aliados dele dizendo que Tarcísio \"queimou a largada\" ao falar em 2030. Em seguida, o Washington Post publicou editorial dizendo que juízes brasileiros investigam, acusam e julgam ao mesmo tempo, e que a saída de Flávio expõe problemas na democracia. Também abrimos com o maior ataque hacker da história das criptomoedas, que a Binance estima em US$ 6,3 bilhões, e com a defesa de Vorcaro, que diz que 657 arquivos do celular foram modificados depois da apreensão. No Supremo, Fachin devolveu a Mendonça a investigação do INSS, enquanto o PT promete reforma do Judiciário e os bancos encarecem a casa própria.",
-  "agenda": [
+ "date": "2026-10-30",
+ "generated": "2026-10-30T10:42:13-03:00",
+ "programa": "Conversa Timeline",
+ "titulo": "Flávio perde e deixa o Brasil, Tarcísio é criticado por falar em 2030, Washington Post cobra o STF, Binance sofre hack de US$ 6,3 bilhões e Pé-de-Meia não paga retroativo a quem entra depois",
+ "abertura": "O programa começa pela direita depois da derrota: Flávio Bolsonaro perdeu por pouco mais de 4,4 milhões de votos, deixou o Brasil e abriu a disputa pelo comando da oposição, com aliados dele dizendo que Tarcísio \"queimou a largada\" ao falar em 2030. Em seguida, o Washington Post publicou editorial dizendo que juízes brasileiros investigam, acusam e julgam ao mesmo tempo, e que a saída de Flávio expõe problemas na democracia. Também abrimos com o maior ataque hacker da história das criptomoedas, que a Binance estima em US$ 6,3 bilhões, e com a defesa de Vorcaro, que diz que 657 arquivos do celular foram modificados depois da apreensão. No Supremo, Fachin devolveu a Mendonça a investigação do INSS, enquanto o PT promete reforma do Judiciário e os bancos encarecem a casa própria. Na educação, o Pé-de-Meia, que já atende cerca de 7,2 milhões de estudantes, não paga parcelas atrasadas a quem é incluído depois.",
+ "agenda": [
+  {
+   "time": "30/10",
+   "text": "Entra em vigor a nova taxa mínima do Santander para crédito imobiliário: 12,49% ao ano mais TR",
+   "source": {
+    "name": "Exame",
+    "url": "https://exame.com/mercado-imobiliario/santander-segue-exemplo-de-itau-e-bradesco-e-sobe-juros-da-casa-propria-veja-em-quanto-ficou/"
+   }
+  }
+ ],
+ "itens": [
+  {
+   "id": "binance-hack-bilionario",
+   "bloco": "Economia",
+   "avulsa": true,
+   "pedido": "Assunto em alta no X: Binance. A corretora de criptomoedas sofreu um ataque hacker, congelou US$ 2,54 bilhões em ativos e estima em US$ 6,3 bilhões o valor roubado. Como usar: Explicar com fato o tamanho do ataque e o risco de guardar dinheiro em corretoras.",
+   "titulo": "Binance sofre ataque hacker e estima em US$ 6,3 bilhões o valor roubado",
+   "subtitulo": "Cerca de US$ 3 bilhões foram congelados e a corretora suspendeu os saques até resolver a falha",
+   "resumo": "A Binance, maior corretora de criptomoedas do mundo, sofreu um ataque hacker e estima em cerca de US$ 6,3 bilhões o valor dos ativos levados. Cerca de US$ 3 bilhões foram congelados, entre eles mais de US$ 1,57 bilhão em USDT pela Tether e mais de US$ 800 milhões em USDC pela Circle. A investigação inicial aponta um laptop comprometido de um engenheiro de DevOps como porta de entrada, e a empresa diz que as chaves privadas das carteiras não vazaram. A Binance suspendeu os saques e promete cobrir as perdas com o fundo SAFU, de cerca de US$ 1 bilhão em bitcoin, e com recursos próprios. O episódio mostra o risco de deixar o dinheiro sob a guarda de uma única empresa, longe do controle de quem é o dono dele.",
+   "metafora": "Guardar cripto em corretora é como deixar o dinheiro no cofre de um terceiro: o cofre pode ser forte, mas a chave não está na sua mão.",
+   "contexto": [
+    "O ataque foi divulgado em 29 de outubro, e a Binance estima o prejuízo em cerca de US$ 6,3 bilhões. A Chainalysis calcula US$ 5,9 bilhões pelo valor na hora do roubo.",
+    "Os congelamentos somam cerca de US$ 3 bilhões, incluindo US$ 2,3 bilhões em USDT e USDC. O valor de US$ 2,54 bilhões que circula no X é parcial: as somas mais recentes passam de US$ 3 bilhões.",
+    "A Binance diz que o ataque partiu de um laptop comprometido de um engenheiro de DevOps, usado para chegar a um contêiner de serviço e enviar saques sem autorização.",
+    "A copresidente Yi He disse que a empresa cobrirá todas as perdas com o hack. A Binance e o fundador CZ afirmam que os fundos dos clientes estão seguros.",
+    "TRM Labs, Blockaid e ZachXBT apontam a Coreia do Norte como provável autora, com o grupo Lazarus citado. É atribuição de especialistas, sem conclusão oficial.",
+    "O mercado reagiu: o bitcoin caiu cerca de 4,8% e ficou abaixo de US$ 77 mil, o ether recuou 5,7% e a BNB, 8%."
+   ],
+   "angulo": [
+    "O tamanho do ataque, na casa dos bilhões, mostra que corretora centralizada concentra risco: quem deixa o patrimônio lá depende da segurança de terceiros.",
+    "A origem do ataque foi um laptop de um funcionário, não uma falha do blockchain. O erro foi humano e de processo, e isso pesa na confiança em qualquer plataforma.",
+    "O dinheiro que fica na própria carteira, com a própria chave, é o que dá ao cidadão controle sobre o que é seu. É o mesmo princípio de liberdade que o programa defende em outras áreas.",
+    "Os congelamentos por Tether e Circle mostram que emissoras privadas conseguem travar fundos em horas, o que ajuda a recuperar valores, mas também lembra quem tem poder sobre o dinheiro digital."
+   ],
+   "perguntas": [
+    "Quem guarda dinheiro em corretora hoje sabe de quem é a chave? O que o investidor comum precisa checar antes de deixar o patrimônio lá?",
+    "Se a Binance cobrir tudo com o SAFU e com recursos próprios, o cliente fica protegido de fato, ou a confiança já foi abalada?",
+    "Congelar bilhões em horas por decisão de empresas privadas é proteção ou concentração de poder sobre o dinheiro das pessoas?"
+   ],
+   "atencao": "Valores e autoria ainda em apuração: a Binance não detalhou a perda final e a ligação com a Coreia do Norte é atribuição de especialistas.",
+   "fontes": [
     {
-      "time": "30/10",
-      "text": "Entra em vigor a nova taxa mínima do Santander para crédito imobiliário: 12,49% ao ano mais TR",
-      "source": {
-        "name": "Exame",
-        "url": "https://exame.com/mercado-imobiliario/santander-segue-exemplo-de-itau-e-bradesco-e-sobe-juros-da-casa-propria-veja-em-quanto-ficou/"
-      }
+     "name": "CoinDesk Brasil",
+     "url": "https://www.coindesk.com/pt-br/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
     }
-  ],
-  "itens": [
+   ]
+  },
+  {
+   "id": "vorcaro-celular-arquivos-modificados",
+   "bloco": "STF e instituições",
+   "avulsa": true,
+   "pedido": "Defesa de Vorcaro diz que 657 arquivos do celular foram modificados depois da apreensão e pede a anulação de provas",
+   "titulo": "Defesa de Vorcaro diz que 657 arquivos do celular foram modificados após a apreensão",
+   "subtitulo": "Laudo particular aponta 999 arquivos alterados no total, e a PF não comentou",
+   "resumo": "A defesa de Daniel Vorcaro protocolou no STF, em 29 de outubro, um parecer particular segundo o qual 657 arquivos do celular foram modificados e 436 foram criados em 18 de novembro de 2025, horas depois da prisão, quando o aparelho já estava com a PF. Ao ampliar o período, o perito Marcos Monteiro chega a 999 arquivos modificados após a apreensão, entre eles o banco de dados do WhatsApp. O próprio laudo não diz quem mexeu no aparelho e não conclui que houve adulteração deliberada. A defesa, que contesta as provas tiradas do celular, pede acesso aos dados brutos da extração, aos registros de coleta e à cadeia de custódia, cobrada desde fevereiro. O assunto pesa porque o material do celular sustenta o indiciamento de 15 pessoas pela PF e traz mensagens que citam ministros do Supremo.",
+   "contexto": [
+    "A PF indiciou Vorcaro, o ex-presidente do BRB Paulo Henrique Costa e outras 13 pessoas em relatório parcial de mais de 700 páginas, enviado ao STF em 28 de outubro. A PF fala em fraude em operações de R$ 17,5 bilhões.",
+    "Dos 657 arquivos modificados em 18/11, 59 são bancos de dados. Dos 436 criados, 222 são de preferências do sistema e 94 são imagens HEIC.",
+    "Dos 999 arquivos modificados após a apreensão, 657 são de 18/11, dois de 23/11 e 340 de maio de 2026.",
+    "A defesa cita atividade registrada entre 23h22 e 2h25 da madrugada, com o aparelho sob custódia e em modo avião.",
+    "A PF não comentou o parecer. A polícia já disse que o celular e os arquivos originais da extração seguem sob sua custódia.",
+    "O relator do caso no STF é o ministro André Mendonça, que também vai analisar o pedido da PF de mais 60 dias para concluir as perícias."
+   ],
+   "angulo": [
+    "Cadeia de custódia é regra básica do processo penal: se a PF tem os registros, entregá-los à defesa e ao Supremo encerra a dúvida em poucos dias.",
+    "Um laudo particular não prova adulteração e o próprio perito não afirma isso. O que o laudo prova é que a PF precisa explicar cada alteração, com data e hora.",
+    "Quem defende o Estado de Direito quer prova sólida: se o material sustenta acusações graves, inclusive citações a ministros do STF, ele precisa resistir a qualquer questionamento técnico.",
+    "A situação do perito da PF investigado por vazar dados do celular, em maio, é motivo a mais para a transparência na custódia."
+   ],
+   "perguntas": [
+    "A PF deveria abrir os dados brutos e a cadeia de custódia agora, sem esperar o fim das perícias?",
+    "Arquivos alterados horas depois da prisão são rotina técnica de um aparelho ligado ou exigem explicação oficial?",
+    "Como garantir que o conteúdo do celular, que cita ministros do Supremo, seja analisado com isenção e sem vazamentos seletivos?"
+   ],
+   "atencao": "Segundo as reportagens abertas, a defesa pede acesso aos dados brutos e à cadeia de custódia; o pedido expresso de anulação das provas não aparece nessas matérias. O laudo é da defesa e não conclui por adulteração. Vorcaro é indiciado, não condenado.",
+   "fontes": [
     {
-      "id": "binance-hack-bilionario",
-      "bloco": "Economia",
-      "avulsa": true,
-      "pedido": "Assunto em alta no X: Binance. A corretora de criptomoedas sofreu um ataque hacker, congelou US$ 2,54 bilhões em ativos e estima em US$ 6,3 bilhões o valor roubado. Como usar: Explicar com fato o tamanho do ataque e o risco de guardar dinheiro em corretoras.",
-      "titulo": "Binance sofre ataque hacker e estima em US$ 6,3 bilhões o valor roubado",
-      "subtitulo": "Cerca de US$ 3 bilhões foram congelados e a corretora suspendeu os saques até resolver a falha",
-      "resumo": "A Binance, maior corretora de criptomoedas do mundo, sofreu um ataque hacker e estima em cerca de US$ 6,3 bilhões o valor dos ativos levados. Cerca de US$ 3 bilhões foram congelados, entre eles mais de US$ 1,57 bilhão em USDT pela Tether e mais de US$ 800 milhões em USDC pela Circle. A investigação inicial aponta um laptop comprometido de um engenheiro de DevOps como porta de entrada, e a empresa diz que as chaves privadas das carteiras não vazaram. A Binance suspendeu os saques e promete cobrir as perdas com o fundo SAFU, de cerca de US$ 1 bilhão em bitcoin, e com recursos próprios. O episódio mostra o risco de deixar o dinheiro sob a guarda de uma única empresa, longe do controle de quem é o dono dele.",
-      "metafora": "Guardar cripto em corretora é como deixar o dinheiro no cofre de um terceiro: o cofre pode ser forte, mas a chave não está na sua mão.",
-      "contexto": [
-        "O ataque foi divulgado em 29 de outubro, e a Binance estima o prejuízo em cerca de US$ 6,3 bilhões. A Chainalysis calcula US$ 5,9 bilhões pelo valor na hora do roubo.",
-        "Os congelamentos somam cerca de US$ 3 bilhões, incluindo US$ 2,3 bilhões em USDT e USDC. O valor de US$ 2,54 bilhões que circula no X é parcial: as somas mais recentes passam de US$ 3 bilhões.",
-        "A Binance diz que o ataque partiu de um laptop comprometido de um engenheiro de DevOps, usado para chegar a um contêiner de serviço e enviar saques sem autorização.",
-        "A copresidente Yi He disse que a empresa cobrirá todas as perdas com o hack. A Binance e o fundador CZ afirmam que os fundos dos clientes estão seguros.",
-        "TRM Labs, Blockaid e ZachXBT apontam a Coreia do Norte como provável autora, com o grupo Lazarus citado. É atribuição de especialistas, sem conclusão oficial.",
-        "O mercado reagiu: o bitcoin caiu cerca de 4,8% e ficou abaixo de US$ 77 mil, o ether recuou 5,7% e a BNB, 8%."
-      ],
-      "angulo": [
-        "O tamanho do ataque, na casa dos bilhões, mostra que corretora centralizada concentra risco: quem deixa o patrimônio lá depende da segurança de terceiros.",
-        "A origem do ataque foi um laptop de um funcionário, não uma falha do blockchain. O erro foi humano e de processo, e isso pesa na confiança em qualquer plataforma.",
-        "O dinheiro que fica na própria carteira, com a própria chave, é o que dá ao cidadão controle sobre o que é seu. É o mesmo princípio de liberdade que o programa defende em outras áreas.",
-        "Os congelamentos por Tether e Circle mostram que emissoras privadas conseguem travar fundos em horas, o que ajuda a recuperar valores, mas também lembra quem tem poder sobre o dinheiro digital."
-      ],
-      "perguntas": [
-        "Quem guarda dinheiro em corretora hoje sabe de quem é a chave? O que o investidor comum precisa checar antes de deixar o patrimônio lá?",
-        "Se a Binance cobrir tudo com o SAFU e com recursos próprios, o cliente fica protegido de fato, ou a confiança já foi abalada?",
-        "Congelar bilhões em horas por decisão de empresas privadas é proteção ou concentração de poder sobre o dinheiro das pessoas?"
-      ],
-      "atencao": "Valores e autoria ainda em apuração: a Binance não detalhou a perda final e a ligação com a Coreia do Norte é atribuição de especialistas.",
-      "fontes": [
-        {
-          "name": "CoinDesk Brasil",
-          "url": "https://www.coindesk.com/pt-br/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
-        }
-      ]
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/pericia-contratada-por-vorcaro-aponta-alteracoes-em-celular-de-ex-banqueiro/"
     },
     {
-      "id": "vorcaro-celular-arquivos-modificados",
-      "bloco": "STF e instituições",
-      "avulsa": true,
-      "pedido": "Defesa de Vorcaro diz que 657 arquivos do celular foram modificados depois da apreensão e pede a anulação de provas",
-      "titulo": "Defesa de Vorcaro diz que 657 arquivos do celular foram modificados após a apreensão",
-      "subtitulo": "Laudo particular aponta 999 arquivos alterados no total, e a PF não comentou",
-      "resumo": "A defesa de Daniel Vorcaro protocolou no STF, em 29 de outubro, um parecer particular segundo o qual 657 arquivos do celular foram modificados e 436 foram criados em 18 de novembro de 2025, horas depois da prisão, quando o aparelho já estava com a PF. Ao ampliar o período, o perito Marcos Monteiro chega a 999 arquivos modificados após a apreensão, entre eles o banco de dados do WhatsApp. O próprio laudo não diz quem mexeu no aparelho e não conclui que houve adulteração deliberada. A defesa, que contesta as provas tiradas do celular, pede acesso aos dados brutos da extração, aos registros de coleta e à cadeia de custódia, cobrada desde fevereiro. O assunto pesa porque o material do celular sustenta o indiciamento de 15 pessoas pela PF e traz mensagens que citam ministros do Supremo.",
-      "contexto": [
-        "A PF indiciou Vorcaro, o ex-presidente do BRB Paulo Henrique Costa e outras 13 pessoas em relatório parcial de mais de 700 páginas, enviado ao STF em 28 de outubro. A PF fala em fraude em operações de R$ 17,5 bilhões.",
-        "Dos 657 arquivos modificados em 18/11, 59 são bancos de dados. Dos 436 criados, 222 são de preferências do sistema e 94 são imagens HEIC.",
-        "Dos 999 arquivos modificados após a apreensão, 657 são de 18/11, dois de 23/11 e 340 de maio de 2026.",
-        "A defesa cita atividade registrada entre 23h22 e 2h25 da madrugada, com o aparelho sob custódia e em modo avião.",
-        "A PF não comentou o parecer. A polícia já disse que o celular e os arquivos originais da extração seguem sob sua custódia.",
-        "O relator do caso no STF é o ministro André Mendonça, que também vai analisar o pedido da PF de mais 60 dias para concluir as perícias."
-      ],
-      "angulo": [
-        "Cadeia de custódia é regra básica do processo penal: se a PF tem os registros, entregá-los à defesa e ao Supremo encerra a dúvida em poucos dias.",
-        "Um laudo particular não prova adulteração e o próprio perito não afirma isso. O que o laudo prova é que a PF precisa explicar cada alteração, com data e hora.",
-        "Quem defende o Estado de Direito quer prova sólida: se o material sustenta acusações graves, inclusive citações a ministros do STF, ele precisa resistir a qualquer questionamento técnico.",
-        "A situação do perito da PF investigado por vazar dados do celular, em maio, é motivo a mais para a transparência na custódia."
-      ],
-      "perguntas": [
-        "A PF deveria abrir os dados brutos e a cadeia de custódia agora, sem esperar o fim das perícias?",
-        "Arquivos alterados horas depois da prisão são rotina técnica de um aparelho ligado ou exigem explicação oficial?",
-        "Como garantir que o conteúdo do celular, que cita ministros do Supremo, seja analisado com isenção e sem vazamentos seletivos?"
-      ],
-      "atencao": "Segundo as reportagens abertas, a defesa pede acesso aos dados brutos e à cadeia de custódia; o pedido expresso de anulação das provas não aparece nessas matérias. O laudo é da defesa e não conclui por adulteração. Vorcaro é indiciado, não condenado.",
-      "fontes": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/politica/pericia-contratada-por-vorcaro-aponta-alteracoes-em-celular-de-ex-banqueiro/"
-        },
-        {
-          "name": "Brasil de Fato",
-          "url": "https://www.brasildefato.com.br/2026/10/30/indiciado-por-fraude-bilionaria-vorcaro-questiona-no-stf-provas-obtidas-em-celular/"
-        },
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/pf-ainda-nao-analisou-3-celulares-de-vorcaro-e-60-aparelhos-o-que-vem-por-ai-no-caso-master/"
-        }
-      ]
+     "name": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2026/10/30/indiciado-por-fraude-bilionaria-vorcaro-questiona-no-stf-provas-obtidas-em-celular/"
     },
     {
-      "id": "tarcisio-queimou-largada",
-      "bloco": "Política nacional",
-      "avulsa": true,
-      "pedido": "Derrota de Flávio abre disputa pelo comando da direita, e aliados dele dizem que Tarcísio \"queimou a largada\" https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeFEwNnM0cEZCOXZxaTNSaTFzbGEtdXEwYnZ0R3B1a0lsZVk2WnRtTjQwU09CZXZDYUxsNHNjME1JZ3pBZk56NUVwckIySGc5Q1N1Y3pNVUxneEd6NDRmRllxU09qNXZHS0thcDJ1Wk1TSUpwSEJPUUtOVV8tV182UzFrT1JJR2J1WDc2VUZFbThxVnF0N1dzdTNOaHBFN1BaQ3J4clN3ZkxJd2xLWTRjaXZUU0kyRkdMak5TYklWc0Y0RUxvS2RyMmhhZlZpSjhzeGNyeU5kMWkxaE51eGpxR2JlanJuRGZMRGRhRNIB-wFBVV95cUxQTk1pRkxYWWtLbWZWWW1FVkFTcXJpZi00N3VGNTFyRFpyNS1QRHkta0s1MWsyeGlHTjZDWlBiSUZBZ0NoMGxZcTlrZWQ5ZEktc19XS0VJQVFmNjdSNngwT2pTUWdwalhFSzJaUUMtQXR2N185emhWckN4dmF0bUM2TGt4MTRvM3FmU0o5OHRkaW9ZTjlmVDZET1pWcDNjelB0bGhkcUJDRGotS2FENWlCd2lyLWYzZktoSjBabzdzakdQSnp1OUdSZEdHWEdmdlBwM0JRaHhyZ2VPa3J5RWF2WlN3TGJTWGhJUklvbFNTbnF1QnhtNUNEb09aTQ?oc=5",
-      "titulo": "Aliados de Flávio dizem que Tarcísio \"queimou a largada\" ao falar em 2030",
-      "subtitulo": "Governador de São Paulo admitiu disputar a Presidência quatro dias após a derrota de Flávio, e a disputa pelo comando da direita está aberta",
-      "resumo": "A direita perdeu a eleição por pouco: Lula fez 51,79% dos votos válidos e Flávio, 48,21%, com quase 60 milhões de votos. Passada a derrota, abriu-se a disputa pelo comando da oposição, e Tarcísio de Freitas, reeleito governador de São Paulo no primeiro turno com 63% dos votos válidos, é visto por lideranças do Centrão e aliados da família Bolsonaro como o nome mais bem posicionado. Em entrevista ao Estadão, Tarcísio admitiu a possibilidade de concorrer ao Planalto e disse que \"2030 é outra conversa\", decisão que se avalia \"em grupo, não sozinho\". Integrantes do PL, em conversas reservadas, avaliam que ele \"queimou a largada\" ao tratar do assunto tão cedo. O PL, porém, tem as maiores bancadas da Câmara e do Senado, e a prioridade apontada pela oposição é se reorganizar no Congresso a partir de 2027.",
-      "contexto": [
-        "O segundo turno foi em 25 de outubro. Lula teve 51,79% dos votos válidos e Flávio, 48,21%, diferença de pouco mais de 4,4 milhões de votos.",
-        "Tarcísio foi reeleito em São Paulo com 63% dos votos válidos, montou aliança com 12 partidos e foi um dos principais conselheiros de Flávio no segundo turno.",
-        "Em vídeo de 27 de outubro, Tarcísio disse que \"reconhecer o resultado não significa calar sobre os excessos\" e que as promessas de campanha \"precisam ser examinadas com rigor\".",
-        "A expressão \"queimou a largada\" parte de integrantes do PL, sem identificação, e foi publicada pelo jornal O Globo. A matéria não traz resposta de Tarcísio às críticas.",
-        "Michelle Bolsonaro, eleita senadora pelo DF com 29,1% dos votos, tem o apoio de Valdemar Costa Neto, e Flávio sinalizou a aliados que seguirá à frente da oposição.",
-        "Os partidos que apoiaram Flávio no segundo turno somam 286 deputados e 50 dos 81 senadores na legislatura de 2027."
-      ],
-      "angulo": [
-        "Quase 60 milhões de votos em Flávio provam que a direita é maioria social e organizada: o debate sobre o comando é sinal de força, não de crise.",
-        "Tarcísio tem o que a direita precisa para governar: reeleição no primeiro turno, 63% dos votos e entregas em saneamento e metrô. O nome dele ganhou peso por resultado, não por articulação.",
-        "O recado de que \"reconhecer o resultado não significa calar sobre os excessos\" mostra uma oposição que respeita as regras e cobra o governo, com o foco no Congresso a partir de 2027.",
-        "A direita tem lideranças demais para um cargo só, e isso é bom: Tarcísio, Michelle, Flávio e os novos senadores podem dividir funções, com a maior bancada nas duas casas."
-      ],
-      "perguntas": [
-        "A direita precisa de um único comandante agora ou de uma liderança dividida entre Congresso e governos estaduais?",
-        "Falar de 2030 cedo demais atrapalha a oposição ou ajuda a manter o eleitor de direita mobilizado?",
-        "Qual papel cabe a Michelle Bolsonaro, a Flávio e a Tarcísio na reorganização da oposição em 2027?"
-      ],
-      "atencao": "A expressão \"queimou a largada\" vem de integrantes do PL sem identificação, segundo a imprensa; não há fala pública de Tarcísio respondendo.",
-      "fontes": [
-        {
-          "name": "Itatiaia (CNN Brasil)",
-          "url": "https://www.itatiaia.com.br/politica/fuga-de-flavio-bolsonaro-abre-disputa-por-lideranca-da-direita-no-brasil/"
-        },
-        {
-          "name": "Times Brasil",
-          "url": "https://timesbrasil.com.br/brasil/qual-o-futuro-da-direita-depois-da-derrota-de-flavio-bolsonaro/"
-        },
-        {
-          "name": "Agenda do Poder",
-          "url": "https://agendadopoder.com.br/tarcisio-causa-incomodo-no-pl-ao-mirar-eleicoes-de-2030-e-aliados-de-flavio-criticam-oportunismo/"
-        },
-        {
-          "name": "Portal Pop Notícias",
-          "url": "https://portalpopnoticias.com.br/2026/10/30/pl-avalia-que-tarcisio-queimou-a-largada-ao-se-projetar-para-disputa-presidencial-de-2030"
-        }
-      ]
-    },
-    {
-      "id": "washington-post-stf-flavio",
-      "bloco": "STF e instituições",
-      "avulsa": true,
-      "pedido": "Washington Post critica o STF e diz que a saída de Flávio expõe problemas na democracia brasileira https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOGlvMWFQZ2plN1RITm1pWGx4NmcxTER5c2hLWldDQnRHM3BVV1Jsb1c2T1lGVWpUY0dGRG03WjR6Rmppa25LY2tvZlprV09vREM0c3plaDhZclFsLUUtb0NMQ1ZUdEdEUmRRWVZIMzdWRXlSZFFqU0UwN2VCQ1BWUkRHNElRMENVZnNYUWtHbjhTVmRiMVkwUlRhbTk4c181WTJiSGhITDRJTERGVGVwTk03OVRwbVBIcGRFcGd5UFRQR0RMSDBNOFVobmdMd0d4a255UlFHYkRpS2s?oc=5",
-      "titulo": "Washington Post critica o STF e diz que Flávio deixou o Brasil sem confiar na Justiça",
-      "subtitulo": "Editorial \"Quando juízes se tornam promotores\" aponta Moraes como investigador, acusador e julgador ao mesmo tempo",
-      "resumo": "Um dos maiores jornais dos Estados Unidos publicou na quarta-feira (28) o editorial \"Quando juízes se tornam promotores\", sobre a saída de Flávio Bolsonaro do Brasil depois de Alexandre de Moraes proibi-lo de viajar e mandar entregar os passaportes. O texto diz que a eleição não deveria levar candidatos a deixar o país, mas que a crença de Flávio de que não teria julgamento justo é uma acusação à democracia brasileira. O jornal afirma que juízes brasileiros atuam com frequência como investigadores, promotores e julgadores ao mesmo tempo, e que isso dá peso à denúncia de perseguição política. Cita o inquérito das fake news, usado por Moraes para ordenar buscas e prisões, bloquear contas e remover pessoas das redes. A conclusão é que Flávio deveria liderar a oposição, já que o PL tem a maior bancada nas duas casas, e que uma democracia saudável precisa de derrotados que possam aceitar a derrota com segurança.",
-      "contexto": [
-        "O editorial saiu em 28 de outubro de 2026. A Gazeta do Povo o descreve como crítico ao papel do Supremo e levanta preocupações com o Estado de Direito.",
-        "Moraes determinou, depois do segundo turno de 25 de outubro, que Flávio não deixasse o país e entregasse os passaportes em 24 horas. Flávio saiu por Argentina e Equador e chegou a Miami.",
-        "Flávio diz que não fugiu e que se mudou para os EUA por ser vítima de perseguição política e judicial.",
-        "O jornal lembra que Fachin retirou recentemente a relatoria do inquérito das fake news de Moraes.",
-        "O editorial também cita a ordem de Flávio Dino para a PF investigar supostos contatos entre a Rockbridge Network e a campanha de Flávio, e critica a representação do PT ao STF.",
-        "Defensores de Moraes dizem que ele fortalece as instituições após o 8 de janeiro; o jornal responde que ataques à democracia não dão a juízes liberdade para agir fora da lei."
-      ],
-      "angulo": [
-        "A crítica vem de fora e de um jornal que não é da direita: quando um veículo americano diz que juízes brasileiros acumulam as funções de investigar, acusar e julgar, o problema deixa de ser tese de oposição.",
-        "O inquérito das fake news virou instrumento de controle de contas e de plataformas, e o próprio Supremo já mexeu na relatoria. O programa defende que poder sem limite não protege a democracia.",
-        "A conclusão do editorial coincide com a posição da direita: Flávio tem a maior bancada do Congresso e deve exercer a oposição com liberdade e segurança jurídica.",
-        "Ser vencido numa eleição e ter de decidir se confia ou não na Justiça mostra que o país precisa rever o desenho de poder do STF."
-      ],
-      "perguntas": [
-        "O que significa um jornal americano de peso dizer que o Judiciário brasileiro acumula investigação, acusação e julgamento?",
-        "O Congresso deve discutir limites ao inquérito das fake news e às decisões individuais de ministros?",
-        "Como a oposição deve usar essa repercussão internacional sem perder o foco no Congresso em 2027?"
-      ],
-      "atencao": "Editorial é opinião do jornal; não há manifestação de Moraes, do STF ou de Fachin sobre o texto nas matérias abertas. Flávio é investigado no STF e nega irregularidades.",
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/mundo/jornal-eua-diz-caso-flavio-expoe-preocupacoes-estado-direito-brasil/"
-        },
-        {
-          "name": "Jornal de Brasília",
-          "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/washington-post-critica-stf-e-diz-que-fuga-de-flavio-expoe-problemas-na-democracia-brasileira/"
-        },
-        {
-          "name": "Itatiaia (CNN Brasil)",
-          "url": "https://www.itatiaia.com.br/politica/fuga-de-flavio-bolsonaro-abre-disputa-por-lideranca-da-direita-no-brasil/"
-        }
-      ]
-    },
-    {
-      "id": "fachin-inss-master",
-      "bloco": "STF e instituições",
-      "titulo": "Fachin devolve a Mendonça o caso do INSS e fica com o Master por 90 dias",
-      "subtitulo": "Decisão de quinta-feira (29) ainda precisa de referendo do plenário, sem data marcada",
-      "resumo": "O presidente do STF, Edson Fachin, devolveu na quinta-feira (29) ao ministro André Mendonça a relatoria das investigações sobre os descontos ilegais no INSS, que incluem o caso Lulinha. O Master continua com Fachin em caráter provisório, por até 90 dias contados de 12 de setembro. Enquanto o caso esteve na Presidência, Mendonça cobrava uma definição porque não podia analisar pedidos das defesas. Para o cidadão que teve a aposentadoria descontada sem autorização, cada semana de processo travado é prejuízo sem resposta. O brasileiro tem o direito de ver as duas investigações andando.",
-      "contexto": [
-        "Fachin entendeu que não há mais motivo para manter as investigações do INSS sob a Presidência do STF.",
-        "O caso Master fica com ele porque não pode ser distribuído aos demais ministros, já que envolve citações a membros da Corte.",
-        "Enquanto estiver com Fachin, o Master só tem medidas urgentes pedidas pela PF ou pela PGR, como diligências e revogação de prisões.",
-        "Em setembro o caso INSS foi tirado de Mendonça em meio a uma guerra de liminares ligada a um pedido de investigação contra Alexandre de Moraes.",
-        "Moraes é citado em mensagens do celular do ex-banqueiro Daniel Vorcaro obtidas pela PF.",
-        "A decisão de Fachin será submetida a referendo do plenário, e a data do julgamento não foi definida."
-      ],
-      "angulo": [
-        "O INSS é um roubo contra aposentados e pensionistas, e a investigação não pode ficar refém de disputa interna do Supremo.",
-        "Caso que cita ministros da Corte não pode ser decidido só pelo próprio Tribunal sem prazo e sem transparência: os 90 dias precisam ter fim claro.",
-        "O programa deve cobrar que o plenário marque logo o referendo e que a Operação Sem Desconto avance com o relator original."
-      ],
-      "perguntas": [
-        "Por que o caso INSS passou semanas na Presidência do STF antes de voltar ao relator original?",
-        "Um caso que cita ministros do Supremo pode ficar com a própria Corte sem controle externo?",
-        "O que o aposentado lesado ganha de concreto com essa devolução?"
-      ],
-      "atencao": "Lulinha é citado no âmbito do caso INSS e não consta como condenado; usar apenas \"investigado\" ou \"citado\" conforme a matéria.",
-      "fontes": [
-        {
-          "name": "AJ Notícias",
-          "url": "https://ajnoticias.com.br/noticia/59250/fachin-devolve-relatoria-do-caso-do-inss-a-mendonca-e-mantem-master"
-        },
-        {
-          "name": "O Antagonista",
-          "url": "https://oantagonista.com.br/brasil/fachin-fica-com-o-master-inss-volta-a-mendonca/"
-        }
-      ]
-    },
-    {
-      "id": "pt-reforma-judiciario",
-      "bloco": "Política nacional",
-      "titulo": "PT diz que o novo mandato de Lula terá reforma do Judiciário e regulação das big techs",
-      "subtitulo": "Nota do partido lista também a reforma do sistema político-eleitoral como prioridade",
-      "resumo": "Em nota divulgada na quinta-feira (29), o PT afirmou que o quarto mandato de Lula deve abrir \"um ciclo de transformações estruturais\". A lista de prioridades traz a reforma do sistema de Justiça, a reforma político-eleitoral e a \"regulação democrática das grandes plataformas digitais\". O partido diz que a vitória de Lula, com mais de 64 milhões de votos, \"ultrapassou fronteiras partidárias\". Reforma do Judiciário e regulação de plataformas, nas mãos de quem governa, tocam diretamente a liberdade de expressão e o equilíbrio entre os Poderes. O cidadão precisa saber, antes de 2027, o que exatamente o governo pretende mudar e quem decide o que pode ser dito na internet.",
-      "metafora": "Regular a internet sem regra clara é como dar a um árbitro o direito de mudar o regulamento durante a partida.",
-      "contexto": [
-        "A nota é atribuída ao PT como partido, sem signatário individual.",
-        "Três prioridades: reforma do sistema de Justiça, reforma político-eleitoral e regulação das big techs.",
-        "O partido cita mais de 64 milhões de votos para Lula na eleição de 25 de outubro.",
-        "A nota credita a vitória à mobilização popular, em especial de jovens e movimentos sociais.",
-        "A reportagem não traz reação de outros partidos nem detalha o conteúdo das reformas."
-      ],
-      "angulo": [
-        "Regulação de plataformas chamada de \"democrática\" por quem governa precisa de limite escrito: liberdade de expressão não se negocia por decreto nem por decisão individual.",
-        "Reforma do Judiciário que sai do partido do governo, sem debate amplo, tem cara de acerto de contas e não de aperfeiçoamento das instituições.",
-        "O programa deve exigir texto, prazo e debate no Congresso antes de qualquer mudança que mexa com a internet ou com o Supremo."
-      ],
-      "perguntas": [
-        "O que o PT quer dizer, na prática, com \"regulação democrática\" das plataformas?",
-        "Reforma do Judiciário vinda do governo fortalece as instituições ou aumenta o controle político?",
-        "Que garantias de liberdade de expressão precisam estar no texto antes de qualquer votação?"
-      ],
-      "fontes": [
-        {
-          "name": "O Liberal",
-          "url": "https://www.oliberal.com/politica/pt-novo-mandato-de-lula-tratara-reformas-do-judiciario-e-politica-e-regulacao-das-big-techs-1.1188568"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/brasil/reforma-do-judiciario-e-regulacao-das-big-techs-estao-entre-prioridades-do-novo-mandato-de-lula-diz-pt/"
-        }
-      ]
-    },
-    {
-      "id": "santander-juros-imobiliario",
-      "bloco": "Economia",
-      "titulo": "Santander sobe o piso do financiamento da casa própria de 11,69% para 12,49% ao ano",
-      "subtitulo": "Bradesco, Itaú e Santander já cobram acima do teto de 12% do SFH, que dá acesso ao FGTS",
-      "resumo": "O Santander elevou a taxa mínima do crédito imobiliário de 11,69% para 12,49% ao ano mais TR, a partir de sexta-feira (30), depois de Bradesco e Itaú. O Bradesco foi de 11,69% para 15% em 26 de outubro, e o Itaú de 11,99% para 12,95% em 29 de outubro. Os dois atribuíram a alta aos juros de mercado mais altos depois do segundo turno. Todos os três cobram agora mais que o teto de 12% do Sistema Financeiro da Habitação, o que pode tirar o comprador da faixa que permite usar o FGTS. Para a família que sonha com a casa própria, o resultado é parcela maior e menos gente passando pelo crivo do banco.",
-      "contexto": [
-        "Santander: de 11,69% para 12,49% ao ano mais TR, em vigor desde 30 de outubro, a menor alta entre os três (0,80 ponto).",
-        "Bradesco: de 11,69% para 15%, em 26 de outubro (3,31 pontos).",
-        "Itaú: de 11,99% para 12,95%, em 29 de outubro (0,96 ponto).",
-        "Acima de 12% ao ano o financiamento sai do SFH e entra no SFI, com taxa livre e sem acesso ao FGTS.",
-        "Caixa, com 48,6% do mercado, e Banco do Brasil não mudaram as taxas e estão em período de silêncio antes dos balanços.",
-        "A Selic está em 13,75% ao ano, e o Copom decide em 3 e 4 de novembro."
-      ],
-      "angulo": [
-        "Juro alto é a conta do descontrole fiscal: quando o governo gasta demais, o mercado cobra mais caro, e quem paga é a família que financia o imóvel.",
-        "O governo que prometeu casa própria precisa dizer como pretende conter os juros sem abrir mais despesa.",
-        "O programa deve defender responsabilidade fiscal como política de moradia: sem ela, nenhum programa habitacional fecha a conta."
-      ],
-      "perguntas": [
-        "Quanto a parcela de um financiamento de R$ 400 mil sobe com essa alta de taxa?",
-        "A Caixa vai acompanhar os bancos privados depois do período de silêncio?",
-        "Que sinal fiscal o governo precisa dar para os juros longos recuarem?"
-      ],
-      "fontes": [
-        {
-          "name": "Exame",
-          "url": "https://exame.com/mercado-imobiliario/santander-segue-exemplo-de-itau-e-bradesco-e-sobe-juros-da-casa-propria-veja-em-quanto-ficou/"
-        }
-      ]
-    },
-    {
-      "id": "estatais-deficit-recorde",
-      "bloco": "Economia",
-      "titulo": "Estatais federais têm o pior déficit para o período desde 2002, diz o Banco Central",
-      "subtitulo": "Correios lideram o prejuízo, e o governo admite estatais no vermelho até 2030",
-      "resumo": "As estatais federais acumulam déficit de R$ 8,5 bilhões de janeiro a setembro de 2026, o pior resultado para o período desde o início da série, em 2002, segundo a Revista Oeste com dados do Banco Central. O valor já supera o déficit anual de 2024, de R$ 6,73 bilhões. Os Correios tiveram prejuízo de R$ 5,6 bilhões só no primeiro semestre, com 15 trimestres seguidos no negativo. O projeto da LDO 2027 admite que as estatais devem continuar com déficit até 2030. Quem paga essa conta é o contribuinte, que sustenta empresas que não fecham as próprias contas enquanto o governo fala em ajuste.",
-      "contexto": [
-        "Déficit acumulado de R$ 8,5 bilhões até setembro, segundo a Revista Oeste; outras reportagens citam R$ 11,4 bilhões, porque os critérios do indicador variam.",
-        "O recorde anterior para o período era de 2025, com R$ 6,3 bilhões; o déficit de todo o ano de 2024 foi de R$ 6,73 bilhões.",
-        "Os Correios acumulam 15 trimestres seguidos de prejuízo, com R$ 5,6 bilhões no primeiro semestre de 2026.",
-        "O indicador do Banco Central não inclui Petrobras, Eletrobras e bancos públicos.",
-        "Em setembro, o déficit mensal foi de R$ 3,4 bilhões segundo o Metrópoles, depois de superávit em agosto.",
-        "A LDO 2027 prevê estatais no vermelho até 2030."
-      ],
-      "angulo": [
-        "Estatal deficitária é imposto disfarçado: o rombo dos Correios e de outras empresas sai do bolso do contribuinte.",
-        "O governo pede ajuste fiscal ao país enquanto admite, na própria LDO, que as estatais seguirão no vermelho até 2030.",
-        "O programa deve defender gestão profissional, metas claras e discussão aberta sobre privatização ou concessão das empresas que não se sustentam."
-      ],
-      "perguntas": [
-        "Por que os Correios têm prejuízo há 15 trimestres e ninguém responde por isso?",
-        "Aceitar déficit de estatal até 2030 é compatível com a promessa de ajuste fiscal?",
-        "Que estatais poderiam ser concedidas ou privatizadas sem prejudicar o serviço à população?"
-      ],
-      "atencao": "Os números divergem entre as reportagens (R$ 8,5 bilhões ou R$ 11,4 bilhões no acumulado; R$ 2 bilhões ou R$ 3,4 bilhões em setembro). No ar, cite o Banco Central e confira o boletim de estatísticas fiscais.",
-      "fontes": [
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/economia/estatais-federais-registram-o-maior-deficit-anual-da-historia/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/estatais-federais-tem-deficit-de-r-34-bilhoes-em-setembro-diz-bc"
-        }
-      ]
-    },
-    {
-      "id": "oruam-caixinha-marcinho-vp",
-      "bloco": "Segurança pública",
-      "titulo": "Polícia do Rio diz que Oruam buscou a \"caixinha\" do pai com traficantes no Alemão",
-      "subtitulo": "Inquérito investiga Oruam e a mãe por suspeita de lavagem de dinheiro do Comando Vermelho",
-      "resumo": "A Polícia Civil do Rio investiga repasses da \"caixinha\" do Comando Vermelho a Marcinho VP e à família, e diz que Oruam foi a um ponto controlado por traficantes no Complexo do Alemão buscar dinheiro. A informação vem de mensagens de Oruam à mãe, Márcia Gama, no celular dela. O inquérito investiga os dois por suspeita de organização criminosa e lavagem de dinheiro. Para os investigadores, Marcinho VP, preso há décadas, ainda influencia as finanças da facção e financiaria shows do filho. É um retrato do poder que o crime organizado mantém mesmo com os chefes atrás das grades.",
-      "metafora": "É como um cofre que continua abastecido do lado de fora, enquanto o dono cumpre pena do lado de dentro.",
-      "contexto": [
-        "A polícia analisa dados do celular de Márcia Gama, mãe de Oruam e companheira de Marcinho VP.",
-        "Segundo a polícia, líderes do CV arrecadam dinheiro nas comunidades para a caixinha, e parte vai para Marcinho VP e a família.",
-        "Em outra conversa, Oruam pede dinheiro com frequência e cita uma possível mesada, o que a polícia lê como pagamento regular.",
-        "Uma mensagem da mãe diz: \"Deixa seu pai investir em você\".",
-        "O relatório não informa valores nem identifica quem fez as entregas.",
-        "A reportagem não traz a manifestação das defesas."
-      ],
-      "angulo": [
-        "Chefe de facção preso que segue mandando e recebendo dinheiro mostra que o isolamento no sistema penitenciário falhou.",
-        "O combate ao crime organizado passa por asfixiar o dinheiro: rastrear, bloquear e confiscar, como nas grandes operações recentes no Rio.",
-        "O programa deve defender endurecimento do regime para líderes de facção e punição para quem ajuda a lavar o dinheiro do tráfico."
-      ],
-      "perguntas": [
-        "Como um preso há décadas ainda administra dinheiro e decide gastos da família?",
-        "Artistas que aparecem nas investigações de lavagem devem ter shows e contratos públicos suspensos?",
-        "Que mudança no sistema penitenciário federal impediria esse fluxo de recados e dinheiro?"
-      ],
-      "atencao": "Tudo é suspeita da investigação policial, sem condenação. Use \"segundo a polícia\", \"investigado\" e registre que o relatório não traz a versão das defesas.",
-      "fontes": [
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/brasil/policia-investiga-repasses-da-caixinha-de-marcinho-vp-a-oruam/"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/colunas/manoela-alcantara/oruam-buscou-caixinha-do-pai-com-traficantes-no-alemao-diz-policia"
-        }
-      ]
-    },
-    {
-      "id": "maria-corina-volta-venezuela",
-      "bloco": "Internacional",
-      "titulo": "María Corina volta à Venezuela, agradece a Trump e diz que nunca falou com Lula",
-      "subtitulo": "Opositora ficou dez meses no exílio, e Trump diz que não sabia do retorno",
-      "resumo": "A líder da oposição venezuelana e Nobel da Paz María Corina Machado voltou à Venezuela no domingo (25), depois de mais de dez meses fora do país. Na quinta-feira (29), agradeceu a Trump pela operação que capturou Nicolás Maduro em janeiro e disse que a ação abriu caminho para a liberdade do país. Ela afirmou nunca ter conversado com Lula e que não foi por falta de interesse dela. Também questionou a falta de transparência do acordo petrolífero de agosto entre o governo interino e os Estados Unidos. A fala expõe a distância entre o governo brasileiro e a principal voz da democracia venezuelana, que fica na vizinhança do Brasil.",
-      "contexto": [
-        "María Corina deixou o país em dezembro para receber o Nobel da Paz na Noruega e voltou em 25 de outubro, quando escreveu no X: \"Estou aqui. Com vocês\".",
-        "Os EUA capturaram Maduro em operação militar em 3 de janeiro.",
-        "Desde então Washington trabalha com o governo interino venezuelano numa transição que deixou de fora Machado e Edmundo González Urrutia.",
-        "Trump disse à CNN que não sabia do retorno e que espera que ela esteja bem.",
-        "Segundo relato de uma reportagem, Lula defende que Maduro seja julgado na Venezuela e evita atacar Trump diretamente.",
-        "Não há, nas reportagens, declaração de Lula sobre o diálogo com Machado."
-      ],
-      "angulo": [
-        "O Brasil não pode tratar com distância a principal líder democrática da Venezuela: quem defende democracia conversa com a oposição que ganhou a confiança do povo.",
-        "A ausência de diálogo de Lula com María Corina contrasta com a proximidade histórica do PT com o chavismo.",
-        "O programa deve cobrar que o Itamaraty abra canal com a oposição venezuelana e defenda eleições livres e transparentes."
-      ],
-      "perguntas": [
-        "Por que o presidente Lula nunca conversou com María Corina Machado?",
-        "A transição venezuelana pode ser legítima deixando de fora a oposição que o povo apoia?",
-        "O que o Brasil ganha, ou perde, ao escolher a distância da oposição venezuelana?"
-      ],
-      "atencao": "A falta de diálogo foi relatada só pelo lado de María Corina; não há resposta do governo Lula nas matérias.",
-      "fontes": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/internacional/maria-corina-machado-diz-que-voltou-a-venezuela-apos-10-meses-no-exilio/"
-        }
-      ]
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/republica/pf-ainda-nao-analisou-3-celulares-de-vorcaro-e-60-aparelhos-o-que-vem-por-ai-no-caso-master/"
     }
-  ],
-  "atualizado": "2026-10-30T11:11:15-03:00"
+   ]
+  },
+  {
+   "id": "tarcisio-queimou-largada",
+   "bloco": "Política nacional",
+   "avulsa": true,
+   "pedido": "Derrota de Flávio abre disputa pelo comando da direita, e aliados dele dizem que Tarcísio \"queimou a largada\" https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeFEwNnM0cEZCOXZxaTNSaTFzbGEtdXEwYnZ0R3B1a0lsZVk2WnRtTjQwU09CZXZDYUxsNHNjME1JZ3pBZk56NUVwckIySGc5Q1N1Y3pNVUxneEd6NDRmRllxU09qNXZHS0thcDJ1Wk1TSUpwSEJPUUtOVV8tV182UzFrT1JJR2J1WDc2VUZFbThxVnF0N1dzdTNOaHBFN1BaQ3J4clN3ZkxJd2xLWTRjaXZUU0kyRkdMak5TYklWc0Y0RUxvS2RyMmhhZlZpSjhzeGNyeU5kMWkxaE51eGpxR2JlanJuRGZMRGRhRNIB-wFBVV95cUxQTk1pRkxYWWtLbWZWWW1FVkFTcXJpZi00N3VGNTFyRFpyNS1QRHkta0s1MWsyeGlHTjZDWlBiSUZBZ0NoMGxZcTlrZWQ5ZEktc19XS0VJQVFmNjdSNngwT2pTUWdwalhFSzJaUUMtQXR2N185emhWckN4dmF0bUM2TGt4MTRvM3FmU0o5OHRkaW9ZTjlmVDZET1pWcDNjelB0bGhkcUJDRGotS2FENWlCd2lyLWYzZktoSjBabzdzakdQSnp1OUdSZEdHWEdmdlBwM0JRaHhyZ2VPa3J5RWF2WlN3TGJTWGhJUklvbFNTbnF1QnhtNUNEb09aTQ?oc=5",
+   "titulo": "Aliados de Flávio dizem que Tarcísio \"queimou a largada\" ao falar em 2030",
+   "subtitulo": "Governador de São Paulo admitiu disputar a Presidência quatro dias após a derrota de Flávio, e a disputa pelo comando da direita está aberta",
+   "resumo": "A direita perdeu a eleição por pouco: Lula fez 51,79% dos votos válidos e Flávio, 48,21%, com quase 60 milhões de votos. Passada a derrota, abriu-se a disputa pelo comando da oposição, e Tarcísio de Freitas, reeleito governador de São Paulo no primeiro turno com 63% dos votos válidos, é visto por lideranças do Centrão e aliados da família Bolsonaro como o nome mais bem posicionado. Em entrevista ao Estadão, Tarcísio admitiu a possibilidade de concorrer ao Planalto e disse que \"2030 é outra conversa\", decisão que se avalia \"em grupo, não sozinho\". Integrantes do PL, em conversas reservadas, avaliam que ele \"queimou a largada\" ao tratar do assunto tão cedo. O PL, porém, tem as maiores bancadas da Câmara e do Senado, e a prioridade apontada pela oposição é se reorganizar no Congresso a partir de 2027.",
+   "contexto": [
+    "O segundo turno foi em 25 de outubro. Lula teve 51,79% dos votos válidos e Flávio, 48,21%, diferença de pouco mais de 4,4 milhões de votos.",
+    "Tarcísio foi reeleito em São Paulo com 63% dos votos válidos, montou aliança com 12 partidos e foi um dos principais conselheiros de Flávio no segundo turno.",
+    "Em vídeo de 27 de outubro, Tarcísio disse que \"reconhecer o resultado não significa calar sobre os excessos\" e que as promessas de campanha \"precisam ser examinadas com rigor\".",
+    "A expressão \"queimou a largada\" parte de integrantes do PL, sem identificação, e foi publicada pelo jornal O Globo. A matéria não traz resposta de Tarcísio às críticas.",
+    "Michelle Bolsonaro, eleita senadora pelo DF com 29,1% dos votos, tem o apoio de Valdemar Costa Neto, e Flávio sinalizou a aliados que seguirá à frente da oposição.",
+    "Os partidos que apoiaram Flávio no segundo turno somam 286 deputados e 50 dos 81 senadores na legislatura de 2027."
+   ],
+   "angulo": [
+    "Quase 60 milhões de votos em Flávio provam que a direita é maioria social e organizada: o debate sobre o comando é sinal de força, não de crise.",
+    "Tarcísio tem o que a direita precisa para governar: reeleição no primeiro turno, 63% dos votos e entregas em saneamento e metrô. O nome dele ganhou peso por resultado, não por articulação.",
+    "O recado de que \"reconhecer o resultado não significa calar sobre os excessos\" mostra uma oposição que respeita as regras e cobra o governo, com o foco no Congresso a partir de 2027.",
+    "A direita tem lideranças demais para um cargo só, e isso é bom: Tarcísio, Michelle, Flávio e os novos senadores podem dividir funções, com a maior bancada nas duas casas."
+   ],
+   "perguntas": [
+    "A direita precisa de um único comandante agora ou de uma liderança dividida entre Congresso e governos estaduais?",
+    "Falar de 2030 cedo demais atrapalha a oposição ou ajuda a manter o eleitor de direita mobilizado?",
+    "Qual papel cabe a Michelle Bolsonaro, a Flávio e a Tarcísio na reorganização da oposição em 2027?"
+   ],
+   "atencao": "A expressão \"queimou a largada\" vem de integrantes do PL sem identificação, segundo a imprensa; não há fala pública de Tarcísio respondendo.",
+   "fontes": [
+    {
+     "name": "Itatiaia (CNN Brasil)",
+     "url": "https://www.itatiaia.com.br/politica/fuga-de-flavio-bolsonaro-abre-disputa-por-lideranca-da-direita-no-brasil/"
+    },
+    {
+     "name": "Times Brasil",
+     "url": "https://timesbrasil.com.br/brasil/qual-o-futuro-da-direita-depois-da-derrota-de-flavio-bolsonaro/"
+    },
+    {
+     "name": "Agenda do Poder",
+     "url": "https://agendadopoder.com.br/tarcisio-causa-incomodo-no-pl-ao-mirar-eleicoes-de-2030-e-aliados-de-flavio-criticam-oportunismo/"
+    },
+    {
+     "name": "Portal Pop Notícias",
+     "url": "https://portalpopnoticias.com.br/2026/10/30/pl-avalia-que-tarcisio-queimou-a-largada-ao-se-projetar-para-disputa-presidencial-de-2030"
+    }
+   ]
+  },
+  {
+   "id": "washington-post-stf-flavio",
+   "bloco": "STF e instituições",
+   "avulsa": true,
+   "pedido": "Washington Post critica o STF e diz que a saída de Flávio expõe problemas na democracia brasileira https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOGlvMWFQZ2plN1RITm1pWGx4NmcxTER5c2hLWldDQnRHM3BVV1Jsb1c2T1lGVWpUY0dGRG03WjR6Rmppa25LY2tvZlprV09vREM0c3plaDhZclFsLUUtb0NMQ1ZUdEdEUmRRWVZIMzdWRXlSZFFqU0UwN2VCQ1BWUkRHNElRMENVZnNYUWtHbjhTVmRiMVkwUlRhbTk4c181WTJiSGhITDRJTERGVGVwTk03OVRwbVBIcGRFcGd5UFRQR0RMSDBNOFVobmdMd0d4a255UlFHYkRpS2s?oc=5",
+   "titulo": "Washington Post critica o STF e diz que Flávio deixou o Brasil sem confiar na Justiça",
+   "subtitulo": "Editorial \"Quando juízes se tornam promotores\" aponta Moraes como investigador, acusador e julgador ao mesmo tempo",
+   "resumo": "Um dos maiores jornais dos Estados Unidos publicou na quarta-feira (28) o editorial \"Quando juízes se tornam promotores\", sobre a saída de Flávio Bolsonaro do Brasil depois de Alexandre de Moraes proibi-lo de viajar e mandar entregar os passaportes. O texto diz que a eleição não deveria levar candidatos a deixar o país, mas que a crença de Flávio de que não teria julgamento justo é uma acusação à democracia brasileira. O jornal afirma que juízes brasileiros atuam com frequência como investigadores, promotores e julgadores ao mesmo tempo, e que isso dá peso à denúncia de perseguição política. Cita o inquérito das fake news, usado por Moraes para ordenar buscas e prisões, bloquear contas e remover pessoas das redes. A conclusão é que Flávio deveria liderar a oposição, já que o PL tem a maior bancada nas duas casas, e que uma democracia saudável precisa de derrotados que possam aceitar a derrota com segurança.",
+   "contexto": [
+    "O editorial saiu em 28 de outubro de 2026. A Gazeta do Povo o descreve como crítico ao papel do Supremo e levanta preocupações com o Estado de Direito.",
+    "Moraes determinou, depois do segundo turno de 25 de outubro, que Flávio não deixasse o país e entregasse os passaportes em 24 horas. Flávio saiu por Argentina e Equador e chegou a Miami.",
+    "Flávio diz que não fugiu e que se mudou para os EUA por ser vítima de perseguição política e judicial.",
+    "O jornal lembra que Fachin retirou recentemente a relatoria do inquérito das fake news de Moraes.",
+    "O editorial também cita a ordem de Flávio Dino para a PF investigar supostos contatos entre a Rockbridge Network e a campanha de Flávio, e critica a representação do PT ao STF.",
+    "Defensores de Moraes dizem que ele fortalece as instituições após o 8 de janeiro; o jornal responde que ataques à democracia não dão a juízes liberdade para agir fora da lei."
+   ],
+   "angulo": [
+    "A crítica vem de fora e de um jornal que não é da direita: quando um veículo americano diz que juízes brasileiros acumulam as funções de investigar, acusar e julgar, o problema deixa de ser tese de oposição.",
+    "O inquérito das fake news virou instrumento de controle de contas e de plataformas, e o próprio Supremo já mexeu na relatoria. O programa defende que poder sem limite não protege a democracia.",
+    "A conclusão do editorial coincide com a posição da direita: Flávio tem a maior bancada do Congresso e deve exercer a oposição com liberdade e segurança jurídica.",
+    "Ser vencido numa eleição e ter de decidir se confia ou não na Justiça mostra que o país precisa rever o desenho de poder do STF."
+   ],
+   "perguntas": [
+    "O que significa um jornal americano de peso dizer que o Judiciário brasileiro acumula investigação, acusação e julgamento?",
+    "O Congresso deve discutir limites ao inquérito das fake news e às decisões individuais de ministros?",
+    "Como a oposição deve usar essa repercussão internacional sem perder o foco no Congresso em 2027?"
+   ],
+   "atencao": "Editorial é opinião do jornal; não há manifestação de Moraes, do STF ou de Fachin sobre o texto nas matérias abertas. Flávio é investigado no STF e nega irregularidades.",
+   "fontes": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/mundo/jornal-eua-diz-caso-flavio-expoe-preocupacoes-estado-direito-brasil/"
+    },
+    {
+     "name": "Jornal de Brasília",
+     "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/washington-post-critica-stf-e-diz-que-fuga-de-flavio-expoe-problemas-na-democracia-brasileira/"
+    },
+    {
+     "name": "Itatiaia (CNN Brasil)",
+     "url": "https://www.itatiaia.com.br/politica/fuga-de-flavio-bolsonaro-abre-disputa-por-lideranca-da-direita-no-brasil/"
+    }
+   ]
+  },
+  {
+   "id": "pe-de-meia-sem-retroativo",
+   "bloco": "Educação",
+   "avulsa": true,
+   "pedido": "Pé-de-Meia não faz pagamento retroativo para novos beneficiários https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVjlUSk0ybDg4cXZ1X2R5X3ZZbjlSWFVNYjNGUm9ScThhNjJrX0VQbVhrdW5STU1Cdy1DZ09hLXFhRnA1aE4tckcwdnVGdFh2YnhDeVdrTWVBYWFfNVFQRnJiakdzeVpqUjZQMjV6UEVTMm1Za1BfNTZxWTZYRUMybXRnYUVPM3cyU0tkdGNqRkZIY3AxS0RraVlDRlRNOVg2NkJQbFNkcW1JaE1TelBOaWtNRm5DaE41eWpz?oc=5",
+   "titulo": "Pé-de-Meia não paga parcelas atrasadas a quem entra depois no programa",
+   "subtitulo": "A regra do MEC é que o aluno só recebe a partir da inclusão; a sétima parcela de R$ 200 foi paga até 26 de outubro",
+   "resumo": "Quem entra no Pé-de-Meia só passa a receber a partir da inclusão e não leva as parcelas anteriores. Essa foi a regra que o MEC aplicou quando incluiu novos alunos em 2024, ao dizer que eles não receberiam retroativamente as quatro parcelas já pagas. O programa já alcançou cerca de 7,2 milhões de estudantes, 56% dos alunos do ensino médio, com cerca de R$ 21 bilhões investidos. O aluno pode chegar a R$ 9.200 no total, mas precisa de 80% de frequência por mês e de família no CadÚnico até 7 de fevereiro de 2025, com renda de até meio salário mínimo por pessoa. A sétima parcela de R$ 200 foi paga de 19 a 26 de outubro, e a próxima rodada vai de 23 a 30 de novembro.",
+   "contexto": [
+    "Em agosto de 2024, o MEC disse que os novos beneficiários só recebem após serem incluídos e não recebem retroativamente as quatro parcelas já pagas.",
+    "A primeira parcela dos novos alunos, de R$ 200, foi paga a partir de 26 de agosto de 2024, para famílias inscritas no CadÚnico até 15 de junho de 2024.",
+    "Hoje a regra de entrada é família no CadÚnico até 7 de fevereiro de 2025, renda de até meio salário mínimo por pessoa, CPF válido e frequência mínima de 80% ao mês.",
+    "No ensino médio regular são R$ 200 de matrícula por ano, R$ 1.800 de frequência (9 parcelas de R$ 200), R$ 1.000 de conclusão por ano e R$ 200 do Enem, até R$ 9.200.",
+    "O governo estima cerca de 7,2 milhões de estudantes atendidos desde 2024 e cerca de R$ 21 bilhões investidos. A oitava parcela será paga de 23 a 30 de novembro."
+   ],
+   "angulo": [
+    "Pagar só a partir da inclusão é regra de qualquer benefício e protege o caixa: retroativo para quem entra depois seria abrir mais uma despesa bilionária sem prazo.",
+    "O dinheiro é do contribuinte e o programa já consome cerca de R$ 21 bilhões. O público tem o direito de saber quem entra, quando entra e quanto custa.",
+    "O benefício é condicionado a frequência de 80% e a aprovação, o que vincula o dinheiro ao estudo. Esse é o ponto do programa que mais vale defender.",
+    "As famílias precisam de regra clara e comunicação direta do MEC sobre prazos e direitos, para que ninguém descubra a perda só no extrato."
+   ],
+   "perguntas": [
+    "Quem entra no programa e não recebe o que veio antes entende a regra, ou falta informação clara do governo para as famílias?",
+    "Com cerca de R$ 21 bilhões investidos, o programa já mostra resultado em permanência e aprendizado, ou só em número de beneficiários?",
+    "A exigência de 80% de frequência e de aprovação é suficiente para o dinheiro cumprir o papel de manter o aluno na escola?"
+   ],
+   "atencao": "A frase sobre a não retroatividade é do MEC em 2024. Não achei fonte oficial de 2026 que confirme a regra para novas inclusões na rodada atual, e há notícias de retroativos de matrícula e conclusão para quem já estava habilitado. O link do pedido (Google News) não abriu.",
+   "fontes": [
+    {
+     "name": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2024/08/26/pe-de-meia-pagamento-a-novos-beneficiarios-comeca-nesta-segunda-feira/"
+    },
+    {
+     "name": "Seu Dinheiro",
+     "url": "https://www.seudinheiro.com/2026/economia/programa-auxilio-governo-estudantes-pe-de-meia-pagamento-outubro-isca/"
+    }
+   ]
+  },
+  {
+   "id": "fachin-inss-master",
+   "bloco": "STF e instituições",
+   "titulo": "Fachin devolve a Mendonça o caso do INSS e fica com o Master por 90 dias",
+   "subtitulo": "Decisão de quinta-feira (29) ainda precisa de referendo do plenário, sem data marcada",
+   "resumo": "O presidente do STF, Edson Fachin, devolveu na quinta-feira (29) ao ministro André Mendonça a relatoria das investigações sobre os descontos ilegais no INSS, que incluem o caso Lulinha. O Master continua com Fachin em caráter provisório, por até 90 dias contados de 12 de setembro. Enquanto o caso esteve na Presidência, Mendonça cobrava uma definição porque não podia analisar pedidos das defesas. Para o cidadão que teve a aposentadoria descontada sem autorização, cada semana de processo travado é prejuízo sem resposta. O brasileiro tem o direito de ver as duas investigações andando.",
+   "contexto": [
+    "Fachin entendeu que não há mais motivo para manter as investigações do INSS sob a Presidência do STF.",
+    "O caso Master fica com ele porque não pode ser distribuído aos demais ministros, já que envolve citações a membros da Corte.",
+    "Enquanto estiver com Fachin, o Master só tem medidas urgentes pedidas pela PF ou pela PGR, como diligências e revogação de prisões.",
+    "Em setembro o caso INSS foi tirado de Mendonça em meio a uma guerra de liminares ligada a um pedido de investigação contra Alexandre de Moraes.",
+    "Moraes é citado em mensagens do celular do ex-banqueiro Daniel Vorcaro obtidas pela PF.",
+    "A decisão de Fachin será submetida a referendo do plenário, e a data do julgamento não foi definida."
+   ],
+   "angulo": [
+    "O INSS é um roubo contra aposentados e pensionistas, e a investigação não pode ficar refém de disputa interna do Supremo.",
+    "Caso que cita ministros da Corte não pode ser decidido só pelo próprio Tribunal sem prazo e sem transparência: os 90 dias precisam ter fim claro.",
+    "O programa deve cobrar que o plenário marque logo o referendo e que a Operação Sem Desconto avance com o relator original."
+   ],
+   "perguntas": [
+    "Por que o caso INSS passou semanas na Presidência do STF antes de voltar ao relator original?",
+    "Um caso que cita ministros do Supremo pode ficar com a própria Corte sem controle externo?",
+    "O que o aposentado lesado ganha de concreto com essa devolução?"
+   ],
+   "atencao": "Lulinha é citado no âmbito do caso INSS e não consta como condenado; usar apenas \"investigado\" ou \"citado\" conforme a matéria.",
+   "fontes": [
+    {
+     "name": "AJ Notícias",
+     "url": "https://ajnoticias.com.br/noticia/59250/fachin-devolve-relatoria-do-caso-do-inss-a-mendonca-e-mantem-master"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://oantagonista.com.br/brasil/fachin-fica-com-o-master-inss-volta-a-mendonca/"
+    }
+   ]
+  },
+  {
+   "id": "pt-reforma-judiciario",
+   "bloco": "Política nacional",
+   "titulo": "PT diz que o novo mandato de Lula terá reforma do Judiciário e regulação das big techs",
+   "subtitulo": "Nota do partido lista também a reforma do sistema político-eleitoral como prioridade",
+   "resumo": "Em nota divulgada na quinta-feira (29), o PT afirmou que o quarto mandato de Lula deve abrir \"um ciclo de transformações estruturais\". A lista de prioridades traz a reforma do sistema de Justiça, a reforma político-eleitoral e a \"regulação democrática das grandes plataformas digitais\". O partido diz que a vitória de Lula, com mais de 64 milhões de votos, \"ultrapassou fronteiras partidárias\". Reforma do Judiciário e regulação de plataformas, nas mãos de quem governa, tocam diretamente a liberdade de expressão e o equilíbrio entre os Poderes. O cidadão precisa saber, antes de 2027, o que exatamente o governo pretende mudar e quem decide o que pode ser dito na internet.",
+   "metafora": "Regular a internet sem regra clara é como dar a um árbitro o direito de mudar o regulamento durante a partida.",
+   "contexto": [
+    "A nota é atribuída ao PT como partido, sem signatário individual.",
+    "Três prioridades: reforma do sistema de Justiça, reforma político-eleitoral e regulação das big techs.",
+    "O partido cita mais de 64 milhões de votos para Lula na eleição de 25 de outubro.",
+    "A nota credita a vitória à mobilização popular, em especial de jovens e movimentos sociais.",
+    "A reportagem não traz reação de outros partidos nem detalha o conteúdo das reformas."
+   ],
+   "angulo": [
+    "Regulação de plataformas chamada de \"democrática\" por quem governa precisa de limite escrito: liberdade de expressão não se negocia por decreto nem por decisão individual.",
+    "Reforma do Judiciário que sai do partido do governo, sem debate amplo, tem cara de acerto de contas e não de aperfeiçoamento das instituições.",
+    "O programa deve exigir texto, prazo e debate no Congresso antes de qualquer mudança que mexa com a internet ou com o Supremo."
+   ],
+   "perguntas": [
+    "O que o PT quer dizer, na prática, com \"regulação democrática\" das plataformas?",
+    "Reforma do Judiciário vinda do governo fortalece as instituições ou aumenta o controle político?",
+    "Que garantias de liberdade de expressão precisam estar no texto antes de qualquer votação?"
+   ],
+   "fontes": [
+    {
+     "name": "O Liberal",
+     "url": "https://www.oliberal.com/politica/pt-novo-mandato-de-lula-tratara-reformas-do-judiciario-e-politica-e-regulacao-das-big-techs-1.1188568"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://www.brasil247.com/brasil/reforma-do-judiciario-e-regulacao-das-big-techs-estao-entre-prioridades-do-novo-mandato-de-lula-diz-pt/"
+    }
+   ]
+  },
+  {
+   "id": "santander-juros-imobiliario",
+   "bloco": "Economia",
+   "titulo": "Santander sobe o piso do financiamento da casa própria de 11,69% para 12,49% ao ano",
+   "subtitulo": "Bradesco, Itaú e Santander já cobram acima do teto de 12% do SFH, que dá acesso ao FGTS",
+   "resumo": "O Santander elevou a taxa mínima do crédito imobiliário de 11,69% para 12,49% ao ano mais TR, a partir de sexta-feira (30), depois de Bradesco e Itaú. O Bradesco foi de 11,69% para 15% em 26 de outubro, e o Itaú de 11,99% para 12,95% em 29 de outubro. Os dois atribuíram a alta aos juros de mercado mais altos depois do segundo turno. Todos os três cobram agora mais que o teto de 12% do Sistema Financeiro da Habitação, o que pode tirar o comprador da faixa que permite usar o FGTS. Para a família que sonha com a casa própria, o resultado é parcela maior e menos gente passando pelo crivo do banco.",
+   "contexto": [
+    "Santander: de 11,69% para 12,49% ao ano mais TR, em vigor desde 30 de outubro, a menor alta entre os três (0,80 ponto).",
+    "Bradesco: de 11,69% para 15%, em 26 de outubro (3,31 pontos).",
+    "Itaú: de 11,99% para 12,95%, em 29 de outubro (0,96 ponto).",
+    "Acima de 12% ao ano o financiamento sai do SFH e entra no SFI, com taxa livre e sem acesso ao FGTS.",
+    "Caixa, com 48,6% do mercado, e Banco do Brasil não mudaram as taxas e estão em período de silêncio antes dos balanços.",
+    "A Selic está em 13,75% ao ano, e o Copom decide em 3 e 4 de novembro."
+   ],
+   "angulo": [
+    "Juro alto é a conta do descontrole fiscal: quando o governo gasta demais, o mercado cobra mais caro, e quem paga é a família que financia o imóvel.",
+    "O governo que prometeu casa própria precisa dizer como pretende conter os juros sem abrir mais despesa.",
+    "O programa deve defender responsabilidade fiscal como política de moradia: sem ela, nenhum programa habitacional fecha a conta."
+   ],
+   "perguntas": [
+    "Quanto a parcela de um financiamento de R$ 400 mil sobe com essa alta de taxa?",
+    "A Caixa vai acompanhar os bancos privados depois do período de silêncio?",
+    "Que sinal fiscal o governo precisa dar para os juros longos recuarem?"
+   ],
+   "fontes": [
+    {
+     "name": "Exame",
+     "url": "https://exame.com/mercado-imobiliario/santander-segue-exemplo-de-itau-e-bradesco-e-sobe-juros-da-casa-propria-veja-em-quanto-ficou/"
+    }
+   ]
+  },
+  {
+   "id": "estatais-deficit-recorde",
+   "bloco": "Economia",
+   "titulo": "Estatais federais têm o pior déficit para o período desde 2002, diz o Banco Central",
+   "subtitulo": "Correios lideram o prejuízo, e o governo admite estatais no vermelho até 2030",
+   "resumo": "As estatais federais acumulam déficit de R$ 8,5 bilhões de janeiro a setembro de 2026, o pior resultado para o período desde o início da série, em 2002, segundo a Revista Oeste com dados do Banco Central. O valor já supera o déficit anual de 2024, de R$ 6,73 bilhões. Os Correios tiveram prejuízo de R$ 5,6 bilhões só no primeiro semestre, com 15 trimestres seguidos no negativo. O projeto da LDO 2027 admite que as estatais devem continuar com déficit até 2030. Quem paga essa conta é o contribuinte, que sustenta empresas que não fecham as próprias contas enquanto o governo fala em ajuste.",
+   "contexto": [
+    "Déficit acumulado de R$ 8,5 bilhões até setembro, segundo a Revista Oeste; outras reportagens citam R$ 11,4 bilhões, porque os critérios do indicador variam.",
+    "O recorde anterior para o período era de 2025, com R$ 6,3 bilhões; o déficit de todo o ano de 2024 foi de R$ 6,73 bilhões.",
+    "Os Correios acumulam 15 trimestres seguidos de prejuízo, com R$ 5,6 bilhões no primeiro semestre de 2026.",
+    "O indicador do Banco Central não inclui Petrobras, Eletrobras e bancos públicos.",
+    "Em setembro, o déficit mensal foi de R$ 3,4 bilhões segundo o Metrópoles, depois de superávit em agosto.",
+    "A LDO 2027 prevê estatais no vermelho até 2030."
+   ],
+   "angulo": [
+    "Estatal deficitária é imposto disfarçado: o rombo dos Correios e de outras empresas sai do bolso do contribuinte.",
+    "O governo pede ajuste fiscal ao país enquanto admite, na própria LDO, que as estatais seguirão no vermelho até 2030.",
+    "O programa deve defender gestão profissional, metas claras e discussão aberta sobre privatização ou concessão das empresas que não se sustentam."
+   ],
+   "perguntas": [
+    "Por que os Correios têm prejuízo há 15 trimestres e ninguém responde por isso?",
+    "Aceitar déficit de estatal até 2030 é compatível com a promessa de ajuste fiscal?",
+    "Que estatais poderiam ser concedidas ou privatizadas sem prejudicar o serviço à população?"
+   ],
+   "atencao": "Os números divergem entre as reportagens (R$ 8,5 bilhões ou R$ 11,4 bilhões no acumulado; R$ 2 bilhões ou R$ 3,4 bilhões em setembro). No ar, cite o Banco Central e confira o boletim de estatísticas fiscais.",
+   "fontes": [
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/economia/estatais-federais-registram-o-maior-deficit-anual-da-historia/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/estatais-federais-tem-deficit-de-r-34-bilhoes-em-setembro-diz-bc"
+    }
+   ]
+  },
+  {
+   "id": "oruam-caixinha-marcinho-vp",
+   "bloco": "Segurança pública",
+   "titulo": "Polícia do Rio diz que Oruam buscou a \"caixinha\" do pai com traficantes no Alemão",
+   "subtitulo": "Inquérito investiga Oruam e a mãe por suspeita de lavagem de dinheiro do Comando Vermelho",
+   "resumo": "A Polícia Civil do Rio investiga repasses da \"caixinha\" do Comando Vermelho a Marcinho VP e à família, e diz que Oruam foi a um ponto controlado por traficantes no Complexo do Alemão buscar dinheiro. A informação vem de mensagens de Oruam à mãe, Márcia Gama, no celular dela. O inquérito investiga os dois por suspeita de organização criminosa e lavagem de dinheiro. Para os investigadores, Marcinho VP, preso há décadas, ainda influencia as finanças da facção e financiaria shows do filho. É um retrato do poder que o crime organizado mantém mesmo com os chefes atrás das grades.",
+   "metafora": "É como um cofre que continua abastecido do lado de fora, enquanto o dono cumpre pena do lado de dentro.",
+   "contexto": [
+    "A polícia analisa dados do celular de Márcia Gama, mãe de Oruam e companheira de Marcinho VP.",
+    "Segundo a polícia, líderes do CV arrecadam dinheiro nas comunidades para a caixinha, e parte vai para Marcinho VP e a família.",
+    "Em outra conversa, Oruam pede dinheiro com frequência e cita uma possível mesada, o que a polícia lê como pagamento regular.",
+    "Uma mensagem da mãe diz: \"Deixa seu pai investir em você\".",
+    "O relatório não informa valores nem identifica quem fez as entregas.",
+    "A reportagem não traz a manifestação das defesas."
+   ],
+   "angulo": [
+    "Chefe de facção preso que segue mandando e recebendo dinheiro mostra que o isolamento no sistema penitenciário falhou.",
+    "O combate ao crime organizado passa por asfixiar o dinheiro: rastrear, bloquear e confiscar, como nas grandes operações recentes no Rio.",
+    "O programa deve defender endurecimento do regime para líderes de facção e punição para quem ajuda a lavar o dinheiro do tráfico."
+   ],
+   "perguntas": [
+    "Como um preso há décadas ainda administra dinheiro e decide gastos da família?",
+    "Artistas que aparecem nas investigações de lavagem devem ter shows e contratos públicos suspensos?",
+    "Que mudança no sistema penitenciário federal impediria esse fluxo de recados e dinheiro?"
+   ],
+   "atencao": "Tudo é suspeita da investigação policial, sem condenação. Use \"segundo a polícia\", \"investigado\" e registre que o relatório não traz a versão das defesas.",
+   "fontes": [
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/brasil/policia-investiga-repasses-da-caixinha-de-marcinho-vp-a-oruam/"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/oruam-buscou-caixinha-do-pai-com-traficantes-no-alemao-diz-policia"
+    }
+   ]
+  },
+  {
+   "id": "maria-corina-volta-venezuela",
+   "bloco": "Internacional",
+   "titulo": "María Corina volta à Venezuela, agradece a Trump e diz que nunca falou com Lula",
+   "subtitulo": "Opositora ficou dez meses no exílio, e Trump diz que não sabia do retorno",
+   "resumo": "A líder da oposição venezuelana e Nobel da Paz María Corina Machado voltou à Venezuela no domingo (25), depois de mais de dez meses fora do país. Na quinta-feira (29), agradeceu a Trump pela operação que capturou Nicolás Maduro em janeiro e disse que a ação abriu caminho para a liberdade do país. Ela afirmou nunca ter conversado com Lula e que não foi por falta de interesse dela. Também questionou a falta de transparência do acordo petrolífero de agosto entre o governo interino e os Estados Unidos. A fala expõe a distância entre o governo brasileiro e a principal voz da democracia venezuelana, que fica na vizinhança do Brasil.",
+   "contexto": [
+    "María Corina deixou o país em dezembro para receber o Nobel da Paz na Noruega e voltou em 25 de outubro, quando escreveu no X: \"Estou aqui. Com vocês\".",
+    "Os EUA capturaram Maduro em operação militar em 3 de janeiro.",
+    "Desde então Washington trabalha com o governo interino venezuelano numa transição que deixou de fora Machado e Edmundo González Urrutia.",
+    "Trump disse à CNN que não sabia do retorno e que espera que ela esteja bem.",
+    "Segundo relato de uma reportagem, Lula defende que Maduro seja julgado na Venezuela e evita atacar Trump diretamente.",
+    "Não há, nas reportagens, declaração de Lula sobre o diálogo com Machado."
+   ],
+   "angulo": [
+    "O Brasil não pode tratar com distância a principal líder democrática da Venezuela: quem defende democracia conversa com a oposição que ganhou a confiança do povo.",
+    "A ausência de diálogo de Lula com María Corina contrasta com a proximidade histórica do PT com o chavismo.",
+    "O programa deve cobrar que o Itamaraty abra canal com a oposição venezuelana e defenda eleições livres e transparentes."
+   ],
+   "perguntas": [
+    "Por que o presidente Lula nunca conversou com María Corina Machado?",
+    "A transição venezuelana pode ser legítima deixando de fora a oposição que o povo apoia?",
+    "O que o Brasil ganha, ou perde, ao escolher a distância da oposição venezuelana?"
+   ],
+   "atencao": "A falta de diálogo foi relatada só pelo lado de María Corina; não há resposta do governo Lula nas matérias.",
+   "fontes": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/maria-corina-machado-diz-que-voltou-a-venezuela-apos-10-meses-no-exilio/"
+    }
+   ]
+  }
+ ],
+ "atualizado": "2026-10-30T11:13:43-03:00"
 }
