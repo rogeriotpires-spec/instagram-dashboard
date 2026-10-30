@@ -2,8 +2,8 @@
   "date": "2026-10-30",
   "generated": "2026-10-30T10:42:13-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Fachin devolve o caso INSS a Mendonça, PT promete reformar o Judiciário e bancos encarecem a casa própria",
-  "abertura": "Hoje o programa começa pelo Supremo: Fachin devolveu a Mendonça a investigação do INSS e ficou com o Master por até 90 dias. Em seguida, o PT disse que o novo mandato de Lula terá reforma do Judiciário e regulação das big techs, o que exige atenção de quem defende liberdade de expressão. No bolso, Santander, Itaú e Bradesco subiram os juros do financiamento imobiliário, e as estatais federais têm o pior déficit para o período desde 2002. Fechamos com a investigação sobre a caixinha do Comando Vermelho no Rio e com a volta de María Corina Machado à Venezuela.",
+  "titulo": "Binance sofre hack de US$ 6,3 bilhões, defesa de Vorcaro questiona celular e Fachin devolve o INSS a Mendonça",
+  "abertura": "O programa começa pelo maior ataque hacker da história das criptomoedas: a Binance estima em US$ 6,3 bilhões o que foi levado e suspendeu os saques, o que reabre a discussão sobre guardar dinheiro em corretoras. Em seguida, a defesa de Vorcaro diz que 657 arquivos do celular foram modificados depois da apreensão, e a PF ainda não comentou. No Supremo, Fachin devolveu a Mendonça a investigação do INSS e ficou com o Master por até 90 dias. O PT promete reforma do Judiciário e regulação das big techs, e os bancos encarecem a casa própria enquanto as estatais federais registram o pior déficit desde 2002. Fechamos com a caixinha do Comando Vermelho no Rio e a volta de María Corina Machado à Venezuela.",
   "agenda": [
     {
       "time": "30/10",
@@ -15,6 +15,85 @@
     }
   ],
   "itens": [
+    {
+      "id": "binance-hack-bilionario",
+      "bloco": "Economia",
+      "avulsa": true,
+      "pedido": "Assunto em alta no X: Binance. A corretora de criptomoedas sofreu um ataque hacker, congelou US$ 2,54 bilhões em ativos e estima em US$ 6,3 bilhões o valor roubado. Como usar: Explicar com fato o tamanho do ataque e o risco de guardar dinheiro em corretoras.",
+      "titulo": "Binance sofre ataque hacker e estima em US$ 6,3 bilhões o valor roubado",
+      "subtitulo": "Cerca de US$ 3 bilhões foram congelados e a corretora suspendeu os saques até resolver a falha",
+      "resumo": "A Binance, maior corretora de criptomoedas do mundo, sofreu um ataque hacker e estima em cerca de US$ 6,3 bilhões o valor dos ativos levados. Cerca de US$ 3 bilhões foram congelados, entre eles mais de US$ 1,57 bilhão em USDT pela Tether e mais de US$ 800 milhões em USDC pela Circle. A investigação inicial aponta um laptop comprometido de um engenheiro de DevOps como porta de entrada, e a empresa diz que as chaves privadas das carteiras não vazaram. A Binance suspendeu os saques e promete cobrir as perdas com o fundo SAFU, de cerca de US$ 1 bilhão em bitcoin, e com recursos próprios. O episódio mostra o risco de deixar o dinheiro sob a guarda de uma única empresa, longe do controle de quem é o dono dele.",
+      "metafora": "Guardar cripto em corretora é como deixar o dinheiro no cofre de um terceiro: o cofre pode ser forte, mas a chave não está na sua mão.",
+      "contexto": [
+        "O ataque foi divulgado em 29 de outubro, e a Binance estima o prejuízo em cerca de US$ 6,3 bilhões. A Chainalysis calcula US$ 5,9 bilhões pelo valor na hora do roubo.",
+        "Os congelamentos somam cerca de US$ 3 bilhões, incluindo US$ 2,3 bilhões em USDT e USDC. O valor de US$ 2,54 bilhões que circula no X é parcial: as somas mais recentes passam de US$ 3 bilhões.",
+        "A Binance diz que o ataque partiu de um laptop comprometido de um engenheiro de DevOps, usado para chegar a um contêiner de serviço e enviar saques sem autorização.",
+        "A copresidente Yi He disse que a empresa cobrirá todas as perdas com o hack. A Binance e o fundador CZ afirmam que os fundos dos clientes estão seguros.",
+        "TRM Labs, Blockaid e ZachXBT apontam a Coreia do Norte como provável autora, com o grupo Lazarus citado. É atribuição de especialistas, sem conclusão oficial.",
+        "O mercado reagiu: o bitcoin caiu cerca de 4,8% e ficou abaixo de US$ 77 mil, o ether recuou 5,7% e a BNB, 8%."
+      ],
+      "angulo": [
+        "O tamanho do ataque, na casa dos bilhões, mostra que corretora centralizada concentra risco: quem deixa o patrimônio lá depende da segurança de terceiros.",
+        "A origem do ataque foi um laptop de um funcionário, não uma falha do blockchain. O erro foi humano e de processo, e isso pesa na confiança em qualquer plataforma.",
+        "O dinheiro que fica na própria carteira, com a própria chave, é o que dá ao cidadão controle sobre o que é seu. É o mesmo princípio de liberdade que o programa defende em outras áreas.",
+        "Os congelamentos por Tether e Circle mostram que emissoras privadas conseguem travar fundos em horas, o que ajuda a recuperar valores, mas também lembra quem tem poder sobre o dinheiro digital."
+      ],
+      "perguntas": [
+        "Quem guarda dinheiro em corretora hoje sabe de quem é a chave? O que o investidor comum precisa checar antes de deixar o patrimônio lá?",
+        "Se a Binance cobrir tudo com o SAFU e com recursos próprios, o cliente fica protegido de fato, ou a confiança já foi abalada?",
+        "Congelar bilhões em horas por decisão de empresas privadas é proteção ou concentração de poder sobre o dinheiro das pessoas?"
+      ],
+      "atencao": "Valores e autoria ainda em apuração: a Binance não detalhou a perda final e a ligação com a Coreia do Norte é atribuição de especialistas.",
+      "fontes": [
+        {
+          "name": "CoinDesk Brasil",
+          "url": "https://www.coindesk.com/pt-br/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+        }
+      ]
+    },
+    {
+      "id": "vorcaro-celular-arquivos-modificados",
+      "bloco": "STF e instituições",
+      "avulsa": true,
+      "pedido": "Defesa de Vorcaro diz que 657 arquivos do celular foram modificados depois da apreensão e pede a anulação de provas",
+      "titulo": "Defesa de Vorcaro diz que 657 arquivos do celular foram modificados após a apreensão",
+      "subtitulo": "Laudo particular aponta 999 arquivos alterados no total, e a PF não comentou",
+      "resumo": "A defesa de Daniel Vorcaro protocolou no STF, em 29 de outubro, um parecer particular segundo o qual 657 arquivos do celular foram modificados e 436 foram criados em 18 de novembro de 2025, horas depois da prisão, quando o aparelho já estava com a PF. Ao ampliar o período, o perito Marcos Monteiro chega a 999 arquivos modificados após a apreensão, entre eles o banco de dados do WhatsApp. O próprio laudo não diz quem mexeu no aparelho e não conclui que houve adulteração deliberada. A defesa, que contesta as provas tiradas do celular, pede acesso aos dados brutos da extração, aos registros de coleta e à cadeia de custódia, cobrada desde fevereiro. O assunto pesa porque o material do celular sustenta o indiciamento de 15 pessoas pela PF e traz mensagens que citam ministros do Supremo.",
+      "contexto": [
+        "A PF indiciou Vorcaro, o ex-presidente do BRB Paulo Henrique Costa e outras 13 pessoas em relatório parcial de mais de 700 páginas, enviado ao STF em 28 de outubro. A PF fala em fraude em operações de R$ 17,5 bilhões.",
+        "Dos 657 arquivos modificados em 18/11, 59 são bancos de dados. Dos 436 criados, 222 são de preferências do sistema e 94 são imagens HEIC.",
+        "Dos 999 arquivos modificados após a apreensão, 657 são de 18/11, dois de 23/11 e 340 de maio de 2026.",
+        "A defesa cita atividade registrada entre 23h22 e 2h25 da madrugada, com o aparelho sob custódia e em modo avião.",
+        "A PF não comentou o parecer. A polícia já disse que o celular e os arquivos originais da extração seguem sob sua custódia.",
+        "O relator do caso no STF é o ministro André Mendonça, que também vai analisar o pedido da PF de mais 60 dias para concluir as perícias."
+      ],
+      "angulo": [
+        "Cadeia de custódia é regra básica do processo penal: se a PF tem os registros, entregá-los à defesa e ao Supremo encerra a dúvida em poucos dias.",
+        "Um laudo particular não prova adulteração e o próprio perito não afirma isso. O que o laudo prova é que a PF precisa explicar cada alteração, com data e hora.",
+        "Quem defende o Estado de Direito quer prova sólida: se o material sustenta acusações graves, inclusive citações a ministros do STF, ele precisa resistir a qualquer questionamento técnico.",
+        "A situação do perito da PF investigado por vazar dados do celular, em maio, é motivo a mais para a transparência na custódia."
+      ],
+      "perguntas": [
+        "A PF deveria abrir os dados brutos e a cadeia de custódia agora, sem esperar o fim das perícias?",
+        "Arquivos alterados horas depois da prisão são rotina técnica de um aparelho ligado ou exigem explicação oficial?",
+        "Como garantir que o conteúdo do celular, que cita ministros do Supremo, seja analisado com isenção e sem vazamentos seletivos?"
+      ],
+      "atencao": "Segundo as reportagens abertas, a defesa pede acesso aos dados brutos e à cadeia de custódia; o pedido expresso de anulação das provas não aparece nessas matérias. O laudo é da defesa e não conclui por adulteração. Vorcaro é indiciado, não condenado.",
+      "fontes": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/pericia-contratada-por-vorcaro-aponta-alteracoes-em-celular-de-ex-banqueiro/"
+        },
+        {
+          "name": "Brasil de Fato",
+          "url": "https://www.brasildefato.com.br/2026/10/30/indiciado-por-fraude-bilionaria-vorcaro-questiona-no-stf-provas-obtidas-em-celular/"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/pf-ainda-nao-analisou-3-celulares-de-vorcaro-e-60-aparelhos-o-que-vem-por-ai-no-caso-master/"
+        }
+      ]
+    },
     {
       "id": "fachin-inss-master",
       "bloco": "STF e instituições",
@@ -222,5 +301,6 @@
         }
       ]
     }
-  ]
+  ],
+  "atualizado": "2026-10-30T11:08:15-03:00"
 }
