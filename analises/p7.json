@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-30T06:24:15-03:00",
+  "generated": "2026-10-31T06:17:16-03:00",
   "dias": 7,
   "period": {
-    "start": "2026-10-23",
-    "end": "2026-10-29"
+    "start": "2026-10-24",
+    "end": "2026-10-30"
   },
-  "compare": "2026-10-16 a 2026-10-22",
-  "headline": "De 23 a 29/10 a conta recebeu 10,3 mi de views (+210%) e 21.842 novos seguidores (+804%), com 17 publicações e três posts acima de 640 mil views.",
+  "compare": "2026-10-17 a 2026-10-23",
+  "headline": "De 24 a 30/10 a conta recebeu 10,6 mi de views (+229%) e 23.109 novos seguidores (+988%), com 17 publicações e três posts acima de 650 mil views.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "10,3 mi",
-      "delta": "+210%",
+      "value": "10,6 mi",
+      "delta": "+229%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "21.842",
-      "delta": "+804%",
+      "value": "23.109",
+      "delta": "+988%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "742",
-      "delta": "+401%",
+      "value": "829",
+      "delta": "+484%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "154 mil",
-      "delta": "+196%",
+      "value": "162 mil",
+      "delta": "+240%",
       "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "16.954",
-      "delta": "+273%",
+      "value": "16.788",
+      "delta": "+337%",
       "dir": "up"
     },
     {
       "label": "Salvamentos recebidos",
-      "value": "30.874",
-      "delta": "+344%",
+      "value": "32.425",
+      "delta": "+402%",
       "dir": "up"
     }
   ],
@@ -50,31 +50,32 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os três melhores posts foram dois Reels de política e uma imagem de opinião. \"Fiz a conta do primeiro para o segundo turno e ela não…\" (Reel, 128,3s) teve 977.159 views e 19.579 compartilhamentos. \"Meio milhão de seções.\" (Reel, 69,7s) teve 719.299 views e 375 comentários. A imagem \"Flávio Livre.\" teve 648.404 views e 228 seguidores. Os dois Reels têm 96 e 101 horas de idade, então acumularam mais que os posts recentes.",
+      "diagnosis": "Os três melhores posts foram dois Reels de política e uma imagem de opinião. \"Fiz a conta do primeiro para o segundo turno e ela não…\" (Reel, 128,3s) teve 978.504 views e 19.581 compartilhamentos. \"Meio milhão de seções.\" (Reel, 69,7s) teve 722.592 views e 380 comentários. A imagem \"Flávio Livre.\" teve 655.548 views e 231 seguidores. Os dois Reels têm mais de 119 horas de idade, então acumularam mais que os posts recentes.",
       "actions": [
-        "Repita os Reels de política com número ou conta feita por você, como o do segundo turno.",
+        "Repita os Reels de política com número ou conta feita por você.",
         "Publique imagens de opinião curtas e diretas, como \"Flávio Livre.\".",
-        "Reaproveite o tema dos dois Reels em uma versão curta de até 30 segundos."
+        "Use o tema do Reel dos boletins de urna (269.294 views e 10.404 compartilhamentos) em novas versões."
       ],
       "posts": [
         "De8Q_S9MAJt",
         "De8104Zt6iS",
-        "DfBOEyBsDWf"
+        "DfBOEyBsDWf",
+        "DfCvr4CN878"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Os piores posts tiveram poucas views: \"Se liga!!!\" (Reel, 108,8s) teve 737 views e foi pulado por 65%, \"Parabéns para você que paga essa conta!!!\" (imagem) teve 6.940 e \"O carioca vai mostrar na urna!!!\" (Reel de 24,7s) teve 11.437. Dos 15 Reels da semana, a mediana foi 38.337 views, enquanto as 2 imagens tiveram mediana de 327.672. Com só 2 imagens, essa comparação ainda é frágil.",
+      "diagnosis": "Os piores posts foram Reels: \"Se liga!!!\" (108,8s) teve 760 views e foi pulado por 64%, \"A semana termina.\" (27,1s) teve 7.033 e \"O carioca vai mostrar na urna!!!\" (24,7s) teve 11.467, com 52% de pulos. Os 16 Reels tiveram mediana de 74.594 views, e a única imagem teve 655.548. Com uma só imagem, essa comparação é frágil, e \"A semana termina.\" tem menos de 23 horas de idade.",
       "actions": [
         "Evite títulos de chamada genérica, como \"Se liga!!!\", sem o fato logo no começo.",
         "Abra o Reel com o dado mais forte para reduzir quem pula nos primeiros segundos.",
-        "Publique mais imagens de opinião e acompanhe se a mediana se mantém."
+        "Publique mais imagens de opinião e acompanhe se o resultado se mantém."
       ],
       "posts": [
         "De6lr9Ft3I5",
-        "De0uEUTtsi_",
+        "DfHQ85MtRsf",
         "De4zI8wtYAO"
       ]
     },
@@ -82,15 +83,15 @@
       "title": "Horários",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Os horários da manhã renderam pouco: a publicação das 7h teve 6.940 views e a das 8h teve 737. À noite, 22h teve 648.404, 19h teve 201.494 e 18h teve 187.308. Cada horário tem poucos posts (a maioria só um), então os números mostram tendência e não regra.",
+      "diagnosis": "Pela mediana de views por horário, 22h teve 655.548 e 19h teve 211.423, 18h teve 187.585 e 12h teve cerca de 190 mil. A manhã ficou menor: 06h teve 7.033, 13h teve 18.749 e 15h teve 21.164. O horário da meia-noite (978.504) e o de 5h (cerca de 368 mil) vieram de poucos posts. Quase todos os horários têm só um ou dois posts, então é tendência e não regra.",
       "actions": [
-        "Concentre as publicações principais entre 18h e 22h.",
-        "Use a manhã para posts menores ou para testar um formato novo.",
-        "Registre o horário de cada post para confirmar o padrão na próxima semana."
+        "Concentre os posts principais entre 18h e 22h.",
+        "Use a manhã para posts menores ou para testar formatos.",
+        "Registre o resultado de cada horário para confirmar o padrão na próxima semana."
       ],
       "posts": [
         "DfBOEyBsDWf",
-        "De0uEUTtsi_",
+        "De8Q_S9MAJt",
         "De6lr9Ft3I5"
       ]
     },
@@ -98,10 +99,10 @@
       "title": "Seguidores e saídas",
       "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "Foram 21.842 novos seguidores, contra 2.415 na semana anterior, e 742 pessoas deixaram de seguir, contra 148. Os dados de seguidores cobrem 6 dos 7 dias. O post que mais trouxe seguidores foi \"Flávio Livre.\", com 228. As saídas subiram junto com a entrada, mas em proporção bem menor.",
+      "diagnosis": "Foram 23.109 novos seguidores, contra 2.123 no período anterior, e 829 pessoas deixaram de seguir, contra 142. Os dados de seguidores cobrem 6 dos 7 dias. O post que mais trouxe seguidores foi \"Flávio Livre.\", com 231. As saídas cresceram (+484%), mas menos que as entradas (+988%).",
       "actions": [
-        "Continue com conteúdo que atrai quem ainda não segue, como as imagens de opinião.",
-        "Acompanhe as saídas dia a dia para ver se algum tema específico coincide com o aumento.",
+        "Continue com imagens de opinião, que atraem quem ainda não segue.",
+        "Acompanhe as saídas dia a dia para ver se algum tema coincide com o aumento.",
         "Nos Stories, apresente o perfil para quem chegou nesta semana."
       ],
       "posts": [

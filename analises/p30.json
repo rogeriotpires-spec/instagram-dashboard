@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-30T06:24:15-03:00",
+  "generated": "2026-10-31T06:17:16-03:00",
   "dias": 30,
   "period": {
-    "start": "2026-09-30",
-    "end": "2026-10-29"
+    "start": "2026-10-01",
+    "end": "2026-10-30"
   },
-  "compare": "2026-08-31 a 2026-09-29",
-  "headline": "Em 30 dias (30/09 a 29/10) a conta recebeu 23,5 mi de views (+69%) e 31.983 novos seguidores (+290%), com as imagens de opinião no topo dos seguidores.",
+  "compare": "2026-09-01 a 2026-09-30",
+  "headline": "Em 1 a 30/10 a conta recebeu 23,9 mi de views (+72%) e 33.226 novos seguidores (+294%), com 73 publicações contra 62 no período anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "23,5 mi",
-      "delta": "+69%",
+      "value": "23,9 mi",
+      "delta": "+72%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "31.983",
-      "delta": "+290%",
+      "value": "33.226",
+      "delta": "+294%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "1.207",
-      "delta": "+287%",
+      "value": "1.295",
+      "delta": "+295%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "442 mil",
-      "delta": "+124%",
+      "value": "447 mil",
+      "delta": "+118%",
       "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "36.180",
+      "value": "36.512",
       "delta": "+190%",
       "dir": "up"
     },
     {
       "label": "Salvamentos recebidos",
-      "value": "61.651",
-      "delta": "+239%",
+      "value": "63.282",
+      "delta": "+240%",
       "dir": "up"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião lideraram em views e seguidores. \"Fica a reflexão.\" teve 1.237.691 views, 39.552 compartilhamentos e 1.188 seguidores. \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 926.428 views e 1.175 seguidores. \"Avalanche Bolsonarista!\" teve 615.525 views e 466 seguidores. O Reel \"Fiz a conta do primeiro para o segundo turno e ela não…\" teve 977.159 views.",
+      "diagnosis": "As imagens de opinião foram as que mais trouxeram seguidores: \"Fica a reflexão.\" teve 1.237.731 views, 39.599 compartilhamentos e 1.188 seguidores, \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 926.434 views e 1.175 seguidores, e \"Avalanche Bolsonarista!\" teve 615.537 views e 466 seguidores. As 31 imagens somaram 3.542 seguidores atribuídos. Entre os Reels, \"Fiz a conta do primeiro para o segundo turno e ela não…\" teve 978.504 views.",
       "actions": [
-        "Mantenha uma imagem de opinião forte por semana, com frase curta e provocativa.",
-        "Repita Reels com conta ou número, como o do segundo turno.",
-        "Peça o compartilhamento no texto da legenda dos posts de opinião."
+        "Repita imagens de opinião com frase forte e direta, publicadas às 6h30 ou 7h, como as três que lideraram.",
+        "Faça Reels com número ou conta feita por você.",
+        "Acompanhe os seguidores de cada imagem para separar as que atraem das que só alcançam."
       ],
       "posts": [
         "Dd8pQedtGZL",
@@ -66,12 +66,12 @@
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Evitar",
-      "diagnosis": "Os piores posts foram Reels de política: \"Se liga!!!\" (737 views, pulado por 65%), \"Autoexplicativo (debate)\" (1.345 views, pulado por 60%, 23,1s) e \"Sabe se isso é IA?\" (1.350 views, 39 comentários). Os dois carrosséis tiveram mediana de 3.686 views. Os posts mais recentes ainda acumulam views, então a comparação com os antigos precisa de cuidado.",
+      "status_label": "Atenção",
+      "diagnosis": "Os piores posts foram Reels: \"Se liga!!!\" (108,8s) teve 760 views e foi pulado por 64%, \"Autoexplicativo (debate)\" (23,1s) teve 1.345 views, com 60% de pulos, e \"Sabe se isso é IA?\" (39,4s) teve 1.350. Os 2 carrosséis tiveram mediana de 3.688 views. Os 33 posts de Opinião tiveram mediana de 13.595 views, contra 29.176,5 dos 40 de Política, mas os maiores sucessos de Opinião ficaram bem acima disso.",
       "actions": [
-        "Evite Reels que dependem do contexto de outro vídeo, como \"Autoexplicativo (debate)\".",
-        "Evite carrosséis por enquanto: 2 posts, mediana de 3.686 views.",
-        "Revise os títulos fracos: diga o fato na primeira linha."
+        "Evite carrosséis por enquanto; os 2 testados ficaram abaixo dos demais formatos.",
+        "Evite Reels de chamada genérica sem o fato no começo.",
+        "Publique menos Opinião genérica e mantenha só as de frase mais forte."
       ],
       "posts": [
         "De6lr9Ft3I5",
@@ -80,32 +80,34 @@
       ]
     },
     {
-      "title": "Formatos",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os 40 Reels tiveram mediana de 28.993 views e 110,5 compartilhamentos, e as 32 imagens tiveram mediana de 14.815 views e 103,5 compartilhamentos. Mesmo assim, as imagens somam 3.513 seguidores, e os Reels não têm seguidores atribuídos no arquivo. Em soma de views, os Reels têm 5,58 mi e as imagens 4,60 mi.",
+      "title": "Comentários",
+      "status": "good",
+      "status_label": "Manter",
+      "diagnosis": "Foram 36.512 comentários (+190%). Os posts mais comentados foram Reels de política: \"Meio milhão de seções.\" (380), \"Inacreditável!\" (290, com 15.028 compartilhamentos) e \"Inacreditável o que esse sujeito asqueroso fez depois de votar\" (259, com 25.148 compartilhamentos). Os Reels de reação a um fato estiveram entre os que mais geraram conversa e repasse.",
       "actions": [
-        "Use Reels para alcance e imagens de opinião para ganhar seguidores.",
-        "Mantenha a proporção atual de Reels e imagens e acompanhe a mediana de cada um."
+        "Repita Reels de reação direta a um fato, como \"Inacreditável!\".",
+        "Termine o Reel com uma pergunta para os seguidores responderem.",
+        "Responda os primeiros comentários na primeira hora."
       ],
       "posts": [
-        "Dd8pQedtGZL",
-        "De8Q_S9MAJt"
+        "De8104Zt6iS",
+        "DeaQZPRNABT",
+        "DeFIOryNZpn"
       ]
     },
     {
       "title": "Horários",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Pela mediana de views, 22h lidera com 310.805, seguida de 18h com 143.620, 21h com 99.917 e 20h com 84.649. De manhã os números são menores: 06h teve 12.749 e 08h teve 5.568. Alguns horários têm só um post, como 00h (977.159), então use como tendência.",
+      "diagnosis": "Pela mediana de views, 22h teve 310.806, 18h teve 143.762,5, 21h teve 99.918 e 20h teve 85.444. A manhã variou: 06h teve 7.033, 08h teve 7.323 e 09h teve 45.977. Os horários das 14h (4.451) e 16h (11.258) ficaram entre os mais baixos. Os horários das 00h (978.504) e 5h vieram de poucos posts. Posts recentes ainda acumulam views, então os horários mais novos podem estar subestimados.",
       "actions": [
-        "Priorize publicar entre 18h e 22h.",
-        "Teste uma imagem às 22h na próxima semana.",
-        "Evite as 14h, que tiveram mediana de 4.451 views."
+        "Concentre os posts principais entre 18h e 22h.",
+        "Evite as 14h e 16h para conteúdo importante.",
+        "Teste a mesma imagem de opinião em horários diferentes por algumas semanas."
       ],
       "posts": [
-        "DeVAkiqtPwL",
-        "De8Q_S9MAJt"
+        "Dd8pQedtGZL",
+        "DeVAkiqtPwL"
       ]
     }
   ]

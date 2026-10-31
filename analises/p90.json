@@ -1,47 +1,47 @@
 {
-  "generated": "2026-10-30T06:24:15-03:00",
+  "generated": "2026-10-31T06:17:16-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-08-01",
-    "end": "2026-10-29"
+    "start": "2026-08-02",
+    "end": "2026-10-30"
   },
-  "compare": "2026-05-03 a 2026-07-31",
-  "headline": "Em 90 dias (01/08 a 29/10) a conta recebeu 44,8 mi de views e 40.178 novos seguidores; as imagens de opinião seguem no topo de views e seguidores.",
+  "compare": "2026-05-04 a 2026-08-01",
+  "headline": "Em 2/8 a 30/10 a conta recebeu 45,3 mi de views e 41.654 novos seguidores, com 180 publicações contra 141 no período anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "44,8 mi",
-      "delta": "+790%",
+      "value": "45,3 mi",
+      "delta": "+780%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "40.178",
+      "value": "41.654",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "1.519",
+      "value": "1.623",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "640 mil",
+      "value": "652 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "48.665",
+      "value": "49.105",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "163 mil",
-      "delta": "+182%",
+      "value": "166 mil",
+      "delta": "+192%",
       "dir": "up"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião ocupam os três primeiros lugares: \"Bem vindo a este manicômio chamado Brasil!\" (1.491.712 views, 493 seguidores), \"Fica a reflexão.\" (1.237.691 views, 1.188 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (983.020 views, 1.133 seguidores). As 57 imagens somam 6.705 seguidores. O tema Entrevista teve mediana de 88.393 views, mas só 5 posts.",
+      "diagnosis": "As imagens de opinião dominam os melhores resultados: \"Bem vindo a este manicômio chamado Brasil!\" teve 1.491.742 views, 28.454 compartilhamentos e 493 seguidores, \"Fica a reflexão.\" teve 1.237.731 e 1.188, e \"Ninguém aguenta mais o Lula e o PT!\" teve 983.030 e 1.133. As 57 imagens somaram 6.736 seguidores atribuídos. A comparação de views (+780%) é com um período anterior que só tem 24 dias de dado, então exagera o crescimento. Seguidores, compartilhamentos e comentários cobrem 53 a 54 dos 90 dias.",
       "actions": [
-        "Mantenha a imagem de opinião como aposta principal do mês.",
-        "Teste mais entrevistas, que tiveram a maior mediana entre os temas.",
-        "Repita o tom de frase curta e direta dos três posts de maior alcance."
+        "Mantenha imagens de opinião curtas e diretas como o formato que mais atrai seguidores.",
+        "Publique essas imagens pela manhã, por volta das 7h ou 8h, como as que lideraram.",
+        "Registre os seguidores de cada post para confirmar o padrão."
       ],
       "posts": [
         "DcGTcGzN_5i",
@@ -65,12 +65,12 @@
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Evitar",
-      "diagnosis": "Os piores posts foram Reels de política com menos de 600 views: \"Quase 18 anos no poder\" (473), \"O STF virou um manicômio institucional\" (537) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (552). O tema Eventos e discursos teve mediana de 2.693,5 views em 6 posts, bem abaixo dos demais.",
+      "status_label": "Atenção",
+      "diagnosis": "Os piores posts foram Reels de política com menos de 600 views: \"Quase 18 anos no poder\" (473, 102,4s), \"O STF virou um manicômio institucional\" (537) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (552). Eventos e discursos (6 posts) tiveram mediana de 2.693,5 views e os 2 carrosséis, 3.688.",
       "actions": [
-        "Evite Reels de política sem fato novo ou opinião clara.",
-        "Reduza posts de eventos e discursos sem um recorte forte.",
-        "Revise os Reels com menos de 1.000 views antes de repetir o formato."
+        "Evite Reels longos de notícia sem um fato forte logo no começo.",
+        "Evite posts de eventos e discursos sem um recorte claro.",
+        "Pare de testar carrosséis até ter um motivo novo."
       ],
       "posts": [
         "Db73S3ZBiej",
@@ -82,29 +82,30 @@
       "title": "Temas e formatos",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Política tem 105 posts e mediana de 23.242 views, e Opinião tem 59 posts e mediana de 13.748. Os 119 Reels têm mediana de 23.242 views, e as 57 imagens têm mediana de 16.273. Os 2 carrosséis ficaram em 3.686. Imagens somam 10,6 mi de views e Reels somam 8,6 mi.",
+      "diagnosis": "Os 121 Reels tiveram mediana de 23.242 views e as 57 imagens, 16.536. Por tema, Política (107 posts) teve mediana de 23.242 e Opinião (59), 13.748. Entrevista (5 posts) teve a maior mediana, 88.395, seguida de Bastidores e pessoal (2 posts, 41.018). Esses dois têm poucos posts, então são pistas e não regra.",
       "actions": [
-        "Mantenha Reels para alcance e imagens para seguidores.",
-        "Evite carrosséis por enquanto: só 2 posts e mediana de 3.686 views.",
-        "Equilibre Política e Opinião na semana, com uma imagem de opinião forte."
+        "Teste mais Entrevistas nas próximas semanas.",
+        "Mantenha Política como base do perfil.",
+        "Reduza Opinião sem frase forte e preserve as de maior sucesso."
       ],
       "posts": [
         "Dd8pQedtGZL",
-        "DcGTcGzN_5i"
+        "De8Q_S9MAJt"
       ]
     },
     {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Por mediana de views, 21h teve 99.917, 18h teve 81.474, 09h teve 64.054,5 e 17h teve 44.844. Os horários 20h (9.868), 22h (7.121) e 06h (4.418) ficaram abaixo. Muitos horários têm só um ou dois posts, então use como tendência. Os números de compartilhamentos, comentários e seguidores cobrem 53 dos 90 dias.",
+      "title": "Comentários",
+      "status": "good",
+      "status_label": "Manter",
+      "diagnosis": "Os posts mais comentados foram \"Qual número você escolheria?\" (487), \"Meio milhão de seções.\" (380) e \"Responda nos comentários, só um nome!\" (353, com 136.383 views e 57 seguidores). Pedidos diretos de resposta estiveram entre os que mais geraram comentários.",
       "actions": [
-        "Priorize 18h e 21h para os posts principais.",
-        "Teste o horário de 09h com uma imagem de opinião.",
-        "Revise os números de 20h e 22h com mais posts antes de descartar."
+        "Faça um post de resposta direta por semana.",
+        "Use as respostas como tema do conteúdo seguinte.",
+        "Responda na primeira hora."
       ],
       "posts": [
-        "DcGTcGzN_5i",
+        "DdumKq_tAX_",
+        "De8104Zt6iS",
         "DcfJMHasopg"
       ]
     }

@@ -1,17 +1,17 @@
 {
-  "generated": "2026-10-30T06:24:15-03:00",
+  "generated": "2026-10-31T06:17:16-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-10-29",
-    "end": "2026-10-29"
+    "start": "2026-10-30",
+    "end": "2026-10-30"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Em 29/10 a conta recebeu 582 mil views, 60% abaixo da média dos 7 dias anteriores, e o dia teve 0 publicações.",
+  "headline": "Em 30/10 a conta recebeu 625.590 views (queda de 58% contra a média dos 7 dias anteriores) com só 2 Reels publicados, e um deles, sobre o Grok e a urna, teve 364.149 views.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "582 mil",
-      "delta": "−60%",
+      "value": "626 mil",
+      "delta": "−58%",
       "dir": "down"
     },
     {
@@ -28,20 +28,20 @@
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "15.408",
-      "delta": "−24%",
+      "value": "11,9 mil",
+      "delta": "−46%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "1.262",
-      "delta": "−45%",
+      "value": "445",
+      "delta": "−82%",
       "dir": "down"
     },
     {
-      "label": "Alcance médio por dia",
-      "value": "141 mil",
-      "delta": "−60%",
+      "label": "Salvamentos recebidos",
+      "value": "2.032",
+      "delta": "−54%",
       "dir": "down"
     }
   ],
@@ -50,45 +50,59 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Mesmo sem publicação nova, a conta teve 15.408 compartilhamentos, 2.696 salvamentos e 38.088 curtidas em 29/10. Foram 36.421 contas com interação no dia, o que mostra que o conteúdo dos dias anteriores seguiu circulando.",
+      "diagnosis": "\"Allan dos Santos fez três perguntas ao Grok sobre a urna…\" (Reel, 138s, publicado às 8h29) teve 364.149 views, 9.225 compartilhamentos, 104 comentários e 1.549 salvamentos, e foi pulado por 41%. Ele concentrou quase todas as views do dia. O post tem 20,9 horas de idade e ainda acumula views.",
       "actions": [
-        "Aproveite os posts que ainda circulam: responda os comentários mais recentes deles.",
-        "Fixe ou compartilhe nos Stories o post que segue rendendo, para estender o alcance."
+        "Repita o formato de pergunta direta sobre um assunto quente da política, como a urna.",
+        "Publique Reels desse tipo pela manhã, por volta das 8h30, e acompanhe se o resultado se repete.",
+        "Responda os comentários na primeira hora para manter a conversa."
       ],
-      "posts": []
+      "posts": [
+        "DfHeQXTtYhF"
+      ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
+      "status_label": "Ajustar",
+      "diagnosis": "\"A semana termina.\" (Reel, 27,1s, 6h30) teve 7.033 views, 1 compartilhamento e foi pulado por 61%. Foi publicado há 22,9 horas, então ainda pode crescer, mas ficou muito abaixo do outro Reel do dia.",
+      "actions": [
+        "Abra o Reel com o fato ou a pergunta, não com uma frase de despedida.",
+        "Evite chamadas genéricas sem o assunto no título.",
+        "Teste um tema concreto no horário das 6h30 antes de repetir o horário."
+      ],
+      "posts": [
+        "DfHQ85MtRsf"
+      ]
+    },
+    {
+      "title": "Comentários e compartilhamentos",
+      "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "O dia teve 0 publicações e as views ficaram 60% abaixo da média da semana anterior. O alcance médio caiu 60% e as contas com interação por dia caíram 56%. A queda coincidiu com a ausência de posts novos.",
+      "diagnosis": "O dia somou 445 comentários (queda de 82% contra a média da semana anterior) e 11.904 compartilhamentos (queda de 46%). O Reel do Grok teve 104 dos comentários do dia e 9.225 dos compartilhamentos. Sem um segundo post forte, a conversa do dia ficou concentrada em um só conteúdo.",
       "actions": [
-        "Evite dias inteiros sem publicar durante a reta final da campanha.",
-        "Deixe pelo menos um Reel curto agendado para o fim da tarde, quando o dia estiver sem pauta."
+        "Inclua uma pergunta no fim do Reel para puxar comentários.",
+        "Publique um segundo conteúdo forte no mesmo dia para dividir a conversa.",
+        "Fixe um comentário seu com a pergunta do dia."
       ],
-      "posts": []
+      "posts": [
+        "DfHeQXTtYhF",
+        "DfHQ85MtRsf"
+      ]
     },
     {
-      "title": "Publicações do dia",
+      "title": "Volume e horários do dia",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Não houve post publicado em 29/10, então não há melhores nem piores para comparar. A comparação é só com a média dos 7 dias anteriores, que teve 1.273.456 views.",
+      "diagnosis": "Só 2 Reels foram publicados e nenhuma imagem. Pelo horário, o Reel das 8h teve 364.149 views e o das 6h teve 7.033, mas são só dois posts, então isso mostra uma tendência fraca. Não houve dado de novos seguidores para o dia.",
       "actions": [
-        "Defina um mínimo de uma publicação por dia.",
-        "Se o dia ficar sem pauta, reaproveite um tema que já rendeu, com ângulo novo."
+        "Publique ao menos uma imagem de opinião, que nos outros períodos trouxe seguidores.",
+        "Publique ao menos um conteúdo à noite, quando outros períodos mostram mais views.",
+        "Confira os seguidores do dia quando o dado for liberado."
       ],
-      "posts": []
-    },
-    {
-      "title": "Comentários e interação",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os comentários somaram 1.262 no dia, 45% abaixo da média dos 7 dias anteriores. Os compartilhamentos caíram menos, 24%, e os salvamentos caíram 34%. A conversa nos comentários perdeu mais força que o compartilhamento.",
-      "actions": [
-        "Faça uma pergunta direta no próximo post para recuperar os comentários.",
-        "Responda os comentários na primeira hora depois de publicar."
-      ],
-      "posts": []
+      "posts": [
+        "DfHeQXTtYhF",
+        "DfHQ85MtRsf"
+      ]
     }
   ]
 }
