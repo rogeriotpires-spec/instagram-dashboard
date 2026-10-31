@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-01",
+  "weekday": "Dom",
+  "generated": "2026-10-31T20:12:17-03:00",
+  "summary": "Domingo para organizar a semana: na terça, 3/11, às 16h, o Senado vota a PEC da Segurança Pública; o Itaú cortou o PIB de 2027 para 0,5% e levou a inflação para 6,1%; Kassab diz que o governo Lula já procurou o PSD para o quarto mandato; e Moraes mandou transferir Bacellar para um presídio no Rio e soltar o desembargador Macário Júdice.",
+  "agenda": [
+    {
+      "time": "3/11, 16h",
+      "text": "Senado vota a PEC da Segurança Pública (PEC 18/2025), marcada por Alcolumbre.",
+      "source": {
+        "name": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2026/10/31/alcolumbre-marca-votacao-da-pec-da-seguranca-publica-para-terca-feira-3/"
+      }
+    },
+    {
+      "time": "8/11",
+      "text": "Primeiro dia de provas do Enem 2026, com 5.051.345 inscrições confirmadas. A segunda prova é em 15/11.",
+      "source": {
+        "name": "Agência Gov",
+        "url": "https://agenciagov.ebc.com.br/noticias/202610/painel-enem-2026-apresenta-perfil-dos-participantes-do-exame"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "Manhã",
+      "type": "s",
+      "kind": "Enquete da semana",
+      "options": [
+        {
+          "title": "Alcolumbre marca para terça, 3/11, a votação da PEC da Segurança Pública no Senado",
+          "tone": "sóbrio",
+          "style": "print",
+          "fact": "O presidente do Senado, Davi Alcolumbre, marcou para terça-feira, 3 de novembro, às 16h, a votação da PEC 18/2025, a PEC da Segurança Pública. O texto foi aprovado na Câmara em março e concluiu a análise na CCJ do Senado em 14/10. Alcolumbre tirou a proposta da pauta em 15/10 depois de divergências sobre emendas, e agora retoma a tramitação. A PEC prevê penas mais duras para chefes de facções e milícias, repasse de 50% dos fundos federais de segurança a estados e municípios e a criação de polícias municipais. O governo quer votar antes do fim do ano.",
+          "sources": [
+            {
+              "name": "Brasil de Fato",
+              "url": "https://www.brasildefato.com.br/2026/10/31/alcolumbre-marca-votacao-da-pec-da-seguranca-publica-para-terca-feira-3/"
+            },
+            {
+              "name": "Bem Paraná",
+              "url": "https://www.bemparana.com.br/noticias/politica/pec-seguranca-publica/"
+            },
+            {
+              "name": "Revista Fórum",
+              "url": "https://revistaforum.com.br/politica/alcolumbre-marca-pec-seguranca-publica/"
+            }
+          ],
+          "slides": [
+            "Terça, 3/11, às 16h: o Senado vota a PEC da Segurança",
+            "Penas mais duras para chefes de facções e milícias",
+            "50% dos fundos federais de segurança para estados e municípios",
+            "Criação de polícias municipais",
+            "Em 15/10 a PEC saiu da pauta. Agora volta",
+            "Chefe de facção preso por mais tempo: você é a favor?"
+          ],
+          "poll": {
+            "question": "Chefe de facção e miliciano com pena mais dura: você apoia?",
+            "options": [
+              "Sim, apoio",
+              "Não apoio",
+              "Depende do texto"
+            ]
+          },
+          "caption": "Terça o Senado vota a PEC da Segurança, que prevê penas mais duras para chefes de facções e milícias. Em outubro ela saiu da pauta na véspera. Você acha que desta vez vota? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Fale do conteúdo e do calendário; não afirme que a PEC passa, o resultado depende do plenário. A PEC é de autoria do governo, então evite elogio ao Planalto e foque na pena para facção e milícia. Links das reportagens abertas pela busca; o Bem Paraná bloqueou leitura automática.",
+          "timeline": {
+            "rende": true,
+            "angle": "PEC da Segurança no Senado: o que muda para as polícias, para os fundos de segurança e para o combate às facções, e por que o texto saiu da pauta em outubro."
+          }
+        },
+        {
+          "title": "Itaú corta PIB de 2027 para 0,5% e eleva a inflação para 6,1%, acima do teto da meta",
+          "tone": "sóbrio",
+          "style": "print",
+          "fact": "Em revisão de cenário divulgada em 30/10, o Itaú reduziu a previsão de crescimento do PIB de 2027 de 1,2% para 0,5% e elevou a projeção do IPCA de 2027 de 4,6% para 6,1%, acima do teto da meta, que é 4,5%. O banco passou a prever Selic em 13,75% até dezembro de 2027 (antes, 12,50%), dólar a R$ 5,60 e desemprego de 6,5%, contra 6,2% na estimativa anterior. O Itaú vê necessidade de ajuste fiscal de cerca de 4 pontos do PIB para estabilizar a dívida.",
+          "sources": [
+            {
+              "name": "Revista Oeste",
+              "url": "https://revistaoeste.com/economia/itau-preve-crescimento-de-apenas-05-e-inflacao-acima-da-meta-em-2027/"
+            },
+            {
+              "name": "Jornal do Brasil",
+              "url": "https://www.jb.com.br/economia/2026/10/1061411-itau-atualiza-cenario-pib-cresce-so-05-em-2027-com-inflacao-de-61-e-parada-na-selic-em-1375.html"
+            }
+          ],
+          "slides": [
+            "PIB de 2027: de 1,2% para 0,5%",
+            "Inflação de 2027: de 4,6% para 6,1%",
+            "Acima do teto da meta, que é 4,5%",
+            "Selic em 13,75% até dezembro de 2027",
+            "Desemprego sobe para 6,5%",
+            "E no seu mercado, o preço já subiu?"
+          ],
+          "poll": {
+            "question": "Você sente a inflação pesar mais no seu bolso?",
+            "options": [
+              "Pesa mais",
+              "Igual",
+              "Menos"
+            ]
+          },
+          "caption": "O Itaú prevê PIB de 0,5% e inflação de 6,1% em 2027, acima do teto da meta. E no seu bolso, o preço já subiu? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Use os números como projeção do Itaú, não como dado oficial. Não culpe o trabalhador nem a jornada de trabalho; o foco é juros, inflação e a conta fiscal. Mantenha a atribuição ao Itaú uma única vez.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que o corte do Itaú diz sobre o bolso em 2027: inflação acima do teto, juros altos por mais tempo e o ajuste fiscal de 4 pontos do PIB que o banco vê como necessário."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Stories da semana que começa",
+      "options": [
+        {
+          "title": "Kassab diz que o governo Lula já procurou o PSD para o quarto mandato",
+          "tone": "irônico",
+          "style": "print",
+          "fact": "O presidente do PSD, Gilberto Kassab, disse em entrevista ao jornal O Globo: \"O governo já nos procurou desta vez, sim.\" Ele condicionou a aproximação a medidas econômicas (\"Se medidas econômicas forem adotadas, estaremos mais próximos, sim\") e cobrou de Lula um gesto de união aos partidos de centro. Sobre ser ministro, afirmou que \"não está no meu horizonte\", mas não descartou. O PSD já teve os ministérios da Agricultura, de Minas e Energia e da Pesca no terceiro governo Lula.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/eleicoes/2026/kassab-cobra-medidas-economicas-para-psd-ter-relacao-profunda-com-governo-lula/"
+            },
+            {
+              "name": "Terra",
+              "url": "https://www.terra.com.br/noticias/brasil/politica/governo-lula-ja-procurou-psd-e-relacao-pode-se-aprofundar-diz-kassab,07ff101f4772731c649c562d38b67309y47pet7d.html"
+            }
+          ],
+          "slides": [
+            "Lula ainda nem tomou posse e já procura o Centrão",
+            "Kassab: \"O governo já nos procurou desta vez, sim\"",
+            "A condição do PSD: medidas econômicas",
+            "O PSD já teve três ministérios no governo Lula 3",
+            "Cargo em troca de voto no Congresso: o eleitor aprova?",
+            "Responda na enquete"
+          ],
+          "poll": {
+            "question": "Partido que apoiou a oposição deve ganhar ministério de Lula?",
+            "options": [
+              "Não deve",
+              "Deve",
+              "Tanto faz"
+            ]
+          },
+          "caption": "O PSD diz que o governo Lula já o procurou para o quarto mandato. Ministério em troca de apoio no Congresso é o que você espera de um governo? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Foque no movimento do governo para montar base, sem inventar acordo: Kassab disse que houve procura e que não há pasta definida. Não traga as falas de Kassab sobre Flávio ou Bolsonaro; elas não são o assunto. Mantenha a atribuição a Kassab uma única vez.",
+          "timeline": {
+            "rende": false,
+            "angle": "Rende pouco como artigo isolado: é um movimento de bastidor sem decisão. Vale como parte de um texto maior sobre a montagem da base de Lula em 2027."
+          }
+        },
+        {
+          "title": "Moraes autoriza transferir Bacellar para presídio no Rio e manda soltar o desembargador Macário Júdice",
+          "tone": "contundente",
+          "style": "print",
+          "fact": "O ministro Alexandre de Moraes autorizou a transferência do ex-presidente da Alerj Rodrigo Bacellar da Penitenciária Federal de Mossoró (RN) para um presídio estadual no Rio de Janeiro, e Bacellar segue preso preventivamente desde 27 de março. Moraes também substituiu a prisão preventiva do desembargador federal Macário Júdice por medidas cautelares, e ele foi solto. Os dois são réus na Operação Unha e Carne, por suposto vazamento de informações sobre medidas contra investigados ligados ao Comando Vermelho. Eles negam as acusações e não foram condenados.",
+          "sources": [
+            {
+              "name": "Jovem Pan",
+              "url": "https://jovempan.com.br/politica/rodrigo-bacellar-sera-transferido-para-presidio-estadual-no-rio-de-janeiro/"
+            },
+            {
+              "name": "SBT News",
+              "url": "https://sbtnews.sbt.com.br/noticia/brasil/moraes-manda-transferir-bacellar-e-soltar-desembargador"
+            },
+            {
+              "name": "Brasil 247",
+              "url": "https://www.brasil247.com/sudeste/moraes-autoriza-transferencia-de-rodrigo-bacellar-para-presidio-no-rio-de-janeiro/"
+            }
+          ],
+          "slides": [
+            "Moraes manda transferir Bacellar para presídio no Rio",
+            "Ele estava em Mossoró, no presídio federal",
+            "Preso desde 27 de março, segue preventivamente",
+            "Desembargador Macário Júdice é solto com cautelares",
+            "Os dois são réus e negam as acusações",
+            "Quem decide quem fica preso e quem sai?"
+          ],
+          "poll": {
+            "question": "Uma decisão só de um ministro deveria definir prisão e soltura de réus?",
+            "options": [
+              "Não, deve ser colegiada",
+              "Sim, tudo bem",
+              "Não sei"
+            ]
+          },
+          "caption": "Moraes transfere um réu para o Rio e solta o outro no mesmo caso. Decisões de prisão e soltura deveriam passar sempre pelo colegiado? Sim ou não?",
+          "risk": "alto",
+          "risk_note": "Os dois são réus, não condenados, e negam as acusações: use \"réu\" e \"acusado\", nunca \"culpado\". Não afirme favorecimento nem perseguição, só pergunte sobre o rito. A data exata da decisão varia entre as reportagens (sexta ou sábado, 31/10).",
+          "timeline": {
+            "rende": true,
+            "angle": "As decisões individuais de Moraes na Operação Unha e Carne: quem está preso, quem foi solto, o que a Primeira Turma decidiu e o que falta para o julgamento."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
