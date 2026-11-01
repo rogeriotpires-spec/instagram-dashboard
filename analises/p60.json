@@ -1,114 +1,107 @@
 {
-  "generated": "2026-10-31T06:17:16-03:00",
-  "dias": 60,
-  "period": {
-    "start": "2026-09-01",
-    "end": "2026-10-30"
+ "generated": "2026-11-01T06:19:14-03:00",
+ "dias": 60,
+ "period": {
+  "start": "2026-09-02",
+  "end": "2026-10-31"
+ },
+ "compare": "2026-07-04 a 2026-09-01",
+ "headline": "Em 60 dias a conta recebeu 37,40 mi de views (+186,9%) e 41.654 novos seguidores, puxada por imagens de opinião acima de 900 mil views.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "37,40 mi",
+   "delta": "+186,9%",
+   "dir": "up"
   },
-  "compare": "2026-07-03 a 2026-08-31",
-  "headline": "Em 1/9 a 30/10 a conta recebeu 37,7 mi de views (+197%) e 41.654 novos seguidores, com 135 publicações contra 90 no período anterior.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "37,7 mi",
-      "delta": "+197%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "41.654",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "1.623",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "652 mil",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "49.105",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Alcance médio por dia",
-      "value": "220 mil",
-      "delta": "+280%",
-      "dir": "up"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião lideram em seguidores: as 47 imagens somaram 5.937 seguidores atribuídos, e os Reels não têm esse dado. \"Fica a reflexão.\" teve 1.237.731 views e 1.188 seguidores, \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 926.434 e 1.175, e \"Ninguém aguenta mais o Lula e o PT!\" teve 983.030 e 1.133. Os dados de seguidores, compartilhamentos e comentários cobrem 53 a 54 dos 60 dias.",
-      "actions": [
-        "Mantenha uma imagem de opinião forte por semana, publicada às 7h.",
-        "Use Reels com número ou conta própria, como o de 978.504 views sobre o segundo turno.",
-        "Compare os seguidores de cada imagem para repetir só as que atraem."
-      ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "DeVAkiqtPwL",
-        "Dd08gl4tibs",
-        "De8Q_S9MAJt"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Os piores posts foram Reels de política com menos de 800 views: \"O STF virou um manicômio institucional\" (537), \"Candidato perdeu Instagram e Fundo Eleitoral\" (552) e \"Se liga!!!\" (760, com 64% de pulos). Os 2 carrosséis tiveram mediana de 3.688 views e 1 seguidor atribuído. O único post de Serviço teve 5.058 views.",
-      "actions": [
-        "Evite Reels de notícia sem opinião ou fato forte no começo.",
-        "Evite carrosséis por enquanto.",
-        "Revise por que os Reels pior colocados tiveram tão pouco alcance, olhando o título e o início do vídeo."
-      ],
-      "posts": [
-        "Dc3EY5cNint",
-        "Dcvng7kNnHA",
-        "De6lr9Ft3I5"
-      ]
-    },
-    {
-      "title": "Temas e formatos",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os 86 Reels tiveram mediana de 24.935 views e as 47 imagens, 18.348, mas as imagens somaram mais views (8.380.231 contra 7.698.861) com menos posts. Por tema, Política (80 posts) teve mediana de 24.935 e Opinião (49 posts), 13.748. Bastidores e pessoal (2 posts, 41.018) e Eventos e discursos (3 posts, 37.023) tiveram medianas altas, mas com poucos posts.",
-      "actions": [
-        "Mantenha Reels de política como base e imagens de opinião como aposta para seguidores.",
-        "Teste mais um ou dois posts de Bastidores e pessoal por mês.",
-        "Evite concluir sobre temas com poucos posts antes de ter mais dados."
-      ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "De8Q_S9MAJt"
-      ]
-    },
-    {
-      "title": "Comentários",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "Os posts mais comentados foram \"Qual número você escolheria?\" (imagem, 487 comentários e só 13.748 views), \"Meio milhão de seções.\" (Reel, 380) e \"Inacreditável!\" (Reel, 290). A pergunta direta rendeu muitos comentários mesmo com poucas views.",
-      "actions": [
-        "Publique uma pergunta direta por semana para a audiência responder.",
-        "Use as respostas como tema de Reels seguintes.",
-        "Responda os comentários na primeira hora."
-      ],
-      "posts": [
-        "DdumKq_tAX_",
-        "De8104Zt6iS",
-        "DeaQZPRNABT"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "41.654",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "5.232",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "215 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "12.910",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "222 mil",
+   "delta": "+282%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "As imagens de opinião dominaram o topo: \"Fica a reflexão.\" (1/10) teve 1.237.731 views, 39.599 compartilhamentos e 1.188 seguidores; \"Ninguém aguenta mais o Lula e o PT!\" (28/9) teve 983.030 views e 1.133 seguidores. As imagens somaram 5.937 seguidores no período.",
+   "actions": [
+    "Repita imagens de opinião de manhã cedo, como as de 7h e 7h15.",
+    "Use frase curta e posição clara no título."
+   ],
+   "posts": [
+    "Dd8pQedtGZL",
+    "Dd08gl4tibs"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Reels de política com poucas centenas de views: \"O STF virou um manicômio institucional\" (537), \"Se liga!!!\" (760) e \"Banda podre esperneia!\" (1.066, 51% de pulo). Os três têm 1 a 6 compartilhamentos.",
+   "actions": [
+    "Evite Reels de frase solta sem fato novo.",
+    "Revise o tema e a abertura antes de publicar."
+   ],
+   "posts": [
+    "Dc3EY5cNint",
+    "De6lr9Ft3I5",
+    "DdL670TN4bK"
+   ]
+  },
+  {
+   "title": "Comentários",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "A conta recebeu 12.910 comentários nos 25 dias com dado. O post com mais comentários foi a imagem \"Qual número você escolheria?\" (25/9): 487 comentários com só 13.748 views. Depois vêm \"Meio milhão de seções.\" (380) e \"Inacreditável!\" (290).",
+   "actions": [
+    "Faça perguntas diretas e simples para puxar resposta.",
+    "Responda os comentários na primeira hora."
+   ],
+   "posts": [
+    "DdumKq_tAX_",
+    "De8104Zt6iS",
+    "DeaQZPRNABT"
+   ]
+  },
+  {
+   "title": "Formatos, temas e horários",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Foram 131 posts. Reels: 83, mediana de 26.123 views; imagens: 46, 23.469; carrosséis: 2, 3.688. Por tema, Política teve 26.123 e Opinião 16.048. Eventos e discursos (3 posts, 37.023) e Bastidores (2, 41.018) têm poucos posts. Por horário, 21h teve 96.750,5 e 18h 81.478, contra 7.121 às 22h e 9.197 às 20h.",
+   "actions": [
+    "Mantenha Reels e imagens em equilíbrio.",
+    "Teste mais posts de bastidores para confirmar o potencial."
+   ],
+   "posts": [
+    "Dd8pQedtGZL"
+   ]
+  }
+ ]
 }

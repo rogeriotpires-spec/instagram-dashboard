@@ -1,113 +1,106 @@
 {
-  "generated": "2026-10-31T06:17:16-03:00",
-  "dias": 90,
-  "period": {
-    "start": "2026-08-02",
-    "end": "2026-10-30"
+ "generated": "2026-11-01T06:19:14-03:00",
+ "dias": 90,
+ "period": {
+  "start": "2026-08-03",
+  "end": "2026-10-31"
+ },
+ "compare": "2026-05-05 a 2026-08-02",
+ "headline": "Em 90 dias a conta recebeu 45,14 mi de views (+752,9%) e 41.654 novos seguidores, com as imagens de opinião no topo.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "45,14 mi",
+   "delta": "+752,9%",
+   "dir": "up"
   },
-  "compare": "2026-05-04 a 2026-08-01",
-  "headline": "Em 2/8 a 30/10 a conta recebeu 45,3 mi de views e 41.654 novos seguidores, com 180 publicações contra 141 no período anterior.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "45,3 mi",
-      "delta": "+780%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "41.654",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "1.623",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "652 mil",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "49.105",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Alcance médio por dia",
-      "value": "166 mil",
-      "delta": "+192%",
-      "dir": "up"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião dominam os melhores resultados: \"Bem vindo a este manicômio chamado Brasil!\" teve 1.491.742 views, 28.454 compartilhamentos e 493 seguidores, \"Fica a reflexão.\" teve 1.237.731 e 1.188, e \"Ninguém aguenta mais o Lula e o PT!\" teve 983.030 e 1.133. As 57 imagens somaram 6.736 seguidores atribuídos. A comparação de views (+780%) é com um período anterior que só tem 24 dias de dado, então exagera o crescimento. Seguidores, compartilhamentos e comentários cobrem 53 a 54 dos 90 dias.",
-      "actions": [
-        "Mantenha imagens de opinião curtas e diretas como o formato que mais atrai seguidores.",
-        "Publique essas imagens pela manhã, por volta das 7h ou 8h, como as que lideraram.",
-        "Registre os seguidores de cada post para confirmar o padrão."
-      ],
-      "posts": [
-        "DcGTcGzN_5i",
-        "Dd8pQedtGZL",
-        "Dd08gl4tibs"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Os piores posts foram Reels de política com menos de 600 views: \"Quase 18 anos no poder\" (473, 102,4s), \"O STF virou um manicômio institucional\" (537) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (552). Eventos e discursos (6 posts) tiveram mediana de 2.693,5 views e os 2 carrosséis, 3.688.",
-      "actions": [
-        "Evite Reels longos de notícia sem um fato forte logo no começo.",
-        "Evite posts de eventos e discursos sem um recorte claro.",
-        "Pare de testar carrosséis até ter um motivo novo."
-      ],
-      "posts": [
-        "Db73S3ZBiej",
-        "Dc3EY5cNint",
-        "Dcvng7kNnHA"
-      ]
-    },
-    {
-      "title": "Temas e formatos",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os 121 Reels tiveram mediana de 23.242 views e as 57 imagens, 16.536. Por tema, Política (107 posts) teve mediana de 23.242 e Opinião (59), 13.748. Entrevista (5 posts) teve a maior mediana, 88.395, seguida de Bastidores e pessoal (2 posts, 41.018). Esses dois têm poucos posts, então são pistas e não regra.",
-      "actions": [
-        "Teste mais Entrevistas nas próximas semanas.",
-        "Mantenha Política como base do perfil.",
-        "Reduza Opinião sem frase forte e preserve as de maior sucesso."
-      ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "De8Q_S9MAJt"
-      ]
-    },
-    {
-      "title": "Comentários",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "Os posts mais comentados foram \"Qual número você escolheria?\" (487), \"Meio milhão de seções.\" (380) e \"Responda nos comentários, só um nome!\" (353, com 136.383 views e 57 seguidores). Pedidos diretos de resposta estiveram entre os que mais geraram comentários.",
-      "actions": [
-        "Faça um post de resposta direta por semana.",
-        "Use as respostas como tema do conteúdo seguinte.",
-        "Responda na primeira hora."
-      ],
-      "posts": [
-        "DdumKq_tAX_",
-        "De8104Zt6iS",
-        "DcfJMHasopg"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "41.654",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "5.232",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "215 mil",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "12.910",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "167 mil",
+   "delta": "+194,5%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os 3 melhores posts foram imagens de opinião: \"Bem vindo a este manicômio chamado Brasil!\" (16/8) com 1.491.742 views e 493 seguidores, \"Fica a reflexão.\" com 1.237.731 e 1.188, e \"Ninguém aguenta mais o Lula e o PT!\" com 983.030 e 1.133. As imagens somaram 6.736 seguidores.",
+   "actions": [
+    "Mantenha a imagem de opinião como principal ferramenta de crescimento.",
+    "Publique cedo, entre 7h e 8h, como nos três posts."
+   ],
+   "posts": [
+    "DcGTcGzN_5i",
+    "Dd8pQedtGZL",
+    "Dd08gl4tibs"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Os piores posts são Reels de política com 473, 537 e 552 views: \"Quase 18 anos no poder\", \"O STF virou um manicômio institucional\" e \"Candidato perdeu Instagram e Fundo Eleitoral\". Todos tiveram no máximo 11 comentários.",
+   "actions": [
+    "Evite Reels de manchete sem opinião.",
+    "Revise Reels que ficam abaixo de 1.000 views."
+   ],
+   "posts": [
+    "Db73S3ZBiej",
+    "Dc3EY5cNint",
+    "Dcvng7kNnHA"
+   ]
+  },
+  {
+   "title": "Temas",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Foram 180 posts. Entrevista teve mediana de 88.395 views (5 posts), Bastidores e pessoal 41.018 (2), Política 23.242 (107), Opinião 13.748 (59), Serviço 5.058 (1) e Eventos e discursos 2.693,5 (6). Entrevista e bastidores têm poucos posts.",
+   "actions": [
+    "Teste mais entrevistas para confirmar o resultado.",
+    "Reduza posts de eventos e discursos."
+   ],
+   "posts": []
+  },
+  {
+   "title": "Comentários e interação",
+   "status": "good",
+   "status_label": "Manter",
+   "diagnosis": "O post com mais comentários foi \"Qual número você escolheria?\" (487), seguido de \"Meio milhão de seções.\" (380) e \"Responda nos comentários, só um nome!\" (353, com 136.383 views e 1.661 compartilhamentos). Perguntas diretas coincidiram com mais respostas. A conta teve 12.910 comentários em 25 dias com dado.",
+   "actions": [
+    "Use perguntas curtas de resposta única.",
+    "Responda os comentários nas primeiras horas."
+   ],
+   "posts": [
+    "DdumKq_tAX_",
+    "De8104Zt6iS",
+    "DcfJMHasopg"
+   ]
+  }
+ ]
 }
