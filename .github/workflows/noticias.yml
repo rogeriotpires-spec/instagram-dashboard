@@ -1,8 +1,8 @@
 name: Gerar edição de notícias
 
 on:
-  schedule:
-    - cron: "0 8,14,21 * * *"   # 05h, 11h e 18h em Brasília (edições 06h, 12h e 19h)
+  # Os horários das edições agora são geridos na página agenda.html do painel.
+  # Quem dispara é o Worker da Cloudflare (a cada 5 minutos), pontual; o cron do GitHub atrasava ou pulava.
   workflow_dispatch:
     inputs:
       agendado:
