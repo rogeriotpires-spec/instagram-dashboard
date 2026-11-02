@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-02",
+  "weekday": "Seg",
+  "generated": "2026-11-01T22:50:33-03:00",
+  "summary": "Segunda de Finados com a direita na ofensiva jurídica: a defesa de Flávio Bolsonaro pediu a Fachin que Moraes seja afastado do inquérito e que o caso vá para Mendonça; Lula já tem fila para a Esplanada do quarto mandato, com Janones, Camilo Santana e João Campos entre os cotados; a Petrobras aumentou o querosene de aviação em 7,2%; e o governo divulga números de violência política que merecem conferência.",
+  "agenda": [
+    {
+      "time": "3/11, 16h",
+      "text": "Senado vota a PEC da Segurança Pública (PEC 18/2025), marcada por Alcolumbre.",
+      "source": {
+        "name": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2026/10/31/alcolumbre-marca-votacao-da-pec-da-seguranca-publica-para-terca-feira-3/"
+      }
+    },
+    {
+      "time": "8/11",
+      "text": "Primeiro dia de provas do Enem 2026, com 5.051.345 inscrições confirmadas. A segunda prova é em 15/11.",
+      "source": {
+        "name": "Agência Gov",
+        "url": "https://agenciagov.ebc.com.br/noticias/202610/painel-enem-2026-apresenta-perfil-dos-participantes-do-exame"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de até 30s reagindo ao fato do dia",
+      "options": [
+        {
+          "title": "Defesa de Flávio pede a Fachin que Moraes seja afastado do inquérito e que Mendonça assuma",
+          "tone": "contundente",
+          "duration": "até 30s",
+          "fact": "Em 1º/11, a defesa de Flávio Bolsonaro pediu ao presidente do STF, Edson Fachin, que Alexandre de Moraes seja declarado impedido de relatar o inquérito que apura a relação do senador com o advogado Willer Tomaz, e que o caso seja redistribuído a André Mendonça. Se o impedimento não for reconhecido, pede a suspeição. A defesa lembra que Moraes e a esposa usaram em 2025 um jato da Fraction 024, sociedade que também aparece na investigação, e que a esposa foi contratada pelo Banco Master por R$ 130 milhões. Pede ainda a revogação das cautelares, como o cancelamento dos passaportes. Flávio e Willer negam irregularidades. Não há decisão até agora.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/defesa-de-flavio-bolsonaro-pede-afastamento-de-moraes-de-investigacao/"
+            }
+          ],
+          "hooks": [],
+          "script": "Moraes quer continuar relator do inquérito de Flávio, mas usou em 2025 o mesmo jato que aparece na investigação. É o que diz a defesa, que pediu ao presidente do STF, Fachin, o afastamento dele do caso. O jato é da Fraction 024, sociedade citada na apuração. E a mulher do ministro foi contratada pelo Banco Master por 130 milhões de reais. Quem julga não pode ter relação com o que está sendo investigado. A defesa quer o inquérito com o ministro Mendonça. Você acha que Moraes deve sair desse inquérito? Sim ou não? Manda esse vídeo para quem precisa ver.",
+          "screen_text": [
+            "MORAES FORA DO INQUÉRITO?",
+            "Jato da Fraction 024 em 2025",
+            "Esposa contratada pelo Master: R$ 130 milhões",
+            "Defesa pede Mendonça"
+          ],
+          "caption": "A defesa de Flávio pediu a Fachin que Moraes saia do inquérito e que Mendonça assuma. Quem julga precisa estar acima de qualquer dúvida. Você acha que Moraes deve sair? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "É pedido da defesa, sem decisão do STF. Atribuir o argumento à defesa, não afirmar irregularidade de Moraes nem de sua esposa, e não dizer que há crime. Se Fachin decidir antes da gravação, troque o fecho pelo desfecho real.",
+          "timeline": {
+            "rende": true,
+            "angle": "Impedimento e suspeição no STF: o que a lei diz, os precedentes recentes de pedidos contra Moraes e por que o caso Willer Tomaz pode ir para Mendonça pela ligação com a investigação do INSS."
+          }
+        },
+        {
+          "title": "Lula monta a Esplanada do quarto mandato, e Janones, Camilo Santana e João Campos aparecem entre os cotados",
+          "tone": "irônico",
+          "duration": "até 30s",
+          "fact": "Reportagem de 26/10 do SBT News diz que Camilo Santana (PT-CE), que assumiu a campanha de Lula depois do 1º turno, é cotado para a Casa Civil, com Fernando Haddad como outra opção. André Janones (Avante-MG), que comandou o canal de WhatsApp Exército do Lula na campanha, é ventilado para a Secom ou a Secretaria-Geral. João Campos (PSB), que perdeu a disputa pelo governo de Pernambuco, é citado para Ciência e Tecnologia. Márcio França, Marina Silva, Simone Tebet e Gleisi Hoffmann também devem ser abrigados na Esplanada. Não há anúncio oficial: são nomes ventilados.",
+          "sources": [
+            {
+              "name": "SBT News",
+              "url": "https://sbtnews.sbt.com.br/noticia/politica/camilo-janones-joao-campos-quem-deve-integrar-o-lula-4"
+            }
+          ],
+          "hooks": [],
+          "script": "Lula nem montou o quarto governo e a fila na Esplanada já está formada. Camilo Santana, que assumiu a campanha depois do primeiro turno, é cotado para a Casa Civil. André Janones, que comandou o Exército do Lula no WhatsApp, é ventilado para a Secom. João Campos, derrotado em Pernambuco, aparece na Ciência e Tecnologia. Nada foi anunciado, são nomes cotados, mas o recado é claro: quem perdeu na urna pode ganhar ministério. Você aprova Janones no governo? Sim ou não? Manda para um amigo que acompanha política.",
+          "screen_text": [
+            "A FILA DA ESPLANADA",
+            "Camilo: Casa Civil?",
+            "Janones: Secom?",
+            "João Campos: Ciência e Tecnologia?"
+          ],
+          "caption": "A fila da Esplanada do quarto mandato já anda: Camilo, Janones e João Campos entre os cotados. Nada foi anunciado. Você aprova Janones no governo? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Tudo é especulação e a matéria é de 26/10: diga sempre cotado ou ventilado, nunca como nomeado. Antes de gravar, confira no Poder360 ou no Planalto se algum nome já foi anunciado.",
+          "timeline": {
+            "rende": false,
+            "angle": "Sem fato novo confirmado: a lista é de nomes cotados e pode mudar. Só vale artigo quando houver anúncio oficial dos ministros."
+          }
+        }
+      ]
+    },
+    {
+      "time": "21h",
+      "type": "i",
+      "kind": "Imagem de opinião com pergunta fechada",
+      "options": [
+        {
+          "title": "Petrobras aumenta o querosene de aviação em 7,2%, R$ 0,45 a mais por litro",
+          "tone": "sóbrio",
+          "style": "realista",
+          "fact": "A Petrobras reajustou em 7,2% o preço do querosene de aviação (QAV) para as distribuidoras a partir de domingo, 1º/11/2026, o que equivale a R$ 0,45 a mais por litro em relação a outubro. A estatal atribui o aumento à alta das cotações internacionais, influenciada por tensões no Oriente Médio e pela redução da capacidade de refino na Rússia e na Ucrânia.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/economia/petrobras-aumenta-querosene-de-aviacao-em-7/"
+            }
+          ],
+          "art_text": [
+            "Querosene de aviação: +7,2%",
+            "R$ 0,45 a mais por litro",
+            "Quem paga essa conta?",
+            "Imagem ilustrativa",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Sem rosto de pessoa real. Aparece um avião comercial na pista ao entardecer e, em primeiro plano, a silhueta de passageiros de costas em um saguão. Risco baixo.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, de um avião comercial em pista de aeroporto ao entardecer, com caminhão de abastecimento ao lado, céu alaranjado e escurecido nas bordas, e silhuetas de passageiros de costas, desfocadas, em um saguão no primeiro plano. Por cima, no alto, em letras condensadas, brancas e pesadas: \"Querosene de aviação: +7,2%\". Logo abaixo, em um quadro amarelo: \"R$ 0,45 a mais por litro\". Embaixo, em branco, com sublinhado vermelho pincelado: \"Quem paga essa conta?\". No canto inferior direito, selo pequeno: \"Imagem ilustrativa\". No rodapé, à esquerda do selo e sem disputar espaço com ele, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "A Petrobras aumentou o querosene de aviação em 7,2% a partir de domingo: R$ 0,45 a mais por litro. A passagem aérea vai ficar mais cara? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Não afirme que a passagem vai subir: a matéria não traz esse efeito. O aumento é para as distribuidoras e a estatal atribui a alta ao mercado internacional.",
+          "timeline": {
+            "rende": false,
+            "angle": "Fato isolado de um combustível, sem desdobramento confirmado sobre passagens."
+          }
+        },
+        {
+          "title": "Governo contabiliza 189 casos de violência política no período eleitoral, e 41 foram levados por parlamentares",
+          "tone": "sóbrio",
+          "style": "cartaz",
+          "fact": "O Ministério dos Direitos Humanos e da Cidadania informou 189 casos de violência política no período eleitoral. O Disque 100 recebeu 90 casos de 1º a 25 de outubro, contra 20 em todo setembro; 38 vieram por outros canais e 41 foram levados por parlamentares e representantes de partidos à ministra Janine Mello. Os dias 4 e 25/10 somam cerca de 30% das comunicações. As parcelas citadas (90, 38 e 41) somam 169, e o texto não explica a diferença para os 189.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/casos-de-violencia-politica-quadruplicam-em-outubro-no-disque-100/"
+            }
+          ],
+          "art_text": [
+            "189 casos",
+            "41 foram levados por parlamentares",
+            "As parcelas somam 169. Os números fecham?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Sem pessoas: cartaz só com texto e números, fundo escuro com textura. Risco baixo.",
+          "prompt": "Crie um cartaz vertical 4:5 (1080x1350), só texto e números, fundo escuro com textura de concreto, paleta quente e dessaturada (preto, ocre, vermelho). No alto, número gigante em amarelo, letras condensadas e muito pesadas: \"189 casos\". Abaixo, em branco, letras grandes: \"41 foram levados por parlamentares\". Em um quadro vermelho no centro: \"As parcelas somam 169\". Embaixo, em branco com sublinhado vermelho pincelado: \"Os números fecham?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "O governo diz que são 189 casos de violência política. Mas 41 foram levados por parlamentares e as parcelas divulgadas somam 169. Você confia nesses números sem ver os dados completos? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "A conta 90+38+41=169 é aritmética dos números divulgados; o total de 189 pode incluir outras parcelas não detalhadas. Não diga que o governo inflou os dados, apenas que a diferença não foi explicada. Violência política é assunto sensível: condene toda violência, de qualquer lado.",
+          "timeline": {
+            "rende": true,
+            "angle": "Como o governo conta a violência política, o que entra no total de 189 e por que os dados detalhados precisam ser públicos antes de virar política pública."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
