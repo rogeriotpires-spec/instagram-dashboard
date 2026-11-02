@@ -305,7 +305,49 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const REPO="rogeriotpires-spec/instagram-dashboard";
 const CAMP={direita:["Direita","var(--s1)"],"centro-direita":["Centro-direita","var(--s1)"],centro:["Centro","var(--muted)"],"centro-esquerda":["Centro-esquerda","var(--s2)"],esquerda:["Esquerda","var(--s2)"],estatal:["Estatal","var(--s4)"],internacional:["Internacional","var(--s3)"],rio:["Rio","var(--s5)"],regional:["Regional","var(--s5)"]};
 const POS={manchete:"manchete",topo:"topo",secundario:"secundário","secundário":"secundário",editoria:"editoria"};
-let CFG,EDS=[],CUR,ED,SEG="top",DONE={},BODIES={},NV={},NF="all",DONEP={};
+let CFG,EDS=[],CUR,ED,SEG="top",DONE={},BODIES={},NV={},NF="all";
+/* O que já está, ou está entrando, na pauta do programa (para não enviar duas vezes) */
+let PITENS=[],PFILA=[];
+const PDIAS=7; /* confere as pautas dos últimos 7 dias */
+const PSTOP=new Set("para pelo pela pelos pelas com sem sobre entre apos depois antes ainda como mais menos muito muita esta este esse essa isso isto aquele aquela seus suas dele dela deles delas quem qual quais onde quando porque pois tambem sera serao foram sido fazer faz feito diz dizem afirma afirmou disse dizer segundo nesta neste nessa desse dessa desta deste numa uma uns umas outro outra outros outras todo toda todos todas ano anos dia dias hoje ontem amanha governo brasil brasileiro brasileira contra mesmo apenas quer pode podem deve devem novo nova novos novas".split(" "));
+const pnorm=s=>String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ");
+const ptoks=s=>new Set(pnorm(s).split(/\s+/).filter(w=>w.length>3&&!PSTOP.has(w)));
+const pfrac=(a,b)=>{if(!a.size)return 0;let n=0;a.forEach(w=>{if(b.has(w))n++});return n/a.size};
+const progKey=it=>it.segment==="x"?"Assunto em alta no X: "+it.title:it.title;
+const PEND="prog_pend",PEND_MIN=45; /* envio feito neste aparelho, ainda não visível no GitHub */
+function pendGet(){try{const o=JSON.parse(localStorage.getItem(PEND)||"{}"),t=Date.now();for(const k in o)if(t-o[k].t>PEND_MIN*6e4)delete o[k];return o}catch(e){return{}}}
+function pendSet(k,d){try{const o=pendGet();o[k]={d,t:Date.now()};localStorage.setItem(PEND,JSON.stringify(o))}catch(e){}}
+function progMatch(it){
+  const k=progKey(it);
+  const ex=PITENS.find(p=>p.pedido.includes(k));if(ex)return{k:"in",d:ex.d};
+  const f=PFILA.find(p=>p.pedido.includes(k));if(f)return{k:"fila",d:f.d};
+  const pd=pendGet()[k];if(pd)return{k:"fila",d:pd.d};
+  const a=ptoks(it.title),u=ptoks(it.summary);let best=null;
+  PITENS.forEach(p=>{const t=pfrac(a,p.tk),v=pfrac(u,p.tk);if(t>=.65&&v>=.2&&(!best||t+v>best.v))best={k:"sim",d:p.d,titulo:p.titulo,v:t+v}});
+  return best;
+}
+function progPill(m){if(!m)return"";
+  if(m.k==="in")return`<a class="pill good" href="pautas-nova.html#programa/${m.d}" style="text-decoration:none">Na pauta do programa · ${dBR(m.d)} ✓</a>`;
+  if(m.k==="fila")return`<span class="pill warn">Enviado · entrando na pauta de ${dBR(m.d)}</span>`;
+  return`<a class="pill warn" href="pautas-nova.html#programa/${m.d}" style="text-decoration:none">Assunto parecido na pauta de ${dBR(m.d)}</a>`}
+function progNote(m){return m&&m.k==="sim"?`<div class="note"><b>Já na pauta de ${dBR(m.d)}:</b> ${esc(m.titulo)}. Confira antes de enviar.</div>`:""}
+function progBtn(it,m,link){const d=progDay();
+  if(m&&m.k==="in")return`<a class="btn ghost" href="pautas-nova.html#programa/${m.d}">Ver na pauta do programa</a>`;
+  if(m&&m.k==="fila")return`<button class="btn ghost" type="button" disabled title="O pedido já foi feito; entra na pauta em 3 a 10 minutos">Enviado ✓ entrando na pauta</button>`;
+  const lab=m&&m.k==="sim"?"📺 Enviar mesmo assim":"📺 Pauta do programa";
+  if(Painel.API)return`<button class="btn" type="button" data-prog="${esc(it.id)}" title="Entra como primeiro item da pauta do programa de ${dBR(d)}">${lab}</button>`;
+  return link?`<a class="btn" href="${link}" target="_blank" rel="noopener">${lab}</a>`:""}
+/* Carrega as pautas recentes e os pedidos ainda na fila (issues abertas) */
+async function loadProg(){
+  const ix=await fetch("programa/index.json?"+Date.now()).then(r=>r.json()).catch(()=>({days:[]}));
+  const P=[];await Promise.all((ix.days||[]).sort().slice(-PDIAS).map(d=>fetch(`programa/${d}.json?`+Date.now()).then(r=>r.json()).then(p=>(p.itens||[]).forEach(x=>P.push({d,titulo:x.titulo||"",pedido:String(x.pedido||""),tk:ptoks([x.titulo,x.subtitulo,x.resumo,x.pedido].join(" "))}))).catch(()=>{})));
+  PITENS=P;
+  const iss=await fetch(`https://api.github.com/repos/${REPO}/issues?state=open&per_page=50`,{cache:"no-store"}).then(r=>r.ok?r.json():[]).catch(()=>[]);
+  PFILA=(Array.isArray(iss)?iss:[]).filter(i=>String(i.title).startsWith("[Pauta avulsa]")).map(i=>{const b=String(i.body||""),d=(b.match(/Data da pauta: (\d{4}-\d{2}-\d{2})/)||[])[1]||progDay(),pe=(b.match(/Pedido: ([\s\S]*?)\nObserva/)||[])[1]||"";return{d,pedido:pe}});
+  if(ED){renderX();render()}
+}
+/* Enquanto houver pedido na fila, confere de novo a cada 2 minutos */
+setInterval(()=>{if(document.visibilityState==="visible"&&(PFILA.length||Object.keys(pendGet()).length))loadProg()},12e4);
 /* dia da pauta do programa que recebe o item: hoje até 14h; depois, o próximo dia útil */
 function progDay(){const n=new Date(Date.now()-3*36e5);let d=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate()));
   if(n.getUTCHours()>=14)d.setUTCDate(d.getUTCDate()+1);while([0,6].includes(d.getUTCDay()))d.setUTCDate(d.getUTCDate()+1);return d.toISOString().slice(0,10)}
@@ -325,13 +367,15 @@ function card(it,rank){
   const issue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Virar pauta] "+it.title)}&body=${encodeURIComponent(body)}`;
   const pb=`Pedido de item avulso para a pauta do programa.\n\nData da pauta: ${progDay()}\nPedido: ${progPedido(it)}\nObservação: Veio da página de Notícias.\n`;
   const progIssue=`https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[Pauta avulsa] "+progPedido(it).slice(0,90))}&body=${encodeURIComponent(pb)}`;
+  const pm=progMatch(it);
   return`<article class="news" id="n-${esc(it.id)}">
-    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${(ED.x_trends||[]).some(x=>x.item_id===it.id)?`<a class="pill info" href="#xtr" style="text-decoration:none" title="Assunto em alta no X agora">Em alta no X</a>`:""}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${DONEP[it.title]?`<a class="pill good" href="pautas-nova.html#programa/${DONEP[it.title]}" style="text-decoration:none">Na pauta do programa ✓</a>`:""}${done?`<a class="pill good" href="pautas-nova.html#sob-demanda" style="text-decoration:none">No Instagram ✓</a>`:""}</div><h3>${novPill(it)}${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
+    <div class="news-h"><span class="rank">${rank}</span><div style="flex:1;min-width:0"><div class="pills">${seal(esc(segL),"neutral")}${(ED.x_trends||[]).some(x=>x.item_id===it.id)?`<a class="pill info" href="#xtr" style="text-decoration:none" title="Assunto em alta no X agora">Em alta no X</a>`:""}${it.asymmetry?.flag?seal("Assimetria de cobertura","bad"):""}${progPill(pm)}${done?`<a class="pill good" href="pautas-nova.html#sob-demanda" style="text-decoration:none">No Instagram ✓</a>`:""}</div><h3>${novPill(it)}${esc(it.title)}</h3></div><div class="score" style="color:${scoreColor(it.score)}">${(it.score??0).toFixed(1).replace(".",",")}<small>nota</small></div></div>
     <p class="sum">${esc(it.summary)}</p>
+    ${progNote(pm)}
     ${it.asymmetry?.flag?`<div class="note"><b>Assimetria:</b> ${esc(it.asymmetry.note||"")}</div>`:""}
     <div class="outs"><span class="small-n">${(it.outlets||[]).length} portais:</span>${outs}</div>
     <details><summary>Como a nota foi calculada</summary><div class="crits">${crit}</div></details>
-    <div class="acts">${DONEP[it.title]?`<a class="btn ghost" href="pautas-nova.html#programa/${DONEP[it.title]}">Ver na pauta do programa</a>`:(Painel.API?`<button class="btn" type="button" data-prog="${esc(it.id)}" title="Entra como primeiro item da pauta do programa de ${dBR(progDay())}">📺 Pauta do programa</button>`:`<a class="btn" href="${progIssue}" target="_blank" rel="noopener">📺 Pauta do programa</a>`)}${done?`<a class="btn ghost" href="pautas-nova.html#sob-demanda">Ver post do Instagram</a>`:(Painel.API?`<button class="btn ghost" type="button" data-pauta="${esc(it.id)}" title="Gera opções de post na aba Conteúdo do Instagram, seção Sob demanda">📲 Post do Instagram</button>`:`<a class="btn ghost" href="${issue}" target="_blank" rel="noopener">📲 Post do Instagram</a>`)}<span class="small-n pst"></span></div>
+    <div class="acts">${progBtn(it,pm,progIssue)}${done?`<a class="btn ghost" href="pautas-nova.html#sob-demanda">Ver post do Instagram</a>`:(Painel.API?`<button class="btn ghost" type="button" data-pauta="${esc(it.id)}" title="Gera opções de post na aba Conteúdo do Instagram, seção Sob demanda">📲 Post do Instagram</button>`:`<a class="btn ghost" href="${issue}" target="_blank" rel="noopener">📲 Post do Instagram</a>`)}<span class="small-n pst"></span></div>
   </article>`;
 }
 function novPill(it){const n=NV[it.id];if(!n)return"";
@@ -355,7 +399,7 @@ function renderX(){
     const rel=x.item_id&&(ED.items||[]).find(n=>n.id===x.item_id);
     return`<div class="xt"><div class="xt-h"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nome)}</a>${x.volume?`<span class="small-n">${Number(x.volume).toLocaleString("pt-BR")} posts</span>`:""}<span class="pill ${LEIT[x.leitura]||"neutral"}">${esc(x.leitura||"")}</span></div>
       <p>${esc(x.sobre||"")}</p>${x.uso?`<p class="uso"><b>Como usar:</b> ${esc(x.uso)}</p>`:""}<p class="xl"><a href="${esc(x.url)}" target="_blank" rel="noopener">Ver no X ↗</a>${(()=>{const f=(x.fonte&&x.fonte.url)?x.fonte:(rel&&(rel.outlets||[])[0]);return f&&f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">Ler matéria${f.name?" ("+esc(f.name)+")":""} ↗</a>`:""})()}${rel?`<a href="#n-${esc(rel.id)}" data-goto="${esc(rel.id)}">Ver notícia ligada ↓</a>`:""}</p>${rel?`<p class="small-n">Notícia ligada: ${esc(rel.title)}</p>`:""}
-      <div class="acts">${Painel.API?`<button class="btn" type="button" data-prog="${it.id}" title="Entra como primeiro item da pauta do programa de ${dBR(d)}">📺 Pauta do programa</button><button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
+      ${(()=>{const m=progMatch(it);return progNote(m)+(m?`<div class="pills" style="margin:6px 0">${progPill(m)}</div>`:"")})()}<div class="acts">${Painel.API?`${progBtn(it,progMatch(it))}<button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
 }
 function fbarSetup(){const nav=document.querySelector("nav"),fb=$("#fbar");const upd=()=>document.documentElement.style.setProperty("--navh",(nav?Math.round(nav.getBoundingClientRect().height):0)+"px");upd();addEventListener("resize",upd);if(nav&&window.ResizeObserver)new ResizeObserver(upd).observe(nav);
   addEventListener("scroll",()=>{const top=fb.getBoundingClientRect().top,nh=nav?nav.offsetHeight:0;fb.classList.toggle("stuck",top<=nh+1&&scrollY>40)},{passive:true})}
@@ -395,7 +439,7 @@ async function load(id){
 }
 Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("noticias/index.json?"+Date.now()).then(r=>r.ok?r.json():{editions:[]}).catch(()=>({editions:[]})),fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([c,ix,sd])=>{
   CFG=c;method();fbarSetup();(sd.items||[]).forEach(x=>{if(x.source){DONE[x.source.title]=1;DONE[x.source.item_id]=1}});
-  fetch("programa/index.json?"+Date.now()).then(r=>r.json()).then(ix=>Promise.all((ix.days||[]).sort().slice(-3).map(d=>fetch(`programa/${d}.json?`+Date.now()).then(r=>r.json()).then(p=>(p.itens||[]).forEach(x=>{if(x.avulsa&&x.pedido)(ED&&ED.items||[]).forEach(it=>{if(String(x.pedido).includes(it.title))DONEP[it.title]=d})})).catch(()=>{})))).then(()=>{if(ED&&Object.keys(DONEP).length)render()}).catch(()=>{});
+  loadProg();
   EDS=(ix.editions||[]).sort();
   if(!EDS.length){$("#updated").textContent="A primeira edição sai no próximo horário (6h, 12h ou 19h).";$("#list").innerHTML=`<div class="empty">Nenhuma edição publicada ainda.</div>`;return}
   $("#ed").innerHTML=EDS.slice().reverse().map(e=>`<option value="${e}">${label(e)}</option>`).join("");
@@ -420,7 +464,7 @@ document.addEventListener("click",async e=>{
   const st=b.parentElement.querySelector(".pst"),say=t=>{if(st)st.textContent=" "+t};const d=progDay();
   b.disabled=true;say("Enviando…");
   try{await Painel.call("/avulso",{pedido:progPedido(it),data:d,obs:"Veio da página de Notícias."});
-    b.textContent="Enviado para o programa ✓";
+    b.textContent="Enviado para o programa ✓";pendSet(progKey(it),d);
     say(`Entra no início da pauta do programa de ${dBR(d)} em 3 a 10 minutos (se a pauta estiver sendo gerada, espera ela terminar).`);
   }catch(err){say(err.message);b.disabled=false}
 });
