@@ -21,7 +21,7 @@ const wfFor = (job) => JOBS[job] || (/^[a-z0-9-]{3,40}$/.test(job) ? `${job}.yml
 
 // ---------- Agenda: horários das edições, editados na página agenda.html ----------
 const TZ = "America/Sao_Paulo";
-const AGENDAVEIS = { noticias: "Edições de notícias" }; // ações que a agenda pode disparar
+const AGENDAVEIS = { noticias: "Edições de notícias", programa: "Pauta do programa" }; // ações que a agenda pode disparar
 const JANELA_MIN = 20; // se um tique de 5 em 5 minutos falhar, ainda dispara até 20 minutos depois do horário
 const TODOS_DIAS = [0, 1, 2, 3, 4, 5, 6]; // 0 = domingo
 const PADRAO = [
@@ -87,7 +87,7 @@ const dispararAgendado = async (env, job) => {
   const wf = JOBS[job];
   const r = await ghx(env, `/actions/workflows/${wf}/runs?per_page=1`);
   const last = r.ok ? ((await r.json()).workflow_runs || [])[0] : null;
-  if (last && last.status !== "completed" && Date.now() - new Date(last.created_at) < 60 * 60e3)
+  if (last && last.status !== "completed" && Date.now() - new Date(last.created_at).getTime() < 60 * 60e3)
     return { ok: true, resultado: "já em andamento, não duplicou" };
   const d = await ghx(env, `/actions/workflows/${wf}/dispatches`, {
     method: "POST", body: JSON.stringify({ ref: "main", inputs: { agendado: "sim" } }),

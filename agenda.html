@@ -77,14 +77,15 @@ h2{font-size:14px;margin:22px 0 8px;text-transform:uppercase;letter-spacing:.08e
 <div class="wrap">
   <div class="top"><a href="noticias.html">← Notícias</a><span id="agora" style="color:var(--muted)"></span></div>
   <h1>Horários das edições</h1>
-  <p class="sub">Defina quando o painel começa a gerar cada edição de notícias. Os horários são de Brasília. A edição fica pronta uns 25 minutos depois do início.</p>
+  <p class="sub">Defina quando o painel começa a gerar as edições de notícias e a pauta do programa. Os horários são de Brasília e são os do <b>início</b>: cada geração leva de 15 a 25 minutos.</p>
 
-  <div class="note">Pela regra da geração, quem começa antes das 9h vira a <b>edição das 6h</b>, das 9h às 15h59 vira a <b>das 12h</b> e a partir das 16h vira a <b>das 19h</b>. Se um horário disparar e já houver uma geração em andamento, ele não duplica.</div>
+  <div class="note">Pela regra da geração, quem começa antes das 9h vira a <b>edição das 6h</b>, das 9h às 15h59 vira a <b>das 12h</b> e a partir das 16h vira a <b>das 19h</b>. Na pauta do programa, itens avulsos pedidos depois continuam entrando na pauta já gerada. Se um horário disparar e já houver uma geração em andamento, ele não duplica.</div>
 
   <div class="card" id="lista"><div class="empty">Carregando…</div></div>
 
   <div class="actions">
-    <button class="btn" id="add" type="button">+ Adicionar horário</button>
+    <button class="btn" id="add" type="button">+ Edição de notícias</button>
+    <button class="btn" id="addp" type="button">+ Pauta do programa</button>
     <button class="btn primary" id="salvar" type="button" disabled>Salvar horários</button>
     <span id="st" role="status"></span>
   </div>
@@ -100,6 +101,7 @@ const $=s=>document.querySelector(s);
 let itens=[], ultimos={}, sujo=false;
 
 const edicao=h=>{const m=+h.slice(0,2)*60+ +h.slice(3,5);return m<540?"Edição das 6h":m<960?"Edição das 12h":"Edição das 19h"};
+const rotulo=it=>it.job==="programa"?"Pauta do programa":edicao(it.hora);
 const st=(t,c)=>{const e=$("#st");e.textContent=t||"";e.className=c||""};
 const marcar=v=>{sujo=v;$("#salvar").disabled=!v};
 const fmt=iso=>new Date(iso).toLocaleString("pt-BR",{timeZone:"America/Sao_Paulo",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"});
@@ -114,12 +116,12 @@ function desenhar(){
     r.innerHTML=`
       <label class="sw" title="Ligar ou desligar"><input type="checkbox" ${it.ativo?"checked":""} aria-label="Ativo"><span></span></label>
       <input type="time" value="${it.hora}" aria-label="Horário de início">
-      <div class="mid"><div class="ed">${edicao(it.hora)}</div>
+      <div class="mid"><div class="ed">${rotulo(it)}</div>
         <div class="meta">${u?"Último disparo: "+u.split("-").reverse().slice(0,2).join("/"):"Ainda não disparou"}</div>
         <div class="dias">${DIAS.map((d,k)=>`<label title="${DIAS_NOME[k]}"><input type="checkbox" data-d="${k}" ${it.dias.includes(k)?"checked":""}><span>${d}</span></label>`).join("")}</div></div>
       <button class="del" type="button" title="Remover" aria-label="Remover horário">×</button>`;
     r.querySelector(".sw input").onchange=e=>{it.ativo=e.target.checked;r.classList.toggle("off",!it.ativo);marcar(true)};
-    r.querySelector("input[type=time]").onchange=e=>{if(e.target.value){it.hora=e.target.value;r.querySelector(".ed").textContent=edicao(it.hora);marcar(true)}};
+    r.querySelector("input[type=time]").onchange=e=>{if(e.target.value){it.hora=e.target.value;r.querySelector(".ed").textContent=rotulo(it);marcar(true)}};
     r.querySelectorAll(".dias input").forEach(c=>c.onchange=()=>{it.dias=[...r.querySelectorAll(".dias input:checked")].map(x=>+x.dataset.d);marcar(true)});
     r.querySelector(".del").onclick=()=>{if(confirm("Remover este horário?")){itens.splice(i,1);desenhar();marcar(true)}};
     box.appendChild(r);
@@ -138,6 +140,7 @@ async function carregar(){
   catch(e){$("#lista").innerHTML='<div class="empty">'+e.message+'</div>';$("#log").innerHTML="<div></div>"}
 }
 $("#add").onclick=()=>{itens.push({id:"",job:"noticias",hora:"12:00",dias:[0,1,2,3,4,5,6],ativo:true});desenhar();marcar(true)};
+$("#addp").onclick=()=>{itens.push({id:"",job:"programa",hora:"09:15",dias:[1,2,3,4,5],ativo:true});desenhar();marcar(true)};
 $("#salvar").onclick=async()=>{
   $("#salvar").disabled=true;st("Salvando…");
   try{aplicar(await Painel.call("/agenda/salvar",{itens}));marcar(false);st("Salvo. Vale a partir do próximo minuto.","ok")}

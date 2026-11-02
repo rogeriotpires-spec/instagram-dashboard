@@ -1,11 +1,13 @@
 name: Gerar pauta do programa
 
 on:
-  schedule:
-    - cron: "45 12 * * 1-5"   # 09h45 em Brasília, de segunda a sexta (programa ao meio-dia, pauta pronta antes das 11h)
-    - cron: "15 13 * * 1-5"   # 10h15: reserva, caso o GitHub pule ou atrase o horário principal (pula se a pauta já existir)
-    - cron: "45 13 * * 1-5"   # 10h45: segunda reserva
+  # O horário da pauta agora é gerido na página agenda.html do painel (Worker da Cloudflare, pontual).
   workflow_dispatch:
+    inputs:
+      agendado:
+        description: "Disparo feito pelo agendador do painel (agenda.html), não pelo botão"
+        required: false
+        default: "nao"
 
 permissions:
   contents: write
