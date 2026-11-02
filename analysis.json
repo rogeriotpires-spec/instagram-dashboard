@@ -1,50 +1,50 @@
 {
-  "generated": "2026-10-19T06:38:16-03:00",
+  "generated": "2026-11-02T06:36:00-03:00",
   "period": {
-    "start": "2026-10-12",
-    "end": "2026-10-18"
+    "start": "2026-10-26",
+    "end": "2026-11-01"
   },
   "compare": {
-    "start": "2026-10-05",
-    "end": "2026-10-11"
+    "start": "2026-10-19",
+    "end": "2026-10-25"
   },
-  "headline": "Sem o pico do dia seguinte ao 1º turno, as views caíram para 3,66 mi (-40%), mas sem a segunda 5/10 na conta a semana subiu 17%; os Reels viraram o motor (mediana de 62 mil views, contra 1,6 mil) e as imagens da manhã perderam força.",
+  "headline": "Na semana seguinte ao 2º turno, a conta recebeu 5,61 mi de views de 26 a 30/10 (+179%) e 16.679 novos seguidores de 26 a 29/10, puxados por Reels sobre a apuração; mas 4.160 pessoas deixaram de seguir só em 26/10, e os dados da conta de 31/10 e 1/11 não chegaram porque o acesso à API do Instagram caiu.",
   "kpis": [
     {
-      "label": "Views recebidas pela conta",
-      "value": "3,66 mi",
-      "delta": "-40%",
-      "dir": "down"
+      "label": "Views recebidas (26 a 30/10)",
+      "value": "5,61 mi",
+      "delta": "+179%",
+      "dir": "up"
     },
     {
-      "label": "Novos seguidores (seg a sáb)",
-      "value": "3.153",
-      "delta": "-16%",
-      "dir": "down"
+      "label": "Alcance médio por dia (26 a 30/10)",
+      "value": "438 mil",
+      "delta": "+182%",
+      "dir": "up"
     },
     {
-      "label": "Deixaram de seguir (seg a sáb)",
-      "value": "138",
-      "delta": "+11%",
-      "dir": "down"
+      "label": "Novos seguidores (26 a 29/10)",
+      "value": "16.679",
+      "delta": "+1.502%",
+      "dir": "up"
     },
     {
-      "label": "Compartilhamentos recebidos",
-      "value": "67 mil",
-      "delta": "-51%",
-      "dir": "down"
+      "label": "Deixaram de seguir (26 a 29/10)",
+      "value": "4.581",
+      "delta": "4.160 só em 26/10, sem dado anterior para comparar",
+      "dir": "na"
     },
     {
-      "label": "Comentários recebidos",
-      "value": "6.580",
-      "delta": "-32%",
-      "dir": "down"
+      "label": "Compartilhamentos dos posts da semana",
+      "value": "66.713",
+      "delta": "+132%",
+      "dir": "up"
     },
     {
-      "label": "Alcance médio por dia",
-      "value": "224 mil",
-      "delta": "-24%",
-      "dir": "down"
+      "label": "Comentários dos posts da semana",
+      "value": "1.341",
+      "delta": "+160%",
+      "dir": "up"
     }
   ],
   "cards": [
@@ -52,64 +52,61 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os 3 melhores posts da semana foram Reels publicados entre 18h29 e 21h36: \"Hispanic Heritage Gala 2026\" (qua, 21h36, 51,6s, assistido até 23%, 313.791 views e 2.963 compartilhamentos), \"Inacreditável!\" (seg, 19h, 70s, assistido até 39%, 201.596 views, 14.589 compartilhamentos e 260 comentários) e \"Complete a frase\" (sex, 18h29, 40,8s, 160.918 views e 80 comentários). Os 7 Reels publicados a partir das 18h tiveram mediana de 92,6 mil views. As duas imagens das 21h também se destacaram: \"ANISTIA PARA CRIMINOSO?\" (ter, 100.933 views, 99 comentários) e \"Você conhece alguém que prometeu acabar com SIGILOS?\" (qui, 95.982 views, 26 seguidores).",
+      "diagnosis": "Os 3 melhores posts foram sobre o resultado do 2º turno: o Reel \"Fiz a conta do primeiro para o segundo turno\" (seg, 0h, assistido em média 29s, 978.504 views, 19.581 compartilhamentos e 209 comentários), o Reel \"Meio milhão de seções.\" (seg, 5h23, 23s em média, 722.592 views, 13.922 compartilhamentos e 380 comentários, o mais comentado da semana) e a imagem \"Flávio Livre.\" (ter, 22h13, 655.548 views, 1.066 visitas ao perfil e 231 seguidores). Os 7 Reels da semana tiveram mediana de 269,3 mil views, contra 29,0 mil nos 15 da semana anterior. Mesmo com menos tempo no ar, os 8 posts da semana somaram 3,36 mi de views, contra 1,20 mi dos 18 posts da semana anterior.",
       "actions": [
-        "Publique um Reel por dia entre 19h e 21h30, o horário que coincidiu com os 3 melhores resultados da semana.",
-        "Use 21h para a imagem de opinião com pergunta no título, como \"ANISTIA PARA CRIMINOSO?\".",
-        "Repita o formato de \"Inacreditável!\": reação direta a um fato, que esteve associada a 14.589 compartilhamentos."
+        "Continue com Reels de análise de números da eleição, como \"Fiz a conta\" e \"Meio milhão de seções.\", o tema que esteve associado às maiores views e compartilhamentos.",
+        "Repita a imagem curta de posicionamento à noite, como \"Flávio Livre.\" às 22h13, que foi o único post com seguidores atribuídos na semana.",
+        "Mantenha poucos posts fortes por dia: com 8 posts você teve mais views do que com 18 na semana anterior."
       ],
       "posts": [
-        "DefrVOZMUGw",
-        "DeaQZPRNABT",
-        "DekfWuXNS39",
-        "DedCyqss4O6",
-        "Deh_rUstC5a"
+        "De8Q_S9MAJt",
+        "De8104Zt6iS",
+        "DfBOEyBsDWf"
       ]
     },
     {
       "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Evitar",
-      "diagnosis": "As imagens da manhã, que carregaram as semanas anteriores, perderam força: as 4 publicadas até 8h15 tiveram mediana de 5,3 mil views e nenhum seguidor atribuído. Os piores da semana foram \"O PROFESSOR É UMA AMEAÇA!\" (Reel, qui, 18h41, 45,4s, assistido até 24%, 772 views), \"A Globo demitiu o diretor-geral\" (sex, 8h15, 1.626 views) e \"O papa Leão XIV será operado\" (ter, 12h, 2.028 views). A mediana das 13 imagens foi 7,5 mil views, contra 52,2 mil na semana anterior, e elas trouxeram 121 seguidores, contra 1.713. As imagens da semana anterior tiveram mais tempo para acumular, mas a diferença é grande demais para ser só isso.",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "O pior post foi o Reel \"A semana termina.\" (sex, 6h30): assistido em média só 5s, 61% de pulo, 7.028 views e 1 compartilhamento. Os outros dois mais fracos ainda foram bem: \"Você confia no resultado da eleição?\" (ter, 20h32, 147.559 views, 54% de pulo, o maior entre os Reels fortes) e \"Eles não querem que você ligue os pontos.\" (qua, 19h, 211.423 views). A frequência caiu: não houve post em 29/10 nem em 31/10, e foram 8 publicações contra 18 na semana anterior.",
       "actions": [
-        "Evite repassar notícia sem opinião, como os posts sobre a Globo e o papa, que ficaram abaixo de 2,1 mil views.",
-        "Não abandone a manhã, mas use esse horário só para a imagem de opinião mais forte, como as de 5/10 e 11/10.",
-        "Teste por uma semana a imagem principal às 21h e compare com a das 7h."
+        "Evite Reel de abertura genérica de madrugada ou cedo, como \"A semana termina.\" às 6h30; prefira 8h30 ou 12h30, horários de \"Allan dos Santos fez três perguntas\" (363.668 views) e \"Recebi milhares de boletins\" (269.294 views).",
+        "Não deixe dias sem post: publique pelo menos um Reel por dia para aproveitar o alcance alto desta fase.",
+        "Na pergunta direta ao público, mostre a resposta ou o dado logo no primeiro segundo para reduzir o pulo."
       ],
       "posts": [
-        "Deh8WzvtR28",
-        "DejZbguNSy6",
-        "Deb6SlYNJ2P"
+        "DfHQ85MtRsf",
+        "DfBClTANzh1",
+        "DfDdHQiN914"
       ]
     },
     {
-      "title": "Retenção dos Reels",
+      "title": "Seguidores: muitos entraram, muitos saíram",
       "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "Em 30 dias, os 8 Reels assistidos em média até 35% ou mais tiveram mediana de 125,5 mil views; os 25 abaixo disso ficaram em 12,7 mil. Os 4 Reels de até 30 segundos tiveram mediana de 176,1 mil views, contra 23,5 mil nos 21 acima de 60 segundos. Nesta semana nenhum Reel teve até 30 segundos. \"VÍDEO FUNDAMENTAL!\" (138s) foi assistido só até 8%. O de melhor retenção, \"Inacreditável!\" (39%), foi também o mais compartilhado.",
+      "diagnosis": "O perfil foi de 65.213 seguidores em 25/10 para 77.970 em 30/10. De 26 a 29/10 entraram 16.679, contra 1.041 nos mesmos 4 dias da semana anterior. Mas 4.160 deixaram de seguir em 26/10, o dia seguinte à eleição, e outros 421 de 27 a 29/10. Não há dado de saídas suficiente da semana anterior para comparar. A API só informa seguidores por post nas imagens: \"Flávio Livre.\" trouxe 231, enquanto as 3 imagens da semana anterior não trouxeram nenhum.",
       "actions": [
-        "Corte os Reels para até 30 segundos; se o assunto pedir mais, divida em partes.",
-        "Abra com a frase ou a imagem mais forte, sem introdução.",
-        "Evite Reels acima de 1 minuto; os 21 de 30 dias tiveram mediana de 23,5 mil views."
+        "Fixe no perfil um post que explique quem você é e o que você defende, para quem chegou pela eleição continuar seguindo.",
+        "Publique uma imagem de posicionamento por noite, no formato de \"Flávio Livre.\", e acompanhe se as saídas seguem abaixo de 200 por dia.",
+        "Responda os comentários dos Reels sobre a apuração na primeira hora para manter os novos seguidores engajados."
       ],
       "posts": [
-        "DeotTkCtFuc",
-        "DeaQZPRNABT",
-        "DefYvipjdwR"
+        "DfBOEyBsDWf"
       ]
     },
     {
-      "title": "Stories e seguidores",
+      "title": "Retenção dos Reels e Stories",
       "status": "good",
       "status_label": "Manter",
-      "diagnosis": "Os Stories cresceram: 64 stories, 30.033 visualizações (+127%), alcance médio de 388 pessoas por story (+67%) e 111 respostas (+61%). O perfil foi de 50.374 para 53.868 seguidores na semana, mas as saídas subiram para 138 (+11%, seg a sáb). O post que mais trouxe seguidores foi a imagem \"Estar diante do túmulo do professor Olavo de Carvalho\" (sáb, 10h48): 74 seguidores e 148 visitas ao perfil com 43.860 views. A quinta (15/10) concentrou 2.404 comentários, 37% da semana. Não foi possível classificar o estilo das imagens nesta rodada, então não há comparação por estilo.",
+      "diagnosis": "Em 30 dias, os 9 Reels assistidos em média por 25s ou mais tiveram mediana de 211,4 mil views; os 21 abaixo de 15s ficaram em 23,3 mil. Os 10 Reels com pulo de até 35% tiveram mediana de 68,0 mil views, contra 23,5 mil nos 18 acima de 45%. Nos Stories foram 9 stories (contra 21), mas com 36.329 visualizações (+174%) e alcance médio de 3.224 pessoas por story (+542%); um único story de imagem em 28/10 concentrou 22.290 visualizações, 61,4% do total. O estilo das imagens não foi classificado nesta rodada porque os endereços das imagens não vieram na coleta, então não há comparação por estilo.",
       "actions": [
-        "Mantenha o ritmo de Stories e use enquete ou caixa de pergunta sobre o 2º turno para manter as respostas subindo.",
-        "Publique mais imagens em tom pessoal, como a do sábado, que esteve associada ao maior número de seguidores da semana.",
-        "Responda os comentários dos posts das 21h na primeira hora."
+        "Abra cada Reel com o número ou a frase mais forte, sem introdução: os que passaram de 25s assistidos em média tiveram mediana mais de 9 vezes maior.",
+        "Use Stories de imagem à noite com o dado do dia, como o de 28/10, e acrescente enquete para recuperar o volume de respostas.",
+        "Volte a publicar Stories todos os dias; de 26 a 31/10 houve stories em só 4 dias."
       ],
       "posts": [
-        "DemP7GNt_P7"
+        "DfHeQXTtYhF",
+        "DfCvr4CN878"
       ]
     }
   ],
@@ -119,13 +116,13 @@
       [
         [
           "r",
-          "19h",
-          "Reel de até 30s reagindo ao fato do dia"
+          "12h30",
+          "Reel curto com o número mais forte do pós-eleição"
         ],
         [
           "i",
-          "21h",
-          "Imagem de opinião com pergunta sobre a reta final do 2º turno"
+          "22h",
+          "Imagem curta de posicionamento, estilo \"Flávio Livre.\""
         ]
       ]
     ],
@@ -133,14 +130,14 @@
       "Ter",
       [
         [
-          "i",
-          "7h",
-          "Imagem de opinião forte, sem repassar notícia"
+          "r",
+          "8h30",
+          "Reel de análise de dados da apuração, até 30s"
         ],
         [
-          "r",
-          "21h",
-          "Reel curto de reação direta, estilo \"Inacreditável!\""
+          "s",
+          "Noite",
+          "Story de imagem com o dado do dia e enquete"
         ]
       ]
     ],
@@ -149,13 +146,13 @@
       [
         [
           "r",
-          "19h",
-          "Reel de até 30s com a frase mais forte no início"
+          "12h30",
+          "Reel respondendo dúvidas dos comentários"
         ],
         [
-          "s",
-          "Noite",
-          "Enquete sobre o 2º turno"
+          "i",
+          "22h",
+          "Imagem de posicionamento sobre o fato do dia"
         ]
       ]
     ],
@@ -163,14 +160,14 @@
       "Qui",
       [
         [
-          "i",
-          "21h",
-          "Imagem com pergunta provocativa"
+          "r",
+          "8h30",
+          "Reel com o dado logo no primeiro segundo"
         ],
         [
           "s",
           "Noite",
-          "Caixa de pergunta: o que você quer saber?"
+          "Caixa de pergunta para os novos seguidores"
         ]
       ]
     ],
@@ -179,13 +176,13 @@
       [
         [
           "r",
-          "19h",
-          "Reel de até 30s sobre a última semana de campanha"
+          "12h30",
+          "Reel de resumo da semana em números"
         ],
         [
           "i",
-          "21h",
-          "Imagem com pergunta fechada"
+          "22h",
+          "Imagem curta com pergunta fechada"
         ]
       ]
     ],
@@ -195,12 +192,12 @@
         [
           "i",
           "10h30",
-          "Imagem em tom pessoal, como a que trouxe 74 seguidores"
+          "Imagem pessoal: quem sou e o que defendo, para fixar no perfil"
         ],
         [
           "r",
-          "20h",
-          "Reel curto de bastidor da véspera"
+          "19h",
+          "Reel de bastidor curto"
         ]
       ]
     ],
@@ -208,14 +205,14 @@
       "Dom",
       [
         [
-          "s",
-          "Manhã",
-          "Dia do 2º turno: lembrete para votar, sem propaganda"
+          "r",
+          "19h",
+          "Reel com o principal assunto da semana"
         ],
         [
           "s",
           "Noite",
-          "Stories acompanhando o resultado"
+          "Resumo da semana nos Stories"
         ]
       ]
     ]
