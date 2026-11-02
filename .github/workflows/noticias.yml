@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 8,14,21 * * *"   # 05h, 11h e 18h em Brasília (edições 06h, 12h e 19h)
   workflow_dispatch:
+    inputs:
+      agendado:
+        description: "Disparo feito pelo agendador do painel (agenda.html), não pelo botão"
+        required: false
+        default: "nao"
 
 permissions:
   contents: write
@@ -61,7 +66,7 @@ jobs:
             sleep $((i*3))
           done
       - name: Rede de segurança dos pedidos Virar pauta
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || github.event.inputs.agendado == 'sim'
         uses: anthropics/claude-code-action@v1
         env:
           GH_TOKEN: ${{ github.token }}
