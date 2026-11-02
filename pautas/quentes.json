@@ -1,6 +1,32 @@
 {
   "alerts": [
     {
+      "time": "2026-11-02T17:55:28-03:00",
+      "title": "PF investiga ex-agente israelense por papel na saída de Flávio Bolsonaro do Brasil e avalia pedir bloqueio de bens",
+      "fact": "A Polícia Federal apura se um ex-integrante do serviço de inteligência de Israel, identificado como Menachem Booky Halevy, ajudou no trajeto de Flávio Bolsonaro até a Argentina; a reportagem do Fantástico, exibida neste domingo (1º), diz que ele cruzou a fronteira numa van sete minutos antes do veículo ligado a Flávio. A CNN Brasil, citando fontes anônimas de órgãos do governo, diz que a PF avalia pedir ao STF o bloqueio de bens do senador. As próprias reportagens ressalvam que não há prova de que o israelense tenha organizado a saída. Flávio, que apareceu num culto na Flórida, diz que não saiu do Brasil, saiu pelo Brasil.",
+      "sources": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/elijonasmaia/politica/vans-ex-agente-da-mossad-e-jato-estrangeiro-os-detalhes-da-fuga-de-flavio/"
+        },
+        {
+          "name": "Diário Carioca (reportagem do Fantástico)",
+          "url": "https://www.diariocarioca.com/2026/11/02/politica/ex-agente-mossad-investigado-ajuda-flavio-bolsonaro-fuga/"
+        },
+        {
+          "name": "O Hoje",
+          "url": "https://ohoje.com/2026/11/02/flavio-bolsonaro-aparece-em-culto-evangelico-na-florida-em-primeira-aparicao-publica-apos-deixar-o-brasil/"
+        }
+      ],
+      "suggestion": "Story com enquete hoje às 19h30 e reel curto amanhã às 8h, com foco na falta de prova e na resposta de Flávio.",
+      "hook": "Sem prova, a narrativa da fuga já tem ex-agente e bloqueio de bens.",
+      "script": "A narrativa da fuga ganhou um personagem novo: um ex-agente israelense que a PF investiga. Mas as próprias reportagens admitem que não há prova de que ele organizou nada. Flávio responde que não saiu do Brasil, saiu pelo Brasil, e que a decisão contra ele foi tomada com base em mentiras. Agora falam em bloquear os bens de um senador que nem foi condenado. Você acha isso proporcional? Responde aqui nos comentários.",
+      "timeline": {
+        "rende": "alto",
+        "angle": "PF investiga ex-agente israelense na saída de Flávio, mas reportagens admitem que não há prova de que ele organizou a viagem."
+      }
+    },
+    {
       "time": "2026-10-30T18:23:05-03:00",
       "title": "Michelle diz que Bolsonaro defende união da direita e rejeita a busca por culpados pela derrota de Flávio",
       "fact": "Nesta sexta (30), em redes sociais, a senadora eleita Michelle Bolsonaro (PL-DF) escreveu: \"O meu marido ressalta que é momento de união e não de procurar culpados\". Ela disse que Jair Bolsonaro, proibido de usar redes, agradece o empenho dos apoiadores na campanha de Flávio e sente respeito e gratidão por Tarcísio de Freitas, Damares Alves, Nikolas Ferreira e Silas Malafaia, que ela diz estarem sendo atacados. A mensagem vem um dia depois de Valdemar Costa Neto dizer que não gostou da carta de Flávio.",
