@@ -1,98 +1,99 @@
 {
- "generated": "2026-11-01T06:19:14-03:00",
- "dias": 1,
- "period": {
-  "start": "2026-10-31",
-  "end": "2026-10-31"
- },
- "compare": "média dos 7 dias anteriores",
- "headline": "Em 31/10 não há publicações nem números da conta no painel; o único dia de base para comparar teve 625.590 views.",
- "kpis": [
-  {
-   "label": "Views recebidas pela conta",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
+  "generated": "2026-11-02T15:47:00-03:00",
+  "dias": 1,
+  "period": {
+    "start": "2026-11-01",
+    "end": "2026-11-01"
   },
-  {
-   "label": "Novos seguidores",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Deixaram de seguir",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Compartilhamentos recebidos",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Comentários recebidos",
-   "value": "sem dado",
-   "delta": "sem comparação",
-   "dir": "na"
-  },
-  {
-   "label": "Publicações no dia",
-   "value": "0",
-   "delta": "sem comparação",
-   "dir": "na"
-  }
- ],
- "cards": [
-  {
-   "title": "O que funcionou",
-   "status": "warn",
-   "status_label": "Sem dados",
-   "diagnosis": "Não houve posts em 31/10, então não há o que medir no dia. O dado mais recente da semana que ainda rende é o Reel \"Recebi milhares de boletins de urna no meu Direct e não…\" (28/10, 12h35): 269.294 views, 10.404 compartilhamentos e 258 comentários.",
-   "actions": [
-    "Volte a publicar quando houver fato novo, sem deixar o dia em branco.",
-    "Reaproveite o formato do Reel dos boletins de urna: relato direto, com prova na tela."
-   ],
-   "posts": [
-    "DfCvr4CN878"
-   ]
-  },
-  {
-   "title": "O que não funcionou",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "O último post antes do dia, \"A semana termina.\" (30/10, 6h30), tinha 7.028 views com 46,7 horas de vida e 61% de pulo. É um post recente, então ainda pode crescer, mas já está bem abaixo dos Reels da semana.",
-   "actions": [
-    "Evite Reels de despedida ou recado genérico, sem fato ou opinião forte.",
-    "Abra o vídeo com a frase mais forte para reduzir o pulo."
-   ],
-   "posts": [
-    "DfHQ85MtRsf"
-   ]
-  },
-  {
-   "title": "Ritmo de publicação",
-   "status": "warn",
-   "status_label": "Atenção",
-   "diagnosis": "Foram 0 publicações em 31/10. O comparativo registra 2 publicações no período anterior e 11 na semana de 25 a 31/10. Dia sem post tende a deixar o painel sem leitura do que funciona.",
-   "actions": [
-    "Defina ao menos 1 publicação por dia, mesmo nos dias de menos notícia.",
-    "Deixe um Reel curto pronto para dias parados."
-   ],
-   "posts": []
-  },
-  {
-   "title": "Base de comparação",
-   "status": "warn",
-   "status_label": "Atenção",
-   "diagnosis": "A conta ainda não tem números fechados de 31/10. Nos dias anteriores com dado, a base é de 625.590 views, alcance de 273.051 e 36.223 contas com interação, mas só um dia entra nessa conta. Use com cuidado.",
-   "actions": [
-    "Releia esta análise no dia seguinte, quando os números do dia estiverem completos.",
-    "Dê mais peso à análise de 7 dias para decidir a pauta."
-   ],
-   "posts": []
-  }
- ]
+  "compare": "média dos 7 dias anteriores",
+  "headline": "Em 01/11 a conta não trouxe dados e não houve publicações (0 posts), então não dá para medir views, seguidores ou interações do dia nem comparar com a média dos 7 dias anteriores.",
+  "kpis": [
+    {
+      "label": "Views recebidas pela conta",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Publicações no dia",
+      "value": "0",
+      "delta": "sem comparação",
+      "dir": "na"
+    }
+  ],
+  "cards": [
+    {
+      "title": "O que funcionou",
+      "status": "warn",
+      "status_label": "Sem dados",
+      "diagnosis": "Em 01/11 nenhuma publicação entrou na base (0 posts) e a conta não trouxe views, seguidores nem interações. Não há post para apontar como destaque do dia. O contexto vem da semana: foram 8 posts e 5.610.663 views em 5 dos 7 dias com dado.",
+      "actions": [
+        "Use os períodos de 7 e 30 dias para decidir o que repetir.",
+        "Reveja os Reels de maior retenção da semana, como \"Fiz a conta do primeiro para o segundo turno e ela não…\" (29s assistidos em média), antes de planejar o próximo post."
+      ],
+      "posts": [
+        "De8Q_S9MAJt"
+      ]
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "O dia ficou sem dado e sem post. Na semana, só 5 dos 7 dias trouxeram views e 4 dias trouxeram dado de seguidores. Sem esses números não dá para saber se o dia teve queda real ou apenas falha de coleta.",
+      "actions": [
+        "Trate a lacuna de 01/11 como falha de coleta até os dados chegarem, não como desempenho ruim.",
+        "Confira se o acesso à API do Instagram está ativo e rode a coleta de novo."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Ritmo de publicação",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "A semana anterior teve 18 publicações e a semana de 26/10 teve 8. O dia 01/11 fechou com 0. Num momento em que o alcance médio por dia chegou a 437.543 (contra 178.814 antes), dias sem post deixam esse público sem novidade.",
+      "actions": [
+        "Programe pelo menos um Reel por dia nos próximos dias.",
+        "Deixe um post pronto de reserva para dias de fim de semana."
+      ],
+      "posts": []
+    },
+    {
+      "title": "O que o dia ensina",
+      "status": "warn",
+      "status_label": "Observar",
+      "diagnosis": "Com um dia vazio, vale olhar os horários da semana: 08h teve mediana de 363.668 views e 12h de 269.294, enquanto 06h ficou em 7.028. São poucos posts por faixa, então é um sinal, não uma regra.",
+      "actions": [
+        "Teste os próximos posts entre 08h e 12h.",
+        "Compare o resultado com o de 06h antes de decidir o horário fixo."
+      ],
+      "posts": [
+        "DfHQ85MtRsf",
+        "DfCvr4CN878"
+      ]
+    }
+  ]
 }
