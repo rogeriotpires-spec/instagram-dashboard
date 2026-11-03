@@ -269,7 +269,7 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
       <div class="eyebrow">Principais notícias</div>
       <h1>Rogerio Pires</h1>
       <div class="handle">@rogerrio <span class="badge" title="Conta verificada"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span></div>
-      <div class="bio">As notícias que mais pesam no dia, cruzando os principais portais do país. Edições às 6h, 12h e 19h.</div>
+      <div class="bio">As notícias que mais pesam no dia, cruzando os principais portais do país. Edições ao longo do dia.</div>
     </div>
   </div>
   <div class="hero-meta"><span id="updated">Carregando…</span> <button class="refresh" id="refresh" type="button">↻ Gerar edição agora</button> <span id="refresh-st" role="status"></span> <a href="agenda.html" style="color:#fff;opacity:.85;margin-left:6px">⏱ Horários</a></div>
@@ -352,6 +352,23 @@ setInterval(()=>{if(document.visibilityState==="visible"&&(PFILA.length||Object.
 function progDay(){const n=new Date(Date.now()-3*36e5);let d=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate()));
   if(n.getUTCHours()>=14)d.setUTCDate(d.getUTCDate()+1);while([0,6].includes(d.getUTCDay()))d.setUTCDate(d.getUTCDate()+1);return d.toISOString().slice(0,10)}
 const dBR=s=>s.slice(8,10)+"/"+s.slice(5,7);
+/* Artigo da Revista Timeline a partir da notícia: mesmo fluxo do "Rende artigo na Timeline" das pautas */
+let ARTS=new Set();
+const slugify=t=>String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60).replace(/-$/,"");
+const artIdOf=it=>`${ED.id.slice(0,10)}-${slugify(it.title)||"artigo"}`;
+function artReq(it){
+  const angle=[it.asymmetry&&it.asymmetry.flag?"Assimetria de cobertura: "+(it.asymmetry.note||""):"",it.desdobramento?"Desdobramento: "+it.desdobramento:"",it.segment==="x"?"Assunto em alta no X.":""].filter(Boolean).join(" ");
+  return{id:artIdOf(it),origem:{rotulo:`Notícias de ${label(ED.id)}`,dia:ED.id.slice(0,10)},
+    pauta:{title:it.title,fact:String(it.summary||""),sources:(it.outlets||[]).filter(o=>o.url).map(o=>({name:o.name,url:o.url})),timeline:{rende:true,angle}}};
+}
+function artBtn(it){const id=artIdOf(it);
+  if(ARTS.has(id))return`<a class="btn ghost" href="artigos.html#${id}" target="_blank" rel="noopener" title="Abrir o artigo já escrito">Ver artigo da Timeline ↗</a>`;
+  return Painel.API?`<button class="btn ghost" type="button" data-art="${esc(it.id)}" title="Escreve um artigo de opinião para a Revista Timeline a partir desta notícia (3 a 7 minutos)">✍ Escrever artigo</button>`:""}
+async function loadArts(){
+  ARTS=new Set(await fetch("artigos/index.json?"+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():{items:[]}).then(j=>(j.items||[]).map(i=>i.id)).catch(()=>[...ARTS]));
+  if(ED){renderX();render()}
+}
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")loadArts()});
 const progPedido=it=>((it.segment==="x"?"Assunto em alta no X: "+it.title+". "+(it.summary||""):it.title)+" "+(((it.outlets||[])[0]||{}).url||"")).trim().slice(0,1400);
 const NV_JAN=9; /* compara com as 9 edições anteriores (3 dias) */
 const label=id=>{const [y,m,d,h]=id.split("-");return`${d}/${m} ${h}`};
@@ -375,7 +392,7 @@ function card(it,rank){
     ${it.asymmetry?.flag?`<div class="note"><b>Assimetria:</b> ${esc(it.asymmetry.note||"")}</div>`:""}
     <div class="outs"><span class="small-n">${(it.outlets||[]).length} portais:</span>${outs}</div>
     <details><summary>Como a nota foi calculada</summary><div class="crits">${crit}</div></details>
-    <div class="acts">${progBtn(it,pm,progIssue)}${done?`<a class="btn ghost" href="pautas-nova.html#sob-demanda">Ver post do Instagram</a>`:(Painel.API?`<button class="btn ghost" type="button" data-pauta="${esc(it.id)}" title="Gera opções de post na aba Conteúdo do Instagram, seção Sob demanda">📲 Post do Instagram</button>`:`<a class="btn ghost" href="${issue}" target="_blank" rel="noopener">📲 Post do Instagram</a>`)}<span class="small-n pst"></span></div>
+    <div class="acts">${progBtn(it,pm,progIssue)}${artBtn(it)}${done?`<a class="btn ghost" href="pautas-nova.html#sob-demanda">Ver post do Instagram</a>`:(Painel.API?`<button class="btn ghost" type="button" data-pauta="${esc(it.id)}" title="Gera opções de post na aba Conteúdo do Instagram, seção Sob demanda">📲 Post do Instagram</button>`:`<a class="btn ghost" href="${issue}" target="_blank" rel="noopener">📲 Post do Instagram</a>`)}<span class="small-n pst"></span></div>
   </article>`;
 }
 function novPill(it){const n=NV[it.id];if(!n)return"";
@@ -399,7 +416,7 @@ function renderX(){
     const rel=x.item_id&&(ED.items||[]).find(n=>n.id===x.item_id);
     return`<div class="xt"><div class="xt-h"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nome)}</a>${x.volume?`<span class="small-n">${Number(x.volume).toLocaleString("pt-BR")} posts</span>`:""}<span class="pill ${LEIT[x.leitura]||"neutral"}">${esc(x.leitura||"")}</span></div>
       <p>${esc(x.sobre||"")}</p>${x.uso?`<p class="uso"><b>Como usar:</b> ${esc(x.uso)}</p>`:""}<p class="xl"><a href="${esc(x.url)}" target="_blank" rel="noopener">Ver no X ↗</a>${(()=>{const f=(x.fonte&&x.fonte.url)?x.fonte:(rel&&(rel.outlets||[])[0]);return f&&f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">Ler matéria${f.name?" ("+esc(f.name)+")":""} ↗</a>`:""})()}${rel?`<a href="#n-${esc(rel.id)}" data-goto="${esc(rel.id)}">Ver notícia ligada ↓</a>`:""}</p>${rel?`<p class="small-n">Notícia ligada: ${esc(rel.title)}</p>`:""}
-      ${(()=>{const m=progMatch(it);return progNote(m)+(m?`<div class="pills" style="margin:6px 0">${progPill(m)}</div>`:"")})()}<div class="acts">${Painel.API?`${progBtn(it,progMatch(it))}<button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
+      ${(()=>{const m=progMatch(it);return progNote(m)+(m?`<div class="pills" style="margin:6px 0">${progPill(m)}</div>`:"")})()}<div class="acts">${Painel.API?`${progBtn(it,progMatch(it))}${artBtn(it)}<button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
 }
 function fbarSetup(){const nav=document.querySelector("nav"),fb=$("#fbar");const upd=()=>document.documentElement.style.setProperty("--navh",(nav?Math.round(nav.getBoundingClientRect().height):0)+"px");upd();addEventListener("resize",upd);if(nav&&window.ResizeObserver)new ResizeObserver(upd).observe(nav);
   addEventListener("scroll",()=>{const top=fb.getBoundingClientRect().top,nh=nav?nav.offsetHeight:0;fb.classList.toggle("stuck",top<=nh+1&&scrollY>40)},{passive:true})}
@@ -439,7 +456,7 @@ async function load(id){
 }
 Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("noticias/index.json?"+Date.now()).then(r=>r.ok?r.json():{editions:[]}).catch(()=>({editions:[]})),fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([c,ix,sd])=>{
   CFG=c;method();fbarSetup();(sd.items||[]).forEach(x=>{if(x.source){DONE[x.source.title]=1;DONE[x.source.item_id]=1}});
-  loadProg();
+  loadProg();loadArts();
   EDS=(ix.editions||[]).sort();
   if(!EDS.length){$("#updated").textContent="A primeira edição sai no próximo horário (6h, 12h ou 19h).";$("#list").innerHTML=`<div class="empty">Nenhuma edição publicada ainda.</div>`;return}
   $("#ed").innerHTML=EDS.slice().reverse().map(e=>`<option value="${e}">${label(e)}</option>`).join("");
@@ -467,6 +484,14 @@ document.addEventListener("click",async e=>{
     b.textContent="Enviado para o programa ✓";pendSet(progKey(it),d);
     say(`Entra no início da pauta do programa de ${dBR(d)} em 3 a 10 minutos (se a pauta estiver sendo gerada, espera ela terminar).`);
   }catch(err){say(err.message);b.disabled=false}
+});
+
+/* Escrever artigo: abre a página de Artigos com o pedido, que pesquisa e escreve */
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button[data-art]");if(!b)return;
+  const it=getItem(b.dataset.art);if(!it)return;
+  const enc=encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(artReq(it))))));
+  window.open("artigos.html#novo="+enc,"_blank");
 });
 
 /* Post do Instagram com um clique (via intermediário) */
