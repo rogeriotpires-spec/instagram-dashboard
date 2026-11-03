@@ -1,110 +1,114 @@
 {
-  "generated": "2026-11-02T15:47:00-03:00",
-  "dias": 30,
-  "period": {
-    "start": "2026-10-03",
-    "end": "2026-11-01"
+ "generated": "2026-11-03T13:29:59-03:00",
+ "dias": 30,
+ "period": {
+  "start": "2026-10-04",
+  "end": "2026-11-02"
+ },
+ "compare": "2026-09-04 a 2026-10-03",
+ "headline": "Nos últimos 30 dias a conta recebeu 24,2 mi de views (+89%) e 34.012 novos seguidores (+268,5%) em 69 publicações, mas 1.450 pessoas deixaram de seguir (+320%).",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "24,2 mi",
+   "delta": "+89%",
+   "dir": "up"
   },
-  "compare": "2026-09-03 a 2026-10-02",
-  "headline": "Nos últimos 30 dias a conta recebeu 23,3 mi de views (+80%) e 32.620 novos seguidores (+261%), mas 4.887 deixaram de seguir, contra 345 no período anterior.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "23,3 mi",
-      "delta": "+80%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "32.620",
-      "delta": "+261%",
-      "dir": "up"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "4.887",
-      "delta": "+1.317%",
-      "dir": "down"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Alcance médio por dia",
-      "value": "275 mil",
-      "delta": "+75%",
-      "dir": "up"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião lideraram em seguidores: \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 926.434 views e 1.175 seguidores, \"Avalanche Bolsonarista!\" teve 615.537 views e 466 seguidores. Entre os Reels, \"Fiz a conta do primeiro para o segundo turno e ela não…\" teve 978.504 views. Os 37 Reels tiveram mediana de 30.861 views, contra 18.348 das 29 imagens.",
-      "actions": [
-        "Mantenha a imagem de opinião forte como principal formato para atrair seguidores.",
-        "Repita Reels de análise de números, o tema de \"Fiz a conta\" e \"Meio milhão de seções.\".",
-        "Compare sempre imagem e Reel pelo mesmo tema para saber o que cada formato entrega."
-      ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DeGlubltKVX",
-        "De8Q_S9MAJt"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Os 3 piores posts foram Reels com menos de 10s assistidos em média: \"Se liga!!!\" (760 views, 64% de pulo), \"Sabe se isso é IA?\" (1.350 views) e \"Pense num amor inimaginável.\" (1.532 views, 51% de pulo). O tema Opinião teve mediana de 13.595 views, contra 30.861 de Política.",
-      "actions": [
-        "Corte a introdução e comece pelo ponto principal nos primeiros 3 segundos.",
-        "Evite títulos vagos como \"Se liga!!!\".",
-        "Reveja os Reels que ficaram abaixo de 10s assistidos antes de repetir o formato."
-      ],
-      "posts": [
-        "De6lr9Ft3I5",
-        "DeKCMhiNIxP",
-        "DeUk6JyNW9Y"
-      ]
-    },
-    {
-      "title": "Seguidores e saídas",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Entraram 32.620 seguidores, contra 9.034 no período anterior. Deixaram de seguir 4.887 (18 dias com dado), contra 345 (25 dias). As imagens somaram 2.354 seguidores atribuídos; para Reels a API não informa esse número. As saídas cresceram em proporção maior que as entradas (+1.317% contra +261%).",
-      "actions": [
-        "Fixe no perfil um post de apresentação para quem chegou pela eleição.",
-        "Acompanhe as saídas por semana para ver se estabilizam depois do pico.",
-        "Use a imagem de opinião para ampliar o público que já interage."
-      ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DeGlubltKVX",
-        "DemP7GNt_P7"
-      ]
-    },
-    {
-      "title": "Horários",
-      "status": "good",
-      "status_label": "Testar",
-      "diagnosis": "As medianas de views foram maiores às 05h (368.530), 22h (310.806) e 18h (143.762); ficaram baixas às 14h (4.451), 08h (13.147) e 07h (13.595). Há poucos posts por faixa e muitos foram de semanas de eleição, então vale como pista, não como regra.",
-      "actions": [
-        "Teste mais posts entre 18h e 22h.",
-        "Reduza posts às 14h e confirme se o resultado se repete.",
-        "Mantenha um registro do horário de cada post para comparar nas próximas semanas."
-      ],
-      "posts": []
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "34.012",
+   "delta": "+269%",
+   "dir": "up"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "1.450",
+   "delta": "+320%",
+   "dir": "down"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "468.976",
+   "delta": "+118%",
+   "dir": "up"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "38.475",
+   "delta": "+198%",
+   "dir": "up"
+  },
+  {
+   "label": "Salvamentos recebidos",
+   "value": "66.056",
+   "delta": "+244%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os maiores resultados vieram de Reels sobre a eleição e de imagens de opinião: \"Fiz a conta do primeiro para o segundo turno…\" (981.053 views, 19.582 compartilhamentos), \"Como dizia o TAXAD, quem foge do debate é bundão?\" (926.450 views) e \"Meio milhão de seções.\" (726.274 views). Os Reels tiveram mediana de 33.189 views, contra 16,8 mil das imagens e 3.689,5 dos carrosséis.",
+   "actions": [
+    "Continue com Reels de conta e dados da eleição.",
+    "Mantenha imagens de opinião com posicionamento claro, que alcançaram mais de 900 mil views.",
+    "Evite carrossel por enquanto: os 2 publicados ficaram em mediana de 3.689,5 views."
+   ],
+   "posts": [
+    "De8Q_S9MAJt",
+    "DeVAkiqtPwL",
+    "De8104Zt6iS"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Os Reels \"Se liga!!!\" (807 views, 64% de pulo, 9s assistidos), \"Sabe se isso é IA?\" (1.350 views) e \"Pense num amor inimaginável.\" (1.532 views) ficaram muito abaixo dos demais. Todos são Reels de política com chamada vaga. Atenção: os posts mais recentes ainda acumulam views.",
+   "actions": [
+    "Abra o Reel com o fato e o nome do assunto, não com pergunta ou exclamação genérica.",
+    "Revise ou corte temas que não são sobre eleição ou sobre o que você já domina.",
+    "Compare só posts com idade parecida antes de tirar conclusão."
+   ],
+   "posts": [
+    "De6lr9Ft3I5",
+    "DeKCMhiNIxP",
+    "DeUk6JyNW9Y"
+   ]
+  },
+  {
+   "title": "Seguidores",
+   "status": "warn",
+   "status_label": "Atenção",
+   "diagnosis": "Entraram 34.012 seguidores, mas 1.450 saíram, 320% a mais que no período anterior. As imagens somaram 2.482 seguidores atribuídos: \"Como dizia o TAXAD…\" trouxe 1.175, \"Avalanche Bolsonarista!\" 466 e o post do túmulo de Olavo de Carvalho 356. A comparação tem ressalva: o período anterior tem menos dias com dado de saídas.",
+   "actions": [
+    "Fixe um post que explique quem você é, para reter quem chegou pela eleição.",
+    "Repita imagens de opinião forte, que foram as que mais trouxeram seguidores.",
+    "Acompanhe as saídas por semana para ver se o ritmo se mantém."
+   ],
+   "posts": [
+    "DeVAkiqtPwL",
+    "DeGlubltKVX",
+    "DemP7GNt_P7"
+   ]
+  },
+  {
+   "title": "Horários e comentários",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Pela mediana de views, 22h teve 310.807, 18h teve 143.895,5 e 21h teve 99.919. Já 11h teve 1.577, 14h 4.451 e 06h 10.018. Os posts com mais comentários foram \"Meio milhão de seções.\" (383), \"Inacreditável!\" (290) e \"Recebi milhares de boletins…\" (268).",
+   "actions": [
+    "Concentre os posts principais entre 18h e 22h.",
+    "Reduza posts às 11h e às 14h.",
+    "Termine os Reels de eleição com pergunta para repetir o volume de comentários."
+   ],
+   "posts": [
+    "De8104Zt6iS",
+    "DeaQZPRNABT",
+    "DfCvr4CN878"
+   ]
+  }
+ ]
 }

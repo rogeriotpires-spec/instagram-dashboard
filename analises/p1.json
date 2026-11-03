@@ -1,99 +1,94 @@
 {
-  "generated": "2026-11-02T15:47:00-03:00",
-  "dias": 1,
-  "period": {
-    "start": "2026-11-01",
-    "end": "2026-11-01"
+ "generated": "2026-11-03T13:29:59-03:00",
+ "dias": 1,
+ "period": {
+  "start": "2026-11-02",
+  "end": "2026-11-02"
+ },
+ "compare": "média dos 7 dias anteriores",
+ "headline": "Em 2/11 você não publicou nada, mas a conta recebeu 514.363 views, 28.071 compartilhamentos e 1.975 comentários; as views ficaram 41% abaixo da média dos 7 dias anteriores.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "514.363",
+   "delta": "−41%",
+   "dir": "down"
   },
-  "compare": "média dos 7 dias anteriores",
-  "headline": "Em 01/11 a conta não trouxe dados e não houve publicações (0 posts), então não dá para medir views, seguidores ou interações do dia nem comparar com a média dos 7 dias anteriores.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Publicações no dia",
-      "value": "0",
-      "delta": "sem comparação",
-      "dir": "na"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "warn",
-      "status_label": "Sem dados",
-      "diagnosis": "Em 01/11 nenhuma publicação entrou na base (0 posts) e a conta não trouxe views, seguidores nem interações. Não há post para apontar como destaque do dia. O contexto vem da semana: foram 8 posts e 5.610.663 views em 5 dos 7 dias com dado.",
-      "actions": [
-        "Use os períodos de 7 e 30 dias para decidir o que repetir.",
-        "Reveja os Reels de maior retenção da semana, como \"Fiz a conta do primeiro para o segundo turno e ela não…\" (29s assistidos em média), antes de planejar o próximo post."
-      ],
-      "posts": [
-        "De8Q_S9MAJt"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "O dia ficou sem dado e sem post. Na semana, só 5 dos 7 dias trouxeram views e 4 dias trouxeram dado de seguidores. Sem esses números não dá para saber se o dia teve queda real ou apenas falha de coleta.",
-      "actions": [
-        "Trate a lacuna de 01/11 como falha de coleta até os dados chegarem, não como desempenho ruim.",
-        "Confira se o acesso à API do Instagram está ativo e rode a coleta de novo."
-      ],
-      "posts": []
-    },
-    {
-      "title": "Ritmo de publicação",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "A semana anterior teve 18 publicações e a semana de 26/10 teve 8. O dia 01/11 fechou com 0. Num momento em que o alcance médio por dia chegou a 437.543 (contra 178.814 antes), dias sem post deixam esse público sem novidade.",
-      "actions": [
-        "Programe pelo menos um Reel por dia nos próximos dias.",
-        "Deixe um post pronto de reserva para dias de fim de semana."
-      ],
-      "posts": []
-    },
-    {
-      "title": "O que o dia ensina",
-      "status": "warn",
-      "status_label": "Observar",
-      "diagnosis": "Com um dia vazio, vale olhar os horários da semana: 08h teve mediana de 363.668 views e 12h de 269.294, enquanto 06h ficou em 7.028. São poucos posts por faixa, então é um sinal, não uma regra.",
-      "actions": [
-        "Teste os próximos posts entre 08h e 12h.",
-        "Compare o resultado com o de 06h antes de decidir o horário fixo."
-      ],
-      "posts": [
-        "DfHQ85MtRsf",
-        "DfCvr4CN878"
-      ]
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "sem dado",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "sem dado",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "28.071",
+   "delta": "+96%",
+   "dir": "up"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "1.975",
+   "delta": "+219%",
+   "dir": "up"
+  },
+  {
+   "label": "Contas com interação",
+   "value": "54.233",
+   "delta": "+17%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Sem publicação nova no dia, a conta ainda recebeu 28.071 compartilhamentos (+96% contra a média dos 7 dias anteriores) e 1.975 comentários (+219%). As contas com interação chegaram a 54.233 (+17%). O conteúdo que já está no ar continua gerando conversa.",
+   "actions": [
+    "Responda os comentários dos posts mais recentes para aproveitar os 1.975 recebidos.",
+    "Use os compartilhamentos como sinal: volte aos temas dos posts que mais circularam na semana."
+   ],
+   "posts": []
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "As views somaram 514.363, queda de 41% contra a média dos 7 dias anteriores. O alcance médio do dia foi de 23.467, queda de 93%. Nenhum post novo foi publicado em 2/11, então não houve material novo para puxar público.",
+   "actions": [
+    "Publique pelo menos um Reel ou imagem por dia, mesmo em dia de menos assunto.",
+    "Programe o post do dia seguinte na noite anterior para não ficar um dia inteiro sem publicação."
+   ],
+   "posts": []
+  },
+  {
+   "title": "Seguidores",
+   "status": "warn",
+   "status_label": "Atenção",
+   "diagnosis": "A coleta não trouxe novos seguidores nem quem deixou de seguir em 2/11, por isso não dá para comparar com a média da semana anterior. Sem esse dado, o dia não mostra se a atenção virou seguidores.",
+   "actions": [
+    "Confira amanhã se o dado de 2/11 foi preenchido e use-o para fechar a leitura do dia.",
+    "Fixe no perfil um post que apresente quem você é, para quem chega por posts antigos."
+   ],
+   "posts": []
+  },
+  {
+   "title": "O que o dia ensina",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Os comentários subiram 219% e os compartilhamentos 96% mesmo sem post novo, enquanto as views e o alcance caíram. Isso mostra que a conversa está mais forte do que o alcance. Vale entregar novo conteúdo para essa audiência engajada.",
+   "actions": [
+    "Faça um Reel que responda às dúvidas dos comentários.",
+    "Abra o próximo post com o dado mais forte no primeiro segundo."
+   ],
+   "posts": []
+  }
+ ]
 }

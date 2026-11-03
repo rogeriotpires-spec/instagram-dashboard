@@ -1,110 +1,113 @@
 {
-  "generated": "2026-11-02T15:47:00-03:00",
-  "dias": 60,
-  "period": {
-    "start": "2026-09-03",
-    "end": "2026-11-01"
+ "generated": "2026-11-03T13:29:59-03:00",
+ "dias": 60,
+ "period": {
+  "start": "2026-09-04",
+  "end": "2026-11-02"
+ },
+ "compare": "2026-07-06 a 2026-09-03",
+ "headline": "Em 60 dias a conta recebeu 36,9 mi de views (+155%) e 43.243 novos seguidores em 132 publicações, com imagens de opinião no topo do ranking.",
+ "kpis": [
+  {
+   "label": "Views recebidas pela conta",
+   "value": "36,9 mi",
+   "delta": "+155%",
+   "dir": "up"
   },
-  "compare": "2026-07-05 a 2026-09-02",
-  "headline": "Nos últimos 60 dias a conta recebeu 36,3 mi de views (+157%) e 41.654 novos seguidores, com as imagens de opinião entre os posts de maior alcance e seguidores.",
-  "kpis": [
-    {
-      "label": "Views recebidas pela conta",
-      "value": "36,3 mi",
-      "delta": "+157%",
-      "dir": "up"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "41.654",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "5.232",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Compartilhamentos recebidos (25 dias com dado)",
-      "value": "215 mil",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Comentários recebidos (25 dias com dado)",
-      "value": "12.910",
-      "delta": "sem comparação",
-      "dir": "na"
-    },
-    {
-      "label": "Alcance médio por dia",
-      "value": "214 mil",
-      "delta": "+205%",
-      "dir": "up"
-    }
-  ],
-  "cards": [
-    {
-      "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião ocupam o topo: \"Fica a reflexão.\" (1.237.731 views, 39.599 compartilhamentos, 1.188 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (983.030 views, 1.133 seguidores). As 45 imagens somaram 5.937 seguidores atribuídos e mediana de 28.590 views, contra 26.137 dos 82 Reels.",
-      "actions": [
-        "Mantenha imagens de opinião curtas e diretas, no estilo de \"Fica a reflexão.\".",
-        "Use Reels de análise de números, como \"Fiz a conta\" (978.504 views), para reforçar o alcance.",
-        "Publique as imagens de maior retorno de manhã, como nos dois melhores posts (07h e 07h15)."
-      ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "Dd08gl4tibs",
-        "De8Q_S9MAJt"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os piores posts foram Reels: \"O STF virou um manicômio institucional\" (537 views), \"Se liga!!!\" (760 views) e \"Banda podre esperneia!\" (1.066 views). O único post de Serviço teve 5.058 views. Os Reels ficaram com mediana de 26.137 views, abaixo das imagens, e os 82 Reels foram a maior parte do esforço.",
-      "actions": [
-        "Reduza Reels sem gancho forte; priorize os com tema de grande interesse.",
-        "Revise títulos genéricos e comece pelo dado ou pela pergunta.",
-        "Compare o custo de produzir Reels com o retorno das imagens."
-      ],
-      "posts": [
-        "Dc3EY5cNint",
-        "De6lr9Ft3I5",
-        "DdL670TN4bK"
-      ]
-    },
-    {
-      "title": "Comentários",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "O post com mais comentários foi a imagem \"Qual número você escolheria?\" (487 comentários com só 13.748 views), seguido de \"Meio milhão de seções.\" (380) e \"Inacreditável!\" (290). Pergunta direta rendeu muito comentário mesmo com poucas views. No total a conta teve 12.910 comentários em 25 dias com dado.",
-      "actions": [
-        "Faça uma pergunta de escolha simples a cada semana, no formato de \"Qual número você escolheria?\".",
-        "Feche os Reels políticos com uma pergunta ao público.",
-        "Responda os primeiros comentários para manter a conversa."
-      ],
-      "posts": [
-        "DdumKq_tAX_",
-        "De8104Zt6iS",
-        "DeaQZPRNABT"
-      ]
-    },
-    {
-      "title": "Horários e temas",
-      "status": "warn",
-      "status_label": "Observar",
-      "diagnosis": "As medianas de views foram maiores às 21h (96.750), 18h (81.478) e 09h (62.587), e menores às 22h (7.121), 20h (9.868) e 06h (9.889). Por tema, Política teve mediana de 26.123 (77 posts) e Opinião 18.348 (47 posts); Eventos e discursos teve 68.859, mas só com 2 posts.",
-      "actions": [
-        "Concentre posts entre 18h e 21h e compare com 09h.",
-        "Teste mais posts de Eventos e discursos, que ainda têm amostra pequena.",
-        "Evite tirar conclusões de faixas com poucos posts."
-      ],
-      "posts": []
-    }
-  ]
+  {
+   "label": "Novos seguidores",
+   "value": "43.243",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Deixaram de seguir",
+   "value": "1.795",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Compartilhamentos recebidos",
+   "value": "684.473",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Comentários recebidos",
+   "value": "51.385",
+   "delta": "sem comparação",
+   "dir": "na"
+  },
+  {
+   "label": "Alcance médio por dia",
+   "value": "206.946",
+   "delta": "+184%",
+   "dir": "up"
+  }
+ ],
+ "cards": [
+  {
+   "title": "O que funcionou",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Os três posts com mais views foram \"Fica a reflexão.\" (1.237.816 views, 39.599 compartilhamentos), \"Ninguém aguenta mais o Lula e o PT!\" (983.054) e o Reel \"Fiz a conta do primeiro para o segundo turno…\" (981.053). As 45 imagens somaram 8.428.714 views e as 85 Reels somaram 7.940.097, com mediana parecida (28.590 e 26.766).",
+   "actions": [
+    "Mantenha imagens de opinião curtas e diretas como carro-chefe.",
+    "Use Reels de análise de números para sustentar o alcance entre uma imagem forte e outra.",
+    "Registre as frases que funcionaram para reaproveitar o estilo."
+   ],
+   "posts": [
+    "Dd8pQedtGZL",
+    "Dd08gl4tibs",
+    "De8Q_S9MAJt"
+   ]
+  },
+  {
+   "title": "O que não funcionou",
+   "status": "bad",
+   "status_label": "Atenção",
+   "diagnosis": "Os piores posts foram Reels de política: \"O STF virou um manicômio institucional\" (537 views), \"Se liga!!!\" (807) e \"Banda podre esperneia!\" (1.066). O padrão é título vago ou de opinião rápida, sem dado, em Reels de abertura cedo, como às 6h30.",
+   "actions": [
+    "Evite Reels com título só de opinião e sem dado.",
+    "Teste menos Reels por semana e invista mais em cada um.",
+    "Revise o horário das 6h, que teve mediana de 11.384 views."
+   ],
+   "posts": [
+    "Dc3EY5cNint",
+    "De6lr9Ft3I5",
+    "DdL670TN4bK"
+   ]
+  },
+  {
+   "title": "Seguidores",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "As imagens somaram 6.087 seguidores atribuídos; as três maiores foram \"Fica a reflexão.\" (1.188), \"Como dizia o TAXAD…\" (1.175) e \"Ninguém aguenta mais o Lula e o PT!\" (1.134). Os Reels não trazem esse dado.",
+   "actions": [
+    "Mantenha imagens de opinião com tese clara como principal porta de entrada.",
+    "Fixe no perfil uma apresentação sua para reter quem chega."
+   ],
+   "posts": [
+    "Dd8pQedtGZL",
+    "DeVAkiqtPwL",
+    "Dd08gl4tibs"
+   ]
+  },
+  {
+   "title": "Temas e horários",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Por tema, Política teve mediana de 26.499 views em 80 posts e Opinião 19.613 em 47. Eventos e discursos (2 posts) teve 68.862,5 e Bastidores e pessoal (2 posts) 41.018,5, amostras pequenas. Por horário, 21h teve 96.797, 18h 81.485,5 e 09h 62.763, contra 11.317,5 às 16h e 7.121 às 22h. Mais comentários: \"Qual número você escolheria?\" (487).",
+   "actions": [
+    "Teste mais bastidores e eventos, hoje com poucos posts.",
+    "Concentre posts em 18h, 21h e 9h.",
+    "Use perguntas diretas, como \"Qual número você escolheria?\", para gerar conversa."
+   ],
+   "posts": [
+    "DdumKq_tAX_",
+    "De8104Zt6iS",
+    "DeaQZPRNABT"
+   ]
+  }
+ ]
 }
