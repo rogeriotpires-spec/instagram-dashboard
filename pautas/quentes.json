@@ -1,6 +1,28 @@
 {
   "alerts": [
     {
+      "time": "2026-11-03T15:41:52-03:00",
+      "title": "Defesa de Flávio pede ao STF a devolução dos passaportes e o afastamento de Moraes do inquérito",
+      "fact": "A defesa de Flávio Bolsonaro recorreu ao STF para derrubar as medidas cautelares de Alexandre de Moraes e enviou ao presidente da corte, Edson Fachin, pedido de impedimento ou suspeição do ministro, com transferência do caso para André Mendonça. Os advogados afirmam que o Santander informou que Flávio não era titular nem usuário de contas das empresas do grupo Alcazar e que a informação foi juntada ao processo mais de dez horas antes do pedido da PF. Os recursos tramitam sob sigilo e não há decisão.",
+      "sources": [
+        {
+          "name": "O Tempo",
+          "url": "https://www.otempo.com.br/politica/congresso/2026/11/2/flavio-bolsonaro-recorre-ao-stf-contra-apreensao-de-passaportes"
+        },
+        {
+          "name": "Imirante",
+          "url": "https://imirante.com/noticias/brasil/2026/11/03/ipolitica-flavio-bolsonaro-pede-devolucao-passaportes-afastamento-moraes-investigacao"
+        }
+      ],
+      "suggestion": "Reel curto hoje às 19h30 e story com enquete em seguida, com foco no documento do Santander e no pedido de imparcialidade.",
+      "hook": "O banco disse que Flávio não era dono das contas. Isso chegou à decisão de Moraes?",
+      "script": "O Santander informou ao STF que Flávio Bolsonaro não era titular nem usuário das contas das empresas Alcazar. Segundo a defesa, essa informação já estava no processo mais de dez horas antes de a PF pedir o cancelamento do passaporte. Agora os advogados pedem que Moraes saia do caso e que a investigação vá para André Mendonça. É um pedido de imparcialidade, e quem decide é o presidente do STF. Você acha que Moraes deveria deixar esse inquérito? Responde aqui nos comentários.",
+      "timeline": {
+        "rende": "medio",
+        "angle": "Defesa de Flávio pede ao STF a saída de Moraes do inquérito e cita informação do Santander juntada antes do pedido da PF."
+      }
+    },
+    {
       "time": "2026-11-02T17:55:28-03:00",
       "title": "PF investiga ex-agente israelense por papel na saída de Flávio Bolsonaro do Brasil e avalia pedir bloqueio de bens",
       "fact": "A Polícia Federal apura se um ex-integrante do serviço de inteligência de Israel, identificado como Menachem Booky Halevy, ajudou no trajeto de Flávio Bolsonaro até a Argentina; a reportagem do Fantástico, exibida neste domingo (1º), diz que ele cruzou a fronteira numa van sete minutos antes do veículo ligado a Flávio. A CNN Brasil, citando fontes anônimas de órgãos do governo, diz que a PF avalia pedir ao STF o bloqueio de bens do senador. As próprias reportagens ressalvam que não há prova de que o israelense tenha organizado a saída. Flávio, que apareceu num culto na Flórida, diz que não saiu do Brasil, saiu pelo Brasil.",
