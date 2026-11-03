@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-03",
+  "weekday": "Ter",
+  "generated": "2026-11-03T00:47:35-03:00",
+  "summary": "Terça com o Senado votando a PEC da Segurança Pública às 16h, Alcolumbre na condução e o Rio começando a debater em plenário o orçamento de 2027 com déficit de R$ 13,98 bilhões. No bolso, a Serasa divulgou o recorde de 84,2 milhões de inadimplentes, e a proposta de juros de Lara Resende virou briga dentro do PT.",
+  "agenda": [
+    {
+      "time": "3/11, 16h",
+      "text": "Senado vota a PEC da Segurança Pública (PEC 18/2025), marcada por Alcolumbre.",
+      "source": {
+        "name": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2026/10/31/alcolumbre-marca-votacao-da-pec-da-seguranca-publica-para-terca-feira-3/"
+      }
+    },
+    {
+      "time": "3 e 4/11",
+      "text": "Alerj faz as primeiras discussões em plenário do orçamento estadual de 2027, que prevê déficit de R$ 13,98 bilhões.",
+      "source": {
+        "name": "Correio da Manhã",
+        "url": "https://www.correiodamanha.com.br/estado-do-rio/2026/10/330224-alerj-inicia-debates-sobre-orcamento-estadual-de-2027.html"
+      }
+    },
+    {
+      "time": "3/11",
+      "text": "Começa o Feirão Limpa Nome da Serasa, que vai até 6 de dezembro.",
+      "source": {
+        "name": "Agenda do Poder",
+        "url": "https://agendadopoder.com.br/inadimplencia-no-brasil-atinge-recorde-de-842-milhoes-de-pessoas-diz-serasa/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "8h30",
+      "type": "r",
+      "kind": "Reel de análise de dados da apuração, até 30s",
+      "options": [
+        {
+          "title": "Inadimplência bate recorde e chega a 84,2 milhões de brasileiros, com R$ 597,4 bilhões em dívidas",
+          "tone": "contundente",
+          "duration": "até 30s",
+          "fact": "A Serasa divulgou em 2/11 o Mapa da Inadimplência de setembro: 84,2 milhões de brasileiros estão inadimplentes, o maior número da série histórica. Em agosto eram 83,9 milhões. A alta é de 6% sobre setembro de 2025 e de 34,17% desde 2020. As dívidas somam R$ 597,4 bilhões, com média de R$ 7.093,83 por pessoa, cerca de 4,4 salários mínimos. Bancos e cartões concentram 27,16% do valor devido, e as financeiras ficaram em segundo pela primeira vez, com 20,66%.",
+          "sources": [
+            {
+              "name": "Agenda do Poder",
+              "url": "https://agendadopoder.com.br/inadimplencia-no-brasil-atinge-recorde-de-842-milhoes-de-pessoas-diz-serasa/"
+            },
+            {
+              "name": "Brasil 247",
+              "url": "https://www.brasil247.com/economia/inadimplencia-recorde-atinge-842-milhoes-de-brasileiros-aponta-serasa/"
+            }
+          ],
+          "hooks": [
+            "84,2 milhões de brasileiros com o nome sujo. É recorde.",
+            "Cada inadimplente deve em média 4 salários mínimos e meio."
+          ],
+          "script": "Oitenta e quatro milhões e duzentos mil brasileiros estão com o nome sujo. É o maior número da história, segundo a Serasa. Em um ano, são 6% a mais. As dívidas passam de 597 bilhões de reais, e cada devedor deve em média sete mil reais, mais de quatro salários mínimos. É o brasileiro trabalhando e a conta não fecha. E o governo comemora o quê? Você ou alguém da sua família está endividado? Sim ou não? Manda esse vídeo para quem precisa ver.",
+          "screen_text": [
+            "84,2 MILHÕES NO VERMELHO",
+            "Recorde da série histórica",
+            "R$ 597,4 bilhões em dívidas",
+            "Média: R$ 7.093 por pessoa"
+          ],
+          "caption": "Recorde: 84,2 milhões de brasileiros estão inadimplentes, com R$ 597,4 bilhões em dívidas. Você ou alguém da sua casa está endividado? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Dado da Serasa referente a setembro, divulgado em 2/11. Evite culpar uma única causa sem dado; foque no tamanho do número e no impacto no bolso. O dado é de consumidores, não de empresas.",
+          "timeline": {
+            "rende": true,
+            "angle": "Recorde de 84,2 milhões de inadimplentes: quem são os devedores, por que as financeiras subiram para o segundo lugar e o que o juro alto tem a ver com a bola de neve."
+          }
+        },
+        {
+          "title": "Gleisi diz que o mercado tem \"DNA do autoritarismo\" depois da proposta de Lara Resende para os juros",
+          "tone": "irônico",
+          "duration": "até 30s",
+          "fact": "André Lara Resende propõe criar um Conselho Fiscal e Monetário Nacional que definiria uma meta para a Selic, com 12 meses para o Banco Central chegar a 7,5% ao ano. Em 1º/11, Gleisi Hoffmann (PT) chamou o artigo de \"fundamental\". Em 2/11, depois da reação do mercado a uma possível conversa dele com Lula, ela disse que o mercado financeiro tem o \"DNA do autoritarismo\". O ministro da Fazenda, Dario Durigan, nega reunião marcada entre Lula e Lara Resende e descarta tabelar juros. Mercadante, presidente do BNDES, diz que as propostas não foram discutidas na campanha.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-congresso/mercado-financeiro-tem-o-dna-do-autoritarismo-diz-gleisi-hoffmann/"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/gleisi-volta-a-atacar-mercado-e-recua-na-defesa-do-tabelamento-de-juros/"
+            },
+            {
+              "name": "BPMoney",
+              "url": "https://bpmoney.com.br/politica/durigan-nega-tabelamento-juros-governo-lula-lara-resende/"
+            }
+          ],
+          "hooks": [
+            "Gleisi defendeu o artigo no domingo e xingou o mercado na segunda.",
+            "Primeiro apoia, depois recua: o PT e o tabelamento dos juros."
+          ],
+          "script": "Domingo, Gleisi chamou de fundamental o artigo que propõe levar a Selic a 7,5% em um ano. Segunda, depois que o mercado reagiu, ela disse que o mercado financeiro tem DNA do autoritarismo. Aí o ministro da Fazenda veio dizer que não tem reunião de Lula com o economista e que não vai tabelar juros. O PT lança a ideia, o mercado reage e o governo desmente. Quem paga essa confusão é quem tem dívida, e hoje são mais de 84 milhões de brasileiros. Você confia nessa política econômica? Sim ou não? Manda para quem precisa ver.",
+          "screen_text": [
+            "DOMINGO: \"fundamental\"",
+            "SEGUNDA: \"DNA do autoritarismo\"",
+            "Selic a 7,5% em 12 meses?",
+            "Fazenda: sem tabelamento"
+          ],
+          "caption": "Gleisi elogiou a proposta de Lara Resende no domingo e atacou o mercado na segunda. O ministro da Fazenda diz que não há tabelamento. Você confia na política econômica do governo? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Citar as falas com data e atribuir a Gleisi, Durigan e Mercadante. Não afirmar que Lula vai tabelar juros: o governo nega. Falar de proposta de um economista, sem dizer que é plano do governo.",
+          "timeline": {
+            "rende": true,
+            "angle": "A proposta de Lara Resende para a Selic e o recuo do governo: o que o Conselho Fiscal e Monetário mudaria no Banco Central, o que o mercado entendeu e quem paga a insegurança."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Story de imagem com o dado do dia e enquete",
+      "options": [
+        {
+          "title": "Ministério da Justiça eleva para 12 anos a classificação dos Desenhos Bíblicos da Record",
+          "tone": "emocional",
+          "style": "print",
+          "fact": "Em 28/10, três dias depois do segundo turno, a Coordenação-Geral de Políticas de Classificação Indicativa do Ministério da Justiça mudou a classificação do programa Record Kids Desenhos Bíblicos de livre para 12 anos, com exibição recomendada na TV aberta só a partir das 20h. A portaria cita atos criminosos, drogas lícitas, violência e estigma ou preconceito. A deputada Júlia Zanatta (PL-SC) disse que vai apresentar projeto de decreto legislativo para suspender a portaria e um requerimento de informações. O ministério afirma que a nova classificação não proíbe a exibição.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/apos-eleicao-ministerio-da-justica-muda-classificacao-de-desenhos-biblicos-da-record/"
+            },
+            {
+              "name": "O Antagonista",
+              "url": "https://oantagonista.com.br/brasil/deputada-vai-tentar-barrar-censura-a-desenhos-biblicos-da-record/"
+            },
+            {
+              "name": "Revista Oeste",
+              "url": "https://revistaoeste.com/politica/deputados-criticam-nova-classificacao-de-desenhos-biblicos-da-record/"
+            }
+          ],
+          "slides": [
+            "Desenhos Bíblicos da Record: de livre para 12 anos",
+            "Decisão de 28/10, três dias depois da eleição",
+            "Horário recomendado: só depois das 20h",
+            "Motivos citados: violência, drogas lícitas, atos criminosos",
+            "Deputada Júlia Zanatta vai tentar derrubar a portaria",
+            "História bíblica para criança precisa de classificação de 12 anos?"
+          ],
+          "poll": {
+            "question": "Desenho bíblico para criança deveria ter classificação de 12 anos?",
+            "options": [
+              "Não, é exagero",
+              "Sim, está certo",
+              "Não tenho opinião"
+            ]
+          },
+          "caption": "Três dias depois da eleição, o governo subiu para 12 anos a classificação dos Desenhos Bíblicos da Record. Você acha que a decisão é exagero? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Atribuir a decisão à Coordenação de Classificação Indicativa; não há prova pública de que Lula a ordenou. Citar que o ministério nega proibição e evitar a palavra censura como fato; usar como crítica atribuída aos deputados.",
+          "timeline": {
+            "rende": true,
+            "angle": "Classificação indicativa e liberdade religiosa: o que a portaria diz, o que os deputados contestam e como o decreto legislativo poderia suspendê-la."
+          }
+        },
+        {
+          "title": "Alerj começa a discutir em plenário o orçamento de 2027 do Rio, com déficit de R$ 13,98 bilhões",
+          "tone": "sóbrio",
+          "style": "print",
+          "fact": "O projeto de orçamento do Rio para 2027 prevê receita líquida de R$ 124,39 bilhões, despesa de R$ 138,37 bilhões e déficit de R$ 13,98 bilhões, cerca de R$ 5 bilhões menor que o do orçamento de 2026. Os gastos com pessoal sobem R$ 9,64 bilhões. A queda real das receitas de royalties e participações especiais mantém o desequilíbrio. As primeiras discussões em plenário estão marcadas para 3 e 4/11, e a votação final está prevista para 17/12.",
+          "sources": [
+            {
+              "name": "Correio da Manhã",
+              "url": "https://www.correiodamanha.com.br/estado-do-rio/2026/10/330224-alerj-inicia-debates-sobre-orcamento-estadual-de-2027.html"
+            }
+          ],
+          "slides": [
+            "Orçamento do Rio 2027 chega ao plenário da Alerj",
+            "Receita líquida: R$ 124,39 bilhões",
+            "Despesa: R$ 138,37 bilhões",
+            "Déficit: R$ 13,98 bilhões",
+            "Gasto com pessoal sobe R$ 9,64 bilhões",
+            "Royalties em queda real mantêm o rombo",
+            "Votação final prevista para 17/12"
+          ],
+          "poll": {
+            "question": "O Rio deve cortar gastos antes de pedir mais receita?",
+            "options": [
+              "Sim, cortar gastos",
+              "Não, buscar mais receita",
+              "As duas coisas"
+            ]
+          },
+          "caption": "O orçamento do Rio para 2027 chega ao plenário da Alerj com déficit de R$ 13,98 bilhões. O estado deve cortar gastos antes de buscar mais receita? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Dados do projeto (PLOA), sujeitos a mudança até a votação. A matéria é de 27/10; confirmar se o plenário já começou a discussão. Não confundir com o déficit da LDO, que é menor (cerca de R$ 13 bilhões).",
+          "timeline": {
+            "rende": false,
+            "angle": "Pauta de interesse regional e técnico demais para um artigo de 600 a 1.200 palavras da Timeline; rende melhor como story."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
