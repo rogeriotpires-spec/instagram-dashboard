@@ -1,6 +1,82 @@
 {
  "items": [
   {
+   "requested": "2026-11-03",
+   "done": "2026-11-02T22:20:00-03:00",
+   "issue": 133,
+   "slot_hint": "Reel na terça (3) às 18h ou imagem na quarta (4) às 12h, na abertura da CPAC.",
+   "source": {
+    "edition": "2026-11-02-19h",
+    "item_id": "x:0",
+    "title": "Em alta no X: CPAC"
+   },
+   "options": [
+    {
+     "type": "i",
+     "style": "ilustracao",
+     "title": "CPAC reúne a direita conservadora em Mar-a-Lago, e Eduardo Bolsonaro está confirmado; Flávio é esperado",
+     "tone": "firme, informativo",
+     "duration": "imagem única",
+     "fact": "A CPAC, a maior conferência conservadora do mundo, faz encontro em Mar-a-Lago, em Palm Beach (Flórida), com atividades de 4 a 7 de novembro de 2026. No dia 5, a reunião do CPAC Circle é restrita a convidados e seguida de jantar de gala. Eduardo Bolsonaro está confirmado. O nome de Flávio Bolsonaro não aparece na programação, mas a expectativa é que ele acompanhe o irmão, o que daria ao evento uma dimensão brasileira. Os dois querem apresentar suas posições sobre o Brasil e buscar interlocutores para uma agenda de oposição ao governo Lula no exterior. Não há anúncio de agenda conjunta, e a presença de Donald Trump não está confirmada. Entre os palestrantes divulgados estão os senadores Rick Scott e Mike Lee, Liz Truss e Matt Schlapp.",
+     "sources": [
+      {
+       "name": "Jovem Pan",
+       "url": "https://jovempan.com.br/colunistas/eliseu-caetano/cpac-pode-marcar-largada-dos-irmaos-bolsonaro-na-oposicao-a-lula-no-exterior/"
+      }
+     ],
+     "art_text": [
+      "CPAC em Mar-a-Lago",
+      "4 a 7 de novembro",
+      "Eduardo confirmado. Flávio é esperado.",
+      "A oposição a Lula vai falar inglês?",
+      "Siga @rogerrio (Instagram) @rogerrioX (X)"
+     ],
+     "faces": "Eduardo Bolsonaro e Flávio Bolsonaro, em silhueta/ilustração, lado a lado diante de um palco de conferência. Relação direta: Eduardo está confirmado e Flávio é esperado no evento. Sem ação inventada: só postura de quem vai discursar.",
+     "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No alto, em letras condensadas, brancas e pesadas: \"CPAC em Mar-a-Lago\". No meio, Eduardo Bolsonaro e Flávio Bolsonaro lado a lado, de terno, em pé diante de um palco com púlpito e bandeiras dos Estados Unidos e do Brasil ao fundo, expressão firme e determinada, um deles apontando o dedo para a frente. Ao fundo, a silhueta de um palácio de estilo mediterrâneo com palmeiras. Quadro de destaque em amarelo com o texto \"4 a 7 de novembro\" e, ao lado, quadro vermelho com \"Eduardo confirmado. Flávio é esperado.\". Embaixo, com sublinhado vermelho pincelado, a pergunta: \"A oposição a Lula vai falar inglês?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+     "caption": "A CPAC faz encontro em Mar-a-Lago, na Flórida, de 4 a 7 de novembro. Eduardo Bolsonaro está confirmado e a expectativa é que Flávio apareça ao lado do irmão. O objetivo é levar a posição da direita sobre o Brasil a quem decide lá fora. O que você espera desse encontro? Conta nos comentários.",
+     "risk": "médio",
+     "risk_note": "Presença de Flávio ainda não confirmada: o texto diz 'é esperado'. Não afirmar que ele vai discursar nem que Trump comparece. Conferir a programação antes de postar.",
+     "timeline": {
+      "rende": true,
+      "angle": "Atualizar depois do dia 5 com quem de fato discursou e o que foi dito sobre o Brasil."
+     }
+    },
+    {
+     "type": "r",
+     "title": "Eduardo Bolsonaro é confirmado na CPAC em Mar-a-Lago, e Flávio é esperado",
+     "tone": "contundente",
+     "duration": "45 a 60 segundos",
+     "fact": "A CPAC, a maior conferência conservadora do mundo, faz encontro em Mar-a-Lago, em Palm Beach (Flórida), com atividades de 4 a 7 de novembro de 2026. No dia 5, a reunião do CPAC Circle é restrita a convidados e seguida de jantar de gala. Eduardo Bolsonaro está confirmado. O nome de Flávio Bolsonaro não aparece na programação, mas a expectativa é que ele acompanhe o irmão, o que daria ao evento uma dimensão brasileira. Os dois querem apresentar suas posições sobre o Brasil e buscar interlocutores para uma agenda de oposição ao governo Lula no exterior. Não há anúncio de agenda conjunta, e a presença de Donald Trump não está confirmada. Entre os palestrantes divulgados estão os senadores Rick Scott e Mike Lee, Liz Truss e Matt Schlapp.",
+     "sources": [
+      {
+       "name": "Jovem Pan",
+       "url": "https://jovempan.com.br/colunistas/eliseu-caetano/cpac-pode-marcar-largada-dos-irmaos-bolsonaro-na-oposicao-a-lula-no-exterior/"
+      }
+     ],
+     "hooks": [
+      "A CPAC começa na quarta e tem Bolsonaro na lista.",
+      "Eduardo Bolsonaro vai à CPAC em Mar-a-Lago.",
+      "A oposição a Lula vai ser feita também lá fora?"
+     ],
+     "script": "A CPAC, a maior conferência conservadora do mundo, faz encontro em Mar-a-Lago, na Flórida, de 4 a 7 de novembro. Eduardo Bolsonaro está confirmado. O nome de Flávio ainda não aparece na programação, mas a expectativa é que ele acompanhe o irmão. A ideia é apresentar a posição da direita brasileira sobre o Brasil e buscar aliados para a oposição ao governo Lula no exterior. Ainda não há agenda conjunta anunciada, e a presença de Trump também não está confirmada. Mas o recado é claro: enquanto o governo Lula quer silêncio lá fora, a direita brasileira vai ocupar o palco onde a pauta conservadora é discutida. Me conta nos comentários: você acha importante levar essa conversa para fora do país?",
+     "screen_text": [
+      "CPAC em Mar-a-Lago",
+      "4 a 7 de novembro",
+      "Eduardo confirmado",
+      "Flávio é esperado",
+      "Oposição a Lula também no exterior"
+     ],
+     "caption": "A CPAC faz encontro em Mar-a-Lago, na Flórida, de 4 a 7 de novembro. Eduardo Bolsonaro está confirmado e a expectativa é que Flávio o acompanhe. Você acha importante levar essa conversa para fora do país?",
+     "risk": "médio",
+     "risk_note": "Flávio não está na programação oficial: manter 'é esperado'. Revisar depois do evento. Cortar a frase sobre 'silêncio lá fora' se preferir tom mais neutro.",
+     "timeline": {
+      "rende": true,
+      "angle": "Atualizar com o que foi dito em Mar-a-Lago."
+     }
+    }
+   ]
+  },
+  {
    "requested": "2026-10-29",
    "done": "2026-10-29T05:58:59-03:00",
    "issue": 121,
@@ -4395,92 +4471,6 @@
      "timeline": {
       "rende": true,
       "angle": "Acompanhar a votação no Senado e a posição de cada senador."
-     }
-    }
-   ]
-  },
-  {
-   "requested": "2026-10-07",
-   "done": "2026-10-07T05:48:26-03:00",
-   "issue": 1,
-   "slot_hint": "Reel às 19h de quarta (7) e imagem às 7h de quinta (8), antes do julgamento das 10h; stories ao vivo durante a sessão do TSE.",
-   "source": {
-    "edition": "2026-10-07-06h",
-    "item_id": "garotinho-tse-governo-rj",
-    "title": "TSE julga na quinta desistência de Garotinho, que pode dar vitória a Ruas no 1º turno"
-   },
-   "options": [
-    {
-     "type": "i",
-     "title": "O Rio já votou. Agora quem decide é o TSE",
-     "tone": "contundente",
-     "fact": "Douglas Ruas (PL) teve 4.271.199 votos (49,27% dos válidos) e Eduardo Paes (PSD), 3.706.984 (42,76%). Garotinho teve 274.411 votos (3,17%) sub judice e desistiu do recurso. Se o TSE homologar a desistência e esses votos saírem da conta, Ruas passa de 50% e vence no 1º turno. O Ministério Público Eleitoral foi favorável; a coligação de Paes e o PSOL pediram ao TSE para manter os votos. Julgamento na quinta (8), às 10h.",
-     "sources": [
-      {
-       "name": "Brasil 247",
-       "url": "https://www.brasil247.com/sudeste/tse-julga-nesta-quinta-votos-de-garotinho-e-pode-definir-eleicao-do-rio-no-primeiro-turno/"
-      },
-      {
-       "name": "Diário do Rio",
-       "url": "https://diariodorio.com/politica/2026/10/06/tse-inclui-recurso-de-garotinho-na-pauta-de-quinta-feira-e-pode-definir-eleicao-para-governador-do-rio.html"
-      },
-      {
-       "name": "Gazeta do Povo",
-       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
-      }
-     ],
-     "art_text": [
-      "RUAS: 49,27%",
-      "Faltaram 0,73 ponto",
-      "QUINTA, 10H: O TSE DECIDE SE O RIO PRECISA DE 2º TURNO"
-     ],
-     "faces": "Nenhum rosto. Placar e relógio.",
-     "prompt": "Crie uma imagem vertical 4:5 (1080x1350) no estilo placar de apuração de TV. Fundo azul-marinho escuro com leve textura. No topo, em branco grande e negrito: \"RUAS: 49,27%\". Logo abaixo, uma barra de progresso horizontal quase cheia parando antes da marca de 50%, com a marca de 50% em amarelo e o texto pequeno \"Faltaram 0,73 ponto\". Na base, em amarelo forte e caixa alta: \"QUINTA, 10H: O TSE DECIDE SE O RIO PRECISA DE 2º TURNO\". Ícone discreto de relógio ao lado do horário. Tipografia sem serifa pesada, alto contraste, sem logos e sem pessoas.",
-     "caption": "4,27 milhões de votos em Douglas Ruas. Agora o resultado do Rio depende de um julgamento em Brasília. Paes foi ao TSE para manter o 2º turno. Para você, quem deveria decidir a eleição: o eleitor ou o tribunal?",
-     "risk": "baixo",
-     "risk_note": "Números oficiais e fatos processuais públicos. Não diga que houve acordo entre Garotinho e Ruas: a palavra \"armação\" é de Paes e só pode aparecer atribuída a ele.",
-     "timeline": {
-      "rende": true,
-      "angle": "Na quinta, logo após o julgamento: o placar final e o que muda para o Rio, com 1º turno encerrado ou 2º turno confirmado para 25 de outubro."
-     }
-    },
-    {
-     "type": "r",
-     "title": "Paes quer ganhar no tribunal o que perdeu na urna?",
-     "tone": "contundente",
-     "duration": "30 a 40s",
-     "fact": "Douglas Ruas (PL) teve 4.271.199 votos (49,27% dos válidos) e Eduardo Paes (PSD), 3.706.984 (42,76%). Garotinho teve 274.411 votos (3,17%) sub judice e desistiu do recurso. Se o TSE homologar a desistência e esses votos saírem da conta, Ruas passa de 50% e vence no 1º turno. O Ministério Público Eleitoral foi favorável; a coligação de Paes e o PSOL pediram ao TSE para manter os votos. Julgamento na quinta (8), às 10h.",
-     "sources": [
-      {
-       "name": "Brasil 247",
-       "url": "https://www.brasil247.com/sudeste/tse-julga-nesta-quinta-votos-de-garotinho-e-pode-definir-eleicao-do-rio-no-primeiro-turno/"
-      },
-      {
-       "name": "Diário do Rio",
-       "url": "https://diariodorio.com/politica/2026/10/06/tse-inclui-recurso-de-garotinho-na-pauta-de-quinta-feira-e-pode-definir-eleicao-para-governador-do-rio.html"
-      },
-      {
-       "name": "Gazeta do Povo",
-       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/paes-aciona-tse-para-barrar-desistencia-de-garotinho-e-assegurar-2o-turno-no-rj/"
-      }
-     ],
-     "hooks": [
-      "Douglas Ruas ficou a 0,73 ponto de vencer no primeiro turno. E quem vai decidir isso não é você.",
-      "Eduardo Paes foi ao TSE. Não para ganhar voto. Para manter na conta os votos de outro candidato."
-     ],
-     "script": "Douglas Ruas teve 4 milhões e 271 mil votos no Rio. Quase 49 e meio por cento dos válidos. Eduardo Paes ficou com 42,76. No meio disso, 274 mil votos de Garotinho, que foi barrado pela Justiça Eleitoral e desistiu do recurso. Se esses votos saem da conta, Ruas passa de 50 por cento e o Rio não tem segundo turno. O Ministério Público Eleitoral concordou com a desistência. A coligação de Paes pediu ao TSE para não aceitar, e o PSOL também. Paes chamou o caso de armação. Ruas não comentou. Nesta quinta, às 10 da manhã, o plenário do TSE decide. Pergunta direta: se a regra vale para todo mundo, por que o candidato que ficou em segundo quer manter na conta os votos de um candidato barrado? Comenta aqui.",
-     "screen_text": [
-      "Ruas: 49,27%",
-      "Paes: 42,76%",
-      "274 mil votos sub judice",
-      "Quinta, 10h: TSE decide"
-     ],
-     "caption": "O Rio pode ter governador eleito sem 2º turno. Paes foi ao TSE para impedir. O que você acha: regra é regra?",
-     "risk": "médio",
-     "risk_note": "Tom firme é seguro enquanto fica nos fatos processuais. A palavra \"armação\" sempre atribuída a Paes. Não afirme fraude nem irregularidade de nenhum lado: o julgamento ainda não aconteceu.",
-     "timeline": {
-      "rende": true,
-      "angle": "Série curta: antes do julgamento (o que está em jogo), durante (ao vivo nos stories) e depois (o resultado e a reação de Paes e Ruas)."
      }
     }
    ]
