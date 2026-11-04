@@ -2,8 +2,8 @@
   "date": "2026-11-04",
   "generated": "2026-11-04T09:16:02-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Senado aprova a PEC da Segurança por 75 a 0, Fux diz que as bets devem ser banidas, dólar bate a máxima do ano, democratas vencem nos EUA e PL lança Marinho",
-  "abertura": "O Senado aprovou a PEC da Segurança Pública por 75 a 0 e o texto vai à promulgação, mas a maioridade penal ficou de fora. No STF, Fux disse que as bets devem ser banidas depois de dez horas de audiência. O Ibovespa teve a sexta queda seguida e o dólar fechou a R$ 5,487, o maior nível do ano, na véspera da decisão do Copom. Nos EUA, os democratas foram projetados vencedores no Congresso, e o PL oficializa Rogério Marinho para o Senado.",
+  "titulo": "Boato liga queda de Learjet na Flórida a Israel sem prova, Senado aprova a PEC da Segurança por 75 a 0, Fux diz que bets devem ser banidas e dólar bate máxima do ano",
+  "abertura": "Circula nas redes a alegação de que Israel hackeou o Learjet que caiu na Flórida, mas nenhuma matéria aberta traz prova, e a causa segue em apuração pela FAA e pelo NTSB. No Brasil, o Senado aprovou a PEC da Segurança Pública por 75 a 0, e o texto vai à promulgação sem a maioridade penal. No STF, Fux disse que as bets devem ser banidas, e o dólar fechou a R$ 5,487, o maior nível do ano, na véspera do Copom. Nos EUA, os democratas foram projetados vencedores no Congresso, e o PL oficializa Marinho para o Senado.",
   "agenda": [
     {
       "time": "11h",
@@ -23,6 +23,48 @@
     }
   ],
   "itens": [
+    {
+      "id": "learjet-florida-boato-putin",
+      "bloco": "Internacional",
+      "titulo": "Boato diz que Putin provou ataque de Israel ao Learjet na Flórida, mas não há prova",
+      "subtitulo": "A queda do Learjet 60 matou 9 pessoas no domingo (1º), e a causa está em apuração pela FAA e pelo NTSB; nenhuma matéria aberta cita imagem de satélite de Putin ou ataque",
+      "resumo": "Circula nas redes a mensagem de que Putin teria liberado imagens de satélite provando que Israel assumiu o controle remoto do Learjet que caiu na Flórida. O acidente é real: o Learjet 60 decolou de Austin com destino às Bahamas e caiu no domingo (1º) em Greenacres, no condado de Palm Beach, matando as nove pessoas a bordo. A FAA e o NTSB investigam, e até agora não há causa oficial nem hipótese de ataque ou terrorismo nas matérias publicadas. A copiloto, de 20 anos, era brasileira, e o áudio do controle de tráfego registra o pedido de emergência durante uma descida muito rápida em meio a gelo, turbulência e chuva. Sem declaração de Putin localizada, sem imagem divulgada e sem fonte identificada, o texto que viraliza é alegação, e o programa deve tratá-lo como tal.",
+      "contexto": [
+        "O Learjet 60 caiu por volta das 12h50 de domingo (1º), perto da Military Trail, em Greenacres (Palm Beach, Flórida), e as nove pessoas a bordo morreram.",
+        "A aeronave saiu de Austin (Texas) rumo a North Eleuthera (Bahamas) e está registrada em uma empresa de Delaware.",
+        "Segundo a FAA, o avião desceu cerca de 350 pés por segundo, de 35.250 para 8.750 pés em pouco mais de um minuto.",
+        "No áudio do controle de tráfego, a piloto declarou Mayday, havia relatado gelo leve, turbulência moderada e precipitação e pediu para subir.",
+        "O governador Ron DeSantis comparou a queda a um míssil, mas foi uma descrição do impacto, não uma conclusão sobre a causa.",
+        "Entre as vítimas está a copiloto Nathalia Filgueiras, de 20 anos, segundo o pai."
+      ],
+      "angulo": [
+        "O ponto central é separar o que se sabe do que se alega: o acidente e as mortes são fatos, a tese de controle remoto por Israel não tem prova divulgada.",
+        "Quem afirma que a inteligência russa verificou o ataque precisa mostrar a imagem, a data e a fonte. Sem isso, a mensagem é só um texto que se espalha pela rede.",
+        "Respeito às famílias: há uma brasileira entre as vítimas, e a apuração técnica do NTSB é o caminho para saber se houve falha mecânica, gelo ou outra causa."
+      ],
+      "perguntas": [
+        "Que imagem, documento ou declaração oficial de Putin sustenta a mensagem que circula, e quem a divulgou primeiro?",
+        "O que o NTSB já informou sobre a causa e quando deve sair o relatório preliminar?",
+        "Por que mensagens com 'ligue os pontinhos' se espalham tão rápido depois de uma tragédia, e como o espectador pode checar antes de compartilhar?"
+      ],
+      "atencao": "Alegação sem fonte identificada: não afirmar que houve ataque, hackeamento ou ação de Israel nem atribuir fala a Putin sem registro oficial; a causa segue em investigação.",
+      "fontes": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599"
+        },
+        {
+          "name": "CNN",
+          "url": "https://edition.cnn.com/2026/11/01/us/south-florida-plane-crash"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "🚨BOMBA: Putin Libera Imagens de Satélite Provando que Acidente com LearJet na Flórida Foi 'Hackeado' por Israel. Putin diz que é hora de acordar. A América está sob ataque. E o inimigo, ele diz, já está dentro do Pentágono e da CIA. A inteligência russa verificou que Israel assumiu remotamente o controle do LearJet na Flórida no domingo, que foi pilotado como um míssil em direção ao seu alvo... e projetado para entregar uma mensagem ao presidente dos EUA na véspera das eleições de meio de mandato."
+    },
     {
       "id": "pec-seguranca-promulgacao",
       "bloco": "Segurança pública",
@@ -222,5 +264,6 @@
       ]
     }
   ],
-  "excluidos": []
+  "excluidos": [],
+  "atualizado": "2026-11-04T10:46:36-03:00"
 }
