@@ -1,47 +1,47 @@
 {
- "generated": "2026-11-03T13:29:59-03:00",
+ "generated": "2026-11-04T13:35:00-03:00",
  "dias": 60,
  "period": {
-  "start": "2026-09-04",
-  "end": "2026-11-02"
+  "start": "2026-09-05",
+  "end": "2026-11-03"
  },
- "compare": "2026-07-06 a 2026-09-03",
- "headline": "Em 60 dias a conta recebeu 36,9 mi de views (+155%) e 43.243 novos seguidores em 132 publicações, com imagens de opinião no topo do ranking.",
+ "compare": "2026-07-07 a 2026-09-04",
+ "headline": "Em 60 dias a conta recebeu 37,3 mi de views (+154%) e 43.572 novos seguidores, com 131 publicações; as imagens somaram 8.434.533 views em 45 posts, contra 7.948.041 dos 84 Reels.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "36,9 mi",
-   "delta": "+155%",
+   "value": "37,3 mi",
+   "delta": "+154%",
    "dir": "up"
   },
   {
    "label": "Novos seguidores",
-   "value": "43.243",
+   "value": "43.572",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Deixaram de seguir",
-   "value": "1.795",
+   "value": "1.859",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "684.473",
+   "value": "692.896",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Comentários recebidos",
-   "value": "51.385",
+   "value": "52.128",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Alcance médio por dia",
-   "value": "206.946",
-   "delta": "+184%",
+   "value": "205.840",
+   "delta": "+182%",
    "dir": "up"
   }
  ],
@@ -50,11 +50,10 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "Os três posts com mais views foram \"Fica a reflexão.\" (1.237.816 views, 39.599 compartilhamentos), \"Ninguém aguenta mais o Lula e o PT!\" (983.054) e o Reel \"Fiz a conta do primeiro para o segundo turno…\" (981.053). As 45 imagens somaram 8.428.714 views e as 85 Reels somaram 7.940.097, com mediana parecida (28.590 e 26.766).",
+   "diagnosis": "As imagens de opinião lideram: \"Fica a reflexão.\" (1/10) teve 1.237.834 views, 39.599 compartilhamentos e 1.188 seguidores, e \"Ninguém aguenta mais o Lula e o PT!\" (28/9) teve 983.064 views, 35.782 compartilhamentos e 1.134 seguidores. O Reel \"Fiz a conta do primeiro para o segundo turno…\" teve 981.436 views. As 45 imagens somaram 6.104 seguidores.",
    "actions": [
-    "Mantenha imagens de opinião curtas e diretas como carro-chefe.",
-    "Use Reels de análise de números para sustentar o alcance entre uma imagem forte e outra.",
-    "Registre as frases que funcionaram para reaproveitar o estilo."
+    "Mantenha imagens de opinião curtas com posição clara.",
+    "Combine com Reels de análise de números nos picos de notícia."
    ],
    "posts": [
     "Dd8pQedtGZL",
@@ -64,49 +63,45 @@
   },
   {
    "title": "O que não funcionou",
-   "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "Os piores posts foram Reels de política: \"O STF virou um manicômio institucional\" (537 views), \"Se liga!!!\" (807) e \"Banda podre esperneia!\" (1.066). O padrão é título vago ou de opinião rápida, sem dado, em Reels de abertura cedo, como às 6h30.",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Os piores posts foram Reels de política com 819 a 1.145 views, como \"Se liga!!!\" (64% de pulo), \"Banda podre esperneia!\" (1.066) e \"Quem produziu o relatório?\" (1.145). Os 2 carrosséis tiveram mediana de 3.689,5 views.",
    "actions": [
-    "Evite Reels com título só de opinião e sem dado.",
-    "Teste menos Reels por semana e invista mais em cada um.",
-    "Revise o horário das 6h, que teve mediana de 11.384 views."
+    "Corte Reels sem gancho claro nos primeiros segundos.",
+    "Evite carrossel até testar com tema forte."
    ],
    "posts": [
-    "Dc3EY5cNint",
     "De6lr9Ft3I5",
-    "DdL670TN4bK"
+    "DdL670TN4bK",
+    "DdB4QdCtujb"
    ]
   },
   {
-   "title": "Seguidores",
+   "title": "Formatos: imagem x Reel",
    "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "As imagens somaram 6.087 seguidores atribuídos; as três maiores foram \"Fica a reflexão.\" (1.188), \"Como dizia o TAXAD…\" (1.175) e \"Ninguém aguenta mais o Lula e o PT!\" (1.134). Os Reels não trazem esse dado.",
+   "status_label": "Manter",
+   "diagnosis": "A imagem teve mediana de 28.590 views e 158 compartilhamentos, contra 26.888 e 179,5 do Reel. As imagens somaram 6.104 seguidores; o Reel não informa seguidores por post. No período, os dados de compartilhamentos, comentários e seguidores só existem para 55 a 57 dos 60 dias, e não há base de comparação no período anterior.",
    "actions": [
-    "Mantenha imagens de opinião com tese clara como principal porta de entrada.",
-    "Fixe no perfil uma apresentação sua para reter quem chega."
+    "Mantenha os dois formatos na semana.",
+    "Use a imagem para ganhar seguidores e o Reel para alcance em notícias."
    ],
    "posts": [
     "Dd8pQedtGZL",
-    "DeVAkiqtPwL",
-    "Dd08gl4tibs"
+    "De8Q_S9MAJt"
    ]
   },
   {
-   "title": "Temas e horários",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Por tema, Política teve mediana de 26.499 views em 80 posts e Opinião 19.613 em 47. Eventos e discursos (2 posts) teve 68.862,5 e Bastidores e pessoal (2 posts) 41.018,5, amostras pequenas. Por horário, 21h teve 96.797, 18h 81.485,5 e 09h 62.763, contra 11.317,5 às 16h e 7.121 às 22h. Mais comentários: \"Qual número você escolheria?\" (487).",
+   "title": "Temas, horários e comentários",
+   "status": "good",
+   "status_label": "Testar",
+   "diagnosis": "Política teve mediana de 26.883 views em 79 posts, e Opinião 19.616 em 47. \"Qual número você escolheria?\" (25/9) teve 487 comentários com 13.748 views. Por horário, 21h teve mediana de 96.803 views e 18h teve 81.486, contra 7.121 às 22h e 9.868 às 20h. Os horários têm poucos posts cada um.",
    "actions": [
-    "Teste mais bastidores e eventos, hoje com poucos posts.",
-    "Concentre posts em 18h, 21h e 9h.",
-    "Use perguntas diretas, como \"Qual número você escolheria?\", para gerar conversa."
+    "Use uma pergunta direta por semana para provocar comentários.",
+    "Teste de novo 18h e 21h antes de fixar o horário."
    ],
    "posts": [
     "DdumKq_tAX_",
-    "De8104Zt6iS",
-    "DeaQZPRNABT"
+    "De8104Zt6iS"
    ]
   }
  ]

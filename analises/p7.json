@@ -1,47 +1,47 @@
 {
- "generated": "2026-11-03T13:29:59-03:00",
+ "generated": "2026-11-04T13:35:00-03:00",
  "dias": 7,
  "period": {
-  "start": "2026-10-27",
-  "end": "2026-11-02"
+  "start": "2026-10-28",
+  "end": "2026-11-03"
  },
- "compare": "2026-10-20 a 2026-10-26",
- "headline": "De 27/10 a 2/11 a conta recebeu 4,3 mi de views (−52%) e 8.735 novos seguidores (−48%) contra a semana anterior, com apenas 9 publicações; o Flávio Livre chegou a 667.255 views.",
+ "compare": "2026-10-21 a 2026-10-27",
+ "headline": "De 28/10 a 3/11 a conta recebeu 4,0 mi de views (−57%) e 6.740 novos seguidores (−65%) contra a semana anterior, com 7 publicações, todas Reels, contra 20.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "4,3 mi",
-   "delta": "−52%",
+   "value": "4,0 mi",
+   "delta": "−57%",
    "dir": "down"
   },
   {
    "label": "Novos seguidores",
-   "value": "8.735",
-   "delta": "−48%",
+   "value": "6.740",
+   "delta": "−65%",
    "dir": "down"
   },
   {
    "label": "Deixaram de seguir",
-   "value": "541",
-   "delta": "−6%",
+   "value": "467",
+   "delta": "−32%",
    "dir": "up"
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "100.770",
-   "delta": "−24%",
+   "value": "101.574",
+   "delta": "−26%",
    "dir": "down"
   },
   {
    "label": "Comentários recebidos",
-   "value": "5.253",
-   "delta": "−67%",
+   "value": "5.585",
+   "delta": "−65%",
    "dir": "down"
   },
   {
    "label": "Contas com interação por dia",
-   "value": "38.391",
-   "delta": "−51%",
+   "value": "35.498",
+   "delta": "−56%",
    "dir": "down"
   }
  ],
@@ -50,65 +50,58 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "A imagem \"Flávio Livre.\" (ter, 22h13) teve 667.255 views, 422 compartilhamentos e 263 seguidores, o único post com seguidores da semana. Entre os Reels, \"Allan dos Santos fez três perguntas ao Grok sobre a urna…\" teve 419.541 views e 10.781 compartilhamentos, e \"Recebi milhares de boletins de urna no meu Direct e não…\" teve 273.565 views. Os 8 Reels tiveram mediana de 162.124 views.",
+   "diagnosis": "O Reel \"Allan dos Santos fez três perguntas ao Grok sobre a urna…\" (30/10, 8h29) teve 421.228 views e 10.954 compartilhamentos. \"Recebi milhares de boletins de urna no meu Direct e não…\" (28/10, 12h35) teve 274.279 views, 10.699 compartilhamentos e 268 comentários, o mais comentado da semana. Os 7 Reels tiveram mediana de 175.917 views.",
    "actions": [
-    "Repita a imagem curta de posicionamento à noite, no formato de \"Flávio Livre.\".",
-    "Continue com Reels que mostram uma prova ou um dado concreto, como os do Grok e dos boletins de urna.",
-    "Mantenha o tema da urna e da apuração, que concentrou os melhores resultados."
+    "Repita Reels de política com um fato verificável logo na abertura, como os dois acima.",
+    "Publique perto de 8h30 e 12h30, horários dos dois Reels de maior alcance.",
+    "Responda os comentários na primeira hora."
    ],
    "posts": [
-    "DfBOEyBsDWf",
     "DfHeQXTtYhF",
-    "DfCvr4CN878"
+    "DfCvr4CN878",
+    "DfDdHQiN914"
    ]
   },
   {
    "title": "O que não funcionou",
-   "status": "bad",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "\"A semana termina.\" (30/10, 6h30) teve 10.208 views, 3 compartilhamentos e 61% de pulo, com 5s assistidos em média. \"Teve ou não teve tentativa de golpe na Polônia?\" (31/10) teve 33.490 views e 17 comentários, e \"Seu voto pode valer menos em 2030.\" (1/11) teve 29.634 views. Este último é mais recente (76,7 horas no ar), então ainda pode acumular.",
+   "actions": [
+    "Evite abertura genérica, como \"A semana termina.\", e comece pelo dado ou pela pergunta.",
+    "Dê um tema local ou de consequência direta para o espectador nos Reels sobre assuntos de fora."
+   ],
+   "posts": [
+    "DfHQ85MtRsf",
+    "DfKiWNYNCMH",
+    "DfMkx6Jt-aT"
+   ]
+  },
+  {
+   "title": "Retenção dos Reels",
+   "status": "good",
+   "status_label": "Manter",
+   "diagnosis": "Os três Reels de maior alcance tiveram pulo entre 33% e 45% e de 25 a 34 segundos assistidos em média, mesmo com durações de 51,6s a 138s. O pior Reel teve 61% de pulo e 5s assistidos, em um vídeo de 27,1s. A duração sozinha não separa os melhores dos piores.",
+   "actions": [
+    "Abra com a frase mais forte e corte a introdução.",
+    "Não encurte só por encurtar: o Reel de 138s foi o de mais views."
+   ],
+   "posts": [
+    "DfHeQXTtYhF",
+    "DfCvr4CN878",
+    "DfHQ85MtRsf"
+   ]
+  },
+  {
+   "title": "Seguidores e frequência",
+   "status": "warn",
    "status_label": "Atenção",
-   "diagnosis": "O Reel \"A semana termina.\" (6h30) teve 10.018 views, 5s assistidos em média e 60% de pulo. \"Seu voto pode valer menos em 2030.\" teve 28.478 views e \"Teve ou não teve tentativa de golpe na Polônia?\" teve 33.189. Atenção: os dois últimos têm 52,5 h e 71,4 h de idade e ainda acumulam views, então a comparação com os posts mais antigos ainda não é justa.",
+   "diagnosis": "A conta ganhou 6.740 seguidores (−65%, em 6 dos 7 dias com dado) e 467 deixaram de seguir (−32%). Foram 7 publicações contra 20 na semana anterior, que ainda tinha a apuração do 2º turno. Nenhuma imagem foi publicada, e é nelas que a API mostra seguidores por post, então não dá para apontar o post que trouxe seguidores.",
    "actions": [
-    "Evite abrir Reel com frase genérica, como \"A semana termina.\"; comece pelo dado mais forte.",
-    "Dê mais um dia para os posts recentes antes de concluir que não funcionaram.",
-    "Revise os títulos dos Reels sobre temas distantes da urna."
+    "Volte a publicar uma imagem de posicionamento por semana para testar os seguidores por post.",
+    "Mantenha pelo menos um Reel por dia."
    ],
-   "posts": [
-    "DfHQ85MtRsf",
-    "DfMkx6Jt-aT",
-    "DfKiWNYNCMH"
-   ]
-  },
-  {
-   "title": "Comentários e compartilhamentos",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Os comentários somaram 5.253 (−67%) e os compartilhamentos 100.770 (−24%). Os posts mais comentados foram \"Recebi milhares de boletins de urna…\" (268 comentários), \"Eles não querem que você ligue os pontos.\" (149) e \"Você confia no resultado da eleição?\" (134). Os três são Reels de política.",
-   "actions": [
-    "Termine os Reels com uma pergunta direta para estimular o comentário.",
-    "Responda os comentários na primeira hora após a publicação.",
-    "Peça que o público envie o vídeo a quem ainda não viu, nos temas mais compartilhados."
-   ],
-   "posts": [
-    "DfCvr4CN878",
-    "DfDdHQiN914",
-    "DfBClTANzh1"
-   ]
-  },
-  {
-   "title": "Horários",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Pela mediana de views, 22h teve 667.255 (um único post), 12h teve 273.565, 19h teve 217.332 e 08h teve 174.389. Os horários de 06h (10.018) e 13h (33.189) ficaram abaixo. Há poucos posts por horário, então é uma pista e não uma regra.",
-   "actions": [
-    "Priorize 12h, 19h e 22h para os posts principais.",
-    "Teste o horário de 08h com um Reel forte antes de decidir sobre ele.",
-    "Evite 06h para Reels de abertura genérica."
-   ],
-   "posts": [
-    "DfHQ85MtRsf",
-    "DfCvr4CN878",
-    "DfDdHQiN914"
-   ]
+   "posts": []
   }
  ]
 }

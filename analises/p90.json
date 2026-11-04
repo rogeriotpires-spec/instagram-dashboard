@@ -1,47 +1,47 @@
 {
- "generated": "2026-11-03T13:29:59-03:00",
+ "generated": "2026-11-04T13:35:00-03:00",
  "dias": 90,
  "period": {
-  "start": "2026-08-05",
-  "end": "2026-11-02"
+  "start": "2026-08-06",
+  "end": "2026-11-03"
  },
- "compare": "2026-05-07 a 2026-08-04",
- "headline": "Em 90 dias a conta recebeu 45,1 mi de views (+615%) em 181 publicações, mas o período anterior só tem 27 dias com dado, então a variação deve ser lida com cuidado.",
+ "compare": "2026-05-08 a 2026-08-05",
+ "headline": "Em 90 dias a conta recebeu 45,2 mi de views, com 180 publicações; a imagem \"Bem vindo a este manicômio chamado Brasil!\" chegou a 1.491.822 views e as imagens somaram 6.905 seguidores.",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "45,1 mi",
-   "delta": "+615%",
+   "value": "45,2 mi",
+   "delta": "+576%",
    "dir": "up"
   },
   {
    "label": "Novos seguidores",
-   "value": "43.243",
+   "value": "43.572",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Deixaram de seguir",
-   "value": "1.795",
+   "value": "1.859",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "684.473",
+   "value": "692.896",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Comentários recebidos",
-   "value": "51.385",
+   "value": "52.128",
    "delta": "sem comparação",
    "dir": "na"
   },
   {
    "label": "Alcance médio por dia",
-   "value": "165.482",
-   "delta": "+165%",
+   "value": "163.790",
+   "delta": "+148%",
    "dir": "up"
   }
  ],
@@ -50,11 +50,10 @@
    "title": "O que funcionou",
    "status": "good",
    "status_label": "Repetir",
-   "diagnosis": "Três imagens de opinião lideram: \"Bem vindo a este manicômio chamado Brasil!\" (1.491.818 views), \"Fica a reflexão.\" (1.237.816) e \"Ninguém aguenta mais o Lula e o PT!\" (983.054). Os Reels tiveram mediana de 23.391 views em 123 posts e as imagens 18.074,5 em 56.",
+   "diagnosis": "As três imagens com mais views foram \"Bem vindo a este manicômio chamado Brasil!\" (16/8, 1.491.822 views e 28.456 compartilhamentos), \"Fica a reflexão.\" (1.237.834) e \"Ninguém aguenta mais o Lula e o PT!\" (983.064). As duas últimas trouxeram 1.188 e 1.134 seguidores. O período anterior tem só 28 dias com dado de views, o que infla a variação de +576%.",
    "actions": [
-    "Mantenha imagens de opinião como principal motor de alcance.",
-    "Use Reels para frequência e para temas de eleição, que tiveram picos acima de 700 mil views.",
-    "Reaproveite as frases que funcionaram nessas imagens."
+    "Mantenha o padrão de imagem de opinião com posição direta.",
+    "Publique uma por semana e acompanhe os seguidores por post."
    ],
    "posts": [
     "DcGTcGzN_5i",
@@ -64,12 +63,12 @@
   },
   {
    "title": "O que não funcionou",
-   "status": "bad",
-   "status_label": "Atenção",
-   "diagnosis": "Os piores posts foram Reels de política: \"Quase 18 anos no poder\" (473 views), \"O STF virou um manicômio institucional\" (537) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (552). Todos foram publicados cedo, às 6h ou 9h, e tiveram 37% a 43% de pulo.",
+   "status": "warn",
+   "status_label": "Ajustar",
+   "diagnosis": "Os piores posts foram Reels de política com 473 a 552 views: \"Quase 18 anos no poder\", \"O STF virou um manicômio institucional\" e \"Candidato perdeu Instagram e Fundo Eleitoral\". Eventos e discursos tiveram mediana de 2.695 views em 6 posts.",
    "actions": [
-    "Pare de publicar Reels com tema pontual e sem dado.",
-    "Revise os horários da manhã cedo, com mediana de 4.438 views às 6h."
+    "Evite Reels sem gancho e sem fato novo.",
+    "Reduza posts de eventos e discursos, ou corte só o trecho mais forte."
    ],
    "posts": [
     "Db73S3ZBiej",
@@ -78,35 +77,32 @@
    ]
   },
   {
-   "title": "Temas",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Entrevista teve a maior mediana de views, 88.395, mas em apenas 5 posts. Política teve 23.391 em 109 posts, Opinião 15.233 em 58, Bastidores e pessoal 41.018,5 em 2, Eventos e discursos 2.694,5 em 6 e Serviço 5.060 em 1.",
+   "title": "Formatos",
+   "status": "good",
+   "status_label": "Manter",
+   "diagnosis": "As 56 imagens somaram 10.702.559 views e 6.905 seguidores, com mediana de 18.076 views e 180,5 compartilhamentos. Os 122 Reels somaram 8.970.741 views, com mediana de 23.316,5 views e 90,5 compartilhamentos. A imagem tem mediana de views menor, mas soma mais com menos posts. Os 2 carrosséis tiveram mediana de 3.689,5.",
    "actions": [
-    "Faça mais entrevistas, hoje com poucos posts.",
-    "Reduza posts de eventos e discursos, com a mediana mais baixa.",
-    "Mantenha Política e Opinião como base."
+    "Mantenha imagem e Reel no mesmo plano semanal.",
+    "Use a imagem para posicionamento e o Reel para acompanhar notícias."
    ],
    "posts": [
-    "DdumKq_tAX_",
-    "DcfJMHasopg",
-    "De8104Zt6iS"
+    "Dd8pQedtGZL",
+    "DcGTcGzN_5i"
    ]
   },
   {
-   "title": "Horários",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Pela mediana de views, 21h teve 99.919, 17h teve 88.395, 18h teve 81.485,5 e 09h teve 62.763. Os piores foram 06h (4.438), 11h (3.815) e 01h (2.458). Os comentários vieram de perguntas diretas, como \"Responda nos comentários, só um nome!\" (353 comentários).",
+   "title": "Temas e comentários",
+   "status": "good",
+   "status_label": "Testar",
+   "diagnosis": "Entrevista teve mediana de 88.395 views em 5 posts, Política 23.316,5 em 108 e Opinião 15.233 em 58. Os mais comentados foram \"Qual número você escolheria?\" (487), \"Meio milhão de seções.\" (382) e \"Responda nos comentários, só um nome!\" (353). São poucos posts de entrevista, então vale como pista.",
    "actions": [
-    "Priorize a janela entre 17h e 21h.",
-    "Evite 01h, 06h e 11h para posts importantes.",
-    "Repita o formato de pedir um nome ou número nos comentários."
+    "Teste mais um formato de entrevista por mês.",
+    "Peça uma resposta curta nos comentários uma vez por semana."
    ],
    "posts": [
-    "DcfJMHasopg",
     "DdumKq_tAX_",
-    "Dd8pQedtGZL"
+    "De8104Zt6iS",
+    "DcfJMHasopg"
    ]
   }
  ]

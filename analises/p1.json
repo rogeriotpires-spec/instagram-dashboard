@@ -1,17 +1,17 @@
 {
- "generated": "2026-11-03T13:29:59-03:00",
+ "generated": "2026-11-04T13:35:00-03:00",
  "dias": 1,
  "period": {
-  "start": "2026-11-02",
-  "end": "2026-11-02"
+  "start": "2026-11-03",
+  "end": "2026-11-03"
  },
  "compare": "média dos 7 dias anteriores",
- "headline": "Em 2/11 você não publicou nada, mas a conta recebeu 514.363 views, 28.071 compartilhamentos e 1.975 comentários; as views ficaram 41% abaixo da média dos 7 dias anteriores.",
+ "headline": "Em 3/11 não houve publicação, e a conta recebeu 489 mil views (−21% contra a média dos 7 dias anteriores), 8.423 compartilhamentos (−42%) e 743 comentários (−1%).",
  "kpis": [
   {
    "label": "Views recebidas pela conta",
-   "value": "514.363",
-   "delta": "−41%",
+   "value": "489 mil",
+   "delta": "−21%",
    "dir": "down"
   },
   {
@@ -28,67 +28,75 @@
   },
   {
    "label": "Compartilhamentos recebidos",
-   "value": "28.071",
-   "delta": "+96%",
-   "dir": "up"
+   "value": "8.423",
+   "delta": "−42%",
+   "dir": "down"
   },
   {
    "label": "Comentários recebidos",
-   "value": "1.975",
-   "delta": "+219%",
-   "dir": "up"
+   "value": "743",
+   "delta": "−1%",
+   "dir": "down"
   },
   {
-   "label": "Contas com interação",
-   "value": "54.233",
-   "delta": "+17%",
-   "dir": "up"
+   "label": "Salvamentos recebidos",
+   "value": "892",
+   "delta": "−59%",
+   "dir": "down"
   }
  ],
  "cards": [
   {
    "title": "O que funcionou",
    "status": "good",
-   "status_label": "Repetir",
-   "diagnosis": "Sem publicação nova no dia, a conta ainda recebeu 28.071 compartilhamentos (+96% contra a média dos 7 dias anteriores) e 1.975 comentários (+219%). As contas com interação chegaram a 54.233 (+17%). O conteúdo que já está no ar continua gerando conversa.",
+   "status_label": "Manter",
+   "diagnosis": "Sem nenhum post novo em 3/11, a conta ainda recebeu 489 mil views, 8.423 compartilhamentos e 743 comentários. Os comentários ficaram praticamente no nível da média dos 7 dias anteriores (−1%), e as views ficaram 21% abaixo dela. O dia mostra que os posts da semana passada seguem rendendo.",
    "actions": [
-    "Responda os comentários dos posts mais recentes para aproveitar os 1.975 recebidos.",
-    "Use os compartilhamentos como sinal: volte aos temas dos posts que mais circularam na semana."
+    "Mantenha no ar e responda os comentários dos Reels de 28 e 30/10, que ainda recebem audiência.",
+    "Use os comentários de hoje como pauta para o próximo Reel."
    ],
-   "posts": []
+   "posts": [
+    "DfHeQXTtYhF",
+    "DfCvr4CN878"
+   ]
   },
   {
    "title": "O que não funcionou",
    "status": "warn",
    "status_label": "Ajustar",
-   "diagnosis": "As views somaram 514.363, queda de 41% contra a média dos 7 dias anteriores. O alcance médio do dia foi de 23.467, queda de 93%. Nenhum post novo foi publicado em 2/11, então não houve material novo para puxar público.",
+   "diagnosis": "Os salvamentos caíram 59% (892) e os compartilhamentos caíram 42% (8.423) contra a média dos 7 dias anteriores. Houve 0 publicações em 3/11, e a queda maior nesses dois números coincidiu com o dia sem post novo.",
    "actions": [
-    "Publique pelo menos um Reel ou imagem por dia, mesmo em dia de menos assunto.",
-    "Programe o post do dia seguinte na noite anterior para não ficar um dia inteiro sem publicação."
+    "Publique pelo menos um Reel por dia para repor compartilhamentos e salvamentos.",
+    "Prefira o Reel com dado ou número forte logo no início, como os de maior compartilhamento da semana."
    ],
    "posts": []
   },
   {
    "title": "Seguidores",
    "status": "warn",
-   "status_label": "Atenção",
-   "diagnosis": "A coleta não trouxe novos seguidores nem quem deixou de seguir em 2/11, por isso não dá para comparar com a média da semana anterior. Sem esse dado, o dia não mostra se a atenção virou seguidores.",
+   "status_label": "Sem dado",
+   "diagnosis": "Os dados de novos seguidores e de quem deixou de seguir ainda não chegaram para 3/11, então não dá para avaliar o dia. Os comparativos desses dois números aparecem nos períodos de 7 dias ou mais.",
    "actions": [
-    "Confira amanhã se o dado de 2/11 foi preenchido e use-o para fechar a leitura do dia.",
-    "Fixe no perfil um post que apresente quem você é, para quem chega por posts antigos."
+    "Consulte o período de 7 dias para ver a tendência de seguidores.",
+    "Reveja este card quando o dado do dia estiver disponível."
    ],
    "posts": []
   },
   {
-   "title": "O que o dia ensina",
-   "status": "warn",
-   "status_label": "Ajustar",
-   "diagnosis": "Os comentários subiram 219% e os compartilhamentos 96% mesmo sem post novo, enquanto as views e o alcance caíram. Isso mostra que a conversa está mais forte do que o alcance. Vale entregar novo conteúdo para essa audiência engajada.",
+   "title": "Horários que o dia ensina",
+   "status": "good",
+   "status_label": "Repetir",
+   "diagnosis": "Nos 7 dias até 3/11, os Reels publicados às 8h tiveram mediana de 175.917 views, os de 12h tiveram 274.279 e os de 19h tiveram 217.903. O de 6h30 teve só 10.208. São poucos posts por horário, então vale como pista e não como regra.",
    "actions": [
-    "Faça um Reel que responda às dúvidas dos comentários.",
-    "Abra o próximo post com o dado mais forte no primeiro segundo."
+    "Programe o Reel de amanhã para 8h30 ou 12h30.",
+    "Evite 6h30 para Reels até testar de novo."
    ],
-   "posts": []
+   "posts": [
+    "DfHeQXTtYhF",
+    "DfCvr4CN878",
+    "DfDdHQiN914",
+    "DfHQ85MtRsf"
+   ]
   }
  ]
 }
