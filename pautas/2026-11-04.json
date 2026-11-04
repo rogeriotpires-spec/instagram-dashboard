@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-04",
+  "weekday": "Qua",
+  "generated": "2026-11-03T23:43:55-03:00",
+  "summary": "Quarta de Copom, CPAC e Senado: o Banco Central anuncia a Selic à noite, a CPAC começa em Mar-a-Lago com Eduardo Bolsonaro confirmado e o Senado segue com a PEC da Segurança, travada pela maioridade penal. No Rio, Douglas Ruas começa a montar o governo, e no STF o relator Fux já defende banir as bets.",
+  "agenda": [
+    {
+      "time": "4/11, noite",
+      "text": "Copom divulga a decisão sobre a Selic. As Opções de Copom da B3 apontavam cerca de 63% de chance de manutenção em 13,75%, em dados de 26/10.",
+      "source": {
+        "name": "Rankia",
+        "url": "https://rankia.com.br/copom-4-novembro-selic-manutencao-63-opcoes-b3/"
+      }
+    },
+    {
+      "time": "4 a 7/11",
+      "text": "CPAC em Mar-a-Lago, na Flórida. Eduardo Bolsonaro está confirmado; a presença de Flávio é esperada, sem anúncio oficial.",
+      "source": {
+        "name": "Jovem Pan",
+        "url": "https://jovempan.com.br/colunistas/eliseu-caetano/cpac-pode-marcar-largada-dos-irmaos-bolsonaro-na-oposicao-a-lula-no-exterior/"
+      }
+    },
+    {
+      "time": "3/11 e seguintes",
+      "text": "Senado conduz a PEC da Segurança Pública (PEC 18/2025) em plenário, com impasse sobre a maioridade penal.",
+      "source": {
+        "name": "Diário do Centro do Mundo",
+        "url": "https://www.diariodocentrodomundo.com.br/senado-vota-pec-seguranca-impasse-maioridade-penal"
+      }
+    },
+    {
+      "time": "8/11",
+      "text": "Primeiro dia de provas do Enem 2026, com 5.051.345 inscrições confirmadas. A segunda prova é em 15/11.",
+      "source": {
+        "name": "Agência Gov",
+        "url": "https://agenciagov.ebc.com.br/noticias/202610/painel-enem-2026-apresenta-perfil-dos-participantes-do-exame"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "12h30",
+      "type": "r",
+      "kind": "Reel respondendo a dúvidas dos comentários",
+      "options": [
+        {
+          "title": "Fux defende banir as bets em audiência no STF, e Lula pede pressão da sociedade",
+          "tone": "contundente",
+          "duration": "até 30s",
+          "fact": "Na audiência pública de 3/11 no STF, o ministro Luiz Fux, relator das ações contra a medida provisória do governo Lula que proibiu as apostas online, defendeu o banimento das bets. Disse que já tinha essa percepção, mas não pôde reiterá-la porque Flávio Dino pediu vista em um julgamento sobre jogos de azar. A primeira-dama Janja acompanhou o encontro e entregou a Fux um relatório sobre o tema. O deputado André Janones (Rede-MG) criticou a lista de participantes, e Fux negou ter convocado só defensores das bets. O STF analisa seis ações contra as leis que regulamentavam as apostas, além de processos ligados à nova medida provisória. Não há decisão.",
+          "sources": [
+            {
+              "name": "ND Mais",
+              "url": "https://ndmais.com.br/justica/fux-defende-banimento-bets-audiencia-publica-stf-medida-lula/"
+            },
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/colunas/manoela-alcantara/apos-lula-pedir-pressao-contra-bets-janja-participa-de-audiencia-no-stf"
+            }
+          ],
+          "hooks": [],
+          "script": "O relator das ações contra a proibição das bets já disse o que pensa antes de qualquer julgamento: Fux defendeu o banimento na audiência do STF. A medida provisória é do governo Lula, e a primeira-dama foi à audiência e entregou um relatório ao ministro. Antes, o presidente tinha pedido que a sociedade pressionasse. Não há decisão, e o tribunal ainda analisa seis ações. Quando o relator e o governo já estão do mesmo lado, o julgamento ainda vale como audiência pública? Sim ou não? Manda esse vídeo para quem aposta.",
+          "screen_text": [
+            "FUX DEFENDE BANIR AS BETS",
+            "Audiência pública no STF, 3/11",
+            "Janja entrega relatório ao relator",
+            "Sem decisão: 6 ações em análise"
+          ],
+          "caption": "Fux defendeu banir as bets na audiência do STF, e a primeira-dama entregou um relatório ao relator. A decisão ainda não saiu. Você acha que o STF deve decidir esse assunto? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Não afirme combinação entre Fux e o governo nem que a decisão está tomada: a pergunta final é opinião. O pedido de pressão de Lula consta nas reportagens, mas a ND Mais não o menciona; se for dizer em vídeo, confira a matéria da Metrópoles. Não acuse Fux de parcialidade.",
+          "timeline": {
+            "rende": true,
+            "angle": "Bets no STF: o que a MP proibiu, o que as seis ações discutem, o papel de Fux como relator e a pressão do governo e dos clubes sobre o tribunal."
+          }
+        },
+        {
+          "title": "Douglas Ruas anuncia os três primeiros secretários e mantém a Secretaria de Segurança com as polícias subordinadas",
+          "tone": "sóbrio",
+          "duration": "até 30s",
+          "fact": "O governador eleito do Rio, Douglas Ruas (PL), anunciou em 3/11, na Firjan, onde trabalha a equipe de transição, os três primeiros nomes do secretariado: Maria Gabriela Bessa na Casa Civil e Governança, Anderson Monteze em Planejamento, Gestão e Inovação, e a vice-governadora eleita Fernanda Louback em Políticas Inclusivas e da Mulher. Na segurança, Ruas confirmou o modelo em que os comandos da Polícia Civil e da Polícia Militar ficam subordinados a uma Secretaria de Segurança Pública, e disse que anunciará o secretário em breve. Disse que foi isso que apresentou à população e que a população escolheu.",
+          "sources": [
+            {
+              "name": "Revista Oeste",
+              "url": "https://revistaoeste.com/politica/governador-eleito-do-rj-douglas-ruas-anuncia-3-primeiros-secretarios/"
+            },
+            {
+              "name": "Super Rádio Tupi",
+              "url": "https://www.tupi.fm/rio/douglas-ruas-anuncia-os-primeiros-secretarios-do-novo-governo-no-rj/"
+            }
+          ],
+          "hooks": [],
+          "script": "O governo Douglas Ruas já tem os três primeiros nomes. Maria Gabriela Bessa na Casa Civil, Anderson Monteze no Planejamento e a vice, Fernanda Louback, em Políticas Inclusivas e da Mulher. Na segurança, o governador eleito foi direto: a Secretaria de Segurança volta a comandar a Polícia Civil e a Militar, como em todos os estados, e o secretário sai em breve. Foi o que ele apresentou ao eleitor, e o eleitor escolheu. O Rio precisa de comando único na segurança? Sim ou não? Manda esse vídeo para um carioca.",
+          "screen_text": [
+            "RUAS ANUNCIA O SECRETARIADO",
+            "Casa Civil: Maria Gabriela Bessa",
+            "Segurança: polícias sob uma secretaria",
+            "Secretário sai em breve"
+          ],
+          "caption": "Douglas Ruas anunciou os três primeiros secretários e confirmou que a segurança terá uma secretaria no comando das duas polícias, como foi apresentado na campanha. O Rio precisa de comando único na segurança? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Informação factual sobre o governador eleito. O secretário de Segurança ainda não foi nomeado: não cite nome. A expressão comando único é da pergunta, não do governador; se preferir, diga secretaria no comando das polícias.",
+          "timeline": {
+            "rende": true,
+            "angle": "Como Ruas monta o governo do Rio: primeiros nomes, o modelo da Secretaria de Segurança e o desafio de um orçamento com déficit."
+          }
+        }
+      ]
+    },
+    {
+      "time": "22h",
+      "type": "i",
+      "kind": "Imagem de posicionamento sobre o fato do dia",
+      "options": [
+        {
+          "title": "Governo prepara a MP do Imposto Seletivo, e a cobrança começaria em fevereiro de 2027",
+          "tone": "sóbrio",
+          "style": "cartaz",
+          "fact": "A Fazenda concluiu o texto da medida provisória que regulamenta o Imposto Seletivo e previa enviá-la ao Congresso em 3/11, depois de conversa entre o ministro Dario Durigan e Lula. O governo diz ter fechado acordo com os setores afetados para manter a carga atual do IPI, com ajustes pela mudança na base de cálculo. O IPI seria mantido para esses setores em janeiro de 2027, por meio de uma PEC, e a cobrança do Imposto Seletivo começaria em fevereiro de 2027. O modelo permanente, previsto para 2028, será discutido pelo Congresso em 2027. As matérias não informam os produtos nem as alíquotas.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-quer-enviar-mp-do-imposto-seletivo-ainda-hoje-ao-congresso"
+            },
+            {
+              "name": "Brasil 247",
+              "url": "https://www.brasil247.com/economia/fazenda-envia-mp-do-imposto-seletivo-e-projeta-reducao-gradual-de-aliquotas"
+            }
+          ],
+          "art_text": [
+            "Imposto Seletivo",
+            "Cobrança a partir de fevereiro de 2027",
+            "Produtos e alíquotas? O governo ainda não disse.",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Sem rosto de pessoa real. Cartaz com texto e números, fundo escuro texturizado e um carimbo de 'MP' estilizado. Risco baixo.",
+          "prompt": "Crie um cartaz vertical 4:5 (1080x1350), fundo escuro com textura de papel rasgado em preto e marrom, estilo editorial de jornal impresso, sem pessoas. No alto, em letras condensadas, brancas e muito pesadas: \"Imposto Seletivo\". No centro, em um quadro amarelo com letras pretas pesadas: \"Cobrança a partir de fevereiro de 2027\", com um carimbo vermelho inclinado escrito \"MP\" ao lado. Embaixo, em branco, com sublinhado vermelho pincelado: \"Produtos e alíquotas? O governo ainda não disse.\" No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "O governo prepara a medida provisória do Imposto Seletivo, com cobrança prevista para fevereiro de 2027, mas ainda não divulgou produtos nem alíquotas. Você quer saber a conta antes de o imposto valer? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Não afirme que a MP já foi enviada nem cite produtos e alíquotas: as matérias não trazem. Confira a situação da MP antes de publicar e ajuste a frase se o texto tiver saído.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que é o Imposto Seletivo, a promessa de manter a carga do IPI, o que ainda falta saber (produtos e alíquotas) e o calendário até o modelo permanente de 2028."
+          }
+        },
+        {
+          "title": "PEC da Segurança chega ao plenário do Senado, e a maioridade penal trava o texto",
+          "tone": "contundente",
+          "style": "ilustracao",
+          "desdobramento": "Senado abriu a discussão da PEC da Segurança em plenário em 3/11, e a líder do governo disse não haver acordo para incluir a maioridade penal",
+          "fact": "O Senado começou a discutir em plenário a PEC da Segurança Pública (PEC 18/2025) em 3/11, em sessão marcada por Davi Alcolumbre. O texto vem da Câmara e prevê regime mais rigoroso para integrantes de facções e milícias, confisco de bens do crime, ampliação da atuação da Polícia Federal e polícias municipais. Emendas tentam incluir a redução da maioridade penal. A líder do governo no Senado, Teresa Leitão (PT-PE), disse não haver acordo para incorporar emendas e que o governo quer aprovar sem mudanças, para o texto não voltar à Câmara. Rogério Marinho (PL-RN) apresentou emenda para reduzir a maioridade de 18 para 16 anos. O resultado da votação não consta nas matérias consultadas.",
+          "sources": [
+            {
+              "name": "Diário do Centro do Mundo",
+              "url": "https://www.diariodocentrodomundo.com.br/senado-vota-pec-seguranca-impasse-maioridade-penal"
+            },
+            {
+              "name": "Congresso em Foco",
+              "url": "https://www.congressoemfoco.com.br/noticia/131259/ao-vivo-plenario-do-senado-vota-pec-da-seguranca-publica"
+            }
+          ],
+          "art_text": [
+            "PEC da Segurança",
+            "Maioridade penal fica de fora?",
+            "O Brasil quer mais rigor com o crime?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Rogério Marinho (PL-RN) e Teresa Leitão (PT-PE), em lados opostos do plenário do Senado, ele defendendo a emenda da maioridade penal e ela contra incluir emendas. Relação direta: ambos protagonizam o impasse. Sem ação inventada, só debate. Risco baixo.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Rogério Marinho (senador do PL, terno escuro, dedo em riste) e Teresa Leitão (senadora do PT, braços cruzados, expressão firme), de pé em lados opostos, com a mesa do plenário do Senado entre eles. Ao fundo, a cúpula estilizada do Congresso e as bancadas do plenário. No alto, em letras condensadas, brancas e pesadas: \"PEC da Segurança\". No meio, em quadro amarelo: \"Maioridade penal fica de fora?\". Embaixo, em branco, com sublinhado vermelho pincelado: \"O Brasil quer mais rigor com o crime?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "O Senado discute a PEC da Segurança, e o governo resiste a incluir a redução da maioridade penal. O Brasil quer mais rigor com o crime? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "O resultado da votação não foi confirmado nas matérias: confira o placar e o destino da emenda antes de publicar e troque a frase pelo desfecho real. Não atribua posição a quem não a declarou.",
+          "timeline": {
+            "rende": true,
+            "angle": "PEC da Segurança no Senado: o que muda para facções e milícias, o papel da Polícia Federal e o embate sobre a maioridade penal."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
