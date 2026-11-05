@@ -33,7 +33,7 @@ jobs:
             git add programa/ pautas/
             git diff --cached --quiet && exit 0
             if git commit -qm "Item excluído da pauta" && git push -q origin HEAD:main; then
-              if printf '%s' "$PAYLOAD" | grep -q '"tipo":"programa"'; then gh workflow run programa-pdf.yml --ref main || echo "::warning::não consegui pedir o PDF novo"; fi
+              if printf '%s' "$PAYLOAD" | grep -Eq '"tipo":"(programa|agenda)"'; then gh workflow run programa-pdf.yml --ref main || echo "::warning::não consegui pedir o PDF novo"; fi
               exit 0
             fi
             sleep $((i*3))

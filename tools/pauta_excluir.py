@@ -1,5 +1,5 @@
 """Exclui um item da pauta (botão de lixeira da página de pautas).
-Uso: PAYLOAD='{"tipo":"programa|conteudo|sobdemanda|quente","data":"AAAA-MM-DD","titulo":"..."}' python3 tools/pauta_excluir.py"""
+Uso: PAYLOAD='{"tipo":"programa|agenda|conteudo|sobdemanda|quente","data":"AAAA-MM-DD","titulo":"..."}' python3 tools/pauta_excluir.py"""
 import json, os, re, sys
 from datetime import datetime, timezone, timedelta
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))
@@ -16,6 +16,10 @@ if tipo == "programa":
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", data): sys.exit("data inválida")
     f = f"programa/{data}.json"; d = carregar(f); antes = len(d.get("itens", []))
     d["itens"] = [x for x in d.get("itens", []) if x.get("titulo", "").strip() != tit]; n = antes - len(d["itens"])
+elif tipo == "agenda":  # item "Com hora marcada" da pauta do programa (identificado pelo texto)
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", data): sys.exit("data inválida")
+    f = f"programa/{data}.json"; d = carregar(f); antes = len(d.get("agenda", []))
+    d["agenda"] = [x for x in d.get("agenda", []) if x.get("text", "").strip() != tit]; n = antes - len(d["agenda"])
 elif tipo == "conteudo":
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", data): sys.exit("data inválida")
     f = f"pautas/{data}.json"; d = carregar(f)
