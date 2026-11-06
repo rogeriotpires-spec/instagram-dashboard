@@ -1,59 +1,92 @@
 {
-  "generated": "2026-11-05T13:44:52-03:00",
+  "generated": "2026-11-06T13:12:54-03:00",
   "dias": 1,
-  "period": {"start": "2026-11-04", "end": "2026-11-04"},
+  "period": {
+    "start": "2026-11-05",
+    "end": "2026-11-05"
+  },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Em 04/11 a conta recebeu 166.636 views (−71% contra a média dos 7 dias anteriores) e 1.337 compartilhamentos, sem nenhuma publicação no dia.",
+  "headline": "Em 05/11 a conta recebeu 80.857 views, 80% menos que a média diária de 166.652 dos 7 dias anteriores, e nenhum post foi publicado no dia.",
   "kpis": [
-    {"label": "Views recebidas pela conta", "value": "166 mil", "delta": "−71%", "dir": "down"},
-    {"label": "Novos seguidores", "value": "sem dado", "delta": "sem comparação", "dir": "na"},
-    {"label": "Deixaram de seguir", "value": "sem dado", "delta": "sem comparação", "dir": "na"},
-    {"label": "Compartilhamentos recebidos", "value": "1.337", "delta": "−91%", "dir": "down"},
-    {"label": "Comentários recebidos", "value": "198", "delta": "−75%", "dir": "down"},
-    {"label": "Salvamentos recebidos", "value": "358", "delta": "−82%", "dir": "down"}
+    {
+      "label": "Views recebidas pela conta",
+      "value": "80.857",
+      "delta": "−80%",
+      "dir": "down"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "645",
+      "delta": "−94%",
+      "dir": "down"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "101",
+      "delta": "−86%",
+      "dir": "down"
+    },
+    {
+      "label": "Salvamentos recebidos",
+      "value": "133",
+      "delta": "−91%",
+      "dir": "down"
+    }
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Mesmo sem post novo, a conta somou 166.636 views, 1.337 compartilhamentos e 358 salvamentos em 04/11. Quem segurou o dia foram os Reels recentes: “Allan dos Santos fez três perguntas ao Grok sobre a urna…” chegou a 422.206 views no total e “Prometeu R$ 5 mil.” a 176.876, com 11.565 compartilhamentos. Esses números são do acumulado de cada post, não só do dia.",
+      "status_label": "Manter",
+      "diagnosis": "Mesmo sem publicar, a conta teve 80.857 views, 645 compartilhamentos, 101 comentários e 133 salvamentos em 05/11. Isso mostra que posts anteriores seguiram circulando. Foram 3.996 contas com interação no dia.",
       "actions": [
-        "Mantenha Reels de política com dado forte logo no início, como esses dois, que seguem rendendo dias depois.",
-        "Reaproveite o tema desses Reels em um novo post curto, em vez de deixar o dia sem publicação."
+        "Aproveite o conteúdo que ainda circula: responda os comentários dos posts recentes.",
+        "Fixe ou reposte nos Stories o post mais forte da semana para manter o alcance."
       ],
-      "posts": ["DfHeQXTtYhF", "DfKDcLmNf5S"]
+      "posts": []
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Não houve publicação em 04/11. As views do dia ficaram em 166.636, contra 489.057 da média dos 7 dias anteriores (−71%). Os comentários caíram para 198, contra 743 da média, e os compartilhamentos para 1.337, contra 8.423.",
+      "diagnosis": "Não houve publicação em 05/11 e o dia ficou bem abaixo da média da semana anterior: 80.857 views contra 166.652, 645 compartilhamentos contra 1.337 e 4.224 curtidas contra 7.804. Os 5 posts dos últimos 7 dias foram publicados até 01/11.",
       "actions": [
-        "Publique pelo menos um Reel por dia para não depender só do que já está no ar.",
-        "Programe o post do dia na noite anterior, para o dia não passar em branco."
+        "Publique pelo menos um Reel por dia.",
+        "Reserve um horário fixo de manhã, como 8h30, que já rendeu bons Reels na semana."
       ],
       "posts": []
     },
     {
-      "title": "Seguidores",
-      "status": "warn",
-      "status_label": "Sem dado",
-      "diagnosis": "A coleta não trouxe novos seguidores nem quem deixou de seguir em 04/11, então não dá para dizer se o perfil ganhou ou perdeu gente no dia. A média dos 7 dias anteriores foi de 171 novos seguidores e 56 pessoas que deixaram de seguir por dia.",
-      "actions": [
-        "Confira amanhã se o dado de seguidores de 04/11 chegou e releia esta análise.",
-        "Use a média de 171 novos seguidores por dia como referência para os próximos dias."
-      ],
-      "posts": []
-    },
-    {
-      "title": "Compartilhamentos e salvamentos",
+      "title": "Interação do dia",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Os compartilhamentos foram de 1.337, contra 8.423 da média dos 7 dias anteriores (−91%). Os salvamentos foram de 358, contra 892 (−82%). A queda coincidiu com um dia sem post novo.",
+      "diagnosis": "As contas com interação por dia somaram 3.996, contra 7.347 na média dos 7 dias anteriores. Os comentários caíram de 198 para 101 e os salvamentos de 358 para 133. Sem post novo, há menos motivo para o público voltar ao perfil.",
       "actions": [
-        "Feche os Reels com uma chamada clara para enviar a um amigo, já que o compartilhamento é o que mais cai sem post novo.",
-        "Inclua um dado que valha salvar, como números da apuração, para puxar os salvamentos."
+        "Faça uma pergunta direta nos Stories para puxar respostas.",
+        "Publique um post com chamada para comentar, como as perguntas que já geraram muitos comentários."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Seguidores sem dado",
+      "status": "warn",
+      "status_label": "Sem dado",
+      "diagnosis": "Os números de novos seguidores e de quem deixou de seguir não chegaram para 05/11, então não há como comparar. Nos 7 dias até 05/11 foram 2.181 novos seguidores e 381 saídas, nos dias com dado.",
+      "actions": [
+        "Confira se a coleta de seguidores do dia foi concluída.",
+        "Volte a olhar o dia seguinte para saber se a queda de views também apareceu nos seguidores."
       ],
       "posts": []
     }

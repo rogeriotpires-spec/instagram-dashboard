@@ -1,63 +1,105 @@
 {
-  "generated": "2026-11-05T13:44:52-03:00",
+  "generated": "2026-11-06T13:12:54-03:00",
   "dias": 7,
-  "period": {"start": "2026-10-29", "end": "2026-11-04"},
-  "compare": "2026-10-22 a 2026-10-28",
-  "headline": "Em 7 dias a conta recebeu 2,88 mi de views (−71% contra a semana anterior) com 5 publicações, contra 19 antes, e 3.565 novos seguidores (−84%).",
+  "period": {
+    "start": "2026-10-30",
+    "end": "2026-11-05"
+  },
+  "compare": "2026-10-23 a 2026-10-29",
+  "headline": "Nos últimos 7 dias a conta recebeu 2,4 mi de views (−77%) e 2.181 novos seguidores (−91%) contra a semana anterior, com só 5 publicações contra 17.",
   "kpis": [
-    {"label": "Views recebidas pela conta", "value": "2,88 mi", "delta": "−71%", "dir": "down"},
-    {"label": "Novos seguidores", "value": "3.565", "delta": "−84%", "dir": "down"},
-    {"label": "Deixaram de seguir", "value": "423", "delta": "−44%", "dir": "up"},
-    {"label": "Compartilhamentos recebidos", "value": "81 mil", "delta": "−43%", "dir": "down"},
-    {"label": "Comentários recebidos", "value": "5.186", "delta": "−68%", "dir": "down"},
-    {"label": "Alcance médio por dia", "value": "99,5 mil", "delta": "−72%", "dir": "down"}
+    {
+      "label": "Views recebidas pela conta",
+      "value": "2,4 mi",
+      "delta": "−77%",
+      "dir": "down"
+    },
+    {
+      "label": "Novos seguidores",
+      "value": "2.181",
+      "delta": "−91%",
+      "dir": "down"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "381",
+      "delta": "−55%",
+      "dir": "up"
+    },
+    {
+      "label": "Compartilhamentos recebidos",
+      "value": "66.504",
+      "delta": "−57%",
+      "dir": "down"
+    },
+    {
+      "label": "Comentários recebidos",
+      "value": "4.026",
+      "delta": "−76%",
+      "dir": "down"
+    },
+    {
+      "label": "Alcance médio por dia",
+      "value": "80 mil",
+      "delta": "−77%",
+      "dir": "down"
+    }
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Dois Reels de política carregaram a semana: “Allan dos Santos fez três perguntas ao Grok sobre a urna…” (30/10, 8h29) chegou a 422.206 views, 10.961 compartilhamentos e 1.715 salvamentos, e “Prometeu R$ 5 mil.” (31/10, 8h30) a 176.876 views e 11.565 compartilhamentos. Os dois foram publicados por volta das 8h30 e os Reels da semana tiveram mediana de 33.602 views.",
+      "diagnosis": "O Reel \"Allan dos Santos fez três perguntas ao Grok sobre a urna…\" (30/10, 8h29) teve 423.163 views, 11.027 compartilhamentos e 1.718 salvamentos, com 34s assistidos em média e 42% de pulo. \"Prometeu R$ 5 mil.\" (31/10, 8h30) teve 177.945 views e 11.666 compartilhamentos. Os dois saíram às 8h30, horário com mediana de 177.945 views na semana.",
       "actions": [
-        "Repita Reels de política com pergunta ou promessa direta no título, como nesses dois posts.",
-        "Mantenha a janela das 8h30, que reuniu os dois posts mais fortes.",
-        "Pergunte a quem comentou o que quer ver a seguir, já que o primeiro teve 127 comentários."
+        "Repita Reels de manhã, perto das 8h30.",
+        "Abra com a pergunta ou a promessa mais forte, como nesses dois posts.",
+        "Mantenha a duração acima de 90s só quando o assunto sustentar, como os 138s do primeiro."
       ],
-      "posts": ["DfHeQXTtYhF", "DfKDcLmNf5S"]
+      "posts": [
+        "DfHeQXTtYhF",
+        "DfKDcLmNf5S"
+      ]
     },
     {
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "“A semana termina.” (30/10, 6h30) teve só 10.326 views e 3 compartilhamentos: foi assistido em média por 5s e 61% das pessoas pularam. “Teve ou não teve tentativa de golpe na Polônia?” ficou em 33.602 views e 17 comentários. Foram 5 publicações contra 19 na semana anterior, e a queda de views coincidiu com essa queda na frequência.",
+      "diagnosis": "\"A semana termina.\" (30/10, 6h30) teve só 10.436 views, 5s assistidos em média, 61% de pulo e 3 compartilhamentos. \"Seu voto pode valer menos em 2030.\" (01/11, 8h) teve 30.401 views e 50% de pulo. Os dois são Reels de Política, mas ficaram bem abaixo dos dois melhores.",
       "actions": [
-        "Evite abertura genérica de Reel como “A semana termina.”; comece pelo dado ou pela afirmação mais forte.",
-        "Volte a publicar mais de um post por dia nos dias de assunto quente.",
-        "Teste o tema da Polônia em formato mais curto, já que o Reel passou de 100s e teve 35% de pulo."
+        "Evite aberturas genéricas e posts de 6h30.",
+        "Troque a frase de abertura por um dado ou pergunta logo no primeiro segundo.",
+        "Teste o tema de 2030 com um corte mais curto."
       ],
-      "posts": ["DfHQ85MtRsf", "DfKiWNYNCMH"]
+      "posts": [
+        "DfHQ85MtRsf",
+        "DfMkx6Jt-aT"
+      ]
     },
     {
-      "title": "Horários",
-      "status": "warn",
+      "title": "Queda contra a semana anterior",
+      "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Os Reels das 8h tiveram mediana de 176.876 views, contra 33.602 às 13h e 10.326 às 6h. A amostra é pequena, com poucos posts por horário. E os posts mais novos ainda acumulam views, então a comparação com os mais antigos não é exata.",
+      "diagnosis": "As views passaram de 10,3 mi para 2,4 mi e os novos seguidores de 23.318 para 2.181. A queda coincidiu com a redução de 17 para 5 publicações. Quem deixou de seguir também caiu, de 846 para 381, então a perda de alcance não veio de saídas.",
       "actions": [
-        "Concentre os Reels principais entre 8h e 9h nas próximas duas semanas e compare.",
-        "Deixe de lado as 6h, que teve o resultado mais fraco da semana."
-      ],
-      "posts": ["DfHQ85MtRsf", "DfKDcLmNf5S"]
-    },
-    {
-      "title": "Seguidores",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Entraram 3.565 seguidores e 423 deixaram de seguir (−44%), em 6 dias com dado. A semana anterior teve 22.026 novos, num período de eleição. A API não informa seguidores por Reel, então nenhum post da semana aparece como o que mais trouxe seguidores.",
-      "actions": [
-        "Publique uma imagem de posicionamento por semana, formato que mais trouxe seguidores nos últimos 90 dias.",
-        "Acompanhe se as saídas seguem abaixo das 423 desta semana."
+        "Volte ao ritmo de pelo menos um Reel por dia.",
+        "Compare a semana que vem apenas com semanas de volume parecido de posts."
       ],
       "posts": []
+    },
+    {
+      "title": "Retenção dos Reels",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Os 5 Reels tiveram mediana de 33.677 views e 804 compartilhamentos. Os três de maior alcance tiveram pulo de 35% a 43% e de 25s a 34s assistidos; o pior teve 61% de pulo. \"Teve ou não teve tentativa de golpe na Polônia?\" teve 35% de pulo mas só 33.677 views, então retenção boa não bastou sozinha.",
+      "actions": [
+        "Combine tema de apuração e abertura direta, que juntou retenção e alcance.",
+        "Evite Reels abaixo de 30s sem dado forte, como o de 27,1s da semana."
+      ],
+      "posts": [
+        "DfKiWNYNCMH",
+        "DfHQ85MtRsf"
+      ]
     }
   ]
 }
