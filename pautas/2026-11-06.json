@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-06",
+  "weekday": "Sex",
+  "generated": "2026-11-05T23:55:00-03:00",
+  "summary": "Sexta de resumo da semana: o governo baixou a MP do Imposto Seletivo, com 66,7% para cigarro e 24% para destilados, e Lula reuniu Mantega e economistas no Alvorada sem anunciar nenhuma medida fiscal. À noite, Flávio Bolsonaro diz ao New York Times que saiu do Brasil sem ajuda de governo algum, e Bolsonaro precisa da licença de Moraes até para receber dois senadores.",
+  "agenda": [
+    {
+      "time": "6/11",
+      "text": "Segue a reação dos setores de bebidas e cigarros à MP 1.399/2026, que cria o Imposto Seletivo; as alíquotas valem para 2027 e o governo deve enviar projeto com as definitivas até 31/5/2027.",
+      "source": {
+        "name": "Poder360",
+        "url": "https://www.poder360.com.br/poder-economia/imposto-do-pecado-sera-de-42-sobre-cerveja-e-20-sobre-cachaca/"
+      }
+    },
+    {
+      "time": "Pendente",
+      "text": "Moraes ainda não decidiu o pedido da defesa de Bolsonaro para receber Rogério Marinho e Tereza Cristina, em visitas às terças, quartas ou quintas.",
+      "source": {
+        "name": "Itatiaia",
+        "url": "https://www.itatiaia.com.br/politica/bolsonaro-pede-a-moraes-autorizacao-para-receber-rogerio-marinho-e-tereza-cristina-em-casa/"
+      }
+    },
+    {
+      "time": "Após a COP",
+      "text": "Durigan diz que as medidas fiscais serão discutidas depois da viagem de Lula à COP.",
+      "source": {
+        "name": "InfoMoney",
+        "url": "https://www.infomoney.com.br/politica/lula-se-reune-com-alckmin-haddad-mantega-ministros-e-economistas-no-alvorada/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "12h30",
+      "type": "r",
+      "kind": "Reel de resumo da semana em números",
+      "options": [
+        {
+          "title": "MP do Imposto Seletivo fixa 66,7% para cigarro, 24% para destilados e 4,2% para cerveja",
+          "tone": "contundente",
+          "duration": "25 a 30s",
+          "desdobramento": "o governo baixou a MP 1.399/2026 com as alíquotas do Imposto Seletivo, que na quarta ainda era só preparação",
+          "fact": "A MP 1.399/2026 foi baixada por Lula na quarta, 4/11. As alíquotas: cerveja 4,2%, cachaça 20%, vinho 8%, whisky e outros destilados 24%, refrigerantes (bebidas açucaradas) 2,6% e cigarros 66,7% mais R$ 3,50 por produto. Veículos também entram, com alíquota zero para pessoas com deficiência, autistas, taxistas que cumpram os requisitos e veículos sustentáveis. Picapes não são excluídas. As alíquotas valem para 2027, e o governo precisa enviar ao Congresso até 31/5/2027 um projeto com as definitivas para 2028. O governo diz que o cálculo mantém a carga atual no primeiro ano.",
+          "sources": [
+            {
+              "name": "Poder360",
+              "url": "https://www.poder360.com.br/poder-economia/imposto-do-pecado-sera-de-42-sobre-cerveja-e-20-sobre-cachaca/"
+            },
+            {
+              "name": "DGABC",
+              "url": "https://www.dgabc.com.br/Noticia/4367031/imposto-seletivo-comeca-em-fevereiro-com-aliquotas-para-bebidas-e-cigarros"
+            },
+            {
+              "name": "Mais Goiás",
+              "url": "https://www.maisgoias.com.br/brasil/economia/imposto-do-pecado-cachaca-tera-aliquota-de-20/"
+            }
+          ],
+          "hooks": [
+            "66,7% sobre o cigarro. 24% sobre o uísque. E o governo diz que a carga não sobe.",
+            "Lula baixou um imposto novo e ainda chama de neutro."
+          ],
+          "script": "66,7% sobre o cigarro. 24% sobre o uísque. 20% sobre a cachaça. 4,2% sobre a cerveja. Esses são os números do imposto novo que o governo Lula baixou nesta semana por medida provisória, sem esperar o Congresso. E tem mais: picape não ficou isenta. O governo jura que a carga tributária não aumenta no primeiro ano. Mas o projeto com as alíquotas definitivas só chega em maio. Ou seja, o brasileiro vai pagar para ver. Você acredita que esse imposto não vai pesar no seu bolso? Responde sim ou não.",
+          "screen_text": [
+            "Cigarro: 66,7%",
+            "Destilados: 24%",
+            "Cachaça: 20%",
+            "Cerveja: 4,2%"
+          ],
+          "caption": "Os números do imposto novo de Lula. O governo diz que não aumenta a carga. Você acredita? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Citar que o governo calcula manter a carga no primeiro ano é fato; a dúvida é opinião de quem fala. Não afirme aumento de preço certo. Confirmar as alíquotas no texto da MP antes de gravar.",
+          "timeline": {
+            "rende": true,
+            "angle": "O Imposto Seletivo na prática: quem paga cada alíquota, o que a MP deixa para 2028 e por que o governo decidiu por medida provisória em vez de projeto de lei."
+          }
+        },
+        {
+          "title": "Lula reúne Mantega e economistas no Alvorada e não anuncia nenhuma medida fiscal",
+          "tone": "irônico",
+          "duration": "25 a 30s",
+          "fact": "Na quinta, 5/11, Lula recebeu no Alvorada Alckmin, Haddad, o ministro da Fazenda Dario Durigan, Guido Mantega e economistas para discutir o ajuste fiscal. Durigan disse que não houve discussão nem definição de medidas específicas e que não existe fórmula mágica. As medidas serão apresentadas depois que Lula voltar da COP, na Turquia. O governo mira revisão de benefícios e gastos primários para chegar ao superávit.",
+          "sources": [
+            {
+              "name": "InfoMoney",
+              "url": "https://www.infomoney.com.br/politica/lula-se-reune-com-alckmin-haddad-mantega-ministros-e-economistas-no-alvorada/"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/lula-convoca-reuniao-para-discutir-politica-economica-em-meio-a-pressao-fiscal/"
+            },
+            {
+              "name": "Mix Vale",
+              "url": "https://www.mixvale.com.br/2026/11/05/lula-reune-economistas-no-alvorada-sem-anunciar-medidas-fiscais/"
+            }
+          ],
+          "hooks": [
+            "Reuniu o ministro, os economistas e o Mantega. Medida? Nenhuma.",
+            "O mercado pede ajuste. Lula chamou o Mantega."
+          ],
+          "script": "O mercado pede ajuste fiscal. O que Lula fez? Chamou o Mantega. Isso mesmo, o ex-ministro da Fazenda de Dilma foi ao Alvorada nesta quinta com Haddad, Alckmin, o ministro Durigan e um grupo de economistas. Resultado da reunião: nenhuma medida. O próprio Durigan admitiu que não houve definição e que não existe fórmula mágica. As medidas ficam para depois da viagem de Lula à COP. A dívida não espera avião. Você acha que o governo tem plano para as contas públicas? Responde sim ou não.",
+          "screen_text": [
+            "Alvorada, 5/11",
+            "Medidas anunciadas: 0",
+            "Fórmula mágica: não existe",
+            "Plano fica para depois da COP"
+          ],
+          "caption": "Reunião no Alvorada, Mantega na lista e nenhuma medida. O governo tem plano para as contas? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "A frase sobre Mantega e Dilma é histórico público. Os veículos divergem se Galípolo participou; não cite o presidente do BC. Durigan disse que não houve definição, não que o governo não vai agir: não afirme isso.",
+          "timeline": {
+            "rende": true,
+            "angle": "O ajuste fiscal que o governo adia: quem Lula escolheu ouvir, o que Durigan já sinalizou (revisão de benefícios e gastos) e o que o mercado espera para a semana da COP."
+          }
+        }
+      ]
+    },
+    {
+      "time": "22h",
+      "type": "i",
+      "kind": "Imagem curta com pergunta fechada",
+      "options": [
+        {
+          "title": "Flávio diz ao New York Times que saiu do Brasil sem ajuda de governo algum",
+          "tone": "sóbrio com urgência",
+          "style": "ilustracao",
+          "desdobramento": "entrevista de Flávio ao New York Times em 5/11, com a negativa de ajuda de governos e a frase 'levarei para o túmulo'",
+          "fact": "Em entrevista ao New York Times, publicada em 5/11, Flávio Bolsonaro afirmou que organizou sozinho, com a família, a saída do Brasil e negou ajuda de qualquer governo. Sobre como chegou aos EUA, disse: \"Como cheguei aqui, vou levar para o túmulo\". Ele contou que saía do condomínio onde o pai está em prisão domiciliar quando soube que teria 24 horas para entregar os passaportes. Chegou aos EUA em 28/10.",
+          "sources": [
+            {
+              "name": "Times Brasil",
+              "url": "https://timesbrasil.com.br/brasil/como-cheguei-aqui-vou-levar-para-o-tumulo-diz-flavio-bolsonaro-ao-nyt-sobre-fuga-do-brasil/"
+            },
+            {
+              "name": "URB News",
+              "url": "https://urbnews.com.br/2026/11/05/flavio-diz-ao-nyt-que-levara-para-o-tumulo-segredo-sobre-como-fugiu-do-brasil-e-chegou-aos-eua/"
+            }
+          ],
+          "art_text": [
+            "\"Sem ajuda de governo algum\"",
+            "Flávio ao New York Times: 24 horas para entregar o passaporte",
+            "Justo?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Flávio Bolsonaro, personagem central da entrevista, e a silhueta de Alexandre de Moraes ao fundo, autor da ordem de entregar os passaportes. Ilustração estilo charge, sem foto real. Risco médio: Flávio aparece só de pé, firme, com a mala ao lado, sem sugerir fuga ou ação não noticiada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Flávio Bolsonaro (senador, cabelo curto, terno escuro sem gravata), de pé, de braços cruzados, expressão firme e serena, com uma mala escura ao lado. Ao fundo, em tons de sombra, a fachada estilizada do STF e a silhueta de um ministro de toga sentado atrás de uma mesa, segurando um relógio de bolso. No alto, em branco, letras condensadas e muito pesadas: \"Sem ajuda de governo algum\". Em um quadro amarelo logo abaixo: \"24 horas para entregar o passaporte\". Embaixo, em branco com sublinhado vermelho pincelado: \"Justo?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Flávio disse ao New York Times que saiu do Brasil sem ajuda de governo algum, depois de receber 24 horas para entregar os passaportes. Você acha justa essa ordem? Sim ou não?",
+          "risk": "alto",
+          "risk_note": "Assunto sensível: não afirme crime nem fuga; use só o que ele disse e a ordem noticiada. Não atribua ajuda de nenhum governo (ele nega). A matéria original do NYT não foi aberta; a citação vem dos relatos em português, confira a fala exata antes de publicar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Flávio fala ao NYT: o que ele disse, o que a imprensa americana registrou e o debate sobre a ordem de entrega de passaportes a um parlamentar."
+          }
+        },
+        {
+          "title": "Bolsonaro pede a Moraes autorização para receber Rogério Marinho e Tereza Cristina",
+          "tone": "sóbrio",
+          "style": "cartaz",
+          "fact": "A defesa de Jair Bolsonaro pediu a Alexandre de Moraes, em 5/11, autorização para receber em casa os senadores Rogério Marinho e Tereza Cristina, sugerindo visitas às terças, quartas ou quintas. Ele precisa da aprovação prévia do ministro para receber quem não está na lista autorizada. O PL oficializou na quarta, 4/11, a candidatura de Marinho à presidência do Senado, e o pedido surge na disputa pela eleição de fevereiro de 2027. Moraes ainda não decidiu.",
+          "sources": [
+            {
+              "name": "Itatiaia",
+              "url": "https://www.itatiaia.com.br/politica/bolsonaro-pede-a-moraes-autorizacao-para-receber-rogerio-marinho-e-tereza-cristina-em-casa/"
+            },
+            {
+              "name": "ND Mais",
+              "url": "https://ndmais.com.br/justica/jair-bolsonaro-pede-a-moraes-para-receber-marinho-e-tereza-cristina-senadores-eleicoes-stf-alexandre-de-moraes/"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-que-bolsonaro-quer-autorizacao-de-moraes-para-receber-rogerio-marinho-e-tereza-cristina/"
+            }
+          ],
+          "art_text": [
+            "2 senadores",
+            "1 autorização",
+            "Para conversar, Bolsonaro precisa pedir a Moraes",
+            "Moraes decide?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Sem rostos: cartaz só com texto e números. Risco baixo.",
+          "prompt": "Crie um cartaz vertical 4:5 (1080x1350), fundo escuro com textura de concreto, sem pessoas. No alto, em amarelo, letras condensadas e muito pesadas: \"2 senadores\" e, logo abaixo, \"1 autorização\". No centro, em branco, letras grandes: \"Para conversar, Bolsonaro precisa pedir a Moraes\". Embaixo, em um quadro vermelho: \"Moraes decide?\", com sublinhado pincelado. No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Dois senadores querem visitar o ex-presidente e o pedido depende de Moraes. Você acha normal precisar de autorização para receber senadores? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Fato do pedido, sem afirmar o motivo das visitas (a defesa não informou). Se Moraes decidir antes de publicar, troque pela decisão.",
+          "timeline": {
+            "rende": false,
+            "angle": "Sem fôlego para artigo próprio: é uma notícia de procedimento. Vale como parte de um texto maior sobre a disputa pela presidência do Senado."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
