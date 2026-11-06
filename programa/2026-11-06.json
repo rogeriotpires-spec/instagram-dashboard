@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-06",
+  "generated": "2026-11-06T09:16:01-03:00",
+  "programa": "Conversa Timeline",
+  "titulo": "TSE abre ação contra a chapa Lula-Alckmin, Dino reúne empresários e sindicatos sobre a 6x1 e Lula anuncia ministério da Segurança por MP",
+  "abertura": "O TSE admitiu a ação do Novo contra a chapa Lula-Alckmin por abuso de poder político, e o governo agora tem cinco dias para se defender. Na terça, o ministro Flávio Dino reúne empresários e sindicatos para discutir o prazo do fim da escala 6x1, enquanto Lula promete criar o Ministério da Segurança Pública por medida provisória. No campo político, Lula chamou Flávio Bolsonaro de pé-frio, e o líder do PL acusa Alcolumbre de descumprir o acordo da maioridade penal. No Rio, Eduardo Paes insiste em segundo turno e o STF ainda não decidiu a ação do PSD.",
+  "agenda": [
+    {
+      "time": "Sexta (6)",
+      "text": "Primeira reunião de Lula sobre a criação do Ministério da Segurança Pública",
+      "source": {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-vai-criar-ministerio-da-seguranca-publica-com-medida-provisoria"
+      }
+    },
+    {
+      "time": "Segunda (9)",
+      "text": "Governo deve publicar decreto sobre a escala 6x1, com ao menos oito folgas por mês",
+      "source": {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/dino-marca-audiencia-de-conciliacao-sobre-fim-da-escala-6x1"
+      }
+    },
+    {
+      "time": "Terça (10), 14h",
+      "text": "Audiência de conciliação sobre a transição do fim da escala 6x1, na Primeira Turma do STF",
+      "source": {
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/dino-marca-audiencia-de-conciliacao-sobre-fim-da-escala-6x1"
+      }
+    }
+  ],
+  "itens": [
+    {
+      "id": "tse-novo-chapa-lula-alckmin",
+      "bloco": "STF e instituições",
+      "titulo": "TSE admite ação do Novo contra a chapa Lula-Alckmin por abuso de poder político",
+      "subtitulo": "Lula e Alckmin têm cinco dias para se defender; o Novo cita 35 atos do governo antes do 1º turno",
+      "resumo": "O corregedor-geral do TSE, Ricardo Villas Bôas Cueva, admitiu em 5 de novembro a ação do Novo que pede a cassação da chapa Lula-Alckmin. O partido aponta 35 atos normativos editados entre 1º de janeiro e 16 de outubro, entre medidas provisórias e decretos que criaram ou ampliaram benefícios. Um dos exemplos é o reajuste de 15,04% do Bolsa Família, feito 17 dias antes do primeiro turno. Para o eleitor que paga a conta, a pergunta é simples: o que se gastou com o dinheiro público em ano de eleição. A admissão não é julgamento, mas abre a investigação sobre quem assinou e anunciou cada medida.",
+      "contexto": [
+        "Decisão do corregedor-geral do TSE, Ricardo Villas Bôas Cueva, em 5 de novembro.",
+        "O Novo cita 35 atos normativos entre 1º/1 e 16/10/2026, incluindo MPs e decretos.",
+        "Exemplo da ação: reajuste de 15,04% no Bolsa Família a 17 dias do 1º turno.",
+        "A ação atribui a Lula responsabilidade direta por assinar os atos e anunciar os principais.",
+        "Lula e Alckmin serão notificados e têm 5 dias para apresentar defesa."
+      ],
+      "angulo": [
+        "Uso da máquina pública em ano eleitoral é tema de Justiça Eleitoral, e o TSE fez o que deve ao dar andamento à ação.",
+        "O cidadão tem direito de saber quanto custaram esses 35 atos e quem foi beneficiado por eles.",
+        "A regra vale para todos: se o abuso de poder é grave quando atinge a oposição, tem de ser apurado quando vem do governo."
+      ],
+      "perguntas": [
+        "Qual é o limite entre política pública e uso da máquina para ganhar eleição?",
+        "O que o TSE precisa examinar nos 35 atos para decidir se houve abuso?",
+        "O que o eleitor deve cobrar da Justiça Eleitoral quando o investigado é o presidente?"
+      ],
+      "atencao": "Admissão da ação não é condenação: ninguém foi julgado, e a defesa de Lula e Alckmin ainda não se manifestou.",
+      "fontes": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/tse-admite-acao-do-novo-contra-chapa-de-lula-e-alckmin/"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://pleno.news/brasil/eleicoes-2026/marcel-van-hattem-comemora-acao-contra-chapa-lula-alckmin.html"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/tse-admite-acao-que-pede-inelegibilidade-de-lula-e-alckmin-por-desfile-de-carnaval/"
+        }
+      ]
+    },
+    {
+      "id": "fim-6x1-conciliacao-dino",
+      "bloco": "Economia",
+      "titulo": "Dino marca para terça (10) audiência de conciliação sobre a transição do fim da escala 6x1",
+      "subtitulo": "CNC e CNI pedem mais prazo; nova jornada de 5x2 começa em 15 de dezembro",
+      "resumo": "O ministro Flávio Dino, do STF, convocou para terça-feira, 10, às 14h, uma audiência de conciliação com representantes de empresários e de trabalhadores. Ele é relator das ações da CNC e da CNI contra o prazo de transição do fim da escala 6x1. A CNC pede que o início da redução da jornada vá para outubro de 2027, e a CNI quer mais um ano. A nova jornada, de cinco dias de trabalho e dois de descanso, entra em vigor em 15 de dezembro, com redução de 44 para 40 horas semanais ao longo de 14 meses. O governo deve publicar na segunda-feira (9) um decreto que garante pelo menos oito folgas por mês.",
+      "metafora": "A transição é como trocar o motor com o carro andando: ninguém discute se o motor novo é melhor, a briga é sobre quanto tempo a oficina precisa para não parar a linha de produção.",
+      "contexto": [
+        "Audiência na terça, 10 de novembro, às 14h, na Primeira Turma do STF.",
+        "Dino não concedeu liminar e disse que o prazo de dois meses não é, a princípio, inviável.",
+        "A CNC não contesta o fim da 6x1; quer a 1ª etapa em outubro de 2027.",
+        "A redução de 44 para 40 horas semanais tem regra de transição de 14 meses.",
+        "Decreto do governo previsto para segunda (9) fixa ao menos oito folgas por mês."
+      ],
+      "angulo": [
+        "O trabalhador merece descanso, mas o prazo tem de caber na realidade de quem emprega: pequeno comércio e indústria não têm folga de caixa.",
+        "Prazo apertado imposto por decreto e por decisão judicial, sem diálogo com quem gera o emprego, é risco para vaga formal.",
+        "O programa defende que a transição seja negociada com quem paga a folha, e não decidida só em gabinete."
+      ],
+      "perguntas": [
+        "Dois meses de prazo são realistas para o pequeno comércio?",
+        "O decreto do governo invade o que deveria ser negociado na conciliação?",
+        "Quem arca com o custo se a escala mudar e a conta não fechar para a empresa?"
+      ],
+      "fontes": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/dino-marca-audiencia-de-conciliacao-sobre-fim-da-escala-6x1"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/manoela-alcantara/escala-6x1-dino-convoca-conciliacao-antes-de-decidir-em-pedido-da-cnc"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/colunistas/bruno-pinheiro/dino-chama-empresarios-e-sindicatos-ao-stf-para-negociar-prazo-do-fim-da-escala-6x1/"
+        }
+      ]
+    },
+    {
+      "id": "flavio-pe-frio-lula-live",
+      "bloco": "Política nacional",
+      "titulo": "Lula chama Flávio de \"pé-frio\" em live com Janones, e Flávio diz ao NYT que saiu do país sozinho",
+      "subtitulo": "Presidente diz que o senador terá de voltar ao Brasil; Flávio nega ajuda de governos estrangeiros",
+      "resumo": "Em live com o deputado André Janones na quinta (5), Lula disse que Flávio Bolsonaro chegou aos Estados Unidos e Trump perdeu a eleição no Congresso, e o chamou de pé-frio. O presidente também afirmou que o senador terá de voltar ao Brasil para responder aos processos. No mesmo dia, Flávio deu entrevista ao New York Times e disse que decidiu sair do país com a mulher, sem avisar aliados, e que levará para o túmulo como chegou lá. Ele nega ter recebido ajuda de governos estrangeiros e afirma que sabia que seria preso se ficasse. O episódio mostra um presidente que, depois de vencer, segue gastando a live com o adversário em vez de falar de inflação, juros e segurança.",
+      "contexto": [
+        "Flávio perdeu a eleição de 25 de outubro; Lula teve 51,79% e ele 48,21%, segundo dados do TSE.",
+        "Flávio chegou a Miami em 28 de outubro, depois de passar pela Argentina.",
+        "Lula fez a live com Janones na quinta (5), que teve 1,5 milhão de visualizações simultâneas.",
+        "Ao NYT, Flávio disse que a saída foi \"obra minha\" e que não teve ajuda de governos.",
+        "Flávio afirma que o desfecho de ficar no Brasil seria a prisão."
+      ],
+      "angulo": [
+        "A resposta de Flávio é a de um perseguido político: ele diz que perdeu para o sistema e que a prisão seria o desfecho se ficasse.",
+        "Chamar de pé-frio o líder da oposição, com milhões de votos, mostra um governo mais ocupado com o adversário do que com o país.",
+        "O Senado segue sendo o espaço da oposição, e a direita precisa defender o mandato de quem foi eleito."
+      ],
+      "perguntas": [
+        "O que a live de Lula revela sobre as prioridades do governo depois da eleição?",
+        "Como a direita deve tratar o mandato de Flávio no Senado enquanto ele está nos EUA?",
+        "O que significa, para a oposição, o recado de que ele vai voltar para responder aos processos?"
+      ],
+      "atencao": "Flávio é investigado em inquéritos no STF e não foi condenado; a versão sobre a saída do país é dele, e reportagens citam apoio de aliados de Trump.",
+      "desdobramento": "Lula chamou Flávio de pé-frio em live nesta quinta (5), e Flávio deu a versão dele ao NYT sobre a saída do Brasil",
+      "fontes": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/em-live-lula-chama-flavio-de-pe-frio-chegou-nos-eua-o-trump-perdeu"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/lula-chama-flavio-de-pe-frio-ao-comentar-fuga-para-os-eua-chegou-e-o-trump-perdeu/"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-levara-para-o-tumulo-segredo-sobre-fuga-do-brasil/"
+        }
+      ]
+    },
+    {
+      "id": "ministerio-seguranca-mp",
+      "bloco": "Segurança pública",
+      "titulo": "Lula diz que criará o Ministério da Segurança Pública por MP e discute a pasta nesta sexta",
+      "subtitulo": "Anúncio vem após o Senado aprovar a PEC da Segurança; a MP vale 60 dias e depende do Congresso",
+      "resumo": "Em live na quinta (5), Lula afirmou que criará o Ministério da Segurança Pública por medida provisória, e a primeira reunião sobre a pasta é nesta sexta (6). A decisão vem depois da aprovação da PEC da Segurança pelo Senado, na terça (3). A MP tem efeito imediato, mas precisa ser aprovada por Câmara e Senado em 60 dias, prorrogáveis por igual período. O próprio Lula disse que a conversa de sexta é sobre dinheiro para investir, e o texto não informa valor nem origem dos recursos. Para quem vive com medo nas ruas, o que importa é se a nova pasta vai pôr mais polícia, inteligência e presídios em operação ou só mais um gabinete em Brasília.",
+      "contexto": [
+        "Lula anunciou a MP em live com Janones na quinta (5).",
+        "Primeira discussão sobre a pasta nesta sexta, 6 de novembro.",
+        "PEC da Segurança aprovada pelo Senado na terça (3), com 73 votos na votação citada.",
+        "A MP vale 60 dias, prorrogáveis por igual período, e precisa passar pela Câmara e pelo Senado.",
+        "Lula disse que a discussão é sobre \"dinheiro para a gente investir\"; não há valores divulgados."
+      ],
+      "angulo": [
+        "Segurança se mede em resultado na rua: o ministério só se justifica se vier com meta, orçamento e comando claros.",
+        "A direita defendeu a pauta da segurança, e a aprovação da PEC por 75 a 0 mostra que o tema é de consenso.",
+        "O Congresso tem de cobrar de onde sai o dinheiro e exigir que a nova pasta não esvazie as polícias estaduais."
+      ],
+      "perguntas": [
+        "O que um ministério novo muda no dia a dia de quem mora em área dominada pelo crime?",
+        "De onde deve sair o dinheiro da nova pasta sem aumentar imposto?",
+        "Qual deve ser o papel dos estados, que comandam as polícias, no novo ministério?"
+      ],
+      "desdobramento": "Lula anunciou que criará o ministério por medida provisória, com primeira discussão nesta sexta (6)",
+      "fontes": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-vai-criar-ministerio-da-seguranca-publica-com-medida-provisoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/lula-anuncia-criacao-do-ministerio-da-seguranca-publica-por-medida-provisoria/"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/lula-diz-que-discutira-criacao-do-ministerio-da-seguranca-nesta-sexta/"
+        }
+      ]
+    },
+    {
+      "id": "paes-segundo-turno-rio-stf",
+      "bloco": "Rio de Janeiro",
+      "titulo": "Paes volta a cobrar segundo turno no Rio, e o PSD leva ao STF os votos anulados de Garotinho",
+      "subtitulo": "Com a anulação, Ruas tem 50,88% dos válidos e foi declarado eleito no 1º turno",
+      "resumo": "Em vídeo de 3 de novembro, Eduardo Paes voltou a defender segundo turno na disputa pelo governo do Rio, sob o argumento de que sem maioria absoluta tem segundo turno. O TSE manteve em 8 de outubro o indeferimento do registro de Anthony Garotinho e considerou os 274.411 votos dele nulos, e com isso Douglas Ruas (PL) chegou a 50,88% dos votos válidos. Com os votos de Garotinho contados, Ruas teria 49,27%, abaixo da maioria absoluta. O PSD questiona a decisão no STF, em ação relatada pelo ministro Cristiano Zanin, que ainda não foi decidida segundo as matérias abertas. Para o fluminense, a questão prática é saber se o resultado das urnas vale ou se a eleição vai continuar sendo decidida em tribunal.",
+      "contexto": [
+        "Ruas teve 4.271.199 votos e Paes 3.706.984 na contagem original.",
+        "Garotinho teve 274.411 votos (3,17%), anulados pelo TSE em 8 de outubro.",
+        "Na retotalização, Ruas chegou a 50,88% e Paes a 44,16% dos válidos.",
+        "Placar no TSE: cinco ministros pela anulação; Cueva e Sebastião Reis ficaram vencidos.",
+        "O PSD recorreu ao STF com a ADPF 1362, relatada por Zanin."
+      ],
+      "angulo": [
+        "Voto nulo não conta como válido: a regra que vale é a da Justiça Eleitoral, aplicada a todos os candidatos.",
+        "Ruas foi declarado eleito dentro da lei e tem o direito de montar o governo sem a eleição virar processo sem fim.",
+        "Insistir em segundo turno depois de decisão do TSE é prolongar a insegurança sobre o governo do estado."
+      ],
+      "perguntas": [
+        "Qual é o prejuízo para o Rio se a eleição continuar em disputa judicial?",
+        "Voto dado a candidato com registro negado deve contar ou não para a maioria absoluta?",
+        "O que o novo governo precisa fazer nos primeiros dias para mostrar resultado?"
+      ],
+      "atencao": "A ação do PSD no STF ainda não tem decisão nas matérias abertas; há divergência de datas entre reportagens sobre a posição de Paes.",
+      "desdobramento": "Paes retomou a campanha por segundo turno em vídeo de 3 de novembro e o PSD aguarda decisão do STF",
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/brasil/paes-volta-a-cobrar-segundo-turno-no-rj-e-aposta-em-decisao-do-stf/"
+        },
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/brasil/paes-reinicia-campanha-pelo-2o-turno-no-rio/"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/eduardo-paes-retoma-campanha-por-2o-turno-no-rio-de-janeiro/"
+        }
+      ]
+    },
+    {
+      "id": "portinho-alcolumbre-acordo-maioridade",
+      "bloco": "Política nacional",
+      "titulo": "Líder do PL diz que Alcolumbre descumpriu acordo sobre a maioridade penal, e Tereza mantém candidatura",
+      "subtitulo": "Portinho fala em crise de confiança no Senado; eleição da presidência é em 1º de fevereiro",
+      "resumo": "O líder do PL no Senado, Carlos Portinho, disse à Veja que Davi Alcolumbre descumpriu um acordo para votar as emendas da maioridade penal na PEC da Segurança. Segundo ele, mais de 54 senadores concordavam com a votação, e o adiamento anunciado na quarta (4) criou uma crise de confiança. Alcolumbre falou em calendário de discussão até 1º de dezembro, e Portinho duvida que o tema chegue ao plenário. O PL propôs 16 anos como regra e 14 anos em crimes hediondos contra a vida. No fundo, o que está em jogo é se o Senado vota o que a maioria quer ou se a pauta fica na mão de quem controla a mesa.",
+      "contexto": [
+        "Portinho (PL-RJ) deu a declaração em entrevista à Veja.",
+        "O adiamento foi anunciado na quarta, 4 de novembro.",
+        "Mais de 54 senadores teriam concordado em votar as emendas, segundo Portinho.",
+        "Proposta do PL: 16 anos em geral e 14 anos em crimes hediondos contra a vida.",
+        "Alcolumbre citou calendário de discussão até 1º de dezembro; a eleição da mesa é em 1º de fevereiro."
+      ],
+      "angulo": [
+        "Segurança é a maior cobrança do eleitor, e travar a maioridade penal é ignorar o recado das urnas.",
+        "Se há mais de 54 senadores a favor, o plenário deve votar, e a pauta não pode depender da vontade de um só.",
+        "A candidatura de Marinho, oficializada pelo PL, é a resposta da oposição a quem controla a pauta."
+      ],
+      "perguntas": [
+        "Por que a votação da maioridade penal foi adiada se havia maioria declarada?",
+        "Qual é o efeito do adiamento sobre a eleição da presidência do Senado?",
+        "O que o eleitor de direita deve cobrar dos senadores até 1º de fevereiro?"
+      ],
+      "desdobramento": "O líder do PL acusou Alcolumbre de descumprir o acordo da maioridade penal, depois do adiamento anunciado na quarta (4)",
+      "fontes": [
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/lider-do-pl-fala-que-alcolumbre-descumpriu-acordo/"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/tereza-cristina-mantem-candidatura-ao-senado-e-busca-dissidentes/"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/tereza-cristina-mantem-candidatura-a-presidencia-do-senado/"
+        }
+      ]
+    }
+  ]
+}
