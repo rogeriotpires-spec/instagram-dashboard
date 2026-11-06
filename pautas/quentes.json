@@ -1,6 +1,29 @@
 {
   "alerts": [
     {
+      "time": "2026-11-05T22:10:38-03:00",
+      "published": "2026-11-05T20:53:00-03:00",
+      "title": "Lula chama Flávio Bolsonaro de \"pé-frio\" em live com Janones e diz que ele terá de voltar ao Brasil",
+      "fact": "Em live no YouTube com o deputado André Janones, nesta quinta-feira (5), Lula ironizou a ida de Flávio Bolsonaro aos Estados Unidos e a ligou à derrota republicana nas eleições legislativas americanas: \"Chegou nos EUA, o Trump perdeu\". O presidente também disse que Flávio \"vai ter que voltar pro Brasil pra responder os processos que tem\" e prometeu expor ações do senador e de um advogado. Flávio não havia respondido até a publicação das matérias.",
+      "sources": [
+        {
+          "name": "Metrópoles",
+          "url": "https://metropoles.com/brasil/em-live-lula-chama-flavio-de-pe-frio-chegou-nos-eua-o-trump-perdeu"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://www.otempo.com.br/politica/governo/2026/11/5/lula-sobre-flavio-bolsonaro-vai-ter-que-voltar-pro-brasil-pra-responder-os-processos-que-tem"
+        }
+      ],
+      "suggestion": "Story com enquete hoje à noite e reel curto amanhã às 8h, com a reação ao tom de deboche do presidente.",
+      "hook": "O presidente passou a live inteira zombando de Flávio. Era esse o assunto do país?",
+      "script": "Lula abriu uma live com o Janones para zombar de Flávio Bolsonaro. Chamou o senador de pé-frio e disse que, quando ele chegou aos Estados Unidos, o Trump perdeu. Um presidente da República, em vez de falar de preço, de segurança e de emprego, gasta a noite fazendo piada com o principal adversário. E ainda promete expor ações do senador. Você acha que isso é postura de presidente? Responde aqui nos comentários.",
+      "timeline": {
+        "rende": "medio",
+        "angle": "Lula usa live com Janones para ironizar Flávio Bolsonaro, chamado de pé-frio, e diz que ele terá de voltar ao Brasil."
+      }
+    },
+    {
       "time": "2026-11-03T15:41:52-03:00",
       "title": "Defesa de Flávio pede ao STF a devolução dos passaportes e o afastamento de Moraes do inquérito",
       "fact": "A defesa de Flávio Bolsonaro recorreu ao STF para derrubar as medidas cautelares de Alexandre de Moraes e enviou ao presidente da corte, Edson Fachin, pedido de impedimento ou suspeição do ministro, com transferência do caso para André Mendonça. Os advogados afirmam que o Santander informou que Flávio não era titular nem usuário de contas das empresas do grupo Alcazar e que a informação foi juntada ao processo mais de dez horas antes do pedido da PF. Os recursos tramitam sob sigilo e não há decisão.",
