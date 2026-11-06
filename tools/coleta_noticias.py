@@ -1,9 +1,13 @@
-"""Coleta as manchetes recentes dos portais de noticias/config.json pelo feed do Google Notícias (uma busca por site).
+"""Coleta as manchetes recentes dos portais de noticias/config.json.
+Portais com "feed" no config são lidos direto do feed RSS deles (Scrapling, tools/feeds_diretos.py);
+se o feed falhar, ou o portal não tiver "feed", a coleta usa o Google Notícias (uma busca por site).
 Portais marcados com "fetch": false (G1) ficam de fora, como sempre. Roda no GitHub antes da edição.
 Uso: python3 tools/coleta_noticias.py [horas] > coleta-noticias.json"""
 import json, os, sys, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from datetime import datetime, timezone, timedelta
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import feeds_diretos
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 horas = int(sys.argv[1]) if len(sys.argv) > 1 else 12
 cfg = json.load(open("noticias/config.json", encoding="utf-8"))
@@ -16,7 +20,12 @@ for o in cfg["outlets"]:
     if o.get("fetch") is False: continue
     d = dominio(o["url"]); q = f"site:{d} when:{max(1, round(horas/24)) if horas >= 24 else str(horas) + 'h'}"
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": q, "hl": "pt-BR", "gl": "BR", "ceid": "BR:pt-419"})
-    itens, erro = [], None
+    itens, erro, via = [], None, "google"
+    if o.get("feed"):
+        diretos = feeds_diretos.ler(o["feed"], corte, BRT, agora)
+        if diretos:
+            saida["portais"].append({"nome": o["name"], "camp": o.get("camp"), "tier": o.get("tier"), "dominio": d, "via": "feed", "manchetes": diretos})
+            continue
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (painel-rogerrio)"})
         root = ET.fromstring(urllib.request.urlopen(req, timeout=20).read())
@@ -30,7 +39,7 @@ for o in cfg["outlets"]:
             if len(itens) >= 25: break
     except Exception as e:
         erro = str(e)[:120]
-    saida["portais"].append({"nome": o["name"], "camp": o.get("camp"), "tier": o.get("tier"), "dominio": d, "manchetes": itens, **({"erro": erro} if erro else {})})
+    saida["portais"].append({"nome": o["name"], "camp": o.get("camp"), "tier": o.get("tier"), "dominio": d, "via": via, "manchetes": itens, **({"erro": erro} if erro else {})})
     time.sleep(0.6)
 # buscas por tema (todos os veículos brasileiros), para os blocos que costumam ficar vazios
 TEMAS = {
