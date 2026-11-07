@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-06T13:12:54-03:00",
+  "generated": "2026-11-07T12:04:15-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-11-05",
-    "end": "2026-11-05"
+    "start": "2026-11-06",
+    "end": "2026-11-06"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Em 05/11 a conta recebeu 80.857 views, 80% menos que a média diária de 166.652 dos 7 dias anteriores, e nenhum post foi publicado no dia.",
+  "headline": "Em 6/11 a conta recebeu 262.042 views, 31.082 compartilhamentos e 569 comentários, com um único Reel publicado: \"Lula não ganhou a eleição.\", com 237.350 views.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "80.857",
-      "delta": "−80%",
+      "value": "262 mil",
+      "delta": "−23%",
       "dir": "down"
     },
     {
@@ -28,67 +28,79 @@
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "645",
-      "delta": "−94%",
-      "dir": "down"
+      "value": "31.082",
+      "delta": "+227%",
+      "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "101",
-      "delta": "−86%",
+      "value": "569",
+      "delta": "−1%",
       "dir": "down"
     },
     {
       "label": "Salvamentos recebidos",
-      "value": "133",
-      "delta": "−91%",
-      "dir": "down"
+      "value": "2.823",
+      "delta": "+165%",
+      "dir": "up"
     }
   ],
   "cards": [
     {
       "title": "O que funcionou",
       "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "Mesmo sem publicar, a conta teve 80.857 views, 645 compartilhamentos, 101 comentários e 133 salvamentos em 05/11. Isso mostra que posts anteriores seguiram circulando. Foram 3.996 contas com interação no dia.",
+      "status_label": "Repetir",
+      "diagnosis": "O Reel \"Lula não ganhou a eleição.\" (7h14) teve 237.350 views, 31.869 compartilhamentos, 2.832 salvamentos e 537 comentários. Foi assistido em média por 59s, com 38% de pulo, num vídeo de 245,1s. Ele alcançou 163.761 contas.",
       "actions": [
-        "Aproveite o conteúdo que ainda circula: responda os comentários dos posts recentes.",
-        "Fixe ou reposte nos Stories o post mais forte da semana para manter o alcance."
+        "Repita Reels de manhã cedo com uma afirmação direta no título, como nesse post.",
+        "Mantenha o formato mais longo quando o assunto sustenta, já que a retenção ficou em 59s.",
+        "Responda os comentários do Reel nas primeiras horas."
       ],
-      "posts": []
+      "posts": [
+        "DfZXNLStwXv"
+      ]
     },
     {
       "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Não houve publicação em 05/11 e o dia ficou bem abaixo da média da semana anterior: 80.857 views contra 166.652, 645 compartilhamentos contra 1.337 e 4.224 curtidas contra 7.804. Os 5 posts dos últimos 7 dias foram publicados até 01/11.",
-      "actions": [
-        "Publique pelo menos um Reel por dia.",
-        "Reserve um horário fixo de manhã, como 8h30, que já rendeu bons Reels na semana."
-      ],
-      "posts": []
-    },
-    {
-      "title": "Interação do dia",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "As contas com interação por dia somaram 3.996, contra 7.347 na média dos 7 dias anteriores. Os comentários caíram de 198 para 101 e os salvamentos de 358 para 133. Sem post novo, há menos motivo para o público voltar ao perfil.",
+      "diagnosis": "Houve só 1 publicação no dia, então não existe um post fraco para comparar. A conta teve 569 comentários, variação de −1% contra a média dos 7 dias anteriores, e o Reel responde por 537 deles. Os dados de novos seguidores e de quem deixou de seguir de 6/11 ainda não chegaram.",
       "actions": [
-        "Faça uma pergunta direta nos Stories para puxar respostas.",
-        "Publique um post com chamada para comentar, como as perguntas que já geraram muitos comentários."
+        "Publique um segundo conteúdo no dia para não depender de um único post.",
+        "Quando os dados de seguidores chegarem, confira o saldo do dia.",
+        "Use o primeiro comentário fixado para puxar a conversa em posts sem tanto debate."
       ],
-      "posts": []
+      "posts": [
+        "DfZXNLStwXv"
+      ]
     },
     {
-      "title": "Seguidores sem dado",
-      "status": "warn",
-      "status_label": "Sem dado",
-      "diagnosis": "Os números de novos seguidores e de quem deixou de seguir não chegaram para 05/11, então não há como comparar. Nos 7 dias até 05/11 foram 2.181 novos seguidores e 381 saídas, nos dias com dado.",
+      "title": "Compartilhamentos e salvamentos",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "A conta recebeu 31.082 compartilhamentos (+227%) e 2.823 salvamentos (+165%) contra a média dos 7 dias anteriores. O Reel teve 31.869 compartilhamentos e 2.832 salvamentos. O post tinha 27,9 horas no ar na coleta e ainda pode acumular números.",
       "actions": [
-        "Confira se a coleta de seguidores do dia foi concluída.",
-        "Volte a olhar o dia seguinte para saber se a queda de views também apareceu nos seguidores."
+        "Feche o Reel com um convite claro para enviar a quem ainda acha o contrário.",
+        "Guarde o tema para uma imagem de resumo, que costuma render salvamentos.",
+        "Compare de novo em 7 dias, quando o post estiver mais maduro."
       ],
-      "posts": []
+      "posts": [
+        "DfZXNLStwXv"
+      ]
+    },
+    {
+      "title": "Retenção do Reel",
+      "status": "good",
+      "status_label": "Manter",
+      "diagnosis": "O Reel durou 245,1s e foi assistido em média por 59s, com 38% de pulo. É uma retenção boa para um vídeo longo. A conta teve alcance médio de 156.092 por dia e 32.359 contas com interação por dia.",
+      "actions": [
+        "Abra com a frase mais forte, sem introdução.",
+        "Teste um corte de 60s do mesmo tema para comparar a retenção.",
+        "Mantenha o ritmo de cortes nos primeiros segundos."
+      ],
+      "posts": [
+        "DfZXNLStwXv"
+      ]
     }
   ]
 }

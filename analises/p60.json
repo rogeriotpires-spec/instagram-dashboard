@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-06T13:12:54-03:00",
+  "generated": "2026-11-07T12:04:15-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-09-07",
-    "end": "2026-11-05"
+    "start": "2026-09-08",
+    "end": "2026-11-06"
   },
-  "compare": "2026-07-09 a 2026-09-06",
-  "headline": "Em 60 dias a conta recebeu 37,0 mi de views (+145%) e 43.835 novos seguidores, com 127 publicações contra 91 no período anterior.",
+  "compare": "2026-07-10 a 2026-09-07",
+  "headline": "Em 60 dias a conta recebeu 36,7 mi de views (+134%) e 43.720 novos seguidores, com 126 publicações contra 91 no período anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "37,0 mi",
-      "delta": "+145%",
+      "value": "36,7 mi",
+      "delta": "+134%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "43.835",
+      "value": "43.720",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "1.977",
+      "value": "2.012",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "694.878",
+      "value": "721.190",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "52.426",
+      "value": "52.453",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
       "value": "204 mil",
-      "delta": "+182%",
+      "delta": "+172%",
       "dir": "up"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião com frase forte lideraram: \"Fica a reflexão.\" (1.237.848 views, 39.599 compartilhamentos, 1.188 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (983.073 views, 1.134 seguidores). O Reel \"Fiz a conta do primeiro para o segundo turno…\" também passou de 980 mil views. As 44 imagens somaram 6.054 seguidores atribuídos a posts.",
+      "diagnosis": "Imagens de opinião lideraram as views: \"Fica a reflexão.\" teve 1.237.856 views e 1.188 seguidores, e \"Ninguém aguenta mais o Lula e o PT!\" teve 983.077 views e 1.134 seguidores. As 44 imagens tiveram mediana de 24.105,5 views e somaram 6.084 seguidores. Os 80 Reels tiveram mediana de 28.224,5.",
       "actions": [
-        "Mantenha ao menos uma imagem de opinião curta por semana.",
-        "Mantenha Reels de análise de números em momentos de alta atenção.",
-        "Poste imagens de manhã, perto das 7h, como as duas melhores."
+        "Mantenha imagens de opinião com frase curta e forte.",
+        "Use os Reels para análises de números, como \"Fiz a conta\" (982.311 views).",
+        "Publique imagens nos dias de pico para ganhar seguidores."
       ],
       "posts": [
         "Dd8pQedtGZL",
@@ -66,11 +66,11 @@
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Os piores posts são Reels de Política com menos de 1.200 views: \"Se liga!!!\" (842), \"Banda podre esperneia!\" (1.066) e \"Quem produziu o relatório?\" (1.145). Dois tiveram 51% ou mais de pulo. Mesmo com 81 Reels contra 44 imagens, a mediana de views dos Reels (26.970) ficou perto da das imagens (24.104).",
+      "diagnosis": "Reels de política com pouco alcance se repetiram: \"Se liga!!!\" (848 views), \"Banda podre esperneia!\" (1.066) e \"Quem produziu o relatório?\" (1.145). Dois deles tiveram pulo de 51% e 64%. Entre os temas, Política teve 76 posts e mediana de 28.224,5, e Opinião teve 46 posts e mediana de 16.776.",
       "actions": [
-        "Publique menos Reels e escolha só os que têm dado forte.",
-        "Abra com o fato, sem introdução.",
-        "Revise títulos genéricos."
+        "Corte Reels sem dado concreto no título.",
+        "Reduza a frequência de Reels genéricos e invista nos que têm número.",
+        "Revise os temas dos posts abaixo de 2.000 views antes de repetir."
       ],
       "posts": [
         "De6lr9Ft3I5",
@@ -79,31 +79,33 @@
       ]
     },
     {
-      "title": "Temas e horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Política teve 76 posts e mediana de 26.645,5 views; Opinião, 46 posts e 16.774,5, embora tenha os maiores campeões de seguidores. Por horário, 21h (96.811,5) e 18h (81.489,5) tiveram as maiores medianas com volume razoável. O carrossel teve 2 posts e 3.689,5 de mediana. Cuidado: vários horários têm só um ou dois posts.",
-      "actions": [
-        "Concentre testes de horário em 18h e 21h.",
-        "Use Opinião para ganhar seguidores e Política para views.",
-        "Deixe o carrossel de lado por ora."
-      ],
-      "posts": []
-    },
-    {
-      "title": "Conversa com o público",
+      "title": "Comentários e seguidores",
       "status": "good",
       "status_label": "Manter",
-      "diagnosis": "A conta recebeu 52.426 comentários. A imagem \"Qual número você escolheria?\" teve 487 comentários com só 13.748 views, e \"Meio milhão de seções.\" teve 382 comentários e 727.496 views. Perguntas fechadas geram resposta, mas só os temas de apuração juntaram comentário e alcance.",
+      "diagnosis": "A pergunta \"Qual número você escolheria?\" teve 487 comentários com apenas 13.748 views. O Reel \"Lula não ganhou a eleição.\" teve 537 comentários e \"Meio milhão de seções.\" teve 384. Os novos seguidores somaram 43.720 no período.",
       "actions": [
-        "Faça uma pergunta fechada por semana.",
-        "Responda os comentários dos posts de maior alcance.",
-        "Combine pergunta e tema quente."
+        "Use perguntas fechadas em imagens para puxar comentários.",
+        "Repita enquetes com número ou escolha simples.",
+        "Responda os comentários nas primeiras horas."
       ],
       "posts": [
         "DdumKq_tAX_",
-        "De8104Zt6iS",
-        "DeaQZPRNABT"
+        "DfZXNLStwXv",
+        "De8104Zt6iS"
+      ]
+    },
+    {
+      "title": "Horários",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Pelas medianas, 22h teve 158.965,5 views, 21h teve 96.814 e 18h teve 81.495. Os horários da manhã e do começo da tarde ficaram mais baixos: 06h com 11.629, 15h com 11.617 e 16h com 11.365. Alguns horários têm poucos posts, como 00h e 05h, então a leitura é um indício.",
+      "actions": [
+        "Teste mais posts entre 18h e 22h.",
+        "Reduza posts às 15h e 16h.",
+        "Compare de novo quando houver mais posts por horário."
+      ],
+      "posts": [
+        "De8Q_S9MAJt"
       ]
     }
   ]
