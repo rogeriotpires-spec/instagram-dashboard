@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-07",
+  "weekday": "Sáb",
+  "generated": "2026-11-06T23:25:00-03:00",
+  "summary": "Sábado de bastidor e posicionamento. A Justiça Federal rejeitou a ação de improbidade contra Bolsonaro e Wal do Açaí, o TRF-3 mandou três bets voltarem a funcionar chamando a proibição de confisco, Flávio discursou na CPAC dizendo que ainda não foi o fim e uma reportagem do UOL contou 316 interações atribuídas a Moraes no celular de Vorcaro.",
+  "agenda": [
+    {
+      "time": "10h30",
+      "text": "Imagem pessoal para fixar no perfil, com a decisão sobre o caso Wal do Açaí como gancho.",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/justica-federal-barra-acusacao-de-improbidade-contra-jair-bolsonaro-e-wal-do-acai/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "10h30",
+      "type": "i",
+      "kind": "Imagem pessoal: quem sou e o que defendo",
+      "options": [
+        {
+          "title": "Justiça Federal rejeita ação de improbidade contra Bolsonaro e Wal do Açaí por falta de provas",
+          "tone": "sóbrio, firme",
+          "style": "ilustracao",
+          "fact": "O juiz Rodrigo de Godoy Mendes, da 6ª Vara Federal Cível do DF, rejeitou na quinta (5/11) a ação de improbidade do MPF contra Jair Bolsonaro e Walderice Santos da Conceição, a Wal do Açaí. O MPF pedia a devolução de mais de R$ 280 mil e dizia que o cargo no gabinete era fictício. O juiz entendeu que não houve prova suficiente de enriquecimento ilícito, que o cargo era fictício, nem de repasses ao ex-presidente. Os saques em espécie foram considerados justificados pela falta de agências na região, e a decisão aplicou a Lei de Improbidade de 2021, que exige prova de dolo. A matéria não informa se o MPF vai recorrer.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/justica-federal-barra-acusacao-de-improbidade-contra-jair-bolsonaro-e-wal-do-acai/"
+            }
+          ],
+          "art_text": [
+            "Caso Wal do Açaí: ação rejeitada",
+            "Sem prova de cargo fictício e sem prova de repasse",
+            "E o desgaste de mais de quatro anos, quem devolve?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Jair Bolsonaro, em ilustração estilo charge, sem foto real, diante de uma balança da Justiça. Relação direta: é réu da ação rejeitada. Postura serena, sem ação inventada. Risco baixo.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No alto, em letras condensadas, brancas e pesadas: \"Caso Wal do Açaí: ação rejeitada\". No centro, Jair Bolsonaro, de terno escuro, em pé, expressão serena e queixo erguido, ao lado de uma grande balança da Justiça estilizada, com um prato carregado de pastas de processo e o outro descendo, vazio de provas. Ao fundo, a fachada estilizada de um fórum federal. Em um quadro de destaque amarelo: \"Sem prova de cargo fictício e sem prova de repasse\". Embaixo, em branco, letras grandes e pesadas, com sublinhado vermelho pincelado: \"E o desgaste de mais de quatro anos, quem devolve?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "Ação de 2022 rejeitada na Justiça Federal: o juiz não viu prova de enriquecimento ilícito nem de repasses. Quem processa sem prova deveria responder pelo desgaste causado? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Diga 'ação rejeitada em primeira instância'; cabe recurso e a matéria não informa se o MPF vai recorrer. Não trate como absolvição criminal nem como decisão sobre outros processos.",
+          "timeline": {
+            "rende": true,
+            "angle": "O que a Lei de Improbidade de 2021 mudou ao exigir prova de dolo e o que a decisão da 6ª Vara diz sobre acusações baseadas em saques em espécie."
+          },
+          "duration": "imagem única"
+        },
+        {
+          "title": "TRF-3 manda três bets voltarem a funcionar e chama a proibição do governo de confisco",
+          "tone": "contundente",
+          "style": "realista",
+          "desdobramento": "liminar do TRF-3 de 6/11 liberando três bets, que o governo tinha proibido por medida provisória, com recurso da AGU",
+          "fact": "A desembargadora Adriana Pileggi, do TRF-3, autorizou em liminar a volta de Casa de Apostas, Betsul e Jogo Online, todas da CDA Gaming. A empresa tinha autorização onerosa, paga com R$ 30 milhões e válida até 31/12/2029. Para a magistrada, proibir sem indenização é 'verdadeiro confisco'. A medida provisória assinada por Lula proíbe as bets em todo o país; o governo cita vício e endividamento das famílias. A AGU vai recorrer, e as demais bets continuam proibidas.",
+          "sources": [
+            {
+              "name": "Agência Brasil",
+              "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-autoriza-volta-do-funcionamento-de-tres-bets-no-brasil"
+            }
+          ],
+          "art_text": [
+            "R$ 30 milhões pagos",
+            "Confisco?",
+            "Imagem ilustrativa (canto inferior direito)",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Nenhum rosto. Celular com tela de aposta desfocada sobre mesa, maços de dinheiro e um martelo de juiz ao fundo. Sem marcas de nenhuma bet.",
+          "prompt": "Crie uma imagem fotográfica realista, vertical 4:5 (1080x1350), estilo fotojornalismo, luz lateral dura, granulação leve. Sobre uma mesa escura de madeira, um celular genérico com tela de aposta desfocada, sem nenhuma marca ou logo, ao lado de maços de notas de real presos com elástico e um martelo de juiz. Ao fundo, desfocado, um cadeado grande de metal. Clima tenso. No terço superior, faixa escura semitransparente com o texto em branco, letras grandes e muito pesadas: \"Confisco?\". No terço inferior, número de destaque em amarelo: \"R$ 30 milhões pagos\". No canto inferior direito, em letras pequenas e discretas, cinza claro: \"Imagem ilustrativa\". No rodapé, no canto inferior esquerdo, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'.",
+          "caption": "Uma empresa pagou R$ 30 milhões por uma autorização válida até 2029, e o governo proibiu por medida provisória. Quem faz contrato com o Estado pode ser surpreendido assim? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "É liminar, o mérito não foi julgado e a AGU vai recorrer. A matéria relacionada indica que uma decisão posterior suspendeu a liberação (20h39 de 6/11): confira antes de publicar e ajuste o texto. Não defenda o vício em apostas, critique a insegurança do contrato.",
+          "timeline": {
+            "rende": true,
+            "angle": "Segurança jurídica: o governo pode cancelar por MP uma autorização paga? O caso das bets e a lição para quem contrata com o Estado."
+          },
+          "duration": "imagem única"
+        }
+      ]
+    },
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel de bastidor curto",
+      "options": [
+        {
+          "title": "Em Mar-a-Lago, Flávio diz que 'ainda não foi o fim' e que grandes coisas estão por vir",
+          "tone": "emocional, firme",
+          "duration": "até 30s",
+          "desdobramento": "discurso de Flávio na CPAC na noite de 5/11, com a frase 'ainda não foi o fim'",
+          "fact": "Na noite de quinta (5/11), na CPAC em Mar-a-Lago, Flávio Bolsonaro disse ser preciso ter 'fé de que ainda não foi o fim' e afirmou: 'Eu sei que não foi o fim para o Brasil e eu sei que não foi o fim para a América'. Declarou que 'grandes coisas estão por vir' e reiterou que seguirá liderando a oposição a Lula. Ele chegou à Flórida em 28/10 e Eduardo Bolsonaro publicou vídeo do encontro dele com o ator Jim Caviezel, que interpreta Jair Bolsonaro em 'Dark Horse'.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/mundo/flavio-pronunciamento-cpac-ainda-nao-foi-fim/"
+            }
+          ],
+          "hooks": [
+            "'Ainda não foi o fim.' Foi o que Flávio disse longe do Brasil.",
+            "A oposição ao Lula não acabou. Ela só mudou de endereço."
+          ],
+          "script": "Ainda não foi o fim. Foi o que Flávio Bolsonaro disse ontem à noite, na CPAC, em Mar-a-Lago. Ele falou que grandes coisas estão por vir e que vai continuar liderando a oposição ao governo Lula. O eleitor dele não sumiu porque a urna fechou. Esse recado é pra quem acha que a oposição acabou. Você acredita que a direita continua forte? Responde sim ou não e manda pra quem não desistiu.",
+          "screen_text": [
+            "'Ainda não foi o fim'",
+            "CPAC, Mar-a-Lago",
+            "Grandes coisas estão por vir",
+            "A oposição continua?"
+          ],
+          "caption": "Em Mar-a-Lago, Flávio disse que ainda não foi o fim. A direita continua de pé? Sim ou não?",
+          "risk": "alto",
+          "risk_note": "Não prometa nada em nome dele, cite apenas as falas. Nada de especular sobre retorno ao Brasil ou processos.",
+          "timeline": {
+            "rende": false,
+            "angle": "Não rende artigo próprio: é discurso de uma noite, sem fato novo além da fala. Melhor como parte de um texto maior sobre o futuro da oposição."
+          }
+        },
+        {
+          "title": "Reportagem diz que celular de Vorcaro tem 316 interações atribuídas a Moraes antes da prisão",
+          "tone": "contundente, sóbrio",
+          "duration": "até 30s",
+          "fact": "Reportagem do UOL, divulgada em 6/11, conta 316 'interações' atribuídas a Alexandre de Moraes no celular de Daniel Vorcaro nos dois meses antes da prisão do banqueiro em novembro de 2025. Não são 316 mensagens de texto: a conta inclui fotos, chamadas e notificações do sistema, e 187 são mensagens enviadas por Vorcaro, de 17/9 a 17/11/2025. As mensagens foram recuperadas de bancos secundários do WhatsApp. A autenticidade e a integridade não foram verificadas, e a defesa de Vorcaro questiona a cadeia de custódia. Em manifestação ao presidente do STF, Edson Fachin, em 15/9, Moraes chamou diálogos anteriores atribuídos a ele de 'falsos, criminosos e mentirosos'. A matéria não traz resposta dele a este caso.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/vorcaro-trocou-316-mensagens-com-moraes-antes-de-ser-preso-diz-portal/"
+            }
+          ],
+          "hooks": [
+            "316 interações com um ministro do STF. E quem investiga o caso?",
+            "O banqueiro preso e o ministro do Supremo: o que o celular mostra?"
+          ],
+          "script": "O celular do banqueiro Daniel Vorcaro tem 316 interações atribuídas ao ministro Alexandre de Moraes nos dois meses antes da prisão. A conta é de uma reportagem do UOL e inclui fotos, chamadas e notificações, não só mensagens. Moraes já chamou diálogos anteriores de falsos. Mas o Supremo tem um ministro citado no caso do Banco Master e esse mesmo Supremo conduz o processo. Quem deveria dar explicações claras ao país? Você acha que Moraes deveria se declarar impedido? Responde sim ou não.",
+          "screen_text": [
+            "316 interações",
+            "Vorcaro e Moraes",
+            "Autenticidade não verificada",
+            "Moraes deve se declarar impedido?"
+          ],
+          "caption": "Reportagem diz que o celular de Vorcaro tem 316 interações atribuídas a Moraes. Moraes nega diálogos anteriores. Ele deveria se declarar impedido no caso? Sim ou não?",
+          "risk": "alto",
+          "risk_note": "Diga sempre 'interações atribuídas', nunca 'mensagens'. Não afirme que houve favorecimento ou crime: Moraes não foi condenado nem acusado formalmente. A autenticidade não foi verificada e a matéria não traz a resposta dele; confira se ele se manifestou antes de gravar.",
+          "timeline": {
+            "rende": true,
+            "angle": "Caso Master e STF: o que é interação, o que está verificado, como funciona o pedido de impedimento de um ministro e por que a cadeia de custódia importa."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
