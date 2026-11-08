@@ -1,0 +1,1617 @@
+{
+ "generated": "2026-11-08T09:37:17-03:00",
+ "headline": "Quaest pós-eleição, Lula fala na TV, Gilmar e Flávio sobre as urnas, Peña preso, Enem com temporal no Rio e Vasco x Palmeiras",
+ "top": [
+  "enem-primeiro-dia-lula-inep",
+  "rio-temporal-torres-enel",
+  "quaest-flavio-fuga",
+  "vasco-palmeiras-semifinal-hoje",
+  "pena-prisao-preventiva-itaipu"
+ ],
+ "items": [
+  {
+   "id": "quaest-flavio-fuga",
+   "segment": "politica",
+   "title": "Quaest: 62% dizem que Flávio Bolsonaro errou ao ir para os Estados Unidos, e 61% veem eleição limpa",
+   "summary": "A primeira pesquisa Quaest depois da eleição mediu como os brasileiros avaliam a ida de Flávio Bolsonaro aos Estados Unidos: 62% dizem que ele errou. Outro recorte do levantamento mostra 56% dos eleitores achando que ele saiu do Brasil para fugir da Justiça. Sobre a disputa, 61% afirmam que as eleições foram limpas e justas e 30% dizem que foram fraudadas. Ainda segundo a Quaest, 81% acham que o Brasil sai mais dividido de 2026. Flávio já declarou que não tem provas de fraude na eleição.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 8.3,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/quaest-62-dizem-que-flavio-errou-ao-fugir-para-os-estados-unidos/",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/poder/2026/11/quaest-61-dizem-que-eleicoes-foram-limpas-e-justas-30-fraudadas.shtml",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb0lFekVIYkRDLURqRjYyclBGNDBjYmxpRUJLUE4tREpBXzkwVDVsRTdfRGdRN3RhTDFUeEFySUFPU2RhMVMzT0xUNkxadFphWkJJbTd2cFRVaGlhdUl0OHFXVWNiNHBzLVFjWWNXdjdiNTF1QjdGSkRiQjlITEFIUHB0VWhkcF82MmNVaVpOcjRTcFJtSzJWWkJ4Z3lSMV9CT2ZvakZBY3U3WDVXaVczeGJpMjNrQm02M1NNX3pGLXRlTjVlNGN3ZnJyV0NpTUhIR3lFc1ctR2l3Z9IB6AFBVV95cUxOV1hTX0ExekF0NmliZFZXSUZkZmNnS2xOemZqLWNxVTlTcW5YZHhoVG9mV1JFRTNsNlZPRlh4d0NEeTcyd1FkRS12RFM0dzV6Tjh5b2RFbVZFaFllRU9fUTZyVEhpZjdrN2Q0Nm1MTTFFM1NPeE1lcXJrMFJfNUF6MUNmQ01QQkt2S2Z6aWRGVnotZXRpWGdRTF9aR2lfUEZHem9Uc3hQa0dnd3RDTFI2bElmV1VkcVczcjlyZm1kUmVhcW4tWkN4V3FKZTJjdVU1OGhHdFM3SExlbHo4Q1BPSW9VMnpPUlNx?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbGcwUVJ6RW5NUS1hVERHcE5mMUF5T3RhRWJLdkNXTjZYZDV0V0xjVmp0NGprQzYxbkh5Z05uZDFpMHVySER6SHJ6OERYYmRjYV95MGFWZDFzN01pdFpZRWJ4cXRDSnE4R3RlYWhlNEN0R3d2NDQzazFaRDJWY1ZDT3dMdVFWdms1S1VXakFXVkhzOFRfdnBhQm15dGpCR1hLaGFmcUxHWGl5U1R3V3RJMUJaUWlTRzQ?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd1BSM0lENndZWmdtOXVJUk94VDFGWEx6c2RLcEwyc0VCSU4tMHAzV3JrVmdhT1BQb1U5eTZqSEhrVm9xT2VZRUpWTm1kUGo1ZlQ2Z2lLTXpscS0xV0haY004eG91WUlPTGZUeDlIS0NCXzZEdTRJN1QwX1NHNGRQazJVWUU5WmgyYnM5ZHhSc1B1eTA?oc=5",
+     "camp": "centro-direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZU0wZ2RDc2VxbGZ0N3RnamdrYW0yc2VadjRuSHluZUhQTTZSSENCQlMtMUlZU0N5RlZndlVfdVg2NTB0S0pkYVQ5aTlGQm5yMVQ2MGlDZV9DTXhsbFJNTlA4NjVZbXFZSG5KUHY0N1A0a3VKcmJKMmI3bUZweGRDb3N0aXdnZ3BWWWlNcUFmenFqVUt1NGVqN1dFWGljcHEzVnFVaHVVZkFITV92VFozTdIBtgFBVV95cUxOM0hSTW1OODV4bVNKOTM3VjVIUmE1VG9ON0RjNkU5c0V2MFlBZFlUa0I3b1RiUUhabEdtcEZGM3VmOEhBWmxsNXFuTnhLNUdwUTFoc3NhMVgzSXUycTBRbEdCcFhZZU56aS1SNXhXSWdVbHdodDdXLVM5cWFaam51ZGxHakFWbWxMLTFWbHEwc3lGbDNSM1lyZlhySXBORmx0ZUVEWm1QVkJtUjhCVWNOUnhfSklZUQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHBGcmo3WXVvaHFSSjFPOXlsVjg0OXJWSDJ4al9wb3gwVUt5cEpIQVpZMF9tdVZGNWNnaU9HNFExVXZWZ3ZZY1JjekVnaVVJUHo5SDNoMElmVzkzREpxRkJySkNTNkROVmNaNnUzb2lhb1Vod1Roa2NMTEM3dmFCV0NlblIwdHBkSGJacHh3MTU3emJCeGtEcmpmSUp4UUpaR0U5bzF5OHd3dWVR?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPZ0NhdWRPdEpxbXdYNi16WDlwV2QwRklOVmZhT1lkdU5QeW5SWWxWaGdtbTl4Zlh4d1p0bjRzcEptSEpUaFFUaHZlNmcyY3Q2OG9Hdzktdlloc19oSU0xb3pWeU1OaHBkQnBBQThpQkhKd2Fra0dfY190Y3dlcEdSVU5fckNLVnM0NmNfQjdRUTB1eTg1ODBHbUpyeHI0OEZMOHRJaTlLUzF6SVRMZjhySzRNWVBRc0taSzlRRTdHUDFiX2h0QWRPaWw4bXRTaUFoUHlxZWN5RGVUM2xjRFZONkwwbWV1S3VTZGRtVldubzRhaGtwN3dYUHNtWGdYWjlxVlhBeW1MWW5sd3fSAZoCQVVfeXFMT0QteEtXeWh3Tm8ybjhCblVreTM3cll2NHlfQUFUeUEzZkVoWTUxdFhlOG0wazQweHJZUFBQbHQ2T1hGdHNjMmVWdFlPckg0WEJuejExZDdyaEVRU2h5RVdVX1VBY1FJSzhzZERzd1dEQ192dGZMRHFmTGV6enVzdjdFZXRVZG9XRGZVeXlqci1pbmtuYXRhVndoQ3R4T0pmSVh3RmJBUTNSaDczTDg5ZzB4WUJNVTEtM3BOeGc5QWxJbEdpOTdtWHdyZGVtcTdud1dVYUJFSjB3UmliaHllNUttS0lQeGN0dEZkYzZTcjdRQWl1ZWR4WXoxdjdIaHkybTZUbzlPN25QaVZhZW9oc013VG1jQ0J3dWFB?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOYXNMQXRFVFZvSm9wMFRmSFZZMEhOOG95QW1IaENuV3hmOHdrNkpCck1YbkIwT3ZqbjZaSDd2TXYtQlVfYWtNQ1JQOHB2V3Vwb1BZeFRaWHhBU3VWcUNMWU1WVmFnRXJMOEN6VjNoM2VPai15TU1RLWFzSk9aZ2NYeVUxLVNMa3RJaTgtdmpFdm1COFlfSjFnUEVHZmViOVRCSnR2WE8wV0prNWNBOUtyVHhUMmFxbHJBVDdaMXVBTUFXYWs5VGdRUUN0YlRSSDE1OU1NTUZvRS1RcFFtazhJTUVra2M3dFJySVB1S1dsZWplTUp3VkFVaU84bzA?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "gilmar-urnas-leviandade",
+   "segment": "politica",
+   "title": "Gilmar Mendes rebate Flávio e chama de levianas as acusações contra as urnas, e Flávio responde a Nunes Marques",
+   "summary": "Gilmar Mendes disse que as acusações contra o resultado das eleições são levianas e chamou de bravatas as suspeitas levantadas sobre as urnas. O ministro do STF defendeu o sistema eleitoral e afirmou que os ataques a ele são em vão. Flávio Bolsonaro respondeu dizendo que Nunes Marques não sabe do que está falando sobre a eleição. A crítica de Flávio veio depois da vitória de Lula no TSE. A fala de Gilmar foi dada na noite de sábado e repercutiu neste domingo.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.7,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcjZNLUxqZ0s5N1pJeTN5X3F6UkQ1Sk1YRUtVZXNNMlBVaXE1U2pUZ3ZzLTVwM2tHOExZSEQtZXNEM0lTX2FoaTY5dXNlTTlpcW1xdnVCZ3V1S210alc2aHZqdzFjQUhENTNRa00xa25odTJ4SEtIQWhsWWNfMy0zUlg5OWJLemdqOFBLNlZ5RjBJVDdRY0pUbnkwSG8yZ3lIMUhvd3hTTVRDRlBiV1dsUGdiQUZPT0tPdERNS2NsQU05WHlDaUMwQmRLcw?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX0tlMlc5RndFOXB2RmVKdzFVc1FSVkZNQkZ5YkZqRHVnNk5DUmcxZVVrWTVwLTRqeVhrVGllWHRrbXEzc3FrUml4a2RPZjliQXBvUkE5U1E2c2dNSXlnZFFkOGxSdGFuYkNWekQ2U3otT0JlcDFBc1V5NmpRYldGSU5KLUpTbVZuQWZVMnNnN2Z0NEJBc2MzV203V21vQ0k3eVRVdktPVnhPbVJSVy15ZjZDcnlEdF9Nakw3aVpB0gHMAUFVX3lxTFBiREg3YjM1djU1UWg5UzdnRUZWbTJSUXQxRkttQ1dqMlAzcVUwNE84Wm54Vl9Bai1OZXoydE9mcjA3alNtYkVrU19VM3NfWExaeTJhdlNTVmhkVEl5NzhkZTZzakRuLUxpQ2tvZXdhdF96NUdNc1EzaU1fLUdjZEJYanQ3U3hhQ0FueERJa0YtREtUczN3YkpIZVhqNUpEZFBWU2lFTVpOblhOZVY2bUhmUWdOb1NqcFdDNEtyZkpMSk1nVUgzUnMybnVRUw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85bWhGUGFsZTFwd1ZCVWs3R1NvRENLSWd1MWZtOUMyU3lSQXM5SkRwbGZmUDRnT1RIMmhoamVEY2JlaGliSWxwT2JGT243YTVIcmp2N05NWFpJM3NzVV9ZZlEzLXowQlY5RmRnZ0x6NWc1VUVhN3RDVENxaGVDZw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMllscTE2WUZ3cUl2QXJxYzJ4S0J5Z1dxNVhpekNTODFGS2dZejF6MWI3SC1YRUhZTmFtTFlPUTFVZjFHd3owXzR1RU1pbFRCdDN1Q3BZeHNVLWpLaFFWcGRXMDNJSWRNSk5JX3lHOE0zMFl5djJ3dzZwVy1YS1lOZzdUTXRMUkQtTG9IbGdyb2xQcWd0MUZ2OFJSdTFaTVVrQ1Zxc0lBVTFpWGM?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://oantagonista.com.br/brasil/gilmar-rebate-flavio-e-chama-suspeitas-sobre-urnas-de-bravatas/",
+     "camp": "centro-direita",
+     "position": "topo"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOWxzenhael9GdmtNZC1NOE9ZMmZkWk9jel93YzZEUzhwbTdwZThxaFc0RTVJYXJkVkdNOU9Nb25RRjBSNzUxa1l1cXJYbkxoRy1qSjhQNWRkMlVJWlRfRXZKNVF1VnZ1Umdib3pxMnRSQTA3R3RDQThlZVFubnZ1THREQkZwbEQySkplLUpnSGZCN1VseG9JLUZCd0Q0VUdOdkxPRTZqVdIBrAFBVV95cUxNNGttb1RTVEY5c01RdTI4WGR4RTd3NmFlQXBwU1lhekNUSy12VUNRM0w5ZnJ2SWtrUTNuSE1wT3lWU0ZrWmRuQXhkYUR6R3JfMjRZVlVVejBKay1GdkdHSVFkZG1aelRFX3lwQzctNmk0MFBFWjRxdDVPUkIxaExpY0RLTjF2czJBWVBTTFJ5cWdEZlJRYl9ZMlpMZ09VekoyanJ1UFNuTzR0eFhu?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "pt-vaquinha-pix-13",
+   "segment": "politica",
+   "title": "PT abre vaquinha de R$ 7 milhões com Pix de R$ 13 para quitar despesas da campanha de Lula",
+   "summary": "O PT abriu uma vaquinha virtual com meta de R$ 7 milhões para quitar despesas da campanha de reeleição de Lula. O Pix sugerido é de R$ 13, número do partido nas urnas. Só com esse valor, seriam necessárias cerca de 538 mil doações para chegar à meta. A arrecadação ganhou espaço nos portais da direita ao longo da madrugada e da manhã. A vaquinha termina na quarta-feira, 11.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 7.4,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/pt-abre-vaquinha-de-pix-para-quitar-divida-da-campanha-de-lula/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/vaquinha-virtual-do-pt-para-quitar-despesas-da-campanha-preve-arrecadacao-de-r-7-milhoes/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQWlsX08teDFGSjAtNW8tN0x6dzZLV3I0VThQdDcySElhdmhSU28zaFduN3p1MllNNjFPdWhpX1JYSFVmbHBXd1h2RWNFcWhjQnJUejlyLXB5bXlyUnZBTGNCOXpJaGU3ZEZjU3ZnNVc5c0dmenRUa0prNkNpN1h4VEh6TjlubDRDdE5fNmRmbTZUZEhUd29CMVpOLTlxUmotYkHSAaoBQVVfeXFMT3F2aUFmalp2djFicGlnMHd6ZTNtUkZBVHNSZ1lkdVMteDV1d3VXNnlERG9Ba1NNUDlzR1pvclMxekNyVTVRenNKak1RRkMwbzZvRTRMRTNmdC16TkU3MU8ya21mNnAtNlZKTzI2ejE2emZjS080ZlBhd00zLWhFOGZxXzM0Q3VTemdCV2hyd3YyV0NBQ0xTejF1RW5ZbW1fQjVfMjM2Z2tESkE?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/politica/pt-pede-pix-para-cobrir-gastos-com-campanha-de-lula/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVWlGcmFRSk45SkliMGZBTDdMWkp0djBTZm1FcnowYkxfbktCMG53V1pCZ19wRkNQOFdRdHhjNFlnQTlqNHhmbkJISmlTNmFULVEtWjluSFF5Rmxwa0lFNE0xMjJFc1ZEY3VGYVJoNTRpZ0pQV011RW9nT2NsUWtsN2V2V0VSTDB4Nm5GaGE1UHR1WmcwdE9UUEh6cVZnTEpVakxGTlRBWUJKZ2hhYmZGUFcyMDkwanNKOGFkOGw0U3UyeDc4QTRPVzEzNTVSNlNvbWx1U3VtU1NKSlEyRTZwLXZTX0NMVlh0MWlMeDg1dWpvU0U?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "lula-pronunciamento-tv",
+   "segment": "politica",
+   "title": "Lula faz pronunciamento na TV neste domingo, prega união e responsabilidade fiscal, mas sem anunciar medidas",
+   "summary": "Lula faz neste domingo a primeira fala na TV depois da eleição. A expectativa é de um discurso de união e de compromisso com a responsabilidade fiscal. O presidente deve citar o ajuste fiscal, mas não deve detalhar medidas econômicas. A fala traz acenos ao mercado, num momento de cobrança por definições sobre as contas públicas. O pronunciamento vem junto da agenda do Mercosul e da retomada das negociações com Estados Unidos e Argentina.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 7.0,
+   "outlets": [
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdmhVOWJlUENaelRxaHZ2a240NTJtSTBVckpldmFvUHExTnpSdGJuTG1Za0ZSaTVWNHF4QWp3OXBVeHR1QTVLRmZuUjJqMzVOS1FKZjJZc1pUb19ZeW8zb20wM2FOVWZrZnRsR2JSdmZ6QThUR19HcV9ybWJIY3d0U0I0dG5Hc0lPX0Y1R0xFejFzdEMwX1VPZXptWFZPUlF1LTdGcUIybUNrSG15WDZ5cWdKWHBHb0JJSE5vcVZWQXZqVVBMWlhBNmp3cnpEd9IB0wFBVV95cUxPT3F0R2NjNHVmeHFYU0xoMXIwcEtkU3diVkt4aXpZLVhvUEhZcjlCMjFPcndmNGZfUl9FeGFjOGxFMnFuTnIwNnpoeUlTRXVTeUN5STNvLTFhWi1rbERrdndScDktazluQ0RLdHFtX3BQY3hzb0pNSW9Wc3dGTWpaeEMzb195WE5DQlpwV2RNQTF1dzdBQmdKcEVDbzVVVHhsQzZkUzR4VUdIS1pXb3pxckc1cHY3TEFlYm0zXzJhdGc4N2tqQnl5X1Z2dlloeGdkMEJV?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/economia/em-1a-fala-na-tv-depois-da-eleicao-lula-citara-ajuste-fiscal-mas-nao-detalhara-medidas/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc2pGWHdybmxZdXVYa2tBN2FKVnFtZVBueXRhY1pPV2F4OVA1Zk05X2dncER4OUdYdVoyeXZ1bm5ZdE1NR0prMl92V0pwUFFDR0Q4Nk4wRFBDcFo0d19OZS1CV3ZkR0RkaDBGbHpPX0d0TzJTSUx6Q0EwY0FxVmNrUmpZTHpzclhhSC1qNHlmVTM0RC1XVTAxaDRQTXZJd0oxbmVfRGlaQzE3SGxGWGtNRFJUNlZCTkM2ZHc?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "O Popular",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWDkyd3UxaDczcnowLV84TTFISTFfT2pOR1otMVNMWHV2MWNVU19TOGFqTk5PdWlkb1dtQjZEbzR4RDBHZVM2ZkpibUtONEJBcnhrVEJ0dkIwZUtFSXpFUHJMcy1panJfZFBtX0hXSlE5X0tRcE5Bek14QjJsWWNkSVZyVlFxRzVQSkhuX0RsTEZ5MkZpb25wRU9HTzVlcDd2OWprOWdzWVJnbnlYaE4xQ2RNN0dlckNZcjRRdy1qZkkwVnBfQ2x2bE1NVU83RkVaMDVMcWVOVQ?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "O pronunciamento acontece hoje, com a mensagem de união e responsabilidade fiscal sem medidas detalhadas"
+  },
+  {
+   "id": "lula-ministerio-seguranca-alckmin-janja",
+   "segment": "politica",
+   "title": "Montagem do ministério de Lula: Alckmin vira nome coringa, Segurança ganha pasta e Janja pode ter mais espaço",
+   "summary": "Lula monta o ministério do novo mandato com Geraldo Alckmin como nome coringa, cotado da Segurança à Fazenda. O novo Ministério da Segurança é tratado como pasta com força para projetar ou sepultar presidenciáveis. Entre os nomes cotados está Gakiya, que poderia ir para a pasta com a garantia de escolta vitalícia prevista em nova lei. O presidente também planeja reformular o gabinete pessoal, e Janja pode ganhar força no novo desenho. A posse deve ter casa cheia, segundo o Planalto, mas sem o presidente argentino Javier Milei.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 5,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 6.3,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeW5IUXViZWNRS2RrREpJanAtLXJsU1p1a1dMTHhoeExwYmhjNWJQaTBiOVJaT3k4dmRNcWlQMU1XS25pMnc4WVgwNUhSekdNc3M5MHk4VjlIc3BKODNVSkowVFZGSUZ1TjVvVUJfNlNMbzI4enJrV1NobV9QQ2xLMnZMek1SNjRqQzZEeWFvdWwtZFpabU9BMEJ2THRwTnN6T1d1aTUwRGJVbFdScFBtNmRYcnlzVE12NURvOXFsdHBoNkl6bFlKQS1jeXNrT3FIRGtESERnWkotSFJi0gHrAUFVX3lxTE5lTFF3cDBBTGJlTHc4U2FfX0xGRzFOeDZaaEdDdzNlR1MxZjg0d0U4T1NBWXc0X2dHSVdDWHlXNTV2RzZJaF8yc1d6ZTIyRWduUE90SWFZT09zM25HU0JSbEJLbTU5dERKM0tSaHRXcEJWbjAwUVRwdmo0bTk5RXo3anhsc25PVWNDNFhnOU1xd19vSUZrWEtqVmtQQm96ejRXU2dKaGdrWnFmSTdBbldJRGxZcjh0M0czbmg5emI2V0N2alVvRVdkeTJiTnA4VG5vWlRnR3E5SHdncXlPV1QyNi05cFRJOUpsYXM?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQUl2ZXdCU29UTy1JUXNCbmxYd0l2SWg3aW4xSW9hVmJUSU9LRE8zOXItZmRnSWRyS1JrblBKc2VKWW5tSHB2bUl0c0tGTjVGYmlsaExKUzY4bjJ6NEFFUllFNGxBRGhqXy1Vamt2dW1HcEZjRDRxcEVOSks4S05PN1JGMmVudFFJNno4UHI0eTZDVHJZY1lzWS11a1I2RndNdjFfUi1NR0lKZVM2UHlDSEljMGFTZng4QnpFR3FjVGZfeXF6VGFZa2VHdkpiMTJpR0kya2dKZ18?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwajFnOFpaOEF6THBBR2pjWWVLbzBQM1Y4ejRXTXVDMW5rMlVEa1VQYXZSZUs4TjBSazdnbGJBT0lVcmFvSFlHdTNoNGVfYWM3OUdpTWoxLTdLVlUwWHlSVlk4MkhHZFRCQzR0N09GOFl5d2RQUEtv?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sOVdWdkVKekZsOHBIMmo2UThJOTdFRGRUaWRrR3QyWTR0Q1c0c2FReEl3TzN2d2g4ZE0wRUJOU1FHWDlDSGxrZWloemFqdkE0aVMwa0kyOWl4bEtJblBkZy1kaTZnVWo1c1BQZkkza2RVMGlDSl9CaENmaXF0MVE?oc=5",
+     "camp": "centro-direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/materias-especiais/interativos/monte-o-ministerio-de-lula",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Novo Ministério da Segurança, Gakiya e o gabinete pessoal com Janja entram na montagem do governo"
+  },
+  {
+   "id": "quaest-economia-expectativa",
+   "segment": "economia",
+   "title": "Quaest: eleitores esperam piora na economia após a reeleição de Lula, e fim da 6x1 lidera prioridades",
+   "summary": "A Quaest mostra eleitores menos otimistas com a economia depois da reeleição de Lula. A pesquisa indica expectativa de piora no cenário econômico. O fim da escala 6x1 e a isenção da cesta básica lideram as prioridades dos eleitores para o novo mandato. Os entrevistados esperam que Lula cumpra a promessa do fim da 6x1 e, ao mesmo tempo, dizem temer a economia. O levantamento aponta distância entre a esperança e a preocupação com o governo Lula 4.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 7.0,
+   "outlets": [
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/eleitores-citam-expectativa-de-piora-na-economia-apos-reeleicao-de-lula-diz-quaest.shtml",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://oantagonista.com.br/brasil/quaest-brasileiros-estao-menos-otimistas-com-a-economia-apos-reeleicao-de-lula/",
+     "camp": "centro-direita",
+     "position": "topo"
+    },
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWjViTDN1SElSd1FFY1A2TmFmd3o3Q1p2ajZWdGVxNzNYUHlCWFpCMHI5aUFkZjBleHpzTnBTcWxMdXBFZV9NTzFjWENtYi1hVkNMYnJ0TmJ1U3QyRE5BWm1wQlZDWk9FbFg2RGZZT2N5dmREQkMtY2preXhJYlVPVGtGdlZQUXVGbUNzTkRSWmk5NzlmX2FUYXg0aVl4Q0JzQmt6a0tjbjZKVy1RdGluMVBHRUc1Sm1OTFlRQ0pPc0NYb25Td3d0Z3RXeHFDZTFmZTVwLXpNS1M4ZGhyY3fSAewBQVVfeXFMTVVvVDFIdXNFSE9zRU4zY2lXM05yM2gxZl9QNTZidzJZeXNHYVpVSUJRUmRHM1prelhzaldvY2FIb0JwSUdRaFdWRGdrM1pCNnA5TmY5ZFRkRnVvXzJqdHZwa01Na0ZuWWdkWE9WLUItQjhmVURkT0FhcVFPVU1qVFI4ZG8yVmsyTF82cTMwbVJQeVRFbWl4eG5ES2xKbEpnNUxXVzl5NGtXNll4WkxnVG5xNVJZcUJQZ0dMdHFTa3hGQ2FHWFBmU2RpRm5DQms0VU1GcnJPa1Z3LXpESXN5QXpZX3NvZVh1eTUzXzQ?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWEZTM04tc1Q2ai0yNUVHN2FGNElyT2FtYUNQQ3doSUwwVXlvVDc4Y01EdUI1SlNaMUZFVnNGWm1QZ1psWXotakpfaHpQa2Fha0d0ejhQRHMtYXE1MHNtNGlTWGNHWjBmeGdTZ1VEVFRhSHFNeTMxSEtsM3lKZ19QVVMxaERSb1N5MllUWXhKdDVsVHd3WUViWlI0a2ZkeEdWcDNpTEk1ekFDZ1A5VDlRcWppQTNwT3J2Q2l3YmFUdUQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "fiscal-gasto-acima-inflacao",
+   "segment": "economia",
+   "title": "Ajuste fiscal gradual perde força desde 2024, e gasto cresce 5% acima da inflação",
+   "summary": "O ajuste fiscal gradual do governo Lula perde força desde 2024, e o gasto cresce 5% acima da inflação. Eduardo Giannetti afirma que, sem ajuste fiscal, vêm crise e aumento da inflação. O gestor Azevedo, da Ibiuna, diz que o modelo de política econômica do PT é muito desequilibrado. Ele também afirma que houve aparelhamento das agências reguladoras no governo Lula. O debate chega no dia em que Lula fala na TV sobre responsabilidade fiscal.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 6.5,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaGZiLUJfMnBsVjFjN292UVZXd0w5S3NWeW5JWm9hcVJ0cmhxOXJxWnNzWHVvZkpkWkx3WTBlUER1MzdBNlpHOU1DUEVfRnlWU1haUzVTY1BpQTZubm42enFrTlh5YXlMdTdGcThhUXBHSmFYNksycWxBUDM2MWhzWlZhYVBja2U5Uk93cWM2QUVQbklTS3lOSHdRVWVjN05vR3FXaVRLbEJUMFRzVDFqUWZiNE1QNHBTSHJJX1NMak9BbjUta2YtdTBKd3hrdy1aSUI5ZXpLeFF0Rk93aXAwOEYyekQwNnRKOERpdFZlbjQwZ9IBgAJBVV95cUxQU19fUGFjUmlUaFE1UEZ2LVlIMlJROTkweWUzbnZUZERCU2hwYXE3MEEzenlkekowZThJeWpYbEVKdWM5OG1kWTN3TGsycnFBLVU4SmJEWUNTXzdmU3F4WUdnbE1Cdl85dTY0bzl4WjdPWUZadzU1SnpRQl9PaGFJcWxVVkF3QllVUFUyMEpRNDltdTJBMk1LYVpDekJKSVp4dElqaU81WkVuTWtRSU53b2NZYVdudm1BTEJJZTJrVnh0c2RfY0o3V2F2QXV0azkwTnRpU2FYTHcwQVRfODhHcHJOczA0UFp2a0FFUVVWRUdHZXBQdWNNSzhQSzM2Y2Z5?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU0U0Ulg1SUxiS3p6amE0MlNqY0l1Y1hKRHlzX21tNUl5cXpMY21uMXFWdWRhbV9uZmFQNEdJMjRQWHFCcG5xQ19zTVFhcWZtcU1mc1QyN0VtV0ZGU1Bfcmo1TW9mQWd0amFQUHpfc2h5V016UzNEWEU3c3h6THY1eUZIblhYUFh6bU1oV281MFNvVW85cTFURXpLcW5qVndzVW5WOGR5N0hFU1cxb0t3Q0dxaFZheGluR3laUWFGcklFUdIBwgFBVV95cUxOU0U0Ulg1SUxiS3p6amE0MlNqY0l1Y1hKRHlzX21tNUl5cXpMY21uMXFWdWRhbV9uZmFQNEdJMjRQWHFCcG5xQ19zTVFhcWZtcU1mc1QyN0VtV0ZGU1Bfcmo1TW9mQWd0amFQUHpfc2h5V016UzNEWEU3c3h6THY1eUZIblhYUFh6bU1oV281MFNvVW85cTFURXpLcW5qVndzVW5WOGR5N0hFU1cxb0t3Q0dxaFZheGluR3laUWFGcklFUQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWWhTVGZlSEJCMU1HRkl0SUJsMl9SdG9uZG96V3RfR3dVTkMxblhKZEFaYkFkQV8yQmlhMkF1RU1OOElsQTBsSnRRaERJbzI0Yy1GdTZ6ZnhnT3Jkbkg2S3pqZzNDNUdYU2djM1NvYnhvYWpkNjl4SUpzMjdIazNUUWh3QXNFdV9UeUNJOVZJV28zQ2lzeENJa1NEM3RIdVUxeTI4SmdfeUpwZjg2RC0wdTRVRkZld0xJN3FYLWd30gHDAUFVX3lxTE5JN2x6LXlucFUyR01NRlFjTW9uYUhhS3lQV3g2cFZsU1V1SUxyeV9QX25RUm12X2h4MFJtd3JFUFJOT0RhTV91N0dfOTRhbHlkN053TzNLSmItQy1tSWFoRUNiR1JxUVBleEt2RUVhSjZCRFhOcGFaSktQOWxybmc1Mm94ZDNrLVFMUGVFb2lObWVsSU1udmZPT1E0ZDRDVjlMWWFzV3dzV0Y2ejhJUnBtTlh0MU1WX2s5RkdCRUUwUmVXQQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/blog-do-noblat/artigos/entraves-politicos-da-economia-arrumada-por-mary-zadan",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "csn-cimentos-huaxin",
+   "segment": "economia",
+   "title": "CSN fecha acordo para vender a CSN Cimentos à chinesa Huaxin por R$ 12,7 bilhões",
+   "summary": "A CSN informou à CVM um acordo para vender a CSN Cimentos à Huaxin. A operação é de R$ 12,7 bilhões. A compradora é a chinesa Huaxin. O negócio envolve a divisão de cimentos do grupo siderúrgico. Os termos da operação constam do comunicado enviado à CVM.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 4.8,
+   "outlets": [
+    {
+     "name": "Valor Econômico",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR2I3UDlEMHZWdE5LS2t6Y2kyU2hiT0ZaRkY3b2hzLWpsSWU3ek9mZzBNS1VYdm1sSWRNazEteGdXQXI1bjRTM3hncWQ3RjhIbmx5MnUzbU5DV0tFQmVEMGhwT0l6aElVTmFzR3JJVWFJS2swWV9kVXRveTdHQVVzbTNCZE93R2NWTi1xOWZwRkhBYnc0OHEwT3p1Z0xMTEtwbE16bXFKN3FiYWdZZXpKeTE1MDFhQ2VwNW81ckNIZ1JSLU9mQU55amdWWExzb2lMaDBudS1VONIB5gFBVV95cUxNNXRlOHFxS2EtOW1qZVUxUm9ERnJ6WGJVODlsSWFkOTdPQTdYNVhKV0dDd3FJUGR4ZHltd0E1V3JEbkE0R0lLeE9MU0F0WndoLVpjMFJaU2hxYTRiNEpTanQ1SnBQN25UclFScVdjT3oxSW4ySTBvTl9NQ3E1QldMWFA1cTM0Znk3SlJYcDJwMTNKOHJySWNiVExRU0Q1dVBaS2hxVERWMUxldU5PY2Q2R2tKTTNhTksycjhXM2swanVrN3BUTEZ5SEQ4SGlZell4QTNkS3ozOFBTQnpnaVR1R0pfQklCZw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa2FMVk9taEtjU2x6enhHY3Z5WGg1YzBPeWw1Q2hnNnJia05jMVgwRDBiSFZjOEI1cWtvb2ZzdUJad18zbWQySXBKd3FQUlFGNkVBU05LLW91Q21rNVBrZzgyR3hsVFR6X0llT3BRMEpEYnVoWEpTVWVPNnJueXlqNWs5VE1yVWFDY0YzRC1IcmRiWFd5S1BGT0JzTkVrajFNWVE?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "itaipu-ueno-bank",
+   "segment": "economia",
+   "title": "Lado paraguaio de Itaipu diz ter cerca de R$ 1 bilhão no Ueno Bank e aciona o Ministério Público",
+   "summary": "O lado paraguaio de Itaipu diz ter cerca de R$ 1 bilhão no Ueno Bank e acionou o Ministério Público do Paraguai. Na versão em dólares, o valor citado é de US$ 182 milhões depositados no banco. O objetivo é recuperar o dinheiro depositado. Bancos do Paraguai ampliaram o horário no fim de semana para atender ex-clientes do Ueno. O caso corre junto da crise política no país, com a prisão preventiva do ex-presidente Santiago Peña.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 6.2,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/lado-paraguaio-de-itaipu-diz-ter-r-1-bi-no-ueno-bank-e-aciona-mp/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/brasil/itaipu-aciona-mp-do-paraguai-para-recuperar-us-182-milhoes-depositados-no-ueno/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "O Antagonista",
+     "url": "https://oantagonista.com.br/mundo/itaipu-tinha-cerca-de-r-1-bilhao-no-ueno-bank/",
+     "camp": "centro-direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVVJzVGtSSk9DNlJDMnJzdWdMeUk1ZEhjUEJ2TVZjT05TUEk3SmZ0NDRRQWo4dzZqUXg0ZHFzN1JlUkMyNktUZlM5dkVBYTNtLTFVdjBUVXVtaTlxQ2J3cW5UZlJ0SWx2Q05TbTE2U1hHYlhWR2NaWUVoVUNFSl93dWJoc1Awc2FHZkRrUlhjSGtHUjdTR1lXYQ?oc=5",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "reforma-tributaria-adiar-carga",
+   "segment": "economia",
+   "title": "Reforma tributária: carga revelada gera preocupação, e há debate sobre adiar a mudança",
+   "summary": "A carga de impostos revelada com a reforma tributária gera preocupação no setor produtivo. A reportagem mostra quem defende adiar a reforma e o que diz o governo. O debate envolve a composição de preços, as desonerações e as imunidades do IBS e da CBS. Entre os pontos em discussão estão também os impostos sobre bens de luxo. O tema segue em discussão entre empresas e governo.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 4.8,
+   "outlets": [
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOGhrQVJGOE5XengzYnJvakhFMktoejhEanlsOVhuYWczcWVmZDU4NG9UV29PTHZLbE5EdE1jbWNqOUdIWkk2WHh4YjV6UU5oYzFZQkJlQ2FXTmtfcVBDYlNiVWZEeUdZcmhleUxOTzV2cW9HcFdVN1VzaElrbS1ubkNfdmpmWWZVWmhrdm94eGswMmRzUnhHWk1VNHdLZ0xBNVJNUzZMNEhwOGh3R1FyRmt3?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSV81SHdxZE1ab2FNMDNaWm1qdjUwU1ZIQm1kYjdUOUxfNmljSDJvWVdsbWpJRzVHWDJxeV9FSFpHaU1pVDVzVUswcEMxZDN1NWNJT0hPZ0xVN2h0a3Y3NFBCeXlUX3ZsQ09EbHZ4UHljanpxaVNoQjNKbDN2VF9xMnNnVjg3aV9VWVIzaUVoMXJXajFZNlNZNEpCSUo0OUdDWDJhM2xBaDNOcDJrT0N3WDJlaG0zeFg3S1RhQmdhMzhFdw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "JOTA",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPalBYNkhOMzJqQzhrTTFEUGN2ZkctMXdlMDhoY2xXNXo5ZmVZRFpDZUFWM25YZDJuekV4akN4a3d0RnJJSGFjX3RpWlJGM3ZLNEdkZ2M4S042U2JyeUJVeFQ4VXFEbGdMT0U3UEJHR1dFLWtPTERNSjMzYlROWWR4aXBBTm4tQWtWdzFDb0dvUy1ORkpwNWFUWURWcF91cEVHTk1SeV8xYVQ4eENNTWYxVEJ2QjJYSGR3ckFYRFFuOS1kS25IdEE?oc=5",
+     "camp": "centro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "oriente-medio-aramco-ormuz",
+   "segment": "internacional",
+   "title": "Míssil atinge prédio da Aramco em Riad, dois petroleiros pegam fogo em Ormuz e Israel diz que missão no Irã não terminou",
+   "summary": "Um ataque com mísseis atingiu o prédio da estatal de petróleo Aramco, na Arábia Saudita, em Riad. Segundo o Irã, dois petroleiros pegaram fogo no Estreito de Ormuz. O ministro da Defesa de Israel disse que a missão do país no Irã não terminou. Os Estados Unidos criaram uma força-tarefa para cortar as rotas terrestres de abastecimento do Irã. Explosões também foram ouvidas na Ilha de Qeshm e no sul do Irã.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 8,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 6.1,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVVkyX1BkLW9LeXBERWhBUHFSTjYxazNyWVVPY011QlFRZzlyWjNLeTVJZTVQcG82eEFtWWxSMldPS3czMEt4azljQzFvX0pfanA1VklMUkgxWm9PMGpoOGhucmp4NXNjeXMxOFktOURhRmREb3hNeG5WdjNocUZiQ0J4U1k0YTVvQ0w0emI0UGJWT0o3dTVGb1NLa0tzZw?oc=5",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/missil-atinge-predio-da-aramco-em-riad-capital-da-arabia-saudita/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaXdNLUZEQnp6cWxfUTJCMTQ4RzdLUFNid0ZzTFJBUjFneGpPbG9USXVLSUZsUWtUTzFPR3NqRjRoR1VHdGlEWFhXX0o3UXcycGtoajZtb2lySE9uMlQ2Umw2VXdlU3ByRHNsbnBIZkl2czlNV2VOMW84Z1hDbkE4bjJ2WEVBMnM0N2JGTWpMcXI2NjhvY1oySA?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV242MVBhUWF2NVZKSzVPeXNvWldVYTdaT19KemJkZTdwdDc0M2p4LXZpSlBNWi1FWmYzTzZpTEx2UTFicGQ1MTU5amVzVUdoOUtyd1ZnUXRlcTcxc0hxZTFheDBKQWhmaGFkWVpyQkN5Z19CdTU1MUN1eGphOE9mcW55dGtSaXRDSDNxT1ZfWG00cXUtZkt2RDZub0l6UFBVemVwVzJQdEh6N251RnZuM01SRlE2U055bTJOYllMOTFzY3lDakNOb3pHUDE4SW9reXRIWW9XUXp3eDFaZWc?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Míssil atinge prédio da Aramco em Riad e dois petroleiros pegam fogo em Ormuz"
+  },
+  {
+   "id": "pena-prisao-preventiva-itaipu",
+   "segment": "internacional",
+   "title": "Justiça do Paraguai decreta prisão preventiva de Santiago Peña, que presta depoimento em prisão domiciliar",
+   "summary": "Um juiz do Paraguai decretou a prisão preventiva do ex-presidente Santiago Peña. A decisão aparece em meio à crise do Ueno Bank no país. A ICL Notícias informa que Peña prestou depoimento depois de ser colocado em prisão domiciliar. Itaipu acionou o Ministério Público paraguaio para tentar recuperar o dinheiro depositado no banco. O caso foi um dos assuntos mais comentados no X neste domingo.",
+   "scores": {
+    "cobertura": 9.3,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 7.8,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRTRrVkJRdkV3NWN1R2JLMzk3VF9sVVhQanJvaUxKLUQ0aWhFUEtFV1B0UWx6QnB3TmJxOEprbWVURmZwU1Qxd2xJeWNsLTJzTUMwS0J2Zkg4dHVHSDlvaUpnUTg1MGFBRjB0a2U3WHNFTmxhVkZCZm8tVVAwcmkyQ3lEb2Uwd3JpT193MElFTjUtbzRHMWRJN0Zpb2M0RXFOaUVRS00xS3hNcEF3MERfY2hDdU4tMzZHZENxN3NsT3otX0FLZWNYMHkyWFlTOEV1NnN0YXpRVW5NTWhTQ1VfMGF3?oc=5",
+     "camp": "centro-esquerda",
+     "position": "topo"
+    },
+    {
+     "name": "DW Brasil",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSFl0LVo1dVRqckZISlB3X0FRdktwZnBadXVUYkVEMjFmbEZOc1RLUXh3VmNVM3lrUUwxNUlSWDlWb2dPdGZNTWE5TUxjbTJkY2RKblR4cFhhQUZlRUFndFZWZ2xaV1F0M3JwTVdnOW53Z3hSV3E2d0NBcjhMM3JkOTRrZk11S1Rib0RvYkRqbFM4NnBUZ0lSZ2ZNQXBHSHBEZVozYVMzREZJRUc0enc3X1F6SGdzWU3SAbcBQVVfeXFMUFJXV2FaZVJXeVFLOE9EbHBvUVFVaWdwXzkyS3FUOEtmRHpyRTdkazNEQy11MVhaYnM3OTBiTm5Nbmp5bU5TaHB6Rm1acnAzSzN4NEhOT3dRSDQwTVlZWXZFZjZ0SFNZWkRWU1FRQWtETEx4NnpCaHpNWTAyU0h2ck1yaFBkeGlyMWNId0c0cnFpclhaUnMtV29teGYxRjBjV0NnVkJiOFRhT1E1S3hnSXdYczZsWjFF?oc=5",
+     "camp": "internacional",
+     "position": "secundario"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWXNSZnNyaFFYcVpnbkl1dVZCZHlvd0RpU3VEdWYzMXdPalRVQ3pOSld2Y21KNFUyUDhEa3l0ZXF1OHZzcE95MVdwMl9MMXV2TXdrSXNuTU1TN3VoQy15T3NWRVRfcTBYVGFxODFpbGNjdUREOUQwanBBdmVyZHlDX3Z4bG5xRWRyb1VqeV9nak1mV3lkdmE1VXpnZzZCWnF5bkVCbGRfVml0MTZKbjZSMEVvVTRaZ0tjS2xoSDF1cnl3MDNXVTkxajlYSWpwUXFkdFhv?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNVU1OEdvUkU2eGQ1S1JLTG1PRS1ua2FudFVZWEZtVTZ5TGZQZEVpSWtxSXNEelR3OW5QYU5jU015NmR1NzZ2aGcyN2M1UFpMcTBmLTlJclNDS0liVGlMQ054V3JIZDZtZDBlbUUxdndTZDhlREZneHpKUDFkeTJWbzNuUENzdnJJaGhHZk9GQ1RMek9YckE?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DMmJ5akticEd1cW05VzBzc283MmhxVlJldFMzTEVia2xfbnJoc3FEZ2dsNnI0eGhOanVFbWxLUnJkLTRvaE9FVE43d3NJQ3RiRjVFNVh0VkZraTk4RmdEc2w2d0p6NGdocUt3YmR3WlhJdURpdVE?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMlRvREwwYjJXc2FDczZTVlBSRkRjbldreFdMUWJOdGhDeHJrdXduUnRlTExUc29VbHJyTmc4NGpyU01pTFQ4OWdxZVhuNHR5REYwbFh1bWFFc3Fsay1jMVVJRW9xRmtZX2EycHd3eE9sQVRsdFlGRVhoUGlZa3FQakRzTW84bDJGVVcxTGJtMDhpUjFtZm45T3M2ckY1SU3SAZ8BQVVfeXFMTzJUb0RMMGIyV3NhQ3M2U1ZQUkZEY25Xa3hXTFFiTnRoQ3hya3V3blJ0ZUxMVHNvVWxyck5nODRqclNNaUxUODlncWVYbjR0eURGMGxYdW1hRXNxbGstYzFVSUVvcUZrWV9hMnB3d3hPbEFUbHRZRkVYaFBpWWtxUGpEc01vOGwyRlVXMUxibTA4aVIxbWZuOU9zNnJGNUlN?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa01fS3NVb2dpQkRJMm1RSXhZbGd5V3lRVzNRNS1ic20zNTluOUdMOTJKNUozdzB6OGxqSEROVkMxUW5JVm9xOXlpTkI3OGJJbDJqd25KRjVyZFBjRUFFS3IwUml6M0R5enlIZVNnakRiZl9TWHljR0dRUWE3NzRFVnFnQVctcDVRb2tkaFVlVEhOTWZhQzl5eUFFaGFxaWlSM1YxbkhWV2QwNE9uaXdmbVptWUtqUWlZT0NkRGFFTUtScGtaSG54RTRfNTk0WG8?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb0kzelNxX0plZ2EwQ2xqQWRta1phQzZicjJ4aW1PRVBTblh1RUNVLUNDYnEtWjh5Vnc1QUdFcFluWHBQSldzTUdXWnpDWFFCU21VTFlFSkkzcDJQaWhvQm96SDg5eUVpclFzSlkzWGNvakF2T3VPU2NCQi10dnB6Mi1lbHlZSVZKR3FHMUhjaWxSa1U4UWVveUZhMjVRMWhZU2prQkZ2UnRuOXZzVVU5QVdhdC15cG9lR19HcVhn0gHGAUFVX3lxTE5CNnJadU9nQUNYaXJ4RGlZZEhMNkhrU2hSd1ZpTlE5dDl0UFp0a0x0ekg1THVPM1JhakxJNEZad1d3dTJKbFVRQ2tQd3pfdmtoal9ENHRjeGZFX3hDUU93b0w1RU50ZVVsa0s3aERaV2lRUm9FY0F5SXlZSm93TW1OMzh5R2NValN0VG9UMHVIQlVUbkxrLXU4VWJKN1VodlktNVFuTER0bEgtRnhWenhYdnBwMWhpYzVCam11S0UzSFpPRE45QQ?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "japao-terremoto-57",
+   "segment": "internacional",
+   "title": "Terremoto de magnitude 5,7 atinge o centro do Japão e deixa ao menos 22 feridos",
+   "summary": "Um terremoto de magnitude 5,7 atingiu a região central do Japão. O balanço divulgado deixa ao menos 22 pessoas feridas. O tremor quebrou vitrines, segundo relato publicado pelo O Povo. O abalo foi registrado na madrugada deste domingo, no horário de Brasília. Os portais não trazem, nas manchetes, registro de mortes.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 5.7,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://www.poder360.com.br/poder-internacional/terremoto-de-magnitude-57-atinge-japao-e-deixa-22-feridos/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/mundo/terremoto-de-magnitude-57-no-japao-deixa-ao-menos-22-pessoas-feridas/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVG5yU1VuMm9IUTBxV1FtVm1NYlVQUXNCYlJfSUsySXB3bF9yLXBPNzZpX2VXeUJkaGRXQ2l2bHdkWU5xVXpjWEJsdllVNTRlZEsxaWt0WXRUVDllejlaVTUtZ3I0d2Y4RVlXMzBXc012cHdaVmRSdXVNVDR2UE05c0dNY2tCTGZabmZDM1BoMXJtcnd4aUxrakhfVXI1bUU?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTWtYT2w0RlF1TnNiamstak5JNWlzazRGeGhqZWNCWWRiQ0lkbEhYcFJCamxvQVpmWHh5VTBPZEpkbUxzOU1zR0JsNGdYNzhyczFfazY2Rkk1N2F1TlZKa21OMGRYT3JDM1Q1NWxPYWtnclFwejhHdkl1MHMzVzNEV0xGLUI4bVQwVEJOMQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio do Povo",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdXNUSWYwTnJmdl9NUzJGOVZLOFFxcGcwNDFjWHp1QTBPdkMtNDhldEhmTF9PUGxoN2FqNXFsYktTMzFUOFhWb3g2MVUyUVlCWmlaV3huWlo5Uno5SEVZdGxSb1BVS05hQWt2Ty1vejlEM2lBNERqY3Uyel9lOTB4clJ6YnoyRHhSX1hIaF81ekZyaFVwSG1WcDUwQUxpaW5iYXNac0pTZVQyRUdNY2pFZVZXTTAzS2Y4MFpqN21BNA?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Correio (Bahia)",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSHNzWUUtd0g0V2tYVlhIUUdueE5HWGlGTWFGeGpmY05KQm1STVNEUkxqSGdfR0lCOHpLQWNQNGNjNXZLVGJSYkhNY1lWS3JTRWppOGxJNDBpV1gzUFJqbkF1ZjFQcUdrdFJ5SS1oazNQc2hRd3I1Wi1Ia3YtYlpmN3A1UGhQNks2TUxEcXI4MUVTWGxscjJyV1NtekxBTVh3SUVvU0p2R3lWR0xZcEswZ0ZXTQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVHpqbloyX0twU0xaUHl0cmVScWpkc1BGQjlsOWtfYzdQOVd6SGdaei1ZMHh6TGJKNnowMGpiaUhJd3R5OTBpWWtqTVpUT1FSN3dIdWtncDdTbmNGR3Q4WXQ0b1NzMEMySHF1UV9wOEt3cm1xRXRQVnR6RDlmU0pPam90RjBsVUotaFpLc2o1NTU0dmhyelg0Z3VjLVFBZkc3SUxHRmdxeGNCM2JnUXJRX3BlN2tFaXRXLWlQa3F1VjQ?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRTgtZEN1T2g0UkdwMlZ6T0JjMXlPMDZwSW92aldRZ2lkTzRKS1lBWU9odWR6b2hjcXpVN1ViUXVXazFTNGFWM1QzLThJLXd4ZVBuTXIwNlY4ZkQ0Q3hWZ1Z2OVMtOXFpQjRWTThsZ2lsUDk4cDZvdkhHVk5NMHpoZlV1VjI4X3l3NTFjb1VNVGx6S182bGluOEk4LUZrYmhUME1FOTM5ZmpyUTV6R3RQRnZQOGtQaFcwb0Zyc1Jzc3jSAcABQVVfeXFMUEU4LWRDdU9oNFJHcDJWek9CYzF5TzA2cElvdmpXUWdpZE80SktZQVlPaHVkem9oY3F6VTdVYlF1V2sxUzRhVjNUMy04SS13eGVQbk1yMDZWOGZENEN4VmdWdjlTLTlxaUI0Vk04bGdpbFA5OHA2b3ZIR1ZOTTB6aGZVdVYyOF95dzUxY29VTVRsektfNmxpbjhJOC1Ga2JoVDBNRTkzOWZqclE1ekd0UEZ2UDhrUGhXMG9GcnNSc3N4?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV3JRajlTa2FRQXJMU3BPVWJZdEQxeU16MlZtWkRtakFsMGRyb1JhbjdFcUFpVnIyNHBhcmNTWG1HeHgyT2pJMGJOVTRQYlpaeV9WVC1kZ3RhU3Jqa0RlZkJ2QVl1cUNicWhEdjBBMUFwbDlhZWhRTWJEWlktRDhkZlpIOVJucDM4SmUzWmtIc0tmZm9SN0JKQjdHb3ZUYmkzMXZJcG1venBJNFNuVW9nWmN1QXN1OHk0eTZXMmdMQWM?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "fato_diferente": "É outro terremoto: magnitude 5,7 no centro do Japão, neste domingo, e não o de 6,1 da costa leste de dias atrás"
+  },
+  {
+   "id": "ucrania-sem-energia",
+   "segment": "internacional",
+   "title": "Ataques russos deixam cerca de 600 mil sem energia na Ucrânia, e drone ucraniano mata uma pessoa na Rússia",
+   "summary": "Ataques russos deixaram centenas de milhares de pessoas sem eletricidade na Ucrânia. A companhia de energia fala em 600 mil sem energia. Um drone russo atingiu equipes de resgate em área bombardeada. Do outro lado, um ataque com drone ucraniano matou uma pessoa na Rússia, segundo o governador local. Veterinários tratam animais retirados de zonas de guerra na Ucrânia.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 3
+   },
+   "score": 4.6,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcTJVdVExN205SHV4Y282dEtfcWpZNEl3cU9GM190Nnk1TnhyanJ0akRkU21nZUloUEpmRXlISV9nWktaVDBUVXUwQXZVWlREc2FFTldfakg4VUlyZ3JDaDBob3ZRWXNGOFBqOGQzVEFrQ2t3dk5PUFFCT0ZGNnlWUHNMYTBXOHpuZXA0NEExZllZZFVPMjBHV3JfR2dEcXFNSnBhSk5kQ1RTOWNQSVZ3ODY5U01MaHVvSDA0MmxwX2lhVmNncExXNDRQMTFhRTlYRElRcXNSWlhxS1NaZGc?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/internacional/ataque-russo-deixa-600-mil-sem-energia-na-ucrania-diz-companhia-de-energia/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQblRrMHpWdVNzaS1YZU1RLTExNzVsVDJvbjFWcEgxMFZpc3g3SFlzQTVGTkhyd0NBZU9aR1FjTmVoMzhrUS1ILUFCMGR1Y25GUVpKaWFkcUZVNmJJLV9NUmNaeUlJbVlFXzJtdW5aZTl0MGt3MmlIRWJTOGFJRGUwNXlQQTJRNGtfS2dSQV80QVJsWE9MWndYLWozWjJaU1BEdEpTVDlSRGVRU1lSSXhCMzNRZ1ZteGNQNWQ3SjZzUW9iU2JKYU1iRUxzbm5pT0ZHRnRybnhneUhJLVc3LVkzVmNCZXIzTWF0VUxqLWUwN2ZNUDliYzNVLURR?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "cracovia-luto-extremista",
+   "segment": "internacional",
+   "title": "Polônia decreta luto após ataque que matou seis em Cracóvia, e polícia investiga motivação extremista",
+   "summary": "A Polônia está de luto depois do ataque a tiros que deixou seis mortos em Cracóvia. O ataque ocorreu ao lado de uma basílica. A polícia investiga a motivação do atirador. Segundo a DW, o agressor seria fascinado por ideologias de extrema direita. A Polônia investiga o caso.",
+   "scores": {
+    "cobertura": 7,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 3
+   },
+   "score": 5.8,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQkpRSm9TWnNGWkVWaHVXVW0ydkJXcGo3MjlfR0JXSkdqLUZZN3pkZzBPTjk4X0lIX2RMTk8tTFU5bC1lWDc2ajVjT2pHZ0JGRXJkLXY2VU9XTUVNUDR2a0dYVk9QVmdZR0NMcVdzQVJPLVNvb2FUWE83N3YzRTNNcm5rQnlWa0NmV2ZtR2xYd2hzaWQySVNoRGZXMWxDQlVPN1NIdUZZSWRrc2NmQTRLMGxhWW1NbkZHWjBlRWZpWU5xQmE3TEh5WUwyalN6ZU5mOXNzRA?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "DW Brasil",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPakg4UklURmNzRFpLSkY5UXNSV1drX1Y0WDFXanczeWN1em10aDM1dnUxMDhLUzRTU0taZzBsNEdRREdkUUE0WmVWbDRRclA2VW9WT1JuVkZSSzFXNmVET3NsM3pMczNkLXpKVGd4ak1RVjB4Q25wemR2bDRaUHlEeHlDcjR2YXpEVWRfOC1DZm9mWlgyaGthOExhajhZLTVNMDdUX2p3MlJPbDVJSFB2YzAySHp2OFd0NEdsaHowc04tdlVnbzB6UExMaXdpd21ielFzajRwcEt2ajF5eFdZSFhyMzdUM2VyQlF1dzJ30gHuAUFVX3lxTE9qSDhSSVRGY3NEWktKRjlRc1JXV2tfVjRYMVdqdzN5Y3V6bXRoMzV2dTEwOEtTNFNTS1pnMGw0R1FER2RRQTRaZVZsNFFyUDZVb1ZPUm5WRlJLMVc2ZURPc2wzekxzM2QtekpUZ3hqTVFWMHhDbnB6ZHZsNFpQeUR4eUNyNHZhekRVZF84LUNmb2ZaWDJoa2E4TGFqOFktNU0wN1RfancyUk9sNUlIUHZjMDJIenY4V3Q0R2xoejBzTi12VWdvMHpQTExpd2l3bWJ6UXNqNHBwS3ZqMXl4V1lIWHIzN1QzZXJCUXV3Mnc?oc=5",
+     "camp": "internacional",
+     "position": "topo"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZGFHekhCUVExVlY3MFdjckxZWXVMazdNa05GazdwS0lRa3A2a3IxaWpYMEMtWnZqTGNvNk8tNTBveUpZLS1Cc0JMVndFejFELUJZWkw0bGhhclVPOGdBdjVJb3NnNkd5MXV0aEg2TTNYdEhtSXRMSVB3WERMd2JKdkJfbkNjeXBheUJkaDVldmlaTlZRaVNTOU1oVXpiUnJt?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbDRNcUQtVElaSzN2d19fQ0pPeE9ydDBWWDNUamJOcXlSUk5QWlBwZEplS0Rxd0MxQ25fRzQzNjRNSGdQRFlVUE51RWltY1hIamZIV3RxWHRXVEY5SHpNYVY4bGVxelBEMVJqdEVENTVWb0dtVm1aTWFfQzJqZzhWV00xY2lHNF81MXhaRVJxcmVnQWk2M19YLVlTTmJCSFhXSWZQMDUzX2ViNEpDOEU0ZjE2TWp2b3pBVHk3TWg1V1RQd3k3TTlSVlB2RkZNcUIxOEV5RklwTVZlVzlkc0VYZ2Q5VFJPX1Q4cVlV?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFJRY0NJYnRYM1l3cFl3c2MxUUpObGQ4d1Y4UEpnT0wweFh1NFIxMHJ2bXJOMXR6Z1VReXhhMWdEYXFLRVkwaW5GRWlZNFNNZ0doMkZjWW93X0tFNk5DdUgxUHJ3eVJLcVpoaXk2SGl4RnVDUUJfempocUUyMW9idW01X0FzWUNpNDNUQmM1VjgxOFctYWR5Mk0wRFBEMnRON0Y1NTk2LThXZ19QMDJJVERCX3ZOdU9mZDRTd9IBywFBVV95cUxOUGltX3VwYW5xY3IwenpDWHU4RUJFNm0xOGdpNmVOakhXM0YyZHVJUWx6YVRFTU9wZElEdVZHOFl1dEtsQkNVMmk1YjRVUHIzZEk2X2VXZzVrT21tWTJGVEFBZGZXcFAyS2hNMFFYOHRNUnV6ZGtwMUJVNzVRRV9JY0lCcVdKNDJwWlpqRFFkWkJiOUprTWFyYmpEWmt1M1FObGdJYmtzbk9yYjU1ZlNlaFBPVFhTOWlkRW9uWkNpWUhBX1JqU200NlNjYw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Polônia entra em luto e a polícia investiga motivação extremista do atirador"
+  },
+  {
+   "id": "rio-laboratorio-seguranca-lula",
+   "segment": "seguranca",
+   "title": "Rio vira laboratório da nova política de segurança de Lula contra roubo de cargas e domínio de facções",
+   "summary": "O Rio de Janeiro é tratado como laboratório da nova política de segurança do governo Lula. O foco são o roubo de cargas e o domínio territorial das facções. O presidente do Coaf, Ricardo Saadi, diz que a PEC da Segurança acaba com as ilhas de informação ao padronizar e compartilhar dados. O novo Ministério da Segurança é descrito como pasta com força para projetar ou sepultar presidenciáveis. O tema aparece em editorias de política e segurança de vários portais.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 10
+   },
+   "score": 6.5,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQXZTMm0tUlJfdm8xOGlOVWRHYWwtMjRWZkhUTGR2ZjNWWDU1WWR3QzY3U21hVzJnLTk2d20tZmNFRlZBeHZINmVQamsyMkFlRWNpUHQzVVlYLUtiVndSUXJkb2JtOTRnRkwyU1d3X2pHcDVSRWd4U0ZGZzJabDdLVF9zeWN3UWEySE1DSV9VX2R2TTJOWEN5X3hLdFc3VVZXaTNEZ1lPakFWbHIyWFVReGNlN3N3VGlCd2hGR1k0dXhXamVJUnh1NDBQZk5wS1JTWVBZMFN2VzE4djlTOGdWaC16ck5kSG04Rm1tQ9IB-wFBVV95cUxOOXpaLVlLNjBhZ1BMY2YydXByZkNpVmtjTjJxRV9zZW1ZTnhURk5hblJJekwxeEh4SFVab0YzOVpqWXhIeThTdHZTLXZkVGo4Z2p2V0NQVzM3NVFQTkRZV2UwVUNGb1piVnZqYy1xNXNPci1CVDNEaGRTVUpZbzA3X1lreFVrbW5GT3MzX25TTllHdEo3TU1vVHpPQVQ1SDlWTWJpblh4T3Fib0d6Ui1SQU83SXFQa2xoUkRwRU5Mc2w5VTZCcDg0ZzRnWlFidzN6TjlndHVoTTZBSjZQSlFvZThFZ25SWW5OLURkN2VJOXhaWTFjNjNVSzZFRQ?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeEg1Q25ycGYydDZSQm5KMUJ6OS12NEszNl82dEpzLVRlTHlSV2RuclUwUmFYSUxxNkxrSElZQUxXLThEQU9SbG5TMjhkZS04eURMeVc4ajZfZVNvSlVIOFlsVnlldHN3akctMkpVaTdoM2F3OVV4X2s0UkZtZl9BR3hyV05LTTFfTkp3cVV1LUNnQTFqaUFOQUxRazIyTDEyUjNJZFJZeTZsMHkyV1ZlSThHeU5XemVucFpn?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Agenda do Poder",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa2JuNEdQcmJtYWxoNjUzMGJTa1ZHRVY4dktkd01SWUtFQ0U1VGIxcldCSmNaOVhBRGZndC1XYzZtMi1iVXJBVTlkNG5EcDVRQXd2SUFETXBXUEh6aTlhXzVmdHhkTU5jN0ktSFBFdEtEeXVjcG9teWx4VTNRdjg5MHUteEphR1RpYzlQWkEzRE5Nb01x?oc=5",
+     "camp": "outro",
+     "position": "editoria"
+    },
+    {
+     "name": "Plantão Brasil",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmxKYUxxZzJWWGxIY3Zydjc1M2poeU1zX2tzUUZMLXpRSTNhZkxzUTRfaGVqMWFRemNlUGwxTTJGU2ZwTkZMQTl5OWlZeXd5VVFlUGhwNlJuTDFOQUsxY0pzU1FMX2ZNc003Z1hlV29ERW9CMFVtTEk1NE5HRDJndnROZmdBaHZWMW5jYlowU0tEVm1QWmdmWUZfT1R1eEgtU3VOT1NjaV9vTDFHNGJPb1Q4ZDNRQmRBWWRWMi1sbmpnZThiS081Rl9R?oc=5",
+     "camp": "outro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "fiscais-alvo-tiros-desmatamento",
+   "segment": "seguranca",
+   "title": "Fiscais são alvo de tiros em operação da PF, do Ibama e da Funai contra desmatamento ilegal",
+   "summary": "Fiscais foram alvo de tiros durante uma operação contra o desmatamento ilegal. A ação reuniu a Polícia Federal, o Ibama e a Funai. O episódio foi registrado na noite de sábado. A Jovem Pan, a Band e outros portais deram o caso com destaque na coleta. As manchetes não informam feridos nem o local exato da operação.",
+   "scores": {
+    "cobertura": 6,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 5.6,
+   "outlets": [
+    {
+     "name": "Jovem Pan",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS1ZoMkQ2c3QzYkJfMXpVRHhWM2lqbnRnX1V3dVJiQjJSMTJoR3ZHeVJXWGdYdG90Y3BkQ01WaWluajktZzRhdmZ3SmJ5SkNtTy1iS2Nqd2xnLVIzakFkQ0NIaDZjLUZRMUl0Y19vMFk1X2lkOFNzcUJBa2RWb01SZ3JMeW84ekJua1Nqa0c2UmdGZkh5bVh5UlM4aWt0cFlvQUc5YlVhVzBRejktaV9HTzZvVEtyOHdsZHR3VGFBOA?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQjJxRnE5RGUtb3RUSnV0UU8ySmNwa1h3WEJCNXp6NlN1a0N1WWFsOExWcUJHeG5Gd0prZUdFYUtZcW1iN2Y1Y1NvcEJJUHZYMGRVNkFSdkJGNW9HQXJsekZEYktuTS1WQUlzVHo0bWE3X3dMVzNxM1dtNTRtby1mOEE0ekZVWENfT0lmamdFbWNJZjd5N2xaX2JvejNEOHhVSE13V0w4MFd1ellH?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRHJROEV4RW94YzNSVktnUDN0NnhZSHJjVHFscUlIcGVkaVZKN0I5bE9DbnlPRVlzM29SOFZnck5JWUR4aWZRWENHcGh4Y3ZEekoydjNGc3paeldlWVBhY0JiTlk3UTVtVTcxZld0dXpVTklBZzQ5Ql9aOFozcURacGpwM3pHRU9MQnQtZm9reFJvUmJCQmI1Q25STUpFSUUwNVpkMG9kSERXRzNLWTl0UllfQlB0VFNiaWZic2lVUFh3N1NJUnpiVlNfVVNWZW8y?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "Correio do Povo",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUHhHV1VhS1ZYMXhRVHd0X0hyckIwc2NGWVY0YzIzWVlrTE1TXzlkMnZEMjB0RlNBcXU0YTAyUXlYbzRqYkZaajc4am5yS2dMbVlfQWZOUENQQmFISEhqQ3ZmMkEwX2h5a19XVVd5S0dFaENLVGdvM2gyaVF1WW1qMWZkNS1SdmhhSzhLX0hrc3RtdG5DZmxhMDZlaUV0R0lubko4YXVLbGZLelo2X2Z3QUU3b2tSUDlKUWNhaGJIcjNla1pDV3ZCUE9YcXhuNG9JYmZSWTYtZHQ3dWFDZkVUdDJXU2lRbVhwVDk0?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "pf-enem-seguranca",
+   "segment": "seguranca",
+   "title": "PF mobiliza equipes em todo o país, com 118 unidades, para reforçar a segurança do Enem 2026",
+   "summary": "A Polícia Federal mobilizou equipes em todo o Brasil para reforçar a segurança do Enem 2026. Segundo a Exame, são 118 unidades envolvidas na operação. Equipes da PF ficam de sobreaviso para atender demandas durante o exame. Na véspera, o Inep negou que um caminhão arrombado em Uberaba transportasse provas do Enem. O primeiro dia de provas é neste domingo, para mais de 5 milhões de inscritos.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 6.3,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/pf-mobiliza-equipes-em-todo-brasil-para-reforcar-seguranca-do-enem-2026/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdEVYX1AyVWc5aGp0elpDaXF0U2pHWFZlU3BKVUhYOU52T0hoUEdjUTZ2UFZuVEhSeXh3WWtlenBXNFRjTzdaazZUb2diU0pLaXRRejJaVnRmYTdDdTF4clFVOXZXSEo3SXlKbkQtTDF6ZEpBckRNNkFxTm91Q29hVGVrc2xOaVBLRFdBV21zaWo?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/enem-2026-pf-monta-operacao-nacional-para-garantir-seguranca-do-exame",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Brasil 247",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa21tVDA0WlNUaUQtbnJDemZER1BnR3c4NXM5TTNpXzhaMDdzWm9qMU9uM0pPSnNlTkUydnlxZm9xUl9zUVc4RnZLUHVwNDM3VnlJVEJkTGVsLWMyb21ncVAxVXdPTTNRRUVyU3U1MmZSc21hVXAtQ2RPNFNBVGRWeXVPOEVKUExiSmh5ZU0tVUgtRlNzRkVyQTZZTHZHbWR6b3lQejJldmo0dw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV3cyZEFiQk85ak41cGlsRXBua3UtR1ZuenZQd0VyNkhMSUJ1bzVnRFZ4d2hjRVNGNnpsTTBJTXRNcndjakQycVpFNV8wZmVPTzIxelZmRURJRW96dGRQSnl1T01Tbk0tRUdoSUNFeURqXzZhbnNfMkctYVl5MkpNV3Y1VkRSSklZNkk4YlZkVnY0bjdXXzVuLUIzVThuSG9fWmJuak1PLUx0UQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORWxnTDdHTldESkQzZFZDNkc4aE1IcU9FVnBybFJtRGN4UF9tck5BS3JRRG85NFNlbWhjazFoX0NsOEgxQ005cnVhdWZPQmhDaS1OVS0wZFlOamJYMXR2WkU1UDF0dloyY3BHeXk2U1RWelBpV2JwMV8xSmlNV1FtZ1phRzdjYnU2WUVFRl8zQ1RvVjNacjk5UmRaNGlaMTdHZzF5b1VEcXQ3TWNidXZtLXJhb1NlbkstdHphStIBwgFBVV95cUxNYWxLWjZMdVhuSDBWWUc3NS04SHNHcWZfVFRKZGx3TGpDZVItZ0hhZ09TR1JrZlBhbUVTVW5FQ3RfRmJTNnNPbnNRMVAtR1NvTnlIVEZZNXFMUjFuTG5BRUtkRlZiSFliWHgybEVQU1VMTW9uY05kYlhwTGp5LXV5cmFXbnFHeDgtSk9KMThBeXM4cmZXMVJsZHlnU2d1RG9CWS14OFp3bFdVX2lXbzlpbktKbzBva2Z3SXZXVjJWMFFqUQ?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "defesa-civil-kit-72h",
+   "segment": "seguranca",
+   "title": "Defesa Civil diz que o kit de emergência para 72 horas é preventivo e pede que a população não entre em pânico",
+   "summary": "A Defesa Civil Nacional recomendou que a população monte um kit de emergência para 72 horas. A orientação viralizou e causou pânico em parte do público. O órgão disse que a recomendação é preventiva e pediu calma. A Defesa Civil afirma que o objetivo é preparar as famílias para situações de emergência. Portais de todos os campos explicaram a recomendação ao longo da manhã.",
+   "scores": {
+    "cobertura": 8,
+    "destaque": 4,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 6.3,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUTEtclFqWUJmVTlJTng4cmU5V3NLZi1GeEViUVRJUktyUktKeEhBdFNQYmd4NE5FZksxVVRYNHdRTEFsWEE5OU1KcHdMRGstWnZfT0xqSklmV0RyZHN1T2VmZkRiU3pPeGpram9pTk5UT2J5a2Uxd0VhRUpDVlNJZFMwdnR2V3pQQkpfbXY5NENlTVhCc2REXzgzQmVMdDRuX1lJNGZYSmJ5ZGNqMlhKQUhmZkRfS1htLUJ0MzNieTN1MFdmZkNPWF9McGhmMVV5bnBzYw?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOVdNRlVEOEZ2eGFIdDZVOEVaa3J2bkN4YnI5UTd5ZXNERkdlNVA3TXVNZ1lWaF9ZeEdhRGdxX3h3eGxzMDIyMHcwUU95anBuUXp1OUIyVFpGOGFWOThCUG9obW9lUW1jUUtXNVcyY2tZMXItZFJjSlNaUUE1bDJHWk0zYUlLaXp2UnFfQk1YT0FKbXM2OW1lR2g4TlFLR3J3TnlRNmhR?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY1g4bXpTdHMyeTRKVU5kd3J1TmVlaEpuVzVZVUJjOGZZdGh4WFNtT0lKN1BjeVI4dzZxLVRScEFfN3lpay1qRXhoX2I1X3JScUtvNm41QmxFeFZXQ0drS2NfNmNVZHYyMzd5QnhHUlUxekc5cExET2hKaWlYTnVKSTRwTXJzVXJxXzFDTlRlVXNLOUhHS0ttWlp1NGFsRmo2c2ZGRnlFYTdWQkRIMXNFWUh4Q1F0cTlsYnNtZ1BOTWo1bzM4?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNUFRbW9obU9DeWszTkdVbXVsQnA2c0o0Skc3ZERHejhvWkNvMlpZUlc2eWVwem5meHVFeUVZMWlxZl9JYUE5c1ZpdENTdDRBZmVPNHR3ZW4yR0Z3aXhULWtWR3dEV2k2SWZUdGJMLXZYSWJKSUVFWThWMnBxbUozQlJ5S2JjcEhJQ1BLbTR4RE8?oc=5",
+     "camp": "direita",
+     "position": "editoria"
+    },
+    {
+     "name": "Estado de Minas",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMUFZQVFVYjZYQ0lNZTNzb211dzNxa3p2WDVKZlg5NlJVR0kwMVVVR0x5MERMWUdMU1YtUVEyQmNIS0Q4RDVaWm1oQ1lINjluY1VfRGNYeFRMMTJ2dzB3ekJRenoxN1UwV2Fld0RIRWFIQ2VkamFrc3FZQjI5VFZwRVJFWlRDcy0xemxPSEFHemNfWTlZXzNFQlI0SVB2RkRjaHh3cWt5WGt1UTRQVTVET3U4X1loOEVpdHk2VtIB1AFBVV95cUxNc3AtZU9MbDZ6QXdHaXkyTTd4di16UmdRYkgwem9zTlN0RHR3dmdsY19xdzdRY0RCTlZIaTFmUlpDQWFYNGljbGd6WjVrQWRrajFtdG82UEJtZ1MzUXZxYkFFRXRBWnMxemJCVmdDZ1g3XzRHZF84d0wxYmRtYXJiSEJvUmIzUWkzeUtqOUNJVkxraGRpVm01ejFaTk1rSjNkcVUxZGJYRW1uN0swbVJGWGRZcUFUc2RzLWNRdTB1UHo0cWt1bW1xNGRWUG96Zk1EdVh6bA?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "Correio (Bahia)",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYk42bTN1UkRXSGU5RnpqQUh2X1BQbWZfa2wxdTJ1SzdKQU56RGVPWXpTU1pfV2xnZkVmcEVXcXhDcmZlMDZocXo5Q3NHSFVmd3kzQWVreWF2U29DRDRBNFRLRHI2LWhjcy01WHdxZFpydE9QQzJnT2VmUUNzZm9sZEhMVXE2QVlnbC1fNnZCU1VJdFYwb28tSzlFdzhtYTJOODEwMllmMHlRYWc2bE9QZkl6dzRhaTZkcFBrTFZRVk9IZmxhYXNyNXY5VQ?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "bras-desabamento-escombros",
+   "segment": "seguranca",
+   "title": "Bombeiros ainda procuram possível vítima sob escombros de prédio no Brás, e três imóveis são interditados",
+   "summary": "Os bombeiros seguem procurando uma possível vítima sob os escombros do prédio que desabou no Brás, em São Paulo. Três imóveis foram interditados depois do desabamento. O prédio atingido não tinha alvará, segundo apuração de edições anteriores. Ele havia recebido quatro cargas de tecido em 15 dias. As buscas continuam neste domingo.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 4,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 4.9,
+   "outlets": [
+    {
+     "name": "UOL",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOVNQT0pfUFdaQ1k3MWN1bWp6d3NMRDVsOV9RbkdfLU9OVkdwdjZmWGpPSklXSllGSl9ZUVN6U0dGdFgyUlJ1TXpzRG1VTWhod1hQTTRsM1lQY2phb0pwa2xSRW9qUE5Ecm5HYWlPdHl4SUhzSFo0RUFiX2tyZW5Sc3BNdXkxWkJTSVJHUHVRb0xDUTNyTzZyVU4xR3JxNlp4dnUwZ01ndVZKWmZYaEJBOVVfOUZzM0dmaWxBbnNXNlF0eDRyYWVfVXBOd3JENlFFNTl5QmN1MDY5dw?oc=5",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZGtzN2wtWkE2NHpHMERnV1dlbWVFTXB0WUpJWWxENmZQUXRPYVdNTnJUUVNEWUNxc20wdGZzWDFpOWE0V19UYWVqUXo4QjBqS3JJNmthSWRwMEVrOXNCOF9IRUxFVVJEUWRNelU2Tzg0cGVYaWY3TVZqeVc2YS03bTU3OTlaT3ZsWFBGM3Y4bmRjUDI2cXVDYzlCYmc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Três imóveis são interditados e as buscas por possível vítima continuam neste domingo"
+  },
+  {
+   "id": "enem-primeiro-dia-lula-inep",
+   "segment": "educacao",
+   "title": "Enem 2026 tem primeiro dia de provas para mais de 5 milhões, com chuva e apagões em locais do Rio",
+   "summary": "O primeiro dia do Enem 2026 reúne mais de 5 milhões de candidatos, com 90 questões e redação, em prova de 5h30 de duração. Os candidatos precisam chegar antes das 13h ao local de prova. Lula acompanhou a entrega das provas na sala de monitoramento do Inep e desejou boa sorte aos estudantes. Dois em cada três inscritos têm isenção da taxa. No Rio, o temporal deixou milhares sem luz, e os apagões afetaram locais de prova.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 10,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 9.4,
+   "outlets": [
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHNKRUxFc3F0bl9PZUVoV2NwUDFVU1VIbmhfaXc0Wm8zYnZjRDJQazFnQ1Rqa183eTk0bXBxRXl4b0NCM0hhTUUtWmtMMUhTRXZqaC1tVWVjNVg5Z3F0anM5NWh3V2ZUdDQxRnMtajVuN3BMTi1RdmhQMWV2TzZDR2E3ZWtmZmdjR0YwVjRlcFlQd29kalVDb3RDcVNLeWc3Wk5FQ2thSQ?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUmg1VG1Nbkp3Y2RNZ21QSWlScjF6Szlua0RVVWZCdENJR1FXajJCWlVfbE1XTnJweUFEZVVzY0RDREotaXlsSE5NTnIyV1VabGs4Q1NGZVk0QkJ0T2dUdHFYaEdFb0ZCNUluck93R0NrZXNxbms3RW1wOGdCZ3RqUkU1MEN2ZDFMQS10UkJ6Mm5lS1BCNmNNMGxGOGcyQVV4ZUJocjB5UVRUclpYZ0pmdFJMd2RYLS1UU1RtMmFpM25RLVZV?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRDk0dU05ZmhBS0tDYWI1aUhFU09rM0JDMnV1bElOQmJZWWY2U2U3UERFenNKcVQwN2k1UzFRWEk1dlB5ZHNrMUduTmxkTG9WdEQtS3p1c2xvV0ZycUlJYTVudXFHaWZ4cl83T3BxT0ZUM29iT2VCdzdrQ216WTNXa2xhOVd4b3RyWDZYMUQ5TWx3bWVzek1GN1hka3pkY09CMTgwWUJHNTBMb2N5VXdxYkIxY0FaZm5FOFhHb0VYcTJncDNQbFVLMnlsNS1zZw?oc=5",
+     "camp": "estatal",
+     "position": "topo"
+    },
+    {
+     "name": "Jovem Pan",
+     "url": "https://jovempan.com.br/brasil/mais-de-5-milhoes-de-candidatos-realizam-1o-dia-de-prova-do-enem-neste-domingo/",
+     "camp": "direita",
+     "position": "topo"
+    },
+    {
+     "name": "Revista Oeste",
+     "url": "https://revistaoeste.com/brasil/enem-2026-prova-tem-mais-de-5-milhoes-de-inscritos-e-10-mil-novos-locais/",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGxlNlN0Ri1KUWRObXQtaGRQd1BMOU5Va1NEcE0wb3l1WjYzYzRXY2ljY3hFd21UX2tCQTk1RmZVMmd0a1ZWRWYyMXlpQ0VEMXc4eEI2N1l4MHIyQjlnQ2VHT1N1TmNZcFFONnBxSnlfNW4tWUdTNGJMcDFFN0RESEVYVVVGMHZvUHVRdFhfOXFQeWNnZU1EVEw3OUptQmJla2lUVnF3cnRRTE5rQVd0TWdGQnbSAbwBQVVfeXFMTWNybGp3NkRxbTA0cXZiSEpWSFBidzZqZFZDdEJjQlU5X1RLSjlRQ1lreGdfS3U4T3JqdUhNMEZMZjI2UVg0SGpMTlFSNkVUd25tRnVhUTNkbWE5UkxObmp4anJ0T2FSSjBuMUxacktFTG5DNVZoempRV3ItbXRvMi1TVExDbnVScmNhYkpGa3RkZHZoZjNiYkNNQVJxTTl2My1OTWdvblpSaXA5aDFEOV9NM2ZZNnJSSUVvQlU?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Metrópoles",
+     "url": "https://www.metropoles.com/colunas/manoela-alcantara/enem-2026-pf-monta-operacao-nacional-para-garantir-seguranca-do-exame",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Veja",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2RxRlVtQjA4S3NNQTNvYV9qQmNnSUhpZGFkeHUxRUNIMmlXMkpnUm1ld2wza1BxQUJ3N3NMUTJQb1ZxdDFWUjQ1VWxkMVRUc2NneW05NHZLLUFLRWkzQllwNVZ5aFdMT0ZEeXh0Tk0zOExsZnZrMVJJWE41YXE5aWl6YllGUGJUYWFmUG1iUlhlTVJWbDRpcjFJVTJSWk5FZ3dQb2M1RGNWdXhpV1pyOE9xTWg?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/primeiro-dia-do-enem-neste-domingo-8-deve-ser-com-chuva-nas-regioes-sudeste-centro-oeste-e-norte.shtml",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPb293MFZlczFVQy1fWkV0Ql9rclU1Si1jZzZJSHhFZXhiVDdvaFR3TFB2b2hKZ3RfQUJINWs2YzZjYjNSWWZOaFlwZE9INFNuTTN2ZHJCenA1R0hoOXViTU8yQURaSm1teHkxX0tDeklnZnFNZTc0dkxqZjRQS3hYbGhiTWJWNXIxakdkcXloTkFuV0p4d2djVkt2LVpmRzAzZW1wX0FBZ3lXbUVQS3pFdGtDc1Y4ZkNxazVNekdLai1Eem14aDhrYm81d1Zrc1ZGaVhKZ09vNWdBSGlSZjN2ZnRuRWVDTWxuWkVsb1BnQmFvbHJMYWpBaXI2QmVSZmPSAY4CQVVfeXFMTi04N2NRUlZ5ejRabjIteGZLN290WWozcWF4TFRWcEdXTUVDaVMtNVFYM3pJX2ZBdTJicTFsQW1XMTRBWEtYa3NNM1dOdkFxVXo0WXlOVWdpRUc4aURDS3JQY1kzRUNHLXo4X0NxLWZaYXVPZlhjUUFHalVJa09XTVNfRE9FbHlhdFBFRUQxS0o0WFlveGNoMGxicFc5LWVlUFJ0OFlJT2hVYnBKMDJxOW9aamxqVXNrRjV1OEpwMk1GVFQ5a0VpYVVfaThYRTFyazd6ekdfT2ROTjRfTTkzZzFVOHRZRFFadWQ5b29EQlllSTB4QTFDbUlLZmZjZUNvbVU3UlZHM28zb2dlaEZR?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3BiS0E0cTB3N2dGejFyLVBZQkxLUXNIZnA0aEdYcEhQUUlJM2owckpab203LWROcDZUYnpFMTh3cjNWQ3o0MkhVQ2h3N2pEZkEtV1BnYVBfSlRkeHFVM1ozN3NmS0N0YzRXd1RIVzRzdmpFWFc4ZmRIYzFPSXUxNVo5dDRZQVBQY29fdWhTdFF3VnRMT05lMHcyYVpUZw?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Tribuna do Norte",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGNQamxCWkxCSndsQ1pqTGN0emRCckpzMVlTZnRRV0FWRDVVZFZDckw2UW9Pelp1SUk3SUZmZzNsa240Wk9QYnlLdENPTU82SGl0ZlVKSTNCR3JaeGR6bWx4S0dGX1BJMEJHMEhiSnVpTEVEWVk0M19FRlY0ZWd0NTdFTFlEYUNfVkhYajQzc0otNGppSllDN1JmWUlHNG1YZHpqcGNXOVJDUQ?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZEVTX0lKamFaNEZnVkdYc0xDNy1LNGRWSXQ0TkZuX0VadGJQdHdUeEJPeU9HY1ZjS292MVF3QWlLT0V5eXk4WHdzZ0JxNS0zRGNRS3ZLZk5BRHBCakM1SFgybHN5U1lORTdWUUF3TnlYQ2ZHSWZBT3ktQURmcUxkdXdqeFdXRVpMR0ZyZTQtM3lvemNNdk5DZlRnTkxXWmxTUXRWSVF5T3EyOTlMOVFKbGR2NHBxM0xrR3h2NzBYZ07SAcABQVVfeXFMTmRFU19JSmphWjRGZ1ZHWHNMQzctSzRkVkl0NE5Gbl9FWnRiUHR3VHhCT3lPR2NWY0tvdjFRd0FpS09FeXl5OFh3c2dCcTUtM0RjUUt2S2ZOQURwQmpDNUhYMmxzeVNZTkU3VlFBd055WENmR0lmQU95LUFEZnFMZHV3anhXV0VaTEdGcmU0LTN5b3pjTXZOQ2ZUZ05MV1psU1F0VklReU9xMjk5TDlRSmxkdjRwcTNMa0d4djcwWGdO?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "As provas do primeiro dia acontecem hoje, com Lula no Inep e apagões por temporal no Rio"
+  },
+  {
+   "id": "mensalidades-escolares-2027",
+   "segment": "educacao",
+   "title": "Reajustes das mensalidades escolares em 2027 chegam a dois dígitos, até 14,9%",
+   "summary": "As escolas privadas devem reajustar as mensalidades de 2027 em dois dígitos. O levantamento aponta aumentos de até 14,9%. O Globo publicou a lista com os percentuais por escola. Os percentuais variam conforme a escola. A ICL Notícias também deu o levantamento neste domingo.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 4.8,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNak92UVdIenFlRGxZVUNlQS1VQmJNMFBha19oeGlESGVzWnJac3B1NGw1VUVRUXRfZHlROUFaVmNkMmJ6NFV5WUhUNlpZVGpSUDJ5LTlXZ2ZRMTZ0MWI0d2lGZ2I2akpRcDB2V2x0OHJEc2VKTTg3NnlIeXRCWWxDQzFGa2x1NWVEWE5HM08zS3FDN0EwR0cxTV9TWTlDWVpTMHQxN0U2NWVkSTZ4elMyWGRHdk5NZkdIZ2pDMDR4NVlmZU1lVlBPMGpLeGhheHhWQ0NsaFVjZmY2Q2xpS2I1aEdBV181UnhvWGdQcDEzUdIB_gFBVV95cUxPOEFMeEJkVkYwQnFLdE1OVzlnbTRHdFduNS1OUExFUHVlcGJ4WEZaM1F4X25qU3o4UVE3eHktbmdlVTBMUlZacjY3UTdrVkd2c3dlazZoZExFQzlJWURySEpSYlBta3pfZm9QU3ZTcGs4ei1ZVGxfZHNQT21tQUZUWlhkWUFGNnptcnh2R0x2ZXNUcjRTMTlhejUwV0ZFOG1pemlHYnVzQzZMb3pWeTYtMEYwcVYzOXNzWEY2dEtoUWNxaWFOWDY0RE0yTy1kLVhBdWl0czF0ckxfOWZWc3B2RGx3N0Rmb284ZWY2NmJKbFlMRUZpN185N0NWNVhWUQ?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "ICL Notícias",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9reDRiUXdkLVZZWnFkSHAxTzZTQnNueG5qU1B2YzNoczBjM1Y1WUJYYU93Qml6bWY5NzBzbm9LZ3FuLTBPbnpYRGFrS21RaEd1SzhVakNTZ1ppX2I5T1dmbmdVT1hXM2ROOUEySW92bEtTZDlJSVVRcGU5TVgydw?oc=5",
+     "camp": "esquerda",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "rio-temporal-torres-enel",
+   "segment": "rio",
+   "title": "Temporal deixa milhares sem luz no Rio, cancela shows e aciona sirenes em Petrópolis",
+   "summary": "Um temporal deixou milhares de moradores sem luz no Rio de Janeiro. Os apagões afetaram locais de prova do Enem. Shows foram cancelados no Rio e no interior de São Paulo por causa da chuva. Em Petrópolis, as sirenes foram acionadas. No Méier, um muro de escola caiu depois da chuva forte.",
+   "scores": {
+    "cobertura": 9,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 8.6,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPb293MFZlczFVQy1fWkV0Ql9rclU1Si1jZzZJSHhFZXhiVDdvaFR3TFB2b2hKZ3RfQUJINWs2YzZjYjNSWWZOaFlwZE9INFNuTTN2ZHJCenA1R0hoOXViTU8yQURaSm1teHkxX0tDeklnZnFNZTc0dkxqZjRQS3hYbGhiTWJWNXIxakdkcXloTkFuV0p4d2djVkt2LVpmRzAzZW1wX0FBZ3lXbUVQS3pFdGtDc1Y4ZkNxazVNekdLai1Eem14aDhrYm81d1Zrc1ZGaVhKZ09vNWdBSGlSZjN2ZnRuRWVDTWxuWkVsb1BnQmFvbHJMYWpBaXI2QmVSZmPSAY4CQVVfeXFMTi04N2NRUlZ5ejRabjIteGZLN290WWozcWF4TFRWcEdXTUVDaVMtNVFYM3pJX2ZBdTJicTFsQW1XMTRBWEtYa3NNM1dOdkFxVXo0WXlOVWdpRUc4aURDS3JQY1kzRUNHLXo4X0NxLWZaYXVPZlhjUUFHalVJa09XTVNfRE9FbHlhdFBFRUQxS0o0WFlveGNoMGxicFc5LWVlUFJ0OFlJT2hVYnBKMDJxOW9aamxqVXNrRjV1OEpwMk1GVFQ5a0VpYVVfaThYRTFyazd6ekdfT2ROTjRfTTkzZzFVOHRZRFFadWQ5b29EQlllSTB4QTFDbUlLZmZjZUNvbVU3UlZHM28zb2dlaEZR?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://f5.folha.uol.com.br/musica/2026/11/shows-sao-cancelados-no-rio-e-no-interior-de-sp-por-causa-da-chuva.shtml",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/nacional/brasil/sao-paulo-e-rio-de-janeiro-sofrem-estragos-por-tempestades-veja-imagens/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Poder360",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQXVnLXZxRVR2Sl84U3RfRGplZU5uQzAwS1hjN2V6bk5ncXZEZlo5bDd2VnF2U1FzN1JZa0tzbXhhU3hRYVhOTmdLWFdfRUlXeHFvSTdtSnFOSng2Q21KX04zUDhNeVVoOTROME50dFptblU2Rk9ydjlVa0xmVU1oSXRkaVRnZFhJX0tWT1AzZTh6SmhVUnU3eUphZVVpMEx4?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkNNbGdQVkZVMFhZandmNmR2WTMyZ0ZKU1dtRW1feFFfdldmc2hncDJOZjk3UXkwTEQwY09tOVE3Q0hoMmcyci1EdW9RSzFzVGpsbVBodzJ6bVMwVmJ5U0ZCY3EyU2k1T3NRU0tGdm5ZOTJFTjlPbkFkY3hKQjlMM3NVOTV3RHdZOXRlbFIwbUF2VzNmamJkUzZxYUlUYU4yNy0tNWdaTdIBrAFBVV95cUxOc2t3NWZ6Nk9hTWpDNnZoRTYzNUlfWm9lX00wMkRUUkJCOVV5ZnBzYjZMSlBZMXVrNm9wV0w5ZWhTY0FtS2VUMEV2RklFSXZSMTQxXzV3NkE0U0J0MF9sSzhZLWNNV1ZPZl81cGpvWm9pdWF5dGJCdEU2VWpWNzBscnRaUzhLMXQ2bDEzc3NmNXpQWWd3Zm5wY2tNTVdMLTBtTGY4NTJwNHZxemd1?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Rio",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWVJRXZ0NF9KS1lpTXV3ZGdhZmxKVmdSeURWLU04TnlQUzB3dVdmaElvM0FZRXhUOS1MYjdaRVVfa3d3SnNvMzFydFhXa2QtaEVHcHV6WTVpQUp3ajVBOVZBRndtUXFqMmRtbUk3WTVPV2dtcGprakt1LW42SkNDeFFIcUd5U0tROWZhRUxLSjFiUTUzV3E1cWNBR3BJR3duZzh5UWVJcDFkNVlzOVNENHVFcFFGcmszb0Vr?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Rio",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUl9UM3pSWTlveVJ1bHV3cjk2cFV4Vlhvdzd0WXQ5LUVzTDZSTVdhT1ExM2l0RUNjMmtUQzZkcDdpajJzMFpsb25BdF9odC1aMjA3VXZ4Q012NS1LcmZlWXRERllQNEpqOXdJdzRhX1ZlOGFHTnlISkd1ZThoQVhzMUZmTW1aUVNFWWVNNGtWZDcxbElfdVhlLURMc2pmclFlMG9RR2ZHNi1oWmExNlhB?oc=5",
+     "camp": "rio",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "garotinho-direitos-politicos",
+   "segment": "rio",
+   "title": "Garotinho tem suspensão de 8 anos dos direitos políticos determinada pela Justiça, mas diz que segue elegível",
+   "summary": "A Justiça determinou a suspensão de 8 anos dos direitos políticos de Anthony Garotinho, que é candidato ao governo do Rio. Garotinho diz que segue elegível. Ele afirma que fará o registro da candidatura ao governo do estado. A disputa pelo governo fluminense tem ainda Eduardo Paes. O registro da candidatura ainda será feito.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 6.3,
+   "outlets": [
+    {
+     "name": "ND Mais",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYzRZZGg2UGkyRUx6T0kzakNyYWlQM2VXSnp5TGdqMElybjdqOWlSQktvVmszQzcxYXVOOVZaQWxRNjlVaGhLZzNSeXQyUWtsNkdpbXUyOEJnMHVtTjlCcnFPWXItM3ItSE1WQzRiZ1dqcHl2NXV4V3QycUdCT05Od1lPU0Z2T1JKYmxfeTRPell2QWhHdnZIdjRZM3g1dw?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Revista Fórum",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zcXVsR2U5SnlHWk9yZmVzUUlYR1dTUXRrOW9kMEY4aGlxV1B1dHFvSk91dXZxVmVWeU5rNFIzY2FSWkpranJ1eElIUGJTT3JEM0c4d2F0aHhYTGMyUG9xMFcyaFNSQ3FJcmk4RWJZVUJrTE1aLXJtQTln?oc=5",
+     "camp": "outro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "paes-lisboa-apoio-norte-fluminense",
+   "segment": "rio",
+   "title": "Ex-vice de Douglas Ruas, Rogério Lisboa, declara apoio a Eduardo Paes, que percorre o Norte Fluminense",
+   "summary": "Rogério Lisboa, que foi vice de Douglas Ruas, declarou apoio a Eduardo Paes na disputa pelo governo do Rio. Paes percorre cidades do Norte Fluminense. O objetivo é intensificar a articulação política para a eleição estadual. A Gazeta do Povo deu o apoio de Lisboa na noite de sábado. Paes já defendeu segundo turno no Rio.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 4,
+    "persistencia": 7,
+    "peso_voce": 10
+   },
+   "score": 5.8,
+   "outlets": [
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWVMxVmN4QjdHQ1Vib3NfS1hoblhIM1ZhODNaSVRzWHItbWpHV1dkYXhUX3F4UVgzMlhoUmNUQzN1M09BOFAzUjZhNjB1cEMwYnlvYnVla1dRZ2owd0w5R2o5OEJXWDZxd3hwUFZMMEZqdjJCbVJzRmtqWERIRHVUZ2hpX3Zhd2JMRmsybUxRUkJyVXU3RndwQnNOdmZZZ2lDYktveDRHY014cFdPVlM3SWRza1FMcUxlTVp3bW9R?oc=5",
+     "camp": "direita",
+     "position": "secundario"
+    },
+    {
+     "name": "Portal Viu",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNT3BxU2xKMzhFOUEzX2RpQWxZaTVyRU90MGRmck9NZFhTR1JvWGlrenFNVHJnRThTS3g3MFV5Ti1EMW5MTVVtODFibnNtYldMalpBV3R5MDlqNjBOMEVxdWVKbThGYkpuZU9BcUE4NHJad3FDbEI2X1Y1bEQ3cm1leEtRU0tvNVZvMGZOUVRVSnZKdjdoSTRlY3VXWnliVF9hS0JVQ1RkV1YzNmE4UWtXT3JTbm9RcXZkNkx6R0xieHpzVGh6VDhpUWtoenBjRnFRREVSTFk2R2otcHpHN3BGeDJmZTcteXU1MzJaMmdxbVBjTlh3UVRwenZxTGM?oc=5",
+     "camp": "outro",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Rogério Lisboa, ex-vice de Douglas Ruas, declara apoio a Eduardo Paes"
+  },
+  {
+   "id": "brt-conexao-ilha-governador",
+   "segment": "rio",
+   "title": "Prefeitura lança duas linhas de Conexão BRT na Ilha do Governador, ligando o Galeão ao metrô",
+   "summary": "A Prefeitura do Rio lançou duas linhas de Conexão BRT na Ilha do Governador. As novas linhas ligam o Aeroporto do Galeão e a Ilha do Governador ao metrô. O serviço amplia o transporte público na região. A notícia foi divulgada neste domingo. O serviço é uma das ações de transporte da prefeitura.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 4.8,
+   "outlets": [
+    {
+     "name": "BOMBA BOMBA",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVVVZaDFXOVFPRVBCcTlSZWJpd28xNmZNSkFrU3hVSWhXUU9ySEI5VjlIQUxGc01zakF1RVBBV244TkUwb05fVFV6ZFc1V2RNaUNBVnlHYkg0OWppS3ctTmZuYUhjZVF3TkhpWFk5X2lpRTByUFpPRERXcWp0TjhRRmpVR25mSDN1Y0ZNeUpwRzlqSGZfR1Rn?oc=5",
+     "camp": "outro",
+     "position": "secundario"
+    },
+    {
+     "name": "Super Rádio Tupi",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV0Q5NldielNtS3JfbWFJa1lhQnFVM1JiNjZWZS1NdGoyNzllWFFybm1YTFdhNEZjMXJkU0RKdDdQTXhLckM0RFJOLVpFZ0JxaTUzMEdvXzlrbzk3dXNrXzlVYjltOXRXMDlEamt3REZha2M1c2t6aVRnbktDemZDRHBQUG8yQQ?oc=5",
+     "camp": "outro",
+     "position": "secundario"
+    },
+    {
+     "name": "MAUÁ AGORA!",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMXc4TkNpVV9pVS1xaXBQb3JaLXJ3YmZpc1dTMFNwcFF0ay1kNWdHY1JPeFZselJsbUhzWGpickdkaXFuZG8wd19ha3d6MHVLRTIyaUZWdmxQU0ZmUWhHVnVsR0dPeTlKanB3SVBZSXJuM3BCUUFGWGtkYzVjNktkTWZTNHNDX0pzeGppbjQ1VWd5bFc0ODBDQzBiNGFtMVFfMDNTUVNUTkhZOUpDOTZCelZIY0tMZkFCR2RRcUV5RjfSAcABQVVfeXFMTTF3OE5DaVVfaVUtcWlwUG9yWi1yd2JmaXNXUzBTcHBRdGstZDVnR2NST3hWbHpSbG1Ic1hqYnJHZGlxbmRvMHdfYWt3ejB1S0UyMmlGVnZsUFNGZlFoR1Z1bEdHT3k5Smpwd0lQWUlybjNwQlFBRlhrZGM1YzZLZE1mUzRzQ19Kc3hqaW40NVVneWxXNDgwQ0MwYjRhbTFRXzAzU1FTVE5IWTlKQzk2QnpWSGNLTGZBQkdkUXFFeUY3?oc=5",
+     "camp": "outro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "dengue-wolbachia-projecao",
+   "segment": "ciencia",
+   "title": "Mosquito com bactéria se consolida no combate à dengue, e Brasil pode ter quase 900 mil casos em 2027",
+   "summary": "O mosquito com a bactéria Wolbachia se consolida no combate à dengue no Brasil. O método ainda esbarra em gargalos. Uma projeção indica que o país pode enfrentar quase 900 mil casos de dengue em 2027. O levantamento lista os estados que devem ser mais atingidos. A Folha tratou do método e A Tarde, da projeção.",
+   "scores": {
+    "cobertura": 3.5,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 4.3,
+   "outlets": [
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ciencia/2026/11/mosquito-com-bacteria-se-consolida-no-combate-a-dengue-no-brasil-mas-ainda-esbarra-em-gargalos.shtml",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "A Tarde",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY1dhRUxRTElUZnVPOWFGUWlHeFpfNUE0Z2hOV2ZJUmt3WXR3VGJFNjZoako4LTdBbkVodEdibTFGdjZFUld3SWtkRktBUjN3bTdUUjNMdXRwM3JzUS1yUF9Wbi11eko1ZXplSTJwUGE5SzFGVktNMmppRk4ycE13cVZseGp2eERCdERjcjFIVHRKcDh1Unk5Q2wwWG5saGJ1dDYwR0hQNzRER1No0gG0AUFVX3lxTE9fNkJOSnpVUWlvYkxwMlA4Tmp1OHJNeUUxcnZtdkJQZ0RyNGZGenE0ZFJ1UWoxSmU0OThDREhPbVNQVVdKS1dOUzZHSk9LZVZHemNtbWdsNDBqZGVrT3VEWThVSHpoQWlQdURZdjZGaWJXUEJNVENNNElkZVNYcFBXN1B0Mm1PdmJvNi1EcV95N214VUtrS3hVdHVZR3R1c0VoLTlFRFdzUGg1LXB4NkhlZ09ucA?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  },
+  {
+   "id": "anthropic-data-centers-ipo",
+   "segment": "ciencia",
+   "title": "Anthropic fecha acordo de US$ 3,4 bilhões para data centers, em meio a dúvidas do mercado sobre o IPO",
+   "summary": "A Anthropic fechou um acordo de US$ 3,4 bilhões para abastecer data centers de inteligência artificial. A empresa prepara o maior IPO da história. A CNN Brasil avalia que a Anthropic escolheu o pior momento do mercado para o IPO, com o Nasdaq em queda. A Gazeta do Povo trata da trituração de livros físicos para treinar o Claude. A reação contra data centers também se espalha pela Europa.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 5.9,
+   "outlets": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/mercado/anthropic-escolhe-pior-momento-do-mercado-para-fazer-maior-ipo-da-historia/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Exame",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWczN0xtUUFHeVBUVW54Q1h0Zi1XVVpQVUlNalhxd1Q0b0JzdXpZZ2t0a2hhXzVxRVhidV9wejdQQ0k4VHRtZGdQVk9MOTFJRjNaSW9ZN2t4eG5HREswZ0FpNTN6VXBMVGJwdE9ENnY2SXBwam1Wbjk1Z2tyYWVNYzB4UUl4VHNZLWxpcDEzdXN3R2tzLS16dmI0d3J0RmZMZXRDUnZrTmNUUldnaF9fSWVqcHVJN1k?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Gazeta do Povo",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVU1Da1NLOUJ6dXpheHpZZzFDcVhxU3BGa1IxYWZtMDEwVlNvdzMzdEtZZ0NMN0RxdEhFMV9ScUh4ekU3SkhlNTNTTDZSS2JmNkdFWmx0eW5NaktnS3k2dGswNS1DRTZ2TjktUTR0T3R6aFlDTncxMjhTSEI4UTRTRk80emJtWWlWQ0NiSGprR3AwNWdqMTgya0JwNktpYkY5aklyNFVrdF9ZdjZUTXUtcTFDMzJ1QQ?oc=5",
+     "camp": "direita",
+     "position": "editoria"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "Anthropic fecha acordo de US$ 3,4 bilhões para data centers"
+  },
+  {
+   "id": "vasco-palmeiras-semifinal-hoje",
+   "segment": "esportes",
+   "title": "Vasco recebe o Palmeiras às 17h, em São Januário, por vaga na final da Copa do Brasil",
+   "summary": "O Vasco recebe o Palmeiras neste domingo, às 17h, na semifinal de volta da Copa do Brasil. O Palmeiras tem a vantagem e busca a terceira final do ano. O Vasco tenta a virada e terá o retorno de Andrés Gómez. O jogo tem transmissão da Rádio Nacional. O Grêmio já garantiu a outra vaga na final.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 8,
+    "persistencia": 7,
+    "peso_voce": 6
+   },
+   "score": 8.0,
+   "outlets": [
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdVQ4TUhYMnR6ZzR0MkVrV29ENkhCSi1CV0FDWUl0dGhwRlJlVjBoV1N6Z3c3enpFSjRhZ1NEOEoxVGtweXgzcEF3Ymo1aXhaMjdaMDRpbDAxVkljVEFSUlMwZUx4OWhYMjBwQkJFQTZKUk55S0djWjVLV3FidHktSHg0bnVETmpEVGtRMnBwX21RcXBvT1dtN0Q1bzRyd1NOMkhOUU1zQ0o3SEpVWGU0TmZvMEJ0cHJaZVNFMUVQSUh4dHBwYXQ4MUhwUTZ4Q00?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQSzhrYlZVd3lVMEgtU3FzejVDZW1PZGRiVkZpUndkQlZjMU8wSEpSOXhoeGJUUTExRFBEUmN4TUhhczFFcERYTUZmcDZiS3cyYW92UjdTWW84RlJIc3V3N2tUV3g2RzhoWUZPT2RGWEE0aGo3Z3g4U3ZHYUtsWEEyN2dKMHpHdmVESjJJZFBncWJGUGJ0alFwM1U3UmN1MkIyb2JmeGNUU0ZVUVJMNkhsUFlvVlFTOGdrbmE1THFSejd6SUNqVWsyYU4tSEY1T1c0b01lNEMyd1M2a3RRVTR6V3p5d3pST2Y5LVAwb09GeFJ6ZlpHN1JITXN0ZzdOVnRwZWV4djZNOTVUZ1JuY0p6OFRBNkhpTUJvSi1lOFk0Z9IBrgJBVV95cUxNMS1fYllqTnhSZHpQX05tUUFwTFJyTTFOdk9iWE0xalJJZm9JRzVra2VwSGRROWdXcW5aektWZFdXdkwtRWduS1k0NDBwdmtFSlNJOFJhNmFpOXVPZ1U2aWJlZlJQMmNwWnYyemNJckY4akRhM2hNWkwtQmhHWHNTbEgzMnhQOHMycXp1ZnFYbUp2S3ZkcnlpdzVWWDROdHpoaV9TY0QxN3JEOXhFam8xLUtPVkVuRE5VWHd5UTduVUIzN3NlbGY3Z1pWSGVaNFJ3TUppMEVzYkxILS1laGYyUGZCUGxQSzNleFJuTlE4Q1VxeExXS0JpM3pOcmRtNzFISDQxeFJsWjdhU09hQlZMbm1ybE04VnM0SkxyVlRQSFdpMk5wWWFDVlpLdEcwZw?oc=5",
+     "camp": "centro",
+     "position": "topo"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbjdMendpeFJZUXJGY1VqTFhGSGZIOGNHUGxDaUR6bDRyYnphSzFGWDhMVFZpNk5FREZFTVF5bHpKMFZST2xWZGswQVNGcFlPc2dITlVxSExybWRCYWF3Nk84ODlwSGx4X3dOY2FQMWZCbWV0RlNON3ZBSENtSWtNSGt5UDNfTF9jMzZsOVNYaWU3LWVUR3Vpc080WGtxWktGcXdKQ0w5TnI1Zi1QaTFwcUE4dFY5VmZVaUtpanA2b0hzV3FERDJZQzFucWs3UjJqUHdfRTlPVVU0NmJ2TmlFbV8zZnE4YmdNUkpCOXpLQlRFUG9mM1dCLWFqN0NVaFZ0VG9lUFVuNG9GRDFwYkHSAZwCQVVfeXFMT19ISlpSWjlrT0dubTNESGRoOU9KdjdlVy1kVTdNeVpfRXVKeTF0b05ucGFSNmhhZGtteW9aR0xVUlFxdUZBdWUxZmhFRVF5Y1JzR0NGa1V1aEhYVnBrd1ZCcnVpRTI1UUpEMVZwMEhxYVNfc01vX0w0alVjOEZvcDZMYU9DNkpzaXc3QzhWQzhrdTZzTF9Hdk9DeG5UZG5La0sxM1o3Z3RNY2FqMDNDb0ptVFVLOFRmb2J2bkNJLThTTllzQ1VOTmwyNmhBdkVfVUItUi1RSzItNkFOZUFhZF9zYnNyeF9zUlh3aTFEMG80UERiZ1FhT3JqbURZUUVxV3dRVGVpNER6T05QQkRVWXQ3YnFWU1ZLVkRLc2c?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Meia Hora",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLTFyWGJyQ2ltMmpEX3doSXJPeWZNbWM0NGNyWHVrclZNMzBhSU94dG4xODNzbDRBTldTLS1wSzJJYjNrbS1UZE42bjhtTmN3N0phVi1EVXR2Rm1WVlh5QUg0YkhXY2plSmpQMmJlNWVwZ0NzWU1RSXo2ZGFvcHpHZEpGZlZJd05xUUZhQUpKMkxXdGx1MUxDMXFPMVVXUWhFVV9iVnlfY1IycHlLQWR4WGtjNUIwa0JOTEVR?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Agência Brasil",
+     "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/copa-do-brasil-radio-nacional-transmite-vasco-x-palmeiras-17h",
+     "camp": "estatal",
+     "position": "secundario"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNclFtNWJLYWoxNlNRdkF1S0tBSWNpYzRLdmhNTk9waW9Na0NkS1ZscWl0VTVtQU1iaHJQeHlBRUJtWEk5RlNQRVg3ODZyX0FCeDZzYXVzMTRseVFsQm5KRHA4XzhxTDAyVDNHdUJJZTMySU9UdGhkVjY5Wk91SFdTTERnbVotR0VUREgzU29IQklTb2k2aGMyMDV5bEtISXg3eVB4cldmbXRTelEtR0NOSUoxYkRwdnZaandzVElrNlg1STJydTZBWFpIOFFPR00ydVR1cTNTSFBoalhtZ0Y4QU1PWFNJc0J0N0VLcjNoWWE0WFJOYjE4TEJOQkZzZUxEN0VROFBUUWw1cG5jaERmNTk0ZHZXNWY1T2xsaA?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQejBqbTF3am4taEZrX3RIMnF5T0dqWDI5NXJQOUp6TkNPUWFNLXJwU0lvMFY2Njg1YjlWeHFTVFRuYmZoYkxsbWh6SS03aXFIVHZPazdDckFWeUF4ZFQxb0xZUURERzQ4UmZFTl9MazFtZVNybGFWel9zMHVJQ1d5U2JFUE1mU3Itb0dZaFNqWWhKeGx2Q0RBRjhuZmdLUWFoWUtCa2ZBakdyNUtaZ3pVbzJfd2JXeVN4b3VsLTFvM2tYaEE?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "O Dia",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPODltQzJGbF81R3l3amotRXlFdXJWeGJVZUp2b19aZUU5ZTRBb09SMm5xcVZxa0lVVVh0VUFJVDNoVjlyVjh6RGxvc29OMWZfWU9hMTVLWFg3eTZtUEphU2JSTktxTUVtWFJZakhJY1p2aWVha3FRWXpZR1dmNkNPcnlFbVZrRjF6WHFHNVpOZ25zQUpuSVZuXzNDWDF4U3UyYnd3QTVGQTlEdUVwS0VMWEp0QkV1UdIBuwFBVV95cUxPUEMyU2M4eUJRT2E3a256RG9NaTdJdEwtT0VqckNXbVdYbFNzSFk3VzhTOWd1VG9Vb2xBWTJ3RU1mU0tNeWVUWkF4V2NUUmttYm1WeEJJWXdTODJEZi04cEZnZUJzWEVjUkFSOEJrRjBSNENIUGJMeTloMTBkM1NBOU5uSFZKOVlmbVZvQlZoNDM2SnZkeEF2MGdDOUgzdlM3SXhJUTg3QlRaOTdWTDZOeXdDMHMzeVRKUUEw?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQemh3SVE2Mi1Ga21taE1FTlR2c2EwWi1wU3E0LW1vR3pJYTJOWXBuaEtlY29jTGNQTkRfekRYNDI5enRFSkhBemwxVWE0SmNsLWVYbGZpclZXdzFXa2hJSnhxeVViN3llLXBPMWpBazl3aGZSU01JM3I1aHFZLWVwQm1HLVVPYjZpbW1nQUxXd1VTdVZIRWZxeEVVaHMxYlpEZFAtR3NLLWZMaXNQUzBGaVRDWlU0Yl9OOUM3UFdNa3NyWERvM2tuU2VpWQ?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQREFSYm1sbGZnYUdycGZnbkNIVFpHNU5UbnZ5VU9BeFRZVDRBVTBJdUZONlJyZWZ4WDRmTDhseFJYYVZ2MXNUSlhnUUZpSW9ha0U5VnVlcFRQZFJ4MzFNdXI4N3BhVXhXOUphRE1KMHV6NG5VTnJGeGtWMjJnWGJFZjlzbmstRWRPQzRJVTNMbHFQZnpQcUZjR2JDYThqeGtpRUFnTk1iM0x6eUswaVJHVEk0eVowNjlBaXV0MlhfRVNsSndLbHloNjhhREY5aDAzQW8zLXN1ZVJZUGJWOXZrcNIB4AFBVV95cUxQREFSYm1sbGZnYUdycGZnbkNIVFpHNU5UbnZ5VU9BeFRZVDRBVTBJdUZONlJyZWZ4WDRmTDhseFJYYVZ2MXNUSlhnUUZpSW9ha0U5VnVlcFRQZFJ4MzFNdXI4N3BhVXhXOUphRE1KMHV6NG5VTnJGeGtWMjJnWGJFZjlzbmstRWRPQzRJVTNMbHFQZnpQcUZjR2JDYThqeGtpRUFnTk1iM0x6eUswaVJHVEk0eVowNjlBaXV0MlhfRVNsSndLbHloNjhhREY5aDAzQW8zLXN1ZVJZUGJWOXZrcA?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTEJWUmI1aEZ4cldIR1FMNm1jNW9FOXF1ZHpHY1hjNkNWM0xBT3VjLUx3VWI0c0xoa0gzX3hxa3Bkd0NUMXpKSUhpNEg5WlNyMm1waFJBaVJaRGF3OUQtOWdXd0pWNGlGRjNjZVZ3OTlEZlRBcTkwWmNLVnlob0FYdGZDOHVjUGNyby12ZEYxR1p0X0JzemlMY3Y4U09NNWVNakRVbHo2bEJ1NU9KNXFJMFhRU0hQTU50UmRfemZ5Z3BPZmlTSkc4cE96akU0bEUyRk54T1FVd2xtYTFxOG1CZmlTMi1rRFE5UVV6N1VKaE1yZ3dqSEJUcVJNVndFOXJoNThNdGctN2c?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWGVJcDNOclVWTGhubEJiZ0x1YlEwbVZpUXdkc2w3Ylc1M3NwTGlobTNiaWdZWkpKOFVTYUpPeEdzVzh5WkJWZU5RR0JfdzdJSFR2V0Vsd0pOcUZCbS1RR1BOazVnNXpldWRNOTFQckRWbzItTE43aW84NWhzb1hrbGk4dmpmQmRjZXY4cFRkYmdOUDBHb1lCX29JUzVuUEJzYW9uWVljU3d0alp0RFpqME1wTDg5UnZ4bGpSZlRQS1JPOUk?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "O jogo de volta da semifinal entre Vasco e Palmeiras é hoje, às 17h"
+  },
+  {
+   "id": "gp-sao-paulo-f1-hoje",
+   "segment": "esportes",
+   "title": "GP de São Paulo de F1 é hoje sob previsão de chuva, e Brasil volta a ter dois pilotos no grid em 2027",
+   "summary": "O GP de São Paulo de Fórmula 1 é disputado neste domingo, em Interlagos, com previsão de chuva. Kimi Antonelli tenta ser o primeiro italiano no topo do pódio da F1 no Brasil. Rafael Câmara estreia em casa, e Gabriel Bortoleto também corre. O Brasil volta a ter dois pilotos no grid depois de dez anos, com os dois confirmados para 2027. A prefeitura renovou o contrato da prova até 2035, e o impacto do GP é projetado em R$ 2,5 bilhões.",
+   "scores": {
+    "cobertura": 10,
+    "destaque": 6,
+    "persistencia": 7,
+    "peso_voce": 3
+   },
+   "score": 6.8,
+   "outlets": [
+    {
+     "name": "InfoMoney",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaHo4cW8xeUU2eVpOVUtRS2lld2lRRDFoSm9uOUtLVm1qeEt3NkdHYjgyYVQwbnFBY1RVdVExQjViN0tidmJiUEIzYTMyNXFkcUVPY1V1T3BPNWFSZlhXZUdEdUw4WVVXejdjYWV1T1pZR3A1MnhMLTI3QU42bUc2ZGkwOVF5azFocGJLUFVMNVJubWgybkp1U0lpbHVjZklRQU1VR1M3VFLSAa4BQVVfeXFMUGp4OGpBWkU0TWVRbmtrNEh3Q3hOU3NidVZUZHpKYTdPcXhqTlZDS1NkZkRtcnJsS2hZSW9QZ2YyWnhUQnV4cW1oVFlXOUVsUFJQbDVuNVctREpJMGNlQllsU3hEZVZSODB1YWlxUVZXdkdkcG9BdGkyc2x6N3cxXzhwMlY3Zjk1T1ZOeWNnOEhfUjdUUHZhY1NxQUZia2tGaDFnRUpBWWlFSmMxR21n?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Zero Hora (GZH)",
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPOFhmeGpmaVZienExR01BZ0ZHenBoSGNkNktVUGVzeHVwczR0a3cwemlTWlpQQVN3TEhzTlJLUEtwNzVPNUNlS3k1SEUyM214RWt0bnNtYkdmVWpHaTdyNXJGUGdaVDZZMW5TUHUwQVZFdmpvdlBNUmZEODZ3ZlpBX1RJLV8xTEhnd2tEMlpVUF9Ua0RTQy1OT3BvVE1XeFJlVFpTQUNzcDc2bFltMy1IbWMtaGlSeTdCcXZhU054NUtYSUVBN2Z1YVI5bFhwbzQ2Q2tWekVrMG5SZFRuR2Y4Uzd6b2JQQlNwTnI3VXVNOUtCWnI2V2pGWlF1X1J2MWRpWHVxOHhtR1B2OUgtV2Fn?oc=5",
+     "camp": "regional",
+     "position": "secundario"
+    },
+    {
+     "name": "Estadão",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeFhKd0J1WEdHcWt0Z0Vrd2IwbUVNQ19NWUczUWppajhTdnc1T1d0b3lGLU16Z2J6ZzZrQmVfZzNoZWw5MEljTVNFeFB2ZmRmMXI2cTlMZ05PUms2Ul9ocmJ1c2h6MGNTZzVsTzBsSjZXdXVFYTI3Z0FVTEw1Z3dJMmhTaF9yODVScUJUYWRqUzVvcVM2Q20xWVBLQmkyTjZxNHVXM3AxNndQYzZOS1V5R0h5a1dwWEYyMi04a1F6T3hQSHlqVW5ZT1dTUk9zYUHSAdQBQVVfeXFMUHoxOUJGN0NMWDA5clFKbWpMR3o4UDNLc0VncmFVRkJFOUd2aE1GZEZKN2ozakd4RUFFaU1IXzR4dHYyTXpEZXJaTEVtWUVxRlZ6aGdoNFUyZ0hBYTBVdnBfeXNTTi1acVJaYU92c2xSajN5WGhBQ0RxUlZaS1V4S3dDR01kaVFZNmt1NjhXVmh3Qi1mb2tSZFN5eUlYdUVkSU1Nb3cteXlPdHFtTW9sTVdkcmJBMmMwMElHamRScnhZcmNwRHpZaF9Lc0hCTTdKbzNuSk8?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Folha de S.Paulo",
+     "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/kimi-antonelli-tenta-ser-o-primeiro-italiano-no-topo-do-podio-da-f1-no-brasil.shtml",
+     "camp": "centro-esquerda",
+     "position": "secundario"
+    },
+    {
+     "name": "SBT News",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX0JPOGR3UVZOeDd0UlBYaFV6N0daYlg3RW41ZXZXTjdiMWJvQl9DUWY4ZzhUdWJOenlfSzdxQTZJNmRRd1NQYTMtYmxPNDVQNnJQLXFJc21GVmN2bUVXN1pSS1ViUkNCSlNySWtnT05DVWdvNmNHWmFzbWNFdlpCQ0t3ME9WdUw1eDR4NnJSXzk4cTJxYk1CUXl5WkNRNzY4Qmc?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3hYNFR1aEdaYnhEQ2FmN2lpTl9Xdk5tRkEwTjF1bC1jdmZlcUR4RzBaS0x2VDlmUlZBMlVoZ3Ixc1pUVTZDUUxlM0U2VEMxY3lhQUs0ZnZoa2xSSV95QW5Md0hUVFJWYmdnaG5idW9hRHlNTzNkU2N0TDdaYVVCem5ONWdOeXhxNUFJY1FQaXJlS2VUd0Y0M3QyRDVicEZWUDh4S3oweDVUS1VUaGl1Qk8yZU1YSUc1eFNGVl9JNGEwdw?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/esportes/automobilismo/hamilton-e-verstappen-miram-recorde-de-schumacher-no-gp-de-sao-paulo/",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPekhCU19BNU5rV290RFNTbTRJS1NEMDZEYzZQaWIyMEZxOUZwOU1lYmFfZVVPRHJDSVNVaVgxWF9Bb05aTFVvMVlLdFRidjVaQ2RDbGxrSkVjb0t3TUVtNjJ6MUFKeXkzYjVhYTJpRmhlSnlGV0VCeS02ZFpYVXBXRXZiRGgyUGJjdFRTcVFjR1M1a3M0c2gtTWxYRk1fMzdRUnBSQm52SzhSV0FNdTBDNHRTckdYSjVhOTJFNUpEYlB5QQ?oc=5",
+     "camp": "regional",
+     "position": "editoria"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSXZ0UDlrQkwwdlRaTVdvS2Faa28xQkRCUTVSd1loR0gwOWZBdG1JamxFTGZmUWRJVmJlUEk2TnFibWpGODlnZ3J0VDFFZnp4WUh5cG1kRFpuWHFOTTBSbW14SzA1aU5xSGNGbGEwV0wyMGRfMnc5aGI0ZGF5SEFTcU1lUVZDRldqRGNsYjZ0UXNkX0xielc3eEVoT1Rqdm5yQXlIQlBUb3FMRlNndUoxZGQ0OHNObVdBeEFhdTdsTloxdkNq0gHMAUFVX3lxTE1fZko1OGw3cTFnMTNFT0tZbzdPRDRFVXplSXhpNHJ4bnEzQWRVZkhNdHZuM0dKeWtYbV93T0JxWVUtbjh1bGVJNm5QcndNZU42d09aZGNPYVZGRDNWOXNqQnUyeWV2MG4zMFhCRUlwdDczRFpJcmtkN05Vbjl3dFdTQ0psa2lKTmtCa1dxQW5FWmFwZTRpVFU1eVhoZkNweWFGOGNwLTl1bU1jZkhpZjZNUlR2QUw0S3FBYmpsbTJqemk3dWVFQ2hoNnpldQ?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   },
+   "desdobramento": "A corrida do GP de São Paulo é hoje, e o Brasil terá dois pilotos no grid em 2027"
+  },
+  {
+   "id": "flamengo-pedro-2027",
+   "segment": "esportes",
+   "title": "Flamengo já sinalizou quanto pode pagar a Pedro para renovar, mas atacante prefere esperar",
+   "summary": "O Flamengo já sinalizou quanto pode pagar a Pedro para renovar o contrato. O atacante prefere esperar. O clube também prepara vendas de jogadores e mira uma arrecadação de 267 milhões. Outra frente é a busca por empresários, e o clube já definiu o primeiro alvo para 2027. O planejamento ocorre durante a Data Fifa.",
+   "scores": {
+    "cobertura": 5,
+    "destaque": 4,
+    "persistencia": 4,
+    "peso_voce": 6
+   },
+   "score": 4.8,
+   "outlets": [
+    {
+     "name": "O Globo",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPc1FGRzhobExvaFpHV2ZDOHREbTJOX0lEWXV0d2cwUmNzZHdtQmFMeG4yaTd5dlE2SWRmUU1xZmJDNWdZV05pOUotWmlKNjQ0QkRCdEVNWHNFVzJ4UHJVdVA3T2tHLVhXaFZjVHZSZEJxLUJtVDA3dmg4cmJDRHZGVWFSQTEtenlMdGJVUmZKVmNzV051ekpiWDdUTUxJTVpZTTVHZjVhaXMteE1KVGxhMHUtZlEwSTF6SDVwazU0d0pxVFM2eVJIbGE5c01tQ2JLTHppZHp4Mmp6RzlMSU9rWWVtcnNnR1U5b2fSAfgBQVVfeXFMTXhlT2dxcDczVGpzUWRIbXBVMUZUUWRwLUl2V1VkTEFUS2MzODdxMjdzaDZGM0l4d3YtZU1feC1xeVdxMFJwMlhrZ3h5YUdWYzhRTnAzMFN0Zzc5akRmdkFieDNxZUVxaGJUdzVUZVpBT25qRTQ3eDhwSTJPbDdRVzNLUkN5VDNKdEFOUFpOeS0yWFZzemY2OHZqY29GRDZlUTZyTE5wbzlFcEFSempRcDRUUnJfSjM0bnhFNEVhRjBUYnI1cUw3bUlENnVudnpjUWtfU3VsUFFzSDJDM1k1VmdvMmV2UWpSeWVPOS1GeGNHZU9NV1hnejU?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    },
+    {
+     "name": "Extra",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUWxHYV9ZT05zeXAweFlZWS1rczRqV0JkRzRYSkttV1NPMEdOT19qRTRYVDFJZjhBZFV4MzNXaGZzWmMwbVd6ZE5zaDlwdDJVb2dGRFpRbG9CRExZM1c2T1dabjJfLW1kNU0yYWp0T2lwcFkzUks4eGczdl9SWEJyNWNpa1ZFOXpGUHZfTVZJZFVLTXFNMThhQW5mRkREWDVMZFEyQWZjbi1Lb3B1bHR4Z3pwQzBQVzM5amsxNC1EdGFLZmFDM181dUZRUm0ybWpodV9Za0p2bEU5dnd3YW9qTXNtVU51T2PSAfYBQVVfeXFMUGhubWxmN3VpTzNBVlIwMlpfVzQ2SUtTbmRIei1BOFRlOGE5S2xVaDRLS19rejVUaDJRd3cwUGd3RERGT2J6VU9PUU9EVXNONWFpNGdlMHVMMjhCX2xvTy1ZR3p1amVDOXNjbHUxRUxxUXdvN2lETExzdGN0RTRhWXczWlNSdUNOTTc2NEZVZ3A3UTdyY0RKbWFFLTB1TENWY1NicmFPbzY3T2dkZnVUZ0dweFJqWUlVNmNnMVBGenhLcE1zdlpiUlAzM2Ixd3BVVjEwa0lhWnJCWFpPOVJOWTc1SllCeFJpSVluQ3FuQTJvOHhZakpn?oc=5",
+     "camp": "rio",
+     "position": "secundario"
+    },
+    {
+     "name": "Terra",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQM3hURG9NdTV0OVBoX1VucUJlZzYwUnQxSUctZWd2eWx3dFA0WDN4SU1fTDAwNTQzcWxpOVNoYXlaWkp5RWpqSHFHWWk4QVEwWDZScHNxNE93c1pxbFF2VzJuS2ZZc0hiVHFaVzYtX3pLVnk3bDhLNWkxMkZRQi1pTVJ2ckFFYkw3aWVwSFBEOURlNGo3Z2tkOGNnZFM5eDYxa1dXNTR4bmJZcVVUZzliUnJRcjV0SDhWNG1XR0Z2eDVHVUV0cnY5WDl0VHBUbHViTlR0M0lncnVNSVU5eWNWU1pJaW1xTGNVWUdR?oc=5",
+     "camp": "centro",
+     "position": "secundario"
+    }
+   ],
+   "asymmetry": {
+    "flag": false,
+    "note": ""
+   }
+  }
+ ],
+ "x_trends": [
+  {
+   "nome": "Quaest",
+   "volume": null,
+   "url": "https://x.com/search?q=Quaest",
+   "sobre": "A primeira pesquisa Quaest depois da eleição mostra 62% dizendo que Flávio Bolsonaro errou ao ir para os Estados Unidos e 61% vendo as eleições como limpas.",
+   "leitura": "neutro",
+   "uso": "Explicar com o número exato e lembrar que Flávio disse não ter provas de fraude.",
+   "item_id": "quaest-flavio-fuga",
+   "fonte": {
+    "name": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/politica/quaest-62-dizem-que-flavio-errou-ao-fugir-para-os-estados-unidos/"
+   }
+  },
+  {
+   "nome": "Paraguai",
+   "volume": null,
+   "url": "https://x.com/search?q=Paraguai",
+   "sobre": "A Justiça paraguaia decretou a prisão preventiva do ex-presidente Santiago Peña, em meio à crise do Ueno Bank, e Itaipu acionou o Ministério Público para recuperar o dinheiro.",
+   "leitura": "neutro",
+   "uso": "Explicar o caso Ueno e o que ele significa para Itaipu e para o Brasil.",
+   "item_id": "pena-prisao-preventiva-itaipu",
+   "fonte": null
+  },
+  {
+   "nome": "Damares",
+   "volume": null,
+   "url": "https://x.com/search?q=Damares",
+   "sobre": "Damares Alves faz campanha por Tereza Cristina para a presidência do Senado, em disputa com Rogério Marinho e Davi Alcolumbre, em eleição marcada para 1º de fevereiro de 2027.",
+   "leitura": "neutro",
+   "uso": "Explicar com fato quem disputa o Senado e quanto vale cada voto da direita nessa eleição.",
+   "item_id": null,
+   "fonte": {
+    "name": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/politica/tereza-mira-ser-3a-via-no-senado-e-busca-atrair-apoio-de-ala-da-oposicao/"
+   }
+  },
+  {
+   "nome": "Defesa Civil",
+   "volume": null,
+   "url": "https://x.com/search?q=Defesa%20Civil",
+   "sobre": "A Defesa Civil Nacional recomendou um kit de emergência para 72 horas, e a orientação causou pânico nas redes; o órgão diz que é preventiva.",
+   "leitura": "neutro",
+   "uso": "Explicar a orientação com calma e cobrar clareza do governo na comunicação.",
+   "item_id": "defesa-civil-kit-72h",
+   "fonte": null
+  },
+  {
+   "nome": "Interlagos",
+   "volume": null,
+   "url": "https://x.com/search?q=Interlagos",
+   "sobre": "O GP de São Paulo de Fórmula 1 é disputado hoje em Interlagos, com previsão de chuva e dois brasileiros no grid.",
+   "leitura": "neutro",
+   "uso": "Tema leve de fim de semana; só usar se couber no programa.",
+   "item_id": "gp-sao-paulo-f1-hoje",
+   "fonte": null
+  },
+  {
+   "nome": "COPA DO BRASIL",
+   "volume": null,
+   "url": "https://x.com/search?q=COPA%20DO%20BRASIL",
+   "sobre": "Vasco e Palmeiras decidem hoje, às 17h, quem enfrenta o Grêmio na final da Copa do Brasil.",
+   "leitura": "neutro",
+   "uso": "Tema esportivo do Rio; usar como gancho leve.",
+   "item_id": "vasco-palmeiras-semifinal-hoje",
+   "fonte": null
+  }
+ ],
+ "portais_na_coleta": 53
+}
