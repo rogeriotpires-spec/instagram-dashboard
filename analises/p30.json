@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-07T12:04:15-03:00",
+  "generated": "2026-11-08T12:32:36-03:00",
   "dias": 30,
   "period": {
-    "start": "2026-10-08",
-    "end": "2026-11-06"
+    "start": "2026-10-09",
+    "end": "2026-11-07"
   },
-  "compare": "2026-09-08 a 2026-10-07",
-  "headline": "Em 30 dias a conta recebeu 20,1 mi de views (+21%) e 31.558 novos seguidores (+160%), mas 1.604 deixaram de seguir (+293%), com 63 publicações nos dois períodos.",
+  "compare": "2026-09-09 a 2026-10-08",
+  "headline": "Nos últimos 30 dias a conta recebeu 19,71 mi de views (+16,3%), com 31.930 novos seguidores (+154,3%) e 1.616 que deixaram de seguir (+279,3%), em 63 publicações.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "20,1 mi",
-      "delta": "+21%",
+      "value": "19,71 mi",
+      "delta": "+16,3%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "31.558",
-      "delta": "+160%",
+      "value": "31.930",
+      "delta": "+154,3%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "1.604",
-      "delta": "+293%",
+      "value": "1.616",
+      "delta": "+279,3%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "382.942",
-      "delta": "+13%",
+      "value": "384.941",
+      "delta": "+10,1%",
       "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "31.942",
-      "delta": "+56%",
+      "value": "31.972",
+      "delta": "+54,3%",
       "dir": "up"
     },
     {
       "label": "Salvamentos recebidos",
-      "value": "56.417",
-      "delta": "+74%",
+      "value": "56.743",
+      "delta": "+69,0%",
       "dir": "up"
     }
   ],
@@ -50,27 +50,26 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os Reels sobre a apuração puxaram as views: \"Fiz a conta do primeiro para o segundo turno\" teve 982.311 views e \"Meio milhão de seções.\" teve 728.224. A imagem \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 926.457 views. Os 38 Reels tiveram mediana de 34.954,5 views, contra 13.264 das 24 imagens.",
+      "diagnosis": "Os maiores resultados vieram de análises sobre a eleição: o Reel \"Fiz a conta do primeiro para o segundo turno e ela não…\" (26/10) teve 982.641 views e 19.585 compartilhamentos, e \"Meio milhão de seções.\" teve 729.011 views, 386 comentários e 3.719 salvamentos. Os Reels tiveram mediana de 38.845 views em 39 posts, contra 12.720 das 23 imagens.",
       "actions": [
-        "Continue com Reels que fazem a conta ou mostram o número da eleição.",
-        "Mantenha imagens de opinião para os picos de alcance.",
-        "Use mais Reels de manhã e à noite, quando a mediana foi mais alta."
+        "Continue com Reels de análise de números, o formato que reuniu os maiores alcances do mês.",
+        "Mantenha o Reel curto (69,7s no \"Meio milhão de seções.\") com pulo perto de 33%.",
+        "Lembre que posts de 6 e 7/11 ainda acumulam views, então não os compare com os de outubro."
       ],
       "posts": [
         "De8Q_S9MAJt",
-        "DeVAkiqtPwL",
         "De8104Zt6iS"
       ]
     },
     {
       "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Três Reels ficaram com menos de 1.600 views: \"Se liga!!!\" (848 views, 64% de pulo, 9s assistidos), \"Pense num amor inimaginável.\" (1.532) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (1.577). Todos tiveram pulo de pelo menos 49%.",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Os Reels mais fracos tiveram entre 862 e 1.579 views: \"Se liga!!!\" (862 views, 64% de pulo), \"Pense num amor inimaginável.\" (1.533, 51%) e \"R$ 30 MILHÕES EM DINHEIRO VIVO!\" (1.579, 49%). Todos de política, com títulos de pouca informação e pulo de 49% a 64%.",
       "actions": [
-        "Evite títulos genéricos como \"Se liga!!!\".",
-        "Abra o Reel com o dado concreto, sem introdução.",
-        "Revise a thumbnail e o primeiro segundo antes de publicar."
+        "Evite títulos vagos como \"Se liga!!!\"; diga o fato ou o número na primeira frase.",
+        "Corte a introdução: nos mais fracos o público assistiu só 9s a 17s em média.",
+        "Antes de publicar, pergunte se o Reel tem um dado novo; sem ele, prefira não postar."
       ],
       "posts": [
         "De6lr9Ft3I5",
@@ -79,14 +78,14 @@
       ]
     },
     {
-      "title": "Seguidores",
+      "title": "Seguidores: entrada alta, saída também",
       "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "Os 24 posts de imagem somaram 1.995 seguidores, e 3 deles lideraram: \"Como dizia o TAXAD\" (1.175), \"Estar diante do túmulo do professor Olavo de Carvalho…\" (426) e \"Flávio Livre.\" (274). Os 38 Reels não informam seguidores por post. As saídas subiram para 1.604 contra 408 no período anterior, que tinha dado de 28 dias.",
+      "diagnosis": "Entraram 31.930 seguidores, mas 1.616 deixaram de seguir, contra 426 no período anterior (os dados do período anterior têm 28 dos 30 dias). As imagens de opinião tiveram 2.022 seguidores atribuídos: \"Como dizia o TAXAD, quem foge do debate é bundão?\" teve 1.175 (926.460 views), \"Flávio Livre.\" teve 278 e o post do túmulo do professor Olavo de Carvalho teve 451. A API só informa seguidores por post nas imagens.",
       "actions": [
-        "Publique imagens de opinião regularmente, pois elas trazem seguidores.",
-        "Fixe um post que explique quem você é para segurar quem chegou pela eleição.",
-        "Acompanhe as saídas por semana."
+        "Repita imagens de opinião com posicionamento claro, que reuniram os seguidores atribuídos.",
+        "Fixe no perfil um post que apresente seu trabalho para quem chegou nas semanas de maior volume.",
+        "Acompanhe as saídas por semana para ver se voltam ao patamar do período anterior."
       ],
       "posts": [
         "DeVAkiqtPwL",
@@ -95,19 +94,18 @@
       ]
     },
     {
-      "title": "Comentários",
+      "title": "Horários e temas",
       "status": "good",
       "status_label": "Manter",
-      "diagnosis": "A conta recebeu 31.942 comentários (+56%). Os mais comentados foram \"Lula não ganhou a eleição.\" (537), \"Meio milhão de seções.\" (384) e \"Inacreditável!\" (290). O primeiro tem apenas 27,9 horas no ar e ainda acumula comentários.",
+      "diagnosis": "Política (39 posts) teve mediana de 38.845 views e Opinião (23 posts) 11.435. Por horário, 18h (143.961 de mediana) e 19h (122.527) lideram, seguidos de 8h (105.495); 14h (2.992), 7h (9.801) e 6h (10.612) ficaram baixos. Faixas como 0h e 21h têm um post só, então não valem como regra.",
       "actions": [
-        "Responda os comentários dos Reels nas primeiras horas.",
-        "Termine o Reel com uma pergunta direta.",
-        "Fixe o comentário mais forte para puxar debate."
+        "Teste mais Reels às 18h e 19h, as faixas com melhores medianas e mais de um post.",
+        "Concentre Opinião em imagens e Política em Reels, conforme as medianas.",
+        "Evite 14h, 6h e 7h para os posts principais até haver novos testes."
       ],
       "posts": [
-        "DfZXNLStwXv",
-        "De8104Zt6iS",
-        "DeaQZPRNABT"
+        "De8Q_S9MAJt",
+        "DfBOEyBsDWf"
       ]
     }
   ]

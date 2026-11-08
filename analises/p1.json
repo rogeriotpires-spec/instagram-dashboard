@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-07T12:04:15-03:00",
+  "generated": "2026-11-08T12:32:36-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-11-06",
-    "end": "2026-11-06"
+    "start": "2026-11-07",
+    "end": "2026-11-07"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Em 6/11 a conta recebeu 262.042 views, 31.082 compartilhamentos e 569 comentários, com um único Reel publicado: \"Lula não ganhou a eleição.\", com 237.350 views.",
+  "headline": "Em 7/11 a conta recebeu 282.998 views (−1,8% contra a média dos 7 dias anteriores), com 16.395 compartilhamentos (+33,9%) e 3 publicações, sendo o Reel do TSE responsável por 192.140 views.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "262 mil",
-      "delta": "−23%",
+      "value": "283 mil",
+      "delta": "−1,8%",
       "dir": "down"
     },
     {
@@ -28,20 +28,20 @@
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "31.082",
-      "delta": "+227%",
+      "value": "16.395",
+      "delta": "+33,9%",
       "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "569",
-      "delta": "−1%",
+      "value": "520",
+      "delta": "−12,3%",
       "dir": "down"
     },
     {
       "label": "Salvamentos recebidos",
-      "value": "2.823",
-      "delta": "+165%",
+      "value": "1.873",
+      "delta": "+58,8%",
       "dir": "up"
     }
   ],
@@ -50,56 +50,59 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O Reel \"Lula não ganhou a eleição.\" (7h14) teve 237.350 views, 31.869 compartilhamentos, 2.832 salvamentos e 537 comentários. Foi assistido em média por 59s, com 38% de pulo, num vídeo de 245,1s. Ele alcançou 163.761 contas.",
+      "diagnosis": "O Reel \"O TSE diz que ninguém na sua cidade votou no Flávio.\" (8h15) somou 192.140 views, 11.162 compartilhamentos, 325 comentários e 1.508 salvamentos. Foi assistido em média por 50s, com 35% de pulo. Ele concentrou a maior parte das views do dia, que foram 282.998 no total.",
       "actions": [
-        "Repita Reels de manhã cedo com uma afirmação direta no título, como nesse post.",
-        "Mantenha o formato mais longo quando o assunto sustenta, já que a retenção ficou em 59s.",
-        "Responda os comentários do Reel nas primeiras horas."
+        "Repita Reels que desafiam uma informação conhecida com um dado checável, como o do TSE.",
+        "Mantenha a abertura direta: o pulo ficou em 35% mesmo com um Reel longo (163,4s).",
+        "Responda os comentários desse Reel nas próximas horas, já que ele reuniu 325 dos 520 comentários da conta."
       ],
       "posts": [
-        "DfZXNLStwXv"
+        "DfcDUOTNtPd"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Houve só 1 publicação no dia, então não existe um post fraco para comparar. A conta teve 569 comentários, variação de −1% contra a média dos 7 dias anteriores, e o Reel responde por 537 deles. Os dados de novos seguidores e de quem deixou de seguir de 6/11 ainda não chegaram.",
+      "diagnosis": "A imagem \"80 MIL SEGUIDORES!\" (11h08) teve 12.720 views, 5 compartilhamentos e 3 salvamentos, bem abaixo dos Reels do dia. Ela teve 31 comentários e 8 seguidores atribuídos. É um post de comemoração, que rende conversa mas pouca circulação.",
       "actions": [
-        "Publique um segundo conteúdo no dia para não depender de um único post.",
-        "Quando os dados de seguidores chegarem, confira o saldo do dia.",
-        "Use o primeiro comentário fixado para puxar a conversa em posts sem tanto debate."
+        "Use posts de bastidores como complemento, não como a publicação principal do dia.",
+        "Se for comemorar de novo, peça uma ação (ex.: marcar alguém ou responder uma pergunta) para elevar compartilhamentos.",
+        "Combine o post pessoal com um Reel de análise no mesmo dia, como foi em 7/11."
       ],
       "posts": [
-        "DfZXNLStwXv"
+        "DfcXA1DtXMY"
       ]
     },
     {
-      "title": "Compartilhamentos e salvamentos",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "A conta recebeu 31.082 compartilhamentos (+227%) e 2.823 salvamentos (+165%) contra a média dos 7 dias anteriores. O Reel teve 31.869 compartilhamentos e 2.832 salvamentos. O post tinha 27,9 horas no ar na coleta e ainda pode acumular números.",
-      "actions": [
-        "Feche o Reel com um convite claro para enviar a quem ainda acha o contrário.",
-        "Guarde o tema para uma imagem de resumo, que costuma render salvamentos.",
-        "Compare de novo em 7 dias, quando o post estiver mais maduro."
-      ],
-      "posts": [
-        "DfZXNLStwXv"
-      ]
-    },
-    {
-      "title": "Retenção do Reel",
+      "title": "Interações acima da média da semana",
       "status": "good",
       "status_label": "Manter",
-      "diagnosis": "O Reel durou 245,1s e foi assistido em média por 59s, com 38% de pulo. É uma retenção boa para um vídeo longo. A conta teve alcance médio de 156.092 por dia e 32.359 contas com interação por dia.",
+      "diagnosis": "Compartilhamentos subiram 33,9% e salvamentos 58,8% contra a média dos 7 dias anteriores. Os comentários foram na direção oposta: 520, queda de 12,3%. Os números de seguidores de 7/11 ainda não chegaram, então o saldo do dia não pode ser medido.",
       "actions": [
-        "Abra com a frase mais forte, sem introdução.",
-        "Teste um corte de 60s do mesmo tema para comparar a retenção.",
-        "Mantenha o ritmo de cortes nos primeiros segundos."
+        "Continue pedindo salvamento em Reels com dado (ex.: \"salve para conferir depois\").",
+        "Faça uma pergunta no fim dos Reels para recuperar os comentários.",
+        "Confira o saldo de seguidores de 7/11 quando o dado chegar."
       ],
       "posts": [
-        "DfZXNLStwXv"
+        "DfcDUOTNtPd",
+        "DfdjTEysaXN"
+      ]
+    },
+    {
+      "title": "Horários e volume do dia",
+      "status": "warn",
+      "status_label": "Atenção",
+      "diagnosis": "Foram 3 posts: 8h15 (192.140 views), 11h08 (12.720) e 22h15 (44.825). O Reel das 22h15 tinha só 13,2 horas e ainda acumula views, então a comparação com o das 8h15, com 27,2 horas, não é justa. Cada horário teve um post só, o que não permite concluir qual é melhor.",
+      "actions": [
+        "Compare o Reel das 22h15 de novo amanhã, quando tiver a mesma idade do das 8h15.",
+        "Teste outro Reel de análise no meio do dia para ter mais de um post por faixa de horário.",
+        "Mantenha pelo menos um Reel de manhã, que é onde ficou o maior resultado do dia."
+      ],
+      "posts": [
+        "DfcDUOTNtPd",
+        "DfdjTEysaXN",
+        "DfcXA1DtXMY"
       ]
     }
   ]

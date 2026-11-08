@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-07T12:04:15-03:00",
+  "generated": "2026-11-08T12:32:36-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-09-08",
-    "end": "2026-11-06"
+    "start": "2026-09-09",
+    "end": "2026-11-07"
   },
-  "compare": "2026-07-10 a 2026-09-07",
-  "headline": "Em 60 dias a conta recebeu 36,7 mi de views (+134%) e 43.720 novos seguidores, com 126 publicações contra 91 no período anterior.",
+  "compare": "2026-07-11 a 2026-09-08",
+  "headline": "Em 60 dias a conta recebeu 36,66 mi de views (+129,1%), com 44.488 novos seguidores e 126 publicações; comparações de seguidores e interações não são possíveis porque o período anterior só tem 2 dias desses dados.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "36,7 mi",
-      "delta": "+134%",
+      "value": "36,66 mi",
+      "delta": "+129,1%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "43.720",
+      "value": "44.488",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "2.012",
+      "value": "2.042",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "721.190",
+      "value": "734.701",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "52.453",
+      "value": "52.694",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "204 mil",
-      "delta": "+172%",
+      "value": "206 mil",
+      "delta": "+170,0%",
       "dir": "up"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Imagens de opinião lideraram as views: \"Fica a reflexão.\" teve 1.237.856 views e 1.188 seguidores, e \"Ninguém aguenta mais o Lula e o PT!\" teve 983.077 views e 1.134 seguidores. As 44 imagens tiveram mediana de 24.105,5 views e somaram 6.084 seguidores. Os 80 Reels tiveram mediana de 28.224,5.",
+      "diagnosis": "As imagens de opinião lideraram: \"Fica a reflexão.\" (1/10) teve 1.237.866 views, 39.599 compartilhamentos e 1.188 seguidores atribuídos, e \"Ninguém aguenta mais o Lula e o PT!\" (28/9) teve 983.078 views e 1.134 seguidores. As 44 imagens somaram 6.120 seguidores atribuídos e mediana de 24.105 views, contra 30.379 dos 80 Reels.",
       "actions": [
-        "Mantenha imagens de opinião com frase curta e forte.",
-        "Use os Reels para análises de números, como \"Fiz a conta\" (982.311 views).",
-        "Publique imagens nos dias de pico para ganhar seguidores."
+        "Mantenha imagens de opinião com frase forte, que tiveram picos de compartilhamento, como os 39.599 de \"Fica a reflexão.\".",
+        "Alterne com Reels de análise, como o de 26/10 com 982.641 views.",
+        "Evite carrosséis por ora: os 2 postados tiveram mediana de 3.690 views."
       ],
       "posts": [
         "Dd8pQedtGZL",
@@ -66,46 +66,46 @@
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Reels de política com pouco alcance se repetiram: \"Se liga!!!\" (848 views), \"Banda podre esperneia!\" (1.066) e \"Quem produziu o relatório?\" (1.145). Dois deles tiveram pulo de 51% e 64%. Entre os temas, Política teve 76 posts e mediana de 28.224,5, e Opinião teve 46 posts e mediana de 16.776.",
+      "diagnosis": "Os Reels mais fracos tiveram de 862 a 1.345 views: \"Se liga!!!\" (64% de pulo), \"Banda podre esperneia!\" (1.066 views, 51%) e \"Autoexplicativo (debate)\" (1.345 views, 60%, só 23,1s de duração). O padrão são títulos vagos ou comentários curtos sem dado novo, com pulo de 51% a 64%.",
       "actions": [
-        "Corte Reels sem dado concreto no título.",
-        "Reduza a frequência de Reels genéricos e invista nos que têm número.",
-        "Revise os temas dos posts abaixo de 2.000 views antes de repetir."
+        "Evite Reels curtos de reação sem informação nova.",
+        "Troque títulos vagos por um fato ou número no começo.",
+        "Revise Reels com mais de 50% de pulo antes de repetir o formato."
       ],
       "posts": [
         "De6lr9Ft3I5",
         "DdL670TN4bK",
-        "DdB4QdCtujb"
-      ]
-    },
-    {
-      "title": "Comentários e seguidores",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "A pergunta \"Qual número você escolheria?\" teve 487 comentários com apenas 13.748 views. O Reel \"Lula não ganhou a eleição.\" teve 537 comentários e \"Meio milhão de seções.\" teve 384. Os novos seguidores somaram 43.720 no período.",
-      "actions": [
-        "Use perguntas fechadas em imagens para puxar comentários.",
-        "Repita enquetes com número ou escolha simples.",
-        "Responda os comentários nas primeiras horas."
-      ],
-      "posts": [
-        "DdumKq_tAX_",
-        "DfZXNLStwXv",
-        "De8104Zt6iS"
+        "Dd_agBPN6Mi"
       ]
     },
     {
       "title": "Horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Pelas medianas, 22h teve 158.965,5 views, 21h teve 96.814 e 18h teve 81.495. Os horários da manhã e do começo da tarde ficaram mais baixos: 06h com 11.629, 15h com 11.617 e 16h com 11.365. Alguns horários têm poucos posts, como 00h e 05h, então a leitura é um indício.",
+      "status": "good",
+      "status_label": "Manter",
+      "diagnosis": "Por horário, 21h (96.815 de mediana), 18h (81.499) e 8h (79.764) lideram; 20h (9.389), 16h (11.366) e 6h (11.681) ficam atrás. Algumas faixas têm poucos posts, então a leitura é de tendência.",
       "actions": [
-        "Teste mais posts entre 18h e 22h.",
-        "Reduza posts às 15h e 16h.",
-        "Compare de novo quando houver mais posts por horário."
+        "Priorize publicações às 8h, 18h e 21h.",
+        "Evite 16h e 20h para posts principais.",
+        "Teste a mesma faixa por duas semanas antes de tomar como regra."
       ],
       "posts": [
-        "De8Q_S9MAJt"
+        "Dd8pQedtGZL",
+        "Dd08gl4tibs"
+      ]
+    },
+    {
+      "title": "Comentários: perguntas diretas",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "A imagem \"Qual número você escolheria?\" (25/9, 20h05) teve 487 comentários com apenas 13.748 views, quase tantos quanto o Reel \"Lula não ganhou a eleição.\" (572 comentários, 267.737 views). Posts com pergunta fechada parecem render conversa mesmo com alcance menor.",
+      "actions": [
+        "Publique uma imagem com pergunta fechada por semana.",
+        "Responda os primeiros comentários na primeira hora.",
+        "Use as respostas para pautar o Reel do dia seguinte."
+      ],
+      "posts": [
+        "DdumKq_tAX_",
+        "DfZXNLStwXv"
       ]
     }
   ]
