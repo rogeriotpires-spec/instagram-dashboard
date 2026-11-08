@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-08",
+  "weekday": "Dom",
+  "generated": "2026-11-07T22:48:14-03:00",
+  "summary": "Domingo de balanço da semana. A AGU levou ao STF um pedido de R$ 533 milhões extras para o Ministério Público e a Justiça Federal pagarem penduricalhos, enquanto a eleição do comando do Senado vira a disputa que pode definir a pauta sobre o Supremo. No bolso, o vale-refeição e o vale-alimentação passam a valer em qualquer maquininha, e as bets seguem proibidas depois que o presidente do TRF-3 derrubou a liberação.",
+  "agenda": [
+    {
+      "time": "13h",
+      "text": "Portões do Enem fecham às 13h; prova começa às 13h30, com redação, Linguagens e Ciências Humanas. Mais de 5 milhões de inscritos.",
+      "source": {
+        "name": "Forbes Brasil",
+        "url": "https://forbes.com.br/geral/2026/11/enem-2026-reune-mais-de-5-milhoes-de-inscritos-no-proximo-domingo/"
+      }
+    },
+    {
+      "time": "19h",
+      "text": "Reel com o principal assunto da semana (slot do perfil).",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/agu-leva-ao-stf-impasse-sobre-533-milhoes-para-penduricalhos/"
+      }
+    },
+    {
+      "time": "Noite",
+      "text": "Resumo da semana nos Stories.",
+      "source": {
+        "name": "Jornal do Comércio",
+        "url": "https://www.jornaldocomercio.com/economia/2026/11/1269074-veja-o-que-muda-com-as-novas-regras-para-vale-refeicao-e-alimentacao.html"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "19h",
+      "type": "r",
+      "kind": "Reel com o principal assunto da semana",
+      "options": [
+        {
+          "title": "AGU leva ao STF pedido de R$ 533 milhões extras para pagar penduricalhos no MP e na Justiça Federal",
+          "tone": "contundente",
+          "duration": "até 30s",
+          "fact": "Na sexta (6), a AGU protocolou no STF uma petição sobre dois pedidos de crédito extraordinário que somam R$ 533 milhões: R$ 324 milhões do Ministério Público da União e quase R$ 209 milhões do Conselho da Justiça Federal. O dinheiro seria para pagar a parcela de valorização por tempo de carreira e indenizações como férias e licenças-prêmio, conforme decisão do STF de junho. A consultoria do Ministério do Planejamento entendeu que a urgência não ficou demonstrada. Os processos são relatados por Moraes, Zanin e Gilmar Mendes. O governo tenta fechar 2026 com superávit primário de R$ 34,3 bilhões, e até setembro o déficit primário acumulado era de R$ 90,2 bilhões.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/agu-leva-ao-stf-impasse-sobre-533-milhoes-para-penduricalhos/"
+            }
+          ],
+          "hooks": [
+            "R$ 533 milhões a mais para penduricalho, e a conta chega no seu bolso.",
+            "O governo diz que não tem urgência. O STF decidiu que tem."
+          ],
+          "script": "R$ 533 milhões. É o pedido extra para pagar penduricalho no Ministério Público e na Justiça Federal, e foi parar no colo do STF. O governo olhou a conta e disse que a urgência não ficou demonstrada. Mesmo assim, a decisão do Supremo de junho manda pagar. Enquanto isso, o déficit primário até setembro já é de R$ 90,2 bilhões. Quem paga essa conta é quem acorda cedo e trabalha. Você acha justo gastar mais meio bilhão com penduricalho? Responde sim ou não e manda para quem precisa ver isso.",
+          "screen_text": [
+            "R$ 533 milhões",
+            "Penduricalhos",
+            "Déficit até setembro: R$ 90,2 bi",
+            "Quem paga?"
+          ],
+          "caption": "R$ 533 milhões extras para penduricalhos, e o déficit já passa de R$ 90 bilhões. Você acha justo? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Atribuir o pedido ao MPU e ao CJF e a decisão ao STF; não chamar de ilegal nem acusar ministro de nada. O Planejamento disse que não viu urgência, é fala do órgão. Penduricalho é o termo da cobertura, o pagamento tem base em decisão judicial.",
+          "timeline": {
+            "rende": true,
+            "angle": "Penduricalhos e o teto de R$ 46.366,19: o que o STF decidiu em junho, quanto custa, o que o Planejamento questiona e por que a conta chega com o déficit de R$ 90,2 bilhões."
+          }
+        },
+        {
+          "title": "Eleição do comando do Senado vira a votação sobre o STF, e a bancada do PL vai de 15 para 28 senadores",
+          "tone": "sóbrio com urgência",
+          "duration": "até 60s",
+          "fact": "A eleição para a presidência do Senado tem Davi Alcolumbre (União-AP), Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS) como nomes. São necessários 41 dos 81 votos, em votação secreta. A eleição de 4 de outubro renovou 54 vagas, e o PL conquistou 19 delas: a bancada passa de 15 para 28 senadores. A oposição soma 45 cadeiras, a 9 votos dos 54 necessários para o impeachment de um ministro do STF. A cientista política Caroline Maria Vieira afirma que a verdadeira votação sobre o Supremo é a eleição da Mesa, e quem preside o Senado decide o que entra em pauta.",
+          "sources": [
+            {
+              "name": "Metrópoles",
+              "url": "https://www.metropoles.com/brasil/eleicao-do-comando-do-senado-sera-pleito-sobre-o-stf-dizem-especialistas"
+            }
+          ],
+          "hooks": [
+            "28 senadores do PL. A oposição está a 9 votos de mudar o jogo.",
+            "Quem manda no Senado decide se o STF é fiscalizado."
+          ],
+          "script": "O PL elegeu 19 senadores e a bancada vai de 15 para 28. A oposição soma 45 cadeiras e está a 9 votos dos 54 que o Senado precisa para um impeachment de ministro do Supremo. E quem decide o que entra em pauta é o presidente da Casa. Por isso a eleição do comando do Senado virou a votação sobre o STF, como dizem os analistas. Rogério Marinho está na disputa, com a força da maior bancada que o PL já teve. O voto é secreto, mas o recado das urnas foi público. O Senado deve fiscalizar o Supremo? Responde sim ou não e manda para um amigo.",
+          "screen_text": [
+            "PL: de 15 para 28 senadores",
+            "Oposição: 45 cadeiras",
+            "Faltam 9 votos",
+            "Quem preside decide a pauta"
+          ],
+          "caption": "O PL foi de 15 para 28 senadores, e a eleição do comando do Senado vai decidir a pauta sobre o STF. O Senado deve fiscalizar o Supremo? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "O número de 45 cadeiras e a leitura de que a Mesa é a votação sobre o STF são da cientista política citada pelo Metrópoles; atribua se citar. Não afirmar quem vence: o voto é secreto. Não opinar sobre Tereza Cristina.",
+          "timeline": {
+            "rende": true,
+            "angle": "A eleição da Mesa do Senado: quem concorre, os 41 votos necessários, o que muda no calendário de PECs e pedidos de impeachment com a bancada de 28 do PL."
+          }
+        }
+      ]
+    },
+    {
+      "time": "Noite",
+      "type": "s",
+      "kind": "Resumo da semana nos Stories",
+      "options": [
+        {
+          "title": "VR e VA passam a valer em qualquer maquininha desde este sábado",
+          "tone": "informativo",
+          "style": "print",
+          "duration": "stories",
+          "fact": "Desde sábado (7), cartões de vale-refeição e vale-alimentação de operadoras diferentes devem ser aceitos em qualquer maquininha, desde que o estabelecimento aceite esse tipo de pagamento. A mudança é a interoperabilidade, parte das novas regras do Programa de Alimentação do Trabalhador. Na prática, o trabalhador usa o cartão da empresa em qualquer bar, restaurante ou supermercado que aceite VR ou VA. A notícia do dia trouxe também o alerta do setor de que há despreparo para a mudança.",
+          "sources": [
+            {
+              "name": "Jornal do Comércio",
+              "url": "https://www.jornaldocomercio.com/economia/2026/11/1269074-veja-o-que-muda-com-as-novas-regras-para-vale-refeicao-e-alimentacao.html"
+            }
+          ],
+          "slides": [
+            "VR e VA agora valem em qualquer maquininha",
+            "Vale desde sábado, 7 de novembro",
+            "Cartão de qualquer operadora, no estabelecimento que aceita VR ou VA",
+            "Regra do Programa de Alimentação do Trabalhador",
+            "Setor alerta para despreparo na mudança",
+            "Seu cartão já funcionou onde você queria?"
+          ],
+          "poll": {
+            "question": "Seu VR ou VA já funcionou em qualquer maquininha?",
+            "options": [
+              "Sim, funcionou",
+              "Não, foi recusado",
+              "Ainda não usei"
+            ]
+          },
+          "caption": "Desde sábado, o VR e o VA valem em qualquer maquininha que aceite o benefício. Já testou no seu mercado ou restaurante? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Serviço ao leitor. Não prometer que toda maquininha aceita: depende de o estabelecimento aceitar o benefício. O setor fala em despreparo, atribua ao setor.",
+          "timeline": {
+            "rende": false,
+            "motivo": "Tema de serviço, de vida curta; não sustenta artigo de 600 palavras com ângulo próprio."
+          }
+        },
+        {
+          "title": "Presidente do TRF-3 derruba liberação de três bets, e Gonet pede ao STF que suspenda 14 ações",
+          "tone": "firme, informativo",
+          "style": "print",
+          "duration": "stories",
+          "desdobramento": "presidente do TRF-3 anulou a liminar que liberava três bets e Gonet pediu ao STF a suspensão nacional de 14 processos (7/11)",
+          "fact": "Uma desembargadora do TRF-3 liberou o funcionamento de três bets e chamou a proibição de confisco. Logo depois, o presidente do tribunal anulou a decisão, para preservar a ordem pública e a proteção ao consumidor. O procurador-geral Paulo Gonet pediu ao STF a suspensão nacional de todas as ações contra a medida provisória que proíbe as bets. Ele cita 14 processos sobre o mesmo tema e diz que a multiplicidade gera insegurança jurídica. O relator é Luiz Fux, que já sinalizou ser favorável à extinção das bets; a decisão final depende do plenário.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/paulo-gonet-solicita-ao-stf-suspensao-nacional-de-processos-contra-proibicao-das-bets/"
+            }
+          ],
+          "slides": [
+            "Bets: TRF-3 derruba a liberação de três empresas",
+            "Desembargadora havia chamado a proibição de confisco",
+            "Presidente do tribunal anulou a decisão",
+            "Gonet pede ao STF suspender 14 processos",
+            "Relator é Fux; decisão final é do plenário",
+            "As bets devem ser proibidas?"
+          ],
+          "poll": {
+            "question": "As bets devem ser proibidas no Brasil?",
+            "options": [
+              "Sim, proibir",
+              "Não, só regular",
+              "Não sei"
+            ]
+          },
+          "caption": "O TRF-3 derrubou a liberação de três bets e Gonet pede ao STF que pare 14 ações. A decisão agora é do Supremo. Você é a favor de proibir? Sim ou não?",
+          "risk": "médio",
+          "risk_note": "Atribuir cada decisão a quem a tomou; Fux apenas sinalizou posição, o julgamento não ocorreu. A palavra confisco é da desembargadora. Evitar tomar partido sobre apostadores.",
+          "timeline": {
+            "rende": true,
+            "angle": "Bets no STF: a MP que proíbe, os 14 processos, o argumento de confisco e o que o plenário pode decidir sob relatoria de Fux."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
