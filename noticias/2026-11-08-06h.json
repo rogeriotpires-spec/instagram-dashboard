@@ -212,12 +212,12 @@
    "title": "CNC e CNI recorrem ao STF para adiar o fim da escala 6x1; Dino é o relator e a conciliação é na terça",
    "summary": "A Confederação Nacional do Comércio e a Confederação Nacional da Indústria acionaram o STF para adiar e flexibilizar a emenda que acaba com a escala 6x1, sob relatoria de Flávio Dino. A jornada máxima cai de 44 para 40 horas semanais sem corte de salário, com limite de 42 horas a partir de 16 de dezembro e as 40 horas em dezembro de 2027. A CNI estima que a jornada de 40 horas elevaria em 11,1% o custo do trabalho formal na indústria, cerca de R$ 88 bilhões. Dino disse que o prazo de dois meses não parece inviável e que a redução da jornada não está em negociação, e ainda não concedeu liminar. O governo quer manter o calendário e publica a regulamentação na segunda-feira, 9, antes da audiência de conciliação de terça, 10, às 14h.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 8,
     "persistencia": 7,
     "peso_voce": 10
    },
-   "score": 6.6,
+   "score": 6.8,
    "outlets": [
     {
      "name": "CNN Brasil",
@@ -287,12 +287,12 @@
    "title": "Irã executa três homens condenados por operar para Israel e EUA e por distúrbios armados",
    "summary": "O Irã executou neste domingo três homens, Hassan Dioband, Hamid Kazemi e Reza Zanganeh, segundo a mídia estatal. Eles foram condenados por realizar operações para Israel e para os EUA e por participar de protestos contra o regime em janeiro. O judiciário iraniano diz que usaram armas de fogo, granadas e coquetéis molotov, incendiaram instalações públicas e danificaram uma subestação elétrica em Karaj. As execuções ocorreram depois de a Suprema Corte confirmar as sentenças, e os bens deles foram confiscados. Na véspera, os EUA criaram uma força-tarefa para cortar rotas terrestres de abastecimento do Irã.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 8,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 5.2,
+   "score": 5.3,
    "outlets": [
     {
      "name": "CNN Brasil",
@@ -513,6 +513,83 @@
      "url": "https://revistaoeste.com/mundo/justica-decreta-prisao-preventiva-de-ex-presidente-do-paraguai/",
      "camp": "direita",
      "position": "secundario"
+    },
+    {
+     "name": "Pleno.News",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ3oxbTZReHVwYTMxVVkxQWdOQk5BQmZBX2VWZHExeU1JcEt1THZFd3JhVGFyVzFJWERXWk9KUnZmY1B6bXdiZUdHTVZ1UVM0ejZKRHM5SThVR1ByTV81elJKUWo2N2FhUFhwMFNmYkJtU21GeWFoVmpXck9JSHdIN3AySklSTGo3d0FtLWJXak51MmNVc2kw0gGfAUFVX3lxTE8yVG9ETDBiMldzYUNzNlNWUFJGRGNuV2t4V0xRYk50aEN4cmt1d25SdGVMTFRzb1VscnJOZzg0anJTTWlMVDg5Z3FlWG40dHlERjBsWHVtYUVzcWxrLWMxVUlFb3FGa1lfYTJwd3d4T2xBVGx0WUZFWGhQaVlrcVBqRHNNbzhsMkZVVzFMYm0wOGlSMW1mbjlPczZyRjVJTQ?oc=5",
+     "camp": "direita",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Diário do Poder",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON3N5SjdmZFhxZkVPUjFweWduS0hIWkZDX2xwdlp3azl1aENmWkJfNTNvUnEtWkZ5S2pjbGxIdmZZUF9wSU9xQzNMbTlsUWpNUk1uUzByWi1mckVGWmxRV283N0tFWjFZUkZqTTdvUXE1VEZKQTB3NGVHeERiRFZwUXlVcFhwNnBneTc0dDljN3ZFSlVaNWN3N2hkNDV4Tnc3emZXSHpOWHZUWEJXS1pFQkpqakFQYzJFWnA5WXM5Y9IBxAFBVV95cUxPbWNRU1htX2ZmcHQ3S1dJNlZ4QnFvZkhqNEVFMVV1VVBqUWVOV0VhcWtIT2JsWU9iNEZEb1BNYndua25UY1JLVXVEVlZfbEk3Ums2MUk4bDVDR201VFpZNnRMcHpCb3pVSmxWMVNHNzJZMTVja2NxWGJDZ2NhRHpIbG5xaENNYXh0Nm9kU2xCakwtVUNNRnIxZFlRYlhfZzA1ckIyZFRPUzhPVHMzRU5IcXF3N2luczdNeHR2WTFmN29seUow?oc=5",
+     "camp": "direita",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "R7",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWXNSZnNyaFFYcVpnbkl1dVZCZHlvd0RpU3VEdWYzMXdPalRVQ3pOSld2Y21KNFUyUDhEa3l0ZXF1OHZzcE95MVdwMl9MMXV2TXdrSXNuTU1TN3VoQy15T3NWRVRfcTBYVGFxODFpbGNjdUREOUQwanBBdmVyZHlDX3Z4bG5xRWRyb1VqeV9nak1mV3lkdmE1VXpnZzZCWnF5bkVCbGRfVml0MTZKbjZSMEVvVTRaZ0tjS2xoSDF1cnl3MDNXVTkxajlYSWpwUXFkdFhv?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Tempo",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaFdRVENoX2QxS21kY1EyejhiT0paSjhxQWs1Y01lSS1DYlVQeXk4bGJCUVlEcVBKOGFBb1RzOFo0OVcyTmFxTWtkR2FiQVZ0RGQxNDRWeE9rVzRjTmNGdXFXaXpfTXNyczRxd3FxQzFZZGg5UzFqc3QwbFVQclRLZkQ5NnZoRGNZNG9xYVl5WWw0bzRJY1BIVHlTc2pUU3ho?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Diário do Nordeste",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa01fS3NVb2dpQkRJMm1RSXhZbGd5V3lRVzNRNS1ic20zNTluOUdMOTJKNUozdzB6OGxqSEROVkMxUW5JVm9xOXlpTkI3OGJJbDJqd25KRjVyZFBjRUFFS3IwUml6M0R5enlIZVNnakRiZl9TWHljR0dRUWE3NzRFVnFnQVctcDVRb2tkaFVlVEhOTWZhQzl5eUFFaGFxaWlSM1YxbkhWV2QwNE9uaXdmbVptWUtqUWlZT0NkRGFFTUtScGtaSG54RTRfNTk0WG8?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNampYajduQ0RLY1JKbE1fZXpUMkwzTlBFUnc3cUtqalIxOExxN1JNOG1KLV9WZmg1TlBUMUduRDNKTFNhNXUxZXdqQkhxTmgzS2pSeHNzVW5GQllUTmt3Y1BUTml2WGZPVnlhcC1mVzVheTY0WDAtaDJJa3puS0cteWNLZFFKU0xSZkJCMXJBa1pRcmYtNEU1SGw3eTNvSlpRc25yN3dNQTNyNGVDSWVNdUNQb3NmSnI1SmMtUzAxM2pXSWdZYWl3Z21iN0t2MEJkcXRxNzJmQmNrZ2xOVFRDVFZzZzBoMmE5SlE?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "ND Mais",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tQUhjNnBJeENZamtDb0Vlc3dPWU1TWjhwQ2pFQWpTaW9HMWFhNU9uRnFUZkpZVVdTMU05enZRXzhqdDBaWWZhZmxyUmZQcmVoMExvVkE1RmhmTS16cnlRQ2NaNE9RSHJUNkJXeENkWUdwU3JWUnBN?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Correio do Povo",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSkhSSnZDSmM3V0FnWkl3MHRTVS1HY2FEcXVCYnhLOWluNnFEdFVDcUo4U0pUMG5TdkxCZVhKOU9aS1Q0clE1TEp0cmVkZ3VsU28wa2dpU25QdlNLcXZ0OWpkTmk5S0pfaUtwTGpiNTk2S3hvWGU4T0o0TzZQZ1kzQ2REd2t1RWlhZGNMQ01UMi1aaExudEVKVzEwM0dzQ19LRWxSSkhvVDVZWFc4MjBBUzJxMDBmNWktazd0S1BXclphSUZ3QTAwMQ?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb0kzelNxX0plZ2EwQ2xqQWRta1phQzZicjJ4aW1PRVBTblh1RUNVLUNDYnEtWjh5Vnc1QUdFcFluWHBQSldzTUdXWnpDWFFCU21VTFlFSkkzcDJQaWhvQm96SDg5eUVpclFzSlkzWGNvakF2T3VPU2NCQi10dnB6Mi1lbHlZSVZKR3FHMUhjaWxSa1U4UWVveUZhMjVRMWhZU2prQkZ2UnRuOXZzVVU5QVdhdC15cG9lR19HcVhn0gHGAUFVX3lxTE5CNnJadU9nQUNYaXJ4RGlZZEhMNkhrU2hSd1ZpTlE5dDl0UFp0a0x0ekg1THVPM1JhakxJNEZad1d3dTJKbFVRQ2tQd3pfdmtoal9ENHRjeGZFX3hDUU93b0w1RU50ZVVsa0s3aERaV2lRUm9FY0F5SXlZSm93TW1OMzh5R2NValN0VG9UMHVIQlVUbkxrLXU4VWJKN1VodlktNVFuTER0bEgtRnhWenhYdnBwMWhpYzVCam11S0UzSFpPRE45QQ?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Diário de Pernambuco",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPa2ZET2ViaGRfM1JCVnIyMlU5VC1VQWVUZGFyQnVxWW5sWng3dGlCWjJuYU1UbDZISlZlM2dkdUxzS2kzX1kxeG1fd2xqckh4bGhOWEtTWFlHQ1ZkLWNqRHo5UWdBUHVLNlEwUHg4dmhmaDlmVnhsQzhKbkV2WTgxbWl5dDFlelhJRVd0RF9fQlJ0TEtmdjZ0ZFBhUTBaS2V6MHdDUHNpRVljMXBqdEszNUxqbXBGaGxCTUtoYmk2Snh1WEU2RHJPYVNZdER6N0M1OUVxNk5EY2d5a1RPRVJQWkZMV0lKMHY3SlpleUNoeWh2eXpRQ1Vn?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Portal iG",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT3VWOFQ0bURHUWZnTmlicmVVZjNxa0xCaFJIcXFpY3RmN18zZmFVeEVHSHB6QXU1ck9CSDVrQ1FQOENMUHBWTXVZWEw3RVJ5TmdaZWZtRU9VN3lGdnpKZ0hpR0RwZ1BIU2s4SF9iNEo1Q1M4eWloX3ptMUZEQkRYMXE0STc0cXkwWTJUR1JsTlRsMU9rQjVLM0dzd09mQzZFN3Z0dThmUlpEUjMycEpJUzVOTGk2a2FuRGpz0gG7AUFVX3lxTE9PdVY4VDRtREdRZmdOaWJyZVVmM3FrTEJoUkhxcWljdGY3XzNmYVV4RUdIcHpBdTVyT0JINWtDUVA4Q0xQcFZNdVlYTDdFUnlOZ1plZm1FT1U3eUZ2ekpnSGlHRHBnUEhTazhIX2I0SjVDUzh5aWhfem0xRkRCRFgxcTRJNzRxeTBZMlRHUmxOVGwxT2tCNUszR3N3T2ZDNkU3dnR1OGZSWkRSMzJwSklTNU5MaTZrYW5EanM?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -934,12 +1011,12 @@
    "title": "Garotinho diz que segue elegível e fará o registro da candidatura ao governo do Rio, apesar da suspensão de direitos políticos",
    "summary": "Anthony Garotinho diz que segue elegível e fará o registro da candidatura ao governo do Rio de Janeiro. A Justiça determinou a suspensão de seus direitos políticos por oito anos. A defesa sustenta que o trânsito em julgado ocorreu em 2018 e que o prazo se esgotou em agosto de 2026. O Ministério Público Eleitoral afirma que o STF certificou o trânsito em julgado em 2025, com término em 2033. O TRE-RJ já havia indeferido o registro, e o TSE liberou provisoriamente a campanha.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 4.6,
+   "score": 4.8,
    "outlets": [
     {
      "name": "ND Mais",
@@ -965,12 +1042,12 @@
    "title": "Ceará aprova patrocínio de R$ 2,5 milhões à Unidos da Tijuca para o carnaval do Rio em 2027",
    "summary": "A Assembleia Legislativa do Ceará aprovou, com 21 votos, o repasse de R$ 2,5 milhões à Unidos da Tijuca para o desfile de 2027, no Rio. O projeto foi enviado pelo governador Elmano de Freitas, do PT. O enredo se inspira no livro \"A Cabeça do Santo\", da escritora cearense Socorro Acioli. O governo diz que o objetivo é promover o turismo, com dinheiro da Secretaria do Turismo. A proposta dividiu vereadores de Fortaleza e deputados estaduais, e críticos questionam gastar dinheiro público com escola de samba do Rio em meio à seca.",
    "scores": {
-    "cobertura": 3,
+    "cobertura": 3.5,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 4.6,
+   "score": 4.8,
    "outlets": [
     {
      "name": "UOL",
@@ -1148,6 +1225,48 @@
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZDM3dk03ZFdKOERYR3FpX0VNZmhOUVVma0c0LVdZUFFWR3VtVXVVQlMwbFdrY0lWRHkxV0tVb2gzRTR2YXRkSnRvSzJqWVN4MlF3NzY4RGhTdjRsY0ZycDVZYnBpd0dqWmVnUHk0RFVxQjV3VU0yMnM5SVpmYVR0NDlmRGpYc2dKR2NtRVRyWmNYTVlTWGFtTXBwdkk0YlFYV3RKcFRybDl4YWYzRW5GcGdLenM4M284TVBOSl9JZDFQUzU1cG9FRng1ZDdBc3FpY3BEemNpQnFuSmQyYVZqNEFDOA?oc=5",
      "camp": "regional",
      "position": "secundario"
+    },
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/vasco-x-palmeiras-horario-e-onde-assistir-a-semifinal-da-copa-do-brasil/",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Dia",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVU9yYi04eWpTZDF1b1Q1elNnc210QUNLMzZlc0xwc2dueDRaU1p0c0FFLUgwTnBqWVVVR3FQVXk0UDVXbEMzOGxvTG9GWHhnZ3kySGNvRXNIUk5tTXo0OVFaSUJFTnlISmluN1g4T3M4MUJGdHBaaVB6c195Q0h3SnRhVERhVHhHNDVfVnFBNWJ0RGFZTERIRnpvX3VNZE4wVWUxRnUyVkNyRXZLTXJOQUxnd1NDLUVVbzJmSWtB0gHDAUFVX3lxTE5HUUQ1b1JxQnFXaEMwMmttR2RBakk5aHh3QXFlZWNCVE1qUllYLU5rQVNmV2dxVnZWSEJIekVrTjR6bnlBcFlsOVJGSU92WU50Nmo5VkxkWk5tRkttZDRyejVpcEN6d2lZRDdsbnl4RW5jRENyY2hHSlltUC1meUtVTDJzdXh5RzBQcktFQzlYQWtkdVNJVXBHZTNQX1lFRnZmdVlneFp2Y2pJbndRYWd3SzFFUzB6Zk9kUldHX1F1bVRLYw?oc=5",
+     "camp": "rio",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcEVianR2Rk5lazdGZXJnQVZKcUpPRFprQ1VYTlo1Qm9QRXRHckJwcFJrN2tURkh5QTNpWXZlUUpwWDNMNVMxUUx1RFFwMmc1Zy01cHNKUkJveHl4M19vQ2MtWWNIbU5mVmdHX09YbTJHY3ZMSUhGRUN4RUY5ZFdNT2ZwQms3YXJ5QndIdDNOMnJIQmtxU3VwU2puTHBhMDFKTFVKRGJQMndweVBwS2UtZDNTTmc?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc2dHdnkwZFVQaEpmTzdJSWlhaG9VdWdUVzRpTW91MjhtNkNfXzYwRWEyZVRGcy1NNjJmeFp1ZFRYV19FdDdrSnlQUWxUTXpoNU1jN192U0xYMFJqUkw5Nl91d2NNeGtDQlNRdE01N3hjMFlNV1RQelNYYzkwbzlIZ0Z0bUxMRWx6R0Q1MWNrZjlUTHo4MGxQemVNclNZck5RT2F5d0hTVm91ZkczTS05Rll6MllLV3UzSEIzOTY0VTkwY0VsOTU1SmFIdjEtSjJsQlVldThwYlFoZVN5QjdnSw?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTUtNUWxnQlJVQU4xaVVZWXg1WWJGVjluLURzNVY5amtwLWF3TVNqZHlnT1pTeU9iUmpzSXJZSVd3NDBCdXM3U2VlTFllUkkyZVljc1ltM05ULW16bnF1Z09OQ3ZhX09TNm9fMTdqVThBRlZiYnFUVzVtV25HVE1PQ1c0VlFiUjdnQzB4cEk5YzF1UzVMVVlURGUtTVRBNUdhUTU5R19IS1ZlQ0hUUnRCVmVRaGZ6QnZuT3NOVkhCVlFtZkZWNG9EMmlJaVhSWHZvbU5Zc1hkLU5MZTFmY2VBNjRuVDBvRGFVd1F0a0JrRFdZM1lkZ3dxMFJBdTE?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQXM4WnZMZ1A2Y3AxOEFsVzM2YUhDSWVWMFlBeVVUVmYwNE5XaTdENUpBZjJQTm1WVlBGWmNxMTJfX1VBNFpYaDJjQjNxcWdJU2RpX19vNGRBNUdHTXY0M3hpM2oxN3NXN3dSWHFoWVgtMEFPNS1od1kySmt4UlhtZzA2VUE0aUtPRUlqQ1ExTWhwMEM4dS1XTW9lQng2bXY3MGY3TDVNTXdWZXZjdWZ1am9UakZldk9CVEwzLTUzR0MyWFczNmdaRnYzWdIB0wFBVV95cUxPSmVybVpOcTF1Yy1ZY2xMdjF3aU5lNFFHVGc3XzltQmx0UHlEdWV1SmlJcl9ZWENZMm4tUi02Q0pNTi1XbVdlbHhZOEl2bUEyazdWaFlyWEs0NzJMeThPd3ZxOXZkTFI0MW1Vb3VUcFZDaW9LMTRhTU9GRy15bzZlNDUzTTNySU85STBuX2dTbzgyWXRHQ3JLRG1UaW9wQk9seTM1ckcwbG1JSEFBTk5zX19OMnl5NGl0YmtaZjRZQzd4VFJtVC1xNDI4M1NXbHo1VXE0?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1234,6 +1353,27 @@
      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUxUYklFWXpFVXNybTV0QlpGY0o0eEJhYUNxeE5IYkIwLVZiTDBvYWdXb3lxRl9lWENjclpVYzdQdW9QdnV2dU9hNGhnSmM0cUhkZnNzWWRaemlDelhwQVVSMFJkRE9UYlhjNGRnUS1uV2JNWWNmQ2l4SFRXUGlDaHRiZG94RklURUR4bFJaNzg4eHcxSkU0X2JKMkZHeXBqNlU0ODFuQUl5RGtiNTFVUjBNYWJTMFdJUGJ1MjdMdDhVLXNyNUJpU1dZX0tYS2VjUHNpWHhGTklDQnc?oc=5",
      "camp": "regional",
      "position": "secundario"
+    },
+    {
+     "name": "Jornal do Commercio",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVnROd1lMTDd1MEJ5Z0RpeEJaaktpenVQcGdKVl8telc0aXlkbnhlV2R2bjRoSmFWSjJxUklSTnZxSlUtLUNQMUtCUkxyWVBRZGVDY1FUZ2Z0bDQ5RDg2R0xFTkZPVnNjaDJ2RVU0NjI3amVmcHhfdHBSSkdaRkIycFVjWmZwbWduSERrcGpUcWhaQjV4aTBOX0lWaFJVZHZrYTZ4aGxSMGwzMjNaZE5IRnZIazBqeHBLckNpRUtOWm81c2lwNXhLWGVLNkhuYVVLY09PdWpHVmY1dw?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "Gazeta de Alagoas",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbWs0OW4wMlRjSl80Sm1vdTFFb3ZvWXNfVmRBaUdIVnowYl9JY1YwMWNWaS1JYTJuNnZwOENDWDNpTEw0b21VWXBMTzZWVHR6aTNEdF9CQzNoY0FFMURmOGt2RWhzNDh6TnUzMnh4LWFGYlpadm1RZUMwVG9RWndwRzFNOUx3dzFqYkphTDl0NXZCT0ctdlBoYjlKNU1vZFJNWDdpcXlaaXBaTy1FR19weU40em1LSzJpMWx4WXhQUmMyQzF0QUxub0wtZ9IB0wFBVV95cUxPalVneXpLM2swWGtjOXhyMWVMTVhwNlVuekVGZkR6b3lYTDdFSWxsOFhnU2FBVGxKSnA1YkMxc21iWC1EMGdoWFlXblFXTDZDVDF0anFpRGp3NmNNTk9vRDIxeWtyanFoS1NuZThJcmdfTE1SNWpISTlMa1ltX01EMVdIcy0tS1N4Qy1qc0dQWmUwOXgyTExtLXlZYVU5WHloSFh4X0JHUVZ1czkyRVJWX29CMWdtYy1GN3BqTEpNcEx4dFFwWTh3aFpnVGJ2d0VSeENF?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Popular",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZEV2MF92THhBMVNqQ1U4emJYM1pIQlRDU1pPNDRMdG9SdkZ5dkhMQnZ5dEZBaWNBc1dDVjFxZEJ2WlhlYWMwaFZyLXl6akFBOGtKUlZMNW5BaW1sYnFLN2k4LV8xdVRwUC1EcG1GRG54SE95X25xdkxhMGk4bWV5ZHpiQVBpMmY3bHRsUTk1a3BjUW9kSVdGbS0tZHV2VVZod3RXTjZfb3Q5Y1ZtUmotYUtlejhIYW0yQjJxVFR3?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
@@ -1247,18 +1387,32 @@
    "title": "Flamengo vence o Bahia por 3 a 2 e chega à final inédita da Copa do Brasil Feminina",
    "summary": "O Flamengo Maricá venceu o Bahia por 3 a 2 e garantiu vaga na final da Copa do Brasil Feminina. É a primeira vez que o clube chega à decisão da competição. Com o resultado, o Flamengo é o primeiro finalista do torneio. A partida foi disputada neste sábado. O rival na final ainda será definido.",
    "scores": {
-    "cobertura": 2,
+    "cobertura": 5.0,
     "destaque": 6,
     "persistencia": 4,
     "peso_voce": 6
    },
-   "score": 4.3,
+   "score": 5.3,
    "outlets": [
     {
      "name": "Terra",
      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZWRmYkZuRndNbDhPeEFLNm8xSlloR1hlU1VDbkpRNzVXangySDRuRkF4bUhiYUdWN3Yxa0ItU3ZVX0ZHUjltWlEydEwweGlRNEdsQUNib0hXaVIyVHJDcDNkZ1B4RnBKM0JUeDJSc1RPS1JuUEJ0VG05ZzdGWGRJdk1CSnItVHN1NGZ1RFhOQVBzc2RUNnFMUTZMR1hZUndhVmUyYkhQRHNCRzg2WkpuLUJicnJ0WVFwMl9jdGpSWHRRcnlrNDlBNlY4WkNqTmMySUZUQWdjcGo2TGplZ2tINjJ2LUtQSEstT0J6bHNWdHJncWI4b3lWVEg5djkwNXRqOWhlUHhyUQ?oc=5",
      "camp": "centro",
      "position": "secundario"
+    },
+    {
+     "name": "BandNews",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcEVianR2Rk5lazdGZXJnQVZKcUpPRFprQ1VYTlo1Qm9QRXRHckJwcFJrN2tURkh5QTNpWXZlUUpwWDNMNVMxUUx1RFFwMmc1Zy01cHNKUkJveHl4M19vQ2MtWWNIbU5mVmdHX09YbTJHY3ZMSUhGRUN4RUY5ZFdNT2ZwQms3YXJ5QndIdDNOMnJIQmtxU3VwU2puTHBhMDFKTFVKRGJQMndweVBwS2UtZDNTTmc?oc=5",
+     "camp": "centro",
+     "position": "editoria",
+     "via": "coleta"
+    },
+    {
+     "name": "O Povo",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWGVJcDNOclVWTGhubEJiZ0x1YlEwbVZpUXdkc2w3Ylc1M3NwTGlobTNiaWdZWkpKOFVTYUpPeEdzVzh5WkJWZU5RR0JfdzdJSFR2V0Vsd0pOcUZCbS1RR1BOazVnNXpldWRNOTFQckRWbzItTE43aW84NWhzb1hrbGk4dmpmQmRjZXY4cFRkYmdOUDBHb1lCX29JUzVuUEJzYW9uWVljU3d0alp0RFpqME1wTDg5UnZ4bGpSZlRQS1JPOUk?oc=5",
+     "camp": "regional",
+     "position": "editoria",
+     "via": "coleta"
     }
    ],
    "asymmetry": {
