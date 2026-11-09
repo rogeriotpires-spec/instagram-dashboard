@@ -1,236 +1,321 @@
 {
- "date": "2026-11-09",
- "generated": "2026-11-09T09:15:58-03:00",
- "programa": "Conversa Timeline",
- "titulo": "Lula planeja 40 ministérios, PT passa o chapéu depois do fundo eleitoral, inquérito das fake news caminha para o fim e Gonet é alvo de reportagem sobre contratos",
- "abertura": "Lula planeja chegar a 40 ministérios no quarto mandato, recorde desde a redemocratização, enquanto o PT abre uma vaquinha de R$ 7 milhões depois de usar R$ 123,8 milhões do fundo eleitoral. No Supremo, a PGR prepara o parecer que deve encerrar o inquérito das fake news, e a Revista Oeste revela que uma empresa de Paulo Gonet é administrada por um empresário com 55 contratos públicos. Na economia, o governo segue sem ministro da Fazenda. Hoje sai o decreto da escala 6x1, um dia antes da audiência de Dino.",
- "agenda": [
-  {
-   "time": "Segunda (9)",
-   "text": "Decreto do ministro Luiz Marinho sobre a escala 6x1, previsto para hoje",
-   "source": {
-    "name": "Brasil de Fato",
-    "url": "https://www.brasildefato.com.br/2026/11/05/dino-marca-audiencia-de-conciliacao-sobre-fim-da-escala-6x1/"
-   }
-  },
-  {
-   "time": "Terça (10), 14h",
-   "text": "Audiência de conciliação sobre a escala 6x1 na Primeira Turma do STF",
-   "source": {
-    "name": "Times Brasil",
-    "url": "https://timesbrasil.com.br/brasil/dino-mantem-cronograma-do-fim-da-escala-6x1-e-marca-audiencia-para-a-proxima-terca-feira/"
-   }
-  },
-  {
-   "time": "Quarta (11)",
-   "text": "Fim do prazo da vaquinha do PT",
-   "source": {
-    "name": "CNN Brasil",
-    "url": "https://www.cnnbrasil.com.br/politica/pt-abre-vaquinha-virtual-para-quitar-despesas-da-campanha-de-lula/"
-   }
-  }
- ],
- "itens": [
-  {
-   "id": "quarenta-ministerios",
-   "bloco": "Política nacional",
-   "titulo": "Lula planeja 40 ministérios no quarto mandato, recorde desde a redemocratização",
-   "subtitulo": "Hoje são 38 pastas; o recorde anterior era de 39, com Dilma, e Bolsonaro governou com 23",
-   "resumo": "O governo tem hoje 38 ministérios, e o plano para o quarto mandato de Lula chega a 40, recorde desde a redemocratização. Entre as novas pastas estão a da Segurança Pública, desmembrada da Justiça depois da promulgação da PEC da Segurança, e uma só para a pessoa idosa. Para criar as pastas, o Executivo precisa editar medida provisória ou mandar projeto ao Congresso. O líder da oposição no Senado, Rogério Marinho (PL-RN), resumiu: \"Lula e seus 40 ministros. Deus salve o Brasil\". Cada ministério novo traz mais cargos comissionados, mais prédio e mais gasto, pagos por quem trabalha e paga imposto.",
-   "metafora": "É como responder a uma casa que já não cabe no orçamento construindo mais dois quartos: a família aumenta o aluguel e o morador paga a obra.",
-   "contexto": [
-    "O governo tem 38 ministérios; a previsão para o quarto mandato é de 40.",
-    "O recorde anterior era de 39 pastas, no segundo mandato de Dilma Rousseff.",
-    "Em 1990, o governo Collor tinha 16 ministérios; Bolsonaro governou com 23, lembrou Sóstenes Cavalcante (PL-RJ).",
-    "Segurança Pública depende da promulgação da PEC da Segurança; a pasta da Pessoa Idosa hoje é uma secretaria dos Direitos Humanos.",
-    "A reportagem não traz resposta do Planalto às críticas."
-   ],
-   "angulo": [
-    "Ministério novo é cargo novo para a base aliada, e quem paga é o contribuinte: o programa defende governo menor, não maior.",
-    "Quem prega ajuste fiscal e entrega recorde de ministérios dá o exemplo ao contrário.",
-    "A segurança pública merece prioridade real, com resultado nas ruas, e não só uma placa nova na porta de uma pasta."
-   ],
-   "perguntas": [
-    "Quanto custa, por ano, manter 40 ministérios com ministro, gabinete e cargos comissionados?",
-    "Uma pasta de Segurança Pública sem comando claro sobre as polícias estaduais resolve o quê?",
-    "Por que o presidente que fala em cuidar das contas amplia a estrutura em vez de enxugar?"
-   ],
-   "atencao": "O plano ainda não foi formalizado: depende de medida provisória ou projeto de lei.",
-   "fontes": [
+  "date": "2026-11-09",
+  "generated": "2026-11-09T09:15:58-03:00",
+  "programa": "Conversa Timeline",
+  "titulo": "PF afasta os delegados do caso Master, Lula fala em dívida sem anunciar cortes, planeja 40 ministérios e PT passa o chapéu depois do fundo eleitoral",
+  "abertura": "A Polícia Federal vai afastar os dois delegados que lideravam a investigação do caso Master, autores dos relatórios sobre as interações entre Vorcaro e Moraes, e a PF não explica o motivo. No pronunciamento em rede nacional, Lula disse se preocupar com a dívida e os juros, mas não anunciou nenhum corte de gastos e listou promessas que custam dinheiro. O governo planeja chegar a 40 ministérios, enquanto o PT abre uma vaquinha de R$ 7 milhões depois de usar R$ 123,8 milhões do fundo eleitoral. No Supremo, a PGR prepara o parecer que deve encerrar o inquérito das fake news, e hoje sai o decreto da escala 6x1, um dia antes da audiência de Dino.",
+  "agenda": [
     {
-     "name": "Gazeta do Povo",
-     "url": "https://www.gazetadopovo.com.br/republica/lideres-da-oposicao-criticam-esplanada-com-40-ministerios-no-lula-4/"
-    }
-   ]
-  },
-  {
-   "id": "vaquinha-pt-pix13",
-   "bloco": "Política nacional",
-   "titulo": "PT abre vaquinha de R$ 7 milhões com Pix de R$ 13 para quitar a campanha de Lula",
-   "subtitulo": "Partido recebeu R$ 123,8 milhões do fundo eleitoral e a arrecadação vai até quarta (11)",
-   "resumo": "O PT abriu na quinta-feira (5) uma vaquinha virtual com meta de R$ 7 milhões para quitar despesas da campanha de reeleição de Lula. O Pix sugerido é de R$ 13, o número do partido na urna, e o prazo vai até a quarta-feira, 11. Pelas contas declaradas no TSE, a campanha teve receitas de cerca de R$ 129,9 milhões, dos quais R$ 123,8 milhões, ou 95,7%, vieram do fundo eleitoral, bancado com dinheiro público. As doações de pessoas somaram só R$ 4,14 milhões, e o coordenador financeiro, José de Filippi, diz que a prestação de contas do segundo turno ainda não está completa. Pedir dinheiro ao militante depois de gastar quase tudo do fundo público levanta uma dúvida simples: para onde foi a verba?",
-   "contexto": [
-    "Meta de R$ 7 milhões; Pix sugerido de R$ 13; prazo até 11 de novembro.",
-    "Receitas declaradas de cerca de R$ 129,9 milhões, com R$ 123,8 milhões do fundo eleitoral (95,7%) e R$ 4,14 milhões em doações.",
-    "Despesas declaradas de R$ 93,9 milhões, das quais cerca de R$ 31 milhões com a Delta3 (marketing) e R$ 13,5 milhões em impulsionamento na Meta.",
-    "Filippi afirma que o saldo no papel não garante que todas as contas estejam pagas, e que os gastos do segundo turno faltam na prestação."
-   ],
-   "angulo": [
-    "Campanha financiada em quase 96% por dinheiro público que ainda passa o chapéu é um contraste que o eleitor entende.",
-    "O programa cobra transparência total dos gastos, com destaque para os R$ 31 milhões de marketing e os R$ 13,5 milhões em impulsionamento.",
-    "Se faltou dinheiro, a pergunta é para onde ele foi, e a resposta é do partido, não do contribuinte."
-   ],
-   "perguntas": [
-    "Como uma campanha com saldo declarado de R$ 36 milhões no papel precisa de vaquinha?",
-    "O que o eleitor ganha ao saber quanto foi para marketing e impulsionamento?",
-    "Dinheiro de vaquinha entra na prestação de contas do mesmo jeito que o fundo público?"
-   ],
-   "atencao": "Os números vêm das contas declaradas no TSE e a prestação do segundo turno ainda não está completa. As matérias divergem em um dia da semana do prazo; vale conferir.",
-   "fontes": [
-    {
-     "name": "CNN Brasil",
-     "url": "https://www.cnnbrasil.com.br/politica/pt-abre-vaquinha-virtual-para-quitar-despesas-da-campanha-de-lula/"
+      "time": "Segunda (9)",
+      "text": "Decreto do ministro Luiz Marinho sobre a escala 6x1, previsto para hoje",
+      "source": {
+        "name": "Brasil de Fato",
+        "url": "https://www.brasildefato.com.br/2026/11/05/dino-marca-audiencia-de-conciliacao-sobre-fim-da-escala-6x1/"
+      }
     },
     {
-     "name": "Gazeta do Povo",
-     "url": "https://www.gazetadopovo.com.br/republica/pt-pede-7-milhoes-em-vaquinha-para-quitar-dividas-da-campanha-de-lula/"
-    }
-   ]
-  },
-  {
-   "id": "inquerito-fake-news-fim",
-   "bloco": "STF e instituições",
-   "titulo": "PGR prepara parecer pelo fim do inquérito das fake news, e Fachin já arquivou 8 dos 103 procedimentos",
-   "subtitulo": "Aberto em 2019, o inquérito 4781 passou por Moraes por 2.736 dias antes de Fachin assumir em setembro",
-   "resumo": "O procurador-geral Paulo Gonet deve entregar a Edson Fachin um parecer favorável a encerrar o inquérito das fake news, o inquérito 4781, aberto em 2019. Fachin assumiu a condução em setembro, e Alexandre de Moraes tinha sido o relator por 2.736 dias, com outros 103 procedimentos ligados ao caso. Fachin já arquivou 8 desses 103, entre eles o de Rui Costa Pimenta, do PCO, por prescrição, e o de Gilson Machado, por falta de indícios mínimos. Uma mulher que vive nos Estados Unidos teve a prisão preventiva revogada por um post cuja prova a própria PGR chamou de frágil. Sete anos de um inquérito aberto de ofício, com sigilo e sem prazo, mostram o custo de investigar opinião fora das regras do processo penal.",
-   "contexto": [
-    "Inquérito 4781 aberto em 2019; Moraes foi relator por 2.736 dias.",
-    "Fachin assumiu em setembro e arquivou 8 dos 103 procedimentos, em decisões que seguiram a PGR.",
-    "Entre os casos arquivados: Gilson Machado, Alex Brasil (PL-SC), Rui Costa Pimenta (por prescrição) e o grupo \"Passarinho Verde\" no Telegram.",
-    "Fachin revogou a prisão preventiva de Flávia Cordeiro Magalhães, que vive nos EUA, por um post de 2023; a PGR viu uma \"ocorrência isolada\".",
-    "Os demais procedimentos terão análise individual, conforme a Portaria nº 189.",
-    "Em 9 de setembro, Moraes tentou incluir o ministro André Mendonça no inquérito; a PGR rejeitou, e o tema aguarda o plenário."
-   ],
-   "angulo": [
-    "O arquivamento confirma o que a direita denuncia há anos: um inquérito sem fim, sem limite de objeto, que atingiu quem só opinou.",
-    "O programa defende que quem teve celular apreendido, perfil bloqueado ou prisão decretada por opinião tenha direito a reparação.",
-    "Encerrar o inquérito é o mínimo; o Supremo precisa se comprometer a nunca mais abrir investigação de ofício sobre opinião."
-   ],
-   "perguntas": [
-    "Quem responde pelos sete anos de sigilo e pelas medidas que a própria PGR hoje considera frágeis?",
-    "O que muda na prática para quem teve conta bloqueada ou celular apreendido?",
-    "Como evitar que um inquérito de ofício como esse volte a existir?"
-   ],
-   "atencao": "O parecer da PGR é descrito por fontes; ainda não há decisão de Fachin encerrando o inquérito principal.",
-   "fontes": [
-    {
-     "name": "Gazeta do Povo",
-     "url": "https://www.gazetadopovo.com.br/republica/fachin-arquiva-mais-cinco-investigacoes-do-inquerito-das-fake-news/"
+      "time": "Terça (10), 14h",
+      "text": "Audiência de conciliação sobre a escala 6x1 na Primeira Turma do STF",
+      "source": {
+        "name": "Times Brasil",
+        "url": "https://timesbrasil.com.br/brasil/dino-mantem-cronograma-do-fim-da-escala-6x1-e-marca-audiencia-para-a-proxima-terca-feira/"
+      }
     },
     {
-     "name": "BP Money",
-     "url": "https://bpmoney.com.br/politica/pgr-envia-stf-parecer-fim-inquerito-fake-news/"
+      "time": "Quarta (11)",
+      "text": "Fim do prazo da vaquinha do PT",
+      "source": {
+        "name": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/politica/pt-abre-vaquinha-virtual-para-quitar-despesas-da-campanha-de-lula/"
+      }
     }
-   ]
-  },
-  {
-   "id": "gonet-empresa-abfp",
-   "bloco": "STF e instituições",
-   "titulo": "Empresa aberta por Gonet é administrada por empresário cuja associação fechou 55 contratos públicos",
-   "subtitulo": "Associação de Zilmar Assis soma mais de R$ 5 milhões; Gonet esteve em ao menos quatro eventos dela",
-   "resumo": "Em abril de 2025, o procurador-geral da República, Paulo Gonet, abriu em Goiás a Direito em Perspectiva Estudos Científicos, voltada a cursos, palestras e material didático. A administração ficou com o empresário Zilmar Santana de Assis, que também comanda a Associação Brasileira de Formação e Pesquisa (ABFP). Segundo a Revista Oeste, a ABFP fechou ao menos 55 contratos com órgãos públicos e conselhos, somando mais de R$ 5 milhões, e o maior é de R$ 2,5 milhões ao ano com o Tribunal de Contas de Mato Grosso. Gonet esteve em ao menos quatro eventos da associação, um deles em 28 de abril de 2025 com Gilmar Mendes, e dois órgãos de Diamantino (MT), cidade natal de Gilmar, pagaram R$ 408 mil à ABFP em 2025. Gonet, Zilmar e a ABFP não responderam, e o gabinete de Gilmar diz que ele desconhecia os contratos.",
-   "contexto": [
-    "Empresa aberta em abril de 2025, registrada em Goiás; a reportagem não achou contratos públicos assinados diretamente por ela.",
-    "ABFP e a empresa de Gonet dividem telefone e contador; outra firma de Zilmar divide o endereço.",
-    "Maior contrato: R$ 2,5 milhões ao ano com o TCE de Mato Grosso, renovado em setembro de 2025.",
-    "Seminário de 28 de abril de 2025 recebeu R$ 348 mil de um consórcio de São Paulo; evento de maio teve R$ 75 mil do BNDES.",
-    "Gabinete de Gilmar: desconhecia os contratos de Diamantino, e eventos acadêmicos são compatíveis com a magistratura. Dos 26 órgãos contratantes, 19 responderam e negaram irregularidade."
-   ],
-   "angulo": [
-    "Quem tem poder de denunciar, ou de não denunciar, precisa de uma distância visível de quem fecha contratos com o poder público.",
-    "O programa defende que Gonet explique publicamente a empresa, o vínculo com Zilmar e os eventos, já que a reportagem não obteve resposta.",
-    "Não há acusação de crime: a cobrança é de transparência e de regras claras de conflito de interesses para a cúpula da PGR e do Judiciário."
-   ],
-   "perguntas": [
-    "Que explicação o procurador-geral deve dar sobre a empresa e a gestão de Zilmar?",
-    "Eventos pagos por contratos públicos com a presença de ministros do STF e do PGR precisam de regra de transparência?",
-    "Quem fiscaliza o fiscal quando ele é o procurador-geral?"
-   ],
-   "atencao": "Não há acusação de irregularidade: os fatos vêm de uma reportagem, sem resposta de Gonet, de Zilmar e da ABFP.",
-   "fontes": [
+  ],
+  "itens": [
     {
-     "name": "Revista Oeste",
-     "url": "https://revistaoeste.com/politica/gonet-tem-empresa-gerida-por-empresario-que-fecha-contratos-publicos/"
-    }
-   ]
-  },
-  {
-   "id": "fazenda-fonteles",
-   "bloco": "Economia",
-   "titulo": "Fonteles dá sinais de que fica no Piauí, e Lula segue sem ministro da Fazenda",
-   "subtitulo": "Alckmin teria pedido a pasta, e o nome do governador reeleito enfrentou fogo amigo no PT",
-   "resumo": "O governador reeleito do Piauí, Rafael Fonteles (PT), de 41 anos, cotado para a Fazenda, deu sinais de que fica no estado. No domingo (8), ele anunciou que o secretário de Comunicação e o procurador-geral estadual seguem nos cargos. Segundo a coluna de Andreza Matais, a indicação enfrentou fogo amigo no PT, porque o cargo daria a Fonteles visibilidade na sucessão de 2030. A coluna diz ainda que Lula recebeu uma lista de apoiadores de Fonteles e não gostou do que viu. O vice Geraldo Alckmin teria pedido a Lula para assumir a pasta, e o mercado espera o nome que dirá se haverá compromisso real com as contas públicas.",
-   "metafora": "É como escolher o piloto depois de decolar: o passageiro sente o balanço e ainda não sabe quem está na cabine.",
-   "contexto": [
-    "Fonteles tem 41 anos e foi reeleito governador do Piauí.",
-    "No domingo (8), anunciou que o secretário de Comunicação, Marcelo Noleto, e o procurador-geral, Francisco Pierot Júnior, continuam.",
-    "A coluna relata fogo amigo no PT contra a indicação de Fonteles.",
-    "Segundo a coluna, Alckmin pediu a Lula para ocupar a Fazenda.",
-    "Na semana passada, Lula defendeu economia \"arrumada\", mas o governo não anunciou medidas fiscais."
-   ],
-   "angulo": [
-    "A indefinição na Fazenda custa caro ao bolso do brasileiro.",
-    "O programa defende um nome que assuma meta fiscal, corte de gasto e fim da criação de despesas, não alguém escolhido por cálculo de sucessão.",
-    "Disputa interna do PT por vitrine eleitoral de 2030 não pode ser mais importante que a política econômica."
-   ],
-   "perguntas": [
-    "O que o mercado espera ouvir do próximo ministro da Fazenda nos primeiros dias?",
-    "Escolher a Fazenda pensando em 2030 é compatível com ajuste fiscal?",
-    "O que muda para o cidadão se a indefinição durar semanas?"
-   ],
-   "atencao": "As informações sobre bastidores vêm de uma coluna e não foram confirmadas pelo Planalto.",
-   "fontes": [
-    {
-     "name": "Metrópoles",
-     "url": "https://www.metropoles.com/colunas/andreza-matais/rafael-fonteles-da-sinais-de-que-ficara-no-piaui-e-se-afasta-da-fazenda"
-    }
-   ]
-  },
-  {
-   "id": "fim-6x1-decreto-audiencia",
-   "bloco": "Economia",
-   "titulo": "Decreto de Marinho sobre a escala 6x1 sai hoje, um dia antes da audiência de Dino no STF",
-   "subtitulo": "Decreto deve garantir ao menos oito folgas por mês; audiência é amanhã, às 14h",
-   "desdobramento": "O decreto do ministro Luiz Marinho está previsto para hoje (9), véspera da audiência de conciliação de Dino.",
-   "resumo": "O ministro do Trabalho, Luiz Marinho, deve editar hoje, segunda-feira (9), um decreto sobre a organização das escalas, com ao menos oito folgas por mês para o trabalhador. A audiência de conciliação convocada pelo ministro Flávio Dino, do STF, é amanhã, terça (10), às 14h, na Primeira Turma. Participam entidades de empresários e trabalhadores, AGU, PGR, Câmara e Senado, e só se discute a implementação, não o mérito da emenda. A CNC pede adiar o início da redução para outubro de 2027, e a CNI quer um ano a mais; Dino não deu liminar e considerou o prazo de dois meses, a princípio, não inviável. Para o pequeno comércio e a indústria, o decreto na véspera da conversa pode esvaziar a negociação que o próprio Supremo convocou.",
-   "contexto": [
-    "Audiência: terça, 10 de novembro, às 14h, na Primeira Turma do STF; escopo restrito à implementação.",
-    "Decreto de Marinho previsto para segunda (9), com ao menos oito folgas por mês.",
-    "CNC propõe adiar a 1ª etapa para outubro de 2027 e o limite de 40 horas para outubro de 2028.",
-    "CNI pede prorrogar o prazo em um ano; Dino não concedeu liminar.",
-    "Dino afirmou que o prazo de dois meses \"não se revela, a princípio, inviável\"."
-   ],
-   "angulo": [
-    "O trabalhador merece mais descanso, mas a transição tem de caber no caixa de quem emprega, sobretudo o pequeno comércio.",
-    "Decreto na véspera da audiência passa por cima da conciliação: o programa defende que o prazo seja negociado com quem paga a folha.",
-    "Regra apertada demais é risco para vaga formal, e o emprego é o que está em jogo."
-   ],
-   "perguntas": [
-    "O decreto invade o que deveria ser decidido na conciliação de amanhã?",
-    "O pequeno comércio tem condições de cumprir a mudança em dois meses?",
-    "Quem arca com o custo se a escala mudar e a conta não fechar?"
-   ],
-   "atencao": "As matérias divergem na data exata do início da primeira etapa em dezembro; confirmar antes de citar o dia no ar. O decreto ainda não foi publicado.",
-   "fontes": [
-    {
-     "name": "Brasil de Fato",
-     "url": "https://www.brasildefato.com.br/2026/11/05/dino-marca-audiencia-de-conciliacao-sobre-fim-da-escala-6x1/"
+      "id": "pf-delegados-master-afastados",
+      "bloco": "STF e instituições",
+      "titulo": "PF afasta os dois delegados que lideravam a investigação do caso Master",
+      "subtitulo": "Daniel Cola e Wedson Cajé produziram os relatórios sobre as mais de 300 interações entre Vorcaro e Moraes",
+      "resumo": "A Polícia Federal vai exonerar Daniel Mostardeiro Cola e Wedson Cajé Lopes, chefe e número dois da coordenação de crimes financeiros, que conduziam a investigação do Banco Master. A decisão foi comunicada na sexta-feira (6), e a corporação não apresentou nenhuma justificativa oficial. Eles assinaram os relatórios que apontaram mais de 300 interações entre Daniel Vorcaro e o ministro Alexandre de Moraes, que nega interferência e chama a produção do relatório de ilegal. Segundo a Revista Oeste, o estopim foi o relatório sobre ministros do STF citados nas provas do caso, pedido por Edson Fachin, que desagradou a integrantes da Corte e ao diretor-geral Andrei Rodrigues. Quem escolhe os substitutos é o próprio Andrei, e uma ala da PF enxerga a troca como retaliação.",
+      "contexto": [
+        "Saem da Coordenação-Geral de Repressão à Corrupção, Crimes Financeiros e Lavagem de Dinheiro; a expectativa é que também deixem os inquéritos do Master.",
+        "A decisão foi comunicada na sexta (6) e a PF não deu justificativa oficial.",
+        "Os relatórios dos dois identificaram mais de 300 interações entre Vorcaro e Moraes; um deles cita 316.",
+        "Fachin pediu um documento nomeando os ministros do STF mencionados nas provas, principalmente no celular de Vorcaro; o envio previsto para a primeira semana de novembro ainda não ocorreu.",
+        "Moraes nega interferência a favor do banco e atribui o relatório a uma ordem ilegal de André Mendonça, de quem pediu investigação por abuso de poder."
+      ],
+      "angulo": [
+        "Trocar quem investiga justamente quando o relatório chega perto de ministros do Supremo precisa de explicação pública, e a PF não deu nenhuma.",
+        "Quem escolhe os substitutos é o diretor-geral que, segundo a Revista Oeste, ficou desagradado com o relatório. Isso não é detalhe.",
+        "O público tem direito de saber o que os relatórios dizem sobre os ministros antes de qualquer arquivamento ou mudança de equipe.",
+        "Investigação do maior escândalo bancário do país não pode depender do humor de quem é citado ou de quem o indicou."
+      ],
+      "perguntas": [
+        "Que explicação a PF deve ao país por afastar, de uma só vez, os dois delegados que conheciam o caso a fundo?",
+        "O relatório sobre os ministros do STF vai ser enviado e tornado público, ou fica na gaveta?",
+        "A troca de equipe muda o ritmo e o alcance dos inquéritos do Master?"
+      ],
+      "atencao": "Os motivos vêm de apurações jornalísticas, não de comunicado oficial; ministros e delegados citados não são condenados por nada. Falar em \"retaliação\" é leitura de uma ala da PF.",
+      "fontes": [
+        {
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/politica/delegados-do-caso-banco-master-afastados-cargos-estrategicos-pf/"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/no-ponto/master-relatorio-sobre-ministros-do-stf-motivou-afastamentos-na-pf/"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://pleno.news/brasil/politica-nacional/pf-vai-afastar-dois-delegados-que-investigam-o-caso-master.html"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Delegados da polícia federal afastados do caso master por seus relatórios terem desagradado Andrei Rodrigues"
     },
     {
-     "name": "Times Brasil",
-     "url": "https://timesbrasil.com.br/brasil/dino-mantem-cronograma-do-fim-da-escala-6x1-e-marca-audiencia-para-a-proxima-terca-feira/"
+      "id": "pronunciamento-lula-sem-corte",
+      "bloco": "Economia",
+      "titulo": "Em rede nacional, Lula cita dívida e juros, mas não anuncia nenhum corte de gastos",
+      "subtitulo": "Discurso de cerca de 7 minutos listou promessas como cesta básica sem imposto, e a conta não apareceu",
+      "resumo": "Lula falou ao país na noite de domingo (8) e disse se preocupar com a trajetória da dívida pública e com os juros elevados. Prometeu responsabilidade fiscal e condições para baixar os juros, mas sem apresentar nenhuma medida concreta de ajuste ou corte de despesa. Em compensação, listou promessas: imposto zero na cesta básica a partir de 2027, transporte público gratuito aos fins de semana, renegociação de dívidas bancárias das famílias e perdão de dívidas federais de microempreendedores. Também criticou as big techs pelo papel na desinformação eleitoral. O discurso foi anunciado com 7 minutos e 44 segundos, e a questão fiscal ficou como uma frase no meio de uma lista de benefícios.",
+      "contexto": [
+        "Pronunciamento em rede nacional de rádio e TV no domingo (8), às 20h30, com duração anunciada de 7min44s.",
+        "Lula disse se preocupar com a dívida pública e os juros elevados e prometeu criar condições para reduzi-los, sem medidas específicas.",
+        "Antes do discurso, a previsão era de que não haveria novas medidas econômicas; a equipe econômica apresentaria propostas depois da viagem à Turquia e às Filipinas, na segunda quinzena.",
+        "Promessas: investimento acima de 20% do PIB, cesta básica com imposto zero em 2027, transporte gratuito aos fins de semana, Pé-de-Meia universal e Ministério da Segurança Pública por medida provisória.",
+        "A Selic está em 13,75% ao ano, e o governo se irritou com a pausa nos cortes do Banco Central."
+      ],
+      "angulo": [
+        "O país ouviu que a dívida preocupa, e ninguém ouviu o que será cortado. Preocupação sem corte não reduz dívida nem juros.",
+        "Cada promessa do discurso custa dinheiro: imposto zero, transporte gratuito e perdão de dívida saem do bolso de quem paga imposto.",
+        "Culpar as big techs pela desinformação desvia o foco: a conversa que o brasileiro quer ter é sobre o preço do arroz e a taxa de juros.",
+        "O governo segue sem ministro da Fazenda; o mercado só vai acreditar em responsabilidade fiscal quando houver nome e número."
+      ],
+      "perguntas": [
+        "Quem vai pagar as promessas do pronunciamento se nenhum gasto será cortado?",
+        "Faz sentido falar em juros altos sem dizer como a dívida vai parar de crescer?",
+        "Por que o presidente dedicou espaço às big techs e tão pouco à situação fiscal?"
+      ],
+      "atencao": "O texto do discurso vem de resumos da imprensa; as expressões entre aspas são de reportagens, não de transcrição oficial. A frase \"acusou as big techs de interferir na eleição\" do pedido foi confirmada só como crítica ao papel delas na desinformação eleitoral.",
+      "fontes": [
+        {
+          "name": "Hora Brasil",
+          "url": "https://www.horabrasil.com.br/2026/11/08/lula-faz-pronunciamento-em-rede-nacional-e-fala-sobre-economia-seguranca-e-novo-governo"
+        },
+        {
+          "name": "Diário do Centro do Mundo",
+          "url": "https://www.diariodocentrodomundo.com.br/lula-pronunciamento-uniao-responsabilidade-fiscal-domingo"
+        },
+        {
+          "name": "BNews",
+          "url": "https://www.bnews.com.br/noticias/politica/lula-fara-pronunciamento-em-rede-nacional-neste-domingo-8-e-revela-assuntos-que-serao-abordados.html"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Assunto em alta no X: #PronunciamentoLula. Lula falou em rede nacional no domingo (8): disse que a dívida e os juros o preocupam, acusou as big techs de interferir na eleição e listou prioridades, sem anunciar cortes de gastos. Como usar: Rebater com fato: lembrar que o discurso não anunciou nenhum corte e que a dívida foi tratada em poucos segundos."
+    },
+    {
+      "id": "quarenta-ministerios",
+      "bloco": "Política nacional",
+      "titulo": "Lula planeja 40 ministérios no quarto mandato, recorde desde a redemocratização",
+      "subtitulo": "Hoje são 38 pastas; o recorde anterior era de 39, com Dilma, e Bolsonaro governou com 23",
+      "resumo": "O governo tem hoje 38 ministérios, e o plano para o quarto mandato de Lula chega a 40, recorde desde a redemocratização. Entre as novas pastas estão a da Segurança Pública, desmembrada da Justiça depois da promulgação da PEC da Segurança, e uma só para a pessoa idosa. Para criar as pastas, o Executivo precisa editar medida provisória ou mandar projeto ao Congresso. O líder da oposição no Senado, Rogério Marinho (PL-RN), resumiu: \"Lula e seus 40 ministros. Deus salve o Brasil\". Cada ministério novo traz mais cargos comissionados, mais prédio e mais gasto, pagos por quem trabalha e paga imposto.",
+      "metafora": "É como responder a uma casa que já não cabe no orçamento construindo mais dois quartos: a família aumenta o aluguel e o morador paga a obra.",
+      "contexto": [
+        "O governo tem 38 ministérios; a previsão para o quarto mandato é de 40.",
+        "O recorde anterior era de 39 pastas, no segundo mandato de Dilma Rousseff.",
+        "Em 1990, o governo Collor tinha 16 ministérios; Bolsonaro governou com 23, lembrou Sóstenes Cavalcante (PL-RJ).",
+        "Segurança Pública depende da promulgação da PEC da Segurança; a pasta da Pessoa Idosa hoje é uma secretaria dos Direitos Humanos.",
+        "A reportagem não traz resposta do Planalto às críticas."
+      ],
+      "angulo": [
+        "Ministério novo é cargo novo para a base aliada, e quem paga é o contribuinte: o programa defende governo menor, não maior.",
+        "Quem prega ajuste fiscal e entrega recorde de ministérios dá o exemplo ao contrário.",
+        "A segurança pública merece prioridade real, com resultado nas ruas, e não só uma placa nova na porta de uma pasta."
+      ],
+      "perguntas": [
+        "Quanto custa, por ano, manter 40 ministérios com ministro, gabinete e cargos comissionados?",
+        "Uma pasta de Segurança Pública sem comando claro sobre as polícias estaduais resolve o quê?",
+        "Por que o presidente que fala em cuidar das contas amplia a estrutura em vez de enxugar?"
+      ],
+      "atencao": "O plano ainda não foi formalizado: depende de medida provisória ou projeto de lei.",
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/lideres-da-oposicao-criticam-esplanada-com-40-ministerios-no-lula-4/"
+        }
+      ]
+    },
+    {
+      "id": "vaquinha-pt-pix13",
+      "bloco": "Política nacional",
+      "titulo": "PT abre vaquinha de R$ 7 milhões com Pix de R$ 13 para quitar a campanha de Lula",
+      "subtitulo": "Partido recebeu R$ 123,8 milhões do fundo eleitoral e a arrecadação vai até quarta (11)",
+      "resumo": "O PT abriu na quinta-feira (5) uma vaquinha virtual com meta de R$ 7 milhões para quitar despesas da campanha de reeleição de Lula. O Pix sugerido é de R$ 13, o número do partido na urna, e o prazo vai até a quarta-feira, 11. Pelas contas declaradas no TSE, a campanha teve receitas de cerca de R$ 129,9 milhões, dos quais R$ 123,8 milhões, ou 95,7%, vieram do fundo eleitoral, bancado com dinheiro público. As doações de pessoas somaram só R$ 4,14 milhões, e o coordenador financeiro, José de Filippi, diz que a prestação de contas do segundo turno ainda não está completa. Pedir dinheiro ao militante depois de gastar quase tudo do fundo público levanta uma dúvida simples: para onde foi a verba?",
+      "contexto": [
+        "Meta de R$ 7 milhões; Pix sugerido de R$ 13; prazo até 11 de novembro.",
+        "Receitas declaradas de cerca de R$ 129,9 milhões, com R$ 123,8 milhões do fundo eleitoral (95,7%) e R$ 4,14 milhões em doações.",
+        "Despesas declaradas de R$ 93,9 milhões, das quais cerca de R$ 31 milhões com a Delta3 (marketing) e R$ 13,5 milhões em impulsionamento na Meta.",
+        "Filippi afirma que o saldo no papel não garante que todas as contas estejam pagas, e que os gastos do segundo turno faltam na prestação."
+      ],
+      "angulo": [
+        "Campanha financiada em quase 96% por dinheiro público que ainda passa o chapéu é um contraste que o eleitor entende.",
+        "O programa cobra transparência total dos gastos, com destaque para os R$ 31 milhões de marketing e os R$ 13,5 milhões em impulsionamento.",
+        "Se faltou dinheiro, a pergunta é para onde ele foi, e a resposta é do partido, não do contribuinte."
+      ],
+      "perguntas": [
+        "Como uma campanha com saldo declarado de R$ 36 milhões no papel precisa de vaquinha?",
+        "O que o eleitor ganha ao saber quanto foi para marketing e impulsionamento?",
+        "Dinheiro de vaquinha entra na prestação de contas do mesmo jeito que o fundo público?"
+      ],
+      "atencao": "Os números vêm das contas declaradas no TSE e a prestação do segundo turno ainda não está completa. As matérias divergem em um dia da semana do prazo; vale conferir.",
+      "fontes": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/pt-abre-vaquinha-virtual-para-quitar-despesas-da-campanha-de-lula/"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/pt-pede-7-milhoes-em-vaquinha-para-quitar-dividas-da-campanha-de-lula/"
+        }
+      ]
+    },
+    {
+      "id": "inquerito-fake-news-fim",
+      "bloco": "STF e instituições",
+      "titulo": "PGR prepara parecer pelo fim do inquérito das fake news, e Fachin já arquivou 8 dos 103 procedimentos",
+      "subtitulo": "Aberto em 2019, o inquérito 4781 passou por Moraes por 2.736 dias antes de Fachin assumir em setembro",
+      "resumo": "O procurador-geral Paulo Gonet deve entregar a Edson Fachin um parecer favorável a encerrar o inquérito das fake news, o inquérito 4781, aberto em 2019. Fachin assumiu a condução em setembro, e Alexandre de Moraes tinha sido o relator por 2.736 dias, com outros 103 procedimentos ligados ao caso. Fachin já arquivou 8 desses 103, entre eles o de Rui Costa Pimenta, do PCO, por prescrição, e o de Gilson Machado, por falta de indícios mínimos. Uma mulher que vive nos Estados Unidos teve a prisão preventiva revogada por um post cuja prova a própria PGR chamou de frágil. Sete anos de um inquérito aberto de ofício, com sigilo e sem prazo, mostram o custo de investigar opinião fora das regras do processo penal.",
+      "contexto": [
+        "Inquérito 4781 aberto em 2019; Moraes foi relator por 2.736 dias.",
+        "Fachin assumiu em setembro e arquivou 8 dos 103 procedimentos, em decisões que seguiram a PGR.",
+        "Entre os casos arquivados: Gilson Machado, Alex Brasil (PL-SC), Rui Costa Pimenta (por prescrição) e o grupo \"Passarinho Verde\" no Telegram.",
+        "Fachin revogou a prisão preventiva de Flávia Cordeiro Magalhães, que vive nos EUA, por um post de 2023; a PGR viu uma \"ocorrência isolada\".",
+        "Os demais procedimentos terão análise individual, conforme a Portaria nº 189.",
+        "Em 9 de setembro, Moraes tentou incluir o ministro André Mendonça no inquérito; a PGR rejeitou, e o tema aguarda o plenário."
+      ],
+      "angulo": [
+        "O arquivamento confirma o que a direita denuncia há anos: um inquérito sem fim, sem limite de objeto, que atingiu quem só opinou.",
+        "O programa defende que quem teve celular apreendido, perfil bloqueado ou prisão decretada por opinião tenha direito a reparação.",
+        "Encerrar o inquérito é o mínimo; o Supremo precisa se comprometer a nunca mais abrir investigação de ofício sobre opinião."
+      ],
+      "perguntas": [
+        "Quem responde pelos sete anos de sigilo e pelas medidas que a própria PGR hoje considera frágeis?",
+        "O que muda na prática para quem teve conta bloqueada ou celular apreendido?",
+        "Como evitar que um inquérito de ofício como esse volte a existir?"
+      ],
+      "atencao": "O parecer da PGR é descrito por fontes; ainda não há decisão de Fachin encerrando o inquérito principal.",
+      "fontes": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/fachin-arquiva-mais-cinco-investigacoes-do-inquerito-das-fake-news/"
+        },
+        {
+          "name": "BP Money",
+          "url": "https://bpmoney.com.br/politica/pgr-envia-stf-parecer-fim-inquerito-fake-news/"
+        }
+      ]
+    },
+    {
+      "id": "gonet-empresa-abfp",
+      "bloco": "STF e instituições",
+      "titulo": "Empresa aberta por Gonet é administrada por empresário cuja associação fechou 55 contratos públicos",
+      "subtitulo": "Associação de Zilmar Assis soma mais de R$ 5 milhões; Gonet esteve em ao menos quatro eventos dela",
+      "resumo": "Em abril de 2025, o procurador-geral da República, Paulo Gonet, abriu em Goiás a Direito em Perspectiva Estudos Científicos, voltada a cursos, palestras e material didático. A administração ficou com o empresário Zilmar Santana de Assis, que também comanda a Associação Brasileira de Formação e Pesquisa (ABFP). Segundo a Revista Oeste, a ABFP fechou ao menos 55 contratos com órgãos públicos e conselhos, somando mais de R$ 5 milhões, e o maior é de R$ 2,5 milhões ao ano com o Tribunal de Contas de Mato Grosso. Gonet esteve em ao menos quatro eventos da associação, um deles em 28 de abril de 2025 com Gilmar Mendes, e dois órgãos de Diamantino (MT), cidade natal de Gilmar, pagaram R$ 408 mil à ABFP em 2025. Gonet, Zilmar e a ABFP não responderam, e o gabinete de Gilmar diz que ele desconhecia os contratos.",
+      "contexto": [
+        "Empresa aberta em abril de 2025, registrada em Goiás; a reportagem não achou contratos públicos assinados diretamente por ela.",
+        "ABFP e a empresa de Gonet dividem telefone e contador; outra firma de Zilmar divide o endereço.",
+        "Maior contrato: R$ 2,5 milhões ao ano com o TCE de Mato Grosso, renovado em setembro de 2025.",
+        "Seminário de 28 de abril de 2025 recebeu R$ 348 mil de um consórcio de São Paulo; evento de maio teve R$ 75 mil do BNDES.",
+        "Gabinete de Gilmar: desconhecia os contratos de Diamantino, e eventos acadêmicos são compatíveis com a magistratura. Dos 26 órgãos contratantes, 19 responderam e negaram irregularidade."
+      ],
+      "angulo": [
+        "Quem tem poder de denunciar, ou de não denunciar, precisa de uma distância visível de quem fecha contratos com o poder público.",
+        "O programa defende que Gonet explique publicamente a empresa, o vínculo com Zilmar e os eventos, já que a reportagem não obteve resposta.",
+        "Não há acusação de crime: a cobrança é de transparência e de regras claras de conflito de interesses para a cúpula da PGR e do Judiciário."
+      ],
+      "perguntas": [
+        "Que explicação o procurador-geral deve dar sobre a empresa e a gestão de Zilmar?",
+        "Eventos pagos por contratos públicos com a presença de ministros do STF e do PGR precisam de regra de transparência?",
+        "Quem fiscaliza o fiscal quando ele é o procurador-geral?"
+      ],
+      "atencao": "Não há acusação de irregularidade: os fatos vêm de uma reportagem, sem resposta de Gonet, de Zilmar e da ABFP.",
+      "fontes": [
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/gonet-tem-empresa-gerida-por-empresario-que-fecha-contratos-publicos/"
+        }
+      ]
+    },
+    {
+      "id": "fazenda-fonteles",
+      "bloco": "Economia",
+      "titulo": "Fonteles dá sinais de que fica no Piauí, e Lula segue sem ministro da Fazenda",
+      "subtitulo": "Alckmin teria pedido a pasta, e o nome do governador reeleito enfrentou fogo amigo no PT",
+      "resumo": "O governador reeleito do Piauí, Rafael Fonteles (PT), de 41 anos, cotado para a Fazenda, deu sinais de que fica no estado. No domingo (8), ele anunciou que o secretário de Comunicação e o procurador-geral estadual seguem nos cargos. Segundo a coluna de Andreza Matais, a indicação enfrentou fogo amigo no PT, porque o cargo daria a Fonteles visibilidade na sucessão de 2030. A coluna diz ainda que Lula recebeu uma lista de apoiadores de Fonteles e não gostou do que viu. O vice Geraldo Alckmin teria pedido a Lula para assumir a pasta, e o mercado espera o nome que dirá se haverá compromisso real com as contas públicas.",
+      "metafora": "É como escolher o piloto depois de decolar: o passageiro sente o balanço e ainda não sabe quem está na cabine.",
+      "contexto": [
+        "Fonteles tem 41 anos e foi reeleito governador do Piauí.",
+        "No domingo (8), anunciou que o secretário de Comunicação, Marcelo Noleto, e o procurador-geral, Francisco Pierot Júnior, continuam.",
+        "A coluna relata fogo amigo no PT contra a indicação de Fonteles.",
+        "Segundo a coluna, Alckmin pediu a Lula para ocupar a Fazenda.",
+        "Na semana passada, Lula defendeu economia \"arrumada\", mas o governo não anunciou medidas fiscais."
+      ],
+      "angulo": [
+        "A indefinição na Fazenda custa caro ao bolso do brasileiro.",
+        "O programa defende um nome que assuma meta fiscal, corte de gasto e fim da criação de despesas, não alguém escolhido por cálculo de sucessão.",
+        "Disputa interna do PT por vitrine eleitoral de 2030 não pode ser mais importante que a política econômica."
+      ],
+      "perguntas": [
+        "O que o mercado espera ouvir do próximo ministro da Fazenda nos primeiros dias?",
+        "Escolher a Fazenda pensando em 2030 é compatível com ajuste fiscal?",
+        "O que muda para o cidadão se a indefinição durar semanas?"
+      ],
+      "atencao": "As informações sobre bastidores vêm de uma coluna e não foram confirmadas pelo Planalto.",
+      "fontes": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/andreza-matais/rafael-fonteles-da-sinais-de-que-ficara-no-piaui-e-se-afasta-da-fazenda"
+        }
+      ]
+    },
+    {
+      "id": "fim-6x1-decreto-audiencia",
+      "bloco": "Economia",
+      "titulo": "Decreto de Marinho sobre a escala 6x1 sai hoje, um dia antes da audiência de Dino no STF",
+      "subtitulo": "Decreto deve garantir ao menos oito folgas por mês; audiência é amanhã, às 14h",
+      "desdobramento": "O decreto do ministro Luiz Marinho está previsto para hoje (9), véspera da audiência de conciliação de Dino.",
+      "resumo": "O ministro do Trabalho, Luiz Marinho, deve editar hoje, segunda-feira (9), um decreto sobre a organização das escalas, com ao menos oito folgas por mês para o trabalhador. A audiência de conciliação convocada pelo ministro Flávio Dino, do STF, é amanhã, terça (10), às 14h, na Primeira Turma. Participam entidades de empresários e trabalhadores, AGU, PGR, Câmara e Senado, e só se discute a implementação, não o mérito da emenda. A CNC pede adiar o início da redução para outubro de 2027, e a CNI quer um ano a mais; Dino não deu liminar e considerou o prazo de dois meses, a princípio, não inviável. Para o pequeno comércio e a indústria, o decreto na véspera da conversa pode esvaziar a negociação que o próprio Supremo convocou.",
+      "contexto": [
+        "Audiência: terça, 10 de novembro, às 14h, na Primeira Turma do STF; escopo restrito à implementação.",
+        "Decreto de Marinho previsto para segunda (9), com ao menos oito folgas por mês.",
+        "CNC propõe adiar a 1ª etapa para outubro de 2027 e o limite de 40 horas para outubro de 2028.",
+        "CNI pede prorrogar o prazo em um ano; Dino não concedeu liminar.",
+        "Dino afirmou que o prazo de dois meses \"não se revela, a princípio, inviável\"."
+      ],
+      "angulo": [
+        "O trabalhador merece mais descanso, mas a transição tem de caber no caixa de quem emprega, sobretudo o pequeno comércio.",
+        "Decreto na véspera da audiência passa por cima da conciliação: o programa defende que o prazo seja negociado com quem paga a folha.",
+        "Regra apertada demais é risco para vaga formal, e o emprego é o que está em jogo."
+      ],
+      "perguntas": [
+        "O decreto invade o que deveria ser decidido na conciliação de amanhã?",
+        "O pequeno comércio tem condições de cumprir a mudança em dois meses?",
+        "Quem arca com o custo se a escala mudar e a conta não fechar?"
+      ],
+      "atencao": "As matérias divergem na data exata do início da primeira etapa em dezembro; confirmar antes de citar o dia no ar. O decreto ainda não foi publicado.",
+      "fontes": [
+        {
+          "name": "Brasil de Fato",
+          "url": "https://www.brasildefato.com.br/2026/11/05/dino-marca-audiencia-de-conciliacao-sobre-fim-da-escala-6x1/"
+        },
+        {
+          "name": "Times Brasil",
+          "url": "https://timesbrasil.com.br/brasil/dino-mantem-cronograma-do-fim-da-escala-6x1-e-marca-audiencia-para-a-proxima-terca-feira/"
+        }
+      ]
     }
-   ]
-  }
- ]
+  ],
+  "atualizado": "2026-11-09T10:08:49-03:00"
 }
