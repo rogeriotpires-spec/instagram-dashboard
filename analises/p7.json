@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-08T12:32:36-03:00",
+  "generated": "2026-11-09T16:05:44-03:00",
   "dias": 7,
   "period": {
-    "start": "2026-11-01",
-    "end": "2026-11-07"
+    "start": "2026-11-02",
+    "end": "2026-11-08"
   },
-  "compare": "2026-10-25 a 2026-10-31",
-  "headline": "Nos últimos 7 dias a conta recebeu 1,97 mi de views (−80,9% contra a semana da eleição, que teve 10,32 mi), com 1.849 novos seguidores e 325 que deixaram de seguir em 5 publicações.",
+  "compare": "2026-10-26 a 2026-11-01",
+  "headline": "De 2 a 8/11 a conta recebeu 2,04 mi de views (−67%) e 3.056 novos seguidores (−83%) com só 5 publicações contra 11 na semana anterior, mas os compartilhamentos quase se mantiveram (95.131, −5%).",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "1,97 mi",
-      "delta": "−80,9%",
+      "value": "2,04 mi",
+      "delta": "−67%",
       "dir": "down"
     },
     {
       "label": "Novos seguidores",
-      "value": "1.849",
-      "delta": "−92,2%",
+      "value": "3.056",
+      "delta": "−83%",
       "dir": "down"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "325",
-      "delta": "−65,2%",
+      "value": "317",
+      "delta": "−59%",
       "dir": "up"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "88.921",
-      "delta": "−46,5%",
+      "value": "95.131",
+      "delta": "−5%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "4.288",
-      "delta": "−72,4%",
+      "value": "4.335",
+      "delta": "−0,1%",
       "dir": "down"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "63 mil",
-      "delta": "−83,7%",
+      "value": "73 mil",
+      "delta": "−79%",
       "dir": "down"
     }
   ],
@@ -50,60 +50,59 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os Reels de política sobre o resultado e a apuração lideraram: \"Lula não ganhou a eleição.\" (6/11, 7h14) somou 267.737 views, 36.060 compartilhamentos e 572 comentários, e \"O TSE diz que ninguém na sua cidade votou no Flávio.\" (7/11, 8h15) somou 192.140 views. O primeiro foi assistido em média por 58s, com 39% de pulo. A mediana dos 4 Reels da semana foi de 118.482 views.",
+      "diagnosis": "Os dois melhores posts foram Reels longos de manhã: \"Lula não ganhou a eleição.\" (sex, 7h14, 245,1s, assistido em média por 59s) com 279.409 views, 37.967 compartilhamentos e 597 comentários, e \"O TSE diz que ninguém na sua cidade votou no Flávio.\" (sáb, 8h15, 163,4s, 47s em média) com 240.976 views, 13.919 compartilhamentos e 376 comentários. O terceiro foi o Reel do Enem, com 99.013 views em 16,1 horas.",
       "actions": [
-        "Repita Reels de afirmação forte logo no título, como \"Lula não ganhou a eleição.\".",
-        "Mantenha a faixa das 7h às 8h para Reels: as medianas foram 267.737 (7h) e 111.514 (8h).",
-        "Explore a duração de 2 a 4 minutos quando o assunto pede, já que esses Reels seguraram o público por 50s ou mais."
-      ],
-      "posts": [
-        "DfZXNLStwXv",
-        "DfcDUOTNtPd"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "O Reel \"Seu voto pode valer menos em 2030.\" (1/11, 8h) teve 30.889 views, 28s assistidos em média e 51% de pulo, o maior da semana. A imagem \"80 MIL SEGUIDORES!\" teve 12.720 views. Ambos ficaram bem abaixo do topo, de 267.737 views. O Reel de 1/11 também tem mais tempo no ar (171,5 horas), então a diferença não se explica pela idade.",
-      "actions": [
-        "Abra Reels com a frase mais forte para baixar o pulo, que passou de 50% no de 1/11.",
-        "Evite repetir o tema de 2030 sem um fato novo que dê gancho.",
-        "Use o post de bastidores como complemento, não como a principal publicação do dia."
-      ],
-      "posts": [
-        "DfMkx6Jt-aT",
-        "DfcXA1DtXMY"
-      ]
-    },
-    {
-      "title": "Seguidores: ritmo bem menor que o da eleição",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Entraram 1.849 seguidores contra 23.739 na semana anterior (−92,2%), com dado de 6 dos 7 dias. Quem deixou de seguir também caiu, de 933 para 325 (−65,2%). Entre os posts, a imagem \"80 MIL SEGUIDORES!\" teve 8 seguidores atribuídos.",
-      "actions": [
-        "Fixe no perfil um post que explique quem você é e o que você defende.",
-        "Chame para seguir no fim dos Reels que passam de 150 mil views.",
-        "Acompanhe se as saídas continuam abaixo de 325 por semana."
-      ],
-      "posts": [
-        "DfcXA1DtXMY"
-      ]
-    },
-    {
-      "title": "Frequência de publicação",
-      "status": "warn",
-      "status_label": "Atenção",
-      "diagnosis": "Foram 5 publicações contra 13 na semana anterior. Os posts se concentram em 1, 6 e 7/11, e as views da conta caíram 80,9%. Os Reels de 6 e 7/11 chegaram a 267.737 e 192.140 views, o que mostra que o alcance aparece quando há publicação forte.",
-      "actions": [
-        "Publique pelo menos 1 Reel por dia, inclusive nos dias entre 1 e 6/11, que ficaram sem post.",
-        "Mantenha 1 Reel de manhã e 1 post à noite, como foi em 7/11.",
-        "Reserve um dia fixo para o Reel de análise mais longo."
+        "Repita o formato de \"Lula não ganhou a eleição.\": Reel de análise com dado verificável, publicado entre 7h e 8h30.",
+        "Não evite Reels longos quando o assunto prende: os dois mais longos foram os mais vistos.",
+        "Peça o compartilhamento no fim dos Reels de dados."
       ],
       "posts": [
         "DfZXNLStwXv",
         "DfcDUOTNtPd",
+        "DfgJxRXsMwr"
+      ]
+    },
+    {
+      "title": "O que não funcionou",
+      "status": "bad",
+      "status_label": "Corrigir",
+      "diagnosis": "A semana teve 5 publicações contra 11 na anterior. A imagem \"80 MIL SEGUIDORES!\" (sáb, 11h08) foi a mais fraca: 14.822 views, 5 compartilhamentos, 4 salvamentos e 10 seguidores. O Reel \"80 mil óculos derrubaram um governador.\" (sáb, 22h15) teve 97.148 views e 1.699 compartilhamentos, bem abaixo dos dois Reels da manhã, com 16s assistidos em média de 131,4s.",
+      "actions": [
+        "Volte ao ritmo de publicação da semana anterior, com pelo menos um post por dia.",
+        "Evite posts de bastidores como imagem solta; se fizer, leve para Reel.",
+        "No Reel de 131,4s, traga o ponto principal para os primeiros segundos."
+      ],
+      "posts": [
+        "DfcXA1DtXMY",
         "DfdjTEysaXN"
+      ]
+    },
+    {
+      "title": "Horários",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Os Reels das 7h e das 8h somaram as maiores views da semana (279.409 e 240.976), e a mediana das 22h foi de 98.080,5. A imagem das 11h teve 14.822. Os posts das 7h e 8h têm mais tempo de vida (79,5h e 54,5h) que o das 22h (16,1h), então a comparação favorece a manhã.",
+      "actions": [
+        "Mantenha a manhã para os Reels mais fortes.",
+        "Reserve a noite para assuntos do dia, lembrando que posts recentes ainda acumulam views."
+      ],
+      "posts": [
+        "DfZXNLStwXv",
+        "DfcDUOTNtPd",
+        "DfgJxRXsMwr"
+      ]
+    },
+    {
+      "title": "Seguidores",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "Entraram 3.056 novos seguidores (−83%) e 317 deixaram de seguir (−59%); os dados de seguidores cobrem 6 dos 7 dias. O único post com seguidores atribuídos foi a imagem \"80 MIL SEGUIDORES!\", com 10. O alcance médio por dia caiu para 73.477 (−79%) e as contas com interação por dia para 25.405 (−45%).",
+      "actions": [
+        "Inclua nos Reels de maior alcance um convite claro para seguir o perfil.",
+        "Veja se o alcance volta ao patamar anterior com a retomada das publicações."
+      ],
+      "posts": [
+        "DfcXA1DtXMY"
       ]
     }
   ]

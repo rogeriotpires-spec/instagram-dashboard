@@ -1,48 +1,48 @@
 {
-  "generated": "2026-11-08T12:32:36-03:00",
+  "generated": "2026-11-09T16:05:44-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-08-10",
-    "end": "2026-11-07"
+    "start": "2026-08-11",
+    "end": "2026-11-08"
   },
-  "compare": "2026-05-12 a 2026-08-09",
-  "headline": "Em 90 dias a conta recebeu 44,80 mi de views (+464,2% contra um período anterior com dados de apenas 32 dias), com 44.779 novos seguidores em 180 publicações.",
+  "compare": "2026-05-13 a 2026-08-10",
+  "headline": "Em 90 dias a conta recebeu 44,9 mi de views e 46.299 novos seguidores em 181 publicações, com imagens de Opinião liderando em alcance e seguidores.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "44,80 mi",
-      "delta": "+464,2%",
-      "dir": "up"
+      "value": "44,9 mi",
+      "delta": "sem comparação",
+      "dir": "na"
     },
     {
       "label": "Novos seguidores",
-      "value": "44.779",
+      "value": "46.299",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "2.055",
+      "value": "2.112",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "742.355",
+      "value": "751.533",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "53.514",
+      "value": "53.742",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "165 mil",
-      "delta": "+155,6%",
-      "dir": "up"
+      "value": "166 mil",
+      "delta": "sem comparação",
+      "dir": "na"
     }
   ],
   "cards": [
@@ -50,11 +50,10 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "As imagens de opinião concentraram os maiores resultados: \"Bem vindo a este manicômio chamado Brasil!\" (16/8) teve 1.491.841 views e 493 seguidores atribuídos, \"Fica a reflexão.\" teve 1.237.866 e 1.188, e \"Ninguém aguenta mais o Lula e o PT!\" teve 983.078 e 1.134. As 57 imagens somaram 7.008 seguidores atribuídos, com mediana de 16.536 views.",
+      "diagnosis": "Os maiores resultados vieram de imagens de Opinião: \"Bem vindo a este manicômio chamado Brasil!\" (1.491.845 views, 28.456 compartilhamentos, 493 seguidores), \"Fica a reflexão.\" (1.237.870, 1.188 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (983.088, 1.134 seguidores). As 57 imagens somaram 7.028 seguidores. Os dados de seguidores e interações cobrem cerca de 61 dos 90 dias.",
       "actions": [
-        "Mantenha imagens de opinião curtas e com frase de impacto.",
-        "Use o formato para posicionamento em momentos de grande atenção.",
-        "Alterne com Reels de análise, que têm mediana maior (23.404 views em 121)."
+        "Mantenha uma imagem de Opinião forte por semana, de manhã.",
+        "Use essas imagens como porta de entrada para os Reels."
       ],
       "posts": [
         "DcGTcGzN_5i",
@@ -64,13 +63,12 @@
     },
     {
       "title": "O que não funcionou",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os Reels mais fracos tiveram de 473 a 552 views, com pulo de 37% a 43%: \"Quase 18 anos no poder\", \"O STF virou um manicômio institucional\" e \"Candidato perdeu Instagram e Fundo Eleitoral\". Por tema, Eventos e discursos (6 posts) teve mediana de apenas 2.696 views, e Serviço (1 post) 5.060. Os carrosséis (2 posts) tiveram mediana de 3.690.",
+      "status": "bad",
+      "status_label": "Corrigir",
+      "diagnosis": "Os piores posts foram Reels de Política com menos de 600 views: \"Quase 18 anos no poder\" (473), \"O STF virou um manicômio institucional\" (537) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (552). Os posts de Eventos e discursos tiveram mediana de 2.696,5 views em 6 posts.",
       "actions": [
-        "Reduza Reels de resumo de notícia sem gancho novo.",
-        "Corte ou reformule Eventos e discursos, que ficou em 2.696 de mediana.",
-        "Evite carrosséis até testar com tema de opinião."
+        "Pare de publicar Reels de assunto geral sem gancho.",
+        "Reduza posts de eventos e discursos ou dê a eles um recorte forte."
       ],
       "posts": [
         "Db73S3ZBiej",
@@ -81,12 +79,11 @@
     {
       "title": "Temas",
       "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "Entrevista (5 posts) teve a maior mediana, 88.396 views, bem acima de Política (107 posts, 23.404) e Opinião (58 posts, 15.233). Bastidores e pessoal (3 posts) teve 12.720. Com poucos posts de Entrevista, vale confirmar o padrão antes de tratá-lo como regra.",
+      "status_label": "Repetir",
+      "diagnosis": "Entrevista teve a maior mediana de views (88.396, em 5 posts), contra 24.073,5 em Política (108 posts) e 15.233,5 em Opinião (58 posts). Entrevista e Política são os assuntos em que vale investir mais.",
       "actions": [
-        "Marque mais entrevistas e cortes de entrevistas para testar o tema com mais posts.",
-        "Mantenha Política como base: é o tema com mais volume (107 posts).",
-        "Acompanhe Opinião: tem menos views por post, mas reúne as imagens de maior alcance."
+        "Abra espaço para entrevistas, que têm poucos posts e alta mediana.",
+        "Mantenha Política como base e Opinião como porta de crescimento."
       ],
       "posts": [
         "Dd8pQedtGZL"
@@ -94,17 +91,16 @@
     },
     {
       "title": "Horários",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "As maiores medianas ficaram em 21h (99.921), 17h (88.396), 18h (81.499) e 9h (62.764). Madrugada e manhã cedo foram mais fracas: 6h (4.439) e 11h (3.951). Faixas com poucos posts, como 0h e 21h, oscilam muito.",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Com 181 posts, as medianas mais altas ficaram às 21h (99.921), 22h (97.148), 17h (88.396) e 18h (81.501). As mais baixas foram 11h (3.951), 6h (4.439,5) e 20h (9.197). Algumas faixas têm poucos posts.",
       "actions": [
-        "Priorize 17h, 18h e 21h para os posts principais.",
-        "Evite 6h e 11h.",
-        "Reveja o teste das 8h e 9h, que tiveram bons resultados em Reels."
+        "Prefira o fim da tarde e a noite para os posts mais fortes.",
+        "Evite 6h e 11h para Reels."
       ],
       "posts": [
         "Dd8pQedtGZL",
-        "DeVAkiqtPwL"
+        "Dd08gl4tibs"
       ]
     }
   ]
