@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-09",
+  "weekday": "Seg",
+  "generated": "2026-11-08T22:59:53-03:00",
+  "summary": "Segunda de pós-eleição. O PT abriu uma vaquinha de R$ 7 milhões com Pix de R$ 13 para pagar a campanha de Lula, o Planalto planeja 40 ministérios no quarto mandato e a reportagem sobre a empresa de Gonet reabre a pergunta sobre quem fiscaliza quem.",
+  "agenda": [
+    {
+      "time": "11/11",
+      "text": "Termina a vaquinha do PT, com meta de R$ 7 milhões em Pix de R$ 13.",
+      "source": {
+        "name": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/politica/pt-abre-vaquinha-virtual-para-quitar-despesas-da-campanha-de-lula/"
+      }
+    },
+    {
+      "time": "8/11",
+      "text": "Oposição critica o plano de 40 ministérios no governo Lula, e o Planalto ainda não respondeu.",
+      "source": {
+        "name": "Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/republica/lideres-da-oposicao-criticam-esplanada-com-40-ministerios-no-lula-4/"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "time": "12h30",
+      "type": "r",
+      "kind": "Reel curto com o número mais forte do pós-eleição",
+      "options": [
+        {
+          "title": "PT abre vaquinha de R$ 7 milhões com Pix de R$ 13 para pagar a campanha de Lula",
+          "tone": "irônico",
+          "duration": "até 30s",
+          "fact": "O PT abriu na quinta-feira (5) uma vaquinha virtual com meta de R$ 7 milhões para quitar despesas da campanha de reeleição de Lula. O Pix sugerido é de R$ 13, o número do partido na urna, e a arrecadação vai até quarta-feira, 11. Só com doações de R$ 13, seriam necessárias cerca de 538 mil para chegar à meta. Pelos números do TSE, a campanha do PT declarou R$ 93,9 milhões em despesas e já pagou R$ 92 milhões, cerca de 97% com dinheiro do fundo eleitoral. O coordenador financeiro, José de Filippi, disse que qualquer pessoa pode doar R$ 13.",
+          "sources": [
+            {
+              "name": "CNN Brasil",
+              "url": "https://www.cnnbrasil.com.br/politica/pt-abre-vaquinha-virtual-para-quitar-despesas-da-campanha-de-lula/"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/pt-pede-7-milhoes-em-vaquinha-para-quitar-dividas-da-campanha-de-lula/"
+            }
+          ],
+          "hooks": [
+            "R$ 92 milhões já saíram do fundo eleitoral. Agora o PT passa o chapéu no Pix.",
+            "Quer pagar a conta da campanha do PT? O Pix é de R$ 13."
+          ],
+          "script": "O PT abriu uma vaquinha de R$ 7 milhões para pagar a campanha do Lula. O Pix sugerido é de R$ 13, o número do partido na urna. Pra chegar na meta, são mais de 538 mil doações. A campanha já gastou R$ 93,9 milhões e pagou R$ 92 milhões, quase tudo com o fundo eleitoral, que é dinheiro público. Agora pede a ajuda de quem paga imposto. A vaquinha vai até quarta. Você doaria R$ 13 para a campanha do PT? Responde sim ou não.",
+          "screen_text": [
+            "Meta: R$ 7 milhões",
+            "Pix de R$ 13",
+            "538 mil doações",
+            "R$ 92 milhões já pagos"
+          ],
+          "caption": "Quase tudo pago com o fundo eleitoral, e agora a vaquinha. Você doaria R$ 13 para a campanha do PT? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Vaquinha é legal e pública; critique o contraste com o fundo eleitoral, nunca sugira irregularidade. A conta de 538 mil doações é aritmética sobre a meta, cite como estimativa.",
+          "timeline": {
+            "rende": false,
+            "angle": "Não rende artigo: o fato é curto e perde força depois do fim da vaquinha, em 11/11."
+          }
+        },
+        {
+          "title": "Lula planeja 40 ministérios no quarto mandato, recorde desde a redemocratização",
+          "tone": "contundente",
+          "duration": "até 30s",
+          "fact": "O governo tem hoje 38 ministérios, e a previsão para o quarto mandato de Lula é de 40, marca inédita desde a redemocratização. O recorde anterior era de 39, no segundo mandato de Dilma Rousseff. Entre as novas pastas estão a de Segurança Pública, desmembrada da Justiça e dependente da promulgação da PEC da Segurança, e uma para a Pessoa Idosa. Rogério Marinho (PL-RN) escreveu no X: \"Lula e seus 40 ministros. Deus salve o Brasil\". Sóstenes Cavalcante (PL-RJ) perguntou: \"faltam ministérios para resolver os problemas do Brasil ou sobra gente querendo uma cadeira no governo?\". O Planalto ainda não respondeu.",
+          "sources": [
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/lideres-da-oposicao-criticam-esplanada-com-40-ministerios-no-lula-4/"
+            }
+          ],
+          "hooks": [
+            "40 ministérios. Nunca houve tantos desde a redemocratização.",
+            "Lula quer 40 ministros. Faltou ministério ou sobrou gente querendo cargo?"
+          ],
+          "script": "Quarenta ministérios. É o que Lula quer para o quarto mandato, o maior número desde a redemocratização. O recorde era de 39, da Dilma. Hoje já são 38 pastas. O Rogério Marinho resumiu: Lula e seus 40 ministros, Deus salve o Brasil. O Sóstenes lembrou a pergunta que ninguém no governo respondeu: faltam ministérios para resolver os problemas do Brasil ou sobra gente querendo uma cadeira? Você acha que o Brasil precisa de 40 ministérios? Responde sim ou não.",
+          "screen_text": [
+            "38 hoje",
+            "40 no plano",
+            "Recorde desde a redemocratização",
+            "Precisa de 40?"
+          ],
+          "caption": "Quarenta pastas, recorde desde a redemocratização. O Brasil precisa de 40 ministérios? Sim ou não?",
+          "risk": "baixo",
+          "risk_note": "Os 40 são plano ainda não confirmado pelo Planalto; diga 'planeja' ou 'prevê'. As frases são de Marinho e Sóstenes, atribua.",
+          "timeline": {
+            "rende": true,
+            "angle": "O tamanho do Estado no quarto mandato: 16 ministérios em 1990, 23 com Bolsonaro, 40 no plano de Lula, e o que isso pesa na conta pública."
+          }
+        }
+      ]
+    },
+    {
+      "time": "22h",
+      "type": "i",
+      "kind": "Imagem curta de posicionamento",
+      "options": [
+        {
+          "title": "Empresa aberta por Gonet é gerida por empresário cuja associação fechou ao menos 55 contratos públicos",
+          "tone": "sóbrio",
+          "style": "ilustracao",
+          "fact": "Em abril de 2025, o procurador-geral da República, Paulo Gonet, abriu a Direito em Perspectiva Estudos Científicos, registrada em Goiás, que organiza cursos e palestras. A administração ficou com Zilmar Santana de Assis, que comanda a Associação Brasileira de Formação e Pesquisa (ABFP). A ABFP fechou ao menos 55 contratos com órgãos públicos e conselhos, somando mais de R$ 5 milhões; o maior é de R$ 2,5 milhões ao ano com o Tribunal de Contas de Mato Grosso. Gonet participou de ao menos quatro eventos da associação, um deles em 28/4/2025 com Gilmar Mendes. O gabinete de Gilmar diz que ele desconhecia os contratos de Diamantino e que a participação em eventos acadêmicos é compatível com a magistratura. Gonet, Zilmar e a ABFP não se manifestaram.",
+          "sources": [
+            {
+              "name": "Revista Oeste",
+              "url": "https://revistaoeste.com/politica/gonet-tem-empresa-gerida-por-empresario-que-fecha-contratos-publicos/"
+            }
+          ],
+          "art_text": [
+            "55 contratos públicos",
+            "A empresa do procurador-geral. O gestor, o mesmo.",
+            "Quem fiscaliza quem?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Paulo Gonet (procurador-geral da República) e Gilmar Mendes (ministro do STF), que dividiram o evento de 28/4/2025 citado na reportagem. Ilustração estilo charge, sem foto real. Risco médio: aparecem só em um evento, sem insinuar ato ilícito.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Paulo Gonet (procurador-geral da República, terno escuro, óculos) e Gilmar Mendes (ministro do STF, cabelos grisalhos, terno escuro) lado a lado em um palco de seminário, com expressão séria, um de cada lado de uma mesa com microfones. Ao fundo, a silhueta de um prédio institucional com colunas. No alto, em branco, letras condensadas e muito pesadas: \"55 contratos públicos\". Em um quadro amarelo ao lado: \"R$ 5 milhões\". Abaixo, em branco: \"A empresa do procurador-geral. O gestor, o mesmo.\". Embaixo, com sublinhado vermelho pincelado: \"Quem fiscaliza quem?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "A empresa aberta por Gonet é administrada por um empresário cuja associação fechou ao menos 55 contratos públicos. Gonet e a associação não se manifestaram. O procurador-geral deveria explicar? Sim ou não?",
+          "risk": "alto",
+          "risk_note": "Não afirme irregularidade nem crime: são fatos de reportagem, e a defesa de Gilmar (desconhecia os contratos) deve constar se houver texto longo. Gonet não respondeu. Mantenha a pergunta sobre explicação, nunca sobre culpa.",
+          "timeline": {
+            "rende": true,
+            "angle": "Quem fiscaliza o fiscal: a empresa do procurador-geral, a associação com 55 contratos públicos e as perguntas sem resposta."
+          }
+        },
+        {
+          "title": "Fachin diz que quer arquivar de vez o inquérito das fake news, tirado das mãos de Moraes em setembro",
+          "tone": "firme",
+          "style": "ilustracao",
+          "fact": "O presidente do STF, Edson Fachin, disse em 9/10 que pretende promover o arquivamento definitivo do inquérito das fake news, depois de analisar os procedimentos pendentes e ouvir PGR e PF. O inquérito era relatado por Alexandre de Moraes desde 2019, e Fachin tirou a relatoria dele em setembro. Em outubro, arquivou cinco investigações ligadas ao caso, atendendo a pedidos da PGR por falta de provas ou prescrição. Ainda restam procedimentos sob sigilo, e a PGR não informou a data do pedido final. Fachin negou acesso imediato do ministro Luiz Fux ao inquérito até a análise terminar.",
+          "sources": [
+            {
+              "name": "Diário de Pernambuco",
+              "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11726317-stf-fachin-diz-que-pretende-arquivar-inquerito-das-fake-news.html"
+            },
+            {
+              "name": "Gazeta do Povo",
+              "url": "https://www.gazetadopovo.com.br/republica/fachin-nega-acesso-imediato-de-fux-ao-inquerito-das-fake-news/"
+            }
+          ],
+          "art_text": [
+            "Inquérito das fake news",
+            "Aberto em 2019. Arquivado em 2026?",
+            "Quem responde pelos anos de investigação?",
+            "Siga @rogerrio (Instagram) @rogerrioX (X)"
+          ],
+          "faces": "Edson Fachin (presidente do STF) e Alexandre de Moraes (ministro do STF, ex-relator do inquérito). Ilustração estilo charge, sem foto real. Risco baixo: Fachin analisando pastas e Moraes de lado, sem ação inventada.",
+          "prompt": "Crie uma ilustração editorial vertical 4:5 (1080x1350), estilo charge política em HQ / graphic novel, traço de nanquim marcado, hachuras e sombreamento chapado, paleta quente e dessaturada (ocre, marrom, vermelho), fundo escuro com textura. No centro, Edson Fachin (presidente do STF, toga preta, cabelos grisalhos) de pé diante de uma pilha enorme de pastas de processo com carimbo \"ARQUIVADO\", e ao fundo, de lado, Alexandre de Moraes (toga preta, careca) de braços cruzados, olhando de canto. Ao fundo, a fachada estilizada do STF. No alto, em branco, letras condensadas e muito pesadas: \"Inquérito das fake news\". Em um quadro amarelo: \"2019 → 2026\". Abaixo, em branco: \"Aberto em 2019. Arquivado em 2026?\". Embaixo, com sublinhado vermelho pincelado: \"Quem responde pelos anos de investigação?\". No rodapé, centralizado, em letras pequenas e discretas, em branco com leve transparência: 'Siga' + ícone do Instagram + '@rogerrio' + ícone do X + '@rogerrioX'. Se não puder retratar essas pessoas, use silhuetas reconhecíveis pelo contexto e mantenha o resto da composição.",
+          "caption": "O inquérito que durou anos e investigou críticos do STF agora deve ser arquivado. Quem responde pelo que foi feito nele? Fachin, Moraes ou ninguém?",
+          "risk": "médio",
+          "risk_note": "O arquivamento é intenção declarada por Fachin, não decisão tomada; use 'pretende'. Não atribua crime a Moraes. O número de procedimentos varia entre as matérias (104 ou 108): não cite.",
+          "timeline": {
+            "rende": true,
+            "angle": "Do inquérito aberto de ofício em 2019 ao arquivamento prometido por Fachin: o que foi investigado, quem foi alvo e o que fica sem resposta."
+          }
+        }
+      ]
+    }
+  ],
+  "excluidos": []
+}
