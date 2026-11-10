@@ -2,8 +2,8 @@
 name: Gerar edição de notícias
 
 on:
-  # Os horários das edições agora são geridos na página agenda.html do painel.
-  # Quem dispara é o Worker da Cloudflare (a cada 5 minutos), pontual; o cron do GitHub atrasava ou pulava.
+  # Os horários são geridos na agenda do painel.
+  # O Worker da Cloudflare dispara as execuções.
   workflow_dispatch:
     inputs:
       agendado:
@@ -26,22 +26,42 @@ jobs:
     timeout-minutes: 40
     env:
       TZ: America/Sao_Paulo
+
     steps:
       - uses: actions/checkout@v4
+
       - name: Configurar git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Coletar os assuntos em alta no X
         run: python3 tools/coleta_trends.py || true
+
       - name: Instalar o Scrapling (leitura direta dos feeds)
         run: pip install --quiet "scrapling[fetchers]" || echo "::warning::Scrapling não instalou; a coleta usa só o Google Notícias"
+
       - name: Coletar manchetes de todos os portais
         run: |
           python3 tools/coleta_noticias.py 12 > coleta-noticias.json 2>/tmp/col.txt || echo '{"portais":[]}' > coleta-noticias.json
           echo "::notice::Coleta: $(tail -1 /tmp/col.txt)"
           python3 -c "import json;d=json.load(open('coleta-noticias.json'));open('coleta-noticias.txt','w').write('\n'.join(p['nome']+' ('+str(p.get('camp'))+') | '+m['quando']+' | '+m['titulo'] for p in d['portais'] for m in p['manchetes'])+'\n\n'+'\n'.join('TEMA '+k+' | '+m['fonte']+' | '+m['quando']+' | '+m['titulo'] for k,v in d.get('temas',{}).items() for m in v))"
           python3 -c "import json;d=json.load(open('coleta-noticias.json'));print('::notice::sem manchete: '+', '.join(p['nome']+(' ('+p['erro'][:40]+')' if p.get('erro') else '') for p in d['portais'] if not p['manchetes'])[:900])"
+
+      # SALVAMENTO AUTOMÁTICO DA COLETA
+      # Independe do funcionamento do Claude.
+      - name: Salvar notícias coletadas para recuperação
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coleta-noticias-${{ github.run_id }}
+          path: |
+            coleta-noticias.json
+            coleta-noticias.txt
+            noticias/trends.json
+          if-no-files-found: warn
+          retention-days: 7
+
       - uses: anthropics/claude-code-action@v1
         env:
           GH_TOKEN: ${{ github.token }}
@@ -52,6 +72,7 @@ jobs:
           claude_args: |
             --max-turns 150
             --allowedTools Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch
+
       - name: Completar a cobertura com a coleta
         env:
           GHT: ${{ github.token }}
@@ -69,6 +90,7 @@ jobs:
             git commit -qm "Notícias: cobertura completada e repetidas de outros dias retiradas" && git push -q origin HEAD:main && exit 0
             sleep $((i*3))
           done
+
       - name: Rede de segurança dos pedidos Virar pauta
         if: github.event_name == 'schedule' || github.event.inputs.agendado == 'sim'
         uses: anthropics/claude-code-action@v1
