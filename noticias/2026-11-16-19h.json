@@ -1,95 +1,28 @@
 {
-  "generated": "2026-11-16T20:52:03-03:00",
+  "generated": "2026-11-16T20:55:26-03:00",
   "gerador": "regras",
   "modelo": null,
-  "headline": "Para barrar China, EUA incluem Brasil em lista de países com restrições para acesso a chips de IA; Alckmin defende ajuste fiscal enviado por governistas, mas mercado vê medida tímida; Empresário é preso suspeito de enviar videogame com bomba a concorrente",
+  "headline": "Alckmin defende ajuste fiscal enviado por governistas, mas mercado vê medida tímida; Gêmeos integrantes da banda de pagode Vou Zuar são presos em flagrante por suspeita de estupro em Minas; TRE-CE tem maioria para condenar Ciro Gomes por violência política de gênero",
   "top": [
-    "acesso-barrar-china-chips-eua-incluem",
     "ajuste-alckmin-defende-enviado-fiscal-governistas",
-    "bomba-concorrente-empresario-enviar-preso-suspeito",
-    "barricadas-colocam-complexo-criminosos-faz-fogo",
-    "ciro-condenar-genero-gomes-maioria-politica"
+    "banda-estupro-flagrante-gemeos-integrantes-minas",
+    "ciro-condenar-genero-gomes-maioria-politica",
+    "ate-big-economia-estima-fazenda-regras",
+    "armadas-assedio-casos-contabilizar-faz-forcas"
   ],
   "items": [
-    {
-      "id": "acesso-barrar-china-chips-eua-incluem",
-      "segment": "internacional",
-      "title": "Para barrar China, EUA incluem Brasil em lista de países com restrições para acesso a chips de IA",
-      "summary": "Para barrar China, EUA incluem Brasil em lista de países com restrições para acesso a chips de IA. Senadora dos EUA acusa governo Trump de facilitar acesso da China a chips de IA da Nvidia. EUA vão restringir acesso da China a chips de IA; medida inclui Brasil. EUA restringem acesso chinês a chips de IA e incluem Brasil.",
-      "scores": {
-        "cobertura": 9.3,
-        "destaque": 8,
-        "persistencia": 7,
-        "peso_voce": 6
-      },
-      "score": 7.8,
-      "outlets": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZjVadklud0NESU5FS1JtV2FQTnZORDNFbzlzRE9MTjl4S2xPdmtGMDk4VWpJSHVRRk1fbHg0OWZUTnFzaGZpWTRTSFZEY2xydm5naGxTRGJtOTdSTDlLUHJ1UnJ3ektFYWVNM1JReG1kckttR1ZpZ2dGV2h1emVmVkprWlEwQmJZbGpzMDlISHFzSXRUaDJibDB4LThvaWc3MkRUeHduN2k1aGlTdXdzcnZnZDJhdDN0UXluazJLVTdwSFU0UGd1aGM1Nl9XZ2JI?oc=5",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOF80X0poT1dXT3FxVWFCOEw0MmxvdnFObnd1Qy00dk9ZQzhyUUZfd0p0ZFp2dVptNzVGYzhZNGtKXzBCX0RiNGV5VndsejZYcFdDX3JWb2s0bUYxdDNVTlVxdVFacHFqTV85dmc5bHllN182QmlUOHEwZnFPS3dKTmhJbXVmcVRnUDRnb0JKLTBBRVI0X2drNjJGV21MNWhPdndtYUUzcHlvV0k3LWVnOXlzdWFIaU10Qi1YUWI1VVc0R2FnU1Z5aVhrN2EtbEd0MDFNN3hmbDR6NndESzN6bzk3VmPSAeoBQVVfeXFMUHlXcXhFYW53STNiY05ydV8za09rQXdvVkJKbDZIUzk0d3phVDE5X3AzVE4ydVRJNFBOTjJxLU9IaEkxV1d0Uk00WHhrb2NwSHBlSkRKcUdXanpXN05xa3hCMW1QNGUwV3IwZkZ3LWdUdmN5eDlRZk5la3ZVZG5vVUlnUkE0QVg4ZzRJTkJ3YW1BVzBOaHQ1UlZfa3V3X1VDdWxNa3RxRmcwaHJIN21GMjAxM2tmVVgyQV9ldnVUUVRXLUJYS2E1NWxlT0ZTNXo5N2xnNWNtVThhOTk5dzF6Qml4VHFKZWRWaUN3?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYkRFQUlRanA4OW9uYzAwMXFhYnh6Vm1CX2NaR1hqMG5vazUxeUk0R0lMTG1GTWpMVDByYzlFUmh2czhXUTU2SVlCbWJIbUZYQzV0S2FQSnkybUJaaGEzQzdfaV81X1JoeU9JeGVFS3pjY3pNaFdaNXMwNHJWRlBGZUdmbF9ndVRhQ1N2aC0wbFdXb05fTlpIclY2a1pCYkFlSzlya25FYk04UFFSd2Q2TG1LZWJaRllDbFJyYXVwcUNIWmVi0gHTAUFVX3lxTFA4N041LU5WejItVHF5WVJCMWk3am5YeG9RVDBxa0VnTl9DMTlVQU83dXRJaXZHNXhHMEFpSFAyTzlNVnlVN3R4ODl6MHlidmhxVTloSFl0d3l4c0pwQXZpc0ZZZjJlRHRwZFpSLWtpYjZiX1BRSEpiRzZrRElFSWdQRlhmemVrZUJ3dXgxbU1JZnp5ZUtrY3VmOUZKRjRkU2FQemtqTWZCbldFUjJNM01tN1haNzZqckhTTTNkN3NCTW1HN1JnTFNjTHZ4OFJpZDBfV0k?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "SBT News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaFVDU3ZOZFNIbG9EakREYk9fYl9fYUhxSWo3RGpDbl9QcGE0dWlEYXlpLThHQVdTOENEVll4dS1sbWk5NVcyVFdla2dXTHpCLWMzMmwtLUFtZ2EtRmRLQ2FqcDlTa1pqXzdnVUlPc3RBNlVjVlhVeDBpb3I3a19fTzMxVmdIbnJ6d0NfSEhRZ29DRWNlbDdyblcydUV0OHpiR1E?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/11/16/governo-lula-avalia-contestar-restricoes-dos-eua-a-venda-de-chips-para-data-centers-no-brasil.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/economia/governo-lula-avalia-contestar-restricoes-dos-eua-para-brasil-adquirir-chips-avancados-da-nvidia/",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Congresso em Foco",
-          "url": "https://www.congressoemfoco.com.br/noticia/131625/eua-limitam-exportacao-de-chips-de-ia-para-data-centers-no-brasil",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Popular",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUzAzT3c0WmswbVFpLWV3UzZLQTh4N1FOaDI3a2xhamFySGVOclFZV3BPWnNScU9VUTlkbFdVSHF1T3ViYkN6U1o4amxGdzN0UThja2ZWbVhnLXVTR2FNeXNibXJwV1h0VV9tb0RIc25tLTNzT3I3RWRaSVRqZVh2bTE2X1BHNzRqQ2dNU0FhQkNhTENSOVdNY0xUbnFSX0cxUHlsNk94aWdlVzlDN3MtaEZaUFJpUllzNEI5MFFUNVRXTmtJRENFWA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
     {
       "id": "ajuste-alckmin-defende-enviado-fiscal-governistas",
       "segment": "economia",
       "title": "Alckmin defende ajuste fiscal enviado por governistas, mas mercado vê medida tímida",
       "summary": "Alckmin defende ajuste fiscal enviado por governistas, mas mercado vê medida tímida. Alckmin: reação do mercado não deve dificultar aprovação do ajuste fiscal. Alckmin minimiza reação negativa do mercado com pacote fiscal.",
       "scores": {
-        "cobertura": 7.0,
+        "cobertura": 8.7,
         "destaque": 8,
         "persistencia": 4,
         "peso_voce": 10
       },
-      "score": 7.4,
+      "score": 7.9,
       "outlets": [
         {
           "name": "Revista Oeste",
@@ -120,158 +53,17 @@
           "url": "https://www.cartacapital.com.br/politica/alckmin-defende-ajuste-fiscal-e-diz-que-nao-ha-razao-para-alta-do-dolar/",
           "camp": "esquerda",
           "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "bomba-concorrente-empresario-enviar-preso-suspeito",
-      "segment": "seguranca",
-      "title": "Empresário é preso suspeito de enviar videogame com bomba a concorrente",
-      "summary": "Empresário suspeito de enviar videogame com bomba a concorrente é preso; veja vídeo da explosão. Empresário envia videogame com explosivos ao concorrente e é preso em SP. Suspeito de atentado com videogame-bomba é alvo de buscas em SP.",
-      "scores": {
-        "cobertura": 8.7,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 7.1,
-      "outlets": [
+        },
         {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRHk2Z3VoZzJHTkVfdzFFR182Q21tLXJmYVdZTVFReWhuQllrVlNCVXc5NHBDNFNrR0otWVJsWWhWanU4T1FweUt1elJ2bnlfdDlhOUtibC1zSmNKTWs2Nm92emRFMzBYRzIyZUJrejFXVndTanNDMzZiVERkQk1vWFlVZWNUcmJKMEJGcVo5UmtDeFNNMGZIUGR1THp1Vl9yUUo1VnluczhoSVNEY28wLW5tWEtnUmIxVnpmWGtlVnBSTU95RXhWZ1J1amRYbWVRR2NR0gHYAUFVX3lxTFBDU3QwblpqaXBMcnRVNEFxRG55ZU9RRjVJZ1RpQXZNNmhYaThGWVRpVldYcHFieGpocVpremNraENnWmNCX2xpSWxjMXh5MnNMZ3Bnb3lqa05lcDBQUUFWRTBSNkh1QVpRYlhLNF9wS1dOTXFBR0JtTkRsZHlGTEw2S1hHZkVQRUZTNnRCMGhLaDd0dXcxVWJ2UW82LVV5RzhBcUUyZmZkWGlUN0dLMDM0Z0oyQnkxLWQxNWJMbi0xSGFDRnowTzljWndTNnNCUGQ2Z2h3TE9Fbw?oc=5",
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-na-tv/video/dolar-tem-mais-um-dia-de-alta-por-causa-de-duvidas-sobre-o-ajuste-fiscal-do-governo-16112026/",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "CBN",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaFl4aDJtUzlPU04tbFFKYWs2cU9TbU91QWprdmhOQ1VwRnZTeHFfbHVkS2V5TDNZWTRObDNYbHI2VUFTVk1iTEUzYjVHM1J2d3g3R1BIeVp4cjNVTWFyOHJWY0NUVmlwYjktV2sybm1qY0JRYzhjV2haeVRZd0I3dnlrQzZEV2JKekhUb2xtOFYtMFV0cDhtYXdQQ0djNjQ5WWFPMEtsRDNxZUVDSjhoc0pJWUhGdldvV0xTQThXbExHNUlkZ1JYOVlkYk91b2ZRN0tWbkl30gHkAUFVX3lxTE1JU3podHdLTnhvVVlaLVgwX3FQZ3AtMFBhUEN5dlpKVnRfUW9OTVZPUjIyQ0hQR2lYNkRBUkNRNUZfRjljaHp1TmxxaHF0Wm9YNU1jYmZsV2xzN0tTM3dLNjNRNU1lNHBLSzZQcnZvdFU4UzdIQ0ZvY294czd3a21TdDVsalVaLXdISEM5RjZqSU9HbWw2eTFBRXByQ2FBZ3FKbTkwTDlqWHlFdXAwTTRiQ0dzQlFMZ2o1NXZvTmRyLTlSbDl0SXptV1RycE9oWFhvaHpoX3pXOHJGbU5rQWEyR254UQ?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZHVzQTAxR2pnYnItQ3RxdHJtOXRFTThyZkNacjNvdzRISXZ6cDhPQVIxR3Z5SXUyN3dOSkVHZkRLX1ExNnNCMGRqTzd5OWNScDQ1VzhHLXJkUDE0SXpLbVZxWWhXT2k5WklDeHFOMk94MzVTNG9WR2N0bUZmS1IyTHI4dlhUQlFFZlFyMV9GbkxfelhFcDZyY0tUbWp3QWRxb2ZlbkJUbVhoZERz?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSzczYmZkaWFMMW5na3BmTkl3dmc5aFFYN3p4XzZGa3RndHV4Yy1yQXFXeGJpMENFeElZeUZMdjNULU5HTU1PMlRyS2oyamFINE9WeVU5eVdQMTVmTHBmVTVObVF5N0RmMmRzWkZmcXVEcnFwVi1OSnhGYVV4VDRTU0l0cEgtaVZLTU5URXh0M1BIRlU3Ul9mZ2hYTnBSUG96eFVrSnFmTTlwQW52LU81OXBHWElvUTcwejBhMlRMX01fekd6Y2xoUHFoaDVOSy1OY0plRVExLTd6UQ?oc=5",
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JnTURmTzFHZHdwNy1Ta2VVdFFudmRyNjBLdUloWmdxNDRZUHlHRHFWYUxVWHRlSkZtUGN2OG45bkRybXhjSGZXcEhGa2FUMWhGbVE3RGFLRmF2dFhoOWRXN3JBcnF3R01KNmVEbVlGeTBRVVFuTVpxUjlzOGVsajBncnQ3S0NIYkpWcWNXVUJlT1pGTnB3TEVWYUhTOUxkYTdjeU52NElQc1NUb2w5ZXUzNWRLZUxaY213NndJUE9sNmM3VVRYMEliNWlqcThndkUydkRn?oc=5",
           "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Nordeste",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUUFqMmR2T2xCUHBuSnR3Q2tCbzVrV3VYeGUtbHdUb3VLemFYQnBENWZhbUt0Yk5iTDNFUWxFOEEzUC1OblZYanZSejVfY1RTeUQtSmM3TElXWEgyRzVadDRoaEt4S1N1eThza3JjN005ZFYtVFIwY3A5V0hlZTR0ODFKN1FCZ3R3T0tEdE5OeWVQVzExMVN6a3hRbDNEamVUd0hVdnJSSXozeGpoRERNc2tpU0l0am1BTHJQMXc3UXRqX2NPNmllM2s3d0pKYVItSHZOM2NqMlNFbFRY?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Gazeta de Alagoas",
-          "url": "https://www.gazetaweb.com/noticias/brasil/empresario-e-preso-por-enviar-videogame-com-explosivos-a-concorrente-949605",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Portal iG",
-          "url": "https://ultimosegundo.ig.com.br/brasil/sp/2026-11-16/suspeito-de-atentado-com-videogame-bomba-e-alvo-de-buscas-em-sp.html",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "barricadas-colocam-complexo-criminosos-faz-fogo",
-      "segment": "rio",
-      "title": "PM faz operação no Complexo da Maré e criminosos colocam fogo em barricadas",
-      "summary": "Operação mira criminosos do TCP em seis comunidades da Maré; bandidos atearam fogo em barricadas. PM faz operação no Complexo da Maré e criminosos colocam fogo em barricadas. Polícia faz operação contra o TCP na Maré (RJ), e barricadas são incendiadas.",
-      "scores": {
-        "cobertura": 6.0,
-        "destaque": 6,
-        "persistencia": 7,
-        "peso_voce": 10
-      },
-      "score": 7.1,
-      "outlets": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMEU3R2dQbTMtWURrMkZkVWo3cWk1S3VTYjdIazF0VzhLTzB4NGdndTBaVUtWVW5ucnBVTEdTU1Z2RDhQZlhEcEMzV1NjcUpXMTMyZzBIZ3pob3FkQ09yWUhUcGRPaW00eHJUcDRYWjQ3SGdIdEFsc2xERjE5enppSjc3dWVsVFVoQmFleUFsYlFjckhHMTFuV3k3ck0tSXRlWnJCRHZfSmdPR29VaTdmTUpORFMwdlMtZmxveXR1QnBaNmM?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQmhZcFY1QldGMl9xcXJCMkE4NmU0Z0twbnJzX2M0REp4TGJ4Ymd4eW9ucF81czJ1X0dCSmtIVFVLWXNVZG1wQlpxdDg0Z3VYMFVpUEFNNG5Yem1OcWhyc3p3S3NhZzRUb2ZxV1QzUkFfQXpvamZzSUdoOHBVNUNmWnpkUlJlTnZRelQyclZTQmpSNjdVNEJQWjdMejVxaEUwWUFQOFpvVGNKNzZXbEs0TU5kUFJWeW5Gei1UME1kMXJmWG1lVnc?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPS3BfNFgzdFhyNi0za1ZFRjZKSFdtQkxSOHFKTWhxS3hvOHB2dWZkLS01UktXSTRYUEpZWDBVQ2xBREY1SmhncHZjT2prLXdKYkZRRE0wbkc4RFMtZUppdkVRNi1iUWloQnk4SzVvZC1iVHlrcVM0dmNXVXVVLXNTYms1TWtybGZPUDc0LUhkckZYUEFVYi1xMGNyVlo2Tzl3cGRzRExIc3lmMlpRaUFFMTFjU1hGU0FhRWlZNUZNM2g5b29LaC1NMS1SbmVtVlNSa2d3RHhLc9IB1wFBVV95cUxPS3BfNFgzdFhyNi0za1ZFRjZKSFdtQkxSOHFKTWhxS3hvOHB2dWZkLS01UktXSTRYUEpZWDBVQ2xBREY1SmhncHZjT2prLXdKYkZRRE0wbkc4RFMtZUppdkVRNi1iUWloQnk4SzVvZC1iVHlrcVM0dmNXVXVVLXNTYms1TWtybGZPUDc0LUhkckZYUEFVYi1xMGNyVlo2Tzl3cGRzRExIc3lmMlpRaUFFMTFjU1hGU0FhRWlZNUZNM2g5b29LaC1NMS1SbmVtVlNSa2d3RHhLcw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "CBN",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTV9PQkxha2J5LXZLUDNYUW5ubzRpaG1PZUg5Y2c1aWs0TlVZN3ZTNF9RaWg5UEdYYkNrc3JWdmFSUGN0MWg4MFU3WnN3TzZzd1FtTWppRTJPWFNhOTV5OXdJUDNRYlNNdGFKZElMSHUtT2VybHhBSURHMm9rZ2xBMWEyLUFJeDhkYXJGcjdFX0VJNjRsQWR4SzZuN0NWMEkzVUpsSm8wOUpfbHA0VUM0QjFVbjE5eDFGSmxLM0tRWktnQ0R0MU9MbUdWNW5MWHV3dzdjbF9mc2R1eTQxLUtpQy1JY2p1LXZZVm14ZEhB0gH8AUFVX3lxTE80WXVJcVlXOHhzLXRVTGp0N0x3ZlB4LVV6YTRUVk1MRmRhdHFwZlBWUk1URHRrRHNOeFlaOUVHWTVVVnBTbFphcXZTaGxBNjlraGhkREhCRWlOZFRoQk9ITXdZQ1RRVDluOTVmZHRMNHhWNVRhaElCZkJoMGxXdktzRDhXLTZrN2QtclNEMFJYWXNLZkNXQjA5ZlVaQ2RMQ2prU20zQUtlTE5JNzZmZ3c3ZlBHQWxjUk0yVkRER09fa19DOC1DU3Rvb01OWXZZY20wRlpncGFsbWV1bTJkY2prWDJraTlFVllDY1FxOWd2VS1DeEtpaHZ0UFBzVA?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "ciro-condenar-genero-gomes-maioria-politica",
-      "segment": "politica",
-      "title": "TRE-CE tem maioria para condenar Ciro Gomes por violência política de gênero",
-      "summary": "TRE-CE tem maioria para condenar Ciro Gomes por violência política de gênero. TRE-CE forma maioria para manter condenação de Ciro Gomes por violência política de gênero. TRE/CE tem maioria para manter condenação e deixar Ciro inelegível.",
-      "scores": {
-        "cobertura": 7.0,
-        "destaque": 6,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 6.8,
-      "outlets": [
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/politica/tre-ce-tem-maioria-para-condenar-ciro-gomes-por-violencia-politica-de-genero/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Congresso em Foco",
-          "url": "https://www.congressoemfoco.com.br/noticia/131620/tre-ce-tem-maioria-para-manter-condenacao-e-deixar-ciro-inelegivel",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Nordeste",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNm9qOFprNTE3bnBhTl9WMGF3TEQwdENTdTRDdVYtbllqQWJQQzlJcC1ibThSMnZZNjlrZ2Z6UmV3N2poanJrUm1IeC11LUNBUFM0SVJLVGczOFdjLVFsektranhHeXFXcnFUR3lrTTNkRWtWT1FvMXFzN2hyU01tdXloQkZZVThvM0tHb0k4dmY4MnRiT1otT0pLYnBaSzN6VFN1blJ5WGltUkUwRDJTYzFZUzhUek1CMi1kc21JQlhqY3hUWU5XSndOM1F1aXA4eUdFRW5acDRqTDZHaTJxZ2V0UFNjcnpER0pB?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Jornal do Commercio",
-          "url": "https://jc.uol.com.br/politica/2026/11/16/tre-ce-forma-maioria-para-manter-condenacao-de-ciro-gomes-por-violencia-politica-de-genero.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Portal iG",
-          "url": "https://ultimosegundo.ig.com.br/mundo/mundo-insolito/2026-11-16/tre-ce-mantem-condenacao-de-ciro-gomes-por-violencia-de-genero.html",
-          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -324,59 +116,10 @@
       }
     },
     {
-      "id": "amistoso-data-desta-equador-fifa-flamengo",
-      "segment": "esportes",
-      "title": "Flamengo pede, e Equador libera Plata antes de segundo amistoso desta Data Fifa",
-      "summary": "Flamengo pede, e Equador libera Plata antes de segundo amistoso desta Data Fifa. Equador emite nota oficial sobre Gonzalo Plata, do Flamengo. Plata, do Flamengo, é liberado pela seleção do Equador por motivos pessoais. Plata, do Flamengo, é desconvocado da seleção do Equador; veja motivo.",
-      "scores": {
-        "cobertura": 7.0,
-        "destaque": 8,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 6.5,
-      "outlets": [
-        {
-          "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOc05TUE5QbUZUenRJaXFYdm02QkVtVWZMX0NYeG1pa1oxNTFWM3NkcGtiLTRENzlESGw2X0hUZlZTbjh5SVczclI4VHd2ckhPX3hWaTRGYUluelVDZFlPM3JJUmx5TTEzTXFKLXc3dVI0NUY0UVlqMWlpN2pZdDlsM1VBM3pYQjcwT0FYeEpMWUtkZlFOV2JOdlktcFd6d3UyMGkzODlfZHlCVnRzTElhdkhGZTVYWWI1OWExeW5WZ1RPckItTzVJT29EOGxIM204djRUZEZXdkNCNmVtVXlHYy1BRXdxWl8zdXd1X2ltRi3SAf8BQVVfeXFMT2NBV0FvamFUNXRLYkIxQk1DMk5tdnQ5OUJkbkt4cEJudTdiZ0d0aFlxaVM1dHZWek1PV2lVYjNxelBzZWxpdzlTN1NrQ3VETjRESGVsN2hEVGE0b2xfRlJzMzhCMDZFMjFudHQ5Y28zeE9lZ3QzeGRHTy1zdjh3Ny1MZ2VlQUhETGFjSzk5ZlQybXZWOHJzLVZYeDFkZE90RkJLaXVpOTZhUmo1SlNyRURQa0E4VzFub2t1S2pKNFNlbXlMWmlveHZCT3RXQkdIR1V3MDNzRU1yUEN2QzlOV041QU5lcWpQTXZ2Zl9jMzV0TVkzUWRrSFlZbDRzZ0d3?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Terra",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUnBlMEFnMVFMaDJHZmtMcWRQMkZrS3dHa3VVZDlLN2cwdkFBVmdZd1dac2ItanNkU2puQlBxSlRBcGNmMGh1ODVhaXBDWWhDaHNGS28zNGY5Z1NjdFRUMDdzUUxYRTlNeGtiT3ZUbG5mZHpMWnFianVsZU5TNjhCOFd1bVd5N19NR21PZXUwY1pzMGx2QV95Y3IwWFl0RVNZWlZuMTBXZC1XVW1JMzh3Wm1GTFVINXJzUjZMQ0VFUndZTy1KUzh4RU1Rc0xCejZSV096TXdQWnN4clEzWjRCYw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "UOL",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY2x6bC14ZklCZEU5MWxnLXhaWlpCU2ctTG9RNm5TV3pwczk4ZWtFV2RoVHlkc0kyYjBhSWgtaTN6R0VGVGxfdl9NMWpDekozT1NmUmhyMzFHUFAxUzlBanh4X3czUGxHQ1NSMnhTNXFkU3gzV0xiVW9oOEluNndmZEJqaWtMcnpINGN6UUExQWNKWDdNcVlEVV9La0Q0MzBtQmYzM0VISjZ2Ulp5Um5YQ0taNnRVQQ?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRW9BNDRPRmZlZHJ6dnZ2Y1F5dDdUaVo5QU5vQkd5dVVmSTE0amllTGZ2OHhnME9pcVM0akZnVHN0a0NKMFl0TDc1aEd4VTFqaVpzS2gycnM5c2J4QUFmYTdrUmo3SjdqSWQyWGl3c2JMQVcwNUppNWstdnFZWmxEa0htMnVscnZqQUE1anc1dTdvTWlubld6YWdoTFhiVzlRTm0zMzlqVGF4TlhNMm5acHRJbGd1OWYyNGVINGdZRGNzdlJaM1FjSmRkVnpwOHdw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Extra",
-          "url": "https://extra.globo.com/esporte/flamengo/noticia/2026/11/gonzalo-plata-do-flamengo-e-desconvocado-da-selecao-do-equador-por-motivos-pessoais.ghtml",
-          "camp": "rio",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "3000-concurso-desta-feira-lotomania-resultado",
+      "id": "ciro-condenar-genero-gomes-maioria-politica",
       "segment": "politica",
-      "title": "Veja o resultado da Lotomania concurso 3000 desta segunda-feira (16)",
-      "summary": "Confira o resultado da Quina, concurso 7169, desta segunda-feira (16/11). Veja o resultado da Lotomania concurso 3000 desta segunda-feira (16).",
+      "title": "TRE-CE tem maioria para condenar Ciro Gomes por violência política de gênero",
+      "summary": "TRE-CE tem maioria para condenar Ciro Gomes por violência política de gênero. TRE-CE forma maioria para manter condenação de Ciro Gomes por violência política de gênero. TRE/CE tem maioria para manter condenação e deixar Ciro inelegível.",
       "scores": {
         "cobertura": 6.0,
         "destaque": 5,
@@ -386,27 +129,27 @@
       "score": 6.3,
       "outlets": [
         {
-          "name": "UOL",
-          "url": "https://tnonline.uol.com.br/noticias/cotidiano/veja-o-resultado-da-lotomania-concurso-3000-desta-segunda-feira-16-1174323",
-          "camp": "centro-esquerda",
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/tre-ce-tem-maioria-para-condenar-ciro-gomes-por-violencia-politica-de-genero/",
+          "camp": "direita",
           "position": "editoria"
         },
         {
-          "name": "Gazeta de Alagoas",
-          "url": "https://www.gazetaweb.com/noticias/brasil/confira-o-resultado-da-quina-concurso-7169-desta-segunda-feira-1611-949619",
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131620/tre-ce-tem-maioria-para-manter-condenacao-e-deixar-ciro-inelegivel",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/politica/2026/11/16/tre-ce-forma-maioria-para-manter-condenacao-de-ciro-gomes-por-violencia-politica-de-genero.html",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "Correio (Bahia)",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTFcyRXBGVXJfc0pyZkVTb3J5Z3F6NDBWb2xaam9RNHc4N0xNMHp6b1pLdW5MSXFxYWxINFNzZENwYzhtM0g3N3hfdGRCdUN4RkkyNVlGajBKZ2lCY3N5RGJPaE1ISXdnRWxmYkFqQ0R2WG9pWnp6VTFadnJVZjh1NWlPUEVfX1RNa1NNQ1Q2U19oeWMtNlNUMnJqbElkR202UW1nQno5Yw?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVzNlcjI4N3lSODFFYS1zOVhjd1dVZFYwQnRiZUQ5TE1nbVY0amtpM1VreC1Wd0FoaU1DaVpfT25NRmNLZWhDc0s3cWxKcTM4cllUYVF1Mnl5bHZTN2ZWeExqclY3eUpFZzZmb0Z5OUJTYnR6Ti0tbnJGenRYdWszSTREWXJhSFJYcGVHX1NLRXpPZVRJMld4RGJadlNQTE9BanZkbXlqczFZRUE?oc=5",
-          "camp": "regional",
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/mundo/mundo-insolito/2026-11-16/tre-ce-mantem-condenacao-de-ciro-gomes-por-violencia-de-genero.html",
+          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -444,49 +187,6 @@
           "name": "Poder360",
           "url": "https://www.poder360.com.br/poder-economia/regulacao-das-big-techs-pode-render-ate-r-506-bi-diz-fazenda/",
           "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "1958-ancelotti-campeao-carlo-dino-lamenta",
-      "segment": "esportes",
-      "title": "Carlo Ancelotti lamenta a morte de Dino Sani, campeão do mundo em 1958",
-      "summary": "Dino Sani, campeão com o Brasil em 1958, comandou o Goiás em jogo histórico contra o Santos. Carlo Ancelotti lamenta a morte de Dino Sani, campeão do mundo em 1958. Pepe se torna o campeão mundial mais velho vivo após morte de Dino Sani.",
-      "scores": {
-        "cobertura": 6.0,
-        "destaque": 6,
-        "persistencia": 7,
-        "peso_voce": 6
-      },
-      "score": 6.2,
-      "outlets": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/carlo-ancelotti-lamenta-a-morte-de-dino-sani-campeao-do-mundo-em-1958",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLXBLZ0VLcEQwbDZFbDBOeklLdkxCeUVUd3RfaFl6M1pOSEFJbE9YOGlrUERfaDRXUW9mU0E0ZC14OEVaVnZFYi1vaTVvc01mNjFwR2RGRjZ2UUI2bUVCME15eDRUSGFGa0xGcnFqZjMtWUZhelZILW5lOVZrR0xOelZuZTRtRWt5Sm1mRVhiSjh3ekdGc0ZUM1VWXzVpdGtqQ2tUWkljV2NNT1EzNVItSkJ3akpiU2dfVUtMYzdETFFkSWNNaHdxZHp6U3BCWm1jZk00?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Popular",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRGlpMmdDZE1oMFRPbENCbDA5TkZvTUk4N1czTFd1c3EwSk54ZG9FN19pZGZBcjlYd2FjM1JxTDFRSXhsMk0zUERKcy1Wdnh1OWdjVjJfT3U3MWNoMHE5WEJhbi01eEd5d2p3b203cFNaY2tfcm10UHZadTRYU0VRdV8xcUtJZmoyMWlfaFlJNlIya0NjdUdCV0IyODJzcXRFM3RBV2E0Yzk0M0o0bzMzblFTWk9ha2pmdExwZGRNS0tIX1R6SERHR3ZkNA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Folha de Londrina",
-          "url": "https://www.folhadelondrina.com.br/esporte/campeao-do-mundo-em-1958-dino-sani-morre-aos-94-anos-3329446e.html",
-          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -607,10 +307,10 @@
       }
     },
     {
-      "id": "ameaca-batalhao-coroas-deixar-flores-homem",
-      "segment": "rio",
-      "title": "Homem é preso após deixar coroas de flores com nomes de PMs vivos em batalhão de Jacarepaguá; polícia aponta ameaça do CV",
-      "summary": "Homem é preso após deixar coroas de flores com nomes de PMs vivos em batalhão de Jacarepaguá; polícia aponta ameaça do CV. Coroas de flores com nomes de PMs vivos são deixadas em batalhão no Rio; homem é detido. Coroas de flores para PMs vivos são deixadas na frente do 18º BPM.",
+      "id": "andre-bomba-comerciante-dentro-empresario-enviar",
+      "segment": "seguranca",
+      "title": "Empresário é preso em Santo André (SP ) por enviar bomba-relógio dentro de videogame a comerciante",
+      "summary": "Empresário é preso em Santo André (SP ) por enviar bomba-relógio dentro de videogame a comerciante. Empresário é preso suspeito de enviar videogame com bomba a concorrente. Empresário envia videogame com explosivos ao concorrente e é preso em SP.",
       "scores": {
         "cobertura": 5.0,
         "destaque": 5,
@@ -620,21 +320,21 @@
       "score": 5.9,
       "outlets": [
         {
-          "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNzhJUmk0S2JZZ0w4VGJyb3lRck5lRVlyYURMdVM1eFYxbzE2XzhkZFRJQzM0V0g3QV9SMElLa1ZXVEVsQWxJd3hUZkk1X2JKNkYtTS1EbTExSXlxVDNrTWUtV1paN1lpOUpDTHhTbkhhdlhIR2pmNDFZc1c0R3Fqcm9xYzI0TE9PYW8xZkZaSm1SaUh1NzZSZjJtSWo5SjlJaXVPUlZldVpBaXdibUVWcS1iVVRVdEU0U2x0T3M3M0UzY09iTTJGc29mMHRaRjRLcnRPalFHVmhwT2UyYTdnTi0yVVRXdkJhbndOTHRNTzRWNE5HLUtMYTB5Ql95X1lGQmFqadIBkwJBVV95cUxNb2Jzbjl4WXlnc1JoYnF2cWthb3d4cFNLd2t2eTJmNWhQUDNub3lHRWp1d3VTeGNuVnRMM3pwTVhhZHdfX0tYNS0tWGtzai03VzdueEhYeUVXd3hyZDFZd3B3UTYtcnRIOWVpRllDTXZDdHMwZS03amJtbnQzQ2ZwZWktV0dnSUxwV2tmXzQtYlVGb0YyUmVSTmRvbFVFdmVFWl9lbzdEdGpkY1N0Skw4Y2MzSnY0a2NQd0VzSU54YzAyYk1WallyN2hYT0VKQkJPSWxxMExPVWV4cVRMZTctanZjNThyakRHemh1LXk1bWVFb19WeTBqM3lKV2tjV3Njczh0SnN3cVR1dnlDaVctcG5NYw?oc=5",
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-na-tv/video/empresario-e-preso-em-santo-andre-sp-por-enviar-bomba-relogio-dentro-de-videogame-a-comerciante-16112026/",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Extra",
-          "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/coroas-de-flores-com-nomes-de-pms-vivos-sao-deixadas-em-batalhao-no-rio-homem-e-detido.ghtml",
-          "camp": "rio",
+          "name": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRHk2Z3VoZzJHTkVfdzFFR182Q21tLXJmYVdZTVFReWhuQllrVlNCVXc5NHBDNFNrR0otWVJsWWhWanU4T1FweUt1elJ2bnlfdDlhOUtibC1zSmNKTWs2Nm92emRFMzBYRzIyZUJrejFXVndTanNDMzZiVERkQk1vWFlVZWNUcmJKMEJGcVo5UmtDeFNNMGZIUGR1THp1Vl9yUUo1VnluczhoSVNEY28wLW5tWEtnUmIxVnpmWGtlVnBSTU95RXhWZ1J1amRYbWVRR2NR0gHYAUFVX3lxTFBDU3QwblpqaXBMcnRVNEFxRG55ZU9RRjVJZ1RpQXZNNmhYaThGWVRpVldYcHFieGpocVpremNraENnWmNCX2xpSWxjMXh5MnNMZ3Bnb3lqa05lcDBQUUFWRTBSNkh1QVpRYlhLNF9wS1dOTXFBR0JtTkRsZHlGTEw2S1hHZkVQRUZTNnRCMGhLaDd0dXcxVWJ2UW82LVV5RzhBcUUyZmZkWGlUN0dLMDM0Z0oyQnkxLWQxNWJMbi0xSGFDRnowTzljWndTNnNCUGQ2Z2h3TE9Fbw?oc=5",
+          "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7323030-coroas-de-flores-para-pms-vivos-sao-deixadas-na-frente-do-18-bpm.html",
-          "camp": "rio",
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZHVzQTAxR2pnYnItQ3RxdHJtOXRFTThyZkNacjNvdzRISXZ6cDhPQVIxR3Z5SXUyN3dOSkVHZkRLX1ExNnNCMGRqTzd5OWNScDQ1VzhHLXJkUDE0SXpLbVZxWWhXT2k5WklDeHFOMk94MzVTNG9WR2N0bUZmS1IyTHI4dlhUQlFFZlFyMV9GbkxfelhFcDZyY0tUbWp3QWRxb2ZlbkJUbVhoZERz?oc=5",
+          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -687,27 +387,70 @@
       }
     },
     {
-      "id": "ajuste-apesar-apoio-criticas-declarar-deve",
-      "segment": "economia",
-      "title": "PT deve declarar apoio a 'plano Moretti' apesar de críticas da sigla a ajuste",
-      "summary": "PT deve declarar apoio a 'plano Moretti' apesar de críticas da sigla a ajuste. PT da Câmara deve apoiar pacote fiscal de Lula apesar de críticas a ajuste.",
+      "id": "180-acao-bloqueia-descumprir-erika-hilton",
+      "segment": "politica",
+      "title": "Justiça bloqueia R$ 180 mil da Meta por descumprir ordem em ação de Erika Hilton",
+      "summary": "Justiça bloqueia R$ 180 mil da Meta por descumprir ordem em ação de Erika Hilton. Meta tem R$ 180 mil bloqueados após não apagar ataques contra Érika Hilton.",
       "scores": {
-        "cobertura": 3.5,
-        "destaque": 6,
+        "cobertura": 5.0,
+        "destaque": 4,
         "persistencia": 4,
         "peso_voce": 10
       },
       "score": 5.7,
       "outlets": [
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/pt-deve-declarar-apoio-a-plano-moretti-apesar-de-criticas-da-sigla-a-ajuste.shtml",
-          "camp": "centro-esquerda",
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/justica-bloqueia-meta-descumprir-erika-hilton/",
+          "camp": "esquerda",
           "position": "editoria"
         },
         {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/noticia/2026/11/16/pt-da-camara-deve-apoiar-pacote-fiscal-de-lula-apesar-de-criticas-a-ajuste.ghtml",
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131627/juiz-bloqueia-r-180-mil-da-meta-por-nao-apagar-video-contra-erika",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/brasil/meta-tem-r-180-mil-bloqueados-apos-nao-apagar-ataques-contra-erika-hilton-949622",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "admite-ancelotti-fala-insuficiente-muito-rebate",
+      "segment": "esportes",
+      "title": "Ancelotti admite trabalho insuficiente na Seleção e rebate Romário: 'Fala muito'",
+      "summary": "Ancelotti admite trabalho insuficiente na Seleção e rebate Romário: 'Fala muito'. Neto detona Seleção Brasileira de Ancelotti e manda recado a Romário. Ancelotti admite: \"Há tempos a Seleção não é competitiva\".",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 7,
+        "peso_voce": 6
+      },
+      "score": 5.6,
+      "outlets": [
+        {
+          "name": "Exame",
+          "url": "https://exame.com/esporte/ancelotti-admite-trabalho-insuficiente-na-selecao-e-rebate-romario-fala-muito/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjZ0WlZpU3pjYXBBSjdvQmEzWjRwYms4endfNG1hbklKQWx0MThmV1dLVkR4R2h6ZUl0VHF5T1lZQ0gzQmFVOFlUZ04xWC1kQ0czdEZGNmR2eHFvWlA1NVNTb0tVbS0yVE9sbC1yNHMycHBReWk3MDlneHBnQnptSXdsclJHUzliRUVTYlpFUllkNzFTWlVmTHVtRUVYLVBiSFljbWR4M2h4Ty13ZU1qMjg3OWVDTzdYc2JmbWdlWWdnc1phUTY0?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWXJubDhDU1NvMFVNQk0xLTIxWWZpNXFEQ0ZjTGpaU0wzZU1CLTJPaXN0eW5ZU0lwa2NHTUxqWnJPUVh2Y2gtcXlJa0JNYXJVTktKbS1LaUFTbW9ZMDlva1hsNExXSUViQlhKSjAzM0ZrR2Z5UzlKNlRFQmNjZFdPNTBVZF9Zc19qOHJpbFJsNVhwMS1mLV9sMVVUdw?oc=5",
           "camp": "centro",
           "position": "editoria"
         }
@@ -718,41 +461,10 @@
       }
     },
     {
-      "id": "artista-dia-doa-dois-federal-homenagem",
+      "id": "2022-cnj-desembargador-julga-moraes-pediu",
       "segment": "seguranca",
-      "title": "Artista Kobra doa dois murais à PF no Rio em homenagem ao 'Dia do Policial Federal'",
-      "summary": "Artista Kobra doa dois murais à PF no Rio em homenagem ao 'Dia do Policial Federal'. Artista Kobra doa 2 painéis à sede da Polícia Federal no Rio; FOTOS.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 6,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.7,
-      "outlets": [
-        {
-          "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTXdvZ3kwQlQ5ODEzdFkxdVBIUHFpZjhkbVlXOXIzb0JwRzh3d1hKOHZtWnBkZlFFVEM5WmpKZkt2Unl5YXdUejViT0tOcEJLN3RNOUxZRkdIR09BemhIZVNqd0NhUmhMVXdIQzRhOUlYLWcwMUhsU2R3UzJ2bUFfQ2g0SlRfVjYtOFZYSXpEaEV3Y2Z5b3Z5cEJENWVvTEZET1FxeG1wV3VHNWxFV3E1dUxIM1lfWHN0OGk1ZE0tazRGZTVuTFVVcGNTVW5jTXVa0gHfAUFVX3lxTE5ZQmE1TEZVX2c5Tjg2WFlQbEt1REFSaTUyQTJqRlpMbE5VZmx5dzRwOFZ4cEdnaVA1Sm9vRGxfYm5LNkRnbURmaGpBSUNmdFJOWXl0YzZjNXNESjIxaE5UTWhselJlbm51bHozUjdnd0hxc2hueEN0MUlMMVlFZDlyMTRPcE5VcWZiakhjQWZUbmdZa0c3WnRzWGJKeVpVdFdlZy1Wc0tQSE1pZzJLWG9vLU5xUE1IWEhyUGVpY29OcHM4UVNyMjZpcFZkd0lTWGgwMURVVDk1QUFYWmhzQ1E?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWpBOERDd3BKZzFxRWV1WEI5RG8yMTc5aDRxLVRCOVF4VFJHam5lZjZTNkstT1hGNC1PRHpYR2F4ZHY4UXpGSWNCb0p6UG40cDZ3NW9wXzdPZ25FdU9DbDF1MzBzdlNzai1MNEthRi1Sa0hBM2toQVR1d05IckR2RU41cldIRzBtYm9WUjZxWm1sektSeGFaMTVKTW1QdzdQMWxham9uUzdVQjFnWUFERWVDWDVpV1lWWVhhdVVXVnpYUy1Ld3lZT1BB0gHYAUFVX3lxTE9ldHFMOGdYXzFkSFY1QnVpVlBEdHVfQ29HREdXVmdQMHpRQ3lfTUNQcnZZa18tUmlfbnozTFhncEhZN0tGQUlHQW4wT0NRNFNqa25GcHBzMU16YWJoYXl1MVd4TjY2MnVvS1FqSzVCMGI4S3pFNVhWNkE1dWFHZjdOLTR5NldjSjJkMjFYOGk5M2tDekQzUm1VN0I4ZFMyS1ZGZWZIWHloRkZhNF80eEpzNTJGWUl4dVRWendxUlJrRXFIY0RIallrX1lFdUVKRXpSNlBUb3NncQ?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "bloqueio-deputado-flavio-pedem-prerrogativas-salario",
-      "segment": "economia",
-      "title": "Deputado do PT e Prerrogativas pedem ao STF bloqueio de salário de Flávio e verbas como senador",
-      "summary": "Deputado do PT e Prerrogativas pedem ao STF bloqueio de salário de Flávio e verbas como senador. Ação pede ao STF prisão e o bloqueio do salário de Flávio Bolsonaro.",
+      "title": "CNJ julga ex-desembargador que pediu prisão de Moraes em 2022",
+      "summary": "CNJ julga ex-desembargador que pediu prisão de Moraes em 2022. CNJ vai julgar ex-desembargador que pediu prisão de Moraes em acampamento golpista.",
       "scores": {
         "cobertura": 3.5,
         "destaque": 5,
@@ -762,46 +474,15 @@
       "score": 5.5,
       "outlets": [
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/deputado-do-pt-e-prerrogativas-pedem-ao-stf-bloqueio-de-salario-de-flavio-e-verbas-como-senador.shtml",
-          "camp": "centro-esquerda",
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/cnj-julga-ex-desembargador-que-pediu-prisao-de-moraes-em-2022/",
+          "camp": "direita",
           "position": "editoria"
         },
         {
           "name": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/politica/acao-pede-ao-stf-prisao-e-o-bloqueio-do-salario-de-flavio-bolsonaro/",
+          "url": "https://www.cartacapital.com.br/justica/cnj-vai-julgar-ex-desembargador-que-pediu-prisao-de-moraes-em-acampamento-golpista/",
           "camp": "esquerda",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": true,
-        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, CartaCapital) e não apareceu nos portais de direita da coleta."
-      }
-    },
-    {
-      "id": "alegre-ataques-deixam-disputa-faccoes-grande",
-      "segment": "seguranca",
-      "title": "Ataques a tiros deixam oito mortos na Grande Porto Alegre; polícia investiga disputa de facções",
-      "summary": "Ataques a tiros deixam oito mortos na Grande Porto Alegre; polícia investiga disputa de facções. Sequência de ataques a tiros deixa oito mortos e cinco feridos em Porto Alegre.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.5,
-      "outlets": [
-        {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/ataques-a-tiros-deixam-oito-mortos-na-grande-porto-alegre-policia-investiga-disputa-de-faccoes.shtml",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObU5LM3hIN2lIWERhT0lsazZNVkdtYnlsTTZlMFBtYjNBUFBYcU5yamIzd0VfOURPdURRNi0ya3J0NkpwckdnRkp2T2U4QWdIWkowSkFNTzI2cXZISmEwQncycVdaTlhqYjVFSUkzWFNtNURjRnludnJUbktqNFJvelVfYmNnRzJDUlFaTm14X0d6UjkyY2I3V0x2MW80cE5kVTg3RDlteWRZb1hQMGtEWDhLR0NLQ1Qxc2hyaXVCNUZ4eUNycHRoSXcxdlowUQ?oc=5",
-          "camp": "rio",
           "position": "editoria"
         }
       ],
@@ -842,83 +523,33 @@
       }
     },
     {
-      "id": "2026-anos-celular-enem-estudante-exame",
-      "segment": "educacao",
-      "title": "Enem 2026: estudante de 18 anos é flagrada com celular durante exame e retirada da sala em Marília",
-      "summary": "Enem 2026: estudante de 18 anos é flagrada com celular durante exame e retirada da sala em Marília.",
+      "id": "atrasa-castillo-contratacao-divida-fluminense-lanus",
+      "segment": "esportes",
+      "title": "Fluminense atrasa pagamento pela contratação de Castillo e tenta renegociar dívida com o Lanús",
+      "summary": "Fluminense atrasa pagamento pela contratação de Castillo e tenta renegociar dívida com o Lanús. Quanto o Fluminense deve ao Lanús por Rodrigo Castillo? Veja.",
       "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
-        "persistencia": 7,
-        "peso_voce": 10
-      },
-      "score": 5.5,
-      "outlets": [
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQW5BRnlwdGppWUFtSHpKYmk4dGZnMjRRc2E1NXcyWGRPU0lFRzNwa1dPV2tDckp6azR4UEV6a0U1SURIWjlZTUFxcG1EZVZTdnhxZ2VhQlB6RUh5ZTBrc1Rnc1M4RllFTzh1UFNqbTB0QXNVcjVRbGh1OExoalhMUFhjUUlmalVDMzFWSGgwVUxYcEFzZkpDSnRtQmVTMjctQWdaakt2M0ptWXBaQUxfU1lvUFp4bUNlaERYMHF2SWc3VWFFV3VYZGthWDdNZTdJQ29jU1dPdnU1ZHNnVWcwV2pZVmE3SHNTSGxlT1g1Qkgyd9IBgAJBVV95cUxNWHJraTNGWkNCWG1MQ3ZacDZ1YzNVSGswbUtqcXFpTkRCTHVxdU5xdDhYcGYyOWJBdEh4LUkzai1Qa0FCZW1nSjItdWxzZlo1M0VyNHV3V3I3ODJZRTVSZWh1MVN1NDhMMHd4bmFpNGxNVDdzVXBYTERRTERpcnVKNUJoMUg1c1I2cGVfZ3YxUUpFaTVCRVVvRHd6ckZHUkdKeFdUVTNZNTNiOWVEaEVnaTdsS2NKQVpkQ2lQVEhmNGp1cEt1b0JJdnFxVm1iUnZWS0FLUUZyRk5HMHhmMTB3V3BLcGFSdC1ZSEdLUzVRal9BeXdBcUNGNEVON3NLV1o2?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "alerj-creditos-cria-envia-negociacao-programa",
-      "segment": "rio",
-      "title": "Governo do Rio envia à Alerj projeto que cria novo programa de negociação de créditos tributários",
-      "summary": "Governo do Rio envia à Alerj projeto de lei que cria programa de negociação de créditos tributários.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
+        "cobertura": 5.0,
+        "destaque": 6,
         "persistencia": 4,
-        "peso_voce": 10
+        "peso_voce": 6
       },
-      "score": 5.5,
+      "score": 5.3,
       "outlets": [
         {
           "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNa2tTRnlHSjZ6ZGJ2VW80eDU5YUIzMERTR19QejZiRkJYblVNRUZkUEoza240VjJ2OXJTS28zdU5xMWNWblBtR1ZOQng5X0ZjaTdVbnJlbXhjQlBTQ3hLTWYxek52elNmakFvNExyTUxaaksxYmVBdjg1Z1JNLTlqamRkUzAtRTlmNzVpeUhXNEx4NGNKc3VxZHJkSEE1aVhKMHAzeFQyaF9odEtNTmNtcExtQXVHd01kRGxDdTk2RTc1cExDOGNFaS1DeFJJX3BaNHRFcFJ5eGJuRXgzUDJsVTdpUEt5enlVVXJsRjlmazFWbFh3LWM0ZmtMSGFHRERJ0gGAAkFVX3lxTE1ra1NGeUdKNnpkYnZVbzR4NTlhQjMwRFNHX1B6NmJGQlhuVU1FRmRQSjNrbjRWMnY5clNLbzN1TnExY1ZuUG1HVk5CeDlfRmNpN1VucmVteGNCUFNDeEtNZjF6TnZ6U2ZqQW80THJNTFpqSzFiZUF2ODVnUk0tOWpqZGRTMC1FOWY3NWl5SFc0THg0Y0pzdXFkcmRIQTVpWEowcDN4VDJoX2h0S01OY21wTG1BdUd3TWREbEN1OTZFNzVwTEM4Y0VpLUN4UklfcFo0dEVwUnl4Ym5FeDNQMmxVN2lQS3l6eVVVcmxGOWZrMVZsWHctYzRma0xIYUdEREk?oc=5",
+          "url": "https://oglobo.globo.com/esportes/futebol/fluminense/noticia/2026/11/16/fluminense-atrasa-pagamento-pela-contratacao-de-castillo-e-tenta-renegociar-divida-com-o-lanus.ghtml",
           "camp": "centro",
           "position": "editoria"
         },
-        {
-          "name": "Valor Econômico",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSXJwckVmeWFuZnBwYVZGcDc0N0NlMzhXVkViNEdxOXBVcXkxMGxwNVdRbWVaS2I3eTdwRERYUGhvUG03QXBOempoY0YwSzBheTZRT3cxbjI3S0FIZFdwZGUwNUhJY2ZUdGFwbEEzX0ZwNzV1VGFzaW5sajdtZjB6bWdXVmVoaEMwbFZES3AzM1JRNVF4SVRPVHlCREhoQlZYYzBxc1ZGVGdkS0RQSDA3MFVFRFBlM2FtQ3FJZVBFcGdQeTRQUlpLN0thcF9yRGpsdEtDT2FheXZ3SVQ1OEFIRGlsdm1Da3BvZDRz0gH6AUFVX3lxTE1IMmhBblViQkhISzFMWjBQd01lSVpVaXdZeWM5MUhDWVd1eGM1VFpuZnFlNnZSNVliSy0xYjFhZnoyS05fV1FSSmFIS09iQXlmeFVCc3BrRlF4UDdqbUs4cTRPT3lkc0otVTA4RF9Xc1lRZzVYTWZVLURVMUMzYkhvRU9tWTJGbTFlRVNoNVFYUV9qaDhLanBWMFpuSXpRNjdJVGFaZFpXSVNxMnQ3LWZKTVQyRnRFdzdSS0x1ZVgyRHZvLVZJWjUxMzNhUjFXNUFJbE9qUnlhdVp1NGVaMTQ5ZnZvdWdvWElmMXF1cDVwZXhoMjVYWV9iX0E?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "acima-casos-cresceram-esperado-mpox-prefeitura",
-      "segment": "rio",
-      "title": "Prefeitura do Rio diz que casos de mpox cresceram acima do esperado",
-      "summary": "Mpox cresce acima do esperado no Rio e já soma quase 400 casos em 2026. Prefeitura do Rio diz que casos de mpox cresceram acima do esperado.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.5,
-      "outlets": [
         {
           "name": "Terra",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNGhvN1I1ZUU5SDJVcjZLNUl2RUxaUExqc0lIMWNvMzRYR3piZDQ5QWdxOHVia0RQeGdXNDhDRlRxQ0tib2NPeGRRWXVzT3ZEV2VHYXN3TWpIVG5KZ1ZHUDdSeGp3bGZ3Z3VhS25wVWJYM0ozOU1SVDJQTUgxUlFTUmJ3YTB5UURWeXc4Uy1xcGJLMkZQMzliWW9INTRtTmJaZlRmdXlYSC1mbjhRTFQ5TkhCQW9VYTRjMEtPZ2dUZTFKSldjRV9PMFB3YURTTEh6SzdLR2lTenNmMU5BVy1LcUhWa3Vwc0JOWmNCYmlxaw?oc=5",
+          "url": "https://www.terra.com.br/esportes/fluminense/quanto-o-fluminense-deve-ao-lanus-por-rodrigo-castillo-veja,7a0b8a7275d2bc335cf1cd8f6e70a8034u7ps09f.html",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Diário do Rio",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVGhCcXY5UHo3bzdNb3hPVnNBU0phZ0o0clpQSXZMby1TREd0WlhDUGZxY05OeEh3N1hSUVgxNHpvRWZMWnd3ZVNsT3Vka3dteWxtd1FRZzdsTmdKQkF0aXZGdWFaaUd0azBOcjBqS1E4RVJDVVVjVjg4MGpSTXFkSlAzeXNBczM3RGdFSGdwRGN4MzJ3czBPTTJWWlBGVkJuTkZzSDhkUnNodV9HWGRHSEM1ODNRb00?oc=5",
+          "name": "Extra",
+          "url": "https://extra.globo.com/esporte/fluminense/noticia/2026/11/fluminense-atrasa-pagamento-pela-contratacao-de-castillo-e-tenta-renegociar-divida-com-o-lanus.ghtml",
           "camp": "rio",
           "position": "editoria"
         }
@@ -929,10 +560,10 @@
       }
     },
     {
-      "id": "arrecadacao-ate-aumentar-desconto-dividas-icms",
-      "segment": "rio",
-      "title": "Governo do Rio propõe desconto de até 95% em juros e multas de dívidas de ICMS para aumentar arrecadação",
-      "summary": "Governo do Rio propõe desconto de até 95% em juros e multas de dívidas de ICMS para aumentar arrecadação. Por que governo do Rio propôs negociar dívidas com desconto de até 95% nos juros.",
+      "id": "desconfianca-disparam-economica-futuros-juros-meio",
+      "segment": "economia",
+      "title": "Juros futuros disparam em meio a desconfiança com política econômica do governo",
+      "summary": "Juros futuros disparam em meio a desconfiança com política econômica do governo. Juros futuros sobem com preocupações sobre política fiscal.",
       "scores": {
         "cobertura": 3.5,
         "destaque": 4,
@@ -942,15 +573,46 @@
       "score": 5.2,
       "outlets": [
         {
-          "name": "Diário do Rio",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOLXRqUHlJOGVsLUZETHprODRiYlZnYWlseTRLS1dsd1NGa1g4TTEyQmZJRndNVl9mUEtFdjlER1FVM2I4cmRiNHFYN1VVUFlSMzBzZ3NxNEswMFF2aUpFbzN2OUVnVnR4azF2NE54a3d6X2lkc0R3WHZncVA5dFlyV2RIZWhxRUJqdE5icmtzY0RIY0M2RmdfSVd3RGZRQTNmdmhuUHBHWnJmRGxWeHphMGR0dGdCOEVXeGtOeUlxdWZqbWo0QlpIRVlVSUJlRlNiOTE4Mjh2dnpOWVAzSG9vbV84a1NtS28?oc=5",
-          "camp": "rio",
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/financas/noticia/2026/11/16/juros-futuros-disparam-em-meio-a-desconfianca-com-politica-economica-do-governo.ghtml",
+          "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Veja",
-          "url": "https://veja.abril.com.br/brasil/por-que-governo-do-rio-propos-negociar-dividas-com-desconto-de-ate-95-nos-juros/",
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/brasil/juros-futuros-sobem-com-preocupacoes-sobre-politica-fiscal-949616",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "1958-ancelotti-campeao-carlo-dino-lamenta",
+      "segment": "esportes",
+      "title": "Carlo Ancelotti lamenta a morte de Dino Sani, campeão do mundo em 1958",
+      "summary": "Carlo Ancelotti lamenta a morte de Dino Sani, campeão do mundo em 1958.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 7,
+        "peso_voce": 6
+      },
+      "score": 5.1,
+      "outlets": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/carlo-ancelotti-lamenta-a-morte-de-dino-sani-campeao-do-mundo-em-1958",
           "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de Londrina",
+          "url": "https://www.folhadelondrina.com.br/esporte/campeao-do-mundo-em-1958-dino-sani-morre-aos-94-anos-3329446e.html",
+          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -997,43 +659,6 @@
       }
     },
     {
-      "id": "brasileiros-endurecer-estrangeiros-impacta-medida-quer",
-      "segment": "internacional",
-      "title": "Trump quer endurecer regras de trabalho para estrangeiros; medida impacta brasileiros",
-      "summary": "Trump quer endurecer regras de trabalho para estrangeiros; medida impacta brasileiros. Trump quer endurecer regra do visto de trabalho estrangeiro.",
-      "scores": {
-        "cobertura": 5.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 5.0,
-      "outlets": [
-        {
-          "name": "R7",
-          "url": "https://noticias.r7.com/internacional/trump-quer-endurecer-regras-de-trabalho-para-estrangeiros-medida-impacta-brasileiros-16112026/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "SBT News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWW8wWkRJc09sbk9VV1BBaWU3TGQwMGF2eU9PbmZvcmlHU3UzWFI2bG4tNzhrN3FtSDNGWUtpTi1Zc19OTWY3SkYwMHMyQjd0Z2M5Zk9wTzZBMjBsMENwbzEzRG1ybm1iSC1FaFJ3R1hDdjcyYzFwckNsd0FUNzE3eGlhWEhLZzBoVURTUzdFVXMwRlk4N3hRakpWRlBFUk5FdWc?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/16/trump-quer-endurecer-regras-de-trabalho-para-estrangeiros-medida-impacta-brasileiros.html",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
       "id": "500-ate-educacao-jeduca-jornalismo-oferece",
       "segment": "educacao",
       "title": "Jeduca oferece prêmios de até R$ 4.500 para TCCs sobre jornalismo de educação",
@@ -1059,60 +684,10 @@
       }
     },
     {
-      "id": "14o-desempenho-devem-educacao-mil-profissionais",
-      "segment": "educacao",
-      "title": "Mais de 7 mil profissionais da educação devem receber 14º salário por desempenho no PI",
-      "summary": "Mais de 7 mil profissionais da educação devem receber 14º salário por desempenho no PI.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.0,
-      "outlets": [
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcVAwekdDeTl2aHh2dl9DbG1zS2txSjJFTEZzbDVoTVpXZ1lLOEYybDAzam5sWmNrWUhhdG1zWkotVXBYdnl1enRmb0dMSUdWd2tBdzNkNWd3SUN4ejZwZjBYTHMwdldxZERndHc1VWF3MnpHQUVZN2ZiV19LNnpPZmY0RlZ5aDly0gGXAUFVX3lxTE9Za2hON1daaDUtemdSQ1hycG9pUWlKOGlBX2Q4SjI5QWVLbDJ5bHE0S3lnb09mdWZ5WWVpUDAxUVBpeENsV3Y2OERWSENMQ2RPcHN6dEFZUWcxSUJKa2tiUHlFNDNYd3ZBRDlkOWNzVzFaOGNZX3Q3bEtiR181dm01ZGluQzFlX2NiQWZZVWlvX1YwcWRMclk?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "aproveitam-dia-empreendedores-enem-extra-garantir",
-      "segment": "educacao",
-      "title": "2° dia de Enem em Parauapebas: empreendedores aproveitam para garantir uma renda extra",
-      "summary": "2° dia de Enem em Parauapebas: empreendedores aproveitam para garantir uma renda extra.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.0,
-      "outlets": [
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVDB6WFljdjB5QmgxYldNWkhieUo1R0JBbFdOMnhac085WWMyX21xOWxLNVBuV3BsQUd4Wll5czIyeWpvTUxVM3BmaGpnTVRRT3ZTY21NdnZwb1UxcFlBejY2TVRQWlBNOGZYbGxzcEx5MzFkMHFWYkR2WjNnQkZubDdKa1pGaEwwQndQaTNQSGdYMEU2M1JoWnRtWkJhN3MtblJsbGRCTW15MTNCaWVnVktIRFRYMGtTNVB4bmROeXdvOElpSVFGdVJtazRIQm1LVTRfQ3QwVzNTblZCcGNaT0JpbGR2dkRmVXfSAfgBQVVfeXFMTWRIRDFQcUNmT2VUbzA5T3Q1WS1kdktvLVYwbXh4R3c5bG5BY2FiUkt6ajRyZVZjNmRoZUo3cm9mYWduY25yazZna2x0ck84RUNNcjVhRXBYUWY5NUkwdkk5Vy1zWnhLUXg4bWtqLUhXTzlZbzk4eUNNa1kxb0wtOUV2S1lFVm5pYWtISkMyNnREaE1mcE9fWDhaMWJGZGlBWENHc3gtYXdQOWVmQUY3d29JZGluelNRd3NHNndvOWV1dlpLQWtTNVV1WHl4S0dSbU9BaVZwNHZPbXBiRHRrSDNVR1FrQnAxSUNPVzBnQlhmMFhHUmJ2UmI?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "ancelotti-comentarista-defende-gabaritou-romario-saida",
-      "segment": "esportes",
-      "title": "\"Romário gabaritou\": comentarista defende saída de Ancelotti da Seleção",
-      "summary": "Ancelotti admite trabalho insuficiente na Seleção e rebate Romário: 'Fala muito'. \"Romário gabaritou\": comentarista defende saída de Ancelotti da Seleção. Neto detona Seleção Brasileira de Ancelotti e manda recado a Romário.",
+      "id": "avalia-centers-chips-contestar-data-eua",
+      "segment": "ciencia",
+      "title": "Governo Lula avalia contestar restrições dos EUA à venda de chips para data centers no Brasil",
+      "summary": "Governo Lula avalia contestar restrições dos EUA à venda de chips para data centers no Brasil. Governo Lula avalia contestar restrições dos EUA para Brasil adquirir chips avançados da Nvidia. EUA limitam exportação de chips de IA para data centers no Brasil.",
       "scores": {
         "cobertura": 5.0,
         "destaque": 5,
@@ -1122,21 +697,58 @@
       "score": 5.0,
       "outlets": [
         {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdGcwTHZOVm5JSkczYUxDQkdDV053dmd3UUxaYS1BSXphNHJXQTg5NXFqMHl3T2VOMmR2UlJNVjZ0bmFxYi1hZVR1WldwRld2enZiU19FNG1PdWdIZ0dXaVZjcTcxcElGMV9lcXl3RWRSTFBXZGFJdE1RMFM5NkVnUDdtbm1xUHdlaDdmOUE4VWFualpfSnhHSWZYOWZMcUp0Y1NiVTZ1QmUyU3JFTHM0YzlFZUQxb2VFRGF4MG5LSEx1ZWd6Mm1lWlptWDc4Tk0?oc=5",
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/11/16/governo-lula-avalia-contestar-restricoes-dos-eua-a-venda-de-chips-para-data-centers-no-brasil.ghtml",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Exame",
-          "url": "https://exame.com/esporte/ancelotti-admite-trabalho-insuficiente-na-selecao-e-rebate-romario-fala-muito/",
-          "camp": "centro",
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/economia/governo-lula-avalia-contestar-restricoes-dos-eua-para-brasil-adquirir-chips-avancados-da-nvidia/",
+          "camp": "esquerda",
           "position": "editoria"
         },
         {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjZ0WlZpU3pjYXBBSjdvQmEzWjRwYms4endfNG1hbklKQWx0MThmV1dLVkR4R2h6ZUl0VHF5T1lZQ0gzQmFVOFlUZ04xWC1kQ0czdEZGNmR2eHFvWlA1NVNTb0tVbS0yVE9sbC1yNHMycHBReWk3MDlneHBnQnptSXdsclJHUzliRUVTYlpFUllkNzFTWlVmTHVtRUVYLVBiSFljbWR4M2h4Ty13ZU1qMjg3OWVDTzdYc2JmbWdlWWdnc1phUTY0?oc=5",
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131625/eua-limitam-exportacao-de-chips-de-ia-para-data-centers-no-brasil",
           "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "anvisa-base-dois-manchas-percarbonato-proibe",
+      "segment": "ciencia",
+      "title": "Anvisa proíbe dois tira-manchas à base de percarbonato de sódio",
+      "summary": "Anvisa proíbe dois tira-manchas à base de percarbonato de sódio. Dois tira-manchas com percarbonato de sódio são vetados pela Anvisa.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.8,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/anvisa-proibe-dois-tira-manchas-base-de-percarbonato-de-sodio",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYzliN0o5UXFNUUkyZmFsMUUwanRfVmduSk9qdWY1OExjYm5QT1R1RjBzT2pNaWhGaEI3YkZfR3RnYTBnSXpfTTFKdUlLTGpJcHQtYjFRc3hGQzJHYkZIcU9wOGx3TDJMM2NlLVFLQUltaVBnLVhWMUpTZk5NWGVxRC04bXBERXVqLUtFNnBlU3IybGMzTEMwX2tDSnRiWW9jZi14LS1OY2hsSVhOaDd2UUVuZHBSVWR6OXBLWXpCd9IBxAFBVV95cUxPWU1fREJRZmhEUFlFUU4xelJ1Qno2Z1Q5MnJyc3pJckgtb1AweTgxcVd6eXJSSlZiOHFfRVgyWlZSMW5fTVlHUHMxMy1YX0V5aFlvUFB1TkxOcXd2dU1ZTVp6cDdnS1NPMHhyX2MxVzBkNU9NMWhONGRNUlA3em1COGRmcnRmOFE4QUx0TG00cDFrU01pQVllT19IZFc4RmxxNHA1MXZYejJBQ1Z4S0RQMkU3NjFqSnkzZldrSWttVEhnRFNn?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/brasil/anvisa-proibe-dois-tira-manchas-a-base-de-percarbonato-de-sodio-949623",
+          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -1177,22 +789,28 @@
       }
     },
     {
-      "id": "ancelotti-ano-ausencias-compromisso-mas-raphinha",
-      "segment": "esportes",
-      "title": "Brasil tem ausências de Raphinha e Ancelotti, mas Rayan volta para o último compromisso do ano",
-      "summary": "Brasil tem ausências de Raphinha e Ancelotti, mas Rayan volta para o último compromisso do ano.",
+      "id": "brasileiros-endurecer-estrangeiros-impacta-medida-quer",
+      "segment": "internacional",
+      "title": "Trump quer endurecer regras de trabalho para estrangeiros; medida impacta brasileiros",
+      "summary": "Trump quer endurecer regras de trabalho para estrangeiros; medida impacta brasileiros.",
       "scores": {
-        "cobertura": 2.0,
+        "cobertura": 3.5,
         "destaque": 5,
-        "persistencia": 7,
+        "persistencia": 4,
         "peso_voce": 6
       },
-      "score": 4.6,
+      "score": 4.5,
       "outlets": [
         {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQzBsYVZ5MER6TEdVYTMwRC1qWHpxUEJ2R24ydkRfc2RGa3FNaVNUSGJKbjE3UW0xZkF6MjYtN3Q1Ul9URk9EcmhnY1F2WC03Q0I1T3pDaHNPMGYwYkdLWjFoWmNRV0xtcl9rbzFOc19lSnVFR3AxUzBlUG9Lb2h6UXFBUmJsQlhvWVdURXFGVGhiWkNmTUdsSTRueFhobmMybVM2bGV0UE1LSFRpZTk5LWxkNFJoTjVua0Q5VDZOdm5YVGktNHdpUm1hMjNQZzRPSm1hOdIB2gFBVV95cUxOME1rR1h1R19oYWFLUXRROHVsdTh5ck5xQTNfajR6azRtOHFVak95YzFIazZ6OW9TMGhaNENIdzRpU2JndU54MWprdjVzU1JqX1RFcjZKMVFrVW5PMDQzeEo2eGhQdVFMMUkwQ3RsWmpVWDNXdnVycHZtNDhBZEdkZ1A0THRRdldoYXV5MFU1TWRZX2kxcmtzRW8xMHZETmVpUUltM0Q1QkcxcGxPS294SGszb01ueU12MGZKTnctbzE5S0g0d0I2OTB6eWhmUWhMcVZhY29MWXJEQQ?oc=5",
+          "name": "R7",
+          "url": "https://noticias.r7.com/internacional/trump-quer-endurecer-regras-de-trabalho-para-estrangeiros-medida-impacta-brasileiros-16112026/",
           "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/16/trump-quer-endurecer-regras-de-trabalho-para-estrangeiros-medida-impacta-brasileiros.html",
+          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -1233,28 +851,222 @@
       }
     },
     {
-      "id": "california-ciberseguranca-incidentes-openai-processa",
-      "segment": "ciencia",
-      "title": "Califórnia processa OpenAI após 80 incidentes de cibersegurança",
-      "summary": "Califórnia processa OpenAI após 80 incidentes de cibersegurança.",
+      "id": "atuacao-carioca-celebra-escola-formatura-fortalece",
+      "segment": "educacao",
+      "title": "Escola Carioca de Turismo celebra a formatura de guias e fortalece a atuação no setor",
+      "summary": "Escola Carioca de Turismo celebra a formatura de guias e fortalece a atuação no setor.",
       "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
+        "cobertura": 2.0,
+        "destaque": 3,
         "persistencia": 4,
-        "peso_voce": 6
+        "peso_voce": 10
       },
       "score": 4.5,
       "outlets": [
         {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/mundo/california-processa-openai-apos-80-incidentes-de-ciberseguranca/",
-          "camp": "direita",
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU01yZmRWZnRmeEFpZWdVcVN3QVVQVVZvOW1ValE4UkNXbVczM3Bvdk4xSW9yMjhyaDlTQ3hTRzZ5bEhnQTNJdXhXeHRBeGpON2ZoSnloTkp1N2ZzMllJNlFKWk1nWlJDcHdWQm9jQ3VnZms4T3pBNTFDd05UZnFYc05idEp5U3hIV0VFNFJac1kxQkdsS1NmUG80STJ0WTEzeUE2akdJMm1VclcxT2dNM0d0bE0xNVV3ZFF6TFlnQ00tN3ZGTWNzWUVTTUVKMExhVkVRbkF6a0tNdw?oc=5",
+          "camp": "rio",
           "position": "editoria"
-        },
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "agressao-defender-espancado-estado-grave-mulher",
+      "segment": "educacao",
+      "title": "Professor é espancado após defender mulher de agressão e está em estado grave",
+      "summary": "Professor é espancado após defender mulher de agressão e está em estado grave.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
         {
-          "name": "Correio do Povo",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNajQ2aGhDMFF6SUNUOU1VeXRyNE1GMklMWUhyRjNEcjFMNmthMGt3VC1kZS1lOGk5dElwY3VPVzBURDVGaDhDNUFSRVhJc2xQdGtZSGY2a0d5NFpRYS0zeW8yUmpDTUJPTHZLSnc4WGNkNG13c0pBcFhrV1NzcFFoTjVEOXFVX2h4ZWpXNXpJX2tEUjJzOVpseXY3Zm9jUWx6NHdVbGdqZHZrR0RSOWd6WjVYaGJlV1V4cXpoc0hoMEYzRDNSTUFvS2t2ZDNnYndqWXd4dg?oc=5",
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/professor-espancado-defender-mulher-agressao/",
+          "camp": "esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "conferir-estudantes-fies-mil-podem-remancescentes",
+      "segment": "educacao",
+      "title": "Estudantes já podem conferir resultado das 50 mil vagas remancescentes do Fies; saiba como",
+      "summary": "Estudantes já podem conferir resultado das 50 mil vagas remancescentes do Fies; saiba como.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/educacao/mec-divulga-resultado-vagas-remancescentes-fies/",
           "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "arma-escola-estudante-leva-mae-militar",
+      "segment": "educacao",
+      "title": "Estudante leva arma da mãe, policial militar, para escola em Pelotas",
+      "summary": "Estudante leva arma da mãe, policial militar, para escola em Pelotas.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdzZiZm1nU2ozLVREcmY5UVJmZTRCNjYzaG5EeWNiVmc0R2NucTF6ZDBkek8waXhVV0JFbnpfXzhQbFJDeTF5X1ZHdW4xNDNaaG1PMnZwZ1g3ZFRBUk5QYmpSRGducW9jRTNfSFJhNEVqTWYyekhrQXNpY0NhLWhVOTQ4d2xteE9CcHdWSHhWZkhab21zSmJ1SW1NVmJXU21BUFNQZXpuNmNLblRaVmVpSzhaWXFOZnVXVklsYzdxT0hENl95UnJTeWh4SFQzQ2NO?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "bilhoes-busca-financiamentos-infraestrutura-obras-prefeitura",
+      "segment": "rio",
+      "title": "Prefeitura do Rio busca R$ 3 bilhões em financiamentos para obras de infraestrutura",
+      "summary": "Prefeitura do Rio busca R$ 3 bilhões em financiamentos para obras de infraestrutura.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ09lNFBaT1R2WFhqcWFQNExMSzRiVDNscFRicGNfeDFiaGRSOTFkakNaYzNHbnZvTFpqMEhzWnNxMERFM1hnVkxnT0l2bHRmcW5NUmo0NEYwek01UzNzVDNMUkhmV2pGVUM0RXh2ODBIYi1SeVNpckVpajJhUGlMUGpyMFNaNko3Z1M1MXFWcnFDN2EzWU5IUi1Pc1dCdGFfN2oyUzFJYnRsRDRXT0RtaGIwQ0VQdFAxaEtuYlVDbHVOVTJTenJFSEp6RzQ?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ate-desconto-dividas-juros-negociar-propos",
+      "segment": "rio",
+      "title": "Por que governo do Rio propôs negociar dívidas com desconto de até 95% nos juros",
+      "summary": "Por que governo do Rio propôs negociar dívidas com desconto de até 95% nos juros.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/brasil/por-que-governo-do-rio-propos-negociar-dividas-com-desconto-de-ate-95-nos-juros/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "africa-apoio-busca-janeiro-mandela-nelson",
+      "segment": "rio",
+      "title": "Antes de virar presidente da África do Sul, Nelson Mandela veio ao Rio de Janeiro em busca de apoio político",
+      "summary": "Antes de virar presidente da África do Sul, Nelson Mandela veio ao Rio de Janeiro em busca de apoio político.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQOXJiWXpyU2E4SUFUelFUTXRWZmJ0NHdZWEw2LUQ0ZjloQUdSZ29wTGZCdy02Sl9pN19JSHgyNTBQdzZtX0cwSk1FZlFOMTd5VWlSMzhmTVoyZHlxNkY0YllLNkF4dzVLNUlsTktvRHR3eDdXand3Q205M0tpVjNYNWdFWnZLeDdKRjJFOVUweW9uT1dqUTk2NDd2XzQwRVo2SUtXLVNlTnZkc0NPX19RaHdPRm4yTl9uYWFFRjBiQjRCZkZGZ3ByaTVaZkRxOTJPalpXZG5MRW5Ielp1bkdXUGZPSlFMdHZHWVBHWEhYQ09feEJWZDc4Uk4yY1JnaWJIQV9WNmtn?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "assessores-bastidores-distraidos-goncalo-republica-rio",
+      "segment": "rio",
+      "title": "Assessores distraídos e a República de São Gonçalo - Bastidores do Rio",
+      "summary": "Assessores distraídos e a República de São Gonçalo - Bastidores do Rio.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVGVOOU9CVnZGSTBrWHppa1BPRkViRkRXVmtlenhYWDEwZkFUa0RfLXQzT2VDR3VqdFBtMjVrOHZXYWtNNGlJeUt4Sk05M1pGbnU3Uk91VDlFSkV2VENuMTlPbHdycmVBaExpZ3c2NFg4cFRIX05BVTBEazBzcW13UDJpcEsxa2FHejhhTml4VjB0ai1keUg3S282WFFIdTU2?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "homem-morte-prende-procurado-torcedor",
+      "segment": "rio",
+      "title": "PM de SP prende homem procurado por morte de torcedor no RJ",
+      "summary": "PM de SP prende homem procurado por morte de torcedor no RJ.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/brasil/sp/2026-11-16/pm-de-sp-prende-homem-procurado-por-morte-de-torcedor-no-rj.html",
+          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -1295,21 +1107,27 @@
       }
     },
     {
-      "id": "alunos-ciencia-desenvolvidos-escolas-pesquisa-premio",
-      "segment": "ciencia",
-      "title": "Prêmio Ciência para Todos reconhece 10 projetos de pesquisa desenvolvidos por alunos de escolas públicas de SP",
-      "summary": "Prêmio Ciência para Todos reconhece 10 projetos de pesquisa desenvolvidos por alunos de escolas públicas de SP.",
+      "id": "divisao-estreia-futebol-gaucho-italia-profissional",
+      "segment": "esportes",
+      "title": "Ronaldinho Gaúcho retorna ao futebol profissional e estreia com vitória na 3ª divisão da Itália",
+      "summary": "Ronaldinho Gaúcho retorna ao futebol profissional e estreia com vitória na 3ª divisão da Itália. Ronaldinho Gaúcho gera incômodo na Itália após retorno ao futebol; entenda.",
       "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
+        "cobertura": 3.5,
+        "destaque": 4,
         "persistencia": 4,
         "peso_voce": 6
       },
-      "score": 4.1,
+      "score": 4.3,
       "outlets": [
         {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeDBKZjN5TktXc2V2OXFIdVFyX3JKQjFpRkF6dmVmWDNjYkhHamYxY1BzeUhTa3NfRmpCbDdPb0pkeGJFT2hnZ25RM3J4OW1qRmFHaVBlbTJyQllzZXVWdkIxeGktWHMtZTdYUVhjaTg3MWtieG5ody1wV3NHd25KYlhTcGphTkxENy1qSU9qbjVxYzRKUURRT3YyLW10YmNDVDRGendsZmtpbTJNUmhSNnU5OU9INE3SAcYBQVVfeXFMT3JLY3RtSmZYWE5MMThlWnNGeTZCSTVINDdoX3hJdVZoOVQxRkRGQkpObXl6R3RISzl1RzNNY2FHcmhkdEt1X1dsNG9sc3BVODk1Z1VYcmUyU2R1bDIxRXdwVVdPdmswd1NKU19WUXQtMERsRjA4UHJjRlpCWkpxc09zRFFFRTNXdG56c3pGbmxGNEpCQkRFSm15YkJkMWplOUx1WTZyOE4xV00yYzlCVmVVbUVOX1FsSmx4bGRXNmVTcTlzcHpn?oc=5",
+          "name": "Diário do Poder",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT19SVjBOY1Z2Y29PUkVUUTR5dlU1TUR2LTVFbUNTOFJGQW4wU1dWbTRSWUhkeFVUWW9ITWZRMjd6cXBNNXh1OGxmREo5M2VpMk5nTmt2NzJiSjlEc2RDT3U4anhxMVRFUEJ2RjMxZzcwdVAweVRPQ3lrenBHckdqZUpXamd1cDl5ZzNhQi1tSzI1LUFIYUVneGszQW9OWnF6VEtGMTFKS3hCYV9QV0ZQT3R2bEMxb1pjMnEtOVpXcWJCaVFHVUE4eDBmaWVLX2wwajliMUhaTnloeXZ30gHiAUFVX3lxTE1salI0eGtoRUJiNVBYak9fZWNiNnBhaVExZTZBU1RUOE9Tc1ZUZ1JhSHQ3cy1nRVRzWDhHck9GTGJTb2NqNnhkUTZXUWtHcTA1MTc5T3VjT2FlUk9RUFM3VFkweXIxYUlrY1ZsQ2hWMFVlVGZPUWVBQjU1c2g1alBsaDh2ZXNES3ZON1pJS3MyN1JXSndjX3pCMnUtVVVlaENvcUpXc2FhNTIwNmpjSWp3YWRTMUE0YlhBdXI1dlgxS2FndmxCVjZBcjJSdUF5Sms0cGxaZFJxRVFTUUs2ejhBSWc?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/esporte/ronaldinho-gaucho-gera-incomodo-na-italia-apos-retorno-ao-futebol-entenda/",
           "camp": "centro",
           "position": "editoria"
         }
@@ -1343,10 +1161,32 @@
         "flag": false,
         "note": ""
       }
+    },
+    {
+      "id": "california-ciberseguranca-incidentes-openai-processa",
+      "segment": "ciencia",
+      "title": "Califórnia processa OpenAI após 80 incidentes de cibersegurança",
+      "summary": "Califórnia processa OpenAI após 80 incidentes de cibersegurança.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/mundo/california-processa-openai-apos-80-incidentes-de-ciberseguranca/",
+          "camp": "direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
     }
   ],
-  "x_trends": [],
-  "removidas_repetidas": [
-    "Enem no sudeste do Pará: 2° domingo de provas foi tranquilo em Marabá e Parauapebas"
-  ]
+  "x_trends": []
 }
