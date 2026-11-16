@@ -7,12 +7,6 @@ on:
         description: "Disparo pelo agendador"
         required: false
         default: "nao"
-  # Disparo único: o token desta sessão não tem permissão de workflow_dispatch.
-  # O arquivo .github/run-noticias só existe neste commit; o push da edição não o altera.
-  push:
-    branches: [main]
-    paths:
-      - ".github/run-noticias"
 
 permissions:
   contents: write
