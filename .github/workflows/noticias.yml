@@ -1,4 +1,3 @@
-
 name: Gerar edição de notícias
 
 on:
@@ -11,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 concurrency:
   group: noticias
@@ -20,6 +20,9 @@ jobs:
   gerar:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    permissions:
+      contents: write
+      models: read
     env:
       TZ: America/Sao_Paulo
 
@@ -31,33 +34,85 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      - name: Testes rápidos da edição
+        run: |
+          python3 tools/noticias_notas.py --self-test
+          python3 tools/modelos_ia.py --self-test
+          python3 tools/coleta_noticias.py --self-test
+          python3 tools/editar_com_ia.py --self-test
+
       - name: Coletar assuntos em alta
         run: python3 tools/coleta_trends.py || true
 
-      - name: Instalar dependências
+      - name: Instalar leitor reserva de feed
+        continue-on-error: true
         run: pip install --quiet "scrapling[fetchers]"
 
       - name: Coletar notícias
-        run: |
-          python3 tools/coleta_noticias.py 12 > coleta-noticias.json
+        run: python3 tools/coleta_noticias.py 12 > coleta-noticias.json
 
       - name: Salvar coleta
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: coleta-noticias-${{ github.run_id }}
           path: |
             coleta-noticias.json
+            coleta-diagnostico.json
             noticias/trends.json
+          if-no-files-found: warn
           retention-days: 7
 
-      - name: Gerar edição sem Claude
+      - name: Gerar edição com IA
+        id: ia
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python3 tools/editar_com_ia.py coleta-noticias.json
+
+      - name: Gerar edição por regras
+        id: regras
+        if: steps.ia.outcome == 'failure'
         run: python3 tools/gerar_edicao.py coleta-noticias.json
 
-      - name: Publicar edição
+      - name: Conferir a edição
+        if: steps.ia.outcome == 'success' || steps.regras.outcome == 'success'
+        continue-on-error: true
         run: |
+          ED=$(python3 -c "
+          from datetime import datetime, timedelta, timezone
+          now = datetime.now(timezone(timedelta(hours=-3)))
+          h = '06h' if now.hour < 9 else '12h' if now.hour < 16 else '19h'
+          print(f'noticias/{now:%Y-%m-%d}-{h}.json')
+          ")
+          python3 tools/qa_edicao.py "$ED" coleta-noticias.json
+
+      - name: Publicar edição
+        if: steps.ia.outcome == 'success' || steps.regras.outcome == 'success'
+        run: |
+          ED=$(python3 -c "
+          from datetime import datetime, timedelta, timezone
+          now = datetime.now(timezone(timedelta(hours=-3)))
+          h = '06h' if now.hour < 9 else '12h' if now.hour < 16 else '19h'
+          print(f'noticias/{now:%Y-%m-%d}-{h}.json')
+          ")
+          MSG=$(python3 -c "
+          import json,sys
+          g=json.load(open(sys.argv[1],encoding='utf-8')).get('gerador')
+          print('Notícias: edição com IA' if g=='ia' else 'Notícias: edição automática sem Claude')
+          " "$ED")
           git add noticias/index.json noticias/20*.json
           if ! git diff --cached --quiet; then
-            git commit -m "Notícias: edição automática sem Claude"
-            git pull --rebase origin main
-            git push origin HEAD:main
+            git commit -m "$MSG"
+            ok=0
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push origin HEAD:main; then
+                ok=1
+                break
+              fi
+              git rebase --abort 2>/dev/null || true
+              sleep $((i * 4))
+            done
+            test "$ok" = 1
           fi
