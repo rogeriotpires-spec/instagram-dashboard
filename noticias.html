@@ -448,7 +448,8 @@ async function load(id){
   CUR=id;$("#ed").value=id;const i=EDS.indexOf(id);$("#prev").disabled=i<=0;$("#next").disabled=i>=EDS.length-1;
   try{ED=await fetch(`noticias/${id}.json?`+Date.now()).then(r=>r.json());ED.id=id;
     const g=new Date(ED.generated);$("#ed-title").textContent=`Edição das ${id.slice(-3)} · ${label(id).slice(0,5)}`;
-    $("#ed-sub").textContent=`Gerada em ${g.toLocaleDateString("pt-BR",{timeZone:"America/Sao_Paulo"})} às ${g.toLocaleTimeString("pt-BR",{timeZone:"America/Sao_Paulo",hour:"2-digit",minute:"2-digit"})} (Brasília) · ${(ED.items||[]).length} notícias`;
+    const modo=ED.gerador==="ia"?" · com IA":ED.gerador==="regras"?" · por regras":"";
+    $("#ed-sub").textContent=`Gerada em ${g.toLocaleDateString("pt-BR",{timeZone:"America/Sao_Paulo"})} às ${g.toLocaleTimeString("pt-BR",{timeZone:"America/Sao_Paulo",hour:"2-digit",minute:"2-digit"})} (Brasília) · ${(ED.items||[]).length} notícias${modo}`;
     $("#updated").textContent=$("#ed-sub").textContent;
     $("#headline").innerHTML=`<p style="font-size:16px;font-weight:600;margin:0;line-height:1.45">${esc(ED.headline||"")}</p>`;
     NV={};renderX();render();await novidade();if(CUR===id)render();history.replaceState(null,"","#"+id)}

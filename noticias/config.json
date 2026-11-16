@@ -104,7 +104,8 @@
    "name": "O Globo",
    "url": "https://oglobo.globo.com",
    "camp": "centro",
-   "tier": 1
+   "tier": 1,
+   "feed": "https://pox.globo.com/rss/oglobo/"
   },
   {
    "name": "Folha de S.Paulo",
@@ -117,13 +118,15 @@
    "name": "Estadão",
    "url": "https://www.estadao.com.br",
    "camp": "centro",
-   "tier": 1
+   "tier": 1,
+   "feed": "https://www.estadao.com.br/arc/outboundfeeds/rss/?outputType=xml"
   },
   {
    "name": "UOL",
    "url": "https://noticias.uol.com.br",
    "camp": "centro-esquerda",
-   "tier": 1
+   "tier": 1,
+   "feed": "https://rss.uol.com.br/feed/noticias.xml"
   },
   {
    "name": "CNN Brasil",
@@ -144,19 +147,21 @@
    "url": "https://www.metropoles.com",
    "camp": "centro",
    "tier": 1,
-   "feed": "https://www.metropoles.com/feed"
+   "feed": "https://www.metropoles.com/feed/"
   },
   {
    "name": "Valor Econômico",
    "url": "https://valor.globo.com",
    "camp": "centro",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://valor.globo.com/rss/valor/"
   },
   {
    "name": "InfoMoney",
    "url": "https://www.infomoney.com.br",
    "camp": "centro",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://www.infomoney.com.br/feed/"
   },
   {
    "name": "Agência Brasil",
@@ -169,26 +174,33 @@
    "name": "CartaCapital",
    "url": "https://www.cartacapital.com.br",
    "camp": "esquerda",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://www.cartacapital.com.br/feed/"
   },
   {
    "name": "Brasil 247",
    "url": "https://www.brasil247.com",
    "camp": "esquerda",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://www.brasil247.com/feed/"
   },
   {
    "name": "ICL Notícias",
    "url": "https://iclnoticias.com.br",
    "camp": "esquerda",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://iclnoticias.com.br/feed/"
   },
   {
    "name": "Gazeta do Povo",
    "url": "https://www.gazetadopovo.com.br",
    "camp": "direita",
    "tier": 1,
-   "feed": "https://www.gazetadopovo.com.br/feed/rss/republica.xml"
+   "feeds": [
+    "https://www.gazetadopovo.com.br/feed/rss/republica.xml",
+    "https://www.gazetadopovo.com.br/feed/rss/economia.xml",
+    "https://www.gazetadopovo.com.br/feed/rss/mundo.xml"
+   ]
   },
   {
    "name": "Revista Oeste",
@@ -202,13 +214,14 @@
    "url": "https://jovempan.com.br",
    "camp": "direita",
    "tier": 1,
-   "feed": "https://jovempan.com.br/feed"
+   "feed": "https://jovempan.com.br/feed/"
   },
   {
    "name": "Pleno.News",
    "url": "https://pleno.news",
    "camp": "direita",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://pleno.news/feed/"
   },
   {
    "name": "Diário do Poder",
@@ -227,13 +240,15 @@
    "name": "BBC News Brasil",
    "url": "https://www.bbc.com/portuguese",
    "camp": "internacional",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://feeds.bbci.co.uk/portuguese/rss.xml"
   },
   {
    "name": "DW Brasil",
    "url": "https://www.dw.com/pt-br",
    "camp": "internacional",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://rss.dw.com/xml/rss-br-all"
   },
   {
    "name": "Reuters",
@@ -251,13 +266,15 @@
    "name": "O Dia",
    "url": "https://odia.ig.com.br",
    "camp": "rio",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://odia.ig.com.br/_conteudo/ultimas-noticias/rss.xml"
   },
   {
    "name": "Extra",
    "url": "https://extra.globo.com",
    "camp": "rio",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://extra.globo.com/rss/extra/"
   },
   {
    "name": "Diário do Rio",
@@ -269,13 +286,15 @@
    "name": "R7",
    "url": "https://noticias.r7.com",
    "camp": "centro",
-   "tier": 1
+   "tier": 1,
+   "feed": "https://noticias.r7.com/arc/outboundfeeds/rss/?outputType=xml"
   },
   {
    "name": "Terra",
    "url": "https://www.terra.com.br/noticias/",
    "camp": "centro",
-   "tier": 1
+   "tier": 1,
+   "feed": "https://www.terra.com.br/rss.xml"
   },
   {
    "name": "SBT News",
@@ -293,7 +312,8 @@
    "name": "Correio Braziliense",
    "url": "https://www.correiobraziliense.com.br",
    "camp": "centro",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://www.correiobraziliense.com.br/feed/"
   },
   {
    "name": "Meia Hora",
@@ -317,7 +337,8 @@
    "name": "Estado de Minas",
    "url": "https://www.em.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://www.em.com.br/feed/"
   },
   {
    "name": "Yahoo Notícias",
@@ -335,13 +356,15 @@
    "name": "Exame",
    "url": "https://exame.com",
    "camp": "centro",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://exame.com/feed/"
   },
   {
    "name": "Veja",
    "url": "https://veja.abril.com.br",
    "camp": "centro",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://veja.abril.com.br/feed/"
   },
   {
    "name": "O Tempo",
@@ -353,31 +376,36 @@
    "name": "Diário do Nordeste",
    "url": "https://diariodonordeste.verdesmares.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://diariodonordeste.verdesmares.com.br/cmlink/feed-1.3009099"
   },
   {
    "name": "A Tarde",
    "url": "https://atarde.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://atarde.com.br/rss/"
   },
   {
    "name": "Jornal do Commercio",
    "url": "https://jc.uol.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://jc.uol.com.br/ultimas/rss.xml"
   },
   {
    "name": "O Povo",
    "url": "https://www.opovo.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://www.opovo.com.br/noticias/rss.xml"
   },
   {
    "name": "ND Mais",
    "url": "https://ndmais.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://ndmais.com.br/feed/"
   },
   {
    "name": "Correio do Povo",
@@ -389,7 +417,8 @@
    "name": "Gazeta de Alagoas",
    "url": "https://www.gazetaweb.com",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://www.gazetaweb.com/feed/"
   },
   {
    "name": "Diário de Pernambuco",
@@ -401,7 +430,8 @@
    "name": "BHAZ",
    "url": "https://bhaz.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://bhaz.com.br/feed/"
   },
   {
    "name": "NSC Total",
@@ -413,43 +443,50 @@
    "name": "Correio (Bahia)",
    "url": "https://www.correio24horas.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://www.correio24horas.com.br/rss/"
   },
   {
    "name": "Tribuna do Norte",
    "url": "https://www.tribunadonorte.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://tribunadonorte.com.br/feed/"
   },
   {
    "name": "Folha de Londrina",
    "url": "https://www.folhadelondrina.com.br",
    "camp": "regional",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://www.folhadelondrina.com.br/feed/"
   },
   {
    "name": "JOTA",
    "url": "https://www.jota.info",
    "camp": "centro",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://portal.jota.info/feed/jotaunico"
   },
   {
    "name": "Congresso em Foco",
-   "url": "https://congressoemfoco.uol.com.br",
+   "url": "https://congressoemfoco.com.br",
    "camp": "centro",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://congressoemfoco.com.br/feed/"
   },
   {
    "name": "Portal iG",
    "url": "https://ultimosegundo.ig.com.br",
    "camp": "centro",
-   "tier": 3
+   "tier": 3,
+   "feed": "https://ultimosegundo.ig.com.br/rss.xml"
   },
   {
    "name": "CBN",
    "url": "https://cbn.globo.com",
    "camp": "centro",
-   "tier": 2
+   "tier": 2,
+   "feed": "https://cbn.globo.com/rss/cbn/"
   },
   {
    "name": "O Popular",
@@ -459,5 +496,75 @@
   }
  ],
  "_doc_tiers": "tier 1: abrir a home em toda edição; tier 2: abrir a home ou buscar por site em toda edição; tier 3 (regionais e agregadores): buscar por site (WebSearch site:dominio) os fatos do dia e abrir só quando houver matéria relevante, sobretudo fatos do estado do veículo.",
- "_doc_segments": "Cada bloco tem min_items: a edição precisa ter pelo menos essa quantidade de notícias no bloco quando houver fato no período, mesmo que a nota seja menor que a de outros blocos. min_outlets do bloco substitui o mínimo geral de portais."
+ "_doc_segments": "Cada bloco tem min_items: a edição precisa ter pelo menos essa quantidade de notícias no bloco quando houver fato no período, mesmo que a nota seja menor que a de outros blocos. min_outlets do bloco substitui o mínimo geral de portais.",
+ "_doc_feeds": "feed ou feeds: RSS/Atom lido direto. Sem feed, a coleta usa o Google Notícias como reserva, com nova tentativa em HTTP 429. _aliases normaliza o nome que o Google devolve; _nao_portais é descartado.",
+ "_aliases": {
+  "O GLOBO": "O Globo",
+  "O Estado de S. Paulo": "Estadão",
+  "Estado de S. Paulo": "Estadão",
+  "Estadao": "Estadão",
+  "UOL Notícias": "UOL",
+  "UOL Esporte": "UOL",
+  "UOL Economia": "UOL",
+  "Folha de Sao Paulo": "Folha de S.Paulo",
+  "Folha de S. Paulo": "Folha de S.Paulo",
+  "BBC": "BBC News Brasil",
+  "BBC News": "BBC News Brasil",
+  "DW": "DW Brasil",
+  "Deutsche Welle": "DW Brasil",
+  "Valor": "Valor Econômico",
+  "Carta Capital": "CartaCapital",
+  "Jovem Pan News": "Jovem Pan",
+  "Pleno News": "Pleno.News",
+  "Rádio CBN": "CBN",
+  "CBN Rio": "CBN",
+  "SBT": "SBT News",
+  "Band": "BandNews",
+  "Band News": "BandNews",
+  "CNN": "CNN Brasil",
+  "iG": "Portal iG",
+  "IG": "Portal iG",
+  "Último Segundo": "Portal iG",
+  "GZH": "Zero Hora (GZH)",
+  "Zero Hora": "Zero Hora (GZH)",
+  "GaúchaZH": "Zero Hora (GZH)",
+  "Yahoo": "Yahoo Notícias",
+  "MSN": "MSN Notícias",
+  "Associated Press": "AP News",
+  "AP": "AP News",
+  "Reuters Brasil": "Reuters",
+  "EBC": "Agência Brasil",
+  "Agência EBC": "Agência Brasil",
+  "R7.com": "R7",
+  "Portal R7": "R7",
+  "Jota": "JOTA",
+  "JOTA Info": "JOTA",
+  "Poder 360": "Poder360",
+  "Extra Online": "Extra",
+  "Correio 24 Horas": "Correio (Bahia)",
+  "Correio24Horas": "Correio (Bahia)",
+  "ND+": "ND Mais",
+  "ND Mais": "ND Mais",
+  "Gazeta Web": "Gazeta de Alagoas",
+  "G1": "G1",
+  "g1": "G1"
+ },
+ "_nao_portais": [
+  "Instagram",
+  "Facebook",
+  "YouTube",
+  "TikTok",
+  "Twitter",
+  "X",
+  "LinkedIn",
+  "Threads",
+  "WhatsApp",
+  "Telegram",
+  "Spotify",
+  "Pinterest",
+  "Reddit",
+  "Flipboard",
+  "Google News",
+  "Apple News"
+ ]
 }
