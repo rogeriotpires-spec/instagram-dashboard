@@ -18,6 +18,7 @@ import json
 import os
 import random
 import re
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -47,6 +48,8 @@ def _redigir(texto):
 def configuracao():
     """Devolve base_url, chave, modelo principal, modelo reserva e rótulo do provedor."""
     openai = (os.environ.get("OPENAI_API_KEY") or "").strip()
+    # Não imprime a chave. Só diz se ela chegou ao processo.
+    print(f"chave_openai={'sim' if openai else 'nao'}", file=sys.stderr)
     if openai:
         base = (os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1").rstrip("/")
         return {
