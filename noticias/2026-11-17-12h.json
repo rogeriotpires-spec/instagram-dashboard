@@ -1,362 +1,86 @@
 {
-  "generated": "2026-11-17T09:47:52-03:00",
+  "generated": "2026-11-17T09:53:36-03:00",
   "gerador": "ia",
   "modelo": "gpt-4.1-mini, gpt-4.1",
-  "headline": "Governo do Rio sanciona leis para renegociação de dívidas com descontos; Novembro Negro começa com aula de letramento racial em escola do Rio; Polícia investiga casos de corpos encontrados em diferentes situações.",
+  "headline": "Justiça bloqueia R$ 180 mil da Meta por não excluir vídeo com críticas a Erika Hilton; Governo do Rio sanciona leis para renegociação de dívidas com descontos de até 70%; Polícia apura relação entre corpo encontrado em cova e desaparecimentos.",
   "top": [
-    "ate-rio-dividas-leis-renegociacao-descontos-sanciona",
-    "trick-2026-goleada-hat-singapura-vini-encerra-faz",
-    "ancelotti-atacar-fala-peso-poder-romario",
-    "episodio-reabilitacao-relembra-ilha-rafael-clinica",
-    "situacoes-casos-encontrados-investiga-policia-diferentes-cor"
+    "dois-faz-ingles-joia-peru-robinho",
+    "vini-ano-goleia-amistoso-ultimo-trick-singapura-hat",
+    "criticas-meta-180-justica-nao-hilton-mil-erika",
+    "encontrado-corpo-apura-desaparecimentos-policia-relacao-cova",
+    "renegociacao-rio-descontos-sanciona-leis-dividas-ate"
   ],
   "items": [
     {
-      "id": "ate-rio-dividas-leis-renegociacao-descontos-sanciona",
-      "segment": "rio",
-      "title": "Governo do Rio sanciona leis para renegociação de dívidas com descontos de até 70%",
-      "summary": "Governo do Rio sanciona leis que permitem renegociar dívidas com descontos de até 70%.",
+      "id": "dois-faz-ingles-joia-peru-robinho",
+      "segment": "esportes",
+      "title": "Brasil Sub-20 goleia Peru por 9 a 0 com destaque para joia do Vasco e Robinho Jr",
+      "summary": "Brasil Sub-20 faz 9 a 0 no Peru com três de joia do Vasco, dois de Robinho Jr. e um de ‘inglês’. Joia do Vasco brilha, e Brasil Sub-20 goleia o Peru por 9 a 0. Robinho Jr. dá show na goleada sobre o Peru.",
       "scores": {
         "cobertura": 10,
         "destaque": 8,
-        "persistencia": 4,
+        "persistencia": 7,
         "peso_voce": 10
       },
-      "score": 8.3,
+      "score": 8.9,
       "outlets": [
         {
-          "name": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/bem-estar/voce-come-rapido-demais-entenda-como-o-habito-pode-afetar-a-digestao/",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio (Bahia)",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZXFvRHFLdzNUWEQ0MmQ0WmhxOTlFc3RxcWVhTWtzUFhTRVZpUFpaUXV2bXhvOGZPRUN2WkI4alBFc3lhaUMxd0Q4LWZVcDhQcDF1cHAtOVZaSG1sZ3Jmb2lmNlQ0N1lqMHZrNnAtN1E4Z1k0d1VnNjNCcjNhYm5Lamcwb1JiVHgzelVZZ3N1eU1OZGRtaDhHaFpuYnlhbTlKdW4wMmpXaURWU1FYZlFRZXUyLUlZYmM?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "BHAZ",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSnFXTXJYUzBybFRQSDZlemNxMU9BN1dOVXZCeTM0QXd4VzNSTkVrQjNaOEg0QjZ1OGRHRHM4eTBzbFhLdWVtNWlzYk5fN3ZWZWlLSVdmR0sxaWpaNzAxdUQtckU1bzVzRDgxZzk2SDFXSEtuTzNzOHB2VUZZVUpycVd4dk5VOHc1UVRuTTQwUFZrbTg2OWJrU2dsNWZuby1fVjY4?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Veja",
-          "url": "https://veja.abril.com.br/coluna/macro-intelligence/ibovespa-encara-pressao-externa-e-tensao-fiscal/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
           "name": "Zero Hora (GZH)",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMnowRXNNODVZaUliYkd0VUNldFFraWg0LVFaekdZQ2E4N0Vjel9Icjh2Z1Z2TXlhbHM5bTJ0WWlBUUdtX0FJd3hXaWtBQWNmaEFEWWxHejFzM0RBRFU5WkRrbDhocXVXRGR0RklMRzJTM2JacjFNSVp3a0NlSHA3SnhDLUNvNWh4N2V0SWlTTktuQUhaeDhwQlRsdVhmd3pDMEtWeUlFTUtZam5qNmNQLWtXMUd5V3V4bmtuYWw3MjQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUXFjMW15bWEtczM0RGtBSGpOSXdnLTM5U3hXNExXeTV4V1lIcWxvNTZoNW5xR3pibVNrR3dDZURwNWJHX2hXdWVXSDAwU2NCTnpRWFBBX25uUFcyZnF6dU13MWs1QXVJeFdVSXZibEQ2cF83WDVCMzhHeTlDTEItTEp3X0NEanpFUEN3U05EOU9rdHktcHQwZHRqU3Npb1J1enhLMVR5TTFuUGc1UzcxdC1QZGw0elZjOVJSMUh6RDdDQmhUX0hnam01LVVmNHVmSXJPWk10ZFBfOWdmXzRheHFCb29WZzhPc2hSZ0FVVjFyYmlsT3BvY0pMcmFNUm5nZVZDa3FuaUhmNGs?oc=5",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "Diário de Pernambuco",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZUNQYnVnWDhTWkJzRkFfakNIN0tCcEViNHpIRVplMnliaXpaNUNjOFUtNmxkeGFSMTljUVRRNEl2Y3ZsbG9hTTdmcDdSX1JLNm1nalFHV1NOMzBvYzM5RW0tY0pZd2FpeXNnbkJBRURkV3FJS0RBY1dBQnJfZG5IRG93dW5qeXlpaFg0TkVCT0dTQlQ3ZmlTMm9JS0FvRUhzc0hma1l6NTFaNXVqV1VLcnB2VFp6S0RwTnIwS3FVUHdwLUt5QmJlZGhnaGtZQ2FvTll0QlE4dmNHUzRUY0F0dVhta1QweTVSRVgtZFpTNA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Gazeta de Alagoas",
-          "url": "https://www.gazetaweb.com/noticias/mundo/lula-visita-presidente-reeleito-de-cabo-verde-antes-de-voltar-ao-brasil-949756",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "R7",
-          "url": "https://noticias.r7.com/sao-paulo/interior/caes-que-vivem-nas-ruas-tem-invadido-condominio-e-atacado-moradores-familias-cobram-providencias-17112026/",
-          "camp": "centro",
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRzczTFNPdUFhSktxcFY2MmFtc1FqVVpDNTJQMUNwS21WQk41a3dzZGN1ZEVTeFJTSWwwNERhdV9IM01KYllSWHlxUDN6bGpGTEF2eERlNURaRV9XOUFaV3JXRllwSlNfY052S2c3aExObzkyc3hDaGZfNUEtNjJocldQLVlIR19XUUFzSTd1NDQzaVJzbm04alhDbnZmUXRZQXJHR2djTFplbUViQXNYMlQ0UVhKVW5FUjBzSFNCZG9iMG9tY04zUzJhbG9TdnNPT0VrMG56QXhCNk01VjJPVzVCRQ?oc=5",
+          "camp": "rio",
           "position": "editoria"
         },
         {
           "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc20yNEQyS2xZeWV1LVlVUkluTWRmLWlLWWlXRWJNdk5kQUE5TzRQZUFxZlhTMklHbjMwQnZBd1p0RVp1RS1iZGtIQU9lZ3E4UjBfMGZNaU41Rm56NVdTaVFQS2t3dllJYW10U3RrbTRoR3R1Q2NJVU4zRmRLaVppWGZuZXZlbnhWRWo2dVdkMTM4R0x4SDZ4dk9aSy1yU1Z5Mk00?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON2JNSFY3eS0tVnJjamFJVnlGelZvTjBRWkRWWTM5X1lxUUc5eUlmUElsQjVuMW1RaUFnWkVfdXNYWkxvc1FMSU1Jc1NwVmxZdElWem9EMUtEQXVLRDBsYnduTlk4WURIaDBnZ1hRSVNYZE1Kd21RdmtBZk11cUpQSGtjQV8tYWZXMlBBanFnVjVOSjhIUzhTREswRVVXMjN4YXpsRW1VQVJ6SHkxQVRMdGZSNlV5ekVtbWNVQ1AybXB3RWQ3YnFjYk9qUWxvYzFldlHSAdcBQVVfeXFMTkd6M3lpZFJGOXUwT1RfNDdIUTZUXzFtQlJCZnM4a0JyaGRnblZ2bWNsTDY0dVJpNjB5c29WemRlRDJtTk12ZGhld3ViaUNMdnhGSl83eFJkeUxyOVNCLS16SUJhTEZpOFNyREhtSDZ0T05WM01jQTVJUmc3cENReXZZQVEwUGZNck1RbXVCUExUNEI4cW0ycE9hMDZIOEJyWXhlZExMT2FuZWNaNlR4M0xVRm1aSFc3S2huaXlPcl82VjNYbmRQalZCdS1ldm1aNjVXanRTN28?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://f5.folha.uol.com.br/astrologia/2026/11/cansaco-de-fim-de-ano-ja-bateu-o-que-seu-mapa-mostra-sobre-a-sua-rotina.shtml",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-internacional/ue-acusa-temu-de-violar-lei-digital-por-venda-de-itens-ilegais/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0hTNlQ4MEV6Snc3eHZiZm9NOXl4TDJVdVFxUkNyVkxzdFZseTUzNDJmcWxYc0Fub2xiWGo2cTZtMW9UalpzWl81MXFjRWV4STNoeTEtYlNZLUhmaXZPQzMyN3NOUFlpcW5tTEZGQS1mdWZXSW5fMlQwaWdmZXBfcDZCSUx5LWhPUXlxR3FiMnpEQ0IwVHNSTFQ5bk9kUmFTWWlMQnhQTV9RUQ?oc=5",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/play/noticia/2026/11/17/fiuk-fala-sobre-dificuldades-financeiras-descoberta-de-caracteristicas-de-autismo-e-solteirice-nao-tem-como-pagar-restaurantes-muito-caros.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Portal iG",
-          "url": "https://ultimosegundo.ig.com.br/2026-11-17/lula-diz-que-ira-nao-tem-bomba-nuclear.html",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Valor Econômico",
-          "url": "https://valor.globo.com/empresas/marketing/noticia/2026/11/17/sao-pedro-capital-investe-na-pivot-e-ricardo-cesar-assume-como-chairman-executivo.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/mundo/trump-quer-dificultar-green-card-para-trabalhadores-brasileiros-entenda-as-mudancas/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "A Tarde",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMzc3N25qYmh5c0g1MEFwcXlCUE5LMUlKeDhsV282eE1wVGhUQTMtSlhoMThVOHVzMlowVWJVZ1RiZDByckRiOEYzai1pQVMzcFpEWks3VWhwRmFIWm5rTzBuVzRWRWltNWJhWm9NSWdFODhlaU54cFpfYkRlU2xNQW9zZk9vMWd0RXB4TDBEdFg2Rmh0V01WZdIBoAFBVV95cUxQYnBiRjdOazl0WUVBUndZOUhNM1Fzb1FvSmxIZ2loQWtrZnhBZERMR1ZiM29wVThGMTEzdFQyTTk1eS0xWDhLYk1FNXk4QkdWQmNVbHEyRU0zcmNzU1k3c3lDXzF6VzUybTRud0NtVkFEMkhETVVTV3BFLWhQQ0R1M3JUWi1ZeVI4YUdrRkNxUWdTYXlZQ3JhV3JnU1ktV01C?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHRWakliVDJwZmg3TXZ5Wm5hWGxjNXNHajhlWHU4dzgycnZESmxmcEUtc1JxNU9kZnZFeUJzSU1kdXBNSFVDeEIzMk1GMmJqVHdMQ0Z3Tnh2dUtsUjl3d2g4aFBJMWktVDJwS201MHZSaDlVbFJTREo0NlBzU0g4U1FrOFRpUFR4dGktTXZJTERlWWY3ODlCb0dhZWNldjJiM2tMWl9BUlV6TmhRSzRzOWhrandoUUVyZndTUlJXOEs?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/ciro-gomes-pode-ficar-inelegivel-por-ate-8-anos/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Terra",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWVcwdUQ5ck5iREdLUy1udjd4cmt6OW1SOXN4UkZaVzRnQzlTTmtoVU13UGpiY19XTmN1ZlpFTmpabGlWNlRtZzdfRV9OY0N4YjYtM0VXTzRjSmpMbEhiclJGcTV4d2s4SkRiMm1GVFdWU1pTNjNBX3ZraVMwWlotbVpKSnN1Tm1XN185NXZfS2d2S3R6WlNtYnMwREdqVXNEZVVYaDBPS1o0QzhOeWxqVnVrU0tpODlvYnFMZ19UNmVvSFhNNzFSZXhvM2ltaklwcWdJdkU4bVJKdw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "ND Mais",
-          "url": "https://ndmais.com.br/justica/filho-lula-divorcio-golpe-800-mil-operacao-policial/",
+          "name": "Correio (Bahia)",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGxIVnZUQW9TNG5LMzEzeGpVYVVsRTBDWXZlSUljcWJJS2dackNPV0lHS3RNdGFieTBPRlpPYms2el9udU5ra1RxZjlhTHBkZVNteEpSb3F0V3dGaldfQnNJTHF4d1lGakxOWEVRcmh0UTJCd3JZcGpTZTN2ZkMxRGtPREFXVDJiR2RzREZmOU5NODRtQ2xwRTN3cjFJWk9xeHRjTFpTcU12czVqSHpBbzBXUzRkTWp0WE5HT1k4T24zSWtxTjh3c1owNUpaeC1oczFESmxGeWhDRzN1Ykt6S3lqdFl3bkMtcVBXcjdkdDRDZ2RfNHl0cmtB?oc=5",
           "camp": "regional",
           "position": "editoria"
         },
         {
           "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZTJGTU1rODREN29mUXg4UWRrMU1aS2RkSWtEdS03YjBGbjVvaE4tdEhsdGxINEt4UHhIV05LOVRIMDBUeTYwdzBRa0xBZWlxVUJSNUFzeVF1SDNYTG11c1Rxc2p5SlhaLXhtNkdSV3FjYVdHZ2dxbm1yNjdPUmtrUVc4VGRwM1lqanNERDYzQTI3RTlxS1dRRUhOcVcwQ0hkQjBieTgwZUczYUFZYzBXQmctcjI3N2dBM1pMZ2NDTUJSYlhEODVVeg?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "NSC Total",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNXZhR2MwdlZMQlpneVZmSW5IbmVoZXlYN2ZNSHRFMFljWHNYZ0xOd2ZXLUhiOXViTGgyYThNNWZGZ0JHS3NKMV9NaGZ6T0tPQW1YS2xEd2FqT0U2enh0NzR6dzd5cFl4MURFR29BSm1xMjZtcHZGNkxrY3pWNWhyMGp3Y2NjMkIyZ2h0Z1ZGYnRGaTFaRVF5T0U5WHVPcFR5UlpFaW4zdnRYRkJOUmFqYzJtdlpEVHZPaFpXQXRmUGZrSDBzUDNHanczUDZ2SDliSXJDRTVZc0dRUQ?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Congresso em Foco",
-          "url": "https://www.congressoemfoco.com.br/noticia/131640/da-espera-nasceu-a-lei-daniela-teixeira-e-a-resposta-do-congresso",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Rio",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KSDl0bWlsNjRPenBPd05aNklCT3hYbDNOMGFqX1ZTZW05c0UyZ2NURGJkeENtMHFLQ1Z0d2xaemdKRGJoRmo2S3pHVk55NFRLbzJyTjNUUWhqbUxf?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/esportes/automobilismo/fernando-alonso-tera-brasileiro-como-companheiro-no-rally-dakar-2027/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/terca-feira-sera-de-chuva-intensa-na-maior-parte-do-pais",
-          "camp": "estatal",
-          "position": "editoria"
-        },
-        {
-          "name": "O Popular",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS2lzSi1sa1BuWWNzS1BXZ0FXWHdoS1NTR3NTZC1FN0drdm00UVVoRjdRTjlaWVZjVEhEVmxtTWFkblh0OVFqclRGVU96c2VNU0sta3M4NnNfRnNjZmJCVWhsWDdKU2R4ZzZGaXZHQ1FyOEtoaXphdTJWbG9HUEhtcGZneURsaU9pY3RBd044X09rdVZW?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTE1rd0ktT0NFMm0zc1IwTUc4cGxuZzc0eV81MDM5QWNfYURBWUMxd1gtMVFudEIzMUd3Vko2WXB4Y01Xd09KNGpnLVJ6R25GZGpKWGl5MlJUc2wtQ2FBWFg3LTFudlJIXzFkY1NHNGVlTG1xd09NQVhCMEJFcl9DQkhkRTRfSFhYTmk5OWpfM2c4MlVSNXdfcFlNc0xYOWtpaFRqNXg0bzNCZDJ5?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Exame",
-          "url": "https://exame.com/mundo/trump-xi-e-putin-os-4-temas-que-devem-dominar-a-cupula-da-apec/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "SBT News",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUjlIN3NhRHZiTnBMUXF6V1lHUklmb2ZQVzFNVWp6RXZkTUl1TURlYUlfckZWcGVKQUloMmV4NFFNSXJQQUxBUDFNZEoyUkNZelJVX25KbnlvZzBwU1laTnNuVXNSQW1DQ0tEZ21KY0NsRVFFTE5jUWVSR0FoZE5ZTy13SXpaSkJISGE0ZnB1Nm9aUHVRY2hkNUt5U2s?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV210MVRwSzdQNlZpUE5HWENLZm5SRVNKbHNfbFY5RjJwakNxRzh1OEEyTlZ0TVExT01YQWxyOGtzQll2MlBrbXN1NDFGTkdrY2RieWdCb0NIWm45YkFSX2ZMclRHTUNuNDR3U2ItTlRqZnA4ZTVQWWNyOVJnRmFiSUc0clBxalZfd1cxQTgxb09wUkVwY3BLaHhsZmd5VmRFc3dYNmtn?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "CBN",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdlpHak1xMkdTN2dPU3RPbWNtdUlsYm1fRGxHRldfMGRBczFuLWtjdlM3cDA0a3czdkhwVnZJZ0dIN0hJazJEM1VKMFlJZkRWT2lUbEZOV0FIOFpsRjgyWkRReDhnZEtvLWUweUtWMUk0RTd3UlA5N2lvZGFNMFEwRnkwWW1JNktVOVhId2c5bHVCYi1zMks1Q2d3UnowZmdicUpwTFBKUXFiTU9pSUdBR2pRMDZyYTdwQUNEMFhJd9IBzgFBVV95cUxNeG9PNVZDT29VYVYtUTk1akhhX0EyLUE5cUE5T1lRbmh3bU5qRHlZNVdiTUFBV0pIQW1NQm9CZVNDZXZFekpxYWhHOXBUMHNOc3JCXzh1T3EtTzRIRWRxeGxxRlRTbkd1VHJ6a01OT2tYSHdPZ244cExfZURHUVZtOWxkVngtVkxnNVNvdS1pX0pvRXdHdk1Kd3NUeHBoNWFqemdXN0Nqb3pEeE93aGcwZ0NvUkt0cUhzblRucHBnR25qRE5TTnphdnF6dXFqUQ?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio do Povo",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS016a3JOa3lrYTlHaWVUdmI2WjAycjhCc3dsdENiZllldW9IZ012TGlFVzdiSm5LeU5za3dyUEhvcFg3VEFWT2ktOXdodjNWLXVPVmNvaXl4VWRkOWpPUEVfRzZ3MXB4Nk9qWTlyWWlyMzBLSEtNcnZlRVlkZDhpakJZWmU3ZGcyc29TWGN5OElael9SX3l0RXpSM0pjaHUzMVpxOUZzb0oyMWVuVkp2bEpUcll3NzFjUURfWURWb2JZdFZOZ19yaE9NX2RkTElC?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/politica/justica-determina-bloqueio-de-r180-mil-da-meta-por-video-com-ataques-a-erika-hilton/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/17/hospitais-privados-oferecem-vagas-em-cursos-de-medicina-em-2027.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPMlA4eVd1aG5hTmtyc05VRzVrWVlia2lHcDFfbDZVaUJpUGhhNWF0c3NSVWE2LXJnaE5leE9lTWplRkI5Y1FxWkRWZ2pucTBTZ2RVcGhhdFVjRkM0RkNodDN1Y3FfWk43c2dKaUhnRjJLNVhVdnJKWWNoRFVmMkhkNEotMkVzWUs5Y3VOb0RiT29GRHdqVS0ycjNqekRXODI4SkE5RVRtZ0VNRnpJdTBrZlhsTDB6RG14RTJxRkM5MVVfZDRraF81eVdJY2RMZG1IY2FHcTh2aEZKa1ZzRlAtUHh0bWVORHFjNnFBRVpKUW4xTFlPaHFNTEQ5XzA5b2RqY01BTnkyVmI4WE4wQU1rNUJqV1NtRm_SAaYCQVVfeXFMT0QwSGo1Z1hPeFVEREYzWmUwMmtuT25fNUJXZVpYLVg4Q3NmX0Iwa0ZhcWk4dFdnMnc3eVRxeTExdTAyLTl0Y2hqUTRjci1OdUVXRzBfZWRTTnF4UTJWblhFMkowT3otR21LaWJjTi13aVpBNUx2VV83RTA5a2QxVWNQQVQ1YUN5Um9DWmhSd1NMSXRVaEVHMHZsUW4wb1hqUFd0cjMydkNnVUZlcnU3Y1FURzVQc0lMNnVFSDlsMEZWLXdkUVkwb2FwQ2hSb1ZFeGtfUDRNblQ1UVZKbWF3OE13a2xWXzFrME5HX2NWRUNpS2FLNHlRNm9SdU1FRmN3NmhQWlRFQXduVlBfMk1PRjZEMWhyZURWSGZmQUxHallpRTd0d0hR?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Extra",
-          "url": "https://extra.globo.com/esporte/flamengo/noticia/2026/11/flamengo-apresenta-orcamento-para-2027-apos-suspensao-de-patrocinio-da-betano-confira-detalhes.ghtml",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "UOL",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/17/ira-ataca-sistema-de-radar-militar-dos-eua-no-barein-com-drones.htm",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GTVJ0MXRjcmJxVkxUMGYyOFhqZ2hqWEdubmdvWnpJX292M1pqWmxDY2xmQk9vVnhVcy03TVN5VUN1R05vZ1hOXzdUUm9pSm1NY1NYWkg4d01oSUdHSmk3SkhaZ3VKLU8xZ0lFSUdKTDUxaGJySmxWYk56R1FVZw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Poder",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVXdjQUllYV9UWnMza1I5YkhsZHFBb0FDNGh2VHg2TkF6Zk93UFVwY19XSEVTVHlndWFqOFYtUTlFMUNqQmtObEdDMk1HN2QwMkFJUGVmSElUVTZWdnFwRzByUWNONjJ6UVdDZXhoNWNIWGd3SmtPWWVTYjBrUUdUcDRqMTZEWmdJcDFRQzdTWXJqcldOMDc5cmJEZFN2TzVoY2VqeUJRTkpDcXRORUlmcWVPaVM0dzJrQzJpdVdlOWszQS13b19qSNIBzgFBVV95cUxNSEhfTVRycjg2eFcyT1VmdjVWYlhULURUWTNiNnBpUTFva3o4YWhQbVNKLWFXa2JpRXRNWG41bXktZGlaMVdCd3RoSGJXMl93WkwxUF9GNWRtRjBzM0NzTFpZdnU3OVRYT0U4NXp6cUw3VVFNczZRblZEa2puUDF0dkJJQ2NrM2tjcEVhRVhWQm1JVDZlRklRQ3ZsYzZIUDRMZ3F2UFdfdi10Yk8xUEIwa3RscXp0U01SV05lZUF4NVQ0bU9Db1c2UXN0Y1F4QQ?oc=5",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Nordeste",
-          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOdFBVRm16RGtlYkZvZ2VwNUtCalZZSTVySElpMGpQM09MVVRsMC1hZExNQlp6Y3VvMjQ1ZmU5T2hYYURsN1lldFprc1U5OTB5MkRXNjZ0dTBjOUljcjdNMlBJY0RaNGF1VFV3SEVJc05Wd3pRZ29YVXNhQ0Q5TS1XVzU2NTROQnpTZ1NoM0NxZldJbjFXUHpONUp2RDJLajBERlZiU21Jb2h3QmlIM3E1RVhWMWZBSmx2NHh1TkZIeFZFVjB3TUZES3llV2M0ZEo1MWVUUS05aEJxU2pMdm1yT1RfQUZ1bmhqN2hQTlNHeFhESmxzYnkxM0k4cjRXSjRUSlkxcC0tczJmSkQ2Ymc?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "BBC News Brasil",
-          "url": "https://www.bbc.com/portuguese/articles/cklyw32d9n7vo?at_medium=RSS&at_campaign=rss",
-          "camp": "internacional",
-          "position": "editoria"
-        },
-        {
-          "name": "Folha de Londrina",
-          "url": "https://www.folhadelondrina.com.br/esporte/brasil-supera-a-fraca-singapura-com-goleada-historica-3329473e.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "MSN Notícias",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWG9uOW5TOWE2bllIeFRiVEhGclhOVHcyRFVQVTR1dE1PSUc0MEhZaVE5VGFQWEZWWWtUbXBEcXAxbFBScHBQQWd1dWMzRU9CUHlUS0VSemU0VTRoQ1pJMWtWVzJRQ0hVeHV6d1NZX2RHTWJSc0F0VHlxUklaSHMyOW1JejhKaTl2UExpNk9sWTdBcHNLNHVKa3NxVW53Q2YtRkpia09IZ0xJWUsyN2c?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dVZkQzRHBQRmhjdGtuR2pLSzM5enNGRUxwUEJOVWFPZTRfbGYzamlhWno5YXh0aG1kY01WUGdpOTZ3RDROSkltTWE2eUYtRVUzWnE4cUlDOGRtRF9SQk9VcjRHaEtSdWs4OTlJbTdleXFfVVB6dFFOU2p3alhLd1p6NS1BQlBEcGF6eXRTa0dXM2IzNnZBXzF0SjFlYkhfd2Q0dFEyaXZ4LWNVcEllY0NWZHZsX2doWlYxR3V2cC1zVHFnQ2RyeloySDg?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
         {
           "name": "O Dia",
-          "url": "https://odia.ig.com.br/economia/2026/11/7323140-beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-novembro.html",
+          "url": "https://odia.ig.com.br/esporte/2026/11/7323115-joia-do-vasco-brilha-e-brasil-sub-20-goleia-o-peru-por-9-a-0.html",
           "camp": "rio",
           "position": "editoria"
         },
         {
-          "name": "Super Notícia",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObjRlV09QT2l4ai1JX1dWd3JHTXF3djlZUGpMQ3htV2t4WlR6YV9qcElFbm5NZDJ0a1Yzb2ZGSnotTWpVNWctYjRvSHVEQ0JHV2VRTHB0S3hDck9IVWp0X2ZWQUpUemtyRDhnRnNObkRReGU5dGU2ME9pc3hjc1BWeDdxNDVTVGtISHpZclc2bm14cWQyd1BkMW50dlJON1NHU2oxak9RSlNsV0lKeEE3VHBnc1dQczdBc2xQX1JMRGlkUUJxR3dZSndtQ0ZibDNleHBoa3o3aw?oc=5",
-          "camp": "regional",
+          "name": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNU1oMlB4UG9XMk05X3lUSXlzaDFwejVyRUZNQ3l0OE9scEo5ajI5SC0tb2JkVkFxWU5DdExqN29kWDJhNHlNUExoN2RYeXlEcHdWZFoyQTVXUWxLc2VqaHhGRmMzSlJZQ2V6djlYN3c1V1YzSjBnNlc0Rkpid3B0SWFCOU1ydVVhOWZYaFpfRnBFekN5cUFWRDl4d05wdw?oc=5",
+          "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
-          "name": "ICL Notícias",
-          "url": "https://iclnoticias.com.br/economia/alckmin-critica-pressao-do-mercado/",
-          "camp": "esquerda",
+          "name": "CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTWR0Z2NrX2pJY3dFYjFIZ3hCbGxRNndvVm1TZldpUFVBdG1vOWRjQ3NfUFJxeDdIWkdxS1NaQXlwa0NoaDJPUGVUTEVHeUxmQ3FfVnpVS1JfS0FyR3NPWTBXUHNENU5mYUpQX09tQWw2VW1nTEpoZHdhMGxlOUJIaGFoZlR3VFZiR1dsZ1N4MGhoSGNXam1nSDJ6b1pfVUNQQTVocjg3bFM1WG94M0hrWGh1WVlUa0VXdXZzYjctVEktQkxCT3pNb1FzanE?oc=5",
+          "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/marinho-diz-que-decisao-de-moraes-que-barrou-visita-a-bolsonaro-e-intoleravel/",
-          "camp": "direita",
+          "name": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPWVJKcFg0NUFOODB6ZUtNdTQzVkFhMFgzMDN2VGRPdk5vZW1jNnlGcUZta3QxaDl1X0JYTlZrZ3ByemNRQ2JINU1DRW9nNXY3eDQ2NDY2OVEySm1DY1kzNVBLS0NvUmI0SVNfX3pWVXkybFRURlEyWl9ROUxJM2cyTE5TN2tST2d0Y1BLVFYxV2thVnJ3azJGeGtjenBhakZhNXNfTHZORUczTkdua3cxbWJoOXNNWTVibXRCREhYY0Jad09jMmEzMWlVMFJ6MVVWOGVqS2t1YVdzNlI0aE9vNk1uWjFyWHRhMkM1QmJsWWpPS2xMTzRsZlJhQ0hUWVBWQXFvVFVVdmhjOU5EM3NUREkwTEgwYm1STm55enBpaWN6LVVGaEhqSEc4MmlmZW9NU0VFTGRIaUFnaEVsbkl0ZGZhX0RIbGE1MnhJM2x4aW8yQQ?oc=5",
+          "camp": "centro",
           "position": "editoria"
         },
         {
           "name": "Estado de Minas",
-          "url": "https://www.em.com.br/gerais/2026/11/7539705-bh-tera-calor-e-pancadas-de-chuva-nesta-terca-feira-17-11.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "JOTA",
-          "url": "https://www.jota.info/opiniao-e-analise/artigos/uma-eleicao-presidencial-tambem-se-decide-nos-algoritmos",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "DW Brasil",
-          "url": "https://www.dw.com/pt-br/o-que-putin-exige-da-otan-e-da-europa/a-79964253?maca=bra-rss-br-all-1030-xml-mrss",
-          "camp": "internacional",
-          "position": "editoria"
-        },
-        {
-          "name": "O Antagonista",
-          "url": "https://oantagonista.com.br/ladooa/entretenimento/satelite-do-tamanho-de-uma-caixa-de-sapatos-consegue-enviar-sinal-a-laser-direto-para-a-terra/",
-          "camp": "centro-direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Pleno.News",
-          "url": "https://pleno.news/opiniao/eduardo-baldaci/o-problema-das-conspiracoes.html",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Jornal do Commercio",
-          "url": "https://jc.uol.com.br/colunas/blog-dellas/2026/11/17/deputado-federal-eleito-jones-manoel-psol-e-atacado-por-janones-e-por-membros-do-exercito-de-lula.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Tribuna do Norte",
-          "url": "https://tribunadonorte.com.br/natal/natal-em-natal-2026-comeca-nesta-quinta-feira-no-polo-natalino-da-zona-norte/",
+          "url": "https://www.em.com.br/colunistas/filosofia-explicadinha/2026/11/7539680-a-vida-tambem-se-devora.html",
           "camp": "regional",
           "position": "editoria"
         }
@@ -367,79 +91,10 @@
       }
     },
     {
-      "id": "ancelotti-atacar-fala-peso-poder-romario",
+      "id": "vini-ano-goleia-amistoso-ultimo-trick-singapura-hat",
       "segment": "esportes",
-      "title": "Romário volta a criticar Ancelotti e Brasil goleia Singapura por 7 a 0",
-      "summary": "Romário volta a atacar trabalho de Ancelotti na seleção e diz ter 'tamanho, peso e poder de fala'. Brasil atropela Singapura e vence por 7 a 0 em amistoso na Ásia. Vini Jr. Auxiliar de Ancelotti detalha planos da Seleção para 2027.",
-      "scores": {
-        "cobertura": 9.3,
-        "destaque": 6,
-        "persistencia": 7,
-        "peso_voce": 10
-      },
-      "score": 8.2,
-      "outlets": [
-        {
-          "name": "Correio do Povo",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY0U0Mlo1Rk0tdDR5UmdwNDRocHRNU1JzOW1Qb08tWUFDSk1tM3VpdHNQOFBLeGl0VTd0VE55aUpjdkpTVTZmLXpQMzR2bF9LaTNnREpHQk1UY2hRQmRCQnVjSlljaFFRQmpHZVlMN01GOGVQNVJvaS0zXzRTbjc2ZTBhSXVyRGF5SUh0SDZVMWMwMER3UUVCYUNmSU5qREYwaVNScDlEV21QZzVKNWNDRl9NRFlVUTdpNmNDRXZmcWRHRXM0WXA2Y1BHU044UQ?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "ND Mais",
-          "url": "https://ndmais.com.br/futebol/selecao-brasileira-atropela-singapura-7-a-0-em-meio-polemica-romario-ancelotti/",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVHprWE1fM0tldXM4VmlZOW5BSjY2Sm9NeUYyZlhfV0ZGa01JU0lEcl9jX3I4X2laRjhMWXZuSVhDRFE2ZERQYUVPS0E5X2JwajRfR0M4RjFmR2lLQXZ1TWJES183cjlSYks2aU9fMW1SanNBMjJqYXBrZ3VhZ0ZvSjlBaDBNeFBDUngzM0JEcGRJOWdnZHF3alZOYXBsOUNPTUlTX3lDOVdVOURzMGJ6ckNELWFnQWlaZ0ZGZ2k0QkhFbWNkVHZpcnVjUmtvODYxRGNwTS1vdXhQeUVLZElSRl9iTm4xX2s?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "Gazeta de Alagoas",
-          "url": "https://www.gazetaweb.com/noticias/esportes/internacional/com-hat-trick-de-vini-jr-selecao-brasileira-vence-singapura-por-7-x-0-949760",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS0RzNkpVQUtMb3NiLXFMRG4xTFlSejhDUFBqS2JQbDU2NjhlM0VHZVlvMUJTbFVVUnM5ODdmSUJ5RnUtX2VneWE0aUtWdFU1OVY3RnhKWlZYek9zR2dycFBqdGJ2bTZtX29sbVRCMXNQeEpHbG44VzRSSkdQbHBURGhYazRzSXo2N2UyaWFyd2E0SG8wR0I4TDA3Y2ZMZHlIeUJyNnM3VnRHdG1XR1FEOEhkU3hBTW1KTHNYYUczczJOMnNfSm0wTGthRmJ6S0JP0gHWAUFVX3lxTE1qN3Brcl9KMWVnQWFldzdiWlo0T25SUVV5Z2RDMHpTNUtlQ01NSGlNUDh2ZGl3d3N6MUwxaDVoUnVZOUVPSFZTX1N3YUpaVXdhR3BsTnNVZ3NQZi1GcTFnVTdvMDdTNHNqQjNQTm8ybVM5TEZjSW9JVzVoTzFTRXp6M25rX3hkVWZoaGRKeDRmQ2p5anlsb0J4TVQ2RG5zZHRrMk1iTk1GaWZNWVZfMnAyOTJQVlZ1WXNTdzFvMEcyYURwby1JYXVtXzRVUlY0d0NhdXc5NlE?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Terra",
-          "url": "https://www.terra.com.br/esportes/brasil/auxiliar-de-ancelotti-detalha-planos-da-selecao-para-2027,82fccace1265f7d38aa7acb5bfe76e2ef903g2xe.html",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/esportes/futebol/futebol-internacional/brasil-goleia-singapura-por-7-a-0-e-encerra-temporada-de-2026/",
-          "camp": "direita",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNEV3eVYxMUF1SGtQOE9nTXBfY01SS01Fa01HMDVlM1JfbkI0NzJWZnZqOFphY2RFaVVKUTlfSU9mT2NzTGs4M25uX3I2dVlXS0ExSGZEVF9McG5YYXAtYnludk1pVlFGWmJrSUE2NUFqVXlGdTFUNWxfbzlSZlRlaWRsaWdUVDdMRk5iNkdwMXJGaWRHUk5MVkFTUDlwVUZwdE9wb2Z1MXg2Y1Z2NGNXbnhJc0lhTVU3c3JQNjA4dTlKeVRC0gHKAUFVX3lxTE1BOWhfZ1Y0VFNQWnlVSXR0S0ViX2xXb2ZtTEVRTVVjVW1XUEFNVm9BWUtDQXRfZnJfMW9ZcHQzLVd1TGlkOXYxNEZ4cmQ5SHBDY3dOaUVlMDNRQXBkdW85S1lHZHgxUEo3NkxpS2hqS1lJcDliNFRPUTZKc2toVS1MUHQweGlKQ05iaTIxSXBvYmJBUUpxZGNXamdXUEYxUjB6TnV1ZEFDRWJoZTVQbjVqa3VReEtxZ3M5MkJzUzBrNGZlUS0xM1Vvbnc?oc=5",
-          "camp": "centro",
-          "position": "editoria",
-          "via": "coleta"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "trick-2026-goleada-hat-singapura-vini-encerra-faz",
-      "segment": "esportes",
-      "title": "Vini Jr. faz hat-trick e Brasil encerra 2026 com goleada sobre Singapura",
-      "summary": "Vinícius Jr marca três vezes em goleada do Brasil sobre Cingapura por 7 x 0. Globo tem problema de sinal e perde gol de Vinicius Jr. em jogo da Seleção. Vini Jr faz hat-trick e Brasil encerra 2026 com 7 a 0 sobre Singapura. Vini Jr. festeja 'batismo' contra Singapura: 'Minha primeira vez'.",
+      "title": "Brasil goleia Singapura por 7 a 0 com hat-trick de Vini Jr. no último amistoso do ano",
+      "summary": "Com hat-trick de Vini Jr. , Brasil goleia Singapura por 7 a 0 no último amistoso do ano. Vini Jr. faz seu primeiro hat-trick pela Seleção Brasileira. Globo tem problema de sinal e perde gol de Vinicius Jr. em jogo da Seleção. Brasil encerra temporada com goleada de 7 a 0 sobre Singapura. Vini Jr. festeja 'batismo' contra Singapura: 'Minha primeira vez'.",
       "scores": {
         "cobertura": 10,
         "destaque": 8,
@@ -448,18 +103,6 @@
       },
       "score": 8.3,
       "outlets": [
-        {
-          "name": "Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMzlFOWViYnhKTzRWSDczMXNpekp3LTZxSXdXUXVxMm1GeGVrX0Nub2R4MC1QY1B4eXRlZWZIc2F0QmhQZEpwbG9BR0hOR2NUYVc2MDM4TjJsYkdJWnY0WGZPeUVJcUtfYXRyYnJXTm13QllORGZHUmd4eXF1UG5QUFdQT0F3dnZFbkYzZkozMkNwSkp0TGpvbHN5eHBLdjBsUnBaRTN1d1VZQjY4TkJUa3N0Vnhsak9ieTF2WkZNV2ZIc1pRUW5ZV051dw?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWXRxV3B2RmtsZmRpZFRONkVhOEdRMXBLbE5mbGc3S1RSRHhVR00xQkxyVV9sQi11Zk5IMm5lbzdNS3J0N1dkNDRvQnk2M3FISk84dGdYMmxPQ0dVeVZPd1lqOU43bmxvcjZabHp0NW1XdXVOZ2JvM2tOdnFlM3FxakhOMEdENzBjOC1vZF96b2t6THRPQ3llRGZwMjVGcUlOQ1oycDhFS2QzdWNwdmFDY2o5Q3ZhMTJ1dlcyUHJSLUhlYmhKRlRXWlMxZXNOeER2TG9qaTFxUmpKRGJzY3ZGWi11RmtzOXF1bUZFNA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
         {
           "name": "Terra",
           "url": "https://www.terra.com.br/esportes/futebol/vini-jr-faz-hat-trick-pela-selecao-e-festeja-batismo-contra-singapura-minha-primeira-vez,d3fa56564e9728d963987ca1fb3280859h266xla.html",
@@ -467,9 +110,9 @@
           "position": "editoria"
         },
         {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMEVQRzlJUFRvcHNBY0ZXX0RmcHdXMXdibmFQRE0yQ1lLN0Q3X3pmTUcyS25vMEI5TmtwVzM2b1FlMkltcVNnYVdkWUdxTXBUVXdiOGpQQWRqWEtDOFVsd2d4RnFKMnpDazlfaHMzZWlBczZ6d0s1YVZmaFhhSmVNSkprTG9LYnh1TGl5Vjg4dERiOUFENDhiYjMtZlUtQXF2X1BYUHh0YU9COGRiVHQ1TmhaN0pSRnE4OTQ0UzFnS1JiQ2ZwR2pKZWIwczNIR3c4dGQtenlR?oc=5",
-          "camp": "centro",
+          "name": "Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMzlFOWViYnhKTzRWSDczMXNpekp3LTZxSXdXUXVxMm1GeGVrX0Nub2R4MC1QY1B4eXRlZWZIc2F0QmhQZEpwbG9BR0hOR2NUYVc2MDM4TjJsYkdJWnY0WGZPeUVJcUtfYXRyYnJXTm13QllORGZHUmd4eXF1UG5QUFdQT0F3dnZFbkYzZkozMkNwSkp0TGpvbHN5eHBLdjBsUnBaRTN1d1VZQjY4TkJUa3N0Vnhsak9ieTF2WkZNV2ZIc1pRUW5ZV051dw?oc=5",
+          "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
@@ -479,11 +122,58 @@
           "position": "editoria"
         },
         {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/esportes/selecao-brasileira/noticia/2026/11/17/com-sete-mudancas-brasil-enfrenta-cingapura-em-ultimo-amistoso-do-ano-veja-escalacoes.ghtml",
+          "name": "Pleno.News",
+          "url": "https://pleno.news/opiniao/eduardo-baldaci/o-problema-das-conspiracoes.html",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/vini-jr-faz-hat-trick-e-brasil-encerra-2026-com-7-a-0-sobre-singapura/",
           "camp": "centro",
-          "position": "editoria",
-          "via": "coleta"
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/brasil-se-despede-de-2026-com-goleada-tranquila-7-0-sobre-singapura.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWE5BZmZTdDEwdUpLTFpyTFlIcUNuemNBZXpvTlB1TXRXdm1rMmVZTVh3ekRkS1hSVDFXZVh3SGtRSFF4b3hpVUhVd3J4b09lYmltLS1qcVhDWExUdFlnaE9taEo0TkNMeEhDcjF5NFBzanVKSkdQWEM5QkxEa1BYZW5QQkMtd2ZJcTNqV3VuVmN0QVlOVy1CaTJkb1dtYTVGQnNwN1VaNnV5S2RyZlo3VnVBRVBTVHZNdjJMR2RZTHFOZmpiMG5taXFoMA?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMTdBZ0ZBbVk3MUtYdVd5a3cxZ0FSTV9zdWdtNldNWkpBXzVoOXJXXzRnZkJ0dDRwM2U4VzhfYzRBWFdtTFRETmZvQS0wd1VxQ2xtSWJsZ1dKNG1DT2tjSHV2Tl9YMnN3N1ZxNXZ5ZmtyS1kzbUJ1QTc5Q1JyakxQRmpJS205elRraHZBcUtqT1QwZERXQ0NpX0VMM3k3bGtnNlZJaTB2MF91d2w0UDA0TGdVZDJoNmM1aGJKb1VSSGg0T1NHTXZfU3paLVByR3pncGI0ay1VUGVabDB2YVN6VUk4TmUwcGljX0ROa20tcWJiWG56V0HSAYQCQVVfeXFMUFFXUTNXRkhLTEYyNWVXTFRsYmNESHRWVDk4RVZCdUtCUEVIY3o1YjNUamNxWDVZVHlKMGg5bDNLTVc2VmVWcmZvaHMtczFwbG4zM2phYzFZRWNvV0lEek1QVE1kOTJTRGZUUzViUU1WenJNaWRObk9HS2pPc3ZhZlNZSFpmUWdqZWFrSE4zaDlCNkRmeFFkSERIZktPVkR6QllPdlFnVHFBb1JMYlNBb25TRWNUZzBLRkczVDRwR2FkVzE0VDFuTmpFbEl1d1FqdENxd0ZuUVZMdU9CaGhJeEV6amItUzR4cGJqem41d1F5WnBQZXdBLWZ0SkNQSk14YWN1ajE?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQcEJJaEt4TFNfaW5vbExhUG9QMzdiZzl5WU9QQnhwakdsU0dwODBuSEhEcURILUIwYnY2cnFJaU1HZms2Y1ZFeTBXM0hZSXpKXzAzZVJIVVduM2locFZGamFGQ2JWUXBEa0NySk9EOFljYldUT3FKdWhnc1BaOXpTWnlkWmtDXzBlbU13cjhzMlJkTjhZUUZHa0N3U3kzTTVnSFBPdzVpYWo1N1VsdVFBYzRpRjBEajVTMGhYTXBlOHlTOUx6UDA2Z3REdXNqY2Q4Xzg5UnlrbDlBcVFBZUE3aTllelk2Z3RESHcwSG5XMVV6anc2WnVDTjQxUDBjUmdzSmhualo5OA?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWXRxV3B2RmtsZmRpZFRONkVhOEdRMXBLbE5mbGc3S1RSRHhVR00xQkxyVV9sQi11Zk5IMm5lbzdNS3J0N1dkNDRvQnk2M3FISk84dGdYMmxPQ0dVeVZPd1lqOU43bmxvcjZabHp0NW1XdXVOZ2JvM2tOdnFlM3FxakhOMEdENzBjOC1vZF96b2t6THRPQ3llRGZwMjVGcUlOQ1oycDhFS2QzdWNwdmFDY2o5Q3ZhMTJ1dlcyUHJSLUhlYmhKRlRXWlMxZXNOeER2TG9qaTFxUmpKRGJzY3ZGWi11RmtzOXF1bUZFNA?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNEV3eVYxMUF1SGtQOE9nTXBfY01SS01Fa01HMDVlM1JfbkI0NzJWZnZqOFphY2RFaVVKUTlfSU9mT2NzTGs4M25uX3I2dVlXS0ExSGZEVF9McG5YYXAtYnludk1pVlFGWmJrSUE2NUFqVXlGdTFUNWxfbzlSZlRlaWRsaWdUVDdMRk5iNkdwMXJGaWRHUk5MVkFTUDlwVUZwdE9wb2Z1MXg2Y1Z2NGNXbnhJc0lhTVU3c3JQNjA4dTlKeVRC0gHKAUFVX3lxTE1BOWhfZ1Y0VFNQWnlVSXR0S0ViX2xXb2ZtTEVRTVVjVW1XUEFNVm9BWUtDQXRfZnJfMW9ZcHQzLVd1TGlkOXYxNEZ4cmQ5SHBDY3dOaUVlMDNRQXBkdW85S1lHZHgxUEo3NkxpS2hqS1lJcDliNFRPUTZKc2toVS1MUHQweGlKQ05iaTIxSXBvYmJBUUpxZGNXamdXUEYxUjB6TnV1ZEFDRWJoZTVQbjVqa3VReEtxZ3M5MkJzUzBrNGZlUS0xM1Vvbnc?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/esporte/selecao-brasileira/noticia/2026/11/com-hat-trick-de-vini-jr-brasil-goleia-cingapura-por-7-a-0-no-ultimo-amistoso-do-ano.ghtml",
+          "camp": "rio",
+          "position": "editoria"
         },
         {
           "name": "Jovem Pan",
@@ -494,15 +184,8 @@
         },
         {
           "name": "O Dia",
-          "url": "https://odia.ig.com.br/esporte/2026/11/7323133-vini-jr-celebra-goleada-sobre-singapura-conseguimos-jogar-bem.html",
+          "url": "https://odia.ig.com.br/esporte/2026/11/7323110-com-tres-de-vini-jr-brasil-atropela-singapura-em-ultimo-jogo-do-ano.html",
           "camp": "rio",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNEV3eVYxMUF1SGtQOE9nTXBfY01SS01Fa01HMDVlM1JfbkI0NzJWZnZqOFphY2RFaVVKUTlfSU9mT2NzTGs4M25uX3I2dVlXS0ExSGZEVF9McG5YYXAtYnludk1pVlFGWmJrSUE2NUFqVXlGdTFUNWxfbzlSZlRlaWRsaWdUVDdMRk5iNkdwMXJGaWRHUk5MVkFTUDlwVUZwdE9wb2Z1MXg2Y1Z2NGNXbnhJc0lhTVU3c3JQNjA4dTlKeVRC0gHKAUFVX3lxTE1BOWhfZ1Y0VFNQWnlVSXR0S0ViX2xXb2ZtTEVRTVVjVW1XUEFNVm9BWUtDQXRfZnJfMW9ZcHQzLVd1TGlkOXYxNEZ4cmQ5SHBDY3dOaUVlMDNRQXBkdW85S1lHZHgxUEo3NkxpS2hqS1lJcDliNFRPUTZKc2toVS1MUHQweGlKQ05iaTIxSXBvYmJBUUpxZGNXamdXUEYxUjB6TnV1ZEFDRWJoZTVQbjVqa3VReEtxZ3M5MkJzUzBrNGZlUS0xM1Vvbnc?oc=5",
-          "camp": "centro",
           "position": "editoria",
           "via": "coleta"
         },
@@ -514,15 +197,8 @@
           "via": "coleta"
         },
         {
-          "name": "Diário do Nordeste",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa0VweUs5TkVXbk9LSnYtaHRqRzJrcXE4TkdvZ2NqMGR6YWVDdDFONjZHXzUxTzZ2bkxxYUk4MDlDUXh1RlY5a2N6aUlUeXYtT2VUUm9WSThQemRhR1RIWktvOFhnS0U3cXVMaldNczU0TWx3enlVQ21CRl9zc0lHNU5ubGJRWkp6QWxsMXFNTm9yb2NIMVJmdEhLSDRJZzhGc2toNmNsQkdQUlRVa2FNRw?oc=5",
-          "camp": "regional",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/brasil-se-despede-de-2026-com-goleada-tranquila-7-0-sobre-singapura.html",
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY0U0Mlo1Rk0tdDR5UmdwNDRocHRNU1JzOW1Qb08tWUFDSk1tM3VpdHNQOFBLeGl0VTd0VE55aUpjdkpTVTZmLXpQMzR2bF9LaTNnREpHQk1UY2hRQmRCQnVjSlljaFFRQmpHZVlMN01GOGVQNVJvaS0zXzRTbjc2ZTBhSXVyRGF5SUh0SDZVMWMwMER3UUVCYUNmSU5qREYwaVNScDlEV21QZzVKNWNDRl9NRFlVUTdpNmNDRXZmcWRHRXM0WXA2Y1BHU044UQ?oc=5",
           "camp": "regional",
           "position": "editoria",
           "via": "coleta"
@@ -533,69 +209,6 @@
           "camp": "regional",
           "position": "editoria",
           "via": "coleta"
-        },
-        {
-          "name": "Diário de Pernambuco",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWU5WUTZ6N1dtSDFzYjVYbkhRaHpOOFB1YkxBYWFZODh3dUI1UzZNVndybFdLenBrSGVlcW5SMEtIdmhSelcyeFQydWxlUUxTY2t3MjB3YjVRN1ZwSlgwRXVDcFJkTmtvVV9IT3RFQmthR3BuTGN6bnV2bG04Vmh4aGNHal9HckJpZmN0Vm9GUkprX1FOeng3TUc3VktPRTd5NnB3X2NVYURRYU9zVVFDbnVJNG1ZNWlVM1NNYVlwZ04tS1RXYXdUN2hhRlpyRzNIaElSWXB6SU9NR0JWd2JfQVJNTmNYM2pMczFMOE05WHZPN0pBT01kOUxIWWl5STZ6QkM3V0dUc9IBjAJBVV95cUxONWl3MkJZNVM1X3Jjb3pQNmhkSFc3dU9YU1hsUXFjS29DaGx2Smt2YnQ3SE1kLWlkdWJDSVpqb2UxX0lqVktJTnpMcTlNNzFLeUlKd1czWEs1b29nZnJxZUNvbFcwTFZ1ckVraTNQbW5Xa1dVTWpmM0hiWXNqYW44dm9hQVVWN3FoMGJFWGYwVkZlZTA2NDh0QWFxQVdHMUJ5bGhHajU2bmFJNmUxRHJiSWg3TVZBZmVhQWhqSWlJeGdveXJCTHBlQWVFZTRGUzhzbHgwVVhyZmNNXzQ5LUdhSDFXY3ZCV05KUkdiZ2puZzllbm5CUy1nb0RhQ09PejI1MzBmSEhtNTBnbUpV?oc=5",
-          "camp": "regional",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "Tribuna do Norte",
-          "url": "https://tribunadonorte.com.br/esportes/com-hat-trick-de-vini-jr-brasil-goleia-singapura-e-fecha-ano-com-vitoria/",
-          "camp": "regional",
-          "position": "editoria",
-          "via": "coleta"
-        }
-      ],
-      "asymmetry": {
-        "flag": true,
-        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, UOL) e não apareceu nos portais de direita da coleta."
-      }
-    },
-    {
-      "id": "episodio-reabilitacao-relembra-ilha-rafael-clinica",
-      "segment": "politica",
-      "title": "Rafael Ilha relembra episódio em clínica de reabilitação",
-      "summary": "Rafael Ilha lembra episódio em que engoliu pilha para tentar fugir de clínica de reabilitação. Ele afirma: 'Me irrita as pessoas não saberem o outro lado da história'.",
-      "scores": {
-        "cobertura": 7.0,
-        "destaque": 6,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 5.3,
-      "outlets": [
-        {
-          "name": "Exame",
-          "url": "https://exame.com/esporte/maior-pipocada-da-historia-clube-desperdica-vantagem-de-12-pontos-e-perde-campeonato/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQdGNhYlhkcHE2SW5BLTNtdFlCRTViemxOMzR3d2U2bVVlVE1BdW1RZXNmVUZBN2xvekdMTkg3YTBMQ3MxejN0eFcyWktfWnpBSkxCVXVXTzhwRUIzWnM0enh5QU45dUhVM0NhcjhTYjJPRm40bmZhLUwyaGNGeXR6bEgtTVZzOF92ZTg4UVFIWGZEN1J0RnZKdXhZcG1ZOUVrRW1RMTFzdGZjWVFXaEFpMnVXXzJ0dmJCNWd0dWZ6em5OZmp1YzBIRFpuUkkzRVFVZmhybTRzSW9mS2JkaExBN1gwTHMyR1ZiWmVaQThtZ0ZJeUFUWmZyN1JfaWlGaWhfeU5iQWNaTzNseXUybVd6N2syZ2lOdkk?oc=5",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/play/series/noticia/2026/11/17/rafael-ilha-lembra-episodio-em-que-engoliu-pilha-para-tentar-fugir-de-clinica-de-reabilitacao.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio (Bahia)",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWDZjVUkzREFpVF96LXRnT2hUd1VBZFdXX3Jpc1lrOHRya1ZLc1d0X3JQRlVDZXNUOGZUazM0cThyOU4yWV9IdlVpa1cyVkpEcF8yRzYwZlVlekNkSi1HWDZDcjd5cW9lQ19xeVp0UVFxYTNNeFRJaWJiVTZXXzZuMVVfc2JhbkQxUmZEc20zR05pM0hvdmhYQUZEam1zREFkbzRIZURid2VGbC1TbjhDd2JabGo2TWhaV2JIODVhVXIzQk9GR1ltakU5aw?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Portal iG",
-          "url": "https://ultimosegundo.ig.com.br/brasil/rj/2026-11-17/ilha-de-brocoio--o-palacio-esquecido-no-meio-da-baia-de-guanabara.html",
-          "camp": "centro",
-          "position": "editoria"
         }
       ],
       "asymmetry": {
@@ -604,17 +217,60 @@
       }
     },
     {
-      "id": "situacoes-casos-encontrados-investiga-policia-diferentes-cor",
+      "id": "criticas-meta-180-justica-nao-hilton-mil-erika",
+      "segment": "politica",
+      "title": "Justiça bloqueia R$ 180 mil da Meta por não excluir vídeo com críticas a Erika Hilton",
+      "summary": "Justiça determina bloqueio de R$ 180 mil da Meta por não apagar vídeo com ataques a Erika Hilton.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.6,
+      "outlets": [
+        {
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc0RjWUs0NVNyRnJmM0xCbkh4dGE5Q2RaeTZabFkzVmZkSGJGd2N1S0RlTUdqd1lBbUlUMUVLM01hMEw4TzFad0ZDNFk3MjBHc3FGOTV4SEFPZ254V01nVDh2T3pYOHczSm0xWFRjdkw3RGtLTHVLVmxXLVJDX01nX05XQWhfWmZjRVdHNTJEU2tUcGdPdjRJdEZMYVlHTVlIdTE4VU9lVnlqS3ZQcVE0ZmpEQ2ZGLVJBNjJGVHdzeElpV2RJZnNOQXBKQzI5X1nSAdQBQVVfeXFMT3IwSE43YnJsMndLQ1VIUVE0b0lyZ0dnVFNnQTFJWENCdDRtdWhxTG5odjBPcGh3eWZuOVdVazRmaGktUkdhRUdOSXRtT0xuRkhHSU9ybVVnUlRMUUd1OWhqblZBaVRieGF5UVM5MU1sQVM5OGFJdElLc0hzYTZ3QWNxQ2FPaFBCYWNSVFNVblJtYTBQUVFRQTJaWk5abDFRM2l2X05kRkpNZUVheXY0N3R3YloyUlNvcHNyUm9yQWpDQmQ2UHRiV1FaLTNxanhuUnhlUXo?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcUNUSW9iWTFxZUZFQWVicXFuXzBEOHJBRWxWazBvWUw0bnl3QklDSnItRUpadFBzQ1BoUkdLUWtTQXZJQ2J3UjhlakQtY0dFSjlJcm5JODJsOTVzZ2FZSk4yX3c3QnFrTDRBUDRUS2Y0ckxCS2ktZFpXLWU3MUZuS01wd3h3a25ldUJaazJfd2xlMXVaNy1qQUctMUNLNnhzY1YtODVTYjFFN3NLbzNnNzV4SEZDZzU3NWpZMkRpRmNBR0RJR0JSc1ZWWmRmZXV6clZrbDJ6RmNrcGRHUlhv?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/justica-bloqueia-r-180-mil-da-meta-por-nao-excluir-video-com-criticas-a-erika-hilton/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/justica-determina-bloqueio-de-r180-mil-da-meta-por-video-com-ataques-a-erika-hilton/",
+          "camp": "direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na direita (Gazeta do Povo, Jovem Pan) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
+      }
+    },
+    {
+      "id": "encontrado-corpo-apura-desaparecimentos-policia-relacao-cova",
       "segment": "seguranca",
-      "title": "Polícia investiga casos de corpos encontrados em diferentes situações",
-      "summary": "Corpo de cavalo que disputou corrida na Austrália é encontrado em caçamba de lixo após eutanásia. Polícia apura relação entre corpo encontrado em cova no Trapiche e desaparecimentos.",
+      "title": "Polícia apura relação entre corpo encontrado em cova e desaparecimentos",
+      "summary": "Polícia apura relação entre corpo encontrado em cova no Trapiche e desaparecimentos. Corpo de cavalo que disputou tradicional corrida na Austrália é encontrado em caçamba de lixo após eutanásia.",
       "scores": {
         "cobertura": 3.5,
         "destaque": 5,
         "persistencia": 4,
-        "peso_voce": 6
+        "peso_voce": 10
       },
-      "score": 4.5,
+      "score": 5.5,
       "outlets": [
         {
           "name": "Gazeta de Alagoas",
@@ -635,157 +291,27 @@
       }
     },
     {
-      "id": "vencem-ano-elisa-prime-time-2026-veeck-premio",
-      "segment": "politica",
-      "title": "CNN Prime Time e Elisa Veeck vencem prêmio Melhores do Ano NaTelinha 2026",
-      "summary": "CNN Prime Time e Elisa Veeck vencem prêmio Melhores do Ano NaTelinha 2026.",
-      "scores": {
-        "cobertura": 5.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 4.4,
-      "outlets": [
-        {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPenQyZlI0bnVybXdqQ1FzMmVSRWtVOWx2NExnRkdFeEdRZjVDR1dkTG9xTHBhUVpnRWRoazhiemFxR0NrVmRLNEQzQzNpdEtCdmxtdXFpYUptV0NkbFU0NGZDRHROblZLYTl3YnU0VUU0eUhuY1oyX0IyNlhKV19tN2NuWFlGX0VjREY4Q09hZmpreDBQQnc?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Nordeste",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTFmLTFlNDBUTVdDMWlBMFQ5UllLVEdHSk1BMWp1R19xN2dqSXZ5eHd5OHlEclFoLThmTS1Yc2pmM2ppLUF5cGpINGZrTlNwVS1oTDFZaU9mMGYtdTZNUEpTOE5DMkMzY2FRTEFwSU11UXh4RGpkYlplUk9tTklkNjBzanhWQ1VNblZQVXRQVjZBOFZCa0s2b1g1UDdSZ3dTYjNBaFJaYXpWdEMwSDlzVVY1UVJhQlUtVVp5QnFwbzUweEM1LUoyeFVn?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/pop/tv/cnn-prime-time-e-elisa-veeck-vencem-premio-melhores-do-ano-natelinha-2026/",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "termino-charlotte-anteriores-fala-xama-confirma-sophie-relac",
-      "segment": "politica",
-      "title": "Xamã confirma término com Sophie Charlotte e fala sobre relacionamentos anteriores",
-      "summary": "Xamã confirma término com Sophie Charlotte. O cantor relembra ficadas com Luísa Sonza e Agnes Nunes. Xamã revela já ter ficado com Luisa Sonza e Agnes Nunes.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 6,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 4.1,
-      "outlets": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/pop/celebridades/xama-revela-ja-ter-ficado-com-luisa-sonza-e-agnes-nunes/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://f5.folha.uol.com.br/celebridades/2026/11/xama-confirma-termino-com-sophie-charlotte-e-relembra-ficadas-com-luisa-sonza-e-agnes-nunes.shtml",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "pereque-milhoes-lagom-vgv-lanca-700",
-      "segment": "economia",
-      "title": "Lagom Perequê lança mais R$700 milhões em VGV",
-      "summary": "Lagom Perequê lança mais R$700 milhões em VGV.",
+      "id": "renegociacao-rio-descontos-sanciona-leis-dividas-ate",
+      "segment": "rio",
+      "title": "Governo do Rio sanciona leis para renegociação de dívidas com descontos de até 70%",
+      "summary": "Governo do Rio sanciona leis que permitem renegociar dívidas com descontos de até 70%.",
       "scores": {
         "cobertura": 3.5,
         "destaque": 5,
         "persistencia": 4,
-        "peso_voce": 3
+        "peso_voce": 10
       },
-      "score": 3.9,
-      "outlets": [
-        {
-          "name": "Valor Econômico",
-          "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/11/17/lagom-pereque-lanca-mais-r700-mi-em-vgv-1.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/patrocinado/dino/noticia/2026/11/17/lagom-pereque-lanca-mais-r700-mi-em-vgv-1.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "bioestimulador-dermatologista-usos-colageno",
-      "segment": "ciencia",
-      "title": "Dermatologista aponta 4 usos do bioestimulador de colágeno",
-      "summary": "Dermatologista aponta 4 usos do bioestimulador de colágeno.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 3.9,
+      "score": 5.5,
       "outlets": [
         {
           "name": "O Globo",
-          "url": "https://oglobo.globo.com/patrocinado/dino/noticia/2026/11/17/dermatologista-aponta-4-usos-do-bioestimulador-de-colageno-1.ghtml",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRnZZNGh0VDEyZTAwdy1lT3FDb25WWnoySmdkb3pKRG1XQnZ0cnY5ejhmUmtpSVpMZ2oybnM0alJheWFSalZwZmxqamtOUXhQeGlYd25XQVNXdk5Wcmh3QjVhcW5kbnVFb2Z3eTlwOGZoMEJjSF84YkdhMmtDSXJFWEVaOS1vcms4eGpZYUpvTjRsQjAwTDdTUnZ1SXNMbXV2TnE4aUpEczlZMFY0aXRzUGFiLURUbXJVRU9QcVRJVUxEa0tUZFJoVFVVeFd5LXphclhHSW1oTlNTUzhOTFQyazREZmJGNldkTUtfd1dJWFJBNnFXamRmbDhYaEhzU2JX0gGPAkFVX3lxTFBNRFEyMmFhTDFzdnY3Y042SHRUODdVTVQ0TG9pbDh3U05vcHNrZUlsWEVYeVR2VGZ3UHdwTnBROXZ5dS1aVjVvNUdPYjd1WUNWTFZOVmtlaHdsTE4wc2VCcU9VUE5nUzY0YjVIeGhRRWhORm1RV1otS0pGS3F5M0JlQy1PZzFCTzFTZDNqVWxRdVZ6Wlp6RkhuVXo5d011TzB0cHdIaFBFbGVnd0RTRk1CVTJCakd1M19Xbk5tclNEeFRNXy1jbjR5cUxMYWQtZUFBdUZzTEZWRU1WTmhCUF84a2E3djYxUHlKVzBienB5eVI4R0REcnRYelgxbHpRcnFQclpucklCSkdvQVJZejA?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Valor Econômico",
-          "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/11/17/dermatologista-aponta-4-usos-do-bioestimulador-de-colageno-1.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "rio-rocha-festa-luxuosa-poliana-comemora-anos",
-      "segment": "politica",
-      "title": "Poliana Rocha comemora 50 anos com festa luxuosa no Rio",
-      "summary": "Poliana Rocha comemora 50 anos com festa luxuosa. O motivo da proibição foi revelado.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 4,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 3.6,
-      "outlets": [
-        {
-          "name": "Super Notícia",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRWxNVm4tQmQ2TVhwZzloZ05SRE5PVl9kQ0EtMXRQMXBBaXU2TnZhU2pEMXN0NjhETm1YVFFXd0dvWG94aTFIZTFuT0VWM1E0dmszWVpGaW5SMzdUdjJGbjc3WUQ3RkU1TFZ5ZEwwNUFFZDJVa3RrbmNPWXQ3T183a3U0dmgtNUIxQmRpNGlNZkg1Q0lPZFhfNmRpdGpCUEhITW1BZC1femdzN044ajdMLUtVQ2FNamdQbG9WNThlSmsxQ3NYMnhvMWYxNkNvV2d6RXRrMXU3WmdlUWxfNGlLSWg4NER5WFVNWnc?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/diversao/celebridades/2026/11/7323118-poliana-rocha-comemora-50-anos-com-festa-luxuosa.html",
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQThMQjJlMlVXWUJXb2JfVDZVc1R4ZE00Tnl5bFhfaFBzbjZGZXU4Nk1Ya1BYcnBhS3d4TVVOVDJyVW90eEc5bjRfWV9oRXAyQzZoQ3h6S1NpNVkySWRpWVJVeWg3bUI5bVowN1VuU3BBczlRdFF2U1ZxclRZWDZ0ME9FeHV0cnE5WkpSWXhHWmRya0daM2pqcF9uaEp3RFJ3UXM2X0FpWXNqSG9uV2d5Y0FvVERraEQ4MXJvMno4ekhVbHB2Q2dCYjhRdEdOMzI2bGdJZ2Y2WW03Y0xDZFBFNw?oc=5",
           "camp": "rio",
           "position": "editoria"
         }
@@ -796,28 +322,40 @@
       }
     },
     {
-      "id": "albardao-passa-cemiterio-esperanca-marinho-santuario-parque",
+      "id": "engoliu-tentar-episodio-lembra-ilha-fugir-rafael-reabilitaca",
       "segment": "politica",
-      "title": "Parque do Albardão passa de cemitério marinho a esperança de santuário",
-      "summary": "Parque do Albardão passa de cemitério marinho a esperança de santuário.",
+      "title": "Rafael Ilha lembra episódio em que engoliu pilha para tentar fugir de clínica de reabilitação",
+      "summary": "Rafael Ilha lembra episódio em que engoliu pilha para tentar fugir de clínica de reabilitação. Ele diz que se irrita com as pessoas não saberem o outro lado da história.",
       "scores": {
-        "cobertura": 3.5,
-        "destaque": 4,
+        "cobertura": 6.0,
+        "destaque": 5,
         "persistencia": 4,
         "peso_voce": 3
       },
-      "score": 3.6,
+      "score": 4.7,
       "outlets": [
         {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/parque-do-albardao-de-cemiterio-marinho-esperanca-de-santuario",
-          "camp": "estatal",
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/play/series/noticia/2026/11/17/rafael-ilha-lembra-episodio-em-que-engoliu-pilha-para-tentar-fugir-de-clinica-de-reabilitacao.ghtml",
+          "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/17/parque-do-albardao-de-cemiterio-marinho-a-esperanca-de-santuario.html",
-          "camp": "regional",
+          "name": "Exame",
+          "url": "https://exame.com/esporte/maior-pipocada-da-historia-clube-desperdica-vantagem-de-12-pontos-e-perde-campeonato/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/brasil/rj/2026-11-17/ilha-de-brocoio--o-palacio-esquecido-no-meio-da-baia-de-guanabara.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQdGNhYlhkcHE2SW5BLTNtdFlCRTViemxOMzR3d2U2bVVlVE1BdW1RZXNmVUZBN2xvekdMTkg3YTBMQ3MxejN0eFcyWktfWnpBSkxCVXVXTzhwRUIzWnM0enh5QU45dUhVM0NhcjhTYjJPRm40bmZhLUwyaGNGeXR6bEgtTVZzOF92ZTg4UVFIWGZEN1J0RnZKdXhZcG1ZOUVrRW1RMTFzdGZjWVFXaEFpMnVXXzJ0dmJCNWd0dWZ6em5OZmp1YzBIRFpuUkkzRVFVZmhybTRzSW9mS2JkaExBN1gwTHMyR1ZiWmVaQThtZ0ZJeUFUWmZyN1JfaWlGaWhfeU5iQWNaTzNseXUybVd6N2syZ2lOdkk?oc=5",
+          "camp": "esquerda",
           "position": "editoria"
         }
       ],
@@ -827,27 +365,39 @@
       }
     },
     {
-      "id": "interior-producao-cafe-destaque-vida-qualidade-cidade",
-      "segment": "internacional",
-      "title": "Cidade do interior é destaque em qualidade de vida e produção de café",
-      "summary": "A 'Califórnia brasileira' no interior supera 26 capitais em qualidade de vida. O município tem água de fonte, é a Capital do Chope por lei e já foi a maior produtora de café do mundo.",
+      "id": "rocha-poliana-luxuosa-anos-comemora-festa",
+      "segment": "politica",
+      "title": "Poliana Rocha comemora 50 anos com festa luxuosa",
+      "summary": "Poliana Rocha comemora 50 anos com festa luxuosa.",
       "scores": {
-        "cobertura": 3.5,
-        "destaque": 4,
+        "cobertura": 6.0,
+        "destaque": 5,
         "persistencia": 4,
         "peso_voce": 3
       },
-      "score": 3.6,
+      "score": 4.7,
       "outlets": [
         {
-          "name": "Estado de Minas",
-          "url": "https://www.em.com.br/colunistas/filosofia-explicadinha/2026/11/7539680-a-vida-tambem-se-devora.html",
+          "name": "Super Notícia",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRWxNVm4tQmQ2TVhwZzloZ05SRE5PVl9kQ0EtMXRQMXBBaXU2TnZhU2pEMXN0NjhETm1YVFFXd0dvWG94aTFIZTFuT0VWM1E0dmszWVpGaW5SMzdUdjJGbjc3WUQ3RkU1TFZ5ZEwwNUFFZDJVa3RrbmNPWXQ3T183a3U0dmgtNUIxQmRpNGlNZkg1Q0lPZFhfNmRpdGpCUEhITW1BZC1femdzN044ajdMLUtVQ2FNamdQbG9WNThlSmsxQ3NYMnhvMWYxNkNvV2d6RXRrMXU3WmdlUWxfNGlLSWg4NER5WFVNWnc?oc=5",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPWVJKcFg0NUFOODB6ZUtNdTQzVkFhMFgzMDN2VGRPdk5vZW1jNnlGcUZta3QxaDl1X0JYTlZrZ3ByemNRQ2JINU1DRW9nNXY3eDQ2NDY2OVEySm1DY1kzNVBLS0NvUmI0SVNfX3pWVXkybFRURlEyWl9ROUxJM2cyTE5TN2tST2d0Y1BLVFYxV2thVnJ3azJGeGtjenBhakZhNXNfTHZORUczTkdua3cxbWJoOXNNWTVibXRCREhYY0Jad09jMmEzMWlVMFJ6MVVWOGVqS2t1YVdzNlI0aE9vNk1uWjFyWHRhMkM1QmJsWWpPS2xMTzRsZlJhQ0hUWVBWQXFvVFVVdmhjOU5EM3NUREkwTEgwYm1STm55enBpaWN6LVVGaEhqSEc4MmlmZW9NU0VFTGRIaUFnaEVsbkl0ZGZhX0RIbGE1MnhJM2x4aW8yQQ?oc=5",
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNclVJWERKb0RiNTNqMDBXX0pTUHdwYWdRRGtERWlGdnl4dmlYS011YnRzMTRERTFtUndHdUxUMjRTbjlhU2l0NTZoSDk4aDhxWnlYNmppS3lWMGxGRjMtcC1XY3ZEYmJpZmlhUTVPdGhXeXZYOXh0VVpqYnlybU1ZT2ExdGFjWU1ORDltTmhXQ1l2NXpOanFJMGNSNjVReURDNTNVQlJ3bkR0QWRockhqb0ItcHo0V0xGbW5nMUtZeEw2ZENEMnc?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/diversao/celebridades/2026/11/7323118-poliana-rocha-comemora-50-anos-com-festa-luxuosa.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/pop/celebridades/poliana-rocha-celebra-50-anos-com-festao-sem-presenca-de-virginia-veja/",
           "camp": "centro",
           "position": "editoria"
         }
@@ -858,17 +408,184 @@
       }
     },
     {
-      "id": "aula-escola-negro-novembro-rio-comeca-racial-letramento",
+      "id": "escola-deformidade-relato-congenita-fisica-estudante",
       "segment": "educacao",
-      "title": "Novembro Negro começa com aula de letramento racial em escola do Rio",
+      "title": "Relato de estudante sobre deformidade física congênita e escola",
+      "summary": "Tenho uma deformidade física congênita que escondi dos meus pais e colegas de escola.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 4.6,
+      "outlets": [
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/11/tenho-uma-deformidade-fisica-congenita-que-escondi-dos-meus-pais-e-colegas-de-escola.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "BBC News Brasil",
+          "url": "https://www.bbc.com/portuguese/articles/cv1j60zn5p3eo?at_medium=RSS&at_campaign=rss",
+          "camp": "internacional",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/tenho-uma-deformidade-fisica-congenita-que-escondi-dos-meus-pais-e-colegas-de-escola.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, UOL) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "parque-albardao-esperanca-santuario-cemiterio-marinho",
+      "segment": "politica",
+      "title": "Parque do Albardão: de cemitério marinho a esperança de santuário",
+      "summary": "Parque do Albardão passa de cemitério marinho a esperança de santuário.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/17/parque-do-albardao-de-cemiterio-marinho-a-esperanca-de-santuario.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/2026-11-17/parque-do-albardao--de-cemiterio-marinho-a-esperanca-de-santuario.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/parque-do-albardao-de-cemiterio-marinho-esperanca-de-santuario",
+          "camp": "estatal",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "oferecem-cursos-medicina-hospitais-vagas-privados-2027",
+      "segment": "politica",
+      "title": "Hospitais privados oferecem vagas em cursos de medicina em 2027",
+      "summary": "Hospitais privados oferecem vagas em cursos de medicina em 2027.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/hospitais-privados-oferecem-vagas-em-cursos-de-medicina-em-2027",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/17/hospitais-privados-oferecem-vagas-em-cursos-de-medicina-em-2027.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS0c0UGNpc2ZpczFtM0t5Sl9qS1Y0Zm84SGhWczhUdWZXdG9DSDZHQlJXaXVhOGZmeWlrejNndnFNbzVUWDlUc0l5cjA2WFJYczFLWlEwRmxhcTNVT0wydmtPbTBUUjdwb2lBMHVDU0tNU1pFNnU0LXFLYlROUnJDLXBnbGlEWWI0QVZBT1B2bmFfM2g2WTZvb2FzZDZFQ2dreDlPTXdxRVdXQnRfenV3bUNFeVhVZWt1SXc?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "debate-podcast-planejamento-cruz-2027-santa",
+      "segment": "esportes",
+      "title": "Podcast debate planejamento do Santa Cruz para 2027",
+      "summary": "Podcast Futebol Diario debate o planejamento do Santa Cruz para 2027.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 3.6,
+      "outlets": [
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcHhqOUNnc1FNc3VCU1V2X0JHc1RJM1g3WEFmT0p3TVVibHZ5MURjaHFFNDdRTC1RZElxRExyeHM5eXZ6OU1TNWVpVk1yakFFVFhOVURjUVo1Yi1mYlo3b0U0bnJKc0JQMXBQYlE1eS1XcWd5RFp3UnNJWG5tT09YUWpfd2Z5OTNoejRGcnhTbWxHY3BLU1cycUNKSWEzQUw5UmZtSjA4bnhzWlVVb09PclVKcUFqZEdkN2IzSWdaNEFMS1RUaGJOQmQ2dDdYS1liUGpNZXRNRGw1ZFJudzVjREdDSE96aHZ1U19HekNEYzc5OFHSAfgBQVVfeXFMTTdtbnpMano2TG9OMDczRFVpNEtwRHZsdXVnUXMwdDFMMFk3Sm9YaGE1bi1nMXBrZHF0WV9EWHlteHd1Vm1mQ2tHZFlvUnhtX3VtcHExXzF1Qnp1eE1aeXZHcDNqNEY5enhpb296X3pYR2ZKLXI0cm13QXgwWEhhN0lIWnNVa29rNDlWUFEwUXJmSUNVdDZXT1NRYWF5MUdLVTNNYl96T1BzTHdyXzhXbG9CNHMtSTFIRGZKOFZrTU1hclRrWklsa2NZSFVNcmYzOXlMWXpnVHJLNElfS2JOYlRWaTREajlTTDJaRlNjRnVuTDFjRV9JWmU?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "A Tarde",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CbTVWT0lRT2V0UDZKUFJLQndfd3ExNlJZY2NWNjd2d1I5ZjRHUVdxcmRvNFU0cGFXQjVVa0pnLVdnblhoMEMtY0U3Y2tLTjBMYmpoNENGUHNiczVzY0JWTmZnbGtFWmdkZmRZS2h30gF2QVVfeXFMUFVsTHMwdlNYSkJMVTVvSEl4Q0ZZTThCVGJ5eXF2eEVwN3NDV3lZa2s1UVkyaUxBai1aMGpOOXRrb3VfaW5RMzV4UTd3d0h4anNZdkdsNXRHTnQyUjR5RVhvTjRHZHpWMjF6RE9iQVZfNjRSYUhYZw?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "educacao-desafio-conhecimento-desenvolvimento-2027-transform",
+      "segment": "educacao",
+      "title": "Desafio de transformar conhecimento em desenvolvimento na educação em 2027",
+      "summary": "Educação em 2027: o desafio de transformar conhecimento em desenvolvimento.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 2.9,
+      "outlets": [
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1J6aWxIZlJQZFZ3WHlVLXpwLWphTjBwUlVWTTBaTk5WSUFfSW1vbFpyWTZnYXdjMEl5ZHdnbHFhTXFTaFMzUzc5d09jS0szeTlmTl9ZODBQWnRkQms4dnNZM1hCelg2NlFEQy04Zm1EYVowUzF5TDJHa2tGTmd4bGJydzJzVHE4QkZ5NC1jQ1JOZkVnNXU5d09MWmxCeEdiWHVTT0JtTFhHVW1ZUVZ5Rk4tdy1fVlVubWVQbUYwQTZCeFh2Q1YtdtIByAFBVV95cUxQb1J6aWxIZlJQZFZ3WHlVLXpwLWphTjBwUlVWTTBaTk5WSUFfSW1vbFpyWTZnYXdjMEl5ZHdnbHFhTXFTaFMzUzc5d09jS0szeTlmTl9ZODBQWnRkQms4dnNZM1hCelg2NlFEQy04Zm1EYVowUzF5TDJHa2tGTmd4bGJydzJzVHE4QkZ5NC1jQ1JOZkVnNXU5d09MWmxCeEdiWHVTT0JtTFhHVW1ZUVZ5Rk4tdy1fVlVubWVQbUYwQTZCeFh2Q1Ytdg?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "comeca-letramento-escola-racial-negro-aula-novembro",
+      "segment": "educacao",
+      "title": "Novembro Negro começa com aula de letramento racial em escola",
       "summary": "Novembro Negro começa com aula de letramento racial em escola.",
       "scores": {
         "cobertura": 2.0,
         "destaque": 3,
         "persistencia": 4,
-        "peso_voce": 6
+        "peso_voce": 3
       },
-      "score": 3.5,
+      "score": 2.9,
       "outlets": [
         {
           "name": "O Dia",
@@ -883,60 +600,10 @@
       }
     },
     {
-      "id": "milhoes-rio-supermercado-320-janeiro-dara-lugar-shopping",
-      "segment": "rio",
-      "title": "Supermercado dará lugar a shopping de R$ 320 milhões no Rio de Janeiro",
-      "summary": "Supermercado dará lugar a shopping de R$ 320 milhões com 100 lojas no Rio de Janeiro.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 3,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 3.5,
-      "outlets": [
-        {
-          "name": "Exame",
-          "url": "https://exame.com/negocios/supermercado-dara-lugar-a-shopping-de-r-320-milhoes-com-100-lojas-no-rio-de-janeiro/",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "milhoes-vina-aceita-vender-cruzeiro-flamengo",
+      "id": "categoria-formula-fernando-fora-alonso-anunciado",
       "segment": "esportes",
-      "title": "Flamengo aceita vender Viña ao Cruzeiro por R$ 23 milhões",
-      "summary": "Por R$ 23 milhões, Flamengo aceita vender Viña ao Cruzeiro.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 3,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 3.5,
-      "outlets": [
-        {
-          "name": "NSC Total",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcVIxNDl6Tk5TLXd3c0NtVnFyNmNMNXBqY3hLa1g4M2U3VmhNOTFYOVBWUklUSE1qNDdnbm9GcTZBOUczbjV3emwxbGZEUGI5N1I4R2lmR0NGOWtMT1B1b0FNUnVfQWxHdnViVDh4aUQ1ZUg3S21xclZGeWFpVzNzT2ZGZXlscVVqMUZRaFlWdGNFM1BCclU0WA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "destaca-deformidade-congenita-fisica-experiencia-estudante-r",
-      "segment": "educacao",
-      "title": "Relato destaca experiência de estudante com deformidade física congênita",
-      "summary": "Uma pessoa relata ter escondido deformidade física congênita dos pais e colegas de escola.",
+      "title": "Fernando Alonso é anunciado em categoria fora da Fórmula 1",
+      "summary": "Fernando Alonso é anunciado em categoria fora da Fórmula 1.",
       "scores": {
         "cobertura": 2.0,
         "destaque": 3,
@@ -946,9 +613,9 @@
       "score": 2.9,
       "outlets": [
         {
-          "name": "BBC News Brasil",
-          "url": "https://www.bbc.com/portuguese/articles/cv1j60zn5p3eo?at_medium=RSS&at_campaign=rss",
-          "camp": "internacional",
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/esportes/internacional/fernando-alonso-e-anunciado-em-categoria-fora-da-formula-1-949761",
+          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -960,48 +627,51 @@
   ],
   "x_trends": [
     {
-      "nome": "RECORD SE POSICIONE",
-      "volume": null,
-      "url": "https://x.com/search?q=RECORD%20SE%20POSICIONE",
-      "sobre": "Governo do Rio sanciona leis para renegociação de dívidas com descontos de até 70%",
-      "leitura": "neutro",
-      "uso": "explicar os benefícios para a economia local",
-      "item_id": "ate-rio-dividas-leis-renegociacao-descontos-sanciona",
-      "fonte": {
-        "name": "CartaCapital",
-        "url": "https://www.cartacapital.com.br/bem-estar/voce-come-rapido-demais-entenda-como-o-habito-pode-afetar-a-digestao/"
-      }
-    },
-    {
-      "nome": "Olivia",
-      "volume": null,
-      "url": "https://x.com/search?q=Olivia",
-      "sobre": "Novembro Negro começa com aula de letramento racial em escola do Rio",
-      "leitura": "neutro",
-      "uso": "destacar importância da educação para inclusão",
-      "item_id": "aula-escola-negro-novembro-rio-comeca-racial-letramento",
-      "fonte": {
-        "name": "O Dia",
-        "url": "https://odia.ig.com.br/niteroi/2026/11/7322963-novembro-negro-comeca-com-aula-de-letramento-racial-em-escola.html"
-      }
-    },
-    {
       "nome": "PSOL",
       "volume": null,
       "url": "https://x.com/search?q=PSOL",
-      "sobre": "PSOL",
-      "leitura": "neutro",
-      "uso": "monitorar movimentações políticas",
-      "item_id": null,
-      "fonte": null
+      "sobre": "Justiça bloqueia R$ 180 mil da Meta por não excluir vídeo com críticas a Erika Hilton",
+      "leitura": "ataque à direita",
+      "uso": "Rebater com fato sobre censura e justiça",
+      "item_id": "criticas-meta-180-justica-nao-hilton-mil-erika",
+      "fonte": {
+        "name": "Estadão",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc0RjWUs0NVNyRnJmM0xCbkh4dGE5Q2RaeTZabFkzVmZkSGJGd2N1S0RlTUdqd1lBbUlUMUVLM01hMEw4TzFad0ZDNFk3MjBHc3FGOTV4SEFPZ254V01nVDh2T3pYOHczSm0xWFRjdkw3RGtLTHVLVmxXLVJDX01nX05XQWhfWmZjRVdHNTJEU2tUcGdPdjRJdEZMYVlHTVlIdTE4VU9lVnlqS3ZQcVE0ZmpEQ2ZGLVJBNjJGVHdzeElpV2RJZnNOQXBKQzI5X1nSAdQBQVVfeXFMT3IwSE43YnJsMndLQ1VIUVE0b0lyZ0dnVFNnQTFJWENCdDRtdWhxTG5odjBPcGh3eWZuOVdVazRmaGktUkdhRUdOSXRtT0xuRkhHSU9ybVVnUlRMUUd1OWhqblZBaVRieGF5UVM5MU1sQVM5OGFJdElLc0hzYTZ3QWNxQ2FPaFBCYWNSVFNVblJtYTBQUVFRQTJaWk5abDFRM2l2X05kRkpNZUVheXY0N3R3YloyUlNvcHNyUm9yQWpDQmQ2UHRiV1FaLTNxanhuUnhlUXo?oc=5"
+      }
     },
     {
-      "nome": "ESTAMOS COM LULA",
+      "nome": "Bogum",
       "volume": null,
-      "url": "https://x.com/search?q=ESTAMOS%20COM%20LULA",
-      "sobre": "ESTAMOS COM LULA",
+      "url": "https://x.com/search?q=Bogum",
+      "sobre": "Governo do Rio sanciona leis para renegociação de dívidas com descontos de até 70%",
       "leitura": "neutro",
-      "uso": "analisar posicionamentos políticos",
+      "uso": "Explicar benefícios econômicos para população do Rio",
+      "item_id": "renegociacao-rio-descontos-sanciona-leis-dividas-ate",
+      "fonte": {
+        "name": "O Globo",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRnZZNGh0VDEyZTAwdy1lT3FDb25WWnoySmdkb3pKRG1XQnZ0cnY5ejhmUmtpSVpMZ2oybnM0alJheWFSalZwZmxqamtOUXhQeGlYd25XQVNXdk5Wcmh3QjVhcW5kbnVFb2Z3eTlwOGZoMEJjSF84YkdhMmtDSXJFWEVaOS1vcms4eGpZYUpvTjRsQjAwTDdTUnZ1SXNMbXV2TnE4aUpEczlZMFY0aXRzUGFiLURUbXJVRU9QcVRJVUxEa0tUZFJoVFVVeFd5LXphclhHSW1oTlNTUzhOTFQyazREZmJGNldkTUtfd1dJWFJBNnFXamRmbDhYaEhzU2JX0gGPAkFVX3lxTFBNRFEyMmFhTDFzdnY3Y042SHRUODdVTVQ0TG9pbDh3U05vcHNrZUlsWEVYeVR2VGZ3UHdwTnBROXZ5dS1aVjVvNUdPYjd1WUNWTFZOVmtlaHdsTE4wc2VCcU9VUE5nUzY0YjVIeGhRRWhORm1RV1otS0pGS3F5M0JlQy1PZzFCTzFTZDNqVWxRdVZ6Wlp6RkhuVXo5d011TzB0cHdIaFBFbGVnd0RTRk1CVTJCakd1M19Xbk5tclNEeFRNXy1jbjR5cUxMYWQtZUFBdUZzTEZWRU1WTmhCUF84a2E3djYxUHlKVzBienB5eVI4R0REcnRYelgxbHpRcnFQclpucklCSkdvQVJZejA?oc=5"
+      }
+    },
+    {
+      "nome": "#ApontaPeão",
+      "volume": null,
+      "url": "https://x.com/search?q=%23ApontaPe%C3%A3o",
+      "sobre": "Polícia apura relação entre corpo encontrado em cova e desaparecimentos",
+      "leitura": "neutro",
+      "uso": "Informar sobre segurança pública e investigação",
+      "item_id": "encontrado-corpo-apura-desaparecimentos-policia-relacao-cova",
+      "fonte": {
+        "name": "Gazeta de Alagoas",
+        "url": "https://www.gazetaweb.com/noticias/policia/policia-apura-relacao-entre-corpo-encontrado-em-cova-no-trapiche-e-desaparecimentos-949767"
+      }
+    },
+    {
+      "nome": "RECORD SE POSICIONE",
+      "volume": null,
+      "url": "https://x.com/search?q=RECORD%20SE%20POSICIONE",
+      "sobre": "Pedido para que a Record se posicione",
+      "leitura": "neutro",
+      "uso": "Cobrar posicionamento da imprensa",
       "item_id": null,
       "fonte": null
     },
@@ -1011,27 +681,37 @@
       "url": "https://x.com/search?q=The%20Economist",
       "sobre": "The Economist",
       "leitura": "neutro",
-      "uso": "usar análises econômicas internacionais",
+      "uso": "Analisar economia e política internacional",
       "item_id": null,
       "fonte": null
     },
     {
-      "nome": "Guga",
+      "nome": "PSOL",
       "volume": null,
-      "url": "https://x.com/search?q=Guga",
-      "sobre": "Guga",
-      "leitura": "neutro",
-      "uso": "acompanhar inovação e destaque nacional",
+      "url": "https://x.com/search?q=PSOL",
+      "sobre": "PSOL",
+      "leitura": "ataque à direita",
+      "uso": "Analisar posicionamento político do PSOL",
       "item_id": null,
       "fonte": null
     },
     {
-      "nome": "Bontempo",
+      "nome": "Rayan",
       "volume": null,
-      "url": "https://x.com/search?q=Bontempo",
-      "sobre": "Bontempo",
+      "url": "https://x.com/search?q=Rayan",
+      "sobre": "Rayan",
       "leitura": "neutro",
-      "uso": "observar tendências políticas locais",
+      "uso": "Informar sobre pessoas em destaque",
+      "item_id": null,
+      "fonte": null
+    },
+    {
+      "nome": "#SINxBRA",
+      "volume": null,
+      "url": "https://x.com/search?q=%23SINxBRA",
+      "sobre": "#SINxBRA",
+      "leitura": "neutro",
+      "uso": "Monitorar tendências políticas e sociais",
       "item_id": null,
       "fonte": null
     }
