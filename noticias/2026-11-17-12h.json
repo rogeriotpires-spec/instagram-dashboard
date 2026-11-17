@@ -1,21 +1,21 @@
 {
-  "generated": "2026-11-17T09:32:14-03:00",
+  "generated": "2026-11-17T09:37:24-03:00",
   "gerador": "ia",
   "modelo": "gpt-4.1",
-  "headline": "Brasil goleia Singapura, STF é acionado contra salário de Flávio Bolsonaro e futuro secretário do RJ defende escolas cívico-militares.",
+  "headline": "Lula faz críticas ao mercado financeiro e a Trump, Polícia Civil mira advogadas ligadas a suposto golpe contra filho de Lula, e Duque de Caxias recebe Caravana de Inovação e Inclusão.",
   "top": [
-    "estrategica-ataca-bombardeia-kiev-ucrania-crimeia-russia-pon",
-    "batalhao-nomes-vivos-flores-deixadas-sao-pms-coroas",
-    "temporada-encerra-2026-singapura-goleia",
-    "vinicius-trick-goleada-hat-junior-primeiro-singapura-faz",
-    "caravana-caxias-centro-duque-educacao-inclusao"
+    "russia-crimeia-ataca-pontes-ucrania-bombardeia-kiev-ponte",
+    "flores-deixadas-pms-coroas-batalhao-sao-rio-nomes",
+    "mil-nao-2026-sacaram-abono-276-trabalhadores-salarial",
+    "temporada-goleia-singapura-encerra-2026",
+    "marca-vini-goleia-singapura-tres"
   ],
   "items": [
     {
-      "id": "estrategica-ataca-bombardeia-kiev-ucrania-crimeia-russia-pon",
+      "id": "russia-crimeia-ataca-pontes-ucrania-bombardeia-kiev-ponte",
       "segment": "internacional",
-      "title": "Ucrânia ataca ponte estratégica na Crimeia e Rússia bombardeia Kiev",
-      "summary": "A Ucrânia danificou uma ponte estratégica que liga a Rússia à Crimeia em um grande ataque. A Rússia respondeu bombardeando pontes em Kiev. Kiev fechou duas pontes após os bombardeios russos. A ponte da Crimeia desabou parcialmente após o ataque ucraniano. 300 drones contra a Rússia, no maior ataque da guerra.",
+      "title": "Ucrânia ataca ponte na Crimeia e Rússia bombardeia pontes em Kiev",
+      "summary": "Ucrânia destrói trecho vital da ponte de Putin na Crimeia; veja vídeo. Rússia bombardeia pontes em Kiev; Ucrânia ataca Crimeia. Rússia e Ucrânia trocam bombardeios a infraestruturas. Ucrânia lança mais de 1.300 drones contra a Rússia, no maior ataque da guerra | #SBTBrasil.",
       "scores": {
         "cobertura": 10,
         "destaque": 8,
@@ -31,38 +31,14 @@
           "position": "editoria"
         },
         {
-          "name": "DW Brasil",
-          "url": "https://www.dw.com/pt-br/ponte-da-crimeia-desaba-parcialmente-após-ataque-ucraniano/a-79968282?maca=bra-rss-br-all-1030-xml-mrss",
-          "camp": "internacional",
-          "position": "editoria"
-        },
-        {
-          "name": "Terra",
-          "url": "https://www.terra.com.br/noticias/mundo/ucrania-danifica-ponte-na-crimeia-em-grande-ataque-enquanto-russia-bombardeia-pontes-em-kiev,cf6be83032bce74212eefa202eda7921c06buqzz.html",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Veja",
-          "url": "https://veja.abril.com.br/mundo/ucrania-atinge-ponte-estrategica-que-liga-russia-a-crimeia-antes-de-cupula-entre-putin-trump-e-xi-jinping/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Antagonista",
-          "url": "https://oantagonista.com.br/mundo/ucrania-volta-a-atingir-ponte-que-liga-crimeia-a-russia/",
-          "camp": "centro-direita",
+          "name": "UOL",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/17/ucrania-danifica-ponte-na-crimeia-em-grande-ataque-enquanto-russia-bombardeia-pontes-em-kiev.htm",
+          "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
           "name": "O Povo",
           "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/russia-bombardeia-pontes-em-kiev-ucrania-ataca-crimeia.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio do Povo",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVGFROHdPRGR6UU9NUUozOHJ5WS03RFdVX3QwM083VWo2dWU2NkFFUlcxYy1fUnlxX1FpeVlhbWVERFhITk4wZDZwQXFUSmJ6a3gyeTBtaGhCQTZYY0MtaWpvVWZnVWl6SzlRT3dIVFh5cEtpNzgwT201WnJqQkNQOTRIcnlpWHJkdm0tem9IWmptck9ROXl0dXhOWWtSeEF5V3M1bVo1SkdKVUdaWFdudjdYN3otaGg3NUhZ?oc=5",
           "camp": "regional",
           "position": "editoria"
         },
@@ -73,64 +49,70 @@
           "position": "editoria"
         },
         {
-          "name": "UOL",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/17/ucrania-danifica-ponte-na-crimeia-em-grande-ataque-enquanto-russia-bombardeia-pontes-em-kiev.htm",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
           "name": "SBT News",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoMkRTbERjVS13UjVUbVhDT0Q4aDRBVTdmeHZ2czR3LTVsOGpQMmJKUGRBQkNiczRBZFRWS2lua0hnbnY4TTJKSEtzczM4U3pVQnU3Wl9yaFU?oc=5",
           "camp": "centro",
           "position": "editoria"
+        },
+        {
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/mundo/ucrania-atinge-ponte-estrategica-que-liga-russia-a-crimeia-antes-de-cupula-entre-putin-trump-e-xi-jinping/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/noticias/mundo/ucrania-danifica-ponte-na-crimeia-em-grande-ataque-enquanto-russia-bombardeia-pontes-em-kiev,cf6be83032bce74212eefa202eda7921c06buqzz.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "DW Brasil",
+          "url": "https://www.dw.com/pt-br/ponte-da-crimeia-desaba-parcialmente-após-ataque-ucraniano/a-79968282?maca=bra-rss-br-all-1030-xml-mrss",
+          "camp": "internacional",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVGFROHdPRGR6UU9NUUozOHJ5WS03RFdVX3QwM083VWo2dWU2NkFFUlcxYy1fUnlxX1FpeVlhbWVERFhITk4wZDZwQXFUSmJ6a3gyeTBtaGhCQTZYY0MtaWpvVWZnVWl6SzlRT3dIVFh5cEtpNzgwT201WnJqQkNQOTRIcnlpWHJkdm0tem9IWmptck9ROXl0dXhOWWtSeEF5V3M1bVo1SkdKVUdaWFdudjdYN3otaGg3NUhZ?oc=5",
+          "camp": "regional",
+          "position": "editoria"
         }
       ],
       "asymmetry": {
-        "flag": false,
-        "note": ""
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, UOL) e não apareceu nos portais de direita da coleta."
       }
     },
     {
-      "id": "batalhao-nomes-vivos-flores-deixadas-sao-pms-coroas",
+      "id": "flores-deixadas-pms-coroas-batalhao-sao-rio-nomes",
       "segment": "rio",
-      "title": "Coroas de flores com nomes de PMs vivos são deixadas em batalhão no RJ",
-      "summary": "Coroas de flores com nomes de PMs vivos foram deixadas em frente a um batalhão da PM no Rio. Um homem foi preso após deixar as coroas. Um dia depois, a PM realizou operação na Cidade de Deus.",
+      "title": "Coroas de flores com nomes de PMs vivos são deixadas em batalhão no Rio",
+      "summary": "Coroas de flores com nomes de PMs vivos são postas em batalhão. Um dia após coroas de flores, PM realiza operação na Cidade de Deus. Homem é preso após deixar duas coroas de flores em batalhão da PM no Rio.",
       "scores": {
-        "cobertura": 9.3,
+        "cobertura": 8.7,
         "destaque": 8,
         "persistencia": 4,
         "peso_voce": 10
       },
-      "score": 8.1,
+      "score": 7.9,
       "outlets": [
         {
-          "name": "UOL",
-          "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/11/17/coroa-de-flores-policiais-vivos-pmerj.ghtm",
-          "camp": "centro-esquerda",
+          "name": "Pleno.News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNME9FaWJfN2Nuelc2ckNtUVN3amQ5ZmpPMGJqZ1prUUZHWTlWQzI2TjhSdkVBWEdXLUVDbllmWVpFZnZoaU5TOVN5UlRjbnRYeURGd1ZPS1hqeDlKcjBxZXZGa0pSQjhrMG9qa3NHYlpsNXlnamtyOTVHbWN2TVBhQkdzb20xUi1KOElGNE9pY1lSS2oyUTdTRUUzVEJhWV9YODVr?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7323112-um-dia-apos-coroas-de-flores-pm-realiza-operacao-na-cidade-de-deus.html",
+          "camp": "rio",
           "position": "editoria"
         },
         {
           "name": "R7",
           "url": "https://noticias.r7.com/rio-de-janeiro/rj-no-ar/video/coroas-de-flores-com-ameacas-a-policiais-sao-deixadas-em-frente-a-batalhao-no-rio-homem-e-preso-17112026/",
           "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/homem-e-preso-apos-deixar-duas-coroas-de-flores-em-batalhao-da-pm-no-rio/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ1p0Q2hOcjZUb3VMbzJaaDVPb2lVUU5zTWRaRmVTMFh5azhKeUlKdnJ1bzhfeEwwQ19rUUFfY0tRUGh6SDZRRDB1MDFIdC0xemctdEFfbzdDRFQyMWtuSms0SWpVV0tIVnpvb3JUYUZPcmpwaFlYR1ZTSzNkMkdGWkpXcndVQ3Jrdm5KUFF1djk4ejNYQ0dWY2JjR051ejhSNEJQNEtrQUtPV25FQm5kNklST1BhbWY0UGJxOUZB0gHDAUFVX3lxTFA1bll5RmZVWHYwLUsxbUZTV29HN2E0NFlfZVNsSkh6RGJFTEg0R2J1T2xpdFlSQm1oSVRXa1IwSjdqOUw1VGtBMEpMTzdlOXZuVmlNR3pTbldZbjg3RmVrb3dCNmZEOHdQUU1waktRN2Z2MmRULThJaERLdTVUamExOHFld2dOblFpZ25CbGdfUmV2N0NQWFg4QS10bktjSk1jc0p3WWVDRDR2bEN4cUxsX2JmZmhtVVFRU2pNaDRrVXBIQQ?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "Pleno.News",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNME9FaWJfN2Nuelc2ckNtUVN3amQ5ZmpPMGJqZ1prUUZHWTlWQzI2TjhSdkVBWEdXLUVDbllmWVpFZnZoaU5TOVN5UlRjbnRYeURGd1ZPS1hqeDlKcjBxZXZGa0pSQjhrMG9qa3NHYlpsNXlnamtyOTVHbWN2TVBhQkdzb20xUi1KOElGNE9pY1lSS2oyUTdTRUUzVEJhWV9YODVr?oc=5",
-          "camp": "direita",
           "position": "editoria"
         },
         {
@@ -146,8 +128,14 @@
           "position": "editoria"
         },
         {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7323112-um-dia-apos-coroas-de-flores-pm-realiza-operacao-na-cidade-de-deus.html",
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/homem-e-preso-apos-deixar-duas-coroas-de-flores-em-batalhao-da-pm-no-rio/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ1p0Q2hOcjZUb3VMbzJaaDVPb2lVUU5zTWRaRmVTMFh5azhKeUlKdnJ1bzhfeEwwQ19rUUFfY0tRUGh6SDZRRDB1MDFIdC0xemctdEFfbzdDRFQyMWtuSms0SWpVV0tIVnpvb3JUYUZPcmpwaFlYR1ZTSzNkMkdGWkpXcndVQ3Jrdm5KUFF1djk4ejNYQ0dWY2JjR051ejhSNEJQNEtrQUtPV25FQm5kNklST1BhbWY0UGJxOUZB0gHDAUFVX3lxTFA1bll5RmZVWHYwLUsxbUZTV29HN2E0NFlfZVNsSkh6RGJFTEg0R2J1T2xpdFlSQm1oSVRXa1IwSjdqOUw1VGtBMEpMTzdlOXZuVmlNR3pTbldZbjg3RmVrb3dCNmZEOHdQUU1waktRN2Z2MmRULThJaERLdTVUamExOHFld2dOblFpZ25CbGdfUmV2N0NQWFg4QS10bktjSk1jc0p3WWVDRDR2bEN4cUxsX2JmZmhtVVFRU2pNaDRrVXBIQQ?oc=5",
           "camp": "rio",
           "position": "editoria"
         }
@@ -158,77 +146,10 @@
       }
     },
     {
-      "id": "vinicius-trick-goleada-hat-junior-primeiro-singapura-faz",
-      "segment": "esportes",
-      "title": "Vinicius Júnior faz primeiro hat-trick pela Seleção Brasileira em goleada sobre Singapura",
-      "summary": "Vinicius Júnior marcou seu primeiro hat-trick pela Seleção Brasileira. O atacante encerrou o maior jejum da seleção desde 1977.",
-      "scores": {
-        "cobertura": 9.3,
-        "destaque": 8,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 7.2,
-      "outlets": [
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/esportes/selecao-brasileira/noticia/2026/11/17/vini-jr-faz-seu-primeiro-hat-trick-pela-selecao-brasileira-e-encerra-maior-jejum-desde-1977-entenda.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/selecao-brasileira-encerra-2026-com-vinicius-junior-como-artilheiro/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWXRxV3B2RmtsZmRpZFRONkVhOEdRMXBLbE5mbGc3S1RSRHhVR00xQkxyVV9sQi11Zk5IMm5lbzdNS3J0N1dkNDRvQnk2M3FISk84dGdYMmxPQ0dVeVZPd1lqOU43bmxvcjZabHp0NW1XdXVOZ2JvM2tOdnFlM3FxakhOMEdENzBjOC1vZF96b2t6THRPQ3llRGZwMjVGcUlOQ1oycDhFS2QzdWNwdmFDY2o5Q3ZhMTJ1dlcyUHJSLUhlYmhKRlRXWlMxZXNOeER2TG9qaTFxUmpKRGJzY3ZGWi11RmtzOXF1bUZFNA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "UOL",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01Nk1yNzQ1Z1NpbkNzRWlZajFveEVoQ3M3a3NNd0l6WkhCNWFQZ2UyYmdkOFZiNkVmUVhxR3JfUVpQZkxPS0RUTHIzam5PbXpXQktRRUlxejN5dlE5Q2Z5RFN1MmZ6SFk?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNEV3eVYxMUF1SGtQOE9nTXBfY01SS01Fa01HMDVlM1JfbkI0NzJWZnZqOFphY2RFaVVKUTlfSU9mT2NzTGs4M25uX3I2dVlXS0ExSGZEVF9McG5YYXAtYnludk1pVlFGWmJrSUE2NUFqVXlGdTFUNWxfbzlSZlRlaWRsaWdUVDdMRk5iNkdwMXJGaWRHUk5MVkFTUDlwVUZwdE9wb2Z1MXg2Y1Z2NGNXbnhJc0lhTVU3c3JQNjA4dTlKeVRC0gHKAUFVX3lxTE1BOWhfZ1Y0VFNQWnlVSXR0S0ViX2xXb2ZtTEVRTVVjVW1XUEFNVm9BWUtDQXRfZnJfMW9ZcHQzLVd1TGlkOXYxNEZ4cmQ5SHBDY3dOaUVlMDNRQXBkdW85S1lHZHgxUEo3NkxpS2hqS1lJcDliNFRPUTZKc2toVS1MUHQweGlKQ05iaTIxSXBvYmJBUUpxZGNXamdXUEYxUjB6TnV1ZEFDRWJoZTVQbjVqa3VReEtxZ3M5MkJzUzBrNGZlUS0xM1Vvbnc?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Gazeta de Alagoas",
-          "url": "https://www.gazetaweb.com/noticias/esportes/internacional/com-hat-trick-de-vini-jr-selecao-brasileira-vence-singapura-por-7-x-0-949760",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSGVvM1VkbjhYUG93ZjRBbVZqQzk3c0p0dlVMUno1aTZNTEZYWDY4OU1OdzM2Z0RoSFNXSmhBa0tsUmtYQVc4UHRmS3M4RzJjSTZlOTk3QWlqM0VvOTdrRUM1SXYwckRUS2J6a3hWdFlzT0JHdFlVUUFQZzlKS0pYQl9jU2pzRF9XXzRDWm5yZHI1UDFwcTUzQ19SVFVVUUpSbXd1VlBZeWdhb1ZVVUg40gG-AUFVX3lxTFBDT19taTd0NmpZRTIxRlNTeVByMF9QWUxnVWJzQnJsa0Z2ZmtvODZ3aWlsRThzeVNoMjRiOElobi1mSmlHajUwcE9iM2ZtenU4Z0RLLVRhUXRWQWMyT2JmX3VBNDI3eEVRNF9yZ2c2WEg1WkRJelNKTkRxczdEVVhGcDVBdGk0Vmo3OHRfMk1lWVltTmlnLTNKTHQ4YmhkWmpEUXAwT0phd21JTDBlYnhkM0NuUTlfNllyWW1Sc0E?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ01KeTE5V3IyYjFVV2IwalhwV3pIcWNnd3hpTWhkbzA4NDBPdHY1bkItbXhaRzF3X0d1bEV1cnBDbG1vX1QyWVgzeE84RXJYV2NWTGZxQ2ZYdE5oMy1Xdjg0aVZQQjViM3BBclZKdnVYYzlONFZNUndENTdRUDUyWEpBQ045WHUxZnRTX19CQ3ptdEhJbDIzcGVYVUdfc3E0ZHItYXg0MA?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "temporada-encerra-2026-singapura-goleia",
-      "segment": "esportes",
-      "title": "Brasil goleia Singapura por 7 a 0 e encerra temporada de 2026",
-      "summary": "O Brasil goleou Singapura por 7 a 0 no último jogo de 2026. Vini Jr.",
+      "id": "mil-nao-2026-sacaram-abono-276-trabalhadores-salarial",
+      "segment": "politica",
+      "title": "Mais de 276 mil trabalhadores ainda não sacaram o abono salarial de 2026",
+      "summary": "Abono salarial 2026: mais de 276 mil trabalhadores ainda podem sacar o benefício; veja prazo e como receber. Mais de 276 mil pessoas ainda não sacaram o abono salarial; veja quem tem direito.",
       "scores": {
         "cobertura": 10,
         "destaque": 6,
@@ -238,9 +159,149 @@
       "score": 7.8,
       "outlets": [
         {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/esporte/2026/11/7323110-com-tres-de-vini-jr-brasil-atropela-singapura-em-ultimo-jogo-do-ano.html",
+          "name": "NSC Total",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNXZhR2MwdlZMQlpneVZmSW5IbmVoZXlYN2ZNSHRFMFljWHNYZ0xOd2ZXLUhiOXViTGgyYThNNWZGZ0JHS3NKMV9NaGZ6T0tPQW1YS2xEd2FqT0U2enh0NzR6dzd5cFl4MURFR29BSm1xMjZtcHZGNkxrY3pWNWhyMGp3Y2NjMkIyZ2h0Z1ZGYnRGaTFaRVF5T0U5WHVPcFR5UlpFaW4zdnRYRkJOUmFqYzJtdlpEVHZPaFpXQXRmUGZrSDBzUDNHanczUDZ2SDliSXJDRTVZc0dRUQ?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS016a3JOa3lrYTlHaWVUdmI2WjAycjhCc3dsdENiZllldW9IZ012TGlFVzdiSm5LeU5za3dyUEhvcFg3VEFWT2ktOXdodjNWLXVPVmNvaXl4VWRkOWpPUEVfRzZ3MXB4Nk9qWTlyWWlyMzBLSEtNcnZlRVlkZDhpakJZWmU3ZGcyc29TWGN5OElael9SX3l0RXpSM0pjaHUzMVpxOUZzb0oyMWVuVkp2bEpUcll3NzFjUURfWURWb2JZdFZOZ19yaE9NX2RkTElC?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/economia/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-veja-como-receber/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/brasil/mais-de-276-mil-pessoas-ainda-nao-sacaram-o-abono-salarial-veja-quem-tem-direito/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/pispasep-mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026.ghtml",
           "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYkVheUxLZ1pvWllaTFdrUDdTcGZqdmNrckNlblY1U0ZFZk96aS1leVV1M1VGcWFXUVJISS1JTUNnOXc4RUpERlRGUWpXZFZCSFFTM04zTzJ2QmpCRUZKczgtUWVTOF8wNG9taVdsQ1BiV3Y2MjRXWUhic3U5LWRlaVdCcENvM1V5UDNfUmxvclVLaFA5RHBVSWo4RkN2ejJ3UGM1Y3pVbjdEbmdUUGRPejFnclNGN0Q3S2F4b1pCbVNHQnF5ZnJDZndxYUVmcjh3T2p1dDh5OFFrUHZsLWtQVlV0OA?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio (Bahia)",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOclFBM3ZYN3lydHlxZXlseU1iVkdjOGhHekVYNzFHTmNXYnNqMnRSQzlIcXFQNmJSZlMzcWVwMzVpOC1WOTRQMHZxSFMwcjZldk9SSl9DV0FlNG45djRrU1hNcFNGV3h5MG10UTRZdl92bWZyM2kzNmlVSEpMZWpyVXVJZWVUSXdENU1sSDRERTVrVlZBVTcxdXY4Wmt6QWc1U01KRjFOWHBid2Z5a2dDdU81cnlHdnE4OFpnYVZEcnB6NFZwSEM0enZSSGtlVmdzSklr?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Tribuna do Norte",
+          "url": "https://tribunadonorte.com.br/economia/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026/",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMWxqc1RFbVBoUFJNcFdlQldnRzZSNEowQ3NXTXNVV19Lc2kteG5hRnQ1TGxJTWc2UEk0NThCME9zWGFCMXdCc2k5aHBBYXV4Nm82T09OWlpqRW5DM3l0bHJHbVBreU5nb01sNlpMSDV5eFBWc1BVZmg1dHZzQWlHNkotOVBDaTBhUkNDcnozWjVMSEhiaE1tU2ZzVkNXWERXV2FTRkF2REIwc2FMeHlmeFBaa2c3QjcyMi1mcnN6TzNYUQ?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/economia/2026/11/7323144-mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026.html",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "tem-2027-flamengo-projeta-suspenso-deficit-patrocinio",
+      "segment": "esportes",
+      "title": "Flamengo tem patrocínio suspenso e projeta déficit em 2027",
+      "summary": "Flamengo apresenta orçamento para 2027 após suspensão de patrocínio da Betano; confira detalhes. Flamengo congela contrato com bet e projeta déficit milionário em 2027.",
+      "scores": {
+        "cobertura": 8.0,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 7.7,
+      "outlets": [
+        {
+          "name": "O Globo",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQR1A0dGVfcFZxWXF5bV90eURRZmoyUmFvVjJpV1U4dVdYMTNqQ3lTMWpWdWUxWFRIRFRZakZ4c1gxSWVlOUU3RWtCR2ttc0ZCZDl5dXNPSVZiVlZzeEJzZS02dHhsSUhnWHlHRnFYSE1XaW45RVpzY29wOHRkb18wNTQzVUR1ak5kSU5KcmlsaGRpMDQ3c254dE5hRWljNDlHbER0TkhKTGt5Y3p4Vmo2V2JiMzd6ZXNHeEhhUUF5QmdFbjdPSk5FQU5aYUhka3VVMm1VeVplek96WWVIQkxqdGtoSW4xV2hZUTBUZUtCRUdjQ1pJdzJ0blhmRmxxRUhrY0w5Nl9KSDM5eks1SnfSAY4CQVVfeXFMUEdQNHRlX3BWcVlxeW1fdHlEUWZqMlJhb1YyaVdVOHVXWDEzakN5UzFqVnVlMVhUSERUWWpGeHNYMUllZTlFN0VrQkdrbXNGQmQ5eXVzT0lWYlZWc3hCc2UtNnR4bElIZ1h5R0ZxWEhNV2luOUVac2NvcDh0ZG9fMDU0M1VEdWpOZElOSnJpbGhkaTA0N3NueHROYUVpYzQ5R2xEdE5ISkxreWN6eFZqNldiYjM3emVzR3hIYVFBeUJnRW43T0pORUFOWmFIZGt1VTJtVXlaZXpPelllSEJManRraEluMVdoWVEwVGVLQkVHY0NaSXcydG5YZkZscUVIa2NMOTZfSkgzOXpLNUp3?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "A Tarde",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZFYtMnNGZEYtSEhfUUROVzhUZEpWZUY4SFBqUl96NVc3REtkTnVZUHUyUmdQMG91VlVSWndPdDlyYXBBOUgxakVaWl90dEFVSzNJUUlfcmxLRkdPZEtQdXN1dFJWWHlTaV80MGFQcmkxRFdLUFIzeFg2UlNEWF9Vak10N3k1WkEya1J5TTB5RURiS3RyUFM0bEJ6RzR6czB6d3pLZDI3ODYzVjl3N2fSAbYBQVVfeXFMTUM5NFBwQ29VT3JrNzlHeTNJQ29RQzA0T3RpNHdqdm5uZGlNOGxiZmt4Zzh2dVBiUElXXzY0anZYZkxOVmlXeVRTTVdkNzliYVVYZkFpMmVjVVBCdVd1am1rc1QwTFdZaHNVeDExTVBsVG5LQzk3QklLX1RIT3p4TE5FUUREQ190TXFEdjZUVlE3R1FuZzRrYmNLY2V1YndEZUhCSVFaSTJ1V0hqanh4MTcwWlAyc3c?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Terra",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRUxZcFpycEdDZmRMb0dHY09PNUJOUnl5SmdNMFNkbE94cWFRQ2M0aTFBVGNhWktNSzVoZjdTZUg5Z1E1YmpubU5NRGZxZEwtc2U4SnZVWHFieGNKbl9kVDJ3czczR0w1NVZfc1pYdjFZcm9MdXg0RDUzRFNwcXFHdDZ2cC15OGxvYzdiVU9sbEN3SFdFMWFrQUNJbHpvemNOVC1mZW9uS0p1ZkhjaFcwcl9ndlJGZWVTRW9yN3JUb1BRYlU?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-sportsmkt/flamengo-tem-patrocinio-da-betano-suspenso-e-projeta-deficit-em-2027/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaXFVemtaZGlnVXFRZnpzZk12Z0lOUUhiQUpBWWZOVVBnbTdFOHFOWlpqOXd0VmJUZHhCLXhxVHhJYkZoNnY3RnZ4bFZYRmFmdHBabXFyUDB3bDBkc2g1UThpMEZsREZlRTZaTHlyaGktbmI3Umd0THFtSXg3aV9SVm9GbWYxYUJMT1lSMWdiZGpkUm5jbjlQRjNCWFZMRkNNdDBQOUdOZ2h6U29TLVZ5anlPdEN4WHZOXzM3VmNWaGxiZVo5Vy1FM3FZMVlmeTNGeEZCUVd5cUFCWUN5?oc=5",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/esporte/flamengo-envia-orcamento-para-2027-com-supensao-de-patrocinio-confirmada-saiba-mais/",
+          "camp": "esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (UOL, CartaCapital) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "temporada-goleia-singapura-encerra-2026",
+      "segment": "esportes",
+      "title": "Brasil goleia Singapura por 7 a 0 e encerra temporada de 2026",
+      "summary": "O Brasil goleou Singapura por 7 a 0 no último jogo do ano. Vini Jr.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 7.8,
+      "outlets": [
+        {
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dVZkQzRHBQRmhjdGtuR2pLSzM5enNGRUxwUEJOVWFPZTRfbGYzamlhWno5YXh0aG1kY01WUGdpOTZ3RDROSkltTWE2eUYtRVUzWnE4cUlDOGRtRF9SQk9VcjRHaEtSdWs4OTlJbTdleXFfVVB6dFFOU2p3alhLd1p6NS1BQlBEcGF6eXRTa0dXM2IzNnZBXzF0SjFlYkhfd2Q0dFEyaXZ4LWNVcEllY0NWZHZsX2doWlYxR3V2cC1zVHFnQ2RyeloySDg?oc=5",
+          "camp": "centro",
           "position": "editoria"
         },
         {
@@ -250,8 +311,8 @@
           "position": "editoria"
         },
         {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dVZkQzRHBQRmhjdGtuR2pLSzM5enNGRUxwUEJOVWFPZTRfbGYzamlhWno5YXh0aG1kY01WUGdpOTZ3RDROSkltTWE2eUYtRVUzWnE4cUlDOGRtRF9SQk9VcjRHaEtSdWs4OTlJbTdleXFfVVB6dFFOU2p3alhLd1p6NS1BQlBEcGF6eXRTa0dXM2IzNnZBXzF0SjFlYkhfd2Q0dFEyaXZ4LWNVcEllY0NWZHZsX2doWlYxR3V2cC1zVHFnQ2RyeloySDg?oc=5",
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/vini-jr-faz-hat-trick-e-brasil-encerra-2026-com-7-a-0-sobre-singapura/",
           "camp": "centro",
           "position": "editoria"
         },
@@ -268,38 +329,46 @@
           "position": "editoria"
         },
         {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/vini-jr-faz-hat-trick-e-brasil-encerra-2026-com-7-a-0-sobre-singapura/",
-          "camp": "centro",
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/esporte/2026/11/7323110-com-tres-de-vini-jr-brasil-atropela-singapura-em-ultimo-jogo-do-ano.html",
+          "camp": "rio",
           "position": "editoria"
         },
         {
           "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/com-tres-de-vini-jr-brasil-encerra-temporada-com-goleada-sobre-fragil-singapura.shtml",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMzlFOWViYnhKTzRWSDczMXNpekp3LTZxSXdXUXVxMm1GeGVrX0Nub2R4MC1QY1B4eXRlZWZIc2F0QmhQZEpwbG9BR0hOR2NUYVc2MDM4TjJsYkdJWnY0WGZPeUVJcUtfYXRyYnJXTm13QllORGZHUmd4eXF1UG5QUFdQT0F3dnZFbkYzZkozMkNwSkp0TGpvbHN5eHBLdjBsUnBaRTN1d1VZQjY4TkJUa3N0Vnhsak9ieTF2WkZNV2ZIc1pRUW5ZV051dw?oc=5",
           "camp": "centro-esquerda",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "UOL",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/11/17/brasil-se-despede-de-2026-com-goleada-tranquila-7-0-sobre-singapura.htm",
-          "camp": "centro-esquerda",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/esporte/selecao-brasileira-goleia-singapura-por-7-a-0-no-ultimo-amistoso-do-ano/",
-          "camp": "esquerda",
-          "position": "editoria",
-          "via": "coleta"
+          "position": "editoria"
         },
         {
           "name": "Correio Braziliense",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNEV3eVYxMUF1SGtQOE9nTXBfY01SS01Fa01HMDVlM1JfbkI0NzJWZnZqOFphY2RFaVVKUTlfSU9mT2NzTGs4M25uX3I2dVlXS0ExSGZEVF9McG5YYXAtYnludk1pVlFGWmJrSUE2NUFqVXlGdTFUNWxfbzlSZlRlaWRsaWdUVDdMRk5iNkdwMXJGaWRHUk5MVkFTUDlwVUZwdE9wb2Z1MXg2Y1Z2NGNXbnhJc0lhTVU3c3JQNjA4dTlKeVRC0gHKAUFVX3lxTE1BOWhfZ1Y0VFNQWnlVSXR0S0ViX2xXb2ZtTEVRTVVjVW1XUEFNVm9BWUtDQXRfZnJfMW9ZcHQzLVd1TGlkOXYxNEZ4cmQ5SHBDY3dOaUVlMDNRQXBkdW85S1lHZHgxUEo3NkxpS2hqS1lJcDliNFRPUTZKc2toVS1MUHQweGlKQ05iaTIxSXBvYmJBUUpxZGNXamdXUEYxUjB6TnV1ZEFDRWJoZTVQbjVqa3VReEtxZ3M5MkJzUzBrNGZlUS0xM1Vvbnc?oc=5",
           "camp": "centro",
-          "position": "editoria",
-          "via": "coleta"
+          "position": "editoria"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWU5WUTZ6N1dtSDFzYjVYbkhRaHpOOFB1YkxBYWFZODh3dUI1UzZNVndybFdLenBrSGVlcW5SMEtIdmhSelcyeFQydWxlUUxTY2t3MjB3YjVRN1ZwSlgwRXVDcFJkTmtvVV9IT3RFQmthR3BuTGN6bnV2bG04Vmh4aGNHal9HckJpZmN0Vm9GUkprX1FOeng3TUc3VktPRTd5NnB3X2NVYURRYU9zVVFDbnVJNG1ZNWlVM1NNYVlwZ04tS1RXYXdUN2hhRlpyRzNIaElSWXB6SU9NR0JWd2JfQVJNTmNYM2pMczFMOE05WHZPN0pBT01kOUxIWWl5STZ6QkM3V0dUc9IBjAJBVV95cUxONWl3MkJZNVM1X3Jjb3pQNmhkSFc3dU9YU1hsUXFjS29DaGx2Smt2YnQ3SE1kLWlkdWJDSVpqb2UxX0lqVktJTnpMcTlNNzFLeUlKd1czWEs1b29nZnJxZUNvbFcwTFZ1ckVraTNQbW5Xa1dVTWpmM0hiWXNqYW44dm9hQVVWN3FoMGJFWGYwVkZlZTA2NDh0QWFxQVdHMUJ5bGhHajU2bmFJNmUxRHJiSWg3TVZBZmVhQWhqSWlJeGdveXJCTHBlQWVFZTRGUzhzbHgwVVhyZmNNXzQ5LUdhSDFXY3ZCV05KUkdiZ2puZzllbm5CUy1nb0RhQ09PejI1MzBmSEhtNTBnbUpV?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/esportes/internacional/com-hat-trick-de-vini-jr-selecao-brasileira-vence-singapura-por-7-x-0-949760",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNU1oMlB4UG9XMk05X3lUSXlzaDFwejVyRUZNQ3l0OE9scEo5ajI5SC0tb2JkVkFxWU5DdExqN29kWDJhNHlNUExoN2RYeXlEcHdWZFoyQTVXUWxLc2VqaHhGRmMzSlJZQ2V6djlYN3c1V1YzSjBnNlc0Rkpid3B0SWFCOU1ydVVhOWZYaFpfRnBFekN5cUFWRDl4d05wdw?oc=5",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/esporte/selecao-brasileira-goleia-singapura-por-7-a-0-no-ultimo-amistoso-do-ano/",
+          "camp": "esquerda",
+          "position": "editoria"
         },
         {
           "name": "O Povo",
@@ -324,8 +393,8 @@
     {
       "id": "caravana-caxias-centro-duque-educacao-inclusao",
       "segment": "rio",
-      "title": "Duque de Caxias recebe Caravana de Inovação e Inclusão e Justiça mantém preso em operação da Draco",
-      "summary": "Duque de Caxias recebeu a Caravana de Inovação e Inclusão do Centro de Referência em Educação Inclusiva Sesc Senac. Justiça manteve preso contrarregra detido em operação da Draco na cidade. Um homem foi preso após jogar café quente no rosto da companheira em Duque de Caxias.",
+      "title": "Duque de Caxias recebe Caravana de Inovação e Inclusão e registra prisões em casos distintos",
+      "summary": "Duque de Caxias recebe Caravana de Inovação e Inclusão do Centro de Referência em Educação Inclusiva Sesc Senac. Um homem foi preso após jogar café quente no rosto da companheira em Duque de Caxias. A Justiça mantém preso contrarregra detido em operação da Draco no município.",
       "scores": {
         "cobertura": 6.0,
         "destaque": 6,
@@ -335,9 +404,9 @@
       "score": 7.1,
       "outlets": [
         {
-          "name": "Diário do Rio",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ0dEZm41Vjdxc1VBZGdBUUtXUkpuVGQ1ZFM1WVRTejVIYzgxdTEyRFY0RkVXeUFuemNwWjNHaDNhc0FTOE51MDZyeVFIczVHMDNFaGwzU3lNUGZEeTRuYkpYc3VEYnlveDJQb0hmeXlFMXhsN3hhZHRhalhxeURaTnVrSVBHSVZwUDRTM1BIUURleHRpSnM1S0dPVTUyZnkyeEp0LThtR2J3cHdoQ09IVUxoMWF2MG0xYXhnd0VLNzgteFR6dnZfU2M2SUJDWk9VYkU1OGFuYnN5N2daU1htMy1CcDdBN0oyeWdKc1RieVRVdw?oc=5",
-          "camp": "rio",
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/monicabergamo/2026/11/todos-pela-educacao-recebe-autoridades-em-comemoracao-de-20-anos-da-entidade.shtml",
+          "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
@@ -347,101 +416,133 @@
           "position": "editoria"
         },
         {
-          "name": "UOL",
-          "url": "https://redir.folha.com.br/redir/online/colunas/monicabergamo/rss091/*https://www1.folha.uol.com.br/colunas/monicabergamo/2026/11/todos-pela-educacao-recebe-autoridades-em-comemoracao-de-20-anos-da-entidade.shtml",
-          "camp": "centro-esquerda",
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ0dEZm41Vjdxc1VBZGdBUUtXUkpuVGQ1ZFM1WVRTejVIYzgxdTEyRFY0RkVXeUFuemNwWjNHaDNhc0FTOE51MDZyeVFIczVHMDNFaGwzU3lNUGZEeTRuYkpYc3VEYnlveDJQb0hmeXlFMXhsN3hhZHRhalhxeURaTnVrSVBHSVZwUDRTM1BIUURleHRpSnM1S0dPVTUyZnkyeEp0LThtR2J3cHdoQ09IVUxoMWF2MG0xYXhnd0VLNzgteFR6dnZfU2M2SUJDWk9VYkU1OGFuYnN5N2daU1htMy1CcDdBN0oyeWdKc1RieVRVdw?oc=5",
+          "camp": "rio",
           "position": "editoria"
         },
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/monicabergamo/2026/11/todos-pela-educacao-recebe-autoridades-em-comemoracao-de-20-anos-da-entidade.shtml",
+          "name": "UOL",
+          "url": "https://redir.folha.com.br/redir/online/colunas/monicabergamo/rss091/*https://www1.folha.uol.com.br/colunas/monicabergamo/2026/11/todos-pela-educacao-recebe-autoridades-em-comemoracao-de-20-anos-da-entidade.shtml",
           "camp": "centro-esquerda",
           "position": "editoria"
         }
       ],
       "asymmetry": {
         "flag": true,
-        "note": "Teve destaque na esquerda e no centro-esquerda (UOL, Folha de S.Paulo) e não apareceu nos portais de direita da coleta."
+        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, UOL) e não apareceu nos portais de direita da coleta."
       }
     },
     {
-      "id": "trabalhadores-mil-abono-2026-nao-salarial-276-sacaram",
-      "segment": "politica",
-      "title": "Mais de 276 mil trabalhadores ainda não sacaram o abono salarial 2026",
-      "summary": "Mais de 276 mil trabalhadores ainda não sacaram o abono salarial de 2026. O prazo para receber o benefício termina em dezembro.",
+      "id": "marca-vini-goleia-singapura-tres",
+      "segment": "esportes",
+      "title": "Vini Jr. marca três e Brasil goleia Singapura por 7 a 0",
+      "summary": "Vini Jr. O Brasil encerrou a temporada com goleada de 7 a 0 sobre Singapura.",
       "scores": {
         "cobertura": 10,
         "destaque": 6,
         "persistencia": 4,
-        "peso_voce": 6
+        "peso_voce": 10
       },
-      "score": 6.9,
+      "score": 7.8,
       "outlets": [
         {
-          "name": "Correio (Bahia)",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOclFBM3ZYN3lydHlxZXlseU1iVkdjOGhHekVYNzFHTmNXYnNqMnRSQzlIcXFQNmJSZlMzcWVwMzVpOC1WOTRQMHZxSFMwcjZldk9SSl9DV0FlNG45djRrU1hNcFNGV3h5MG10UTRZdl92bWZyM2kzNmlVSEpMZWpyVXVJZWVUSXdENU1sSDRERTVrVlZBVTcxdXY4Wmt6QWc1U01KRjFOWHBid2Z5a2dDdU81cnlHdnE4OFpnYVZEcnB6NFZwSEM0enZSSGtlVmdzSklr?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário de Pernambuco",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYkVheUxLZ1pvWllaTFdrUDdTcGZqdmNrckNlblY1U0ZFZk96aS1leVV1M1VGcWFXUVJISS1JTUNnOXc4RUpERlRGUWpXZFZCSFFTM04zTzJ2QmpCRUZKczgtUWVTOF8wNG9taVdsQ1BiV3Y2MjRXWUhic3U5LWRlaVdCcENvM1V5UDNfUmxvclVLaFA5RHBVSWo4RkN2ejJ3UGM1Y3pVbjdEbmdUUGRPejFnclNGN0Q3S2F4b1pCbVNHQnF5ZnJDZndxYUVmcjh3T2p1dDh5OFFrUHZsLWtQVlV0OA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "NSC Total",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNXZhR2MwdlZMQlpneVZmSW5IbmVoZXlYN2ZNSHRFMFljWHNYZ0xOd2ZXLUhiOXViTGgyYThNNWZGZ0JHS3NKMV9NaGZ6T0tPQW1YS2xEd2FqT0U2enh0NzR6dzd5cFl4MURFR29BSm1xMjZtcHZGNkxrY3pWNWhyMGp3Y2NjMkIyZ2h0Z1ZGYnRGaTFaRVF5T0U5WHVPcFR5UlpFaW4zdnRYRkJOUmFqYzJtdlpEVHZPaFpXQXRmUGZrSDBzUDNHanczUDZ2SDliSXJDRTVZc0dRUQ?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Tribuna do Norte",
-          "url": "https://tribunadonorte.com.br/economia/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026/",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
           "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMWxqc1RFbVBoUFJNcFdlQldnRzZSNEowQ3NXTXNVV19Lc2kteG5hRnQ1TGxJTWc2UEk0NThCME9zWGFCMXdCc2k5aHBBYXV4Nm82T09OWlpqRW5DM3l0bHJHbVBreU5nb01sNlpMSDV5eFBWc1BVZmg1dHZzQWlHNkotOVBDaTBhUkNDcnozWjVMSEhiaE1tU2ZzVkNXWERXV2FTRkF2REIwc2FMeHlmeFBaa2c3QjcyMi1mcnN6TzNYUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd1Z6bVRxbVpldTl5TDJzQXZOZ0hWMlBBeWR3VFR6QklBMWRKVmFhaklHVVR5cVlfR25IeVNGdDNEOHpIMkNBQVhzenp1NEI5ZmROTXBrendjWFlRaERPcmVXMTNSQzkyRmlHMTJ1WHhOc05GTTF6bTBPOTh4NU9rM3ZOaG5MMlV4UzJsM2ppSGVoYkl6UWhKUm12bEtwa0RNSjJLOEVqWEp2NmNfVFRuMHZXMzRkZzJtdWt5TTVNVDBUN0VsLVRxMThrYlpLZTA3dlh4U3A0cExGUXZXVnc00gHkAUFVX3lxTFBJNDNNZ2NhTDhnR1BicnlaSUpxSS12VjU3cExpemowemVVNWJfLWZvTEVRcV9wb092ZG1abHlta24wSFZhODhPM1pYMk1qakV1SVpwWG9aZGw0SVFpNE1kVXcxOEYtaGRGbHJNbnZLdm85cXhFV21BMERUbkhLRWVFUFNsUl9WWWRrTk1rTDVuTDZXYkE0LWF1SU82NzJWU1JFeG5NT0hLSzJVaG5GYXVNa0w3NHItMGROckZYWURLUndxRFFXTFBpMWt4RjI1Y0ZGcGYwUlJiQjVRNHZ6bE9MZ1ZlWg?oc=5",
           "camp": "rio",
           "position": "editoria"
         },
         {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026",
-          "camp": "estatal",
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/com-tres-de-vini-jr-brasil-encerra-temporada-com-goleada-sobre-fragil-singapura.shtml",
+          "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
-          "name": "Correio do Povo",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS016a3JOa3lrYTlHaWVUdmI2WjAycjhCc3dsdENiZllldW9IZ012TGlFVzdiSm5LeU5za3dyUEhvcFg3VEFWT2ktOXdodjNWLXVPVmNvaXl4VWRkOWpPUEVfRzZ3MXB4Nk9qWTlyWWlyMzBLSEtNcnZlRVlkZDhpakJZWmU3ZGcyc29TWGN5OElael9SX3l0RXpSM0pjaHUzMVpxOUZzb0oyMWVuVkp2bEpUcll3NzFjUURfWURWb2JZdFZOZ19yaE9NX2RkTElC?oc=5",
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSXYzaFM5bmJOR1dJaFl2eWllWmJXcWxQYlBFMHdkRGt6bkxXTUo0ZDJOS3J3UHp2b3FoRGNvUlFkWE9Kc3poelZKZGt3WjR4UUJJY3ZpWVM4dXNUeXV6WG9ENGpFYU9HWW1JSnYzVG0xVUVHYVQxWTk3TUhNX3pHc29LZTBtRFZUTGdtYjVXY1BzNDlnODNCd2czVzlnSGlVUndRakpmRFkzX0U4Q3NxTjBtRF9QZDJrdFBxR3ZRRnNkekZDbmtKU2FCcEZPcHhxR0xvV2FyclVNNGvSAeABQVVfeXFMTUpnREhGUFV0SEFfR1Q4U2RsYXRMT0NXVnVfTGJDUGdYVUViUXhKWEdvMkRLb1E0ZlVEZ1M0QmR2ajY4eDE1WHdtcGlkYmVuUngtYnlCM1l5ck5QZmFrMVRtb0cwbkFtZW1ZSVpGOXdPWkNFbGtQNEVDcFlZZFRNTk93VEs4VXdMTlg5UTJwX2tUYnFYcjdHOUdmTXJnY2NtM1JkZjZMcTc0TG5vRWNHRHViUGVaZlBLWEEwdzliZjY0R3Y5eVAzbVlNbE96QnJFRGVUQ05zckZTX0E5Rjg5MmE?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPbTY0dkpoWUZTSFVzeUxXZmlWak9YbmFBRl81a3lKMVhoQURVaDF1RHp5QlVCSUVLcHZwSXlNanloelprYTUwYVY0YUdTdnhKdERYYlJ1LXBubmpLenhkNTNRUHNQMjl5UkJGV0FqT3lSMXc3dk5ieGVSaGxRRGZTX2RNYUdmdVVqMVJUVDJ4QjRxS1dRTEtiems1NTlHYXhDZlpCeHYzU0gyY0psUHRrZUItcGxpdU1ockJmcG1kNmh2NHhiWFNLaWlBV0NSMV9VZ09MN0tVUTBBaUpTMVFPQTUxcEVvck81SEZweWJuZldZZXhhRDBrRV9PT1dZMXppenQ3d0EwSQ?oc=5",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/brasil/mais-de-276-mil-pessoas-ainda-nao-sacaram-o-abono-salarial-veja-quem-tem-direito/",
-          "camp": "direita",
+          "name": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01Nk1yNzQ1Z1NpbkNzRWlZajFveEVoQ3M3a3NNd0l6WkhCNWFQZ2UyYmdkOFZiNkVmUVhxR3JfUVpQZkxPS0RUTHIzam5PbXpXQktRRUlxejN5dlE5Q2Z5RFN1MmZ6SFk?oc=5",
+          "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
-          "name": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/economia/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-veja-como-receber/",
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/vini-jr-faz-hat-trick-e-brasil-encerra-2026-com-7-a-0-sobre-singapura/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/esporte/selecao-brasileira-goleia-singapura-por-7-a-0-no-ultimo-amistoso-do-ano/",
           "camp": "esquerda",
-          "position": "editoria"
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/esportes/futebol/futebol-internacional/brasil-goleia-singapura-por-7-a-0-e-encerra-temporada-de-2026/",
+          "camp": "direita",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/esporte/2026/11/7323110-com-tres-de-vini-jr-brasil-atropela-singapura-em-ultimo-jogo-do-ano.html",
+          "camp": "rio",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNEV3eVYxMUF1SGtQOE9nTXBfY01SS01Fa01HMDVlM1JfbkI0NzJWZnZqOFphY2RFaVVKUTlfSU9mT2NzTGs4M25uX3I2dVlXS0ExSGZEVF9McG5YYXAtYnludk1pVlFGWmJrSUE2NUFqVXlGdTFUNWxfbzlSZlRlaWRsaWdUVDdMRk5iNkdwMXJGaWRHUk5MVkFTUDlwVUZwdE9wb2Z1MXg2Y1Z2NGNXbnhJc0lhTVU3c3JQNjA4dTlKeVRC0gHKAUFVX3lxTE1BOWhfZ1Y0VFNQWnlVSXR0S0ViX2xXb2ZtTEVRTVVjVW1XUEFNVm9BWUtDQXRfZnJfMW9ZcHQzLVd1TGlkOXYxNEZ4cmQ5SHBDY3dOaUVlMDNRQXBkdW85S1lHZHgxUEo3NkxpS2hqS1lJcDliNFRPUTZKc2toVS1MUHQweGlKQ05iaTIxSXBvYmJBUUpxZGNXamdXUEYxUjB6TnV1ZEFDRWJoZTVQbjVqa3VReEtxZ3M5MkJzUzBrNGZlUS0xM1Vvbnc?oc=5",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/esportes/internacional/com-hat-trick-de-vini-jr-selecao-brasileira-vence-singapura-por-7-x-0-949760",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Tribuna do Norte",
+          "url": "https://tribunadonorte.com.br/esportes/com-hat-trick-de-vini-jr-brasil-goleia-singapura-e-fecha-ano-com-vitoria/",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "CBN",
+          "url": "https://cbn.globo.com/esporte/noticia/2026/11/17/brasil-goleia-singapura-por-7-a-0-em-ultimo-jogo-do-ano.ghtml",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
         }
       ],
       "asymmetry": {
-        "flag": false,
-        "note": ""
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, UOL) e não apareceu nos portais de direita da coleta."
       }
     },
     {
-      "id": "deputado-deixe-salario-receber-flavio-prerrogativas-bolsonar",
-      "segment": "economia",
-      "title": "Deputado do PT e Prerrogativas pedem ao STF que Flávio Bolsonaro deixe de receber salário de senador",
-      "summary": "Deputado do PT e grupo Prerrogativas pediram ao STF que Flávio Bolsonaro deixe de receber salário de senador. O grupo também pediu a prisão de Flávio e o bloqueio de seu salário.",
+      "id": "quer-financeiro-miseria-povo-espanha-mercado-pobre-lula",
+      "segment": "politica",
+      "title": "Lula diz na Espanha que mercado financeiro quer que o povo pobre viva na miséria",
+      "summary": "Lula: ‘Mercado financeiro quer que o povo pobre viva na miséria’. Lula se reúne com Sánchez em Madri a dias da eleição na Espanha. Comentaristas da GloboNews se estranham ao analisar encontro entre Lula e Sánchez na Espanha.",
       "scores": {
         "cobertura": 7.0,
         "destaque": 6,
@@ -451,46 +552,47 @@
       "score": 6.8,
       "outlets": [
         {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/politica/deputado-do-pt-e-prerrogativas-pedem-ao-stf-que-flavio-deixe-de-receber-salario-de-senador/",
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/lula-mercado-financeiro-quer-que-o-povo-pobre-viva-na-miseria/",
           "camp": "direita",
           "position": "editoria"
         },
         {
-          "name": "Correio do Povo",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMUdKRnJZUC1DQ0IxRVBVSDM1VTV5SzhlUHJXWlNUVTRCcDhoMTN2T01peFRwOVdPSk9xTkI4Si13ckZ6ai1UUkdaWVUySEJwR3liZ1pMdmNMZXFMWjNkTGZHbVotc2xnU0JJeDl1YU5LUEdqMFgyYW1IVjNLXzQ5dWtWSnBDUGRIcFhFeWFTTTkyMnFIczhSZ3h4QTJmNXdzRjFXZjVXMV9IMHFMOWZIWGhrenJZMjAyNFJZeGwzRVJvd1hJTWRjdmJ5UF9oR2xtdzFuYTNzaG9SajBjZXBZYkdLMG9Oa2VXNXI4dUF3?oc=5",
+          "name": "O Popular",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQlZYTUU5S192SXd4QmNfaVlxSjJVUkdwUGFMOWl0S1ExRUNzUEowcGlzcndNSlJEU2RRM2FWWTZJa2xkVXg5cnVMUUc3ZDB6dXllWmtIOWZIdWQyWjRWQXdlcFYyaGtUWUtkUUlRUmRHY3hZVVVSbWY2NlFfdndJbmh1b1Z2NUVqV1NPZFFHRUZlQjN0MDRuNzF4WmZybGNoVHdXd3V3?oc=5",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "Tribuna do Norte",
-          "url": "https://tribunadonorte.com.br/politica/deputado-do-pt-e-prerrogativas-pedem-ao-stf-que-flavio-deixe-de-receber-salario-de-senador/",
+          "name": "Estado de Minas",
+          "url": "https://www.em.com.br/politica/2026/11/7539730-comentaristas-da-globonews-se-estranham-ao-analisar-encontro-entre-lula-e-sanchez-na-espanha.html",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/grupo-prerrogativas-e-deputado-do-pt-pedem-prisao-de-flavio-e-bloqueio-de-salario/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQclFOcjFBNkw1TXY5NEN6dndVWDY0MWNGbTdHS3FOU0Y2TThEZS0tcTdWU0pHSjRRdnZ5STkyYTRxblRneE5hQlVITU9xQU84LTktb3NCbnh3SkUzc0NvWU82N3ZEOFUxbmktQ201SV82SENMSjB0eVBpYU5jam9heFhDR052WHpnN0lzNE5QWWRhazNxb0prYmRGejh3TU8tRTJpMHVkT082U1d1V1BudEMxN0lzdEYwQThsS284Nm84X2xKQ2xuYTFIX2XSAdIBQVVfeXFMTTNMbU5IRVlyZFJpTlUtdTVQOW1xX3BWT29Xekt1bENTckVXRFRrNVAteEJmUHZqX0hQazBiQzBmNV9tb2xkVlYtYmw0cVNlSDNraE42dUNCd3psb21mSl83V09USlg1MU9MbzJIa0tpZDVHdkdSZ0puMDRobENmbTRjSGpwcjJJR25ESllDR29GS3FSV0kzZDJXQUZuN1JfTURYNFR5OWloa2YwRko2QjFTdU1yTW5OWGUyYV82WlRGUkxBYkdtWmZlZVZyZE5vRWpR?oc=5",
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/na-espanha-lula-diz-a-sanchez-mercado-quer-que-o-pobre-viva-na-miseria",
           "camp": "centro",
           "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUjlIN3NhRHZiTnBMUXF6V1lHUklmb2ZQVzFNVWp6RXZkTUl1TURlYUlfckZWcGVKQUloMmV4NFFNSXJQQUxBUDFNZEoyUkNZelJVX25KbnlvZzBwU1laTnNuVXNSQW1DQ0tEZ21KY0NsRVFFTE5jUWVSR0FoZE5ZTy13SXpaSkJISGE0ZnB1Nm9aUHVRY2hkNUt5U2s?oc=5",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
         }
       ],
       "asymmetry": {
-        "flag": true,
-        "note": "Teve destaque na direita (Jovem Pan, Gazeta do Povo) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
+        "flag": false,
+        "note": ""
       }
     },
     {
-      "id": "andrei-nega-delegados-caso-master-afastamento-rodrigues-rach",
+      "id": "master-afastamento-racha-andrei-nega-delegados-rodrigues",
       "segment": "politica",
-      "title": "Andrei Rodrigues nega racha na PF após afastamento de delegados do caso Master",
-      "summary": "Andrei Rodrigues nega que haja racha na Polícia Federal diante do afastamento de delegados do caso Master. Segundo ele, os delegados foram afastados por 'quebra de confiança'. A PF também alega 'quebra de confiança' para o afastamento.",
+      "title": "Andrei Rodrigues nega racha na PF após afastamento de delegados do Master",
+      "summary": "Andrei Rodrigues nega racha na Polícia Federal diante do afastamento de delegados do caso Master. Delegados foram afastados por 'quebra de confiança', segundo o diretor-geral da PF. A PF alega 'quebra de confiança' para o afastamento dos delegados.",
       "scores": {
         "cobertura": 6.0,
         "destaque": 6,
@@ -500,8 +602,8 @@
       "score": 6.5,
       "outlets": [
         {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTE04c2hVZjlMQWg2ZmZZZ2dPeU51bE5xTE5XNEEwMGpwXzQ3aGFMOTl5ZkRTTzRqZzRTLWhqLWh6WWJaWURBMThNLUdiVnZyNXVNOXdzVjBUZGFMWFZ1cWdmN2xQRXhDRk03TTA5OG9HWmVRcFBaTFRET0tSd2VOcWNaSkVNOEtrdEo2dVRlUTJnRm1ENXVYRXplTy02eW1aeTNISWwwNUtjU1RYRGE2SXhyNVlDWFpLaDJKeVFfTVRhY1FORFpkQlpEWnlMeTVraVRCbHhhcVpJSkphUFVseA?oc=5",
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/delegados-foram-afastados-por-quebra-de-confianca-diz-andrei-rodrigues/",
           "camp": "centro",
           "position": "editoria"
         },
@@ -512,15 +614,15 @@
           "position": "editoria"
         },
         {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-justica/delegados-foram-afastados-por-quebra-de-confianca-diz-andrei-rodrigues/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
           "name": "Pleno.News",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT0MwdElFWnF5TU1iTm9JVk1QYng0XzgzNmdfeFQwM2xJbFN2ZU1UQ1NsV2lkU1o5cGVUREVPZElhMk1xbTdITVU5N3RIMEhvVmQ5NG5DZ056YTRxcFVQcER2LXBKRUl4S2R0elBHRGJ5ci1pbXRpY0ZzRkV3U3lMSm10Y0oySFdiX0V5UlNqVnNNMTg?oc=5",
           "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTE04c2hVZjlMQWg2ZmZZZ2dPeU51bE5xTE5XNEEwMGpwXzQ3aGFMOTl5ZkRTTzRqZzRTLWhqLWh6WWJaWURBMThNLUdiVnZyNXVNOXdzVjBUZGFMWFZ1cWdmN2xQRXhDRk03TTA5OG9HWmVRcFBaTFRET0tSd2VOcWNaSkVNOEtrdEo2dVRlUTJnRm1ENXVYRXplTy02eW1aeTNISWwwNUtjU1RYRGE2SXhyNVlDWFpLaDJKeVFfTVRhY1FORFpkQlpEWnlMeTVraVRCbHhhcVpJSkphUFVseA?oc=5",
+          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -530,10 +632,10 @@
       }
     },
     {
-      "id": "suspeitos-funcionarios-cumpre-mandados-pessoa-joao-civil-pol",
+      "id": "cumpre-tem-civil-lagoa-prisao-mandados-ordens-policia",
       "segment": "seguranca",
-      "title": "Polícia Civil cumpre mandados de prisão contra funcionários de locadora suspeitos de furto em João Pessoa",
-      "summary": "A Polícia Civil cumpre mandados de prisão preventiva contra funcionários de uma locadora suspeitos de furtar veículos da frota em João Pessoa. Um traficante que apareceu armado com fuzil na Lagoa tem 14 mandados de prisão em aberto e ao menos dez processos por roubo. Uma megaoperação contra o PCC em Minas Gerais cumpre mais de 60 mandados.",
+      "title": "Polícia Civil cumpre mandados e traficante da Lagoa tem 14 ordens de prisão em aberto",
+      "summary": "A Polícia Civil cumpre mandados de prisão preventiva contra funcionários de locadora suspeitos de furtar veículos da frota em João Pessoa. Traficante que apareceu armado com fuzil na Lagoa tem 14 mandados de prisão em aberto e ao menos dez processos por roubo.",
       "scores": {
         "cobertura": 6.0,
         "destaque": 6,
@@ -542,18 +644,6 @@
       },
       "score": 6.5,
       "outlets": [
-        {
-          "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFRzWmFKdUdDa2lpbzJHSkluN0I0M0RFWGhUNFBWSlFHU3RLbmx4NGVXSlFVZ1NhVE13RWpDY0lqRzZ0Rm1Xb3NIR2VjX3FNdzZTN3NFVU9FZHd2d3lwYjlmZ0hhTTNPSmVVZ1JpTlhnTjBaelN4RGloYVJXLVYyYTExY1VnRkFmVElicQ?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUXNUamx4VFdvR2kyWFU3Z1M2NWNja0l0X0VaOHNPTHJDVkpuREZBdXVUcXIxVGlib0FxSnR0Vm1OS0duc2RfRDhRaGFVTFB4Tm1pWTh4VUp3NnhBbk4tV1N6S3NBSFhjXzB1WWhBM0QyM1Z2WWV0N0tFODlPRmhfc19vLWxJTmtER1gwSDZBWlJtX1RaWV9aOWpjbmFGOUhFSWRSb09aNGFud0k?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
         {
           "name": "O Globo",
           "url": "https://oglobo.globo.com/rio/noticia/2026/11/17/traficante-que-apareceu-armado-com-fuzil-na-lagoa-tem-14-mandados-de-prisao-em-aberto-e-ao-menos-dez-processos-por-roubo.ghtml",
@@ -565,6 +655,18 @@
           "url": "https://noticias.r7.com/paraiba/portal-correio/policia-civil-cumpre-mandados-de-prisao-preventiva-contra-funcionarios-de-locadora-suspeitos-de-furtar-veiculos-da-frota-em-joao-pessoa-17112026/",
           "camp": "centro",
           "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFRzWmFKdUdDa2lpbzJHSkluN0I0M0RFWGhUNFBWSlFHU3RLbmx4NGVXSlFVZ1NhVE13RWpDY0lqRzZ0Rm1Xb3NIR2VjX3FNdzZTN3NFVU9FZHd2d3lwYjlmZ0hhTTNPSmVVZ1JpTlhnTjBaelN4RGloYVJXLVYyYTExY1VnRkFmVElicQ?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUXNUamx4VFdvR2kyWFU3Z1M2NWNja0l0X0VaOHNPTHJDVkpuREZBdXVUcXIxVGlib0FxSnR0Vm1OS0duc2RfRDhRaGFVTFB4Tm1pWTh4VUp3NnhBbk4tV1N6S3NBSFhjXzB1WWhBM0QyM1Z2WWV0N0tFODlPRmhfc19vLWxJTmtER1gwSDZBWlJtX1RaWV9aOWpjbmFGOUhFSWRSb09aNGFud0k?oc=5",
+          "camp": "regional",
+          "position": "editoria"
         }
       ],
       "asymmetry": {
@@ -573,53 +675,10 @@
       }
     },
     {
-      "id": "oposicao-canal-policia-nomeia-turca-diretores-administrador-",
-      "segment": "seguranca",
-      "title": "Polícia turca prende diretores de canal de oposição e nomeia administrador",
-      "summary": "A polícia da Turquia prendeu diretores de uma emissora de oposição e nomeou um novo administrador para o canal. Mais um canal de TV pró-oposição é alvo de intervenção no país.",
-      "scores": {
-        "cobertura": 6.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 6.3,
-      "outlets": [
-        {
-          "name": "Valor Econômico",
-          "url": "https://valor.globo.com/empresas/noticia/2026/11/17/bp-nomeia-novos-diretores-em-meio-a-reestruturao-dos-negcios.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/policia-turca-prende-diretores-de-canal-de-oposicao-e-nomeia-administrador.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/mundo/policia-turca-prende-diretores-de-emissora-e-nomeia-novo-administrador/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "O Antagonista",
-          "url": "https://oantagonista.com.br/mundo/crusoe-mais-um-canal-de-tv-pro-oposicao-e-alvo-de-intervencao-na-turquia/",
-          "camp": "centro-direita",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": true,
-        "note": "Teve destaque na direita (Jovem Pan, O Antagonista) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
-      }
-    },
-    {
-      "id": "lula-civil-policia-advogadas-filho-suposto-mira-golpe",
+      "id": "filho-civil-mira-golpe-policia-lula-suposto-advogadas",
       "segment": "seguranca",
       "title": "Polícia Civil mira advogadas por suposto golpe contra filho de Lula",
-      "summary": "A Polícia Civil realiza operação contra advogadas suspeitas de golpe em filho de Lula. As advogadas já foram investigadas pela Polícia Federal. A operação também mira fraude contra a ex-esposa do filho de Lula.",
+      "summary": "Polícia Civil mira advogadas por suposto golpe contra filho de Lula. Advogadas suspeitas de golpe em filho de Lula já foram investigadas pela PF. Operação mira fraude contra ex-esposa do filho de Lula.",
       "scores": {
         "cobertura": 6.0,
         "destaque": 5,
@@ -629,9 +688,9 @@
       "score": 6.3,
       "outlets": [
         {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/sao-paulo/advogadas-suspeitas-de-golpe-em-filho-de-lula-ja-foram-investigadas-pela-pf",
-          "camp": "centro",
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZ1A3UTRYamNuUDlfTXkwbTdKWFdBOVpTSjh3NkFpdGFOTFEzMjFKWGtfVWJhV2FBZ1JWNGpDTEo0MG9EbWI5Z3BINlJldlpRTkMtcEhQNzg3dUo3aUFKY0o0Q2dSQWZzV2ozZVFXVnFKWV9jRHk3eGlOY1AtQUdYek9KNnRsbnhMa1FBRHQzNndZbko4dmJNcy1rQnRWbnl3czR3V292dnJHdzlxejVqRkxmNk55VjhBMjhMd2c5NE9YXzdCd0lyNWdIaUtndFZpUU03SkxFY2dXd2trc1k5SGthcDBwWDZPV3VTVFpXcS1STUVjY3RqRXhWV0xmd1lDeDRv?oc=5",
+          "camp": "regional",
           "position": "editoria"
         },
         {
@@ -647,9 +706,9 @@
           "position": "editoria"
         },
         {
-          "name": "Diário de Pernambuco",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZ1A3UTRYamNuUDlfTXkwbTdKWFdBOVpTSjh3NkFpdGFOTFEzMjFKWGtfVWJhV2FBZ1JWNGpDTEo0MG9EbWI5Z3BINlJldlpRTkMtcEhQNzg3dUo3aUFKY0o0Q2dSQWZzV2ozZVFXVnFKWV9jRHk3eGlOY1AtQUdYek9KNnRsbnhMa1FBRHQzNndZbko4dmJNcy1rQnRWbnl3czR3V292dnJHdzlxejVqRkxmNk55VjhBMjhMd2c5NE9YXzdCd0lyNWdIaUtndFZpUU03SkxFY2dXd2trc1k5SGthcDBwWDZPV3VTVFpXcS1STUVjY3RqRXhWV0xmd1lDeDRv?oc=5",
-          "camp": "regional",
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/sao-paulo/advogadas-suspeitas-de-golpe-em-filho-de-lula-ja-foram-investigadas-pela-pf",
+          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -659,10 +718,10 @@
       }
     },
     {
-      "id": "meta-educacao-200-validou-transformar-censura-secretario-esc",
+      "id": "anuncia-secretario-meta-transformar-200-douglas-educacao-esc",
       "segment": "educacao",
-      "title": "Futuro secretário de Educação do RJ validou censura a livro e meta é transformar 200 escolas em cívico-militares",
-      "summary": "O futuro secretário de Educação do RJ validou a censura ao livro 'O Avesso da Pele' em escolas do Paraná. Douglas Ruas apresentou o novo secretário e anunciou a meta de transformar 200 escolas do estado em unidades cívico-militares.",
+      "title": "Douglas Ruas anuncia novo secretário de Educação do RJ e meta de transformar 200 escolas em cívico-militares",
+      "summary": "Douglas Ruas apresenta o futuro secretário de Educação do Rio de Janeiro e anuncia a meta de transformar 200 escolas do estado em unidades cívico-militares. Delegacia comandada pelo futuro secretário de Segurança ficou em último em ranking de produtividade investigativa do Rio.",
       "scores": {
         "cobertura": 6.0,
         "destaque": 5,
@@ -678,9 +737,9 @@
           "position": "editoria"
         },
         {
-          "name": "Extra",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOLXl3dHpyLVRGVnV2eTRiTnphOXJYdi1KNDl3ZUxOS245UGhOZjFYQWlxVW9nZVoxN3g3Mm5xNlkxbnE5SnduTWFTVjlCRVhyalJOYlJ2eDVBOWNGTl9UY29hcFFwWUVLMVNhcWNwRU9hU0xpc3EwSVRybGNpMEEtYXo5bkRzdTdqTFRCTG5LcWNBYW1XY05aWlhMYTgtSEtrVWlrQVlSeGZtY21EbnZkaDJxNmw3ZXlXOGNOeHJKNi1BQUx6UlZBNk1TbzFHTXlqbnB4Y1lFX09QVTUtMG9MZnFLdU9GUVZtU2o40gH6AUFVX3lxTE4zbW02QnNTTS1kamRGekxENm01MkdRUG5zOWNTTzlnbGxtOVNfc1JzSEdSNDl4WFBwMFZENktqdk9EYTBlSHR5bVZBakEyZE1xMkhwdTFNbzMtNFZBemhkdXRxV0NQdmpFNDNNN1Y5R2xRdmVUc3dlb0wxakpLdVNrbkRLMl9PSTA0MFZ1QVJNdUt2YWMwdm5zLUtrN1kyZFVFVW1TQjFxWDNQNUZsUU5SNFJ0R1IzWmJ2VWdTMzRhWFY3ZE1EMGRQT2NSX3J5anItd1N2NEZETGhPaEdRa2xPODgyMHpieWlTN3JfbmgtWGpCc1owTFB5akE?oc=5",
-          "camp": "rio",
+          "name": "ICL Notícias",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55R1F1c2pjQnprY3Nkdllja2xVWFpRWklnWFdZdlViczFMM29yRXd5Ujh1OHcza2RpWmhhYXlEc0VIbWFQMDU5OFFfWjRWVjdHaXQ3OUlGVHZjMnM0TmdQMVBWTzJuckxLNWNfT29NREZaRFNGNGRoQVFDWQ?oc=5",
+          "camp": "esquerda",
           "position": "editoria"
         },
         {
@@ -690,22 +749,59 @@
           "position": "editoria"
         },
         {
-          "name": "ICL Notícias",
-          "url": "https://iclnoticias.com.br/futuro-secretario-de-educacao-do-rj-censura/",
-          "camp": "esquerda",
+          "name": "Extra",
+          "url": "https://extra.globo.com/rio/noticia/2026/11/douglas-ruas-anuncia-novo-secretario-de-educacao-e-promete-transformar-200-escolas-do-rio-em-civico-militares.ghtml",
+          "camp": "rio",
           "position": "editoria"
         }
       ],
       "asymmetry": {
         "flag": true,
-        "note": "Teve destaque na esquerda e no centro-esquerda (Brasil 247, ICL Notícias) e não apareceu nos portais de direita da coleta."
+        "note": "Teve destaque na esquerda e no centro-esquerda (ICL Notícias, Brasil 247) e não apareceu nos portais de direita da coleta."
       }
     },
     {
-      "id": "condenado-racismo-torcedor-espanha-mbappe",
+      "id": "grupos-operacoes-trafico-policiais-armas-miram-diferentes-dr",
+      "segment": "seguranca",
+      "title": "Operações policiais miram grupos de tráfico de drogas e armas em diferentes estados",
+      "summary": "Grupo suspeito de tráfico de drogas em quiosques da orla de João Pessoa é alvo de operação da Polícia Civil. Mais de 40 suspeitos de integrar rede de tráfico de drogas e comércio de armas são alvo de operação interestadual. Suspeito de tráfico e homicídios, 'Cris Pezão' é preso após cerco policial em Maceió.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.2,
+      "outlets": [
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/paraiba/portal-correio/grupo-suspeito-de-trafico-de-drogas-em-quiosques-da-orla-de-joao-pessoa-e-alvo-de-operacao-da-pc-17112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "G1",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdnhwZ3UxUG1Xd2VJMkt4SXVEQkVxSWszVFVmY0U0YkFlNEhpbFpJd0lvODFkWnhqcE9GcFlWazQwajhqa2t5NEFkZ3o4LXlaUDVFUlFsc1FOTWY3MW9ielVVLXFFNVEtRUxSUW1IcVhwUENnWm1qbzFPVDVhcHBsSldqcUNRbElGTE5SdDY3RHZsVUxaMU5fc3RwV1dyRU9oU09YazI0bzNwOThPOEdWd180cVMtZ0xDRkxtLW1iaXdYVl9CNlRLTHVoUG03dUhkdkhuWW01WXRHZDVkbkhGc3dCbDJYeDNFMVBxUTlhOEhXcTJ6NXhZLUpjNmlEZVnSAY4CQVVfeXFMT2VHVDdvSThNaFdDMDUyZGlHc1FZV29ONm5VdFV6VW5RalNBWEpyUFU4WUVBR0t0QmZxYlc4N3JleVB0U1VFMUN4Q2FmOVB3WE1pZ2x4bVk5VDQ2blMtQ0JBY1g2VmdNUENWWlhlbUF5bUs4ZFhfNWxXaEtsTFRlRjczUVF4Z2VDTVJSOUZlMF9XSzJCRVJjMXFQdG9KUF83S1FZMDN1TEt0aEl0c21Wc2RPVzltcmduQ2JFT2FFSUxjdXJqNWRkenVyc1NqQVo5UDdiSnNYeWVrelRRbjUxM2hSSll4WVNvWllLV0RxYkpBMGYtQWtnem01TGpScm1NMWZoc2pFd2VQVDc0RkJR?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/policia/suspeito-de-trafico-e-homicidios-cris-pezao-e-preso-apos-cerco-policial-em-maceio-949748",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "condenado-racismo-torcedor-mbappe-espanha",
       "segment": "seguranca",
       "title": "Torcedor é condenado por racismo contra Mbappé na Espanha",
-      "summary": "Um torcedor foi condenado a 11 meses de prisão por racismo contra Mbappé na Espanha. O torcedor do Oviedo foi punido por ato de racismo contra o jogador.",
+      "summary": "Um torcedor foi condenado a 11 meses de prisão por racismo contra Mbappé na Espanha. Torcedor é condenado por racismo contra Mbappé na Espanha. Torcedor do Oviedo é punido por ato de racismo contra Mbappé na Espanha.",
       "scores": {
         "cobertura": 5.0,
         "destaque": 5,
@@ -714,6 +810,12 @@
       },
       "score": 5.9,
       "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-espanhol/torcedor-do-oviedo-e-punido-por-ato-de-racismo-contra-mbappe-na-espanha/",
+          "camp": "centro",
+          "position": "editoria"
+        },
         {
           "name": "Brasil 247",
           "url": "https://www.brasil247.com/esporte/torcedor-e-condenado-a-11-meses-de-prisao-por-racismo-contra-mbappe-na-espanha/",
@@ -725,12 +827,6 @@
           "url": "https://www.gazetaweb.com/noticias/esportes/torcedor-e-condenado-por-racismo-contra-mbappe-na-espanha-949754",
           "camp": "regional",
           "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-espanhol/torcedor-do-oviedo-e-punido-por-ato-de-racismo-contra-mbappe-na-espanha/",
-          "camp": "centro",
-          "position": "editoria"
         }
       ],
       "asymmetry": {
@@ -739,10 +835,10 @@
       }
     },
     {
-      "id": "perito-assassinato-epstein-suicidio-questiona-prisao-sugere",
+      "id": "epstein-prisao-autopsia-sugerem-assassinato-perito-fotos",
       "segment": "seguranca",
-      "title": "Perito questiona suicídio de Epstein e sugere assassinato na prisão",
-      "summary": "Fotos da autópsia de Epstein sugerem que ele foi assassinado na prisão, segundo perito. Um especialista forense questiona o suicídio do empresário e aponta possibilidade de assassinato.",
+      "title": "Perito diz que fotos da autópsia de Epstein sugerem assassinato na prisão",
+      "summary": "Perito diz que fotos da autópsia de Epstein sugerem que ele foi assassinado na prisão. Especialista forense questiona suicídio do empresário e diz que ele pode ter sido assassinado.",
       "scores": {
         "cobertura": 5.0,
         "destaque": 5,
@@ -751,12 +847,6 @@
       },
       "score": 5.9,
       "outlets": [
-        {
-          "name": "BBC News Brasil",
-          "url": "https://www.bbc.com/portuguese/articles/cmx2r6kwkkq5o?at_medium=RSS&at_campaign=rss",
-          "camp": "internacional",
-          "position": "editoria"
-        },
         {
           "name": "Diário de Pernambuco",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYXVxSTBMbWNTRFZCTHFFWDNyTVdEMmNPTFNmS3lMV3gtdGoxZHVlUXp6MUZRUURhckNVOVJMTVlOY0VjR05UUHN1QlZCV25MSDEwbkFnaG5hV3I2dUJZNWpzeWtabHZSc3cwblpBTzVVYi1fWGRFV0ZHVE9Sa1JOVEFFU0RrblNOUWxoWktlRFpNb2Zfdk5oc290aUJuV3d6SkVyMk1aOExMRDhxeXNvcTNaaTdHdXpZR21JaHBuaWQ1SFNvcE95LU51YmtaWlZCRnZIRElUZ1FOaHE0OF82bGxnNUFyUQ?oc=5",
@@ -768,6 +858,12 @@
           "url": "https://oglobo.globo.com/mundo/epoca/noticia/2026/11/17/caso-epstein-especialista-forense-questiona-suicidio-do-empresario-e-diz-que-ele-pode-ter-sido-assassinado.ghtml",
           "camp": "centro",
           "position": "editoria"
+        },
+        {
+          "name": "BBC News Brasil",
+          "url": "https://www.bbc.com/portuguese/articles/cmx2r6kwkkq5o?at_medium=RSS&at_campaign=rss",
+          "camp": "internacional",
+          "position": "editoria"
         }
       ],
       "asymmetry": {
@@ -776,222 +872,102 @@
       }
     },
     {
-      "id": "goleada-encerra-singapura-ano-selecao",
-      "segment": "esportes",
-      "title": "Seleção Brasileira encerra ano com goleada sobre Singapura",
-      "summary": "Vini Jr. brilhou com três gols e a seleção fechou o ano com goleada sobre Singapura.",
+      "id": "mundial-boato-circula-apagao-novembro-redes",
+      "segment": "ciencia",
+      "title": "Boato sobre apagão mundial em 17 de novembro circula nas redes",
+      "summary": "Apagão mundial em 17 de novembro: de onde vem o boato?. Resumo de 'Lá na Minha Terra' desta terça (17 de novembro): veja tudo o que vai acontecer no capítulo de hoje.",
       "scores": {
-        "cobertura": 9.3,
+        "cobertura": 8.0,
         "destaque": 6,
         "persistencia": 4,
         "peso_voce": 6
       },
-      "score": 6.7,
+      "score": 6.3,
       "outlets": [
-        {
-          "name": "Diário de Pernambuco",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWU5WUTZ6N1dtSDFzYjVYbkhRaHpOOFB1YkxBYWFZODh3dUI1UzZNVndybFdLenBrSGVlcW5SMEtIdmhSelcyeFQydWxlUUxTY2t3MjB3YjVRN1ZwSlgwRXVDcFJkTmtvVV9IT3RFQmthR3BuTGN6bnV2bG04Vmh4aGNHal9HckJpZmN0Vm9GUkprX1FOeng3TUc3VktPRTd5NnB3X2NVYURRYU9zVVFDbnVJNG1ZNWlVM1NNYVlwZ04tS1RXYXdUN2hhRlpyRzNIaElSWXB6SU9NR0JWd2JfQVJNTmNYM2pMczFMOE05WHZPN0pBT01kOUxIWWl5STZ6QkM3V0dUc9IBjAJBVV95cUxONWl3MkJZNVM1X3Jjb3pQNmhkSFc3dU9YU1hsUXFjS29DaGx2Smt2YnQ3SE1kLWlkdWJDSVpqb2UxX0lqVktJTnpMcTlNNzFLeUlKd1czWEs1b29nZnJxZUNvbFcwTFZ1ckVraTNQbW5Xa1dVTWpmM0hiWXNqYW44dm9hQVVWN3FoMGJFWGYwVkZlZTA2NDh0QWFxQVdHMUJ5bGhHajU2bmFJNmUxRHJiSWg3TVZBZmVhQWhqSWlJeGdveXJCTHBlQWVFZTRGUzhzbHgwVVhyZmNNXzQ5LUdhSDFXY3ZCV05KUkdiZ2puZzllbm5CUy1nb0RhQ09PejI1MzBmSEhtNTBnbUpV?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "UOL",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNU1oMlB4UG9XMk05X3lUSXlzaDFwejVyRUZNQ3l0OE9scEo5ajI5SC0tb2JkVkFxWU5DdExqN29kWDJhNHlNUExoN2RYeXlEcHdWZFoyQTVXUWxLc2VqaHhGRmMzSlJZQ2V6djlYN3c1V1YzSjBnNlc0Rkpid3B0SWFCOU1ydVVhOWZYaFpfRnBFekN5cUFWRDl4d05wdw?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMzlFOWViYnhKTzRWSDczMXNpekp3LTZxSXdXUXVxMm1GeGVrX0Nub2R4MC1QY1B4eXRlZWZIc2F0QmhQZEpwbG9BR0hOR2NUYVc2MDM4TjJsYkdJWnY0WGZPeUVJcUtfYXRyYnJXTm13QllORGZHUmd4eXF1UG5QUFdQT0F3dnZFbkYzZkozMkNwSkp0TGpvbHN5eHBLdjBsUnBaRTN1d1VZQjY4TkJUa3N0Vnhsak9ieTF2WkZNV2ZIc1pRUW5ZV051dw?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/esporte/selecao-brasileira-goleia-singapura-por-7-a-0-no-ultimo-amistoso-do-ano/",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ01KeTE5V3IyYjFVV2IwalhwV3pIcWNnd3hpTWhkbzA4NDBPdHY1bkItbXhaRzF3X0d1bEV1cnBDbG1vX1QyWVgzeE84RXJYV2NWTGZxQ2ZYdE5oMy1Xdjg0aVZQQjViM3BBclZKdnVYYzlONFZNUndENTdRUDUyWEpBQ045WHUxZnRTX19CQ3ptdEhJbDIzcGVYVUdfc3E0ZHItYXg0MA?oc=5",
-          "camp": "centro",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNEV3eVYxMUF1SGtQOE9nTXBfY01SS01Fa01HMDVlM1JfbkI0NzJWZnZqOFphY2RFaVVKUTlfSU9mT2NzTGs4M25uX3I2dVlXS0ExSGZEVF9McG5YYXAtYnludk1pVlFGWmJrSUE2NUFqVXlGdTFUNWxfbzlSZlRlaWRsaWdUVDdMRk5iNkdwMXJGaWRHUk5MVkFTUDlwVUZwdE9wb2Z1MXg2Y1Z2NGNXbnhJc0lhTVU3c3JQNjA4dTlKeVRC0gHKAUFVX3lxTE1BOWhfZ1Y0VFNQWnlVSXR0S0ViX2xXb2ZtTEVRTVVjVW1XUEFNVm9BWUtDQXRfZnJfMW9ZcHQzLVd1TGlkOXYxNEZ4cmQ5SHBDY3dOaUVlMDNRQXBkdW85S1lHZHgxUEo3NkxpS2hqS1lJcDliNFRPUTZKc2toVS1MUHQweGlKQ05iaTIxSXBvYmJBUUpxZGNXamdXUEYxUjB6TnV1ZEFDRWJoZTVQbjVqa3VReEtxZ3M5MkJzUzBrNGZlUS0xM1Vvbnc?oc=5",
-          "camp": "centro",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWXRxV3B2RmtsZmRpZFRONkVhOEdRMXBLbE5mbGc3S1RSRHhVR00xQkxyVV9sQi11Zk5IMm5lbzdNS3J0N1dkNDRvQnk2M3FISk84dGdYMmxPQ0dVeVZPd1lqOU43bmxvcjZabHp0NW1XdXVOZ2JvM2tOdnFlM3FxakhOMEdENzBjOC1vZF96b2t6THRPQ3llRGZwMjVGcUlOQ1oycDhFS2QzdWNwdmFDY2o5Q3ZhMTJ1dlcyUHJSLUhlYmhKRlRXWlMxZXNOeER2TG9qaTFxUmpKRGJzY3ZGWi11RmtzOXF1bUZFNA?oc=5",
-          "camp": "regional",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "Gazeta de Alagoas",
-          "url": "https://www.gazetaweb.com/noticias/esportes/internacional/com-hat-trick-de-vini-jr-selecao-brasileira-vence-singapura-por-7-x-0-949760",
-          "camp": "regional",
-          "position": "editoria",
-          "via": "coleta"
-        }
-      ],
-      "asymmetry": {
-        "flag": true,
-        "note": "Teve destaque na esquerda e no centro-esquerda (UOL, Folha de S.Paulo, Brasil 247) e não apareceu nos portais de direita da coleta."
-      }
-    },
-    {
-      "id": "ancelotti-atacar-fala-peso-poder-romario",
-      "segment": "esportes",
-      "title": "Romário volta a criticar Ancelotti e Brasil goleia Singapura",
-      "summary": "Romário voltou a atacar o trabalho de Ancelotti na seleção, afirmando ter tamanho, peso e poder de fala. O Brasil venceu Singapura por 7 a 0 em meio à polêmica entre Romário e Ancelotti.",
-      "scores": {
-        "cobertura": 5.0,
-        "destaque": 5,
-        "persistencia": 7,
-        "peso_voce": 6
-      },
-      "score": 5.6,
-      "outlets": [
-        {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS0RzNkpVQUtMb3NiLXFMRG4xTFlSejhDUFBqS2JQbDU2NjhlM0VHZVlvMUJTbFVVUnM5ODdmSUJ5RnUtX2VneWE0aUtWdFU1OVY3RnhKWlZYek9zR2dycFBqdGJ2bTZtX29sbVRCMXNQeEpHbG44VzRSSkdQbHBURGhYazRzSXo2N2UyaWFyd2E0SG8wR0I4TDA3Y2ZMZHlIeUJyNnM3VnRHdG1XR1FEOEhkU3hBTW1KTHNYYUczczJOMnNfSm0wTGthRmJ6S0JP0gHWAUFVX3lxTE1qN3Brcl9KMWVnQWFldzdiWlo0T25SUVV5Z2RDMHpTNUtlQ01NSGlNUDh2ZGl3d3N6MUwxaDVoUnVZOUVPSFZTX1N3YUpaVXdhR3BsTnNVZ3NQZi1GcTFnVTdvMDdTNHNqQjNQTm8ybVM5TEZjSW9JVzVoTzFTRXp6M25rX3hkVWZoaGRKeDRmQ2p5anlsb0J4TVQ2RG5zZHRrMk1iTk1GaWZNWVZfMnAyOTJQVlZ1WXNTdzFvMEcyYURwby1JYXVtXzRVUlY0d0NhdXc5NlE?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVHprWE1fM0tldXM4VmlZOW5BSjY2Sm9NeUYyZlhfV0ZGa01JU0lEcl9jX3I4X2laRjhMWXZuSVhDRFE2ZERQYUVPS0E5X2JwajRfR0M4RjFmR2lLQXZ1TWJES183cjlSYks2aU9fMW1SanNBMjJqYXBrZ3VhZ0ZvSjlBaDBNeFBDUngzM0JEcGRJOWdnZHF3alZOYXBsOUNPTUlTX3lDOVdVOURzMGJ6ckNELWFnQWlaZ0ZGZ2k0QkhFbWNkVHZpcnVjUmtvODYxRGNwTS1vdXhQeUVLZElSRl9iTm4xX2s?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "ND Mais",
-          "url": "https://ndmais.com.br/futebol/selecao-brasileira-atropela-singapura-7-a-0-em-meio-polemica-romario-ancelotti/",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "operacoes-epstein-bank-deutsche-arriscadas-russia-vazamento",
-      "segment": "internacional",
-      "title": "Vazamento revela operações arriscadas do Deutsche Bank com Epstein e Rússia",
-      "summary": "Um vazamento revelou operações arriscadas do Deutsche Bank envolvendo Jeffrey Epstein e a Rússia. As ações do banco despencaram após reportagens sobre interação com oligarcas russos, Trump e Epstein.",
-      "scores": {
-        "cobertura": 5.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 5.0,
-      "outlets": [
-        {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/vazamento-revela-operacoes-arriscadas-do-deutsche-bank-com-epstein-e-russia.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Valor Econômico",
-          "url": "https://valor.globo.com/financas/noticia/2026/11/17/aes-do-deutsche-bank-despencam-aps-reportagens-sobre-interao-do-banco-com-oligarcas-russos-trump-e-epstein.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "UOL",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/11/17/vazamento-revela-operacoes-arriscadas-do-deutsche-bank-com-epstein-e-russia.htm",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "jornalista-ligacao-rica-politicos-morto-narcotrafico-costa-d",
-      "segment": "internacional",
-      "title": "Jornalista é morto na Costa Rica após denunciar ligação de políticos com narcotráfico",
-      "summary": "Um jornalista que denunciava ligação de políticos com o narcotráfico foi morto na Costa Rica. A partida entre Argentina e Costa Rica tem horário e transmissão definidos. O jogo entre Singapura e Brasil também tem horário e onde assistir ao vivo.",
-      "scores": {
-        "cobertura": 5.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 5.0,
-      "outlets": [
-        {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWktXS0w0eDJJTXJvZVFtWDEzQWEtdmd4NkRkT2EtWUw2clV3dkMxOElVdC1uaTZUZWViRmd2NkFKUVNjVnFaOUx6ZVVMNXpialNUSnlJUThGZGhmRUwzbmtBX2d5azJJNU1ZTGkzVTZ1SGo1a0JRblNCcGxqd3VIZDI4M2J6d0Y2YnNzMUFGelNBQVRPaVJIUXF1VjQ5NExCcHRpcDlWakVWRGpWZXltWUVoaVY4OW9JaF9EMl85Ujl4bHFOeGxRc0M3RUJGVDRoU1J6UU9B?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
         {
           "name": "SBT News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaE1iSWFSdVRDR3hHWWdZYTlsOGtNN01peXAwalRSck55RkRVYWg3bWN2akNtdDlLX2dTRmh1M2VpNUNOYW5KcEltdnh6bHR3QjNtYWtqZXBDMkRqWlYtWXh2MmZaWkJvY0hnS2NweG05WjdfRzlOdTFrZ2o4UDZJT3h0NDAwLXY3U0VrOGxvazJaREdoS2c?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZnR4d1VySzFsOVdDSUd1d2ZXREt2UnN1LS1ULVpSYnpGS2U3TFN5NmRIMGV1ajQ4M0ZvdG5yQ2lhLUp4d3RjckhUaDkxbGtJUVg2a2tmZVNsQlBMUFg1V1ZVOFpPQWNOMml3R2RKYVJCdjBpcF9VeHpxSkcxWVRFZWVWYldaMHJVVVZMNlYtSGpYTUdMSFlTeE1n?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Zero Hora (GZH)",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUGNmblZPellfeUFYRUszNGZsdTdCcFNXUWs0WTk5UzdTdGFsdk5RdGFjRGdPWm1uQWxhYllFck9FR0Q0OTZQY29KRlRDalpFUzZ5TGVMSjFkNS1SLWh3ZWlYUjNWSXV5a3NvcDROWVA2VVgzZUd5bEhzZjFSM1JvQjFaWVFUQklPU1hDdTV3Y25EeS1rOThTU1NRWkF0ejRobTlxMDlUSFpYWnhkUnF2S0ZSTThBRWZ2QVFaLVh3ZVdwOXBFWE5wTk5xclZqNGVxR19KYUw2cDVGN2xWb3ZFYWZENm9KYzNvX2d3TW1n?oc=5",
+          "name": "Estado de Minas",
+          "url": "https://www.em.com.br/internacional/2026/11/7539712-apagao-mundial-hoje-entenda-o-boato-dos-simpsons-sobre-o-dia-17-de-novembro.html",
           "camp": "regional",
           "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "ventos-varias-tempestades-alerta-fortes-granizo-atinge-regio",
-      "segment": "politica",
-      "title": "Alerta de tempestades com granizo e ventos fortes atinge várias regiões do Brasil",
-      "summary": "Alerta de perigo avança por 172 cidades com tempestades, granizo e ventos de até 100 km/h. Ciclone na costa do Brasil intensifica chuvas e coloca quatro regiões em alerta para volumes acima de 100 mm. Dezenove cidades baianas estão em situação de emergência devido às chuvas.",
-      "scores": {
-        "cobertura": 6.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 4.7,
-      "outlets": [
+        },
         {
-          "name": "NSC Total",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRW9FNTVlVjVWXzZfNk41SUVJaDZHWWdEZ0dsM1pId1VhNl81VlhKdE16RnVwN3Fqci1VRkxPRXJOQU8wNUM3SVRnTXFPRnRkcHVyRFhvQ1NCakdhQVMwQXE0TGhFRkxtemttak9Cd3pleTdBYTVkWkxIRWhRa244RUVqOG94XzBWN2RqR0ZnNkVZdDRNRjNLalV2TEF4UFFRUzVzamppeXNrLTdYYVN4V0daSzdBSW9oc09qMERPS01wM01iTGUxeHpMT1FOaDBETXUweHdkWDdzSS1sX1ZvOHNwRkhKZw?oc=5",
-          "camp": "regional",
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/ciencia/apagao-mundial-hoje-veja-o-que-e-boato-e-o-que-poderia-acontecer-com-a-terra-em-um-colapso-segundo-a-ciencia/",
+          "camp": "centro",
           "position": "editoria"
         },
         {
           "name": "Correio (Bahia)",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOU9ldnVIZU16Y2FWYWxVLVlmZG5yTHRHRFZCUVI0S04zdW40ZWxMQy1FdFJObDFKQ0I4Q3pzaXNqZ3dEZlhFS0xNRTByX1poU2JoTE1ucDUzTFN4b2U4Z2U0dDFJSXJSUEFlaVdyVXdPNXJHWnVOal9fTWpFNWY5dTkwY1JaYVd1d0lhbFNKNTZESU52M250YmhCdzlkVTlZN0ljU0VZY1VsbFRoX1BoeEgzb1R0cjlBY29hN0tBN1BNUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWEJGYUsySk85Q05QN0xEbzJ0aWRPV3J4ME5tMHFSbnNZdHRWX1NhSXBfS2xYY2RiTmwzZzd4QUpnNjZBa0tFT0JncWc1RXRNb1U4b1B1Q1hQRmI0WFhvbUhielJBMElBdHQ5Tm9nY3hwZDY1bjJhaDdfbWJWaklfejExSEJQRnVkS0hRc1RqcU9TOE04OGhMbm0yX2FtWHpGVWFqTmNHWDRnMll6S0lDOURPcmlKMnBjS1BnMWxKZERNYjQxXzcwZEpsajJkVFZhTzhTZXI2M1NnU3JpeEF0SWpGZHBQdw?oc=5",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "ND Mais",
-          "url": "https://ndmais.com.br/tempo/alerta-de-perigo-172-cidades-sc-chuva-granizo/",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS1yMENQYjk3NlRSSUdnSEU1c3ZJaVBKXzJETXdfaUMyVWNHVnpsSlRja1VsN2xJbXJrVHFSTXhFbTdfVW1kbTBITWhLR040bUNudDR5dFNFT0o1ZU9rLTZCYThKc0VFNTZDRVBKUE51bHNFbDh2SDNXR21ja3RvOFI3SVhRLXhzN2V2RUt6dWRKNVYtR3BVRkxXYw?oc=5",
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/mundo/apagao-mundial-de-17-de-novembro-o-que-explica-o-panico-nas-redes-e-por-que-ele-nao-faz-nenhum-sentido/",
           "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "BBC News Brasil",
+          "url": "https://www.bbc.com/portuguese/articles/c57429m97421o?at_medium=RSS&at_campaign=rss",
+          "camp": "internacional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "terca-maior-sera-parte-intensa-chuva-feira",
+      "segment": "politica",
+      "title": "Terça-feira será de chuva intensa na maior parte do país",
+      "summary": "A terça-feira será de chuva intensa na maior parte do país. Há pessoas esperando um 'apagão global' nesta terça-feira.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.7,
+      "outlets": [
+        {
+          "name": "Folha de Londrina",
+          "url": "https://www.folhadelondrina.com.br/folha-2/tem-gente-esperando-um-apagao-global-nesta-terca-feira-sera-3329472e.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/17/terca-feira-sera-de-chuva-intensa-na-maior-parte-do-pais.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/2026-11-17/terca-feira-sera-de-chuva-intensa-na-maior-parte-do-pais.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/terca-feira-sera-de-chuva-intensa-na-maior-parte-do-pais",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYlpXa00zUkhoVGh2RGtGRjFnY2xUeDdabF9oTUZFY2xra0hzbnhNR0g5a3NkcEhYZE50X2FMcGVHR2FCRXZMQ3pWX05BTVl1VkRoNWYzYkdvQ1BId21JYVNCNFNCT29jemFFei01bkE0djhVY1EzNUZCQXRYV09RWXpfMUdQVzNRWXZMZldiRnBDby1WQ1FVQS1LMF93S0hoa0JVLWt4VmctU010b3AtTA?oc=5",
+          "camp": "rio",
           "position": "editoria"
         }
       ],
@@ -1001,28 +977,92 @@
       }
     },
     {
-      "id": "varias-atingem-calor-nesta-forte-semana-regioes-chuva",
-      "segment": "politica",
-      "title": "Chuva forte e calor atingem várias regiões do Brasil nesta semana",
-      "summary": "A semana será marcada por chuva e calor em várias regiões do Brasil. Belo Horizonte terá calor e pancadas de chuva nesta terça-feira.",
+      "id": "terca-amistoso-singapura-enfrenta-feira-nesta",
+      "segment": "esportes",
+      "title": "Brasil enfrenta Singapura em amistoso nesta terça-feira",
+      "summary": "Jogos de futebol hoje (17/11): veja horários e onde assistir ao vivo. Brasil x Singapura: escalação e onde assistir ao amistoso da Seleção.",
       "scores": {
-        "cobertura": 6.0,
-        "destaque": 5,
+        "cobertura": 8.7,
+        "destaque": 6,
         "persistencia": 4,
-        "peso_voce": 3
+        "peso_voce": 6
       },
-      "score": 4.7,
+      "score": 6.5,
       "outlets": [
         {
-          "name": "ICL Notícias",
-          "url": "https://iclnoticias.com.br/chuva-forte-atinge-varias-regioes-do-brasil/",
-          "camp": "esquerda",
+          "name": "Correio (Bahia)",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSnd1T09Ebm1pbkdFYklDS3ozbk0zMmx0T0htWXY2SlR2YzZudUdmZV90aEg0UG1MMnFST1Z1TVowNTFuTGNGMnA1MnlDelJHdGtxcjJWcGd4a2JKeU42SUNrcVJMVVJJNjJITHlwaEsyY1lqWHR4ZEw0c3lFaVBIU29wVkJ2TDFvQ1pPbl9rZGVleFFfTXB5ajhlbE1KN2UxSGdOVDNFY3cyZUJmU2xJR1hB?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbGtLdWo5TjdCMmFpbFBraktZcmVBbGFLWEk0TDhhNU1WQW12QlE4THR6OS12RTBrZmlaWm5DbkZ2Y2lVS1dNQnJWSHdXMDh2cXQ0V0lzR3RNaWN4Y0ZQUmdCcWs3SElKUTNQenFCQndQQ0F5TmlLNTZnNEF4ZVF1ZWxXWnBlVkhsaTNRckZRa3lCVTVjelBpZWxrVXBHdHU5dzdvVTNOOW5CWVNYQk01RXR4Qko1bEZ5ZUhkQmlLczdLS1dRN1pZY0gyS2ZMcFE?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CBN",
+          "url": "https://cbn.globo.com/esporte/noticia/2026/11/16/onde-assistir-amistoso-singapura-x-brasil-jogos-desta-terca-feira-17.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLU1yTGc0XzFiY29CamxwTDdndzFRWU9WYldkUXJDZUU3alNwNnBTWUs5NmlnMjRadXRidS1UMGpOcVNFYUQzbTM3Rk9KOVp4QWpUQ1YzVTJMdlo5T1FDUzEyMjl0SVFhb2hCNHNsTWFBZk9DTTNoTTN1d2g3Ni13NzZDUHh1RE8tams1MU1TdUZ2d1BiUnZ1Z0c3Z0ZUbFJHWFBudnRoWkRKZjgwcWN2Z3FPcVRicW0zZWNB0gHAAUFVX3lxTE9OQTRISV9FRWtIRHZmNWVnMEZGYVdBeDMtQnZfMzBNN1BtNEVNZC1aRlYtOVUtOGNEa08tNUhCSHphc2J6RnNuVDMzV3ZFbktXb1FJQUt3Mlg3QTY0dDdWc0NMblpVWUlWbHlYT2xiUHRuS2JTc0pGbzd2cmgzcV9WSzVmWVJXUlo3MVJSQkdOaDhwQldHLWlDUTVjcXBLT21xRFpDakgwQW5YZE94Q0JKcjdlNnNMNE1XRTBZdlBKbQ?oc=5",
+          "camp": "centro",
           "position": "editoria"
         },
         {
           "name": "Estado de Minas",
           "url": "https://www.em.com.br/gerais/2026/11/7539705-bh-tera-calor-e-pancadas-de-chuva-nesta-terca-feira-17-11.html",
           "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRkZWcG4tTWprQVVkc0QtekxOR1RFQzFhaVhubTZ6TXdnRnB1eWp2VXJOVm0wZU1faGJlVUhaQnFzeFNUbjJubXpEMkxPc1ozQkxoa2ltandXNkdnb2N0aU9qcnZXdVNjelEtWWNld3IzckVwcDREZXp1dmpoSGhxQmFzNlhLYV80N252N3ZFSGJETHNab2RxdjlPU0RPaXRB?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTzlvOHpQbUlhS3RPWUQ2YmhYNHp3bmdSRlhwTnJpSnJzdlgzRTZFNHYxeEx4SU0xUDlkQ2NidGw1eFhmaklWZWpWdGVKNFkzdnpLSG9FTXJSQlBlRUlyZmUxTXFwd2oyRWZLd0NqYTdQMDFRZnFGRUVKUFg4dmRYVXBhd1kxWWtkN09HdE1ZSkJoY2F1TGltemFvcmFjVEFDcC1HaEJ6XzBUOU91azV2bVpidElQM21BdzJENFdn?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "regioes-calor-chuva-semana-tera-varias",
+      "segment": "politica",
+      "title": "Semana terá chuva e calor em várias regiões do Brasil",
+      "summary": "A semana terá chuva e calor em várias regiões do Brasil. Belo Horizonte terá calor e pancadas de chuva nesta terça-feira.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.4,
+      "outlets": [
+        {
+          "name": "Estado de Minas",
+          "url": "https://www.em.com.br/gerais/2026/11/7539705-bh-tera-calor-e-pancadas-de-chuva-nesta-terca-feira-17-11.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/chuva-forte-atinge-varias-regioes-do-brasil/",
+          "camp": "esquerda",
           "position": "editoria"
         },
         {
@@ -1042,6 +1082,197 @@
         "flag": false,
         "note": ""
       }
+    },
+    {
+      "id": "diretores-prende-administrador-nomeia-turca-canal-policia-op",
+      "segment": "internacional",
+      "title": "Polícia turca prende diretores de canal de oposição e nomeia administrador",
+      "summary": "A polícia turca prende diretores de canal de oposição e nomeia novo administrador. Mais um canal de TV pró-oposição é alvo de intervenção na Turquia. BP nomeia novos diretores em meio a reestruturação dos negócios.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.4,
+      "outlets": [
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/policia-turca-prende-diretores-de-canal-de-oposicao-e-nomeia-administrador.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/mundo/policia-turca-prende-diretores-de-emissora-e-nomeia-novo-administrador/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/mundo/crusoe-mais-um-canal-de-tv-pro-oposicao-e-alvo-de-intervencao-na-turquia/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/empresas/noticia/2026/11/17/bp-nomeia-novos-diretores-em-meio-a-reestruturao-dos-negcios.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na direita (Jovem Pan, O Antagonista) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
+      }
+    },
+    {
+      "id": "critica-escudo-americas-america-lula-latina-trump",
+      "segment": "internacional",
+      "title": "Lula critica Trump e Escudo das Américas na América Latina",
+      "summary": "USP avança no ranking QS de sustentabilidade e lidera entre universidades da América Latina. Lula critica Escudo das Américas e “orientação” de Trump na América Latina.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.3,
+      "outlets": [
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/educacao/2026/11/usp-avanca-no-ranking-qs-de-sustentabilidade-e-lidera-entre-universidades-da-america-latina.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/lula-critica-escudo-das-americas-e-orientacao-de-trump-na-america-latina/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CBN",
+          "url": "https://cbn.globo.com/mundo/noticia/2026/11/17/lula-critica-trump-por-tenta-dar-orientacao-politica-e-ideologica-para-america-latina.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "politicos-ligados-denunciar-narcotrafico-rica-jornalista-mor",
+      "segment": "internacional",
+      "title": "Jornalista é morto na Costa Rica após denunciar políticos ligados ao narcotráfico",
+      "summary": "Vasco x Inter: horário, onde assistir ao vivo e escalações pelo Brasileirão. Jornalista que denunciava ligação de políticos com narcotráfico é morto na Costa Rica.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUWhaY1BGdTIwRzZBZVVLUGc2cUZPTDUxVHVqd1RCU2hiQ0VvSWtpcmtBYTVPcWE0MGEtZE94SnRjcWozbjRFejlBX1A3WWVNcG4xSEtvNGpHd1NJd3FQTFJNZmdHeE5hQWVpdXg2clJYWDV1ZUdsRmVtWXk0alBET3pjUEdjNXhSd19SbkFEQ1ZjRWNIV3BFR00tWnpmdDN1bTRSN2VIUldINkZzZEZDQVZPUFpLSEZkVk5XckMtZ1lWR3lBcTl1VW9fUTJBS2tiQTZTNENqUWxTV2JkMHR5NU5kM3REVGU2ck1HNTUtMXJFZmVFZHMxeUZsWQ?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaE1iSWFSdVRDR3hHWWdZYTlsOGtNN01peXAwalRSck55RkRVYWg3bWN2akNtdDlLX2dTRmh1M2VpNUNOYW5KcEltdnh6bHR3QjNtYWtqZXBDMkRqWlYtWXh2MmZaWkJvY0hnS2NweG05WjdfRzlOdTFrZ2o4UDZJT3h0NDAwLXY3U0VrOGxvazJaREdoS2c?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWktXS0w0eDJJTXJvZVFtWDEzQWEtdmd4NkRkT2EtWUw2clV3dkMxOElVdC1uaTZUZWViRmd2NkFKUVNjVnFaOUx6ZVVMNXpialNUSnlJUThGZGhmRUwzbmtBX2d5azJJNU1ZTGkzVTZ1SGo1a0JRblNCcGxqd3VIZDI4M2J6d0Y2YnNzMUFGelNBQVRPaVJIUXF1VjQ5NExCcHRpcDlWakVWRGpWZXltWUVoaVY4OW9JaF9EMl85Ujl4bHFOeGxRc0M3RUJGVDRoU1J6UU9B?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "russia-epstein-deutsche-operacoes-vazamento-expoe-bank",
+      "segment": "internacional",
+      "title": "Vazamento expõe operações do Deutsche Bank com Rússia e Epstein",
+      "summary": "Ações do Deutsche Bank despencam após reportagens sobre interação do banco com oligarcas russos, Trump e Epstein. Vazamento revela operações arriscadas do banco com Epstein e Rússia.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.8,
+      "outlets": [
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSkMxaFNEWUdmMTA5UmR6Rmt5M3F6cldTOEFQTzhKS0tlVS1sdV83TFlqenpKWjVnYlVXQlhRMGpvOWU5c1lzdVpGQzBQQ2tvZXhCVzMzRjVBOENCM2RlRFI0eWJ4bDh6RHVCVHZjMW9UQWxpdlFaT0RvN2N5T0VucTFtYWwzZUszWE1hTUx0ZmhTNTJXSmZxQWdnOUtVV3o2MEtRRWlCdHRRN3hVOHJrTFQxNEN5QkswYjNlRmln?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/vazamento-revela-operacoes-arriscadas-do-deutsche-bank-com-epstein-e-russia.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/financas/noticia/2026/11/17/aes-do-deutsche-bank-despencam-aps-reportagens-sobre-interao-do-banco-com-oligarcas-russos-trump-e-epstein.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "apresenta-nvidia-escandalo-espionagem-resultados-primeiros",
+      "segment": "ciencia",
+      "title": "Nvidia apresenta primeiros resultados após escândalo de espionagem",
+      "summary": "Nvidia apresentará primeiros resultados desde escândalo de espionagem. Nvidia apresentará primeiros resultados desde escândalo de espionagem. Nvidia apresenta resultados após escândalo de espionagem.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.8,
+      "outlets": [
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdnJtLUY2enFrU3pVdmlxMGFDc3REWmEyUmFEVEt2Yzc4RUp1bmUtUFotRmpMX2N5ZWI5YXJEcDQ0UFE2U0VJMnlRVlR0endONnAxcmxiV3NLa1QzY2ctUmZxQzhoUmx1YkdIUGU3UklMdThMTE1jR0dOS1hLVUF4QVZKWmpXMVF1RVZXc1Y2MVJqcVl1OGVNdnhzcktKZFk3MU4tT2o4SDgyVnJhellnNDdtUXBIZWFqOWlSTUt0bHJGRzIxZ2M1eU9EMFZJdjl4T0g0QnpWYjRiQkNjbE84azA1c2lvTl9QZ2c?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeG9IWDFSVGhyNUtJRE5KVFctT3BfV0oycDFxR1J2cmlJSi0yajlPWk9EOTlLWTl2dmhqT29QQzJmRUQzU2FNekFkTDRqQjRBMXJZVGcyc1FrUktMM3lCWUsxTGo2VFRINVUwNUQ1Vm5DcGtGUWM2ZXZ2UkZPN1hFMWZoWU9KNzZ4bXlhbEJ2Z25yYUExaHdDY19UZWQ3UWVta0lPZ0lTWG5Tb3FMZllMMDA1cVV0dHloQ2VUUkJn?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/nvidia-apresentara-primeiros-resultados-desde-escandalo-de-espionagem.html",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
     }
   ],
   "x_trends": [
@@ -1049,9 +1280,9 @@
       "nome": "PSOL",
       "volume": null,
       "url": "https://x.com/search?q=PSOL",
-      "sobre": "PSOL é citado em discussões políticas, partido de oposição ao governo federal.",
+      "sobre": "PSOL é citado em discussões políticas no X.",
       "leitura": "neutro",
-      "uso": "amplificar debates sobre oposição.",
+      "uso": "Amplificar debates sobre esquerda e oposição.",
       "item_id": null,
       "fonte": null
     },
@@ -1059,9 +1290,22 @@
       "nome": "ESTAMOS COM LULA",
       "volume": null,
       "url": "https://x.com/search?q=ESTAMOS%20COM%20LULA",
-      "sobre": "Hashtag expressa apoio ao presidente Lula.",
+      "sobre": "Hashtag de apoio ao presidente Lula aparece entre os assuntos mais comentados.",
       "leitura": "a favor da direita",
-      "uso": "reagir mostrando críticas ou contrapontos ao governo.",
+      "uso": "Rebater com fatos sobre o governo Lula.",
+      "item_id": "quer-financeiro-miseria-povo-espanha-mercado-pobre-lula",
+      "fonte": {
+        "name": "Revista Oeste",
+        "url": "https://revistaoeste.com/politica/lula-mercado-financeiro-quer-que-o-povo-pobre-viva-na-miseria/"
+      }
+    },
+    {
+      "nome": "RECORD SE POSICIONE",
+      "volume": null,
+      "url": "https://x.com/search?q=RECORD%20SE%20POSICIONE",
+      "sobre": "Usuários cobram posicionamento da Record, emissora de TV, sobre algum tema em alta.",
+      "leitura": "neutro",
+      "uso": "Explicar contexto de cobrança à imprensa.",
       "item_id": null,
       "fonte": null
     },
@@ -1069,70 +1313,60 @@
       "nome": "The Economist",
       "volume": null,
       "url": "https://x.com/search?q=The%20Economist",
-      "sobre": "The Economist é citado, veículo internacional de análise econômica.",
+      "sobre": "The Economist é citado, possivelmente por análise econômica ou política recente.",
       "leitura": "neutro",
-      "uso": "explicar análises econômicas internacionais.",
+      "uso": "Amplificar ou rebater análise conforme o conteúdo.",
       "item_id": null,
       "fonte": null
     },
     {
-      "nome": "RECORD SE POSICIONE",
+      "nome": "Endrick",
       "volume": null,
-      "url": "https://x.com/search?q=RECORD%20SE%20POSICIONE",
-      "sobre": "RECORD SE POSICIONE pede posicionamento da emissora, contexto não especificado.",
+      "url": "https://x.com/search?q=Endrick",
+      "sobre": "Endrick é citado após amistoso da seleção brasileira.",
       "leitura": "neutro",
-      "uso": "verificar se há relação com política ou imprensa.",
-      "item_id": null,
-      "fonte": null
-    },
-    {
-      "nome": "Guga",
-      "volume": null,
-      "url": "https://x.com/search?q=Guga",
-      "sobre": "Guga é citado, possível referência a comentarista político ou personalidade de mídia.",
-      "leitura": "neutro",
-      "uso": "monitorar se há debate político relacionado.",
-      "item_id": null,
-      "fonte": null
+      "uso": "Citar desempenho esportivo se houver desdobramento político.",
+      "item_id": "temporada-goleia-singapura-encerra-2026",
+      "fonte": {
+        "name": "BandNews",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dVZkQzRHBQRmhjdGtuR2pLSzM5enNGRUxwUEJOVWFPZTRfbGYzamlhWno5YXh0aG1kY01WUGdpOTZ3RDROSkltTWE2eUYtRVUzWnE4cUlDOGRtRF9SQk9VcjRHaEtSdWs4OTlJbTdleXFfVVB6dFFOU2p3alhLd1p6NS1BQlBEcGF6eXRTa0dXM2IzNnZBXzF0SjFlYkhfd2Q0dFEyaXZ4LWNVcEllY0NWZHZsX2doWlYxR3V2cC1zVHFnQ2RyeloySDg?oc=5"
+      }
     },
     {
       "nome": "Singapura",
       "volume": null,
       "url": "https://x.com/search?q=Singapura",
-      "sobre": "Singapura é mencionada devido ao amistoso da Seleção Brasileira.",
+      "sobre": "Singapura é mencionada devido ao amistoso da seleção brasileira.",
       "leitura": "neutro",
-      "uso": "aproveitar para comentar sobre esportes e política.",
-      "item_id": "temporada-encerra-2026-singapura-goleia",
+      "uso": "Citar contexto esportivo se houver relação política.",
+      "item_id": "temporada-goleia-singapura-encerra-2026",
       "fonte": {
-        "name": "O Dia",
-        "url": "https://odia.ig.com.br/esporte/2026/11/7323110-com-tres-de-vini-jr-brasil-atropela-singapura-em-ultimo-jogo-do-ano.html"
+        "name": "BandNews",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dVZkQzRHBQRmhjdGtuR2pLSzM5enNGRUxwUEJOVWFPZTRfbGYzamlhWno5YXh0aG1kY01WUGdpOTZ3RDROSkltTWE2eUYtRVUzWnE4cUlDOGRtRF9SQk9VcjRHaEtSdWs4OTlJbTdleXFfVVB6dFFOU2p3alhLd1p6NS1BQlBEcGF6eXRTa0dXM2IzNnZBXzF0SjFlYkhfd2Q0dFEyaXZ4LWNVcEllY0NWZHZsX2doWlYxR3V2cC1zVHFnQ2RyeloySDg?oc=5"
       }
     },
     {
-      "nome": "#SINxBRA",
+      "nome": "Vini Jr",
       "volume": null,
-      "url": "https://x.com/search?q=%23SINxBRA",
-      "sobre": "#SINxBRA refere-se ao jogo Brasil x Singapura.",
+      "url": "https://x.com/search?q=Vini%20Jr",
+      "sobre": "Vini Jr. é destaque após marcar três gols em amistoso do Brasil contra Singapura.",
       "leitura": "neutro",
-      "uso": "usar para comentar sobre impacto de eventos esportivos no país.",
-      "item_id": "temporada-encerra-2026-singapura-goleia",
+      "uso": "Citar desempenho esportivo se houver desdobramento político.",
+      "item_id": "marca-vini-goleia-singapura-tres",
       "fonte": {
-        "name": "O Dia",
-        "url": "https://odia.ig.com.br/esporte/2026/11/7323110-com-tres-de-vini-jr-brasil-atropela-singapura-em-ultimo-jogo-do-ano.html"
+        "name": "Meia Hora",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd1Z6bVRxbVpldTl5TDJzQXZOZ0hWMlBBeWR3VFR6QklBMWRKVmFhaklHVVR5cVlfR25IeVNGdDNEOHpIMkNBQVhzenp1NEI5ZmROTXBrendjWFlRaERPcmVXMTNSQzkyRmlHMTJ1WHhOc05GTTF6bTBPOTh4NU9rM3ZOaG5MMlV4UzJsM2ppSGVoYkl6UWhKUm12bEtwa0RNSjJLOEVqWEp2NmNfVFRuMHZXMzRkZzJtdWt5TTVNVDBUN0VsLVRxMThrYlpLZTA3dlh4U3A0cExGUXZXVnc00gHkAUFVX3lxTFBJNDNNZ2NhTDhnR1BicnlaSUpxSS12VjU3cExpemowemVVNWJfLWZvTEVRcV9wb092ZG1abHlta24wSFZhODhPM1pYMk1qakV1SVpwWG9aZGw0SVFpNE1kVXcxOEYtaGRGbHJNbnZLdm85cXhFV21BMERUbkhLRWVFUFNsUl9WWWRrTk1rTDVuTDZXYkE0LWF1SU82NzJWU1JFeG5NT0hLSzJVaG5GYXVNa0w3NHItMGROckZYWURLUndxRFFXTFBpMWt4RjI1Y0ZGcGYwUlJiQjVRNHZ6bE9MZ1ZlWg?oc=5"
       }
     },
     {
-      "nome": "Estevão",
+      "nome": "Bontempo",
       "volume": null,
-      "url": "https://x.com/search?q=Estev%C3%A3o",
-      "sobre": "Estevão é citado, possível destaque no jogo da Seleção Brasileira.",
+      "url": "https://x.com/search?q=Bontempo",
+      "sobre": "Bontempo aparece entre os trends, sem conexão clara com política ou economia.",
       "leitura": "neutro",
-      "uso": "mencionar desempenho de jovens atletas brasileiros.",
-      "item_id": "temporada-encerra-2026-singapura-goleia",
-      "fonte": {
-        "name": "O Dia",
-        "url": "https://odia.ig.com.br/esporte/2026/11/7323110-com-tres-de-vini-jr-brasil-atropela-singapura-em-ultimo-jogo-do-ano.html"
-      }
+      "uso": "Monitorar se surgir relação com temas de interesse.",
+      "item_id": null,
+      "fonte": null
     }
   ],
   "portais_na_coleta": 55
