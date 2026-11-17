@@ -7,10 +7,6 @@ on:
         description: "Disparo pelo agendador"
         required: false
         default: "nao"
-  push:
-    branches: [main]
-    paths:
-      - ".github/run-noticias"
 
 permissions:
   contents: write
