@@ -1,149 +1,21 @@
 {
-  "generated": "2026-11-16T20:58:16-03:00",
+  "generated": "2026-11-16T21:48:37-03:00",
   "gerador": "regras",
   "modelo": null,
-  "headline": "Alckmin defende ajuste fiscal enviado por governistas, mas mercado vê medida tímida; Para barrar China, EUA incluem Brasil em lista de países com restrições para acesso a chips de IA; Empresário é preso em Santo André (SP ) por enviar bomba-relógio dentro de videogame a comerciante",
+  "headline": "Empresário é preso suspeito de enviar videogame com explosivos a loja de eletrônicos na Grande São Paulo; veja vídeo; TRE-CE tem maioria para condenar Ciro Gomes por violência política de gênero; Alckmin minimiza reação negativa do mercado com pacote fiscal",
   "top": [
-    "ajuste-alckmin-defende-enviado-fiscal-governistas",
-    "acesso-barrar-china-chips-eua-incluem",
-    "andre-bomba-comerciante-dentro-empresario-enviar",
-    "barricadas-colocam-complexo-criminosos-faz-fogo",
-    "ciro-condenar-genero-gomes-maioria-politica"
+    "eletronicos-empresario-enviar-explosivos-grande-loja",
+    "ciro-condenar-genero-gomes-maioria-politica",
+    "alckmin-fiscal-mercado-minimiza-negativa-pacote",
+    "ate-big-economia-estima-fazenda-regras",
+    "banda-estupro-flagrante-gemeos-integrantes-minas"
   ],
   "items": [
     {
-      "id": "ajuste-alckmin-defende-enviado-fiscal-governistas",
-      "segment": "economia",
-      "title": "Alckmin defende ajuste fiscal enviado por governistas, mas mercado vê medida tímida",
-      "summary": "Alckmin defende ajuste fiscal enviado por governistas, mas mercado vê medida tímida. Alckmin: reação do mercado não deve dificultar aprovação do ajuste fiscal. Alckmin minimiza reação negativa do mercado com pacote fiscal.",
-      "scores": {
-        "cobertura": 8.7,
-        "destaque": 8,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 7.9,
-      "outlets": [
-        {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/alckmin-defende-ajuste-fiscal-enviado-por-governistas-mas-mercado-ve-medida-timida/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/politica/alckmin-reacao-do-mercado-nao-deve-dificultar-aprovacao-do-ajuste-fiscal/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-economia/alckmin-minimiza-reacao-negativa-do-mercado-com-pacote-fiscal/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/alckmin-diz-nao-ver-razao-para-oscilacoes-do-mercado-apos-pacote-fiscal",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/politica/alckmin-defende-ajuste-fiscal-e-diz-que-nao-ha-razao-para-alta-do-dolar/",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "R7",
-          "url": "https://noticias.r7.com/jr-na-tv/video/dolar-tem-mais-um-dia-de-alta-por-causa-de-duvidas-sobre-o-ajuste-fiscal-do-governo-16112026/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Zero Hora (GZH)",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR1JnTURmTzFHZHdwNy1Ta2VVdFFudmRyNjBLdUloWmdxNDRZUHlHRHFWYUxVWHRlSkZtUGN2OG45bkRybXhjSGZXcEhGa2FUMWhGbVE3RGFLRmF2dFhoOWRXN3JBcnF3R01KNmVEbVlGeTBRVVFuTVpxUjlzOGVsajBncnQ3S0NIYkpWcWNXVUJlT1pGTnB3TEVWYUhTOUxkYTdjeU52NElQc1NUb2w5ZXUzNWRLZUxaY213NndJUE9sNmM3VVRYMEliNWlqcThndkUydkRn?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "acesso-barrar-china-chips-eua-incluem",
-      "segment": "internacional",
-      "title": "Para barrar China, EUA incluem Brasil em lista de países com restrições para acesso a chips de IA",
-      "summary": "Para barrar China, EUA incluem Brasil em lista de países com restrições para acesso a chips de IA. Senadora dos EUA acusa governo Trump de facilitar acesso da China a chips de IA da Nvidia. EUA vão restringir acesso da China a chips de IA; medida inclui Brasil. Governo Trump anuncia novas restrições para impedir acesso da China a chips de IA.",
-      "scores": {
-        "cobertura": 9.3,
-        "destaque": 8,
-        "persistencia": 7,
-        "peso_voce": 6
-      },
-      "score": 7.8,
-      "outlets": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZjVadklud0NESU5FS1JtV2FQTnZORDNFbzlzRE9MTjl4S2xPdmtGMDk4VWpJSHVRRk1fbHg0OWZUTnFzaGZpWTRTSFZEY2xydm5naGxTRGJtOTdSTDlLUHJ1UnJ3ektFYWVNM1JReG1kckttR1ZpZ2dGV2h1emVmVkprWlEwQmJZbGpzMDlISHFzSXRUaDJibDB4LThvaWc3MkRUeHduN2k1aGlTdXdzcnZnZDJhdDN0UXluazJLVTdwSFU0UGd1aGM1Nl9XZ2JI?oc=5",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOF80X0poT1dXT3FxVWFCOEw0MmxvdnFObnd1Qy00dk9ZQzhyUUZfd0p0ZFp2dVptNzVGYzhZNGtKXzBCX0RiNGV5VndsejZYcFdDX3JWb2s0bUYxdDNVTlVxdVFacHFqTV85dmc5bHllN182QmlUOHEwZnFPS3dKTmhJbXVmcVRnUDRnb0JKLTBBRVI0X2drNjJGV21MNWhPdndtYUUzcHlvV0k3LWVnOXlzdWFIaU10Qi1YUWI1VVc0R2FnU1Z5aVhrN2EtbEd0MDFNN3hmbDR6NndESzN6bzk3VmPSAeoBQVVfeXFMUHlXcXhFYW53STNiY05ydV8za09rQXdvVkJKbDZIUzk0d3phVDE5X3AzVE4ydVRJNFBOTjJxLU9IaEkxV1d0Uk00WHhrb2NwSHBlSkRKcUdXanpXN05xa3hCMW1QNGUwV3IwZkZ3LWdUdmN5eDlRZk5la3ZVZG5vVUlnUkE0QVg4ZzRJTkJ3YW1BVzBOaHQ1UlZfa3V3X1VDdWxNa3RxRmcwaHJIN21GMjAxM2tmVVgyQV9ldnVUUVRXLUJYS2E1NWxlT0ZTNXo5N2xnNWNtVThhOTk5dzF6Qml4VHFKZWRWaUN3?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYkRFQUlRanA4OW9uYzAwMXFhYnh6Vm1CX2NaR1hqMG5vazUxeUk0R0lMTG1GTWpMVDByYzlFUmh2czhXUTU2SVlCbWJIbUZYQzV0S2FQSnkybUJaaGEzQzdfaV81X1JoeU9JeGVFS3pjY3pNaFdaNXMwNHJWRlBGZUdmbF9ndVRhQ1N2aC0wbFdXb05fTlpIclY2a1pCYkFlSzlya25FYk04UFFSd2Q2TG1LZWJaRllDbFJyYXVwcUNIWmVi0gHTAUFVX3lxTFA4N041LU5WejItVHF5WVJCMWk3am5YeG9RVDBxa0VnTl9DMTlVQU83dXRJaXZHNXhHMEFpSFAyTzlNVnlVN3R4ODl6MHlidmhxVTloSFl0d3l4c0pwQXZpc0ZZZjJlRHRwZFpSLWtpYjZiX1BRSEpiRzZrRElFSWdQRlhmemVrZUJ3dXgxbU1JZnp5ZUtrY3VmOUZKRjRkU2FQemtqTWZCbldFUjJNM01tN1haNzZqckhTTTNkN3NCTW1HN1JnTFNjTHZ4OFJpZDBfV0k?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "CBN",
-          "url": "https://cbn.globo.com/mundo/noticia/2026/11/16/governo-trump-anuncia-novas-restricoes-para-impedir-acesso-da-china-a-chips-de-ia.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/11/16/governo-lula-avalia-contestar-restricoes-dos-eua-a-venda-de-chips-para-data-centers-no-brasil.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/economia/governo-lula-avalia-contestar-restricoes-dos-eua-para-brasil-adquirir-chips-avancados-da-nvidia/",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Congresso em Foco",
-          "url": "https://www.congressoemfoco.com.br/noticia/131625/eua-limitam-exportacao-de-chips-de-ia-para-data-centers-no-brasil",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Popular",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUzAzT3c0WmswbVFpLWV3UzZLQTh4N1FOaDI3a2xhamFySGVOclFZV3BPWnNScU9VUTlkbFdVSHF1T3ViYkN6U1o4amxGdzN0UThja2ZWbVhnLXVTR2FNeXNibXJwV1h0VV9tb0RIc25tLTNzT3I3RWRaSVRqZVh2bTE2X1BHNzRqQ2dNU0FhQkNhTENSOVdNY0xUbnFSX0cxUHlsNk94aWdlVzlDN3MtaEZaUFJpUllzNEI5MFFUNVRXTmtJRENFWA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "andre-bomba-comerciante-dentro-empresario-enviar",
+      "id": "eletronicos-empresario-enviar-explosivos-grande-loja",
       "segment": "seguranca",
-      "title": "Empresário é preso em Santo André (SP ) por enviar bomba-relógio dentro de videogame a comerciante",
-      "summary": "Empresário é preso em Santo André (SP ) por enviar bomba-relógio dentro de videogame a comerciante. Empresário suspeito de enviar videogame com bomba a concorrente é preso; veja vídeo da explosão. Empresário envia videogame com explosivos ao concorrente e é preso em SP.",
+      "title": "Empresário é preso suspeito de enviar videogame com explosivos a loja de eletrônicos na Grande São Paulo; veja vídeo",
+      "summary": "Empresário é preso suspeito de enviar videogame com explosivos a loja de eletrônicos na Grande São Paulo; veja vídeo. Empresário é preso em Santo André (SP ) por enviar bomba-relógio dentro de videogame a comerciante. Empresário suspeito de enviar videogame com bomba a concorrente é preso; veja vídeo da explosão.",
       "scores": {
         "cobertura": 8.0,
         "destaque": 6,
@@ -152,6 +24,12 @@
       },
       "score": 7.2,
       "outlets": [
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/brasil/noticia/2026/11/16/empresario-e-preso-suspeito-de-enviar-videogame-com-explosivos-a-loja-de-eletronicos-na-grande-sao-paulo-veja-video.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
         {
           "name": "R7",
           "url": "https://noticias.r7.com/jr-na-tv/video/empresario-e-preso-em-santo-andre-sp-por-enviar-bomba-relogio-dentro-de-videogame-a-comerciante-16112026/",
@@ -166,7 +44,7 @@
         },
         {
           "name": "CBN",
-          "url": "https://cbn.globo.com/sao-paulo/noticia/2026/11/16/empresario-e-preso-suspeito-de-enviar-videogame-com-bomba-a-concorrente-veja-video.ghtml",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaFl4aDJtUzlPU04tbFFKYWs2cU9TbU91QWprdmhOQ1VwRnZTeHFfbHVkS2V5TDNZWTRObDNYbHI2VUFTVk1iTEUzYjVHM1J2d3g3R1BIeVp4cjNVTWFyOHJWY0NUVmlwYjktV2sybm1qY0JRYzhjV2haeVRZd0I3dnlrQzZEV2JKekhUb2xtOFYtMFV0cDhtYXdQQ0djNjQ5WWFPMEtsRDNxZUVDSjhoc0pJWUhGdldvV0xTQThXbExHNUlkZ1JYOVlkYk91b2ZRN0tWbkl30gHkAUFVX3lxTE1JU3podHdLTnhvVVlaLVgwX3FQZ3AtMFBhUEN5dlpKVnRfUW9OTVZPUjIyQ0hQR2lYNkRBUkNRNUZfRjljaHp1TmxxaHF0Wm9YNU1jYmZsV2xzN0tTM3dLNjNRNU1lNHBLSzZQcnZvdFU4UzdIQ0ZvY294czd3a21TdDVsalVaLXdISEM5RjZqSU9HbWw2eTFBRXByQ2FBZ3FKbTkwTDlqWHlFdXAwTTRiQ0dzQlFMZ2o1NXZvTmRyLTlSbDl0SXptV1RycE9oWFhvaHpoX3pXOHJGbU5rQWEyR254UQ?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
@@ -180,55 +58,6 @@
           "name": "O Tempo",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSzczYmZkaWFMMW5na3BmTkl3dmc5aFFYN3p4XzZGa3RndHV4Yy1yQXFXeGJpMENFeElZeUZMdjNULU5HTU1PMlRyS2oyamFINE9WeVU5eVdQMTVmTHBmVTVObVF5N0RmMmRzWkZmcXVEcnFwVi1OSnhGYVV4VDRTU0l0cEgtaVZLTU5URXh0M1BIRlU3Ul9mZ2hYTnBSUG96eFVrSnFmTTlwQW52LU81OXBHWElvUTcwejBhMlRMX01fekd6Y2xoUHFoaDVOSy1OY0plRVExLTd6UQ?oc=5",
           "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Nordeste",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUUFqMmR2T2xCUHBuSnR3Q2tCbzVrV3VYeGUtbHdUb3VLemFYQnBENWZhbUt0Yk5iTDNFUWxFOEEzUC1OblZYanZSejVfY1RTeUQtSmM3TElXWEgyRzVadDRoaEt4S1N1eThza3JjN005ZFYtVFIwY3A5V0hlZTR0ODFKN1FCZ3R3T0tEdE5OeWVQVzExMVN6a3hRbDNEamVUd0hVdnJSSXozeGpoRERNc2tpU0l0am1BTHJQMXc3UXRqX2NPNmllM2s3d0pKYVItSHZOM2NqMlNFbFRY?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "barricadas-colocam-complexo-criminosos-faz-fogo",
-      "segment": "rio",
-      "title": "PM faz operação no Complexo da Maré e criminosos colocam fogo em barricadas",
-      "summary": "Operação mira criminosos do TCP em seis comunidades da Maré; bandidos atearam fogo em barricadas. PM faz operação no Complexo da Maré e criminosos colocam fogo em barricadas. Polícia faz operação contra o TCP na Maré (RJ), e barricadas são incendiadas.",
-      "scores": {
-        "cobertura": 6.0,
-        "destaque": 6,
-        "persistencia": 7,
-        "peso_voce": 10
-      },
-      "score": 7.1,
-      "outlets": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMEU3R2dQbTMtWURrMkZkVWo3cWk1S3VTYjdIazF0VzhLTzB4NGdndTBaVUtWVW5ucnBVTEdTU1Z2RDhQZlhEcEMzV1NjcUpXMTMyZzBIZ3pob3FkQ09yWUhUcGRPaW00eHJUcDRYWjQ3SGdIdEFsc2xERjE5enppSjc3dWVsVFVoQmFleUFsYlFjckhHMTFuV3k3ck0tSXRlWnJCRHZfSmdPR29VaTdmTUpORFMwdlMtZmxveXR1QnBaNmM?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQmhZcFY1QldGMl9xcXJCMkE4NmU0Z0twbnJzX2M0REp4TGJ4Ymd4eW9ucF81czJ1X0dCSmtIVFVLWXNVZG1wQlpxdDg0Z3VYMFVpUEFNNG5Yem1OcWhyc3p3S3NhZzRUb2ZxV1QzUkFfQXpvamZzSUdoOHBVNUNmWnpkUlJlTnZRelQyclZTQmpSNjdVNEJQWjdMejVxaEUwWUFQOFpvVGNKNzZXbEs0TU5kUFJWeW5Gei1UME1kMXJmWG1lVnc?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPS3BfNFgzdFhyNi0za1ZFRjZKSFdtQkxSOHFKTWhxS3hvOHB2dWZkLS01UktXSTRYUEpZWDBVQ2xBREY1SmhncHZjT2prLXdKYkZRRE0wbkc4RFMtZUppdkVRNi1iUWloQnk4SzVvZC1iVHlrcVM0dmNXVXVVLXNTYms1TWtybGZPUDc0LUhkckZYUEFVYi1xMGNyVlo2Tzl3cGRzRExIc3lmMlpRaUFFMTFjU1hGU0FhRWlZNUZNM2g5b29LaC1NMS1SbmVtVlNSa2d3RHhLc9IB1wFBVV95cUxPS3BfNFgzdFhyNi0za1ZFRjZKSFdtQkxSOHFKTWhxS3hvOHB2dWZkLS01UktXSTRYUEpZWDBVQ2xBREY1SmhncHZjT2prLXdKYkZRRE0wbkc4RFMtZUppdkVRNi1iUWloQnk4SzVvZC1iVHlrcVM0dmNXVXVVLXNTYms1TWtybGZPUDc0LUhkckZYUEFVYi1xMGNyVlo2Tzl3cGRzRExIc3lmMlpRaUFFMTFjU1hGU0FhRWlZNUZNM2g5b29LaC1NMS1SbmVtVlNSa2d3RHhLcw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "CBN",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTV9PQkxha2J5LXZLUDNYUW5ubzRpaG1PZUg5Y2c1aWs0TlVZN3ZTNF9RaWg5UEdYYkNrc3JWdmFSUGN0MWg4MFU3WnN3TzZzd1FtTWppRTJPWFNhOTV5OXdJUDNRYlNNdGFKZElMSHUtT2VybHhBSURHMm9rZ2xBMWEyLUFJeDhkYXJGcjdFX0VJNjRsQWR4SzZuN0NWMEkzVUpsSm8wOUpfbHA0VUM0QjFVbjE5eDFGSmxLM0tRWktnQ0R0MU9MbUdWNW5MWHV3dzdjbF9mc2R1eTQxLUtpQy1JY2p1LXZZVm14ZEhB0gH8AUFVX3lxTE80WXVJcVlXOHhzLXRVTGp0N0x3ZlB4LVV6YTRUVk1MRmRhdHFwZlBWUk1URHRrRHNOeFlaOUVHWTVVVnBTbFphcXZTaGxBNjlraGhkREhCRWlOZFRoQk9ITXdZQ1RRVDluOTVmZHRMNHhWNVRhaElCZkJoMGxXdktzRDhXLTZrN2QtclNEMFJYWXNLZkNXQjA5ZlVaQ2RMQ2prU20zQUtlTE5JNzZmZ3c3ZlBHQWxjUk0yVkRER09fa19DOC1DU3Rvb01OWXZZY20wRlpncGFsbWV1bTJkY2prWDJraTlFVllDY1FxOWd2VS1DeEtpaHZ0UFBzVA?oc=5",
-          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -257,15 +86,15 @@
           "position": "editoria"
         },
         {
-          "name": "Congresso em Foco",
-          "url": "https://www.congressoemfoco.com.br/noticia/131620/tre-ce-tem-maioria-para-manter-condenacao-e-deixar-ciro-inelegivel",
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/tre-ce-tem-maioria-para-manter-condenacao-de-ciro-por-violencia-de-genero/",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Diário do Nordeste",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNm9qOFprNTE3bnBhTl9WMGF3TEQwdENTdTRDdVYtbllqQWJQQzlJcC1ibThSMnZZNjlrZ2Z6UmV3N2poanJrUm1IeC11LUNBUFM0SVJLVGczOFdjLVFsektranhHeXFXcnFUR3lrTTNkRWtWT1FvMXFzN2hyU01tdXloQkZZVThvM0tHb0k4dmY4MnRiT1otT0pLYnBaSzN6VFN1blJ5WGltUkUwRDJTYzFZUzhUek1CMi1kc21JQlhqY3hUWU5XSndOM1F1aXA4eUdFRW5acDRqTDZHaTJxZ2V0UFNjcnpER0pB?oc=5",
-          "camp": "regional",
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131620/tre-ce-tem-maioria-para-manter-condenacao-e-deixar-ciro-inelegivel",
+          "camp": "centro",
           "position": "editoria"
         },
         {
@@ -278,6 +107,98 @@
           "name": "Portal iG",
           "url": "https://ultimosegundo.ig.com.br/mundo/mundo-insolito/2026-11-16/tre-ce-mantem-condenacao-de-ciro-gomes-por-violencia-de-genero.html",
           "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "alckmin-fiscal-mercado-minimiza-negativa-pacote",
+      "segment": "economia",
+      "title": "Alckmin minimiza reação negativa do mercado com pacote fiscal",
+      "summary": "Alckmin minimiza reação negativa do mercado com pacote fiscal. Alckmin vê reação do mercado ao ajuste fiscal como passageira e sem fundamento.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.8,
+      "outlets": [
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/alckmin-minimiza-reacao-negativa-do-mercado-com-pacote-fiscal/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/brasilia/alckmin-ve-reacao-do-mercado-ao-ajuste-fiscal-como-passageira-e-sem-fundamento-16112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/economia/a-resposta-de-alckmin-para-reacao-do-mercado-ao-pacote-de-ajuste-fiscal-do-governo-lula/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/fotos/2026/11/lider-do-governo-diz-que-projeto-de-ajuste-fiscal-nao-e-tesouraco-mas-minimiza-criticas-da-esquerda.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Estado de Minas",
+          "url": "https://www.em.com.br/politica/2026/11/7539605-deputada-do-pt-mg-rechaca-criticas-da-esquerda-ao-ajuste-fiscal.html",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ate-big-economia-estima-fazenda-regras",
+      "segment": "economia",
+      "title": "Fazenda estima economia de até R$ 50,6 bi com regras para big techs",
+      "summary": "Fazenda estima economia de até R$ 50,6 bi com regras para big techs. Regulação econômica de big techs pode cortar custos de consumidores e empresas em até R$ 50,6 bi por ano, estima Fazenda. Regulação de big techs pode reduzir custos em até R$ 50 bilhões, estima Fazenda.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.5,
+      "outlets": [
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/economia/fazenda-estima-economia-de-ate-r-506-bi-com-regras-para-big-techs/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/11/16/regulacao-economica-de-big-techs-pode-cortar-custos-de-consumidores-e-empresas-em-ate-r-506-bi-por-ano-estima-fazenda.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/regulacao-das-big-techs-pode-render-ate-r-506-bi-diz-fazenda/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/economia/regulacao-de-big-techs-pode-reduzir-custos-em-ate-r-50-bilhoes-estima-fazenda/",
+          "camp": "esquerda",
           "position": "editoria"
         }
       ],
@@ -330,59 +251,10 @@
       }
     },
     {
-      "id": "amistoso-data-desta-equador-fifa-flamengo",
-      "segment": "esportes",
-      "title": "Flamengo pede, e Equador libera Plata antes de segundo amistoso desta Data Fifa",
-      "summary": "Flamengo pede, e Equador libera Plata antes de segundo amistoso desta Data Fifa. Equador emite nota oficial sobre Gonzalo Plata, do Flamengo. Plata, do Flamengo, é liberado pela seleção do Equador por motivos pessoais. Plata, do Flamengo, é desconvocado da seleção do Equador; veja motivo.",
-      "scores": {
-        "cobertura": 7.0,
-        "destaque": 8,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 6.5,
-      "outlets": [
-        {
-          "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOc05TUE5QbUZUenRJaXFYdm02QkVtVWZMX0NYeG1pa1oxNTFWM3NkcGtiLTRENzlESGw2X0hUZlZTbjh5SVczclI4VHd2ckhPX3hWaTRGYUluelVDZFlPM3JJUmx5TTEzTXFKLXc3dVI0NUY0UVlqMWlpN2pZdDlsM1VBM3pYQjcwT0FYeEpMWUtkZlFOV2JOdlktcFd6d3UyMGkzODlfZHlCVnRzTElhdkhGZTVYWWI1OWExeW5WZ1RPckItTzVJT29EOGxIM204djRUZEZXdkNCNmVtVXlHYy1BRXdxWl8zdXd1X2ltRi3SAf8BQVVfeXFMT2NBV0FvamFUNXRLYkIxQk1DMk5tdnQ5OUJkbkt4cEJudTdiZ0d0aFlxaVM1dHZWek1PV2lVYjNxelBzZWxpdzlTN1NrQ3VETjRESGVsN2hEVGE0b2xfRlJzMzhCMDZFMjFudHQ5Y28zeE9lZ3QzeGRHTy1zdjh3Ny1MZ2VlQUhETGFjSzk5ZlQybXZWOHJzLVZYeDFkZE90RkJLaXVpOTZhUmo1SlNyRURQa0E4VzFub2t1S2pKNFNlbXlMWmlveHZCT3RXQkdIR1V3MDNzRU1yUEN2QzlOV041QU5lcWpQTXZ2Zl9jMzV0TVkzUWRrSFlZbDRzZ0d3?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Terra",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUnBlMEFnMVFMaDJHZmtMcWRQMkZrS3dHa3VVZDlLN2cwdkFBVmdZd1dac2ItanNkU2puQlBxSlRBcGNmMGh1ODVhaXBDWWhDaHNGS28zNGY5Z1NjdFRUMDdzUUxYRTlNeGtiT3ZUbG5mZHpMWnFianVsZU5TNjhCOFd1bVd5N19NR21PZXUwY1pzMGx2QV95Y3IwWFl0RVNZWlZuMTBXZC1XVW1JMzh3Wm1GTFVINXJzUjZMQ0VFUndZTy1KUzh4RU1Rc0xCejZSV096TXdQWnN4clEzWjRCYw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "UOL",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY2x6bC14ZklCZEU5MWxnLXhaWlpCU2ctTG9RNm5TV3pwczk4ZWtFV2RoVHlkc0kyYjBhSWgtaTN6R0VGVGxfdl9NMWpDekozT1NmUmhyMzFHUFAxUzlBanh4X3czUGxHQ1NSMnhTNXFkU3gzV0xiVW9oOEluNndmZEJqaWtMcnpINGN6UUExQWNKWDdNcVlEVV9La0Q0MzBtQmYzM0VISjZ2Ulp5Um5YQ0taNnRVQQ?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRW9BNDRPRmZlZHJ6dnZ2Y1F5dDdUaVo5QU5vQkd5dVVmSTE0amllTGZ2OHhnME9pcVM0akZnVHN0a0NKMFl0TDc1aEd4VTFqaVpzS2gycnM5c2J4QUFmYTdrUmo3SjdqSWQyWGl3c2JMQVcwNUppNWstdnFZWmxEa0htMnVscnZqQUE1anc1dTdvTWlubld6YWdoTFhiVzlRTm0zMzlqVGF4TlhNMm5acHRJbGd1OWYyNGVINGdZRGNzdlJaM1FjSmRkVnpwOHdw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Extra",
-          "url": "https://extra.globo.com/esporte/flamengo/noticia/2026/11/gonzalo-plata-do-flamengo-e-desconvocado-da-selecao-do-equador-por-motivos-pessoais.ghtml",
-          "camp": "rio",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "3000-concurso-desta-feira-lotomania-resultado",
+      "id": "1349-concurso-confira-dia-nesta-resultado",
       "segment": "politica",
-      "title": "Veja o resultado da Lotomania concurso 3000 desta segunda-feira (16)",
-      "summary": "Confira o resultado da Quina, concurso 7169, desta segunda-feira (16/11). Veja o resultado da Lotomania concurso 3000 desta segunda-feira (16).",
+      "title": "Dia de Sorte: confira o resultado do concurso 1349 sorteado nesta segunda (16)",
+      "summary": "Dia de Sorte: confira o resultado do concurso 1349 sorteado nesta segunda (16). Confira o resultado da Quina, concurso 7169, desta segunda-feira (16/11). Confira o resultado da Super Sete 923 de hoje, segunda-feira (16/11).",
       "scores": {
         "cobertura": 6.0,
         "destaque": 5,
@@ -392,9 +264,9 @@
       "score": 6.3,
       "outlets": [
         {
-          "name": "UOL",
-          "url": "https://tnonline.uol.com.br/noticias/cotidiano/veja-o-resultado-da-lotomania-concurso-3000-desta-segunda-feira-16-1174323",
-          "camp": "centro-esquerda",
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/consumo/dia-de-sorte-confira-o-resultado-do-concurso-1349-sorteado-nesta-segunda-16/",
+          "camp": "centro",
           "position": "editoria"
         },
         {
@@ -410,8 +282,8 @@
           "position": "editoria"
         },
         {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVzNlcjI4N3lSODFFYS1zOVhjd1dVZFYwQnRiZUQ5TE1nbVY0amtpM1VreC1Wd0FoaU1DaVpfT25NRmNLZWhDc0s3cWxKcTM4cllUYVF1Mnl5bHZTN2ZWeExqclY3eUpFZzZmb0Z5OUJTYnR6Ti0tbnJGenRYdWszSTREWXJhSFJYcGVHX1NLRXpPZVRJMld4RGJadlNQTE9BanZkbXlqczFZRUE?oc=5",
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/loterias/confira-o-resultado-da-super-sete-923-de-hoje-segunda-feira-1611/",
           "camp": "regional",
           "position": "editoria"
         }
@@ -422,10 +294,10 @@
       }
     },
     {
-      "id": "ate-big-economia-estima-fazenda-regras",
-      "segment": "economia",
-      "title": "Fazenda estima economia de até R$ 50,6 bi com regras para big techs",
-      "summary": "Fazenda estima economia de até R$ 50,6 bi com regras para big techs. Regulação econômica de big techs pode cortar custos de consumidores e empresas em até R$ 50,6 bi por ano, estima Fazenda.",
+      "id": "caso-criminosos-debate-documentarios-lucro-reacende",
+      "segment": "politica",
+      "title": "Caso Suzane von Richthofen reacende debate sobre lucro de criminosos com documentários",
+      "summary": "Caso Suzane von Richthofen reacende debate sobre lucro de criminosos com documentários. Deputado sugere Lei Suzane von Richthofen para proibir lucro com histórias de crimes. \"Lei Suzane von Richthofen\": projeto barra lucro com crimes.",
       "scores": {
         "cobertura": 5.0,
         "destaque": 6,
@@ -435,64 +307,21 @@
       "score": 6.2,
       "outlets": [
         {
-          "name": "O Antagonista",
-          "url": "https://oantagonista.com.br/economia/fazenda-estima-economia-de-ate-r-506-bi-com-regras-para-big-techs/",
-          "camp": "centro-direita",
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/caso-suzane-von-richthofen-reacende-debate-sobre-lucro-de-criminosos-com-documentarios/",
+          "camp": "direita",
           "position": "editoria"
         },
         {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/11/16/regulacao-economica-de-big-techs-pode-cortar-custos-de-consumidores-e-empresas-em-ate-r-506-bi-por-ano-estima-fazenda.ghtml",
+          "name": "R7",
+          "url": "https://noticias.r7.com/brasilia/deputado-sugere-lei-suzane-von-richthofen-para-proibir-lucro-com-historias-de-crimes-17112026/",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-economia/regulacao-das-big-techs-pode-render-ate-r-506-bi-diz-fazenda/",
+          "name": "SBT News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdlI2UzFnNmtGV29scjI1T051NGdVcUVfblQ5aEVaamVUVktSSE5yY280RUIwY2EzaFpXYkluZzZjcTBNN2IxQnZ6NjlON0lURFpWcnE0eUw5RGxBZDdIbTZDNkZZQWE2R2c4M1JRbC0wblpZbTVsMnRQNXpSbkdQN1pxelYzYTZFNENZYzRILUs2ZThGMXVRWjlOSHVlM2s?oc=5",
           "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "1958-ancelotti-campeao-carlo-dino-lamenta",
-      "segment": "esportes",
-      "title": "Carlo Ancelotti lamenta a morte de Dino Sani, campeão do mundo em 1958",
-      "summary": "Dino Sani, campeão com o Brasil em 1958, comandou o Goiás em jogo histórico contra o Santos. Carlo Ancelotti lamenta a morte de Dino Sani, campeão do mundo em 1958. Pepe se torna o campeão mundial mais velho vivo após morte de Dino Sani.",
-      "scores": {
-        "cobertura": 6.0,
-        "destaque": 6,
-        "persistencia": 7,
-        "peso_voce": 6
-      },
-      "score": 6.2,
-      "outlets": [
-        {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/esportes/carlo-ancelotti-lamenta-a-morte-de-dino-sani-campeao-do-mundo-em-1958",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLXBLZ0VLcEQwbDZFbDBOeklLdkxCeUVUd3RfaFl6M1pOSEFJbE9YOGlrUERfaDRXUW9mU0E0ZC14OEVaVnZFYi1vaTVvc01mNjFwR2RGRjZ2UUI2bUVCME15eDRUSGFGa0xGcnFqZjMtWUZhelZILW5lOVZrR0xOelZuZTRtRWt5Sm1mRVhiSjh3ekdGc0ZUM1VWXzVpdGtqQ2tUWkljV2NNT1EzNVItSkJ3akpiU2dfVUtMYzdETFFkSWNNaHdxZHp6U3BCWm1jZk00?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Popular",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRGlpMmdDZE1oMFRPbENCbDA5TkZvTUk4N1czTFd1c3EwSk54ZG9FN19pZGZBcjlYd2FjM1JxTDFRSXhsMk0zUERKcy1Wdnh1OWdjVjJfT3U3MWNoMHE5WEJhbi01eEd5d2p3b203cFNaY2tfcm10UHZadTRYU0VRdV8xcUtJZmoyMWlfaFlJNlIya0NjdUdCV0IyODJzcXRFM3RBV2E0Yzk0M0o0bzMzblFTWk9ha2pmdExwZGRNS0tIX1R6SERHR3ZkNA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Folha de Londrina",
-          "url": "https://www.folhadelondrina.com.br/esporte/campeao-do-mundo-em-1958-dino-sani-morre-aos-94-anos-3329446e.html",
-          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -539,47 +368,10 @@
       }
     },
     {
-      "id": "comandante-condenado-golpista-libera-marinha-moraes",
+      "id": "acordo-alcolumbre-busca-derrota-evitar-indicacao",
       "segment": "politica",
-      "title": "Moraes libera ao STM provas contra ex-comandante da Marinha condenado na trama golpista",
-      "summary": "Moraes libera ao STM provas contra ex-comandante da Marinha condenado na trama golpista. Moraes libera ao STM audiências de comandante da Marinha e Aldo Rebelo. Moraes autoriza compartilhamento de provas contra ex-comandante da Marinha com o STM.",
-      "scores": {
-        "cobertura": 5.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.9,
-      "outlets": [
-        {
-          "name": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/justica/moraes-libera-ao-stm-provas-contra-ex-comandante-da-marinha-condenado-na-trama-golpista/",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Congresso em Foco",
-          "url": "https://www.congressoemfoco.com.br/noticia/131626/moraes-libera-ao-stm-audiencias-de-comandante-da-marinha-e-aldo-rebelo",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/politica/moraes-autoriza-compartilhamento-de-provas-contra-ex-comandante-da-marinha-com-o-stm/",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "carla-defesa-interpol-lista-nome-pede",
-      "segment": "politica",
-      "title": "Defesa de Carla Zambelli pede retirada de nome da lista da Interpol",
-      "summary": "Defesa de Carla Zambelli pede retirada de nome da lista da Interpol. Defesa de Zambelli pressiona Interpol para apagar registros internacionais.",
+      "title": "Lula busca acordo com Alcolumbre para evitar nova derrota na indicação ao STF",
+      "summary": "Lula busca acordo com Alcolumbre para evitar nova derrota na indicação ao STF. Lula avalia encontro com Alcolumbre para discutir indicação ao STF. Lula tenta acordo com Alcolumbre antes de escolher novo ministro do STF, diz coluna.",
       "scores": {
         "cobertura": 5.0,
         "destaque": 5,
@@ -590,57 +382,20 @@
       "outlets": [
         {
           "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/defesa-de-carla-zambelli-pede-retirada-de-nome-da-lista-da-interpol/",
+          "url": "https://www.gazetadopovo.com.br/republica/lula-busca-acordo-com-alcolumbre-para-evitar-nova-derrota-na-indicacao-ao-stf/",
           "camp": "direita",
           "position": "editoria"
         },
         {
-          "name": "Diário do Poder",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVmZuNDFfeE5rSGJUV3FPd0E0ZTlaaWFkZ2VoS2N5ajNoTDB4YkhJNFpXQ1JJQTlTYldkUEkwNjZfcGZWU09UOWIxSFQtY21UbjVKdElmeXR3ZkQ4bUs3Q0NXRVZoV3BKaDl4b3YzSVJjbENTZ3V4OTRoY1J6VlVOWmotVjhYSGF3bFZQOVh3dlF2MC02c3owZXNDVGMxYTR4c0FpM19mNWtoRHlrX0RLTkhJSjJTRW9ZMnBEdTJMSmxPeGZEY0Q5a2R0QdIB0AFBVV95cUxNUlUxQ0ZwdzlxNEFZajNKRlg3Y3hfSzBGeWhQRW9fS29WdzRoaXZHX0Ria19KbF9DZzBTQlpvUFZKcDJ0U2pFczVfYlhpQVV0bjVsWU8yZ0h2SWY3R1cxZy1oWUd0bmh3cUp2LURyalFVUU5DbFB6bTZkMmZiMmZpRVQ3SzhhNkpmSm5TRUtRUlYtMlNnLXVRa1ExZG5nTWRaTng0THhONXpjYjBoYzFMeHFReE1QWVFzSUNBZ3BtbjJHMUZJbFViUlUtZjcwcnVS?oc=5",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "SBT News",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTmJ2T1UtZ2J6ZFhMazF6SDJLNFlBV0x1b3cwUmQ4Sl9SME9RTjNBNnRJZ085Q0l1TURCM0ZRWDUzSlhkV1c2UjlfR0lBTUR3TmFxSEplbzZXWnpVY2QwcXhHQXhVSFF2SkR5MGprWkRDeTBNYzczQzhXZUUzMDZtN1JJMUZBOUllandQUkhnTDZKTnZuVTV4bjJMZUZ0cVJ1YXZZcg?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": true,
-        "note": "Teve destaque na direita (Gazeta do Povo, Diário do Poder) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
-      }
-    },
-    {
-      "id": "ameaca-batalhao-coroas-deixar-flores-homem",
-      "segment": "rio",
-      "title": "Homem é preso após deixar coroas de flores com nomes de PMs vivos em batalhão de Jacarepaguá; polícia aponta ameaça do CV",
-      "summary": "Homem é preso após deixar coroas de flores com nomes de PMs vivos em batalhão de Jacarepaguá; polícia aponta ameaça do CV. Coroas de flores com nomes de PMs vivos são deixadas em batalhão no Rio; homem é detido. Coroas de flores para PMs vivos são deixadas na frente do 18º BPM.",
-      "scores": {
-        "cobertura": 5.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.9,
-      "outlets": [
-        {
-          "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNzhJUmk0S2JZZ0w4VGJyb3lRck5lRVlyYURMdVM1eFYxbzE2XzhkZFRJQzM0V0g3QV9SMElLa1ZXVEVsQWxJd3hUZkk1X2JKNkYtTS1EbTExSXlxVDNrTWUtV1paN1lpOUpDTHhTbkhhdlhIR2pmNDFZc1c0R3Fqcm9xYzI0TE9PYW8xZkZaSm1SaUh1NzZSZjJtSWo5SjlJaXVPUlZldVpBaXdibUVWcS1iVVRVdEU0U2x0T3M3M0UzY09iTTJGc29mMHRaRjRLcnRPalFHVmhwT2UyYTdnTi0yVVRXdkJhbndOTHRNTzRWNE5HLUtMYTB5Ql95X1lGQmFqadIBkwJBVV95cUxNb2Jzbjl4WXlnc1JoYnF2cWthb3d4cFNLd2t2eTJmNWhQUDNub3lHRWp1d3VTeGNuVnRMM3pwTVhhZHdfX0tYNS0tWGtzai03VzdueEhYeUVXd3hyZDFZd3B3UTYtcnRIOWVpRllDTXZDdHMwZS03amJtbnQzQ2ZwZWktV0dnSUxwV2tmXzQtYlVGb0YyUmVSTmRvbFVFdmVFWl9lbzdEdGpkY1N0Skw4Y2MzSnY0a2NQd0VzSU54YzAyYk1WallyN2hYT0VKQkJPSWxxMExPVWV4cVRMZTctanZjNThyakRHemh1LXk1bWVFb19WeTBqM3lKV2tjV3Njczh0SnN3cVR1dnlDaVctcG5NYw?oc=5",
+          "name": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMm5QR19WUkVwRmlRS2lKVWdSc3N3MmdHelFJTERrLXg1QnIta1F6NmpUQjhJQ1Z0U1c2eXdmMkhlZDlMRDVuYmVpeVBFczFmNm4zS3p1VnRzTTVTb2RaWmQ3Y3RwWFNEVTFkeXNPUVU2ejNwZE1OYWxHSnlpSFNkWmtnbWo0aktRLWFyZW9tZWpLUmY5M3NYaFprMG5sNXRIaUEyNHVwNTMtYWVwZzB3bGVzUUhGUFhNelN6a2gwWDVEa2dVM201X0ZzQXYxdWfSAdQBQVVfeXFMTXE3R1MwLWJ3Uy1YYWttVDBScnRocnpCOWxPd04tZ1pmb1cxT2J0Z3ZzV19uUGdteWRiQktfeHYzcEp0bzZINHRzSl85VDdjMkJBcGhZNHFOMEpYZlpzS1YxWFZVMy1ZemVidzRxRnpZay04MWRMYnAyTlhVdUV4MEFxV1ZjLUJZcUxjMzNldHF6SHotUk9hRDBGaUQ2X3hEeC1PamRhOXZ3NXhaczdpZDRRNWl2VV9CQi1KSi12TzlSVjFSMGtibE5KYnNkTzUzb1BLN2w?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Extra",
-          "url": "https://extra.globo.com/rio/casos-de-policia/noticia/2026/11/coroas-de-flores-com-nomes-de-pms-vivos-sao-deixadas-em-batalhao-no-rio-homem-e-detido.ghtml",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7323030-coroas-de-flores-para-pms-vivos-sao-deixadas-na-frente-do-18-bpm.html",
-          "camp": "rio",
+          "name": "Correio (Bahia)",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVBsakc5ME5Pd1pxVXdqTi1xVnlGdWJoaGlyWFZMZTlRUkJyYjJlVW1aQmNMYmREdHl5aXQwa2VMM3BSczJwck1zWXpFSlQwLTliYlM5VElBSEhNcFRwZWoxMFlGWk9RUW5jbDNSYURwSjFQSkpQR241UFVLY3NYcWJ2WnBzT0oyb2cyRTUyN1ZRQVVlVXRXVDlPVzlGQVRMY1JleUZObFk4eE04OWxLLUJNcTdEMElLUEt3emtGWmJfWmNYZkpR?oc=5",
+          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -693,102 +448,96 @@
       }
     },
     {
-      "id": "ajuste-apesar-apoio-criticas-declarar-deve",
-      "segment": "economia",
-      "title": "PT deve declarar apoio a 'plano Moretti' apesar de críticas da sigla a ajuste",
-      "summary": "PT deve declarar apoio a 'plano Moretti' apesar de críticas da sigla a ajuste. PT da Câmara deve apoiar pacote fiscal de Lula apesar de críticas a ajuste.",
+      "id": "1958-ancelotti-campeao-carlo-dino-lamenta",
+      "segment": "esportes",
+      "title": "Carlo Ancelotti lamenta a morte de Dino Sani, campeão do mundo em 1958",
+      "summary": "Carlo Ancelotti lamenta a morte de Dino Sani, campeão do mundo em 1958.",
       "scores": {
-        "cobertura": 3.5,
+        "cobertura": 5.0,
         "destaque": 6,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.7,
-      "outlets": [
-        {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/pt-deve-declarar-apoio-a-plano-moretti-apesar-de-criticas-da-sigla-a-ajuste.shtml",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/noticia/2026/11/16/pt-da-camara-deve-apoiar-pacote-fiscal-de-lula-apesar-de-criticas-a-ajuste.ghtml",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "artista-dia-doa-dois-federal-homenagem",
-      "segment": "seguranca",
-      "title": "Artista Kobra doa dois murais à PF no Rio em homenagem ao 'Dia do Policial Federal'",
-      "summary": "Artista Kobra doa dois murais à PF no Rio em homenagem ao 'Dia do Policial Federal'. Artista Kobra doa 2 painéis à sede da Polícia Federal no Rio; FOTOS.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 6,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.7,
-      "outlets": [
-        {
-          "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTXdvZ3kwQlQ5ODEzdFkxdVBIUHFpZjhkbVlXOXIzb0JwRzh3d1hKOHZtWnBkZlFFVEM5WmpKZkt2Unl5YXdUejViT0tOcEJLN3RNOUxZRkdIR09BemhIZVNqd0NhUmhMVXdIQzRhOUlYLWcwMUhsU2R3UzJ2bUFfQ2g0SlRfVjYtOFZYSXpEaEV3Y2Z5b3Z5cEJENWVvTEZET1FxeG1wV3VHNWxFV3E1dUxIM1lfWHN0OGk1ZE0tazRGZTVuTFVVcGNTVW5jTXVa0gHfAUFVX3lxTE5ZQmE1TEZVX2c5Tjg2WFlQbEt1REFSaTUyQTJqRlpMbE5VZmx5dzRwOFZ4cEdnaVA1Sm9vRGxfYm5LNkRnbURmaGpBSUNmdFJOWXl0YzZjNXNESjIxaE5UTWhselJlbm51bHozUjdnd0hxc2hueEN0MUlMMVlFZDlyMTRPcE5VcWZiakhjQWZUbmdZa0c3WnRzWGJKeVpVdFdlZy1Wc0tQSE1pZzJLWG9vLU5xUE1IWEhyUGVpY29OcHM4UVNyMjZpcFZkd0lTWGgwMURVVDk1QUFYWmhzQ1E?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWpBOERDd3BKZzFxRWV1WEI5RG8yMTc5aDRxLVRCOVF4VFJHam5lZjZTNkstT1hGNC1PRHpYR2F4ZHY4UXpGSWNCb0p6UG40cDZ3NW9wXzdPZ25FdU9DbDF1MzBzdlNzai1MNEthRi1Sa0hBM2toQVR1d05IckR2RU41cldIRzBtYm9WUjZxWm1sektSeGFaMTVKTW1QdzdQMWxham9uUzdVQjFnWUFERWVDWDVpV1lWWVhhdVVXVnpYUy1Ld3lZT1BB0gHYAUFVX3lxTE9ldHFMOGdYXzFkSFY1QnVpVlBEdHVfQ29HREdXVmdQMHpRQ3lfTUNQcnZZa18tUmlfbnozTFhncEhZN0tGQUlHQW4wT0NRNFNqa25GcHBzMU16YWJoYXl1MVd4TjY2MnVvS1FqSzVCMGI4S3pFNVhWNkE1dWFHZjdOLTR5NldjSjJkMjFYOGk5M2tDekQzUm1VN0I4ZFMyS1ZGZWZIWHloRkZhNF80eEpzNTJGWUl4dVRWendxUlJrRXFIY0RIallrX1lFdUVKRXpSNlBUb3NncQ?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "california-ciberseguranca-incidentes-openai-processa",
-      "segment": "ciencia",
-      "title": "Califórnia processa OpenAI após 80 incidentes de cibersegurança",
-      "summary": "Califórnia processa OpenAI após 80 incidentes de cibersegurança. Califórnia processa OpenAI por ciberataques de modelos de IA contra Hugging Face e outras empresas.",
-      "scores": {
-        "cobertura": 6.0,
-        "destaque": 6,
-        "persistencia": 4,
+        "persistencia": 7,
         "peso_voce": 6
       },
-      "score": 5.6,
+      "score": 5.9,
       "outlets": [
         {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/mundo/california-processa-openai-apos-80-incidentes-de-ciberseguranca/",
-          "camp": "direita",
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/esportes/carlo-ancelotti-lamenta-a-morte-de-dino-sani-campeao-do-mundo-em-1958",
+          "camp": "centro",
           "position": "editoria"
         },
         {
+          "name": "Folha de Londrina",
+          "url": "https://www.folhadelondrina.com.br/esporte/campeao-do-mundo-em-1958-dino-sani-morre-aos-94-anos-3329446e.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/esportes/futebol/internacional/romario-amplia-crise-com-carlo-ancelotti-tenho-tamanho-para-falar,b3833a427cdf20db548378a8ee6597fd5zegnumy.html",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "carta-denuncia-enviou-explosivos-faria-homem",
+      "segment": "seguranca",
+      "title": "MPSP denuncia homem que enviou carta com explosivos a ricaços da Faria Lima",
+      "summary": "MPSP denuncia homem que enviou carta com explosivos a ricaços da Faria Lima. MPSP denuncia homem por extorsão de R$ 6 milhões com “drone explosivo”.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.7,
+      "outlets": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/sao-paulo/mpsp-denuncia-homem-que-enviou-carta-com-explosivos-a-ricacos-da-faria-lima",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/mpsp-denuncia-homem-por-extorsao-de-r-6-milhoes-com-drone-explosivo/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ajuda-educacao-legitimar-posicoes-sociais",
+      "segment": "educacao",
+      "title": "A educação ajuda a legitimar as posições sociais",
+      "summary": "A educação ajuda a legitimar as posições sociais.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.7,
+      "outlets": [
+        {
           "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/california-processa-openai-por-ciberataques-de-modelos-de-ia-contra-hugging-face-e-outras-empresas.shtml",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/michael-franca/2026/11/a-educacao-ajuda-a-legitimar-as-posicoes-sociais.shtml",
           "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
           "name": "UOL",
-          "url": "https://c-level.folha.uol.com.br/ia/2026/11/california-processa-openai-por-ciberataques-de-modelos-de-ia-contra-hugging-face-e-outras-empresas.shtml",
+          "url": "https://www1.folha.uol.com.br/colunas/michael-franca/2026/11/a-educacao-ajuda-a-legitimar-as-posicoes-sociais.shtml",
           "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio do Povo",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNajQ2aGhDMFF6SUNUOU1VeXRyNE1GMklMWUhyRjNEcjFMNmthMGt3VC1kZS1lOGk5dElwY3VPVzBURDVGaDhDNUFSRVhJc2xQdGtZSGY2a0d5NFpRYS0zeW8yUmpDTUJPTHZLSnc4WGNkNG13c0pBcFhrV1NzcFFoTjVEOXFVX2h4ZWpXNXpJX2tEUjJzOVpseXY3Zm9jUWx6NHdVbGdqZHZrR0RSOWd6WjVYaGJlV1V4cXpoc0hoMEYzRDNSTUFvS2t2ZDNnYndqWXd4dg?oc=5",
-          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -798,27 +547,45 @@
       }
     },
     {
-      "id": "companheira-facadas-feminicida-matou-permanecera-preso",
-      "segment": "seguranca",
-      "title": "Feminicida que matou companheira a facadas no DF permanecerá preso",
-      "summary": "\"Eu não queria matar ninguém\", diz homem que matou companheira com três facadas. Feminicida que matou companheira a facadas no DF permanecerá preso.",
+      "id": "anvisa-base-dois-manchas-percarbonato-proibe",
+      "segment": "ciencia",
+      "title": "Anvisa proíbe dois tira-manchas à base de percarbonato de sódio",
+      "summary": "Percarbonato sódio: Anvisa apreende e proíbe tira-manchas de mais duas marcas; veja quais são. Anvisa proíbe dois tira-manchas à base de percarbonato de sódio. Anvisa proíbe dois tira-manchas populares; veja marcas e lotes.",
       "scores": {
-        "cobertura": 3.5,
+        "cobertura": 7.0,
         "destaque": 5,
         "persistencia": 4,
-        "peso_voce": 10
+        "peso_voce": 6
       },
-      "score": 5.5,
+      "score": 5.7,
       "outlets": [
         {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/distrito-federal/feminicida-que-matou-companheira-a-facadas-no-df-permanecera-preso",
-          "camp": "centro",
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/anvisa-proibe-dois-tira-manchas-base-de-percarbonato-de-sodio",
+          "camp": "estatal",
           "position": "editoria"
         },
         {
-          "name": "Estado de Minas",
-          "url": "https://www.em.com.br/nacional/2026/11/7539623-eu-nao-queria-matar-ninguem-diz-homem-que-matou-companheira-com-tres-facadas.html",
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYzliN0o5UXFNUUkyZmFsMUUwanRfVmduSk9qdWY1OExjYm5QT1R1RjBzT2pNaWhGaEI3YkZfR3RnYTBnSXpfTTFKdUlLTGpJcHQtYjFRc3hGQzJHYkZIcU9wOGx3TDJMM2NlLVFLQUltaVBnLVhWMUpTZk5NWGVxRC04bXBERXVqLUtFNnBlU3IybGMzTEMwX2tDSnRiWW9jZi14LS1OY2hsSVhOaDd2UUVuZHBSVWR6OXBLWXpCd9IBxAFBVV95cUxPWU1fREJRZmhEUFlFUU4xelJ1Qno2Z1Q5MnJyc3pJckgtb1AweTgxcVd6eXJSSlZiOHFfRVgyWlZSMW5fTVlHUHMxMy1YX0V5aFlvUFB1TkxOcXd2dU1ZTVp6cDdnS1NPMHhyX2MxVzBkNU9NMWhONGRNUlA3em1COGRmcnRmOFE4QUx0TG00cDFrU01pQVllT19IZFc4RmxxNHA1MXZYejJBQ1Z4S0RQMkU3NjFqSnkzZldrSWttVEhnRFNn?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcU1JcjJ5ZEltYlhZRkRQbUhDZXU5azduQ3c5OWlMNWhFVWFvOFFrZVJVMUZ2UEZYQUpBb1lGVXVDcjlBMDEzVUtQcTRCYW1fRnlxbHM0ZTJOTzNCamI4ZktBbW0zLWVCYTl4dWZEbTRxaVROWWROMThTQmNuazF2Z3ZkQnMydUVQUmpMejlrMmVzLVZVNVV5aHYtajVYSnpPQWxjN0k4OG00NmFsZnU0dW4teTdVT0l2b0R5Q3NYNTM0VnN0V3VXcklQRU5GY1lNMEV3MHc2TDFBM29CUVc2dlVicW0?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/brasil/anvisa-proibe-dois-tira-manchas-a-base-de-percarbonato-de-sodio-949623",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSktvVXVxdmotLUlZWXpjVzd2S0NzWHpwMTkwelpIRWpGQVF4RmZ2cnJKbW55OTFpdFlQYnQ3NzVvYUFPdHNQUnFCUWN4Z3RLSldOWGhmUVhjRXJBc3pFTndXbmtDU1VzRTdRN09ReEJpTUZrd1pUSlE0M0E4eXdUbWktMVBtbVBwODVCdllxNmN4a0xrSGtUSHpxVmxURGtOa0Y1VGNJMjJRSUd0UXFSaW16Um5hVzJSNmNoWUlrNHAzelE5TkpR?oc=5",
           "camp": "regional",
           "position": "editoria"
         }
@@ -860,136 +627,24 @@
       }
     },
     {
-      "id": "2026-anos-celular-enem-estudante-exame",
-      "segment": "educacao",
-      "title": "Enem 2026: estudante de 18 anos é flagrada com celular durante exame e retirada da sala em Marília",
-      "summary": "Enem 2026: estudante de 18 anos é flagrada com celular durante exame e retirada da sala em Marília.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
-        "persistencia": 7,
-        "peso_voce": 10
-      },
-      "score": 5.5,
-      "outlets": [
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQW5BRnlwdGppWUFtSHpKYmk4dGZnMjRRc2E1NXcyWGRPU0lFRzNwa1dPV2tDckp6azR4UEV6a0U1SURIWjlZTUFxcG1EZVZTdnhxZ2VhQlB6RUh5ZTBrc1Rnc1M4RllFTzh1UFNqbTB0QXNVcjVRbGh1OExoalhMUFhjUUlmalVDMzFWSGgwVUxYcEFzZkpDSnRtQmVTMjctQWdaakt2M0ptWXBaQUxfU1lvUFp4bUNlaERYMHF2SWc3VWFFV3VYZGthWDdNZTdJQ29jU1dPdnU1ZHNnVWcwV2pZVmE3SHNTSGxlT1g1Qkgyd9IBgAJBVV95cUxNWHJraTNGWkNCWG1MQ3ZacDZ1YzNVSGswbUtqcXFpTkRCTHVxdU5xdDhYcGYyOWJBdEh4LUkzai1Qa0FCZW1nSjItdWxzZlo1M0VyNHV3V3I3ODJZRTVSZWh1MVN1NDhMMHd4bmFpNGxNVDdzVXBYTERRTERpcnVKNUJoMUg1c1I2cGVfZ3YxUUpFaTVCRVVvRHd6ckZHUkdKeFdUVTNZNTNiOWVEaEVnaTdsS2NKQVpkQ2lQVEhmNGp1cEt1b0JJdnFxVm1iUnZWS0FLUUZyRk5HMHhmMTB3V3BLcGFSdC1ZSEdLUzVRal9BeXdBcUNGNEVON3NLV1o2?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "alerj-creditos-cria-envia-negociacao-programa",
-      "segment": "rio",
-      "title": "Governo do Rio envia à Alerj projeto que cria novo programa de negociação de créditos tributários",
-      "summary": "Governo do Rio envia à Alerj projeto de lei que cria programa de negociação de créditos tributários.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.5,
-      "outlets": [
-        {
-          "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNa2tTRnlHSjZ6ZGJ2VW80eDU5YUIzMERTR19QejZiRkJYblVNRUZkUEoza240VjJ2OXJTS28zdU5xMWNWblBtR1ZOQng5X0ZjaTdVbnJlbXhjQlBTQ3hLTWYxek52elNmakFvNExyTUxaaksxYmVBdjg1Z1JNLTlqamRkUzAtRTlmNzVpeUhXNEx4NGNKc3VxZHJkSEE1aVhKMHAzeFQyaF9odEtNTmNtcExtQXVHd01kRGxDdTk2RTc1cExDOGNFaS1DeFJJX3BaNHRFcFJ5eGJuRXgzUDJsVTdpUEt5enlVVXJsRjlmazFWbFh3LWM0ZmtMSGFHRERJ0gGAAkFVX3lxTE1ra1NGeUdKNnpkYnZVbzR4NTlhQjMwRFNHX1B6NmJGQlhuVU1FRmRQSjNrbjRWMnY5clNLbzN1TnExY1ZuUG1HVk5CeDlfRmNpN1VucmVteGNCUFNDeEtNZjF6TnZ6U2ZqQW80THJNTFpqSzFiZUF2ODVnUk0tOWpqZGRTMC1FOWY3NWl5SFc0THg0Y0pzdXFkcmRIQTVpWEowcDN4VDJoX2h0S01OY21wTG1BdUd3TWREbEN1OTZFNzVwTEM4Y0VpLUN4UklfcFo0dEVwUnl4Ym5FeDNQMmxVN2lQS3l6eVVVcmxGOWZrMVZsWHctYzRma0xIYUdEREk?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Valor Econômico",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSXJwckVmeWFuZnBwYVZGcDc0N0NlMzhXVkViNEdxOXBVcXkxMGxwNVdRbWVaS2I3eTdwRERYUGhvUG03QXBOempoY0YwSzBheTZRT3cxbjI3S0FIZFdwZGUwNUhJY2ZUdGFwbEEzX0ZwNzV1VGFzaW5sajdtZjB6bWdXVmVoaEMwbFZES3AzM1JRNVF4SVRPVHlCREhoQlZYYzBxc1ZGVGdkS0RQSDA3MFVFRFBlM2FtQ3FJZVBFcGdQeTRQUlpLN0thcF9yRGpsdEtDT2FheXZ3SVQ1OEFIRGlsdm1Da3BvZDRz0gH6AUFVX3lxTE1IMmhBblViQkhISzFMWjBQd01lSVpVaXdZeWM5MUhDWVd1eGM1VFpuZnFlNnZSNVliSy0xYjFhZnoyS05fV1FSSmFIS09iQXlmeFVCc3BrRlF4UDdqbUs4cTRPT3lkc0otVTA4RF9Xc1lRZzVYTWZVLURVMUMzYkhvRU9tWTJGbTFlRVNoNVFYUV9qaDhLanBWMFpuSXpRNjdJVGFaZFpXSVNxMnQ3LWZKTVQyRnRFdzdSS0x1ZVgyRHZvLVZJWjUxMzNhUjFXNUFJbE9qUnlhdVp1NGVaMTQ5ZnZvdWdvWElmMXF1cDVwZXhoMjVYWV9iX0E?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "acima-casos-cresceram-esperado-mpox-prefeitura",
-      "segment": "rio",
-      "title": "Prefeitura do Rio diz que casos de mpox cresceram acima do esperado",
-      "summary": "Mpox cresce acima do esperado no Rio e já soma quase 400 casos em 2026. Prefeitura do Rio diz que casos de mpox cresceram acima do esperado.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.5,
-      "outlets": [
-        {
-          "name": "Terra",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNGhvN1I1ZUU5SDJVcjZLNUl2RUxaUExqc0lIMWNvMzRYR3piZDQ5QWdxOHVia0RQeGdXNDhDRlRxQ0tib2NPeGRRWXVzT3ZEV2VHYXN3TWpIVG5KZ1ZHUDdSeGp3bGZ3Z3VhS25wVWJYM0ozOU1SVDJQTUgxUlFTUmJ3YTB5UURWeXc4Uy1xcGJLMkZQMzliWW9INTRtTmJaZlRmdXlYSC1mbjhRTFQ5TkhCQW9VYTRjMEtPZ2dUZTFKSldjRV9PMFB3YURTTEh6SzdLR2lTenNmMU5BVy1LcUhWa3Vwc0JOWmNCYmlxaw?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Diário do Rio",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVGhCcXY5UHo3bzdNb3hPVnNBU0phZ0o0clpQSXZMby1TREd0WlhDUGZxY05OeEh3N1hSUVgxNHpvRWZMWnd3ZVNsT3Vka3dteWxtd1FRZzdsTmdKQkF0aXZGdWFaaUd0azBOcjBqS1E4RVJDVVVjVjg4MGpSTXFkSlAzeXNBczM3RGdFSGdwRGN4MzJ3czBPTTJWWlBGVkJuTkZzSDhkUnNodV9HWGRHSEM1ODNRb00?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "arrecadacao-ate-aumentar-desconto-dividas-icms",
-      "segment": "rio",
-      "title": "Governo do Rio propõe desconto de até 95% em juros e multas de dívidas de ICMS para aumentar arrecadação",
-      "summary": "Governo do Rio propõe desconto de até 95% em juros e multas de dívidas de ICMS para aumentar arrecadação. Por que governo do Rio propôs negociar dívidas com desconto de até 95% nos juros.",
-      "scores": {
-        "cobertura": 3.5,
-        "destaque": 4,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.2,
-      "outlets": [
-        {
-          "name": "Diário do Rio",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOLXRqUHlJOGVsLUZETHprODRiYlZnYWlseTRLS1dsd1NGa1g4TTEyQmZJRndNVl9mUEtFdjlER1FVM2I4cmRiNHFYN1VVUFlSMzBzZ3NxNEswMFF2aUpFbzN2OUVnVnR4azF2NE54a3d6X2lkc0R3WHZncVA5dFlyV2RIZWhxRUJqdE5icmtzY0RIY0M2RmdfSVd3RGZRQTNmdmhuUHBHWnJmRGxWeHphMGR0dGdCOEVXeGtOeUlxdWZqbWo0QlpIRVlVSUJlRlNiOTE4Mjh2dnpOWVAzSG9vbV84a1NtS28?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "Veja",
-          "url": "https://veja.abril.com.br/brasil/por-que-governo-do-rio-propos-negociar-dividas-com-desconto-de-ate-95-nos-juros/",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "anos-eua-livre-perdem-sarampo-status",
+      "id": "erradicou-estao-eua-perder-prestes-sarampo",
       "segment": "internacional",
-      "title": "EUA perdem status de país livre de sarampo após 26 anos",
-      "summary": "Sob Trump, EUA estão prestes a perder status de País livre do sarampo.",
+      "title": "EUA estão prestes a perder o status de país que erradicou o sarampo",
+      "summary": "EUA estão prestes a perder o status de país que erradicou o sarampo. EUA perdem status de país livre de sarampo após 26 anos.",
       "scores": {
         "cobertura": 5.0,
-        "destaque": 5,
+        "destaque": 6,
         "persistencia": 4,
         "peso_voce": 6
       },
-      "score": 5.0,
+      "score": 5.3,
       "outlets": [
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-na-tv/video/eua-estao-prestes-a-perder-o-status-de-pais-que-erradicou-o-sarampo-16112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
         {
           "name": "Folha de S.Paulo",
           "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/11/eua-perdem-status-de-pais-livre-de-sarampo-apos-26-anos.shtml",
@@ -1001,37 +656,43 @@
           "url": "https://www.cartacapital.com.br/mundo/sob-trump-eua-estao-prestes-a-perder-status-de-pais-livre-do-sarampo/",
           "camp": "esquerda",
           "position": "editoria"
-        },
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/saude/eua-perdem-status-de-pais-livre-de-sarampo-apos-26-anos/",
-          "camp": "esquerda",
-          "position": "editoria"
         }
       ],
       "asymmetry": {
         "flag": true,
-        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, CartaCapital, Brasil 247) e não apareceu nos portais de direita da coleta."
+        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, CartaCapital) e não apareceu nos portais de direita da coleta."
       }
     },
     {
-      "id": "500-ate-educacao-jeduca-jornalismo-oferece",
-      "segment": "educacao",
-      "title": "Jeduca oferece prêmios de até R$ 4.500 para TCCs sobre jornalismo de educação",
-      "summary": "Jeduca oferece prêmios de até R$ 4.500 para TCCs sobre jornalismo de educação.",
+      "id": "california-ciberseguranca-incidentes-openai-processa",
+      "segment": "ciencia",
+      "title": "Califórnia processa OpenAI após 80 incidentes de cibersegurança",
+      "summary": "Califórnia processa OpenAI após 80 incidentes de cibersegurança. Califórnia processa OpenAI por ciberataques de modelos de IA contra Hugging Face e outras empresas.",
       "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
+        "cobertura": 5.0,
+        "destaque": 6,
         "persistencia": 4,
-        "peso_voce": 10
+        "peso_voce": 6
       },
-      "score": 5.0,
+      "score": 5.3,
       "outlets": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/mundo/california-processa-openai-apos-80-incidentes-de-ciberseguranca/",
+          "camp": "direita",
+          "position": "editoria"
+        },
         {
           "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/novo-em-folha/2026/11/jeduca-oferece-premios-de-ate-r-4500-para-tccs-sobre-jornalismo-de-educacao.shtml",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/california-processa-openai-por-ciberataques-de-modelos-de-ia-contra-hugging-face-e-outras-empresas.shtml",
           "camp": "centro-esquerda",
           "position": "editoria"
+        },
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNajQ2aGhDMFF6SUNUOU1VeXRyNE1GMklMWUhyRjNEcjFMNmthMGt3VC1kZS1lOGk5dElwY3VPVzBURDVGaDhDNUFSRVhJc2xQdGtZSGY2a0d5NFpRYS0zeW8yUmpDTUJPTHZLSnc4WGNkNG13c0pBcFhrV1NzcFFoTjVEOXFVX2h4ZWpXNXpJX2tEUjJzOVpseXY3Zm9jUWx6NHdVbGdqZHZrR0RSOWd6WjVYaGJlV1V4cXpoc0hoMEYzRDNSTUFvS2t2ZDNnYndqWXd4dg?oc=5",
+          "camp": "regional",
+          "position": "editoria"
         }
       ],
       "asymmetry": {
@@ -1040,21 +701,27 @@
       }
     },
     {
-      "id": "14o-desempenho-devem-educacao-mil-profissionais",
-      "segment": "educacao",
-      "title": "Mais de 7 mil profissionais da educação devem receber 14º salário por desempenho no PI",
-      "summary": "Mais de 7 mil profissionais da educação devem receber 14º salário por desempenho no PI.",
+      "id": "dispara-dolar-fiscal-futuros-incerteza-juros",
+      "segment": "economia",
+      "title": "Dólar dispara e juros futuros superam 15% com incerteza fiscal",
+      "summary": "Dólar dispara e juros futuros superam 15% com incerteza fiscal.",
       "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
+        "cobertura": 3.5,
+        "destaque": 4,
         "persistencia": 4,
         "peso_voce": 10
       },
-      "score": 5.0,
+      "score": 5.2,
       "outlets": [
         {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcVAwekdDeTl2aHh2dl9DbG1zS2txSjJFTEZzbDVoTVpXZ1lLOEYybDAzam5sWmNrWUhhdG1zWkotVXBYdnl1enRmb0dMSUdWd2tBdzNkNWd3SUN4ejZwZjBYTHMwdldxZERndHc1VWF3MnpHQUVZN2ZiV19LNnpPZmY0RlZ5aDly0gGXAUFVX3lxTE9Za2hON1daaDUtemdSQ1hycG9pUWlKOGlBX2Q4SjI5QWVLbDJ5bHE0S3lnb09mdWZ5WWVpUDAxUVBpeENsV3Y2OERWSENMQ2RPcHN6dEFZUWcxSUJKa2tiUHlFNDNYd3ZBRDlkOWNzVzFaOGNZX3Q3bEtiR181dm01ZGluQzFlX2NiQWZZVWlvX1YwcWRMclk?oc=5",
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/coluna/macro-intelligence/dolar-dispara-e-juros-futuros-superam-15-com-incerteza-fiscal/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZR0owNDVxNjJIUjV2NEJlallMY05qYXZjVWtGQk1USWJCR3A2b3ptcTRZQlBTUnRvSElLZmJ1UUl6UnpUZFVGakgzWnM0VkZoYXNnejBMZ1Z1WWxx?oc=5",
           "camp": "centro",
           "position": "editoria"
         }
@@ -1065,35 +732,10 @@
       }
     },
     {
-      "id": "aproveitam-dia-empreendedores-enem-extra-garantir",
-      "segment": "educacao",
-      "title": "2° dia de Enem em Parauapebas: empreendedores aproveitam para garantir uma renda extra",
-      "summary": "2° dia de Enem em Parauapebas: empreendedores aproveitam para garantir uma renda extra.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 10
-      },
-      "score": 5.0,
-      "outlets": [
-        {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVDB6WFljdjB5QmgxYldNWkhieUo1R0JBbFdOMnhac085WWMyX21xOWxLNVBuV3BsQUd4Wll5czIyeWpvTUxVM3BmaGpnTVRRT3ZTY21NdnZwb1UxcFlBejY2TVRQWlBNOGZYbGxzcEx5MzFkMHFWYkR2WjNnQkZubDdKa1pGaEwwQndQaTNQSGdYMEU2M1JoWnRtWkJhN3MtblJsbGRCTW15MTNCaWVnVktIRFRYMGtTNVB4bmROeXdvOElpSVFGdVJtazRIQm1LVTRfQ3QwVzNTblZCcGNaT0JpbGR2dkRmVXfSAfgBQVVfeXFMTWRIRDFQcUNmT2VUbzA5T3Q1WS1kdktvLVYwbXh4R3c5bG5BY2FiUkt6ajRyZVZjNmRoZUo3cm9mYWduY25yazZna2x0ck84RUNNcjVhRXBYUWY5NUkwdkk5Vy1zWnhLUXg4bWtqLUhXTzlZbzk4eUNNa1kxb0wtOUV2S1lFVm5pYWtISkMyNnREaE1mcE9fWDhaMWJGZGlBWENHc3gtYXdQOWVmQUY3d29JZGluelNRd3NHNndvOWV1dlpLQWtTNVV1WHl4S0dSbU9BaVZwNHZPbXBiRHRrSDNVR1FrQnAxSUNPVzBnQlhmMFhHUmJ2UmI?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "ancelotti-comentarista-defende-gabaritou-romario-saida",
-      "segment": "esportes",
-      "title": "\"Romário gabaritou\": comentarista defende saída de Ancelotti da Seleção",
-      "summary": "Ancelotti admite trabalho insuficiente na Seleção e rebate Romário: 'Fala muito'. \"Romário gabaritou\": comentarista defende saída de Ancelotti da Seleção. Neto detona Seleção Brasileira de Ancelotti e manda recado a Romário.",
+      "id": "anula-estudantes-eua-impostos-jornalistas-juiz",
+      "segment": "internacional",
+      "title": "Juiz dos EUA anula limites de visto impostos por Trump a estudantes e jornalistas",
+      "summary": "Juiz dos EUA anula limites de visto impostos por Trump a estudantes e jornalistas.",
       "scores": {
         "cobertura": 5.0,
         "destaque": 5,
@@ -1103,20 +745,107 @@
       "score": 5.0,
       "outlets": [
         {
-          "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdGcwTHZOVm5JSkczYUxDQkdDV053dmd3UUxaYS1BSXphNHJXQTg5NXFqMHl3T2VOMmR2UlJNVjZ0bmFxYi1hZVR1WldwRld2enZiU19FNG1PdWdIZ0dXaVZjcTcxcElGMV9lcXl3RWRSTFBXZGFJdE1RMFM5NkVnUDdtbm1xUHdlaDdmOUE4VWFualpfSnhHSWZYOWZMcUp0Y1NiVTZ1QmUyU3JFTHM0YzlFZUQxb2VFRGF4MG5LSEx1ZWd6Mm1lWlptWDc4Tk0?oc=5",
-          "camp": "centro",
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/mundo/juiz-dos-eua-anula-limites-de-visto-impostos-por-trump-a-estudantes-e-jornalistas/",
+          "camp": "direita",
           "position": "editoria"
         },
         {
-          "name": "Exame",
-          "url": "https://exame.com/esporte/ancelotti-admite-trabalho-insuficiente-na-selecao-e-rebate-romario-fala-muito/",
-          "camp": "centro",
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/mundo/juiz-anula-limites-de-visto-impostos-por-trump-a-estudantes-e-jornalistas/",
+          "camp": "esquerda",
           "position": "editoria"
         },
         {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjZ0WlZpU3pjYXBBSjdvQmEzWjRwYms4endfNG1hbklKQWx0MThmV1dLVkR4R2h6ZUl0VHF5T1lZQ0gzQmFVOFlUZ04xWC1kQ0czdEZGNmR2eHFvWlA1NVNTb0tVbS0yVE9sbC1yNHMycHBReWk3MDlneHBnQnptSXdsclJHUzliRUVTYlpFUllkNzFTWlVmTHVtRUVYLVBiSFljbWR4M2h4Ty13ZU1qMjg3OWVDTzdYc2JmbWdlWWdnc1phUTY0?oc=5",
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/16/juiz-anula-limites-de-visto-impostos-por-trump-a-estudantes-e-jornalistas.html",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "base-equador-eua-nega-noboa-reportagem",
+      "segment": "internacional",
+      "title": "Noboa nega base dos EUA no Equador após reportagem",
+      "summary": "Noboa nega base dos EUA no Equador após reportagem. Noboa nega que Equador abrigue base dos EUA após movimentação incomum de militares estadunidenses. Presidente do Equador nega que o país tenha uma base militar dos Estados Unidos.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/mundo/noboa-nega-base-dos-eua-no-equador-apos-reportagem/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/presidente-do-equador-nega-que-o-pais-tenha-uma-base-militar-dos-estados-unidos.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/america-latina/noboa-nega-que-equador-abrigue-base-dos-eua-apos-movimentacao-incomum-de-militares-estadunidenses/",
+          "camp": "esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "709-consciencia-deve-dias-feriadao-maior",
+      "segment": "rio",
+      "title": "Ponte Rio-Niterói deve receber 709 mil veículos no feriadão da Consciência Negra; veja os dias de maior movimento",
+      "summary": "Ponte Rio-Niterói deve receber 709 mil veículos no feriadão da Consciência Negra; veja os dias de maior movimento.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 7,
+        "peso_voce": 10
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPd1NUQ1NRN0NXMFJ0U1BNc1JWZVg2NUFaLUFubFRjRmw2MzR3R29wMDhiN19iNXFobVRVckRzUk9WSTE4dFdSM0Z6T19kZV9WOEJWWDdXdnVkZ29qY0c4WmJ2VkFPVC13WlRHVk0yWHNMQ2VCOGdtRVBjOGhadGZNMmlJaUlRUlkyM2tCMWs2N0d4THNsZ3pXSnlkeXZKOGk2eHhXU1NUMzRkZDZhTElQa24yZm9UdlJ3aEdBOFhja2NOQmNKTGdZRjNQcEF6ajJZMHFmTHh4OFRVWXM4ZFYzUUJrYkloSmFkNXZ5ak1DZE41TGd2TTZ0STlaaThUa0padVMzT1hHOVNYUQ?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "atearam-bandidos-barricadas-comunidades-criminosos-fogo",
+      "segment": "rio",
+      "title": "Operação mira criminosos do TCP em seis comunidades da Maré; bandidos atearam fogo em barricadas",
+      "summary": "Operação mira criminosos do TCP em seis comunidades da Maré; bandidos atearam fogo em barricadas.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 7,
+        "peso_voce": 10
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "CBN",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTV9PQkxha2J5LXZLUDNYUW5ubzRpaG1PZUg5Y2c1aWs0TlVZN3ZTNF9RaWg5UEdYYkNrc3JWdmFSUGN0MWg4MFU3WnN3TzZzd1FtTWppRTJPWFNhOTV5OXdJUDNRYlNNdGFKZElMSHUtT2VybHhBSURHMm9rZ2xBMWEyLUFJeDhkYXJGcjdFX0VJNjRsQWR4SzZuN0NWMEkzVUpsSm8wOUpfbHA0VUM0QjFVbjE5eDFGSmxLM0tRWktnQ0R0MU9MbUdWNW5MWHV3dzdjbF9mc2R1eTQxLUtpQy1JY2p1LXZZVm14ZEhB0gH8AUFVX3lxTE80WXVJcVlXOHhzLXRVTGp0N0x3ZlB4LVV6YTRUVk1MRmRhdHFwZlBWUk1URHRrRHNOeFlaOUVHWTVVVnBTbFphcXZTaGxBNjlraGhkREhCRWlOZFRoQk9ITXdZQ1RRVDluOTVmZHRMNHhWNVRhaElCZkJoMGxXdktzRDhXLTZrN2QtclNEMFJYWXNLZkNXQjA5ZlVaQ2RMQ2prU20zQUtlTE5JNzZmZ3c3ZlBHQWxjUk0yVkRER09fa19DOC1DU3Rvb01OWXZZY20wRlpncGFsbWV1bTJkY2prWDJraTlFVllDY1FxOWd2VS1DeEtpaHZ0UFBzVA?oc=5",
           "camp": "centro",
           "position": "editoria"
         }
@@ -1127,10 +856,60 @@
       }
     },
     {
-      "id": "amiotrofica-carlos-cientista-diagnostico-ela-esclerose",
-      "segment": "ciencia",
-      "title": "Cientista Carlos Nobre recebe diagnóstico de ELA; entenda a esclerose lateral amiotrófica",
-      "summary": "Cientista Carlos Nobre recebe diagnóstico de ELA; entenda a esclerose lateral amiotrófica.",
+      "id": "artista-celebracao-dia-doa-federal-janeiro",
+      "segment": "rio",
+      "title": "Artista ‘Kobra’ doa murais à Polícia Federal durante celebração do Dia do Policial Federal no Rio de Janeiro",
+      "summary": "Artista ‘Kobra’ doa murais à Polícia Federal durante celebração do Dia do Policial Federal no Rio de Janeiro.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/rio-de-janeiro/artista-kobra-doa-murais-a-policia-federal-durante-celebracao-do-dia-do-policial-federal-no-rio-de-janeiro-17112026/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "580-aeroporto-apreensoes-aumentam-clandestinos-internacional",
+      "segment": "rio",
+      "title": "Apreensões de medicamentos clandestinos no Aeroporto Internacional do RJ aumentam mais de 580%",
+      "summary": "Apreensões de medicamentos clandestinos no Aeroporto Internacional do RJ aumentam mais de 580%.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-na-tv/video/apreensoes-de-medicamentos-clandestinos-no-aeroporto-internacional-do-rj-aumentam-mais-de-580-17112026/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "bomba-considerar-dizem-eua-fontes-indica",
+      "segment": "internacional",
+      "title": "Inteligência dos EUA indica que o Irã pode considerar o uso de uma bomba suja em Washington, dizem fontes",
+      "summary": "Inteligência dos EUA indica que o Irã pode considerar o uso de uma bomba suja em Washington, dizem fontes. Irã estaria fazendo planos para detonar bomba em Washington, dizem fontes.",
       "scores": {
         "cobertura": 3.5,
         "destaque": 6,
@@ -1140,39 +919,14 @@
       "score": 4.8,
       "outlets": [
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/11/cientista-carlos-nobre-recebe-diagnostico-de-ela-entenda-a-esclerose-lateral-amiotrofica.shtml",
-          "camp": "centro-esquerda",
+          "name": "R7",
+          "url": "https://noticias.r7.com/internacional/exclusivo-inteligencia-dos-eua-indica-que-o-ira-pode-considerar-o-uso-de-uma-bomba-suja-em-washington-dizem-fontes-17112026/",
+          "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "UOL",
-          "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/cientista-carlos-nobre-recebe-diagnostico-de-ela-entenda-a-esclerose-lateral-amiotrofica.shtml",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "ancelotti-ano-ausencias-compromisso-mas-raphinha",
-      "segment": "esportes",
-      "title": "Brasil tem ausências de Raphinha e Ancelotti, mas Rayan volta para o último compromisso do ano",
-      "summary": "Brasil tem ausências de Raphinha e Ancelotti, mas Rayan volta para o último compromisso do ano.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 5,
-        "persistencia": 7,
-        "peso_voce": 6
-      },
-      "score": 4.6,
-      "outlets": [
-        {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQzBsYVZ5MER6TEdVYTMwRC1qWHpxUEJ2R24ydkRfc2RGa3FNaVNUSGJKbjE3UW0xZkF6MjYtN3Q1Ul9URk9EcmhnY1F2WC03Q0I1T3pDaHNPMGYwYkdLWjFoWmNRV0xtcl9rbzFOc19lSnVFR3AxUzBlUG9Lb2h6UXFBUmJsQlhvWVdURXFGVGhiWkNmTUdsSTRueFhobmMybVM2bGV0UE1LSFRpZTk5LWxkNFJoTjVua0Q5VDZOdm5YVGktNHdpUm1hMjNQZzRPSm1hOdIB2gFBVV95cUxOME1rR1h1R19oYWFLUXRROHVsdTh5ck5xQTNfajR6azRtOHFVak95YzFIazZ6OW9TMGhaNENIdzRpU2JndU54MWprdjVzU1JqX1RFcjZKMVFrVW5PMDQzeEo2eGhQdVFMMUkwQ3RsWmpVWDNXdnVycHZtNDhBZEdkZ1A0THRRdldoYXV5MFU1TWRZX2kxcmtzRW8xMHZETmVpUUltM0Q1QkcxcGxPS294SGszb01ueU12MGZKTnctbzE5S0g0d0I2OTB6eWhmUWhMcVZhY29MWXJEQQ?oc=5",
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/ira-estaria-fazendo-planos-para-detonar-bomba-em-washington-dizem-fontes/",
           "camp": "centro",
           "position": "editoria"
         }
@@ -1196,8 +950,8 @@
       "score": 4.5,
       "outlets": [
         {
-          "name": "R7",
-          "url": "https://noticias.r7.com/internacional/trump-quer-endurecer-regras-de-trabalho-para-estrangeiros-medida-impacta-brasileiros-16112026/",
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZGtCclBKb3laSGtTVTV4WUwtYUZkb05vN2pyTVNNX3RUazlNUUpmLVBnUXBNR0FQeTljSVpCaXNuQ1lIR0Z4SGs2cHlHRWhYN2VkOWFYVkUxVnphMzZ5czF0aFliNnRYYVJCd1BQb21wRXAxUlFLNjN5dTF1d3h2SVpjRy1RMUtiaFlVUnVGQmdJQmxvSy1VVDZTZjZSMTYwVG9xZmZkWVQ5aFc1N2FGMU03QTdCWnJxOU9icy1zRdIBxAFBVV95cUxQYnR6R3lKWWlYd0YyYXotT2dNYzg2TkFsWmx4dE1zYWZQRV9LekhOWnNZSHNpd0ZJcXRUMXdFZWNhbjR6cExLNjFmRVNGcnhWb0hDQkptdEdjenVXZVRoV3dnVXFHaTgzSmhDejI1cmdpWUVab2tNb1VOeDRFbGRRRjZHVEN6RzNxRDB3TXFMYm9iV3ZYR09vNVhEbDRnWFhheXUxalMwRER4YU5WSXhNMGI4a3N3anVkam9ma1luVlgtWEhD?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
@@ -1214,28 +968,22 @@
       }
     },
     {
-      "id": "bomba-detonar-ira-jornal-plano-suja",
-      "segment": "internacional",
-      "title": "Irã teria plano para detonar “bomba suja” em Washington, diz jornal",
-      "summary": "Irã teria plano para detonar “bomba suja” em Washington, diz jornal. Irã teria planos de ataque com 'bomba suja' nos EUA, diz CNN.",
+      "id": "atuacao-carioca-celebra-escola-formatura-fortalece",
+      "segment": "educacao",
+      "title": "Escola Carioca de Turismo celebra a formatura de guias e fortalece a atuação no setor",
+      "summary": "Escola Carioca de Turismo celebra a formatura de guias e fortalece a atuação no setor.",
       "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
+        "cobertura": 2.0,
+        "destaque": 3,
         "persistencia": 4,
-        "peso_voce": 6
+        "peso_voce": 10
       },
       "score": 4.5,
       "outlets": [
         {
-          "name": "O Antagonista",
-          "url": "https://oantagonista.com.br/mundo/ira-teria-plano-para-detonar-bomba-suja-em-washington-diz-jornal/",
-          "camp": "centro-direita",
-          "position": "editoria"
-        },
-        {
-          "name": "UOL",
-          "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/16/ira-teria-planos-de-ataque-com-bomba-suja-nos-eua-diz-cnn.ghtm",
-          "camp": "centro-esquerda",
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU01yZmRWZnRmeEFpZWdVcVN3QVVQVVZvOW1ValE4UkNXbVczM3Bvdk4xSW9yMjhyaDlTQ3hTRzZ5bEhnQTNJdXhXeHRBeGpON2ZoSnloTkp1N2ZzMllJNlFKWk1nWlJDcHdWQm9jQ3VnZms4T3pBNTFDd05UZnFYc05idEp5U3hIV0VFNFJac1kxQkdsS1NmUG80STJ0WTEzeUE2akdJMm1VclcxT2dNM0d0bE0xNVV3ZFF6TFlnQ00tN3ZGTWNzWUVTTUVKMExhVkVRbkF6a0tNdw?oc=5",
+          "camp": "rio",
           "position": "editoria"
         }
       ],
@@ -1245,27 +993,21 @@
       }
     },
     {
-      "id": "anula-estudantes-impostos-jornalistas-juiz-limites",
-      "segment": "internacional",
-      "title": "Juiz anula limites de visto impostos por Trump a estudantes e jornalistas",
-      "summary": "Juiz anula limites de visto impostos por Trump a estudantes e jornalistas.",
+      "id": "acao-agreste-alternativa-bem-cesmac-escola",
+      "segment": "educacao",
+      "title": "Cesmac do Agreste promove ação de saúde e bem-estar com estudantes da Escola Alternativa",
+      "summary": "Cesmac do Agreste promove ação de saúde e bem-estar com estudantes da Escola Alternativa.",
       "scores": {
-        "cobertura": 3.5,
-        "destaque": 4,
+        "cobertura": 2.0,
+        "destaque": 3,
         "persistencia": 4,
-        "peso_voce": 6
+        "peso_voce": 10
       },
-      "score": 4.3,
+      "score": 4.5,
       "outlets": [
         {
-          "name": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/mundo/juiz-anula-limites-de-visto-impostos-por-trump-a-estudantes-e-jornalistas/",
-          "camp": "esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/16/juiz-anula-limites-de-visto-impostos-por-trump-a-estudantes-e-jornalistas.html",
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/arapiraca/cesmac-do-agreste-promove-acao-de-saude-e-bem-estar-com-estudantes-da-escola-alternativa-949639",
           "camp": "regional",
           "position": "editoria"
         }
@@ -1276,22 +1018,22 @@
       }
     },
     {
-      "id": "alunos-ciencia-desenvolvidos-escolas-pesquisa-premio",
-      "segment": "ciencia",
-      "title": "Prêmio Ciência para Todos reconhece 10 projetos de pesquisa desenvolvidos por alunos de escolas públicas de SP",
-      "summary": "Prêmio Ciência para Todos reconhece 10 projetos de pesquisa desenvolvidos por alunos de escolas públicas de SP.",
+      "id": "aerogeradores-alternativa-areas-desenvolve-energia-hibridos",
+      "segment": "educacao",
+      "title": "Energia alternativa: universidade russa desenvolve aerogeradores híbridos para áreas urbanas",
+      "summary": "Energia alternativa: universidade russa desenvolve aerogeradores híbridos para áreas urbanas.",
       "scores": {
         "cobertura": 2.0,
-        "destaque": 5,
+        "destaque": 3,
         "persistencia": 4,
-        "peso_voce": 6
+        "peso_voce": 10
       },
-      "score": 4.1,
+      "score": 4.5,
       "outlets": [
         {
-          "name": "G1",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeDBKZjN5TktXc2V2OXFIdVFyX3JKQjFpRkF6dmVmWDNjYkhHamYxY1BzeUhTa3NfRmpCbDdPb0pkeGJFT2hnZ25RM3J4OW1qRmFHaVBlbTJyQllzZXVWdkIxeGktWHMtZTdYUVhjaTg3MWtieG5ody1wV3NHd25KYlhTcGphTkxENy1qSU9qbjVxYzRKUURRT3YyLW10YmNDVDRGendsZmtpbTJNUmhSNnU5OU9INE3SAcYBQVVfeXFMT3JLY3RtSmZYWE5MMThlWnNGeTZCSTVINDdoX3hJdVZoOVQxRkRGQkpObXl6R3RISzl1RzNNY2FHcmhkdEt1X1dsNG9sc3BVODk1Z1VYcmUyU2R1bDIxRXdwVVdPdmswd1NKU19WUXQtMERsRjA4UHJjRlpCWkpxc09zRFFFRTNXdG56c3pGbmxGNEpCQkRFSm15YkJkMWplOUx1WTZyOE4xV00yYzlCVmVVbUVOX1FsSmx4bGRXNmVTcTlzcHpn?oc=5",
-          "camp": "centro",
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/tv-brics/energia-alternativa-universidade-russa-desenvolve-aerogeradores-hibridos-para-areas-urbanas/",
+          "camp": "esquerda",
           "position": "editoria"
         }
       ],
@@ -1301,10 +1043,147 @@
       }
     },
     {
-      "id": "cancer-cresce-desconhecimento-mostra-pesquisa-prevencao",
+      "id": "agressao-defender-espancado-estado-grave-mulher",
+      "segment": "educacao",
+      "title": "Professor é espancado após defender mulher de agressão e está em estado grave",
+      "summary": "Professor é espancado após defender mulher de agressão e está em estado grave.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/professor-espancado-defender-mulher-agressao/",
+          "camp": "esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "bilhoes-busca-financiamentos-infraestrutura-obras-prefeitura",
+      "segment": "rio",
+      "title": "Prefeitura do Rio busca R$ 3 bilhões em financiamentos para obras de infraestrutura",
+      "summary": "Prefeitura do Rio busca R$ 3 bilhões em financiamentos para obras de infraestrutura.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ09lNFBaT1R2WFhqcWFQNExMSzRiVDNscFRicGNfeDFiaGRSOTFkakNaYzNHbnZvTFpqMEhzWnNxMERFM1hnVkxnT0l2bHRmcW5NUmo0NEYwek01UzNzVDNMUkhmV2pGVUM0RXh2ODBIYi1SeVNpckVpajJhUGlMUGpyMFNaNko3Z1M1MXFWcnFDN2EzWU5IUi1Pc1dCdGFfN2oyUzFJYnRsRDRXT0RtaGIwQ0VQdFAxaEtuYlVDbHVOVTJTenJFSEp6RzQ?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "autoriza-covid-doses-envio-extras-ministerio",
       "segment": "ciencia",
-      "title": "Desconhecimento sobre prevenção do câncer de próstata cresce no Brasil, mostra pesquisa",
-      "summary": "Desconhecimento sobre prevenção do câncer de próstata cresce no Brasil, mostra pesquisa.",
+      "title": "Ministério da Saúde autoriza envio de doses extras de vacina de Covid-19",
+      "summary": "Alagoas receberá doses extras da vacina contra a Covid-19; veja quem deve se vacinar. Ministério da Saúde autoriza envio de doses extras de vacina de Covid-19.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/saude/ministerio-da-saude-autoriza-envio-de-doses-extras-de-vacina-de-covid-19/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/alagoas/alagoas-recebera-doses-extras-da-vacina-contra-a-covid-19-veja-quem-deve-se-vacinar-949624",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "alcaraz-atp-carlos-cobolli-daniil-derrota",
+      "segment": "esportes",
+      "title": "Daniil Medvedev derrota Flavio Cobolli e vai encarar Carlos Alcaraz no ATP Finals",
+      "summary": "Daniil Medvedev derrota Flavio Cobolli e vai encarar Carlos Alcaraz no ATP Finals.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc3piYTYtTk5GWGc1MUJYeENOMEEwU3VldlZJSXRFbmNiV0V6Z0FyWXZXZE5Rd2c5cjVIa1RaMHpZelowTVp2ajBtVkl1N0ZxS0Q4bDRzbnVSUHB2TWg4VVNRblQ4MmlyT0E1WE5XVXNRWVR5ckVCNkFiTmdNYjg0aXYycTJzZnFjdm02X3NXcWw0Q25JS1NEeWFCMkh3V1d5Rm8xMzYzSmhJcmJ5alFEU2UxS0s0bEVZT1VKY3BPQVA3d9IBxwFBVV95cUxQekE3dEQyRTFOMWd6c0tDYlRORGh0dHotMHNJS011aFBpb3BvZ3hpdERQUWhuVl9TTjVOMGt4S0ZiUUZPekc1WWhoY3pMbHpETTVBbnRtS2xFUk5BMHF0UFZkbnBYdlFWRVYtMXBBLVFkTWR6WEJFck5HdEtpNk96S3Z2d2hITUt3OEgwV0FMTWNOczVraFc1TUxCWVo2bGNBRHFaZngydm5uRDJpSHNXQ2dhX1JOYlJHMTV5Z29RdUhTV0xTWGtn?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZ2lNRUNRNHpNSG1DUC00blNPbFVfX0o2UGlzSVl3WkFuVENqYmRPTHZHTWNYYldqMlFLZVJaaEVwcmhHMlFkMVEyZlAyY3hxTjVTS2tZSjBBSm90X0QzNHlSQmphamNvdWtQOWxmdU1meFZHTHgzb2dDTjJJMlJtLUtCbG1KUmpCUFpRTUs3T1QzbVoyZUFEWHBjVDB2aUVDdHVDRy1VQUZ4cTdPS2wxMGI3ZHhxYk5TMHZYS2VZV3FneHVoNXpMWnNoRm9kcmtlYk0ycnFTTnhqQ1BxWHRSNS1PVUlJeE9xdkV1UHlQR1drb1RZODYzUDNYckxiQQ?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "amiotrofica-carlos-cientista-diagnostico-ela-esclerose",
+      "segment": "ciencia",
+      "title": "Cientista Carlos Nobre recebe diagnóstico de ELA; entenda a esclerose lateral amiotrófica",
+      "summary": "Cientista Carlos Nobre recebe diagnóstico de ELA; entenda a esclerose lateral amiotrófica.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/11/cientista-carlos-nobre-recebe-diagnostico-de-ela-entenda-a-esclerose-lateral-amiotrofica.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "conversou-diretor-equador-flamengo-liberar-plata",
+      "segment": "esportes",
+      "title": "Diretor do Flamengo conversou com técnico do Equador para liberar Plata",
+      "summary": "Diretor do Flamengo conversou com técnico do Equador para liberar Plata.",
       "scores": {
         "cobertura": 2.0,
         "destaque": 5,
@@ -1315,8 +1194,33 @@
       "outlets": [
         {
           "name": "O Globo",
-          "url": "https://oglobo.globo.com/blogs/lauro-jardim/post/2026/11/desconhecimento-sobre-prevencao-do-cancer-de-prostata-cresce-no-brasil-mostra-pesquisa.ghtml",
+          "url": "https://oglobo.globo.com/blogs/diogo-dantas/coluna/2026/11/diretor-do-flamengo-conversou-com-tecnico-do-equador-para-liberar-plata.ghtml",
           "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "2026-anos-cnt-cresce-estaduais-extensao",
+      "segment": "ciencia",
+      "title": "Pesquisa CNT de Rodovias 2026: Extensão satisfatória das rodovias estaduais cresce 56% em três anos, aponta governo de Pernambuco",
+      "summary": "Pesquisa CNT de Rodovias 2026: Extensão satisfatória das rodovias estaduais cresce 56% em três anos, aponta governo de Pernambuco.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 3.5,
+      "outlets": [
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/colunas/mobilidade/2026/11/16/pesquisa-cnt-de-rodovias-2026-extensao-satisfatoria-das-rodovias-estaduais-cresce-56-em-tres-anos-aponta-governo-de-pernambuco.html",
+          "camp": "regional",
           "position": "editoria"
         }
       ],
@@ -1326,8 +1230,5 @@
       }
     }
   ],
-  "x_trends": [],
-  "removidas_repetidas": [
-    "Enem no sudeste do Pará: 2° domingo de provas foi tranquilo em Marabá e Parauapebas"
-  ]
+  "x_trends": []
 }
