@@ -37,6 +37,19 @@ def _fatiar(seq, n):
     return [seq[i:i + n] for i in range(0, len(seq), n)]
 
 
+def _frase_apoiada(frase, titulos):
+    tk = {w for w in notas.tokens(frase) if w not in notas.UBIQUOS and len(w) >= 4}
+    if len(tk) < 2:
+        tk = notas.tokens(frase)
+    if not tk:
+        return False
+    for t in titulos:
+        base = notas.tokens(t)
+        if base and len(tk & base) / len(tk) >= 0.55:
+            return True
+    return False
+
+
 def _frases(texto):
     t = notas.sem_travessao(texto or "")
     t = re.sub(r"\b(Dr|Sr|Sra|Srta)\.\s+", r"\1 ", t)
@@ -308,8 +321,11 @@ def _prompt_redacao(grupos, por_id, recentes_txt, cfg):
         "Edições recentes (não repita fato de dia anterior sem desdobramento real; "
         "se repetir com fato novo, preencha desdobramento e reuse_id):\n"
         + (recentes_txt or "(nenhuma)") + "\n\n"
-        "Para cada grupo devolva um item. ids só podem ser os ids daquele grupo. "
-        "resumo tem exatamente 5 frases separadas por ponto, cada uma com um pedaço que está nas manchetes. "
+        "Para cada grupo devolva um item. ids devem listar TODOS os ids do grupo, sem omitir portal. "
+        "resumo tem de 2 a 5 frases. Cada frase copia um fato que já está escrito numa manchete, com outras palavras. "
+        "Proibido completar lacuna: não escreva repercussão, 'autoridades destacam', 'o caso evidencia', "
+        "'agora aguarda', 'a decisão reforça', 'o tema ganhou repercussão' nem próximo passo que não esteja na manchete. "
+        "Se só houver dois fatos, escreva duas frases. "
         "Não escreva 'não há', 'não informa' nem fale da coleta. "
         "peso_voce é 10 (forte para o perfil: STF, corrupção, economia no bolso, eleição, segurança, Rio, imprensa, educação), "
         "6 (média) ou 3 (fraca). descarte true se não for notícia. "
@@ -344,7 +360,7 @@ def redigir(grupos, por_id, recentes_lista, cfg, completar):
         sistema, usuario = _prompt_redacao(lote, por_id, recentes_txt, cfg)
         resp = completar(
             [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}],
-            schema=schema, schema_nome="itens", max_tokens=5000, temperature=0.3, timeout=150,
+            schema=schema, schema_nome="itens", max_tokens=5000, temperature=0.2, timeout=150,
         )
         saida.extend(resp.get("itens") or [])
     return saida
@@ -354,7 +370,7 @@ def _historico(titulo, recentes_lista, dia):
     t = notas.tokens(titulo)
     viu, atravessa, reuse = False, False, None
     for r in recentes_lista:
-        if notas.mesmo_fato(t, notas.tokens(r["titulo"])):
+        if notas.mesmo_fato(t, notas.tokens(r["titulo"]), titulo, r["titulo"]):
             viu = True
             reuse = reuse or r["id"]
             if r["dia"] != dia:
@@ -383,12 +399,17 @@ def montar_itens(brutos, grupos, por_id, cfg, disponiveis, recentes_lista, dia):
         seg = notas.ajustar_segmento(titulo, bruto.get("segmento") or "", dica)
         if not seg:
             continue
-        frases = _frases(resumo)
+        if permitidos:
+            ids = [i for i in permitidos if i in por_id]
+        frases = [f for f in _frases(resumo) if _frase_apoiada(f, [por_id[i]["titulo"] for i in ids])]
         titulos = [por_id[i]["titulo"] for i in ids]
-        if len(frases) != 5 or not _numeros_ok(resumo, titulos) or not _aspas_ok(resumo, titulos):
+        if len(frases) < 2 or not _numeros_ok(". ".join(frases), titulos) or not _aspas_ok(". ".join(frases), titulos):
             problemas.append(bruto)
             continue
-        if re.search(r"não há|nao ha|não informa|nao informa|manchete coletada", notas.norm(resumo)):
+        resumo = ". ".join(frases)
+        if not resumo.endswith((".", "!", "?")):
+            resumo += "."
+        if re.search(r"não há|nao ha|não informa|nao informa|manchete coletada|repercute|autoridades destacam|o caso evidencia", notas.norm(resumo)):
             problemas.append(bruto)
             continue
         outlets, vistos = [], set()
@@ -581,6 +602,38 @@ def gravar(doc, edition, coleta_path):
     return dest
 
 
+def grupos_por_fato(manchetes):
+    """Agrupa pelo mesmo critério das regras (fato, não só palavra solta) e manda
+    os grupos maiores de cada seção para o modelo só redigir."""
+    import gerar_edicao
+    entradas = [{
+        "title": h["titulo"], "name": h["nome"], "camp": h.get("camp") or "",
+        "url": h["link"], "hint": h.get("dica") or "", "when": h.get("quando") or "", "_id": h["id"],
+    } for h in manchetes]
+    brutos = gerar_edicao.agrupar(entradas)
+    grupos = []
+    for i, g in enumerate(brutos):
+        ids, vistos = [], set()
+        for it in g["items"]:
+            hid = it.get("_id")
+            if hid and hid not in vistos:
+                vistos.add(hid)
+                ids.append(hid)
+        if not ids:
+            continue
+        seg = gerar_edicao.segmento_grupo([{"title": it["title"], "hint": it.get("hint") or ""} for it in g["items"]])
+        grupos.append({"cid": f"c{i}", "ids": ids, "segmento": seg, "n": len({it["name"] for it in g["items"]})})
+    por_seg = {}
+    for g in grupos:
+        por_seg.setdefault(g["segmento"], []).append(g)
+    escolha = []
+    for lista in por_seg.values():
+        lista.sort(key=lambda g: -g["n"])
+        escolha.extend(lista[:6])
+    escolha.sort(key=lambda g: -g["n"])
+    return escolha[:40]
+
+
 def montar_edicao(coleta, cfg, trends, completar):
     agora = datetime.now(BRT)
     edition = notas.id_edicao(agora)
@@ -588,14 +641,8 @@ def montar_edicao(coleta, cfg, trends, completar):
     if len(manchetes) < 25:
         raise SystemExit(f"coleta curta para a IA ({len(manchetes)} manchetes úteis)")
     por_id = {h["id"]: h for h in manchetes}
-    print(f"IA: {len(manchetes)} manchetes; agrupando", file=sys.stderr)
-    grupos = agrupar(manchetes, completar)
-    print(f"IA: {len(grupos)} grupos; unindo", file=sys.stderr)
-    grupos = unir(grupos, por_id, completar)
-    # grupos de um título só e sem segunda fonte pesam pouco; a redação ainda os vê
-    # se a seção pedir mínimo 1. Limita o lote aos maiores para caber no modelo.
-    grupos.sort(key=lambda g: -len({por_id[i]["nome"] for i in g["ids"] if i in por_id}))
-    grupos = grupos[:48]
+    print(f"IA: {len(manchetes)} manchetes; agrupando por fato", file=sys.stderr)
+    grupos = grupos_por_fato(manchetes)
     print(f"IA: {len(grupos)} grupos na redação", file=sys.stderr)
     rec = recentes(edition)
     brutos = redigir(grupos, por_id, rec, cfg, completar)
@@ -697,7 +744,7 @@ def _self_test():
     assert mora["asymmetry"]["flag"] is True
     assert {o["name"] for o in mora["outlets"]} == {"Gazeta do Povo", "Revista Oeste", "Jovem Pan"}
     assert all(o["url"].startswith("https://") and "inventar" not in o["url"] for o in mora["outlets"])
-    assert len(_frases(mora["summary"])) == 5
+    assert len(_frases(mora["summary"])) >= 2
     fla = next(i for i in itens if "Flamengo" in i["title"])
     assert fla["segment"] == "esportes"
     ruim = dict(brutos[0], resumo="Moraes negou a visita. Eram 999 senadores. Fim. Fim de novo. Última.")
