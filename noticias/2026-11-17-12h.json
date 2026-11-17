@@ -1,86 +1,210 @@
 {
-  "generated": "2026-11-17T09:53:36-03:00",
+  "generated": "2026-11-17T10:04:21-03:00",
   "gerador": "ia",
-  "modelo": "gpt-4.1-mini, gpt-4.1",
-  "headline": "Justiça bloqueia R$ 180 mil da Meta por não excluir vídeo com críticas a Erika Hilton; Governo do Rio sanciona leis para renegociação de dívidas com descontos de até 70%; Polícia apura relação entre corpo encontrado em cova e desaparecimentos.",
+  "modelo": "gpt-4.1, gpt-4.1-mini",
+  "headline": "Senado vota destaques do ajuste fiscal de Lula; Enem 2026 tem segundo dia de provas com alta abstenção; PF faz operação contra aliciamento de crianças em presídio do Rio.",
   "top": [
-    "dois-faz-ingles-joia-peru-robinho",
-    "vini-ano-goleia-amistoso-ultimo-trick-singapura-hat",
-    "criticas-meta-180-justica-nao-hilton-mil-erika",
-    "encontrado-corpo-apura-desaparecimentos-policia-relacao-cova",
-    "renegociacao-rio-descontos-sanciona-leis-dividas-ate"
+    "53eda6056f15",
+    "71d864f25bec",
+    "jogo-vini-hat-goleia-ano-ultimo-singapura-trick",
+    "infraestrutura-ucrania-crimeia-ataca-kiev-bombardeia-ponte-r",
+    "drogas-gasta-ano-pesquisa-bilhoes-guerra"
   ],
   "items": [
     {
-      "id": "dois-faz-ingles-joia-peru-robinho",
-      "segment": "esportes",
-      "title": "Brasil Sub-20 goleia Peru por 9 a 0 com destaque para joia do Vasco e Robinho Jr",
-      "summary": "Brasil Sub-20 faz 9 a 0 no Peru com três de joia do Vasco, dois de Robinho Jr. e um de ‘inglês’. Joia do Vasco brilha, e Brasil Sub-20 goleia o Peru por 9 a 0. Robinho Jr. dá show na goleada sobre o Peru.",
+      "id": "53eda6056f15",
+      "segment": "economia",
+      "title": "Senado vota destaques do ajuste fiscal de Lula; dólar oscila perto de R$ 5,80 em meio à expectativa do mercado",
+      "summary": "O Senado vota nesta terça-feira quatro destaques ao projeto de ajuste fiscal do governo Lula. O texto-base foi aprovado na semana passada por 45 votos a 31.",
       "scores": {
         "cobertura": 10,
         "destaque": 8,
-        "persistencia": 7,
+        "persistencia": 10,
         "peso_voce": 10
       },
-      "score": 8.9,
+      "score": 9.5,
       "outlets": [
         {
-          "name": "Zero Hora (GZH)",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUXFjMW15bWEtczM0RGtBSGpOSXdnLTM5U3hXNExXeTV4V1lIcWxvNTZoNW5xR3pibVNrR3dDZURwNWJHX2hXdWVXSDAwU2NCTnpRWFBBX25uUFcyZnF6dU13MWs1QXVJeFdVSXZibEQ2cF83WDVCMzhHeTlDTEItTEp3X0NEanpFUEN3U05EOU9rdHktcHQwZHRqU3Npb1J1enhLMVR5TTFuUGc1UzcxdC1QZGw0elZjOVJSMUh6RDdDQmhUX0hnam01LVVmNHVmSXJPWk10ZFBfOWdmXzRheHFCb29WZzhPc2hSZ0FVVjFyYmlsT3BvY0pMcmFNUm5nZVZDa3FuaUhmNGs?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRzczTFNPdUFhSktxcFY2MmFtc1FqVVpDNTJQMUNwS21WQk41a3dzZGN1ZEVTeFJTSWwwNERhdV9IM01KYllSWHlxUDN6bGpGTEF2eERlNURaRV9XOUFaV3JXRllwSlNfY052S2c3aExObzkyc3hDaGZfNUEtNjJocldQLVlIR19XUUFzSTd1NDQzaVJzbm04alhDbnZmUXRZQXJHR2djTFplbUViQXNYMlQ0UVhKVW5FUjBzSFNCZG9iMG9tY04zUzJhbG9TdnNPT0VrMG56QXhCNk01VjJPVzVCRQ?oc=5",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON2JNSFY3eS0tVnJjamFJVnlGelZvTjBRWkRWWTM5X1lxUUc5eUlmUElsQjVuMW1RaUFnWkVfdXNYWkxvc1FMSU1Jc1NwVmxZdElWem9EMUtEQXVLRDBsYnduTlk4WURIaDBnZ1hRSVNYZE1Kd21RdmtBZk11cUpQSGtjQV8tYWZXMlBBanFnVjVOSjhIUzhTREswRVVXMjN4YXpsRW1VQVJ6SHkxQVRMdGZSNlV5ekVtbWNVQ1AybXB3RWQ3YnFjYk9qUWxvYzFldlHSAdcBQVVfeXFMTkd6M3lpZFJGOXUwT1RfNDdIUTZUXzFtQlJCZnM4a0JyaGRnblZ2bWNsTDY0dVJpNjB5c29WemRlRDJtTk12ZGhld3ViaUNMdnhGSl83eFJkeUxyOVNCLS16SUJhTEZpOFNyREhtSDZ0T05WM01jQTVJUmc3cENReXZZQVEwUGZNck1RbXVCUExUNEI4cW0ycE9hMDZIOEJyWXhlZExMT2FuZWNaNlR4M0xVRm1aSFc3S2huaXlPcl82VjNYbmRQalZCdS1ldm1aNjVXanRTN28?oc=5",
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/dolar-nesta-terca-17-11",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Correio (Bahia)",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGxIVnZUQW9TNG5LMzEzeGpVYVVsRTBDWXZlSUljcWJJS2dackNPV0lHS3RNdGFieTBPRlpPYms2el9udU5ra1RxZjlhTHBkZVNteEpSb3F0V3dGaldfQnNJTHF4d1lGakxOWEVRcmh0UTJCd3JZcGpTZTN2ZkMxRGtPREFXVDJiR2RzREZmOU5NODRtQ2xwRTN3cjFJWk9xeHRjTFpTcU12czVqSHpBbzBXUzRkTWp0WE5HT1k4T24zSWtxTjh3c1owNUpaeC1oczFESmxGeWhDRzN1Ykt6S3lqdFl3bkMtcVBXcjdkdDRDZ2RfNHl0cmtB?oc=5",
-          "camp": "regional",
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/economia/liderancas-esquerda-alternativa-ajuste/",
+          "camp": "esquerda",
           "position": "editoria"
         },
         {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dVZkQzRHBQRmhjdGtuR2pLSzM5enNGRUxwUEJOVWFPZTRfbGYzamlhWno5YXh0aG1kY01WUGdpOTZ3RDROSkltTWE2eUYtRVUzWnE4cUlDOGRtRF9SQk9VcjRHaEtSdWs4OTlJbTdleXFfVVB6dFFOU2p3alhLd1p6NS1BQlBEcGF6eXRTa0dXM2IzNnZBXzF0SjFlYkhfd2Q0dFEyaXZ4LWNVcEllY0NWZHZsX2doWlYxR3V2cC1zVHFnQ2RyeloySDg?oc=5",
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/o-que-esta-em-jogo-na-votacao-que-pode-desidratar-o-ajuste-fiscal-de-lula/",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/esporte/2026/11/7323115-joia-do-vasco-brilha-e-brasil-sub-20-goleia-o-peru-por-9-a-0.html",
-          "camp": "rio",
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/financas/noticia/2026/11/17/dolar-ronda-estabilidade-sem-alivio-apos-subir-ao-maior-nivel-em-19-meses-na-vespera.ghtml",
+          "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "UOL",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNU1oMlB4UG9XMk05X3lUSXlzaDFwejVyRUZNQ3l0OE9scEo5ajI5SC0tb2JkVkFxWU5DdExqN29kWDJhNHlNUExoN2RYeXlEcHdWZFoyQTVXUWxLc2VqaHhGRmMzSlJZQ2V6djlYN3c1V1YzSjBnNlc0Rkpid3B0SWFCOU1ydVVhOWZYaFpfRnBFekN5cUFWRDl4d05wdw?oc=5",
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/economia/senado-vota-4-destaques-do-projeto-de-ajuste-fiscal-do-governo-nesta-terca-feira/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/fabio-graner/post/2026/11/pacote-fiscal-tera-efeito-limitado-sobre-juros-mas-deve-evitar-deterioracao-das-expectativas-do-mercado-diz-laura-carvalho.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-e-chega-a-r-579-com-mercado-a-espera-de-votacao-de-projeto-fiscal-no-senado.shtml",
           "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/economia/senado-retoma-votacao-de-ajuste-fiscal-de-lula-sob-criticas-da-base-governista/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "BBC News Brasil",
+          "url": "https://www.bbc.com/portuguese/articles/cklyw32d9n7vo?at_medium=RSS&at_campaign=rss",
+          "camp": "internacional",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/economia/senado-vota-nesta-terca-feira-destaques-ao-ajuste-fiscal-do-governo-lula/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/economia/senado-retoma-votacao-do-ajuste-fiscal-veja-os-quatro-pontos-pendentes/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-e-chega-a-r-579-com-mercado-a-espera-de-votacao-de-projeto-fiscal-no-senado.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/ajuste-fiscal-sem-mudancas-impacto-de-pacote-em-2027-pode-ser-maior-que-r-56-bilhoes.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50anBjUlRCa1J1TW10V1VVdEJRcXNTMFVEMDBSQjY0c2tuSGljb2lxMkhodTI0azhfazk1RWdGdnMwNDRhRHdCNUgwQzFTU3UxeDYyRmxicGwyTVNO?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbnRqTzNBRWpRQ3pRQ0ZETERlV2ltUjZnWkZMWmdVSVFRV2JJOGlqREQxUzVycmNfbHVDdEU2VU4xcE41djc0TzdZaGE5eHdwdWt0X3hIRXl0SmxoeW5LbUpzQnJRdkY2cFlRa2NKMGpITkU1a0tXZWJnMnBudDhNNXFPTnBUZkpnRlhNUUJ5WGU5bHlSV28waHZGXzlTR290OHFyMXNoRVlHb2JMbDZMTmZlOTllVC15QnFXcGl5OUQ1Qy1sNUJBSWM5Wnhna0lRX1lNZjZnaw?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUWJKbjQzUXUxbnY2d0lZQjU1OERzRWNLcE5aQ3B1UDd3Z21vdDJyV3oyUGdwWl9JVzNkWEQ5RC1MZEthSEhITFBUaGxwalJLZkgzXzVFbHJpaldCYkMwa3JoWkxFWkt6dTl1SVJ0N1VmN3ZrRHF6dlgzVXlJeExSN29meDZiRkxxQXBCRlgyTEgzajFGWmFnTXN4Q1hCNF9tbTBB?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CBN",
+          "url": "https://cbn.globo.com/politica/noticia/2026/11/17/governo-espera-concluir-nesta-terca-17-a-votacao-do-projeto-de-ajuste-fiscal-no-senado.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
           "name": "CNN Brasil",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTWR0Z2NrX2pJY3dFYjFIZ3hCbGxRNndvVm1TZldpUFVBdG1vOWRjQ3NfUFJxeDdIWkdxS1NaQXlwa0NoaDJPUGVUTEVHeUxmQ3FfVnpVS1JfS0FyR3NPWTBXUHNENU5mYUpQX09tQWw2VW1nTEpoZHdhMGxlOUJIaGFoZlR3VFZiR1dsZ1N4MGhoSGNXam1nSDJ6b1pfVUNQQTVocjg3bFM1WG94M0hrWGh1WVlUa0VXdXZzYjctVEktQkxCT3pNb1FzanE?oc=5",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-17-novembro-2026/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRkZWcG4tTWprQVVkc0QtekxOR1RFQzFhaVhubTZ6TXdnRnB1eWp2VXJOVm0wZU1faGJlVUhaQnFzeFNUbjJubXpEMkxPc1ozQkxoa2ltandXNkdnb2N0aU9qcnZXdVNjelEtWWNld3IzckVwcDREZXp1dmpoSGhxQmFzNlhLYV80N252N3ZFSGJETHNab2RxdjlPU0RPaXRB?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Dólar cai para R$ 5,77 após abrir em alta nesta terça (17/11)"
+    },
+    {
+      "id": "71d864f25bec",
+      "segment": "educacao",
+      "title": "Enem 2026 tem segundo dia de provas, questões difíceis e abstenção de 36%",
+      "summary": "Professores apontam que a prova de Matemática foi uma das mais difíceis da história do exame. Questão sobre cristianismo gerou críticas e pedidos de anulação. Enem terá nova prova para candidatos com problemas logísticos.",
+      "scores": {
+        "cobertura": 9.3,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 9.3,
+      "outlets": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNjVleEdBdU5JalZKMHpGRG1KeG9DWXpuTl9sbGVMNm52N09NaGZFMjR4cEdqQ2V4cGxrbjlQUDR3WVJzYk45cDZJRTFHSF91QU13bkY5T2VRc3dndjh1X0hRSDJTV1VXZkJTSlhPTVI1STdrMkY2LWN2T19mT0tKSkU4NkJSWVNuVVpJZUpxU0Y0eWJNS0JKd2tSekFjWVpRbjB4NGdDNlRiMU0waGk2N1NhbnV0VmFMX2FNVUlB?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQR3JnbUs5dTZtMGRsR2tZU2t1NHJjNjA2SlpjR2NVR3J0UzJBTHJENVpFbkdvLXdSZDZHUUVtNTEtQ25VaXNjOEFtdU44b29YUTZ6NHpxdzBpRTZCd2NmVkdSV0FtdnFpaGdDVzFWbFN0Q012NXdWbEV2Q0Q4OG9BdUtDTWRTbndISWY2Q0gzeDlOd1FRLU5TNF94SjVYbXlndDFibS1SeTlMd3BRUnc2VDRvRktJS1U3Vko1MXgxd280eDBNVi02Q0RDVlQyLTQ2Vklta2JJMTdlbDgyQXJ2bjdZSFpvUlp2S3BjQzdoR25UZTYwM0E?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPWVJKcFg0NUFOODB6ZUtNdTQzVkFhMFgzMDN2VGRPdk5vZW1jNnlGcUZta3QxaDl1X0JYTlZrZ3ByemNRQ2JINU1DRW9nNXY3eDQ2NDY2OVEySm1DY1kzNVBLS0NvUmI0SVNfX3pWVXkybFRURlEyWl9ROUxJM2cyTE5TN2tST2d0Y1BLVFYxV2thVnJ3azJGeGtjenBhakZhNXNfTHZORUczTkdua3cxbWJoOXNNWTVibXRCREhYY0Jad09jMmEzMWlVMFJ6MVVWOGVqS2t1YVdzNlI0aE9vNk1uWjFyWHRhMkM1QmJsWWpPS2xMTzRsZlJhQ0hUWVBWQXFvVFVVdmhjOU5EM3NUREkwTEgwYm1STm55enBpaWN6LVVGaEhqSEc4MmlmZW9NU0VFTGRIaUFnaEVsbkl0ZGZhX0RIbGE1MnhJM2x4aW8yQQ?oc=5",
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObTY0VWRnOGhicUlFYWJiODk5bGFZVjd4aXh0eExVOTNCc0E2ZmpSY2I5OHRSM18wbzlXUHJkRkpLVDY4NmNrR050NXAwWkhlcXQtTW1pbWU5ak1qNDlCLU9qdVppV2w2NDc2ZGRBR09PRF8zOGcyMFcxc0dMNTlfQ3BNN2t2QTlfbUJ6d3YyVU9iWWhqV1c3WW9oazViSkJhMUhmdXZNWW44QXdrWV9LMDRreTBBZHVLc0lHU9IBwgFBVV95cUxPVFZwdkxnZnFDcnJWdXdlOGpmR2hWbE9yRHc0REpXRE9jaVpNdUlPc2poZl9PTlpJVHkyOTJoX1Fpa0xWTUlib3NfVVdTc2s4ZHREZzBjSzFQdnZ5SnlsTk5fWGhSbEwzTUx0b2ZXWGw0SUpndE9aSUtEQl9vOUVOMlZTanN6Z200OTBCcjB4Y2EwU0R1SzJIZ0huWUFxTHJnNmQ5dHZ3UUIyMldiYVdEVlBNaVdOLXV0dzJPQ3hQTW56UQ?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Estado de Minas",
-          "url": "https://www.em.com.br/colunistas/filosofia-explicadinha/2026/11/7539680-a-vida-tambem-se-devora.html",
+          "name": "O Globo",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNWGl0aHlQMXJOVHdVaExaMlZsTE1TbE1rV0NNeGJFU3BXQVlzMVlHSVFkRk1LdmhMcHZCc3FKOTVGeE9KbmM5Ylk3cHhpTlpqc2QtNVhzNUhsa05IVnVnY1pJbEpqVGRMU2xSdmlaRFd1OUVBMWRKZVFIRlpVdnNONk9LR3dOd1BLY1Z4aFUxQUJrVGJRYjFNUnpsNnR2MG9yRHdPUDNxQ3BncWZQVnBtX3IySmd5c1NzR3dfb05feDZOZF9RbWViQzExZHlMaEEwbE1BV1o1SEExbndmWE5mcEJYdDRhblNkbGwyMHVGYTh2bkUzM0ZPUNIBhwJBVV95cUxOVDd1YndyLXVSSHItVEg3WE1Ndkt0QnVUZUdBZHpIc1J6a1JJcGZzMlBFal9COUplZ0lnUWd5elRVdmU0a2xURVdxZU1RWTFuM1NHTDJkUzhXZXNqUnFQbTFYWkx1MW9LT2pzRjdXMU54UUlDMTZYV3NMTVU1RmtrQWcxMlVoYmo2N0RZY3dSd0w1V05Bemg0ODRQX1RzRVBVRGtuN1NuUHB2Zkp2N3BVMk1ucmRSY0xfRzZBMTlZOW5rZjA2SVNZU2czSFBDN3RvQmVCXzhmZjFmbXN0bnJGd0I0bGN4ZTlzLURVSGNBRF9RUzBQLTdoMTlTcFkzSDJKM0p3NVY3Yw?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Tribuna do Norte",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVWdTU1p3Z094d2pUeTloQmxQMEVTVmpXTk5kSnNLSTZId01kaEFTaUdqQVNlQWNRc1ZYQ011c2wzbV9aRXJrVXdtMlB6c2xqYTM5WFUyOUlUeUhjS3o0cjl0aVB1TTVKWXlxemVmVkRfbTdLUTNYbi1wUTJjQ2NqYXRMZWtaQnhBRVI2a2ZqZVZGZzNuZExmQklOcXlKWEpRZkVRcUdTSXIyRzYwZWdQTU03ZU0wSms5UnI5bjBmWEd5ZlNnbzUzM3FiTXo2Vkxla3c?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "G1",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObHV1MUk4UXZIQzZWRXRLdURBbWJTb29BNUozeDdDRW1QLXdEa1RvM1NGOF9YXzVfMFE5MDJWUjUtblljZDJaZVVYc212SzdWTjY5THRBUno2WXNzMWFJR3ZndlVjaF9qVjdsV0ZVUmZTR3lzV1ltd0U3MHlxUUh3Z1Q0MHp4cUdkaUd4R2oybUQzTXVwdWVqci1WbXVweWJyTGp1bDlPaDZpaTVna0dRZGZTblZheUFGZ3p2VHVkWG5aSEgwbjY4Sk5PM3lYc1BtZU96Ymt6ajfSAecBQVVfeXFMTVYzUE1RRkpiZXFYMlVCaFdrSm9jLVI1OVF4YzhQSTNfVWRmTXFoNnJkMnB0UUZpblhOdGlwMlRMVG0tWmR0M0d1SW1ObDNfbnV4ZWdpZVRIWWhvb3J2bEYxUGlGOTR5WmZmQ3U0cXlDaWhHeXRpMWRuV3c4eUlJUDNCYnBOdmZMSmtYYjhrcEJsb21MMnRNSF9za3FfOGMycUJfVlNyVnlLY3lTYWdlZ2tIbjg5N1RIRWdSUWNHWmRRS0pKaEZGU3VBVDV2RjFVdXROMkF3TVNqYjFqTXVBa1ZGUWt3WU1F?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ0I3d0VZSVY3TVR6ZThhWTB2VjRUOEMzVWtscS1wejJ6U2J0aERlVzRJc1hPaE5hYVF1c1Z5RzdxSXQ3UUV4YWNHSXRRbjItY05BVTBaVlphWnIybmJDdVhTVm9BOTFzS2lpTkJxQWdiM19IM0tkYmFQR2h4djg0LURxYWI4NGJiTUlrY2lQamZBLUVITmxWbk53Y1Fpby10MVJuVXNMblF5TVhNZ3IyTmVrNlo?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdF9nMFlZbHJJaUJLdzNUUTh3QXNGOW9EZ1k0Ym1YZFZvTU0zUGRqTExxWGxONE1TVWF3bDVGajcwWjZ0RWppblVsbWVrUGN6VzJvdENUTjNtaVVCVGdVN1VDYkVYNjVta2FEZ3U4dFVzMkJnMFFRV21oMnhaWkZFUjFxSHhCRmVqbmRMZkZzRno1UmVydXlLVlRXTFBzQ2tXTXNBTktKRUExSzIzeDR2VThwOVVEZ2UydU1xa2JTOGc0YWdOc1BKTUdLUTFydw?oc=5",
           "camp": "regional",
           "position": "editoria"
         }
@@ -88,13 +212,14 @@
       "asymmetry": {
         "flag": false,
         "note": ""
-      }
+      },
+      "desdobramento": "O Enem não pode ter lado: educação não é palco para militância partidária"
     },
     {
-      "id": "vini-ano-goleia-amistoso-ultimo-trick-singapura-hat",
+      "id": "jogo-vini-hat-goleia-ano-ultimo-singapura-trick",
       "segment": "esportes",
-      "title": "Brasil goleia Singapura por 7 a 0 com hat-trick de Vini Jr. no último amistoso do ano",
-      "summary": "Com hat-trick de Vini Jr. , Brasil goleia Singapura por 7 a 0 no último amistoso do ano. Vini Jr. faz seu primeiro hat-trick pela Seleção Brasileira. Globo tem problema de sinal e perde gol de Vinicius Jr. em jogo da Seleção. Brasil encerra temporada com goleada de 7 a 0 sobre Singapura. Vini Jr. festeja 'batismo' contra Singapura: 'Minha primeira vez'.",
+      "title": "Brasil goleia Singapura por 7 a 0 em último jogo do ano com hat-trick de Vini Jr",
+      "summary": "A Seleção Brasileira venceu Singapura por 7 a 0 na última partida do ano, com três gols de Vinícius Júnior. Atacantes da nova geração completaram o placar diante do adversário asiático. O estádio não atingiu lotação máxima durante o amistoso.",
       "scores": {
         "cobertura": 10,
         "destaque": 8,
@@ -104,134 +229,188 @@
       "score": 8.3,
       "outlets": [
         {
+          "name": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdmk2QWJEZzZtTFZ6MC00cjFURVNBRTBrLUE5M3R1WXBoY2wzN0RQdGdHMEkzQ2pmZlBqT3FWcGJJWGU3LS1mZTFCSHVPZEtUcGVJa0hKUjFtbUpzaXBna2ZyYkNCMTdPR3g5UVNidlpLOXV5TTRmcUVrWUZ5eWp5UC1zdnF3alRVTzdaY1JHSkZueFgzdEFtdFNCTnpuMGM?oc=5",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CBN",
+          "url": "https://cbn.globo.com/mundo/noticia/2026/11/17/trump-manifesta-apoio-para-retorno-de-jensen-huang-como-ceo-da-nvidia.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Popular",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUphdURERGJWQUk2dUdOTkZmTEtlcUo5Y21kM2RBOHItQzJVbWQxRE82cnhqUUhwYUtjYm56djJOS1BVOWhvMVZjMm04S2xpTVVvN0FlTGpZS3ZPNFBQcVRBaFlBMzJhd09rd2ZQUG9RTnpwTm1WY2ZnbjNHenFDQk00SEdxb0VTd3pwWWRTMmkzZFYtMmVKSElfbmtRZVlJdk82U01vZWdZVi13REc3eHhn?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "JOTA",
+          "url": "https://www.jota.info/opiniao-e-analise/artigos/previsibilidade-regulatoria-para-os-ifas",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT1owT01uc0JrcDZtV0c2NXpwbHZUUkw1WG8tOUJOZXNWbXZGQnUwYlZLWl9sOHc2RHV4UjNkUDd6Y2MzdXJrVzRKZ1pOdjNYQnlWeU9YWHBwbXRIU0dJVktZQmVjcXh6NTdXd05PV3YxM3FOeE1YZEhBMlltWHpERGFwdWJBM0Y0MHB0WTA1d1NQQmxRMUFiTl9hNVhuWVFrOFVWU09mcEhtcUdua3lueEp1aWF1SlVTQ2RONzN4OV9HTmtjR2Vz?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/2026-11-16/gemeos-vou-zuar-presos-suspeita-estupro-barbacena-mg.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "G1",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOYl80NmRTQU5KeDk2ZVVKdk1mUGp0MlZ3U3dsNVNnbmd1djA3c3VuUXRrNmc5QXgyaUFQVnVJdW85UTJSNlViVjNrN2FoWU9zZWk4aEJJMkd4VnNZZE1ZVndwOE9TZmo5b2pVM2tJY1NON3lJQWd1RzdMZXVFUmlKSDNGUksxdkNvUUg1SERabUtHb2REYjRVU2xMOHpMbWVmUVcxVGthbkN6RmJWWUVhLVdxaHdhSVIyWUNVQkFYbGh3aHJEWjVMQkNsU0pkUTJGWUR0amlSaElnTThndXhndUpwZFUwQ2ZCb0xCaUFFU3lRMVdSQ2xTMmNqa2dFeFNsbWhET3B3NHI4d2lPMGfSAZwCQVVfeXFMTjJTQ1ZjQ0V0OTJTaWY5aURZVmdWN3BJUU5RTkxONG1SNzBZcmVjLUdEUUhGaE9nSXlOdk50ajBfNkFSNlF0RXI3X2pOelRjNlh1RFhtQzVoR3VlUnZQMFUtZWtKTENBR0ZOVUxJVE1OS3czT0xjbTRaT3ctY0k0dWExTnMzaUZIMUY3VWwyR3BiX25HWkpPc3V5eDJIdHZqSHp5Q0owdHhwT0dyQ2RKM01lZXhjMUpxNi1HVVpEbXBGT3duZ2lBTmFOeGsyR25BbXA5dzlqTXJvdmw3M0pwYlcxTVhnRmpFVFFONVJrVnk1cmR6WEt3VENyUWVtZks2OVY4ai0wY2t6OTh6VWdXUDFWVzVURld1VmZGQy0?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
           "name": "Terra",
           "url": "https://www.terra.com.br/esportes/futebol/vini-jr-faz-hat-trick-pela-selecao-e-festeja-batismo-contra-singapura-minha-primeira-vez,d3fa56564e9728d963987ca1fb3280859h266xla.html",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMzlFOWViYnhKTzRWSDczMXNpekp3LTZxSXdXUXVxMm1GeGVrX0Nub2R4MC1QY1B4eXRlZWZIc2F0QmhQZEpwbG9BR0hOR2NUYVc2MDM4TjJsYkdJWnY0WGZPeUVJcUtfYXRyYnJXTm13QllORGZHUmd4eXF1UG5QUFdQT0F3dnZFbkYzZkozMkNwSkp0TGpvbHN5eHBLdjBsUnBaRTN1d1VZQjY4TkJUa3N0Vnhsak9ieTF2WkZNV2ZIc1pRUW5ZV051dw?oc=5",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "UOL",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2026/11/17/vinicius-jr-marca-tres-vezes-em-goleada-do-brasil-sobre-cingapura-por-7-x-0.htm",
-          "camp": "centro-esquerda",
-          "position": "editoria"
-        },
-        {
-          "name": "Pleno.News",
-          "url": "https://pleno.news/opiniao/eduardo-baldaci/o-problema-das-conspiracoes.html",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/vini-jr-faz-hat-trick-e-brasil-encerra-2026-com-7-a-0-sobre-singapura/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/brasil-se-despede-de-2026-com-goleada-tranquila-7-0-sobre-singapura.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "BandNews",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWE5BZmZTdDEwdUpLTFpyTFlIcUNuemNBZXpvTlB1TXRXdm1rMmVZTVh3ekRkS1hSVDFXZVh3SGtRSFF4b3hpVUhVd3J4b09lYmltLS1qcVhDWExUdFlnaE9taEo0TkNMeEhDcjF5NFBzanVKSkdQWEM5QkxEa1BYZW5QQkMtd2ZJcTNqV3VuVmN0QVlOVy1CaTJkb1dtYTVGQnNwN1VaNnV5S2RyZlo3VnVBRVBTVHZNdjJMR2RZTHFOZmpiMG5taXFoMA?oc=5",
+          "name": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNElNR2sxR1J5d0pjSG9YRUdqUEJvdlZfMVo4VjhPNGMwQWpwalhmUlAyc2FOamExUV9Xel82WTlmRmJpVGxxV0FzNkZpOEljdGNiT3JIS0lxWlRqUVE5UnZ0Z0ZUdEpHVXRGT0wtMzVBcldPd1lDZi1SWV9NZ1llaGgxelRwaG1pcUN2emEweG5HMjM5STBOVXlYTkR6TnZRbDluVmNGRHE2Q29aVUhBZjQyVHFyUWR5cjRpTFY5dDQ5Rm43SE1qZ1p5RTRrOG9XWWpObFhTS1JYcFF1N2E00gHkAUFVX3lxTFAzQXAzNTlGNkFpQ3R5NlhzMGJSVmRsY3lsYXUwVHlqSXdUSWlndFk3SFgxN2R3bkpMNm5XOGFoT016QUotUHY5anEyWmtiQzdvSTBVSjNHc2FyS2lxaWR5YVVEOUFLeXJld2dhbWVtaFg5QkZuazBiSnpoU3JIaUxURTUxU2VyQTdNb19XcVNWYWtaWlR2VkV2LVE2QV9tRi1ldHRZRkdkSjN4LW9iMmxzNmFCaDVVeHFrUnhBNEV5blp0eDd0N1lDcWc3eW9BdlJDanM1M0V4cjkyd3ZneDUtOTRyVg?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
         {
           "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMTdBZ0ZBbVk3MUtYdVd5a3cxZ0FSTV9zdWdtNldNWkpBXzVoOXJXXzRnZkJ0dDRwM2U4VzhfYzRBWFdtTFRETmZvQS0wd1VxQ2xtSWJsZ1dKNG1DT2tjSHV2Tl9YMnN3N1ZxNXZ5ZmtyS1kzbUJ1QTc5Q1JyakxQRmpJS205elRraHZBcUtqT1QwZERXQ0NpX0VMM3k3bGtnNlZJaTB2MF91d2w0UDA0TGdVZDJoNmM1aGJKb1VSSGg0T1NHTXZfU3paLVByR3pncGI0ay1VUGVabDB2YVN6VUk4TmUwcGljX0ROa20tcWJiWG56V0HSAYQCQVVfeXFMUFFXUTNXRkhLTEYyNWVXTFRsYmNESHRWVDk4RVZCdUtCUEVIY3o1YjNUamNxWDVZVHlKMGg5bDNLTVc2VmVWcmZvaHMtczFwbG4zM2phYzFZRWNvV0lEek1QVE1kOTJTRGZUUzViUU1WenJNaWRObk9HS2pPc3ZhZlNZSFpmUWdqZWFrSE4zaDlCNkRmeFFkSERIZktPVkR6QllPdlFnVHFBb1JMYlNBb25TRWNUZzBLRkczVDRwR2FkVzE0VDFuTmpFbEl1d1FqdENxd0ZuUVZMdU9CaGhJeEV6amItUzR4cGJqem41d1F5WnBQZXdBLWZ0SkNQSk14YWN1ajE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNRzVRYmVzTFFuV05YYi1Ydzh6N2lVbENvWVgwUTRnX2hDMjN5OGkwYlI1VVI4bmtRb25HM2xReHZqNlpqc0VtRnhrTGJpSl9neXd1eHJsZ1hzTXJHU2pQMjlfVFU4UU4xSDAxRGcyb1FMeG1jQV91TWRkU1hRSUZiNGJYd3RKd0Q5aXUydTREZVltWnpscTlGQThjV3BNMW1Yc2s3dE5XNEtwaFBqdGtBQzViUURMVzJZd0RiUFZJRVk4Rmk4c1lXOGZ6VFZWTGV0TDZYQnlJOVViLWpSd21fRkpIUEtwMEViUEU0dl84VmVzS3M5RHhLSHZxSWtXZFI3NGZTNy02VFl0TGZON3lGMU1pNkpMQdIBpAJBVV95cUxQX3d3WkNGcU5rdEJ2UVBBVElwMnZrbExDYTVTb3l1TmdqMjNlaWZERWx5NHBVOGktYjlUTXltYUJoV2dXazA4Y0wyVnhKV2tCWmRNd3BidHMwRURYLVZ6eEQ0UHlvelhHRFRGWjhpeWRzS2dTaXRqTzVzMmkyWU40MnRacElsLVI5QnV0NU1ZaWlERXBnNC1WMWtkemxQbGp3VTdQS3B6TWJFWXp0MHBoamtIc1V4YWJxMXVQejZMUm50STdYMy1GMWJ0UVFmbEFBMkpiWXFnZGk2bC1lWmVnOFdlQmZmM09DSU1fSkotQXBrYk5FQ2QzWUFCSnk1a2hNdTluZXh5V2pobWx6VF9CbzVRSlBCcDBfVVF0WElMU05iMGN4?oc=5",
           "camp": "centro",
           "position": "editoria"
-        },
-        {
-          "name": "Zero Hora (GZH)",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQcEJJaEt4TFNfaW5vbExhUG9QMzdiZzl5WU9QQnhwakdsU0dwODBuSEhEcURILUIwYnY2cnFJaU1HZms2Y1ZFeTBXM0hZSXpKXzAzZVJIVVduM2locFZGamFGQ2JWUXBEa0NySk9EOFljYldUT3FKdWhnc1BaOXpTWnlkWmtDXzBlbU13cjhzMlJkTjhZUUZHa0N3U3kzTTVnSFBPdzVpYWo1N1VsdVFBYzRpRjBEajVTMGhYTXBlOHlTOUx6UDA2Z3REdXNqY2Q4Xzg5UnlrbDlBcVFBZUE3aTllelk2Z3RESHcwSG5XMVV6anc2WnVDTjQxUDBjUmdzSmhualo5OA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWXRxV3B2RmtsZmRpZFRONkVhOEdRMXBLbE5mbGc3S1RSRHhVR00xQkxyVV9sQi11Zk5IMm5lbzdNS3J0N1dkNDRvQnk2M3FISk84dGdYMmxPQ0dVeVZPd1lqOU43bmxvcjZabHp0NW1XdXVOZ2JvM2tOdnFlM3FxakhOMEdENzBjOC1vZF96b2t6THRPQ3llRGZwMjVGcUlOQ1oycDhFS2QzdWNwdmFDY2o5Q3ZhMTJ1dlcyUHJSLUhlYmhKRlRXWlMxZXNOeER2TG9qaTFxUmpKRGJzY3ZGWi11RmtzOXF1bUZFNA?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNEV3eVYxMUF1SGtQOE9nTXBfY01SS01Fa01HMDVlM1JfbkI0NzJWZnZqOFphY2RFaVVKUTlfSU9mT2NzTGs4M25uX3I2dVlXS0ExSGZEVF9McG5YYXAtYnludk1pVlFGWmJrSUE2NUFqVXlGdTFUNWxfbzlSZlRlaWRsaWdUVDdMRk5iNkdwMXJGaWRHUk5MVkFTUDlwVUZwdE9wb2Z1MXg2Y1Z2NGNXbnhJc0lhTVU3c3JQNjA4dTlKeVRC0gHKAUFVX3lxTE1BOWhfZ1Y0VFNQWnlVSXR0S0ViX2xXb2ZtTEVRTVVjVW1XUEFNVm9BWUtDQXRfZnJfMW9ZcHQzLVd1TGlkOXYxNEZ4cmQ5SHBDY3dOaUVlMDNRQXBkdW85S1lHZHgxUEo3NkxpS2hqS1lJcDliNFRPUTZKc2toVS1MUHQweGlKQ05iaTIxSXBvYmJBUUpxZGNXamdXUEYxUjB6TnV1ZEFDRWJoZTVQbjVqa3VReEtxZ3M5MkJzUzBrNGZlUS0xM1Vvbnc?oc=5",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Extra",
-          "url": "https://extra.globo.com/esporte/selecao-brasileira/noticia/2026/11/com-hat-trick-de-vini-jr-brasil-goleia-cingapura-por-7-a-0-no-ultimo-amistoso-do-ano.ghtml",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/esportes/futebol/futebol-internacional/brasil-goleia-singapura-por-7-a-0-e-encerra-temporada-de-2026/",
-          "camp": "direita",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/esporte/2026/11/7323110-com-tres-de-vini-jr-brasil-atropela-singapura-em-ultimo-jogo-do-ano.html",
-          "camp": "rio",
-          "position": "editoria",
-          "via": "coleta"
-        },
-        {
-          "name": "Veja",
-          "url": "https://veja.abril.com.br/esporte/brasil-goleia-singapura-em-ultimo-jogo-de-2026-com-hat-trick-de-vini-jr/",
-          "camp": "centro",
-          "position": "editoria",
-          "via": "coleta"
         },
         {
           "name": "Correio do Povo",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY0U0Mlo1Rk0tdDR5UmdwNDRocHRNU1JzOW1Qb08tWUFDSk1tM3VpdHNQOFBLeGl0VTd0VE55aUpjdkpTVTZmLXpQMzR2bF9LaTNnREpHQk1UY2hRQmRCQnVjSlljaFFRQmpHZVlMN01GOGVQNVJvaS0zXzRTbjc2ZTBhSXVyRGF5SUh0SDZVMWMwMER3UUVCYUNmSU5qREYwaVNScDlEV21QZzVKNWNDRl9NRFlVUTdpNmNDRXZmcWRHRXM0WXA2Y1BHU044UQ?oc=5",
           "camp": "regional",
-          "position": "editoria",
-          "via": "coleta"
+          "position": "editoria"
+        },
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUWhaY1BGdTIwRzZBZVVLUGc2cUZPTDUxVHVqd1RCU2hiQ0VvSWtpcmtBYTVPcWE0MGEtZE94SnRjcWozbjRFejlBX1A3WWVNcG4xSEtvNGpHd1NJd3FQTFJNZmdHeE5hQWVpdXg2clJYWDV1ZUdsRmVtWXk0alBET3pjUEdjNXhSd19SbkFEQ1ZjRWNIV3BFR00tWnpmdDN1bTRSN2VIUldINkZzZEZDQVZPUFpLSEZkVk5XckMtZ1lWR3lBcTl1VW9fUTJBS2tiQTZTNENqUWxTV2JkMHR5NU5kM3REVGU2ck1HNTUtMXJFZmVFZHMxeUZsWQ?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSzJGUFRMbzlqalRuQkc4dThRQXN1NTZFcVo2YzVGa3h4Z2IzcHpNbkVrWFZ5bkdoaU1zSXVEN1duNk1IWWJtQlUxUnlmVnNFMWg0TWxNSTVESkN2aDd1MzB0NG5GOXJndGpoMGJIN2NOUHZWeVJZU3NwRC1FLUZURWx0TQ?oc=5",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTUdPMGlZYzVCM2FmSjVKZm9CeUY1MzhDTWtmbURmY1BQSktrMHNxY0pUcmtid1hCUW96TGdQbFk0cGRZYnIzRXBzS3JIYk4yVVpnVUdGc08xNFViN2ZSaXFUX3lfQ05wZFJXSXNMcHN6cTNPaW83eEZHc3VhcUswcUt4bXhZcVRuV1lWYUhIM2RjWG5fVjdWbTFjNDhrTW5wZGx2SDI5TQ?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário do Nordeste",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa0VweUs5TkVXbk9LSnYtaHRqRzJrcXE4TkdvZ2NqMGR6YWVDdDFONjZHXzUxTzZ2bkxxYUk4MDlDUXh1RlY5a2N6aUlUeXYtT2VUUm9WSThQemRhR1RIWktvOFhnS0U3cXVMaldNczU0TWx3enlVQ21CRl9zc0lHNU5ubGJRWkp6QWxsMXFNTm9yb2NIMVJmdEhLSDRJZzhGc2toNmNsQkdQUlRVa2FNRw?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de Londrina",
+          "url": "https://www.folhadelondrina.com.br/esporte/brasil-supera-a-fraca-singapura-com-goleada-historica-3329473e.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVmNVUkcySkpYVlJkSzFuVkpnS2lxVUdHZVkzQ0NCYkdSNTBIeGI5Tk1Zc0hza0JHbHVGeHAxdlpRY2J4UEpzMWVJUFJuOXdCUGltLVY4bGFvdmlvYm4wLWxHcExRZVFDclBkVVVHeU44cTloMTdEbUo1NXllZXczR2dOQjdwVUpSYnJ2YUVDXzMxZ2s4N2FtUXRCc9IBqgFBVV95cUxPYUFPSDFodVRhOWY1eXk5NFM2M3lwZUhwLTFkNGFnQ0ZreS1PZWFMTlR1bkxCOG5CUTNjS0hVUldmbkZhWkQ4cXRZZXFfNXppLVRVRU9wS1l0ZW9MeWNyU0dlY3dobEFRRC14cEF6MzVWTzZ0UHowSDU4MDVIOUVzbzl6ZDVVa1V5RGFlZW1ZM2YxUzZPRC1FbThBbHVkdXg4aFQ3YXc1aF8tdw?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQakxpcm0wV1huWUExMEhvay1SUC1UY1V3Mk02b2lqR0xyck1YYVdTMkhzN2MwM2FTT0ZlMDRQTjNyUmg2SG5qM3p4aklQbkhrZzJ6UXZ0aDR4MFlwQTdrd2cxZndRel9ieHFaalRPci1JSHhoTzhFcXJWazk1R2hWR2dCNXgzOVZJdVhJRlVTdFMtU2VFbHBxZzBCd3g5Q2pEdkZ6VmUta1l5TjFnUnYtcmNoVGlWSWI5X1FOZzFOdE9KSlFqWk1FNWdZLVRROGJQNEtXRVZMZw?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPWU5WUTZ6N1dtSDFzYjVYbkhRaHpOOFB1YkxBYWFZODh3dUI1UzZNVndybFdLenBrSGVlcW5SMEtIdmhSelcyeFQydWxlUUxTY2t3MjB3YjVRN1ZwSlgwRXVDcFJkTmtvVV9IT3RFQmthR3BuTGN6bnV2bG04Vmh4aGNHal9HckJpZmN0Vm9GUkprX1FOeng3TUc3VktPRTd5NnB3X2NVYURRYU9zVVFDbnVJNG1ZNWlVM1NNYVlwZ04tS1RXYXdUN2hhRlpyRzNIaElSWXB6SU9NR0JWd2JfQVJNTmNYM2pMczFMOE05WHZPN0pBT01kOUxIWWl5STZ6QkM3V0dUc9IBjAJBVV95cUxONWl3MkJZNVM1X3Jjb3pQNmhkSFc3dU9YU1hsUXFjS29DaGx2Smt2YnQ3SE1kLWlkdWJDSVpqb2UxX0lqVktJTnpMcTlNNzFLeUlKd1czWEs1b29nZnJxZUNvbFcwTFZ1ckVraTNQbW5Xa1dVTWpmM0hiWXNqYW44dm9hQVVWN3FoMGJFWGYwVkZlZTA2NDh0QWFxQVdHMUJ5bGhHajU2bmFJNmUxRHJiSWg3TVZBZmVhQWhqSWlJeGdveXJCTHBlQWVFZTRGUzhzbHgwVVhyZmNNXzQ5LUdhSDFXY3ZCV05KUkdiZ2puZzllbm5CUy1nb0RhQ09PejI1MzBmSEhtNTBnbUpV?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWGFwVE9UWnJCcFNpYVdMRnVhRVdCM0xLdXpCYW56dGxSV1NwcDNWMFNad09fa2lQbTdQUV9SUjFxYUFtNUdlYTdnaGlyS1p0ODVFMUNkV1QtUUkzOFFyU0VKWm5fZXctbS1MVGFIQmpicV8xaWpIS2stSUZFYVVOSGQtOWtLM1hvc2c3MnVCX2NOcFlmelpMVFdiYlplODAyUnBNeUowb0N2RC1IMmI5ZUN5c2VjZW5NR3hhRUF2UE00TXpFRl9mX1ZuVlhBbmlwOTJSZGF3ZXZDaEXSAeABQVVfeXFMTjA2NXdHZUtGQ29YQ1Z5aUZVeW1KNjQyZkVsY2lTcVRVU2RFMDluUV9EamcxSS1URjc0UWI4cW1ubTc0ZVJXVVdRNHJzeW5XRlNmNGY1Y1BJZS1LR2FHVjJzNXg2Uk45Sk9wZU5vT0g4MEV4MDNkc2lGbnFjbFdxX0dHQ3dMNE5Vb3V3bjBKV0RicUl4cTJOaXV0aXEwNkdtb1dmcWNmS0pJNUFITkxCaVV1d2NOWjNVT0g3UUNCTXJLOWJ1bUsxV2JGai0xOG4zNmV6RzhscGhxa3hSTDM2bTA?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131642/nikolas-comemora-pedido-para-suspender-licitacao-de-iphones-no-senado",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0hTNlQ4MEV6Snc3eHZiZm9NOXl4TDJVdVFxUkNyVkxzdFZseTUzNDJmcWxYc0Fub2xiWGo2cTZtMW9UalpzWl81MXFjRWV4STNoeTEtYlNZLUhmaXZPQzMyN3NOUFlpcW5tTEZGQS1mdWZXSW5fMlQwaWdmZXBfcDZCSUx5LWhPUXlxR3FiMnpEQ0IwVHNSTFQ5bk9kUmFTWWlMQnhQTV9RUQ?oc=5",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOM3dVZkQzRHBQRmhjdGtuR2pLSzM5enNGRUxwUEJOVWFPZTRfbGYzamlhWno5YXh0aG1kY01WUGdpOTZ3RDROSkltTWE2eUYtRVUzWnE4cUlDOGRtRF9SQk9VcjRHaEtSdWs4OTlJbTdleXFfVVB6dFFOU2p3alhLd1p6NS1BQlBEcGF6eXRTa0dXM2IzNnZBXzF0SjFlYkhfd2Q0dFEyaXZ4LWNVcEllY0NWZHZsX2doWlYxR3V2cC1zVHFnQ2RyeloySDg?oc=5",
+          "camp": "centro",
+          "position": "editoria"
         },
         {
           "name": "Gazeta de Alagoas",
           "url": "https://www.gazetaweb.com/noticias/esportes/internacional/com-hat-trick-de-vini-jr-selecao-brasileira-vence-singapura-por-7-x-0-949760",
           "camp": "regional",
-          "position": "editoria",
-          "via": "coleta"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "criticas-meta-180-justica-nao-hilton-mil-erika",
-      "segment": "politica",
-      "title": "Justiça bloqueia R$ 180 mil da Meta por não excluir vídeo com críticas a Erika Hilton",
-      "summary": "Justiça determina bloqueio de R$ 180 mil da Meta por não apagar vídeo com ataques a Erika Hilton.",
-      "scores": {
-        "cobertura": 6.0,
-        "destaque": 6,
-        "persistencia": 4,
-        "peso_voce": 6
-      },
-      "score": 5.6,
-      "outlets": [
+          "position": "editoria"
+        },
         {
-          "name": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc0RjWUs0NVNyRnJmM0xCbkh4dGE5Q2RaeTZabFkzVmZkSGJGd2N1S0RlTUdqd1lBbUlUMUVLM01hMEw4TzFad0ZDNFk3MjBHc3FGOTV4SEFPZ254V01nVDh2T3pYOHczSm0xWFRjdkw3RGtLTHVLVmxXLVJDX01nX05XQWhfWmZjRVdHNTJEU2tUcGdPdjRJdEZMYVlHTVlIdTE4VU9lVnlqS3ZQcVE0ZmpEQ2ZGLVJBNjJGVHdzeElpV2RJZnNOQXBKQzI5X1nSAdQBQVVfeXFMT3IwSE43YnJsMndLQ1VIUVE0b0lyZ0dnVFNnQTFJWENCdDRtdWhxTG5odjBPcGh3eWZuOVdVazRmaGktUkdhRUdOSXRtT0xuRkhHSU9ybVVnUlRMUUd1OWhqblZBaVRieGF5UVM5MU1sQVM5OGFJdElLc0hzYTZ3QWNxQ2FPaFBCYWNSVFNVblJtYTBQUVFRQTJaWk5abDFRM2l2X05kRkpNZUVheXY0N3R3YloyUlNvcHNyUm9yQWpDQmQ2UHRiV1FaLTNxanhuUnhlUXo?oc=5",
+          "name": "Metrópoles",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHRWakliVDJwZmg3TXZ5Wm5hWGxjNXNHajhlWHU4dzgycnZESmxmcEUtc1JxNU9kZnZFeUJzSU1kdXBNSFVDeEIzMk1GMmJqVHdMQ0Z3Tnh2dUtsUjl3d2g4aFBJMWktVDJwS201MHZSaDlVbFJTREo0NlBzU0g4U1FrOFRpUFR4dGktTXZJTERlWWY3ODlCb0dhZWNldjJiM2tMWl9BUlV6TmhRSzRzOWhrandoUUVyZndTUlJXOEs?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb09vVDV0M0V6Rlk2VFpheUFWZl9qSkU4S3VnUFhzQ25LNmVZWVpoV2x6SEhyUE1ialVkRTRrZDhzNGxPQ0pZTFBzWmttT1dYQzRXQ3NWb3hRNTV6bU9UTGstNzQyclFNT0g5c2ZJd3pCbHVLRktZRXNLblVRQ3UtR2pBU1hDell1bWhiQktZWGtVejkwWHlYUVR4QnhZZ3VY?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRW82cUFvZ3lKN0Z3WlNLYlpFNVBvdjUxbHdMMkxvR1JxbVlpaE9aZmUxeFY3NTNEaEJUc3dtNXcwRlh4VXJGckcwSEIwQW9qT1pKd0RQRmtwRGdRbHFTWkRaNVlSY19VeE0xMm5zWGllbHd0c1NadENackNGMnljR0NqN3RkSDJqVTFOSUJDc0dwNUE2eWxGMFJ3TGdPcFJ1cE5FNEx0YllZVDBHZEJHREJR0gG3AUFVX3lxTE5xTTYwb2NiNHVRU1NYWnBlX25uV09mMWhfTFdKcjcwMUplcFRlRjEtTmp2N0Y1anlQMDdkMnh0V0pKZGd1bFg0Z3FvcVhNVHdnOXBYTlphYUdXc2dPWjRxTXBZRXY1NnliendKZzc1U1Y5bjFsWE15THNic1BCZDM1d2dLRG9IMHczQXludXQ5LUZZYy1jdFRRZ0JnaEx3ZG5zcUhXbjF5dUdiTUZCY3RQQ3hpVVI3OA?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd1Z6bVRxbVpldTl5TDJzQXZOZ0hWMlBBeWR3VFR6QklBMWRKVmFhaklHVVR5cVlfR25IeVNGdDNEOHpIMkNBQVhzenp1NEI5ZmROTXBrendjWFlRaERPcmVXMTNSQzkyRmlHMTJ1WHhOc05GTTF6bTBPOTh4NU9rM3ZOaG5MMlV4UzJsM2ppSGVoYkl6UWhKUm12bEtwa0RNSjJLOEVqWEp2NmNfVFRuMHZXMzRkZzJtdWt5TTVNVDBUN0VsLVRxMThrYlpLZTA3dlh4U3A0cExGUXZXVnc00gHkAUFVX3lxTFBJNDNNZ2NhTDhnR1BicnlaSUpxSS12VjU3cExpemowemVVNWJfLWZvTEVRcV9wb092ZG1abHlta24wSFZhODhPM1pYMk1qakV1SVpwWG9aZGw0SVFpNE1kVXcxOEYtaGRGbHJNbnZLdm85cXhFV21BMERUbkhLRWVFUFNsUl9WWWRrTk1rTDVuTDZXYkE0LWF1SU82NzJWU1JFeG5NT0hLSzJVaG5GYXVNa0w3NHItMGROckZYWURLUndxRFFXTFBpMWt4RjI1Y0ZGcGYwUlJiQjVRNHZ6bE9MZ1ZlWg?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Veja",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeXhIXzRQNGlTUWk4bU1Ba0lvV240TjUwRXVGRHJCMERaamZrdGJ3NmlVTGM3SGUxUF9ENHRET1luQXkxbk5NWHJGUE03LWdMZ296R3BLWWMza1Awc0Y0LTNNeGpYODk0d1pleTlVTU9GS0NlZWktUXAwQnhfN3V4YnYtb3prMkhvVHhudDVVSmNvM1ctRUdaUzV6b3pYTlRveElNVzZvMkYzckNnQi1z?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "ICL Notícias",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55R1F1c2pjQnprY3Nkdllja2xVWFpRWklnWFdZdlViczFMM29yRXd5Ujh1OHcza2RpWmhhYXlEc0VIbWFQMDU5OFFfWjRWVjdHaXQ3OUlGVHZjMnM0TmdQMVBWTzJuckxLNWNfT29NREZaRFNGNGRoQVFDWQ?oc=5",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOV1FxaTl5eTVZU3E1LUFYYVJJcWZWRWc3NTMybFBmNzdHWkRhRHBmcGNDTnRXUHF0LVNyM0xuQ1d1Z3FNbmNrM2pJSXNaMENsSWJ4TXM5VUJJNjcwU05kR1hSZ3dfSFQxNFN5VEFXUlVwd3A2VDJNOXR1clNQYXRwNFZiTndmckZFOVhxekp5R0FYN1Y3VldSOGRscVhPMDFESENBZEtJOF9GaHBtcWFvX01oTHRoWjZxVGZZWUxMaTBCNWdVMVBkUlVRcDdwdlVKdVdyQTl3SS1fWk1GeGlweGFnOTNyZlRzUHJ3?oc=5",
           "camp": "centro",
           "position": "editoria"
         },
@@ -242,46 +421,244 @@
           "position": "editoria"
         },
         {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/justica-bloqueia-r-180-mil-da-meta-por-nao-excluir-video-com-criticas-a-erika-hilton/",
-          "camp": "direita",
-          "position": "editoria"
-        },
-        {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/politica/justica-determina-bloqueio-de-r180-mil-da-meta-por-video-com-ataques-a-erika-hilton/",
-          "camp": "direita",
-          "position": "editoria"
+          "name": "Extra",
+          "url": "https://extra.globo.com/esporte/selecao-brasileira/noticia/2026/11/com-hat-trick-de-vini-jr-brasil-goleia-cingapura-por-7-a-0-no-ultimo-amistoso-do-ano.ghtml",
+          "camp": "rio",
+          "position": "editoria",
+          "via": "coleta"
         }
       ],
       "asymmetry": {
-        "flag": true,
-        "note": "Teve destaque na direita (Gazeta do Povo, Jovem Pan) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
+        "flag": false,
+        "note": ""
       }
     },
     {
-      "id": "encontrado-corpo-apura-desaparecimentos-policia-relacao-cova",
-      "segment": "seguranca",
-      "title": "Polícia apura relação entre corpo encontrado em cova e desaparecimentos",
-      "summary": "Polícia apura relação entre corpo encontrado em cova no Trapiche e desaparecimentos. Corpo de cavalo que disputou tradicional corrida na Austrália é encontrado em caçamba de lixo após eutanásia.",
+      "id": "infraestrutura-ucrania-crimeia-ataca-kiev-bombardeia-ponte-r",
+      "segment": "internacional",
+      "title": "Ucrânia ataca ponte da Crimeia e Rússia bombardeia infraestrutura em Kiev",
+      "summary": "A Ucrânia atacou nesta terça-feira a ponte estratégica que liga a Rússia à Crimeia, causando danos extensos. Em resposta, a Rússia bombardeou pontes e outras infraestruturas em Kiev. Duas pontes importantes da capital ucraniana foram fechadas após ataques russos.",
       "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
+        "cobertura": 10,
+        "destaque": 8,
         "persistencia": 4,
         "peso_voce": 10
       },
-      "score": 5.5,
+      "score": 8.3,
       "outlets": [
         {
-          "name": "Gazeta de Alagoas",
-          "url": "https://www.gazetaweb.com/noticias/policia/policia-apura-relacao-entre-corpo-encontrado-em-cova-no-trapiche-e-desaparecimentos-949767",
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ucrania-destroi-trecho-vital-da-ponte-de-putin-na-crimeia-veja-video.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVGFROHdPRGR6UU9NUUozOHJ5WS03RFdVX3QwM083VWo2dWU2NkFFUlcxYy1fUnlxX1FpeVlhbWVERFhITk4wZDZwQXFUSmJ6a3gyeTBtaGhCQTZYY0MtaWpvVWZnVWl6SzlRT3dIVFh5cEtpNzgwT201WnJqQkNQOTRIcnlpWHJkdm0tem9IWmptck9ROXl0dXhOWWtSeEF5V3M1bVo1SkdKVUdaWFdudjdYN3otaGg3NUhZ?oc=5",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/mundo/epoca/noticia/2026/11/17/corpo-de-cavalo-que-disputou-tradicional-corrida-de-cavalos-na-australia-e-encontrado-em-cacamba-de-lixo-apos-eutanasia-video.ghtml",
+          "name": "CBN",
+          "url": "https://cbn.globo.com/mundo/noticia/2026/11/17/ucrania-classifica-ataque-a-ponte-da-crimeia-como-operacao-sem-precedentes.ghtml",
           "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "DW Brasil",
+          "url": "https://www.dw.com/pt-br/ponte-da-crimeia-desaba-parcialmente-após-ataque-ucraniano/a-79968282?maca=bra-rss-br-all-1030-xml-mrss",
+          "camp": "internacional",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/empresas/marketing/noticia/2026/11/17/sao-pedro-capital-investe-na-pivot-e-ricardo-cesar-assume-como-chairman-executivo.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/russia-bombardeia-pontes-em-kiev-ucrania-ataca-crimeia.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/internacional/ucrania-fecha-acesso-pontes-ataques-russos-kiev-atinge-infraestrutura-crimeia-npr/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/mundo-e-ciencia/2026/11/7323129-russia-e-ucrania-trocam-bombardeios-a-infraestruturas.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/17/ucrania-derruba-trecho-da-ponte-que-liga-a-crimeia-a-russia.ghtm",
+          "camp": "centro-esquerda",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRkZWcG4tTWprQVVkc0QtekxOR1RFQzFhaVhubTZ6TXdnRnB1eWp2VXJOVm0wZU1faGJlVUhaQnFzeFNUbjJubXpEMkxPc1ozQkxoa2ltandXNkdnb2N0aU9qcnZXdVNjelEtWWNld3IzckVwcDREZXp1dmpoSGhxQmFzNlhLYV80N252N3ZFSGJETHNab2RxdjlPU0RPaXRB?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "drogas-gasta-ano-pesquisa-bilhoes-guerra",
+      "segment": "seguranca",
+      "title": "Brasil gasta R$ 14,5 bilhões por ano com guerra às drogas, aponta pesquisa",
+      "summary": "O sistema de justiça criminal brasileiro gasta R$ 14,5 bilhões por ano com a guerra às drogas ilícitas. O valor foi usado em 2024 para manter o trabalho de polícias, defensorias públicas, ministérios públicos, sistema prisional e órgãos da Justiça.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 8.3,
+      "outlets": [
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/sociedade/lei-de-drogas-consumiu-r-145-bilhoes-em-um-ano-e-quase-metade-foi-para-prisoes-e-pms/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWlc4R0c2a3dhS1RBQkJtZm0wdlpmLW5fMTd4cEQyQjB3RThqZjI0czhkV3hnLWNQajljWUN6R0RHVGdYaGJGWDNqd3REcTVUREM3dXNJTWJ1dVdQU2FLNUV4cm1UY1U5S2o2bF9GdmY4MS05dWUyOHhCcE44QjhEWjg4XzBhR1d0ZXZ2V1pxYmxEaG83QklEQzBtWXh1WmtQWks3NFJTM1dtdWhIbExsdi1EemloX0JzSHllNkRkX1M?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRUhpRzJXMm1mUnhkRHVDNnhtSFIwcmRZY1ZUa0hJTkRZdldPYU5mOVJlY2NCMHNJSlNIVDVBSDdtR2E4N2JmX2ZiWU95ZkNhcWh6eWpzaVFJNUxHUi1SLTh4WW9TUXBTdENOb2w0Y21PdGh2QXJRekVTX0FkbkRkMnp3VzFNeFRNdUs3LURHSktfOXV4MDBsbQ?oc=5",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/aplicacao-da-lei-de-drogas-no-brasil-custa-r-145-bilhoes-ao-ano-aponta-estudo.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/brasil-gasta-r-145-bilhoes-por-ano-com-guerra-drogas",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR0pjRTdLQUlpbDhGMWdSbVFaVXVQSzJZOFlhZUx0TGE5cnlpd05tdXFVdDBKQmJFcGNYR0VuX3BmakZCS1pzcnhkYW5oRHMtRGJ0OUhZS3VMUnZBZ3MtUjFEamdFM1NmbzZLbFAySmFyVjB0V3YtdEFBdEM3eHV0R1UtZ2RScDM3RmV0TjE1dHNrT0pxVlhmdUhfdmNzbkhX?oc=5",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/2026-11-17/brasil-gasta-r--14-5-bilhoes-por-ano-com-guerra-as-drogas.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/17/brasil-gasta-rs-145-bilhoes-por-ano-com-guerra-as-drogas.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQUV6TVhlZ0JOZGtmblhyYTBsZ2w2LW8zNU42MnY1NkJnQ1ExRW1GcFYwdFM0T3hHeDVGdkluX2pnVmtsckpQdnl2Q0stQ2dNaVluWjktRDF4ODhGYndoTkhlQTdNUUtDcF9oSG1FcGljZjB0dTd6TnNWQXlzZTF4cVRTRW1uUzNpQTNtNDVNUW5WQjJMaHBBV0lPRF9QMlowS2ZrOFRYZXQ1R1pWNXEyYg?oc=5",
+          "camp": "rio",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (CartaCapital, UOL, Folha de S.Paulo, Brasil 247) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "nao-dezembro-2026-prazo-mil-salarial-abono-termina",
+      "segment": "economia",
+      "title": "Mais de 276 mil trabalhadores ainda não sacaram o abono salarial 2026; prazo termina em 28 de dezembro",
+      "summary": "Mais de 276 mil trabalhadores ainda não retiraram o abono salarial 2026. Os valores disponíveis para saque somam R$ 304,8 milhões. O prazo para receber o benefício termina em 28 de dezembro de 2026.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 7.8,
+      "outlets": [
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/economia/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-veja-como-receber/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/pispasep-mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/brasil/mais-de-276-mil-pessoas-ainda-nao-sacaram-o-abono-salarial-veja-quem-tem-direito/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio (Bahia)",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOclFBM3ZYN3lydHlxZXlseU1iVkdjOGhHekVYNzFHTmNXYnNqMnRSQzlIcXFQNmJSZlMzcWVwMzVpOC1WOTRQMHZxSFMwcjZldk9SSl9DV0FlNG45djRrU1hNcFNGV3h5MG10UTRZdl92bWZyM2kzNmlVSEpMZWpyVXVJZWVUSXdENU1sSDRERTVrVlZBVTcxdXY4Wmt6QWc1U01KRjFOWHBid2Z5a2dDdU81cnlHdnE4OFpnYVZEcnB6NFZwSEM0enZSSGtlVmdzSklr?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMWxqc1RFbVBoUFJNcFdlQldnRzZSNEowQ3NXTXNVV19Lc2kteG5hRnQ1TGxJTWc2UEk0NThCME9zWGFCMXdCc2k5aHBBYXV4Nm82T09OWlpqRW5DM3l0bHJHbVBreU5nb01sNlpMSDV5eFBWc1BVZmg1dHZzQWlHNkotOVBDaTBhUkNDcnozWjVMSEhiaE1tU2ZzVkNXWERXV2FTRkF2REIwc2FMeHlmeFBaa2c3QjcyMi1mcnN6TzNYUQ?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "NSC Total",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNXZhR2MwdlZMQlpneVZmSW5IbmVoZXlYN2ZNSHRFMFljWHNYZ0xOd2ZXLUhiOXViTGgyYThNNWZGZ0JHS3NKMV9NaGZ6T0tPQW1YS2xEd2FqT0U2enh0NzR6dzd5cFl4MURFR29BSm1xMjZtcHZGNkxrY3pWNWhyMGp3Y2NjMkIyZ2h0Z1ZGYnRGaTFaRVF5T0U5WHVPcFR5UlpFaW4zdnRYRkJOUmFqYzJtdlpEVHZPaFpXQXRmUGZrSDBzUDNHanczUDZ2SDliSXJDRTVZc0dRUQ?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/economia/2026/11/7323144-mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYkVheUxLZ1pvWllaTFdrUDdTcGZqdmNrckNlblY1U0ZFZk96aS1leVV1M1VGcWFXUVJISS1JTUNnOXc4RUpERlRGUWpXZFZCSFFTM04zTzJ2QmpCRUZKczgtUWVTOF8wNG9taVdsQ1BiV3Y2MjRXWUhic3U5LWRlaVdCcENvM1V5UDNfUmxvclVLaFA5RHBVSWo4RkN2ejJ3UGM1Y3pVbjdEbmdUUGRPejFnclNGN0Q3S2F4b1pCbVNHQnF5ZnJDZndxYUVmcjh3T2p1dDh5OFFrUHZsLWtQVlV0OA?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS016a3JOa3lrYTlHaWVUdmI2WjAycjhCc3dsdENiZllldW9IZ012TGlFVzdiSm5LeU5za3dyUEhvcFg3VEFWT2ktOXdodjNWLXVPVmNvaXl4VWRkOWpPUEVfRzZ3MXB4Nk9qWTlyWWlyMzBLSEtNcnZlRVlkZDhpakJZWmU3ZGcyc29TWGN5OElael9SX3l0RXpSM0pjaHUzMVpxOUZzb0oyMWVuVkp2bEpUcll3NzFjUURfWURWb2JZdFZOZ19yaE9NX2RkTElC?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026",
+          "camp": "estatal",
           "position": "editoria"
         }
       ],
@@ -291,27 +668,200 @@
       }
     },
     {
-      "id": "renegociacao-rio-descontos-sanciona-leis-dividas-ate",
-      "segment": "rio",
-      "title": "Governo do Rio sanciona leis para renegociação de dívidas com descontos de até 70%",
-      "summary": "Governo do Rio sanciona leis que permitem renegociar dívidas com descontos de até 70%.",
+      "id": "caso-criminosos-debate-documentarios-lucro-reacende",
+      "segment": "politica",
+      "title": "Deputado do PL propõe Lei Suzane von Richthofen para proibir lucro de condenados com exploração de crimes",
+      "summary": "A proposta, batizada de Lei Suzane von Richthofen, prevê pena de um a quatro anos de prisão e multa para quem descumprir.",
       "scores": {
-        "cobertura": 3.5,
-        "destaque": 5,
-        "persistencia": 4,
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 10,
         "peso_voce": 10
       },
-      "score": 5.5,
+      "score": 7.7,
       "outlets": [
         {
-          "name": "O Globo",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRnZZNGh0VDEyZTAwdy1lT3FDb25WWnoySmdkb3pKRG1XQnZ0cnY5ejhmUmtpSVpMZ2oybnM0alJheWFSalZwZmxqamtOUXhQeGlYd25XQVNXdk5Wcmh3QjVhcW5kbnVFb2Z3eTlwOGZoMEJjSF84YkdhMmtDSXJFWEVaOS1vcms4eGpZYUpvTjRsQjAwTDdTUnZ1SXNMbXV2TnE4aUpEczlZMFY0aXRzUGFiLURUbXJVRU9QcVRJVUxEa0tUZFJoVFVVeFd5LXphclhHSW1oTlNTUzhOTFQyazREZmJGNldkTUtfd1dJWFJBNnFXamRmbDhYaEhzU2JX0gGPAkFVX3lxTFBNRFEyMmFhTDFzdnY3Y042SHRUODdVTVQ0TG9pbDh3U05vcHNrZUlsWEVYeVR2VGZ3UHdwTnBROXZ5dS1aVjVvNUdPYjd1WUNWTFZOVmtlaHdsTE4wc2VCcU9VUE5nUzY0YjVIeGhRRWhORm1RV1otS0pGS3F5M0JlQy1PZzFCTzFTZDNqVWxRdVZ6Wlp6RkhuVXo5d011TzB0cHdIaFBFbGVnd0RTRk1CVTJCakd1M19Xbk5tclNEeFRNXy1jbjR5cUxMYWQtZUFBdUZzTEZWRU1WTmhCUF84a2E3djYxUHlKVzBienB5eVI4R0REcnRYelgxbHpRcnFQclpucklCSkdvQVJZejA?oc=5",
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/brasil/lei-suzane-von-richthofen-deputado-apresenta-projeto-para-proibir-condenados-de-lucrar-com-crimes-npr/",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Diário do Rio",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQThMQjJlMlVXWUJXb2JfVDZVc1R4ZE00Tnl5bFhfaFBzbjZGZXU4Nk1Ya1BYcnBhS3d4TVVOVDJyVW90eEc5bjRfWV9oRXAyQzZoQ3h6S1NpNVkySWRpWVJVeWg3bUI5bVowN1VuU3BBczlRdFF2U1ZxclRZWDZ0ME9FeHV0cnE5WkpSWXhHWmRya0daM2pqcF9uaEp3RFJ3UXM2X0FpWXNqSG9uV2d5Y0FvVERraEQ4MXJvMno4ekhVbHB2Q2dCYjhRdEdOMzI2bGdJZ2Y2WW03Y0xDZFBFNw?oc=5",
+          "name": "UOL",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/11/17/lei-suzane-von-richthofen-deputado-apresenta-pl-para-proibir-condenados-de-lucrar-com-crimes.htm",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/deputado-propoe-lei-suzane-von-richthofen-para-proibir-lucro-com-exploracao-de-crimes/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOLXRjckloODdvUTRtSldobWE0V0tLSnhuVWxKc3JuTThNSGlnVm1wOTYtQUVWYks2TmIxd0FEWkVQUmlIczNRclJJZ2FMSlQxUDE3SU5jc1FqeldYcnJ0dG1OSGZRZ3IxbHlCVmZqRnA4ZnQ2eW81T2RDeV9pM3Jad2tHbVFDZUdpMFJFOFNubjAtNkhqdVUzdVdZQ212OF9TUVN1NVJnYVpSQkJvRTMxRmdZcndZUC1yNEhZT2M0M1cyZnAzUWdXZms5SHFFWEZNN2JHTmE3aFh2OG1ISVFRWnI4UzEyWnFQNjctMmhpSG5Ebk9KY3JXZjduTkxZMDg?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Lei Suzane von Richthofen: deputado apresenta projeto para proibir condenados de lucrar com crimes"
+    },
+    {
+      "id": "bfd7cf6f8f54",
+      "segment": "internacional",
+      "title": "EUA impõem novas restrições à exportação de chips de IA; China promete reagir",
+      "summary": "O Ministério das Relações Exteriores da China afirmou que tomará as medidas necessárias para proteger seus interesses. O Brasil foi incluído na lista de países com restrições para importar chips para data centers.",
+      "scores": {
+        "cobertura": 8.0,
+        "destaque": 5,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 8.1,
+      "outlets": [
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/mundo/china-ameaca-reagir-a-novas-barreiras-dos-eua-a-exportacao-de-chips/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/eua-incluem-brasil-restricoes-chips/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/china-adotara-medidas-necessarias-apos-novas-restricoes-americanas-a-exportacoes-de-chips.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/mundo/noticia/2026/11/17/novas-restries-dos-eua-a-chips-tm-efeito-misto-na-ia-da-china.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio do Povo",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN01KZ0dwMnJrR3FoaktXZjQ5S1l4dWwzQmRLSGJDQVlBbEZPOC1Kd2w3Y1V3THV2Ymd5dzVzblJPb3VCUGxrZkNMTjgxcWdyemFXMUNWc3NTTVc3UGJtMUFzU1lkbnJ1OUtYaDlNTkU0aG1ycmJFYXZiZWJSNmswMmZPelNlNWpMc1RKelZKTEpNdEotRzVxUTlxaGFsR19DUEU3VU9MWWo5VW1GN3E3YkNHQ1A0QWR0R0Vv?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNjJhTEV3ZFl6UUVxYWczTGNidlZfcDcwTWZBeXB6UnRHeXhSOThWbDRrSXlmUFJDZ3pJMl9PR29GaGJubG9wbjNHdE9GcU5Ja0N6N0dBVTRUTVlCSlowdlJZQVYyUjZaVUpmbGdJUGFxRUxtbU5UdzJfVERsbXJtMlJPbnVTb19vRVVKMG1MTEhzdVYtMngtZGRTWVVyUlNLcmZVcEFWTElMM3pucG9wWXNZdkNkUWw2RG1GTEp6WVNoSjE4aFlZOFlGU2RfSTVBcWlDeTNhd1FfVFJ3ckRnTGtPZU00bnpXX19n?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (CartaCapital, ICL Notícias) e não apareceu nos portais de direita da coleta."
+      },
+      "desdobramento": "China ameaça reagir a novas barreiras dos EUA à exportação de chips"
+    },
+    {
+      "id": "a17d3d24245a",
+      "segment": "economia",
+      "title": "Beneficiários com NIS de final 2 recebem Bolsa Família de novembro",
+      "summary": "A Caixa Econômica Federal paga nesta terça-feira (17) a parcela de novembro do Bolsa Família aos beneficiários com NIS de final 2. Neste mês, 19,07 milhões de famílias serão beneficiadas, com valor médio do benefício em R$ 783,63. Além do valor mínimo de R$ 691, pode haver pagamento de três adicionais.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 5,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 7.7,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-novembro",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUkJlbDVQWUNaWlptU0hqQkZLMTN0SUhpS0Z6ZWstZmdsR2doTG9HWDNfTjBxTUdrcmlqNVJBT21WRVZ3ZjdBT3FJZUZheEZPb2RQTHlVcC0ycFpVc3RJbHVDRktjUW1ZYlBoYVFUeXFaTDNvaXRVYWhaSi1TcC1rNUsyS291N0FNN0NITVB3bi1qMm85WE4zVzA2NTVoekdYT0dWay1YWXNFZW5lYW1XUDc5eGR0TXlFaG9vX1Rn?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/economia/2026/11/7323140-beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-novembro.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRkZWcG4tTWprQVVkc0QtekxOR1RFQzFhaVhubTZ6TXdnRnB1eWp2VXJOVm0wZU1faGJlVUhaQnFzeFNUbjJubXpEMkxPc1ozQkxoa2ltandXNkdnb2N0aU9qcnZXdVNjelEtWWNld3IzckVwcDREZXp1dmpoSGhxQmFzNlhLYV80N252N3ZFSGJETHNab2RxdjlPU0RPaXRB?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNlVlQ0xISVN2clExRmtoeE9sT2pzdTJfbzJLN3czSk1abnFrWFJnd1BNNXJYT3NwZl9Yc2VyRnBZbENBWDdGa3hYNjY4SGxEVnFacVMtUVZmRlV4MFlieHRvNEtWRXp3WUdLYlFTV1BzeDZneGx1NlU0M05fVFZDbS05d2JFUmtnNjRwVWVTYy1iRGtHTlNiZElBWExYSVE4SnRtZXA1eVRsaWs2bWg4Mk94RTgxYzBvbmV5WDBmSVo5eDQ?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Beneficiários com NIS de final 2 recebem Bolsa Família de novembro"
+    },
+    {
+      "id": "fazenda-aliquota-cbs-explica-ministro-senado",
+      "segment": "economia",
+      "title": "Ministro da Fazenda explica no Senado alíquota de 11,3% da CBS",
+      "summary": "O ministro da Fazenda, Dario Durigan, participa de audiência pública no Senado para discutir a alíquota de referência da Contribuição sobre Bens e Serviços (CBS). O novo tributo está previsto para entrar em vigor no ano que vem.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.8,
+      "outlets": [
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/economia/senado-ouve-durigan-sobre-aliquota-de-113-da-cbs/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/?p=2643192",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV210MVRwSzdQNlZpUE5HWENLZm5SRVNKbHNfbFY5RjJwakNxRzh1OEEyTlZ0TVExT01YQWxyOGtzQll2MlBrbXN1NDFGTkdrY2RieWdCb0NIWm45YkFSX2ZMclRHTUNuNDR3U2ItTlRqZnA4ZTVQWWNyOVJnRmFiSUc0clBxalZfd1cxQTgxb09wUkVwY3BLaHhsZmd5VmRFc3dYNmtn?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/reforma-tributaria-ministro-da-fazenda-vai-ao-senado-explicar-aliquota-de-113percent-para-a-cbs.ghtml",
           "camp": "rio",
           "position": "editoria"
         }
@@ -322,39 +872,84 @@
       }
     },
     {
-      "id": "engoliu-tentar-episodio-lembra-ilha-fugir-rafael-reabilitaca",
-      "segment": "politica",
-      "title": "Rafael Ilha lembra episódio em que engoliu pilha para tentar fugir de clínica de reabilitação",
-      "summary": "Rafael Ilha lembra episódio em que engoliu pilha para tentar fugir de clínica de reabilitação. Ele diz que se irrita com as pessoas não saberem o outro lado da história.",
+      "id": "0b1d615a8e3e",
+      "segment": "internacional",
+      "title": "Papa Leão XIV pede 'menos guerra, menos divisão' após eleições nos EUA",
+      "summary": "Na volta da viagem para a América do Sul, o pontífice disse que 'leva no coração' o carinho dos fiéis. Ele brincou sobre um rosário arremessado em seu olho. O papa afirmou que sua prioridade é manter a unidade da Igreja Católica diante de temas que causam divisão entre os bispos.",
       "scores": {
         "cobertura": 6.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 3
+        "destaque": 6,
+        "persistencia": 10,
+        "peso_voce": 6
       },
-      "score": 4.7,
+      "score": 6.8,
       "outlets": [
         {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/papa-diz-que-jornalistas-parecem-mais-cansados-do-que-ele-apos-viagem-de-12-dias-pela-america-do-sul.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/mundo-e-ciencia/2026/11/7323161-papa-leao-xiv-pede-menos-guerra-menos-divisao-apos-eleicoes-nos-eua.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/papa-fala-sobre-cancer-encontro-com-milei-e-terco-que-atingiu-seu-rosto/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/papa-leao-xiv-pede-menos-polemicas-menos-guerra-menos-divisao.html",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Papa diz que jornalistas parecem mais cansados do que ele após viagem de 12 dias pela América do Sul"
+    },
+    {
+      "id": "operacao-faz-suspeito-aliciar-criancas-internet-detento-pres",
+      "segment": "seguranca",
+      "title": "PF faz operação em presídio de Bangu contra detento suspeito de aliciar crianças pela internet",
+      "summary": "A Polícia Federal deflagrou operação no Presídio Nelson Hungria, em Bangu, no Rio de Janeiro, contra um detento suspeito de aliciar crianças e adolescentes pela internet. O homem utilizava um celular clandestino dentro da unidade prisional.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.5,
+      "outlets": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/mirelle-pinheiro/detento-que-usava-celular-em-presidio-para-aliciar-criancas-e-alvo-da-pf",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
           "name": "O Globo",
-          "url": "https://oglobo.globo.com/play/series/noticia/2026/11/17/rafael-ilha-lembra-episodio-em-que-engoliu-pilha-para-tentar-fugir-de-clinica-de-reabilitacao.ghtml",
+          "url": "https://oglobo.globo.com/rio/noticia/2026/11/17/policia-federal-faz-operacao-em-presidio-de-bangu-contra-detento-suspeito-de-aliciar-criancas-na-internet.ghtml",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Exame",
-          "url": "https://exame.com/esporte/maior-pipocada-da-historia-clube-desperdica-vantagem-de-12-pontos-e-perde-campeonato/",
-          "camp": "centro",
-          "position": "editoria"
-        },
-        {
-          "name": "Portal iG",
-          "url": "https://ultimosegundo.ig.com.br/brasil/rj/2026-11-17/ilha-de-brocoio--o-palacio-esquecido-no-meio-da-baia-de-guanabara.html",
+          "name": "R7",
+          "url": "https://noticias.r7.com/rio-de-janeiro/pf-mira-detento-em-presidio-de-bangu-no-rio-suspeito-de-aliciar-criancas-pela-internet-17112026/",
           "camp": "centro",
           "position": "editoria"
         },
         {
           "name": "Brasil 247",
-          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQdGNhYlhkcHE2SW5BLTNtdFlCRTViemxOMzR3d2U2bVVlVE1BdW1RZXNmVUZBN2xvekdMTkg3YTBMQ3MxejN0eFcyWktfWnpBSkxCVXVXTzhwRUIzWnM0enh5QU45dUhVM0NhcjhTYjJPRm40bmZhLUwyaGNGeXR6bEgtTVZzOF92ZTg4UVFIWGZEN1J0RnZKdXhZcG1ZOUVrRW1RMTFzdGZjWVFXaEFpMnVXXzJ0dmJCNWd0dWZ6em5OZmp1YzBIRFpuUkkzRVFVZmhybTRzSW9mS2JkaExBN1gwTHMyR1ZiWmVaQThtZ0ZJeUFUWmZyN1JfaWlGaWhfeU5iQWNaTzNseXUybVd6N2syZ2lOdkk?oc=5",
+          "url": "https://www.brasil247.com/nordeste/policia-federal-deflagra-operacao-contra-financiamento-de-plantacoes-ilegais-de-maconha/",
           "camp": "esquerda",
           "position": "editoria"
         }
@@ -365,114 +960,440 @@
       }
     },
     {
-      "id": "rocha-poliana-luxuosa-anos-comemora-festa",
-      "segment": "politica",
-      "title": "Poliana Rocha comemora 50 anos com festa luxuosa",
-      "summary": "Poliana Rocha comemora 50 anos com festa luxuosa.",
+      "id": "ciencia-dados-estado-fluminenses-lanca-municipios",
+      "segment": "ciencia",
+      "title": "Governo cria sistema de satélites para defesa e lança plataforma de dados de ciência no RJ",
+      "summary": "O Governo do Estado do Rio lançou plataforma com dados de ciência e tecnologia dos municípios fluminenses. São Paulo Negócios busca atrair investimentos com foco em tecnologia.",
       "scores": {
-        "cobertura": 6.0,
-        "destaque": 5,
-        "persistencia": 4,
-        "peso_voce": 3
+        "cobertura": 8.0,
+        "destaque": 6,
+        "persistencia": 7,
+        "peso_voce": 6
       },
-      "score": 4.7,
+      "score": 6.8,
       "outlets": [
         {
-          "name": "Super Notícia",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRWxNVm4tQmQ2TVhwZzloZ05SRE5PVl9kQ0EtMXRQMXBBaXU2TnZhU2pEMXN0NjhETm1YVFFXd0dvWG94aTFIZTFuT0VWM1E0dmszWVpGaW5SMzdUdjJGbjc3WUQ3RkU1TFZ5ZEwwNUFFZDJVa3RrbmNPWXQ3T183a3U0dmgtNUIxQmRpNGlNZkg1Q0lPZFhfNmRpdGpCUEhITW1BZC1femdzN044ajdMLUtVQ2FNamdQbG9WNThlSmsxQ3NYMnhvMWYxNkNvV2d6RXRrMXU3WmdlUWxfNGlLSWg4NER5WFVNWnc?oc=5",
-          "camp": "regional",
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasil-soberano/governo-lula-cria-sistema-de-satelites-de-defesa-e-comunicacoes-estrategicas/",
+          "camp": "esquerda",
           "position": "editoria"
         },
         {
-          "name": "O Tempo",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNclVJWERKb0RiNTNqMDBXX0pTUHdwYWdRRGtERWlGdnl4dmlYS011YnRzMTRERTFtUndHdUxUMjRTbjlhU2l0NTZoSDk4aDhxWnlYNmppS3lWMGxGRjMtcC1XY3ZEYmJpZmlhUTVPdGhXeXZYOXh0VVpqYnlybU1ZT2ExdGFjWU1ORDltTmhXQ1l2NXpOanFJMGNSNjVReURDNTNVQlJ3bkR0QWRockhqb0ItcHo0V0xGbW5nMUtZeEw2ZENEMnc?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/diversao/celebridades/2026/11/7323118-poliana-rocha-comemora-50-anos-com-festa-luxuosa.html",
-          "camp": "rio",
-          "position": "editoria"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/pop/celebridades/poliana-rocha-celebra-50-anos-com-festao-sem-presenca-de-virginia-veja/",
+          "name": "BandNews",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYzVONWVfcThfWHkyYWRqakpwbU96UUdKSXFEMXVvOVR4aVR2b3o5d2ZYQmhGSGdrY291RjU0elRXemhxRXRYaTBzRUNiZ1U2WXJHbURKU1M5N3BGU21hQU1vVm51cUltWjlRVHJNYWs3YTZpSHRER2VPOTQtQ3pLNHJvam0wMTRpamJyRXRVcURneXNsdVNsTVRydEpYNG5UaXJjRV9KczRMUEk?oc=5",
           "camp": "centro",
           "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "escola-deformidade-relato-congenita-fisica-estudante",
-      "segment": "educacao",
-      "title": "Relato de estudante sobre deformidade física congênita e escola",
-      "summary": "Tenho uma deformidade física congênita que escondi dos meus pais e colegas de escola.",
-      "scores": {
-        "cobertura": 5.0,
-        "destaque": 6,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 4.6,
-      "outlets": [
+        },
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/11/tenho-uma-deformidade-fisica-congenita-que-escondi-dos-meus-pais-e-colegas-de-escola.shtml",
-          "camp": "centro-esquerda",
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-governo/governo-cria-sistema-de-satelites-para-defesa-e-comunicacoes/",
+          "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "BBC News Brasil",
-          "url": "https://www.bbc.com/portuguese/articles/cv1j60zn5p3eo?at_medium=RSS&at_campaign=rss",
-          "camp": "internacional",
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSXhvNnEyVGlJalRGTklIZEtnbks4dXp5aFRBRjNsT3UxdHZzRklwZ3J1TUd0dGxDdThSaE5iVHI0WUR5aWNQZjY1T2FvbFlwRHZBa1dtUExMd3FSQ3plWS11aDZIT00xSWxJQjYtbHZDb2VGdEYyLWJPR0ZBc2c4d2dHdWRjYjRLVW00RlZVX1ZkQzM0bm5RbV92YUg0U2Flc1lzakwzclJ3X0xQVURUUEZYeHExN01Nb243YkhHM04xMmlBQTY0WEVJZTZON3oyT1RDcF9PUWVwS2xG?oc=5",
+          "camp": "rio",
           "position": "editoria"
         },
         {
           "name": "UOL",
-          "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/tenho-uma-deformidade-fisica-congenita-que-escondi-dos-meus-pais-e-colegas-de-escola.shtml",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/17/governo-cria-sistema-de-satelites-com-telebras-e-plano-de-tecnologia.ghtm",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/brasilia/governo-cria-novo-sistema-de-satelites-de-defesa-com-telebras-no-centro-da-execucao-17112026/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (Brasil 247, UOL) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "pega-ormuz-tanque-desaparece-ataque-navio-fogo-tripulacao",
+      "segment": "internacional",
+      "title": "Navio-tanque pega fogo no Estreito de Ormuz e tripulação desaparece após ataque",
+      "summary": "Um navio-tanque pegou fogo no Estreito de Ormuz após ser atacado duas vezes em 48 horas. A tripulação está desaparecida após a embarcação atingir uma mina perto da costa de Omã. O incidente reforça a tensão em uma das rotas marítimas mais estratégicas para o comércio global de petróleo.",
+      "scores": {
+        "cobertura": 8.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.9,
+      "outlets": [
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZHdaMlN4ZUlESFFOc0swZVJNNE90ci1QZ0NIMUdJNmNOUV9kWnJhY1l5Q1B4a0JyWkFCUjN1d21PWFc1aHJHX2RzSUotMWhLN04tRkdUTGFWNnJUVlpoSm1vNGRxZ2lRTjgza1R1cU5tTDVVUWFhSTNzVW5nM05XT2tVZW9obmlJSnU0ZlpoUWZMS0l3ZE5JRFlTM2N5STUydkZNOWtZdDNSNURram9QSW9OM0xxU0YzZ3p5LUM5bS1CRW9zM0JiTnlnYjdRSXJfTENv?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/politica/tripulacao-desaparece-apos-ataque-estreito-de-ormuz/",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/mundo/tripulacao-de-petroleiro-desaparece-apos-ataque-no-estreito-de-ormuz-949751",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/navio-tanque-pega-fogo-no-estreito-de-ormuz-tripulacao-esta-desaparecida.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/internacional/navio-tanque-e-atingido-duas-vezes-no-estreito-de-ormuz-tripulacao-esta-desaparecida-npr/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mundo/navio-tanque-pega-fogo-no-estreito-de-ormuz-tripulacao-esta-desaparecida/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ira-bahrein-base-americana-ataque-reivindica-drones",
+      "segment": "internacional",
+      "title": "Irã reivindica ataque com drones contra base americana no Bahrein",
+      "summary": "O Irã reivindicou ataque com drones contra uma base militar dos Estados Unidos no Bahrein nesta terça-feira (17). Explosões foram ouvidas nas proximidades de Manama, capital do país. A Guarda Revolucionária Islâmica afirmou que o alvo foi um sistema de radar militar dos EUA.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.6,
+      "outlets": [
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/internacional/ira-reivindica-ataque-com-drones-contra-base-americana-no-bahrein-npr/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mundo/ira-ataca-sistema-de-radar-militar-dos-eua-no-barein-com-drones/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/mundo/noticia/2026/11/17/ir-ataca-sistema-de-radar-militar-dos-eua-no-bahrein-com-drones.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Tempo",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRkZWcG4tTWprQVVkc0QtekxOR1RFQzFhaVhubTZ6TXdnRnB1eWp2VXJOVm0wZU1faGJlVUhaQnFzeFNUbjJubXpEMkxPc1ozQkxoa2ltandXNkdnb2N0aU9qcnZXdVNjelEtWWNld3IzckVwcDREZXp1dmpoSGhxQmFzNlhLYV80N252N3ZFSGJETHNab2RxdjlPU0RPaXRB?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNlVlQ0xISVN2clExRmtoeE9sT2pzdTJfbzJLN3czSk1abnFrWFJnd1BNNXJYT3NwZl9Yc2VyRnBZbENBWDdGa3hYNjY4SGxEVnFacVMtUVZmRlV4MFlieHRvNEtWRXp3WUdLYlFTV1BzeDZneGx1NlU0M05fVFZDbS05d2JFUmtnNjRwVWVTYy1iRGtHTlNiZElBWExYSVE4SnRtZXA1eVRsaWs2bWg4Mk94RTgxYzBvbmV5WDBmSVo5eDQ?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "suspeitos-sao-comunidade-prende-trafico-goncalo-quatro",
+      "segment": "rio",
+      "title": "PM prende quatro suspeitos de tráfico em comunidade de São Gonçalo (RJ)",
+      "summary": "Policiais militares do 7º BPM prenderam quatro suspeitos de envolvimento com o tráfico de drogas durante uma operação realizada na comunidade do Risca Faca, em Maria Paula, São Gonçalo, na região metropolitana do Rio de Janeiro.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.9,
+      "outlets": [
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/rio-de-janeiro/pm-prende-quatro-suspeitos-de-trafico-de-drogas-em-comunidade-de-sao-goncalo-rj-17112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "BHAZ",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSnFXTXJYUzBybFRQSDZlemNxMU9BN1dOVXZCeTM0QXd4VzNSTkVrQjNaOEg0QjZ1OGRHRHM4eTBzbFhLdWVtNWlzYk5fN3ZWZWlLSVdmR0sxaWpaNzAxdUQtckU1bzVzRDgxZzk2SDFXSEtuTzNzOHB2VUZZVUpycVd4dk5VOHc1UVRuTTQwUFZrbTg2OWJrU2dsNWZuby1fVjY4?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Popular",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZVhkNXBHWmYtU3BfRmlSS2h5OGJoeDN4aVY4MEZZcU9tUDJTSWhIYkJlejJNdVFZY2FrSFF3RW5Vd3JDSDFYVGZLU0daVFlvNXFmRnpKSXN5UlUxNjlLdTdaeUlWbDNvYklPeUktcldvNkplZ2lOczlqM0JqbUw0TTgzMEtSb0QyMUFHaENSUm9zMm5KRFRGWmF4RE9KT05VQ2RyVnBhNA?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "operacao-faz-cidade-preso-policiais-homem-ameacas-envio",
+      "segment": "rio",
+      "title": "Homem é preso após envio de coroas de flores com ameaças a policiais no Rio; PM faz operação na Cidade de Deus",
+      "summary": "Coroas de flores com ameaças a policiais foram deixadas em frente a um batalhão no Rio, e um homem foi preso. O envio teria sido represália por operações policiais e à prisão de Jedi, com traficante conhecido como BMW apontado como mandante.",
+      "scores": {
+        "cobertura": 8.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.9,
+      "outlets": [
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ1p0Q2hOcjZUb3VMbzJaaDVPb2lVUU5zTWRaRmVTMFh5azhKeUlKdnJ1bzhfeEwwQ19rUUFfY0tRUGh6SDZRRDB1MDFIdC0xemctdEFfbzdDRFQyMWtuSms0SWpVV0tIVnpvb3JUYUZPcmpwaFlYR1ZTSzNkMkdGWkpXcndVQ3Jrdm5KUFF1djk4ejNYQ0dWY2JjR051ejhSNEJQNEtrQUtPV25FQm5kNklST1BhbWY0UGJxOUZB0gHDAUFVX3lxTFA1bll5RmZVWHYwLUsxbUZTV29HN2E0NFlfZVNsSkh6RGJFTEg0R2J1T2xpdFlSQm1oSVRXa1IwSjdqOUw1VGtBMEpMTzdlOXZuVmlNR3pTbldZbjg3RmVrb3dCNmZEOHdQUU1waktRN2Z2MmRULThJaERLdTVUamExOHFld2dOblFpZ25CbGdfUmV2N0NQWFg4QS10bktjSk1jc0p3WWVDRDR2bEN4cUxsX2JmZmhtVVFRU2pNaDRrVXBIQQ?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/rio-de-janeiro/rj-no-ar/video/coroas-de-flores-com-ameacas-a-policiais-sao-deixadas-em-frente-a-batalhao-no-rio-homem-e-preso-17112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOanZFQ3pKS2g1NkdRdnhvREw3cXpBekg1TGRCRnFIT2l4NWhVU1dqR2RJYzNuYXFCdTBNbWZ5cVVUVkJuZHE5WEZFWjUxQ0xiR2gzM2FKTjRqQW52OXQ4VEVSM0E1U1IyZlZSeUlEdHlRbVR5WF9EbmJvQ080UUFBcDI2UUtWMG9Ha3UzRi1VT1dmVFhwSDZPZUdLakhCcTB2aDFteU1KdmE0Zm9uNm9KdFBnS0dxU2l2QUVkUjByQnBRSW5STElQcmRONjdfZUdCTXlZekt5TFdIZFJFTmdGUk5ZUk9hcGxyX3UwcXBtOGJwN3VRUjhlWUFrXzZvalZGclBVbzlKTUphMEhJSlZFVzVEVnRrOXlyTlNzdTV1MUlYQndaN1RyOTl6NUQ?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/homem-e-preso-apos-deixar-duas-coroas-de-flores-em-batalhao-da-pm-no-rio/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/sudeste/coroas-de-flores-com-nomes-de-pms-vivos-sao-deixadas-em-batalhao-no-rio/",
+          "camp": "esquerda",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7323112-um-dia-apos-coroas-de-flores-pm-realiza-operacao-na-cidade-de-deus.html",
+          "camp": "rio",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "supermaconha-operacao-sao-presas-laboratorios-pessoas-quatro",
+      "segment": "seguranca",
+      "title": "Quatro pessoas são presas em operação contra laboratórios de supermaconha em SP",
+      "summary": "Quatro pessoas foram presas em flagrante em operação contra a produção, distribuição e venda de derivados de maconha com alta concentração de THC no interior de São Paulo. Segundo as investigações, além de produzir maconha de alta potência, os suspeitos também comercializavam a substância em pontos de tráfico.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.7,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/operacao-mira-laboratorios-clandestinos-de-maconha-de-alta-potencia-em-sp/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/quatro-sao-presos-em-operacao-contra-producao-de-supermaconha-no-interior-de-sao-paulo.shtml",
           "camp": "centro-esquerda",
           "position": "editoria"
         }
       ],
       "asymmetry": {
-        "flag": true,
-        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, UOL) e não apareceu nos portais de direita da coleta."
+        "flag": false,
+        "note": ""
       }
     },
     {
-      "id": "parque-albardao-esperanca-santuario-cemiterio-marinho",
-      "segment": "politica",
-      "title": "Parque do Albardão: de cemitério marinho a esperança de santuário",
-      "summary": "Parque do Albardão passa de cemitério marinho a esperança de santuário.",
+      "id": "autoriza-covid-doses-envio-extras-ministerio",
+      "segment": "ciencia",
+      "title": "Dez estados vão receber doses extras de vacina contra covid-19 após aumento de casos",
+      "summary": "O Ministério da Saúde autorizou o envio de doses extras da vacina contra covid-19 a dez estados. São Paulo é o estado que mais deve receber doses. A medida busca reforçar os estoques locais e manter a vacinação dos grupos prioritários.",
       "scores": {
-        "cobertura": 5.0,
-        "destaque": 4,
-        "persistencia": 4,
-        "peso_voce": 3
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 10,
+        "peso_voce": 6
       },
-      "score": 4.1,
+      "score": 5.7,
       "outlets": [
         {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/17/parque-do-albardao-de-cemiterio-marinho-a-esperanca-de-santuario.html",
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/saude/dez-estados-vao-receber-dose-extras-covid-19/",
           "camp": "regional",
           "position": "editoria"
         },
         {
-          "name": "Portal iG",
-          "url": "https://ultimosegundo.ig.com.br/2026-11-17/parque-do-albardao--de-cemiterio-marinho-a-esperanca-de-santuario.html",
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/brasil/dez-estados-vao-receber-doses-extras-de-vacina-da-covid-19-veja-quais-nprm/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Dez estados vão receber mais de 1,4 milhão de doses extras de vacina contra a covid-19 após aumento de casos no Brasil"
+    },
+    {
+      "id": "nao-ministros-master-ano-prisao-avancam-relatorio-stf",
+      "segment": "seguranca",
+      "title": "PF entrega relatório sobre ministros do STF no caso Master; investigações não avançam após um ano da prisão de banqueiro",
+      "summary": "A Polícia Federal deve entregar nesta quarta-feira relatório com menções a ministros do STF no caso Master. Um ano após a prisão do dono do Banco Master, Daniel Vorcaro, as investigações contra ministros do Supremo não avançaram. O caso levou à abertura de inquéritos contra políticos e autoridades.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.3,
+      "outlets": [
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/brasil/pf-entrega-nesta-quarta-relatorio-sobre-envolvimento-dos-ministros-do-stf-no-caso-master/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/politica/um-ano-apos-prisao-de-vorcaro-investigacoes-contra-ministros-do-stf-nao-avancam/",
           "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/parque-do-albardao-de-cemiterio-marinho-esperanca-de-santuario",
-          "camp": "estatal",
+          "name": "A Tarde",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQnBydmJnQWN6NVNXd1l2OU1sRk5PUFNTUFNOTzd1Y19HeGJiU2JaTHRyVW9adjJmcUdTaTJkUE1YbzhDNlh1WW01Q0VCOERVTkRWSXpiZUgyNS0zYjQ0Y1NmUHd1Rm8xeVlUZzVaUWpBWFMzRUs1cTF6UzZFN09VUHhoM1JnRFNuQlEwMnQ5Z2RwNmdCcjNOTkNlR3BRSjFLaWZmZzhlSGFlQdIBsgFBVV95cUxOR1pULWdraGZ1NnpNdHQwY296TXhQc0FtelVnd2otbkw1UG1oWk5wb01vbTlCSWtyMTBDWEJkVjhCUV84bW1VUVNHQkd4ZTdaY2YweHRWb0RwcUhzSUw4aW8tOU9JRjh0LUpuMEFDOVl6cTRFenZWQzdMcnZzSHhrWG5qWjZURVJpcDZheTIzdlU4UW9pNVh4M3UzVlI5cUhyZEpSakdkT3VOcjV1Qno0eGJR?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "CBN",
+          "url": "https://cbn.globo.com/politica/noticia/2026/11/17/pf-deve-entregar-a-fachin-relatorios-sobre-mencoes-a-ministros-do-stf-no-caso-master-na-quarta-19.ghtml",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "dois-faz-ingles-joia-peru-robinho",
+      "segment": "esportes",
+      "title": "Brasil Sub-20 goleia Peru por 9 a 0 com destaque para joia do Vasco e Robinho Jr",
+      "summary": "Brasil Sub-20 venceu o Peru por 9 a 0, com três gols de joia do Vasco, dois de Robinho Jr. e um de 'inglês'.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 4,
+        "persistencia": 7,
+        "peso_voce": 6
+      },
+      "score": 5.7,
+      "outlets": [
+        {
+          "name": "Meia Hora",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRzczTFNPdUFhSktxcFY2MmFtc1FqVVpDNTJQMUNwS21WQk41a3dzZGN1ZEVTeFJTSWwwNERhdV9IM01KYllSWHlxUDN6bGpGTEF2eERlNURaRV9XOUFaV3JXRllwSlNfY052S2c3aExObzkyc3hDaGZfNUEtNjJocldQLVlIR19XUUFzSTd1NDQzaVJzbm04alhDbnZmUXRZQXJHR2djTFplbUViQXNYMlQ0UVhKVW5FUjBzSFNCZG9iMG9tY04zUzJhbG9TdnNPT0VrMG56QXhCNk01VjJPVzVCRQ?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Zero Hora (GZH)",
+          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUXFjMW15bWEtczM0RGtBSGpOSXdnLTM5U3hXNExXeTV4V1lIcWxvNTZoNW5xR3pibVNrR3dDZURwNWJHX2hXdWVXSDAwU2NCTnpRWFBBX25uUFcyZnF6dU13MWs1QXVJeFdVSXZibEQ2cF83WDVCMzhHeTlDTEItTEp3X0NEanpFUEN3U05EOU9rdHktcHQwZHRqU3Npb1J1enhLMVR5TTFuUGc1UzcxdC1QZGw0elZjOVJSMUh6RDdDQmhUX0hnam01LVVmNHVmSXJPWk10ZFBfOWdmXzRheHFCb29WZzhPc2hSZ0FVVjFyYmlsT3BvY0pMcmFNUm5nZVZDa3FuaUhmNGs?oc=5",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/esporte/2026/11/7323115-joia-do-vasco-brilha-e-brasil-sub-20-goleia-o-peru-por-9-a-0.html",
+          "camp": "rio",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Correio (Bahia)",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGxIVnZUQW9TNG5LMzEzeGpVYVVsRTBDWXZlSUljcWJJS2dackNPV0lHS3RNdGFieTBPRlpPYms2el9udU5ra1RxZjlhTHBkZVNteEpSb3F0V3dGaldfQnNJTHF4d1lGakxOWEVRcmh0UTJCd3JZcGpTZTN2ZkMxRGtPREFXVDJiR2RzREZmOU5NODRtQ2xwRTN3cjFJWk9xeHRjTFpTcU12czVqSHpBbzBXUzRkTWp0WE5HT1k4T24zSWtxTjh3c1owNUpaeC1oczFESmxGeWhDRzN1Ykt6S3lqdFl3bkMtcVBXcjdkdDRDZ2RfNHl0cmtB?oc=5",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "falha-prata-estacoes-monotrilho-lotacao-linha-causa",
+      "segment": "seguranca",
+      "title": "Falha no monotrilho da Linha 15-Prata causa lotação em estações de SP",
+      "summary": "O problema ocorreu por volta das 6h e a circulação já foi normalizada. Ocorrências também atingiram estações nas zonas Leste e Sul. O Ministério Público investiga contratos da ViaMobilidade.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.8,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/falha-no-monotrilho-da-linha-15-prata-causa-lotacao-em-estacoes-de-sp/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://www.redetv.uol.com.br/jornalismo/geral/falhas-de-tracao-provocam-lentidao-na-linha-15-prata-e-alteram-embarque-na-",
+          "camp": "centro-esquerda",
           "position": "editoria"
         }
       ],
@@ -482,34 +1403,28 @@
       }
     },
     {
-      "id": "oferecem-cursos-medicina-hospitais-vagas-privados-2027",
-      "segment": "politica",
-      "title": "Hospitais privados oferecem vagas em cursos de medicina em 2027",
-      "summary": "Hospitais privados oferecem vagas em cursos de medicina em 2027.",
+      "id": "fisicos-sao-tratamento-depressao-recomendados-exercicios-cer",
+      "segment": "ciencia",
+      "title": "Exercícios físicos são recomendados para saúde do cérebro e tratamento da depressão",
+      "summary": "Pesquisadores afirmam que exercícios deveriam ser prescritos como remédio para o cérebro. A prática regular de atividade física pode potencializar os efeitos da terapia cognitivo-comportamental no tratamento da depressão leve e moderada.",
       "scores": {
-        "cobertura": 5.0,
-        "destaque": 4,
+        "cobertura": 3.5,
+        "destaque": 6,
         "persistencia": 4,
         "peso_voce": 3
       },
       "score": 4.1,
       "outlets": [
         {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/hospitais-privados-oferecem-vagas-em-cursos-de-medicina-em-2027",
-          "camp": "estatal",
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrio/2026/11/atividade-fisica-prepara-o-cerebro-de-pessoas-com-depressao-para-psicoterapia.shtml",
+          "camp": "centro-esquerda",
           "position": "editoria"
         },
         {
-          "name": "O Povo",
-          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/17/hospitais-privados-oferecem-vagas-em-cursos-de-medicina-em-2027.html",
-          "camp": "regional",
-          "position": "editoria"
-        },
-        {
-          "name": "Meia Hora",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS0c0UGNpc2ZpczFtM0t5Sl9qS1Y0Zm84SGhWczhUdWZXdG9DSDZHQlJXaXVhOGZmeWlrejNndnFNbzVUWDlUc0l5cjA2WFJYczFLWlEwRmxhcTNVT0wydmtPbTBUUjdwb2lBMHVDU0tNU1pFNnU0LXFLYlROUnJDLXBnbGlEWWI0QVZBT1B2bmFfM2g2WTZvb2FzZDZFQ2dreDlPTXdxRVdXQnRfenV3bUNFeVhVZWt1SXc?oc=5",
-          "camp": "rio",
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/vida-e-estilo/exercicios-deveriam-ser-prescritos-como-remedio-para-o-cerebro-entenda",
+          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -519,103 +1434,28 @@
       }
     },
     {
-      "id": "debate-podcast-planejamento-cruz-2027-santa",
-      "segment": "esportes",
-      "title": "Podcast debate planejamento do Santa Cruz para 2027",
-      "summary": "Podcast Futebol Diario debate o planejamento do Santa Cruz para 2027.",
+      "id": "dermatologista-bioestimulador-colageno-usos",
+      "segment": "ciencia",
+      "title": "Dermatologista aponta 4 usos do bioestimulador de colágeno",
+      "summary": "A perda de firmeza, densidade e sustentação na pele do rosto é frequentemente associada ao envelhecimento natural. Transformações na rotina e no corpo, como emagrecimento rápido, prática intensa de exercícios físicos, oscilações hormonais da menopausa e alterações na qualidade do sono, também influenciam. Dermatologista aponta quatro usos do bioestimulador de colágeno.",
       "scores": {
         "cobertura": 3.5,
-        "destaque": 4,
+        "destaque": 5,
         "persistencia": 4,
         "peso_voce": 3
       },
-      "score": 3.6,
+      "score": 3.9,
       "outlets": [
         {
-          "name": "Diário de Pernambuco",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcHhqOUNnc1FNc3VCU1V2X0JHc1RJM1g3WEFmT0p3TVVibHZ5MURjaHFFNDdRTC1RZElxRExyeHM5eXZ6OU1TNWVpVk1yakFFVFhOVURjUVo1Yi1mYlo3b0U0bnJKc0JQMXBQYlE1eS1XcWd5RFp3UnNJWG5tT09YUWpfd2Z5OTNoejRGcnhTbWxHY3BLU1cycUNKSWEzQUw5UmZtSjA4bnhzWlVVb09PclVKcUFqZEdkN2IzSWdaNEFMS1RUaGJOQmQ2dDdYS1liUGpNZXRNRGw1ZFJudzVjREdDSE96aHZ1U19HekNEYzc5OFHSAfgBQVVfeXFMTTdtbnpMano2TG9OMDczRFVpNEtwRHZsdXVnUXMwdDFMMFk3Sm9YaGE1bi1nMXBrZHF0WV9EWHlteHd1Vm1mQ2tHZFlvUnhtX3VtcHExXzF1Qnp1eE1aeXZHcDNqNEY5enhpb296X3pYR2ZKLXI0cm13QXgwWEhhN0lIWnNVa29rNDlWUFEwUXJmSUNVdDZXT1NRYWF5MUdLVTNNYl96T1BzTHdyXzhXbG9CNHMtSTFIRGZKOFZrTU1hclRrWklsa2NZSFVNcmYzOXlMWXpnVHJLNElfS2JOYlRWaTREajlTTDJaRlNjRnVuTDFjRV9JWmU?oc=5",
-          "camp": "regional",
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/11/17/dermatologista-aponta-4-usos-do-bioestimulador-de-colageno-1.ghtml",
+          "camp": "centro",
           "position": "editoria"
         },
         {
-          "name": "A Tarde",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CbTVWT0lRT2V0UDZKUFJLQndfd3ExNlJZY2NWNjd2d1I5ZjRHUVdxcmRvNFU0cGFXQjVVa0pnLVdnblhoMEMtY0U3Y2tLTjBMYmpoNENGUHNiczVzY0JWTmZnbGtFWmdkZmRZS2h30gF2QVVfeXFMUFVsTHMwdlNYSkJMVTVvSEl4Q0ZZTThCVGJ5eXF2eEVwN3NDV3lZa2s1UVkyaUxBai1aMGpOOXRrb3VfaW5RMzV4UTd3d0h4anNZdkdsNXRHTnQyUjR5RVhvTjRHZHpWMjF6RE9iQVZfNjRSYUhYZw?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "educacao-desafio-conhecimento-desenvolvimento-2027-transform",
-      "segment": "educacao",
-      "title": "Desafio de transformar conhecimento em desenvolvimento na educação em 2027",
-      "summary": "Educação em 2027: o desafio de transformar conhecimento em desenvolvimento.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 3,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 2.9,
-      "outlets": [
-        {
-          "name": "Gazeta de Alagoas",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1J6aWxIZlJQZFZ3WHlVLXpwLWphTjBwUlVWTTBaTk5WSUFfSW1vbFpyWTZnYXdjMEl5ZHdnbHFhTXFTaFMzUzc5d09jS0szeTlmTl9ZODBQWnRkQms4dnNZM1hCelg2NlFEQy04Zm1EYVowUzF5TDJHa2tGTmd4bGJydzJzVHE4QkZ5NC1jQ1JOZkVnNXU5d09MWmxCeEdiWHVTT0JtTFhHVW1ZUVZ5Rk4tdy1fVlVubWVQbUYwQTZCeFh2Q1YtdtIByAFBVV95cUxQb1J6aWxIZlJQZFZ3WHlVLXpwLWphTjBwUlVWTTBaTk5WSUFfSW1vbFpyWTZnYXdjMEl5ZHdnbHFhTXFTaFMzUzc5d09jS0szeTlmTl9ZODBQWnRkQms4dnNZM1hCelg2NlFEQy04Zm1EYVowUzF5TDJHa2tGTmd4bGJydzJzVHE4QkZ5NC1jQ1JOZkVnNXU5d09MWmxCeEdiWHVTT0JtTFhHVW1ZUVZ5Rk4tdy1fVlVubWVQbUYwQTZCeFh2Q1Ytdg?oc=5",
-          "camp": "regional",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "comeca-letramento-escola-racial-negro-aula-novembro",
-      "segment": "educacao",
-      "title": "Novembro Negro começa com aula de letramento racial em escola",
-      "summary": "Novembro Negro começa com aula de letramento racial em escola.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 3,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 2.9,
-      "outlets": [
-        {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/niteroi/2026/11/7322963-novembro-negro-comeca-com-aula-de-letramento-racial-em-escola.html",
-          "camp": "rio",
-          "position": "editoria"
-        }
-      ],
-      "asymmetry": {
-        "flag": false,
-        "note": ""
-      }
-    },
-    {
-      "id": "categoria-formula-fernando-fora-alonso-anunciado",
-      "segment": "esportes",
-      "title": "Fernando Alonso é anunciado em categoria fora da Fórmula 1",
-      "summary": "Fernando Alonso é anunciado em categoria fora da Fórmula 1.",
-      "scores": {
-        "cobertura": 2.0,
-        "destaque": 3,
-        "persistencia": 4,
-        "peso_voce": 3
-      },
-      "score": 2.9,
-      "outlets": [
-        {
-          "name": "Gazeta de Alagoas",
-          "url": "https://www.gazetaweb.com/noticias/esportes/internacional/fernando-alonso-e-anunciado-em-categoria-fora-da-formula-1-949761",
-          "camp": "regional",
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/patrocinado/dino/noticia/2026/11/17/dermatologista-aponta-4-usos-do-bioestimulador-de-colageno-1.ghtml",
+          "camp": "centro",
           "position": "editoria"
         }
       ],
@@ -627,93 +1467,17 @@
   ],
   "x_trends": [
     {
-      "nome": "PSOL",
-      "volume": null,
-      "url": "https://x.com/search?q=PSOL",
-      "sobre": "Justiça bloqueia R$ 180 mil da Meta por não excluir vídeo com críticas a Erika Hilton",
-      "leitura": "ataque à direita",
-      "uso": "Rebater com fato sobre censura e justiça",
-      "item_id": "criticas-meta-180-justica-nao-hilton-mil-erika",
-      "fonte": {
-        "name": "Estadão",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc0RjWUs0NVNyRnJmM0xCbkh4dGE5Q2RaeTZabFkzVmZkSGJGd2N1S0RlTUdqd1lBbUlUMUVLM01hMEw4TzFad0ZDNFk3MjBHc3FGOTV4SEFPZ254V01nVDh2T3pYOHczSm0xWFRjdkw3RGtLTHVLVmxXLVJDX01nX05XQWhfWmZjRVdHNTJEU2tUcGdPdjRJdEZMYVlHTVlIdTE4VU9lVnlqS3ZQcVE0ZmpEQ2ZGLVJBNjJGVHdzeElpV2RJZnNOQXBKQzI5X1nSAdQBQVVfeXFMT3IwSE43YnJsMndLQ1VIUVE0b0lyZ0dnVFNnQTFJWENCdDRtdWhxTG5odjBPcGh3eWZuOVdVazRmaGktUkdhRUdOSXRtT0xuRkhHSU9ybVVnUlRMUUd1OWhqblZBaVRieGF5UVM5MU1sQVM5OGFJdElLc0hzYTZ3QWNxQ2FPaFBCYWNSVFNVblJtYTBQUVFRQTJaWk5abDFRM2l2X05kRkpNZUVheXY0N3R3YloyUlNvcHNyUm9yQWpDQmQ2UHRiV1FaLTNxanhuUnhlUXo?oc=5"
-      }
-    },
-    {
-      "nome": "Bogum",
-      "volume": null,
-      "url": "https://x.com/search?q=Bogum",
-      "sobre": "Governo do Rio sanciona leis para renegociação de dívidas com descontos de até 70%",
-      "leitura": "neutro",
-      "uso": "Explicar benefícios econômicos para população do Rio",
-      "item_id": "renegociacao-rio-descontos-sanciona-leis-dividas-ate",
-      "fonte": {
-        "name": "O Globo",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRnZZNGh0VDEyZTAwdy1lT3FDb25WWnoySmdkb3pKRG1XQnZ0cnY5ejhmUmtpSVpMZ2oybnM0alJheWFSalZwZmxqamtOUXhQeGlYd25XQVNXdk5Wcmh3QjVhcW5kbnVFb2Z3eTlwOGZoMEJjSF84YkdhMmtDSXJFWEVaOS1vcms4eGpZYUpvTjRsQjAwTDdTUnZ1SXNMbXV2TnE4aUpEczlZMFY0aXRzUGFiLURUbXJVRU9QcVRJVUxEa0tUZFJoVFVVeFd5LXphclhHSW1oTlNTUzhOTFQyazREZmJGNldkTUtfd1dJWFJBNnFXamRmbDhYaEhzU2JX0gGPAkFVX3lxTFBNRFEyMmFhTDFzdnY3Y042SHRUODdVTVQ0TG9pbDh3U05vcHNrZUlsWEVYeVR2VGZ3UHdwTnBROXZ5dS1aVjVvNUdPYjd1WUNWTFZOVmtlaHdsTE4wc2VCcU9VUE5nUzY0YjVIeGhRRWhORm1RV1otS0pGS3F5M0JlQy1PZzFCTzFTZDNqVWxRdVZ6Wlp6RkhuVXo5d011TzB0cHdIaFBFbGVnd0RTRk1CVTJCakd1M19Xbk5tclNEeFRNXy1jbjR5cUxMYWQtZUFBdUZzTEZWRU1WTmhCUF84a2E3djYxUHlKVzBienB5eVI4R0REcnRYelgxbHpRcnFQclpucklCSkdvQVJZejA?oc=5"
-      }
-    },
-    {
-      "nome": "#ApontaPeão",
-      "volume": null,
-      "url": "https://x.com/search?q=%23ApontaPe%C3%A3o",
-      "sobre": "Polícia apura relação entre corpo encontrado em cova e desaparecimentos",
-      "leitura": "neutro",
-      "uso": "Informar sobre segurança pública e investigação",
-      "item_id": "encontrado-corpo-apura-desaparecimentos-policia-relacao-cova",
-      "fonte": {
-        "name": "Gazeta de Alagoas",
-        "url": "https://www.gazetaweb.com/noticias/policia/policia-apura-relacao-entre-corpo-encontrado-em-cova-no-trapiche-e-desaparecimentos-949767"
-      }
-    },
-    {
       "nome": "RECORD SE POSICIONE",
       "volume": null,
       "url": "https://x.com/search?q=RECORD%20SE%20POSICIONE",
-      "sobre": "Pedido para que a Record se posicione",
+      "sobre": "PF faz operação em presídio de Bangu contra detento suspeito de aliciar crianças pela internet",
       "leitura": "neutro",
-      "uso": "Cobrar posicionamento da imprensa",
-      "item_id": null,
-      "fonte": null
-    },
-    {
-      "nome": "The Economist",
-      "volume": null,
-      "url": "https://x.com/search?q=The%20Economist",
-      "sobre": "The Economist",
-      "leitura": "neutro",
-      "uso": "Analisar economia e política internacional",
-      "item_id": null,
-      "fonte": null
-    },
-    {
-      "nome": "PSOL",
-      "volume": null,
-      "url": "https://x.com/search?q=PSOL",
-      "sobre": "PSOL",
-      "leitura": "ataque à direita",
-      "uso": "Analisar posicionamento político do PSOL",
-      "item_id": null,
-      "fonte": null
-    },
-    {
-      "nome": "Rayan",
-      "volume": null,
-      "url": "https://x.com/search?q=Rayan",
-      "sobre": "Rayan",
-      "leitura": "neutro",
-      "uso": "Informar sobre pessoas em destaque",
-      "item_id": null,
-      "fonte": null
-    },
-    {
-      "nome": "#SINxBRA",
-      "volume": null,
-      "url": "https://x.com/search?q=%23SINxBRA",
-      "sobre": "#SINxBRA",
-      "leitura": "neutro",
-      "uso": "Monitorar tendências políticas e sociais",
-      "item_id": null,
-      "fonte": null
+      "uso": "destacar ações de segurança pública no Rio",
+      "item_id": "operacao-faz-suspeito-aliciar-criancas-internet-detento-pres",
+      "fonte": {
+        "name": "Metrópoles",
+        "url": "https://www.metropoles.com/colunas/mirelle-pinheiro/detento-que-usava-celular-em-presidio-para-aliciar-criancas-e-alvo-da-pf"
+      }
     }
   ],
   "portais_na_coleta": 55
