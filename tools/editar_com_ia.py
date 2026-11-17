@@ -861,9 +861,10 @@ def _fatos_do_lote(bloco, completar, prefixo, profundidade=0):
     try:
         resp = completar(
             [{"role": "system", "content": sistema}, {"role": "user", "content":
-                "Cada linha é id|veículo|título. Devolva {\"fatos\":[{\"ids\":[\"h0001\"],\"segmento\":\"economia\",\"relevancia\":8}]}. "
-                "Cada id entra em no máximo um fato. Ignore entretenimento.\n\n" + lista}],
-            schema=schema, schema_nome="fatos", max_tokens=12000, temperature=0, timeout=180,
+                "Cada linha é id|veículo|título. Devolva {\"fatos\":[{\"ids\":[\"h0001\"],\"segmento\":\"politica\",\"relevancia\":8}]}. "
+                "Toda manchete entra em exatamente um fato. Sem par, o fato tem um id só. "
+                "Não descarte Congresso, STF, eleição, educação, Rio nem esporte.\n\n" + lista}],
+            schema=schema, schema_nome="fatos", max_tokens=16000, temperature=0, timeout=180,
         )
     except modelos_ia.ModelError as e:
         if e.tamanho and len(bloco) > 40 and profundidade < 2:
@@ -887,7 +888,39 @@ def _fatos_do_lote(bloco, completar, prefixo, profundidade=0):
         except (TypeError, ValueError):
             rel = 5
         fatos.append({"cid": f"{prefixo}{i}", "ids": ids, "segmento": seg, "relevancia": max(1, min(10, rel))})
+    faltam = [h for h in bloco if h["id"] not in usados]
+    if faltam:
+        print(f"IA: lote {prefixo} deixou {len(faltam)} manchetes fora; cada uma vira fato", file=sys.stderr)
+    por_lote = {h["id"]: h for h in bloco}
+    for j, h in enumerate(faltam):
+        tier = h.get("tier") or 3
+        rel = 9 if tier == 1 else 7 if tier == 2 else 4
+        fatos.append({
+            "cid": f"{prefixo}s{j}",
+            "ids": [h["id"]],
+            "segmento": notas.segmento_por_titulo(h["titulo"], h.get("dica") or ""),
+            "relevancia": rel,
+        })
+    for f in fatos:
+        _corrigir_secao(f, por_lote)
     return fatos
+
+
+_POLITICA_MARCA = ("stf", "supremo", "senado", "congresso", "deputado", "senador", "eleicao", "eleicoes", "lula", "bolsonaro")
+_RUA = ("trafico", "homicidio", "feminicidio", "milicia")
+_DINHEIRO = ("abono", "salarial", "selic", "bolsa familia", "inss", "fgts")
+
+
+def _corrigir_secao(fato, por_id):
+    """STF, Congresso e eleição não ficam em Segurança só porque a manchete diz prisão ou PF."""
+    texto = " ".join(por_id[i]["titulo"] for i in fato["ids"] if i in por_id)
+    if any(notas.contem_termo(texto, k) for k in _DINHEIRO):
+        fato["segmento"] = "economia"
+        return fato
+    if fato.get("segmento") == "seguranca" and any(notas.contem_termo(texto, k) for k in _POLITICA_MARCA):
+        if not any(notas.contem_termo(texto, k) for k in _RUA):
+            fato["segmento"] = "politica"
+    return fato
 
 
 def _fundir_fatos_locais(fatos, por_id):
@@ -904,7 +937,7 @@ def _fundir_fatos_locais(fatos, por_id):
             if hid not in alvo["ids"]:
                 alvo["ids"].append(hid)
         alvo["relevancia"] = max(alvo.get("relevancia") or 0, f.get("relevancia") or 0)
-        if alvo.get("segmento") == "politica" and f.get("segmento") not in ("", "politica"):
+        if len(f["ids"]) > len(alvo["ids"]) and f.get("segmento") in SEGMENTOS:
             alvo["segmento"] = f["segmento"]
     return saida
 
@@ -985,11 +1018,18 @@ def agrupar_fatos(manchetes, completar):
         fatos.extend(_fatos_do_lote(lote, completar, chr(ord("a") + i)))
     print(f"IA: {len(fatos)} fatos nos lotes", file=sys.stderr)
     por_id = {h["id"]: h for h in manchetes}
-    if len(lotes) > 1:
-        fatos = unir_fatos_entre_lotes(fatos, por_id, completar)
-    else:
-        fatos = _fundir_fatos_locais(fatos, por_id)
+
+    def _nportais(f):
+        return len({por_id[i]["nome"] for i in f["ids"] if i in por_id})
+
+    importantes = [f for f in fatos if _nportais(f) >= 2 or (f.get("relevancia") or 0) >= 7]
+    miudos = [f for f in fatos if f not in importantes]
+    if len(lotes) > 1 and len(importantes) > 1:
+        importantes = unir_fatos_entre_lotes(importantes, por_id, completar)
+    fatos = _fundir_fatos_locais(importantes + miudos, por_id)
     print(f"IA: {len(fatos)} fatos depois de unir os lotes", file=sys.stderr)
+    for f in fatos:
+        _corrigir_secao(f, por_id)
     return fatos
 
 
@@ -1252,6 +1292,14 @@ def _self_test():
     assert all(f["cid"] != "pol2" for f in escolha)
     assert sum(1 for f in escolha if f["segmento"] == "politica") == 5
     assert any(f["segmento"] == "economia" and f.get("completar_secao") for f in escolha)
+    assert _corrigir_secao(
+        {"segmento": "seguranca", "ids": ["x"]},
+        {"x": {"titulo": "PF entrega relatório sobre ministros do STF no caso Master"}},
+    )["segmento"] == "politica"
+    assert _corrigir_secao(
+        {"segmento": "seguranca", "ids": ["y"]},
+        {"y": {"titulo": "Polícia prende quatro suspeitos de tráfico em São Paulo"}},
+    )["segmento"] == "seguranca"
     assert mesmo_evento(
         "Brasil goleia Singapura por 7 a 0 e encerra temporada de 2026",
         "Vini Jr. marca três e Brasil goleia Singapura por 7 a 0",

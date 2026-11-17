@@ -7,6 +7,10 @@ on:
         description: "Deixe em nao no botão Run workflow (roda a qualquer hora). O agendador manda sim e só gera a edição das 06h."
         required: false
         default: "nao"
+  push:
+    branches: [main]
+    paths:
+      - ".github/run-noticias"
 
 permissions:
   contents: write
