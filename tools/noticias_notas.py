@@ -83,12 +83,14 @@ def contem_termo(texto, termo):
 
 
 def conflito_numeros(texto_a, texto_b):
-    """2 a 0 não é 1 a 0. 1958 e 94 no mesmo fato não brigam, porque o 94 está nos dois."""
+    """2 a 0 não é 1 a 0. O zero do placar não cola 7 a 0 com 9 a 0.
+    1958 e 94 no mesmo fato não brigam, porque o 94 está nos dois.
+    Um 3 dentro do 7 a 0 (hat-trick) também não separa o jogo."""
     ga = {n for n in _numeros(texto_a) if int(n) >= 1}
     gb = {n for n in _numeros(texto_b) if int(n) >= 1}
     if not ga or not gb:
         return False
-    return ga.isdisjoint(gb)
+    return bool(ga - gb) and bool(gb - ga)
 
 
 def mesmo_fato(ta, tb, texto_a="", texto_b=""):
@@ -286,6 +288,8 @@ def _self_test():
     assert mesmo_fato(a, b, "Moraes nega visita de Marinho e Tereza Cristina a Bolsonaro", "Alexandre de Moraes barra visita de Rogerio Marinho e Tereza Cristina a Bolsonaro")
     assert not mesmo_fato(a, c, "Moraes nega visita de Marinho", "Moraes abre inquerito contra jornalista")
     assert not mesmo_fato(tokens("Flamengo vence o Vasco por 2 a 0"), tokens("Flamengo vence o Vasco por 1 a 0"), "Flamengo vence o Vasco por 2 a 0", "Flamengo vence o Vasco por 1 a 0")
+    assert conflito_numeros("Brasil goleia Singapura por 7 a 0", "Brasil Sub-20 faz 9 a 0 no Peru")
+    assert not conflito_numeros("Brasil goleia Singapura por 7 a 0", "Vini marca 3 no 7 a 0 sobre Singapura")
     assert segmento_por_titulo("Alemanha faz 5 na Holanda e vai às quartas de final da Liga das Nações da Uefa") == "esportes"
     assert segmento_por_titulo("Defesa de Carla Zambelli pede retirada de nome da lista da Interpol") == "politica"
     assert segmento_por_titulo("Mais de 276 mil trabalhadores ainda não sacaram o abono salarial") == "economia"
