@@ -59,7 +59,7 @@ def agrupar(entries):
         preparados.append((e, ts))
         df.update(ts)
 
-        genericas = set("""interesse eleicoes eleicao encontro horas depois antes dias modelo extrema
+    genericas = set("""interesse eleicoes eleicao encontro horas depois antes dias modelo extrema
         direita esquerda fiscal pacote ajuste mercado aposta critica apoio plano proposta nacional
         brasileiro brasileiros cidade morte mortos preso presos policia operacao video detalhes saiba
         confira entenda veja onde como apos durante contra sobre entre desde hoje ontem agora nova novo
@@ -90,7 +90,15 @@ def agrupar(entries):
         if notas.mesmo_fato(ta, tb, texto_a, texto_b):
             return True
         comuns = chaves(ta) & chaves(tb)
-        return len(comuns) >= 2
+        if len(comuns) >= 2:
+            return True
+        # Um nome raro (Singapura, um jogo só) junta as redações diferentes do mesmo fato.
+        if len(comuns) == 1:
+            w = next(iter(comuns))
+            cob = len(ta & tb) / max(1, min(len(ta), len(tb)))
+            if len(w) >= 6 and df[w] <= 8 and cob >= 0.22:
+                return True
+        return False
 
     preparados.sort(key=lambda et: -len(chaves(et[1])))
     groups = []
@@ -105,6 +113,7 @@ def agrupar(entries):
             groups.append(dict(items=[entry], terms=set(ts), hint=entry["hint"], anchor=entry["title"]))
         else:
             best["items"].append(entry)
+            best["terms"] |= set(ts)
 
     def nucleo(g):
         c = Counter()
@@ -120,13 +129,14 @@ def agrupar(entries):
             for h in saida:
                 if notas.conflito_numeros(g["anchor"], h["anchor"]):
                     continue
-                if len(ng & nucleo(h)) >= 2 and notas.mesmo_fato(g["terms"], h["terms"], g["anchor"], h["anchor"]):
+                if junta(g["terms"], h["terms"], g["anchor"], h["anchor"]):
                     achou = h
                     break
             if achou is None:
                 saida.append(g)
             else:
                 achou["items"].extend(g["items"])
+                achou["terms"] |= g["terms"]
                 mudou = True
         groups = saida
         if not mudou:

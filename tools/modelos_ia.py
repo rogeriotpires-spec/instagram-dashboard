@@ -166,12 +166,16 @@ def _classificar_http(status, corpo, headers):
     return ModelError(f"HTTP {status} {texto[:200]}", status=status), ""
 
 
-def completar(mensagens, *, schema=None, schema_nome="resposta", max_tokens=4000, temperature=0.2, timeout=120):
-    """Devolve o objeto JSON da resposta. Levanta ModelError se os dois modelos falharem."""
+def completar(mensagens, *, schema=None, schema_nome="resposta", max_tokens=4000, temperature=0.2, timeout=120, barato=False):
+    """Devolve o objeto JSON da resposta. Levanta ModelError se os dois modelos falharem.
+
+    barato=True começa pelo modelo menor (gpt-4.1-mini). A redação da matéria fica no modelo cheio.
+    """
     cfg = configuracao()
     url = cfg["base"] + "/chat/completions"
     ordem = []
-    for m in (cfg["modelo"], cfg["mini"]):
+    fila = (cfg["mini"], cfg["modelo"]) if barato else (cfg["modelo"], cfg["mini"])
+    for m in fila:
         if m not in ordem:
             ordem.append(m)
     erros = []

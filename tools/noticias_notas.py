@@ -45,8 +45,8 @@ PALAVRAS = {
                   "homicidio", "assassinato", "feminicidio", "operacao policial", "milicia",
                   "municao", "municoes", "pericia", "estupro", "explosivo"),
     "economia": ("inflacao", "selic", "juros", "dolar", "bolsa", "pib", "imposto", "economica",
-                 "receita federal", "desemprego", "salario", "banco central", "copom",
-                 "arcabouco", "fiscal"),
+                 "receita federal", "desemprego", "salario", "salarial", "abono", "beneficio",
+                 "inss", "fgts", "banco central", "copom", "arcabouco", "fiscal"),
     "internacional": ("trump", "putin", "ucrania", "russia", "estados unidos", "china",
                       "israel", "ira", "iraque", "venezuela", "argentina", "onu", "otan", "california"),
 }
@@ -165,11 +165,12 @@ def ajustar_segmento(titulo, segmento, dica=""):
     validos = set(PALAVRAS) | {"politica"}
     if segmento not in validos:
         segmento = auto
-    # Clube ou campeonato sem pauta de governo fica em Esportes.
     t = norm(titulo)
     if any(contem_termo(t, k) for k in ("flamengo", "vasco", "fluminense", "botafogo", "brasileirao", "libertadores", "uefa", "liga das nacoes")):
         if not any(contem_termo(t, k) for k in ("alerj", "prefeitura", "governo do", "stf", "camara")):
             return "esportes"
+    # A seção que a IA escolheu vale. Política só cede quando o título tem
+    # palavra clara de outra editoria (abono salarial, por exemplo).
     if segmento == "politica" and auto != "politica":
         return auto
     return segmento
@@ -287,6 +288,9 @@ def _self_test():
     assert not mesmo_fato(tokens("Flamengo vence o Vasco por 2 a 0"), tokens("Flamengo vence o Vasco por 1 a 0"), "Flamengo vence o Vasco por 2 a 0", "Flamengo vence o Vasco por 1 a 0")
     assert segmento_por_titulo("Alemanha faz 5 na Holanda e vai às quartas de final da Liga das Nações da Uefa") == "esportes"
     assert segmento_por_titulo("Defesa de Carla Zambelli pede retirada de nome da lista da Interpol") == "politica"
+    assert segmento_por_titulo("Mais de 276 mil trabalhadores ainda não sacaram o abono salarial") == "economia"
+    assert ajustar_segmento("Mais de 276 mil trabalhadores ainda não sacaram o abono salarial", "politica") == "economia"
+    assert ajustar_segmento("Senado vota a PEC do STF", "politica") == "politica"
     assert segmento_por_titulo("Juiz anula limites de visto impostos por Trump a estudantes e jornalistas") == "internacional"
     assert eh_entretenimento("Grammy 2027 é no meio do carnaval, diz Anitta")
     assert not eh_entretenimento("Irmãos de banda de pagode são presos por suspeita de estupro")
