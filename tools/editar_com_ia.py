@@ -616,7 +616,10 @@ def gravar(doc, edition, coleta_path):
     return dest
 
 
-_LARGO = {"governo", "brasileiro", "nacional", "milhoes", "presidente", "ministro", "operacao", "policia", "selecao"}
+_LARGO = {
+    "governo", "brasileiro", "brasileira", "nacional", "milhoes", "presidente", "ministro",
+    "operacao", "policia", "selecao", "trabalhadores", "trabalhador", "beneficio", "milhares",
+}
 
 
 def mesmo_evento(a, b):
@@ -627,7 +630,11 @@ def mesmo_evento(a, b):
         return True
     ta = {w for w in notas.tokens(a) if len(w) >= 6 and w not in notas.UBIQUOS and w not in _LARGO}
     tb = {w for w in notas.tokens(b) if len(w) >= 6 and w not in notas.UBIQUOS and w not in _LARGO}
-    return len(ta & tb) >= 2
+    comuns = ta & tb
+    if len(comuns) >= 2:
+        return True
+    # Singapura, um nome longo só, cola as duas redações do mesmo jogo.
+    return any(len(w) >= 8 for w in comuns)
 
 
 def _grupos_de(manchetes):
@@ -653,7 +660,7 @@ def _grupos_de(manchetes):
 
 def unir_por_ia(grupos, por_id, completar):
     """gpt-4.1-mini junta grupos do mesmo fato antes da redação, para subir a cobertura."""
-    candidatos = [g for g in grupos if g["n"] >= 2]
+    candidatos = list(grupos)
     if len(candidatos) < 2:
         return grupos
     pai = {g["cid"]: g["cid"] for g in grupos}
@@ -738,9 +745,16 @@ def grupos_por_fato(manchetes, por_id, completar, cfg):
     for seg, lista in por_seg.items():
         lista.sort(key=lambda g: -g["n"])
         minimo = mins.get(seg, cfg["min_outlets"])
-        uteis = [g for g in lista if g["n"] >= minimo]
-        escolha.extend(uteis[:8])
-        print(f"IA: seção {seg} tem {len(uteis)} grupos com portal bastante, manda {min(8, len(uteis))}", file=sys.stderr)
+        fortes = [g for g in lista if g["n"] >= minimo]
+        fila = list(fortes)
+        if len(fila) < 5:
+            fila.extend(g for g in lista if g not in fortes)
+        escolhidos = fila[:5]
+        escolha.extend(escolhidos)
+        print(
+            f"IA: seção {seg} fortes={len(fortes)} no_total={len(lista)} manda={len(escolhidos)}",
+            file=sys.stderr,
+        )
     return escolha
 
 
