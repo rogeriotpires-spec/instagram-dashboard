@@ -7,6 +7,10 @@ on:
         description: "Disparo pelo agendador"
         required: false
         default: "nao"
+  push:
+    branches: [main]
+    paths:
+      - ".github/run-noticias"
 
 permissions:
   contents: write
@@ -68,7 +72,7 @@ jobs:
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || secrets.OPENAI_API_AKEY }}
         run: python3 tools/editar_com_ia.py coleta-noticias.json
 
       - name: Gerar edição por regras
