@@ -45,7 +45,7 @@ def _frase_apoiada(frase, titulos):
         return False
     for t in titulos:
         base = notas.tokens(t)
-        if base and len(tk & base) / len(tk) >= 0.55:
+        if base and len(tk & base) / len(tk) >= 0.7:
             return True
     return False
 
@@ -404,8 +404,21 @@ def montar_itens(brutos, grupos, por_id, cfg, disponiveis, recentes_lista, dia):
         frases = [f for f in _frases(resumo) if _frase_apoiada(f, [por_id[i]["titulo"] for i in ids])]
         titulos = [por_id[i]["titulo"] for i in ids]
         if len(frases) < 2 or not _numeros_ok(". ".join(frases), titulos) or not _aspas_ok(". ".join(frases), titulos):
-            problemas.append(bruto)
-            continue
+            frases = []
+            vistos_fr = []
+            for t in titulos:
+                t = notas.limpa_manchete(t)
+                if len(t) < 25:
+                    continue
+                if any(notas.mesmo_fato(notas.tokens(t), notas.tokens(s), t, s) for s in vistos_fr):
+                    continue
+                vistos_fr.append(t)
+                frases.append(t)
+                if len(frases) == 4:
+                    break
+            if len(frases) < 2:
+                problemas.append(bruto)
+                continue
         resumo = ". ".join(frases)
         if not resumo.endswith((".", "!", "?")):
             resumo += "."
@@ -629,9 +642,9 @@ def grupos_por_fato(manchetes):
     escolha = []
     for lista in por_seg.values():
         lista.sort(key=lambda g: -g["n"])
-        escolha.extend(lista[:6])
+        escolha.extend(lista[:8])
     escolha.sort(key=lambda g: -g["n"])
-    return escolha[:40]
+    return escolha[:48]
 
 
 def montar_edicao(coleta, cfg, trends, completar):
@@ -663,6 +676,20 @@ def montar_edicao(coleta, cfg, trends, completar):
         except modelos_ia.ModelError as e:
             print(f"IA: reparo não rodou ({e})", file=sys.stderr)
     itens = selecionar(itens, cfg)
+    fundidos = []
+    for it in itens:
+        alvo = next((s for s in fundidos if notas.mesmo_fato(notas.tokens(it["title"]), notas.tokens(s["title"]), it["title"], s["title"])), None)
+        if alvo is None:
+            fundidos.append(it)
+            continue
+        nomes = {o["name"] for o in alvo["outlets"]}
+        for o in it["outlets"]:
+            if o["name"] not in nomes:
+                alvo["outlets"].append(o)
+                nomes.add(o["name"])
+        alvo["scores"]["cobertura"] = notas.cobertura(len(alvo["outlets"]))
+        alvo["score"] = notas.nota_final(alvo["scores"], {c["key"]: c["weight"] for c in cfg["criteria"]})
+    itens = fundidos
     if len(itens) < 8:
         raise SystemExit(f"IA validou só {len(itens)} notícias")
     faltam = [s["key"] for s in cfg["segments"] if s.get("min_items") and sum(1 for i in itens if i["segment"] == s["key"]) == 0]
