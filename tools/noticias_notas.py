@@ -171,10 +171,15 @@ def ajustar_segmento(titulo, segmento, dica=""):
     if any(contem_termo(t, k) for k in ("flamengo", "vasco", "fluminense", "botafogo", "brasileirao", "libertadores", "uefa", "liga das nacoes")):
         if not any(contem_termo(t, k) for k in ("alerj", "prefeitura", "governo do", "stf", "camara")):
             return "esportes"
-    # A seção que a IA escolheu vale. Política só cede quando o título tem
-    # palavra clara de outra editoria (abono salarial, por exemplo).
-    if segmento == "politica" and auto != "politica":
-        return auto
+    # A seção da IA vale. Política só sai se o título for claramente de outra
+    # editoria fechada (abono, Enem, clube). Prisão, PF, RJ ou dólar numa
+    # decisão do Congresso ou do STF não tiram o fato de Política.
+    if segmento == "politica":
+        if any(contem_termo(t, k) for k in ("abono", "salarial", "bolsa familia", "selic")):
+            return "economia"
+        if any(contem_termo(t, k) for k in ("enem", "ideb", "prouni")):
+            return "educacao"
+        return segmento
     return segmento
 
 
@@ -295,6 +300,7 @@ def _self_test():
     assert segmento_por_titulo("Mais de 276 mil trabalhadores ainda não sacaram o abono salarial") == "economia"
     assert ajustar_segmento("Mais de 276 mil trabalhadores ainda não sacaram o abono salarial", "politica") == "economia"
     assert ajustar_segmento("Senado vota a PEC do STF", "politica") == "politica"
+    assert ajustar_segmento("PF entrega relatório sobre ministros do STF no caso Master após a prisão", "politica") == "politica"
     assert segmento_por_titulo("Juiz anula limites de visto impostos por Trump a estudantes e jornalistas") == "internacional"
     assert eh_entretenimento("Grammy 2027 é no meio do carnaval, diz Anitta")
     assert not eh_entretenimento("Irmãos de banda de pagode são presos por suspeita de estupro")

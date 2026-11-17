@@ -7,6 +7,10 @@ on:
         description: "Disparo pelo agendador"
         required: false
         default: "nao"
+  push:
+    branches: [main]
+    paths:
+      - ".github/run-noticias"
 
 permissions:
   contents: write
@@ -97,9 +101,29 @@ jobs:
           h = '06h' if now.hour < 9 else '12h' if now.hour < 16 else '19h'
           print(f'noticias/{now:%Y-%m-%d}-{h}.json')
           ")
-          N=$(python3 -c "import json,sys; print(len(json.load(open(sys.argv[1],encoding='utf-8')).get('items') or []))" "$ED")
-          if [ "$N" -lt 24 ]; then
-            echo "não publico: $N matérias, abaixo de 24; a edição anterior permanece"
+          if ! python3 - << PY
+          import json, subprocess, sys
+          from collections import Counter
+          ed = "$ED"
+          novos = json.load(open(ed, encoding="utf-8")).get("items") or []
+          if len(novos) < 24:
+              print(f"não publico: {len(novos)} matérias, abaixo de 24")
+              sys.exit(1)
+          try:
+              antigo = json.loads(subprocess.check_output(["git", "show", f"HEAD:{ed}"], text=True))
+          except subprocess.CalledProcessError:
+              antigo = None
+          if antigo:
+              antigos = antigo.get("items") or []
+              ca, cn = Counter(i.get("segment") for i in antigos), Counter(i.get("segment") for i in novos)
+              piores = [f"{s} {cn[s]}<{n}" for s, n in ca.items() if cn[s] < n]
+              if len(novos) < len(antigos) or piores:
+                  print(f"não publico: {len(novos)} matérias contra {len(antigos)}; seções {', '.join(piores) or 'ok'}")
+                  sys.exit(1)
+          print(f"publico: {len(novos)} matérias")
+          PY
+          then
+            echo "a edição anterior permanece"
             git checkout -- noticias/ || true
             exit 1
           fi

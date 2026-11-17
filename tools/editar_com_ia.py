@@ -432,8 +432,13 @@ def montar_itens(brutos, grupos, por_id, cfg, disponiveis, recentes_lista, dia):
             if not _frase_apoiada(f, titulos) or not _numeros_ok(f, titulos) or not _aspas_ok(f, titulos):
                 continue
             frases.append(f)
+        if not frases and por_cid.get(cid, {}).get("completar_secao"):
+            desc = por_id[ids[0]].get("descricao") or ""
+            frases = [p for p in _frases(desc) if len(p) >= 30][:3]
+            if not frases and len(desc) >= 40:
+                frases = [desc[:400].rstrip(".")]
         if not frases:
-            base = notas.limpa_manchete(titulo) or notas.limpa_manchete(titulos[0])
+            base = notas.limpa_manchete(titulo) or notas.limpa_manchete(por_id[ids[0]]["titulo"])
             if len(base) >= 20:
                 frases = [base]
         if not frases:
@@ -514,7 +519,7 @@ def selecionar(itens, cfg):
     escolhidos = []
     for s in cfg["segments"]:
         rank = sorted(por_seg.get(s["key"]) or [], key=lambda x: (-x["score"], -len(x["outlets"])))
-        escolhidos.extend(rank[:cfg["items_per_segment"]])
+        escolhidos.extend(rank[:8 if s["key"] in _FRACAS else cfg["items_per_segment"]])
     ordem = {s["key"]: i for i, s in enumerate(cfg["segments"])}
     escolhidos.sort(key=lambda it: (-it["score"], ordem.get(it["segment"], 99)))
     return escolhidos
@@ -606,6 +611,28 @@ def _pos_processar(dest, coleta_path):
         print(rep.stderr, file=sys.stderr)
 
 
+def _edicao_nao_pior(novos, anterior_txt):
+    """Igual ou melhor: não perde matéria nem seção da edição que já está no ar."""
+    from collections import Counter
+    if len(novos) < 24:
+        return False, f"{len(novos)} matérias, abaixo de 24"
+    if not anterior_txt:
+        return True, "sem edição anterior"
+    try:
+        antigo = json.loads(anterior_txt)
+    except ValueError:
+        return True, "anterior ilegível"
+    antigos = antigo.get("items") or []
+    if len(novos) < len(antigos):
+        return False, f"{len(novos)} matérias, a anterior tem {len(antigos)}"
+    ca = Counter(i.get("segment") for i in antigos)
+    cn = Counter(i.get("segment") for i in novos)
+    piores = [f"{s} {cn[s]}<{n}" for s, n in ca.items() if cn[s] < n]
+    if piores:
+        return False, "seções menores: " + ", ".join(piores)
+    return True, "ok"
+
+
 def gravar(doc, edition, coleta_path):
     dest = ROOT / "noticias" / f"{edition}.json"
     anterior = dest.read_text(encoding="utf-8") if dest.exists() else None
@@ -615,8 +642,14 @@ def gravar(doc, edition, coleta_path):
     try:
         _pos_processar(dest, coleta_path)
         final = json.loads(dest.read_text(encoding="utf-8"))
-        if len(final.get("items") or []) < 24:
-            raise SystemExit("edição com IA ficou abaixo de 24 notícias; a anterior permanece")
+        ok, motivo = _edicao_nao_pior(final.get("items") or [], anterior)
+        if not ok:
+            if anterior is None:
+                dest.unlink(missing_ok=True)
+            else:
+                dest.write_text(anterior, encoding="utf-8")
+            idx.write_text(idx_anterior, encoding="utf-8")
+            raise SystemExit(f"edição não publicada ({motivo}); a anterior permanece")
         if any("—" in json.dumps(final, ensure_ascii=False) or "–" in json.dumps(final, ensure_ascii=False) for _ in (0,)):
             raise SystemExit("travessão na edição")
         # a cobertura regrava o arquivo e pode perder a ordem; garante o modo
@@ -783,15 +816,16 @@ def grupos_por_fato(manchetes, por_id, completar, cfg):
 
 
 _CRITERIOS_SECAO = (
-    "economia: abono, salário, juros, Selic, imposto, dólar, inflação, INSS, FGTS, fiscal, bolsa, PIB. "
-    "seguranca: polícia, prisão, tráfico, homicídio, operação. "
+    "politica é seção cheia, não sobra: Congresso, Senado, Câmara, STF, partidos, eleição, "
+    "Lula em ato de governo, ministros, deputados e o caso Master quando o fato é a decisão política. "
+    "PF ou prisão ligada a ministro, STF ou Congresso continua politica. "
+    "economia só quando o fato é o dinheiro: abono, salário, juros, Selic, imposto, dólar, inflação, INSS, FGTS, bolsa, PIB. "
+    "seguranca: polícia, prisão, tráfico e homicídio sem ser decisão de STF ou do Congresso. "
     "educacao: escola, Enem, professor, universidade. "
     "esportes: clube, seleção, campeonato, placar. "
     "ciencia: pesquisa, vacina, tecnologia. "
-    "rio: Rio de Janeiro, Niterói, baixada, Paes, Castro, Alerj. "
+    "rio: fato do Rio de Janeiro, Niterói, baixada, Paes, Castro ou Alerj, e não uma notícia nacional que só cita RJ. "
     "internacional: outro país, Trump, Ucrânia, China, guerra. "
-    "politica: só governo, Congresso, STF, eleição e partido, quando não couber acima. "
-    "Não use politica como gaveta."
 )
 
 
@@ -931,15 +965,13 @@ def unir_fatos_entre_lotes(fatos, por_id, completar):
     for i, partes in enumerate(blocos.values()):
         ids = []
         rel = 0
-        seg = "politica"
         for p in partes:
             rel = max(rel, p.get("relevancia") or 0)
-            if p.get("segmento") in SEGMENTOS and (seg == "politica" or p["segmento"] != "politica"):
-                if seg == "politica":
-                    seg = p["segmento"]
             for hid in p["ids"]:
                 if hid not in ids and hid in por_id:
                     ids.append(hid)
+        maior = max(partes, key=lambda p: len(p.get("ids") or []))
+        seg = maior.get("segmento") if maior.get("segmento") in SEGMENTOS else "politica"
         if ids:
             saida.append({"cid": f"f{i}", "ids": ids, "segmento": seg, "relevancia": rel or 5})
     return _fundir_fatos_locais(saida, por_id)
@@ -974,8 +1006,18 @@ def reserva_por_palavra(manchetes):
     return fatos
 
 
+_FRACAS = ("politica", "educacao", "rio", "esportes")
+
+
+def _tier_fato(fato, por_id):
+    tiers = [por_id[i].get("tier") or 3 for i in fato["ids"] if i in por_id]
+    return min(tiers) if tiers else 3
+
+
 def selecionar_fatos(fatos, por_id):
-    """Fatos com 2 ou mais veículos, até 40. Portal único só completa seção vazia."""
+    """Fatos de 2 ou mais veículos entram primeiro. Portal único de peso e alta
+    relevância completa as seções fracas até a edição ficar entre 32 e 40."""
+    from collections import Counter
     preparados = []
     for f in fatos:
         nomes = {por_id[i]["nome"] for i in f["ids"] if i in por_id}
@@ -985,41 +1027,52 @@ def selecionar_fatos(fatos, por_id):
         if item["segmento"] not in SEGMENTOS:
             item["segmento"] = "politica"
         preparados.append(item)
+    print("IA: fatos por seção " + " ".join(f"{s}={n}" for s, n in Counter(f["segmento"] for f in preparados).most_common()), file=sys.stderr)
     fortes = [f for f in preparados if f["n"] >= 2]
     fracos = [f for f in preparados if f["n"] < 2]
+    print("IA: fortes por seção " + " ".join(f"{s}={n}" for s, n in Counter(f["segmento"] for f in fortes).most_common()), file=sys.stderr)
     fortes.sort(key=lambda f: (-f["n"], -f["relevancia"]))
     por_seg = {s: [] for s in SEGMENTOS}
     for f in fortes:
         por_seg[f["segmento"]].append(f)
     escolhidos = []
     for seg in SEGMENTOS:
-        escolhidos.extend(por_seg[seg][:3])
+        escolhidos.extend(por_seg[seg][:5])
     ja = {id(f) for f in escolhidos}
-    cont = {}
-    for f in escolhidos:
-        cont[f["segmento"]] = cont.get(f["segmento"], 0) + 1
-    for f in fortes:
+    cont = Counter(f["segmento"] for f in escolhidos)
+    ordem = {s: i for i, s in enumerate(_FRACAS)}
+    def _com_descricao(f):
+        return 0 if (por_id[f["ids"][0]].get("descricao") or "") else 1
+
+    singles = [f for f in fracos if f["relevancia"] >= 7 and _tier_fato(f, por_id) <= 1]
+    singles.sort(key=lambda f: (ordem.get(f["segmento"], 9), _com_descricao(f), -f["relevancia"]))
+    for f in singles:
         if len(escolhidos) >= 40:
             break
-        if id(f) in ja or cont.get(f["segmento"], 0) >= 5:
+        teto = 8 if f["segmento"] in _FRACAS else 5
+        if cont[f["segmento"]] >= teto:
             continue
+        if len(escolhidos) >= 32 and cont[f["segmento"]] >= 3 and f["segmento"] not in _FRACAS:
+            continue
+        if len(escolhidos) >= 32 and all(cont[s] >= 3 for s in _FRACAS) and f["segmento"] not in _FRACAS:
+            continue
+        f["completar_secao"] = True
         escolhidos.append(f)
         ja.add(id(f))
-        cont[f["segmento"]] = cont.get(f["segmento"], 0) + 1
+        cont[f["segmento"]] += 1
     for seg in SEGMENTOS:
-        if cont.get(seg):
+        if cont[seg]:
             continue
-        cand = [f for f in fracos if f["segmento"] == seg]
-        cand.sort(key=lambda f: -f["relevancia"])
+        cand = [f for f in fracos if f["segmento"] == seg and id(f) not in ja]
+        cand.sort(key=lambda f: (-f["relevancia"], _tier_fato(f, por_id)))
         if not cand:
             continue
         cand[0]["completar_secao"] = True
         escolhidos.append(cand[0])
-        cont[seg] = 1
+        cont[seg] += 1
     for seg in SEGMENTOS:
-        nseg = sum(1 for f in escolhidos if f["segmento"] == seg)
-        if nseg:
-            print(f"IA: seleção {seg}={nseg}", file=sys.stderr)
+        if cont[seg]:
+            print(f"IA: seleção {seg}={cont[seg]}", file=sys.stderr)
     print(f"IA: {len(escolhidos)} fatos na redação", file=sys.stderr)
     return escolhidos
 
@@ -1046,10 +1099,12 @@ def montar_edicao(coleta, cfg, trends, completar):
         for g in grupos:
             if g["cid"] in vindos or not g["ids"]:
                 continue
-            titulo = por_id[g["ids"][0]]["titulo"]
+            h0 = por_id[g["ids"][0]]
+            titulo = h0["titulo"]
+            resumo = (h0.get("descricao") or "").strip() or titulo
             brutos.append({
                 "cid": g["cid"], "ids": g["ids"], "segmento": g.get("segmento") or "",
-                "titulo": titulo, "resumo": titulo, "reuse_id": "", "desdobramento": "",
+                "titulo": titulo, "resumo": resumo, "reuse_id": "", "desdobramento": "",
                 "peso_voce": g.get("relevancia") or 6, "descarte": False,
             })
         return grupos, brutos
@@ -1188,8 +1243,14 @@ def _self_test():
         fatos_teste.append({"cid": f"t{i}", "ids": [f"p{i}a", f"p{i}b"], "segmento": "politica", "relevancia": 9})
     por_falso["e0"] = {"id": "e0", "nome": "C", "titulo": "abono"}
     fatos_teste.append({"cid": "eco", "ids": ["e0"], "segmento": "economia", "relevancia": 8})
+    por_falso["s1"] = {"id": "s1", "nome": "Folha de S.Paulo", "titulo": "Camara vota o projeto", "tier": 1, "descricao": "A Camara vota o projeto de lei nesta terca-feira."}
+    fatos_teste.append({"cid": "pol1", "ids": ["s1"], "segmento": "politica", "relevancia": 9})
+    por_falso["s2"] = {"id": "s2", "nome": "Blog local", "titulo": "nota solta", "tier": 3, "descricao": "Uma nota longa de um portal sem peso editorial."}
+    fatos_teste.append({"cid": "pol2", "ids": ["s2"], "segmento": "politica", "relevancia": 9})
     escolha = selecionar_fatos(fatos_teste, por_falso)
-    assert sum(1 for f in escolha if f["segmento"] == "politica") == 4
+    assert any(f["cid"] == "pol1" for f in escolha)
+    assert all(f["cid"] != "pol2" for f in escolha)
+    assert sum(1 for f in escolha if f["segmento"] == "politica") == 5
     assert any(f["segmento"] == "economia" and f.get("completar_secao") for f in escolha)
     assert mesmo_evento(
         "Brasil goleia Singapura por 7 a 0 e encerra temporada de 2026",

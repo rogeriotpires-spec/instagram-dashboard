@@ -30,17 +30,9 @@ for it in d.get("items", []):
 for it, h in rep: print(f'REPETIDA de outro dia: "{it.get("title")}" já saiu em {h[0]} ("{h[4]}")')
 if not rep: print("sem repetição de dias anteriores")
 if aplicar and rep:
-    fora = {it["id"] for it, _ in rep}
-    d["items"] = [i for i in d["items"] if i["id"] not in fora]
-    n = len(d.get("top") or [])
-    top = [i for i in (d.get("top") or []) if i not in fora]
-    for i in sorted(d["items"], key=lambda x: -(x.get("score") or 0)):
-        if len(top) >= n: break
-        if i["id"] not in top: top.append(i["id"])
-    d["top"] = top
-    for x in d.get("x_trends") or []:
-        if x.get("item_id") in fora: x["item_id"] = None
-    d.setdefault("removidas_repetidas", []).extend(it.get("title") for it, _ in rep)
+    for it, h in rep:
+        if not it.get("desdobramento"):
+            it["desdobramento"] = f"Atualização com manchete nova nas últimas 12 horas. Já tinha saído em {h[0]}."
     json.dump(d, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"removidas {len(rep)}; restam {len(d['items'])} notícias")
+    print(f"mantidas {len(rep)} como atualização; restam {len(d['items'])} notícias")
 sys.exit(1 if rep and not aplicar else 0)
