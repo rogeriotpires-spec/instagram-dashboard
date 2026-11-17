@@ -138,8 +138,12 @@ def _itens(raiz, corte, BRT, agora, limite):
         dt = _data(campos.get("pubDate") or campos.get("published") or campos.get("updated") or campos.get("date"), BRT, agora)
         if not titulo or not dt or dt < corte or dt > agora + timedelta(minutes=30):
             continue
+        desc = _titulo(campos.get("description") or campos.get("summary") or campos.get("content") or campos.get("encoded") or "")
+        if desc.lower() == titulo.lower() or len(desc) < 40:
+            desc = ""
         saida.append({
             "titulo": titulo,
+            "descricao": desc[:500],
             "quando": dt.strftime("%d/%m %H:%M"),
             "link": link,
             "_epoch": dt.timestamp(),

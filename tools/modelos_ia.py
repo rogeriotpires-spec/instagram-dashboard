@@ -33,7 +33,7 @@ class ModelError(Exception):
         self.fatal = fatal
 
 
-_estado = {"modelos": [], "ultima": 0.0}
+_estado = {"modelos": [], "ultima": 0.0, "uso": []}
 
 
 def _redigir(texto):
@@ -118,6 +118,37 @@ def _parse_corpo(corpo, ctype):
     if fim == "length":
         raise ModelError("resposta cortada pelo limite de tokens", tamanho=True)
     return conteudo or ""
+
+
+def _anotar_uso(corpo, modelo):
+    try:
+        dados = json.loads(corpo.decode("utf-8"))
+        uso = dados.get("usage") or {}
+        prompt = int(uso.get("prompt_tokens") or 0)
+        saida = int(uso.get("completion_tokens") or 0)
+    except (ValueError, TypeError, AttributeError):
+        return
+    _estado["uso"].append({"modelo": modelo, "prompt": prompt, "saida": saida})
+
+
+def custo_usd():
+    """Preço de tabela da OpenAI por 1 milhão de tokens, sem cache."""
+    tabela = {
+        "gpt-4.1": (2.0, 8.0),
+        "gpt-4.1-mini": (0.40, 1.60),
+    }
+    total = 0.0
+    por = {}
+    for u in _estado.get("uso") or []:
+        nome = (u.get("modelo") or "").split("/")[-1]
+        entrada, saida = tabela.get(nome, (2.0, 8.0))
+        valor = u["prompt"] / 1_000_000 * entrada + u["saida"] / 1_000_000 * saida
+        total += valor
+        bloco = por.setdefault(nome, {"prompt": 0, "saida": 0, "usd": 0.0})
+        bloco["prompt"] += u["prompt"]
+        bloco["saida"] += u["saida"]
+        bloco["usd"] += valor
+    return round(total, 4), por
 
 
 def extrair_json(conteudo):
@@ -224,6 +255,7 @@ def completar(mensagens, *, schema=None, schema_nome="resposta", max_tokens=4000
                     continue
                 break
             try:
+                _anotar_uso(corpo, modelo)
                 conteudo = _parse_corpo(corpo, ctype)
                 dados = extrair_json(conteudo)
             except ModelError as e:

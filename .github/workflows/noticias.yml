@@ -97,6 +97,12 @@ jobs:
           h = '06h' if now.hour < 9 else '12h' if now.hour < 16 else '19h'
           print(f'noticias/{now:%Y-%m-%d}-{h}.json')
           ")
+          N=$(python3 -c "import json,sys; print(len(json.load(open(sys.argv[1],encoding='utf-8')).get('items') or []))" "$ED")
+          if [ "$N" -lt 24 ]; then
+            echo "não publico: $N matérias, abaixo de 24; a edição anterior permanece"
+            git checkout -- noticias/ || true
+            exit 1
+          fi
           MSG=$(python3 -c "
           import json,sys
           g=json.load(open(sys.argv[1],encoding='utf-8')).get('gerador')

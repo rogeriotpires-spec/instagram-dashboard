@@ -14,6 +14,7 @@ Uso:
 O JSON da coleta vai para a saída padrão. O quadro por fonte vai para o
 erro padrão e para coleta-diagnostico.json.
 """
+import html
 import json
 import os
 import random
@@ -131,11 +132,11 @@ def baixar_google(url, ritmo):
     ultimo = "sem resposta"
     status = None
     for i in range(3):
-        time.sleep(ritmo["pausa"] + random.uniform(0.1, 0.35))
+        time.sleep(ritmo["pausa"] + random.uniform(0.4, 1.1))
         req = urllib.request.Request(url, headers=UA)
         try:
             with urllib.request.urlopen(req, timeout=18) as r:
-                ritmo["pausa"] = max(0.8, ritmo["pausa"] * 0.9)
+                ritmo["pausa"] = max(2.4, ritmo["pausa"] * 0.95)
                 ritmo["seguidos_429"] = 0
                 return r.status, r.read(), None
         except urllib.error.HTTPError as e:
@@ -150,10 +151,10 @@ def baixar_google(url, ritmo):
                         return status, b"", "Google Notícias em 429 repetido; reserva desligada nesta rodada"
                 ra = e.headers.get("Retry-After") if e.headers else None
                 if ra and str(ra).isdigit():
-                    espera = min(8, int(ra))
+                    espera = min(30, int(ra))
                 else:
-                    espera = min(8, 1.1 * (2 ** i)) + random.uniform(0.1, 0.4)
-                ritmo["pausa"] = min(3.0, ritmo["pausa"] * 1.3)
+                    espera = min(24, 2.2 * (2 ** i)) + random.uniform(0.4, 1.4)
+                ritmo["pausa"] = min(6.0, ritmo["pausa"] * 1.5)
                 time.sleep(espera)
                 continue
             break
@@ -188,7 +189,11 @@ def itens_google(dados, corte, BRT, agora, limite, mapa, drops, descartados):
                 continue
         else:
             nome = None
-        item = {"titulo": t, "quando": dt.strftime("%d/%m %H:%M"), "link": it.findtext("link") or "", "_epoch": dt.timestamp()}
+        desc = re.sub(r"<[^>]+>", " ", html.unescape(it.findtext("description") or ""))
+        desc = re.sub(r"\s+", " ", desc).strip()
+        if desc.lower() == t.lower() or len(desc) < 40:
+            desc = ""
+        item = {"titulo": t, "descricao": desc[:500], "quando": dt.strftime("%d/%m %H:%M"), "link": it.findtext("link") or "", "_epoch": dt.timestamp()}
         if nome:
             item["fonte"] = nome
             item["fonte_bruta"] = fonte
@@ -212,7 +217,7 @@ def ler_feeds(o, corte, BRT, agora):
     itens, erros, http, feed_usado = [], [], None, None
     try:
         for url in feeds_de(o):
-            st = feeds_diretos.ler_status(url, corte, BRT, agora, limite=25)
+            st = feeds_diretos.ler_status(url, corte, BRT, agora, limite=40)
             http = st.get("http")
             feed_usado = url
             if st.get("ok") and st.get("itens"):
@@ -318,7 +323,7 @@ def coletar(horas):
     BRT = timezone(timedelta(hours=-3))
     agora = datetime.now(BRT)
     corte = agora - timedelta(hours=horas)
-    ritmo = {"pausa": 1.15, "horas": horas, "http_429": 0}
+    ritmo = {"pausa": 2.8, "horas": horas, "http_429": 0}
     descartados = Counter()
     portais = []
     # feeds em paralelo; o Google da reserva fica sequencial dentro de cada portal que precisar
