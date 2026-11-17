@@ -26,8 +26,6 @@ const JANELA_MIN = 20; // se um tique de 5 em 5 minutos falhar, ainda dispara at
 const TODOS_DIAS = [0, 1, 2, 3, 4, 5, 6]; // 0 = domingo
 const PADRAO = [
   { id: "ed-manha", job: "noticias", hora: "05:00", dias: TODOS_DIAS, ativo: true },
-  { id: "ed-meio-dia", job: "noticias", hora: "11:00", dias: TODOS_DIAS, ativo: true },
-  { id: "ed-noite", job: "noticias", hora: "18:00", dias: TODOS_DIAS, ativo: true },
 ];
 const agoraSP = (d = new Date()) => {
   const p = new Intl.DateTimeFormat("en-CA", {
@@ -101,6 +99,9 @@ const rodarAgenda = async (env) => {
   const n = agoraSP();
   for (const it of itens) {
     if (!it.ativo || !it.dias.includes(n.dia)) continue;
+    // Notícias automáticas só na edição das 06h. 12h e 19h ficam no botão do GitHub.
+    // A agenda salva no KV pode ainda ter os horários antigos; este filtro ignora.
+    if (it.job === "noticias" && (n.min < 5 * 60 || n.min >= 8 * 60)) continue;
     const alvo = hm(it.hora);
     if (n.min < alvo || n.min >= alvo + JANELA_MIN) continue;
     if ((await env.AGENDA.get(`ult:${it.id}`)) === n.data) continue;

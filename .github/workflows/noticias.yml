@@ -4,13 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       agendado:
-        description: "Disparo pelo agendador"
+        description: "Deixe em nao no botão Run workflow (roda a qualquer hora). O agendador manda sim e só gera a edição das 06h."
         required: false
         default: "nao"
-  push:
-    branches: [main]
-    paths:
-      - ".github/run-noticias"
 
 permissions:
   contents: write
@@ -21,7 +17,32 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  horario:
+    runs-on: ubuntu-latest
+    outputs:
+      seguir: ${{ steps.ok.outputs.seguir }}
+    steps:
+      - id: ok
+        env:
+          AGENDADO: ${{ github.event.inputs.agendado }}
+        run: |
+          if [ "$AGENDADO" != "sim" ]; then
+            echo "seguir=sim" >> "$GITHUB_OUTPUT"
+            echo "Disparo manual: a edição roda em qualquer hora."
+            exit 0
+          fi
+          H=$(TZ=America/Sao_Paulo date +%H)
+          if [ "$H" -ge 5 ] && [ "$H" -le 7 ]; then
+            echo "seguir=sim" >> "$GITHUB_OUTPUT"
+            echo "Agendador dentro da janela das 06h (${H}h BRT)."
+          else
+            echo "seguir=nao" >> "$GITHUB_OUTPUT"
+            echo "Agendador fora da edição das 06h (${H}h BRT). As 12h e as 19h ficam no botão Run workflow."
+          fi
+
   gerar:
+    needs: horario
+    if: needs.horario.outputs.seguir == 'sim'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     permissions:
