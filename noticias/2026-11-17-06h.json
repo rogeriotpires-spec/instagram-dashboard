@@ -1,0 +1,671 @@
+{
+  "generated": "2026-11-17T05:01:17-03:00",
+  "gerador": "regras",
+  "modelo": null,
+  "headline": "Japão diz que aviões russos violaram seu espaço aéreo; Brasil assina na COP31 pacto global por IA sustentável e empregos; Países da UE apresentam plano para criar centro para migrantes expulsos em Ruanda",
+  "top": [
+    "aereo-avioes-espaco-japao-russos-seu",
+    "assina-cop31-empregos-global-pacto-sustentavel",
+    "apresentam-centro-criar-expulsos-migrantes-paises",
+    "barra-daniel-entrevista-mantem-moraes-silveira",
+    "burnout-doentes-estao-outros-pessoas-precisar"
+  ],
+  "items": [
+    {
+      "id": "aereo-avioes-espaco-japao-russos-seu",
+      "segment": "politica",
+      "title": "Japão diz que aviões russos violaram seu espaço aéreo",
+      "summary": "Japão diz que aviões russos violaram seu espaço aéreo. Japão protesta após aeronaves russas invadirem seu espaço aéreo.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.5,
+      "outlets": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/mundo/japao-diz-que-avioes-russos-violaram-seu-espaco-aereo/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/japao-protesta-apos-aeronaves-russas-invadirem-seu-espaco-aereo/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/avioes-russos-violaram-espaco-aereo-do-japao-diz-governo-japones/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/16/japao-afirma-que-avioes-russos-violaram-seu-espaco-aereo.html",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "assina-cop31-empregos-global-pacto-sustentavel",
+      "segment": "politica",
+      "title": "Brasil assina na COP31 pacto global por IA sustentável e empregos",
+      "summary": "Brasil assina na COP31 pacto global por IA sustentável e empregos. Brasil assina acordo para uso sustentável da IA na COP31.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.3,
+      "outlets": [
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-assina-na-cop-31-pacto-global-por-ia-sustentavel-e-empregos",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUEdsSFBRUVVVeFBiU2owZThRUTlLd1dzdGR0NHBMZUc3VTdlZTdUeEVJMWZlcFBERUVKZUNPZW9SRkZDZmhkQThhUW5FVjd6dTBCWG1vWktDdnNQeTlYZkpnVm04aU1tOWtkZkJiYXdxTzVST3B0WmI0X05BbDNpZi1NMkhzY3NybGxyWHlaTEtuX29CcGwzdnkzZkc4dDh4bjdz?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/brasil/2026/11/16/brasil-assina-na-cop31-pacto-global-por-ia-sustentavel-e-empregos.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/16/brasil-assina-na-cop31-pacto-global-por-ia-sustentavel-e-empregos.html",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "apresentam-centro-criar-expulsos-migrantes-paises",
+      "segment": "politica",
+      "title": "Países da UE apresentam plano para criar centro para migrantes expulsos em Ruanda",
+      "summary": "Países da UE apresentam plano para criar centro para migrantes expulsos em Ruanda. Grupo de países da UE negocia centro para deportados em Ruanda.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.9,
+      "outlets": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/mundo/paises-da-ue-apresentam-plano-para-criar-centro-para-migrantes-expulsos-em-ruanda/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "DW Brasil",
+          "url": "https://www.dw.com/pt-br/grupo-de-países-da-ue-negocia-centro-para-deportados-em-ruanda/a-79963673?maca=bra-rss-br-all-1030-xml-mrss",
+          "camp": "internacional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/17/grupo-de-paises-da-ue-negocia-centro-para-deportados-em-ruanda.html",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "barra-daniel-entrevista-mantem-moraes-silveira",
+      "segment": "politica",
+      "title": "Moraes barra entrevista de Daniel Silveira e mantém tornozeleira",
+      "summary": "Moraes barra entrevista de Daniel Silveira e mantém tornozeleira. Moraes arquiva inquérito contra Daniel Silveira por desobediência.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.9,
+      "outlets": [
+        {
+          "name": "Diário do Poder",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdS1qLVVfVnk1Wm92bjRqQ0g4WW9ldTI5VjlGTHBYSHZOVk00WnJwOWpjYm9DTEV4dl9sTWlVWHBvTmVDR0lCcDhjTGlsczFTbDRDWEJpc1FqdU1nbEhLY0FlamRMUkl2YnppSTgtcGZvMFVheDlRMV9jRmlxaDFFdzh0SFJtQ2RWSzNEZFl4YVhIZWZGZFZIQktDX2FPeHgxUktqSWtuWWhlbF9JZHNlUHYxRXJiRHBlczlLQlFB0gHDAUFVX3lxTE1fSXg0SEsxbDZfRXhrU0FJSXY1WU1tMUlKT3RqWlRaU00yeUlFa3loc2ktSi1hTW80NWVNZnhpSk9OVVJXZmNjZUFNQ3BrZ2o1Z1RadU5Fb000a0ZnMld5TGdzYzFTNHE2UV8zQXctRElwaFlMS3Bvd3l5dkE3ZEU5YTZYSndIVUxLYWV0TVVpSzhoOG5Vc3loMnc5MzF1NzJqc2pMajdld21JY2Y3Mm81N2cyMWl1NlRNVTVhMGE3QWdiYw?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNHZWNUV4VEFreU43WEd4ZFZyZklLOXhBSVJlZW5WN1lZZzNPUVVRX1l2Y2c1VlJaeEc3cEFBMzd1ZW4wV0R1VS1UVEtYT0M4X0dfRWhDU0NQaFZzYjF2MUdxeWRaRDdjampKQVQ2ZGNMMzRPd25zUVZVLU9OaU4xXzBjUHAyUUliUmx3dTRDUFQ1eWlrR211Nm9JY0xIQUxlZTlybVhZTnE?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/politica/moraes-arquiva-inquerito-contra-daniel-silveira-por-desobediencia/",
+          "camp": "esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "burnout-doentes-estao-outros-pessoas-precisar",
+      "segment": "politica",
+      "title": "Pessoas com burnout e outros transtornos se sobrecarregam ao precisar provar que estão doentes",
+      "summary": "Pessoas com burnout e outros transtornos se sobrecarregam ao precisar provar que estão doentes.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.7,
+      "outlets": [
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/11/pessoas-com-burnout-e-outros-transtornos-se-sobrecarregam-ao-precisar-provar-que-estao-doentes.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/pessoas-com-burnout-e-outros-transtornos-se-sobrecarregam-ao-precisar-provar-que-estao-doentes.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, UOL) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "apresentam-bancos-eua-falha-grandes-tecnica",
+      "segment": "internacional",
+      "title": "Grandes bancos dos EUA apresentam falha técnica",
+      "summary": "Grandes bancos dos EUA apresentam falha técnica. Clientes relatam problemas no acesso aos serviços de grandes bancos dos EUA: o que se sabe. Grandes bancos dos Estados Unidos sofrem com falha técnica.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.3,
+      "outlets": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/mundo/grandes-bancos-dos-eua-apresentam-falha-tecnica/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/grandes-bancos-dos-estados-unidos-sofrem-com-falha-tecnica/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "BBC News Brasil",
+          "url": "https://www.bbc.com/portuguese/articles/c6y0xnk5xjzno?at_medium=RSS&at_campaign=rss",
+          "camp": "internacional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "agora-ajuste-descarta-enviar-fiscal-pec",
+      "segment": "economia",
+      "title": "Pimenta descarta enviar agora de PEC de ajuste fiscal",
+      "summary": "Pimenta descarta enviar agora de PEC de ajuste fiscal. Ajuste fiscal garantirá promessas de Lula, diz Pimenta.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.2,
+      "outlets": [
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/politica/noticia/2026/11/16/pimenta-atribui-resistencia-ao-plp-do-ajuste-a-desconhecimento-e-descarta-envio-de-pec.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxON29vbDZkbWo4VGx2VVNYU1NjMVVldlVtUnZTUG81VFdoY2EzSVh6dmw3NUlwQi01bkdtUjJEekRrX0tsMkc4MEs3dW1NTDYwbXo0OFVvTmFiU0gxbFktM25sb1ctMllTVnpRWTBQRnFNZGFKTV9nQjRIaHNaYmw1Z2ZoUFd2a01xX1JCLTVUeWxwWGl5U0JKV2R6UlE1Zw?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "afastar-anuncios-humano-pesquisa-podem-publico",
+      "segment": "ciencia",
+      "title": "Anúncios com IA que simulam sentimento humano podem afastar público, aponta pesquisa",
+      "summary": "Anúncios com IA que simulam sentimento humano podem afastar público, aponta pesquisa.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.8,
+      "outlets": [
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/anuncios-com-ia-que-simulam-sentimento-humano-podem-afastar-publico-aponta-pesquisa.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://c-level.folha.uol.com.br/ia/2026/11/anuncios-com-ia-que-simulam-sentimento-humano-podem-afastar-publico-aponta-pesquisa.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "dois-faz-ingles-joia-peru-robinho",
+      "segment": "esportes",
+      "title": "Brasil Sub-20 faz 9 a 0 no Peru com três de joia do Vasco, dois de Robinho Jr. e um de ‘inglês’",
+      "summary": "Brasil Sub-20 faz 9 a 0 no Peru com três de joia do Vasco, dois de Robinho Jr. e um de ‘inglês’.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.8,
+      "outlets": [
+        {
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON2JNSFY3eS0tVnJjamFJVnlGelZvTjBRWkRWWTM5X1lxUUc5eUlmUElsQjVuMW1RaUFnWkVfdXNYWkxvc1FMSU1Jc1NwVmxZdElWem9EMUtEQXVLRDBsYnduTlk4WURIaDBnZ1hRSVNYZE1Kd21RdmtBZk11cUpQSGtjQV8tYWZXMlBBanFnVjVOSjhIUzhTREswRVVXMjN4YXpsRW1VQVJ6SHkxQVRMdGZSNlV5ekVtbWNVQ1AybXB3RWQ3YnFjYk9qUWxvYzFldlHSAdcBQVVfeXFMTkd6M3lpZFJGOXUwT1RfNDdIUTZUXzFtQlJCZnM4a0JyaGRnblZ2bWNsTDY0dVJpNjB5c29WemRlRDJtTk12ZGhld3ViaUNMdnhGSl83eFJkeUxyOVNCLS16SUJhTEZpOFNyREhtSDZ0T05WM01jQTVJUmc3cENReXZZQVEwUGZNck1RbXVCUExUNEI4cW0ycE9hMDZIOEJyWXhlZExMT2FuZWNaNlR4M0xVRm1aSFc3S2huaXlPcl82VjNYbmRQalZCdS1ldm1aNjVXanRTN28?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/esportes/futebol/brasil-sub-20-faz-9-a-0-no-peru-com-tres-de-joia-do-vasco-dois-de-robinho-jr-e-um-de-ingles,bda3fbb7a4245f404f667719147ca64eb5m235rw.html",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "caravana-caxias-centro-duque-educacao-inclusao",
+      "segment": "educacao",
+      "title": "Duque de Caxias recebe Caravana de Inovação e Inclusão do Centro de Referência em Educação Inclusiva Sesc Senac",
+      "summary": "Duque de Caxias recebe Caravana de Inovação e Inclusão do Centro de Referência em Educação Inclusiva Sesc Senac.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ0dEZm41Vjdxc1VBZGdBUUtXUkpuVGQ1ZFM1WVRTejVIYzgxdTEyRFY0RkVXeUFuemNwWjNHaDNhc0FTOE51MDZyeVFIczVHMDNFaGwzU3lNUGZEeTRuYkpYc3VEYnlveDJQb0hmeXlFMXhsN3hhZHRhalhxeURaTnVrSVBHSVZwUDRTM1BIUURleHRpSnM1S0dPVTUyZnkyeEp0LThtR2J3cHdoQ09IVUxoMWF2MG0xYXhnd0VLNzgteFR6dnZfU2M2SUJDWk9VYkU1OGFuYnN5N2daU1htMy1CcDdBN0oyeWdKc1RieVRVdw?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ate-desconto-dividas-juros-negociar-propos",
+      "segment": "rio",
+      "title": "Por que governo do Rio propôs negociar dívidas com desconto de até 95% nos juros",
+      "summary": "Por que governo do Rio propôs negociar dívidas com desconto de até 95% nos juros.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/brasil/por-que-governo-do-rio-propos-negociar-dividas-com-desconto-de-ate-95-nos-juros/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "aprendizes-dia-feirao-promove-trt-vagas",
+      "segment": "rio",
+      "title": "TRT-RJ promove Feirão de Vagas para Aprendizes no dia 24",
+      "summary": "TRT-RJ promove Feirão de Vagas para Aprendizes no dia 24.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/trt-rj-promove-feirao-de-vagas-para-aprendizes-no-dia-24.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "africa-apoio-busca-janeiro-mandela-nelson",
+      "segment": "rio",
+      "title": "Antes de virar presidente da África do Sul, Nelson Mandela veio ao Rio de Janeiro em busca de apoio político",
+      "summary": "Antes de virar presidente da África do Sul, Nelson Mandela veio ao Rio de Janeiro em busca de apoio político.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQOXJiWXpyU2E4SUFUelFUTXRWZmJ0NHdZWEw2LUQ0ZjloQUdSZ29wTGZCdy02Sl9pN19JSHgyNTBQdzZtX0cwSk1FZlFOMTd5VWlSMzhmTVoyZHlxNkY0YllLNkF4dzVLNUlsTktvRHR3eDdXand3Q205M0tpVjNYNWdFWnZLeDdKRjJFOVUweW9uT1dqUTk2NDd2XzQwRVo2SUtXLVNlTnZkc0NPX19RaHdPRm4yTl9uYWFFRjBiQjRCZkZGZ3ByaTVaZkRxOTJPalpXZG5MRW5Ielp1bkdXUGZPSlFMdHZHWVBHWEhYQ09feEJWZDc4Uk4yY1JnaWJIQV9WNmtn?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "atualizar-casos-diariamente-mpox-painel-passa",
+      "segment": "rio",
+      "title": "RJ passa a atualizar painel de casos de mpox diariamente",
+      "summary": "RJ passa a atualizar painel de casos de mpox diariamente.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7323099-rj-passa-a-atualizar-painel-de-casos-de-mpox-diariamente.html",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ancelotti-atacar-fala-peso-poder-romario",
+      "segment": "esportes",
+      "title": "Romário volta a atacar trabalho de Ancelotti na seleção: ‘Tenho tamanho, peso e poder de fala’",
+      "summary": "Romário volta a atacar trabalho de Ancelotti na seleção: ‘Tenho tamanho, peso e poder de fala’. Ancelotti admite trabalho insuficiente na Seleção e rebate Romário: 'Fala muito'.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.5,
+      "outlets": [
+        {
+          "name": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS0RzNkpVQUtMb3NiLXFMRG4xTFlSejhDUFBqS2JQbDU2NjhlM0VHZVlvMUJTbFVVUnM5ODdmSUJ5RnUtX2VneWE0aUtWdFU1OVY3RnhKWlZYek9zR2dycFBqdGJ2bTZtX29sbVRCMXNQeEpHbG44VzRSSkdQbHBURGhYazRzSXo2N2UyaWFyd2E0SG8wR0I4TDA3Y2ZMZHlIeUJyNnM3VnRHdG1XR1FEOEhkU3hBTW1KTHNYYUczczJOMnNfSm0wTGthRmJ6S0JP0gHWAUFVX3lxTE1qN3Brcl9KMWVnQWFldzdiWlo0T25SUVV5Z2RDMHpTNUtlQ01NSGlNUDh2ZGl3d3N6MUwxaDVoUnVZOUVPSFZTX1N3YUpaVXdhR3BsTnNVZ3NQZi1GcTFnVTdvMDdTNHNqQjNQTm8ybVM5TEZjSW9JVzVoTzFTRXp6M25rX3hkVWZoaGRKeDRmQ2p5anlsb0J4TVQ2RG5zZHRrMk1iTk1GaWZNWVZfMnAyOTJQVlZ1WXNTdzFvMEcyYURwby1JYXVtXzRVUlY0d0NhdXc5NlE?oc=5",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/esporte/ancelotti-admite-trabalho-insuficiente-na-selecao-e-rebate-romario-fala-muito/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "apenas-espioes-historia-jogo-maior-mentiras",
+      "segment": "ciencia",
+      "title": "Mentiras, espiões e sexo são apenas uma parte da história da Nvidia. O que está realmente em jogo é muito maior",
+      "summary": "Mentiras, espiões e sexo são apenas uma parte da história da Nvidia. O que está realmente em jogo é muito maior.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/internacional/mentiras-espioes-e-sexo-sao-apenas-uma-parte-da-historia-da-nvidia-o-que-esta-realmente-em-jogo-e-muito-maior-17112026/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "detalhes-divulgam-empresa-eua-investigacao-ligada",
+      "segment": "ciencia",
+      "title": "EUA divulgam detalhes de investigação sobre empresa ligada à Nvidia",
+      "summary": "EUA divulgam detalhes de investigação sobre empresa ligada à Nvidia.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/tecnologia/eua-divulgam-detalhes-de-investigacao-sobre-empresa-ligada-a-nvidia/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "amazonia-barragens-garimpo-ilegal-monitoramento-orbita",
+      "segment": "ciencia",
+      "title": "Novo satélite com IA em órbita promete revolucionar monitoramento da Amazônia, garimpo ilegal e barragens",
+      "summary": "Novo satélite com IA em órbita promete revolucionar monitoramento da Amazônia, garimpo ilegal e barragens.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/negocios/noticia/2026/11/17/novo-satelite-com-ia-em-orbita-promete-revolucionar-monitoramento-da-amazonia-garimpo-ilegal-e-barragens.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "acerto-giay-mauricio-negocia-palmeiras",
+      "segment": "esportes",
+      "title": "Após Giay e Maurício, Palmeiras negocia novo acerto",
+      "summary": "Após Giay e Maurício, Palmeiras negocia novo acerto.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/esportes/palmeiras/apos-giay-e-mauricio-palmeiras-negocia-novo-acerto,aa60fa4f2a1c44a2da18fd2fb47a31b9f5f1ixtg.html",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "candidato-conheca-corinthians-ilmar-presidencia-schiavenato",
+      "segment": "esportes",
+      "title": "Conheça Ilmar Schiavenato, candidato à presidência do Corinthians",
+      "summary": "Conheça Ilmar Schiavenato, candidato à presidência do Corinthians.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/corinthians/conheca-ilmar-schiavenato-candidato-a-presidencia-do-corinthians/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ajudar-assinar-kaka-milan-palmeiras-pode",
+      "segment": "esportes",
+      "title": "Kaká pode ajudar Milan a assinar com ex-Palmeiras",
+      "summary": "Kaká pode ajudar Milan a assinar com ex-Palmeiras.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/esportes/palmeiras/kaka-pode-ajudar-milan-a-assinar-com-ex-palmeiras,3f4a38ecffa9a0a967c789e314d59d12c5c3oviu.html",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "ciencia-dados-estado-fluminenses-lanca-municipios",
+      "segment": "ciencia",
+      "title": "Governo do Estado lança plataforma com dados de ciência e tecnologia dos municípios fluminenses",
+      "summary": "Governo do Estado lança plataforma com dados de ciência e tecnologia dos municípios fluminenses.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 3.5,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSXhvNnEyVGlJalRGTklIZEtnbks4dXp5aFRBRjNsT3UxdHZzRklwZ3J1TUd0dGxDdThSaE5iVHI0WUR5aWNQZjY1T2FvbFlwRHZBa1dtUExMd3FSQ3plWS11aDZIT00xSWxJQjYtbHZDb2VGdEYyLWJPR0ZBc2c4d2dHdWRjYjRLVW00RlZVX1ZkQzM0bm5RbV92YUg0U2Flc1lzakwzclJ3X0xQVURUUEZYeHExN01Nb243YkhHM04xMmlBQTY0WEVJZTZON3oyT1RDcF9PUWVwS2xG?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    }
+  ],
+  "x_trends": [],
+  "removidas_repetidas": [
+    "Na Ásia, Trump se prepara para encontro inédito com Putin e Xi Jinping"
+  ]
+}
