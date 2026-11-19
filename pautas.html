@@ -324,7 +324,7 @@ fetch("pautas/index.json?"+Date.now()).then(r=>r.json()).then(ix=>{DAYS=(ix.days
   const h=location.hash.slice(1);load(DAYS.includes(h)?h:DAYS[DAYS.length-1]);
 }).catch(()=>{$("#updated").textContent="Nenhuma pauta publicada ainda."});
 
-Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"pautas",wf:"pautas.yml",minutes:30,needsClaude:true,
+Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"pautas",wf:"pautas.yml",minutes:30,
   stamp:()=>fetch("pautas/index.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(i=>{const d=i.days[i.days.length-1];return fetch("pautas/"+d+".json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(x=>d+x.generated)}),
   labels:{running:"Gerando a pauta: pesquisando e escrevendo (15 a 25 minutos)…"}});
 </script>
