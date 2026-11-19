@@ -2,8 +2,8 @@
   "date": "2026-11-19",
   "generated": "2026-11-19T09:35:03-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Gonet volta a analisar relatórios da PF no caso Master após questionar investigação sobre Moraes; Andrei obriga PF a pagar preço da blindagem do STF no caso Master; Senado aprova ajuste fiscal de Lula; PGR denuncia Flávio Bolsonaro ao STF",
-  "abertura": "O destaque do dia é a volta do procurador-geral Paulo Gonet à análise dos relatórios da PF no caso Master, após questionar a investigação sobre Alexandre de Moraes e reacender o debate sobre o papel da PGR e do governo nessas apurações. Em paralelo, o diretor da PF, Andrei Rodrigues, entrega relatórios sobre ministros do STF e coloca a corporação sob pressão institucional. No Congresso, o Senado aprova o ajuste fiscal do governo Lula, que segue agora para a Câmara em meio à reação do mercado. E no Judiciário, a PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula, mostrando o peso das disputas institucionais e o avanço do ativismo político no país.",
+  "titulo": "Xi defende integração econômica e cooperação entre países da Ásia-Pacífico; Gonet volta a analisar relatórios da PF no caso Master após questionar investigação sobre Moraes; Andrei obriga PF a pagar preço da blindagem do STF no caso Master; Senado aprova ajuste fiscal de Lula; PGR denuncia Flávio Bolsonaro ao STF",
+  "abertura": "O destaque internacional do dia é a defesa feita por Xi Jinping da integração econômica e da cooperação entre os países da Ásia-Pacífico, durante a cúpula da APEC, em um momento de reaproximação estratégica entre as potências da região. No Brasil, o procurador-geral Paulo Gonet retoma a análise dos relatórios da PF no caso Master, enquanto o diretor da PF, Andrei Rodrigues, entrega documentos sobre ministros do STF e coloca a corporação sob pressão institucional. No Congresso, o Senado aprova o ajuste fiscal do governo Lula, que segue agora para a Câmara em meio à reação do mercado. E no Judiciário, a PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula, evidenciando o peso das disputas institucionais e o avanço do ativismo político no país.",
   "agenda": [
     {
       "time": "10h",
@@ -87,6 +87,38 @@
       "atencao": "Complementa o item 3 (PF entrega relatórios sobre ministros do STF no caso Master e PGR volta a analisar investigação)",
       "avulsa": true,
       "pedido": "Assunto em alta no X: Jason. Após questionar investigação sobre Moraes, Gonet terá nova análise de relatórios da PF no caso Master Como usar: explicar processo de investigação e atuação do governo https://x.com/search?q=Jason"
+    },
+    {
+      "id": "avulso-asia-pacifico-2026",
+      "bloco": "Internacional",
+      "titulo": "Xi defende integração econômica e cooperação entre países da Ásia-Pacífico",
+      "subtitulo": "Presidente chinês destaca importância de fortalecer laços regionais durante cúpula da APEC",
+      "resumo": "O presidente da China, Xi Jinping, defendeu a integração econômica e a cooperação entre os países da Ásia-Pacífico durante a cúpula da APEC. Xi ressaltou que a região precisa trabalhar unida para enfrentar desafios globais e promover o desenvolvimento sustentável. O líder chinês enfatizou a necessidade de fortalecer o comércio e os investimentos entre os países-membros. Xi também destacou o papel da China como motor de crescimento regional. O discurso ocorre em meio a movimentos de aproximação e acordos estratégicos entre potências da região.",
+      "contexto": [
+        "A cúpula da APEC reúne líderes das principais economias da Ásia-Pacífico",
+        "A China busca ampliar sua influência regional e global",
+        "O discurso de Xi ocorre em meio a tensões comerciais e disputas geopolíticas",
+        "A integração econômica é vista como resposta a desafios globais",
+        "A região concentra grande parte do crescimento econômico mundial"
+      ],
+      "angulo": [
+        "Xi reforça a posição da China como liderança regional",
+        "A integração econômica é apresentada como alternativa ao protecionismo",
+        "O discurso sinaliza busca por estabilidade e cooperação em meio a disputas globais"
+      ],
+      "perguntas": [
+        "Quais impactos a defesa de Xi pode ter para o comércio na Ásia-Pacífico?",
+        "Como a aproximação entre potências da região influencia o cenário global?",
+        "A integração econômica pode reduzir tensões geopolíticas na Ásia?"
+      ],
+      "fontes": [
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/pt-br/eua-e-venezuela-assinam-acordo-de-cooperação-militar/a-79986275?maca=bra-rss-br-all-1030-xml-mrss"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Xi defende integração econômica e cooperação entre países da Ásia-Pacífico https://www.dw.com/pt-br/eua-e-venezuela-assinam-acordo-de-cooperação-militar/a-79986275?maca=bra-rss-br-all-1030-xml-mrss"
     },
     {
       "id": "ajuste-fiscal-senado-aprova",
@@ -309,5 +341,5 @@
     }
   ],
   "excluidos": [],
-  "atualizado": "2026-11-19T09:48:46-03:00"
+  "atualizado": "2026-11-19T10:09:48-03:00"
 }
