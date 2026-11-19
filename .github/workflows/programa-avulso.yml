@@ -8,6 +8,11 @@ on:
         required: false
         default: ""
         type: string
+      pedido:
+        description: "Texto do pedido (com a url) para usar no lugar do corpo da issue. Só vale junto com issue."
+        required: false
+        default: ""
+        type: string
   issues:
     types: [opened]
 
@@ -53,6 +58,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GH_TOKEN: ${{ github.token }}
           AVULSO_ISSUE: ${{ github.event.inputs.issue }}
+          AVULSO_PEDIDO: ${{ github.event.inputs.pedido }}
         run: python3 tools/gerar_programa_avulso.py
       - name: Publicar
         if: steps.ia.outputs.changed == '1'
