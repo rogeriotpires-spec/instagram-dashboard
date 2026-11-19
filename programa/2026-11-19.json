@@ -2,8 +2,8 @@
   "date": "2026-11-19",
   "generated": "2026-11-19T09:35:03-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Senado aprova ajuste fiscal de Lula; PF e PGR analisam ministros do STF no caso Master; PGR denuncia Flávio Bolsonaro ao STF",
-  "abertura": "O Senado aprovou o ajuste fiscal do governo Lula, que agora segue para a Câmara, em meio à preocupação do mercado e impacto no dólar. No Judiciário, a Polícia Federal entregou relatórios sobre ministros do STF à PGR, que volta a analisar o caso Master após questionamentos recentes. A Procuradoria-Geral da República também denunciou Flávio Bolsonaro ao STF por calúnia contra Lula. Esses movimentos mostram o avanço do ativismo institucional e as disputas políticas que marcam o cenário nacional.",
+  "titulo": "Andrei obriga PF a pagar preço da blindagem do STF no caso Master; Senado aprova ajuste fiscal de Lula; PGR denuncia Flávio Bolsonaro ao STF",
+  "abertura": "O destaque do dia é a decisão do diretor da PF, Andrei Rodrigues, que entrega relatórios sobre ministros do STF no caso Master e coloca a corporação sob pressão institucional. No Congresso, o Senado aprova o ajuste fiscal do governo Lula, que segue agora para a Câmara em meio à reação do mercado. E no Judiciário, a PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula. Esses fatos mostram o peso das disputas institucionais e o avanço do ativismo político no país.",
   "agenda": [
     {
       "time": "10h",
@@ -23,6 +23,39 @@
     }
   ],
   "itens": [
+    {
+      "id": "avulso-master-pf-stf",
+      "bloco": "STF e instituições",
+      "titulo": "Andrei obriga PF a pagar preço da blindagem do STF no caso Master",
+      "subtitulo": "Diretor da PF, Andrei Rodrigues, determina entrega de relatórios sobre ministros do STF e coloca pressão sobre a corporação no caso Banco Master.",
+      "resumo": "O diretor-geral da Polícia Federal, Andrei Rodrigues, determinou a entrega dos relatórios sobre ministros do STF no caso Banco Master. A medida atende à exigência do presidente do STF, Edson Fachin, e expõe a PF ao desgaste de investigar a própria Corte. A Procuradoria-Geral da República terá 15 dias para analisar os documentos enviados. O caso reacende o debate sobre a blindagem institucional do STF e o papel da PF em investigações sensíveis. O movimento de Andrei mostra o custo político de atender demandas do Supremo em meio à pressão pública.",
+      "contexto": [
+        "Relatórios da PF envolvem ministros do STF no caso Banco Master",
+        "Presidente do STF, Edson Fachin, exigiu entrega dos documentos",
+        "PGR terá 15 dias para analisar os relatórios",
+        "Diretor da PF, Andrei Rodrigues, cumpre determinação e expõe a corporação",
+        "Discussão sobre blindagem do STF volta ao centro do debate"
+      ],
+      "angulo": [
+        "A PF é obrigada a se expor ao investigar ministros do STF, atendendo à pressão institucional",
+        "A decisão de Andrei Rodrigues evidencia o custo político de proteger o Supremo",
+        "O caso reforça o debate sobre a autonomia da PF diante do ativismo do STF"
+      ],
+      "perguntas": [
+        "A entrega dos relatórios pela PF pode mudar a relação entre Supremo e Polícia Federal?",
+        "Como a PGR vai agir diante da pressão para blindar ministros do STF?",
+        "O caso Master pode abrir espaço para investigações mais transparentes sobre o Judiciário?"
+      ],
+      "fontes": [
+        {
+          "name": "Jota",
+          "url": "https://www.jota.info/stf/do-supremo/pgr-tera-15-dias-para-analisar-relatorios-da-pf-sobre-ministros-do-stf-no-caso-master"
+        }
+      ],
+      "atencao": "Complementa o item 2 (PF entrega relatórios sobre ministros do STF no caso Master e PGR volta a analisar investigação)",
+      "avulsa": true,
+      "pedido": "Master: Andrei faz PF pagar o preço da blindagem do STF https://www.jota.info/stf/do-supremo/pgr-tera-15-dias-para-analisar-relatorios-da-pf-sobre-ministros-do-stf-no-caso-master"
+    },
     {
       "id": "ajuste-fiscal-senado-aprova",
       "bloco": "Economia",
@@ -243,5 +276,6 @@
       ]
     }
   ],
-  "excluidos": []
+  "excluidos": [],
+  "atualizado": "2026-11-19T09:48:19-03:00"
 }
