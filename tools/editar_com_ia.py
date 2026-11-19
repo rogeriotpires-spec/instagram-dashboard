@@ -96,7 +96,7 @@ def carregar_manchetes(coleta, cfg):
         o = por_nome.get(nome)
         if not o or not titulo or not link:
             return
-        if notas.eh_entretenimento(titulo):
+        if notas.eh_entretenimento(titulo, link, descricao):
             return
         chave = (nome, notas.norm(titulo)[:90])
         if chave in vistos:
@@ -416,7 +416,9 @@ def montar_itens(brutos, grupos, por_id, cfg, disponiveis, recentes_lista, dia):
         titulo = notas.sem_travessao((bruto.get("titulo") or "").strip()) or por_id[ids[0]]["titulo"]
         resumo = notas.sem_travessao((bruto.get("resumo") or "").strip())
         dica = next((por_id[i]["dica"] for i in ids if por_id[i].get("dica")), "")
-        seg = notas.ajustar_segmento(titulo, bruto.get("segmento") or "", dica)
+        urls = " ".join(por_id[i].get("link") or "" for i in ids)
+        desc = " ".join(por_id[i].get("descricao") or "" for i in ids)
+        seg = notas.ajustar_segmento(titulo, bruto.get("segmento") or "", dica, urls, resumo or desc)
         if not seg:
             motivos["entretenimento"] += 1
             continue
@@ -893,12 +895,18 @@ def _fatos_do_lote(bloco, completar, prefixo, profundidade=0):
         print(f"IA: lote {prefixo} deixou {len(faltam)} manchetes fora; cada uma vira fato", file=sys.stderr)
     por_lote = {h["id"]: h for h in bloco}
     for j, h in enumerate(faltam):
+        if notas.eh_entretenimento(h["titulo"], h.get("link") or "", h.get("descricao") or ""):
+            continue
+        # Sem palavra-chave de editoria, a sobra não vira Política nem ganha nota 9 de portal de peso.
+        seg = notas.segmento_por_titulo(h["titulo"], h.get("dica") or "")
+        if not seg:
+            continue
         tier = h.get("tier") or 3
         rel = 9 if tier == 1 else 7 if tier == 2 else 4
         fatos.append({
             "cid": f"{prefixo}s{j}",
             "ids": [h["id"]],
-            "segmento": notas.segmento_por_titulo(h["titulo"], h.get("dica") or ""),
+            "segmento": seg,
             "relevancia": rel,
         })
     for f in fatos:
@@ -1054,6 +1062,14 @@ def _tier_fato(fato, por_id):
     return min(tiers) if tiers else 3
 
 
+def _tem_sinal_politica(fato, por_id):
+    texto = " ".join(
+        " ".join(filter(None, [por_id[i].get("titulo") or "", por_id[i].get("descricao") or ""]))
+        for i in fato.get("ids") or [] if i in por_id
+    )
+    return any(notas.contem_termo(texto, k) for k in notas.SINAIS_POLITICA)
+
+
 def selecionar_fatos(fatos, por_id):
     """Fatos de 2 ou mais veículos entram primeiro. Portal único de peso e alta
     relevância completa as seções fracas até a edição ficar entre 32 e 40."""
@@ -1065,6 +1081,9 @@ def selecionar_fatos(fatos, por_id):
             continue
         item = dict(f, n=len(nomes), relevancia=f.get("relevancia") or 5)
         if item["segmento"] not in SEGMENTOS:
+            # Sem sinal político, a sobra sem seção não volta a cair em Política.
+            if not _tem_sinal_politica(item, por_id):
+                continue
             item["segmento"] = "politica"
         preparados.append(item)
     print("IA: fatos por seção " + " ".join(f"{s}={n}" for s, n in Counter(f["segmento"] for f in preparados).most_common()), file=sys.stderr)
@@ -1089,6 +1108,9 @@ def selecionar_fatos(fatos, por_id):
     for f in singles:
         if len(escolhidos) >= 40:
             break
+        # Um portal de peso não completa Política com moda, novela ou lista.
+        if f["segmento"] == "politica" and not _tem_sinal_politica(f, por_id):
+            continue
         teto = 8 if f["segmento"] in _FRACAS else 5
         if cont[f["segmento"]] >= teto:
             continue
@@ -1104,6 +1126,8 @@ def selecionar_fatos(fatos, por_id):
         if cont[seg]:
             continue
         cand = [f for f in fracos if f["segmento"] == seg and id(f) not in ja]
+        if seg == "politica":
+            cand = [f for f in cand if _tem_sinal_politica(f, por_id)]
         cand.sort(key=lambda f: (-f["relevancia"], _tier_fato(f, por_id)))
         if not cand:
             continue
@@ -1292,6 +1316,30 @@ def _self_test():
     assert all(f["cid"] != "pol2" for f in escolha)
     assert sum(1 for f in escolha if f["segmento"] == "politica") == 5
     assert any(f["segmento"] == "economia" and f.get("completar_secao") for f in escolha)
+    por_falso["unha"] = {
+        "id": "unha", "nome": "O Globo", "tier": 1,
+        "titulo": "Verão 2027 troca o excesso de decoração por unhas curtas e acabamento impecável",
+        "link": "https://oglobo.globo.com/ela/noticia/2026/11/18/verao-2027.ghtml",
+        "descricao": "A proposta valoriza unhas curtas e o acabamento.",
+    }
+    fatos_teste.append({"cid": "lifestyle", "ids": ["unha"], "segmento": "politica", "relevancia": 9})
+    escolha2 = selecionar_fatos(fatos_teste, por_falso)
+    assert all(f["cid"] != "lifestyle" for f in escolha2)
+    assert any(f["cid"] == "pol1" for f in escolha2)
+    coleta_ela = {"portais": [{
+        "nome": "O Globo", "camp": "centro", "manchetes": [
+            {"titulo": "Verão 2027 troca o excesso de decoração por unhas curtas e acabamento impecável",
+             "link": "https://oglobo.globo.com/ela/noticia/2026/11/18/verao-2027.ghtml"},
+            {"titulo": "Ismália arma contra o próprio marido, Cesário",
+             "link": "https://oglobo.globo.com/play/novelas/noticia/2026/11/18/ismalia.ghtml"},
+            {"titulo": "Senado adia votação do ajuste fiscal",
+             "link": "https://oglobo.globo.com/politica/noticia/2026/11/18/senado.ghtml"},
+        ],
+    }], "temas": {}}
+    mans_ela = carregar_manchetes(coleta_ela, cfg)
+    titulos_ela = [h["titulo"] for h in mans_ela]
+    assert all("unhas" not in x.lower() and "Ismália" not in x for x in titulos_ela)
+    assert any("Senado" in x for x in titulos_ela)
     assert _corrigir_secao(
         {"segmento": "seguranca", "ids": ["x"]},
         {"x": {"titulo": "PF entrega relatório sobre ministros do STF no caso Master"}},
