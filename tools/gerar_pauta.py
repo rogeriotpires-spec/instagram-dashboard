@@ -435,7 +435,11 @@ REGRAS DE SAÍDA:
 - Reel (type r): duration (notícia ou reação até 30s; análise até 60s; teste com 2 ganchos em hooks), script corrido para teleprompter (frase mais forte primeiro, fecha com pergunta fechada ou pedido de envio), screen_text com 2 a 4 linhas, hooks quando for teste.
 - Carrossel (type c): slides com 6 a 10 strings (capa com gancho, um dado por slide, último pedindo salvar ou enviar); prompt e art_text para a capa; style.
 - Stories (type s): poll com question e options (duas respostas curtas). slides opcionais de resumo.
-- risk: "baixo", "médio" ou "alto"; risk_note objetiva. Nunca afirme crime sem condenação.
+- risk: OBRIGATÓRIO e só um destes valores exatos: "baixo", "médio" ou "alto" (nunca vazio). risk_note objetiva. Nunca afirme crime sem condenação.
+
+FORMATO OBRIGATÓRIO DE CADA OPTION (use exatamente estes nomes de chave, em inglês; nunca deixe title, fact, sources, caption ou risk vazios):
+{{"title": "manchete", "tone": "contundente", "fact": "o fato em 1 ou 2 frases", "sources": [{{"name": "Veículo", "url": "url dos insumos"}}], "caption": "legenda terminando em pergunta fechada", "risk": "baixo", "risk_note": "...", "timeline": {{"rende": false, "motivo": "..."}}, ...campos do tipo do slot}}
+Cada slot: {{"time": "...", "type": "...", "kind": "...", "options": [option A, option B]}}. "options" é uma LISTA com dois objetos, nunca um objeto com chaves A e B.
 - timeline: {{"rende": true, "angle": "..."}} quando der artigo de 600 a 1.200 palavras; {{"rende": false, "motivo": "..."}} caso contrário.
 - title: manchete direta, sujeito e verbo, fiel ao que os jornais publicaram, sem metáfora nem enigma, até cerca de 90 caracteres. Provocação fica na arte, nos ganchos e na legenda. Português do Brasil. NUNCA use travessão (— ou –). Primeira pessoa quando for fala dele.
 - Não repita tema ou fato já pautado nos 3 dias anteriores, nem itens excluídos, nem pedidos sob demanda ou pautas quentes da janela. Exceção: desdobramento novo de verdade (fato novo nas últimas 24 horas). Aí o title e o fact giram em torno do fato novo e a option leva "desdobramento": "o fato novo, em uma frase". Carrossel de resumo da semana leva "desdobramento": "resumo da semana" e traz pelo menos 2 fatos novos.
@@ -501,21 +505,78 @@ def _filtrar_fontes(sources, permitidas):
     return out
 
 
+# Chaves alternativas que o modelo às vezes usa no lugar das oficiais.
+CHAVES_TITLE = ("title", "titulo", "título", "manchete", "headline", "tema")
+CHAVES_FACT = ("fact", "fato", "fatos", "facts", "resumo_fato", "descricao", "descrição", "contexto")
+# Variações de risco aceitas; vazio ou desconhecido vira "médio" (cautela).
+RISCO_MAP = {
+    "baixo": "baixo", "low": "baixo", "baixa": "baixo", "pequeno": "baixo",
+    "médio": "médio", "medio": "médio", "média": "médio", "media": "médio",
+    "medium": "médio", "moderado": "médio", "moderate": "médio",
+    "alto": "alto", "alta": "alto", "high": "alto", "elevado": "alto",
+}
+RISCO_PADRAO = "médio"
+
+
+def _primeiro_texto(opt, chaves):
+    for k in chaves:
+        v = opt.get(k)
+        if isinstance(v, list):
+            v = " ".join(str(x) for x in v if str(x).strip())
+        if isinstance(v, str) and v.strip():
+            return v.strip()
+    return ""
+
+
+def _titulo_do_fato(fact, limite=90):
+    """Manchete de emergência: primeira frase do fato, cortada em ~90 caracteres."""
+    frase = re.split(r"(?<=[.!?])\s+", fact.strip(), maxsplit=1)[0].rstrip(".")
+    if len(frase) > limite:
+        frase = frase[:limite].rsplit(" ", 1)[0]
+    return frase
+
+
+def _desembrulhar_option(opt):
+    """Aceita {"A": {...}} ou {"option": {...}} quando o modelo embrulha a option."""
+    if isinstance(opt, dict) and len(opt) == 1:
+        (unico,) = opt.values()
+        if isinstance(unico, dict) and any(k in unico for k in CHAVES_TITLE + CHAVES_FACT):
+            return unico
+    return opt
+
+
+def _normalizar_risco(valor):
+    v = str(valor or "").strip().lower()
+    return RISCO_MAP.get(v), v
+
+
 def _normalizar_option(opt, tipo, permitidas):
+    opt = _desembrulhar_option(opt)
     if not isinstance(opt, dict):
         raise ValueError("option não é objeto")
-    title = sem_travessao((opt.get("title") or "").strip())
-    fact = sem_travessao((opt.get("fact") or "").strip())
-    if not title or not fact:
-        raise ValueError("option sem title ou fact")
+    title = sem_travessao(_primeiro_texto(opt, CHAVES_TITLE))
+    fact = sem_travessao(_primeiro_texto(opt, CHAVES_FACT))
+    if not fact:
+        chaves = ", ".join(sorted(opt.keys())) or "nenhuma"
+        raise ValueError(
+            f"option '{title or '?'}' sem o campo \"fact\" (chaves recebidas: {chaves}). "
+            "Toda option precisa de \"title\" e \"fact\" preenchidos."
+        )
+    if not title:
+        title = _titulo_do_fato(fact)
     fontes = _filtrar_fontes(opt.get("sources") or opt.get("fontes") or [], permitidas)
     if not fontes:
         raise ValueError(f"option '{title}' ficou sem fonte válida (url precisa ter vindo dos insumos)")
-    risk = (opt.get("risk") or "").strip().lower()
-    if risk == "medio":
-        risk = "médio"
-    if risk not in {"baixo", "médio", "alto"}:
-        raise ValueError(f"risk inválido em '{title}': {risk}")
+    risk, risk_bruto = _normalizar_risco(opt.get("risk") or opt.get("risco"))
+    risk_note = sem_travessao((opt.get("risk_note") or opt.get("nota_risco") or "").strip())
+    if risk is None:
+        print(
+            f"aviso: risk {risk_bruto!r} em '{title}' trocado por '{RISCO_PADRAO}'",
+            file=sys.stderr,
+        )
+        risk = RISCO_PADRAO
+        if not risk_note:
+            risk_note = "Risco não informado pelo modelo; revisar antes de publicar."
     tl = opt.get("timeline") or {}
     if not isinstance(tl, dict):
         tl = {}
@@ -534,7 +595,7 @@ def _normalizar_option(opt, tipo, permitidas):
         "sources": fontes,
         "caption": sem_travessao((opt.get("caption") or "").strip()),
         "risk": risk,
-        "risk_note": sem_travessao((opt.get("risk_note") or "").strip()),
+        "risk_note": risk_note,
         "timeline": timeline,
     }
     if opt.get("desdobramento"):
@@ -623,6 +684,8 @@ def normalizar_pauta(bruto, dia, gerado, slots_esperados, permitidas, excluidos_
         if tipo != esp["type"]:
             raise ValueError(f"slot type {tipo} != {esp['type']}")
         opts = s.get("options") or []
+        if isinstance(opts, dict):
+            opts = list(opts.values())
         if len(opts) != 2:
             raise ValueError(f"slot {esp['time']} precisa de 2 options, veio {len(opts)}")
         slots.append({
@@ -809,6 +872,24 @@ def _self_test():
     assert doc["date"] == "2026-11-20"
     assert doc["agenda"][0]["time"] == "10h"
     assert len(doc["slots"][0]["options"]) == 2
+    # chaves alternativas, título derivado do fato e risk vazio viram padrão
+    alt = {k: v for k, v in opt_r.items() if k not in ("title", "fact", "risk")}
+    alt["fato"] = "O Senado aprovou o ajuste fiscal. O texto vai à Câmara."
+    alt["risk"] = ""
+    o = _normalizar_option(alt, "r", permitidas)
+    assert o["fact"].startswith("O Senado aprovou") and o["title"] == "O Senado aprovou o ajuste fiscal", o["title"]
+    assert o["risk"] == "médio" and o["risk_note"] == "Fato público da votação.", o
+    assert _normalizar_option(dict(opt_r, risk="Medium"), "r", permitidas)["risk"] == "médio"
+    assert _normalizar_option({"A": opt_r}, "r", permitidas)["title"] == opt_r["title"]
+    try:
+        _normalizar_option({k: v for k, v in opt_r.items() if k != "fact"}, "r", permitidas)
+        raise SystemExit("deveria recusar option sem fact")
+    except ValueError as e:
+        assert "fact" in str(e)
+    b2 = json.loads(json.dumps(bruto))
+    b2["slots"][0]["options"] = {"A": b2["slots"][0]["options"][0], "B": b2["slots"][0]["options"][1]}
+    assert len(normalizar_pauta(b2, datetime(2026, 11, 20).date(), "2026-11-19T20:00:00-03:00", slots, permitidas, [])["slots"][0]["options"]) == 2
+
     try:
         ruim = json.loads(json.dumps(bruto))
         ruim["slots"][0]["options"][0]["sources"] = [{"name": "Fake", "url": "https://inventado.example/x"}]
