@@ -10,6 +10,7 @@ import os
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -327,6 +328,46 @@ def fechar_issue(numero, comentario):
     gh_api(f"/issues/{numero}", method="PATCH", body={"state": "closed"})
 
 
+_SEGURO_CAMINHO = "/%:@&=+$,;~()*!'"
+_SEGURO_QUERY = "/%:@&=+$,;~()*!'?"
+
+
+def url_ascii(url):
+    """Devolve a URL só com ASCII: host em IDNA e caminho/query em %XX (UTF-8).
+
+    Mantém os %XX que já existem (o "%" é seguro), então URL já codificada não
+    muda. Ex.: .../acordo-de-cooperação → .../acordo-de-coopera%C3%A7%C3%A3o.
+    """
+    if not url:
+        return url
+    try:
+        url.encode("ascii")
+        return url
+    except UnicodeEncodeError:
+        pass
+    p = urllib.parse.urlsplit(url.strip())
+    host = p.hostname or ""
+    try:
+        host = host.encode("idna").decode("ascii")
+    except UnicodeError:
+        host = urllib.parse.quote(host, safe="")
+    netloc = host
+    if p.port:
+        netloc = f"{netloc}:{p.port}"
+    if p.username:
+        cred = urllib.parse.quote(p.username, safe="%")
+        if p.password:
+            cred += ":" + urllib.parse.quote(p.password, safe="%")
+        netloc = f"{cred}@{netloc}"
+    return urllib.parse.urlunsplit((
+        p.scheme,
+        netloc,
+        urllib.parse.quote(p.path, safe=_SEGURO_CAMINHO, encoding="utf-8"),
+        urllib.parse.quote(p.query, safe=_SEGURO_QUERY, encoding="utf-8"),
+        urllib.parse.quote(p.fragment, safe=_SEGURO_QUERY, encoding="utf-8"),
+    ))
+
+
 def ler_pagina(url, limite=4000):
     """Leitura simples de uma URL pública. Não tenta o G1 (bloqueia)."""
     if not url or not url.startswith("http"):
@@ -334,7 +375,9 @@ def ler_pagina(url, limite=4000):
     if "g1.globo.com" in url:
         return None
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 PainelRogerrio/1.0", "Accept": "text/html"})
+        # URL com acento (ç, ã) quebrava com UnicodeEncodeError: codifica antes.
+        # O dict devolvido mantém a url original, a mesma que veio no pedido.
+        req = urllib.request.Request(url_ascii(url), headers={"User-Agent": "Mozilla/5.0 PainelRogerrio/1.0", "Accept": "text/html"})
         with urllib.request.urlopen(req, timeout=15) as r:
             html = r.read(80_000).decode("utf-8", "replace")
     except Exception as e:
@@ -597,6 +640,16 @@ def _self_test():
         "timeline": {"rende": True, "angle": "O ajuste fiscal aprovado no Senado."},
     }, "r", {"https://ex.com/a"})
     assert opt["type"] == "r" and opt["script"]
+    # URL com acento vira ASCII válido; URL já codificada não muda
+    u = url_ascii("https://www.dw.com/pt-br/acordo-de-cooperação-militar/a-123?q=defesa nação#seção")
+    u.encode("ascii")
+    assert u == "https://www.dw.com/pt-br/acordo-de-coopera%C3%A7%C3%A3o-militar/a-123?q=defesa%20na%C3%A7%C3%A3o#se%C3%A7%C3%A3o", u
+    assert url_ascii(u) == u
+    ja = "https://www.dw.com/pt-br/acordo-de-coopera%C3%A7%C3%A3o-militar/a-123?x=1&y=a%2Fb"
+    assert url_ascii(ja) == ja
+    assert url_ascii("https://exemplo.com/a-b_c(1)?a=1&b=2") == "https://exemplo.com/a-b_c(1)?a=1&b=2"
+    assert url_ascii("https://notícias.com.br:8080/ação") == "https://xn--notcias-9ya.com.br:8080/a%C3%A7%C3%A3o"
+    assert url_ascii("https://exemplo.com/coopera%C3%A7ão") == "https://exemplo.com/coopera%C3%A7%C3%A3o"
     print("ia_comum: ok")
 
 
