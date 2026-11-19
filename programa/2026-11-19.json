@@ -2,8 +2,8 @@
   "date": "2026-11-19",
   "generated": "2026-11-19T09:35:03-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "EUA e Venezuela firmam acordo militar após anos de tensão; Gonet volta a analisar relatórios da PF no caso Master; Andrei obriga PF a pagar preço da blindagem do STF; Senado aprova ajuste fiscal de Lula; PGR denuncia Flávio Bolsonaro ao STF",
-  "abertura": "O principal destaque internacional é a assinatura do acordo de cooperação militar entre Estados Unidos e Venezuela, formalizada durante visita do chefe do Pentágono a Caracas e marcando uma reaproximação estratégica após anos de hostilidade. No Brasil, o procurador-geral Paulo Gonet retoma a análise dos relatórios da PF no caso Master, enquanto o diretor da PF, Andrei Rodrigues, entrega documentos sobre ministros do STF e coloca a corporação sob pressão institucional. No Congresso, o Senado aprova o ajuste fiscal do governo Lula, que segue agora para a Câmara em meio à reação do mercado, e no Judiciário, a PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula.",
+  "titulo": "Dólar fecha em R$ 5,86 e pressiona custo de vida; EUA e Venezuela firmam acordo militar; Gonet volta a analisar relatórios da PF no caso Master; Andrei obriga PF a pagar preço da blindagem do STF; Senado aprova ajuste fiscal de Lula; PGR denuncia Flávio Bolsonaro ao STF",
+  "abertura": "O dólar disparou e fechou em R$ 5,86, maior valor desde janeiro de 2022, elevando o custo de vida dos brasileiros e pressionando a inflação. No cenário internacional, Estados Unidos e Venezuela firmam acordo militar após anos de tensão, marcando uma reaproximação estratégica. No Brasil, o procurador-geral Paulo Gonet retoma a análise dos relatórios da PF no caso Master, enquanto o diretor da PF, Andrei Rodrigues, entrega documentos sobre ministros do STF e coloca a corporação sob pressão institucional. No Congresso, o Senado aprova o ajuste fiscal do governo Lula, que segue agora para a Câmara em meio à reação do mercado, e no Judiciário, a PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula.",
   "agenda": [
     {
       "time": "10h",
@@ -119,6 +119,39 @@
       ],
       "avulsa": true,
       "pedido": "EUA e Venezuela assinam acordo de cooperação militar. Fonte: https://www.dw.com/pt-br/eua-e-venezuela-assinam-acordo-de-cooperação-militar/a-79986275?maca=bra-rss-br-all-1030-xml-mrss"
+    },
+    {
+      "id": "dolar-quinta-5",
+      "bloco": "Economia",
+      "titulo": "Dólar fecha em R$ 5,86 e atinge maior valor desde janeiro de 2022",
+      "subtitulo": "Moeda americana sobe 1,2% em meio a incertezas fiscais e cenário internacional.",
+      "resumo": "O dólar comercial fechou esta quinta-feira cotado a R$ 5,86, maior valor desde janeiro de 2022. A alta de 1,2% reflete preocupações do mercado com o ajuste fiscal do governo Lula. Investidores também monitoram o cenário externo, com tensões geopolíticas e decisões de juros nos Estados Unidos. O movimento pressiona preços de produtos importados e pode impactar a inflação nos próximos meses. A cotação do dólar influencia diretamente o custo de vida dos brasileiros.",
+      "contexto": [
+        "Dólar atinge maior valor em quase cinco anos.",
+        "Mercado reage a incertezas sobre ajuste fiscal brasileiro.",
+        "Cenário internacional contribui para valorização da moeda.",
+        "Alta do dólar encarece produtos importados.",
+        "Inflação pode ser pressionada nos próximos meses."
+      ],
+      "angulo": [
+        "A disparada do dólar aumenta o custo de vida para o brasileiro.",
+        "O ajuste fiscal do governo Lula não acalmou o mercado.",
+        "A instabilidade internacional agrava o cenário econômico nacional."
+      ],
+      "perguntas": [
+        "Como a alta do dólar afeta o bolso do brasileiro no dia a dia?",
+        "O governo Lula conseguirá recuperar a confiança do mercado?",
+        "Quais setores da economia são mais impactados pela valorização do dólar?"
+      ],
+      "fontes": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/dolar-nesta-quinta-5"
+        }
+      ],
+      "atencao": "Item avulso, solicitado para destacar impacto do dólar na vida dos brasileiros.",
+      "avulsa": true,
+      "pedido": "https://www.metropoles.com/brasil/dolar-nesta-quinta-5"
     },
     {
       "id": "ajuste-fiscal-senado-aprova",
@@ -350,5 +383,5 @@
       "em": "2026-11-19T10:19:35-03:00"
     }
   ],
-  "atualizado": "2026-11-19T10:20:30-03:00"
+  "atualizado": "2026-11-19T10:38:06-03:00"
 }
