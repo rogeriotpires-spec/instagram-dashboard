@@ -2,8 +2,8 @@
   "date": "2026-11-19",
   "generated": "2026-11-19T09:35:03-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Andrei obriga PF a pagar preço da blindagem do STF no caso Master; Senado aprova ajuste fiscal de Lula; PGR denuncia Flávio Bolsonaro ao STF",
-  "abertura": "O destaque do dia é a decisão do diretor da PF, Andrei Rodrigues, que entrega relatórios sobre ministros do STF no caso Master e coloca a corporação sob pressão institucional. No Congresso, o Senado aprova o ajuste fiscal do governo Lula, que segue agora para a Câmara em meio à reação do mercado. E no Judiciário, a PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula. Esses fatos mostram o peso das disputas institucionais e o avanço do ativismo político no país.",
+  "titulo": "Gonet volta a analisar relatórios da PF no caso Master após questionar investigação sobre Moraes; Andrei obriga PF a pagar preço da blindagem do STF no caso Master; Senado aprova ajuste fiscal de Lula; PGR denuncia Flávio Bolsonaro ao STF",
+  "abertura": "O destaque do dia é a volta do procurador-geral Paulo Gonet à análise dos relatórios da PF no caso Master, após questionar a investigação sobre Alexandre de Moraes e reacender o debate sobre o papel da PGR e do governo nessas apurações. Em paralelo, o diretor da PF, Andrei Rodrigues, entrega relatórios sobre ministros do STF e coloca a corporação sob pressão institucional. No Congresso, o Senado aprova o ajuste fiscal do governo Lula, que segue agora para a Câmara em meio à reação do mercado. E no Judiciário, a PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula, mostrando o peso das disputas institucionais e o avanço do ativismo político no país.",
   "agenda": [
     {
       "time": "10h",
@@ -55,6 +55,38 @@
       "atencao": "Complementa o item 2 (PF entrega relatórios sobre ministros do STF no caso Master e PGR volta a analisar investigação)",
       "avulsa": true,
       "pedido": "Master: Andrei faz PF pagar o preço da blindagem do STF https://www.jota.info/stf/do-supremo/pgr-tera-15-dias-para-analisar-relatorios-da-pf-sobre-ministros-do-stf-no-caso-master"
+    },
+    {
+      "id": "avulso-jason-pgr-master",
+      "bloco": "STF e instituições",
+      "titulo": "Gonet volta a analisar relatórios da PF no caso Master após questionar investigação sobre Moraes",
+      "subtitulo": "Procurador-geral revisa documentos da PF sobre ministros do STF; processo de investigação e atuação do governo entram em pauta.",
+      "resumo": "O procurador-geral da República, Paulo Gonet, retoma a análise dos relatórios da Polícia Federal no caso Banco Master. Gonet havia questionado a condução da investigação envolvendo o ministro Alexandre de Moraes. O caso gera debate sobre o papel da PGR e da PF na apuração de possíveis irregularidades no Judiciário. O governo acompanha de perto o processo, que envolve pressão institucional e repercussão política. O tema ganhou destaque nas redes sociais, especialmente após menções ao nome Jason.",
+      "contexto": [
+        "Relatórios da PF sobre ministros do STF entregues ao presidente da Corte",
+        "Gonet questionou a investigação sobre Alexandre de Moraes antes de retomar análise",
+        "Processo expõe relação entre PGR, PF e STF",
+        "Tema repercute nas redes sociais com menções a Jason"
+      ],
+      "angulo": [
+        "A atuação de Gonet mostra cautela da PGR diante de investigações envolvendo ministros do STF",
+        "O governo monitora o caso para evitar crises institucionais",
+        "A discussão sobre transparência e limites das investigações volta ao centro do debate"
+      ],
+      "perguntas": [
+        "Como funciona o processo de investigação envolvendo autoridades do STF?",
+        "Qual o papel da PGR e da PF nesses casos sensíveis?",
+        "O governo pode interferir ou apenas acompanhar o andamento dessas apurações?"
+      ],
+      "fontes": [
+        {
+          "name": "X - The Everything App",
+          "url": "https://x.com/search?q=Jason"
+        }
+      ],
+      "atencao": "Complementa o item 3 (PF entrega relatórios sobre ministros do STF no caso Master e PGR volta a analisar investigação)",
+      "avulsa": true,
+      "pedido": "Assunto em alta no X: Jason. Após questionar investigação sobre Moraes, Gonet terá nova análise de relatórios da PF no caso Master Como usar: explicar processo de investigação e atuação do governo https://x.com/search?q=Jason"
     },
     {
       "id": "ajuste-fiscal-senado-aprova",
@@ -277,5 +309,5 @@
     }
   ],
   "excluidos": [],
-  "atualizado": "2026-11-19T09:48:19-03:00"
+  "atualizado": "2026-11-19T09:48:46-03:00"
 }
