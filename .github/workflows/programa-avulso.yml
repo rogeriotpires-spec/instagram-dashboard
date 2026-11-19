@@ -2,6 +2,12 @@ name: Item avulso na pauta do programa
 
 on:
   workflow_dispatch:
+    inputs:
+      issue:
+        description: "Número de uma issue [Pauta avulsa] para reprocessar (mesmo fechada). Vazio = issues abertas."
+        required: false
+        default: ""
+        type: string
   issues:
     types: [opened]
 
@@ -46,6 +52,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || secrets.OPENAI_API_AKEY }}
           GITHUB_TOKEN: ${{ github.token }}
           GH_TOKEN: ${{ github.token }}
+          AVULSO_ISSUE: ${{ github.event.inputs.issue }}
         run: python3 tools/gerar_programa_avulso.py
       - name: Publicar
         if: steps.ia.outputs.changed == '1'

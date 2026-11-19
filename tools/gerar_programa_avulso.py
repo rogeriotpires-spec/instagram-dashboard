@@ -190,11 +190,46 @@ def aplicar(path, atual, item, titulo, abertura, dia, cfg, agora):
     return doc
 
 
+def numero_issue(valor):
+    """Lê AVULSO_ISSUE ("163", "#163"); vazio devolve None; lixo dá erro."""
+    v = str(valor or "").strip().lstrip("#")
+    if not v:
+        return None
+    if not v.isdigit() or int(v) <= 0:
+        raise ValueError(f"AVULSO_ISSUE inválido: {valor!r}")
+    return int(v)
+
+
+def issue_do_dono(issue, autor="rogeriotpires-spec"):
+    if not isinstance(issue, dict) or "pull_request" in issue:
+        return False
+    login = ((issue.get("user") or {}).get("login") or "")
+    return (issue.get("title") or "").startswith(PREFIXO) and login == autor
+
+
+def issue_especifica(numero):
+    """Busca uma issue pelo número, aberta ou fechada, e confere dono e prefixo."""
+    issue = C.gh_api(f"/issues/{numero}")
+    if not issue_do_dono(issue):
+        raise SystemExit(f"issue #{numero} não é um pedido {PREFIXO} do dono; não processo")
+    return [issue]
+
+
 def gerar(agora=None, fechar=True):
     agora = C.agora_sp(agora)
     cfg = C.ler_json(ROOT / "programa" / "config.json") or {}
     try:
-        issues = C.issues_abertas(PREFIXO)
+        numero = numero_issue(os.environ.get("AVULSO_ISSUE"))
+    except ValueError as e:
+        raise SystemExit(str(e))
+    try:
+        if numero:
+            print(f"reprocessando só a issue #{numero} (AVULSO_ISSUE)")
+            issues = issue_especifica(numero)
+        else:
+            issues = C.issues_abertas(PREFIXO)
+    except SystemExit:
+        raise
     except Exception as e:
         raise SystemExit(f"não listei issues: {e}")
     if not issues:
@@ -248,6 +283,20 @@ def _self_test():
     }, "titulo_pauta": "PF afasta delegados do caso Master e o Senado vota o ajuste", "abertura": "A PF troca o comando do caso Master. O Senado discute o ajuste. A bancada acompanha os dois fatos. O dia pede explicação."}
     item = _montar_item(bruto, cfg, {"https://www.poder360.com.br/pf-afasta"}, ped["pedido"], None)
     assert item["avulsa"] is True and item["pedido"]
+    # AVULSO_ISSUE e conferência do dono
+    assert numero_issue("") is None and numero_issue(None) is None
+    assert numero_issue("163") == 163 and numero_issue(" #163 ") == 163
+    for ruim in ("abc", "0", "-1", "16 3"):
+        try:
+            numero_issue(ruim)
+            raise SystemExit(f"deveria recusar {ruim!r}")
+        except ValueError:
+            pass
+    dono = {"title": "[Pauta avulsa] X", "user": {"login": "rogeriotpires-spec"}, "state": "closed"}
+    assert issue_do_dono(dono)
+    assert not issue_do_dono(dict(dono, user={"login": "outro"}))
+    assert not issue_do_dono(dict(dono, title="Outra coisa"))
+    assert not issue_do_dono(dict(dono, pull_request={}))
     print("gerar_programa_avulso: ok")
 
 
