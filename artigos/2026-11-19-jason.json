@@ -1,46 +1,47 @@
 {
-  "id": "2026-11-19-jason",
-  "criado": "2026-11-19T11:42:12-03:00",
-  "saved_at": null,
-  "origem": {
-    "rotulo": "Notícias de 19/11 06h",
-    "dia": "2026-11-19"
+ "id": "2026-11-19-jason",
+ "criado": "2026-11-19T11:42:12-03:00",
+ "saved_at": "2026-11-19T13:25:12-03:00",
+ "origem": {
+  "rotulo": "Notícias de 19/11 06h",
+  "dia": "2026-11-19"
+ },
+ "pauta_titulo": "",
+ "titulos": [
+  {
+   "titulo": "Por que o caso Jason expõe o jogo de poder em Brasília",
+   "subtitulo": "A disputa entre PF, PGR e STF revela mais do que aparenta"
   },
-  "pauta_titulo": "",
-  "titulos": [
-    {
-      "titulo": "Por que o caso Jason expõe o jogo de poder em Brasília",
-      "subtitulo": "A disputa entre PF, PGR e STF revela mais do que aparenta"
-    },
-    {
-      "titulo": "Jason e o labirinto das investigações",
-      "subtitulo": "Como o governo tenta controlar a narrativa em meio à pressão popular"
-    },
-    {
-      "titulo": "O caso Master e a sombra do ativismo judicial",
-      "subtitulo": "Gonet, PF e o avanço do STF sobre a política brasileira"
-    },
-    {
-      "titulo": "A nova rodada do caso Jason: quem investiga quem?",
-      "subtitulo": "Por dentro da disputa entre instituições e o impacto para a democracia"
-    },
-    {
-      "titulo": "Quando a investigação vira arma política",
-      "subtitulo": "O que o caso Jason ensina sobre o equilíbrio de poderes no Brasil"
-    }
-  ],
-  "escolha": 0,
-  "titulo": "Por que o caso Jason expõe o jogo de poder em Brasília",
-  "subtitulo": "A disputa entre PF, PGR e STF revela mais do que aparenta",
-  "texto": "RIO DE JANEIRO, 19 de novembro de 2026 — O Brasil acordou nesta semana com o nome Jason dominando as redes sociais e os bastidores de Brasília. O que começou como mais uma investigação da Polícia Federal rapidamente se transformou em um cabo de guerra institucional, com o Procurador-Geral da República, Paulo Gonet, no centro do tabuleiro. O ponto de partida foi a decisão de Gonet de reanalisar relatórios da PF sobre o chamado caso Master, logo depois de questionar abertamente a condução de investigações que envolvem o ministro Alexandre de Moraes, do Supremo Tribunal Federal. Essa movimentação não é trivial: mostra como, em vez de buscar respostas objetivas para crimes, a máquina pública se move ao sabor dos interesses do governo e do ativismo judicial.\n\nA impressão que fica é a de que a lei, no Brasil, virou instrumento de pressão política. Quando o próprio chefe do Ministério Público Federal precisa revisar relatórios da PF porque o nome de um ministro do STF aparece em investigações, não estamos diante de um sistema de freios e contrapesos saudável. Estamos vendo um jogo de empurra, em que cada instituição tenta proteger seus aliados e intimidar adversários. O governo Lula, que prometia respeito às instituições, parece mais interessado em usar o aparato estatal para blindar seus parceiros e perseguir quem ousa desafiar o status quo.\n\nO caso Master, que agora volta ao centro do palco, é exemplar desse processo. O que deveria ser uma apuração técnica sobre possíveis irregularidades virou palco para disputas de poder. A Polícia Federal, sob comando de um governo que não esconde sua proximidade com o STF, produz relatórios que ora agradam, ora desagradam os donos do poder. Quando o nome de Moraes surge, a reação é imediata: a PGR entra em campo para revisar, questionar e, se necessário, abafar. Não se trata de teoria da conspiração, mas de uma dinâmica que se repete desde que o Judiciário passou a atuar como protagonista político no Brasil.\n\nPara o cidadão comum, tudo isso soa como um jogo de cartas marcadas. É como assistir a uma partida de futebol em que o juiz apita, marca pênalti, expulsa e ainda decide quem pode reclamar. O resultado é previsível: quem está do lado do governo, ou do STF, dificilmente é incomodado. Já quem ousa questionar, investigar ou simplesmente discordar, vira alvo de investigações sem fim, buscas e apreensões e campanhas de difamação na imprensa.\n\nO que está em jogo aqui não é apenas o destino de um ou outro investigado. É o próprio equilíbrio de poderes que sustenta a democracia. Quando a Polícia Federal e a PGR se tornam extensões do governo ou do Supremo, o cidadão perde qualquer esperança de justiça imparcial. O ativismo judicial, que já vinha sendo criticado há anos, agora se mistura com o ativismo investigativo: quem investiga escolhe o alvo, quem denuncia escolhe o momento, e quem julga já tem lado definido.\n\nA grande mídia, por sua vez, prefere tratar o caso Jason como mais um capítulo da luta contra as \"ameaças à democracia\", sem questionar o uso político das instituições. O foco está sempre em proteger a imagem dos ministros do STF e do governo, enquanto qualquer voz dissonante é rotulada como \"antidemocrática\" ou \"golpista\". O debate público fica empobrecido, e o cidadão é tratado como espectador de um teatro em que só um lado pode vencer.\n\nO que esperar daqui para frente? Com Gonet reanalisando relatórios da PF, a tendência é de mais blindagem para figuras do STF e mais pressão sobre adversários do governo. O processo de investigação, que deveria ser transparente e técnico, vira moeda de troca política. O risco é claro: se nada mudar, o Brasil continuará refém de um sistema em que a lei vale para uns e não para outros. E a democracia, que depende do respeito à separação de poderes, seguirá sendo apenas um discurso vazio.\n\nRogerio Pires é jornalista, professor, pesquisador, mestre, doutor H.C. em educação e gestor público com atuação na área de educação tecnológica e políticas de inovação no Estado do Rio de Janeiro.",
-  "palavras_chave": "Jason, Polícia Federal, Gonet, STF, caso Master, investigação, governo Lula, ativismo judicial, PGR, Alexandre de Moraes",
-  "fontes": [
-    {
-      "name": "X (em alta)",
-      "url": "https://x.com/search?q=Jason"
-    }
-  ],
-  "prompt_imagem": "Crie uma imagem horizontal de 1200 x 630 pixels (proporção 1,91:1), em fotojornalismo cinematográfico, alta definição e aparência fotográfica real, para a capa de um artigo da Revista Timeline. Escolha a família 2: Instituição sob tempestade. Mostre o prédio do Supremo Tribunal Federal em Brasília, em ângulo baixo, sob céu carregado de nuvens escuras, com tons frios e atmosfera dramática, transmitindo sensação de crise e tensão política. Sem pessoas visíveis, sem texto sobreposto, sem logomarcas. A imagem deve parecer uma foto real tirada por um fotógrafo profissional, com luz natural e composição limpa. Sem nenhum texto sobreposto: sem título, subtítulo, frases, perguntas, números em destaque, ícones de redes sociais, nomes de perfil, logomarcas, assinaturas, marcas d'água ou molduras. Só são permitidos textos que façam parte natural da cena, como placas de edifícios. Mantenha margens de segurança para que os elementos principais não sejam cortados e a imagem continue compreensível em tamanho reduzido. Rostos naturais e sem deformações: preserve proporções anatômicas, traços faciais e texturas de pele, sem pele plastificada nem aparência genérica de imagem feita por inteligência artificial. Se não puder retratar essas pessoas, use silhuetas ou figuras de costas reconhecíveis pelo contexto e mantenha o resto da composição.",
-  "status": "rascunho",
-  "link": ""
+  {
+   "titulo": "Jason e o labirinto das investigações",
+   "subtitulo": "Como o governo tenta controlar a narrativa em meio à pressão popular"
+  },
+  {
+   "titulo": "O caso Master e a sombra do ativismo judicial",
+   "subtitulo": "Gonet, PF e o avanço do STF sobre a política brasileira"
+  },
+  {
+   "titulo": "A nova rodada do caso Jason: quem investiga quem?",
+   "subtitulo": "Por dentro da disputa entre instituições e o impacto para a democracia"
+  },
+  {
+   "titulo": "Quando a investigação vira arma política",
+   "subtitulo": "O que o caso Jason ensina sobre o equilíbrio de poderes no Brasil"
+  }
+ ],
+ "escolha": 2,
+ "titulo": "O caso Master e a sombra do ativismo judicial",
+ "subtitulo": "Gonet, PF e o avanço do STF sobre a política brasileira",
+ "texto": "RIO DE JANEIRO, 19 de novembro de 2026. O escândalo envolvendo o Banco Master, instituição financeira controlada pelo empresário Daniel Vorcaro e liquidada pelo Banco Central em novembro de 2025, voltou a provocar uma crise nos bastidores de Brasília. Investigado pela Polícia Federal por suspeitas de fraudes financeiras bilionárias, o caso ganhou uma dimensão ainda mais grave após a descoberta de mensagens que mencionam integrantes do Supremo Tribunal Federal, entre eles Alexandre de Moraes. No centro da controvérsia está o procurador-geral da República, Paulo Gonet, que terá novamente a responsabilidade de analisar relatórios da Polícia Federal e decidir quais providências solicitar. A situação chama atenção porque, em setembro, Gonet já havia defendido a nulidade de um relatório policial envolvendo Moraes. Agora, diante de novas informações e de questionamentos sobre a condução das investigações, surge uma pergunta inevitável: as instituições brasileiras estão verdadeiramente comprometidas com o esclarecimento dos fatos ou interesses internos estão interferindo no caminho da Justiça?\n\nA impressão que fica é a de que a lei, no Brasil, virou instrumento de pressão política. Quando o próprio chefe do Ministério Público Federal precisa revisar relatórios da PF porque o nome de um ministro do STF aparece em investigações, não estamos diante de um sistema de freios e contrapesos saudável. Estamos vendo um jogo de empurra, em que cada instituição tenta proteger seus aliados e intimidar adversários. O governo Lula, que prometia respeito às instituições, parece mais interessado em usar o aparato estatal para blindar seus parceiros e perseguir quem ousa desafiar o status quo.\n\nO caso Master, que agora volta ao centro do palco, é exemplar desse processo. O que deveria ser uma apuração técnica sobre possíveis irregularidades virou palco para disputas de poder. A Polícia Federal, sob comando de um governo que não esconde sua proximidade com o STF, produz relatórios que ora agradam, ora desagradam os donos do poder. Quando o nome de Moraes surge, a reação é imediata: a PGR entra em campo para revisar, questionar e, se necessário, abafar. Não se trata de teoria da conspiração, mas de uma dinâmica que se repete desde que o Judiciário passou a atuar como protagonista político no Brasil.\n\nPara o cidadão comum, tudo isso soa como um jogo de cartas marcadas. É como assistir a uma partida de futebol em que o juiz apita, marca pênalti, expulsa e ainda decide quem pode reclamar. O resultado é previsível: quem está do lado do governo, ou do STF, dificilmente é incomodado. Já quem ousa questionar, investigar ou simplesmente discordar, vira alvo de investigações sem fim, buscas e apreensões e campanhas de difamação na imprensa.\n\nO que está em jogo aqui não é apenas o destino de um ou outro investigado. É o próprio equilíbrio de poderes que sustenta a democracia. Quando a Polícia Federal e a PGR se tornam extensões do governo ou do Supremo, o cidadão perde qualquer esperança de justiça imparcial. O ativismo judicial, que já vinha sendo criticado há anos, agora se mistura com o ativismo investigativo: quem investiga escolhe o alvo, quem denuncia escolhe o momento, e quem julga já tem lado definido.\n\nA grande mídia, por sua vez, prefere tratar o caso Jason como mais um capítulo da luta contra as \"ameaças à democracia\", sem questionar o uso político das instituições. O foco está sempre em proteger a imagem dos ministros do STF e do governo, enquanto qualquer voz dissonante é rotulada como \"antidemocrática\" ou \"golpista\". O debate público fica empobrecido, e o cidadão é tratado como espectador de um teatro em que só um lado pode vencer.\n\nO que esperar daqui para frente? Com Gonet reanalisando relatórios da PF, a tendência é de mais blindagem para figuras do STF e mais pressão sobre adversários do governo. O processo de investigação, que deveria ser transparente e técnico, vira moeda de troca política. O risco é claro: se nada mudar, o Brasil continuará refém de um sistema em que a lei vale para uns e não para outros. E a democracia, que depende do respeito à separação de poderes, seguirá sendo apenas um discurso vazio.\n\nRogerio Pires é jornalista, professor, pesquisador, mestre, doutor H.C. em educação e gestor público com atuação na área de educação tecnológica e políticas de inovação no Estado do Rio de Janeiro.",
+ "palavras_chave": "Jason, Polícia Federal, Gonet, STF, caso Master, investigação, governo Lula, ativismo judicial, PGR, Alexandre de Moraes",
+ "fontes": [
+  {
+   "name": "X (em alta)",
+   "url": "https://x.com/search?q=Jason"
+  }
+ ],
+ "prompt_imagem": "Crie uma imagem horizontal de 1200 x 630 pixels (proporção 1,91:1), em fotojornalismo cinematográfico, alta definição e aparência fotográfica real, para a capa de um artigo da Revista Timeline. Escolha a família 2: Instituição sob tempestade. Mostre o prédio do Supremo Tribunal Federal em Brasília, em ângulo baixo, sob céu carregado de nuvens escuras, com tons frios e atmosfera dramática, transmitindo sensação de crise e tensão política. Sem pessoas visíveis, sem texto sobreposto, sem logomarcas. A imagem deve parecer uma foto real tirada por um fotógrafo profissional, com luz natural e composição limpa. Sem nenhum texto sobreposto: sem título, subtítulo, frases, perguntas, números em destaque, ícones de redes sociais, nomes de perfil, logomarcas, assinaturas, marcas d'água ou molduras. Só são permitidos textos que façam parte natural da cena, como placas de edifícios. Mantenha margens de segurança para que os elementos principais não sejam cortados e a imagem continue compreensível em tamanho reduzido. Rostos naturais e sem deformações: preserve proporções anatômicas, traços faciais e texturas de pele, sem pele plastificada nem aparência genérica de imagem feita por inteligência artificial. Se não puder retratar essas pessoas, use silhuetas ou figuras de costas reconhecíveis pelo contexto e mantenha o resto da composição.",
+ "status": "publicado",
+ "link": "https://assine.revistatimeline.com/p/o-caso-master-e-a-sombra-do-ativismo",
+ "escolha_sub": 2
 }
