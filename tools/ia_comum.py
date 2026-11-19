@@ -5,6 +5,7 @@ não é óbvia no código.
 """
 from __future__ import annotations
 
+import html as _html
 import json
 import os
 import re
@@ -368,6 +369,53 @@ def url_ascii(url):
     ))
 
 
+_CORPO_LIXO_RE = re.compile(
+    r"<(script|style|noscript|nav|header|footer|aside|figure|figcaption|form|svg|button)\b[^>]*>.*?</\1\s*>",
+    re.I | re.S,
+)
+_P_RE = re.compile(r"<p(?:\s[^>]*)?>(.*?)</p\s*>", re.I | re.S)
+_ARTIGO_RE = re.compile(r"<article\b[^>]*>(.*?)</article\s*>", re.I | re.S)
+_BOILER_RE = re.compile(
+    r"(cookie|assine|newsletter|todos os direitos|copyright|publicidade|anúncio|leia também|"
+    r"clique aqui|faça login|inscreva-se|siga-nos|compartilhe)",
+    re.I,
+)
+
+
+def extrair_corpo(html, limite=2000):
+    """Primeiros parágrafos visíveis do texto da matéria (prefere <article>).
+
+    Conservador: só <p> com frase de verdade (40+ caracteres), sem boilerplate.
+    Em qualquer problema devolve "" (quem chama segue com título e descrição).
+    """
+    try:
+        if not html:
+            return ""
+        limpo = _CORPO_LIXO_RE.sub(" ", html)
+        artigos = _ARTIGO_RE.findall(limpo)
+        blocos = artigos if artigos else [limpo]
+        partes, total, vistos = [], 0, set()
+        for bloco in blocos:
+            for bruto in _P_RE.findall(bloco):
+                t = _html.unescape(re.sub(r"<[^>]+>", " ", bruto))
+                t = re.sub(r"\s+", " ", t).strip()
+                if len(t) < 40 or t in vistos or _BOILER_RE.search(t[:80]):
+                    continue
+                vistos.add(t)
+                partes.append(t)
+                total += len(t) + 1
+                if total >= limite:
+                    break
+            if total >= limite:
+                break
+        texto = " ".join(partes)
+        if len(texto) > limite:
+            texto = texto[:limite].rsplit(" ", 1)[0] + "…"
+        return texto
+    except Exception:
+        return ""
+
+
 def ler_pagina(url, limite=4000):
     """Leitura simples de uma URL pública. Não tenta o G1 (bloqueia)."""
     if not url or not url.startswith("http"):
@@ -379,7 +427,7 @@ def ler_pagina(url, limite=4000):
         # O dict devolvido mantém a url original, a mesma que veio no pedido.
         req = urllib.request.Request(url_ascii(url), headers={"User-Agent": "Mozilla/5.0 PainelRogerrio/1.0", "Accept": "text/html"})
         with urllib.request.urlopen(req, timeout=15) as r:
-            html = r.read(80_000).decode("utf-8", "replace")
+            html = r.read(400_000).decode("utf-8", "replace")
     except Exception as e:
         print(f"aviso: não li {url}: {type(e).__name__}", file=sys.stderr)
         return None
@@ -394,6 +442,8 @@ def ler_pagina(url, limite=4000):
         "title": limpa(titulo.group(1) if titulo else "")[:200],
         "description": limpa(desc.group(1) if desc else "")[:limite],
         "published": extrair_publicado(html),
+        # trecho do corpo da matéria: fatos de verdade para o modelo não encher linguiça
+        "text": extrair_corpo(html),
     }
 
 
@@ -650,6 +700,21 @@ def _self_test():
     assert url_ascii("https://exemplo.com/a-b_c(1)?a=1&b=2") == "https://exemplo.com/a-b_c(1)?a=1&b=2"
     assert url_ascii("https://notícias.com.br:8080/ação") == "https://xn--notcias-9ya.com.br:8080/a%C3%A7%C3%A3o"
     assert url_ascii("https://exemplo.com/coopera%C3%A7ão") == "https://exemplo.com/coopera%C3%A7%C3%A3o"
+    # corpo da matéria: prefere <article>, ignora script/nav/boilerplate, corta no limite
+    pag = (
+        "<html><head><script>var x='<p>não é texto de verdade nenhum, é script</p>';</script></head><body>"
+        "<nav><p>Menu principal com muitos links de navegação aqui</p></nav>"
+        "<p>Parágrafo fora do artigo que não deve entrar no texto.</p>"
+        "<article><h1>T</h1><p>Os Estados Unidos e a Venezuela anunciaram nesta quarta um acordo militar.</p>"
+        "<p>curto</p><p>Assine a newsletter e receba as principais notícias do dia.</p>"
+        "<p>O acordo prevê treinamento, equipamentos &amp; acesso a novas tecnologias.</p></article></body></html>"
+    )
+    corpo = extrair_corpo(pag)
+    assert corpo == ("Os Estados Unidos e a Venezuela anunciaram nesta quarta um acordo militar. "
+                     "O acordo prevê treinamento, equipamentos & acesso a novas tecnologias."), corpo
+    assert extrair_corpo("<p>Sem artigo, mas com um parágrafo longo o suficiente.</p>").startswith("Sem artigo")
+    assert len(extrair_corpo("<article>" + "<p>" + "palavra " * 400 + "</p></article>", limite=200)) <= 201
+    assert extrair_corpo("") == "" and extrair_corpo(None) == "" and extrair_corpo("<p>") == ""
     print("ia_comum: ok")
 
 
