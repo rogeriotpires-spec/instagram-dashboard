@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-19T09:35:03-03:00",
+  "generated": "2026-11-19T14:35:57-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-09-19",
-    "end": "2026-11-17"
+    "start": "2026-09-20",
+    "end": "2026-11-18"
   },
-  "compare": "2026-07-21 a 2026-09-18",
-  "headline": "Nos últimos 60 dias, o perfil acumulou 33.485.885 views, 708.834 compartilhamentos e 44.575 novos seguidores, com crescimento expressivo em todos os indicadores.",
+  "compare": "2026-07-22 a 2026-09-19",
+  "headline": "Nos últimos 60 dias, o perfil somou 33.236.079 views, 702.667 compartilhamentos, 47.491 comentários, 85.302 salvamentos, 2.162.866 curtidas e 44.406 novos seguidores, com crescimento de 70,9% em views e 1041,5% em seguidores.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "33,49 mi",
-      "delta": "+74%",
+      "value": "33,24 mi",
+      "delta": "+70,9%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "44.575",
-      "delta": "+1097,9%",
+      "value": "44.406",
+      "delta": "+1041,5%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "2.407",
-      "delta": "+1413,8%",
+      "value": "2.398",
+      "delta": "+1327,4%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "709 mil",
-      "delta": "+1004,8%",
+      "value": "703 mil",
+      "delta": "+865,6%",
       "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "47.587",
-      "delta": "+518%",
+      "value": "47.491",
+      "delta": "+490,9%",
       "dir": "up"
     },
     {
       "label": "Salvamentos recebidos",
-      "value": "85.693",
-      "delta": "+848,8%",
+      "value": "85.302",
+      "delta": "+781,8%",
       "dir": "up"
     }
   ],
@@ -50,64 +50,57 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Imagens de opinião, como 'Fica a reflexão.' (Dd8pQedtGZL) e 'Ninguém aguenta mais o Lula e o PT!' (Dd08gl4tibs), e reels analíticos tiveram grande alcance, com mais de 1 milhão de views cada.",
+      "diagnosis": "Imagens de opinião e reels de análise política dominaram o engajamento. 'Fica a reflexão.' (Dd8pQedtGZL) e 'Fiz a conta do primeiro para o segundo turno...' (De8Q_S9MAJt) ultrapassaram 1 milhão de views cada.",
       "actions": [
-        "Continuar investindo em imagens com opinião forte.",
-        "Produzir reels com análises detalhadas e dados.",
-        "Reforçar temas políticos e de bastidores."
+        "Continue investindo em imagens opinativas e vídeos de análise.",
+        "Mantenha a frequência alta de publicações.",
+        "Explore temas polêmicos e atuais."
       ],
       "posts": [
         "Dd8pQedtGZL",
-        "Dd08gl4tibs",
-        "De8Q_S9MAJt"
+        "De8Q_S9MAJt",
+        "Dd08gl4tibs"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Alguns reels e carrosséis, como 'Se liga!!!' (De6lr9Ft3I5) e 'Autoexplicativo (debate)' (Dd_agBPN6Mi), tiveram baixíssimo desempenho, mostrando que nem todo formato ou tema gera resultado.",
+      "diagnosis": "Carrosséis e alguns reels curtos tiveram baixíssimo desempenho, como 'Se liga!!!' (De6lr9Ft3I5) e 'Autoexplicativo (debate)' (Dd_agBPN6Mi), ambos abaixo de 1.400 views.",
       "actions": [
-        "Reavaliar o uso de carrosséis e reels genéricos.",
-        "Ajustar o tom e abordagem de temas menos performáticos.",
-        "Focar nos formatos que mais engajam."
+        "Evite carrosséis e vídeos curtos sem apelo claro.",
+        "Priorize formatos que já mostraram alto engajamento.",
+        "Analise temas que não geraram debate para ajustar abordagem."
       ],
       "posts": [
         "De6lr9Ft3I5",
-        "Dd_agBPN6Mi",
-        "DeKCMhiNIxP"
+        "Dd_agBPN6Mi"
       ]
     },
     {
-      "title": "Maior crescimento: Novos seguidores",
+      "title": "Pico de novos seguidores",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O perfil ganhou 44.575 novos seguidores, crescimento de 1.097,9% em relação ao período anterior, impulsionado por posts virais e temas polêmicos.",
+      "diagnosis": "O crescimento de seguidores foi expressivo (+1041,5%), puxado por imagens de opinião e bastidores, como 'Fica a reflexão.' (Dd8pQedtGZL) e 'Como dizia o TAXAD...' (DeVAkiqtPwL).",
       "actions": [
-        "Aproveitar o momento de crescimento para engajar novos seguidores.",
-        "Manter a produção de conteúdos virais.",
-        "Explorar temas polêmicos e de grande repercussão."
+        "Inclua CTAs para seguir em todos os posts.",
+        "Aposte em temas de opinião e bastidores."
       ],
       "posts": [
         "Dd8pQedtGZL",
-        "DeVAkiqtPwL",
-        "Dd08gl4tibs"
+        "DeVAkiqtPwL"
       ]
     },
     {
-      "title": "Tendência: Imagens de opinião em alta",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Imagens de opinião tiveram mediana de 28.828 views e geraram grande volume de seguidores e compartilhamentos.",
+      "title": "Carrosséis não engajam",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "Carrosséis tiveram mediana de apenas 3.690 views e quase nenhum novo seguidor.",
       "actions": [
-        "Produzir mais imagens com frases e opiniões fortes.",
-        "Aproveitar temas atuais para novas imagens.",
-        "Testar diferentes estilos visuais."
+        "Reduza a frequência de carrosséis.",
+        "Foque em reels e imagens que já performaram bem."
       ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "Dd08gl4tibs"
-      ]
+      "posts": []
     }
   ]
 }

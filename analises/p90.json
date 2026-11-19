@@ -1,17 +1,17 @@
 {
-  "generated": "2026-11-19T09:35:03-03:00",
+  "generated": "2026-11-19T14:35:57-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-08-20",
-    "end": "2026-11-17"
+    "start": "2026-08-21",
+    "end": "2026-11-18"
   },
-  "compare": "2026-05-22 a 2026-08-19",
-  "headline": "Nos últimos 90 dias, o perfil atingiu 43.101.076 views, 772.996 compartilhamentos e 48.296 novos seguidores, consolidando forte crescimento e engajamento alto em temas políticos e de opinião.",
+  "compare": "2026-05-23 a 2026-08-20",
+  "headline": "Em 90 dias, o perfil acumulou 43.042.581 views, 775.435 compartilhamentos, 55.528 comentários, 94.976 salvamentos, 2.554.405 curtidas e 48.296 novos seguidores, com crescimento de 299,3% em views e 150,7% em alcance médio diário.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "43,1 mi",
-      "delta": "+304,4%",
+      "value": "43,04 mi",
+      "delta": "+299,3%",
       "dir": "up"
     },
     {
@@ -28,20 +28,20 @@
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "773 mil",
+      "value": "775 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "55.287",
+      "value": "55.528",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
       "value": "163 mil",
-      "delta": "+146,3%",
+      "delta": "+150,7%",
       "dir": "up"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Imagens e reels de opinião, como 'Fica a reflexão.' (Dd8pQedtGZL) e 'Ninguém aguenta mais o Lula e o PT!' (Dd08gl4tibs), mantiveram alto engajamento e viralização.",
+      "diagnosis": "Imagens e reels de opinião e política geraram os maiores resultados. 'Fica a reflexão.' (Dd8pQedtGZL) e 'Ninguém aguenta mais o Lula e o PT!' (Dd08gl4tibs) ultrapassaram 980 mil views cada.",
       "actions": [
-        "Reforçar a produção de conteúdos opinativos.",
-        "Manter frequência de reels e imagens com temas polêmicos.",
-        "Aproveitar datas e fatos relevantes para novos posts."
+        "Mantenha a produção de imagens e reels opinativos.",
+        "Reforce temas políticos e de bastidores.",
+        "Aposte em títulos provocativos e perguntas."
       ],
       "posts": [
         "Dd8pQedtGZL",
@@ -66,39 +66,38 @@
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Alguns conteúdos, como 'O STF virou um manicômio institucional' (Dc3EY5cNint) e 'Quer entender o que é inflação?' (DcT_YEutG6d), tiveram baixíssimo alcance, mostrando que temas ou formatos menos conectados ao público não performam.",
+      "diagnosis": "Carrosséis e alguns reels curtos seguem com desempenho muito baixo, como 'O STF virou um manicômio institucional' (Dc3EY5cNint) e 'Candidato perdeu Instagram...' (Dcvng7kNnHA), ambos com menos de 600 views.",
       "actions": [
-        "Evitar temas excessivamente técnicos ou distantes do debate central.",
-        "Testar abordagens mais diretas e populares para temas complexos.",
-        "Ajustar formatos de posts com baixo desempenho."
+        "Evite carrosséis e vídeos curtos sem apelo.",
+        "Priorize temas e formatos que já engajaram bem.",
+        "Teste abordagens diferentes para temas menos populares."
       ],
       "posts": [
         "Dc3EY5cNint",
-        "Dcvng7kNnHA",
-        "DcT_YEutG6d"
+        "Dcvng7kNnHA"
       ]
     },
     {
-      "title": "Tendência: Engajamento crescente em temas políticos",
+      "title": "Engajamento em alta",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O engajamento médio diário subiu 88,1% e o alcance médio 146,3%, com destaque para conteúdos políticos e de opinião.",
+      "diagnosis": "O engajamento médio diário cresceu 91,1% em 90 dias. Posts de opinião e política, como 'Lula não ganhou a eleição.' (DfZXNLStwXv), geraram picos de comentários (661) e compartilhamentos (41.393).",
       "actions": [
-        "Manter o foco em política e opinião.",
-        "Aproveitar o engajamento para lançar séries temáticas.",
-        "Estimular debates e perguntas nos posts."
+        "Estimule debates e perguntas nos posts.",
+        "Responda comentários para manter a comunidade ativa."
       ],
-      "posts": []
+      "posts": [
+        "DfZXNLStwXv"
+      ]
     },
     {
-      "title": "Tendência: Formatos de imagem e reels dominam",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Imagens (mediana de 16.617 views) e reels (mediana de 24.775 views) são os formatos mais eficientes para alcance e engajamento.",
+      "title": "Desempenho baixo em carrosséis",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "Carrosséis e alguns posts de serviço tiveram baixíssimo alcance e engajamento, sem impacto em seguidores.",
       "actions": [
-        "Priorizar imagens e reels nos próximos ciclos.",
-        "Testar variações de duração e estilo nos reels.",
-        "Explorar colaborações em formatos de imagem."
+        "Reduza carrosséis e foque em reels e imagens.",
+        "Aposte em formatos que já mostraram viralização."
       ],
       "posts": []
     }

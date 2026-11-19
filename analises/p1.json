@@ -1,96 +1,105 @@
 {
-  "generated": "2026-11-19T09:35:03-03:00",
+  "generated": "2026-11-19T14:35:57-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-11-17",
-    "end": "2026-11-17"
+    "start": "2026-11-18",
+    "end": "2026-11-18"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "No dia 17/11, sem novas publicações, o perfil registrou 22.262 views, 810 compartilhamentos e 93 novos seguidores, todos com quedas acentuadas em relação à média da semana anterior.",
+  "headline": "No dia 18/11, você teve 60.650 views, 2.439 compartilhamentos, 241 comentários, 251 salvamentos e 8.168 curtidas, com aumento de 2% em views e 98,9% em comentários em relação à média da semana anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "22.262",
-      "delta": "−68,5%",
-      "dir": "down"
-    },
-    {
-      "label": "Novos seguidores",
-      "value": "93",
-      "delta": "−21,5%",
-      "dir": "down"
-    },
-    {
-      "label": "Deixaram de seguir",
-      "value": "42",
-      "delta": "−3,9%",
+      "value": "60.650",
+      "delta": "+2%",
       "dir": "up"
     },
     {
+      "label": "Novos seguidores",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
+      "label": "Deixaram de seguir",
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
+    },
+    {
       "label": "Compartilhamentos recebidos",
-      "value": "810",
-      "delta": "−57,1%",
-      "dir": "down"
+      "value": "2.439",
+      "delta": "+37,4%",
+      "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "34",
-      "delta": "−78,5%",
-      "dir": "down"
+      "value": "241",
+      "delta": "+98,9%",
+      "dir": "up"
     },
     {
-      "label": "Salvamentos recebidos",
-      "value": "63",
-      "delta": "−68,9%",
-      "dir": "down"
+      "label": "Contas com interação por dia",
+      "value": "8.239",
+      "delta": "+101,1%",
+      "dir": "up"
     }
   ],
   "cards": [
     {
       "title": "O que funcionou",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Apesar da ausência de publicações, o perfil manteve 22.262 views e 93 novos seguidores, indicando resquício de engajamento de posts anteriores.",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O volume de comentários (241) e compartilhamentos (2.439) foi bem acima da média semanal, indicando engajamento forte. O único post do dia, um reel sobre política, gerou 24 comentários e 5 compartilhamentos em poucas horas (Df54B99svET).",
       "actions": [
-        "Retomar a frequência de postagens diárias.",
-        "Aproveitar o engajamento residual para impulsionar novos conteúdos.",
-        "Monitorar o impacto de dias sem publicação nos próximos ciclos."
+        "Continue postando reels com temas políticos atuais.",
+        "Aproveite horários noturnos, como 22h, que mostraram boa resposta.",
+        "Estimule perguntas e debates nos posts para manter o alto volume de comentários."
       ],
-      "posts": []
+      "posts": [
+        "Df54B99svET"
+      ]
     },
     {
       "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Quedas expressivas em todos os indicadores: views (-68,5%), compartilhamentos (-57,1%), comentários (-78,5%) e novos seguidores (-21,5%) em relação à média dos 7 dias anteriores.",
-      "actions": [
-        "Evitar dias sem publicação.",
-        "Planejar conteúdos para manter a constância.",
-        "Reforçar temas que geraram maior engajamento na semana anterior."
-      ],
-      "posts": []
-    },
-    {
-      "title": "Maior queda: Comentários",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Os comentários despencaram 78,5%, reflexo direto da ausência de postagens novas.",
-      "actions": [
-        "Estimular perguntas e chamadas à ação nos próximos posts.",
-        "Responder rapidamente aos comentários para incentivar mais interações."
-      ],
-      "posts": []
-    },
-    {
-      "title": "Menor variação: Seguidores perdidos",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "A perda de seguidores caiu apenas 3,9%, mostrando que a base está relativamente estável mesmo sem novos conteúdos.",
+      "diagnosis": "Apesar do bom engajamento, o alcance médio diário caiu 55,9% em relação à semana anterior, ficando em 12.425. O único post teve alcance de 2.141, abaixo da mediana dos últimos reels.",
       "actions": [
-        "Manter a base engajada com conteúdos regulares.",
-        "Evitar longos períodos sem postagens para não aumentar a evasão."
+        "Teste horários alternativos para publicação.",
+        "Reforce chamadas para compartilhamento e salvamento nos vídeos.",
+        "Analise temas que geraram maior alcance nos últimos 7 dias para ajustar o conteúdo."
       ],
-      "posts": []
+      "posts": [
+        "Df54B99svET"
+      ]
+    },
+    {
+      "title": "Comentários dispararam",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Os comentários subiram 98,9% sobre a média semanal, com 241 no dia. O post Df54B99svET contribuiu com 24 comentários em poucas horas.",
+      "actions": [
+        "Inclua perguntas diretas nos próximos vídeos.",
+        "Responda rapidamente aos comentários para estimular novas interações."
+      ],
+      "posts": [
+        "Df54B99svET"
+      ]
+    },
+    {
+      "title": "Alcance caiu",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "O alcance médio diário caiu 55,9% em relação à semana anterior. O post do dia ficou abaixo da mediana de views dos reels recentes.",
+      "actions": [
+        "Revise a abordagem do conteúdo para ampliar o alcance.",
+        "Considere variar formatos e horários.",
+        "Reforce temas que performaram melhor nos últimos 7 dias."
+      ],
+      "posts": [
+        "Df54B99svET"
+      ]
     }
   ]
 }
