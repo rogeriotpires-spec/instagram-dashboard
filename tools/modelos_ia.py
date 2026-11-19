@@ -1,8 +1,9 @@
 """Cliente de chat para a redação das edições.
 
 Um só lugar para os fluxos que saírem do Claude. Esta versão atende a edição
-de notícias. Os outros fluxos (pautas, programa, análises, quentes, artigo,
-sob demanda) ainda não usam este módulo.
+de notícias e a pauta diária de conteúdo do Instagram (tools/gerar_pauta.py).
+Os outros fluxos (programa, análises, quentes, artigo, sob demanda) ainda
+não usam este módulo.
 
 Provedor:
 - Se OPENAI_API_KEY estiver definida, as chamadas vão para
