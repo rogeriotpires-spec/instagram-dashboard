@@ -155,7 +155,7 @@ jobs:
           MSG=$(python3 -c "
           import json,sys
           g=json.load(open(sys.argv[1],encoding='utf-8')).get('gerador')
-          print('Notícias: edição com IA' if g=='ia' else 'Notícias: edição automática sem Claude')
+          print('Notícias: edição com IA' if g=='ia' else 'Notícias: edição automática por regras')
           " "$ED")
           git add noticias/index.json noticias/20*.json
           if ! git diff --cached --quiet; then
