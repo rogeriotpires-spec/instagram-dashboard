@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-09T16:05:44-03:00",
+  "generated": "2026-11-19T09:35:03-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-09-10",
-    "end": "2026-11-08"
+    "start": "2026-09-19",
+    "end": "2026-11-17"
   },
-  "compare": "2026-07-12 a 2026-09-09",
-  "headline": "Em 60 dias a conta recebeu 36,3 mi de views (+120%), com 44.564 novos seguidores e 125 publicações, e as imagens de Opinião estiveram entre os posts mais vistos.",
+  "compare": "2026-07-21 a 2026-09-18",
+  "headline": "Nos últimos 60 dias, o perfil acumulou 33.485.885 views, 708.834 compartilhamentos e 44.575 novos seguidores, com crescimento expressivo em todos os indicadores.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "36,3 mi",
-      "delta": "+120%",
+      "value": "33,49 mi",
+      "delta": "+74%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "44.564",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "44.575",
+      "delta": "+1097,9%",
+      "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "2.087",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "2.407",
+      "delta": "+1413,8%",
+      "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "739.072",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "709 mil",
+      "delta": "+1004,8%",
+      "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "52.259",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "47.587",
+      "delta": "+518%",
+      "dir": "up"
     },
     {
-      "label": "Alcance médio por dia",
-      "value": "207 mil",
-      "delta": "+169%",
+      "label": "Salvamentos recebidos",
+      "value": "85.693",
+      "delta": "+848,8%",
       "dir": "up"
     }
   ],
@@ -50,10 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os três posts mais vistos foram duas imagens de Opinião e um Reel: \"Fica a reflexão.\" (1.237.870 views, 39.599 compartilhamentos, 1.188 seguidores), \"Ninguém aguenta mais o Lula e o PT!\" (983.088 views, 35.782 compartilhamentos) e o Reel \"Fiz a conta do primeiro para o segundo turno e ela não…\" (982.823). As 43 imagens somaram 6.139 seguidores.",
+      "diagnosis": "Imagens de opinião, como 'Fica a reflexão.' (Dd8pQedtGZL) e 'Ninguém aguenta mais o Lula e o PT!' (Dd08gl4tibs), e reels analíticos tiveram grande alcance, com mais de 1 milhão de views cada.",
       "actions": [
-        "Mantenha imagens de Opinião curtas, com frase forte, nas manhãs.",
-        "Alterne com Reels de conta ou dado, que também passam de 900 mil views."
+        "Continuar investindo em imagens com opinião forte.",
+        "Produzir reels com análises detalhadas e dados.",
+        "Reforçar temas políticos e de bastidores."
       ],
       "posts": [
         "Dd8pQedtGZL",
@@ -63,41 +64,45 @@
     },
     {
       "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Corrigir",
-      "diagnosis": "Entre os 80 Reels, a mediana foi de 30.499,5 views, praticamente igual à das 43 imagens (28.590), e os mais fracos ficaram perto de mil views: \"Se liga!!!\" (862), \"Banda podre esperneia!\" (1.066) e \"Autoexplicativo (debate)\" (1.345, 23,1s, 60% pularam).",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Alguns reels e carrosséis, como 'Se liga!!!' (De6lr9Ft3I5) e 'Autoexplicativo (debate)' (Dd_agBPN6Mi), tiveram baixíssimo desempenho, mostrando que nem todo formato ou tema gera resultado.",
       "actions": [
-        "Corte Reels sem dado ou sem gancho no título.",
-        "Não publique só para manter o ritmo: prefira menos posts com tema forte."
+        "Reavaliar o uso de carrosséis e reels genéricos.",
+        "Ajustar o tom e abordagem de temas menos performáticos.",
+        "Focar nos formatos que mais engajam."
       ],
       "posts": [
         "De6lr9Ft3I5",
-        "DdL670TN4bK",
-        "Dd_agBPN6Mi"
+        "Dd_agBPN6Mi",
+        "DeKCMhiNIxP"
       ]
     },
     {
-      "title": "Comentários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os comentários somaram 52.259. O post com mais comentários foi \"Lula não ganhou a eleição.\" (597). A imagem \"Qual número você escolheria?\" teve 487 comentários com apenas 13.748 views, sinal de que perguntas diretas geram resposta mesmo com alcance menor.",
+      "title": "Maior crescimento: Novos seguidores",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O perfil ganhou 44.575 novos seguidores, crescimento de 1.097,9% em relação ao período anterior, impulsionado por posts virais e temas polêmicos.",
       "actions": [
-        "Publique uma pergunta direta por semana.",
-        "Use a pergunta também no fim de Reels de maior alcance."
+        "Aproveitar o momento de crescimento para engajar novos seguidores.",
+        "Manter a produção de conteúdos virais.",
+        "Explorar temas polêmicos e de grande repercussão."
       ],
       "posts": [
-        "DfZXNLStwXv",
-        "DdumKq_tAX_"
+        "Dd8pQedtGZL",
+        "DeVAkiqtPwL",
+        "Dd08gl4tibs"
       ]
     },
     {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Há poucos posts por faixa, então leia com cuidado. As medianas mais altas ficaram às 21h (96.815,5) e 22h (98.080,5), seguidas de 18h (81.501) e 8h (79.764). As faixas de 6h (11.708,5) e 20h (9.389,5) ficaram bem abaixo.",
+      "title": "Tendência: Imagens de opinião em alta",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Imagens de opinião tiveram mediana de 28.828 views e geraram grande volume de seguidores e compartilhamentos.",
       "actions": [
-        "Concentre os posts principais entre 18h e 22h e em 8h.",
-        "Teste de novo as 6h e as 20h antes de abandonar de vez."
+        "Produzir mais imagens com frases e opiniões fortes.",
+        "Aproveitar temas atuais para novas imagens.",
+        "Testar diferentes estilos visuais."
       ],
       "posts": [
         "Dd8pQedtGZL",

@@ -1,104 +1,96 @@
 {
-  "generated": "2026-11-09T16:05:44-03:00",
+  "generated": "2026-11-19T09:35:03-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-11-08",
-    "end": "2026-11-08"
+    "start": "2026-11-17",
+    "end": "2026-11-17"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "Em 8/11 a conta recebeu 241.199 views (−14% contra a média dos 7 dias anteriores) com uma única publicação, o Reel do Enem, que chegou a 99.013 views em 16,1 horas.",
+  "headline": "No dia 17/11, sem novas publicações, o perfil registrou 22.262 views, 810 compartilhamentos e 93 novos seguidores, todos com quedas acentuadas em relação à média da semana anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "241 mil",
-      "delta": "−14%",
+      "value": "22.262",
+      "delta": "−68,5%",
       "dir": "down"
     },
     {
       "label": "Novos seguidores",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "93",
+      "delta": "−21,5%",
+      "dir": "down"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "42",
+      "delta": "−3,9%",
+      "dir": "up"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "9.178",
-      "delta": "−28%",
+      "value": "810",
+      "delta": "−57,1%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "231",
-      "delta": "−62%",
+      "value": "34",
+      "delta": "−78,5%",
       "dir": "down"
     },
     {
-      "label": "Alcance médio por dia",
-      "value": "146 mil",
-      "delta": "+132%",
-      "dir": "up"
+      "label": "Salvamentos recebidos",
+      "value": "63",
+      "delta": "−68,9%",
+      "dir": "down"
     }
   ],
   "cards": [
     {
       "title": "O que funcionou",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "O único post do dia foi o Reel \"O Enem mandou 5 milhões de jovens escreverem sobre a…\" (dom, 22h34, 110,5s de duração). Em 16,1 horas ele tinha 99.013 views, 4.007 compartilhamentos e 533 salvamentos. Ele ainda acumula views, então esses números do dia podem crescer.",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Apesar da ausência de publicações, o perfil manteve 22.262 views e 93 novos seguidores, indicando resquício de engajamento de posts anteriores.",
       "actions": [
-        "Mantenha o formato de Reel com tema de Política e dado concreto no título.",
-        "Volte a olhar este post amanhã para ver até onde ele chega, antes de comparar com outros dias."
+        "Retomar a frequência de postagens diárias.",
+        "Aproveitar o engajamento residual para impulsionar novos conteúdos.",
+        "Monitorar o impacto de dias sem publicação nos próximos ciclos."
       ],
-      "posts": [
-        "DfgJxRXsMwr"
-      ]
+      "posts": []
     },
     {
       "title": "O que não funcionou",
-      "status": "warn",
+      "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Com uma publicação só, o dia ficou abaixo da média dos 7 dias anteriores em tudo: views −14%, compartilhamentos −28% (9.178), salvamentos −21% (1.010) e comentários −62% (231). Os comentários foram o que mais caiu. Os números de novos seguidores e de quem deixou de seguir ainda não estão disponíveis para o dia.",
+      "diagnosis": "Quedas expressivas em todos os indicadores: views (-68,5%), compartilhamentos (-57,1%), comentários (-78,5%) e novos seguidores (-21,5%) em relação à média dos 7 dias anteriores.",
       "actions": [
-        "Publique pelo menos mais um post por dia para não depender de um único Reel.",
-        "Feche cada post com uma pergunta direta para recuperar os comentários, que caíram 62% no dia."
+        "Evitar dias sem publicação.",
+        "Planejar conteúdos para manter a constância.",
+        "Reforçar temas que geraram maior engajamento na semana anterior."
       ],
-      "posts": [
-        "DfgJxRXsMwr"
-      ]
+      "posts": []
     },
     {
-      "title": "Retenção do Reel",
+      "title": "Maior queda: Comentários",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "Os comentários despencaram 78,5%, reflexo direto da ausência de postagens novas.",
+      "actions": [
+        "Estimular perguntas e chamadas à ação nos próximos posts.",
+        "Responder rapidamente aos comentários para incentivar mais interações."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Menor variação: Seguidores perdidos",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "O Reel do Enem foi assistido em média por 25s de 110,5s, e 38% das pessoas pularam no começo. Nos Reels longos da semana, o público ficou mais tempo: 59s em \"Lula não ganhou a eleição.\" (245,1s) e 47s em \"O TSE diz que ninguém na sua cidade votou no Flávio.\" (163,4s).",
+      "diagnosis": "A perda de seguidores caiu apenas 3,9%, mostrando que a base está relativamente estável mesmo sem novos conteúdos.",
       "actions": [
-        "Abra o Reel com a informação mais forte nos primeiros segundos para reduzir o pulo.",
-        "Teste uma versão mais curta do mesmo tema e compare o tempo assistido com os 25s deste."
+        "Manter a base engajada com conteúdos regulares.",
+        "Evitar longos períodos sem postagens para não aumentar a evasão."
       ],
-      "posts": [
-        "DfgJxRXsMwr",
-        "DfZXNLStwXv",
-        "DfcDUOTNtPd"
-      ]
-    },
-    {
-      "title": "Alcance e interação",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "O alcance médio do dia foi de 145.817 contas, +132% contra a média dos 7 dias anteriores, e 26.554 contas interagiram (+14%). Mesmo com views menores, o post das 22h34 chegou a 76.674 contas.",
-      "actions": [
-        "Continue publicando à noite quando houver tema forte: o Reel das 22h34 teve 76.674 de alcance.",
-        "Acompanhe se o alcance se mantém quando houver mais de um post no dia."
-      ],
-      "posts": [
-        "DfgJxRXsMwr"
-      ]
+      "posts": []
     }
   ]
 }

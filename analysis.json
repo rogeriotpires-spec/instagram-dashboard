@@ -1,49 +1,49 @@
 {
-  "generated": "2026-11-09T06:36:00-03:00",
+  "generated": "2026-11-19T09:35:03-03:00",
   "period": {
-    "start": "2026-11-02",
-    "end": "2026-11-08"
+    "start": "2026-11-11",
+    "end": "2026-11-17"
   },
   "compare": {
-    "start": "2026-10-26",
-    "end": "2026-11-01"
+    "start": "2026-11-04",
+    "end": "2026-11-10"
   },
-  "headline": "Com só 5 posts e 4 dias sem publicar, a conta recebeu 1,80 mi de views de 2 a 7/11 (-69,8%) e 3.056 novos seguidores (-83,0%), mas os compartilhamentos quase se mantiveram (85.953, -11,6%) graças a dois Reels longos de manhã, e o perfil passou de 80 mil seguidores.",
+  "headline": "Entre 11 e 17/11, o perfil teve 416.245 views, 12.428 compartilhamentos e 754 novos seguidores, mas todos os indicadores caíram mais de 60% em relação à semana anterior.",
   "kpis": [
     {
-      "label": "Views recebidas (2 a 7/11)",
-      "value": "1,80 mi",
-      "delta": "-69,8%",
+      "label": "Views recebidas pela conta",
+      "value": "416 mil",
+      "delta": "−70,3%",
       "dir": "down"
     },
     {
-      "label": "Alcance médio por dia (2 a 7/11)",
-      "value": "61,4 mil",
-      "delta": "-84,4%; de 2 a 5/11 o alcance veio menor que as contas engajadas, dado pode estar incompleto",
+      "label": "Novos seguidores",
+      "value": "754",
+      "delta": "−80,2%",
       "dir": "down"
     },
     {
-      "label": "Novos seguidores (2 a 7/11)",
-      "value": "3.056",
-      "delta": "-83,0%",
-      "dir": "down"
-    },
-    {
-      "label": "Deixaram de seguir (2 a 7/11)",
-      "value": "317",
-      "delta": "-54,9%",
+      "label": "Deixaram de seguir",
+      "value": "306",
+      "delta": "−11,3%",
       "dir": "up"
     },
     {
-      "label": "Compartilhamentos (2 a 7/11)",
-      "value": "85.953",
-      "delta": "-11,6%",
+      "label": "Compartilhamentos recebidos",
+      "value": "12.428",
+      "delta": "−81,6%",
       "dir": "down"
     },
     {
-      "label": "Comentários (2 a 7/11)",
-      "value": "4.105",
-      "delta": "-1,3%",
+      "label": "Comentários recebidos",
+      "value": "848",
+      "delta": "−63,4%",
+      "dir": "down"
+    },
+    {
+      "label": "Salvamentos recebidos",
+      "value": "1.326",
+      "delta": "−81,7%",
       "dir": "down"
     }
   ],
@@ -52,62 +52,57 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os 2 melhores posts foram Reels longos publicados de manhã: \"Lula não ganhou a eleição.\" (qui, 7h14, 245s de duração, assistido em média 58s, 267.737 views, 36.060 compartilhamentos e 572 comentários) e \"O TSE diz que ninguém na sua cidade votou no Flávio.\" (sex, 8h15, 163s, 50s em média, 225.962 views, 13.195 compartilhamentos e 356 comentários). Os dois somaram 49.255 compartilhamentos, mais da metade dos 85.953 da conta no período. O terceiro foi \"80 mil óculos derrubaram um governador.\" (sex, 22h15, 89.011 views, 18s em média).",
+      "diagnosis": "O reel 'VINTE E QUATRO MIL OITOCENTOS E VINTE E DOIS VOTOS A MAIS.' (Dfu--g3tZsF) se destacou com 76.792 views, 6.892 compartilhamentos e 242 comentários. Temas políticos e análises de fatos recentes continuam rendendo alto engajamento.",
       "actions": [
-        "Repita o formato de \"Lula não ganhou a eleição.\": Reel de análise com dado verificável, publicado entre 7h e 8h30.",
-        "Não tenha medo de Reels de 2 a 4 minutos quando o assunto prende: os dois mais longos foram os mais vistos e os mais compartilhados.",
-        "Peça o compartilhamento no fim desses Reels de dados, o tipo de post que esteve associado a mais compartilhamentos."
+        "Produzir mais reels sobre temas políticos em alta.",
+        "Explorar análises numéricas e fatos impactantes.",
+        "Manter o foco em vídeos curtos e diretos."
       ],
       "posts": [
-        "DfZXNLStwXv",
-        "DfcDUOTNtPd",
-        "DfdjTEysaXN"
+        "Dfu--g3tZsF",
+        "DfnlDtfsZIE",
+        "Dfs_VE9MLDE"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Corrigir",
-      "diagnosis": "Não houve post de 2 a 5/11, e a semana fechou com 5 publicações contra 11 na anterior. A imagem \"80 MIL SEGUIDORES!\" (sex, 11h08) foi o post mais fraco: 14.339 views, 5 compartilhamentos e 9 seguidores. O Reel \"O Enem mandou 5 milhões de jovens...\" (dom, 22h34) tinha 29.805 views com só 1,4h no ar, então ainda não dá para julgar. \"80 mil óculos derrubaram um governador.\" (22h15) teve 18s assistidos em média, bem abaixo dos 50s a 58s dos Reels da manhã. Os posts da semana anterior tiveram até 13 dias para acumular views, o que pesa na comparação das medianas (157,5 mil contra 200,1 mil por Reel).",
-      "actions": [
-        "Não deixe dias sem post: publique pelo menos um Reel por dia, de preferência de manhã.",
-        "Troque comemoração de marca do perfil por conteúdo: a imagem de 80 mil teve o menor resultado da semana.",
-        "Teste o Reel da noite também às 8h no dia seguinte e compare as views nas primeiras 24h."
-      ],
-      "posts": [
-        "DfcXA1DtXMY",
-        "DfgJxRXsMwr",
-        "DfdjTEysaXN"
-      ]
-    },
-    {
-      "title": "Seguidores: o ritmo acompanhou os posts",
-      "status": "warn",
       "status_label": "Atenção",
-      "diagnosis": "O perfil foi de 77.970 seguidores em 1/11 para 81.772 em 7/11. Nos 4 dias sem post (2 a 5/11) entraram 671 pessoas, cerca de 168 por dia; nos 2 dias com Reels (6 e 7/11) entraram 2.385, cerca de 1.193 por dia. As views diárias pouco mudaram entre esses dois trechos (média de 312,7 mil e 272,5 mil), então a volta dos posts coincidiu com mais seguidores, não com mais views. As saídas caíram para 317 (-54,9%). A comparação com 26/10 a 1/11 é afetada pela semana da eleição, que teve 17.955 novos seguidores em 6 dias.",
+      "diagnosis": "Os reels 'QUEM ESTÁ PROTEGENDO NOSSOS JOVENS DO CRIME ORGANIZADO?' (DfqJsFFtMT-) e 'QUEM ESTÁ COM MEDO DE PERDER O CONTROLE DO DINHEIRO PÚBLICO?' (DfzF5o6NCSj) tiveram baixo alcance (6.266 e 7.616 views) e pouquíssimos compartilhamentos.",
       "actions": [
-        "Mantenha um Reel novo por dia: os dias com post novo estiveram associados a cerca de 7 vezes mais seguidores.",
-        "Fixe no perfil \"Lula não ganhou a eleição.\" para quem chega conhecer seu tipo de análise.",
-        "Responda os comentários dos Reels da manhã na primeira hora; foram 928 comentários nos dois melhores."
+        "Reavaliar temas e formatos que não geram compartilhamentos.",
+        "Testar abordagens diferentes para assuntos complexos.",
+        "Ajustar horários de publicação de conteúdos menos performáticos."
       ],
       "posts": [
-        "DfZXNLStwXv",
-        "DfcDUOTNtPd"
+        "DfqJsFFtMT-",
+        "DfzF5o6NCSj"
       ]
     },
     {
-      "title": "Retenção dos Reels e Stories",
-      "status": "good",
-      "status_label": "Manter",
-      "diagnosis": "Em 30 dias, os 14 Reels assistidos em média por 25s ou mais tiveram mediana de 214,5 mil views; os 19 abaixo de 15s ficaram em 23,4 mil. Nesta semana os dois melhores passaram de 50s. Nos Stories, o histórico registra só 4 stories, todos em 8/11, com 1.133 visualizações e alcance médio de 229 pessoas, contra 9 stories, 36.329 visualizações e alcance médio de 3.224 na semana anterior. O estilo das imagens não foi classificado nesta rodada porque as imagens não puderam ser baixadas, e só houve 2 imagens em 30 dias, então não há comparação por estilo.",
+      "title": "Maior queda: Novos seguidores",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "A captação de novos seguidores caiu 80,2% em relação à semana anterior, indicando menor viralização dos conteúdos.",
       "actions": [
-        "Abra cada Reel com o dado ou a frase mais forte: os que passaram de 25s assistidos tiveram mediana 9 vezes maior.",
-        "Volte a publicar Stories todos os dias, com um story de imagem à noite mostrando o dado do Reel do dia.",
-        "Use caixa de pergunta nos Stories para colher dúvidas que virem Reels de resposta."
+        "Aumentar frequência de posts com potencial viral.",
+        "Incluir chamadas para seguir o perfil nos vídeos.",
+        "Investir em temas que já trouxeram seguidores em massa."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Maior destaque: Compartilhamentos do melhor reel",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O reel Dfu--g3tZsF concentrou 6.892 compartilhamentos, mais da metade do total semanal, mostrando força em temas polêmicos e análises detalhadas.",
+      "actions": [
+        "Reforçar temas polêmicos e dados numéricos.",
+        "Usar títulos impactantes e diretos.",
+        "Acompanhar a repercussão para novos desdobramentos."
       ],
       "posts": [
-        "DfZXNLStwXv",
-        "DfcDUOTNtPd"
+        "Dfu--g3tZsF"
       ]
     }
   ],
@@ -118,12 +113,12 @@
         [
           "r",
           "8h",
-          "Reel sobre a redação do Enem e o que ela diz da educação pública"
+          "Análise política de fatos recentes"
         ],
         [
-          "s",
-          "Noite",
-          "Story de imagem com o dado do Reel do dia"
+          "i",
+          "12h",
+          "Opinião sobre cenário nacional"
         ]
       ]
     ],
@@ -133,12 +128,12 @@
         [
           "r",
           "7h30",
-          "Reel longo de análise com dado verificável, estilo \"Lula não ganhou a eleição.\""
+          "Reação a notícias do dia"
         ],
         [
-          "s",
-          "Noite",
-          "Caixa de pergunta: o que você quer que eu analise?"
+          "i",
+          "18h",
+          "Frase de impacto/opinião"
         ]
       ]
     ],
@@ -148,12 +143,12 @@
         [
           "r",
           "8h",
-          "Reel respondendo uma dúvida dos comentários"
+          "Análise de números e dados"
         ],
         [
           "i",
-          "19h",
-          "Imagem curta de posicionamento sobre o fato do dia"
+          "20h",
+          "Bastidores e pessoal"
         ]
       ]
     ],
@@ -162,13 +157,13 @@
       [
         [
           "r",
-          "7h30",
-          "Reel com o número mais forte da semana logo no primeiro segundo"
+          "8h",
+          "Tema polêmico em alta"
         ],
         [
-          "s",
-          "Noite",
-          "Story com enquete sobre o tema do Reel"
+          "i",
+          "12h",
+          "Opinião sobre decisão política"
         ]
       ]
     ],
@@ -178,12 +173,12 @@
         [
           "r",
           "8h",
-          "Reel sobre a transição dos governos eleitos"
+          "Resumo da semana política"
         ],
         [
-          "s",
-          "Noite",
-          "Story com o dado do dia"
+          "i",
+          "18h",
+          "Frase de opinião"
         ]
       ]
     ],
@@ -193,12 +188,12 @@
         [
           "r",
           "9h",
-          "Reel de resumo da semana em números"
+          "Análise de bastidores"
         ],
         [
-          "s",
+          "i",
           "Noite",
-          "Bastidor curto nos Stories"
+          "Reflexão/opinião"
         ]
       ]
     ],
@@ -207,13 +202,13 @@
       [
         [
           "r",
-          "9h",
-          "Reel sobre a Proclamação da República (15/11) e o que ela diz sobre a política de hoje"
+          "10h",
+          "Tema quente do fim de semana"
         ],
         [
-          "s",
+          "i",
           "Noite",
-          "Resumo da semana nos Stories"
+          "Resumo e chamada para debate"
         ]
       ]
     ]

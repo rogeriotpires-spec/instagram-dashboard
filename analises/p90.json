@@ -1,48 +1,48 @@
 {
-  "generated": "2026-11-09T16:05:44-03:00",
+  "generated": "2026-11-19T09:35:03-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-08-11",
-    "end": "2026-11-08"
+    "start": "2026-08-20",
+    "end": "2026-11-17"
   },
-  "compare": "2026-05-13 a 2026-08-10",
-  "headline": "Em 90 dias a conta recebeu 44,9 mi de views e 46.299 novos seguidores em 181 publicações, com imagens de Opinião liderando em alcance e seguidores.",
+  "compare": "2026-05-22 a 2026-08-19",
+  "headline": "Nos últimos 90 dias, o perfil atingiu 43.101.076 views, 772.996 compartilhamentos e 48.296 novos seguidores, consolidando forte crescimento e engajamento alto em temas políticos e de opinião.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "44,9 mi",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "43,1 mi",
+      "delta": "+304,4%",
+      "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "46.299",
+      "value": "48.296",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "2.112",
+      "value": "2.566",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "751.533",
+      "value": "773 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "53.742",
+      "value": "55.287",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "166 mil",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "163 mil",
+      "delta": "+146,3%",
+      "dir": "up"
     }
   ],
   "cards": [
@@ -50,58 +50,57 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os maiores resultados vieram de imagens de Opinião: \"Bem vindo a este manicômio chamado Brasil!\" (1.491.845 views, 28.456 compartilhamentos, 493 seguidores), \"Fica a reflexão.\" (1.237.870, 1.188 seguidores) e \"Ninguém aguenta mais o Lula e o PT!\" (983.088, 1.134 seguidores). As 57 imagens somaram 7.028 seguidores. Os dados de seguidores e interações cobrem cerca de 61 dos 90 dias.",
+      "diagnosis": "Imagens e reels de opinião, como 'Fica a reflexão.' (Dd8pQedtGZL) e 'Ninguém aguenta mais o Lula e o PT!' (Dd08gl4tibs), mantiveram alto engajamento e viralização.",
       "actions": [
-        "Mantenha uma imagem de Opinião forte por semana, de manhã.",
-        "Use essas imagens como porta de entrada para os Reels."
+        "Reforçar a produção de conteúdos opinativos.",
+        "Manter frequência de reels e imagens com temas polêmicos.",
+        "Aproveitar datas e fatos relevantes para novos posts."
       ],
       "posts": [
-        "DcGTcGzN_5i",
         "Dd8pQedtGZL",
-        "Dd08gl4tibs"
+        "Dd08gl4tibs",
+        "De8Q_S9MAJt"
       ]
     },
     {
       "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Corrigir",
-      "diagnosis": "Os piores posts foram Reels de Política com menos de 600 views: \"Quase 18 anos no poder\" (473), \"O STF virou um manicômio institucional\" (537) e \"Candidato perdeu Instagram e Fundo Eleitoral\" (552). Os posts de Eventos e discursos tiveram mediana de 2.696,5 views em 6 posts.",
-      "actions": [
-        "Pare de publicar Reels de assunto geral sem gancho.",
-        "Reduza posts de eventos e discursos ou dê a eles um recorte forte."
-      ],
-      "posts": [
-        "Db73S3ZBiej",
-        "Dc3EY5cNint",
-        "Dcvng7kNnHA"
-      ]
-    },
-    {
-      "title": "Temas",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Entrevista teve a maior mediana de views (88.396, em 5 posts), contra 24.073,5 em Política (108 posts) e 15.233,5 em Opinião (58 posts). Entrevista e Política são os assuntos em que vale investir mais.",
-      "actions": [
-        "Abra espaço para entrevistas, que têm poucos posts e alta mediana.",
-        "Mantenha Política como base e Opinião como porta de crescimento."
-      ],
-      "posts": [
-        "Dd8pQedtGZL"
-      ]
-    },
-    {
-      "title": "Horários",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Com 181 posts, as medianas mais altas ficaram às 21h (99.921), 22h (97.148), 17h (88.396) e 18h (81.501). As mais baixas foram 11h (3.951), 6h (4.439,5) e 20h (9.197). Algumas faixas têm poucos posts.",
+      "diagnosis": "Alguns conteúdos, como 'O STF virou um manicômio institucional' (Dc3EY5cNint) e 'Quer entender o que é inflação?' (DcT_YEutG6d), tiveram baixíssimo alcance, mostrando que temas ou formatos menos conectados ao público não performam.",
       "actions": [
-        "Prefira o fim da tarde e a noite para os posts mais fortes.",
-        "Evite 6h e 11h para Reels."
+        "Evitar temas excessivamente técnicos ou distantes do debate central.",
+        "Testar abordagens mais diretas e populares para temas complexos.",
+        "Ajustar formatos de posts com baixo desempenho."
       ],
       "posts": [
-        "Dd8pQedtGZL",
-        "Dd08gl4tibs"
+        "Dc3EY5cNint",
+        "Dcvng7kNnHA",
+        "DcT_YEutG6d"
       ]
+    },
+    {
+      "title": "Tendência: Engajamento crescente em temas políticos",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O engajamento médio diário subiu 88,1% e o alcance médio 146,3%, com destaque para conteúdos políticos e de opinião.",
+      "actions": [
+        "Manter o foco em política e opinião.",
+        "Aproveitar o engajamento para lançar séries temáticas.",
+        "Estimular debates e perguntas nos posts."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Tendência: Formatos de imagem e reels dominam",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Imagens (mediana de 16.617 views) e reels (mediana de 24.775 views) são os formatos mais eficientes para alcance e engajamento.",
+      "actions": [
+        "Priorizar imagens e reels nos próximos ciclos.",
+        "Testar variações de duração e estilo nos reels.",
+        "Explorar colaborações em formatos de imagem."
+      ],
+      "posts": []
     }
   ]
 }

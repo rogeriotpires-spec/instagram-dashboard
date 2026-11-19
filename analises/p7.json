@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-09T16:05:44-03:00",
+  "generated": "2026-11-19T09:35:03-03:00",
   "dias": 7,
   "period": {
-    "start": "2026-11-02",
-    "end": "2026-11-08"
+    "start": "2026-11-11",
+    "end": "2026-11-17"
   },
-  "compare": "2026-10-26 a 2026-11-01",
-  "headline": "De 2 a 8/11 a conta recebeu 2,04 mi de views (−67%) e 3.056 novos seguidores (−83%) com só 5 publicações contra 11 na semana anterior, mas os compartilhamentos quase se mantiveram (95.131, −5%).",
+  "compare": "2026-11-04 a 2026-11-10",
+  "headline": "Entre 11 e 17/11, o perfil teve 416.245 views, 12.428 compartilhamentos e 754 novos seguidores, mas todos os indicadores caíram mais de 60% em relação à semana anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "2,04 mi",
-      "delta": "−67%",
+      "value": "416 mil",
+      "delta": "−70,3%",
       "dir": "down"
     },
     {
       "label": "Novos seguidores",
-      "value": "3.056",
-      "delta": "−83%",
+      "value": "754",
+      "delta": "−80,2%",
       "dir": "down"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "317",
-      "delta": "−59%",
+      "value": "306",
+      "delta": "−11,3%",
       "dir": "up"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "95.131",
-      "delta": "−5%",
+      "value": "12.428",
+      "delta": "−81,6%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "4.335",
-      "delta": "−0,1%",
+      "value": "848",
+      "delta": "−63,4%",
       "dir": "down"
     },
     {
-      "label": "Alcance médio por dia",
-      "value": "73 mil",
-      "delta": "−79%",
+      "label": "Salvamentos recebidos",
+      "value": "1.326",
+      "delta": "−81,7%",
       "dir": "down"
     }
   ],
@@ -50,59 +50,57 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os dois melhores posts foram Reels longos de manhã: \"Lula não ganhou a eleição.\" (sex, 7h14, 245,1s, assistido em média por 59s) com 279.409 views, 37.967 compartilhamentos e 597 comentários, e \"O TSE diz que ninguém na sua cidade votou no Flávio.\" (sáb, 8h15, 163,4s, 47s em média) com 240.976 views, 13.919 compartilhamentos e 376 comentários. O terceiro foi o Reel do Enem, com 99.013 views em 16,1 horas.",
+      "diagnosis": "O reel 'VINTE E QUATRO MIL OITOCENTOS E VINTE E DOIS VOTOS A MAIS.' (Dfu--g3tZsF) se destacou com 76.792 views, 6.892 compartilhamentos e 242 comentários. Temas políticos e análises de fatos recentes continuam rendendo alto engajamento.",
       "actions": [
-        "Repita o formato de \"Lula não ganhou a eleição.\": Reel de análise com dado verificável, publicado entre 7h e 8h30.",
-        "Não evite Reels longos quando o assunto prende: os dois mais longos foram os mais vistos.",
-        "Peça o compartilhamento no fim dos Reels de dados."
+        "Produzir mais reels sobre temas políticos em alta.",
+        "Explorar análises numéricas e fatos impactantes.",
+        "Manter o foco em vídeos curtos e diretos."
       ],
       "posts": [
-        "DfZXNLStwXv",
-        "DfcDUOTNtPd",
-        "DfgJxRXsMwr"
+        "Dfu--g3tZsF",
+        "DfnlDtfsZIE",
+        "Dfs_VE9MLDE"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "bad",
-      "status_label": "Corrigir",
-      "diagnosis": "A semana teve 5 publicações contra 11 na anterior. A imagem \"80 MIL SEGUIDORES!\" (sáb, 11h08) foi a mais fraca: 14.822 views, 5 compartilhamentos, 4 salvamentos e 10 seguidores. O Reel \"80 mil óculos derrubaram um governador.\" (sáb, 22h15) teve 97.148 views e 1.699 compartilhamentos, bem abaixo dos dois Reels da manhã, com 16s assistidos em média de 131,4s.",
+      "status_label": "Atenção",
+      "diagnosis": "Os reels 'QUEM ESTÁ PROTEGENDO NOSSOS JOVENS DO CRIME ORGANIZADO?' (DfqJsFFtMT-) e 'QUEM ESTÁ COM MEDO DE PERDER O CONTROLE DO DINHEIRO PÚBLICO?' (DfzF5o6NCSj) tiveram baixo alcance (6.266 e 7.616 views) e pouquíssimos compartilhamentos.",
       "actions": [
-        "Volte ao ritmo de publicação da semana anterior, com pelo menos um post por dia.",
-        "Evite posts de bastidores como imagem solta; se fizer, leve para Reel.",
-        "No Reel de 131,4s, traga o ponto principal para os primeiros segundos."
+        "Reavaliar temas e formatos que não geram compartilhamentos.",
+        "Testar abordagens diferentes para assuntos complexos.",
+        "Ajustar horários de publicação de conteúdos menos performáticos."
       ],
       "posts": [
-        "DfcXA1DtXMY",
-        "DfdjTEysaXN"
+        "DfqJsFFtMT-",
+        "DfzF5o6NCSj"
       ]
     },
     {
-      "title": "Horários",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "Os Reels das 7h e das 8h somaram as maiores views da semana (279.409 e 240.976), e a mediana das 22h foi de 98.080,5. A imagem das 11h teve 14.822. Os posts das 7h e 8h têm mais tempo de vida (79,5h e 54,5h) que o das 22h (16,1h), então a comparação favorece a manhã.",
-      "actions": [
-        "Mantenha a manhã para os Reels mais fortes.",
-        "Reserve a noite para assuntos do dia, lembrando que posts recentes ainda acumulam views."
-      ],
-      "posts": [
-        "DfZXNLStwXv",
-        "DfcDUOTNtPd",
-        "DfgJxRXsMwr"
-      ]
-    },
-    {
-      "title": "Seguidores",
+      "title": "Maior queda: Novos seguidores",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "Entraram 3.056 novos seguidores (−83%) e 317 deixaram de seguir (−59%); os dados de seguidores cobrem 6 dos 7 dias. O único post com seguidores atribuídos foi a imagem \"80 MIL SEGUIDORES!\", com 10. O alcance médio por dia caiu para 73.477 (−79%) e as contas com interação por dia para 25.405 (−45%).",
+      "diagnosis": "A captação de novos seguidores caiu 80,2% em relação à semana anterior, indicando menor viralização dos conteúdos.",
       "actions": [
-        "Inclua nos Reels de maior alcance um convite claro para seguir o perfil.",
-        "Veja se o alcance volta ao patamar anterior com a retomada das publicações."
+        "Aumentar frequência de posts com potencial viral.",
+        "Incluir chamadas para seguir o perfil nos vídeos.",
+        "Investir em temas que já trouxeram seguidores em massa."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Maior destaque: Compartilhamentos do melhor reel",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O reel Dfu--g3tZsF concentrou 6.892 compartilhamentos, mais da metade do total semanal, mostrando força em temas polêmicos e análises detalhadas.",
+      "actions": [
+        "Reforçar temas polêmicos e dados numéricos.",
+        "Usar títulos impactantes e diretos.",
+        "Acompanhar a repercussão para novos desdobramentos."
       ],
       "posts": [
-        "DfcXA1DtXMY"
+        "Dfu--g3tZsF"
       ]
     }
   ]

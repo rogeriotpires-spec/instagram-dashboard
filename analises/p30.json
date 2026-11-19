@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-09T16:05:44-03:00",
+  "generated": "2026-11-19T09:35:03-03:00",
   "dias": 30,
   "period": {
-    "start": "2026-10-10",
-    "end": "2026-11-08"
+    "start": "2026-10-19",
+    "end": "2026-11-17"
   },
-  "compare": "2026-09-10 a 2026-10-09",
-  "headline": "Nos últimos 30 dias a conta recebeu 19,6 mi de views (+17%) e 33.160 novos seguidores (+191%), mas 1.655 deixaram de seguir (+283%), em 61 publicações contra 64 no período anterior.",
+  "compare": "2026-09-19 a 2026-10-18",
+  "headline": "Nos últimos 30 dias, o perfil somou 15.888.797 views, 328.269 compartilhamentos e 31.001 novos seguidores, com destaque para reels políticos e imagens de opinião.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "19,6 mi",
-      "delta": "+17%",
-      "dir": "up"
+      "value": "15,89 mi",
+      "delta": "−9,7%",
+      "dir": "down"
     },
     {
       "label": "Novos seguidores",
-      "value": "33.160",
-      "delta": "+191%",
+      "value": "31.001",
+      "delta": "+128,4%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "1.655",
-      "delta": "+283%",
+      "value": "1.903",
+      "delta": "+277,6%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "388.741",
-      "delta": "+11%",
-      "dir": "up"
+      "value": "328 mil",
+      "delta": "−13,7%",
+      "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "32.013",
-      "delta": "+58%",
+      "value": "25.672",
+      "delta": "+17,1%",
       "dir": "up"
     },
     {
       "label": "Salvamentos recebidos",
-      "value": "57.201",
-      "delta": "+73%",
+      "value": "50.330",
+      "delta": "+42,3%",
       "dir": "up"
     }
   ],
@@ -50,62 +50,59 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os Reels de Política foram o motor: mediana de 93.710 views em 39 Reels, contra 12.379 nas 22 imagens. O melhor foi \"Fiz a conta do primeiro para o segundo turno e ela não…\" (982.823 views, 19.586 compartilhamentos), seguido de \"Meio milhão de seções.\" (729.669 views, 69,7s de duração, 14.739 compartilhamentos).",
+      "diagnosis": "Reels como 'Fiz a conta do primeiro para o segundo turno e ela não…' (De8Q_S9MAJt) e imagens de opinião ('Flávio Livre.' - DfBOEyBsDWf) tiveram alto alcance e engajamento, com 983.094 e 675.434 views respectivamente.",
       "actions": [
-        "Repita Reels de Política que mostram uma conta ou um dado.",
-        "Priorize Reels de 1 a 2 minutos com dado no título.",
-        "Registre os temas dos melhores Reels para voltar a eles."
+        "Manter a produção de reels analíticos e imagens de opinião.",
+        "Aproveitar temas eleitorais e bastidores.",
+        "Reforçar CTAs para compartilhamento e comentários."
       ],
       "posts": [
         "De8Q_S9MAJt",
-        "De8104Zt6iS"
-      ]
-    },
-    {
-      "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Corrigir",
-      "diagnosis": "Alguns Reels ficaram abaixo de 2 mil views: \"Se liga!!!\" (862 views, 64% pularam), \"Pense num amor inimaginável.\" (1.535) e \"O PROFESSOR É UMA AMEAÇA!\" (1.594). Todos têm título vago ou sem dado. Os Reels das 14h tiveram mediana de 2.993 views.",
-      "actions": [
-        "Evite títulos vagos; abra com o fato ou o número.",
-        "Cuide da abertura dos Reels para reduzir o pulo, que passou de 50% em dois deles.",
-        "Evite o horário das 14h para Reels."
-      ],
-      "posts": [
-        "De6lr9Ft3I5",
-        "DeUk6JyNW9Y",
-        "Deh8WzvtR28"
-      ]
-    },
-    {
-      "title": "Seguidores",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "As imagens de Opinião trouxeram mais seguidores: \"Como dizia o TAXAD, quem foge do debate é bundão?\" (1.175 seguidores, 926.462 views), \"Estar diante do túmulo do professor Olavo de Carvalho…\" (465) e \"Flávio Livre.\" (282). As 22 imagens somaram 2.042 seguidores. Já 1.655 pessoas deixaram de seguir, bem mais que as 432 do período anterior.",
-      "actions": [
-        "Use imagens de Opinião com posicionamento claro quando quiser crescer.",
-        "Acompanhe o aumento de quem deixa de seguir nos posts mais polêmicos."
-      ],
-      "posts": [
-        "DeVAkiqtPwL",
-        "DemP7GNt_P7",
         "DfBOEyBsDWf"
       ]
     },
     {
-      "title": "Comentários",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Os comentários chegaram a 32.013 (+58%). Os posts com mais comentários foram \"Lula não ganhou a eleição.\" (597), \"Meio milhão de seções.\" (387) e \"O TSE diz que ninguém na sua cidade votou no Flávio.\" (376), todos Reels de Política. Um deles é recente e ainda acumula interação.",
+      "title": "O que não funcionou",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Alguns reels recentes, como 'Se liga!!!' (De6lr9Ft3I5), tiveram baixíssimo desempenho (864 views), mostrando que temas genéricos ou pouco contextualizados não engajam.",
       "actions": [
-        "Termine os Reels com uma pergunta que convide a opinar.",
-        "Responda aos primeiros comentários logo após postar."
+        "Evitar temas genéricos sem conexão direta com a audiência.",
+        "Testar formatos diferentes para assuntos menos performáticos.",
+        "Acompanhar a performance de cada tema e ajustar rapidamente."
       ],
       "posts": [
-        "DfZXNLStwXv",
-        "De8104Zt6iS",
-        "DfcDUOTNtPd"
+        "De6lr9Ft3I5",
+        "DfqJsFFtMT-",
+        "DfzF5o6NCSj"
       ]
+    },
+    {
+      "title": "Maior crescimento: Novos seguidores",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "O perfil ganhou 31.001 novos seguidores, alta de 128,4% sobre o período anterior, impulsionado por conteúdos virais e temas de grande repercussão.",
+      "actions": [
+        "Aproveitar o crescimento para consolidar a base.",
+        "Manter frequência de postagens virais.",
+        "Explorar temas que trouxeram mais seguidores."
+      ],
+      "posts": [
+        "DfBOEyBsDWf",
+        "DfcXA1DtXMY"
+      ]
+    },
+    {
+      "title": "Maior queda: Alcance médio diário",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "O alcance médio diário caiu 41,8%, mesmo com crescimento de seguidores, indicando possível saturação ou menor viralização recente.",
+      "actions": [
+        "Diversificar formatos e horários de publicação.",
+        "Testar novos temas para ampliar o alcance.",
+        "Reforçar parcerias e colaborações para expandir público."
+      ],
+      "posts": []
     }
   ]
 }
