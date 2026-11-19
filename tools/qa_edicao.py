@@ -71,8 +71,17 @@ def conferir(edicao, coleta):
     vistos = []
     for it in itens:
         titulo = it.get("title") or ""
-        if notas.eh_entretenimento(titulo):
+        urls = " ".join(o.get("url") or "" for o in it.get("outlets") or [])
+        resumo = it.get("summary") or ""
+        if notas.eh_entretenimento(titulo, urls, resumo):
             erros.append(f"entretenimento publicado: {titulo}")
+        elif it.get("segment") == "politica":
+            # Sem sinal político, editoria de lifestyle não pode ficar em Política.
+            texto = " ".join(x for x in (titulo, resumo) if x)
+            if not any(notas.contem_termo(texto, k) for k in notas.SINAIS_POLITICA) and any(
+                p in notas.norm(urls) for p in ("/ela/", "/play/novelas/", "/horoscopo")
+            ):
+                erros.append(f"seção politica para fato de lifestyle: {titulo}")
         if "—" in json.dumps(it, ensure_ascii=False) or "–" in json.dumps(it, ensure_ascii=False):
             erros.append(f"travessão: {titulo}")
         if "Manchete coletada automaticamente" in (it.get("summary") or ""):

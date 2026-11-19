@@ -20,7 +20,10 @@ ENTRETENIMENTO = (
     "previsao do tempo", "receita de", "celebridade", "famosos", "netflix anuncia",
     "disney anuncia", "oscar", "reality", "grammy", "anitta", "cantada", "paquera",
     "flerte", "frevo", "album de musica", "sertanejo", "influencer", "van gogh", "sotheby",
+    "unhas", "unha", "esmalte", "beleza", "moda",
 )
+# Editorias de lifestyle no endereço da matéria (O Globo Ela, novelas, horóscopo).
+CAMINHOS_ENTRETENIMENTO = ("/ela/", "/play/novelas/", "/horoscopo/", "/horoscopo")
 SINAIS_POLITICA = (
     "lula", "bolsonaro", "stf", "moraes", "congresso", "senado", "camara",
     "governo", "ministro", "eleicao", "eleicoes", "tse",     "pf", "policia federal",
@@ -143,10 +146,18 @@ def limpa_manchete(titulo):
     return t
 
 
-def eh_entretenimento(titulo):
-    if not any(contem_termo(titulo, k) for k in ENTRETENIMENTO):
+def eh_entretenimento(titulo, url="", resumo=""):
+    """Lifestyle e celebridade: vale título, endereço da matéria e resumo.
+
+    Um fato político publicado numa editoria de moda continua notícia.
+    """
+    texto = " ".join(x for x in (titulo, resumo) if x)
+    endereco = norm(url or "")
+    if any(p in endereco for p in CAMINHOS_ENTRETENIMENTO):
+        return not any(contem_termo(texto, k) for k in SINAIS_POLITICA)
+    if not any(contem_termo(texto, k) for k in ENTRETENIMENTO):
         return False
-    return not any(contem_termo(titulo, k) for k in SINAIS_POLITICA)
+    return not any(contem_termo(texto, k) for k in SINAIS_POLITICA)
 
 
 def segmento_por_titulo(titulo, dica=""):
@@ -156,12 +167,15 @@ def segmento_por_titulo(titulo, dica=""):
             return seg
     if dica in PALAVRAS and any(contem_termo(t, k) for k in PALAVRAS[dica]):
         return dica
-    return "politica"
+    # Política só com sinal claro. O residual jogava moda, novela e lista em Política.
+    if any(contem_termo(t, k) for k in SINAIS_POLITICA):
+        return "politica"
+    return None
 
 
-def ajustar_segmento(titulo, segmento, dica=""):
+def ajustar_segmento(titulo, segmento, dica="", url="", resumo=""):
     """Corrige seção óbvia (futebol em Política, Bond em Política) sem inventar bloco."""
-    if eh_entretenimento(titulo):
+    if eh_entretenimento(titulo, url, resumo):
         return None
     auto = segmento_por_titulo(titulo, dica if dica in PALAVRAS else "")
     validos = set(PALAVRAS) | {"politica"}
@@ -296,7 +310,19 @@ def _self_test():
     assert conflito_numeros("Brasil goleia Singapura por 7 a 0", "Brasil Sub-20 faz 9 a 0 no Peru")
     assert not conflito_numeros("Brasil goleia Singapura por 7 a 0", "Vini marca 3 no 7 a 0 sobre Singapura")
     assert segmento_por_titulo("Alemanha faz 5 na Holanda e vai às quartas de final da Liga das Nações da Uefa") == "esportes"
-    assert segmento_por_titulo("Defesa de Carla Zambelli pede retirada de nome da lista da Interpol") == "politica"
+    assert segmento_por_titulo("Defesa de Carla Zambelli pede retirada de nome da lista da Interpol") is None
+    assert segmento_por_titulo("STF pode julgar Lei da Dosimetria ainda este ano") == "politica"
+    assert segmento_por_titulo("Verão 2027 troca o excesso de decoração por unhas curtas e acabamento impecável") is None
+    assert eh_entretenimento("Verão 2027 troca o excesso de decoração por unhas curtas e acabamento impecável")
+    assert eh_entretenimento(
+        "Ismália arma contra o próprio marido, Cesário",
+        "https://oglobo.globo.com/play/novelas/noticia/2026/11/18/la-na-minha-terra.ghtml",
+    )
+    assert eh_entretenimento("x", "https://oglobo.globo.com/ela/noticia/2026/11/18/verao-2027.ghtml")
+    assert not eh_entretenimento(
+        "Lula visita exposição de moda no Itamaraty",
+        "https://oglobo.globo.com/ela/noticia/2026/11/18/lula.ghtml",
+    )
     assert segmento_por_titulo("Mais de 276 mil trabalhadores ainda não sacaram o abono salarial") == "economia"
     assert ajustar_segmento("Mais de 276 mil trabalhadores ainda não sacaram o abono salarial", "politica") == "economia"
     assert ajustar_segmento("Senado vota a PEC do STF", "politica") == "politica"

@@ -54,7 +54,7 @@ def agrupar(entries):
     preparados = []
     for e in entries:
         ts = notas.tokens(e["title"])
-        if len(ts) < 2 or notas.eh_entretenimento(e["title"]):
+        if len(ts) < 2 or notas.eh_entretenimento(e["title"], e.get("url") or ""):
             continue
         preparados.append((e, ts))
         df.update(ts)
@@ -148,11 +148,13 @@ def segmento_grupo(items):
     votos = [notas.segmento_por_titulo(e["title"], e.get("hint") or "") for e in items]
     if "rio" in votos:
         return "rio"
-    especificos = [v for v in votos if v != "politica"]
+    especificos = [v for v in votos if v and v != "politica"]
     if especificos:
         from collections import Counter
         return Counter(especificos).most_common(1)[0][0]
-    return "politica"
+    if "politica" in votos:
+        return "politica"
+    return None
 
 
 def montar_trends(selected):
@@ -214,11 +216,11 @@ def main():
     entries = []
     for p in data.get("portais", []):
         for m in p.get("manchetes", []):
-            if m.get("titulo") and m.get("link") and not notas.eh_entretenimento(m["titulo"]):
+            if m.get("titulo") and m.get("link") and not notas.eh_entretenimento(m["titulo"], m.get("link") or "", m.get("descricao") or ""):
                 entries.append(dict(title=m["titulo"].strip(), name=p["nome"], camp=p.get("camp", ""), url=m["link"], hint="", when=m.get("quando", "")))
     for key, matches in data.get("temas", {}).items():
         for m in matches:
-            if m.get("titulo") and m.get("link") and m.get("fonte") and not notas.eh_entretenimento(m["titulo"]):
+            if m.get("titulo") and m.get("link") and m.get("fonte") and not notas.eh_entretenimento(m["titulo"], m.get("link") or "", m.get("descricao") or ""):
                 entries.append(dict(title=m["titulo"].strip(), name=m["fonte"], camp="", url=m["link"], hint=key, when=m.get("quando", "")))
     if len(entries) < 25:
         raise SystemExit("Coleta insuficiente: não publicar edição vazia ou incompleta")
