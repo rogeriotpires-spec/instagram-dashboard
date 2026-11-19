@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  id-token: write
+  models: read
 
 concurrency:
   group: analises
@@ -21,13 +21,16 @@ jobs:
       TZ: America/Sao_Paulo
     steps:
       - uses: actions/checkout@v4
-      - uses: anthropics/claude-code-action@v1
-        with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          prompt: "Leia o arquivo prompts/analises.md e execute exatamente o que ele pede, do começo ao fim. Não faça commit nem push."
-          claude_args: |
-            --max-turns 80
-            --allowedTools Bash,Read,Write,Edit,Glob,Grep
+      - name: Teste rápido do gerador
+        run: |
+          python3 tools/modelos_ia.py --self-test
+          python3 tools/ia_comum.py --self-test
+          python3 tools/gerar_analises.py --self-test
+      - name: Gerar análises com IA
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || secrets.OPENAI_API_AKEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/gerar_analises.py
       - name: Publicar
         env:
           GHT: ${{ github.token }}
@@ -36,13 +39,15 @@ jobs:
           git remote set-url origin "https://x-access-token:${GHT}@github.com/${{ github.repository }}.git"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python3 -c "import json;[json.load(open(f'analises/p{n}.json')) for n in (1,7,30,60,90)]" || { echo "::error::análise incompleta"; exit 1; }
-          if grep -l "[—–]" analises/*.json; then echo "::error::travessão na análise"; exit 1; fi
-          mkdir -p /tmp/an && cp analises/p*.json /tmp/an/
+          python3 -c "import json;[json.load(open(f'analises/p{n}.json')) for n in (1,7,30,60,90)];json.load(open('analysis.json'))" || { echo "::error::análise incompleta"; exit 1; }
+          if grep -l "[—–]" analises/*.json analysis.json; then echo "::error::travessão na análise"; exit 1; fi
+          mkdir -p /tmp/an && cp analises/p*.json analysis.json /tmp/an/
           for i in 1 2 3 4 5; do
             git fetch -q origin main && git reset -q --hard origin/main
-            mkdir -p analises && cp /tmp/an/p*.json analises/
-            git add analises/
+            mkdir -p analises
+            cp /tmp/an/p*.json analises/
+            cp /tmp/an/analysis.json analysis.json
+            git add analises/ analysis.json
             git diff --cached --quiet && exit 0
             git commit -qm "Análise por período" && git push -q origin HEAD:main && exit 0
             sleep $((i*4))

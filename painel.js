@@ -3,7 +3,7 @@
    Sem ele, o botão abre a página do GitHub como antes. */
 window.Painel = (() => {
   const API = "https://painel.rogeriotpires.workers.dev"; // intermediário na Cloudflare
-  const CLAUDE = true;     // token da assinatura configurado no GitHub
+  // O interruptor de um provedor antigo foi retirado; os fluxos usam OpenAI e o botão permanece visível.
   const REPO = "rogeriotpires-spec/instagram-dashboard";
   const GH = `https://api.github.com/repos/${REPO}`;
   const ls = {
@@ -56,9 +56,9 @@ window.Painel = (() => {
   }
 
   /* Liga um botão a uma ação. */
-  function wire({ btn, st, job, wf, stamp, minutes, labels, needsClaude, after }) {
+  function wire({ btn, st, job, wf, stamp, minutes, labels, after }) {
     if (!btn) return;
-    if (needsClaude && !(API && CLAUDE)) { btn.hidden = true; return }
+    if (!API) { btn.hidden = true; return }
     const say = t => { if (st) st.textContent = t };
     btn.onclick = async () => {
       const since = new Date(Date.now() - 90e3);
@@ -84,5 +84,5 @@ window.Painel = (() => {
     });
   }
 
-  return { API, CLAUDE, REPO, call, wire, track, lastRun };
+  return { API, REPO, call, wire, track, lastRun };
 })();

@@ -465,7 +465,7 @@ Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("
   load(EDS[EDS.length-1]); /* abre sempre a edição mais recente; as anteriores ficam nas setas e na lista */
 });
 
-Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"noticias",wf:"noticias.yml",minutes:25,needsClaude:true,
+Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"noticias",wf:"noticias.yml",minutes:25,
   stamp:()=>fetch("noticias/index.json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(i=>{const e=i.editions[i.editions.length-1];return fetch("noticias/"+e+".json?"+Date.now(),{cache:"no-store"}).then(r=>r.json()).then(x=>e+x.generated)}),
   labels:{running:"Gerando a edição: lendo os portais (10 a 20 minutos)…"}});
 
