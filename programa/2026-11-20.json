@@ -2,8 +2,8 @@
   "date": "2026-11-20",
   "generated": "2026-11-20T09:15:39-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Niterói registra menor índice de roubos de rua desde 2003; Bukele registra candidatura para terceiro mandato em El Salvador e desafia limites constitucionais; Fachin envia relatórios da PF sobre ministros do STF à PGR e STF pauta Lei da Dosimetria; ajuste fiscal avança na Câmara mas mercado mantém pessimismo; Trump, Xi e Putin realizam reunião histórica na China",
-  "abertura": "Niterói alcança o menor índice de roubos de rua em mais de duas décadas, com destaque também para a queda nos roubos de veículos e 20 meses sem feminicídios, consolidando a cidade como referência em segurança pública. No cenário internacional, Nayib Bukele oficializa sua candidatura para um terceiro mandato em El Salvador, em meio a mudanças constitucionais e forte apoio popular. Enquanto isso, o STF pauta temas sensíveis como a Lei da Dosimetria e o ajuste fiscal avança na Câmara, mas o mercado segue desconfiado. No exterior, Trump, Xi Jinping e Vladimir Putin participam de uma reunião trilateral inédita na China, sinalizando novas dinâmicas no equilíbrio global.",
+  "titulo": "Governo Lula não detalha cortes para promessas de campanha no Orçamento de 2027; Niterói registra menor índice de roubos de rua desde 2003; Bukele registra candidatura para terceiro mandato em El Salvador e desafia limites constitucionais; Fachin envia relatórios da PF sobre ministros do STF à PGR e STF pauta Lei da Dosimetria; ajuste fiscal avança na Câmara mas mercado mantém pessimismo; Trump, Xi e Putin realizam reunião histórica na China",
+  "abertura": "O governo Lula enfrenta pressão para acomodar promessas de campanha no Orçamento de 2027, sem detalhar de onde virão os cortes necessários para bancar até R$ 50 bilhões em novas despesas. Niterói alcança o menor índice de roubos de rua em mais de duas décadas, consolidando avanços na segurança pública. No cenário internacional, Nayib Bukele oficializa candidatura para um terceiro mandato em El Salvador, enquanto Trump, Xi Jinping e Vladimir Putin participam de reunião inédita na China. O STF pauta temas sensíveis e o ajuste fiscal avança na Câmara, mas o mercado segue desconfiado.",
   "agenda": [
     {
       "time": "15h",
@@ -47,6 +47,39 @@
       "avulsa": true,
       "pedido": "Bukele registra candidatura para disputar terceiro mandato em El Salvador https://odia.ig.com.br/niteroi/2026/11/7324122-niteroi-registra-menor-indice-de-roubos-de-rua-desde-2003.html",
       "atencao": "Complementa o item 5 (Bukele registra candidatura para terceiro mandato em El Salvador e desafia limites constitucionais)"
+    },
+    {
+      "id": "avulso-orcamento-promessas-lula-2027",
+      "bloco": "Economia",
+      "titulo": "Governo Lula não detalha cortes para acomodar promessas de campanha no Orçamento de 2027",
+      "subtitulo": "IFI aponta que medidas anunciadas por Lula somam até R$ 50 bilhões e exigem cortes em outras despesas.",
+      "resumo": "O governo federal ainda não indicou de onde virão os recursos para bancar as promessas de campanha anunciadas por Lula. Segundo a Instituição Fiscal Independente, o custo das seis principais medidas pode chegar a R$ 50 bilhões em 2027. O valor previsto para remanejamento, de R$ 20 bilhões, cobre apenas metade do total necessário. O governo também anunciou iniciativas que reduzem a arrecadação, como o fim das bets e o perdão de dívidas de MEIs. A inclusão dos novos programas depende de cortes em outras áreas, mas o governo não detalhou quais despesas serão afetadas.",
+      "contexto": [
+        "Medidas como reajuste do Bolsa Família, Desenrola 3.0 e ampliação do Pé-de-Meia foram anunciadas após o envio do Orçamento de 2027 ao Congresso.",
+        "A IFI estima o custo total dessas medidas em até R$ 50 bilhões, considerando o teto do Desenrola 3.0.",
+        "O Ministério do Planejamento anunciou remanejamento de R$ 20 bilhões, valor insuficiente segundo a IFI.",
+        "O governo também propôs medidas que reduzem receitas, como o fim das bets e perdão de dívidas de MEIs.",
+        "A acomodação das novas despesas exige cortes em outras áreas, ainda não detalhados pelo governo."
+      ],
+      "angulo": [
+        "O governo Lula anuncia novos gastos sem apresentar de onde virá o dinheiro.",
+        "A pressão sobre o Orçamento de 2027 aumenta e o ajuste depende de cortes não especificados.",
+        "A falta de clareza sobre as fontes de recursos gera incerteza e amplia a desconfiança do mercado."
+      ],
+      "perguntas": [
+        "Quais áreas podem sofrer cortes para acomodar as promessas de campanha do governo?",
+        "Como a falta de detalhamento sobre o Orçamento impacta a confiança de investidores e do mercado?",
+        "O governo conseguirá cumprir as promessas sem comprometer outras políticas públicas?"
+      ],
+      "fontes": [
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/11/governo-ainda-precisa-encontrar-espaco-no-orcamento-para-r-20-bi-de-promessas-de-campanha-diz-ifi.shtml"
+        }
+      ],
+      "atencao": "Item avulso solicitado na pauta.",
+      "avulsa": true,
+      "pedido": "Governo ainda precisa encontrar espaço no Orçamento para promessas de campanha e lança campanha de combate ao racismo e à violência digital https://www1.folha.uol.com.br/mercado/2026/11/governo-ainda-precisa-encontrar-espaco-no-orcamento-para-r-20-bi-de-promessas-de-campanha-diz-ifi.shtml"
     },
     {
       "id": "fachin-pgr-stf-master-dosimetria",
@@ -270,5 +303,5 @@
       "titulo": "EUA e Venezuela assinam acordo de cooperação militar em Caracas"
     }
   ],
-  "atualizado": "2026-11-20T11:10:14-03:00"
+  "atualizado": "2026-11-20T11:10:54-03:00"
 }
