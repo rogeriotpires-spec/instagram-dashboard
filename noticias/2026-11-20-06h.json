@@ -1,0 +1,1712 @@
+{
+  "generated": "2026-11-20T05:01:55-03:00",
+  "gerador": "ia",
+  "modelo": "gpt-4.1, gpt-4.1-mini",
+  "headline": "Fachin envia à PGR relatórios da PF com menções a ministros do STF no caso Master e STF vai julgar validade da Lei da Dosimetria, que pode beneficiar Bolsonaro; Relator mantém texto do ajuste fiscal aprovado pelo Senado e Ibovespa cai com incerteza fiscal; Trump, Xi e Putin realizam reunião trilateral histórica na China",
+  "top": [
+    "liberar-dosimetria-pode-lei-stf-ano-acoes-moraes",
+    "53eda6056f15",
+    "4b0c780d5f90",
+    "quinta-6x1-escala-fim-regulamenta-assinar-vai-lula",
+    "candidatura-terceiro-mandato-salvador-registra-disputar-buke"
+  ],
+  "items": [
+    {
+      "id": "liberar-dosimetria-pode-lei-stf-ano-acoes-moraes",
+      "segment": "politica",
+      "title": "Fachin envia à PGR relatórios da PF com menções a ministros do STF no caso Master e STF vai julgar validade da Lei da Dosimetria, que pode beneficiar Bolsonaro",
+      "summary": "O presidente do STF, Edson Fachin, encaminhou à Procuradoria-Geral da República relatórios da Polícia Federal com citações aos ministros Alexandre de Moraes, Nunes Marques, Dias Toffoli e André Mendonça, encontradas nas investigações do Banco Master. Cada ministro recebeu apenas o documento que trata de si. Alexandre de Moraes liberou as ações para julgamento após pedido dos presidentes da Câmara e do Senado.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 9.5,
+      "outlets": [
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/entretenimento/noticia/2026/11/morre-pai-de-bruno-mars-e-cantor-presta-homenagem-nas-redes-sociais.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/poder/2026/11/pgr-tera-nucleo-com-gonet-para-avaliar-relatorios-sobre-ministros-do-stf-e-deve-superar-prazo-de-15-dias.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/brasil/2026-11-19/caso-master--fachin-manda-a-pgr-relatorios-da-pf-sobre-ministros.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/caso-master-fachin-encaminha-pgr-citacoes-quatro-ministros-do-stf",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/brasil/alexandre-de-moraes-libera-julgamento-de-acoes-contra-lei-da-dosimetria/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-24h/boletim-jr-24h/video/lula-anuncia-que-vai-criar-ministerio-voltado-aos-idosos-20112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/politica/2026/11/19/fachin-encaminha-a-pgr-citacoes-a-quatro-ministros-do-stf-no-celular-de-daniel-vorcaro.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/19/stf-examinara-em-dezembro-a-lei-da-dosimetria-que-reduz-a-pena-de-jair-bolsonaro.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/brasil/apos-cobranca-de-motta-e-alcolumbre-moraes-libera-lei-da-dosimetria-para-julgamento-no-stf/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/pf-inclui-mendonca-em-pedido-de-apuracao-sobre-vorcaro-apos-andrei-pedir-novos-relatorios-diz-jornal/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/fachin-manda-arquivar-relatorios-da-pf-sobre-mencao-a-6-ministros-4-vao-a-pgr/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/fachin-envia-relatorios-pf-master-ministros-stf/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/pgr-analisara-so-4-dos-10-relatorios-da-pf-sobre-ministros-do-stf-entenda/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/fachin-envia-a-pgr-4-relatorios-da-pf-sobre-ministros-do-stf/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/politica/noticia/2026/11/19/fachin-arquiva-relatorios-sobre-seis-ministros-e-envia-a-pgr-documentos-sobre-moraes-toffoli-kassio-e-mendonca.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/master-fachin-arquiva-seis-relatorios-sobre-ministros-e-envia-quatro-a-pgr/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/justica/caso-master-fachin-envia-a-pgr-relatorios-sobre-moraes-toffoli-nunes-marques-e-mendonca/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeFAzY0lELThuTmN6UUE0WEl0OElZTlpYTTJfczVRTHpDenR1YmxQTDV4cV9wa05HSXF1ZnM5YWk5b2FIYkdmZW8wa3NqS3BmWjhSRUhKRnlMOE9JWWZEa0Z6V0JNQ0t2ZmdLUk9OOUh5bGlrd2xFa0NoWENxNkY2LU80X1pCbWRwNVJRSlU3d1ZRTGE2c3hLSkUteHNhOFhFeG01cG82cWc0aUwybTVYXw?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário do Poder",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdnRRWDZWZGtwQUFqcl9qVk9tYkE3Y2M0TDd6cWFjdGVEbTNIZGltRG9BMDJXdlBxbHB6MjJtaDBIV2k5N1FMLXRGMVV6REwzUy0zWUhmbnZIVUROdUwyQ3JvTll4c0ZzTWdRRHc0ZnYwc0FEcjhWR0lsZ05uVWtoNzdDZ3F3T0JVM191MEw4QTVpLTlZMmZfYTMtTGtZaHFRN1lfVjFoS2hVZERJNWl3WGZSWV9Ka3ltSVR0UUxVSdIBxAFBVV95cUxNcDZUSTg2SjFOYWU5YzNzTFNKeFhnV3IzMHpSeTdEd29LckhkUl93VGs4eTZkd3M4WVh0TGZqb3JDY2V1QmowVUlwcVpZcm1nalJ0ODZuV214aWxRaF93Q2RIN3h2YnJNWkROd0pOOVdEX3FxWG1zcGxidUxfTEJFamhQTllCaFpFeTY4TW9nQURrU0U2dk5TeXFDczZyQThIN1dWX3pvSW9aWVlPZ042M1NnWjNGRGNENWdIV091TENtbENG?oc=5",
+          "camp": "direita",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/politica/fachin-manda-para-a-pgr-relatorios-com-citacoes-a-moraes-kassio-toffoli-e-mendonca-950425",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "JOTA",
+          "url": "https://www.jota.info/stf/do-supremo/fachin-envia-relatorios-da-pf-para-os-ministros-citados-em-investigacao-do-master",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Fachin decidiu enviar à PGR quatro relatórios da PF sobre ministros do STF e o julgamento da Lei da Dosimetria foi pautado para dezembro."
+    },
+    {
+      "id": "53eda6056f15",
+      "segment": "economia",
+      "title": "Relator mantém texto do ajuste fiscal aprovado pelo Senado e Ibovespa cai com incerteza fiscal",
+      "summary": "O relator do projeto de ajuste fiscal na Câmara, Mauro Benevides Filho, apresentou parecer favorável à proposta, sem alterar o texto aprovado pelo Senado. O mercado financeiro mantém pessimismo mesmo com o avanço do ajuste fiscal. Medidas adicionais podem ser apresentadas ao Congresso se necessário, segundo o governo.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 9.5,
+      "outlets": [
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/brasil/noticia/2026/11/19/medidas-adicionais-de-ajuste-fiscal-serao-apresentadas-ao-congresso-se-for-necessario-diz-moretti.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/economia/relator-apresenta-parecer-como-vai-ficar-o-projeto-de-ajuste-fiscal-na-camara/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/avanco-de-ajuste-fiscal-do-governo-nao-satisfaz-e-mercado-mantem-pessimismo",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-na-tv/motta-diz-que-vai-colocar-em-discussao-projeto-de-ajuste-fiscal-aprovado-pelo-senado-jr24h-shorts-20112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/ajuste-fiscal-deputados-blindar-militares/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYjY1NzBUZVRFSDgtaEk5aUwxUkptOE1TTXNwN2JhOHRuSUNPV0xRLWxjWHA0YXNOU0Vmd0ZhX3hsblRWekE4Z2RHeklfZWp4bDB5VFZNX2trQnpERFJNZmNfS1lvT0R1NnNwcnQydlJZcmktbkZod09uTmY3VnlGZy1vdEczV3h5aU9sSGxjWjk1cHJsMG85OXRrSzI3Wkk?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/relator-do-ajuste-fiscal-na-camara-mantem-texto-aprovado-pelo-senado/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/ajuste-fiscal-chega-a-camara-sob-pressao-apos-resistencias-no-senado/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/noticia/131755/mauro-benevides-publica-parecer-pela-aprovacao-do-ajuste-fiscal",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Relator manteve o texto do Senado para acelerar a tramitação na Câmara."
+    },
+    {
+      "id": "4b0c780d5f90",
+      "segment": "internacional",
+      "title": "Trump, Xi e Putin realizam reunião trilateral histórica na China",
+      "summary": "Os líderes rejeitaram a guerra nuclear em declaração conjunta. Trump afirmou que será difícil alcançar acordo para limitar armas nucleares, mas continuará tentando. A aproximação entre os três preocupa aliados europeus e reacende debate sobre a ordem internacional. A cúpula terminou com promessa de diálogo e reforma da ONU.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 9.5,
+      "outlets": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/reuniao-entre-trump-putin-e-xi-poe-em-xeque-aliancas-historicas-dos-eua",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/mundo/china-e-a-grande-vencedora-de-reuniao-entre-xi-trump-e-putin-avalia-jamil-chade/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/assista-aos-discursos-de-xi-trump-e-putin-em-inedita-reuniao-trilateral/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/trump-enviou-mensagem-muito-forte-sobre-ucrania-a-putin-e-xi-diz-enviado/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/mundo/apos-cupuls-inedita-xi-putin-e-trump-anunciam-declaracao-de-paz/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/opiniao/a-mensagem-do-papa-a-america-latina/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/mundo/noticia/2026/11/19/trump-diz-que-acordo-para-limitar-armas-nucleares-ser-difcil-aps-conversas-com-xi-e-putin.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-na-tv/trump-xi-jinping-e-putin-realizam-encontro-entre-as-maiores-potencias-nucleares-jr24h-shorts-20112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/mundo/chanceler-alemao-diz-que-encontro-entre-trump-putin-e-xi-foi-encenacao-para-fotos/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Estado de Minas",
+          "url": "https://www.em.com.br/cultura/2026/11/7541541-danca-a-deriva-encontro-latino-americano-de-danca-aporta-em-bh.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/20/trump-xi-e-putin-participam-de-inedita-reuniao-trilateral.html",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (CartaCapital, Brasil 247) e não apareceu nos portais de direita da coleta."
+      },
+      "desdobramento": "Inclui avaliação de que será difícil acordo sobre armas nucleares e promessa de diálogo e reforma da ONU."
+    },
+    {
+      "id": "quinta-6x1-escala-fim-regulamenta-assinar-vai-lula",
+      "segment": "economia",
+      "title": "Lula assina decreto que regulamenta o fim da escala 6x1 e entidades empresariais criticam pontos em aberto",
+      "summary": "O presidente Lula assinou decreto que define as novas regras para a jornada de trabalho, com transição da escala 6x1 para 5x2. O Ministério do Trabalho vai publicar portarias com regras específicas a partir de segunda-feira.",
+      "scores": {
+        "cobertura": 8.7,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 9.1,
+      "outlets": [
+        {
+          "name": "UOL",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/11/regras-para-categorias-especificas-e-descanso-remunerado-com-fim-da-6x1-saem-a-partir-de-segunda-23.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/fecomercio-critica-decreto-da-escala-5x2-e-aponta-lacunas-sobre-folgas-e-compensacoes/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/noticia/2026/11/20/fim-da-escala-6x1-entenda-o-que-muda-na-hora-extra-no-13o-nas-ferias-e-no-banco-de-horas.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/lula-diz-que-terao-um-pouco-de-trabalho-para-manter-escala-5x2/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/entidades-criticam-decreto-de-lula-que-regulamenta-fim-da-escala-6x1-e-falam-em-falta-de-informacoes.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/regulamentacao-do-fim-da-escala-6x1-gera-inseguranca-diz-juiz-do-trabalho/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-na-tv/lula-assina-decreto-que-oficializa-regras-da-escala-5x2-jr24h-shorts-20112026/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Portarias com regras específicas serão publicadas a partir de segunda-feira."
+    },
+    {
+      "id": "candidatura-terceiro-mandato-salvador-registra-disputar-buke",
+      "segment": "internacional",
+      "title": "Bukele registra candidatura para disputar terceiro mandato em El Salvador",
+      "summary": "O presidente de El Salvador, Nayib Bukele, registrou sua candidatura para disputar um terceiro mandato presidencial. Bukele é impulsionado pelo amplo apoio popular à sua guerra contra as gangues. Ele formalizou o registro acompanhado por cerca de 3 mil apoiadores. A eleição está marcada para fevereiro de 2027.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 8.3,
+      "outlets": [
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/niteroi/2026/11/7324122-niteroi-registra-menor-indice-de-roubos-de-rua-desde-2003.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/apos-retirar-limites-de-mandatos-bukele-registra-candidatura-para-se-manter-no-poder-em-el-salvador.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/bukele-anuncia-candidatura-ao-3o-mandato-em-el-salvador/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasil/brasil-registra-menor-numero-de-mortes-violentas-desde-2019-com-queda-em-23-estados/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/mundo/noticia/2026/11/20/bukele-registra-sua-candidatura-para-disputar-um-terceiro-mandato-presidencial-em-el-salvador.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/internacional/em-busca-de-um-3-mandato-nayib-bukele-registra-candidatura-para-disputar-as-eleicoes-presidenciais-npr/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/empresas/noticia/2026/11/20/montadoras-japonesas-preparam-se-para-o-terceiro-ano-de-queda-nas-vendas-globais.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "A Tarde",
+          "url": "https://atarde.com.br/politica/camara-de-salvador-abre-votacao-para-premio-de-jornalismo-1410047",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/brasil/brasil-registra-menor-numero-de-mortes-violentas-desde-2019/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/estado-mais-negro-do-pais-e-o-que-mais-registra-acoes-de-racismo-na-justica",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, Brasil 247) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "mantem-fora-fluminense-sao-paulo-vence-casa-libertadores",
+      "segment": "esportes",
+      "title": "Fluminense vence São Paulo fora de casa e Vasco mantém sonho de Libertadores vivo",
+      "summary": "Vasco venceu o Internacional por 2 a 1 em São Januário, chegou aos 47 pontos e mantém vivo o sonho de vaga na Libertadores.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 8.3,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/brasileirao/sao-paulo-0-x-1-fluminense-veja-os-melhores-momentos-pelo-brasileirao/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/esporte/vasco/2026/11/7324108-vasco-vence-o-internacional-e-garante-permanencia-na-serie-a.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/esportes/futebol/sao-paulo-perde-para-o-fluminense-e-vaiado-e-ouve-gritos-de-ole-da-propria-torcida/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/esporte/fluminense/noticia/2026/11/fluminense-entra-em-acordo-com-o-botafogo-por-divida-de-r-8-milhoes-na-compra-de-savarino-e-evita-punicao-da-anresf.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/noticias/esportes/nacional/vasco-vence-o-internacional-em-casa-e-mantem-vivo-sonho-da-libertadores-950427",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/esportes/fluminense/marcao-se-derrete-apos-atuacao-do-fluminense-a-nossa-identidade,bc3946448baf0ed9ab261b6ce2c98cf2htcckyob.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/esporte/colidio-destaca-festa-da-torcida-do-vasco-e-projeta-classificacao-para-a-libertadores-vamos-sonhar/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/sao-paulo-perde-em-casa-do-fluminense-e-fica-mais-distante-da-libertadores.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/esportes/futebol/vasco/noticia/2026/11/20/pedro-emanuel-promete-vasco-com-forca-maxima-na-briga-por-vaga-na-libertadores-veja-jogos-e-combinacao-necessaria.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/rio-de-janeiro/escola-do-complexo-da-mare-conquista-premio-internacional-e-mostra-como-a-educacao-pode-mudar-destinos-20112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-midia/tv-do-ratinho-demite-20-profissionais-e-encerra-programas/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/inteligencia-artificial/agentes-de-ia-ja-fazem-parte-da-rotina-de-59-dos-profissionais-no-brasil/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (CartaCapital, Folha de S.Paulo) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "stf-turno-recorre-pedir-psd-governador-volta-rio",
+      "segment": "rio",
+      "title": "PSD recorre ao STF e volta a pedir segundo turno para governador do Rio",
+      "summary": "O PSD recorreu ao Supremo Tribunal Federal para reverter decisão do ministro Cristiano Zanin que negou o segundo turno da eleição para governador do Rio de Janeiro. O partido defende nova votação entre Douglas Ruas (PL) e Eduardo Paes (PSD). Zanin não chegou a examinar o mérito da discussão sobre a contagem dos votos.",
+      "scores": {
+        "cobertura": 8.0,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 7.7,
+      "outlets": [
+        {
+          "name": "Exame",
+          "url": "https://exame.com/brasil/psd-recorre-ao-stf-e-volta-a-defender-segundo-turno-entre-eduardo-paes-e-douglas-ruas-no-rio/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/psd-recorre-da-decisao-de-zanin-e-volta-a-pedir-2o-turno-no-rj/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/psd-recorre-ao-stf-e-insiste-em-2o-turno-para-governador-do-rio/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/politica/psd-recorre-de-decisao-de-decisao-de-zanin-e-volta-a-pedir-2-turno-no-rio-de-janeiro-nprp/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/rio/noticia/2026/11/psd-recorre-de-decisao-de-zanin-e-volta-a-defender-segundo-turno-no-rio-entre-paes-e-ruas.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/psd-recorre-de-decisao-de-zanin-e-volta-a-pedir-segundo-turno-no-rio-de-janeiro/",
+          "camp": "direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na direita (Jovem Pan, Revista Oeste, Gazeta do Povo) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
+      },
+      "desdobramento": "Atualização com manchete nova nas últimas 12 horas. Já tinha saído em 2026-11-18-06h."
+    },
+    {
+      "id": "artificial-global-anthropic-ipo-destaca-mercado-inteligencia",
+      "segment": "ciencia",
+      "title": "IPO da Anthropic destaca inteligência artificial e movimenta mercado global",
+      "summary": "O IPO da Anthropic destaca temas como bolha da inteligência artificial, futuro do emprego e cibersegurança. Países do golfo Pérsico investiram bilhões de dólares na empresa.",
+      "scores": {
+        "cobertura": 8.0,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 7.7,
+      "outlets": [
+        {
+          "name": "UOL",
+          "url": "https://c-level.folha.uol.com.br/ia/2026/11/alguns-dos-maiores-investidores-do-golfo-persico-apostaram-bilhoes-de-dolares-na-anthropic.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/invest/mercados/anthropic-fecha-em-alta-de-17-longe-da-maxima-em-estreia-na-bolsa/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/inovacao/noticia/2026/11/19/voices-2026-os-4-principios-para-trabalhar-melhor-com-a-inteligencia-artificial-segundo-o-futurista-neil-redding.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/11/20/ipo-da-anthropic-joga-luz-sobre-questoes-cruciais-da-inteligencia-artificial-entenda.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/opiniao/espaco-aberto/a-inteligencia-negra-que-o-brasil-insiste-em-nao-reconhecer/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/alguns-dos-maiores-investidores-do-golfo-persico-apostaram-bilhoes-de-dolares-na-anthropic.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (UOL, Folha de S.Paulo) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "dia-todo-negra-debates-acoes-celebrado-eventos-consciencia",
+      "segment": "economia",
+      "title": "Dia da Consciência Negra é celebrado com eventos, debates e ações em todo o Brasil",
+      "summary": "Câmara e Senado debatem propostas voltadas à população negra, com medidas sobre emprego, crédito, educação e acesso à saúde.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 7.4,
+      "outlets": [
+        {
+          "name": "Portal iG",
+          "url": "https://ultimosegundo.ig.com.br/politica/2026-11-19/ministerio-cultura-consulta-lei-rouanet-2027.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "JOTA",
+          "url": "https://www.jota.info/justica/oab-rj-publica-norma-para-restringir-empresas-de-intermediar-servicos-de-advogados",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/20/escolas-secretas-educam-criancas-ucranianas-sob-ocupacao-russa.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "BHAZ",
+          "url": "https://bhaz.com.br/noticias/area-de-escape-do-anel-rodoviario-fica-interditada-pela-23a-vez/",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta de Alagoas",
+          "url": "https://www.gazetaweb.com/blogs/claudiohumberto/tributaco-de-lula-passou-com-toma-la-da-ca-950455",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/loterias/veja-as-dezenas-do-dia-de-sorte-1352-de-hoje-1911/",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeE5GT3pXLV9aMXFPX2VneXhNVDhPTXozRWxyN1pVbTNJR0w2d19OZVpFbVJ6alBJQmxZUmlha3AySzk3N01jRjRmbjU4WW1MTmZXaE15cXpXbTl0a1k2UHdhd0x2OE5mdmd1QTVIYXBWNHpfdjdrOG1qVHpCdTdFc0M4ZWNaUzN5aXBKNk11dXFOSTRPZDBEeTJWcG1HLTNjMGNWUDlIeDgwTFp0R0sxYUx3?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "A Tarde",
+          "url": "https://atarde.com.br/cineinsite/festival-de-cinema-gratuito-exibe-45-filmes-em-praia-do-nordeste-1410034",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Tribuna do Norte",
+          "url": "https://tribunadonorte.com.br/esportes/alecrim-goleia-e-vai-decidir-vaga-de-acesso-contra-o-baraunas/",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/rio/noticia/2026/11/corrida-do-dia-da-consciencia-negra-deve-reunir-10-mil-pessoas-em-duque-de-caxias.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/economia/2026/11/19/centros-logisticos-de-e-commerce-aumentam-pressao-sobre-comercio-e-emprego-em-pernambuco.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de Londrina",
+          "url": "https://www.folhadelondrina.com.br/folha-2/voce-conhece-o-estilo-decorativo-que-teve-o-seu-apogeu-em-1930-3329520e.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Estado de Minas",
+          "url": "https://www.em.com.br/gerais/2026/11/7541309-dia-da-consciencia-negra-conheca-espacos-literarios-em-bh-e-regiao.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Congresso em Foco",
+          "url": "https://www.congressoemfoco.com.br/artigo/131748/quem-paga-pelo-que-a-inteligencia-artificial-aprende",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/portal-edicase/dia-da-consciencia-negra-4-dicas-para-construir-uma-educacao-antirracista-desde-a-infancia-20112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/feriado-da-consciencia-negra-tera-chuva-e-tempestades-em-todo-o-brasil",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://guia.folha.uol.com.br/passeios/2026/11/de-discotecagem-a-exposicoes-veja-agenda-do-dia-da-consciencia-negra-em-sao-paulo.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/consciencia-negra-congresso-tem-ao-menos-57-propostas-de-inclusao/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Eventos e debates marcam o Dia da Consciência Negra em todo o Brasil."
+    },
+    {
+      "id": "violencia-racismo-digital-precisa-espaco-combate-orcamento-l",
+      "segment": "economia",
+      "title": "Governo ainda precisa encontrar espaço no Orçamento para promessas de campanha e lança campanha de combate ao racismo e à violência digital",
+      "summary": "O governo ainda precisa encontrar espaço no Orçamento de 2027 para bancar despesas de medidas anunciadas durante a campanha eleitoral, segundo a Instituição Fiscal Independente. O Ministério das Mulheres lançou campanha para combater a violência contra mulheres e meninas nos meios digitais. Mais de 45 organizações lançam campanha para que Lula indique a primeira mulher negra ao STF. A Suíça enfrenta dificuldade para substituir o petróleo usado no asfalto das estradas.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 7.8,
+      "outlets": [
+        {
+          "name": "UOL",
+          "url": "https://www1.folha.uol.com.br/mercado/2026/11/governo-ainda-precisa-encontrar-espaco-no-orcamento-para-r-20-bi-de-promessas-de-campanha-diz-ifi.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/entidades-lancam-campanha-para-que-lula-indique-primeira-mulher-negra-ao-stf/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/brasil/noticia/2026/11/19/governo-lanca-campanha-de-combate-ao-racismo-e-a-violencia-digital-contra-mulheres.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/governo-lanca-campanha-para-proteger-mulheres-no-meio-digital",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/governo-ainda-precisa-encontrar-espaco-no-orcamento-para-r-20-bi-de-promessas-de-campanha-diz-ifi.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/ladooa/entretenimento/suica-enfrenta-dificuldade-para-encontrar-um-substituto-ao-petroleo-usado-no-asfalto-das-proprias-estradas/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/cultura/a-revolta-de-luisa-mell-com-violencia-animal-em-gta-6/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/rio/noticia/2026/11/20/comecou-o-tiro-colocamos-as-criancas-em-local-seguro-diretora-de-escola-premiada-na-mare-conta-como-e-protege-alunos-da-violencia.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/brasil/mulheres-negras-sao-65-das-vitimas-de-feminicidio-no-pais-diz-relatorio/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/minas-gerais/tranca-e-resistencia-profissao-ganha-reconhecimento-e-transforma-vidas-de-mulheres-negras-em-mg-20112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/19/governo-lanca-campanha-para-proteger-mulheres-no-meio-digital.html",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "IFI aponta falta de clareza sobre acomodação dos gastos no Orçamento de 2027."
+    },
+    {
+      "id": "dolar-supera-abril-banco-maior-fecha-mesmo-valor",
+      "segment": "economia",
+      "title": "Dólar supera R$ 5,93 e fecha no maior valor desde abril de 2025, mesmo após intervenção do Banco Central",
+      "summary": "O dólar avançou pela sexta sessão consecutiva e superou R$ 5,93, fechando no maior patamar desde abril de 2025. A alta ocorreu mesmo após o Banco Central vender US$ 1 bilhão para tentar conter a valorização da moeda.",
+      "scores": {
+        "cobertura": 8.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 7.2,
+      "outlets": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/economia/dolar-sobe-mais-de-1-e-fecha-a-r-593-mesmo-apos-leilao-do-bc/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWUxianJ0MXpsX1FTSk1vakRxcnZIZUxoTHFKaE5MOTMydVdRTXIyNmpmaWRuTUVzMmZkRzZRRXM3b0txRVktM1BpNmhyNDdBaTVZN1FfamVtbl90SkNzai13RXZHWXVUSEVfRElYWURnSk1wN0dvZ0JGMDNXRzFzbkJobTJWS1FVMlF6NmtZa002WGlw?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/brasil/estadao-podcasts/noticia-no-seu-tempo-apesar-de-acao-do-bc-dolar-sobe-mais-116-e-vai-a-r-593/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário do Poder",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlpTanAzMzV0Ukl4MUV0OWxxdEpZY2NZa0Fzd0NLM05iSFdDTkxVVURIZFY0WlFBZFd1TXE0Z0pxQVVIRDNFNDlPMF9PZDVxZXpvUTBCZlJXcHdUUld6SXBzQWE2ck9zS1JLWXNtVWRiWUxTSFZtT2haWWd0cG9pMmo5SmN1aEFVUjZjaWlmTHFhWC12OW1UQWJfSm1zLUpGZ1ZoaUcwLWtRcldMMHBienI4YXlYTjd1TTF1N0JfMUJ6VlFnQ3o4T2tOWTgxTnpGWXfSAdcBQVVfeXFMT2tMbzBxb0tQUDl1U2dwSC1uQ2g2UzItclZ2MkpJUXV2M2hBTzZ4Wk1OU3BoeUY0UFVNd1NmeEpvZEZ4dmk3MnAtSTdZd25CZ0lkVS1lbXRHWHBDVDNkMDVEbTdYcGM1cEMtUGwtYTltZURDODM2N0ZFMnB6cUxfTlNjX18tLW13ZFdHeGxhN0R2aEdDWG5hOXR4a0JtSm5SMnlaeGZ0ckFqZ2lwWDhEWHpILUpmRHlsM1FLRnNJZGM0a3pVVE55dEZGQ1RYRjkzWFFLMXBEYnM?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/economia/2026/11/19/intervencao-do-bc-nao-alivia-estresse-e-dolar-vai-a-rs-593-com-temor-fiscal.html",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na direita (Jovem Pan, Pleno.News, Diário do Poder) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
+      },
+      "desdobramento": "Dólar fecha em alta mesmo após leilão do Banco Central."
+    },
+    {
+      "id": "grandes-clientes-empresas-instituicoes-dados-expoem-ciberata",
+      "segment": "ciencia",
+      "title": "Ciberataques expõem dados de clientes de grandes empresas e instituições",
+      "summary": "JPMorgan, Visa e Mastercard informaram que dados de clientes foram expostos após ciberataque a fornecedor de serviços de marketing. O governo britânico emitiu ordem para acessar dados de clientes da Apple. Comissão Europeia confirmou ataque cibernético com uso de inteligência artificial. iFood confirmou vazamento de telefones de clientes e dados de entregadores.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.8,
+      "outlets": [
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/internacional/ciberataque-expoe-dados-de-clientes-da-jpmorgan-visa-e-mastercard-npr/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-tech/jpmorgan-visa-e-mastercard-relatam-ataque-cibernetico/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/tecnologia/ifood-vazamento-dados/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/empresas/noticia/2026/11/19/reino-unido-exige-acesso-a-dados-de-clientes-da-apple-diz-tribunal-britnico.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/mundo/comissao-europeia-foi-alvo-de-ciberataque-que-usou-ia/",
+          "camp": "direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "deixam-kiev-russos-atingem-embaixadas-ataques-mortos",
+      "segment": "internacional",
+      "title": "Ataques russos contra Kiev deixam mortos e atingem embaixadas",
+      "summary": "Ataques com drones russos contra Kiev deixaram pelo menos um morto. Os ataques causaram danos às embaixadas da Holanda e da Áustria. Fragmentos de drone russo atingiram o terreno da Embaixada do Brasil em Kiev. Ninguém ficou ferido na representação brasileira.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.5,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/tres-morrem-durante-ataque-russo-na-capital-ucraniana/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/internacional/ataques-russos-contra-kiev-morte-danos-embaixadas-npr/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTjJEcXA4a1BqZVRMOGtXM0hvZFMxckNseXVheU00UzI5SnZ1WGhvWGFoS2N0REE0S0NIM0hTbG1KUUZMTXVDbGVrdlR1a1NsMFlCdF9nb01HWFdvQmVNN0dJN0h4STYxN1ZmOVVjM0xkTzJnVDc4TnJOZS1QY0RZd2VnU2tKbXJNUXViRld1aEFNRFliV0Z3czhhUWJSRTV5bGdSWWRfQlNiRms?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/mundo/destrocos-de-drone-russo-atingem-embaixada-do-brasil-na-ucrania/",
+          "camp": "direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na direita (Pleno.News, Revista Oeste) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
+      }
+    },
+    {
+      "id": "meses-china-mil-eua-900-chips-quase-venda",
+      "segment": "ciencia",
+      "title": "EUA aprovaram venda de quase 900 mil chips de IA à China em 6 meses",
+      "summary": "O governo dos Estados Unidos aprovou o envio de quase 900 mil chips avançados de inteligência artificial fabricados pela Nvidia e pela AMD para empresas chinesas entre dezembro de 2025 e maio de 2026. Algumas das compradoras tinham vínculos com o Exército de Libertação Popular, segundo o Pentágono.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.5,
+      "outlets": [
+        {
+          "name": "UOL",
+          "url": "https://c-level.folha.uol.com.br/negocios/2026/11/empresas-de-diferentes-setores-e-portes-usam-gta-6-para-ampliar-vendas-ou-fortalecer-marca.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/empresas-de-diferentes-setores-e-portes-usam-gta-6-para-ampliar-vendas-ou-fortalecer-marca.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/economia/coluna-da-broad/bancos-se-voltam-para-grandes-empresas-contra-piora-do-credito/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/empresas/noticia/2026/11/19/eua-aprovaram-a-venda-de-quase-900-mil-chips-de-ia-a-china-em-6-meses.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (UOL, Folha de S.Paulo) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "luta-folego-bragantino-rebaixamento-brasileirao-ganha-vitori",
+      "segment": "esportes",
+      "title": "Vitória vence Bragantino e ganha fôlego na luta contra o rebaixamento no Brasileirão",
+      "summary": "Britez e Renê marcaram para o Vitória, enquanto Mosquera fez para o Bragantino. Flamengo tem 98,6% de chances de conquistar o Brasileirão e pode ser campeão contra o Palmeiras.",
+      "scores": {
+        "cobertura": 8.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 6.3,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/brasileirao/vitoria-2-x-1-red-bull-bragantino-veja-melhores-momentos-pelo-brasileirao/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/esporte/flamengo-tem-986-de-chances-de-conquistar-o-brasileirao-e-pode-ser-campeao-contra-o-palmeiras/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/esportes/futebol/inter-perde-para-o-vasco-e-deixa-corinthians-fora-da-zona-de-rebaixamento/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "A Tarde",
+          "url": "https://atarde.com.br/esportes/ecvitoria/vitoria-joga-bem-vence-o-bragantino-e-respira-no-brasileirao-1410062",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/esporte/vitoria-vence-o-rb-bragantino-e-ganha-alivio-no-brasileirao/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPa2FUdUYtVDVCTTRtV1RnaTlMcDlGSGNVeGdvMEQ5QWlrODNJckRQUEZuLS1MZW1KcndiTGdHNVFJbVlaUFM3R1czVVBKLTZYN2owM0xvU1FJSjZnaFdFamRHeFRmdFQ4T3VQVm5oNmJXRHhBUTdzYzdvWnBsV3p6VmY1NGVoUXZUaTQyWmNnUGlvLWNfTklnSlNoR1gzNmVrZXI4NVpmSV91dEplUzVmajZlTUxzQTRnZ09IOE1rRjA0LWMtTjVyU0FLTVJGM0dkaUpoYlFBRGxkbHFYZGRiRVdUVk9JOHM?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (Brasil 247, CartaCapital) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "lembrado-futebol-escolas-novembro",
+      "segment": "educacao",
+      "title": "Por que o 20 de novembro é lembrado nas escolas e no futebol brasileiro",
+      "summary": "O Cais do Valongo, no centro do Rio, foi o maior porto de entrada de escravizados nas Américas, onde ocorriam leilões de africanos. Bebês prematuros continuam a exigir cuidados nutricionais após a alta hospitalar.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.2,
+      "outlets": [
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/por-que-o-20-de-novembro-precisa-ser-lembrado-no-futebol-brasileiro.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/patrocinado/pressworks/noticia/2026/11/19/novembro-roxo-por-que-os-cuidados-nutricionais-continuam-apos-a-alta-hospitalar-de-bebes-prematuros-1.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/rio/thiago-gomide/coluna/2026/11/dos-leiloes-de-escravizados-no-valongo-aos-horrores-dos-navios-negreiros-por-que-20-de-novembro-nao-e-apenas-feriado.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "hora-execucao-condenado-dura-dor-eua-processo-relata",
+      "segment": "internacional",
+      "title": "Execução nos EUA dura uma hora e condenado relata dor durante o processo",
+      "summary": "O caso ocorreu após tentativa falha de executar Christa Pike no Tennessee. Ela sobreviveu a duas doses de pentobarbital.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.9,
+      "outlets": [
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/marinha-garante-pensao-de-oficial-condenado/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Veja",
+          "url": "https://veja.abril.com.br/brasil/em-video-senador-eleito-diz-que-pode-virar-reu-no-stf-e-ser-condenado-a-prisao/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/salao-no-rio-de-janeiro-e-condenado-a-pagar-r-50-mil-a-funcionaria-por-ofensas-racistas.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/economia/brasileiro-com-cpf-suspenso-pode-pedir-a-nova-identidade-mas-precisa-ficar-atento-a-um-detalhe-que-pode-interromper-o-processo/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/mundo/execucao-nos-eua-dura-uma-hora-e-condenado-relata-dor-durante-o-processo",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "friday-correios-vesperas-entrar-podem-greve-black",
+      "segment": "rio",
+      "title": "Correios podem entrar em greve às vésperas da Black Friday",
+      "summary": "Correios podem entrar em greve às vésperas da Black Friday. Feira Nacional do Podrão recebe título de Patrimônio Cultural do RJ. Artista visual Andrea Lins e curadora Christiane Laclau conduzem visita guiada à exposição no Centro Cultural Correios.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.9,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazBGSXVYdThnbFJfaGpnMG11VWFxbE91WGFCUGFLbjdfblpKNmNqVERScUphRjR0WUNxZGdMLVJNRmo0UTJzQThvdlFWM1V0UmtxNzYwRXhXM3BNNDgxVkRZX0VBa21DZlhuRnFyaExmUFVZUXh4cnlDaXJSUzRTTUxHOEJJUEIyQlhfem9vTnhReHlHM3VsYmFjU0I3YVlFR3ZOeFZ5Y2RPZXNzNUJBcFhnNE9jTF9KUGc?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/cultura/artes-visuais/noticia/2026/11/20/andrea-lins-e-christiane-laclau-conduzem-visita-guiada-em-mostra-no-centro-cultural-correios-nesta-sexta-feira-20.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUXBjdkpCRnNxdV96RjIwWklGVlduNUlUMkZuelFaVGhXeU5BOXk5cHpFeVJ4WTREWlk0RWladkphX3RmeGdsWHRXbjNUSWY0X25MUmhkM094RTRxT3hJSGc1NURVOTFtYlEwcGFteFVaNU9jQUxKTmppYk5pSDgtejAwQ3YzSzdzcEN1V1pncm1HOEc3OWRzcldOc1gyRVZqcXBVS3p2UmhudXc?oc=5",
+          "camp": "direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "nao-descartadas-selecao-trabalho-mudancas-ancelotti-reavalia",
+      "segment": "esportes",
+      "title": "CBF reavalia trabalho de Ancelotti na seleção e mudanças não são descartadas",
+      "summary": "O técnico Carlo Ancelotti e o departamento como um todo são questionados internamente. Mulheres negras avançam na força de trabalho, mas ainda têm a menor taxa de participação. A arte mais antiga da humanidade está sendo apagada pelas mudanças climáticas.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.9,
+      "outlets": [
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/blogs/diogo-dantas/coluna/2026/11/com-ancelotti-questionado-internamente-cbf-faz-reavaliacao-geral-do-trabalho-na-selecao-brasileira-e-nao-descarta-mudancas.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/mulheres-negras-avancam-na-forca-de-trabalho-mas-ainda-tem-a-menor-taxa-de-participacao.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/mundo/presidente-da-guatemala-descarta-pedir-autorizacao-para-operacoes-de-tropas-dos-eua/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/patrocinado/pressworks/noticia/2026/11/19/meu-clube-de-viagens-voetur-aposta-em-beneficios-para-o-lazer-alem-das-viagens-a-trabalho-1.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/ciencia/a-arte-mais-antiga-da-humanidade-esta-sendo-apagada-pelas-mudancas-climaticas/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (Folha de S.Paulo, CartaCapital) e não apareceu nos portais de direita da coleta."
+      },
+      "desdobramento": "Atualização com manchete nova nas últimas 12 horas. Já tinha saído em 2026-11-17-06h."
+    },
+    {
+      "id": "professor-judicial-negro-pioneiro-indenizacao-ufrj-decisao",
+      "segment": "educacao",
+      "title": "Professor negro pioneiro e decisão judicial sobre indenização a professor da UFRJ",
+      "summary": "Professor negro pioneiro e decisão judicial sobre indenização a professor da UFRJ.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.7,
+      "outlets": [
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/educacao/quem-foi-hemeterio-dos-santos-o-1o-professor-negro-registrado-no-brasil-2/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/celebridades/professor-que-sugeriu-morte-da-filha-de-justus-tem-condenacao-mantida",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "minas-futebol-estuprar-preso-gerais-infantil-suspeito-menore",
+      "segment": "seguranca",
+      "title": "Treinador de futebol infantil é preso suspeito de aliciar e estuprar menores em Minas Gerais",
+      "summary": "Um treinador de futebol infantil, de 48 anos, que trabalhava em Itacarambi, no norte de Minas Gerais, foi preso pela Polícia Civil nessa terça-feira pelos crimes de estupro de vulnerável e aliciamento de crianças e adolescentes. Investigações apontam o envolvimento do suspeito em dois casos de abuso sexual, cometidos contra uma criança de 10 anos e um adolescente de 15 anos. Na Bahia: Homem é preso suspeito de estuprar a própria filha e sobrinha menores de idade na Bahia Falso advogado: Polícia.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.6,
+      "outlets": [
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/blogs/radar-brasil/post/2026/11/treinador-de-futebol-infantil-e-preso-suspeito-de-aliciar-e-estuprar-menores-em-minas-gerais.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "BHAZ",
+          "url": "https://bhaz.com.br/noticias/minas-gerais/treinador-de-futebol-infantil-e-preso-suspeito-de-estuprar-meninos-que-treinava-no-norte-de-minas/",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/prisma/luiz-fara-monteiro/piloto-e-condenado-a-30-anos-de-prisao-por-crimes-hediondos-de-pornografia-infantil-20112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/policia-prende-homem-suspeito-de-matar-dois-caes-de-ong-em-sp/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "dia-alegre-negro-porto-anos-historia-conheca-jovens",
+      "segment": "educacao",
+      "title": "Há 55 anos, jovens de Porto Alegre celebraram o primeiro Dia do Negro no Brasil; conheça história",
+      "summary": "Batizado em referência ao herói negro morto em 1865 na Guerra da Tríplice Aliança, o hoje extinto Clube Náutico Marcílio Dias era conhecido pelas práticas de remo, natação e outros esportes na sede às margens do rio Guaíba, em Porto Alegre. Há 55 anos, contudo, seria eternizado por outro motivo: tornava-se o local do primeiro ato de 20 de novembro da história brasileira, então Dia do Negro. Leia mais (11/20/2026 - 04h15).",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.6,
+      "outlets": [
+        {
+          "name": "Terra",
+          "url": "https://www.terra.com.br/esportes/athletic-club/dia-da-consciencia-negra-conheca-os-grandes-idolos-negros-da-historia-do-athletico-pr-paranaense,bcab23310233578066d1df6d0d653d27bqrpct8l.html",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://www1.folha.uol.com.br/cotidiano/2026/11/ha-55-anos-jovens-de-porto-alegre-celebraram-o-primeiro-dia-do-negro-no-brasil-conheca-historia.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/esporte/chuva-frio-e-voltas-de-instalacao-marcam-primeiro-treino-livre-do-gp-de-las-vegas/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/ha-55-anos-jovens-de-porto-alegre-celebraram-o-primeiro-dia-do-negro-no-brasil-conheca-historia.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (UOL, CartaCapital, Folha de S.Paulo) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "escola-infraestrutura-prevencao-tambem-basica-aprendem",
+      "segment": "educacao",
+      "title": "Prevenção e infraestrutura básica também se aprendem na escola",
+      "summary": "Prevenção e infraestrutura básica também se aprendem na escola.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.5,
+      "outlets": [
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/saude/ludhmila-hajjar/post/2026/11/a-prevencao-tambem-se-aprende-na-escola.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/esg/unicef-banheiro-na-escola-tambem-e-direito-a-educacao/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "sociais-gratuitos-oferece-vagas-cursos-redes-200-senac",
+      "segment": "educacao",
+      "title": "Senac RJ oferece 2.200 vagas em cursos gratuitos sobre redes sociais",
+      "summary": "O Senac RJ abriu inscrições para cursos gratuitos sobre vendas de afiliados no TikTok Shop, marketing digital e posts com Inteligência Artificial. São 2. 200 vagas para certificação em modalidade remota.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.2,
+      "outlets": [
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/senac-rj-oferece-2200-vagas-em-cursos-gratuitos-sobre-tiktok-shop-marketing-digital-e-redes-sociais.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Estado de Minas",
+          "url": "https://www.em.com.br/cultura/2026/11/7541597-fim-de-semana-tem-opcoes-de-eventos-gratuitos-em-pracas-da-capital-mineira.html",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "escolas-acesso-publicas-estudantes-ampliam-cultura-rio-tecno",
+      "segment": "rio",
+      "title": "Tecnologia e cultura ampliam acesso de estudantes das escolas públicas do Rio",
+      "summary": "A realidade virtual ganha espaço na educação pública do Rio, permitindo explorar museus e patrimônios históricos sem sair da escola. Nova parceria amplia acesso de estudantes ao Museu da Vida Fiocruz.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.2,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNU9xbHNUaXRhcExKWlUwOWRMOFNUQ09LMnFqTENjY3BJUEpjZHZ3SkZsbklVNVdBN0FTNE4tQXRmT29uNWIxR0FpWHlqQW1EVzJIaUlTLVZ5MzIxSVNJWTN1MHRFeTMwOTAxeEZXYmswSHRIYk4yVEFXaUVVTFprTDhfSkJmQXRQYXdZaDlpUV9oV01yZ1hNREhBMDg3WUtBbno3STQzUG81em5BNHZVZHVPYndEcXJzTWU4cTY1YklZTEZCeWswOEk2SjU0ZXRF?oc=5",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/patrocinado/dino/noticia/2026/11/19/realidade-virtual-ganha-espaco-nas-escolas-publicas-do-rio-1.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "caxias-troca-presos-deixa-baleado-tiros-dois",
+      "segment": "seguranca",
+      "title": "Troca de tiros com a PM deixa dois presos e um baleado em Caxias",
+      "summary": "Segundo a polícia, os homens pretendiam roubar carros a mando do chefe do tráfico do Corte Oito; pistola 9mm foi apreendida.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.8,
+      "outlets": [
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/mangaratiba/2026/11/7324118-foragido-condenado-a-mais-de-10-anos-e-preso-em-mangaratiba.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/brasil/noticia/2026/11/brasileiros-sao-investigados-por-atentado-contra-ex-promotor-preso-em-penitenciaria-de-seguranca-maxima-na-bolivia.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "ND Mais",
+          "url": "https://ndmais.com.br/seguranca/policiais-presos-mata-leao-advogado-sp/",
+          "camp": "regional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "mantem-sikera-justica-globo-condenacao-junior-ofensas",
+      "segment": "seguranca",
+      "title": "Justiça mantém condenação de Sikêra Júnior por ofensas à “Globo”",
+      "summary": "Apresentador e \"TV A Crítica\" terão de pagar R$ 100 mil por declarações contra emissora; decisão de 2ª instância ainda cabe recurso.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 4.1,
+      "outlets": [
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/justica-mantem-condenacao-de-janones-por-falsa-acusacao-contra-carlos-vereza/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/justica-mantem-condenacao-de-sikera-junior-por-ofensas-a-globo/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "terreiro-demolicao-processa-prefeitura-carapicuiba-mpf",
+      "segment": "seguranca",
+      "title": "MPF processa prefeitura de Carapicuíba por demolição de terreiro",
+      "summary": "Ação civil pública pede reconstrução do templo de matriz africana e indenizações de R$ 2,5 milhões por danos morais e espirituais; Ministério Público Federal ainda aponta para aparente cenário de racismo religioso institucional.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 3.9,
+      "outlets": [
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/justica/mpf-pede-r-25-milhoes-em-reparacao-apos-prefeitura-destruir-terreiro-na-grande-sao-paulo/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/mpf-processa-prefeitura-de-carapicuiba-por-demolicao-de-terreiro/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "pesquisas-tendencias-pontos-estradas-apontam-consumo-rio-cri",
+      "segment": "ciencia",
+      "title": "Pesquisas apontam pontos críticos em estradas e tendências de consumo no Rio",
+      "summary": "119 pontos críticos em rodovias brasileiras. Sofá, cama e guarda-roupa estão no topo das intenções de compra para a Black Friday no estado do Rio de Janeiro, superando o celular.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 3.6,
+      "outlets": [
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/black-friday-no-rio-moveis-superam-celular-na-lista-de-intencoes-de-compra-aponta-pesquisa.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/economia/motoristas-precisam-redobrar-atencao-nas-rodovias-brasileiras-apos-pesquisa-identificar-3-119-pontos-criticos-em-estradas/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    }
+  ],
+  "x_trends": [
+    {
+      "nome": "#DosimetriaNAO",
+      "volume": 14300,
+      "url": "https://x.com/search?q=%23DosimetriaNAO",
+      "sobre": "STF vai julgar validade da Lei da Dosimetria que pode beneficiar Bolsonaro",
+      "leitura": "a favor da direita",
+      "uso": "amplificar a importância do julgamento para Bolsonaro",
+      "item_id": "liberar-dosimetria-pode-lei-stf-ano-acoes-moraes",
+      "fonte": {
+        "name": "Extra",
+        "url": "https://extra.globo.com/entretenimento/noticia/2026/11/morre-pai-de-bruno-mars-e-cantor-presta-homenagem-nas-redes-sociais.ghtml"
+      }
+    },
+    {
+      "nome": "São Januário",
+      "volume": null,
+      "url": "https://x.com/search?q=S%C3%A3o%20Janu%C3%A1rio",
+      "sobre": "PSD recorre ao STF e volta a pedir segundo turno para governador do Rio",
+      "leitura": "neutro",
+      "uso": "explicar o impacto político no Rio",
+      "item_id": "stf-turno-recorre-pedir-psd-governador-volta-rio",
+      "fonte": {
+        "name": "Exame",
+        "url": "https://exame.com/brasil/psd-recorre-ao-stf-e-volta-a-defender-segundo-turno-entre-eduardo-paes-e-douglas-ruas-no-rio/"
+      }
+    },
+    {
+      "nome": "Sanabria",
+      "volume": null,
+      "url": "https://x.com/search?q=Sanabria",
+      "sobre": "Dólar supera R$ 5,93 e fecha no maior valor desde abril de 2025",
+      "leitura": "neutro",
+      "uso": "alertar sobre impacto na economia no bolso",
+      "item_id": "dolar-supera-abril-banco-maior-fecha-mesmo-valor",
+      "fonte": {
+        "name": "Jovem Pan",
+        "url": "https://jovempan.com.br/economia/dolar-sobe-mais-de-1-e-fecha-a-r-593-mesmo-apos-leilao-do-bc/"
+      }
+    },
+    {
+      "nome": "Massis",
+      "volume": null,
+      "url": "https://x.com/search?q=Massis",
+      "sobre": "Relator mantém texto do ajuste fiscal aprovado pelo Senado e Ibovespa cai com incerteza fiscal",
+      "leitura": "neutro",
+      "uso": "comentar sobre a incerteza econômica",
+      "item_id": "53eda6056f15",
+      "fonte": {
+        "name": "Valor Econômico",
+        "url": "https://valor.globo.com/brasil/noticia/2026/11/19/medidas-adicionais-de-ajuste-fiscal-serao-apresentadas-ao-congresso-se-for-necessario-diz-moretti.ghtml"
+      }
+    },
+    {
+      "nome": "Pablo Maia",
+      "volume": null,
+      "url": "https://x.com/search?q=Pablo%20Maia",
+      "sobre": "Correios podem entrar em greve às vésperas da Black Friday",
+      "leitura": "neutro",
+      "uso": "informar sobre possível impacto na logística no Rio",
+      "item_id": "friday-correios-vesperas-entrar-podem-greve-black",
+      "fonte": {
+        "name": "Diário do Rio",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazBGSXVYdThnbFJfaGpnMG11VWFxbE91WGFCUGFLbjdfblpKNmNqVERScUphRjR0WUNxZGdMLVJNRmo0UTJzQThvdlFWM1V0UmtxNzYwRXhXM3BNNDgxVkRZX0VBa21DZlhuRnFyaExmUFVZUXh4cnlDaXJSUzRTTUxHOEJJUEIyQlhfem9vTnhReHlHM3VsYmFjU0I3YVlFR3ZOeFZ5Y2RPZXNzNUJBcFhnNE9jTF9KUGc?oc=5"
+      }
+    }
+  ],
+  "portais_na_coleta": 40
+}
