@@ -2,8 +2,8 @@
   "date": "2026-11-20",
   "generated": "2026-11-20T09:15:39-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Fachin envia relatórios da PF sobre ministros do STF à PGR e STF pauta Lei da Dosimetria; ajuste fiscal avança na Câmara mas mercado mantém pessimismo; Trump, Xi e Putin realizam reunião histórica na China",
-  "abertura": "O presidente do STF, Edson Fachin, encaminhou à PGR relatórios da Polícia Federal que citam ministros da Corte no caso Master, enquanto o STF pauta para dezembro o julgamento da Lei da Dosimetria, que pode beneficiar Bolsonaro. No Congresso, o relator do ajuste fiscal manteve o texto aprovado pelo Senado, mas o mercado segue desconfiado e o Ibovespa recua. No cenário internacional, Trump, Xi Jinping e Vladimir Putin se reúnem em encontro trilateral inédito na China, sinalizando mudanças no equilíbrio global.",
+  "titulo": "Niterói registra menor índice de roubos de rua desde 2003; Bukele registra candidatura para terceiro mandato em El Salvador e desafia limites constitucionais; Fachin envia relatórios da PF sobre ministros do STF à PGR e STF pauta Lei da Dosimetria; ajuste fiscal avança na Câmara mas mercado mantém pessimismo; Trump, Xi e Putin realizam reunião histórica na China",
+  "abertura": "Niterói alcança o menor índice de roubos de rua em mais de duas décadas, com destaque também para a queda nos roubos de veículos e 20 meses sem feminicídios, consolidando a cidade como referência em segurança pública. No cenário internacional, Nayib Bukele oficializa sua candidatura para um terceiro mandato em El Salvador, em meio a mudanças constitucionais e forte apoio popular. Enquanto isso, o STF pauta temas sensíveis como a Lei da Dosimetria e o ajuste fiscal avança na Câmara, mas o mercado segue desconfiado. No exterior, Trump, Xi Jinping e Vladimir Putin participam de uma reunião trilateral inédita na China, sinalizando novas dinâmicas no equilíbrio global.",
   "agenda": [
     {
       "time": "15h",
@@ -15,6 +15,39 @@
     }
   ],
   "itens": [
+    {
+      "id": "niteroi-roubos-2026",
+      "bloco": "Segurança pública",
+      "titulo": "Niterói registra menor índice de roubos de rua desde 2003",
+      "subtitulo": "Cidade também alcança recuo recorde nos roubos de veículos e completa 20 meses sem feminicídios.",
+      "resumo": "Niterói atingiu o menor índice de roubos de rua desde 2003, segundo balanço do ISP apresentado nesta quinta-feira (19). O município também registrou queda recorde nos roubos de veículos. A cidade completa 20 meses sem feminicídios. O prefeito atribui os resultados ao trabalho conjunto entre as instituições. Niterói ainda foi premiada nacionalmente por ações de mobilidade sustentável.",
+      "contexto": [
+        "Balanço do ISP divulgado em 19/11/2026 mostra queda histórica nos roubos de rua em Niterói.",
+        "Houve também recuo recorde nos roubos de veículos na cidade.",
+        "Niterói está há 20 meses sem registrar feminicídios.",
+        "Prefeitura destaca integração entre órgãos de segurança e políticas públicas.",
+        "Cidade foi reconhecida com prêmios nacionais de mobilidade sustentável."
+      ],
+      "angulo": [
+        "Resultados reforçam a importância do trabalho integrado entre instituições de segurança.",
+        "Ações de mobilidade e apoio ao empreendedorismo feminino também contribuem para o ambiente urbano.",
+        "Niterói se destaca como referência em segurança pública e políticas urbanas no país."
+      ],
+      "perguntas": [
+        "Quais fatores explicam a queda consistente nos índices de criminalidade em Niterói?",
+        "Como a integração entre órgãos públicos pode ser replicada em outras cidades?",
+        "Que impacto as políticas de mobilidade e empreendedorismo têm na segurança urbana?"
+      ],
+      "fontes": [
+        {
+          "name": "O Dia - Niterói registra menor índice de roubos de rua desde 2003",
+          "url": "https://odia.ig.com.br/niteroi/2026/11/7324122-niteroi-registra-menor-indice-de-roubos-de-rua-desde-2003.html"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "Bukele registra candidatura para disputar terceiro mandato em El Salvador https://odia.ig.com.br/niteroi/2026/11/7324122-niteroi-registra-menor-indice-de-roubos-de-rua-desde-2003.html",
+      "atencao": "Complementa o item 5 (Bukele registra candidatura para terceiro mandato em El Salvador e desafia limites constitucionais)"
+    },
     {
       "id": "fachin-pgr-stf-master-dosimetria",
       "bloco": "STF e instituições",
@@ -236,5 +269,6 @@
     {
       "titulo": "EUA e Venezuela assinam acordo de cooperação militar em Caracas"
     }
-  ]
+  ],
+  "atualizado": "2026-11-20T11:10:14-03:00"
 }
