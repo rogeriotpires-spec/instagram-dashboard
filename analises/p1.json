@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-19T14:35:57-03:00",
+  "generated": "2026-11-20T14:11:39-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-11-18",
-    "end": "2026-11-18"
+    "start": "2026-11-19",
+    "end": "2026-11-19"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "No dia 18/11, você teve 60.650 views, 2.439 compartilhamentos, 241 comentários, 251 salvamentos e 8.168 curtidas, com aumento de 2% em views e 98,9% em comentários em relação à média da semana anterior.",
+  "headline": "No dia 19/11, você teve 12.565 views, 1.720 compartilhamentos e 111 novos seguidores, com queda de 42,4% no alcance médio diário em relação à semana anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "60.650",
-      "delta": "+2%",
+      "value": "126 mil",
+      "delta": "+115,2%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "111",
+      "delta": "−2,5%",
+      "dir": "down"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "sem dado",
-      "delta": "sem comparação",
-      "dir": "na"
+      "value": "61",
+      "delta": "+37,7%",
+      "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "2.439",
-      "delta": "+37,4%",
-      "dir": "up"
+      "value": "1.720",
+      "delta": "−13,9%",
+      "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "241",
-      "delta": "+98,9%",
+      "value": "381",
+      "delta": "+187,7%",
       "dir": "up"
     },
     {
       "label": "Contas com interação por dia",
-      "value": "8.239",
-      "delta": "+101,1%",
+      "value": "11.123",
+      "delta": "+132,1%",
       "dir": "up"
     }
   ],
@@ -50,55 +50,56 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O volume de comentários (241) e compartilhamentos (2.439) foi bem acima da média semanal, indicando engajamento forte. O único post do dia, um reel sobre política, gerou 24 comentários e 5 compartilhamentos em poucas horas (Df54B99svET).",
+      "diagnosis": "O reel 'Amanhã o Van Hattem pode virar réu por um discurso.' (Df8Ns46tN6E) teve 7.409 views e 233 compartilhamentos, sendo o destaque do dia. O tema política manteve boa performance mesmo em um dia de menor alcance.",
       "actions": [
-        "Continue postando reels com temas políticos atuais.",
-        "Aproveite horários noturnos, como 22h, que mostraram boa resposta.",
-        "Estimule perguntas e debates nos posts para manter o alto volume de comentários."
+        "Continue investindo em reels com temas políticos atuais.",
+        "Aposte em horários noturnos, como 20h, que geraram mais views.",
+        "Mantenha o foco em assuntos de repercussão nacional."
       ],
       "posts": [
-        "Df54B99svET"
+        "Df8Ns46tN6E"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Apesar do bom engajamento, o alcance médio diário caiu 55,9% em relação à semana anterior, ficando em 12.425. O único post teve alcance de 2.141, abaixo da mediana dos últimos reels.",
+      "diagnosis": "O post de imagem 'O brasileiro já entrou na escala 6 por 1.' (Df8HkZuNtxs) ficou abaixo da média, com 3.481 views e apenas 40 compartilhamentos. O engajamento em formato imagem foi menor.",
       "actions": [
-        "Teste horários alternativos para publicação.",
-        "Reforce chamadas para compartilhamento e salvamento nos vídeos.",
-        "Analise temas que geraram maior alcance nos últimos 7 dias para ajustar o conteúdo."
+        "Evite publicar imagens isoladas em dias de menor movimento.",
+        "Priorize reels para temas de opinião.",
+        "Teste outros horários para imagens."
       ],
       "posts": [
-        "Df54B99svET"
+        "Df8HkZuNtxs"
       ]
     },
     {
-      "title": "Comentários dispararam",
+      "title": "Maior alta: comentários",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os comentários subiram 98,9% sobre a média semanal, com 241 no dia. O post Df54B99svET contribuiu com 24 comentários em poucas horas.",
+      "diagnosis": "Os comentários cresceram 187,7% em relação à média da semana anterior, impulsionados pelo reel político. O engajamento direto aumentou.",
       "actions": [
-        "Inclua perguntas diretas nos próximos vídeos.",
-        "Responda rapidamente aos comentários para estimular novas interações."
+        "Estimule perguntas nos reels para manter o ritmo.",
+        "Responda comentários para aumentar a interação."
       ],
       "posts": [
-        "Df54B99svET"
+        "Df8Ns46tN6E"
       ]
     },
     {
-      "title": "Alcance caiu",
+      "title": "Maior queda: alcance médio diário",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "O alcance médio diário caiu 55,9% em relação à semana anterior. O post do dia ficou abaixo da mediana de views dos reels recentes.",
+      "diagnosis": "O alcance médio diário caiu 42,4%, mesmo com views totais altos. Isso indica que o conteúdo atingiu menos contas únicas.",
       "actions": [
-        "Revise a abordagem do conteúdo para ampliar o alcance.",
-        "Considere variar formatos e horários.",
-        "Reforce temas que performaram melhor nos últimos 7 dias."
+        "Diversifique formatos e temas para ampliar o alcance.",
+        "Reforce chamadas para compartilhamento.",
+        "Experimente horários alternativos."
       ],
       "posts": [
-        "Df54B99svET"
+        "Df8Ns46tN6E",
+        "Df8HkZuNtxs"
       ]
     }
   ]

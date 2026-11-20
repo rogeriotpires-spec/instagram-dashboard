@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-19T14:35:57-03:00",
+  "generated": "2026-11-20T14:11:39-03:00",
   "dias": 7,
   "period": {
-    "start": "2026-11-12",
-    "end": "2026-11-18"
+    "start": "2026-11-13",
+    "end": "2026-11-19"
   },
-  "compare": "2026-11-05 a 2026-11-11",
-  "headline": "Entre 12 e 18/11, foram 408.735 views, 13.981 compartilhamentos, 927 comentários, 1.451 salvamentos, 33.992 curtidas e 654 novos seguidores, com queda de 68,6% em views e 82,8% em seguidores versus a semana anterior.",
+  "compare": "2026-11-06 a 2026-11-12",
+  "headline": "Na semana, foram 438.922 views, 15.117 compartilhamentos e 811 novos seguidores, com queda de 66,7% nos views e 77,5% nos compartilhamentos em relação à semana anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "409 mil",
-      "delta": "−68,6%",
+      "value": "439 mil",
+      "delta": "−66,7%",
       "dir": "down"
     },
     {
       "label": "Novos seguidores",
-      "value": "654",
-      "delta": "−82,8%",
+      "value": "811",
+      "delta": "−78,8%",
       "dir": "down"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "269",
-      "delta": "−15,9%",
+      "value": "321",
+      "delta": "−1,5%",
       "dir": "up"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "13.981",
-      "delta": "−79,2%",
+      "value": "15.117",
+      "delta": "−77,5%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "927",
-      "delta": "−59,3%",
+      "value": "1.184",
+      "delta": "−48,5%",
       "dir": "down"
     },
     {
-      "label": "Salvamentos recebidos",
-      "value": "1.451",
-      "delta": "−79,3%",
+      "label": "Alcance médio por dia",
+      "value": "19.388",
+      "delta": "−80,6%",
       "dir": "down"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Reels sobre política, especialmente temas eleitorais, tiveram destaque. O vídeo 'VINTE E QUATRO MIL OITOCENTOS E VINTE E DOIS VOTOS A MAIS.' (Dfu--g3tZsF) atingiu 78.266 views, 7.036 compartilhamentos e 251 comentários.",
+      "diagnosis": "Reels de política dominaram o engajamento, especialmente 'VINTE E QUATRO MIL OITOCENTOS E VINTE E DOIS VOTOS A MAIS.' (Dfu--g3tZsF) com 79.069 views e 7.094 compartilhamentos. Temas polêmicos e de denúncia geraram alto alcance.",
       "actions": [
-        "Mantenha o foco em temas eleitorais e análises políticas.",
-        "Use títulos provocativos e dados concretos.",
-        "Aposte em vídeos mais longos, como o Dfu--g3tZsF (321s), que gerou alto engajamento."
+        "Continue priorizando reels sobre política e temas polêmicos.",
+        "Mantenha a frequência de publicações em horários de pico (16h, 22h).",
+        "Reforce CTAs para compartilhamento."
       ],
       "posts": [
         "Dfu--g3tZsF",
@@ -64,44 +64,43 @@
     },
     {
       "title": "O que não funcionou",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "Queda acentuada em todos os indicadores: views (-68,6%), compartilhamentos (-79,2%), seguidores (-82,8%). Alguns reels, como Df54B99svET e DfqJsFFtMT-, tiveram baixo alcance e engajamento.",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Posts de opinião e formatos imagem tiveram desempenho fraco, como 'O brasileiro já entrou na escala 6 por 1.' (Df8HkZuNtxs) com 3.481 views. Carrossel não foi utilizado.",
       "actions": [
-        "Evite temas que não geraram debate ou compartilhamento.",
-        "Reforce a divulgação dos posts com menor alcance.",
-        "Analise horários e formatos dos vídeos com menor desempenho."
+        "Reduza imagens isoladas e teste carrosséis para opinião.",
+        "Aposte em reels para temas menos quentes.",
+        "Reavalie temas de opinião sem conexão com política."
       ],
       "posts": [
-        "Df54B99svET",
-        "DfqJsFFtMT-",
-        "DfzF5o6NCSj"
+        "Df8HkZuNtxs"
       ]
     },
     {
-      "title": "Horários de pico",
-      "status": "good",
-      "status_label": "Repetir",
-      "diagnosis": "Os horários de 16h (78.266 views) e 12h (14.070 views) concentraram os melhores resultados. Publicações noturnas (22h) também tiveram bom desempenho.",
+      "title": "Maior queda: novos seguidores",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "A captação de seguidores caiu 78,8% (811 novos), reflexo do menor alcance e da ausência de virais recentes.",
       "actions": [
-        "Priorize publicações entre 12h e 18h.",
-        "Teste reforço de posts à noite para ampliar alcance."
+        "Reforce CTAs para seguir no início dos reels.",
+        "Aposte em conteúdos que geraram picos de seguidores em períodos anteriores."
+      ],
+      "posts": []
+    },
+    {
+      "title": "Maior queda: alcance médio diário",
+      "status": "bad",
+      "status_label": "Atenção",
+      "diagnosis": "O alcance médio diário caiu 80,6%. O conteúdo atingiu menos pessoas, mesmo com bons números em alguns reels.",
+      "actions": [
+        "Aumente a diversidade de temas e formatos.",
+        "Invista em parcerias para ampliar o alcance.",
+        "Teste horários alternativos."
       ],
       "posts": [
         "Dfu--g3tZsF",
-        "DfxGuELN3TX"
+        "Df8HkZuNtxs"
       ]
-    },
-    {
-      "title": "Seguidores em queda",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "A entrada de novos seguidores caiu 82,8% (654 no período), bem abaixo da média do mês anterior.",
-      "actions": [
-        "Inclua CTAs claros para seguir o perfil.",
-        "Aposte em temas que geraram mais seguidores no mês, como opinião e bastidores."
-      ],
-      "posts": []
     }
   ]
 }

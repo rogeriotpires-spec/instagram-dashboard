@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-19T14:35:57-03:00",
+  "generated": "2026-11-20T14:11:39-03:00",
   "dias": 30,
   "period": {
-    "start": "2026-10-20",
-    "end": "2026-11-18"
+    "start": "2026-10-21",
+    "end": "2026-11-19"
   },
-  "compare": "2026-09-20 a 2026-10-19",
-  "headline": "Nos últimos 30 dias, foram 15.559.121 views, 324.731 compartilhamentos, 25.418 comentários, 49.967 salvamentos, 1.104.229 curtidas e 30.651 novos seguidores, com alta de 122,8% em seguidores e 41,4% em salvamentos.",
+  "compare": "2026-09-21 a 2026-10-20",
+  "headline": "Nos últimos 30 dias, você somou 15.363.579 views, 322.585 compartilhamentos e 30.686 novos seguidores, com alta de 125,2% em seguidores e 42,2% em salvos.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "15,56 mi",
-      "delta": "−12%",
+      "value": "15,36 mi",
+      "delta": "−11,1%",
       "dir": "down"
     },
     {
       "label": "Novos seguidores",
-      "value": "30.651",
-      "delta": "+122,8%",
+      "value": "30.686",
+      "delta": "+125,2%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "1.886",
-      "delta": "+268,4%",
+      "value": "1.962",
+      "delta": "+270,2%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "325 mil",
-      "delta": "−14,1%",
+      "value": "323 mil",
+      "delta": "−12,5%",
       "dir": "down"
     },
     {
       "label": "Comentários recebidos",
-      "value": "25.418",
-      "delta": "+15,2%",
+      "value": "25.434",
+      "delta": "+17%",
       "dir": "up"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "145 mil",
-      "delta": "−44,5%",
+      "value": "142 mil",
+      "delta": "−44,6%",
       "dir": "down"
     }
   ],
@@ -50,11 +50,11 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Reels de análise política e imagens de opinião tiveram destaque. O reel 'Fiz a conta do primeiro para o segundo turno...' (De8Q_S9MAJt) alcançou 983.116 views e 19.590 compartilhamentos. Imagens como 'Flávio Livre.' (DfBOEyBsDWf) também trouxeram seguidores.",
+      "diagnosis": "Reels de política e imagens de opinião viralizaram, como 'Fiz a conta do primeiro para o segundo turno...' (De8Q_S9MAJt) com 983.138 views e 'Flávio Livre.' (DfBOEyBsDWf) com 675.449 views. O crescimento de seguidores foi impulsionado por esses virais.",
       "actions": [
-        "Mantenha o mix de reels e imagens opinativas.",
-        "Explore mais análises de dados eleitorais.",
-        "Aposte em temas de bastidores e opinião para atrair seguidores."
+        "Continue investindo em temas eleitorais e de denúncia.",
+        "Aproveite formatos de imagem para mensagens diretas.",
+        "Reforce CTAs em posts virais."
       ],
       "posts": [
         "De8Q_S9MAJt",
@@ -66,24 +66,25 @@
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Alguns reels tiveram desempenho muito baixo, como 'Se liga!!!' (De6lr9Ft3I5) com apenas 864 views. Carrosséis não engajaram (mediana de 3.690 views).",
+      "diagnosis": "Alguns reels e imagens recentes tiveram baixa performance, como 'Se liga!!!' (De6lr9Ft3I5) com 864 views e 'O brasileiro já entrou na escala 6 por 1.' (Df8HkZuNtxs) com 3.481 views.",
       "actions": [
-        "Evite carrosséis e vídeos curtos sem apelo.",
-        "Reforce temas que já mostraram bom desempenho.",
-        "Teste formatos de imagem com perguntas para engajar mais."
+        "Evite temas genéricos e horários de pouco movimento.",
+        "Teste carrosséis para conteúdos menos polêmicos.",
+        "Reavalie títulos pouco atrativos."
       ],
       "posts": [
-        "De6lr9Ft3I5"
+        "De6lr9Ft3I5",
+        "Df8HkZuNtxs"
       ]
     },
     {
-      "title": "Seguidores em alta",
+      "title": "Maior alta: novos seguidores",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O perfil ganhou 30.651 seguidores (+122,8%), puxado por posts de opinião e bastidores, como 'Flávio Livre.' (DfBOEyBsDWf) e '80 MIL SEGUIDORES!' (DfcXA1DtXMY).",
+      "diagnosis": "O número de seguidores cresceu 125,2% (30.686 novos), puxado por posts virais de política e opinião.",
       "actions": [
-        "Inclua CTAs para seguir em todos os posts.",
-        "Celebre marcos e conquistas para engajar a base."
+        "Mantenha a produção de conteúdos que geraram picos de seguidores.",
+        "Inclua chamadas para seguir em todos os formatos."
       ],
       "posts": [
         "DfBOEyBsDWf",
@@ -91,16 +92,19 @@
       ]
     },
     {
-      "title": "Alcance caiu",
+      "title": "Maior queda: alcance médio diário",
       "status": "bad",
       "status_label": "Atenção",
-      "diagnosis": "O alcance médio diário caiu 44,5% em relação ao mês anterior, mesmo com aumento de seguidores e engajamento.",
+      "diagnosis": "O alcance médio diário caiu 44,6%, mesmo com alta em views e seguidores. Os virais concentraram o alcance em poucos dias.",
       "actions": [
-        "Reforce a divulgação de posts com bom desempenho.",
-        "Teste horários alternativos para ampliar o alcance.",
-        "Aposte em temas de maior apelo e viralização."
+        "Distribua melhor os temas ao longo do mês.",
+        "Aumente a frequência de posts em horários de pico.",
+        "Diversifique formatos para evitar concentração."
       ],
-      "posts": []
+      "posts": [
+        "De8Q_S9MAJt",
+        "DfBOEyBsDWf"
+      ]
     }
   ]
 }
