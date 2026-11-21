@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="theme-color" content="#0d1b2e">
+<meta name="theme-color" content="#111110">
 <title>Horários das edições</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,7 +58,7 @@ button{font:inherit;cursor:pointer}
 .del:hover{color:var(--bad);background:var(--bad-bg)}
 .actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:4px 0 22px}
 .btn{font-weight:700;font-size:14px;border-radius:999px;padding:9px 20px;border:1px solid var(--border);background:var(--surface);color:var(--text)}
-.btn.primary{background:#ffd23f;border-color:#ffd23f;color:#0d1b2e}
+.btn.primary{background:#e85d04;border-color:#e85d04;color:#fff}
 .btn:disabled{opacity:.5;cursor:wait}
 #st{font-size:13px;color:var(--text-2)}
 #st.ok{color:var(--good)} #st.err{color:var(--bad)}
@@ -77,9 +77,9 @@ h2{font-size:14px;margin:22px 0 8px;text-transform:uppercase;letter-spacing:.08e
 <div class="wrap">
   <div class="top"><a href="noticias.html">← Notícias</a><span id="agora" style="color:var(--muted)"></span></div>
   <h1>Horários das edições</h1>
-  <p class="sub">Defina quando o painel começa a gerar as edições de notícias e a pauta do programa. Os horários são de Brasília e são os do <b>início</b>: cada geração leva de 15 a 25 minutos.</p>
+  <p class="sub">A edição automática de notícias roda só por volta das 6h (Brasília). Horários de 12h ou 19h nesta página não disparam sozinhos; use o botão Gerar edição agora. A pauta do programa segue os horários abaixo. Os horários são de Brasília e são os do <b>início</b>: cada geração leva de 15 a 25 minutos.</p>
 
-  <div class="note">Pela regra da geração, quem começa antes das 9h vira a <b>edição das 6h</b>, das 9h às 15h59 vira a <b>das 12h</b> e a partir das 16h vira a <b>das 19h</b>. Na pauta do programa, itens avulsos pedidos depois continuam entrando na pauta já gerada. Se um horário disparar e já houver uma geração em andamento, ele não duplica.</div>
+  <div class="note">O agendador só gera a <b>edição das 6h</b> (disparos entre 5h e 7h59). Se você apertar Gerar edição agora, o arquivo segue a regra do horário: antes das 9h vira a das 6h, das 9h às 15h59 vira a das 12h, a partir das 16h vira a das 19h. Na pauta do programa, itens avulsos pedidos depois continuam entrando na pauta já gerada. Se um horário disparar e já houver uma geração em andamento, ele não duplica.</div>
 
   <div class="card" id="lista"><div class="empty">Carregando…</div></div>
 

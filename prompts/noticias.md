@@ -1,6 +1,6 @@
 # Edição de notícias do Painel @rogerrio
 
-Usado pela tarefa agendada (6h, 12h, 19h) e pelo botão "Gerar edição agora" do site.
+Usado pela tarefa agendada das 6h (Brasília) e pelo botão "Gerar edição agora" do site. As edições das 12h e das 19h só saem se alguém apertar o botão.
 Você está na raiz do repositório rogeriotpires-spec/instagram-dashboard (branch main), já clonado.
 
 RESUMOS DAS NOTÍCIAS: a lista de portais já aparece abaixo de cada notícia, então o resumo cita no máximo UM veículo, e só quando a informação é exclusiva dele ou contestada; nunca encadeie veículos. Não adote o enquadramento, os adjetivos nem a tese da grande mídia tradicional (veja prompts/voz-editorial.md, item 2): descreva o fato de forma seca e deixe a leitura para o programa. Críticas a Flávio, Bolsonaro, PL ou à direita entram só como fato atribuído a quem disse, com a resposta do lado criticado quando houver.
