@@ -59,13 +59,13 @@ def _titulo(texto):
     return re.sub(r"\s+", " ", t).strip()
 
 
-def _baixar(url, tentativas=4):
+def _baixar(url, tentativas=2):
     ultimo = "sem resposta"
     status = None
     for i in range(tentativas):
         req = urllib.request.Request(url, headers=UA)
         try:
-            with urllib.request.urlopen(req, timeout=22) as r:
+            with urllib.request.urlopen(req, timeout=10) as r:
                 return r.status, r.read(1_500_000), None
         except urllib.error.HTTPError as e:
             status = e.code
@@ -84,7 +84,7 @@ def _baixar(url, tentativas=4):
             time.sleep(min(20, 1.2 * (2 ** i)) + random.uniform(0, 0.5))
     if Fetcher is not None and status in (None, 403, 401):
         try:
-            resp = Fetcher.get(url, timeout=20)
+            resp = Fetcher.get(url, timeout=10)
             corpo = getattr(resp, "body", None)
             if isinstance(corpo, str):
                 corpo = corpo.encode("utf-8")

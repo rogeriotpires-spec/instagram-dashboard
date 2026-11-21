@@ -41,7 +41,7 @@ jobs:
             echo "Agendador dentro da janela das 06h (${H}h BRT)."
           else
             echo "seguir=nao" >> "$GITHUB_OUTPUT"
-            echo "Agendador fora da edição das 06h (${H}h BRT). As 12h e as 19h ficam no botão Run workflow."
+            echo "Agendador fora da janela das 06h (${H}h BRT). Para gerar outra edição, use o botão sem agendado=sim."
           fi
 
   gerar:
@@ -69,6 +69,7 @@ jobs:
           python3 tools/modelos_ia.py --self-test
           python3 tools/coleta_noticias.py --self-test
           python3 tools/editar_com_ia.py --self-test
+          python3 tools/noticias_reparar.py --self-test
 
       - name: Coletar assuntos em alta
         run: python3 tools/coleta_trends.py || true
@@ -106,8 +107,8 @@ jobs:
         run: python3 tools/gerar_edicao.py coleta-noticias.json
 
       - name: Conferir a edição
+        id: qa
         if: steps.ia.outcome == 'success' || steps.regras.outcome == 'success'
-        continue-on-error: true
         run: |
           ED=$(python3 -c "
           from datetime import datetime, timedelta, timezone
@@ -118,7 +119,7 @@ jobs:
           python3 tools/qa_edicao.py "$ED" coleta-noticias.json
 
       - name: Publicar edição
-        if: steps.ia.outcome == 'success' || steps.regras.outcome == 'success'
+        if: (steps.ia.outcome == 'success' || steps.regras.outcome == 'success') && steps.qa.outcome == 'success'
         run: |
           ED=$(python3 -c "
           from datetime import datetime, timedelta, timezone
@@ -131,8 +132,8 @@ jobs:
           from collections import Counter
           ed = "$ED"
           novos = json.load(open(ed, encoding="utf-8")).get("items") or []
-          if len(novos) < 24:
-              print(f"não publico: {len(novos)} matérias, abaixo de 24")
+          if len(novos) < 12:
+              print(f"não publico: {len(novos)} matérias, abaixo de 12")
               sys.exit(1)
           try:
               antigo = json.loads(subprocess.check_output(["git", "show", f"HEAD:{ed}"], text=True))
@@ -140,10 +141,9 @@ jobs:
               antigo = None
           if antigo:
               antigos = antigo.get("items") or []
-              ca, cn = Counter(i.get("segment") for i in antigos), Counter(i.get("segment") for i in novos)
-              piores = [f"{s} {cn[s]}<{n}" for s, n in ca.items() if cn[s] < n]
-              if len(novos) < len(antigos) or piores:
-                  print(f"não publico: {len(novos)} matérias contra {len(antigos)}; seções {', '.join(piores) or 'ok'}")
+              # Não bloqueia só porque o reparo tirou link trocado e enxugou a edição.
+              if len(novos) < 12:
+                  print(f"não publico: {len(novos)} matérias contra {len(antigos)}")
                   sys.exit(1)
           print(f"publico: {len(novos)} matérias")
           PY

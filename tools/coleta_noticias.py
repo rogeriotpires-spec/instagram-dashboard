@@ -323,21 +323,27 @@ def coletar(horas):
     BRT = timezone(timedelta(hours=-3))
     agora = datetime.now(BRT)
     corte = agora - timedelta(hours=horas)
-    ritmo = {"pausa": 2.8, "horas": horas, "http_429": 0}
+    ritmo = {"pausa": 1.6, "horas": horas, "http_429": 0}
     descartados = Counter()
     portais = []
     # feeds em paralelo; o Google da reserva fica sequencial dentro de cada portal que precisar
     from concurrent.futures import ThreadPoolExecutor
     alvos = [o for o in cfg["outlets"] if o.get("fetch") is not False]
-    with ThreadPoolExecutor(max_workers=6) as ex:
+    with ThreadPoolExecutor(max_workers=12) as ex:
         portais = list(ex.map(lambda o: ler_feeds(o, corte, BRT, agora), alvos))
     print(f"feeds: {sum(1 for p in portais if p['manchetes'])}/{len(portais)} com manchete", file=sys.stderr, flush=True)
     for o, portal in zip(alvos, portais):
-        if not portal["manchetes"]:
-            reserva_google(portal, o, corte, BRT, agora, ritmo)
-            print(f"google {o['name']}: {portal['_diag']['status']} {portal['_diag']['count']} {portal['_diag'].get('erro') or ''}", file=sys.stderr, flush=True)
-            if ritmo.get("google_off"):
-                break
+        if portal["manchetes"]:
+            continue
+        # Regionais (tier 3) sem feed válido ficam de fora da reserva: era a
+        # etapa mais lenta e enchia a edição de link trocado.
+        if (o.get("tier") or 3) >= 3:
+            portal["_diag"].update(via="nenhuma", status="skip", erro="tier 3 sem feed, reserva Google pulada")
+            continue
+        reserva_google(portal, o, corte, BRT, agora, ritmo)
+        print(f"google {o['name']}: {portal['_diag']['status']} {portal['_diag']['count']} {portal['_diag'].get('erro') or ''}", file=sys.stderr, flush=True)
+        if ritmo.get("google_off"):
+            break
     # a ordem do config ajuda a ler o quadro
     ordem = {o["name"]: i for i, o in enumerate(alvos)}
     portais.sort(key=lambda p: ordem.get(p["nome"], 999))
