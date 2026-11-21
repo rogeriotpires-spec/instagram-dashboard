@@ -6,6 +6,9 @@
 // Agenda (horários das edições, geridos na página agenda.html do painel):
 //   AGENDA      armazenamento KV ligado a este Worker (guarda os horários e o que já foi disparado)
 //   Cron Trigger "*/5 * * * *" (a cada 5 minutos): o Worker confere a agenda e aciona o GitHub no minuto certo
+//   Produção: este arquivo só vale depois de um deploy na Cloudflare. A agenda no KV
+//   deve ter um único item de notícias (05:00, todos os dias). Horários de 9h30 e 18h
+//   ainda disparariam o workflow (que hoje aborta em segundos) se permanecerem no KV.
 const REPO = "rogeriotpires-spec/instagram-dashboard";
 const ORIGINS = ["https://rogeriotpires-spec.github.io"];
 const JOBS = {
