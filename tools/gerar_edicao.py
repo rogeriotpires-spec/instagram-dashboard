@@ -349,9 +349,11 @@ def main():
     try:
         rep = subprocess.run([sys.executable, str(ROOT / "tools/noticias_repeticao.py"), str(dest), "--aplicar"], cwd=ROOT, capture_output=True, text=True)
         print(rep.stdout.strip())
+        fix = subprocess.run([sys.executable, str(ROOT / "tools/noticias_reparar.py"), str(dest), "--aplicar"], cwd=ROOT, capture_output=True, text=True)
+        print(fix.stdout.strip())
         final = json.loads(dest.read_text(encoding="utf-8"))
-        if len(final.get("items") or []) < 8:
-            raise SystemExit("edição por regras ficou com menos de 8 notícias depois da regra de não repetir")
+        if len(final.get("items") or []) < 12:
+            raise SystemExit("edição por regras ficou com menos de 12 notícias depois do reparo")
         final["gerador"] = "regras"
         final["modelo"] = None
         dest.write_text(json.dumps(final, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

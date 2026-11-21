@@ -7,8 +7,9 @@ pautas sob demanda / itens avulsos.
 
 Provedor:
 - Se OPENAI_API_KEY estiver definida, as chamadas vão para
-  https://api.openai.com/v1 com o modelo OPENAI_MODEL (padrão gpt-4.1) e,
+  https://api.openai.com/v1 com o modelo OPENAI_MODEL (padrão gpt-4.1-mini) e,
   se estourar taxa ou contexto, OPENAI_MODEL_MINI (padrão gpt-4.1-mini).
+  Para voltar ao modelo cheio, defina OPENAI_MODEL=gpt-4.1 no segredo do repositório.
 - Senão, usa o GitHub Models em https://models.github.ai/inference
   (OpenAI-compatível), com GITHUB_TOKEN e o modelo openai/gpt-4.1
   (reserva openai/gpt-4.1-mini). Permissão da action: models: read.
@@ -57,7 +58,7 @@ def configuracao():
             "provedor": "openai",
             "base": base,
             "chave": openai,
-            "modelo": os.environ.get("OPENAI_MODEL") or "gpt-4.1",
+            "modelo": os.environ.get("OPENAI_MODEL") or "gpt-4.1-mini",
             "mini": os.environ.get("OPENAI_MODEL_MINI") or "gpt-4.1-mini",
         }
     token = (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_MODELS_TOKEN") or "").strip()
@@ -68,7 +69,7 @@ def configuracao():
         "provedor": "github",
         "base": base,
         "chave": token,
-        "modelo": os.environ.get("GITHUB_MODELS_MODEL") or "openai/gpt-4.1",
+        "modelo": os.environ.get("GITHUB_MODELS_MODEL") or "openai/gpt-4.1-mini",
         "mini": os.environ.get("GITHUB_MODELS_MODEL_MINI") or "openai/gpt-4.1-mini",
     }
 

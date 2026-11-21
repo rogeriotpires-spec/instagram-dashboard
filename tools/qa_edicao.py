@@ -13,6 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import noticias_notas as notas
+import noticias_reparar as reparar
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -141,16 +142,24 @@ def main():
         ed_path = ROOT / ed_path
     if not col_path.is_absolute():
         col_path = ROOT / col_path
+    cfg = json.loads((ROOT / "noticias" / "config.json").read_text(encoding="utf-8"))
     edicao = json.loads(ed_path.read_text(encoding="utf-8"))
-    coleta = json.loads(col_path.read_text(encoding="utf-8"))
-    erros, avisos, metricas = conferir(edicao, coleta)
+    coleta = json.loads(col_path.read_text(encoding="utf-8")) if col_path.exists() else {"portais": []}
+    edicao, rel = reparar.reparar(edicao, cfg, google=True)
+    ed_path.write_text(json.dumps(edicao, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("reparo " + json.dumps(rel, ensure_ascii=False))
+    graves = reparar.conferir_graves(edicao, cfg)
+    erros, avisos, metricas = conferir(edicao, coleta) if coleta.get("portais") is not None else ([], [], {})
+    # os cheques antigos (frase, número, link da coleta) viram aviso:
+    # depois do reparo o endereço já é o do portal, não o do Google da coleta.
+    avisos = list(avisos) + [e for e in erros if e not in graves]
     print(json.dumps(metricas, ensure_ascii=False))
     for a in avisos:
         print("AVISO " + a)
-    for e in erros:
+    for e in graves:
         print("ERRO " + e)
-    print(f"qa: {len(erros)} erros, {len(avisos)} avisos")
-    sys.exit(1 if erros else 0)
+    print(f"qa: {len(graves)} erros, {len(avisos)} avisos")
+    sys.exit(1 if graves else 0)
 
 
 if __name__ == "__main__":

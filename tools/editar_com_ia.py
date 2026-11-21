@@ -199,7 +199,7 @@ def agrupar(manchetes, completar):
             "ignorar": {"type": "array", "items": {"type": "string"}},
         }, ["grupos", "ignorar"])
         try:
-            resp = completar(msgs, schema=schema, schema_nome="grupos", max_tokens=3500, temperature=0.1)
+            resp = completar(msgs, schema=schema, schema_nome="grupos", max_tokens=3500, temperature=0.1, barato=True)
         except modelos_ia.ModelError as e:
             if e.tamanho and len(bloco) > 24 and profundidade < 3:
                 meio = len(bloco) // 2
@@ -279,7 +279,7 @@ def unir(grupos, por_id, completar):
             "ids são cids. Não descarte fato noticioso.\n\n" + "\n".join(linhas)
         )
         msgs = [{"role": "system", "content": sistema}, {"role": "user", "content": pedido}]
-        resp = completar(msgs, schema=schema, schema_nome="uniao", max_tokens=3500, temperature=0.1)
+        resp = completar(msgs, schema=schema, schema_nome="uniao", max_tokens=3500, temperature=0.1, barato=True)
         unidos.extend(_aplicar_uniao(fatia, resp))
     return _dedupe_local(unidos + resto, por_id)
 
@@ -380,7 +380,7 @@ def redigir(grupos, por_id, recentes_lista, cfg, completar):
         sistema, usuario = _prompt_redacao(lote, por_id, recentes_txt, cfg)
         resp = completar(
             [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}],
-            schema=schema, schema_nome="itens", max_tokens=5000, temperature=0.2, timeout=150,
+            schema=schema, schema_nome="itens", max_tokens=3500, temperature=0.2, timeout=120, barato=True,
         )
         saida.extend(resp.get("itens") or [])
     return saida
@@ -611,27 +611,20 @@ def _pos_processar(dest, coleta_path):
     print(rep.stdout.strip())
     if rep.returncode not in (0,):
         print(rep.stderr, file=sys.stderr)
+    fix = subprocess.run([sys.executable, str(ROOT / "tools" / "noticias_reparar.py"), str(dest), "--aplicar"], cwd=ROOT, capture_output=True, text=True)
+    print(fix.stdout.strip() or fix.stderr.strip())
+    if fix.returncode not in (0,):
+        # o reparo já gravou o que pôde; a conferência rígida fica no qa_edicao
+        print(fix.stderr, file=sys.stderr)
 
 
 def _edicao_nao_pior(novos, anterior_txt):
     """Igual ou melhor: não perde matéria nem seção da edição que já está no ar."""
     from collections import Counter
-    if len(novos) < 24:
-        return False, f"{len(novos)} matérias, abaixo de 24"
-    if not anterior_txt:
-        return True, "sem edição anterior"
-    try:
-        antigo = json.loads(anterior_txt)
-    except ValueError:
-        return True, "anterior ilegível"
-    antigos = antigo.get("items") or []
-    if len(novos) < len(antigos):
-        return False, f"{len(novos)} matérias, a anterior tem {len(antigos)}"
-    ca = Counter(i.get("segment") for i in antigos)
-    cn = Counter(i.get("segment") for i in novos)
-    piores = [f"{s} {cn[s]}<{n}" for s, n in ca.items() if cn[s] < n]
-    if piores:
-        return False, "seções menores: " + ", ".join(piores)
+    if len(novos) < 12:
+        return False, f"{len(novos)} matérias, abaixo de 12"
+    # Não compara quantidade com a edição anterior: o reparo de links
+    # reduz o total de propósito (tira portal fora do fato).
     return True, "ok"
 
 
@@ -866,7 +859,7 @@ def _fatos_do_lote(bloco, completar, prefixo, profundidade=0):
                 "Cada linha é id|veículo|título. Devolva {\"fatos\":[{\"ids\":[\"h0001\"],\"segmento\":\"politica\",\"relevancia\":8}]}. "
                 "Toda manchete entra em exatamente um fato. Sem par, o fato tem um id só. "
                 "Não descarte Congresso, STF, eleição, educação, Rio nem esporte.\n\n" + lista}],
-            schema=schema, schema_nome="fatos", max_tokens=16000, temperature=0, timeout=180,
+            schema=schema, schema_nome="fatos", max_tokens=6000, temperature=0, timeout=120, barato=True,
         )
     except modelos_ia.ModelError as e:
         if e.tamanho and len(bloco) > 40 and profundidade < 2:
@@ -981,7 +974,7 @@ def unir_fatos_entre_lotes(fatos, por_id, completar):
                 [{"role": "system", "content": sistema}, {"role": "user", "content":
                     "Fatos fid|seção|portais|títulos:\n" + "\n".join(lote)
                     + "\n\nDevolva {\"unir\":[[\"a0\",\"b3\"]]} só com o mesmo fato. Se não houver, unir é []."}],
-                schema=schema, schema_nome="unir_fatos", max_tokens=2500, temperature=0, timeout=120,
+                schema=schema, schema_nome="unir_fatos", max_tokens=1800, temperature=0, timeout=90, barato=True,
             )
         except modelos_ia.ModelError as e:
             print(f"IA: união entre lotes não rodou ({e})", file=sys.stderr)

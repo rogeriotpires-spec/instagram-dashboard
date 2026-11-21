@@ -6,7 +6,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0d1b2e">
+<meta name="theme-color" content="#111110">
 <meta name="apple-mobile-web-app-title" content="@rogerrio">
 <title>Notícias @rogerrio</title>
 <meta name="robots" content="noindex">
@@ -17,7 +17,7 @@
   color-scheme:light;
   --bg:#f3f2ee; --surface:#fcfcfb; --surface-2:#f6f5f1; --border:#e3e1da;
   --text:#0b0b0b; --text-2:#52514e; --muted:#85847e; --grid:#ebe9e3;
-  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#4a3aa7; --s5:#eda100;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#4a3aa7; --s5:#e85d04;
   --good:#0f7a4c; --good-bg:#e5f4ec; --warn:#9a5b00; --warn-bg:#fbf0dc; --bad:#b4302f; --bad-bg:#fbe6e5;
 }
 @media (prefers-color-scheme:dark){
@@ -25,7 +25,7 @@
     color-scheme:dark;
     --bg:#111110; --surface:#1a1a19; --surface-2:#222220; --border:#2f2f2c;
     --text:#ffffff; --text-2:#c3c2b7; --muted:#8f8e86; --grid:#2a2a27;
-    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9085e9; --s5:#c98500;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9085e9; --s5:#e85d04;
     --good:#4cc28a; --good-bg:#16291f; --warn:#e3a43c; --warn-bg:#2d2414; --bad:#ef7b7a; --bad-bg:#311a1a;
   }
 }
@@ -33,14 +33,14 @@
   color-scheme:dark;
   --bg:#111110; --surface:#1a1a19; --surface-2:#222220; --border:#2f2f2c;
   --text:#ffffff; --text-2:#c3c2b7; --muted:#8f8e86; --grid:#2a2a27;
-  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9085e9; --s5:#c98500;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#9085e9; --s5:#e85d04;
   --good:#4cc28a; --good-bg:#16291f; --warn:#e3a43c; --warn-bg:#2d2414; --bad:#ef7b7a; --bad-bg:#311a1a;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:64px}
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
-.hero{position:relative;color:#fff;background:#0d1b2e url(capa.jpg) center 40%/cover no-repeat;isolation:isolate}
+.hero{position:relative;color:#fff;background:#111110 url(capa.jpg) center 40%/cover no-repeat;isolation:isolate}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,16,30,.35) 0%,rgba(8,16,30,.72) 55%,rgba(8,16,30,.94) 100%);z-index:-1}
 .hero-in{max-width:1180px;margin:0 auto;padding:56px 16px 28px;display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:end}
 .avatar-link{display:inline-block;border-radius:50%;line-height:0;flex-shrink:0;transition:transform .15s}.avatar-link:hover{transform:scale(1.04)}.avatar-link:focus-visible{outline:3px solid #fff;outline-offset:3px}
@@ -56,8 +56,8 @@ a{color:inherit}
 .hero-stats span{font-size:12px;opacity:.75}
 .hero-meta{max-width:1180px;margin:0 auto;padding:0 16px 22px;font-size:12px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
 .hero-meta #updated{opacity:.75}
-.refresh{font:inherit;font-size:12px;font-weight:700;color:#0d1b2e;background:#ffd23f;border:1px solid #ffd23f;border-radius:999px;padding:5px 14px;cursor:pointer;box-shadow:0 2px 10px rgba(255,210,63,.35)}
-.refresh:hover{background:#ffe17a;border-color:#ffe17a}
+.refresh{font:inherit;font-size:12px;font-weight:700;color:#fff;background:#e85d04;border:1px solid #e85d04;border-radius:999px;padding:5px 14px;cursor:pointer;box-shadow:0 2px 10px rgba(232,93,4,.35)}
+.refresh:hover{background:#f06d1a;border-color:#f06d1a}
 .refresh:disabled{color:rgba(255,255,255,.55);background:transparent;border:1px dashed rgba(255,255,255,.35);box-shadow:none;cursor:wait}
 #refresh-st{opacity:.9}
 nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
@@ -269,7 +269,7 @@ details summary{cursor:pointer;font-size:12.5px;color:var(--text-2)}
       <div class="eyebrow">Principais notícias</div>
       <h1>Rogerio Pires</h1>
       <div class="handle">@rogerrio <span class="badge" title="Conta verificada"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></span></div>
-      <div class="bio">As notícias que mais pesam no dia, cruzando os principais portais do país. Edições ao longo do dia.</div>
+      <div class="bio">As notícias que mais pesam no dia, cruzando os principais portais do país. Edição automática às 6h (Brasília).</div>
     </div>
   </div>
   <div class="hero-meta"><span id="updated">Carregando…</span> <button class="refresh" id="refresh" type="button">↻ Gerar edição agora</button> <span id="refresh-st" role="status"></span> <a href="agenda.html" style="color:#fff;opacity:.85;margin-left:6px">⏱ Horários</a></div>
@@ -416,7 +416,7 @@ function renderX(){
     const rel=x.item_id&&(ED.items||[]).find(n=>n.id===x.item_id);
     return`<div class="xt"><div class="xt-h"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.nome)}</a>${x.volume?`<span class="small-n">${Number(x.volume).toLocaleString("pt-BR")} posts</span>`:""}<span class="pill ${LEIT[x.leitura]||"neutral"}">${esc(x.leitura||"")}</span></div>
       <p>${esc(x.sobre||"")}</p>${x.uso?`<p class="uso"><b>Como usar:</b> ${esc(x.uso)}</p>`:""}<p class="xl"><a href="${esc(x.url)}" target="_blank" rel="noopener">Ver no X ↗</a>${(()=>{const f=(x.fonte&&x.fonte.url)?x.fonte:(rel&&(rel.outlets||[])[0]);return f&&f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">Ler matéria${f.name?" ("+esc(f.name)+")":""} ↗</a>`:""})()}${rel?`<a href="#n-${esc(rel.id)}" data-goto="${esc(rel.id)}">Ver notícia ligada ↓</a>`:""}</p>${rel?`<p class="small-n">Notícia ligada: ${esc(rel.title)}</p>`:""}
-      ${(()=>{const m=progMatch(it);return progNote(m)+(m?`<div class="pills" style="margin:6px 0">${progPill(m)}</div>`:"")})()}<div class="acts">${Painel.API?`${progBtn(it,progMatch(it))}${artBtn(it)}<button class="btn ghost" type="button" data-pauta="${it.id}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
+      ${(()=>{const m=progMatch(it);return progNote(m)+(m?`<div class="pills" style="margin:6px 0">${progPill(m)}</div>`:"")})()}<div class="acts">${Painel.API?`${progBtn(it,progMatch(it))}${artBtn(it)}<button class="btn ghost" type="button" data-pauta="${esc(it.id)}">📲 Post do Instagram</button>`:""}<span class="small-n pst"></span></div></div>`}).join("");
 }
 function fbarSetup(){const nav=document.querySelector("nav"),fb=$("#fbar");const upd=()=>document.documentElement.style.setProperty("--navh",(nav?Math.round(nav.getBoundingClientRect().height):0)+"px");upd();addEventListener("resize",upd);if(nav&&window.ResizeObserver)new ResizeObserver(upd).observe(nav);
   addEventListener("scroll",()=>{const top=fb.getBoundingClientRect().top,nh=nav?nav.offsetHeight:0;fb.classList.toggle("stuck",top<=nh+1&&scrollY>40)},{passive:true})}
@@ -446,7 +446,7 @@ function method(){
 }
 async function load(id){
   CUR=id;$("#ed").value=id;const i=EDS.indexOf(id);$("#prev").disabled=i<=0;$("#next").disabled=i>=EDS.length-1;
-  try{ED=await fetch(`noticias/${id}.json?`+Date.now()).then(r=>r.json());ED.id=id;
+  try{ED=await fetch(`noticias/${id}.json`).then(r=>r.json());ED.id=id;
     const g=new Date(ED.generated);$("#ed-title").textContent=`Edição das ${id.slice(-3)} · ${label(id).slice(0,5)}`;
     const modo=ED.gerador==="ia"?" · com IA":ED.gerador==="regras"?" · por regras":"";
     $("#ed-sub").textContent=`Gerada em ${g.toLocaleDateString("pt-BR",{timeZone:"America/Sao_Paulo"})} às ${g.toLocaleTimeString("pt-BR",{timeZone:"America/Sao_Paulo",hour:"2-digit",minute:"2-digit"})} (Brasília) · ${(ED.items||[]).length} notícias${modo}`;
@@ -455,14 +455,16 @@ async function load(id){
     NV={};renderX();render();await novidade();if(CUR===id)render();history.replaceState(null,"","#"+id)}
   catch(e){$("#list").innerHTML=`<div class="empty">Não foi possível carregar a edição ${esc(id)}.</div>`}
 }
-Promise.all([fetch("noticias/config.json?"+Date.now()).then(r=>r.json()),fetch("noticias/index.json?"+Date.now()).then(r=>r.ok?r.json():{editions:[]}).catch(()=>({editions:[]})),fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([c,ix,sd])=>{
+Promise.all([fetch("noticias/config.json").then(r=>r.json()),fetch("noticias/index.json").then(r=>r.ok?r.json():{editions:[]}).catch(()=>({editions:[]})),fetch("pautas/sob-demanda.json?"+Date.now()).then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))]).then(([c,ix,sd])=>{
   CFG=c;method();fbarSetup();(sd.items||[]).forEach(x=>{if(x.source){DONE[x.source.title]=1;DONE[x.source.item_id]=1}});
-  loadProg();loadArts();
+  setTimeout(()=>{loadProg();loadArts()},1);
   EDS=(ix.editions||[]).sort();
-  if(!EDS.length){$("#updated").textContent="A primeira edição sai no próximo horário (6h, 12h ou 19h).";$("#list").innerHTML=`<div class="empty">Nenhuma edição publicada ainda.</div>`;return}
+  if(!EDS.length){$("#updated").textContent="A próxima edição automática sai por volta das 6h (Brasília). Fora desse horário, use Gerar edição agora.";$("#list").innerHTML=`<div class="empty">Nenhuma edição publicada ainda.</div>`;return}
   $("#ed").innerHTML=EDS.slice().reverse().map(e=>`<option value="${e}">${label(e)}</option>`).join("");
+  const abrir=id=>{if(id&&EDS.includes(id))load(id);else load(EDS[EDS.length-1])};
   $("#ed").onchange=e=>load(e.target.value);$("#prev").onclick=()=>load(EDS[EDS.indexOf(CUR)-1]);$("#next").onclick=()=>load(EDS[EDS.indexOf(CUR)+1]);
-  load(EDS[EDS.length-1]); /* abre sempre a edição mais recente; as anteriores ficam nas setas e na lista */
+  addEventListener("hashchange",()=>abrir(location.hash.replace(/^#/,"")));
+  abrir(location.hash.replace(/^#/,""));
 });
 
 Painel.wire({btn:document.getElementById("refresh"),st:document.getElementById("refresh-st"),job:"noticias",wf:"noticias.yml",minutes:25,

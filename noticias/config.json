@@ -1,10 +1,6 @@
 {
  "_doc": "Parâmetros da aba Notícias. Pode editar direto no GitHub: as próximas edições usam os valores novos.",
- "editions": [
-  "06:00",
-  "12:00",
-  "19:00"
- ],
+ "editions": ["06:00"],
  "criteria": [
   {
    "key": "cobertura",
