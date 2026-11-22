@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-20T14:11:39-03:00",
+  "generated": "2026-11-22T13:36:03-03:00",
   "dias": 90,
   "period": {
-    "start": "2026-08-22",
-    "end": "2026-11-19"
+    "start": "2026-08-24",
+    "end": "2026-11-21"
   },
-  "compare": "2026-05-24 a 2026-08-21",
-  "headline": "Nos últimos 90 dias, você acumulou 42.996.258 views, 77.7155 compartilhamentos e 48.550 novos seguidores, com crescimento de 292,6% nos views e 154,6% no alcance médio diário.",
+  "compare": "2026-05-26 a 2026-08-23",
+  "headline": "Nos últimos 90 dias, o Instagram teve 43.310.876 views, aumento de 285,8% em relação ao trimestre anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "43 mi",
-      "delta": "+292,6%",
+      "value": "43,31 mi",
+      "delta": "+285,8%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "48.550",
+      "value": "48.729",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "2.668",
+      "value": "2.770",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "777 mil",
+      "value": "792 mil",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Comentários recebidos",
-      "value": "55.907",
+      "value": "56.793",
       "delta": "sem comparação",
       "dir": "na"
     },
     {
       "label": "Alcance médio por dia",
-      "value": "163 mil",
-      "delta": "+154,6%",
+      "value": "166 mil",
+      "delta": "+164,5%",
       "dir": "up"
     }
   ],
@@ -50,15 +50,15 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Imagens de opinião e reels de política geraram os maiores virais, como 'Fica a reflexão.' (Dd8pQedtGZL) e 'Fiz a conta do primeiro para o segundo turno...' (De8Q_S9MAJt), ambos com mais de 980 mil views.",
+      "diagnosis": "Posts de opinião como 'Fica a reflexão.' (Dd8pQedtGZL) e 'Ninguém aguenta mais o Lula e o PT!' (Dd08gl4tibs) tiveram mais de 900 mil views cada, atraindo muitos seguidores.",
       "actions": [
-        "Mantenha o foco em temas de opinião e política.",
-        "Aposte em imagens com frases impactantes.",
-        "Reforce CTAs para compartilhamento e comentários."
+        "Continue focando em temas de opinião relevantes.",
+        "Produza conteúdos que gerem debates.",
+        "Use formatos que geram alto alcance.",
+        "Aposte em temas polêmicos para engajamento."
       ],
       "posts": [
         "Dd8pQedtGZL",
-        "De8Q_S9MAJt",
         "Dd08gl4tibs"
       ]
     },
@@ -66,47 +66,42 @@
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Reels fora do contexto político tiveram desempenho muito baixo, como 'O STF virou um manicômio institucional' (Dc3EY5cNint) com 537 views.",
+      "diagnosis": "Posts com baixa performance, como 'O STF virou um manicômio institucional' (Dc3EY5cNint) com 537 views, indicam necessidade de ajustes em temas ou formatos.",
       "actions": [
-        "Evite temas distantes do foco principal.",
-        "Teste novos formatos apenas em horários de menor risco.",
-        "Acompanhe de perto o desempenho de conteúdos experimentais."
+        "Revise conteúdos que não performam.",
+        "Teste novos formatos e abordagens.",
+        "Analise o público para alinhar temas.",
+        "Aposte em conteúdos mais dinâmicos."
       ],
       "posts": [
-        "Dc3EY5cNint",
-        "Dcvng7kNnHA",
-        "De6lr9Ft3I5"
+        "Dc3EY5cNint"
       ]
     },
     {
-      "title": "Tendência: engajamento concentrado em virais",
-      "status": "warn",
-      "status_label": "Ajustar",
-      "diagnosis": "O engajamento e alcance estão muito concentrados em poucos posts virais. A maioria dos conteúdos tem desempenho mediano ou baixo.",
-      "actions": [
-        "Aumente a variedade de temas e formatos.",
-        "Reforce a frequência em horários de maior audiência.",
-        "Invista em colaborações para ampliar o público."
-      ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "De8Q_S9MAJt"
-      ]
-    },
-    {
-      "title": "Tendência: força dos temas de opinião",
+      "title": "Maior mudança positiva: views",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Temas de opinião e frases fortes em imagens continuam gerando alto engajamento e seguidores, como visto em 'Fica a reflexão.' (Dd8pQedtGZL) e 'Ninguém aguenta mais o Lula e o PT!' (Dd08gl4tibs).",
+      "diagnosis": "Views aumentaram 285,8%, mostrando crescimento consistente e expressivo do perfil.",
       "actions": [
-        "Mantenha o ritmo de imagens de opinião.",
-        "Explore temas atuais e polêmicos.",
-        "Inclua perguntas para estimular comentários."
+        "Mantenha frequência e qualidade das postagens.",
+        "Explore novos temas que atraem público.",
+        "Use dados para otimizar horários de postagem.",
+        "Invista em conteúdos que geram alto alcance."
       ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "Dd08gl4tibs"
-      ]
+      "posts": []
+    },
+    {
+      "title": "Maior mudança negativa: alcance médio diário",
+      "status": "warn",
+      "status_label": "Ajustar",
+      "diagnosis": "Alcance médio diário subiu 164,5%, mas ainda pode ser melhor explorado para ampliar visibilidade.",
+      "actions": [
+        "Ajuste estratégias para ampliar alcance.",
+        "Use anúncios para potencializar posts.",
+        "Aposte em conteúdos virais e compartilháveis.",
+        "Monitore desempenho para ajustes contínuos."
+      ],
+      "posts": []
     }
   ]
 }

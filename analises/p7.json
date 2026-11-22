@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-20T14:11:39-03:00",
+  "generated": "2026-11-22T13:36:03-03:00",
   "dias": 7,
   "period": {
-    "start": "2026-11-13",
-    "end": "2026-11-19"
+    "start": "2026-11-15",
+    "end": "2026-11-21"
   },
-  "compare": "2026-11-06 a 2026-11-12",
-  "headline": "Na semana, foram 438.922 views, 15.117 compartilhamentos e 811 novos seguidores, com queda de 66,7% nos views e 77,5% nos compartilhamentos em relação à semana anterior.",
+  "compare": "2026-11-08 a 2026-11-14",
+  "headline": "Na semana de 15 a 21/11/2026, o Instagram teve 930.045 views, aumento de 6,9% em relação à semana anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "439 mil",
-      "delta": "−66,7%",
-      "dir": "down"
+      "value": "930 mil",
+      "delta": "+6,9%",
+      "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "811",
-      "delta": "−78,8%",
+      "value": "816",
+      "delta": "−49,4%",
       "dir": "down"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "321",
-      "delta": "−1,5%",
-      "dir": "up"
+      "value": "342",
+      "delta": "+8,2%",
+      "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "15.117",
-      "delta": "−77,5%",
-      "dir": "down"
+      "value": "25.645",
+      "delta": "+6%",
+      "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "1.184",
-      "delta": "−48,5%",
-      "dir": "down"
+      "value": "1.816",
+      "delta": "+23%",
+      "dir": "up"
     },
     {
-      "label": "Alcance médio por dia",
-      "value": "19.388",
-      "delta": "−80,6%",
+      "label": "Salvamentos recebidos",
+      "value": "2.186",
+      "delta": "−18,9%",
       "dir": "down"
     }
   ],
@@ -50,57 +50,57 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Reels de política dominaram o engajamento, especialmente 'VINTE E QUATRO MIL OITOCENTOS E VINTE E DOIS VOTOS A MAIS.' (Dfu--g3tZsF) com 79.069 views e 7.094 compartilhamentos. Temas polêmicos e de denúncia geraram alto alcance.",
+      "diagnosis": "O post 'Engraçadinhos?' (Df-_XyhsPuG) teve 509.056 views, 12.043 compartilhamentos e 716 comentários, mostrando forte engajamento em política.",
       "actions": [
-        "Continue priorizando reels sobre política e temas polêmicos.",
-        "Mantenha a frequência de publicações em horários de pico (16h, 22h).",
-        "Reforce CTAs para compartilhamento."
+        "Produza mais reels sobre política com tom provocativo.",
+        "Estimule comentários e compartilhamentos.",
+        "Use formatos curtos para manter atenção.",
+        "Aposte em temas atuais e polêmicos."
       ],
       "posts": [
-        "Dfu--g3tZsF",
-        "Dfs_VE9MLDE",
-        "DfxGuELN3TX"
+        "Df-_XyhsPuG"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Posts de opinião e formatos imagem tiveram desempenho fraco, como 'O brasileiro já entrou na escala 6 por 1.' (Df8HkZuNtxs) com 3.481 views. Carrossel não foi utilizado.",
+      "diagnosis": "Apesar do aumento em views e comentários, os saves caíram 18,9% e novos seguidores diminuíram 49,4%, indicando perda de interesse em conteúdos recentes.",
       "actions": [
-        "Reduza imagens isoladas e teste carrosséis para opinião.",
-        "Aposte em reels para temas menos quentes.",
-        "Reavalie temas de opinião sem conexão com política."
-      ],
-      "posts": [
-        "Df8HkZuNtxs"
-      ]
-    },
-    {
-      "title": "Maior queda: novos seguidores",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "A captação de seguidores caiu 78,8% (811 novos), reflexo do menor alcance e da ausência de virais recentes.",
-      "actions": [
-        "Reforce CTAs para seguir no início dos reels.",
-        "Aposte em conteúdos que geraram picos de seguidores em períodos anteriores."
+        "Crie conteúdos que incentivem salvar para consulta futura.",
+        "Analise motivos da queda em novos seguidores.",
+        "Teste novos formatos para atrair seguidores.",
+        "Faça enquetes para entender preferências."
       ],
       "posts": []
     },
     {
-      "title": "Maior queda: alcance médio diário",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "O alcance médio diário caiu 80,6%. O conteúdo atingiu menos pessoas, mesmo com bons números em alguns reels.",
+      "title": "Maior mudança positiva: comentários",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Comentários subiram 23%, com destaque para o post 'Engraçadinhos?' com 716 comentários, mostrando maior interação qualitativa.",
       "actions": [
-        "Aumente a diversidade de temas e formatos.",
-        "Invista em parcerias para ampliar o alcance.",
-        "Teste horários alternativos."
+        "Estimule debates nos posts.",
+        "Responda comentários para aumentar engajamento.",
+        "Use perguntas nos textos para gerar respostas.",
+        "Promova lives para interação direta."
       ],
       "posts": [
-        "Dfu--g3tZsF",
-        "Df8HkZuNtxs"
+        "Df-_XyhsPuG"
       ]
+    },
+    {
+      "title": "Maior mudança negativa: saves",
+      "status": "bad",
+      "status_label": "Ajustar",
+      "diagnosis": "Saves caíram 18,9%, o que pode indicar menor interesse em guardar conteúdos para depois.",
+      "actions": [
+        "Crie conteúdos úteis e informativos para salvar.",
+        "Use chamadas para ação para salvar posts.",
+        "Teste carrosséis com dicas e análises.",
+        "Avalie temas que geram mais saves."
+      ],
+      "posts": []
     }
   ]
 }

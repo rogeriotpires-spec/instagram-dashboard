@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-20T14:11:39-03:00",
+  "generated": "2026-11-22T13:36:03-03:00",
   "dias": 60,
   "period": {
-    "start": "2026-09-21",
-    "end": "2026-11-19"
+    "start": "2026-09-23",
+    "end": "2026-11-21"
   },
-  "compare": "2026-07-23 a 2026-09-20",
-  "headline": "Em 60 dias, você alcançou 32.638.598 views, 691.259 compartilhamentos e 44.310 novos seguidores, com alta de 945% em seguidores e 704,8% em compartilhamentos.",
+  "compare": "2026-07-25 a 2026-09-22",
+  "headline": "Nos últimos 60 dias, o Instagram teve 32.434.186 views, aumento de 59,5% em relação ao bimestre anterior.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "32,64 mi",
-      "delta": "+62,6%",
+      "value": "32,43 mi",
+      "delta": "+59,5%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "44.310",
-      "delta": "+945%",
+      "value": "43.469",
+      "delta": "+726,4%",
       "dir": "up"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "2.492",
-      "delta": "+1315,9%",
+      "value": "2.555",
+      "delta": "+1088,4%",
       "dir": "down"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "691 mil",
-      "delta": "+704,8%",
+      "value": "692 mil",
+      "delta": "+594,2%",
       "dir": "up"
     },
     {
       "label": "Comentários recebidos",
-      "value": "47.176",
-      "delta": "+440,3%",
+      "value": "47.142",
+      "delta": "+388,5%",
       "dir": "up"
     },
     {
       "label": "Salvamentos recebidos",
-      "value": "84.430",
-      "delta": "+684,2%",
+      "value": "84.104",
+      "delta": "+593,5%",
       "dir": "up"
     }
   ],
@@ -50,61 +50,57 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Imagens de opinião e reels de política foram responsáveis pelos maiores virais, como 'Fica a reflexão.' (Dd8pQedtGZL) com 1.237.924 views e 'Fiz a conta do primeiro para o segundo turno...' (De8Q_S9MAJt) com 983.138 views.",
+      "diagnosis": "Posts de opinião como 'Fica a reflexão.' (Dd8pQedtGZL) tiveram 1.237.927 views e 1.188 seguidores ganhos, mostrando forte atração por temas opinativos.",
       "actions": [
-        "Mantenha o foco em temas de alta repercussão política.",
-        "Invista em imagens com frases fortes e reels explicativos.",
-        "Reforce o uso de CTAs para compartilhamento."
+        "Produza mais posts de opinião com temas atuais.",
+        "Estimule seguidores a comentar e compartilhar.",
+        "Use formatos variados para manter interesse.",
+        "Aposte em análises profundas e reflexivas."
       ],
       "posts": [
-        "Dd8pQedtGZL",
-        "De8Q_S9MAJt",
-        "Dd08gl4tibs"
+        "Dd8pQedtGZL"
       ]
     },
     {
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "Reels e imagens fora do contexto político tiveram baixa performance, como 'Se liga!!!' (De6lr9Ft3I5) com 864 views e 'Autoexplicativo (debate)' (Dd_agBPN6Mi) com 1.345 views.",
+      "diagnosis": "Posts com baixa visualização, como 'Se liga!!!' (De6lr9Ft3I5) com 864 views, indicam que alguns conteúdos não engajam.",
       "actions": [
-        "Evite temas pouco conectados ao público.",
-        "Aposte em formatos que já mostraram resultado.",
-        "Teste horários alternativos para conteúdos experimentais."
+        "Revise temas e formatos que não performam.",
+        "Teste conteúdos mais curtos e diretos.",
+        "Analise feedback dos seguidores.",
+        "Aposte em conteúdos com maior potencial viral."
       ],
       "posts": [
-        "De6lr9Ft3I5",
-        "Dd_agBPN6Mi"
+        "De6lr9Ft3I5"
       ]
     },
     {
-      "title": "Tendência: crescimento de seguidores",
+      "title": "Maior mudança positiva: shares",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O crescimento de seguidores foi expressivo (945%), com picos em posts de opinião e política. Imagens e reels com frases de impacto lideraram a captação.",
+      "diagnosis": "Compartilhamentos subiram 594,2%, aumentando a distribuição orgânica dos posts.",
       "actions": [
-        "Continue com temas polêmicos e frases diretas.",
-        "Inclua CTAs para seguir em todos os posts."
+        "Incentive compartilhamentos com chamadas claras.",
+        "Crie conteúdos que provoquem reações.",
+        "Use hashtags relevantes para ampliar alcance.",
+        "Monitore posts mais compartilhados para replicar."
       ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "DeVAkiqtPwL"
-      ]
+      "posts": []
     },
     {
-      "title": "Tendência: concentração de alcance",
+      "title": "Maior mudança negativa: contas com interação média diária",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "O alcance médio diário subiu 131,4%, mas ainda depende de poucos virais. Posts fora do padrão têm baixo alcance.",
+      "diagnosis": "Contas com interação média diária subiram 75%, mas ainda há espaço para melhorar o engajamento qualitativo.",
       "actions": [
-        "Diversifique temas para ampliar o alcance médio.",
-        "Aumente a frequência de publicações em horários de pico.",
-        "Explore colaborações para novos públicos."
+        "Estimule comentários e saves.",
+        "Responda interações para aumentar engajamento.",
+        "Use enquetes e perguntas nos stories.",
+        "Promova lives para interação direta."
       ],
-      "posts": [
-        "Dd8pQedtGZL",
-        "De8Q_S9MAJt"
-      ]
+      "posts": []
     }
   ]
 }

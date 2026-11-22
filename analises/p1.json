@@ -1,47 +1,47 @@
 {
-  "generated": "2026-11-20T14:11:39-03:00",
+  "generated": "2026-11-22T13:36:03-03:00",
   "dias": 1,
   "period": {
-    "start": "2026-11-19",
-    "end": "2026-11-19"
+    "start": "2026-11-21",
+    "end": "2026-11-21"
   },
   "compare": "média dos 7 dias anteriores",
-  "headline": "No dia 19/11, você teve 12.565 views, 1.720 compartilhamentos e 111 novos seguidores, com queda de 42,4% no alcance médio diário em relação à semana anterior.",
+  "headline": "No dia 21/11/2026, o Instagram teve 470.495 views, aumento de 530,7% em relação à média dos 7 dias anteriores.",
   "kpis": [
     {
       "label": "Views recebidas pela conta",
-      "value": "126 mil",
-      "delta": "+115,2%",
+      "value": "470 mil",
+      "delta": "+530,7%",
       "dir": "up"
     },
     {
       "label": "Novos seguidores",
-      "value": "111",
-      "delta": "−2,5%",
-      "dir": "down"
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
     },
     {
       "label": "Deixaram de seguir",
-      "value": "61",
-      "delta": "+37,7%",
-      "dir": "down"
+      "value": "sem dado",
+      "delta": "sem comparação",
+      "dir": "na"
     },
     {
       "label": "Compartilhamentos recebidos",
-      "value": "1.720",
-      "delta": "−13,9%",
-      "dir": "down"
-    },
-    {
-      "label": "Comentários recebidos",
-      "value": "381",
-      "delta": "+187,7%",
+      "value": "11.496",
+      "delta": "+350,2%",
       "dir": "up"
     },
     {
-      "label": "Contas com interação por dia",
-      "value": "11.123",
-      "delta": "+132,1%",
+      "label": "Comentários recebidos",
+      "value": "436",
+      "delta": "+93,3%",
+      "dir": "up"
+    },
+    {
+      "label": "Alcance médio por dia",
+      "value": "295 mil",
+      "delta": "+1134,3%",
       "dir": "up"
     }
   ],
@@ -50,57 +50,53 @@
       "title": "O que funcionou",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "O reel 'Amanhã o Van Hattem pode virar réu por um discurso.' (Df8Ns46tN6E) teve 7.409 views e 233 compartilhamentos, sendo o destaque do dia. O tema política manteve boa performance mesmo em um dia de menor alcance.",
+      "diagnosis": "Mesmo sem publicações no dia, o alcance médio diário subiu 1134,3% e as contas com interação aumentaram 333,6%. Isso indica forte engajamento com conteúdos anteriores.",
       "actions": [
-        "Continue investindo em reels com temas políticos atuais.",
-        "Aposte em horários noturnos, como 20h, que geraram mais views.",
-        "Mantenha o foco em assuntos de repercussão nacional."
+        "Continue promovendo conteúdos que geram alto engajamento.",
+        "Monitore o desempenho dos posts anteriores para entender o pico.",
+        "Aproveite para interagir com seguidores ativos.",
+        "Planeje publicações para manter o interesse elevado."
       ],
-      "posts": [
-        "Df8Ns46tN6E"
-      ]
+      "posts": []
     },
     {
       "title": "O que não funcionou",
       "status": "warn",
       "status_label": "Ajustar",
-      "diagnosis": "O post de imagem 'O brasileiro já entrou na escala 6 por 1.' (Df8HkZuNtxs) ficou abaixo da média, com 3.481 views e apenas 40 compartilhamentos. O engajamento em formato imagem foi menor.",
+      "diagnosis": "Não houve publicações no dia, o que pode limitar o crescimento orgânico e o engajamento futuro.",
       "actions": [
-        "Evite publicar imagens isoladas em dias de menor movimento.",
-        "Priorize reels para temas de opinião.",
-        "Teste outros horários para imagens."
+        "Retome as publicações diárias para manter o público engajado.",
+        "Diversifique formatos para testar respostas.",
+        "Planeje conteúdos que incentivem compartilhamentos e comentários.",
+        "Avalie o calendário editorial para evitar dias sem posts."
       ],
-      "posts": [
-        "Df8HkZuNtxs"
-      ]
+      "posts": []
     },
     {
-      "title": "Maior alta: comentários",
+      "title": "Maior aumento: alcance médio diário",
       "status": "good",
       "status_label": "Repetir",
-      "diagnosis": "Os comentários cresceram 187,7% em relação à média da semana anterior, impulsionados pelo reel político. O engajamento direto aumentou.",
+      "diagnosis": "O alcance médio diário subiu 1134,3%, um salto significativo que mostra que o conteúdo anterior continua atraindo visualizações.",
       "actions": [
-        "Estimule perguntas nos reels para manter o ritmo.",
-        "Responda comentários para aumentar a interação."
+        "Continue investindo em conteúdos com alto alcance.",
+        "Use dados de alcance para ajustar horários de postagem.",
+        "Explore temas que geram maior visibilidade.",
+        "Analise o perfil dos seguidores alcançados."
       ],
-      "posts": [
-        "Df8Ns46tN6E"
-      ]
+      "posts": []
     },
     {
-      "title": "Maior queda: alcance médio diário",
-      "status": "bad",
-      "status_label": "Atenção",
-      "diagnosis": "O alcance médio diário caiu 42,4%, mesmo com views totais altos. Isso indica que o conteúdo atingiu menos contas únicas.",
+      "title": "Maior aumento: shares",
+      "status": "good",
+      "status_label": "Repetir",
+      "diagnosis": "Compartilhamentos cresceram 350,2%, indicando que os seguidores estão distribuindo o conteúdo para suas redes.",
       "actions": [
-        "Diversifique formatos e temas para ampliar o alcance.",
-        "Reforce chamadas para compartilhamento.",
-        "Experimente horários alternativos."
+        "Incentive compartilhamentos com chamadas claras.",
+        "Crie conteúdos que provoquem reações e debates.",
+        "Use hashtags relevantes para ampliar alcance.",
+        "Monitore quais posts são mais compartilhados."
       ],
-      "posts": [
-        "Df8Ns46tN6E",
-        "Df8HkZuNtxs"
-      ]
+      "posts": []
     }
   ]
 }
