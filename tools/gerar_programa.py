@@ -141,7 +141,8 @@ def _normalizar_item(it, cfg, permitidas):
 
 def re_id(s):
     import unicodedata, re
-    t = unicodedata.normalize("NFD", s or "")
+    # A IA às vezes devolve id numérico; normalize() só aceita str.
+    t = unicodedata.normalize("NFD", str(s or ""))
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
     t = re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
     return (t or "item")[:60]
@@ -254,6 +255,8 @@ def _self_test():
     assert d13.isoformat() == "2026-11-19", d13
     assert d14.isoformat() == "2026-11-20", d14
     assert re_id("PF afasta delegados!") == "pf-afasta-delegados"
+    assert re_id(123) == "123"
+    assert re_id(None) == "item"
     permitidas = {"https://ex.com/a"}
     it = {
         "id": "ajuste-fiscal",
