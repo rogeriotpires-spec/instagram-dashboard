@@ -2,8 +2,8 @@
   "date": "2026-11-23",
   "generated": "2026-11-23T09:15:36-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Michelle Bolsonaro atualiza estado de saúde de Jair Bolsonaro; Rosinha Garotinho anuncia fim do casamento; São Paulo em alerta por chuvas",
-  "abertura": "Começamos com a atualização da saúde do ex-presidente Jair Bolsonaro, que segue internado na UTI com notícias positivas sobre seu quadro. Michelle Bolsonaro compartilhou o resultado muito positivo da endoscopia, reforçando a esperança na recuperação. No Rio de Janeiro, Rosinha Garotinho anuncia o fim do casamento com Anthony Garotinho após quase cinco décadas. Enquanto isso, São Paulo permanece em estado de alerta devido às fortes chuvas que ameaçam causar alagamentos e transtornos à população.",
+  "titulo": "José Guimarães mira presidência do BNB; Michelle Bolsonaro atualiza saúde de Jair Bolsonaro; Rosinha Garotinho anuncia fim do casamento",
+  "abertura": "Começamos com a movimentação política de José Guimarães, que busca a presidência do Banco do Nordeste e aguarda a definição do presidente Lula para seu futuro político. Seguimos com a atualização da saúde do ex-presidente Jair Bolsonaro, que apresenta sinais positivos na UTI. Também trazemos o anúncio do fim do casamento de Rosinha Garotinho com Anthony Garotinho após quase cinco décadas juntos.",
   "agenda": [],
   "itens": [
     {
@@ -38,6 +38,38 @@
       ],
       "avulsa": true,
       "pedido": "https://www.metropoles.com/brasil/michelle-atualiza-estado-de-saude-de-jair-bolsonaro-na-uti-boas-noticias"
+    },
+    {
+      "id": "8",
+      "bloco": "Política nacional",
+      "titulo": "José Guimarães mira presidência do BNB e aguarda definição de Lula sobre futuro político",
+      "subtitulo": "Mudanças no comando do Banco do Nordeste podem abrir espaço para nova articulação política",
+      "resumo": "José Guimarães, conhecido como capitão cueca, está de olho na presidência do Banco do Nordeste (BNB). Ele aguarda a decisão do presidente Lula para definir seu futuro político. A movimentação ocorre em meio a possíveis mudanças no comando do banco. A articulação política busca fortalecer a influência do grupo no Nordeste. O cenário ainda depende da definição do presidente sobre os cargos estratégicos.",
+      "contexto": [
+        "José Guimarães é figura influente no PT e na política nordestina.",
+        "O Banco do Nordeste é uma instituição estratégica para o desenvolvimento regional.",
+        "Mudanças no comando do BNB costumam refletir articulações políticas nacionais.",
+        "Lula tem papel decisivo na indicação para presidência do banco."
+      ],
+      "angulo": [
+        "José Guimarães busca consolidar poder com presidência do BNB.",
+        "A decisão de Lula será crucial para o futuro político de Guimarães.",
+        "O controle do BNB é importante para a estratégia política no Nordeste."
+      ],
+      "perguntas": [
+        "Qual será o impacto da presidência de Guimarães no Banco do Nordeste?",
+        "Como a definição de Lula influenciará a articulação política no Nordeste?",
+        "Quais são os desafios para Guimarães assumir o comando do BNB?"
+      ],
+      "fontes": [
+        {
+          "name": "CN7",
+          "url": "https://cn7.com.br/jose-guimaraes-mira-presidencia-do-bnb-e-aguarda-definicao-de-lula-sobre-seu-futuro-politico/"
+        }
+      ],
+      "atencao": "Complementa o item 7 (Escolas já podem se inscrever para a Olitef 2027).",
+      "avulsa": true,
+      "pedido": "https://cn7.com.br/jose-guimaraes-mira-presidencia-do-bnb-e-aguarda-definicao-de-lula-sobre-seu-futuro-politico/"
     },
     {
       "id": "fim-casamento-garotinho",
@@ -250,5 +282,5 @@
       "titulo": "Niterói registra menor índice de roubos de rua desde 2003"
     }
   ],
-  "atualizado": "2026-11-23T10:14:52-03:00"
+  "atualizado": "2026-11-23T10:15:53-03:00"
 }
