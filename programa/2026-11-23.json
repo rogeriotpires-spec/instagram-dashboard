@@ -2,10 +2,43 @@
   "date": "2026-11-23",
   "generated": "2026-11-23T09:15:36-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Rosinha Garotinho anuncia fim do casamento; São Paulo em alerta por chuvas; Fachin envia relatório à PGR e abre caminho para Gilmar Mendes",
-  "abertura": "Rosinha Garotinho anuncia o fim do casamento com Anthony Garotinho após quase 50 anos, decisão que repercute no cenário político do Rio. Enquanto isso, São Paulo enfrenta estado de alerta devido às fortes chuvas que podem causar alagamentos e transtornos. No STF, Fachin encaminha relatório da Polícia Federal à PGR, abrindo caminho para Gilmar Mendes assumir relatoria no caso Master, com críticas à falta de autocontenção na Corte.",
+  "titulo": "Michelle Bolsonaro atualiza estado de saúde de Jair Bolsonaro; Rosinha Garotinho anuncia fim do casamento; São Paulo em alerta por chuvas",
+  "abertura": "Começamos com a atualização da saúde do ex-presidente Jair Bolsonaro, que segue internado na UTI com notícias positivas sobre seu quadro. Michelle Bolsonaro compartilhou o resultado muito positivo da endoscopia, reforçando a esperança na recuperação. No Rio de Janeiro, Rosinha Garotinho anuncia o fim do casamento com Anthony Garotinho após quase cinco décadas. Enquanto isso, São Paulo permanece em estado de alerta devido às fortes chuvas que ameaçam causar alagamentos e transtornos à população.",
   "agenda": [],
   "itens": [
+    {
+      "id": "7",
+      "bloco": "Política nacional",
+      "titulo": "Michelle Bolsonaro atualiza estado de saúde de Jair Bolsonaro na UTI",
+      "subtitulo": "Ex-primeira-dama informa resultado positivo de exame e agradece orações",
+      "resumo": "Michelle Bolsonaro, senadora eleita pelo Distrito Federal, atualizou o estado de saúde do ex-presidente Jair Bolsonaro, internado na UTI do Hospital DF Star. O resultado da endoscopia realizada foi considerado muito positivo, trazendo esperança para a recuperação. Bolsonaro está internado desde sexta-feira após apresentar dores abdominais e diagnóstico de abdômen agudo obstrutivo. Michelle destacou a importância da fé e gratidão nesse momento delicado. A internação segue sob acompanhamento médico para avaliar a necessidade de cirurgia.",
+      "contexto": [
+        "Jair Bolsonaro internado na UTI desde 20 de novembro no Hospital DF Star, Brasília",
+        "Diagnóstico inicial de abdômen agudo obstrutivo após dores abdominais",
+        "Ex-primeira-dama e senadora Michelle Bolsonaro acompanha o caso e atualiza informações",
+        "Exames realizados para avaliar necessidade de cirurgia",
+        "Apoio e orações de simpatizantes e aliados"
+      ],
+      "angulo": [
+        "Atualização positiva reforça confiança na recuperação do ex-presidente",
+        "Michelle Bolsonaro destaca fé e gratidão como pilares neste momento",
+        "Internação ocorre em hospital particular com acompanhamento intensivo",
+        "Importância da transparência nas informações sobre saúde de lideranças políticas"
+      ],
+      "perguntas": [
+        "Qual o impacto da internação de Bolsonaro no cenário político atual?",
+        "Como a comunicação da família influencia a percepção pública sobre o estado de saúde?",
+        "Quais os próximos passos no tratamento do ex-presidente?"
+      ],
+      "fontes": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/michelle-atualiza-estado-de-saude-de-jair-bolsonaro-na-uti-boas-noticias"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "https://www.metropoles.com/brasil/michelle-atualiza-estado-de-saude-de-jair-bolsonaro-na-uti-boas-noticias"
+    },
     {
       "id": "fim-casamento-garotinho",
       "bloco": "Política nacional",
@@ -216,5 +249,6 @@
     {
       "titulo": "Niterói registra menor índice de roubos de rua desde 2003"
     }
-  ]
+  ],
+  "atualizado": "2026-11-23T10:14:52-03:00"
 }
