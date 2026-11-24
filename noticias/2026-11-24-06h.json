@@ -1,0 +1,891 @@
+{
+  "generated": "2026-11-24T05:03:10-03:00",
+  "gerador": "ia",
+  "modelo": "gpt-4.1-mini",
+  "headline": "Mercados asiáticos e Wall Street reagem positivamente ao retorno de Jensen Huang à Nvidia; Câmara aprova projeto de ajuste fiscal do governo Lula com impacto estimado em até R$ 56 bilhões para 2027; Brasil anuncia estudo clínico de vacina terapêutica contra o câncer para 2027",
+  "top": [
+    "luta-folego-bragantino-rebaixamento-brasileirao-ganha-vitori",
+    "lula-2027-fiscal-ajuste-bilhoes-camara-impacto-estimado",
+    "pagamento-dividendos-bilhoes-petrobras-aprova-acionistas",
+    "agora-huang-scott-opoe-bessent-jensen-nao-nvidia",
+    "clinico-anuncia-2027-cancer-terapeutica-vacina-estudo"
+  ],
+  "items": [
+    {
+      "id": "agora-huang-scott-opoe-bessent-jensen-nao-nvidia",
+      "segment": "ciencia",
+      "title": "Mercados asiáticos e Wall Street reagem positivamente ao retorno de Jensen Huang à Nvidia",
+      "summary": "As ações da Nvidia valorizaram-se após a recondução de Jensen Huang ao cargo de CEO. Pernambuco enfrenta alerta para onda de calor de até 41 °C em 94 municípios.",
+      "scores": {
+        "cobertura": 9.3,
+        "destaque": 8,
+        "persistencia": 10,
+        "peso_voce": 6
+      },
+      "score": 8.4,
+      "outlets": [
+        {
+          "name": "Pleno.News",
+          "url": "https://pleno.news/mundo/musk-sobre-retorno-de-huang-para-nvidia-erro-foi-corrigido.html",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://c-level.folha.uol.com.br/negocios/2026/11/trump-ganhou-ate-us-15-milhoes-com-acoes-da-nvidia-apos-retorno-de-huang.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/23/bolsas-de-toquio-seul-e-taipe-disparam-apos-retorno-de-huang-a-nvidia.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/acoes-asiaticas-disparam-com-retorno-de-huang-a-nvidia/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/colunas/saude-e-bem-estar/2026/11/23/semana-escaldante-94-municipios-de-pernambuco-entram-em-alerta-para-onda-de-calor-de-ate-41-c-veja-a-lista.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/mundo/nvidia-dispara-na-bolsa-apos-restituicao-de-jensen-huang-como-ceo/",
+          "camp": "esquerda",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Diário do Poder",
+          "url": "https://diariodopoder.com.br/dinheiro/ttc-dinheiro/em-retorno-triunfal-a-nvidia-jensen-promete-ser-um-ceo-melhor",
+          "camp": "direita",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/economia/nvidia-recupera-us-953-bi-com-volta-de-jensen-huang",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Musk sobre retorno de Huang para Nvidia: “Erro foi corrigido”"
+    },
+    {
+      "id": "lula-2027-fiscal-ajuste-bilhoes-camara-impacto-estimado",
+      "segment": "politica",
+      "title": "Câmara aprova projeto de ajuste fiscal do governo Lula com impacto estimado em até R$ 56 bilhões para 2027",
+      "summary": "A Câmara dos Deputados aprovou o texto-base do projeto de ajuste fiscal do governo Lula com 353 votos favoráveis, 128 contrários e cinco abstenções. O texto segue para sanção presidencial e tem impacto estimado em até R$ 56 bilhões nas contas públicas em 2027.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 8.3,
+      "outlets": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/camara-rejeita-adiamento-da-votacao-do-ajuste-fiscal-e-segue-para-decisao/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/camara-aprova-texto-base-do-ajuste-fiscal-do-governo-lula/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Valor Econômico",
+          "url": "https://valor.globo.com/politica/noticia/2026/11/23/por-353-a-128-cmara-aprova-texto-base-do-projeto-de-lei-complementar-do-ajuste-fiscal.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://pleno.news/brasil/politica-nacional/camara-aprova-texto-base-do-projeto-de-ajuste-fiscal.html",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/politica/camara-aprova-pacote-de-ajuste-fiscal-de-lula/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/saiba-como-cada-deputado-votou-no-texto-base-do-ajuste-fiscal-de-lula/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/economia/como-votou-cada-deputado-no-ajuste-fiscal-de-lula/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Exame",
+          "url": "https://exame.com/economia/durigan-defende-ajuste-fiscal-gradual-e-diz-que-nao-existe-formula-magica-para-contas-publicas/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/11/7543059-camara-analisa-projeto-de-ajuste-fiscal-do-governo-acompanhe.html",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Meia Hora",
+          "url": "https://www.meiahora.com.br/geral/2026/11/7325237-camara-aprova-urgencia-para-votacao-do-projeto-de-ajuste-fiscal.html",
+          "camp": "rio",
+          "position": "editoria",
+          "via": "coleta"
+        },
+        {
+          "name": "Estado de Minas",
+          "url": "https://www.em.com.br/politica/2026/11/7543143-camara-aprova-texto-base-de-ajuste-fiscal-que-pode-render-rs-50-bi-em-2027.html",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "clinico-anuncia-2027-cancer-terapeutica-vacina-estudo",
+      "segment": "ciencia",
+      "title": "Brasil anuncia estudo clínico de vacina terapêutica contra o câncer para 2027",
+      "summary": "O Brasil deve iniciar testes clínicos de uma vacina terapêutica contra o câncer em 2027, em parceria com a Universidade de Oxford. A pesquisa conta com a participação da Fiocruz e de instituições brasileiras.",
+      "scores": {
+        "cobertura": 10,
+        "destaque": 8,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 8.3,
+      "outlets": [
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/saude/brasil-prepara-estudo-clinico-de-vacina-terapeutica-contra-o-cancer-em-2027/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "BandNews",
+          "url": "https://www.band.com.br/saude/governo-anuncia-testes-clinicos-de-vacina-contra-o-cancer-para-2027-2",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/combinacao-de-medicamentos-aumenta-sobrevida-em-cancer-de-pulmao-agressivo-mostra-estudo.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "A Tarde",
+          "url": "https://atarde.com.br/brasil/brasil-tera-testes-de-vacina-experimental-contra-o-cancer-em-2027-1410474",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-saude/governo-anuncia-estudo-clinico-de-vacina-contra-o-cancer-para-2027/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/saude/fiocruz-ms-e-oxford-se-unem-para-criar-vacina-brasileira-contra-o-cancer",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "G1",
+          "url": "https://g1.globo.com/saude/noticia/2026/11/23/brasil-preve-iniciar-testes-de-vacina-terapeutica-contra-o-cancer-em-2027-anuncia-ministerio-da-saude.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "O Antagonista",
+          "url": "https://oantagonista.com.br/brasil/brasil-deve-testar-vacina-contra-o-cancer-em-parceria-com-oxford-diz-padilha/",
+          "camp": "centro-direita",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/jr-24h/boletim-jr-24h/video/parceria-entre-brasileiros-e-universidade-inglesa-avanca-em-vacina-contra-o-cancer-24112026/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "luta-folego-bragantino-rebaixamento-brasileirao-ganha-vitori",
+      "segment": "esportes",
+      "title": "Grêmio vence Santos e deixa zona de rebaixamento do Brasileirão",
+      "summary": "Grêmio venceu o Santos por 2 a 0 no Morumbi e saiu da zona de rebaixamento do Campeonato Brasileiro. Com a derrota, o Corinthians voltou para a zona de rebaixamento sem jogar. O Grêmio chegou aos 41 pontos e está na 15ª colocação.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 10,
+        "peso_voce": 10
+      },
+      "score": 7.7,
+      "outlets": [
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/esporte/2026/11/gremio-supera-o-santos-sai-do-z4-e-puxa-o-corinthians-para-a-zona-de-rebaixamento.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/esportes/futebol/era-vitoria-certa-diz-neymar-apos-derrota-do-santos-para-o-gremio-pelo-brasileirao/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/esportes/brasileirao/gremio-derrota-o-santos-e-deixa-zona-de-rebaixamento-do-brasileirao/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/esporte/botafogo/noticia/2026/11/em-jogo-com-duas-expulsoes-botafogo-empata-com-sao-paulo-e-segue-proximo-da-zona-de-rebaixamento-do-brasileiro.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Grêmio supera o Santos, sai do Z4 e puxa o Corinthians para a zona de rebaixamento"
+    },
+    {
+      "id": "pagamento-dividendos-bilhoes-petrobras-aprova-acionistas",
+      "segment": "economia",
+      "title": "Petrobras aprova pagamento de R$ 15,6 bilhões em dividendos aos acionistas",
+      "summary": "O Conselho de Administração da Petrobras aprovou o pagamento de remuneração extraordinária aos acionistas no valor de R$ 15,6 bilhões. O montante será pago em parcela única e integralmente sob a forma de dividendos intercalares. O plano de investimentos da Petrobras para 2027 a 2031 prevê expansão da produção e do refino.",
+      "scores": {
+        "cobertura": 7.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.8,
+      "outlets": [
+        {
+          "name": "Meia Hora",
+          "url": "https://www.meiahora.com.br/geral/2026/11/7325245-petrobras-aprova-pagamento-de-rs-156-bilhoes-a-acionistas.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-aprova-pagamento-de-r-156-bilhoes-acionistas",
+          "camp": "estatal",
+          "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/economia/petrobras-vai-pagar-r-15-6-bi-em-dividendos-aos-acionistas",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/economia/petrobras-aprova-pagamento-de-r-15-6-bilhoes-a-acionistas/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/economia/petrobras-eleva-plano-de-investimentos-em-12-e-aprova-dividendos-de-r-156-bilhoes-24112026/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "veu-apresentar-chibatadas-recebe-cantora-iraniana",
+      "segment": "internacional",
+      "title": "Cantora iraniana recebe 74 chibatadas por se apresentar sem véu",
+      "summary": "A cantora Parastoo Ahmadi recebeu 74 chibatadas no Irã por se apresentar sem hijab em um show transmitido ao vivo no YouTube. A justiça iraniana considerou a apresentação \"obscena e imoral\". A artista também foi proibida de exercer atividades artísticas por dois anos. Quatro integrantes da equipe do show também foram punidos com 74 chibatadas.",
+      "scores": {
+        "cobertura": 8.7,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 6.5,
+      "outlets": [
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/mundo/cantora-iraniana-recebe-74-chibatadas-por-cantar-sem-hijab",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "DW Brasil",
+          "url": "https://www.dw.com/pt-br/irã-aplica-74-chibatadas-em-cantora-que-se-apresentou-sem-hijab/a-80027067?maca=bra-rss-br-all-1030-xml-mrss",
+          "camp": "internacional",
+          "position": "editoria"
+        },
+        {
+          "name": "UOL",
+          "url": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/24/cantora-leva-74-chibatadas-por-se-apresentar-sem-hijab-no-ira.ghtm",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "O Povo",
+          "url": "https://www.opovo.com.br/noticias/mundo/2026/11/24/ira-aplica-74-chibatadas-em-cantora-que-se-apresentou-sem-hijab.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/mundo/2026/11/ira-aplica-chibatadas-em-cantora-por-se-apresentar-sem-veu.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://pleno.news/mundo/politica-internacional/ira-cantora-recebe-74-chibatadas-por-show-virtual-sem-veu.html",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "A Tarde",
+          "url": "https://atarde.com.br/mundo/cantora-recebe-74-chibatadas-apos-se-apresentar-em-live-1410478",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "estudos-destacam-artificial-desafios-debates-inteligencia-av",
+      "segment": "ciencia",
+      "title": "Estudos e debates destacam avanços e desafios da inteligência artificial no Brasil",
+      "summary": "Estudo de Stanford aponta que IA generativa alcançará 53% da população mundial em três anos. Orçamento para IA nas grandes empresas deve crescer até 2028. Senac oferece cursos de IA e informática.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.5,
+      "outlets": [
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/ceo-da-anthropic-teria-sugerido-usar-games-para-acalmar-desempregados-pela-ia/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "G1",
+          "url": "https://g1.globo.com/google/amp/rj/sul-do-rio-costa-verde/videos-rj2-tv-rio-sul/video/resende-recebe-encontro-sobre-inteligencia-artificial-nesta-terca-feira-15275087.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Diário de Pernambuco",
+          "url": "https://www.diariodepernambuco.com.br/amp/pernambuco/2026/11/11729780-inteligencia-artificial-democracia-e-futuro-de-pernambuco-sao-tema-de-debate-no-recife.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/ilustrada/2026/11/blade-runner-agora-na-tv-mostra-humanos-subjugados-pela-inteligencia-artificial.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "2027-abre-faetec-gratuitos-vagas-cursos-rio-mil",
+      "segment": "educacao",
+      "title": "Faetec abre mais de 12 mil vagas para cursos gratuitos no Rio em 2027",
+      "summary": "318 vagas em cursos técnicos, superiores e básicos para o ano de 2027. A Escola Municipal Guerreira Zeferina, em Salvador, teve aulas suspensas devido à violência na região. Esta é a quarta escola municipal em Salvador afetada pela insegurança em menos de uma semana.",
+      "scores": {
+        "cobertura": 6.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.3,
+      "outlets": [
+        {
+          "name": "Diário do Rio",
+          "url": "https://diariodorio.com/educacao/2026/11/23/faetec-abre-inscricoes-para-mais-de-12-mil-vagas-em-cursos-gratuitos-no-rio-de-janeiro-para-2027.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7325160-faetec-abre-12-318-vagas-para-cursos-tecnicos-superiores-e-basicos.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "A Tarde",
+          "url": "https://atarde.com.br/policia/mais-uma-escola-em-salvador-e-fechada-e-alunos-ficam-sem-aulas-1410467",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/emprego/concursos/noticia/2026/11/faetec-esta-com-inscricoes-abertas-para-processo-seletivo-de-2027-sao-12318-vagas.ghtml",
+          "camp": "rio",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "alves-autorizacao-senadora-master-visitar-caso-damares-inves",
+      "segment": "politica",
+      "title": "Senadora Damares Alves pede autorização ao STF para visitar Daniel Vorcaro na prisão e acompanhar investigação do caso Master",
+      "summary": "A senadora Damares Alves solicitou ao ministro Fachin do STF autorização para visitar Daniel Vorcaro na Papuda. Ela pretende esclarecer como ocorreu o escândalo do Banco Master e identificar possíveis falhas na fiscalização do sistema financeiro.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 6.2,
+      "outlets": [
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/politica/2026/11/23/damares-alves-pede-a-fachin-autorizacao-para-visitar-vorcaro-na-papuda.html",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/damares-pede-a-fachin-autorizacao-para-visitar-vorcaro-na-papudinha/",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Estadão",
+          "url": "https://www.estadao.com.br/politica/damares-pede-a-fachin-autorizacao-para-visitar-vorcaro-na-papuda-nprp/",
+          "camp": "centro",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "oeste-civil-sao-norte-paulo-zonas-alerta-severo",
+      "segment": "rio",
+      "title": "Defesa Civil de Petrópolis emite alerta para possibilidade de chuva forte",
+      "summary": "A Defesa Civil de Petrópolis emitiu alerta para possibilidade de chuva forte com raios e rajadas de vento no município.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 10,
+        "peso_voce": 6
+      },
+      "score": 6.2,
+      "outlets": [
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/rio/noticia/2026/11/petropolis-emite-alerta-para-possibilidade-de-chuva-forte-com-raios-e-rajadas-de-vento.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/google/amp/rio/noticia/2026/11/23/defesa-civil-de-petropolis-emite-alerta-sobre-possibilidade-de-chuva-forte-com-raios-e-rajadas-de-vento.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Jornal do Commercio",
+          "url": "https://jc.uol.com.br/brasil/2026/11/23/defesa-civil-emite-alerta-severo-para-chuva-com-raios-e-risco-de-granizo-em-sao-paulo.html",
+          "camp": "regional",
+          "position": "editoria",
+          "via": "coleta"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      },
+      "desdobramento": "Petrópolis emite alerta para possibilidade de chuva forte com raios e rajadas de vento"
+    },
+    {
+      "id": "niteroi-equilibrar-determina-orcamento-escola-rio-inaugura-c",
+      "segment": "rio",
+      "title": "Prefeitura do Rio determina cortes para equilibrar orçamento e inaugura escola em Niterói",
+      "summary": "A Prefeitura do Rio determinou cortes de gastos com pessoal e contratos para equilibrar o orçamento. Órgãos municipais devem reduzir em 30% despesas com funções gratificadas e cargos comissionados. Prefeitura de Niterói inaugurou escola em tempo integral. Fundação Cacique Cobra Coral rompeu convênio com Prefeitura do Rio para enfrentar Super El Niño.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 6,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.7,
+      "outlets": [
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/rio/noticia/2026/11/24/cortes-na-prefeitura-do-rio-diferenca-entre-receitas-e-despesas-empenhadas-passa-de-r-1-bilhao.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/prefeitura-do-rio-reduz-gastos-com-cargos-comissionados-e-gratificacoes/",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "decisoes-2027-monocraticas-defende-limites-deficiencia-secre",
+      "segment": "politica",
+      "title": "Tarcísio defende limites para decisões monocráticas do STF e mudanças na Secretaria da Pessoa com Deficiência em 2027",
+      "summary": "Tarcísio defende a limitação das decisões monocráticas do STF. Ele também deve manter Rodrigo Andrade no comando da Polícia Penal de São Paulo. Marcos da Costa pode deixar a Secretaria dos Direitos da Pessoa com Deficiência a partir de 2027, segundo aliados de Tarcísio.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 10
+      },
+      "score": 5.5,
+      "outlets": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/vinicius-passarelli/secretaria-da-pessoa-com-deficiencia-de-tarcisio-pode-ter-mudanca-em-2027",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://pleno.news/brasil/politica-nacional/tarcisio-defende-limite-para-decisoes-monocraticas-do-stf.html",
+          "camp": "direita",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "destruicao-temporal-impacto-soja-tupancireta-dolar-causa",
+      "segment": "economia",
+      "title": "Temporal em Tupanciretã causa destruição e impacto na soja e no dólar",
+      "summary": "Temporal em Tupanciretã destruiu em média 95% da soja em 29 mil hectares. Ex-vereador está entre as vítimas da tempestade.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "Diário do Poder",
+          "url": "https://diariodopoder.com.br/brasil-e-regioes/e02-brasil/temporal-destroi-em-media-95-da-soja-em-29-mil-hectares-de-tupancireta-diz-emater",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "Pleno.News",
+          "url": "https://pleno.news/brasil/cidades/ex-vereador-esta-entre-as-vitimas-da-tempestade-em-tupancireta.html",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/brasil/temporal-em-sp-causa-alagamentos-e-quedas-de-arvores",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na direita (Diário do Poder, Pleno.News) e não apareceu nos portais de esquerda e centro-esquerda da coleta."
+      }
+    },
+    {
+      "id": "ucrania-preocupa-internacional-guerra-expande-escalada",
+      "segment": "internacional",
+      "title": "Guerra na Ucrânia se expande e preocupa com escalada internacional",
+      "summary": "Ucrânia afirma ter atingido dois navios russos no Mediterrâneo e destruído um helicóptero. Moscou acusa a Otan de envolvimento, aumentando o risco de escalada com países da aliança.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "Diário do Poder",
+          "url": "https://diariodopoder.com.br/exteriores/e02-internacional/ucrania-afirma-ter-atingido-dois-navios-russos-no-mediterraneo-helicoptero-tambem-foi-destruido",
+          "camp": "direita",
+          "position": "editoria"
+        },
+        {
+          "name": "R7",
+          "url": "https://noticias.r7.com/internacional/guerra-entre-ucrania-e-russia-esta-se-espalhando-pela-europa-e-ha-duas-razoes-pelas-quais-ela-vai-piorar-24112026/",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "DW Brasil",
+          "url": "https://www.dw.com/pt-br/os-sinais-de-que-a-guerra-na-ucrânia-está-se-expandindo-no-mundo/a-80020412?maca=bra-rss-br-all-1030-xml-mrss",
+          "camp": "internacional",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "diretor-2027-treinador-movimentacoes-permanencia-definir-fla",
+      "segment": "esportes",
+      "title": "Movimentações no Flamengo para definir permanência de diretor e treinador em 2027",
+      "summary": "Com o título do Brasileirão conquistado antecipadamente pelo Flamengo, o clube discute a permanência do diretor José Boto e do treinador Leonardo Jardim para a temporada de 2027. O presidente Luiz Eduardo Baptista já manifestou interesse na continuidade da dupla. Torcedores debatem nas redes sociais sobre a idade do elenco do Flamengo.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 5.0,
+      "outlets": [
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/esporte/flamengo/2026/11/7325239-veja-quanto-o-flamengo-vai-ganhar-por-titulo-do-brasileirao.html",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/esporte/flamengo/noticia/2026/11/jorge-jesus-parabeniza-flamengo-por-titulo-do-brasileirao-nacao-rubro-negra-esta-em-festa.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        },
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/esportes/futebol/flamengo/noticia/2026/11/24/bap-conversa-com-boto-e-jardim-sobre-permanencia-no-flamengo-em-2027-e-decisao-cabera-a-dupla.ghtml",
+          "camp": "centro",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "israel-tem-negada-palestino-territorio-deputada-entrada",
+      "segment": "internacional",
+      "title": "Deputada brasileira tem entrada negada em território palestino por Israel",
+      "summary": "A deputada estadual Monica Seixas foi impedida de entrar na Cisjordânia ao desembarcar em Israel. Ela foi detida em um centro de imigração e posteriormente deportada para a Itália. A parlamentar relatou o episódio nas redes sociais após a deportação.",
+      "scores": {
+        "cobertura": 5.0,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.8,
+      "outlets": [
+        {
+          "name": "A Tarde",
+          "url": "https://atarde.com.br/politica/deputada-do-psol-e-deportada-apos-ter-entrada-barrada-por-israel-1410485",
+          "camp": "regional",
+          "position": "editoria"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/mundo/israel-impede-deputada-brasileira-de-entrar-na-cisjordania",
+          "camp": "centro",
+          "position": "editoria"
+        },
+        {
+          "name": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/deputada-de-sp-tem-entrada-na-cisjordania-negada-por-governo-de-israel",
+          "camp": "estatal",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "feminicidio-casos-mulheres-golpes-sao-registrados",
+      "segment": "seguranca",
+      "title": "Casos de feminicídio e golpes contra mulheres são registrados no Brasil",
+      "summary": "Cinco mulheres são mortas a cada hora por parceiros ou parentes no mundo. Polícia prendeu homem suspeito de aplicar golpes financeiros contra mulheres por meio de relacionamentos amorosos em São Paulo.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 4,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 4.3,
+      "outlets": [
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/feminicidio-5-mulheres-sao-mortas-a-cada-hora-por-um-parceiro-ou-parente/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/blogs/radar-brasil/post/2026/11/golpe-do-amor-homem-suspeito-de-aplicar-golpes-contra-mulheres-e-preso-em-sao-paulo.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "motorista-ataques-aplicativo-empresa-banido-pesquisa-inicia-",
+      "segment": "seguranca",
+      "title": "Motorista de aplicativo é banido por ataques xenofóbicos e empresa inicia pesquisa para carro autônomo",
+      "summary": "Motorista de aplicativo foi banido após ataques xenofóbicos contra passageira nordestina em São José do Rio Preto. Empresa 99 iniciou pesquisa no Brasil para lançar carro sem motorista a partir de 2032.",
+      "scores": {
+        "cobertura": 3.5,
+        "destaque": 5,
+        "persistencia": 4,
+        "peso_voce": 3
+      },
+      "score": 3.9,
+      "outlets": [
+        {
+          "name": "ICL Notícias",
+          "url": "https://iclnoticias.com.br/motorista-aplicativo-banido-ataques-xenofobicos/",
+          "camp": "esquerda",
+          "position": "editoria"
+        },
+        {
+          "name": "Folha de S.Paulo",
+          "url": "https://c-level.folha.uol.com.br/negocios/2026/11/dona-da-99-inicia-pesquisa-no-brasil-e-pode-lancar-carro-sem-motorista-a-partir-de-2032.shtml",
+          "camp": "centro-esquerda",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": true,
+        "note": "Teve destaque na esquerda e no centro-esquerda (ICL Notícias, Folha de S.Paulo, UOL) e não apareceu nos portais de direita da coleta."
+      }
+    },
+    {
+      "id": "mantem-processo-2027-faetec-abertas-vagas-318-inscricoes",
+      "segment": "educacao",
+      "title": "Faetec mantém inscrições abertas para processo seletivo de 2027 com 12.318 vagas",
+      "summary": "A Fundação de Apoio à Escola Técnica (Faetec) está com inscrições abertas até 20 de dezembro para o processo seletivo de 2027. São ofertadas 12. 318 vagas em diferentes níveis e modalidades de formação profissional. Presidente do sindicato dos atores perdeu processo contra a Globo por não ser escalado para novelas.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 3.5,
+      "outlets": [
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/emprego/concursos/noticia/2026/11/faetec-esta-com-inscricoes-abertas-para-processo-seletivo-de-2027-sao-12318-vagas.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    },
+    {
+      "id": "surpreende-consagra-italia-champions-rio-liga-campeoes-favel",
+      "segment": "esportes",
+      "title": "Como, da Itália, surpreende na Liga dos Campeões e Favela Champions consagra campeões no Rio",
+      "summary": "O Como, da Itália, chegou à Liga dos Campeões pela primeira vez e se tornou sensação do torneio com goleadas sobre o Manchester United. A segunda edição do Favela Champions, competição de artes marciais entre jovens de favelas, reuniu mais de 400 competidores no Morro Azul, no Flamengo, Zona Sul do Rio de Janeiro.",
+      "scores": {
+        "cobertura": 2.0,
+        "destaque": 3,
+        "persistencia": 4,
+        "peso_voce": 6
+      },
+      "score": 3.5,
+      "outlets": [
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/esporte/noticia/2026/11/favela-champions-consagra-campeoes-em-evento-emocionante.ghtml",
+          "camp": "rio",
+          "position": "editoria"
+        }
+      ],
+      "asymmetry": {
+        "flag": false,
+        "note": ""
+      }
+    }
+  ],
+  "x_trends": [],
+  "portais_na_coleta": 47
+}
