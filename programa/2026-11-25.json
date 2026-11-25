@@ -1,141 +1,115 @@
 {
-  "date": "2026-11-25",
-  "generated": "2026-11-25T11:42:28-03:00",
-  "programa": "Conversa Timeline",
-  "titulo": "Ex-boxeador denunciado por homicídio em SC, Brasil retira embaixador da Argentina e Lula articula ajuste fiscal",
-  "abertura": "Começamos o Conversa Timeline destacando o caso grave de violência em Santa Catarina, onde um ex-boxeador foi denunciado por espancar um homem até a morte. Essa tragédia expõe a urgência de respostas firmes na segurança pública. Na sequência, o governo brasileiro reforça sua posição diplomática ao retirar o embaixador da Argentina após provocações externas. Por fim, Lula avança na articulação de um novo ajuste fiscal para equilibrar as contas públicas em 2027, enquanto Alcolumbre defende prerrogativas parlamentares da direita.",
-  "agenda": [],
-  "itens": [
+ "date": "2026-11-25",
+ "generated": "2026-11-25T11:42:28-03:00",
+ "programa": "Conversa Timeline",
+ "titulo": "Ex-boxeador denunciado por homicídio em SC, Brasil retira embaixador da Argentina e Lula articula ajuste fiscal",
+ "abertura": "Começamos o Conversa Timeline destacando o caso grave de violência em Santa Catarina, onde um ex-boxeador foi denunciado por espancar um homem até a morte. Essa tragédia expõe a urgência de respostas firmes na segurança pública. Na sequência, o governo brasileiro reforça sua posição diplomática ao retirar o embaixador da Argentina após provocações externas. Por fim, Lula avança na articulação de um novo ajuste fiscal para equilibrar as contas públicas em 2027, enquanto Alcolumbre defende prerrogativas parlamentares da direita.",
+ "agenda": [],
+ "itens": [
+  {
+   "id": "avulso-001",
+   "bloco": "Política nacional",
+   "titulo": "Alcolumbre autoriza defesa de Van Hattem e sinaliza novo ajuste fiscal em 2026",
+   "subtitulo": "Senador atua para proteger prerrogativas parlamentares e antecipa medidas econômicas",
+   "resumo": "O senador Alcolumbre autorizou a Advocacia do Senado a atuar na defesa de Marcel Van Hattem em processo judicial. A iniciativa visa proteger as prerrogativas parlamentares diante das investidas contra o deputado. Além disso, Alcolumbre indicou a possibilidade de um novo ajuste fiscal ainda em 2026 para equilibrar as contas públicas. A ação reforça o compromisso da bancada conservadora com a defesa institucional e a responsabilidade fiscal. O movimento ocorre em meio a debates sobre a condução econômica do país.",
+   "contexto": [
+    "Van Hattem enfrenta processo judicial que pode afetar prerrogativas parlamentares.",
+    "Alcolumbre, senador do mesmo campo político, intervém para garantir defesa institucional.",
+    "Discussões sobre ajuste fiscal ganham força diante do cenário econômico de 2026.",
+    "A bancada conservadora busca fortalecer a proteção dos direitos dos parlamentares.",
+    "O ajuste fiscal é visto como necessário para manter a estabilidade econômica."
+   ],
+   "angulo": [
+    "Alcolumbre assume papel de defensor das prerrogativas parlamentares contra pressões judiciais.",
+    "A atuação reforça a união da direita em defesa de seus representantes.",
+    "A indicação de novo ajuste fiscal mostra compromisso com a responsabilidade econômica.",
+    "A medida é estratégica para preservar a governabilidade e o equilíbrio das contas públicas."
+   ],
+   "perguntas": [
+    "Quais são os impactos da atuação do Senado na defesa de Van Hattem?",
+    "Como o novo ajuste fiscal pode influenciar a economia brasileira em 2026?",
+    "De que forma a bancada conservadora pode se beneficiar dessa articulação política?"
+   ],
+   "fontes": [
     {
-      "id": "avulso-001",
-      "bloco": "Política nacional",
-      "titulo": "Alcolumbre autoriza defesa de Van Hattem e sinaliza novo ajuste fiscal em 2026",
-      "subtitulo": "Senador atua para proteger prerrogativas parlamentares e antecipa medidas econômicas",
-      "resumo": "O senador Alcolumbre autorizou a Advocacia do Senado a atuar na defesa de Marcel Van Hattem em processo judicial. A iniciativa visa proteger as prerrogativas parlamentares diante das investidas contra o deputado. Além disso, Alcolumbre indicou a possibilidade de um novo ajuste fiscal ainda em 2026 para equilibrar as contas públicas. A ação reforça o compromisso da bancada conservadora com a defesa institucional e a responsabilidade fiscal. O movimento ocorre em meio a debates sobre a condução econômica do país.",
-      "contexto": [
-        "Van Hattem enfrenta processo judicial que pode afetar prerrogativas parlamentares.",
-        "Alcolumbre, senador do mesmo campo político, intervém para garantir defesa institucional.",
-        "Discussões sobre ajuste fiscal ganham força diante do cenário econômico de 2026.",
-        "A bancada conservadora busca fortalecer a proteção dos direitos dos parlamentares.",
-        "O ajuste fiscal é visto como necessário para manter a estabilidade econômica."
-      ],
-      "angulo": [
-        "Alcolumbre assume papel de defensor das prerrogativas parlamentares contra pressões judiciais.",
-        "A atuação reforça a união da direita em defesa de seus representantes.",
-        "A indicação de novo ajuste fiscal mostra compromisso com a responsabilidade econômica.",
-        "A medida é estratégica para preservar a governabilidade e o equilíbrio das contas públicas."
-      ],
-      "perguntas": [
-        "Quais são os impactos da atuação do Senado na defesa de Van Hattem?",
-        "Como o novo ajuste fiscal pode influenciar a economia brasileira em 2026?",
-        "De que forma a bancada conservadora pode se beneficiar dessa articulação política?"
-      ],
-      "fontes": [
-        {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/alcolumbre-autoriza-advocacia-do-senado-a-atuar-em-defesa-de-marcel-van-hattem/"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "Alcolumbre atua em defesa de Van Hattem e indica possibilidade de novo ajuste fiscal ainda em 2026 https://www.gazetadopovo.com.br/vida-e-cidadania/alcolumbre-autoriza-advocacia-do-senado-a-atuar-em-defesa-de-marcel-van-hattem/"
-    },
-    {
-      "id": "2",
-      "bloco": "Economia",
-      "titulo": "Lula avalia novas medidas fiscais e articula PEC para ajuste das contas públicas",
-      "subtitulo": "Governo prepara proposta para conter gastos obrigatórios e garantir meta fiscal em 2027",
-      "resumo": "A equipe econômica do governo Lula aguarda reuniões para definir detalhes de uma PEC de ajuste fiscal. A proposta inclui mudanças em gastos obrigatórios como Fundeb e FCDF, com impacto estimado em R$ 20 bilhões no orçamento de 2027. O ministro Bruno Moretti já se comprometeu a ouvir sugestões de parlamentares sobre as medidas. Lula sancionou projeto que pode gerar economia de até R$ 50,1 bilhões em 2027. O governo busca aprovar as medidas ainda em 2026 diante da expectativa de maior resistência no Congresso a partir de 2027.",
-      "contexto": [
-        "Reunião sobre ajuste fiscal foi adiada por viagem de Lula a velório de jurista.",
-        "Mercado financeiro demonstra mau humor com cenário econômico e dólar elevado.",
-        "Cúpula do Congresso sinaliza disposição para avançar com medidas de ajuste ainda em 2026.",
-        "Projeto sancionado pelo presidente visa garantir cumprimento da meta fiscal de 2027."
-      ],
-      "angulo": [
-        "Governo Lula demonstra responsabilidade fiscal ao propor ajuste para conter gastos obrigatórios.",
-        "Articulação com Congresso mostra esforço para aprovar medidas antes de renovação das bancadas.",
-        "Sancionamento de projeto sem vetos reforça compromisso com equilíbrio das contas públicas.",
-        "Ouvir parlamentares indica abertura do governo para diálogo e sugestões na área econômica."
-      ],
-      "perguntas": [
-        "Quais os principais impactos da PEC do ajuste fiscal para o orçamento de 2027?",
-        "Como a articulação com o Congresso pode influenciar a aprovação das medidas?",
-        "De que forma o ajuste fiscal pode afetar o ambiente macroeconômico do país?"
-      ],
-      "fontes": [
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/politica/equipe-economica-aguarda-lula-para-avancar-com-pec-do-ajuste-fiscal/"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "Lula avalia novas medidas fiscais e enfrenta discussões no Congresso https://www.cnnbrasil.com.br/politica/equipe-economica-aguarda-lula-para-avancar-com-pec-do-ajuste-fiscal/"
-    },
-    {
-      "id": "3",
-      "bloco": "Política nacional",
-      "titulo": "Brasil retira embaixador da Argentina após crise diplomática com Milei",
-      "subtitulo": "Decisão rebaixa relações entre os países e deixa cargo com encarregado de negócios",
-      "resumo": "O governo brasileiro decidiu retirar definitivamente o embaixador Julio Bitelli da Argentina. A medida ocorre após críticas do presidente argentino Javier Milei e do ministro Pablo Quirno contra Lula. Bitelli estava no Brasil desde julho, chamado para consultas. A representação brasileira ficará a cargo do encarregado de negócios Eduardo Uziel. A decisão marca um rebaixamento na relação diplomática entre Brasil e Argentina.",
-      "contexto": [
-        "Crise diplomática entre Brasil e Argentina após declarações de Javier Milei contra Lula",
-        "Ministro argentino Pablo Quirno questionou resultados das eleições brasileiras",
-        "Embaixador brasileiro Julio Bitelli foi chamado para consultas em julho",
-        "Brasil opta por não enviar novo embaixador, mantendo encarregado de negócios",
-        "Medida representa rebaixamento nas relações bilaterais"
-      ],
-      "angulo": [
-        "Governo Lula responde a ataques de Milei com retirada definitiva do embaixador",
-        "Decisão reforça postura firme da diplomacia brasileira diante de provocações",
-        "Rebaixamento indica desgaste nas relações entre Brasil e Argentina",
-        "Encarregado de negócios assume representação, sinalizando distanciamento formal"
-      ],
-      "perguntas": [
-        "Quais os impactos dessa crise diplomática para a relação comercial entre Brasil e Argentina?",
-        "Como a retirada do embaixador afeta a influência do Brasil na região?",
-        "Que desdobramentos políticos podem surgir da postura firme do governo brasileiro?"
-      ],
-      "fontes": [
-        {
-          "name": "Pleno.News",
-          "url": "https://pleno.news/brasil/governo-lula-retira-embaixador-na-argentina-definitivamente.html"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "Brasil não envia embaixador à Argentina após crise diplomática com Milei https://pleno.news/brasil/governo-lula-retira-embaixador-na-argentina-definitivamente.html"
-    },
-    {
-      "id": "4",
-      "bloco": "Segurança pública",
-      "titulo": "MP denuncia ex-boxeador por espancar homem até a morte em SC",
-      "subtitulo": "Thiago Cristofer dos Santos é acusado de homicídio triplamente qualificado em Balneário Camboriú",
-      "resumo": "O Ministério Público de Santa Catarina denunciou Thiago Cristofer dos Santos por homicídio triplamente qualificado. Ele é suspeito de espancar até a morte um vendedor de carros de 43 anos. O crime ocorreu em frente a uma concessionária na Praia dos Amores. A motivação teria sido uma suspeita de caso extraconjugal envolvendo a companheira do acusado. As agressões foram gravadas e cessaram apenas com a intervenção de terceiros.",
-      "contexto": [
-        "O crime aconteceu no litoral catarinense, em Balneário Camboriú.",
-        "Thiago Cristofer dos Santos tem 24 anos e é ex-boxeador.",
-        "A vítima tinha 43 anos e era vendedor de carros.",
-        "A promotoria qualificou o homicídio por motivo fútil, meio cruel e recurso que dificultou a defesa.",
-        "O acusado deixou o local sem prestar socorro."
-      ],
-      "angulo": [
-        "A violência extrema e desproporcional evidencia a gravidade da insegurança pública.",
-        "O caso reforça a necessidade de punição rigorosa para crimes de violência contra a vida.",
-        "A denúncia mostra a atuação firme do Ministério Público em casos de homicídio qualificado."
-      ],
-      "perguntas": [
-        "Quais medidas podem ser adotadas para prevenir casos de violência extrema como este?",
-        "Como o sistema de segurança pública pode melhorar a proteção das vítimas?",
-        "Qual o impacto social de crimes motivados por questões pessoais e passionais?"
-      ],
-      "fontes": [
-        {
-          "name": "Estadão",
-          "url": "https://www.estadao.com.br/brasil/mp-denuncia-ex-boxeador-suspeito-espancar-homem-morte-homicidio-triplamente-qualificado-npr/"
-        }
-      ],
-      "avulsa": true,
-      "pedido": "Diversos casos de segurança pública e violência são registrados no Brasil https://www.estadao.com.br/brasil/mp-denuncia-ex-boxeador-suspeito-espancar-homem-morte-homicidio-triplamente-qualificado-npr/"
+     "name": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/alcolumbre-autoriza-advocacia-do-senado-a-atuar-em-defesa-de-marcel-van-hattem/"
     }
-  ],
-  "atualizado": "2026-11-25T11:44:14-03:00"
+   ],
+   "avulsa": true,
+   "pedido": "Alcolumbre atua em defesa de Van Hattem e indica possibilidade de novo ajuste fiscal ainda em 2026 https://www.gazetadopovo.com.br/vida-e-cidadania/alcolumbre-autoriza-advocacia-do-senado-a-atuar-em-defesa-de-marcel-van-hattem/"
+  },
+  {
+   "id": "2",
+   "bloco": "Economia",
+   "titulo": "Lula avalia novas medidas fiscais e articula PEC para ajuste das contas públicas",
+   "subtitulo": "Governo prepara proposta para conter gastos obrigatórios e garantir meta fiscal em 2027",
+   "resumo": "A equipe econômica do governo Lula aguarda reuniões para definir detalhes de uma PEC de ajuste fiscal. A proposta inclui mudanças em gastos obrigatórios como Fundeb e FCDF, com impacto estimado em R$ 20 bilhões no orçamento de 2027. O ministro Bruno Moretti já se comprometeu a ouvir sugestões de parlamentares sobre as medidas. Lula sancionou projeto que pode gerar economia de até R$ 50,1 bilhões em 2027. O governo busca aprovar as medidas ainda em 2026 diante da expectativa de maior resistência no Congresso a partir de 2027.",
+   "contexto": [
+    "Reunião sobre ajuste fiscal foi adiada por viagem de Lula a velório de jurista.",
+    "Mercado financeiro demonstra mau humor com cenário econômico e dólar elevado.",
+    "Cúpula do Congresso sinaliza disposição para avançar com medidas de ajuste ainda em 2026.",
+    "Projeto sancionado pelo presidente visa garantir cumprimento da meta fiscal de 2027."
+   ],
+   "angulo": [
+    "Governo Lula demonstra responsabilidade fiscal ao propor ajuste para conter gastos obrigatórios.",
+    "Articulação com Congresso mostra esforço para aprovar medidas antes de renovação das bancadas.",
+    "Sancionamento de projeto sem vetos reforça compromisso com equilíbrio das contas públicas.",
+    "Ouvir parlamentares indica abertura do governo para diálogo e sugestões na área econômica."
+   ],
+   "perguntas": [
+    "Quais os principais impactos da PEC do ajuste fiscal para o orçamento de 2027?",
+    "Como a articulação com o Congresso pode influenciar a aprovação das medidas?",
+    "De que forma o ajuste fiscal pode afetar o ambiente macroeconômico do país?"
+   ],
+   "fontes": [
+    {
+     "name": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/politica/equipe-economica-aguarda-lula-para-avancar-com-pec-do-ajuste-fiscal/"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Lula avalia novas medidas fiscais e enfrenta discussões no Congresso https://www.cnnbrasil.com.br/politica/equipe-economica-aguarda-lula-para-avancar-com-pec-do-ajuste-fiscal/"
+  },
+  {
+   "id": "3",
+   "bloco": "Política nacional",
+   "titulo": "Brasil retira embaixador da Argentina após crise diplomática com Milei",
+   "subtitulo": "Decisão rebaixa relações entre os países e deixa cargo com encarregado de negócios",
+   "resumo": "O governo brasileiro decidiu retirar definitivamente o embaixador Julio Bitelli da Argentina. A medida ocorre após críticas do presidente argentino Javier Milei e do ministro Pablo Quirno contra Lula. Bitelli estava no Brasil desde julho, chamado para consultas. A representação brasileira ficará a cargo do encarregado de negócios Eduardo Uziel. A decisão marca um rebaixamento na relação diplomática entre Brasil e Argentina.",
+   "contexto": [
+    "Crise diplomática entre Brasil e Argentina após declarações de Javier Milei contra Lula",
+    "Ministro argentino Pablo Quirno questionou resultados das eleições brasileiras",
+    "Embaixador brasileiro Julio Bitelli foi chamado para consultas em julho",
+    "Brasil opta por não enviar novo embaixador, mantendo encarregado de negócios",
+    "Medida representa rebaixamento nas relações bilaterais"
+   ],
+   "angulo": [
+    "Governo Lula responde a ataques de Milei com retirada definitiva do embaixador",
+    "Decisão reforça postura firme da diplomacia brasileira diante de provocações",
+    "Rebaixamento indica desgaste nas relações entre Brasil e Argentina",
+    "Encarregado de negócios assume representação, sinalizando distanciamento formal"
+   ],
+   "perguntas": [
+    "Quais os impactos dessa crise diplomática para a relação comercial entre Brasil e Argentina?",
+    "Como a retirada do embaixador afeta a influência do Brasil na região?",
+    "Que desdobramentos políticos podem surgir da postura firme do governo brasileiro?"
+   ],
+   "fontes": [
+    {
+     "name": "Pleno.News",
+     "url": "https://pleno.news/brasil/governo-lula-retira-embaixador-na-argentina-definitivamente.html"
+    }
+   ],
+   "avulsa": true,
+   "pedido": "Brasil não envia embaixador à Argentina após crise diplomática com Milei https://pleno.news/brasil/governo-lula-retira-embaixador-na-argentina-definitivamente.html"
+  }
+ ],
+ "atualizado": "2026-11-25T11:44:14-03:00",
+ "excluidos": [
+  {
+   "titulo": "MP denuncia ex-boxeador por espancar homem até a morte em SC",
+   "em": "2026-11-25T11:46:39-03:00"
+  }
+ ]
 }
