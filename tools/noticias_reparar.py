@@ -246,7 +246,7 @@ def _corrigir_titulo(item):
 
 
 def _limpar_resumo(item):
-    s = notas.sem_travessao(item.get("summary") or "")
+    s = notas.limpa_texto_fonte(item.get("summary") or "")
     s = _SUFIXO_PORTAL.sub("", s).strip()
     s = re.sub(r"\s{2,}", " ", s)
     item["summary"] = s
@@ -358,13 +358,24 @@ def limpar_trends(trends, itens):
         item_id = t.get("item_id") or None
         if item_id and item_id not in ids:
             item_id = None
+        texto_item = ""
         if item_id:
-            tit = por_id[item_id].get("title") or ""
-            if chaves and not (chaves & notas.tokens(tit)) and chaves - notas.tokens(tit):
-                # o nome do trend não aparece no título ligado
+            it = por_id[item_id]
+            texto_item = (it.get("title") or "") + " " + (it.get("summary") or "")
+            if chaves and not (chaves & notas.tokens(texto_item)):
                 item_id = None
-        if item_id is None and notas.norm(sobre or "") in (chave, "") and len(notas.tokens(nome)) <= 2:
-            # nome de uma ou duas palavras sem fato (ex.: "Russell", "Gabriel")
+        if item_id is None and chaves:
+            melhor, score = None, 0
+            for it in itens:
+                inter = chaves & notas.tokens((it.get("title") or "") + " " + (it.get("summary") or ""))
+                if len(inter) > score:
+                    melhor, score = it, len(inter)
+            if score:
+                item_id = melhor.get("id")
+        if item_id is None:
+            # sem matéria correspondente, o trend não entra na edição
+            continue
+        if notas.eh_entretenimento(nome, "", sobre):
             continue
         vistos.add(chave)
         saida.append({
@@ -606,6 +617,7 @@ def _self_test():
             {"nome": "Dia da Consciência Negra", "sobre": "Dia da Consciência Negra", "uso": "abordar", "item_id": None},
             {"nome": "Russell", "sobre": "Mendonça", "uso": "referenciar", "item_id": "a"},
             {"nome": "Flamengo", "sobre": "Flamengo", "uso": "evitar foco em esporte sem desdobramento político", "item_id": None},
+            {"nome": "Bolsonaro", "sobre": "Jair Bolsonaro é internado após dores abdominais", "uso": "comentar o fato da edição", "item_id": "a"},
         ],
         "top": ["a", "b", "c"],
     }
@@ -616,8 +628,10 @@ def _self_test():
     titulos = [it["title"] for it in out["items"]]
     assert all(not titulo_opiniao(t) for t in titulos), titulos
     nomes = [t["nome"] for t in out["x_trends"]]
-    assert nomes.count("Dia da Consciência Negra") == 1
+    assert "Dia da Consciência Negra" not in nomes  # sem matéria correspondente
     assert "Flamengo" not in nomes
+    assert "Russell" not in nomes
+    assert nomes.count("Bolsonaro") == 1
     graves = [e for e in conferir_graves(out, cfg) if not e.startswith("só ")]
     assert graves == [], graves
     print("noticias_reparar: ok")
@@ -649,3 +663,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

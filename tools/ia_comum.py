@@ -213,9 +213,15 @@ def resumir_noticias(edicao, limite=24):
         for o in (it.get("outlets") or it.get("sources") or [])[:3]:
             if isinstance(o, dict) and (o.get("url") or o.get("name")):
                 outlets.append({"name": o.get("name") or o.get("nome") or "", "url": o.get("url") or ""})
+        urls = " ".join(o.get("url") or "" for o in outlets)
+        import noticias_notas as notas
+        seg = it.get("segment")
+        corrigido = notas.ajustar_segmento(it.get("title") or "", seg or "", "", urls, it.get("summary") or "")
+        if corrigido:
+            seg = corrigido
         itens.append({
             "id": it.get("id"),
-            "segment": it.get("segment"),
+            "segment": seg,
             "score": it.get("score") if it.get("score") is not None else it.get("nota"),
             "title": it.get("title") or "",
             "summary": (it.get("summary") or "")[:500],
@@ -724,3 +730,4 @@ if __name__ == "__main__":
     else:
         print("uso: python3 tools/ia_comum.py --self-test", file=sys.stderr)
         sys.exit(2)
+
