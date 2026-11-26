@@ -40,7 +40,9 @@ PALAVRAS = {
                  "eliminatorias", "amistoso", "atp", "wta"),
     "ciencia": ("inteligencia artificial", "tecnologia", "ciencia", "cientista", "pesquisa",
                 "startup", "nvidia", "openai", "chatgpt", "nasa", "satelite", "foguete",
-                "cnpq", "capes", "finep", "faperj", "vacina", "anvisa"),
+                "cnpq", "capes", "finep", "faperj", "vacina", "anvisa",
+                "ararinha", "arara-azul", "zoologico", "fauna", "ibama",
+                "biodiversidade", "especie ameacada", "extincao"),
     "rio": ("rio de janeiro", "baixada", "niteroi", "alerj", "duque de caxias",
             "prefeitura do rio", "governo do rio", "marica", "sao goncalo",
             "eduardo paes", "claudio castro", "camara do rio", "mare", "jacarepagua", "rj"),
@@ -134,6 +136,37 @@ def sem_travessao(s):
     return (s or "").replace("—", ", ").replace("–", ", ").replace("−", "-")
 
 
+def limpa_texto_fonte(s):
+    """Tira rodapé e bloco relacionado que o RSS cola no lead."""
+    t = sem_travessao(s or "")
+    t = re.sub(r"(?is)\s*leia mais(?:\s*\([^)]{0,80}\))?", " ", t)
+    t = re.sub(r"(?is)\s*not[ií]cias relacionadas:.*$", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def texto_apoio(titulo, descricao=""):
+    """Título e descrição/lead da fonte, já limpos, para IA e QA usarem o mesmo material."""
+    return " ".join(x for x in (limpa_texto_fonte(titulo), limpa_texto_fonte(descricao)) if x)
+
+
+def frase_lixo(frase):
+    n = norm(frase)
+    if re.search(r"leia mais", n):
+        return True
+    if re.search(r"noticias relacionadas", n):
+        return True
+    return False
+
+
+SINAIS_FAUNA = (
+    "ararinha", "arara-azul", "arara azul", "arara de lear",
+    "zoologico", "especie ameacada", "especie em extincao",
+    "fauna", "ibama", "biodiversidade", "filhote de arara",
+    "nascimento de filhote",
+)
+
+
 LINHA = {"Gazeta do Povo", "Revista Oeste", "Jovem Pan", "O Antagonista", "Diário do Poder", "Pleno.News"}
 
 
@@ -177,6 +210,9 @@ def ajustar_segmento(titulo, segmento, dica="", url="", resumo=""):
     """Corrige seção óbvia (futebol em Política, Bond em Política) sem inventar bloco."""
     if eh_entretenimento(titulo, url, resumo):
         return None
+    texto = " ".join(x for x in (titulo, resumo) if x)
+    if any(contem_termo(texto, k) for k in SINAIS_FAUNA):
+        return "ciencia"
     auto = segmento_por_titulo(titulo, dica if dica in PALAVRAS else "")
     validos = set(PALAVRAS) | {"politica"}
     if segmento not in validos:
@@ -327,6 +363,15 @@ def _self_test():
     assert ajustar_segmento("Mais de 276 mil trabalhadores ainda não sacaram o abono salarial", "politica") == "economia"
     assert ajustar_segmento("Senado vota a PEC do STF", "politica") == "politica"
     assert ajustar_segmento("PF entrega relatório sobre ministros do STF no caso Master após a prisão", "politica") == "politica"
+    assert ajustar_segmento(
+        "Nasce filhote de ararinha-azul no Zoológico de São Paulo",
+        "educacao",
+        resumo="O filhote de ararinha-azul nasceu no Zoológico de São Paulo, espécie que chegou a ser extinta na natureza.",
+    ) == "ciencia"
+    assert "ararinha" in PALAVRAS["ciencia"]
+    assert limpa_texto_fonte("O Corinthians empatou. Leia mais (11/25/2026 - 22h09)") == "O Corinthians empatou."
+    assert frase_lixo("Leia mais (11/25/2026 - 22h09)")
+    assert not frase_lixo("O Corinthians empatou com o Atlético-MG por 1 a 1.")
     assert segmento_por_titulo("Juiz anula limites de visto impostos por Trump a estudantes e jornalistas") == "internacional"
     assert eh_entretenimento("Grammy 2027 é no meio do carnaval, diz Anitta")
     assert not eh_entretenimento("Irmãos de banda de pagode são presos por suspeita de estupro")
@@ -340,3 +385,4 @@ if __name__ == "__main__":
     else:
         print("uso: python3 tools/noticias_notas.py --self-test", file=sys.stderr)
         sys.exit(2)
+

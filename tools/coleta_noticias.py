@@ -212,12 +212,33 @@ def _portal_vazio(o, erros, http, feed_usado, via="nenhuma"):
     }
 
 
-def ler_feeds(o, corte, BRT, agora):
+def deve_repetir_feed(st, tentativa, max_tent=3):
+    """Repete em 429/5xx, timeout ou falha de rede. Janela vazia com HTTP 200 não ajuda insistir."""
+    if tentativa >= max_tent - 1:
+        return False
+    if st.get("ok") and st.get("itens"):
+        return False
+    http = st.get("http")
+    if http in (429, 500, 502, 503, 504) or http is None:
+        return True
+    erro = (st.get("erro") or "").lower()
+    return any(x in erro for x in ("timeout", "temporar", "reset", "urlerror", "falha de rede", "429", "503"))
+
+
+def ler_feeds(o, corte, BRT, agora, pausa=None):
     """Só os RSS do config. Não chama o Google (a reserva é sequencial, para não levar 429)."""
     itens, erros, http, feed_usado = [], [], None, None
+    sleep = pausa or time.sleep
     try:
         for url in feeds_de(o):
-            st = feeds_diretos.ler_status(url, corte, BRT, agora, limite=40)
+            st = {}
+            for tentativa in range(3):
+                st = feeds_diretos.ler_status(url, corte, BRT, agora, limite=40)
+                if st.get("ok") and st.get("itens"):
+                    break
+                if not deve_repetir_feed(st, tentativa):
+                    break
+                sleep((2 ** tentativa) * 0.7 + random.random() * 0.4)
             http = st.get("http")
             feed_usado = url
             if st.get("ok") and st.get("itens"):
@@ -332,22 +353,25 @@ def coletar(horas):
     with ThreadPoolExecutor(max_workers=12) as ex:
         portais = list(ex.map(lambda o: ler_feeds(o, corte, BRT, agora), alvos))
     print(f"feeds: {sum(1 for p in portais if p['manchetes'])}/{len(portais)} com manchete", file=sys.stderr, flush=True)
+    # Temas primeiro, para o Google 429 não queimar a reserva dos portais que ainda faltam.
+    blocos_tema, diag_temas = temas(corte, BRT, agora, horas, ritmo, mapa, drops, descartados)
+    # Fallback por fonte, inclusive regional com feed vazio ou sem feed.
+    ritmo["pausa"] = max(float(ritmo.get("pausa") or 1.6), 2.0)
     for o, portal in zip(alvos, portais):
         if portal["manchetes"]:
             continue
-        # Regionais (tier 3) sem feed válido ficam de fora da reserva: era a
-        # etapa mais lenta e enchia a edição de link trocado.
-        if (o.get("tier") or 3) >= 3:
-            portal["_diag"].update(via="nenhuma", status="skip", erro="tier 3 sem feed, reserva Google pulada")
+        if ritmo.get("google_off"):
+            prev = portal["_diag"].get("erro") or "sem manchete no feed"
+            portal["_diag"].update(
+                via=portal["_diag"].get("via") or "nenhuma",
+                status="fail",
+                erro=f"{prev}; reserva Google não tentada (429 repetido)",
+            )
             continue
         reserva_google(portal, o, corte, BRT, agora, ritmo)
         print(f"google {o['name']}: {portal['_diag']['status']} {portal['_diag']['count']} {portal['_diag'].get('erro') or ''}", file=sys.stderr, flush=True)
-        if ritmo.get("google_off"):
-            break
-    # a ordem do config ajuda a ler o quadro
     ordem = {o["name"]: i for i, o in enumerate(alvos)}
     portais.sort(key=lambda p: ordem.get(p["nome"], 999))
-    blocos_tema, diag_temas = temas(corte, BRT, agora, horas, ritmo, mapa, drops, descartados)
     for p in portais:
         diag = p.pop("_diag")
         p["_diag"] = diag
@@ -400,6 +424,10 @@ def _self_test():
     assert canonizar("Instagram", mapa, drops) is None
     assert canonizar("Facebook Watch", mapa, drops) is None
     assert canonizar("Veículo Inventado", mapa, drops) is None
+    assert deve_repetir_feed({"http": 429, "erro": "429"}, 0)
+    assert deve_repetir_feed({"http": 503, "erro": "temporar"}, 1)
+    assert not deve_repetir_feed({"http": 200, "vazio": True, "ok": False}, 0)
+    assert not deve_repetir_feed({"http": 429}, 2)
     print("coleta_noticias: ok")
 
 
@@ -417,3 +445,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

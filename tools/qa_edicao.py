@@ -1,6 +1,6 @@
 """Conferência editorial de uma edição contra a coleta que a gerou.
 
-Cada frase do resumo precisa estar apoiada numa manchete do mesmo grupo.
+Cada frase do resumo precisa estar apoiada no título ou na descrição/lead das fontes do mesmo grupo.
 O grupo não pode misturar fatos sem palavras em comum, o link tem de ser o
 da coleta e a seção não pode ser a padrão errada (celebridade em Política).
 
@@ -53,25 +53,57 @@ def resumo_cortado(texto):
     # Frase que morre numa palavra gramatical: "aparece como um."
     if len(palavras) >= 3 and ultima_palavra in _FINAIS_FRACAS:
         return True
+    # Corte no meio da palavra ou em inicial solta ("filho de D.", "norte-americ.").
+    # Número no fim ("transparência número 1.") é frase completa, não corte.
+    if not ultima_palavra.isdigit():
+        if len(ultima_palavra) == 1 and ultima_palavra.isalpha():
+            return True
+        if len(ultima_palavra) == 2 and ultima_palavra.isalpha() and ultima_palavra not in {
+            "ja", "ha", "so", "eu", "se", "me", "si", "fe", "re", "ao", "as", "os",
+            "um", "da", "de", "do", "no", "na", "em", "ou", "ai", "la", "li", "lu",
+        }:
+            return True
+        # "norte-americ." / cortado numa consoante que quase não termina palavra em português.
+        if len(ultima_palavra) >= 5 and re.search(r"[ck]$", ultima_palavra):
+            return True
+    if re.search(r"-\s*$", ultima.strip().rstrip(".!?")):
+        return True
+    if notas.frase_lixo(ultima):
+        return True
     return False
 
 
-def assuntos_misturados(item, apoio):
-    """Erro quando qualquer manchete de apoio não é o mesmo fato do título.
+def _texto_manchete(m):
+    return notas.texto_apoio(m.get("titulo") or "", m.get("descricao") or "")
 
-    O detector antigo ignorava o link que já estava em outlets, então o
-    cluster misturado da edição 25/11-06h não disparava.
+
+def assuntos_misturados(item, apoio):
+    """Erro quando qualquer fonte de apoio não é o mesmo fato do título.
+
+    Compara o título do item com o título e a descrição/lead da fonte, para
+    não tratar ângulo diferente do mesmo fato (Corinthians vs Atlético no
+    mesmo jogo; Lula sondou Trabuco vs 'executivo do Bradesco') como mistura.
+    Mistura real (tarifaço + qualidade do ar em Manaus; Filosofia vs ensino
+    integral) continua erro.
     """
     titulo = item.get("title") or ""
     if not titulo or not apoio:
         return None
+    base = notas.texto_apoio(titulo, "")
+    base_tk = notas.tokens(base)
     estranhas = []
     vistos = set()
     for m in apoio:
         man = m.get("titulo") or ""
         if not man or man in vistos:
             continue
-        if notas.mesmo_fato(notas.tokens(titulo), m["tokens"], titulo, man):
+        fonte = _texto_manchete(m)
+        if notas.mesmo_fato(base_tk, notas.tokens(fonte), base, fonte):
+            continue
+        # Dois nomes específicos compartilhados, sem conflito de número, são
+        # o mesmo fato com redação muito diferente (Alerj/Assembleia do Rio).
+        inter = {w for w in (base_tk & notas.tokens(fonte)) if w not in notas.UBIQUOS and len(w) >= 4}
+        if len(inter) >= 2 and not notas.conflito_numeros(base, fonte):
             continue
         vistos.add(man)
         estranhas.append(man)
@@ -91,6 +123,7 @@ def erros_bloqueantes(erros):
             or "frase sem apoio" in el
             or el.startswith("resumo cortado")
             or "assuntos misturados" in el
+            or el.startswith("só ")
         ):
             out.append(e)
     return out
@@ -101,11 +134,19 @@ def _manchetes(coleta):
     for p in coleta.get("portais") or []:
         for m in p.get("manchetes") or []:
             if m.get("titulo") and m.get("link"):
-                linhas.append({"titulo": m["titulo"], "nome": p.get("nome"), "link": m["link"], "tokens": notas.tokens(m["titulo"])})
+                desc = notas.limpa_texto_fonte(m.get("descricao") or "")
+                linhas.append({
+                    "titulo": m["titulo"], "descricao": desc, "nome": p.get("nome"), "link": m["link"],
+                    "tokens": notas.tokens(notas.texto_apoio(m["titulo"], desc)),
+                })
     for tema, itens in (coleta.get("temas") or {}).items():
         for m in itens:
             if m.get("titulo") and m.get("link") and m.get("fonte"):
-                linhas.append({"titulo": m["titulo"], "nome": m["fonte"], "link": m["link"], "tokens": notas.tokens(m["titulo"]), "tema": tema})
+                desc = notas.limpa_texto_fonte(m.get("descricao") or "")
+                linhas.append({
+                    "titulo": m["titulo"], "descricao": desc, "nome": m["fonte"], "link": m["link"],
+                    "tokens": notas.tokens(notas.texto_apoio(m["titulo"], desc)), "tema": tema,
+                })
     return linhas
 
 
@@ -177,10 +218,12 @@ def conferir(edicao, coleta):
         if not frases:
             erros.append(f"sem resumo: {titulo}")
         for fr in frases:
-            if apoio and not _frase_apoiada(fr, apoio):
+            if notas.frase_lixo(fr):
+                erros.append(f"frase sem manchete de apoio: «{fr}» ({titulo})")
+            elif apoio and not _frase_apoiada(fr, apoio):
                 erros.append(f"frase sem manchete de apoio: «{fr}» ({titulo})")
             for n in re.findall(r"\d+", fr):
-                if apoio and not any(n in (m["titulo"] or "") for m in apoio):
+                if apoio and not any(n in _texto_manchete(m) for m in apoio):
                     erros.append(f"número {n} não está nas manchetes: «{fr}»")
         mistura = assuntos_misturados(it, apoio)
         if mistura:
@@ -205,8 +248,129 @@ def conferir(edicao, coleta):
     return erros, avisos, {"noticias": len(itens), "media_portais": media, "secoes": secoes, "trends": len(edicao.get("x_trends") or []), "gerador": edicao.get("gerador"), "modelo": edicao.get("modelo")}
 
 
+def _outlets_do_nucleo(item, apoio):
+    """Mantém só os veículos cujo texto é o mesmo fato do título."""
+    mistura = assuntos_misturados(item, apoio)
+    if not mistura:
+        return list(item.get("outlets") or []), apoio
+    estranhas = set()
+    # reextrai as manchetes estranhas pelo mesmo critério
+    titulo = item.get("title") or ""
+    base = notas.texto_apoio(titulo, "")
+    base_tk = notas.tokens(base)
+    for m in apoio:
+        man = m.get("titulo") or ""
+        fonte = _texto_manchete(m)
+        inter = {w for w in (base_tk & notas.tokens(fonte)) if w not in notas.UBIQUOS and len(w) >= 4}
+        if notas.mesmo_fato(base_tk, notas.tokens(fonte), base, fonte) or (
+            len(inter) >= 2 and not notas.conflito_numeros(base, fonte)
+        ):
+            continue
+        estranhas.add((m.get("nome"), m.get("link")))
+        estranhas.add(man)
+    novos = []
+    for o in item.get("outlets") or []:
+        if (o.get("name"), o.get("url")) in estranhas:
+            continue
+        # se o url não bateu, ainda cai se o título da fonte for estranho
+        if any((o.get("url") == m.get("link") and m.get("titulo") in estranhas) for m in apoio):
+            continue
+        novos.append(o)
+    return novos, [m for m in apoio if (m.get("nome"), m.get("link")) not in estranhas]
+
+
+def _frases_das_fontes(apoio, n=5):
+    """Monta até n frases ancoradas só no material das fontes, sem invenção."""
+    cands, vistos = [], []
+    for m in apoio:
+        txt = _texto_manchete(m)
+        partes = _frases(txt) or ([txt] if len(txt) >= 40 else [])
+        for fr in partes:
+            fr = notas.limpa_texto_fonte(fr)
+            if len(fr) < 40 or notas.frase_lixo(fr) or resumo_cortado(fr if fr.endswith(".") else fr + "."):
+                continue
+            if not _frase_apoiada(fr, apoio):
+                continue
+            tk = notas.tokens(fr)
+            if any(len(tk & notas.tokens(v)) / max(1, len(tk)) >= 0.8 for v in vistos):
+                continue
+            cands.append(fr if fr.endswith((".", "!", "?")) else fr + ".")
+            vistos.append(fr)
+            if len(cands) >= n:
+                return cands
+    return cands
+
+
+def reparar_itens_reprovados(edicao, coleta):
+    """Regenera ou descarta só o item que o QA reprovaria, antes de barrar a edição.
+
+    Não afrouxa mistura, truncamento nem frase sem apoio: tenta um resumo de
+    5 frases ancoradas nas fontes do núcleo e joga fora o item irreparável.
+    """
+    manchetes = _manchetes(coleta)
+    restantes, descartados = [], []
+    for it in list(edicao.get("items") or []):
+        titulo = it.get("title") or ""
+        apoio = _apoio(it, manchetes)
+        outlets, apoio = _outlets_do_nucleo(it, apoio)
+        if not outlets or not apoio:
+            descartados.append({"titulo": titulo, "motivo": "sem fonte do mesmo fato"})
+            continue
+        it["outlets"] = outlets
+        urls = " ".join(o.get("url") or "" for o in outlets)
+        seg = notas.ajustar_segmento(titulo, it.get("segment") or "", "", urls, it.get("summary") or "")
+        if seg:
+            it["segment"] = seg
+        frases = []
+        for fr in _frases(it.get("summary") or ""):
+            fr = notas.limpa_texto_fonte(fr)
+            if not fr or notas.frase_lixo(fr):
+                continue
+            if not _frase_apoiada(fr, apoio):
+                continue
+            frases.append(fr if fr.endswith((".", "!", "?")) else fr + ".")
+        if frases and resumo_cortado(" ".join(frases)):
+            frases = frases[:-1]
+        def _grave(frases_agora):
+            txt = " ".join(frases_agora).strip()
+            if not txt:
+                return True
+            if resumo_cortado(txt if txt.endswith((".", "!", "?")) else txt + "."):
+                return True
+            if assuntos_misturados(it, apoio):
+                return True
+            return any(notas.frase_lixo(fr) or not _frase_apoiada(fr, apoio) for fr in frases_agora)
+
+        if _grave(frases) or len(frases) != 5:
+            novas = _frases_das_fontes(apoio, 5)
+            if len(novas) == 5:
+                frases = novas
+            elif not _grave(novas) and len(novas) >= 1:
+                frases = novas  # não inventa para chegar a 5
+            elif not _grave(frases) and len(frases) >= 1:
+                pass  # mantém frases já ancoradas
+            else:
+                descartados.append({"titulo": titulo, "motivo": "item irreparável (mistura, corte ou frase sem apoio)"})
+                continue
+        resumo = " ".join(frases).strip()
+        if not resumo.endswith((".", "!", "?")):
+            resumo += "."
+        it["summary"] = resumo
+        if _grave(_frases(resumo)):
+            descartados.append({"titulo": titulo, "motivo": "ainda reprovado após reparo"})
+            continue
+        restantes.append(it)
+    edicao["items"] = restantes
+    # trends só com item ainda presente e nome amarrado ao texto
+    if edicao.get("x_trends") is not None:
+        import noticias_reparar as _rep
+        edicao["x_trends"] = _rep.limpar_trends(edicao.get("x_trends") or [], restantes)
+    return edicao, {"descartados": descartados, "restantes": len(restantes)}
+
+
 def main():
     if "--self-test" in sys.argv:
+
         _self_test()
         return
     ed_path = Path(sys.argv[1] if len(sys.argv) > 1 else "")
@@ -224,8 +388,12 @@ def main():
     edicao = json.loads(ed_path.read_text(encoding="utf-8"))
     coleta = json.loads(col_path.read_text(encoding="utf-8")) if col_path.exists() else {"portais": []}
     edicao, rel = reparar.reparar(edicao, cfg, google=True)
+    edicao, rel_itens = reparar_itens_reprovados(edicao, coleta)
     ed_path.write_text(json.dumps(edicao, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("reparo " + json.dumps(rel, ensure_ascii=False))
+    print("reparo_itens " + json.dumps(rel_itens, ensure_ascii=False))
+    for d in rel_itens.get("descartados") or []:
+        print(f"item descartado: {d.get('titulo')} ({d.get('motivo')})")
     graves = list(reparar.conferir_graves(edicao, cfg))
     erros, avisos, metricas = conferir(edicao, coleta) if coleta.get("portais") is not None else ([], [], {})
     # link fora da coleta e número ausente da manchete continuam aviso:
@@ -251,7 +419,11 @@ def _coleta_de_itens(*itens):
         for o in it.get("outlets") or []:
             nome = o.get("name") or "?"
             portais.setdefault(nome, {"nome": nome, "manchetes": []})
-            portais[nome]["manchetes"].append({"titulo": o.get("titulo") or "", "link": o.get("url") or ""})
+            portais[nome]["manchetes"].append({
+                "titulo": o.get("titulo") or "",
+                "descricao": o.get("descricao") or "",
+                "link": o.get("url") or "",
+            })
     return {"portais": list(portais.values()), "temas": {}}
 
 
@@ -265,6 +437,9 @@ def _self_test():
     assert resumo_cortado("GTA VI prende jogadores às telas e faz disp")
     assert not resumo_cortado("Davi Alcolumbre autorizou a Advocacia do Senado a atuar no STF.")
     assert not resumo_cortado("O Palmeiras perdeu de 3 a 0 para a Chapecoense.")
+    assert not resumo_cortado("O Congresso vota o projeto de transparência número 1.")
+    assert resumo_cortado("A autorização vale no colégio em que o filho de D.")
+    assert resumo_cortado("O governo criticou a decisão norte-americ.")
 
     # Frase sem apoio: resumo fala de Petrobras, as manchetes são só do caso Alcolumbre/Van Hattem.
     item_apoio = {
@@ -295,7 +470,7 @@ def _self_test():
             "id": f"extra-{i}",
             "segment": "politica",
             "title": f"Congresso vota o projeto de transparência número {i+1}",
-            "summary": f"O Congresso vota o projeto de transparência número {i+1}. A sessão segue nesta terça.",
+            "summary": f"O Congresso vota o projeto de transparência número {i+1}.",
             "outlets": [{
                 "name": "Poder360",
                 "url": f"https://www.poder360.com.br/poder-congresso/projeto-transparencia-{i+1}/",
@@ -405,6 +580,124 @@ def _self_test():
     assert any(e.startswith("resumo cortado:") for e in erros_bloqueantes(erros5))
     # Número fora da manchete continua no saco de erros brutos, mas não é bloqueante.
     assert all(not e.lower().startswith("número ") or e not in erros_bloqueantes(erros5) for e in erros5)
+
+    # Run 45747320731: frase apoiada na descrição, não no título, não é invenção.
+    item_desc = {
+        "id": "trabuco",
+        "segment": "politica",
+        "title": "Lula sondou Luiz Trabuco, do Bradesco, para o Ministério da Fazenda",
+        "summary": (
+            "O presidente Luiz Inácio Lula da Silva sondou Luiz Carlos Trabuco Cappi, presidente do Conselho de Administração do Bradesco, para assumir o Ministério da Fazenda. "
+            "O encontro ocorreu fora da agenda oficial no Palácio da Alvorada."
+        ),
+        "outlets": [{
+            "name": "Folha de S.Paulo",
+            "url": "https://www1.folha.uol.com.br/trabuco",
+            "titulo": "Lula sondou Luiz Trabuco, do Bradesco, para o Ministério da Fazenda",
+            "descricao": (
+                "Horas depois de se espalhar em Brasília a informação de que o presidente Luiz Inácio Lula da Silva se reuniu na segunda-feira com Luiz Carlos Trabuco Cappi, "
+                "presidente do Conselho de Administração do Bradesco, para assumir o Ministério da Fazenda. O encontro ocorreu fora da agenda oficial no Palácio da Alvorada."
+            ),
+        }],
+    }
+    erros_d, _, _ = conferir({"items": [item_desc] + extras}, _coleta_de_itens(item_desc, *extras))
+    assert not any("frase sem manchete de apoio" in e for e in erros_d), erros_d
+
+    # Boilerplate copiado do lead continua erro, mesmo estando na descrição.
+    item_lixo = dict(item_desc)
+    item_lixo = {
+        **item_desc,
+        "id": "leia-mais",
+        "summary": item_desc["summary"] + " Leia mais (11/25/2026 - 22h09).",
+    }
+    erros_l, _, _ = conferir({"items": [item_lixo] + extras}, _coleta_de_itens(item_lixo, *extras))
+    assert any("frase sem manchete de apoio" in e and "Leia mais" in e for e in erros_l), erros_l
+
+    # Ângulo diferente do mesmo fato (título curto vs lead com Trabuco) não é mistura.
+    item_angulo = {
+        "id": "trabuco-angulo",
+        "segment": "politica",
+        "title": "Lula sondou Luiz Trabuco, do Bradesco, para o Ministério da Fazenda",
+        "summary": "O presidente Luiz Inácio Lula da Silva sondou Luiz Carlos Trabuco Cappi para assumir o Ministério da Fazenda.",
+        "outlets": [
+            {
+                "name": "Folha de S.Paulo",
+                "url": "https://www1.folha.uol.com.br/trabuco-1",
+                "titulo": "Lula sondou Luiz Trabuco, do Bradesco, para o Ministério da Fazenda",
+                "descricao": "Lula sondou Luiz Carlos Trabuco Cappi, do Bradesco, para o Ministério da Fazenda.",
+            },
+            {
+                "name": "Estadão",
+                "url": "https://www.estadao.com.br/trabuco-dolar",
+                "titulo": "Após especulação mexer com dólar, Lula teria sondado executivo do Bradesco",
+                "descricao": "Lula teria sondado Luiz Trabuco, presidente do Conselho do Bradesco, para o Ministério da Fazenda, depois de o dólar reagir.",
+            },
+        ],
+    }
+    erros_a, _, _ = conferir({"items": [item_angulo] + extras}, _coleta_de_itens(item_angulo, *extras))
+    assert not any("assuntos misturados" in e for e in erros_a), erros_a
+
+    # Mistura real do mesmo run: tarifaço + qualidade do ar em Manaus.
+    item_manaus = {
+        "id": "tarifaco",
+        "segment": "internacional",
+        "title": "Brasil critica possível novo tarifaço dos EUA e diz que não cederá",
+        "summary": "O governo brasileiro criticou a decisão dos Estados Unidos de propor novas tarifas de importação.",
+        "outlets": [
+            {
+                "name": "G1",
+                "url": "https://g1.globo.com/tarifaco",
+                "titulo": "Governo Lula diz que não cederá a ameaças após tarifas dos EUA",
+                "descricao": "O governo brasileiro classificou como inaceitável o novo tarifaço proposto pelos Estados Unidos.",
+            },
+            {
+                "name": "G1",
+                "url": "https://g1.globo.com/manaus-ar",
+                "titulo": "Manaus segue com qualidade do ar muito ruim nesta quarta-feira",
+                "descricao": "A qualidade do ar em Manaus permanece em nível muito ruim nesta quarta-feira por causa das queimadas.",
+            },
+        ],
+    }
+    erros_m, _, _ = conferir({"items": [item_manaus] + extras}, _coleta_de_itens(item_manaus, *extras))
+    assert any("assuntos misturados" in e and "Manaus" in e for e in erros_m), erros_m
+
+    # Reparo descarta o veículo misturado e reconstitui 5 frases ancoradas; a edição segue.
+    fontes5 = []
+    descricoes = [
+        "O governo brasileiro criticou a decisão dos Estados Unidos de propor novas tarifas de importação sobre produtos brasileiros.",
+        "A medida foi anunciada pelo Escritório do Representante Comercial dos Estados Unidos e inclui açúcar e aeronaves.",
+        "Em nota, a Secom afirmou que o país não cederá a pressões comerciais de Washington.",
+        "O Itamaraty avaliou o anúncio como uma tentativa de forçar mudanças no Pix e em regras digitais.",
+        "A indústria aeronáutica acompanha o impacto da tarifa sobre as exportações da Embraer.",
+    ]
+    for i, d in enumerate(descricoes):
+        fontes5.append({
+            "name": f"Portal {i}",
+            "url": f"https://exemplo.com/tarifa-{i}",
+            "titulo": "EUA propõem novas tarifas sobre o Brasil",
+            "descricao": d,
+        })
+    item_reparo = {
+        "id": "tarifas-reparo",
+        "segment": "internacional",
+        "title": "EUA propõem novas tarifas sobre o Brasil e pressionam por mudanças no Pix",
+        "summary": "O governo dos Estados Unidos propôs novas tarifas. Leia mais (11/25/2026 - 22h09).",
+        "outlets": fontes5 + [{
+            "name": "G1",
+            "url": "https://g1.globo.com/manaus-ar-2",
+            "titulo": "Manaus segue com qualidade do ar muito ruim nesta quarta-feira",
+            "descricao": "A qualidade do ar em Manaus permanece em nível muito ruim nesta quarta-feira por causa das queimadas.",
+        }],
+    }
+    ed_rep, rel_rep = reparar_itens_reprovados({"items": [item_reparo] + extras}, _coleta_de_itens(item_reparo, *extras))
+    assert rel_rep["restantes"] >= 8, rel_rep
+    consertado = next(i for i in ed_rep["items"] if i["id"] == "tarifas-reparo")
+    assert "Manaus" not in (consertado.get("summary") or "")
+    assert "Leia mais" not in (consertado.get("summary") or "")
+    assert len(_frases(consertado["summary"])) == 5
+    erros_r, _, _ = conferir(ed_rep, _coleta_de_itens(*ed_rep["items"]))
+    assert not any("assuntos misturados" in e and "tarifas-reparo" in e or (consertado["title"] in e and "assuntos misturados" in e) for e in erros_r), erros_r
+    assert not any("frase sem manchete de apoio" in e and consertado["title"] in e for e in erros_r), erros_r
 
     print("qa_edicao: ok")
 
