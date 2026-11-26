@@ -1,212 +1,238 @@
 {
   "date": "2026-11-26",
-  "generated": "2026-11-26T09:15:36-03:00",
+  "generated": "2026-11-26T09:44:06-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Moraes autoriza Débora do Batom a sair para apresentação do filho; TCU afasta multas a Dilma por irregularidades fiscais; CMN e BC anunciam regras para conter endividamento das famílias",
-  "abertura": "O ministro Alexandre de Moraes autorizou Débora do Batom a comparecer à apresentação do filho, um gesto que humaniza decisões judiciais. Enquanto isso, o Tribunal de Contas da União afastou multas contra Dilma Rousseff e auxiliares por irregularidades fiscais de 2014, decisão que reforça a necessidade de rigor técnico nas análises. No campo econômico, o Conselho Monetário Nacional e o Banco Central anunciaram novas regras para conter o endividamento das famílias brasileiras, buscando maior responsabilidade financeira. Esses temas mostram a tensão entre justiça, política e economia que o país vive hoje.",
+  "titulo": "IPCA-15 desacelera em novembro; Rio enfrenta temporais; Polícia Civil prende 423 foragidos no RJ",
+  "abertura": "O IPCA-15 subiu 0,22% em novembro, mostrando desaceleração da inflação, impulsionada pela queda nos preços dos combustíveis e passagens aéreas. Enquanto isso, o Rio de Janeiro amanheceu sob chuva forte, superando a média do mês e com previsão de novos temporais. Na segurança pública, a Polícia Civil do Rio prendeu 423 foragidos em megaoperação contra crimes patrimoniais. Esses fatos refletem desafios e respostas em economia, clima e segurança no país.",
   "agenda": [],
   "itens": [
     {
-      "id": "autoriza-debora-batom",
-      "bloco": "politica nacional",
-      "titulo": "Moraes autoriza Débora do Batom a comparecer à apresentação do filho",
-      "subtitulo": "Ministro concede saída restrita para evento escolar em Paulínia",
-      "resumo": "O ministro Alexandre de Moraes autorizou a saída da cabeleireira Débora do Batom, que está em prisão domiciliar, exclusivamente para a apresentação natalina do filho no dia 29 de novembro. A autorização é pontual e visa preservar o direito familiar sem comprometer a medida judicial. A decisão demonstra equilíbrio entre o cumprimento da lei e a consideração humana. A saída é restrita ao evento e local indicados, sem outras permissões. O episódio reforça a importância do respeito às instituições e às decisões judiciais.",
+      "id": "ipca-desacelera-novembro-sobe",
+      "bloco": "Economia",
+      "titulo": "IPCA-15 sobe 0,22% em novembro e desacelera",
+      "subtitulo": "Prévia da inflação oficial mostra desaceleração com queda nos combustíveis e passagens aéreas",
+      "resumo": "O IPCA-15, prévia da inflação oficial, subiu 0,22% em novembro, taxa inferior à do mês anterior. A desaceleração foi puxada pela queda nos preços dos combustíveis e das passagens aéreas. Apesar da alta dos alimentos, o índice geral reflete controle inflacionário. Os dados foram divulgados pelo IBGE. A desaceleração indica melhora no cenário econômico para os consumidores.",
       "contexto": [
-        "Débora do Batom está em prisão domiciliar.",
-        "Apresentação do filho será em escola de Paulínia, SP.",
-        "Saída autorizada apenas para o dia 29 de novembro.",
-        "Ministro Alexandre de Moraes é responsável pela decisão."
+        "IPCA-15 é prévia da inflação oficial medida pelo IBGE",
+        "Queda nos combustíveis e passagens aéreas contribuiu para desaceleração",
+        "Alta dos alimentos pressiona, mas não impede desaceleração geral",
+        "Indicador é importante para decisões de política econômica",
+        "Reflete impacto das medidas de controle de preços e mercado"
       ],
       "angulo": [
-        "Decisão respeita o direito à convivência familiar.",
-        "Mostra equilíbrio do Judiciário entre rigor e humanidade.",
-        "Reforça a autoridade das medidas judiciais.",
-        "Evita interpretações que fragilizem o Estado de Direito."
+        "Desaceleração da inflação reforça responsabilidade fiscal do governo",
+        "Queda nos combustíveis beneficia famílias e a economia real",
+        "Controle da inflação é fundamental para a estabilidade econômica",
+        "Indicadores positivos ajudam a manter confiança dos investidores"
       ],
       "perguntas": [
-        "Como a decisão de Moraes reflete o equilíbrio entre justiça e humanidade?",
-        "Quais os limites adequados para concessão de saídas em prisão domiciliar?",
-        "De que forma essa autorização impacta a percepção sobre o Judiciário?"
+        "Como a desaceleração do IPCA-15 impacta o orçamento das famílias brasileiras?",
+        "Quais medidas do governo contribuíram para a queda nos preços dos combustíveis?",
+        "De que forma a inflação controlada influencia a política econômica para 2027?"
       ],
       "fontes": [
         {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/moraes-autoriza-saida-de-debora-do-batom-para-apresentacao-de-natal-do-filho/"
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/previa-da-inflacao-ipca-15-desacelera-para-022-em-outubro"
         },
         {
-          "name": "R7",
-          "url": "https://noticias.r7.com/brasilia/moraes-autoriza-debora-do-batom-a-comparecer-a-apresentacao-do-filho-26112026/"
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/noticia/2026/11/26/ipca-15-desacelera-e-fica-em-022percent-apesar-da-alta-dos-alimentos.ghtml"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/economia/previa-da-inflacao-sobe-0-22-em-novembro-diz-ibge"
         }
       ]
     },
     {
-      "id": "tcu-afasta-multas-dilma",
-      "bloco": "politica nacional",
-      "titulo": "TCU afasta multas a Dilma Rousseff e auxiliares por irregularidades fiscais de 2014",
-      "subtitulo": "Tribunal arquiva processo sem sanções individuais, mantém rejeição das contas",
-      "resumo": "O Tribunal de Contas da União decidiu afastar as multas impostas à ex-presidente Dilma Rousseff e seus auxiliares por supostas irregularidades fiscais em 2014. O processo foi arquivado sem aplicação de sanções individuais, embora a rejeição das contas daquele ano tenha sido mantida. A decisão reforça a necessidade de rigor técnico e imparcialidade nas análises fiscais. O TCU reafirma seu papel institucional sem ceder a pressões políticas. O episódio destaca a importância do equilíbrio entre controle e justiça fiscal.",
+      "id": "tem-previsao-forte-fria-chuva-passagem-rio-semana",
+      "bloco": "Rio de Janeiro",
+      "titulo": "Rio amanhece sob chuva forte com previsão de novos temporais",
+      "subtitulo": "Capital e Região Metropolitana enfrentam precipitações intensas e alagamentos",
+      "resumo": "O Rio de Janeiro amanheceu sob chuva forte, com precipitações em diversos pontos da capital e Região Metropolitana. Moradores relataram dificuldades para sair de casa devido a alagamentos. A média histórica de chuva para novembro foi superada. A previsão indica que os temporais continuarão nos próximos dias. A situação exige atenção das autoridades e da população para evitar transtornos maiores.",
       "contexto": [
-        "Processo tratava de sanções por gestão fiscal em 2014.",
-        "Multas foram aplicadas a Dilma Rousseff e equipe econômica.",
-        "Decisão arquiva processo sem punições individuais.",
-        "Rejeição das contas do governo de 2014 permanece."
+        "Chuva atingiu Baixada Fluminense, Niterói, Zona Oeste, Zona Sul e Centro",
+        "Superação da média histórica de chuva para novembro",
+        "Previsão aponta para continuidade dos temporais nos próximos dias",
+        "Alagamentos causam transtornos e dificultam mobilidade urbana",
+        "Autoridades monitoram situação para garantir segurança pública"
       ],
       "angulo": [
-        "Decisão reforça a importância do rigor técnico do TCU.",
-        "Evita perseguições políticas disfarçadas de controle fiscal.",
-        "Mantém a credibilidade das instituições de fiscalização.",
-        "Demonstra equilíbrio entre controle e justiça."
+        "Chuvas intensas exigem resposta rápida das autoridades municipais",
+        "Previsão de novos temporais reforça necessidade de prevenção",
+        "Gestão eficiente do tempo e recursos públicos é essencial para minimizar danos",
+        "População deve seguir orientações para garantir segurança pessoal"
       ],
       "perguntas": [
-        "Qual o impacto da decisão do TCU para a responsabilidade fiscal no Brasil?",
-        "Como evitar que processos fiscais sejam usados para perseguição política?",
-        "De que forma o TCU pode fortalecer sua atuação técnica e imparcial?"
+        "Quais medidas a Prefeitura do Rio está adotando para enfrentar os temporais?",
+        "Como a infraestrutura da cidade pode ser aprimorada para evitar alagamentos?",
+        "Qual o papel da população na prevenção de acidentes durante fortes chuvas?"
       ],
       "fontes": [
         {
-          "name": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/tcu-livra-dilma-de-punicoes-por-irregularidades-fiscais-de-2014/"
+          "name": "Diário do Rio",
+          "url": "https://diariodorio.com/rio-de-janeiro/2026/11/26/rio-supera-media-de-chuva-de-novembro-e-previsao-indica-novos-temporais-nos-proximos-dias.html"
         },
         {
-          "name": "Poder360",
-          "url": "https://www.poder360.com.br/poder-justica/tcu-afasta-multas-a-dilma-e-auxiliares-por-irregularidades-fiscais/"
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/rio/noticia/2026/11/26/rio-amanhece-debaixo-de-chuva-previsao-indica-acumulados-de-ate-200-milimetros.ghtml"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/rio/noticia/2026/11/rio-amanhece-debaixo-de-chuva-previsao-indica-acumulados-de-ate-200-milimetros.ghtml"
         }
       ]
     },
     {
-      "id": "novas-regras-endividamento",
-      "bloco": "economia",
-      "titulo": "CMN e BC anunciam novas regras para conter endividamento das famílias",
-      "subtitulo": "Medidas ampliam proteção a consumidores e endurecem critérios para empréstimos",
-      "resumo": "O Conselho Monetário Nacional e o Banco Central aprovaram medidas para prevenir o endividamento excessivo das famílias brasileiras. As novas regras estabelecem critérios mais rigorosos para a concessão de crédito, protegendo consumidores com dificuldades financeiras. A iniciativa busca fortalecer a responsabilidade fiscal e o equilíbrio econômico das famílias. As medidas foram anunciadas recentemente e já entram em vigor para ampliar a segurança do sistema financeiro. O controle do endividamento é fundamental para a estabilidade econômica do país.",
+      "id": "policia-423-prende-patrimoniais-foragidos-rio-civil-megaoper",
+      "bloco": "Segurança pública",
+      "titulo": "Polícia Civil prende 423 foragidos em megaoperação contra crimes patrimoniais no Rio",
+      "subtitulo": "Operação Espoliador mira estruturas criminosas que lucram com roubos e furtos",
+      "resumo": "A Polícia Civil do Rio de Janeiro prendeu 423 foragidos durante a Operação Espoliador. A ação é coordenada pela Secretaria de Estado de Polícia Civil e tem foco em crimes patrimoniais. O objetivo é desarticular organizações criminosas que atuam no estado. A operação reforça o compromisso com a segurança pública e a proteção da população. Resultados expressivos mostram eficiência das forças de segurança estaduais.",
       "contexto": [
-        "Endividamento das famílias é preocupação crescente no Brasil.",
-        "Medidas visam evitar concessão irresponsável de crédito.",
-        "Proteção ampliada para consumidores em dificuldades.",
-        "Iniciativa reforça responsabilidade fiscal e econômica."
+        "Operação Espoliador é uma ação coordenada pela Polícia Civil do RJ",
+        "Foco em criminosos foragidos por crimes patrimoniais como roubos e furtos",
+        "423 prisões realizadas reforçam combate à criminalidade organizada",
+        "Medida contribui para redução da sensação de insegurança na população",
+        "Ação demonstra capacidade operacional das forças de segurança estaduais"
       ],
       "angulo": [
-        "Reforça a disciplina financeira das famílias brasileiras.",
-        "Previne crises financeiras pessoais e sistêmicas.",
-        "Demonstra compromisso das autoridades com a estabilidade.",
-        "Protege o consumidor sem restringir o crédito responsável."
+        "Megaoperação evidencia compromisso com a segurança pública no RJ",
+        "Prisão de foragidos enfraquece organizações criminosas locais",
+        "Ações firmes são essenciais para garantir ordem e proteção à sociedade",
+        "Polícia Civil atua com eficiência para preservar o Estado de Direito"
       ],
       "perguntas": [
-        "Como as novas regras podem ajudar a conter o endividamento das famílias?",
-        "Quais os benefícios de um crédito mais responsável para a economia?",
-        "De que forma o BC e o CMN atuam para garantir equilíbrio financeiro?"
-      ],
-      "fontes": [
-        {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias"
-        },
-        {
-          "name": "Meia Hora",
-          "url": "https://www.meiahora.com.br/geral/2026/11/7326007-cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias.html"
-        }
-      ]
-    },
-    {
-      "id": "ajuste-fiscal-despesas-obrigatorias",
-      "bloco": "economia",
-      "titulo": "Equipe econômica avalia teto individualizado para despesas obrigatórias em novo pacote fiscal",
-      "subtitulo": "Medida deve limitar crescimento de gastos para conter déficit público",
-      "resumo": "A equipe econômica do governo estuda implementar um teto individualizado de 2,5% para o crescimento das despesas obrigatórias, como parte do novo pacote de ajuste fiscal. A proposta visa controlar o aumento dos gastos públicos e garantir responsabilidade fiscal. Atualmente, o limite é aplicado ao conjunto das despesas, e a mudança traria maior rigor e transparência. O mercado reagiu positivamente à expectativa de medidas que preservem o equilíbrio das contas públicas. O ajuste é fundamental para a sustentabilidade econômica do país.",
-      "contexto": [
-        "Despesas obrigatórias crescem e pressionam o orçamento público.",
-        "Limite atual é aplicado ao total de despesas, não individualmente.",
-        "Novo teto individualizado busca maior controle e eficiência.",
-        "Medida faz parte do pacote de ajuste fiscal em debate."
-      ],
-      "angulo": [
-        "Reforça o compromisso com a responsabilidade fiscal.",
-        "Evita crescimento descontrolado dos gastos públicos.",
-        "Transparência e rigor no controle das despesas obrigatórias.",
-        "Contribui para a estabilidade econômica e confiança do mercado."
-      ],
-      "perguntas": [
-        "Quais os benefícios do teto individualizado para as despesas obrigatórias?",
-        "Como essa medida pode impactar o equilíbrio fiscal do país?",
-        "De que forma o ajuste fiscal fortalece a economia brasileira?"
+        "Quais os principais desafios para manter a segurança pública no Rio de Janeiro?",
+        "Como a Operação Espoliador impacta o combate ao crime organizado na região?",
+        "Que estratégias podem ser adotadas para ampliar ações de segurança eficazes?"
       ],
       "fontes": [
         {
           "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/noticia/2026/11/26/equipe-economica-avalia-teto-individualizado-de-25percent-para-despesas-obrigatorias-em-novo-pacote-de-ajuste-fiscal.ghtml"
+          "url": "https://oglobo.globo.com/rio/noticia/2026/11/26/policia-civil-prende-423-criminosos-durante-megaoperacao-contra-crimes-patrimoniais-no-rio.ghtml"
         },
         {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-mostra-alivio-a-espera-de-equipe-economica-mas-nao-ignora-o-fiscal/"
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7325677-operacao-espoliador-policia-busca-foragidos-por-crimes-patrimoniais.html"
+        },
+        {
+          "name": "SBT News",
+          "url": "https://sbtnews.sbt.com.br/noticia/brasil/423-foragidos-da-policia-sao-presos-em-megaoperacao-no-rj"
         }
       ]
     },
     {
-      "id": "stf-julgamento-segundo-turno-rio",
-      "bloco": "rio de janeiro",
-      "titulo": "STF marca para 4 de dezembro julgamento sobre segundo turno no Rio de Janeiro",
-      "subtitulo": "Sessão virtual do plenário terá votação aberta até 15 de dezembro",
-      "resumo": "O Supremo Tribunal Federal agendou para o dia 4 de dezembro o início do julgamento sobre o pedido de segundo turno nas eleições do Rio de Janeiro. A análise será feita em sessão virtual do plenário, com votação aberta até o dia 15 do mesmo mês. O caso está sob relatoria do ministro Cristiano Zanin. A decisão do STF terá impacto direto no processo eleitoral estadual. O julgamento reforça a importância do respeito às regras eleitorais e ao calendário definido pela Justiça Eleitoral.",
+      "id": "fazenda-trabuco-ministerio-sondou-lula-luiz",
+      "bloco": "Política nacional",
+      "titulo": "Dólar cai abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para Fazenda",
+      "subtitulo": "Banqueiro com relação próxima a Lula ganha força para assumir Ministério da Fazenda",
+      "resumo": "O dólar caiu abaixo de R$ 5,80 após notícias de que o presidente Lula sondou Luiz Carlos Trabuco para assumir o Ministério da Fazenda. Trabuco é presidente do conselho do Bradesco e mantém relação próxima com Lula. A possível indicação sinaliza estabilidade e confiança no mercado financeiro. A movimentação é vista como positiva para a economia brasileira. A escolha reforça a intenção de manter responsabilidade fiscal no governo.",
       "contexto": [
-        "Pedido de segundo turno foi protocolado para as eleições no Rio.",
-        "Julgamento será realizado em sessão virtual do STF.",
-        "Votação ficará aberta por quase duas semanas.",
-        "Ministro Cristiano Zanin é o relator do processo."
+        "Luiz Carlos Trabuco é presidente do conselho do Bradesco",
+        "Tem histórico de proximidade com Lula e experiência no setor financeiro",
+        "Sondagem para Ministério da Fazenda gerou reação positiva no mercado",
+        "Queda do dólar reflete confiança na gestão econômica futura",
+        "Indicação pode fortalecer o compromisso com a responsabilidade fiscal"
       ],
       "angulo": [
-        "Decisão do STF é fundamental para a segurança jurídica eleitoral.",
-        "Respeito ao calendário eleitoral fortalece a democracia.",
-        "Transparência e rigor nas decisões judiciais eleitorais.",
-        "Importância do controle institucional sobre processos eleitorais."
+        "Indicação de Trabuco reforça compromisso com gestão econômica responsável",
+        "Mercado reage positivamente à perspectiva de estabilidade fiscal",
+        "Perfil técnico de Trabuco é alinhado com desafios econômicos atuais",
+        "Movimentação demonstra pragmatismo na escolha de ministros"
       ],
       "perguntas": [
-        "Qual a importância do julgamento do STF para as eleições no Rio?",
-        "Como o respeito ao calendário eleitoral reforça a democracia?",
-        "De que forma o STF atua para garantir segurança jurídica eleitoral?"
+        "Quais os principais desafios que Luiz Trabuco enfrentará no Ministério da Fazenda?",
+        "Como a indicação de um banqueiro próximo a Lula pode influenciar a política econômica?",
+        "De que forma a queda do dólar impacta a economia brasileira e o consumidor?"
       ],
       "fontes": [
+        {
+          "name": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/quem-e-luiz-trabuco-banqueiro-que-ganhou-forca-para-assumir-a-fazenda-de-lula/"
+        },
         {
           "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/politica/stf-marca-julgamento-sobre-segundo-turno-no-rio-para-4-de-dezembro/"
+          "url": "https://jovempan.com.br/economia/carreira-no-bradesco-e-proximo-de-lula-quem-e-luiz-trabuco-cotado-para-assumir-a-fazenda/"
         },
         {
-          "name": "Diário do Poder",
-          "url": "https://diariodopoder.com.br/brasil-e-regioes/rio-de-janeiro/e12-rio-de-janeiro/stf-marca-julgamento-sobre-segundo-turno-no-rio-para-dezembro"
+          "name": "Terra",
+          "url": "https://www.terra.com.br/economia/dolar-cai-apos-lula-sondar-possibilidade-de-trabuco-assumir-ministerio-da-fazenda,dcae37ec19b6bca72501f8513949114cpm4l3vz7.html"
         }
       ]
     },
     {
-      "id": "operacao-policia-complexo-lins",
-      "bloco": "seguranca publica",
-      "titulo": "Menino de 6 anos, grávida e outros moradores são feridos em operação da Polícia Civil no Complexo do Lins",
-      "subtitulo": "Suspeito morre e moradores protestam contra ação policial na Zona Norte do Rio",
-      "resumo": "Uma operação da Polícia Civil no Complexo do Lins, Zona Norte do Rio, resultou em ferimentos em um menino de 6 anos, uma mulher grávida de três meses, uma idosa e um barbeiro. Um suspeito morreu durante a ação. Os feridos foram levados ao Hospital Municipal Salgado Filho. Após o tiroteio, moradores protestaram nas ruas contra a operação. A ação demonstra o esforço das forças de segurança para combater o crime, mas também ressalta a necessidade de cuidado para preservar inocentes e a ordem pública.",
+      "id": "lula-demonstracao-alckmin-ministerio-seguranca-publica",
+      "bloco": "Política nacional",
+      "titulo": "Lula demonstra intenção de indicar Alckmin para Ministério da Segurança Pública",
+      "subtitulo": "Vice-presidente pode comandar nova pasta prometida na campanha",
+      "resumo": "O presidente Lula tem manifestado a aliados a intenção de indicar o vice-presidente Geraldo Alckmin para comandar o novo Ministério da Segurança Pública. A criação da pasta é promessa de campanha para reforçar o combate ao crime. A medida provisória para a criação do ministério deve ser publicada em breve. Lula defende autonomia orçamentária para a nova pasta. A indicação de Alckmin sinaliza foco na segurança com liderança experiente.",
       "contexto": [
-        "Operação ocorreu na tarde de quarta-feira no Complexo do Lins.",
-        "Quatro moradores ficaram feridos, incluindo criança e grávida.",
-        "Um suspeito morreu durante a ação policial.",
-        "Moradores protestaram contra a operação após o tiroteio."
+        "Ministério da Segurança Pública é promessa de campanha de Lula",
+        "Alckmin é vice-presidente e tem experiência política consolidada",
+        "Nova pasta terá autonomia orçamentária para atuar com eficiência",
+        "Medida provisória para criação do ministério está em fase final",
+        "Indicação reforça compromisso com combate à criminalidade"
       ],
       "angulo": [
-        "Reforça o compromisso com a segurança pública no Rio.",
-        "Destaca o desafio de proteger civis em operações contra o crime.",
-        "Necessidade de equilíbrio entre ação policial e preservação da ordem.",
-        "Importância do Estado de Direito e da proteção à vida."
+        "Nomeação de Alckmin reforça seriedade na gestão da segurança pública",
+        "Criação do ministério demonstra prioridade do governo na área",
+        "Autonomia orçamentária é fundamental para resultados efetivos",
+        "Alckmin traz experiência política para enfrentar desafios da segurança"
       ],
       "perguntas": [
-        "Como garantir a segurança da população em operações policiais?",
-        "Quais medidas podem minimizar riscos a inocentes em ações contra o crime?",
-        "De que forma a polícia pode atuar com eficiência e respeito à ordem?"
+        "Quais as expectativas para o Ministério da Segurança Pública sob comando de Alckmin?",
+        "Como a autonomia orçamentária pode melhorar a atuação da nova pasta?",
+        "Quais os principais desafios da segurança pública que o governo pretende enfrentar?"
       ],
       "fontes": [
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://www1.folha.uol.com.br/cotidiano/2026/11/crianca-gestante-e-outros-dois-moradores-sao-baleados-durante-acao-policial-na-zona-norte-do-rio.shtml"
+          "name": "Brasil 247",
+          "url": "https://www.brasil247.com/brasil/lula-quer-turbinar-ministerio-da-seguranca-e-planeja-secretaria-contra-o-crime-organizado/"
         },
         {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/menino-de-6-anos-gravida-e-outros-dois-moradores-sao-feridos-durante-operacao-da-policia-civil-no-complexo-do-lins.ghtml"
+          "name": "CBN",
+          "url": "https://cbn.globo.com/politica/noticia/2026/11/26/lula-demonstra-a-aliados-intencao-de-alckmin-para-comandar-ministerio-da-seguranca-publica.ghtml"
+        },
+        {
+          "name": "NSC Total",
+          "url": "https://www.nsctotal.com.br/politica/lula-pode-escolher-vice-presidente-alckmin-para-assumir-comando-do-novo-ministerio-da-seguranca-publica"
+        }
+      ]
+    },
+    {
+      "id": "camara-aprova-protocolo-racismo-escolas",
+      "bloco": "Educação",
+      "titulo": "Câmara aprova protocolo nacional para combater racismo nas escolas",
+      "subtitulo": "Projeto institui acolhimento e medidas de resposta a casos de racismo em instituições de ensino",
+      "resumo": "A Câmara dos Deputados aprovou o Projeto de Lei 4887/2023, que institui um protocolo nacional para combater o racismo nas escolas públicas e privadas. O protocolo prevê acolhimento às vítimas e medidas de resposta a casos de discriminação racial. A proposta é de autoria da deputada Carol Dartora (PT). A iniciativa busca promover ambiente escolar seguro e respeitoso. A aprovação demonstra atenção do Legislativo ao tema da inclusão e respeito.",
+      "contexto": [
+        "Projeto visa combater o racismo nas instituições de ensino",
+        "Prevê acolhimento e suporte às vítimas de discriminação racial",
+        "Abrange escolas públicas e privadas em todo o país",
+        "Proposta é de autoria da deputada Carol Dartora (PT)",
+        "Aprovação indica avanço na legislação sobre direitos humanos"
+      ],
+      "angulo": [
+        "Medida reforça compromisso com ambiente escolar respeitoso e seguro",
+        "Combate ao racismo é fundamental para a formação cidadã",
+        "Protocolo contribui para prevenção e resposta eficiente a casos",
+        "Legislação fortalece valores de respeito e inclusão na educação"
+      ],
+      "perguntas": [
+        "Como o protocolo pode melhorar a convivência nas escolas brasileiras?",
+        "Quais os desafios para implementar medidas eficazes contra o racismo?",
+        "De que forma a sociedade pode apoiar a prevenção da discriminação racial?"
+      ],
+      "fontes": [
+        {
+          "name": "Meia Hora",
+          "url": "https://www.meiahora.com.br/geral/2026/11/amp/7326011-camara-aprova-protocolo-nacional-para-combater-racismo-nas-escolas.html"
+        },
+        {
+          "name": "Tribuna do Norte",
+          "url": "https://tribunadonorte.com.br/politica/camara-aprova-protocolo-nacional-para-combater-racismo-nas-escolas/"
         }
       ]
     }
