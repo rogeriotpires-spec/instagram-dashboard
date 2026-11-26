@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import datetime, timedelta
@@ -95,6 +96,56 @@ SAÍDA:
 """
 
 
+def _frases_resumo(texto):
+    return re.findall(r"[^.!?]+[.!?]+", (texto or "").strip())
+
+
+def ajustar_resumo(texto, frases):
+    """Se o resumo passou da cota, fica só com as primeiras N frases. Não inventa texto."""
+    t = C.sem_travessao((texto or "").strip())
+    partes = _frases_resumo(t)
+    if len(partes) > frases:
+        return "".join(partes[:frases]).strip()
+    return t
+
+
+class ResumoForaDaRegra(ValueError):
+    """Resumo que não deu para ajustar à cota de frases."""
+
+
+def reescrever_resumo(item, frases, completar):
+    """Pede ao modelo só o resumo daquele item, com exatamente N frases."""
+    user = (
+        f"Reescreva SOMENTE o campo resumo deste item para ter EXATAMENTE {frases} frases. "
+        "Mantenha os fatos já escritos. Não invente número, data, citação nem fato novo. "
+        "Responda só com JSON {\"resumo\": \"...\"}.\n\n"
+        + json.dumps(
+            {"titulo": item.get("titulo") or item.get("title"), "resumo": item.get("resumo"), "contexto": item.get("contexto")},
+            ensure_ascii=False,
+        )
+    )
+    bruto = completar(
+        [
+            {"role": "system", "content": "Você ajusta resumos de pauta. Responda só JSON com o campo resumo."},
+            {"role": "user", "content": user},
+        ],
+        schema_nome="programa",
+        max_tokens=2000,
+        temperature=0.2,
+        timeout=90,
+    )
+    resumo = ""
+    if isinstance(bruto, dict):
+        resumo = (bruto.get("resumo") or "").strip()
+        if not resumo and isinstance(bruto.get("itens"), list) and bruto["itens"]:
+            resumo = (bruto["itens"][0].get("resumo") or "").strip()
+    if not resumo:
+        raise ValueError("reescreita do resumo não devolveu texto")
+    novo = dict(item)
+    novo["resumo"] = resumo
+    return novo
+
+
 def _normalizar_item(it, cfg, permitidas):
     if not isinstance(it, dict):
         raise ValueError("item inválido")
@@ -105,7 +156,12 @@ def _normalizar_item(it, cfg, permitidas):
     frases = int(cfg.get("linhas_resumo") or 5)
     n = C.n_frases(resumo)
     if n != frases:
-        raise ValueError(f"resumo de '{titulo}' tem {n} frases, precisava de {frases}")
+        ajustado = ajustar_resumo(resumo, frases)
+        if C.n_frases(ajustado) == frases:
+            print(f"resumo ajustado para {frases} frases: {titulo}", file=sys.stderr)
+            resumo = ajustado
+        else:
+            raise ResumoForaDaRegra(f"resumo de '{titulo}' tem {C.n_frases(ajustado)} frases, precisava de {frases}")
     fontes = C.filtrar_fontes(it.get("fontes") or it.get("sources") or [], permitidas, minimo=1, maximo=4)
     if not fontes:
         raise ValueError(f"item '{titulo}' sem fonte válida")
@@ -140,23 +196,56 @@ def _normalizar_item(it, cfg, permitidas):
 
 
 def re_id(s):
-    import unicodedata, re
+    import unicodedata, re as _re
     # A IA às vezes devolve id numérico; normalize() só aceita str.
     t = unicodedata.normalize("NFD", str(s or ""))
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
-    t = re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+    t = _re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
     return (t or "item")[:60]
 
 
-def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos):
+def _titulo_item(it):
+    if not isinstance(it, dict):
+        return "?"
+    return (it.get("titulo") or it.get("title") or "?").strip() or "?"
+
+
+def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completar=None):
     if not isinstance(bruto, dict):
         raise ValueError("JSON inválido")
-    novos = [_normalizar_item(it, cfg, permitidas) for it in (bruto.get("itens") or [])]
+    frases = int(cfg.get("linhas_resumo") or 5)
+    novos, descartados = [], []
+    for it in (bruto.get("itens") or []):
+        atual = it
+        try:
+            novos.append(_normalizar_item(atual, cfg, permitidas))
+            continue
+        except ResumoForaDaRegra as e:
+            if completar is not None:
+                try:
+                    atual = reescrever_resumo(atual, frases, completar)
+                    novos.append(_normalizar_item(atual, cfg, permitidas))
+                    print(f"resumo reescrito para {frases} frases: {_titulo_item(it)}", file=sys.stderr)
+                    continue
+                except Exception as erro:
+                    print(f"reescreita do resumo falhou: {_titulo_item(it)} ({erro})", file=sys.stderr)
+                    e = erro if isinstance(erro, ValueError) else e
+            titulo = _titulo_item(it)
+            print(f"item descartado: {titulo} ({e})", file=sys.stderr)
+            descartados.append({"titulo": titulo, "motivo": str(e)})
+        except ValueError as e:
+            raise
     alvo = int(cfg.get("itens") or 6)
+    if not novos:
+        raise ValueError("nenhum item novo válido após ajuste e descarte")
     if len(novos) != alvo:
-        raise ValueError(f"esperava {alvo} itens novos, veio {len(novos)}")
+        print(
+            f"aviso: {len(novos)} itens novos, esperado {alvo}; sigo com os válidos",
+            file=sys.stderr,
+        )
     com_meta = sum(1 for it in novos if it.get("metafora"))
-    if com_meta > max(1, alvo // 4 + 1):
+    teto_meta = max(1, len(novos) // 4 + 1)
+    if com_meta > teto_meta:
         raise ValueError(f"metáfora em {com_meta} itens, acima do limite")
     # blocos: no máximo 2 do mesmo
     from collections import Counter
@@ -175,6 +264,8 @@ def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos):
         "itens": itens,
         "excluidos": excluidos if isinstance(excluidos, list) and excluidos and isinstance(excluidos[0], dict) else [{"titulo": t} for t in (excluidos or []) if isinstance(t, str)],
     }
+    if descartados:
+        doc["itens_descartados"] = descartados
     if not doc["titulo"] or not doc["abertura"]:
         raise ValueError("titulo ou abertura vazios")
     if C.tem_travessao(doc):
@@ -228,7 +319,7 @@ def gerar(dia=None, agora=None):
             )
             # excluidos no arquivo: preservar lista original de dicts
             excl_doc = (atual or {}).get("excluidos") or [{"titulo": t} for t in excluidos if isinstance(t, str)]
-            doc = normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excl_doc)
+            doc = normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excl_doc, completar=modelos_ia.completar)
         except (modelos_ia.ModelError, ValueError, json.JSONDecodeError) as e:
             ultimo = e
             aviso = str(e)
@@ -248,8 +339,22 @@ def gerar(dia=None, agora=None):
     raise SystemExit(f"não consegui gerar a pauta do programa: {ultimo}")
 
 
+def _item_base(titulo, resumo, ident="item"):
+    return {
+        "id": ident,
+        "bloco": "Economia",
+        "titulo": titulo,
+        "subtitulo": "Texto segue para a Câmara",
+        "resumo": resumo,
+        "contexto": ["Fato 1 com número.", "Fato 2 com data.", "Fato 3."],
+        "angulo": ["O programa defende X.", "Isso pesa no bolso."],
+        "perguntas": ["P1?", "P2?", "P3?"],
+        "fontes": [{"name": "Ex", "url": "https://ex.com/a"}],
+    }
+
+
 def _self_test():
-    cfg = {"itens": 6, "linhas_resumo": 5, "perguntas_por_item": 3, "blocos": ["Economia"], "virada_hora": 14}
+    cfg = {"itens": 6, "linhas_resumo": 5, "perguntas_por_item": 3, "blocos": ["Economia", "Política", "Segurança", "Esportes"], "virada_hora": 14}
     d13 = data_da_pauta(cfg, datetime(2026, 11, 19, 13, 59, tzinfo=C.BRT))
     d14 = data_da_pauta(cfg, datetime(2026, 11, 19, 14, 0, tzinfo=C.BRT))
     assert d13.isoformat() == "2026-11-19", d13
@@ -258,19 +363,92 @@ def _self_test():
     assert re_id(123) == "123"
     assert re_id(None) == "item"
     permitidas = {"https://ex.com/a"}
-    it = {
-        "id": "ajuste-fiscal",
-        "bloco": "Economia",
-        "titulo": "Senado aprova o ajuste fiscal do governo",
-        "subtitulo": "Texto segue para a Câmara",
-        "resumo": "O Senado aprovou o ajuste. O impacto caiu. O texto vai à Câmara. A oposição ficou isolada. O governo celebra o acordo.",
-        "contexto": ["Fato 1 com número.", "Fato 2 com data.", "Fato 3."],
-        "angulo": ["O programa defende X.", "Isso pesa no bolso."],
-        "perguntas": ["P1?", "P2?", "P3?"],
-        "fontes": [{"name": "Ex", "url": "https://ex.com/a"}],
-    }
+    it = _item_base(
+        "Senado aprova o ajuste fiscal do governo",
+        "O Senado aprovou o ajuste. O impacto caiu. O texto vai à Câmara. A oposição ficou isolada. O governo celebra o acordo.",
+        "ajuste-fiscal",
+    )
     n = _normalizar_item(it, cfg, permitidas)
     assert n["titulo"].startswith("Senado")
+
+    # Caso real da pauta 25/11, tentativa com 6 frases: ajusta e segue.
+    seis = (
+        "Casos de violência e feminicídio voltam à pauta nacional. "
+        "O Ministério Público denunciou um ex-boxeador em Santa Catarina. "
+        "Um idoso foi preso no Paraná sob suspeita de estupro. "
+        "Um professor foi preso na Paraíba. "
+        "A polícia prendeu um suspeito em São Gonçalo. "
+        "O tema segue sob investigação em vários estados."
+    )
+    it6 = _item_base("Casos de violência e feminicídio voltam à pauta nacional", seis, "violencia-6")
+    assert C.n_frases(it6["resumo"]) == 6
+    n6 = _normalizar_item(it6, cfg, permitidas)
+    assert C.n_frases(n6["resumo"]) == 5
+    assert "vários estados" not in n6["resumo"]
+
+    # Caso real da pauta 25/11, título da edição das 06h com 7 frases.
+    sete = (
+        "Diversos casos de segurança pública e violência são registrados no Brasil. "
+        "O Ministério Público denunciou um ex-boxeador em Santa Catarina. "
+        "Um idoso de 84 anos foi preso no Paraná. "
+        "Um professor foi preso na Paraíba. "
+        "A polícia prendeu um suspeito em São Gonçalo. "
+        "A novela da TV Globo entrou no mesmo resumo por engano. "
+        "O agrupamento misturou fatos que deveriam ficar separados."
+    )
+    it7 = _item_base(
+        "Diversos casos de segurança pública e violência são registrados no Brasil",
+        sete,
+        "violencia-7",
+    )
+    assert C.n_frases(it7["resumo"]) == 7
+    n7 = _normalizar_item(it7, cfg, permitidas)
+    assert C.n_frases(n7["resumo"]) == 5
+    assert "misturou fatos" not in n7["resumo"]
+
+    # Resumo curto demais não se ajusta: descarta só aquele item e publica o resto.
+    blocos = ["Economia", "Economia", "Política", "Política", "Segurança"]
+    bons = []
+    for i, bloco in enumerate(blocos):
+        it = _item_base(
+            f"Senado aprova o ajuste fiscal do ponto {i+1}",
+            "O Senado aprovou o ajuste. O impacto caiu. O texto vai à Câmara. A oposição ficou isolada. O governo celebra o acordo.",
+            f"ajuste-{i+1}",
+        )
+        it["bloco"] = bloco
+        bons.append(it)
+    ruim = _item_base(
+        "Resumo incompleto da pauta de teste",
+        "Só duas frases saíram. Faltou o restante da pesquisa.",
+        "resumo-curto",
+    )
+    bruto = {
+        "titulo": "Pauta de teste com um item inválido",
+        "abertura": "A bancada começa pelo ajuste. Depois vê o item que falhou. O restante da pauta segue.",
+        "agenda": [],
+        "itens": bons + [ruim],
+    }
+    import io
+    buf = io.StringIO()
+    antigo = sys.stderr
+    sys.stderr = buf
+    try:
+        doc = normalizar(bruto, datetime(2026, 11, 25).date(), "2026-11-25T09:15:00-03:00", cfg, permitidas, [], [])
+    finally:
+        sys.stderr = antigo
+    log = buf.getvalue()
+    assert "item descartado: Resumo incompleto da pauta de teste" in log, log
+    assert len([x for x in doc["itens"] if not x.get("avulsa")]) == 5
+    assert doc["itens_descartados"][0]["titulo"] == "Resumo incompleto da pauta de teste"
+
+    # Se todos os novos caem, a normalização ainda falha para o gerar() tentar de novo.
+    bruto_vazio = {"titulo": "Pauta sem item válido", "abertura": "Nada passou. A pauta não fecha. Falta matéria.", "itens": [ruim]}
+    try:
+        normalizar(bruto_vazio, datetime(2026, 11, 25).date(), "2026-11-25T09:15:00-03:00", cfg, permitidas, [], [])
+        raise AssertionError("deveria falhar quando não resta item novo")
+    except ValueError as e:
+        assert "nenhum item novo válido" in str(e)
+
     print("gerar_programa: ok")
 
 

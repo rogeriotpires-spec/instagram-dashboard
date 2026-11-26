@@ -824,15 +824,76 @@ _CRITERIOS_SECAO = (
 )
 
 
+TAMANHO_LOTE = 120
+
+
 def _lotes(manchetes):
+    """Fatias curtas: o lote grande (420/840) juntava fatos demais num prompt só."""
     n = len(manchetes)
-    if n <= 420:
+    if n <= TAMANHO_LOTE:
         return [manchetes]
-    if n <= 840:
-        meio = n // 2
-        return [manchetes[:meio], manchetes[meio:]]
-    a, b = n // 3, 2 * n // 3
-    return [manchetes[:a], manchetes[a:b], manchetes[b:]]
+    return [manchetes[i:i + TAMANHO_LOTE] for i in range(0, n, TAMANHO_LOTE)]
+
+
+def _mesmo_fato_manchete(a, b):
+    """Critério estrito para partir cluster. mesmo_evento é frouxo demais
+    (um nome de 8 letras cola Copa Feminina com Superliga feminina)."""
+    if not a or not b:
+        return False
+    return notas.mesmo_fato(notas.tokens(a), notas.tokens(b), a, b)
+
+
+def separar_cluster_heterogeneo(fato, por_id):
+    """Recusa cluster com mais de um fato: parte em componentes ligados por mesmo_fato."""
+    ids = [i for i in (fato.get("ids") or []) if i in por_id]
+    if len(ids) <= 1:
+        if ids:
+            novo = dict(fato)
+            novo["ids"] = ids
+            return [novo]
+        return []
+    pai = {i: i for i in ids}
+
+    def achar(x):
+        while pai[x] != x:
+            pai[x] = pai[pai[x]]
+            x = pai[x]
+        return x
+
+    def unir(a, b):
+        pa, pb = achar(a), achar(b)
+        if pa != pb:
+            pai[pa] = pb
+
+    for i, hi in enumerate(ids):
+        for hj in ids[i + 1:]:
+            if _mesmo_fato_manchete(por_id[hi]["titulo"], por_id[hj]["titulo"]):
+                unir(hi, hj)
+    grupos = {}
+    for i in ids:
+        grupos.setdefault(achar(i), []).append(i)
+    if len(grupos) == 1:
+        novo = dict(fato)
+        novo["ids"] = ids
+        return [novo]
+    saida = []
+    for k, gids in enumerate(grupos.values()):
+        novo = dict(fato)
+        novo["ids"] = gids
+        novo["cid"] = f"{fato.get('cid', 'c')}-d{k}"
+        saida.append(novo)
+    print(
+        f"IA: cluster heterogêneo '{fato.get('cid')}' dividido em {len(saida)} fatos",
+        file=sys.stderr,
+    )
+    return saida
+
+
+def partir_fatos_heterogeneos(fatos, por_id):
+    out = []
+    for f in fatos:
+        out.extend(separar_cluster_heterogeneo(f, por_id))
+    return out
 
 
 def _fatos_do_lote(bloco, completar, prefixo, profundidade=0):
@@ -840,6 +901,7 @@ def _fatos_do_lote(bloco, completar, prefixo, profundidade=0):
         "Você agrupa manchetes do MESMO fato e escolhe a seção. "
         "Ângulos diferentes do mesmo acontecimento são um fato só. Inclua todos os veículos desse fato. "
         "Jogos, votações, pessoas ou decisões diferentes ficam separados. Placar diferente é outro fato. "
+        "Recuse cluster heterogêneo: um fato por matéria. Se o lote misturar assuntos, divida. "
         + _CRITERIOS_SECAO +
         " relevancia é um inteiro de 1 a 10 para o perfil: STF, corrupção, economia no bolso, eleição, "
         "segurança, Rio, imprensa, educação. "
@@ -904,7 +966,7 @@ def _fatos_do_lote(bloco, completar, prefixo, profundidade=0):
         })
     for f in fatos:
         _corrigir_secao(f, por_lote)
-    return fatos
+    return partir_fatos_heterogeneos(fatos, por_lote)
 
 
 _POLITICA_MARCA = ("stf", "supremo", "senado", "congresso", "deputado", "senador", "eleicao", "eleicoes", "lula", "bolsonaro")
@@ -1016,7 +1078,8 @@ def agrupar_fatos(manchetes, completar):
     print(f"IA: {len(manchetes)} manchetes em {len(lotes)} lote(s) para o modelo", file=sys.stderr)
     fatos = []
     for i, lote in enumerate(lotes):
-        fatos.extend(_fatos_do_lote(lote, completar, chr(ord("a") + i)))
+        prefixo = chr(ord("a") + i) if i < 26 else f"l{i}"
+        fatos.extend(_fatos_do_lote(lote, completar, prefixo))
     print(f"IA: {len(fatos)} fatos nos lotes", file=sys.stderr)
     por_id = {h["id"]: h for h in manchetes}
 
@@ -1027,7 +1090,7 @@ def agrupar_fatos(manchetes, completar):
     miudos = [f for f in fatos if f not in importantes]
     if len(lotes) > 1 and len(importantes) > 1:
         importantes = unir_fatos_entre_lotes(importantes, por_id, completar)
-    fatos = _fundir_fatos_locais(importantes + miudos, por_id)
+    fatos = partir_fatos_heterogeneos(_fundir_fatos_locais(importantes + miudos, por_id), por_id)
     print(f"IA: {len(fatos)} fatos depois de unir os lotes", file=sys.stderr)
     for f in fatos:
         _corrigir_secao(f, por_id)
@@ -1043,6 +1106,8 @@ def reserva_por_palavra(manchetes):
             "cid": g["cid"], "ids": g["ids"], "segmento": g.get("segmento") or "politica",
             "relevancia": min(10, max(3, g.get("n") or 1)),
         })
+    por_id = {h["id"]: h for h in manchetes}
+    fatos = partir_fatos_heterogeneos(fatos, por_id)
     print(f"IA: reserva por palavra-chave com {len(fatos)} fatos", file=sys.stderr)
     return fatos
 
@@ -1346,6 +1411,69 @@ def _self_test():
         "Vini Jr. marca três e Brasil goleia Singapura por 7 a 0",
     )
     assert not mesmo_evento("Lula critica o mercado financeiro", "Lula sanciona a lei de segurança pública")
+
+    # Lotes menores: 965 manchetes da coleta 25/11 cabem em fatias de 120, não em 3 blocos de ~320.
+    assert len(_lotes([{"id": i} for i in range(100)])) == 1
+    assert [len(x) for x in _lotes([{"id": i} for i in range(250)])] == [120, 120, 10]
+    assert [len(x) for x in _lotes([{"id": i} for i in range(965)])] == [120, 120, 120, 120, 120, 120, 120, 120, 5]
+    assert max(len(x) for x in _lotes([{"id": i} for i in range(965)])) == TAMANHO_LOTE
+
+    def _por(pares):
+        return {hid: {"id": hid, "titulo": tit, "nome": "X"} for hid, tit in pares}
+
+    # Cluster 25/11-06h: Alcolumbre/Van Hattem + Petrobras + Alckmin na Fazenda.
+    por_alc = _por([
+        ("h1", "Alcolumbre autoriza Advocacia do Senado a atuar em defesa de Marcel Van Hattem"),
+        ("h2", "Alcolumbre autoriza advocacia do Senado a atuar no caso Van Hattem"),
+        ("h3", "Se houver mudanças na política de preços dos combustíveis, será pontual e conjuntural, diz Petrobras"),
+        ("h4", "Alckmin na Fazenda poderia sinalizar nova política fiscal, avalia economista"),
+    ])
+    partes_alc = separar_cluster_heterogeneo({"cid": "alc", "ids": ["h1", "h2", "h3", "h4"], "segmento": "politica"}, por_alc)
+    assert len(partes_alc) >= 3, [([por_alc[i]["titulo"][:40] for i in p["ids"]]) for p in partes_alc]
+    grupo_van = next(p for p in partes_alc if "h1" in p["ids"])
+    assert "h2" in grupo_van["ids"]
+    assert "h3" not in grupo_van["ids"] and "h4" not in grupo_van["ids"]
+
+    # Cluster 25/11-06h: boxeador, idoso, novela e Anatel no mesmo guarda-chuva.
+    por_crime = _por([
+        ("c1", "MP denuncia ex-boxeador suspeito de espancar homem até a morte"),
+        ("c2", "Idoso de 84 anos é preso suspeito de estuprar bisneta de 10 anos no Paraná"),
+        ("c3", "Quem ama cuida: Pedro vira suspeito da morte de Arthur Brandão"),
+        ("c4", "Anatel abre consulta pública sobre medidas de segurança em ligações"),
+    ])
+    partes_crime = separar_cluster_heterogeneo({"cid": "crime", "ids": ["c1", "c2", "c3", "c4"], "segmento": "seguranca"}, por_crime)
+    assert len(partes_crime) == 4, [p["ids"] for p in partes_crime]
+
+    # Governo reduz contenção + Sabrina Sato + Sandy e Junior.
+    por_show = _por([
+        ("s1", "Contenção de gastos no Orçamento cai de R$ 16,1 bi para R$ 12,6 bi após aprovação de pacote fiscal"),
+        ("s2", "Governo reduz contenção de gastos no Orçamento para R$ 12,6 bi"),
+        ("s3", "Sabrina Sato revela previsão para nascimento do filho no Rio"),
+        ("s4", "Sandy e Junior anunciam seis shows em São Paulo em julho de 2027"),
+    ])
+    partes_show = separar_cluster_heterogeneo({"cid": "show", "ids": ["s1", "s2", "s3", "s4"], "segmento": "economia"}, por_show)
+    assert len(partes_show) == 3, [p["ids"] for p in partes_show]
+    fiscal = next(p for p in partes_show if "s1" in p["ids"])
+    assert "s2" in fiscal["ids"] and "s3" not in fiscal["ids"] and "s4" not in fiscal["ids"]
+
+    # Copa Feminina 2027 vs Superliga de vôlei em Brasília: mesmo_evento colaria; mesmo_fato separa.
+    por_copa = _por([
+        ("k1", "Governo lança em Brasília marca da Copa Feminina de 2027"),
+        ("k2", "Superliga feminina: Brasília toma virada e perde pela sétima vez"),
+    ])
+    partes_copa = separar_cluster_heterogeneo({"cid": "copa", "ids": ["k1", "k2"], "segmento": "esportes"}, por_copa)
+    assert len(partes_copa) == 2, [p["ids"] for p in partes_copa]
+
+    # Embaixador na Argentina vs Lei Rouanet.
+    por_arg = _por([
+        ("a1", "Governo Lula retira embaixador na Argentina definitivamente"),
+        ("a2", "Falta de convite para posse acirra crise entre Lula e Milei após eleição"),
+        ("a3", "Lula prepara projeto para proteger Lei Rouanet de ajuste fiscal"),
+    ])
+    partes_arg = separar_cluster_heterogeneo({"cid": "arg", "ids": ["a1", "a2", "a3"], "segmento": "internacional"}, por_arg)
+    assert len(partes_arg) >= 2
+    assert not any({"a1", "a3"} <= set(p["ids"]) for p in partes_arg)
+
     print("editar_com_ia: ok")
 
 
