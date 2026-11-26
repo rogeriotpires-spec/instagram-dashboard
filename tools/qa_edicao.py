@@ -353,22 +353,34 @@ def reparar_itens_reprovados(edicao, coleta):
             novas = _frases_das_fontes(apoio, 5)
             if len(novas) == 5:
                 frases = novas
-            elif _grave(frases) and not _grave(novas) and len(novas) >= 1:
+            elif _grave(frases) and not _grave(novas) and len(novas) == 5:
                 frases = novas
-            elif not _grave(frases) and len(frases) >= 1:
-                pass  # não troca um resumo válido por outro mais curto
-            elif not _grave(novas) and len(novas) >= 1:
+            elif not _grave(novas) and len(novas) == 5:
                 frases = novas
-            else:
+            elif len(frases) != 5:
                 descartados.append({"titulo": titulo, "motivo": "item irreparável (mistura, corte ou frase sem apoio)"})
                 continue
         resumo = " ".join(frases).strip()
         if not resumo.endswith((".", "!", "?")):
             resumo += "."
         it["summary"] = resumo
-        if _grave(_frases(resumo)):
-            descartados.append({"titulo": titulo, "motivo": "ainda reprovado após reparo"})
-            continue
+        # Recheca com o mesmo apoio do conferir, para não deixar frase sem suporte.
+        apoio_final = _apoio(it, manchetes)
+        frases_finais = _frases(it.get("summary") or "")
+        if (
+            len(frases_finais) != 5
+            or _grave(frases_finais)
+            or any(not _frase_apoiada(fr, apoio_final) for fr in frases_finais)
+        ):
+            novas = _frases_das_fontes(apoio_final or apoio, 5)
+            if len(novas) == 5 and not any(not _frase_apoiada(fr, apoio_final or apoio) for fr in novas):
+                resumo = " ".join(novas).strip()
+                if not resumo.endswith((".", "!", "?")):
+                    resumo += "."
+                it["summary"] = resumo
+            else:
+                descartados.append({"titulo": titulo, "motivo": "ainda reprovado após reparo"})
+                continue
         if reparar.resumo_curto(it):
             novas = _frases_das_fontes(apoio, 5)
             if novas:
@@ -830,6 +842,34 @@ def _self_test():
     }
     erros_esc, _, _ = conferir({"items": [item_esc] + extras}, _coleta_de_itens(item_esc, *extras))
     assert any("seção economia para fato de educacao" in e for e in erros_esc), erros_esc
+
+    # Frases do run 45819479692 (fintech) sem apoio: repara ou descarta, não barra a edição.
+    item_ft = {
+        "id": "fintech-fictor",
+        "segment": "seguranca",
+        "title": "Polícia prende donos de fintechs suspeitos de lavar dinheiro de golpes, sequestros e apostas ilegais",
+        "summary": (
+            "Polícia Civil e Ministério Público de São Paulo realizam operação contra estrutura financeira suspeita de lavagem de dinheiro. "
+            "A ação investiga três instituições de pagamento. "
+            "Duas fintechs foram desligadas do sistema Pix por determinação judicial. "
+            "As instituições são suspeitas de movimentar recursos de crimes e apostas ilegais. "
+            "Polícia prende donos de fintechs suspeitos de lavar dinheiro de crimes e apostas ilegais."
+        ),
+        "outlets": [{
+            "name": "G1",
+            "url": "https://g1.globo.com/sp/fintechs",
+            "titulo": "Polícia prende donos de fintechs suspeitos de movimentar dinheiro de golpes, sequestros e apostas ilegais",
+            "descricao": "Por determinação judicial, duas das instituições investigadas foram desligadas do sistema Pix.",
+        }],
+    }
+    ed_ft, rel_ft = reparar_itens_reprovados({"items": [item_ft] + extras}, _coleta_de_itens(item_ft, *extras))
+    ft = next((i for i in ed_ft["items"] if i["id"] == "fintech-fictor"), None)
+    if ft:
+        erros_ft, _, _ = conferir({"items": [ft] + extras}, _coleta_de_itens(ft, *extras))
+        assert not any("frase sem manchete de apoio" in e and "fintechs" in e for e in erros_bloqueantes(erros_ft)), erros_ft
+        assert not reparar.resumo_curto(ft)
+    else:
+        assert rel_ft["descartados"]
 
     print("qa_edicao: ok")
 

@@ -301,6 +301,10 @@ def _ajustar_bloco(item):
             # outro estado: não joga temporal para economia nem para o Rio
             elif notas.tem_outro_estado(t):
                 novo = novo if novo and novo not in {"rio", "seguranca"} else None
+    if seg == "rio" and not notas.tem_sinal_rio(t) and (not novo or novo == "rio"):
+        # Rio Tietê e outros rios não são a seção Rio de Janeiro.
+        item["segment"] = "seguranca" if any(notas.contem_termo(t, k) for k in ("bombeiros", "desaparecido", "buscas")) else (novo or "internacional")
+        return True
     if novo and novo != seg:
         item["segment"] = novo
         return True
@@ -639,6 +643,9 @@ def _self_test():
     assert graves == [], graves
 
     # 1. resumo com 2 frases é curto
+    it_tiete = {"title": "Bombeiros suspendem buscas por caminhoneiro desaparecido no Rio Tietê",
+                "summary": "As buscas no Rio Tietê foram suspensas.", "segment": "rio"}
+    assert _ajustar_bloco(it_tiete) and it_tiete["segment"] != "rio"
     assert resumo_curto({"summary": "O IBGE prorrogou as inscrições. A Bahia oferece mais vagas."})
     assert not resumo_curto({"summary": (
         "O IBGE prorrogou as inscrições para recenseadores. "
