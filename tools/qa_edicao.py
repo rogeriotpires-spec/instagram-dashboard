@@ -345,10 +345,12 @@ def reparar_itens_reprovados(edicao, coleta):
             novas = _frases_das_fontes(apoio, 5)
             if len(novas) == 5:
                 frases = novas
-            elif not _grave(novas) and len(novas) >= 1:
-                frases = novas  # não inventa para chegar a 5
+            elif _grave(frases) and not _grave(novas) and len(novas) >= 1:
+                frases = novas
             elif not _grave(frases) and len(frases) >= 1:
-                pass  # mantém frases já ancoradas
+                pass  # não troca um resumo válido por outro mais curto
+            elif not _grave(novas) and len(novas) >= 1:
+                frases = novas
             else:
                 descartados.append({"titulo": titulo, "motivo": "item irreparável (mistura, corte ou frase sem apoio)"})
                 continue
@@ -359,6 +361,16 @@ def reparar_itens_reprovados(edicao, coleta):
         if _grave(_frases(resumo)):
             descartados.append({"titulo": titulo, "motivo": "ainda reprovado após reparo"})
             continue
+        if reparar.resumo_curto(it):
+            novas = _frases_das_fontes(apoio, 5)
+            if novas:
+                resumo = " ".join(novas).strip()
+                if not resumo.endswith((".", "!", "?")):
+                    resumo += "."
+                it["summary"] = resumo
+            if reparar.resumo_curto(it) or _grave(_frases(it.get("summary") or "")):
+                descartados.append({"titulo": titulo, "motivo": "resumo curto irreparável"})
+                continue
         restantes.append(it)
     edicao["items"] = restantes
     # trends só com item ainda presente e nome amarrado ao texto
@@ -470,11 +482,15 @@ def _self_test():
             "id": f"extra-{i}",
             "segment": "politica",
             "title": f"Congresso vota o projeto de transparência número {i+1}",
-            "summary": f"O Congresso vota o projeto de transparência número {i+1}.",
+            "summary": (
+                f"O Congresso vota o projeto de transparência número {i+1}. "
+                f"A votação do projeto de transparência número {i+1} ocorre nesta sessão do Congresso."
+            ),
             "outlets": [{
                 "name": "Poder360",
                 "url": f"https://www.poder360.com.br/poder-congresso/projeto-transparencia-{i+1}/",
                 "titulo": f"Congresso vota o projeto de transparência número {i+1}",
+                "descricao": f"A votação do projeto de transparência número {i+1} ocorre nesta sessão do Congresso.",
             }],
         })
 
@@ -698,6 +714,23 @@ def _self_test():
     erros_r, _, _ = conferir(ed_rep, _coleta_de_itens(*ed_rep["items"]))
     assert not any("assuntos misturados" in e and "tarifas-reparo" in e or (consertado["title"] in e and "assuntos misturados" in e) for e in erros_r), erros_r
     assert not any("frase sem manchete de apoio" in e and consertado["title"] in e for e in erros_r), erros_r
+
+    # Resumo curto irreparável é descartado; o restante da edição segue.
+    curto = {
+        "id": "ciencia-delas",
+        "segment": "ciencia",
+        "title": "Com tema Ciência Delas, Semana de Ciência e Tecnologia vai até sábado",
+        "summary": "Com tema Ciência Delas, Semana de Ciência e Tecnologia vai até sábado Meia Hora.",
+        "outlets": [{
+            "name": "Meia Hora",
+            "url": "https://www.meiahora.com.br/ciencia-delas",
+            "titulo": "Com tema Ciência Delas, Semana de Ciência e Tecnologia vai até sábado",
+        }],
+    }
+    ed_c, rel_c = reparar_itens_reprovados({"items": [curto] + extras}, _coleta_de_itens(curto, *extras))
+    assert any(d.get("titulo", "").startswith("Com tema") for d in rel_c["descartados"]), rel_c
+    assert rel_c["restantes"] >= 7, rel_c
+    assert all(i["id"] != "ciencia-delas" for i in ed_c["items"])
 
     print("qa_edicao: ok")
 
