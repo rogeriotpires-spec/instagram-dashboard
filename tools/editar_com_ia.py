@@ -980,8 +980,9 @@ def _fatos_do_lote(bloco, completar, prefixo, profundidade=0):
             schema=schema, schema_nome="fatos", max_tokens=6000, temperature=0, timeout=120, barato=True,
         )
     except modelos_ia.ModelError as e:
-        if e.tamanho and len(bloco) > 40 and profundidade < 2:
-            meio = len(bloco) // 2
+        cortada = e.tamanho or "token" in str(e).lower() or "cortad" in str(e).lower()
+        if cortada and len(bloco) > 20 and profundidade < 4:
+            meio = max(1, len(bloco) // 2)
             return _fatos_do_lote(bloco[:meio], completar, prefixo + "x", profundidade + 1) + _fatos_do_lote(
                 bloco[meio:], completar, prefixo + "y", profundidade + 1)
         raise
@@ -1135,7 +1136,14 @@ def agrupar_fatos(manchetes, completar):
     fatos = []
     for i, lote in enumerate(lotes):
         prefixo = chr(ord("a") + i) if i < 26 else f"l{i}"
-        fatos.extend(_fatos_do_lote(lote, completar, prefixo))
+        try:
+            fatos.extend(_fatos_do_lote(lote, completar, prefixo))
+        except modelos_ia.ModelError as e:
+            print(f"IA: lote {prefixo} falhou ({e}); reserva só deste lote", file=sys.stderr)
+            locais = reserva_por_palavra(lote)
+            for j, f in enumerate(locais):
+                f["cid"] = f"{prefixo}r{j}"
+            fatos.extend(locais)
     print(f"IA: {len(fatos)} fatos nos lotes", file=sys.stderr)
     por_id = {h["id"]: h for h in manchetes}
 
@@ -1308,8 +1316,8 @@ def montar_edicao(coleta, cfg, trends, completar):
         alvo["scores"]["cobertura"] = notas.cobertura(len(alvo["outlets"]))
         alvo["score"] = notas.nota_final(alvo["scores"], {c["key"]: c["weight"] for c in cfg["criteria"]})
     itens = fundidos
-    if len(itens) < 24:
-        print(f"IA: {len(itens)} notícias, abaixo de 24; refazendo antes de publicar", file=sys.stderr)
+    if len(itens) < 12:
+        print(f"IA: {len(itens)} notícias, abaixo de 12; refazendo antes de publicar", file=sys.stderr)
         grupos2, brutos2 = uma_rodada()
         itens2, motivos2 = montar_itens(brutos2, grupos2, por_id, cfg, disponiveis_de(coleta, cfg), rec, edition[:10])
         print("IA: segunda rodada " + " ".join(f"{k}={v}" for k, v in motivos2.items()) + f" ficaram={len(itens2)}", file=sys.stderr)
@@ -1326,8 +1334,8 @@ def montar_edicao(coleta, cfg, trends, completar):
                     alvo["outlets"].append(o)
         if len(fundidos2) > len(itens):
             itens = fundidos2
-    if len(itens) < 24:
-        raise SystemExit(f"IA ficou com {len(itens)} notícias, abaixo de 24; a edição anterior permanece")
+    if len(itens) < 12:
+        raise SystemExit(f"IA ficou com {len(itens)} notícias, abaixo de 12; a edição anterior permanece")
     faltam = [s["key"] for s in cfg["segments"] if s.get("min_items") and sum(1 for i in itens if i["segment"] == s["key"]) == 0]
     if faltam:
         print("IA: seções sem item apesar do mínimo: " + ", ".join(faltam), file=sys.stderr)
