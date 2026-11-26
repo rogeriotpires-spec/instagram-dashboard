@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "generated": "2026-11-26T09:44:06-03:00",
+  "generated": "2026-11-26T10:20:06-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Advogada denuncia Janones por estupro e relata ameaças; IPCA-15 desacelera; Rio enfrenta temporais",
-  "abertura": "Começamos a pauta com a denúncia de estupro contra André Janones, que enfrenta acusações graves e cuja advogada relata ameaças nas redes sociais. O caso expõe um ambiente hostil para vítimas e amplia o desgaste político do réu confesso de rachadinha. Na economia, o IPCA-15 mostra desaceleração em novembro, enquanto o Rio de Janeiro enfrenta fortes temporais e desafios na segurança pública.",
+  "titulo": "Advogada denuncia ameaças após acusar Janones; IPCA-15 desacelera e dólar cai com sondagem de Trabuco",
+  "abertura": "Começamos com o caso grave da advogada que acusa Janones de estupro e enfrenta ameaças nas redes. Na economia, o IPCA-15 mostrou desaceleração em novembro, aliviando a pressão inflacionária. O dólar caiu abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para o Ministério da Fazenda, sinalizando mudanças no governo. Também destacamos a aprovação na Câmara do protocolo nacional para combater o racismo nas escolas, um tema que gera debates importantes para a educação.",
   "agenda": [],
   "itens": [
     {
@@ -36,7 +36,8 @@
         }
       ],
       "avulsa": true,
-      "pedido": "https://www.metropoles.com/colunas/andreza-matais/advogada-que-acusou-janones-de-estupro-relata-ameacas-e-ataques-nas-redes"
+      "pedido": "https://www.metropoles.com/colunas/andreza-matais/advogada-que-acusou-janones-de-estupro-relata-ameacas-e-ataques-nas-redes",
+      "destaque": true
     },
     {
       "id": "ipca-desacelera-novembro-sobe",
@@ -74,84 +75,6 @@
         {
           "name": "SBT News",
           "url": "https://sbtnews.sbt.com.br/noticia/economia/previa-da-inflacao-sobe-0-22-em-novembro-diz-ibge"
-        }
-      ]
-    },
-    {
-      "id": "tem-previsao-forte-fria-chuva-passagem-rio-semana",
-      "bloco": "Rio de Janeiro",
-      "titulo": "Rio amanhece sob chuva forte com previsão de novos temporais",
-      "subtitulo": "Capital e Região Metropolitana enfrentam precipitações intensas e alagamentos",
-      "resumo": "O Rio de Janeiro amanheceu sob chuva forte, com precipitações em diversos pontos da capital e Região Metropolitana. Moradores relataram dificuldades para sair de casa devido a alagamentos. A média histórica de chuva para novembro foi superada. A previsão indica que os temporais continuarão nos próximos dias. A situação exige atenção das autoridades e da população para evitar transtornos maiores.",
-      "contexto": [
-        "Chuva atingiu Baixada Fluminense, Niterói, Zona Oeste, Zona Sul e Centro",
-        "Superação da média histórica de chuva para novembro",
-        "Previsão aponta para continuidade dos temporais nos próximos dias",
-        "Alagamentos causam transtornos e dificultam mobilidade urbana",
-        "Autoridades monitoram situação para garantir segurança pública"
-      ],
-      "angulo": [
-        "Chuvas intensas exigem resposta rápida das autoridades municipais",
-        "Previsão de novos temporais reforça necessidade de prevenção",
-        "Gestão eficiente do tempo e recursos públicos é essencial para minimizar danos",
-        "População deve seguir orientações para garantir segurança pessoal"
-      ],
-      "perguntas": [
-        "Quais medidas a Prefeitura do Rio está adotando para enfrentar os temporais?",
-        "Como a infraestrutura da cidade pode ser aprimorada para evitar alagamentos?",
-        "Qual o papel da população na prevenção de acidentes durante fortes chuvas?"
-      ],
-      "fontes": [
-        {
-          "name": "Diário do Rio",
-          "url": "https://diariodorio.com/rio-de-janeiro/2026/11/26/rio-supera-media-de-chuva-de-novembro-e-previsao-indica-novos-temporais-nos-proximos-dias.html"
-        },
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/rio/noticia/2026/11/26/rio-amanhece-debaixo-de-chuva-previsao-indica-acumulados-de-ate-200-milimetros.ghtml"
-        },
-        {
-          "name": "Extra",
-          "url": "https://extra.globo.com/rio/noticia/2026/11/rio-amanhece-debaixo-de-chuva-previsao-indica-acumulados-de-ate-200-milimetros.ghtml"
-        }
-      ]
-    },
-    {
-      "id": "policia-423-prende-patrimoniais-foragidos-rio-civil-megaoper",
-      "bloco": "Segurança pública",
-      "titulo": "Polícia Civil prende 423 foragidos em megaoperação contra crimes patrimoniais no Rio",
-      "subtitulo": "Operação Espoliador mira estruturas criminosas que lucram com roubos e furtos",
-      "resumo": "A Polícia Civil do Rio de Janeiro prendeu 423 foragidos durante a Operação Espoliador. A ação é coordenada pela Secretaria de Estado de Polícia Civil e tem foco em crimes patrimoniais. O objetivo é desarticular organizações criminosas que atuam no estado. A operação reforça o compromisso com a segurança pública e a proteção da população. Resultados expressivos mostram eficiência das forças de segurança estaduais.",
-      "contexto": [
-        "Operação Espoliador é uma ação coordenada pela Polícia Civil do RJ",
-        "Foco em criminosos foragidos por crimes patrimoniais como roubos e furtos",
-        "423 prisões realizadas reforçam combate à criminalidade organizada",
-        "Medida contribui para redução da sensação de insegurança na população",
-        "Ação demonstra capacidade operacional das forças de segurança estaduais"
-      ],
-      "angulo": [
-        "Megaoperação evidencia compromisso com a segurança pública no RJ",
-        "Prisão de foragidos enfraquece organizações criminosas locais",
-        "Ações firmes são essenciais para garantir ordem e proteção à sociedade",
-        "Polícia Civil atua com eficiência para preservar o Estado de Direito"
-      ],
-      "perguntas": [
-        "Quais os principais desafios para manter a segurança pública no Rio de Janeiro?",
-        "Como a Operação Espoliador impacta o combate ao crime organizado na região?",
-        "Que estratégias podem ser adotadas para ampliar ações de segurança eficazes?"
-      ],
-      "fontes": [
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/rio/noticia/2026/11/26/policia-civil-prende-423-criminosos-durante-megaoperacao-contra-crimes-patrimoniais-no-rio.ghtml"
-        },
-        {
-          "name": "O Dia",
-          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7325677-operacao-espoliador-policia-busca-foragidos-por-crimes-patrimoniais.html"
-        },
-        {
-          "name": "SBT News",
-          "url": "https://sbtnews.sbt.com.br/noticia/brasil/423-foragidos-da-policia-sao-presos-em-megaoperacao-no-rj"
         }
       ]
     },
@@ -267,6 +190,74 @@
           "url": "https://tribunadonorte.com.br/politica/camara-aprova-protocolo-nacional-para-combater-racismo-nas-escolas/"
         }
       ]
+    },
+    {
+      "id": "pf-prende-423-foragidos-rj",
+      "bloco": "Segurança pública",
+      "titulo": "Polícia Civil prende 423 foragidos em megaoperação contra crimes patrimoniais no Rio",
+      "subtitulo": "Operação Espoliador mira estruturas criminosas que lucram com crimes patrimoniais no estado",
+      "resumo": "A Polícia Civil do Rio de Janeiro prendeu 423 criminosos durante a Operação Espoliador. A ação é coordenada pela Secretaria de Estado de Polícia Civil e busca desarticular organizações que lucram com crimes patrimoniais. A operação reforça o compromisso com a segurança pública e a proteção da população. A iniciativa demonstra eficiência das forças de segurança no combate à criminalidade. O resultado traz alívio para os moradores da capital e região metropolitana.",
+      "contexto": [
+        "Operação coordenada pela Secretaria de Estado de Polícia Civil do Rio",
+        "Foco em crimes patrimoniais e desarticulação de quadrilhas",
+        "Prisão de 423 criminosos considerados foragidos",
+        "Importância para a segurança pública local e regional"
+      ],
+      "angulo": [
+        "Combate efetivo à criminalidade organizada no Rio de Janeiro",
+        "Aumento da sensação de segurança para a população",
+        "Ação coordenada das forças policiais estaduais",
+        "Exemplo de resposta firme contra o crime patrimonial"
+      ],
+      "perguntas": [
+        "Quais os impactos dessa megaoperação para a segurança pública no Rio?",
+        "Como a Polícia Civil tem atuado para desarticular organizações criminosas?",
+        "Que medidas podem complementar o combate aos crimes patrimoniais no estado?"
+      ],
+      "fontes": [
+        {
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/rio/noticia/2026/11/26/policia-civil-prende-423-criminosos-durante-megaoperacao-contra-crimes-patrimoniais-no-rio.ghtml"
+        },
+        {
+          "name": "O Dia",
+          "url": "https://odia.ig.com.br/rio-de-janeiro/2026/11/7325677-operacao-espoliador-policia-busca-foragidos-por-crimes-patrimoniais.html"
+        }
+      ]
+    },
+    {
+      "id": "bc-reduz-limite-credito-rotativo",
+      "bloco": "Economia",
+      "titulo": "Banco Central reduz limite do cartão de crédito para usuários frequentes do rotativo",
+      "subtitulo": "Medida visa conter endividamento e uso recorrente do crédito rotativo no país",
+      "resumo": "O Banco Central e o Conselho Monetário Nacional aprovaram regras para reduzir o limite do cartão de crédito para clientes que usam o crédito rotativo com frequência. A iniciativa busca prevenir o endividamento excessivo da população. A medida será implementada de forma gradual para evitar impactos abruptos. O controle do crédito rotativo é fundamental para a saúde financeira dos consumidores. A ação reforça a responsabilidade fiscal e o equilíbrio do sistema financeiro.",
+      "contexto": [
+        "Aprovação conjunta do Banco Central e Conselho Monetário Nacional",
+        "Foco na redução gradual do limite para uso do crédito rotativo",
+        "Objetivo de prevenir o endividamento excessivo dos consumidores",
+        "Medida alinhada à responsabilidade fiscal e estabilidade financeira"
+      ],
+      "angulo": [
+        "Medida protege o bolso do brasileiro contra endividamento",
+        "Iniciativa reforça controle do sistema financeiro nacional",
+        "Ação preventiva diante do uso abusivo do crédito rotativo",
+        "Contribuição para a responsabilidade fiscal e equilíbrio econômico"
+      ],
+      "perguntas": [
+        "Como a redução do limite do crédito rotativo pode beneficiar os consumidores?",
+        "Quais os riscos do uso frequente do crédito rotativo para a economia?",
+        "Que outras medidas podem ajudar a conter o endividamento no país?"
+      ],
+      "fontes": [
+        {
+          "name": "Diário do Nordeste",
+          "url": "https://diariodonordeste.verdesmares.com.br/negocios/limite-do-cartao-de-credito-sera-reduzido-para-quem-usa-o-rotativo-com-frequencia-1.3808262"
+        },
+        {
+          "name": "Extra",
+          "url": "https://extra.globo.com/economia/noticia/2026/11/banco-central-determina-que-limite-do-cartao-de-usuarios-frequentes-de-rotativo-seja-reduzido.ghtml"
+        }
+      ]
     }
   ],
   "excluidos": [
@@ -282,6 +273,5 @@
     {
       "titulo": "Niterói registra menor índice de roubos de rua desde 2003"
     }
-  ],
-  "atualizado": "2026-11-26T10:06:28-03:00"
+  ]
 }
