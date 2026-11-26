@@ -254,6 +254,14 @@ def priorizar_noticias(itens, excluir_rejeitados=True):
     return vivos, evitados
 
 
+def _mesmo_item_pauta(a, b):
+    ta = (a.get("titulo") or a.get("title") or "").strip().lower()
+    tb = (b.get("titulo") or b.get("title") or "").strip().lower()
+    if ta and ta == tb:
+        return True
+    return _mesmo_noticia(a, b)
+
+
 def _mesmo_noticia(a, b):
     if a.get("id") and a.get("id") == b.get("id"):
         return True
@@ -371,6 +379,7 @@ NÃO gaste vaga com vitrine ou agenda positiva do Planalto: indicador apresentad
 Quando o fato for denúncia da PGR ou do STF contra parlamentar da oposição, o título, o resumo, o ângulo e as perguntas DEVEM expor a seletividade da acusação e a versão do denunciado (intimidação, dois pesos e duas medidas). Não escreva como boletim da acusação nem como vitória do governo.
 
 Títulos: manchete direta, sujeito e verbo, com o ângulo crítico e factual da oposição, ancorado só nas fontes. Nunca soem como release do Palácio do Planalto.
+Só pauta fatos que estão em "noticias" com url fornecida. Ignore headline_noticias se o fato não estiver nessa lista. Não invente operação, número ou personagem. Não recrie o tema dos avulsos em "itens".
 
 Priorize a leitura de {', '.join(cfg.get('fontes_preferidas') or [])}. Use as urls fornecidas; nunca invente link, número, data ou citação. O G1 não está disponível.
 
@@ -525,7 +534,10 @@ def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completa
             print(f"item descartado: {titulo} ({e})", file=sys.stderr)
             descartados.append({"titulo": titulo, "motivo": str(e)})
         except ValueError as e:
-            raise
+            # Falha de um item (fonte inventada, perguntas, contexto) não derruba a pauta.
+            titulo = _titulo_item(it)
+            print(f"item descartado: {titulo} ({e})", file=sys.stderr)
+            descartados.append({"titulo": titulo, "motivo": str(e)})
     filtrados = []
     for it in novos:
         if item_rejeitado_na_pauta(it):
@@ -542,8 +554,16 @@ def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completa
             continue
         pres_ok.append(it)
     preservados = pres_ok
+    ja_na_pauta = list(avulsos or []) + list(preservados or [])
+    sem_copia = []
+    for it in novos:
+        if any(_mesmo_item_pauta(it, outro) for outro in ja_na_pauta):
+            print(f"item novo repetido de item já na pauta descartado: {it.get('titulo')}", file=sys.stderr)
+            continue
+        sem_copia.append(it)
+    novos = sem_copia
     alvo = int(cfg.get("itens") or 6)
-    if not novos and not (preservados or avulsos):
+    if not novos and not preservados:
         raise ValueError("nenhum item novo válido após ajuste e descarte")
     if novos and len(novos) != alvo:
         print(
@@ -635,7 +655,10 @@ def gerar(dia=None, agora=None):
         ],
         "prioridade": "linha de oposição conservadora: contas públicas, gasto, imposto, impacto no bolso, abusos do STF/PGR, escândalos e contradições do governo e da esquerda, segurança e liberdade de expressão. Não gaste vaga com vitrine ou agenda positiva do Planalto",
         "edicao_noticias": ", ".join(nomes) or ed_nome,
-        "headline_noticias": headline_dia or (edicao or {}).get("headline"),
+        "headline_noticias": "; ".join(
+            (it.get("title") or it.get("titulo") or "") for it in noticias[:3]
+            if (it.get("title") or it.get("titulo"))
+        ) or headline_dia,
         "noticias": noticias,
         "x_trends": x_trends,
         "trends_x": C.trends_arquivo(),
@@ -971,6 +994,34 @@ def _self_test():
         assert "Gayer" in prd
         assert "cartão de crédito" in prd or "rotativo" in prd.lower() or "endividamento" in prd.lower()
         assert "Dilma" in prd or "teto" in prd.lower() or "Débora" in prd or "Moraes" in prd
+
+    # Item sem fonte válida ou que só copia o avulso é descartado; a pauta segue com os válidos.
+    sem_fonte = dict(novo)
+    sem_fonte["id"] = "fintechs-inventadas"
+    sem_fonte["titulo"] = "Fintechs suspeitas de lavar dinheiro de golpes e sequestros são alvos de operação em SP e SC"
+    sem_fonte["fontes"] = [{"name": "Inventado", "url": "https://exemplo-invalido.invalid/materia"}]
+    copia_avulsa = dict(_item_base(
+        "Advogada que acusou Janones de estupro relata ameaças e ataques nas redes",
+        "A advogada relatou ameaças. O deputado é réu confesso de rachadinha. O caso ganhou repercussão nacional. A equipe dela registrou os ataques. O processo segue em apuração.",
+        "janones-copia",
+    ))
+    copia_avulsa["bloco"] = "Política"
+    bruto3 = {
+        "titulo": "Janones, o cartão e o TCU",
+        "abertura": "A pauta abre pelo avulso. O crédito no rotativo aperta. O TCU volta às irregularidades de 2014.",
+        "agenda": [],
+        "itens": [novo, sem_fonte, copia_avulsa],
+    }
+    doc3 = normalizar(
+        bruto3, datetime(2026, 11, 26).date(), "2026-11-26T10:30:00-03:00",
+        cfg, permitidas, [avulsa], [], preservados=[cartao],
+    )
+    t3 = [x["titulo"] for x in doc3["itens"]]
+    assert t3[0].startswith("Advogada que acusou Janones")
+    assert t3.count(avulsa["titulo"]) == 1
+    assert any("TCU afasta" in x for x in t3)
+    assert all("Fintechs" not in x for x in t3)
+    assert cartao["titulo"] in t3
 
     print("gerar_programa: ok")
 
