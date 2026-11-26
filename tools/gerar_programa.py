@@ -131,6 +131,177 @@ def item_local_sem_escala(item):
     return False
 
 
+
+def item_rejeitado_na_pauta(item):
+    """Ocorrência local sem escala ou vitrine/agenda positiva do Planalto."""
+    return item_local_sem_escala(item) or item_vitrine_governista(item)
+
+
+def _texto_norm(item):
+    raw = _blob_item(item)
+    try:
+        import noticias_notas as notas
+        return notas.norm(raw)
+    except Exception:
+        return (raw or "").lower()
+
+
+def item_vitrine_governista(item):
+    """Enquadramento de vitrine ou agenda positiva do Planalto.
+
+    Itens avulsos sempre passam. A função não descarta inflação, câmbio ou
+    Fazenda em si; descarta o ângulo de boa notícia do governo: IPCA que
+    "desacelera", dólar que cai porque o presidente sondou um nome,
+    indicação ministerial como pauta positiva e protocolo identitário
+    nas escolas.
+    """
+    if not isinstance(item, dict):
+        return False
+    if item.get("avulsa") or item.get("pedido"):
+        return False
+    blob = _texto_norm(item)
+    try:
+        import noticias_notas as notas
+        titulo = notas.norm(item.get("titulo") or item.get("title") or "")
+        tem = notas.contem_termo
+    except Exception:
+        titulo = (item.get("titulo") or item.get("title") or "").lower()
+
+        def tem(texto, s):
+            return s in (texto or "")
+
+    if tem(blob, "racismo") and (
+        tem(blob, "escola") or tem(blob, "escolas") or tem(blob, "protocolo")
+    ):
+        return True
+
+    indica = (
+        tem(blob, "indica") or tem(blob, "indicar") or tem(blob, "indicacao")
+        or tem(blob, "demonstra intencao") or tem(blob, "intencao de indicar")
+    )
+    cargo = (
+        tem(blob, "ministerio") or tem(blob, "seguranca publica")
+    )
+    if indica and cargo:
+        return True
+
+    dolar = tem(titulo, "dolar") or tem(blob, "dolar cai") or tem(blob, "dolar recua") or tem(titulo, "abaixo de")
+    cai = tem(blob, "cai") or tem(blob, "recua") or tem(blob, "cai abaixo") or tem(blob, "abaixo de")
+    governo_sonda = (
+        tem(blob, "lula") or tem(blob, "sondar") or tem(blob, "sondou")
+        or tem(blob, "trabuco") or tem(blob, "fazenda")
+    )
+    if dolar and cai and governo_sonda:
+        return True
+
+    if (tem(titulo, "desacelera") or tem(titulo, "desaceleracao")) and (
+        tem(blob, "ipca") or tem(blob, "inflacao")
+    ):
+        return True
+    return False
+
+
+SINAIS_PRIORIDADE_OPOSICAO = (
+    "teto", "ajuste fiscal", "despesas obrigatorias", "gasto publico",
+    "contas publicas", "irregularidades fiscais", "pedalada",
+    "cartao de credito", "rotativo", "endividamento", "limite do cartao",
+    "moraes", "debora do batom", "prisao domiciliar",
+    "liberdade de expressao", "perseguicao", "intimida", "seletividade",
+    "relatorios ao stf", "ministros da corte", "segundo turno",
+    "desvio de cota", "tcu", "cota parlamentar",
+)
+
+
+def peso_editorial(item):
+    """Nota da edição mais bônus da linha de oposição; vitrine e local afundam."""
+    if not isinstance(item, dict):
+        return -100.0
+    if item_rejeitado_na_pauta(item):
+        return -100.0
+    try:
+        import noticias_notas as notas
+        tem = notas.contem_termo
+    except Exception:
+        def tem(texto, s):
+            return s in (texto or "")
+    blob = _texto_norm(item)
+    bonus = 0.0
+    if any(tem(blob, s) for s in SINAIS_PRIORIDADE_OPOSICAO):
+        bonus += 4.0
+    if any(tem(blob, s) for s in (
+        "teto", "ajuste fiscal", "irregularidades fiscais",
+        "cartao de credito", "rotativo", "endividamento",
+    )):
+        bonus += 2.0
+    if any(tem(blob, s) for s in (
+        "moraes", "debora do batom", "seletividade", "intimida",
+        "relatorios ao stf", "tcu",
+    )):
+        bonus += 2.0
+    return float(item.get("score") or 0) + bonus
+
+
+def priorizar_noticias(itens, excluir_rejeitados=True):
+    vivos, evitados = [], []
+    for it in itens or []:
+        if not isinstance(it, dict):
+            continue
+        if excluir_rejeitados and item_rejeitado_na_pauta(it):
+            evitados.append(it)
+            continue
+        vivos.append(it)
+    vivos.sort(key=lambda x: peso_editorial(x), reverse=True)
+    return vivos, evitados
+
+
+def _mesmo_noticia(a, b):
+    if a.get("id") and a.get("id") == b.get("id"):
+        return True
+    try:
+        import noticias_notas as notas
+        ta = (a.get("title") or a.get("titulo") or "") + " " + (a.get("summary") or a.get("resumo") or "")
+        tb = (b.get("title") or b.get("titulo") or "") + " " + (b.get("summary") or b.get("resumo") or "")
+        return notas.mesmo_assunto(ta, tb)
+    except Exception:
+        ta = (a.get("title") or a.get("titulo") or "").strip().lower()
+        tb = (b.get("title") or b.get("titulo") or "").strip().lower()
+        return bool(ta) and ta == tb
+
+
+def _fundir_noticias(itens):
+    saida = []
+    for it in itens or []:
+        achou = False
+        for j, outro in enumerate(saida):
+            if _mesmo_noticia(it, outro):
+                if float(it.get("score") or 0) > float(outro.get("score") or 0):
+                    saida[j] = it
+                achou = True
+                break
+        if not achou:
+            saida.append(it)
+    return saida
+
+
+def noticias_do_dia(dia):
+    """Junta as edições do dia da pauta e prioriza a linha de oposição."""
+    nomes, itens, trends, headline = [], [], [], ""
+    for faixa in ("06h", "12h", "19h"):
+        path = ROOT / "noticias" / f"{dia.isoformat()}-{faixa}.json"
+        if not path.exists():
+            continue
+        ed = C.ler_json(path) or {}
+        nomes.append(f"{dia.isoformat()}-{faixa}")
+        parte, xt = C.resumir_noticias(ed, limite=40)
+        itens.extend(parte)
+        trends.extend(xt or [])
+        if ed.get("headline"):
+            headline = ed.get("headline")
+    itens = _fundir_noticias(itens)
+    priorizados, evitados = priorizar_noticias(itens)
+    return nomes, priorizados, evitados, trends, headline
+
+
 def marcar_destaque_avulso(item):
     if not isinstance(item, dict):
         return item
@@ -149,8 +320,9 @@ def _preservados(atual):
     for it in (atual or {}).get("itens") or []:
         if it.get("avulsa") or it.get("pedido"):
             continue
-        if item_local_sem_escala(it):
-            print(f"item local sem escala nacional deixado de fora: {it.get('titulo')}", file=sys.stderr)
+        if item_rejeitado_na_pauta(it):
+            motivo = "vitrine governista" if item_vitrine_governista(it) else "local sem escala nacional"
+            print(f"item {motivo} deixado de fora: {it.get('titulo')}", file=sys.stderr)
             continue
         outros.append(it)
     return avulsos, outros
@@ -183,9 +355,23 @@ VOZ EDITORIAL:
 {voz}
 
 LINHA: {linha}
-A Revista Timeline e o Conversa Timeline fazem oposição ao governo Lula e ao seu regime. Priorize economia (inflação, gastos públicos, impostos, contas públicas, impacto no bolso do brasileiro) e a denúncia factual de abusos, erros e absurdos do governo e das instituições. Não invente dado; o enquadramento é firme e conservador.
+A Revista Timeline e o Conversa Timeline fazem oposição ao governo Lula e ao seu regime. Não invente dado; o enquadramento é firme e conservador.
 {preserva}
-A pauta é de relevância NACIONAL (Brasil inteiro). Não gaste vaga com ocorrência local restrita a um único estado (chuva local, crime local sem repercussão nacional), salvo se o assunto tiver escala nacional ou já estiver na pauta como item avulso. Se o insumo trouxer itens_locais_rejeitados, não os recoloque.
+A pauta é de relevância NACIONAL (Brasil inteiro). Não gaste vaga com ocorrência local restrita a um único estado (chuva local, crime local sem repercussão nacional), salvo se o assunto tiver escala nacional ou já estiver na pauta como item avulso. Se o insumo trouxer itens_locais_rejeitados, itens_vitrine_rejeitados ou noticias_evitar, não os recoloque nem recicle o enquadramento de vitrine.
+
+SELEÇÃO E ENQUADRAMENTO (obrigatório):
+A seleção NÃO copia a hierarquia nem a manchete da imprensa tradicional. Escolha os fatos do dia pelo interesse da oposição conservadora, nesta ordem:
+1. contas públicas, teto, gastos, impostos, endividamento e impacto real no bolso (limites de crédito, inflação que pesa, pacote fiscal);
+2. denúncia factual de irregularidade, impunidade, contradição ou escândalo do governo, da esquerda e de aliados;
+3. abusos, seletividade e excessos do STF, da PGR e de outras instituições;
+4. perseguição política, liberdade de expressão e segurança pública de escala nacional.
+
+NÃO gaste vaga com vitrine ou agenda positiva do Planalto: indicador apresentado como desaceleração que favorece o governo, câmbio que cai porque o presidente sondou um nome, anúncio de indicação ministerial como pauta positiva, protocolo identitário nas escolas. Prefira o fato que fere o bolso, a credibilidade fiscal ou as instituições, não a manchete celebratória.
+
+Quando o fato for denúncia da PGR ou do STF contra parlamentar da oposição, o título, o resumo, o ângulo e as perguntas DEVEM expor a seletividade da acusação e a versão do denunciado (intimidação, dois pesos e duas medidas). Não escreva como boletim da acusação nem como vitória do governo.
+
+Títulos: manchete direta, sujeito e verbo, com o ângulo crítico e factual da oposição, ancorado só nas fontes. Nunca soem como release do Palácio do Planalto.
+
 Priorize a leitura de {', '.join(cfg.get('fontes_preferidas') or [])}. Use as urls fornecidas; nunca invente link, número, data ou citação. O G1 não está disponível.
 
 SAÍDA:
@@ -194,7 +380,7 @@ SAÍDA:
 - abertura: 3 a 4 frases ligando os temas, começando pelos avulsos.
 - agenda: só compromissos do DIA da pauta com hora marcada. Campo time é relógio (10h, 14h30), nunca data (11/11, 8/11). Pode ser vazia.
 - {vagas_txt}Máximo 2 do mesmo bloco. Blocos: {blocos}.
-- Cada item: id (curto, sem espaços), bloco, titulo (manchete direta, sujeito e verbo, até ~90 caracteres, sem metáfora), subtitulo, resumo com EXATAMENTE {frases} frases na leitura conservadora, contexto (3 a 5 tópicos), angulo (2 a 4 tópicos assertivos, sem 'Análise do programa:'), perguntas ({perguntas} perguntas abertas), atencao (opcional), fontes (2 a 4 objetos {{name, url}} só com urls fornecidas).
+- Cada item: id (curto, sem espaços), bloco, titulo (manchete direta, sujeito e verbo, até ~90 caracteres, ângulo da oposição, sem metáfora e sem tom de release do governo), subtitulo, resumo com EXATAMENTE {frases} frases na leitura conservadora, contexto (3 a 5 tópicos), angulo (2 a 4 tópicos assertivos, sem 'Análise do programa:'), perguntas ({perguntas} perguntas abertas), atencao (opcional), fontes (2 a 4 objetos {{name, url}} só com urls fornecidas).
 - metafora: só em no máximo 25% dos itens, 1 a 2 frases, quando realmente esclarece; nos demais, omita o campo.
 - Não repita tema das 3 pautas anteriores, dos avulsos, nem dos excluídos. Desdobramento novo de verdade: preencha "desdobramento".
 - Um item por assunto. Português do Brasil. Nunca travessão (— ou –). Nunca afirme crime sem condenação.
@@ -342,11 +528,20 @@ def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completa
             raise
     filtrados = []
     for it in novos:
-        if item_local_sem_escala(it):
-            print(f"item novo local sem escala nacional descartado: {it.get('titulo')}", file=sys.stderr)
+        if item_rejeitado_na_pauta(it):
+            motivo = "vitrine governista" if item_vitrine_governista(it) else "local sem escala nacional"
+            print(f"item novo {motivo} descartado: {it.get('titulo')}", file=sys.stderr)
             continue
         filtrados.append(it)
     novos = filtrados
+    pres_ok = []
+    for it in list(preservados or []):
+        if item_rejeitado_na_pauta(it):
+            motivo = "vitrine governista" if item_vitrine_governista(it) else "local sem escala nacional"
+            print(f"item preservado {motivo} descartado: {it.get('titulo')}", file=sys.stderr)
+            continue
+        pres_ok.append(it)
+    preservados = pres_ok
     alvo = int(cfg.get("itens") or 6)
     if not novos and not (preservados or avulsos):
         raise ValueError("nenhum item novo válido após ajuste e descarte")
@@ -404,10 +599,19 @@ def gerar(dia=None, agora=None):
         print("refazer: itens não avulsos serão gerados de novo; avulsos permanecem", file=sys.stderr)
     excluidos = _excluidos(dia, atual)
     ed_nome, edicao = C.edicao_recente()
-    noticias, x_trends = C.resumir_noticias(edicao)
-    permitidas = C.urls_de(noticias, x_trends, C.trends_arquivo(), avulsos, preservados)
+    nomes, noticias, evitados, x_trends, headline_dia = noticias_do_dia(dia)
+    if not noticias and not evitados and edicao:
+        noticias, x_trends = C.resumir_noticias(edicao)
+        noticias, evitados = priorizar_noticias(noticias)
+        nomes = [ed_nome] if ed_nome else []
+        headline_dia = (edicao or {}).get("headline") or ""
+    permitidas = C.urls_de(noticias, evitados, x_trends, C.trends_arquivo(), avulsos, preservados)
     alvo = int(cfg.get("itens") or 6)
     vagas = max(0, alvo - len(preservados))
+    rejeitados_atual = [
+        it for it in (atual or {}).get("itens") or []
+        if not (it.get("avulsa") or it.get("pedido")) and item_rejeitado_na_pauta(it)
+    ]
     payload = {
         "date": dia.isoformat(),
         "generated": gerado,
@@ -416,12 +620,22 @@ def gerar(dia=None, agora=None):
         "itens_aprovados_preservados": [{"titulo": a.get("titulo"), "bloco": a.get("bloco")} for a in preservados],
         "itens_locais_rejeitados": [
             {"titulo": it.get("titulo")}
-            for it in (atual or {}).get("itens") or []
-            if not (it.get("avulsa") or it.get("pedido")) and item_local_sem_escala(it)
+            for it in rejeitados_atual if item_local_sem_escala(it)
         ],
-        "prioridade": "relevância nacional (Brasil inteiro), economia, política nacional, Judiciário e denúncia factual de abusos do governo Lula; não pautar ocorrência local de um só estado",
-        "edicao_noticias": ed_nome,
-        "headline_noticias": (edicao or {}).get("headline"),
+        "itens_vitrine_rejeitados": [
+            {"titulo": it.get("titulo")}
+            for it in rejeitados_atual if item_vitrine_governista(it)
+        ] + [
+            {"titulo": it.get("title") or it.get("titulo")}
+            for it in evitados if item_vitrine_governista(it)
+        ],
+        "noticias_evitar": [
+            {"title": it.get("title") or it.get("titulo"), "motivo": "vitrine governista ou ocorrência local"}
+            for it in evitados
+        ],
+        "prioridade": "linha de oposição conservadora: contas públicas, gasto, imposto, impacto no bolso, abusos do STF/PGR, escândalos e contradições do governo e da esquerda, segurança e liberdade de expressão. Não gaste vaga com vitrine ou agenda positiva do Planalto",
+        "edicao_noticias": ", ".join(nomes) or ed_nome,
+        "headline_noticias": headline_dia or (edicao or {}).get("headline"),
         "noticias": noticias,
         "x_trends": x_trends,
         "trends_x": C.trends_arquivo(),
@@ -432,7 +646,7 @@ def gerar(dia=None, agora=None):
     arquivo = ROOT / "programa" / f"{dia.isoformat()}.json"
     ultimo = None
     for tentativa in range(1, 4):
-        user = "Monte a pauta do dia. Só use fatos e urls dos insumos. Não invente fonte.\n\n" + json.dumps(payload, ensure_ascii=False)
+        user = "Monte a pauta do dia na linha de oposição conservadora. Só use fatos e urls dos insumos. Não invente fonte. Não copie manchete de vitrine do governo.\n\n" + json.dumps(payload, ensure_ascii=False)
         if aviso:
             user += "\n\nCORREÇÃO: a tentativa anterior falhou. Reescreva os itens novos corrigindo:\n" + aviso
         try:
@@ -604,33 +818,109 @@ def _self_test():
         "resumo": "O Supremo Tribunal Federal pautou o julgamento.",
         "bloco": "Rio de Janeiro",
     })
-    atual = {"itens": [avulsa, ipca, chuva, foragidos]}
+
+    # Calibração do Rogerio (26/11): itens 2-5 são vitrine; 6 e 7 fazem sentido;
+    # o avulso do Janones sempre passa.
+    dolar = {
+        "titulo": "Dólar cai abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para Fazenda",
+        "resumo": "O dólar recuou depois que o presidente sondou o banqueiro para o ministério.",
+    }
+    alckmin = {
+        "titulo": "Lula demonstra intenção de indicar Alckmin para Ministério da Segurança Pública",
+        "resumo": "O presidente demonstra intenção de indicar o vice para o Ministério da Segurança Pública.",
+    }
+    escolas = {
+        "titulo": "Câmara aprova protocolo nacional para combater racismo nas escolas",
+        "resumo": "A Câmara aprovou o protocolo nacional contra o racismo nas escolas.",
+        "bloco": "Educação",
+    }
+    cartao = _item_base(
+        "Banco Central reduz limite do cartão de crédito para usuários frequentes do rotativo",
+        "O Banco Central reduz o limite do cartão de quem usa o rotativo com frequência. A regra atinge famílias endividadas. O crédito no bolso fica mais curto. A decisão veio do CMN. Os bancos terão de aplicar o limite.",
+        "bc-cartao",
+    )
+    cartao["bloco"] = "Economia"
+    gayer = _item_base(
+        "PGR denuncia Gustavo Gayer por suposto desvio de cota parlamentar",
+        "A PGR denunciou o deputado por suposto desvio de cota. Gayer classifica o ato como tentativa de intimidá-lo. O caso menciona o ministro Moraes. A defesa aponta seletividade. O processo segue no Supremo.",
+        "pgr-gayer",
+    )
+    gayer["bloco"] = "Política"
+    assert item_vitrine_governista(ipca)
+    assert item_vitrine_governista(dolar)
+    assert item_vitrine_governista(alckmin)
+    assert item_vitrine_governista(escolas)
+    assert not item_vitrine_governista(cartao)
+    assert not item_vitrine_governista(gayer)
+    assert not item_vitrine_governista(avulsa)
+    assert not item_vitrine_governista({
+        "titulo": "TCU afasta multas a Dilma Rousseff e auxiliares por irregularidades fiscais de 2014",
+        "resumo": "O TCU afastou as multas ligadas às irregularidades fiscais de 2014.",
+    })
+
+    atual = {"itens": [avulsa, ipca, dolar, alckmin, escolas, cartao, gayer, chuva, foragidos]}
     avs, pres = _preservados(atual)
     assert len(avs) == 1 and avs[0]["destaque"] is True and avs[0]["avulsa"] is True
-    assert [x["titulo"] for x in pres] == [ipca["titulo"]]
-    # inclusão avulsa / regeneração: itens aprovados permanecem; avulso abre a pauta
-    bruto = {
-        "titulo": "Janones, IPCA e o ajuste do governo",
-        "abertura": "A pauta abre pela denúncia envolvendo Janones. O IPCA-15 desacelera. A bancada também vê o item novo do governo.",
-        "agenda": [],
-        "itens": [dict(it, titulo="Senado aprova o ajuste fiscal do ponto extra") for it in [ipca]],
-    }
-    # reuse a valid new item
+    tit_pres = [x["titulo"] for x in pres]
+    assert cartao["titulo"] in tit_pres
+    assert gayer["titulo"] in tit_pres
+    assert ipca["titulo"] not in tit_pres
+    assert dolar["titulo"] not in tit_pres
+    assert alckmin["titulo"] not in tit_pres
+    assert escolas["titulo"] not in tit_pres
+
+    candidatos = [
+        {"title": ipca["titulo"], "summary": ipca["resumo"], "score": 8.3, "segment": "economia"},
+        {"title": dolar["titulo"], "summary": dolar.get("resumo", ""), "score": 7.1, "segment": "economia"},
+        {"title": alckmin["titulo"], "summary": alckmin.get("resumo", ""), "score": 6.8, "segment": "politica"},
+        {"title": escolas["titulo"], "summary": escolas.get("resumo", ""), "score": 5.8, "segment": "educacao"},
+        {"title": cartao["titulo"], "summary": cartao["resumo"], "score": 6.9, "segment": "economia"},
+        {"title": gayer["titulo"], "summary": gayer["resumo"], "score": 6.0, "segment": "politica"},
+        {"title": "TCU afasta multas a Dilma Rousseff e auxiliares por irregularidades fiscais de 2014",
+         "summary": "O TCU afastou as multas por irregularidades fiscais de 2014.", "score": 8.1, "segment": "politica"},
+        {"title": "Equipe econômica avalia teto individualizado de 2,5% para despesas obrigatórias em novo pacote de ajuste fiscal",
+         "summary": "A equipe econômica discute um teto de 2,5% para as despesas obrigatórias.", "score": 6.8, "segment": "economia"},
+        {"title": "Rio amanhece sob chuva forte com previsão de novos temporais",
+         "summary": "O Rio de Janeiro amanheceu sob chuva. Houve alagamentos na capital.", "score": 8.3, "segment": "rio"},
+    ]
+    priorizados, evitados = priorizar_noticias(candidatos)
+    ev_t = " ".join((x.get("title") or "") for x in evitados).lower()
+    pr_t = " ".join((x.get("title") or "") for x in priorizados)
+    assert "desacelera" in ev_t
+    assert "dólar cai" in ev_t or "dolar cai" in ev_t.replace("ó", "o")
+    assert "alckmin" in ev_t
+    assert "racismo nas escolas" in ev_t
+    assert "chuva" in ev_t
+    assert "cartão de crédito" in pr_t or "cartao de credito" in pr_t.lower()
+    assert "Gayer" in pr_t
+    assert "Dilma" in pr_t
+    assert "teto" in pr_t.lower()
+    assert all(not item_vitrine_governista(x) for x in priorizados)
+    assert peso_editorial(cartao) > peso_editorial(ipca)
+    assert peso_editorial(gayer) > peso_editorial(alckmin)
+
+    # inclusão avulsa / regeneração: itens aprovados de oposição permanecem; vitrine sai
     novo = _item_base(
         "TCU afasta multas a Dilma Rousseff por irregularidades fiscais",
         "O TCU afastou as multas. A decisão alcança auxiliares de 2014. A irregularidade fiscal voltou à pauta. A oposição cobra responsabilidade. O caso segue no tribunal.",
         "tcu-dilma",
     )
     novo["bloco"] = "Política"
-    bruto["itens"] = [novo]
+    bruto = {
+        "titulo": "Janones, o cartão no rotativo e o TCU",
+        "abertura": "A pauta abre pela denúncia envolvendo Janones. O Banco Central aperta o cartão. A bancada também vê o TCU.",
+        "agenda": [],
+        "itens": [novo],
+    }
     doc = normalizar(
         bruto, datetime(2026, 11, 26).date(), "2026-11-26T10:30:00-03:00",
-        cfg, permitidas, [avulsa], [], preservados=[ipca],
+        cfg, permitidas, [avulsa], [], preservados=[cartao, ipca],
     )
     titulos = [x["titulo"] for x in doc["itens"]]
     assert titulos[0].startswith("Advogada que acusou Janones")
     assert doc["itens"][0].get("destaque") is True
-    assert ipca["titulo"] in titulos
+    assert cartao["titulo"] in titulos
+    assert ipca["titulo"] not in titulos
     assert "TCU afasta" in titulos[2]
     assert "chuva" not in " ".join(titulos).lower()
     assert "foragidos" not in " ".join(titulos).lower()
@@ -640,25 +930,47 @@ def _self_test():
         "foragidos-rio",
     )
     local_novo["bloco"] = "Segurança"
+    vitrine_nova = _item_base(
+        "IPCA-15 sobe 0,22% em novembro e desacelera",
+        "O IPCA-15 subiu 0,22% em novembro. A taxa ficou abaixo da do mês anterior. A queda dos combustíveis puxou a desaceleração. Os alimentos subiram. O IBGE divulgou os dados.",
+        "ipca-15-novo",
+    )
+    vitrine_nova["bloco"] = "Economia"
     bruto2 = {
-        "titulo": "Janones e o IPCA na pauta nacional",
-        "abertura": "A pauta abre pelo avulso. O IPCA-15 desacelera. A bancada segue nos temas nacionais.",
+        "titulo": "Janones e o cartão na pauta nacional",
+        "abertura": "A pauta abre pelo avulso. O Banco Central aperta o crédito. A bancada segue nos temas nacionais.",
         "agenda": [],
-        "itens": [novo, local_novo],
+        "itens": [novo, local_novo, vitrine_nova],
     }
     doc2 = normalizar(
         bruto2, datetime(2026, 11, 26).date(), "2026-11-26T10:30:00-03:00",
-        cfg, permitidas, [avulsa], [], preservados=[ipca],
+        cfg, permitidas, [avulsa], [], preservados=[cartao],
     )
     t2 = " ".join(x["titulo"] for x in doc2["itens"]).lower()
     assert "foragidos" not in t2 and "chuva" not in t2, t2
+    assert "desacelera" not in t2
     assert any("Janones" in x["titulo"] for x in doc2["itens"])
-    assert any("IPCA-15" in x["titulo"] for x in doc2["itens"])
+    assert any("cartão de crédito" in x["titulo"] or "cartao" in x["titulo"].lower() for x in doc2["itens"])
     assert any("TCU afasta" in x["titulo"] for x in doc2["itens"])
     texto_prompt = _prompt_sistema(cfg, vagas=2, n_preservados=1, n_avulsos=1)
     assert "oposição ao governo Lula" in texto_prompt
     assert "relevância NACIONAL" in texto_prompt
     assert "NÃO reescreva" in texto_prompt
+    assert "SELEÇÃO E ENQUADRAMENTO" in texto_prompt
+    assert "vitrine ou agenda positiva do Planalto" in texto_prompt
+    assert "seletividade da acusação" in texto_prompt
+
+    # Edições reais do dia, se estiverem no repositório: vitrine fora, 6 e 7 dentro.
+    nomes_dia, priorizados_dia, evitados_dia, _, _ = noticias_do_dia(datetime(2026, 11, 26).date())
+    if priorizados_dia or evitados_dia:
+        evd = " ".join((x.get("title") or "") for x in evitados_dia).lower()
+        prd = " ".join((x.get("title") or "") for x in priorizados_dia)
+        assert "desacelera" in evd
+        assert "alckmin" in evd
+        assert "racismo nas escolas" in evd
+        assert "Gayer" in prd
+        assert "cartão de crédito" in prd or "rotativo" in prd.lower() or "endividamento" in prd.lower()
+        assert "Dilma" in prd or "teto" in prd.lower() or "Débora" in prd or "Moraes" in prd
 
     print("gerar_programa: ok")
 

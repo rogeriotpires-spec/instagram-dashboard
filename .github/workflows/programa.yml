@@ -8,6 +8,10 @@ on:
         description: "Disparo feito pelo agendador do painel (agenda.html), não pelo botão"
         required: false
         default: "nao"
+      refazer:
+        description: "sim = refaz os itens não avulsos e preserva só os avulsos (em destaque). nao = preserva itens já aprovados que não sejam vitrine governista nem ocorrência local"
+        required: false
+        default: "nao"
 
 permissions:
   contents: write
@@ -57,7 +61,12 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || secrets.OPENAI_API_AKEY }}
           GITHUB_TOKEN: ${{ github.token }}
-        run: python3 tools/gerar_programa.py
+        run: |
+          if [ "${{ github.event.inputs.refazer }}" = "sim" ]; then
+            python3 tools/gerar_programa.py --refazer
+          else
+            python3 tools/gerar_programa.py
+          fi
       - name: Publicar
         if: steps.chk.outputs.skip != '1'
         run: |
