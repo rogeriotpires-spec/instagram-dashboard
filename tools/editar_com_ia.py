@@ -115,7 +115,7 @@ def carregar_manchetes(coleta, cfg):
             "quando": quando or "",
             "link": link,
             "dica": dica or "",
-            "descricao": desc[:500],
+            "descricao": notas.limpa_texto_fonte(desc)[:500],
         })
 
     for p in coleta.get("portais") or []:
@@ -342,10 +342,10 @@ def _prompt_redacao(grupos, por_id, recentes_txt, cfg):
         "clube, seleção e campeonato são esportes; pesquisa, vacina e tecnologia são ciencia; "
         "Rio, Niterói, Paes e Castro são rio; país de fora, Trump, Ucrânia e China são internacional; "
         "o resto de governo, Congresso, STF e eleição é politica. "
-        "resumo tem de 2 a 4 frases. Cada frase copia um fato que já está na manchete ou na descrição. "
-        "Se a manchete não sustenta a frase, não escreva a frase. "
-        "Proibido completar lacuna: repercussão, 'autoridades destacam', 'o caso evidencia', "
-        "'agora aguarda', 'a decisão reforça'. "
+        "resumo tem exatamente 5 frases. Cada frase é um fato que já está na manchete ou na descrição/lead. "
+        "Se o texto da fonte não sustenta a frase, não escreva a frase. Não invente contexto, repercussão nem número. "
+        "Proibido 'Leia mais', 'Notícias relacionadas', data de rodapé e completar lacuna: repercussão, "
+        "'autoridades destacam', 'o caso evidencia', 'agora aguarda', 'a decisão reforça'. "
         "Não escreva 'não há', 'não informa' nem fale da coleta. "
         "peso_voce é 10 (forte para o perfil: STF, corrupção, economia no bolso, eleição, segurança, Rio, imprensa, educação), "
         "6 (média) ou 3 (fraca). descarte true se não for notícia. "
@@ -376,11 +376,11 @@ def redigir(grupos, por_id, recentes_lista, cfg, completar):
             "descarte": {"type": "boolean"},
         }, ["cid", "ids", "segmento", "titulo", "resumo", "reuse_id", "desdobramento", "peso_voce", "descarte"])},
     }, ["itens"])
-    for lote in _fatiar(grupos, 10):
+    for lote in _fatiar(grupos, 6):
         sistema, usuario = _prompt_redacao(lote, por_id, recentes_txt, cfg)
         resp = completar(
             [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}],
-            schema=schema, schema_nome="itens", max_tokens=3500, temperature=0.2, timeout=120, barato=True,
+            schema=schema, schema_nome="itens", max_tokens=4500, temperature=0.2, timeout=120, barato=True,
         )
         saida.extend(resp.get("itens") or [])
     return saida
@@ -429,11 +429,27 @@ def montar_itens(brutos, grupos, por_id, cfg, disponiveis, recentes_lista, dia):
                 titulos.append(por_id[i]["descricao"])
         frases = []
         for f in _frases(resumo):
+            f = notas.limpa_texto_fonte(f)
+            if not f or notas.frase_lixo(f):
+                continue
             if re.search(r"repercute|autoridades destacam|o caso evidencia|agora aguarda|a decisao reforca", notas.norm(f)):
                 continue
             if not _frase_apoiada(f, titulos) or not _numeros_ok(f, titulos) or not _aspas_ok(f, titulos):
                 continue
             frases.append(f)
+        if len(frases) < 5:
+            for f in _frases(" ".join(titulos)):
+                f = notas.limpa_texto_fonte(f)
+                if len(f) < 40 or notas.frase_lixo(f):
+                    continue
+                if f in frases or not _frase_apoiada(f, titulos):
+                    continue
+                if not _numeros_ok(f, titulos):
+                    continue
+                frases.append(f)
+                if len(frases) >= 5:
+                    break
+        frases = frases[:5]
         if not frases and por_cid.get(cid, {}).get("completar_secao"):
             desc = por_id[ids[0]].get("descricao") or ""
             frases = [p for p in _frases(desc) if len(p) >= 30][:3]
@@ -527,7 +543,36 @@ def selecionar(itens, cfg):
     return escolhidos
 
 
+def _trend_liga_item(nome, itens):
+    chaves = {w for w in notas.tokens(nome or "") if len(w) >= 4}
+    if not chaves:
+        return None
+    melhor, score = None, 0
+    for it in itens:
+        inter = chaves & notas.tokens((it.get("title") or "") + " " + (it.get("summary") or ""))
+        if len(inter) > score:
+            melhor, score = it, len(inter)
+    return melhor if score else None
+
+
+def _trends_candidatos(trends, itens):
+    """Só trends com relação lexical a uma matéria, sem reality/entretenimento."""
+    saida = []
+    for t in trends or []:
+        nome = (t.get("nome") or "").strip()
+        if not nome or notas.eh_entretenimento(nome):
+            continue
+        n = notas.norm(nome).replace("#", "").replace(" ", "")
+        if any(x in n for x in ("fazendeiro", "aclinica", "ficafran", "ficaserginho", "malipe", "globoplay")):
+            continue
+        if _trend_liga_item(nome, itens) is None:
+            continue
+        saida.append(t)
+    return saida
+
+
 def redigir_trends(itens, trends, completar):
+    trends = _trends_candidatos(trends, itens)
     if not trends:
         return "", []
     lista = "\n".join(
@@ -579,6 +624,17 @@ def redigir_trends(itens, trends, completar):
         item_id = t.get("item_id") or ""
         if item_id not in ids:
             item_id = None
+        ligado = _trend_liga_item(base.get("nome") or "", itens)
+        if item_id is None and ligado is not None:
+            item_id = ligado["id"]
+        if item_id is None:
+            continue
+        if ligado is not None and item_id != ligado["id"]:
+            # o modelo ligou em matéria que não contém o nome do trend
+            if not ({w for w in notas.tokens(base.get("nome") or "") if len(w) >= 4} & notas.tokens(
+                (por_titulo[item_id].get("title") or "") + " " + (por_titulo[item_id].get("summary") or "")
+            )):
+                item_id = ligado["id"]
         fonte = None
         if item_id and por_titulo[item_id]["outlets"]:
             o = por_titulo[item_id]["outlets"][0]
