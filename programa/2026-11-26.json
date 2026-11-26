@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "generated": "2026-11-26T10:24:48-03:00",
+  "generated": "2026-11-26T10:48:35-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Advogada que acusou Janones relata ameaças; IPCA-15 desacelera e dólar cai com sondagem de Trabuco",
-  "abertura": "Começamos com a denúncia da advogada que acusa Janones de estupro e agora enfrenta ameaças nas redes, um claro ataque à liberdade de expressão e à integridade pessoal. Na economia, o IPCA-15 de novembro mostra desaceleração, refletindo alguma melhora no controle da inflação, especialmente com a queda dos combustíveis. O dólar recua abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para o Ministério da Fazenda, sinalizando movimentações importantes no governo. Também destacamos a intenção de Lula em indicar Alckmin para o Ministério da Segurança Pública, reforçando a pauta da segurança nacional.",
+  "titulo": "Advogada denuncia ameaças após acusar Janones; PGR ataca deputado do PL; TCU livra Dilma de multas fiscais",
+  "abertura": "Hoje trazemos a denúncia da advogada que acusa Janones de estupro e relata ameaças nas redes, mostrando o clima de intimidação contra opositores. Enquanto isso, a PGR insiste em perseguição ao deputado Gustavo Gayer, do PL, com acusações que ele classifica como tentativa de intimidação. No campo das contas públicas, o TCU afasta multas contra Dilma Rousseff e seus auxiliares por irregularidades fiscais de 2014, evidenciando a seletividade das instituições. Esses temas revelam o cenário de ataques à direita e a defesa da liberdade de expressão e do Estado de Direito.",
   "agenda": [],
   "itens": [
     {
@@ -40,179 +40,95 @@
       "destaque": true
     },
     {
-      "id": "ipca-desacelera-novembro-sobe",
-      "bloco": "Economia",
-      "titulo": "IPCA-15 sobe 0,22% em novembro e desacelera",
-      "subtitulo": "Prévia da inflação oficial mostra desaceleração com queda nos combustíveis e passagens aéreas",
-      "resumo": "O IPCA-15, prévia da inflação oficial, subiu 0,22% em novembro, taxa inferior à do mês anterior. A desaceleração foi puxada pela queda nos preços dos combustíveis e das passagens aéreas. Apesar da alta dos alimentos, o índice geral reflete controle inflacionário. Os dados foram divulgados pelo IBGE. A desaceleração indica melhora no cenário econômico para os consumidores.",
+      "id": "pgr-denuncia-gustavo-gayer",
+      "bloco": "politica nacional",
+      "titulo": "PGR denuncia deputado Gustavo Gayer por suposto desvio de cota parlamentar",
+      "subtitulo": "Parlamentar do PL classifica ação como tentativa de intimidação seletiva",
+      "resumo": "A Procuradoria-Geral da República denunciou o deputado federal e senador eleito Gustavo Gayer, do PL, por suposto desvio de cota parlamentar. Ele é acusado de peculato, uso de documento falso e associação criminosa. Gayer rebate a acusação e considera a denúncia uma tentativa de intimidação política. O ministro Alexandre de Moraes estipulou prazo para apresentação da defesa. O caso evidencia a seletividade das instituições contra parlamentares da oposição.",
       "contexto": [
-        "IPCA-15 é prévia da inflação oficial medida pelo IBGE",
-        "Queda nos combustíveis e passagens aéreas contribuiu para desaceleração",
-        "Alta dos alimentos pressiona, mas não impede desaceleração geral",
-        "Indicador é importante para decisões de política econômica",
-        "Reflete impacto das medidas de controle de preços e mercado"
+        "Denúncia da PGR contra parlamentar do PL gera reação de defesa",
+        "Acusações incluem desvio de recursos e uso de documentos falsos",
+        "Deputado classifica ação como perseguição política seletiva",
+        "Prazo para defesa foi estipulado pelo ministro Alexandre de Moraes"
       ],
       "angulo": [
-        "Desaceleração da inflação reforça responsabilidade fiscal do governo",
-        "Queda nos combustíveis beneficia famílias e a economia real",
-        "Controle da inflação é fundamental para a estabilidade econômica",
-        "Indicadores positivos ajudam a manter confiança dos investidores"
+        "Exposição da seletividade da PGR contra opositores do governo Lula",
+        "Defesa da presunção de inocência e do direito à ampla defesa",
+        "Crítica à instrumentalização do Judiciário para perseguição política",
+        "Reforço da necessidade de respeito ao Estado de Direito"
       ],
       "perguntas": [
-        "Como a desaceleração do IPCA-15 impacta o orçamento das famílias brasileiras?",
-        "Quais medidas do governo contribuíram para a queda nos preços dos combustíveis?",
-        "De que forma a inflação controlada influencia a política econômica para 2027?"
+        "Quais os riscos da seletividade da PGR para a democracia brasileira?",
+        "Como garantir que acusações contra parlamentares respeitem o devido processo legal?",
+        "De que forma a oposição pode reagir a essas investidas judiciais?"
       ],
       "fontes": [
         {
-          "name": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/previa-da-inflacao-ipca-15-desacelera-para-022-em-outubro"
+          "name": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/republica/pgr-acusa-gustavo-gayer-de-liderar-grupo-para-desviar-verbas-publicas/"
         },
         {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/noticia/2026/11/26/ipca-15-desacelera-e-fica-em-022percent-apesar-da-alta-dos-alimentos.ghtml"
-        },
-        {
-          "name": "SBT News",
-          "url": "https://sbtnews.sbt.com.br/noticia/economia/previa-da-inflacao-sobe-0-22-em-novembro-diz-ibge"
+          "name": "O Tempo",
+          "url": "https://www.otempo.com.br/politica/judiciario/2026/11/25/pgr-denuncia-gayer-por-usar-dinheiro-da-camara-em-escola-de-ingles-loja-e-assessores"
         }
       ]
     },
     {
-      "id": "fazenda-trabuco-ministerio-sondou-lula-luiz",
-      "bloco": "Política nacional",
-      "titulo": "Dólar cai abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para Fazenda",
-      "subtitulo": "Banqueiro com relação próxima a Lula ganha força para assumir Ministério da Fazenda",
-      "resumo": "O dólar caiu abaixo de R$ 5,80 após notícias de que o presidente Lula sondou Luiz Carlos Trabuco para assumir o Ministério da Fazenda. Trabuco é presidente do conselho do Bradesco e mantém relação próxima com Lula. A possível indicação sinaliza estabilidade e confiança no mercado financeiro. A movimentação é vista como positiva para a economia brasileira. A escolha reforça a intenção de manter responsabilidade fiscal no governo.",
+      "id": "tcu-afasta-multas-dilma-2014",
+      "bloco": "politica nacional",
+      "titulo": "TCU afasta multas a Dilma Rousseff e auxiliares por irregularidades fiscais de 2014",
+      "subtitulo": "Tribunal arquiva processo sem aplicar sanções individuais, mantendo rejeição das contas",
+      "resumo": "O Tribunal de Contas da União decidiu afastar as multas aplicadas à ex-presidente Dilma Rousseff e seus auxiliares por supostas irregularidades fiscais em 2014. O processo foi arquivado sem sanções individuais, embora a rejeição das contas daquele ano tenha sido mantida. A decisão reforça a seletividade e a falta de punição efetiva para gestores do PT. O episódio evidencia a leniência das instituições com a esquerda, em contraste com a perseguição à direita. O caso repercute como exemplo da impunidade no governo passado.",
       "contexto": [
-        "Luiz Carlos Trabuco é presidente do conselho do Bradesco",
-        "Tem histórico de proximidade com Lula e experiência no setor financeiro",
-        "Sondagem para Ministério da Fazenda gerou reação positiva no mercado",
-        "Queda do dólar reflete confiança na gestão econômica futura",
-        "Indicação pode fortalecer o compromisso com a responsabilidade fiscal"
+        "Multas por irregularidades fiscais de 2014 foram afastadas pelo TCU",
+        "Processo arquivado sem sanções individuais a Dilma e auxiliares",
+        "Rejeição das contas do governo de 2014 permanece válida",
+        "Decisão evidencia seletividade e impunidade para gestores do PT"
       ],
       "angulo": [
-        "Indicação de Trabuco reforça compromisso com gestão econômica responsável",
-        "Mercado reage positivamente à perspectiva de estabilidade fiscal",
-        "Perfil técnico de Trabuco é alinhado com desafios econômicos atuais",
-        "Movimentação demonstra pragmatismo na escolha de ministros"
+        "Crítica à leniência das instituições com a esquerda",
+        "Destaque para a impunidade em casos de irregularidades fiscais",
+        "Contraste com a perseguição seletiva contra a direita",
+        "Defesa da responsabilidade fiscal e do Estado de Direito"
       ],
       "perguntas": [
-        "Quais os principais desafios que Luiz Trabuco enfrentará no Ministério da Fazenda?",
-        "Como a indicação de um banqueiro próximo a Lula pode influenciar a política econômica?",
-        "De que forma a queda do dólar impacta a economia brasileira e o consumidor?"
+        "Como a decisão do TCU impacta a percepção de justiça fiscal no país?",
+        "Quais os efeitos da impunidade para gestores do PT nas contas públicas?",
+        "De que forma a seletividade institucional prejudica a democracia?"
       ],
       "fontes": [
         {
-          "name": "InfoMoney",
-          "url": "https://www.infomoney.com.br/politica/quem-e-luiz-trabuco-banqueiro-que-ganhou-forca-para-assumir-a-fazenda-de-lula/"
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/tcu-livra-dilma-de-punicoes-por-irregularidades-fiscais-de-2014/"
         },
         {
-          "name": "Jovem Pan",
-          "url": "https://jovempan.com.br/economia/carreira-no-bradesco-e-proximo-de-lula-quem-e-luiz-trabuco-cotado-para-assumir-a-fazenda/"
-        },
-        {
-          "name": "Terra",
-          "url": "https://www.terra.com.br/economia/dolar-cai-apos-lula-sondar-possibilidade-de-trabuco-assumir-ministerio-da-fazenda,dcae37ec19b6bca72501f8513949114cpm4l3vz7.html"
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/tcu-afasta-multas-a-dilma-e-auxiliares-por-irregularidades-fiscais/"
         }
       ]
     },
     {
-      "id": "lula-demonstracao-alckmin-ministerio-seguranca-publica",
-      "bloco": "Política nacional",
-      "titulo": "Lula demonstra intenção de indicar Alckmin para Ministério da Segurança Pública",
-      "subtitulo": "Vice-presidente pode comandar nova pasta prometida na campanha",
-      "resumo": "O presidente Lula tem manifestado a aliados a intenção de indicar o vice-presidente Geraldo Alckmin para comandar o novo Ministério da Segurança Pública. A criação da pasta é promessa de campanha para reforçar o combate ao crime. A medida provisória para a criação do ministério deve ser publicada em breve. Lula defende autonomia orçamentária para a nova pasta. A indicação de Alckmin sinaliza foco na segurança com liderança experiente.",
-      "contexto": [
-        "Ministério da Segurança Pública é promessa de campanha de Lula",
-        "Alckmin é vice-presidente e tem experiência política consolidada",
-        "Nova pasta terá autonomia orçamentária para atuar com eficiência",
-        "Medida provisória para criação do ministério está em fase final",
-        "Indicação reforça compromisso com combate à criminalidade"
-      ],
-      "angulo": [
-        "Nomeação de Alckmin reforça seriedade na gestão da segurança pública",
-        "Criação do ministério demonstra prioridade do governo na área",
-        "Autonomia orçamentária é fundamental para resultados efetivos",
-        "Alckmin traz experiência política para enfrentar desafios da segurança"
-      ],
-      "perguntas": [
-        "Quais as expectativas para o Ministério da Segurança Pública sob comando de Alckmin?",
-        "Como a autonomia orçamentária pode melhorar a atuação da nova pasta?",
-        "Quais os principais desafios da segurança pública que o governo pretende enfrentar?"
-      ],
-      "fontes": [
-        {
-          "name": "Brasil 247",
-          "url": "https://www.brasil247.com/brasil/lula-quer-turbinar-ministerio-da-seguranca-e-planeja-secretaria-contra-o-crime-organizado/"
-        },
-        {
-          "name": "CBN",
-          "url": "https://cbn.globo.com/politica/noticia/2026/11/26/lula-demonstra-a-aliados-intencao-de-alckmin-para-comandar-ministerio-da-seguranca-publica.ghtml"
-        },
-        {
-          "name": "NSC Total",
-          "url": "https://www.nsctotal.com.br/politica/lula-pode-escolher-vice-presidente-alckmin-para-assumir-comando-do-novo-ministerio-da-seguranca-publica"
-        }
-      ]
-    },
-    {
-      "id": "camara-aprova-protocolo-racismo-escolas",
-      "bloco": "Educação",
-      "titulo": "Câmara aprova protocolo nacional para combater racismo nas escolas",
-      "subtitulo": "Projeto institui acolhimento e medidas de resposta a casos de racismo em instituições de ensino",
-      "resumo": "A Câmara dos Deputados aprovou o Projeto de Lei 4887/2023, que institui um protocolo nacional para combater o racismo nas escolas públicas e privadas. O protocolo prevê acolhimento às vítimas e medidas de resposta a casos de discriminação racial. A proposta é de autoria da deputada Carol Dartora (PT). A iniciativa busca promover ambiente escolar seguro e respeitoso. A aprovação demonstra atenção do Legislativo ao tema da inclusão e respeito.",
-      "contexto": [
-        "Projeto visa combater o racismo nas instituições de ensino",
-        "Prevê acolhimento e suporte às vítimas de discriminação racial",
-        "Abrange escolas públicas e privadas em todo o país",
-        "Proposta é de autoria da deputada Carol Dartora (PT)",
-        "Aprovação indica avanço na legislação sobre direitos humanos"
-      ],
-      "angulo": [
-        "Medida reforça compromisso com ambiente escolar respeitoso e seguro",
-        "Combate ao racismo é fundamental para a formação cidadã",
-        "Protocolo contribui para prevenção e resposta eficiente a casos",
-        "Legislação fortalece valores de respeito e inclusão na educação"
-      ],
-      "perguntas": [
-        "Como o protocolo pode melhorar a convivência nas escolas brasileiras?",
-        "Quais os desafios para implementar medidas eficazes contra o racismo?",
-        "De que forma a sociedade pode apoiar a prevenção da discriminação racial?"
-      ],
-      "fontes": [
-        {
-          "name": "Meia Hora",
-          "url": "https://www.meiahora.com.br/geral/2026/11/amp/7326011-camara-aprova-protocolo-nacional-para-combater-racismo-nas-escolas.html"
-        },
-        {
-          "name": "Tribuna do Norte",
-          "url": "https://tribunadonorte.com.br/politica/camara-aprova-protocolo-nacional-para-combater-racismo-nas-escolas/"
-        }
-      ]
-    },
-    {
-      "id": "bc-reduz-limite-credito-rotativo",
-      "bloco": "Economia",
+      "id": "banco-central-reduz-limite-credito",
+      "bloco": "economia",
       "titulo": "Banco Central reduz limite do cartão de crédito para usuários frequentes do rotativo",
       "subtitulo": "Medida visa conter endividamento e uso recorrente do crédito rotativo no país",
-      "resumo": "O Banco Central e o Conselho Monetário Nacional aprovaram regras para reduzir o limite do cartão de crédito para clientes que usam o crédito rotativo com frequência. A iniciativa busca prevenir o endividamento excessivo da população. A medida será implementada de forma gradual para evitar impactos abruptos. O controle do crédito rotativo é fundamental para a saúde financeira dos consumidores. A ação reforça a responsabilidade fiscal e o equilíbrio do sistema financeiro.",
+      "resumo": "O Banco Central, junto ao Conselho Monetário Nacional, aprovou regras para reduzir o limite do cartão de crédito para clientes que utilizam frequentemente o crédito rotativo. A medida busca prevenir o endividamento excessivo e o uso recorrente dessa modalidade de crédito, que pesa no bolso das famílias. A iniciativa faz parte do esforço para conter a inflação e os gastos públicos descontrolados. A redução será gradual e visa maior responsabilidade financeira dos consumidores. A ação reforça a necessidade de ajuste fiscal e controle do crédito.",
       "contexto": [
-        "Aprovação conjunta do Banco Central e Conselho Monetário Nacional",
-        "Foco na redução gradual do limite para uso do crédito rotativo",
-        "Objetivo de prevenir o endividamento excessivo dos consumidores",
-        "Medida alinhada à responsabilidade fiscal e estabilidade financeira"
+        "Limite do cartão será reduzido para usuários frequentes do rotativo",
+        "Objetivo é prevenir o endividamento e uso recorrente do crédito caro",
+        "Medida aprovada pelo Banco Central e Conselho Monetário Nacional",
+        "Ação integra esforços para conter inflação e gastos públicos"
       ],
       "angulo": [
-        "Medida protege o bolso do brasileiro contra endividamento",
-        "Iniciativa reforça controle do sistema financeiro nacional",
-        "Ação preventiva diante do uso abusivo do crédito rotativo",
-        "Contribuição para a responsabilidade fiscal e equilíbrio econômico"
+        "Defesa da responsabilidade fiscal e controle do crédito",
+        "Alerta sobre o impacto do endividamento no bolso do cidadão",
+        "Importância de medidas para ajuste fiscal e contenção de gastos",
+        "Reforço da necessidade de educação financeira e disciplina"
       ],
       "perguntas": [
-        "Como a redução do limite do crédito rotativo pode beneficiar os consumidores?",
-        "Quais os riscos do uso frequente do crédito rotativo para a economia?",
-        "Que outras medidas podem ajudar a conter o endividamento no país?"
+        "Como a redução do limite do rotativo pode ajudar a conter a inflação?",
+        "Quais os impactos do endividamento no orçamento das famílias brasileiras?",
+        "Que outras medidas são necessárias para garantir responsabilidade fiscal?"
       ],
       "fontes": [
         {
@@ -220,43 +136,76 @@
           "url": "https://diariodonordeste.verdesmares.com.br/negocios/limite-do-cartao-de-credito-sera-reduzido-para-quem-usa-o-rotativo-com-frequencia-1.3808262"
         },
         {
-          "name": "Extra",
-          "url": "https://extra.globo.com/economia/noticia/2026/11/banco-central-determina-que-limite-do-cartao-de-usuarios-frequentes-de-rotativo-seja-reduzido.ghtml"
+          "name": "CBN",
+          "url": "https://cbn.globo.com/economia/noticia/2026/11/26/conselho-monetario-nacional-aprova-regras-para-reduzir-uso-do-credito-rotativo-do-cartao.ghtml"
         }
       ]
     },
     {
-      "id": "pgr-denuncia-gayer-desvio",
-      "bloco": "Política nacional",
-      "titulo": "PGR denuncia Gustavo Gayer por suposto desvio de cota parlamentar",
-      "subtitulo": "Acusação aponta uso de verba para financiar negócios privados; deputado nega e atribui denúncia a retaliação",
-      "resumo": "A Procuradoria-Geral da República denunciou o deputado federal Gustavo Gayer por suposto desvio de verba da cota parlamentar para financiar negócios privados. A denúncia envolve também outras 24 pessoas e foi encaminhada ao Supremo Tribunal Federal. Gayer afirmou que a acusação é uma tentativa de silenciá-lo diante das críticas que faz ao STF. O ministro Alexandre de Moraes abriu prazo para a defesa prévia do parlamentar. O caso reforça a tensão entre o Legislativo e o Judiciário no atual regime.",
+      "id": "ajuste-fiscal-teto-individualizado",
+      "bloco": "economia",
+      "titulo": "Equipe econômica avalia teto individualizado de 2,5% para despesas obrigatórias em novo ajuste fiscal",
+      "subtitulo": "Nova proposta busca limitar crescimento de gastos públicos para conter déficit e preservar teto",
+      "resumo": "A equipe econômica do governo Lula estuda implementar um teto individualizado de 2,5% para o crescimento das despesas obrigatórias, como parte de um novo pacote de ajuste fiscal. A medida visa controlar a expansão dos gastos públicos e preservar o teto de gastos vigente. O mecanismo seria semelhante ao aplicado para limitar o crescimento do salário mínimo. O mercado reage com alívio à expectativa de ajuste, mas mantém pressão por medidas mais rigorosas. A proposta representa um esforço para equilibrar as contas públicas diante do cenário fiscal desafiador.",
       "contexto": [
-        "Denúncia formal da PGR contra deputado federal e outras pessoas.",
-        "Acusação envolve uso indevido de verba pública da cota parlamentar.",
-        "Gayer alega retaliação por críticas ao Supremo Tribunal Federal.",
-        "Ministro Alexandre de Moraes conduz o processo no STF.",
-        "Caso representa mais um capítulo da disputa entre poderes."
+        "Proposta de teto individualizado para despesas obrigatórias em debate",
+        "Objetivo é conter crescimento dos gastos e preservar o teto fiscal",
+        "Medida similar ao limite aplicado ao salário mínimo",
+        "Mercado demonstra alívio, mas espera ajustes mais profundos"
       ],
       "angulo": [
-        "Denúncia evidencia o uso político do Judiciário para pressionar opositores.",
-        "Deputado Gayer mantém postura firme contra abusos do STF.",
-        "A defesa terá oportunidade de contestar as acusações no prazo legal.",
-        "O episódio reforça a necessidade de respeito ao Estado de Direito e à separação dos poderes."
+        "Defesa da responsabilidade fiscal e controle dos gastos públicos",
+        "Importância de medidas para evitar o descontrole das contas",
+        "Reconhecimento dos limites do orçamento diante da crise fiscal",
+        "Pressão para que o governo cumpra compromissos fiscais"
       ],
       "perguntas": [
-        "Como a denúncia contra Gustavo Gayer pode influenciar o debate sobre o equilíbrio entre Legislativo e Judiciário?",
-        "Quais os riscos de uso político das investigações contra parlamentares que criticam o STF?",
-        "De que forma a sociedade deve acompanhar e cobrar transparência nesse tipo de processo?"
+        "Como o teto individualizado pode contribuir para o equilíbrio fiscal?",
+        "Quais os desafios para implementar medidas eficazes de ajuste?",
+        "De que forma o governo pode garantir responsabilidade com o dinheiro público?"
       ],
       "fontes": [
         {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/pgr-denuncia-gustavo-gayer-por-suposto-desvio-de-cota-parlamentar/"
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-mostra-alivio-a-espera-de-equipe-economica-mas-nao-ignora-o-fiscal/"
         },
         {
-          "name": "Portal iG",
-          "url": "https://ultimosegundo.ig.com.br/2026-11-26/pgr-denuncia-gustavo-gayer-por-suposto-desvio-de-verba.html"
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/economia/noticia/2026/11/26/equipe-economica-avalia-teto-individualizado-de-25percent-para-despesas-obrigatorias-em-novo-pacote-de-ajuste-fiscal.ghtml"
+        }
+      ]
+    },
+    {
+      "id": "stf-julgamento-segundo-turno-rj",
+      "bloco": "stf e instituições",
+      "titulo": "STF marca para 4 de dezembro julgamento sobre segundo turno no Rio de Janeiro",
+      "subtitulo": "Decisão pode impactar regras eleitorais e reforça atuação do Supremo em temas políticos",
+      "resumo": "O Supremo Tribunal Federal agendou para 4 de dezembro o início do julgamento sobre a possibilidade de segundo turno nas eleições municipais do Rio de Janeiro. A análise será feita em sessão virtual do plenário, com votação aberta até 15 de dezembro. O caso está sob relatoria do ministro Cristiano Zanin. A decisão do STF sobre o tema tem potencial para alterar regras eleitorais e influenciar o cenário político local e nacional. O episódio reforça o protagonismo do Supremo em questões políticas, suscitando debates sobre limites institucionais.",
+      "contexto": [
+        "Julgamento sobre segundo turno no Rio marcado para dezembro pelo STF",
+        "Sessão será virtual e votação ficará aberta por mais de uma semana",
+        "Ministro Cristiano Zanin é o relator do caso",
+        "Decisão pode modificar regras eleitorais e impactar política local"
+      ],
+      "angulo": [
+        "Crítica à atuação política e intervencionista do STF",
+        "Alerta para o risco de judicialização excessiva das eleições",
+        "Defesa da autonomia dos poderes e respeito às regras eleitorais",
+        "Reforço da necessidade de limites claros para o Judiciário"
+      ],
+      "perguntas": [
+        "Quais os riscos da interferência do STF em regras eleitorais locais?",
+        "Como garantir a autonomia dos poderes diante de decisões judiciais?",
+        "De que forma a sociedade deve reagir à judicialização da política?"
+      ],
+      "fontes": [
+        {
+          "name": "Jovem Pan",
+          "url": "https://jovempan.com.br/politica/stf-marca-julgamento-sobre-segundo-turno-no-rio-para-4-de-dezembro/"
+        },
+        {
+          "name": "Diário do Poder",
+          "url": "https://diariodopoder.com.br/brasil-e-regioes/rio-de-janeiro/e12-rio-de-janeiro/stf-marca-julgamento-sobre-segundo-turno-no-rio-para-dezembro"
         }
       ]
     }
