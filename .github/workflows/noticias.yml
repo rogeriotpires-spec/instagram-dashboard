@@ -70,6 +70,7 @@ jobs:
           python3 tools/coleta_noticias.py --self-test
           python3 tools/editar_com_ia.py --self-test
           python3 tools/noticias_reparar.py --self-test
+          python3 tools/qa_edicao.py --self-test
 
       - name: Coletar assuntos em alta
         run: python3 tools/coleta_trends.py || true
@@ -117,6 +118,12 @@ jobs:
           print(f'noticias/{now:%Y-%m-%d}-{h}.json')
           ")
           python3 tools/qa_edicao.py "$ED" coleta-noticias.json
+
+      - name: Manter a edição vigente se o QA reprovar
+        if: always() && steps.qa.outcome == 'failure'
+        run: |
+          git checkout -- noticias/ || true
+          echo "QA reprovou: nada foi publicado; a edição anterior permanece no ar."
 
       - name: Publicar edição
         if: (steps.ia.outcome == 'success' || steps.regras.outcome == 'success') && steps.qa.outcome == 'success'
