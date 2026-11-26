@@ -89,11 +89,15 @@ def assuntos_misturados(item, apoio):
     titulo = item.get("title") or ""
     if not titulo or not apoio:
         return None
+    # Só os links que estão no item. Outra matéria do mesmo portal, puxada
+    # para checar apoio de frase, não conta como mistura.
+    urls = {o.get("url") for o in item.get("outlets") or []}
+    fonte_item = [m for m in apoio if m.get("link") in urls] or list(apoio)
     base = notas.texto_apoio(titulo, "")
     base_tk = notas.tokens(base)
     estranhas = []
     vistos = set()
-    for m in apoio:
+    for m in fonte_item:
         man = m.get("titulo") or ""
         if not man or man in vistos:
             continue
@@ -102,8 +106,10 @@ def assuntos_misturados(item, apoio):
             continue
         # Dois nomes específicos compartilhados, sem conflito de número, são
         # o mesmo fato com redação muito diferente (Alerj/Assembleia do Rio).
+        # Três ou mais (ex-noiva, facadas, matar) são o mesmo caso mesmo se
+        # um texto cita a pena (28) e o outro a idade da vítima (22).
         inter = {w for w in (base_tk & notas.tokens(fonte)) if w not in notas.UBIQUOS and len(w) >= 4}
-        if len(inter) >= 2 and not notas.conflito_numeros(base, fonte):
+        if len(inter) >= 3 or (len(inter) >= 2 and not notas.conflito_numeros(base, fonte)):
             continue
         vistos.add(man)
         estranhas.append(man)
@@ -262,7 +268,7 @@ def _outlets_do_nucleo(item, apoio):
         man = m.get("titulo") or ""
         fonte = _texto_manchete(m)
         inter = {w for w in (base_tk & notas.tokens(fonte)) if w not in notas.UBIQUOS and len(w) >= 4}
-        if notas.mesmo_fato(base_tk, notas.tokens(fonte), base, fonte) or (
+        if notas.mesmo_fato(base_tk, notas.tokens(fonte), base, fonte) or len(inter) >= 3 or (
             len(inter) >= 2 and not notas.conflito_numeros(base, fonte)
         ):
             continue
@@ -731,6 +737,30 @@ def _self_test():
     assert any(d.get("titulo", "").startswith("Com tema") for d in rel_c["descartados"]), rel_c
     assert rel_c["restantes"] >= 7, rel_c
     assert all(i["id"] != "ciencia-delas" for i in ed_c["items"])
+
+    # Run 45753339671: ângulo do réu no mesmo feminicídio (idade 22 vs pena 28) não é mistura.
+    item_bh = {
+        "id": "bh-noiva",
+        "segment": "seguranca",
+        "title": "Homem é condenado a 28 anos de prisão por matar ex-noiva a facadas em BH",
+        "summary": "Wallef César Oliveira Gonçalves foi condenado a 28 anos e um mês de prisão em regime fechado por matar a ex-noiva, Vitória Alves Silva, de 22 anos, em agosto de 2024.",
+        "outlets": [
+            {
+                "name": "Estado de Minas",
+                "url": "https://www.em.com.br/gerais/2026/11/7544457-homem-e-condenado-a-28-anos-de-prisao-por-matar-ex-noiva-a-facadas.html",
+                "titulo": "Homem é condenado a 28 anos de prisão por matar ex-noiva a facadas",
+                "descricao": "Wallef César Oliveira Gonçalves foi condenado a 28 anos e um mês de prisão em regime fechado por matar a ex-noiva, Vitória Alves Silva, de 22 anos.",
+            },
+            {
+                "name": "Estado de Minas",
+                "url": "https://www.em.com.br/gerais/2026/11/preferia-morrer",
+                "titulo": "‘Preferia morrer a voltar com ele’: réu relata discussão antes de matar ex-noiva na Antônio Carlos, em BH",
+                "descricao": "O julgamento de Wallef César Oliveira Gonçalves, acusado de matar a facadas a ex-noiva, Vitória Alves Silva, de 22 anos, em agosto de 2024, começou nesta quarta-feira (25).",
+            },
+        ],
+    }
+    erros_bh, _, _ = conferir({"items": [item_bh] + extras}, _coleta_de_itens(item_bh, *extras))
+    assert not any("assuntos misturados" in e and "28 anos" in e for e in erros_bh), erros_bh
 
     print("qa_edicao: ok")
 
