@@ -379,8 +379,89 @@ def mesmo_assunto(texto_a, texto_b):
     return len(longos) >= 3
 
 
-def trend_casa_no_item(nome, item):
-    """O nome do trend precisa estar no título (nome curto) ou, se composto, amarrado à matéria."""
+# Trends cujo nome, sozinho no X Brasil, costuma ser reality, atração ou homônimo
+# genérico. A matéria ligada NÃO desambigua: "Fazenda" no título de uma notícia
+# sobre o ministério não prova que o trend seja o ministério.
+TRENDS_REALITY = (
+    "a fazenda", "bbb", "big brother", "big brother brasil", "masterchef",
+    "the voice", "no limite", "power couple", "ilha record", "casa dos artistas",
+    "bake off", "a clinica", "aclínica", "aclinica",
+)
+# Nome curto/homônimo: só entra se o PRÓPRIO nome (ou metadado do X) trouxer
+# a desambiguação editorial. Sem isso, descarta.
+TRENDS_HOMONIMAS = {
+    "fazenda": ("ministerio da fazenda", "ministro da fazenda", "fazenda publica",
+                "equipe economica", "equipe econômica"),
+    "master": ("banco master", "caso master", "financeira master"),
+    "record": ("rede record", "record news"),  # sozinha é a emissora/reality
+    "prova": ("prova de vida", "prova pericial"),
+    "ilha": ("ilha de",),
+    "casa": ("casa civil", "casa branca", "camara"),
+    "cidade": ("cidade de deus",),
+}
+SINAIS_REALITY_X = (
+    "reality", "peao", "peoes", "roca", "roça", "record tv", "adora a fazenda",
+    "rizzo", "participantes da fazenda", "confinamento",
+)
+SINAIS_TREND_EDITORIAL = (
+    "lula", "bolsonaro", "stf", "moraes", "congresso", "senado", "camara",
+    "governo", "ministro", "ministerio", "eleicao", "tse", "tcu", "pgr",
+    "ipca", "inflacao", "imposto", "tarifa", "orcamento", "fiscal", "dolar",
+    "selic", "banco central", "fazenda publica", "pf", "planalto",
+)
+
+
+def _texto_do_trend(nome, trend=None):
+    """Só o que veio do X (nome e metadados). Nunca o título da matéria ligada."""
+    partes = [nome or ""]
+    if isinstance(trend, dict):
+        for k in ("nome", "query", "descricao", "contexto_x", "tema_x", "annotation"):
+            v = trend.get(k)
+            if v and k != "sobre":
+                partes.append(str(v))
+    return " ".join(partes)
+
+
+def trend_nome_ambiguo(nome, trend=None):
+    """True se o termo em alta é reality/homônimo sem desambiguação no próprio X."""
+    bruto = (nome or "").strip()
+    if not bruto:
+        return True
+    n = norm(bruto)
+    compacto = n.replace("#", " ").strip()
+    # "Ministério da Fazenda" contém a substring "a fazenda"; isso não é o reality.
+    if any(d in compacto for d in (
+        "ministerio da fazenda", "ministro da fazenda", "fazenda publica",
+        "banco master", "caso master", "casa civil", "casa branca",
+    )):
+        return False
+    if compacto in TRENDS_REALITY or compacto == "fazenda":
+        return True
+    if any(r != "a fazenda" and (contem_termo(compacto, r) or compacto == r) for r in TRENDS_REALITY):
+        return True
+    if re.search(r"(?<![a-z0-9])a fazenda(?![a-z0-9])", compacto):
+        return True
+    if any(contem_termo(_texto_do_trend(bruto, trend), s) for s in SINAIS_REALITY_X):
+        return True
+    toks = re.findall(r"[a-z0-9]{3,}", compacto)
+    chave = compacto if compacto in TRENDS_HOMONIMAS else (toks[0] if len(toks) == 1 and toks[0] in TRENDS_HOMONIMAS else "")
+    if not chave:
+        return False
+    exigidos = TRENDS_HOMONIMAS[chave]
+    if not exigidos:
+        return True
+    contexto = norm(_texto_do_trend(bruto, trend))
+    return not any(e in contexto for e in exigidos)
+
+
+def trend_casa_no_item(nome, item, trend=None):
+    """O nome do trend precisa estar no título (nome curto) ou, se composto, amarrado à matéria.
+
+    Homônimo de reality/entretenimento sem desambiguação no próprio X não casa
+    com notícia política ou econômica só porque a palavra aparece no título.
+    """
+    if trend_nome_ambiguo(nome, trend):
+        return False
     nome_n = norm(nome or "").replace("#", " ").strip()
     if not nome_n:
         return False
@@ -400,23 +481,48 @@ def trend_casa_no_item(nome, item):
     return len(longo) >= 6 and contem_termo(titulo, longo)
 
 
+def _uso_robotico(uso, titulo):
+    u = norm(uso or "")
+    t = norm(titulo or "")
+    if not u:
+        return True
+    if u.startswith("explicar a noticia") or u.startswith("explicar a matéria") or u.startswith("explicar a materia"):
+        return True
+    if t and t in u and len(u) <= len(t) + 40:
+        return True
+    return False
+
+
+def _uso_padrao(item):
+    """Orientação editorial curta, sem repetir o título da matéria."""
+    texto = norm((item.get("title") or "") + " " + (item.get("summary") or "") + " " + (item.get("segment") or item.get("bloco") or ""))
+    if any(contem_termo(texto, k) for k in ("ipca", "inflacao", "dolar", "imposto", "tarifa", "orcamento", "teto", "selic", "fazenda", "gasto publico", "contas publicas")):
+        return "Abrir pelo impacto no bolso e nas contas públicas, com os números da matéria, e cobrar a responsabilidade do governo."
+    if any(contem_termo(texto, k) for k in ("stf", "tse", "tcu", "moraes", "judiciario", "supremo")):
+        return "Cobrar o que o fato revela sobre o alcance do Judiciário e das instituições, com o que está na matéria."
+    if any(contem_termo(texto, k) for k in ("lula", "governo", "planalto", "ministerio", "pt", "denuncia", "pgr")):
+        return "Enquadrar o fato como denúncia dos erros e absurdos do governo e das instituições, sem suavizar, e sem afirmar crime sem condenação."
+    if any(contem_termo(texto, k) for k in ("corinthians", "flamengo", "palmeiras", "brasileirao", "libertadores")):
+        return "Comentar o resultado esportivo a partir da matéria ligada, sem puxar outro assunto."
+    return "Usar o fato da matéria ligada para abrir o comentário, com o enquadramento do programa, sem repetir o título."
+
+
 def uso_coerente(uso, item):
-    """Reescreve o campo uso se ele fala de outra matéria."""
+    """Garante uso coerente com a matéria e natural (nunca 'Explicar a notícia: <título>')."""
     titulo = limpa_manchete(item.get("title") or "")
     texto = (item.get("title") or "") + " " + (item.get("summary") or "")
     uso = (uso or "").strip()
     permitidos = {
         "explicar", "rebater", "amplificar", "comentar", "usar", "abordar",
         "fato", "noticia", "materia", "impacto", "desdobramento", "politico",
-        "ligar", "mencionar", "citar",
+        "ligar", "mencionar", "citar", "abrir", "pautar", "cobrar", "bolso",
+        "governo", "contas", "publicas", "denuncia",
     }
-    if uso:
+    if uso and not _uso_robotico(uso, titulo):
         extra = {w for w in tokens(uso) if w not in UBIQUOS and w not in permitidos and len(w) >= 5}
         if not extra or extra <= tokens(texto):
             return sem_travessao(uso)
-    if not titulo:
-        return sem_travessao(uso)
-    return f"Explicar a notícia: {titulo}"
+    return _uso_padrao(item)
 
 
 def cobertura(n):
@@ -623,12 +729,25 @@ def _self_test():
     # 5. Trends: nome genérico só no título; uso deslocado é reescrito
     pal = {"title": "Palmeiras viaja para final da Libertadores com festa da torcida", "summary": "O Palmeiras embarcou com André e a delegação."}
     cor = {"title": "Corinthians empata com Atlético-MG e sai da zona de rebaixamento no Brasileirão", "summary": "O Corinthians empatou com o Atlético-MG em Belo Horizonte."}
+    faz = {"title": "Dólar cai abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para Fazenda", "summary": "O presidente sondou Luiz Carlos Trabuco para o Ministério da Fazenda."}
     assert not trend_casa_no_item("André", pal)
     assert trend_casa_no_item("Corinthians", cor)
     assert trend_casa_no_item("Atlético Mineiro", cor)
+    # "Fazenda" no X Brasil é o reality, não o ministério, mesmo que a matéria cite a pasta.
+    assert trend_nome_ambiguo("Fazenda")
+    assert trend_nome_ambiguo("A Fazenda")
+    assert trend_nome_ambiguo("BBB")
+    assert not trend_casa_no_item("Fazenda", faz)
+    assert not trend_casa_no_item("A Fazenda", faz)
+    assert trend_casa_no_item("Ministério da Fazenda", faz)
+    assert not trend_nome_ambiguo("Ministério da Fazenda")
     uso = uso_coerente("Explicar impacto do julgamento para eleições no Rio", cor)
     assert "eleicoes" not in norm(uso) and "julgamento" not in norm(uso)
-    assert "corinthians" in norm(uso) or "atletico" in norm(uso)
+    assert "explicar a noticia" not in norm(uso)
+    assert "Dólar cai abaixo" not in uso_coerente("", faz)
+    uso_faz = uso_coerente("Explicar a notícia: Dólar cai abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para Fazenda", faz)
+    assert not uso_faz.lower().startswith("explicar a notícia:")
+    assert "bolso" in norm(uso_faz) or "contas publicas" in norm(uso_faz) or "governo" in norm(uso_faz)
 
     print("noticias_notas: ok")
 

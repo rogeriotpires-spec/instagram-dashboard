@@ -104,6 +104,7 @@ def _montar_item(bruto, cfg, permitidas, pedido, complementar):
     it = bruto.get("item") if isinstance(bruto, dict) and "item" in bruto else bruto
     item = gerar_programa._normalizar_item(it, cfg, permitidas)
     item["avulsa"] = True
+    item["destaque"] = True
     item["pedido"] = pedido
     if complementar and not item.get("atencao"):
         item["atencao"] = complementar
@@ -301,7 +302,23 @@ def _self_test():
         "fontes": [{"name": "Poder360", "url": "https://www.poder360.com.br/pf-afasta"}],
     }, "titulo_pauta": "PF afasta delegados do caso Master e o Senado vota o ajuste", "abertura": "A PF troca o comando do caso Master. O Senado discute o ajuste. A bancada acompanha os dois fatos. O dia pede explicação."}
     item = _montar_item(bruto, cfg, {"https://www.poder360.com.br/pf-afasta"}, ped["pedido"], None)
-    assert item["avulsa"] is True and item["pedido"]
+    assert item["avulsa"] is True and item["destaque"] is True and item["pedido"]
+    # Inclusão avulsa preserva os itens já gerados e coloca o avulso no início, em destaque.
+    atual = {
+        "date": "2026-11-26",
+        "generated": "2026-11-26T09:44:06-03:00",
+        "titulo": "IPCA-15 desacelera; Rio enfrenta temporais",
+        "abertura": "Abertura antiga.",
+        "itens": [
+            {"id": "ipca", "titulo": "IPCA-15 sobe 0,22% em novembro e desacelera", "resumo": "O IPCA-15 subiu."},
+            {"id": "chuva", "titulo": "Rio amanhece sob chuva forte", "resumo": "Choveu no Rio."},
+        ],
+    }
+    doc = aplicar(Path("/tmp/pauta-avulsa-teste.json"), atual, item, "Janones e o IPCA", "Abertura nova com o avulso.", ped["dia"], cfg, datetime(2026, 11, 26, 10, 6))
+    assert [x["titulo"] for x in doc["itens"]] == [item["titulo"], "IPCA-15 sobe 0,22% em novembro e desacelera", "Rio amanhece sob chuva forte"]
+    assert doc["itens"][1]["resumo"] == "O IPCA-15 subiu."  # texto do item antigo intacto
+    assert doc["itens"][0]["destaque"] is True
+    assert doc["titulo"] == "Janones e o IPCA"
     # AVULSO_ISSUE e conferência do dono
     assert numero_issue("") is None and numero_issue(None) is None
     assert numero_issue("163") == 163 and numero_issue(" #163 ") == 163

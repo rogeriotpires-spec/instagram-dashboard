@@ -364,6 +364,8 @@ def limpar_trends(trends, itens):
         chave = notas.norm(nome)
         if not nome or chave in vistos:
             continue
+        if notas.trend_nome_ambiguo(nome, t):
+            continue
         uso = notas.norm(t.get("uso") or "")
         if "evitar foco" in uso or "evitar o foco" in uso:
             continue
@@ -701,6 +703,24 @@ def _self_test():
     atl = next(x for x in tr if x["nome"] == "Atlético Mineiro")
     assert "eleicoes" not in notas.norm(atl["uso"]) and "julgamento" not in notas.norm(atl["uso"])
     assert atl["item_id"] == "cor"
+
+    # Fazenda (reality) não cola no Ministério da Fazenda; uso não repete o título.
+    itens_faz = [{"id": "fazenda-trabuco-ministerio-sondou-lula-luiz",
+                  "title": "Dólar cai abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para Fazenda",
+                  "summary": "O presidente sondou Luiz Carlos Trabuco para o Ministério da Fazenda. O dólar caiu."}]
+    tr_faz = limpar_trends([
+        {"nome": "Fazenda", "volume": 11700, "sobre": "Dólar cai abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para Fazenda",
+         "uso": "Explicar a notícia: Dólar cai abaixo de R$ 5,80 após Lula sondar Luiz Trabuco para Fazenda",
+         "item_id": "fazenda-trabuco-ministerio-sondou-lula-luiz"},
+        {"nome": "Ministério da Fazenda", "sobre": "Lula sondou Trabuco",
+         "uso": "Mostrar o que a escolha revela sobre a política econômica.",
+         "item_id": "fazenda-trabuco-ministerio-sondou-lula-luiz"},
+    ], itens_faz)
+    nomes_faz = [x["nome"] for x in tr_faz]
+    assert "Fazenda" not in nomes_faz, nomes_faz
+    assert "Ministério da Fazenda" in nomes_faz
+    uso_ok = next(x for x in tr_faz if x["nome"] == "Ministério da Fazenda")["uso"]
+    assert not uso_ok.lower().startswith("explicar a notícia:")
 
     print("noticias_reparar: ok")
 
