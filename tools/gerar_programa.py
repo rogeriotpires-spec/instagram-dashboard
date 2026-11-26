@@ -185,7 +185,7 @@ VOZ EDITORIAL:
 LINHA: {linha}
 A Revista Timeline e o Conversa Timeline fazem oposição ao governo Lula e ao seu regime. Priorize economia (inflação, gastos públicos, impostos, contas públicas, impacto no bolso do brasileiro) e a denúncia factual de abusos, erros e absurdos do governo e das instituições. Não invente dado; o enquadramento é firme e conservador.
 {preserva}
-A pauta é de relevância NACIONAL (Brasil inteiro). Não gaste vaga com ocorrência local restrita a um único estado (chuva local, crime local sem repercussão nacional), salvo se o assunto tiver escala nacional ou já estiver na pauta como item avulso.
+A pauta é de relevância NACIONAL (Brasil inteiro). Não gaste vaga com ocorrência local restrita a um único estado (chuva local, crime local sem repercussão nacional), salvo se o assunto tiver escala nacional ou já estiver na pauta como item avulso. Se o insumo trouxer itens_locais_rejeitados, não os recoloque.
 Priorize a leitura de {', '.join(cfg.get('fontes_preferidas') or [])}. Use as urls fornecidas; nunca invente link, número, data ou citação. O G1 não está disponível.
 
 SAÍDA:
@@ -340,6 +340,13 @@ def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completa
             descartados.append({"titulo": titulo, "motivo": str(e)})
         except ValueError as e:
             raise
+    filtrados = []
+    for it in novos:
+        if item_local_sem_escala(it):
+            print(f"item novo local sem escala nacional descartado: {it.get('titulo')}", file=sys.stderr)
+            continue
+        filtrados.append(it)
+    novos = filtrados
     alvo = int(cfg.get("itens") or 6)
     if not novos and not (preservados or avulsos):
         raise ValueError("nenhum item novo válido após ajuste e descarte")
@@ -407,6 +414,11 @@ def gerar(dia=None, agora=None):
         "itens_novos_exigidos": vagas,
         "avulsos_preservados": [{"titulo": a.get("titulo"), "pedido": a.get("pedido")} for a in avulsos],
         "itens_aprovados_preservados": [{"titulo": a.get("titulo"), "bloco": a.get("bloco")} for a in preservados],
+        "itens_locais_rejeitados": [
+            {"titulo": it.get("titulo")}
+            for it in (atual or {}).get("itens") or []
+            if not (it.get("avulsa") or it.get("pedido")) and item_local_sem_escala(it)
+        ],
         "prioridade": "relevância nacional (Brasil inteiro), economia, política nacional, Judiciário e denúncia factual de abusos do governo Lula; não pautar ocorrência local de um só estado",
         "edicao_noticias": ed_nome,
         "headline_noticias": (edicao or {}).get("headline"),
@@ -622,6 +634,27 @@ def _self_test():
     assert "TCU afasta" in titulos[2]
     assert "chuva" not in " ".join(titulos).lower()
     assert "foragidos" not in " ".join(titulos).lower()
+    local_novo = _item_base(
+        "Polícia Civil prende 423 foragidos em megaoperação contra crimes patrimoniais no Rio",
+        "A Polícia Civil do Rio de Janeiro prendeu 423 criminosos. A ação foca crimes patrimoniais no estado. A operação ocorreu na capital. Os moradores acompanham o resultado. A secretaria estadual coordenou a ação.",
+        "foragidos-rio",
+    )
+    local_novo["bloco"] = "Segurança"
+    bruto2 = {
+        "titulo": "Janones e o IPCA na pauta nacional",
+        "abertura": "A pauta abre pelo avulso. O IPCA-15 desacelera. A bancada segue nos temas nacionais.",
+        "agenda": [],
+        "itens": [novo, local_novo],
+    }
+    doc2 = normalizar(
+        bruto2, datetime(2026, 11, 26).date(), "2026-11-26T10:30:00-03:00",
+        cfg, permitidas, [avulsa], [], preservados=[ipca],
+    )
+    t2 = " ".join(x["titulo"] for x in doc2["itens"]).lower()
+    assert "foragidos" not in t2 and "chuva" not in t2, t2
+    assert any("Janones" in x["titulo"] for x in doc2["itens"])
+    assert any("IPCA-15" in x["titulo"] for x in doc2["itens"])
+    assert any("TCU afasta" in x["titulo"] for x in doc2["itens"])
     texto_prompt = _prompt_sistema(cfg, vagas=2, n_preservados=1, n_avulsos=1)
     assert "oposição ao governo Lula" in texto_prompt
     assert "relevância NACIONAL" in texto_prompt
