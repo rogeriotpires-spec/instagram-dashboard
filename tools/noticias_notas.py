@@ -30,7 +30,7 @@ SINAIS_POLITICA = (
     "pl", "pt", "stj", "inquerito", "prisao", "preso", "policia", "operacao",
 )
 PALAVRAS = {
-    "educacao": ("enem", "escola", "educacao", "aluno", "professor", "universidade",
+    "educacao": ("enem", "escola", "escolas", "educacao", "aluno", "professor", "universidade",
                  "vestibular", "inep", "enade", "fies", "prouni", "mec", "faetec",
                  "uerj", "uenf", "cederj", "cecierj", "seeduc", "ideb", "saeb", "pisa"),
     "esportes": ("flamengo", "vasco", "fluminense", "botafogo", "palmeiras", "corinthians",
@@ -136,11 +136,37 @@ def sem_travessao(s):
     return (s or "").replace("—", ", ").replace("–", ", ").replace("−", "-")
 
 
+_LIXO_MIDIA = re.compile(
+    r"(?is)("
+    r"inscreva-se(?:\s+no\s+canal)?[^.!?]*[.!?]?|"
+    r"acompanhe mais not[ií]cias[^.!?]*[.!?]?|"
+    r"assista\s+(?:às|as|ao)\s+(?:[ií]ntegras|[ao]\s*vivo)[^.!?]*[.!?]?|"
+    r"deixe seu like[^.!?]*[.!?]?|"
+    r"link na descri[cç][aã]o[^.!?]*[.!?]?|"
+    r"nosso whatsapp[^.!?]*[.!?]?|"
+    r"(?:https?://)?(?:(?:www\.)?youtube\.com|youtu\.be)[^\s]*|"
+    r"(?:https?://)?(?:descubra\s*\.\s*recordplus|jornaldarecord|r7\s*\.\s*com/)[^\s]*|"
+    r"[\u2192\u27a1]\s*"
+    r")"
+)
+
+
+def limpa_lixo_midia(s):
+    """Tira CTA de YouTube/Shorts, hashtag de canal e flecha de chamada."""
+    t = s or ""
+    t = re.sub(r"#\w+", " ", t)
+    t = _LIXO_MIDIA.sub(" ", t)
+    t = re.sub(r"https?://\S+", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
 def limpa_texto_fonte(s):
-    """Tira rodapé e bloco relacionado que o RSS cola no lead."""
+    """Tira rodapé, bloco relacionado e lixo de YouTube que o RSS cola no lead."""
     t = sem_travessao(s or "")
     t = re.sub(r"(?is)\s*leia mais(?:\s*\([^)]{0,80}\))?", " ", t)
     t = re.sub(r"(?is)\s*not[ií]cias relacionadas:.*$", " ", t)
+    t = limpa_lixo_midia(t)
     t = re.sub(r"\s+", " ", t).strip()
     return t
 
@@ -155,6 +181,15 @@ def frase_lixo(frase):
     if re.search(r"leia mais", n):
         return True
     if re.search(r"noticias relacionadas", n):
+        return True
+    if re.search(
+        r"inscreva-se|acompanhe mais noticias|deixe seu like|link na descricao|"
+        r"nosso whatsapp|recordplus|jornaldarecord|assista as integras|assista as integras",
+        n,
+    ):
+        return True
+    # frase que, depois da limpeza, não sobra fato — só URL, hashtag ou flecha
+    if not re.search(r"[a-z]{4,}", norm(limpa_lixo_midia(frase))):
         return True
     return False
 
@@ -173,7 +208,7 @@ LINHA = {"Gazeta do Povo", "Revista Oeste", "Jovem Pan", "O Antagonista", "Diár
 def limpa_manchete(titulo):
     t = sem_travessao(titulo or "")
     t = re.sub(r"^(urgente|ao vivo|veja|entenda|saiba|exclusivo)\s*[:\-]\s*", "", t, flags=re.I)
-    t = re.sub(r"#\w+", " ", t)
+    t = limpa_lixo_midia(t)
     t = re.sub(r"\s+", " ", t).strip().rstrip(".")
     if t and t[0].islower():
         t = t[0].upper() + t[1:]
@@ -194,11 +229,57 @@ def eh_entretenimento(titulo, url="", resumo=""):
     return not any(contem_termo(texto, k) for k in SINAIS_POLITICA)
 
 
+SINAIS_JUDICIARIO = (
+    "stf", "supremo tribunal", "tse", "tcu", "stj", "pgr",
+    "procuradoria-geral", "procuradoria geral", "tribunal de contas da uniao",
+)
+SINAIS_ELEITORAL = (
+    "eleicao", "eleicoes", "segundo turno", "primeiro turno",
+)
+SINAIS_OUTRO_UF = (
+    "parana", "curitiba", "londrina", "cascavel", "maringa",
+    "rio grande do sul", "porto alegre", "caxias do sul",
+    "minas gerais", "belo horizonte", "uberlandia",
+    "bahia", "salvador", "pernambuco", "recife",
+    "ceara", "fortaleza", "amazonas", "manaus",
+    "paraiba", "goias", "goiania", "santa catarina", "florianopolis",
+    "mato grosso", "cuiaba", "alagoas", "maceio", "sergipe", "aracaju",
+    "no pr", "no rs", "no sc", "no ba", "no pe", "no ce", "no am",
+    "no mg", "em curitiba", "em porto alegre", "em recife",
+)
+SINAIS_CLIMA = (
+    "temporal", "temporais", "chuva forte", "enchente", "alagamento", "deslizamento",
+)
+
+
+def tem_sinal_rio(texto):
+    if any(contem_termo(texto, k) for k in PALAVRAS["rio"]):
+        return True
+    n = " " + norm(texto) + " "
+    if "rio grande" in n:
+        return False
+    # "o Rio", "no Rio", "do Rio" sem ser Rio Grande do Sul
+    return re.search(r"(?<![a-z])(?:o|no|do|ao) rio(?![a-z])", n) is not None
+
+
+def tem_outro_estado(texto):
+    return any(contem_termo(texto, k) for k in SINAIS_OUTRO_UF)
+
+
+def tem_judiciario_ou_eleicao(texto):
+    return any(contem_termo(texto, k) for k in SINAIS_JUDICIARIO + SINAIS_ELEITORAL)
+
+
 def segmento_por_titulo(titulo, dica=""):
     t = norm(titulo)
-    for seg in ("educacao", "esportes", "ciencia", "rio", "seguranca", "economia", "internacional"):
+    # Judiciário e eleição nacionais vêm antes do "Rio de Janeiro" no título.
+    if tem_judiciario_ou_eleicao(titulo):
+        return "politica"
+    for seg in ("educacao", "esportes", "ciencia", "seguranca", "economia", "internacional"):
         if any(contem_termo(t, k) for k in PALAVRAS[seg]):
             return seg
+    if tem_sinal_rio(titulo) and not tem_outro_estado(titulo):
+        return "rio"
     if dica in PALAVRAS and any(contem_termo(t, k) for k in PALAVRAS[dica]):
         return dica
     # Política só com sinal claro. O residual jogava moda, novela e lista em Política.
@@ -208,12 +289,21 @@ def segmento_por_titulo(titulo, dica=""):
 
 
 def ajustar_segmento(titulo, segmento, dica="", url="", resumo=""):
-    """Corrige seção óbvia (futebol em Política, Bond em Política) sem inventar bloco."""
+    """Corrige seção óbvia (STF em Economia, temporal do PR em Rio) sem inventar bloco."""
     if eh_entretenimento(titulo, url, resumo):
         return None
     texto = " ".join(x for x in (titulo, resumo) if x)
     if any(contem_termo(texto, k) for k in SINAIS_FAUNA):
         return "ciencia"
+    # Escola + temporal no Rio é pauta local, não "educação".
+    if any(contem_termo(texto, k) for k in SINAIS_CLIMA) and tem_sinal_rio(texto):
+        return "rio"
+    # STF, TSE, TCU, PGR, segundo turno: política nacional, mesmo se a cena é uma escola.
+    if tem_judiciario_ou_eleicao(texto):
+        return "politica"
+    # Protocolo/racismo nas escolas, Enem, universidade: educação ganha da Câmara como palco.
+    if any(contem_termo(texto, k) for k in PALAVRAS["educacao"]):
+        return "educacao"
     auto = segmento_por_titulo(titulo, dica if dica in PALAVRAS else "")
     validos = set(PALAVRAS) | {"politica"}
     if segmento not in validos:
@@ -222,16 +312,111 @@ def ajustar_segmento(titulo, segmento, dica="", url="", resumo=""):
     if any(contem_termo(t, k) for k in ("flamengo", "vasco", "fluminense", "botafogo", "brasileirao", "libertadores", "uefa", "liga das nacoes")):
         if not any(contem_termo(t, k) for k in ("alerj", "prefeitura", "governo do", "stf", "camara")):
             return "esportes"
-    # A seção da IA vale. Política só sai se o título for claramente de outra
-    # editoria fechada (abono, Enem, clube). Prisão, PF, RJ ou dólar numa
-    # decisão do Congresso ou do STF não tiram o fato de Política.
+    # Rio só com pauta fluminense, nunca outro estado e nunca Judiciário nacional.
+    if segmento == "rio" or auto == "rio":
+        if tem_judiciario_ou_eleicao(texto):
+            return "politica"
+        if tem_outro_estado(texto) and not tem_sinal_rio(texto):
+            return auto if auto and auto != "rio" else (segmento if segmento and segmento != "rio" else None)
+        if tem_sinal_rio(texto):
+            return "rio"
+        if segmento == "rio":
+            return auto if auto and auto != "rio" else None
+    if segmento == "economia":
+        if tem_judiciario_ou_eleicao(texto):
+            return "politica"
+        if any(contem_termo(texto, k) for k in PALAVRAS["educacao"]):
+            return "educacao"
     if segmento == "politica":
         if any(contem_termo(t, k) for k in ("abono", "salarial", "bolsa familia", "selic")):
             return "economia"
         if any(contem_termo(t, k) for k in ("enem", "ideb", "prouni")):
             return "educacao"
         return segmento
-    return segmento
+    return segmento if segmento in validos else auto
+
+
+# Palavras de calendário, verbos de redação e instituições genéricas não fundem fatos.
+GENERICO_ASSUNTO = UBIQUOS | {
+    "segunda", "terca", "quarta", "quinta", "sexta", "sabado", "domingo", "feira",
+    "janeiro", "fevereiro", "marco", "abril", "maio", "junho", "julho", "agosto",
+    "setembro", "outubro", "novembro", "dezembro",
+    "nesta", "desta", "neste", "deste", "nessa", "dessa", "hoje", "ontem", "amanha",
+    "noite", "manha", "tarde", "proximo", "proxima", "passada", "passado",
+    "deixa", "deixou", "foram", "sera", "pode", "depois", "antes", "durante",
+    "encerrou", "comeca", "comecou", "afirmou", "disse", "informa", "segundo",
+    "decisao", "acordo", "votos", "aprova", "aprovou", "mantem", "analisado",
+    "plenario", "equipe", "parte", "apresentacao", "apresentou",
+    "tribunal", "supremo", "federal", "nacional", "ministerio", "governo",
+    "fiscal", "economica", "economico", "contas", "medida", "medidas",
+}
+
+
+def tokens_assunto(texto):
+    return {w for w in tokens(texto) if w not in GENERICO_ASSUNTO and len(w) >= 5}
+
+
+def _titulo_de(texto):
+    """Primeira frase, usada para não fundir fatos só porque o resumo cita o outro."""
+    t = (texto or "").strip()
+    for sep in (". ", "! ", "? "):
+        if sep in t:
+            return t.split(sep, 1)[0]
+    return t
+
+
+def mesmo_assunto(texto_a, texto_b):
+    """Mesmo episódio com ângulos diferentes (anúncio de tarifas vs. reação do governo)."""
+    if not texto_a or not texto_b:
+        return False
+    inter_tit = tokens_assunto(_titulo_de(texto_a)) & tokens_assunto(_titulo_de(texto_b))
+    longos_tit = {w for w in inter_tit if len(w) >= 6}
+    if not longos_tit:
+        return False
+    inter = tokens_assunto(texto_a) & tokens_assunto(texto_b)
+    longos = {w for w in inter if len(w) >= 6}
+    # Três nomes longos no texto e ao menos um já no título (tarifas, aeronaves).
+    return len(longos) >= 3
+
+
+def trend_casa_no_item(nome, item):
+    """O nome do trend precisa estar no título (nome curto) ou, se composto, amarrado à matéria."""
+    nome_n = norm(nome or "").replace("#", " ").strip()
+    if not nome_n:
+        return False
+    titulo = item.get("title") or ""
+    texto = titulo + " " + (item.get("summary") or "")
+    toks = re.findall(r"[a-z0-9]{3,}", nome_n)
+    if not toks:
+        return False
+    if len(toks) == 1:
+        # "André" no meio do resumo do Palmeiras não basta; precisa estar no título.
+        return contem_termo(titulo, toks[0])
+    if contem_termo(titulo, nome_n) or contem_termo(texto, nome_n):
+        return True
+    if all(contem_termo(texto, w) for w in toks):
+        return True
+    longo = max(toks, key=len)
+    return len(longo) >= 6 and contem_termo(titulo, longo)
+
+
+def uso_coerente(uso, item):
+    """Reescreve o campo uso se ele fala de outra matéria."""
+    titulo = limpa_manchete(item.get("title") or "")
+    texto = (item.get("title") or "") + " " + (item.get("summary") or "")
+    uso = (uso or "").strip()
+    permitidos = {
+        "explicar", "rebater", "amplificar", "comentar", "usar", "abordar",
+        "fato", "noticia", "materia", "impacto", "desdobramento", "politico",
+        "ligar", "mencionar", "citar",
+    }
+    if uso:
+        extra = {w for w in tokens(uso) if w not in UBIQUOS and w not in permitidos and len(w) >= 5}
+        if not extra or extra <= tokens(texto):
+            return sem_travessao(uso)
+    if not titulo:
+        return sem_travessao(uso)
+    return f"Explicar a notícia: {titulo}"
 
 
 def cobertura(n):
@@ -376,6 +561,74 @@ def _self_test():
     assert segmento_por_titulo("Juiz anula limites de visto impostos por Trump a estudantes e jornalistas") == "internacional"
     assert eh_entretenimento("Grammy 2027 é no meio do carnaval, diz Anitta")
     assert not eh_entretenimento("Irmãos de banda de pagode são presos por suspeita de estupro")
+
+    # 2. YouTube/Shorts e seção Rio só com pauta fluminense
+    assert "JR24H" not in limpa_manchete("Temporais no PR atingem 50 cidades e deixam seis mortos. #JR24H #Shorts")
+    assert "Shorts" not in limpa_manchete("Temporais no PR atingem 50 cidades e deixam seis mortos. #JR24H #Shorts")
+    assert limpa_manchete("Temporais no PR atingem 50 cidades e deixam seis mortos. #JR24H #Shorts") == (
+        "Temporais no PR atingem 50 cidades e deixam seis mortos"
+    )
+    cta = (
+        "➡️ Acompanhe mais notícias em nosso site oficial: https://noticias.com/jr-na-tv "
+        "Inscreva-se no canal Jornal da Record."
+    )
+    assert frase_lixo(cta)
+    assert "inscreva" not in norm(limpa_texto_fonte(cta))
+    assert ajustar_segmento("Temporais no PR atingem 50 cidades e deixam seis mortos", "rio") != "rio"
+    assert ajustar_segmento(
+        "Chuva forte atinge o Rio e a Região Metropolitana; Uerj e UFRJ suspendem aulas",
+        "economia",
+        resumo="A chuva atinge a Zona Norte do Rio. A Uerj e a UFRJ suspendem as aulas.",
+    ) == "rio"
+
+    # 3. Mesmo assunto (tarifas) x fatos distintos
+    t1 = "EUA propõem novas tarifas sobre produtos brasileiros, incluindo aeronaves e açúcar. O Planalto reagiu à alíquota de 10% sobre aeronaves da Embraer e o açúcar."
+    t2 = "Governo brasileiro manifesta indignação e não cederá a ameaças de tarifas dos EUA. A medida atinge aeronaves e açúcar produzidos no Brasil."
+    t3 = "Governo Lula reage a ameaça de tarifas dos EUA e cita pressão sobre o Pix. As tarifas incluem aeronaves e açúcar."
+    t4 = "Lula sondou Luiz Carlos Trabuco para o Ministério da Fazenda. Trabuco avalia o convite do presidente."
+    t5 = "PGR denuncia Gustavo Gayer ao STF por desvio de recursos públicos."
+    assert mesmo_assunto(t1, t2) and mesmo_assunto(t2, t3) and mesmo_assunto(t1, t3)
+    assert not mesmo_assunto(t1, t4) and not mesmo_assunto(t4, t5)
+    assert not mesmo_assunto(
+        "Corinthians empata com Atlético-MG em Belo Horizonte nesta quarta-feira.",
+        "Homem é condenado a 28 anos por matar ex-noiva a facadas em Belo Horizonte. A vítima se chamava Vitória.",
+    )
+    assert not mesmo_assunto(
+        "TCU afasta multas a Dilma Rousseff por irregularidades fiscais. A equipe econômica acompanha a decisão nesta quarta-feira.",
+        "Equipe econômica avalia teto de 2,5% para despesas obrigatórias em novo pacote de ajuste fiscal nesta quarta-feira.",
+    )
+
+    # 4. Taxonomia: STF/eleição não vai a economia nem a rio; escolas não vão a economia
+    assert ajustar_segmento(
+        "STF marca para 4 de dezembro o início do julgamento sobre segundo turno no Rio de Janeiro",
+        "economia",
+    ) == "politica"
+    assert ajustar_segmento(
+        "STF marca para 4 de dezembro julgamento sobre segundo turno no Rio de Janeiro",
+        "rio",
+    ) == "politica"
+    assert ajustar_segmento(
+        "Câmara aprova protocolo nacional para combater racismo nas escolas",
+        "economia",
+        resumo="A Câmara dos Deputados aprovou o projeto que institui um protocolo nacional de acolhimento às vítimas de racismo nas escolas.",
+    ) == "educacao"
+    assert ajustar_segmento("Senado vota a PEC do STF", "economia") == "politica"
+    assert ajustar_segmento(
+        "Moraes autoriza Débora do Batom a comparecer à apresentação do filho",
+        "politica",
+        resumo="O ministro Alexandre de Moraes, do STF, autorizou a saída para a cantata em uma escola de Paulínia.",
+    ) == "politica"
+
+    # 5. Trends: nome genérico só no título; uso deslocado é reescrito
+    pal = {"title": "Palmeiras viaja para final da Libertadores com festa da torcida", "summary": "O Palmeiras embarcou com André e a delegação."}
+    cor = {"title": "Corinthians empata com Atlético-MG e sai da zona de rebaixamento no Brasileirão", "summary": "O Corinthians empatou com o Atlético-MG em Belo Horizonte."}
+    assert not trend_casa_no_item("André", pal)
+    assert trend_casa_no_item("Corinthians", cor)
+    assert trend_casa_no_item("Atlético Mineiro", cor)
+    uso = uso_coerente("Explicar impacto do julgamento para eleições no Rio", cor)
+    assert "eleicoes" not in norm(uso) and "julgamento" not in norm(uso)
+    assert "corinthians" in norm(uso) or "atletico" in norm(uso)
+
     print("noticias_notas: ok")
 
 

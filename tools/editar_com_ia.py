@@ -111,7 +111,7 @@ def carregar_manchetes(coleta, cfg):
             "nome": nome,
             "camp": o.get("camp") or "",
             "tier": o.get("tier") or 3,
-            "titulo": titulo.strip(),
+            "titulo": notas.limpa_manchete(titulo) or titulo.strip(),
             "quando": quando or "",
             "link": link,
             "dica": dica or "",
@@ -413,8 +413,8 @@ def montar_itens(brutos, grupos, por_id, cfg, disponiveis, recentes_lista, dia):
         if not ids:
             motivos["sem_frase"] += 1
             continue
-        titulo = notas.sem_travessao((bruto.get("titulo") or "").strip()) or por_id[ids[0]]["titulo"]
-        resumo = notas.sem_travessao((bruto.get("resumo") or "").strip())
+        titulo = notas.limpa_manchete((bruto.get("titulo") or "").strip()) or notas.limpa_manchete(por_id[ids[0]]["titulo"])
+        resumo = notas.limpa_texto_fonte((bruto.get("resumo") or "").strip())
         dica = next((por_id[i]["dica"] for i in ids if por_id[i].get("dica")), "")
         urls = " ".join(por_id[i].get("link") or "" for i in ids)
         desc = " ".join(por_id[i].get("descricao") or "" for i in ids)
@@ -438,7 +438,11 @@ def montar_itens(brutos, grupos, por_id, cfg, disponiveis, recentes_lista, dia):
                 continue
             frases.append(f)
         if len(frases) < 5:
-            for f in _frases(" ".join(titulos)):
+            candidatos = []
+            for raw in titulos:
+                partes = _frases(raw) or ([raw] if raw.strip() else [])
+                candidatos.extend(partes)
+            for f in candidatos:
                 f = notas.limpa_texto_fonte(f)
                 if len(f) < 40 or notas.frase_lixo(f):
                     continue
@@ -450,16 +454,7 @@ def montar_itens(brutos, grupos, por_id, cfg, disponiveis, recentes_lista, dia):
                 if len(frases) >= 5:
                     break
         frases = frases[:5]
-        if not frases and por_cid.get(cid, {}).get("completar_secao"):
-            desc = por_id[ids[0]].get("descricao") or ""
-            frases = [p for p in _frases(desc) if len(p) >= 30][:3]
-            if not frases and len(desc) >= 40:
-                frases = [desc[:400].rstrip(".")]
-        if not frases:
-            base = notas.limpa_manchete(titulo) or notas.limpa_manchete(por_id[ids[0]]["titulo"])
-            if len(base) >= 20:
-                frases = [base]
-        if not frases:
+        if len(frases) < 5:
             motivos["sem_frase"] += 1
             continue
         resumo = ". ".join(frases)
@@ -544,15 +539,10 @@ def selecionar(itens, cfg):
 
 
 def _trend_liga_item(nome, itens):
-    chaves = {w for w in notas.tokens(nome or "") if len(w) >= 5}
-    if not chaves:
-        return None
-    melhor, score = None, 0
     for it in itens:
-        inter = chaves & notas.tokens((it.get("title") or "") + " " + (it.get("summary") or ""))
-        if len(inter) > score:
-            melhor, score = it, len(inter)
-    return melhor if score else None
+        if notas.trend_casa_no_item(nome, it):
+            return it
+    return None
 
 
 def _trends_candidatos(trends, itens):
@@ -639,13 +629,14 @@ def redigir_trends(itens, trends, completar):
         if item_id and por_titulo[item_id]["outlets"]:
             o = por_titulo[item_id]["outlets"][0]
             fonte = {"name": o["name"], "url": o["url"]}
+        ligado = por_titulo.get(item_id) or {}
         saida.append({
             "nome": base.get("nome"),
             "volume": base.get("volume"),
             "url": base.get("url"),
-            "sobre": notas.sem_travessao(t.get("sobre") or ""),
+            "sobre": notas.sem_travessao((ligado.get("title") or t.get("sobre") or base.get("nome") or "").strip()),
             "leitura": leitura,
-            "uso": notas.sem_travessao(t.get("uso") or ""),
+            "uso": notas.uso_coerente(t.get("uso") or "", ligado),
             "item_id": item_id,
             "fonte": fonte,
         })
@@ -1371,7 +1362,8 @@ def _self_test():
         {"nome": "Folha de S.Paulo", "camp": "centro-esquerda", "manchetes": [
             {"titulo": "Robert Pattinson é anunciado como novo James Bond", "link": "https://folha.uol.com.br/bond", "quando": "16/11 17:00"}]},
         {"nome": "UOL", "camp": "centro-esquerda", "manchetes": [
-            {"titulo": "Flamengo vence o Vasco por 2 a 0 no Maracanã", "link": "https://uol.com.br/fla", "quando": "16/11 16:00"}]},
+            {"titulo": "Flamengo vence o Vasco por 2 a 0 no Maracanã", "link": "https://uol.com.br/fla", "quando": "16/11 16:00",
+             "descricao": "O Flamengo venceu o Vasco por 2 a 0 no Maracanã no clássico de domingo. Arrascaeta e Pedro marcaram os gols da partida. O time rubro-negro chegou à liderança do campeonato. A torcida lotou o estádio no Rio."}]},
     ], "temas": {}, "portais_extra": []}
     # o filtro de entretenimento tira o Bond antes do modelo
     mans = carregar_manchetes(coleta, cfg)
@@ -1399,7 +1391,7 @@ def _self_test():
     }, {
         "cid": "u1", "ids": ids_fla, "segmento": "politica",
         "titulo": "Flamengo vence o Vasco por 2 a 0 no Maracanã",
-        "resumo": "O Flamengo vence o Vasco por 2 a 0. O jogo foi no Maracanã. O placar ficou em 2 a 0. Vasco e Flamengo se enfrentaram no Maracanã. O Flamengo venceu por 2 a 0.",
+        "resumo": "O Flamengo vence o Vasco por 2 a 0 no Maracanã. Arrascaeta e Pedro marcaram os gols da partida. O time rubro-negro chegou à liderança do campeonato. A torcida lotou o estádio no Rio. O clássico de domingo terminou com vitória do Flamengo por 2 a 0.",
         "reuse_id": "", "desdobramento": "", "peso_voce": 3, "descarte": False,
     }]
     # garante portais da direita e da esquerda na coleta para a assimetria poder ser julgada
@@ -1415,7 +1407,7 @@ def _self_test():
     assert mora["asymmetry"]["flag"] is True
     assert {o["name"] for o in mora["outlets"]} == {"Gazeta do Povo", "Revista Oeste", "Jovem Pan"}
     assert all(o["url"].startswith("https://") and "inventar" not in o["url"] for o in mora["outlets"])
-    assert len(_frases(mora["summary"])) >= 2
+    assert len(_frases(mora["summary"])) == 5
     fla = next(i for i in itens if "Flamengo" in i["title"])
     assert fla["segment"] == "esportes"
     ruim = dict(brutos[0], resumo="Moraes negou a visita. Eram 999 senadores. Fim. Fim de novo. Última.")
@@ -1537,6 +1529,16 @@ def _self_test():
     partes_arg = separar_cluster_heterogeneo({"cid": "arg", "ids": ["a1", "a2", "a3"], "segmento": "internacional"}, por_arg)
     assert len(partes_arg) >= 2
     assert not any({"a1", "a3"} <= set(p["ids"]) for p in partes_arg)
+
+    # 1. resumo com menos de 5 frases ancoradas é descartado
+    assert notas.limpa_manchete("Temporais no PR. #JR24H #Shorts") == "Temporais no PR"
+
+    # 5. trend genérico não liga pelo resumo
+    pal = {"id": "pal", "title": "Palmeiras viaja para a final", "summary": "A delegação embarcou com André."}
+    cor = {"id": "cor", "title": "Corinthians empata com Atlético-MG", "summary": "O time saiu da zona de rebaixamento."}
+    assert _trend_liga_item("André", [pal, cor]) is None
+    assert _trend_liga_item("Atlético Mineiro", [pal, cor])["id"] == "cor"
+    assert _trend_liga_item("Corinthians", [pal, cor])["id"] == "cor"
 
     print("editar_com_ia: ok")
 

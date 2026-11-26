@@ -224,10 +224,11 @@ def titulo_opiniao(titulo):
 
 
 def _corrigir_titulo(item):
-    titulo = notas.sem_travessao(item.get("title") or "").strip()
+    original = item.get("title") or ""
+    titulo = notas.limpa_manchete(original)
+    item["title"] = titulo
     if not titulo_opiniao(titulo):
-        item["title"] = titulo
-        return False
+        return titulo != original.strip()
     resumo = item.get("summary") or ""
     frases = [p.strip() for p in re.split(r"[.!?]+", resumo) if p.strip()]
     for fr in frases:
@@ -267,15 +268,18 @@ def _limpar_resumo(item):
     return False
 
 
-def resumo_curto(item, minimo_frases=2, minimo_chars=160):
+def resumo_curto(item, minimo_frases=5, minimo_chars=None):
+    """Verdadeiro quando o resumo não tem as 5 frases pedidas na edição."""
     s = (item.get("summary") or "").strip()
     if not s:
         return True
-    frases = [p.strip() for p in re.split(r"[.!?]+", s) if p.strip()]
-    # "Título. UOL Notícias" já foi limpo; uma frase longa ainda informa
+    frases = [p.strip() for p in re.split(r"(?<=[.!?])\s+", s) if p.strip()]
+    if not frases:
+        frases = [p.strip() for p in re.split(r"[.!?]+", s) if p.strip()]
     if len(frases) >= minimo_frases:
         return False
-    if len(s) >= minimo_chars and len(frases) >= 1:
+    # Escape antigo (1 frase longa) só se o chamador baixar o mínimo explicitamente
+    if minimo_chars is not None and len(s) >= minimo_chars and len(frases) >= 1 and minimo_frases <= 2:
         return False
     return True
 
@@ -289,14 +293,14 @@ def _ajustar_bloco(item):
     seg = item.get("segment") or ""
     novo = notas.ajustar_segmento(titulo, seg, "", urls, resumo)
     if any(notas.contem_termo(t, k) for k in _CLIMA) and not any(notas.contem_termo(t, k) for k in _CRIME):
-        if seg == "seguranca":
-            # não há bloco de clima; economia só se houver gasto público, senão fica internacional se for no exterior
-            if any(notas.contem_termo(t, k) for k in ("milhoes", "milhões", "governo destina", "verba", "reais")):
-                novo = "economia"
-            elif any(notas.contem_termo(t, k) for k in ("peru", "chile", "equador", "mexico", "méxico", "haiti")):
+        if novo == "seguranca" or (novo is None and seg == "seguranca"):
+            if any(notas.contem_termo(t, k) for k in ("peru", "chile", "equador", "mexico", "méxico", "haiti")):
                 novo = "internacional"
-            else:
-                novo = seg if seg != "seguranca" else "economia"
+            elif notas.tem_sinal_rio(t):
+                novo = "rio"
+            # outro estado: não joga temporal para economia nem para o Rio
+            elif notas.tem_outro_estado(t):
+                novo = novo if novo and novo not in {"rio", "seguranca"} else None
     if novo and novo != seg:
         item["segment"] = novo
         return True
@@ -310,6 +314,10 @@ _PESSOAS = {"bolsonaro", "lula", "michelle", "flavio", "moraes", "mendonca", "ja
 def _mesmo_item(a, b):
     ta, tb = notas.tokens(a.get("title") or ""), notas.tokens(b.get("title") or "")
     if notas.mesmo_fato(ta, tb, a.get("title") or "", b.get("title") or ""):
+        return True
+    texto_a = (a.get("title") or "") + " " + (a.get("summary") or "")
+    texto_b = (b.get("title") or "") + " " + (b.get("summary") or "")
+    if notas.mesmo_assunto(texto_a, texto_b):
         return True
     # mesma pessoa + mesma internação (Bolsonaro no hospital com títulos diferentes)
     if (ta & _SAUDE) and (tb & _SAUDE) and (ta & tb & _PESSOAS):
@@ -368,31 +376,27 @@ def limpar_trends(trends, itens):
         item_id = t.get("item_id") or None
         if item_id and item_id not in ids:
             item_id = None
-        texto_item = ""
-        if item_id:
-            it = por_id[item_id]
-            texto_item = (it.get("title") or "") + " " + (it.get("summary") or "")
-            if chaves and not (chaves & notas.tokens(texto_item)):
-                item_id = None
-        if item_id is None and chaves:
-            melhor, score = None, 0
+        if item_id and not notas.trend_casa_no_item(nome, por_id[item_id]):
+            item_id = None
+        if item_id is None:
             for it in itens:
-                inter = chaves & notas.tokens((it.get("title") or "") + " " + (it.get("summary") or ""))
-                if len(inter) > score:
-                    melhor, score = it, len(inter)
-            if score:
-                item_id = melhor.get("id")
+                if notas.trend_casa_no_item(nome, it):
+                    item_id = it.get("id")
+                    break
         if item_id is None:
             # sem matéria correspondente, o trend não entra na edição
             continue
         if notas.eh_entretenimento(nome, "", sobre):
             continue
+        ligado = por_id.get(item_id) or {}
+        sobre = notas.sem_travessao((ligado.get("title") or sobre or nome).strip())
+        uso = notas.uso_coerente(t.get("uso") or "", ligado)
         vistos.add(chave)
         saida.append({
             **t,
             "nome": nome,
-            "sobre": notas.sem_travessao(sobre or nome),
-            "uso": notas.sem_travessao(t.get("uso") or ""),
+            "sobre": sobre,
+            "uso": uso,
             "item_id": item_id,
         })
         if len(saida) >= 8:
@@ -505,19 +509,8 @@ def reparar(edicao, cfg, google=True):
             curtos.append(it)
         else:
             vivos.append(it)
-    # se a seção precisar, devolve o curto
-    por_vivos = {}
-    for it in vivos:
-        por_vivos.setdefault(it.get("segment"), []).append(it)
-    for it in curtos:
-        seg = it.get("segment")
-        sconf = next((s for s in cfg.get("segments") or [] if s["key"] == seg), {})
-        minimo = sconf.get("min_items") or 0
-        if len(por_vivos.get(seg) or []) < minimo:
-            vivos.append(it)
-            por_vivos.setdefault(seg, []).append(it)
-        else:
-            rel["itens_curtos_removidos"] += 1
+    # Resumo curto irreparável não volta só para cumprir o mínimo da seção.
+    rel["itens_curtos_removidos"] += len(curtos)
     itens = vivos
     tiers = {o["name"]: o.get("tier") or 3 for o in cfg.get("outlets") or []}
     for it in itens:
@@ -559,7 +552,7 @@ def conferir_graves(edicao, cfg):
             erros.append(f"título de opinião: {titulo}")
         if not (it.get("summary") or "").strip():
             erros.append(f"sem resumo: {titulo}")
-        elif resumo_curto(it) and por[it.get("segment")] > (next((s.get("min_items") or 1 for s in cfg.get("segments") or [] if s["key"] == it.get("segment")), 1)):
+        elif resumo_curto(it):
             erros.append(f"resumo curto: {titulo}")
         if "—" in json.dumps(it, ensure_ascii=False) or "–" in json.dumps(it, ensure_ascii=False):
             erros.append(f"travessão: {titulo}")
@@ -605,18 +598,18 @@ def _self_test():
     ed = {
         "items": [
             {"id": "a", "segment": "politica", "title": "Jair Bolsonaro é internado após dores abdominais",
-             "summary": "Jair Bolsonaro foi internado após sentir dores abdominais. A família acompanha o quadro no hospital e Michelle anunciou a volta ao Brasil.",
+             "summary": "Jair Bolsonaro foi internado após sentir dores abdominais. A família acompanha o quadro no hospital. Michelle anunciou a volta ao Brasil. O ex-presidente permanece em observação. A equipe médica ainda não divulgou um boletim completo.",
              "scores": {}, "score": 8, "outlets": [
                  {"name": "UOL", "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/11/21/bolsonaro-internado-dores-abdominais.htm"},
                  {"name": "Estadão", "url": "https://www.estadao.com.br/politica/jair-bolsonaro-da-entrada-em-hospital-apos-dores/"},
              ]},
             {"id": "b", "segment": "politica", "title": "Bolsonaro dá entrada em hospital após dores abdominais, diz Carlos",
-             "summary": "Carlos Bolsonaro disse que o pai deu entrada no hospital após dores abdominais. O quadro segue em observação.",
+             "summary": "Carlos Bolsonaro disse que o pai deu entrada no hospital após dores abdominais. O quadro segue em observação. A família acompanha o atendimento. Michelle deve voltar ao Brasil. A equipe médica ainda avalia o caso.",
              "scores": {}, "score": 8, "outlets": [
                  {"name": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/bolsonaro-hospital-dores-abdominais/"},
              ]},
             {"id": "c", "segment": "economia", "title": "Lula perde tempo brigando com o mercado",
-             "summary": "O presidente Luiz Inacio Lula da Silva criticou agentes do mercado financeiro em entrevista. A equipe economica evitou comentar o episodio nesta sexta.",
+             "summary": "O presidente Luiz Inacio Lula da Silva criticou agentes do mercado financeiro em entrevista. A equipe economica evitou comentar o episodio nesta sexta. O recado foi dado a empresários. O mercado reagiu com cautela. Assessores tentaram esclarecer o tom da fala.",
              "scores": {}, "score": 5, "outlets": [
                  {"name": "UOL", "url": "https://economia.uol.com.br/noticias/lula-critica-mercado-financeiro-entrevista.htm"},
                  {"name": "Estadão", "url": "https://www.estadao.com.br/economia/lula-critica-agentes-do-mercado-financeiro/"},
@@ -644,6 +637,64 @@ def _self_test():
     assert nomes.count("Bolsonaro") == 1
     graves = [e for e in conferir_graves(out, cfg) if not e.startswith("só ")]
     assert graves == [], graves
+
+    # 1. resumo com 2 frases é curto
+    assert resumo_curto({"summary": "O IBGE prorrogou as inscrições. A Bahia oferece mais vagas."})
+    assert not resumo_curto({"summary": (
+        "O IBGE prorrogou as inscrições para recenseadores. "
+        "A Bahia é o estado com mais vagas. "
+        "As provas ocorrem em dezembro. "
+        "Os aprovados atuam no censo agropecuário. "
+        "As inscrições terminam na próxima semana."
+    )})
+
+    # 2. hashtag e CTA saem do título/resumo
+    it_yt = {
+        "id": "pr-chuva", "segment": "rio",
+        "title": "Temporais no PR atingem 50 cidades e deixam seis mortos. #JR24H #Shorts",
+        "summary": "➡️ Acompanhe mais notícias em nosso site oficial: https://noticias.com/jr-na-tv Inscreva-se no canal.",
+        "outlets": [{"name": "R7", "url": "https://r7.com/temporais-pr"}],
+    }
+    _corrigir_titulo(it_yt)
+    _limpar_resumo(it_yt)
+    assert "#JR24H" not in it_yt["title"] and "Shorts" not in it_yt["title"]
+    assert "inscreva" not in notas.norm(it_yt["summary"])
+    assert notas.ajustar_segmento(it_yt["title"], "rio") != "rio"
+
+    # 3. três ângulos de tarifas viram um fato
+    tarifas = [
+        {"id": "a1", "title": "EUA propõem novas tarifas sobre produtos brasileiros, incluindo aeronaves e açúcar",
+         "summary": "Os Estados Unidos propuseram novas tarifas sobre produtos brasileiros, incluindo aeronaves e açúcar. A alíquota atinge a Embraer.",
+         "outlets": [{"name": "UOL", "url": "https://uol.com.br/tarifas-1"}]},
+        {"id": "a2", "title": "Governo brasileiro manifesta indignação e não cederá a ameaças de tarifas dos EUA",
+         "summary": "O governo manifestou indignação com as tarifas dos EUA sobre aeronaves e açúcar e disse que não cederá.",
+         "outlets": [{"name": "G1", "url": "https://g1.globo.com/tarifas-2"}]},
+        {"id": "a3", "title": "Governo Lula reage a ameaça de tarifas dos EUA e cita pressão sobre o Pix",
+         "summary": "O governo Lula reagiu às tarifas dos EUA sobre aeronaves e açúcar e citou pressão sobre o Pix.",
+         "outlets": [{"name": "Folha", "url": "https://folha.uol.com.br/tarifas-3"}]},
+    ]
+    fundidos = fundir_itens(tarifas)
+    assert len(fundidos) == 1, [i["title"] for i in fundidos]
+    assert len(fundidos[0]["outlets"]) == 3
+
+    # 5. André não cola no Palmeiras; uso deslocado some
+    itens_tr = [
+        {"id": "pal", "title": "Palmeiras viaja para final da Libertadores com festa da torcida",
+         "summary": "O Palmeiras embarcou com André e a delegação para o duelo."},
+        {"id": "cor", "title": "Corinthians empata com Atlético-MG e sai da zona de rebaixamento",
+         "summary": "O Corinthians empatou com o Atlético-MG em Belo Horizonte."},
+    ]
+    tr = limpar_trends([
+        {"nome": "André", "sobre": "André", "uso": "Rebater com fato sobre indicações no governo Lula", "item_id": "pal"},
+        {"nome": "Atlético Mineiro", "sobre": "Atlético Mineiro", "uso": "Explicar impacto do julgamento para eleições no Rio", "item_id": "cor"},
+        {"nome": "Corinthians", "sobre": "Corinthians empata com Atlético-MG", "uso": "comentar o jogo", "item_id": "cor"},
+    ], itens_tr)
+    nomes = [x["nome"] for x in tr]
+    assert "André" not in nomes
+    atl = next(x for x in tr if x["nome"] == "Atlético Mineiro")
+    assert "eleicoes" not in notas.norm(atl["uso"]) and "julgamento" not in notas.norm(atl["uso"])
+    assert atl["item_id"] == "cor"
+
     print("noticias_reparar: ok")
 
 

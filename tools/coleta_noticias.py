@@ -32,6 +32,7 @@ from email.utils import parsedate_to_datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import feeds_diretos
+import noticias_notas as notas
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 UA = {"User-Agent": "Mozilla/5.0 (painel-rogerrio; +https://rogeriotpires-spec.github.io/instagram-dashboard/)"}
@@ -193,7 +194,7 @@ def itens_google(dados, corte, BRT, agora, limite, mapa, drops, descartados):
         desc = re.sub(r"\s+", " ", desc).strip()
         if desc.lower() == t.lower() or len(desc) < 40:
             desc = ""
-        item = {"titulo": t, "descricao": desc[:500], "quando": dt.strftime("%d/%m %H:%M"), "link": it.findtext("link") or "", "_epoch": dt.timestamp()}
+        item = {"titulo": notas.limpa_manchete(t) or t, "descricao": notas.limpa_texto_fonte(desc)[:500], "quando": dt.strftime("%d/%m %H:%M"), "link": it.findtext("link") or "", "_epoch": dt.timestamp()}
         if nome:
             item["fonte"] = nome
             item["fonte_bruta"] = fonte
@@ -428,6 +429,11 @@ def _self_test():
     assert deve_repetir_feed({"http": 503, "erro": "temporar"}, 1)
     assert not deve_repetir_feed({"http": 200, "vazio": True, "ok": False}, 0)
     assert not deve_repetir_feed({"http": 429}, 2)
+    limpo = notas.limpa_manchete("Temporais no PR atingem 50 cidades e deixam seis mortos. #JR24H #Shorts")
+    assert "JR24H" not in limpo and "Shorts" not in limpo
+    assert "inscreva" not in notas.norm(notas.limpa_texto_fonte(
+        "Acompanhe mais notícias em nosso site. Inscreva-se no canal Jornal da Record."
+    ))
     print("coleta_noticias: ok")
 
 

@@ -128,6 +128,7 @@ def erros_bloqueantes(erros):
             "frase sem manchete de apoio" in el
             or "frase sem apoio" in el
             or el.startswith("resumo cortado")
+            or el.startswith("resumo curto")
             or "assuntos misturados" in el
             or el.startswith("só ")
         ):
@@ -210,10 +211,11 @@ def conferir(edicao, coleta):
             erros.append(f"resumo boilerplate: {titulo}")
         if resumo_cortado(resumo):
             erros.append(f"resumo cortado: {titulo}")
-        seg = notas.ajustar_segmento(titulo, it.get("segment") or "", "")
-        if seg and seg != it.get("segment") and seg in ("esportes", "economia", "internacional", "educacao", "ciencia", "rio", "seguranca"):
-            if it.get("segment") == "politica":
-                erros.append(f"seção {it.get('segment')} para fato de {seg}: {titulo}")
+        if reparar.resumo_curto(it):
+            erros.append(f"resumo curto: {titulo}")
+        seg = notas.ajustar_segmento(titulo, it.get("segment") or "", "", urls, resumo)
+        if seg and seg != it.get("segment") and seg in ("esportes", "economia", "internacional", "educacao", "ciencia", "rio", "seguranca", "politica"):
+            erros.append(f"seção {it.get('segment')} para fato de {seg}: {titulo}")
         for o in it.get("outlets") or []:
             if (o.get("name"), o.get("url")) not in por_link:
                 erros.append(f"link fora da coleta: {o.get('name')} em «{titulo}»")
@@ -490,13 +492,21 @@ def _self_test():
             "title": f"Congresso vota o projeto de transparência número {i+1}",
             "summary": (
                 f"O Congresso vota o projeto de transparência número {i+1}. "
-                f"A votação do projeto de transparência número {i+1} ocorre nesta sessão do Congresso."
+                f"A votação do projeto de transparência número {i+1} ocorre nesta sessão do Congresso. "
+                f"O texto da transparência número {i+1} segue para o plenário. "
+                f"Líderes do Congresso articulam o acordo da transparência número {i+1}. "
+                f"A sessão do Congresso deve concluir a transparência número {i+1} ainda hoje."
             ),
             "outlets": [{
                 "name": "Poder360",
                 "url": f"https://www.poder360.com.br/poder-congresso/projeto-transparencia-{i+1}/",
                 "titulo": f"Congresso vota o projeto de transparência número {i+1}",
-                "descricao": f"A votação do projeto de transparência número {i+1} ocorre nesta sessão do Congresso.",
+                "descricao": (
+                    f"A votação do projeto de transparência número {i+1} ocorre nesta sessão do Congresso. "
+                    f"O texto da transparência número {i+1} segue para o plenário. "
+                    f"Líderes do Congresso articulam o acordo da transparência número {i+1}. "
+                    f"A sessão do Congresso deve concluir a transparência número {i+1} ainda hoje."
+                ),
             }],
         })
 
@@ -761,6 +771,65 @@ def _self_test():
     }
     erros_bh, _, _ = conferir({"items": [item_bh] + extras}, _coleta_de_itens(item_bh, *extras))
     assert not any("assuntos misturados" in e and "28 anos" in e for e in erros_bh), erros_bh
+
+    # 1. resumo de 2 frases é erro bloqueante; o reparo descarta se não dá para completar 5
+    curto_ibge = {
+        "id": "ibge-curto",
+        "segment": "educacao",
+        "title": "IBGE prorroga inscrições para concurso de recenseadores agropecuários",
+        "summary": "O IBGE prorrogou as inscrições para concurso de recenseadores agropecuários. A Bahia é o estado que oferece mais oportunidades.",
+        "outlets": [{
+            "name": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/ibge-recenseadores",
+            "titulo": "IBGE prorroga inscrições para concurso de recenseadores agropecuários",
+            "descricao": "O IBGE prorrogou as inscrições. A Bahia oferece mais vagas.",
+        }],
+    }
+    erros_ib, _, _ = conferir({"items": [curto_ibge] + extras}, _coleta_de_itens(curto_ibge, *extras))
+    assert any(e.startswith("resumo curto:") and "IBGE" in e for e in erros_bloqueantes(erros_ib)), erros_ib
+    ed_ib, rel_ib = reparar_itens_reprovados({"items": [curto_ibge] + extras}, _coleta_de_itens(curto_ibge, *extras))
+    assert all(i["id"] != "ibge-curto" for i in ed_ib["items"])
+
+    # 2. lixo de YouTube no resumo é bloqueante; título perde hashtag no reparo de notas
+    assert "JR24H" not in notas.limpa_manchete("Temporais no PR atingem 50 cidades. #JR24H #Shorts")
+
+    # 4. seção errada: STF em economia e escolas em economia
+    item_stf = {
+        "id": "stf-turno",
+        "segment": "economia",
+        "title": "STF marca para 4 de dezembro o início do julgamento sobre segundo turno no Rio de Janeiro",
+        "summary": (
+            "O STF marcou para 4 de dezembro o julgamento sobre o segundo turno no Rio de Janeiro. "
+            "A sessão será virtual. A votação segue até o dia 15. O ministro relator conduz o caso. "
+            "O pedido foi apresentado pelo PSD."
+        ),
+        "outlets": [{
+            "name": "G1",
+            "url": "https://g1.globo.com/stf-segundo-turno",
+            "titulo": "STF marca para 4 de dezembro o início do julgamento sobre segundo turno no Rio de Janeiro",
+            "descricao": "O STF julga o pedido de segundo turno no Rio de Janeiro em sessão virtual até 15 de dezembro.",
+        }],
+    }
+    erros_stf, _, _ = conferir({"items": [item_stf] + extras}, _coleta_de_itens(item_stf, *extras))
+    assert any("seção economia para fato de politica" in e for e in erros_stf), erros_stf
+    item_esc = {
+        "id": "racismo-escolas",
+        "segment": "economia",
+        "title": "Câmara aprova protocolo nacional para combater racismo nas escolas",
+        "summary": (
+            "A Câmara aprovou o protocolo nacional contra o racismo nas escolas. "
+            "O texto prevê acolhimento às vítimas. A medida vale para redes públicas e privadas. "
+            "A Comissão de Educação encaminhou o projeto. O protocolo entra em vigor após a sanção."
+        ),
+        "outlets": [{
+            "name": "Agência Câmara",
+            "url": "https://www.camara.leg.br/racismo-escolas",
+            "titulo": "Câmara aprova protocolo nacional para combater racismo nas escolas",
+            "descricao": "A Câmara aprovou o protocolo nacional de acolhimento às vítimas de racismo nas escolas.",
+        }],
+    }
+    erros_esc, _, _ = conferir({"items": [item_esc] + extras}, _coleta_de_itens(item_esc, *extras))
+    assert any("seção economia para fato de educacao" in e for e in erros_esc), erros_esc
 
     print("qa_edicao: ok")
 
