@@ -1,237 +1,212 @@
 {
   "date": "2026-11-26",
-  "generated": "2026-11-26T01:31:10-03:00",
+  "generated": "2026-11-26T09:15:36-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Lula sonda Luiz Carlos Trabuco para Fazenda; PGR denuncia Gustavo Gayer ao STF; Corinthians sai da zona de rebaixamento",
-  "abertura": "O presidente Lula busca fortalecer sua equipe econômica e sondou Luiz Carlos Trabuco para o Ministério da Fazenda, sinalizando foco em responsabilidade fiscal. No campo político, a Procuradoria-Geral da República denunciou o deputado Gustavo Gayer ao STF por desvios de recursos públicos. No esporte, o Corinthians conquistou um empate importante contra o Atlético-MG e saiu da zona de rebaixamento no Brasileirão. Vamos analisar esses fatos que mexem com o cenário nacional e a política.",
+  "titulo": "Moraes autoriza Débora do Batom a sair para apresentação do filho; TCU afasta multas a Dilma por irregularidades fiscais; CMN e BC anunciam regras para conter endividamento das famílias",
+  "abertura": "O ministro Alexandre de Moraes autorizou Débora do Batom a comparecer à apresentação do filho, um gesto que humaniza decisões judiciais. Enquanto isso, o Tribunal de Contas da União afastou multas contra Dilma Rousseff e auxiliares por irregularidades fiscais de 2014, decisão que reforça a necessidade de rigor técnico nas análises. No campo econômico, o Conselho Monetário Nacional e o Banco Central anunciaram novas regras para conter o endividamento das famílias brasileiras, buscando maior responsabilidade financeira. Esses temas mostram a tensão entre justiça, política e economia que o país vive hoje.",
   "agenda": [],
   "itens": [
     {
-      "id": "lula-sonda-trabuco-fazenda",
+      "id": "autoriza-debora-batom",
       "bloco": "politica nacional",
-      "titulo": "Lula sondou Luiz Carlos Trabuco para o Ministério da Fazenda",
-      "subtitulo": "Presidente busca executivo do Bradesco para compor equipe econômica no quarto mandato",
-      "resumo": "O presidente Luiz Inácio Lula da Silva se reuniu com Luiz Carlos Trabuco, presidente do Conselho de Administração do Bradesco, para sondá-lo como ministro da Fazenda. Trabuco ainda avalia a proposta e não deu resposta definitiva. A escolha de um banqueiro experiente sinaliza intenção de manter responsabilidade fiscal. O mercado acompanha com atenção a possível nomeação. A movimentação reforça a estratégia de Lula para o ajuste das contas públicas em 2027.",
+      "titulo": "Moraes autoriza Débora do Batom a comparecer à apresentação do filho",
+      "subtitulo": "Ministro concede saída restrita para evento escolar em Paulínia",
+      "resumo": "O ministro Alexandre de Moraes autorizou a saída da cabeleireira Débora do Batom, que está em prisão domiciliar, exclusivamente para a apresentação natalina do filho no dia 29 de novembro. A autorização é pontual e visa preservar o direito familiar sem comprometer a medida judicial. A decisão demonstra equilíbrio entre o cumprimento da lei e a consideração humana. A saída é restrita ao evento e local indicados, sem outras permissões. O episódio reforça a importância do respeito às instituições e às decisões judiciais.",
       "contexto": [
-        "Trabuco é executivo respeitado no setor financeiro brasileiro.",
-        "Lula busca ajustar as contas públicas no próximo governo.",
-        "Mercado financeiro valoriza nomes com experiência técnica.",
-        "A nomeação pode indicar continuidade e estabilidade econômica."
+        "Débora do Batom está em prisão domiciliar.",
+        "Apresentação do filho será em escola de Paulínia, SP.",
+        "Saída autorizada apenas para o dia 29 de novembro.",
+        "Ministro Alexandre de Moraes é responsável pela decisão."
       ],
       "angulo": [
-        "Sondagem mostra compromisso de Lula com responsabilidade fiscal.",
-        "Trabuco representa interlocução positiva com o mercado.",
-        "Nome técnico reforça confiança na condução da economia.",
-        "A decisão pode fortalecer a base econômica do governo."
+        "Decisão respeita o direito à convivência familiar.",
+        "Mostra equilíbrio do Judiciário entre rigor e humanidade.",
+        "Reforça a autoridade das medidas judiciais.",
+        "Evita interpretações que fragilizem o Estado de Direito."
       ],
       "perguntas": [
-        "Quais os impactos da possível nomeação de Trabuco para a Fazenda?",
-        "Como o mercado deve reagir a essa escolha?",
-        "De que forma a experiência de Trabuco pode ajudar no ajuste fiscal?"
-      ],
-      "fontes": [
-        {
-          "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/noticia/2026/11/26/trabuco-do-bradesco-e-sondado-por-lula-para-a-fazenda-quem-e-o-banqueiro-e-como-e-visto-pelo-mercado.ghtml"
-        },
-        {
-          "name": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/quem-e-luiz-trabuco-executivo-do-bradesco-sondado-para-lula-4/"
-        },
-        {
-          "name": "Estadão",
-          "url": "https://www.estadao.com.br/economia/lula-sondou-trabuco-para-o-ministerio-da-fazenda-banqueiro-ainda-avalia-proposta/"
-        }
-      ]
-    },
-    {
-      "id": "pgr-denuncia-gustavo-gayer-stf",
-      "bloco": "politica nacional",
-      "titulo": "PGR denuncia deputado Gustavo Gayer ao STF por desvio de recursos públicos",
-      "subtitulo": "Acusação inclui peculato, uso de documento falso e associação criminosa",
-      "resumo": "A Procuradoria-Geral da República denunciou o deputado federal Gustavo Gayer (PL-GO) ao Supremo Tribunal Federal. Ele é acusado de montar esquema para desviar verbas públicas em benefício de negócios privados, como escola de inglês e loja de roupas. A denúncia aponta uso de documentos falsos para viabilizar o esquema. O caso reforça a atuação da PGR no combate à corrupção. A denúncia segue o rito previsto para parlamentares no STF.",
-      "contexto": [
-        "Gustavo Gayer é deputado federal pelo PL de Goiás.",
-        "A PGR atua no combate a desvios de recursos públicos.",
-        "Denúncia envolve esquema dentro do gabinete parlamentar.",
-        "O STF é o foro competente para julgar parlamentares."
-      ],
-      "angulo": [
-        "A denúncia demonstra que o sistema de fiscalização está ativo.",
-        "A atuação da PGR reforça o compromisso com o Estado de Direito.",
-        "O combate à corrupção é fundamental para a credibilidade política.",
-        "A denúncia não implica condenação, respeita-se o devido processo."
-      ],
-      "perguntas": [
-        "Quais as consequências políticas da denúncia para Gustavo Gayer?",
-        "Como a PGR tem atuado no combate a desvios no Congresso?",
-        "Qual o papel do STF em processos contra parlamentares?"
+        "Como a decisão de Moraes reflete o equilíbrio entre justiça e humanidade?",
+        "Quais os limites adequados para concessão de saídas em prisão domiciliar?",
+        "De que forma essa autorização impacta a percepção sobre o Judiciário?"
       ],
       "fontes": [
         {
           "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/republica/pgr-denuncia-gustavo-gayer-por-suposto-desvio-de-cota-parlamentar/"
+          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/moraes-autoriza-saida-de-debora-do-batom-para-apresentacao-de-natal-do-filho/"
         },
         {
-          "name": "Folha de S.Paulo",
-          "url": "https://www1.folha.uol.com.br/poder/2026/11/pgr-denuncia-gustavo-gayer-e-mais-24-pessoas-por-suposto-desvio-de-verba-parlamentar.shtml"
-        },
-        {
-          "name": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/politica/pgr-denuncia-gustavo-gayer-por-desvio-de-verba-da-camara/"
+          "name": "R7",
+          "url": "https://noticias.r7.com/brasilia/moraes-autoriza-debora-do-batom-a-comparecer-a-apresentacao-do-filho-26112026/"
         }
       ]
     },
     {
-      "id": "corinthians-empata-atletico-mg-sai-zona-rebaixamento",
-      "bloco": "esportes",
-      "titulo": "Corinthians empata com Atlético-MG e sai da zona de rebaixamento no Brasileirão",
-      "subtitulo": "Jogo teve polêmicas e expulsão, mas resultado favoreceu o Timão",
-      "resumo": "O Corinthians conquistou um empate importante contra o Atlético-MG em Belo Horizonte. O resultado tirou o time da zona de rebaixamento do Campeonato Brasileiro. A partida contou com polêmicas, como expulsão do jogador Borbas e pedido de pênalti não concedido. O árbitro Braulio Machado apitou o jogo, sendo a segunda partida da rodada que ele comandou. O Corinthians soma pontos essenciais para a permanência na elite do futebol nacional.",
+      "id": "tcu-afasta-multas-dilma",
+      "bloco": "politica nacional",
+      "titulo": "TCU afasta multas a Dilma Rousseff e auxiliares por irregularidades fiscais de 2014",
+      "subtitulo": "Tribunal arquiva processo sem sanções individuais, mantém rejeição das contas",
+      "resumo": "O Tribunal de Contas da União decidiu afastar as multas impostas à ex-presidente Dilma Rousseff e seus auxiliares por supostas irregularidades fiscais em 2014. O processo foi arquivado sem aplicação de sanções individuais, embora a rejeição das contas daquele ano tenha sido mantida. A decisão reforça a necessidade de rigor técnico e imparcialidade nas análises fiscais. O TCU reafirma seu papel institucional sem ceder a pressões políticas. O episódio destaca a importância do equilíbrio entre controle e justiça fiscal.",
       "contexto": [
-        "Corinthians vinha na zona de rebaixamento antes da rodada.",
-        "Atlético-MG é um dos times de ponta do Brasileirão.",
-        "Árbitro Braulio Machado gerou controvérsias no jogo.",
-        "Empate foi importante para o calendário do Corinthians."
+        "Processo tratava de sanções por gestão fiscal em 2014.",
+        "Multas foram aplicadas a Dilma Rousseff e equipe econômica.",
+        "Decisão arquiva processo sem punições individuais.",
+        "Rejeição das contas do governo de 2014 permanece."
       ],
       "angulo": [
-        "O resultado mostra a luta do Corinthians para se manter na Série A.",
-        "Polêmicas arbitrárias não podem tirar o mérito do time paulista.",
-        "A saída da zona de rebaixamento é um alívio para a torcida.",
-        "O jogo reforça a competitividade do Brasileirão."
+        "Decisão reforça a importância do rigor técnico do TCU.",
+        "Evita perseguições políticas disfarçadas de controle fiscal.",
+        "Mantém a credibilidade das instituições de fiscalização.",
+        "Demonstra equilíbrio entre controle e justiça."
       ],
       "perguntas": [
-        "Como o Corinthians pode manter a recuperação na reta final do campeonato?",
-        "Qual o impacto das decisões do árbitro no resultado da partida?",
-        "O que o Atlético-MG precisa ajustar para a sequência da temporada?"
+        "Qual o impacto da decisão do TCU para a responsabilidade fiscal no Brasil?",
+        "Como evitar que processos fiscais sejam usados para perseguição política?",
+        "De que forma o TCU pode fortalecer sua atuação técnica e imparcial?"
+      ],
+      "fontes": [
+        {
+          "name": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/tcu-livra-dilma-de-punicoes-por-irregularidades-fiscais-de-2014/"
+        },
+        {
+          "name": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/tcu-afasta-multas-a-dilma-e-auxiliares-por-irregularidades-fiscais/"
+        }
+      ]
+    },
+    {
+      "id": "novas-regras-endividamento",
+      "bloco": "economia",
+      "titulo": "CMN e BC anunciam novas regras para conter endividamento das famílias",
+      "subtitulo": "Medidas ampliam proteção a consumidores e endurecem critérios para empréstimos",
+      "resumo": "O Conselho Monetário Nacional e o Banco Central aprovaram medidas para prevenir o endividamento excessivo das famílias brasileiras. As novas regras estabelecem critérios mais rigorosos para a concessão de crédito, protegendo consumidores com dificuldades financeiras. A iniciativa busca fortalecer a responsabilidade fiscal e o equilíbrio econômico das famílias. As medidas foram anunciadas recentemente e já entram em vigor para ampliar a segurança do sistema financeiro. O controle do endividamento é fundamental para a estabilidade econômica do país.",
+      "contexto": [
+        "Endividamento das famílias é preocupação crescente no Brasil.",
+        "Medidas visam evitar concessão irresponsável de crédito.",
+        "Proteção ampliada para consumidores em dificuldades.",
+        "Iniciativa reforça responsabilidade fiscal e econômica."
+      ],
+      "angulo": [
+        "Reforça a disciplina financeira das famílias brasileiras.",
+        "Previne crises financeiras pessoais e sistêmicas.",
+        "Demonstra compromisso das autoridades com a estabilidade.",
+        "Protege o consumidor sem restringir o crédito responsável."
+      ],
+      "perguntas": [
+        "Como as novas regras podem ajudar a conter o endividamento das famílias?",
+        "Quais os benefícios de um crédito mais responsável para a economia?",
+        "De que forma o BC e o CMN atuam para garantir equilíbrio financeiro?"
       ],
       "fontes": [
         {
           "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/atletico-mg-e-corinthians-movimentam-pontas-da-tabela-do-brasileirao"
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias"
         },
         {
-          "name": "Correio Braziliense",
-          "url": "https://www.correiobraziliense.com.br/esportes/2026/11/7544569-corinthians-leva-gol-no-fim-e-empata-com-o-atletico-mg-em-bh.html"
-        },
-        {
-          "name": "O Tempo",
-          "url": "https://www.otempo.com.br/sports/atletico/2026/11/25/analise-no-jogo-100-na-arena-mrv-atletico-empata-com-o-corinthians-e-frustra-a-torcida"
+          "name": "Meia Hora",
+          "url": "https://www.meiahora.com.br/geral/2026/11/7326007-cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias.html"
         }
-      ],
-      "desdobramento": "Atualização com manchete nova nas últimas 12 horas. Já tinha saído em 2026-11-24-06h."
+      ]
     },
     {
-      "id": "espaco-spacex-um-milhao-satelites-ia",
-      "bloco": "ciencia",
-      "titulo": "SpaceX recebe autorização para lançar até um milhão de satélites para data centers no espaço",
-      "subtitulo": "Projeto visa criar centros de dados espaciais para inteligência artificial",
-      "resumo": "A SpaceX foi autorizada pelo governo dos EUA a lançar até um milhão de satélites em órbita terrestre. O projeto, chamado Starmind, pretende criar data centers no espaço alimentados por energia solar. Esses centros processarão informações para sistemas de inteligência artificial e enviarão os resultados para a Terra. A iniciativa representa avanço tecnológico e inovação no setor aeroespacial. O projeto pode revolucionar o processamento de dados global.",
+      "id": "ajuste-fiscal-despesas-obrigatorias",
+      "bloco": "economia",
+      "titulo": "Equipe econômica avalia teto individualizado para despesas obrigatórias em novo pacote fiscal",
+      "subtitulo": "Medida deve limitar crescimento de gastos para conter déficit público",
+      "resumo": "A equipe econômica do governo estuda implementar um teto individualizado de 2,5% para o crescimento das despesas obrigatórias, como parte do novo pacote de ajuste fiscal. A proposta visa controlar o aumento dos gastos públicos e garantir responsabilidade fiscal. Atualmente, o limite é aplicado ao conjunto das despesas, e a mudança traria maior rigor e transparência. O mercado reagiu positivamente à expectativa de medidas que preservem o equilíbrio das contas públicas. O ajuste é fundamental para a sustentabilidade econômica do país.",
       "contexto": [
-        "SpaceX é líder em lançamentos espaciais comerciais.",
-        "Data centers no espaço são novidade tecnológica.",
-        "Energia solar será usada para alimentar os satélites.",
-        "Inteligência artificial demanda grande capacidade de processamento."
+        "Despesas obrigatórias crescem e pressionam o orçamento público.",
+        "Limite atual é aplicado ao total de despesas, não individualmente.",
+        "Novo teto individualizado busca maior controle e eficiência.",
+        "Medida faz parte do pacote de ajuste fiscal em debate."
       ],
       "angulo": [
-        "Autorização reforça a liderança americana em tecnologia espacial.",
-        "Projeto pode acelerar avanços em IA com processamento mais rápido.",
-        "Inovação tecnológica é fundamental para o futuro da economia.",
-        "Investimento em tecnologia espacial gera empregos e desenvolvimento."
+        "Reforça o compromisso com a responsabilidade fiscal.",
+        "Evita crescimento descontrolado dos gastos públicos.",
+        "Transparência e rigor no controle das despesas obrigatórias.",
+        "Contribui para a estabilidade econômica e confiança do mercado."
       ],
       "perguntas": [
-        "Quais os benefícios do processamento de dados no espaço para a IA?",
-        "Como essa iniciativa pode impactar a economia global?",
-        "Quais os desafios técnicos e ambientais dessa operação?"
+        "Quais os benefícios do teto individualizado para as despesas obrigatórias?",
+        "Como essa medida pode impactar o equilíbrio fiscal do país?",
+        "De que forma o ajuste fiscal fortalece a economia brasileira?"
       ],
       "fontes": [
         {
-          "name": "Estadão",
-          "url": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/spacex-e-autorizada-a-lancar-1-milhao-de-satelites-para-data-centers-no-espaco/"
-        },
-        {
           "name": "O Globo",
-          "url": "https://oglobo.globo.com/economia/noticia/2026/11/26/o-projeto-da-spacex-de-enviar-um-milhao-de-satelites-de-dados-ao-espaco-para-alimentar-ia-aprovado-pelos-eua-nesta-quarta.ghtml"
+          "url": "https://oglobo.globo.com/economia/noticia/2026/11/26/equipe-economica-avalia-teto-individualizado-de-25percent-para-despesas-obrigatorias-em-novo-pacote-de-ajuste-fiscal.ghtml"
         },
         {
-          "name": "O Tempo",
-          "url": "https://www.otempo.com.br/mundo/2026/11/25/spacex-podera-lancar-ate-1-milhao-de-satelites-para-criar-data-centers-no-espaco"
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-mostra-alivio-a-espera-de-equipe-economica-mas-nao-ignora-o-fiscal/"
         }
       ]
     },
     {
       "id": "stf-julgamento-segundo-turno-rio",
-      "bloco": "stf e instituições",
-      "titulo": "STF marca para 4 de dezembro o início do julgamento sobre segundo turno no Rio de Janeiro",
-      "subtitulo": "Pedido do PSD será analisado no plenário com relatoria do ministro Cristiano Zanin",
-      "resumo": "O Supremo Tribunal Federal definiu que o julgamento virtual do pedido do PSD sobre a realização de segundo turno no Rio de Janeiro começará em 4 de dezembro. A análise deve se estender até o dia 15 do mesmo mês. O ministro Cristiano Zanin é o relator do caso. O procurador-geral da República já se manifestou para que o STF encerre o processo sem analisar o mérito. A decisão do STF terá impacto direto nas eleições estaduais.",
+      "bloco": "rio de janeiro",
+      "titulo": "STF marca para 4 de dezembro julgamento sobre segundo turno no Rio de Janeiro",
+      "subtitulo": "Sessão virtual do plenário terá votação aberta até 15 de dezembro",
+      "resumo": "O Supremo Tribunal Federal agendou para o dia 4 de dezembro o início do julgamento sobre o pedido de segundo turno nas eleições do Rio de Janeiro. A análise será feita em sessão virtual do plenário, com votação aberta até o dia 15 do mesmo mês. O caso está sob relatoria do ministro Cristiano Zanin. A decisão do STF terá impacto direto no processo eleitoral estadual. O julgamento reforça a importância do respeito às regras eleitorais e ao calendário definido pela Justiça Eleitoral.",
       "contexto": [
-        "O PSD questiona a necessidade de segundo turno no Rio.",
-        "O STF é a instância final para decisões eleitorais.",
-        "O procurador-geral da República atua como fiscal da lei.",
-        "O julgamento pode influenciar o calendário eleitoral."
+        "Pedido de segundo turno foi protocolado para as eleições no Rio.",
+        "Julgamento será realizado em sessão virtual do STF.",
+        "Votação ficará aberta por quase duas semanas.",
+        "Ministro Cristiano Zanin é o relator do processo."
       ],
       "angulo": [
-        "STF cumpre seu papel institucional ao definir regras eleitorais.",
-        "Decisão deve respeitar a legislação vigente e a soberania popular.",
-        "O julgamento reforça a importância do Estado de Direito.",
-        "O tema é estratégico para o cenário político do Rio de Janeiro."
+        "Decisão do STF é fundamental para a segurança jurídica eleitoral.",
+        "Respeito ao calendário eleitoral fortalece a democracia.",
+        "Transparência e rigor nas decisões judiciais eleitorais.",
+        "Importância do controle institucional sobre processos eleitorais."
       ],
       "perguntas": [
-        "Quais os possíveis desdobramentos do julgamento para as eleições no Rio?",
-        "Como o STF tem atuado em questões eleitorais recentes?",
-        "Qual o impacto político da decisão para os partidos locais?"
+        "Qual a importância do julgamento do STF para as eleições no Rio?",
+        "Como o respeito ao calendário eleitoral reforça a democracia?",
+        "De que forma o STF atua para garantir segurança jurídica eleitoral?"
       ],
       "fontes": [
         {
-          "name": "Folha de Londrina",
-          "url": "https://www.folhadelondrina.com.br/politica/stf-marca-julgamento-sobre-eleicoes-no-rio-para-4-de-dezembro-3329731e.html"
-        },
-        {
-          "name": "Estadão",
-          "url": "https://www.estadao.com.br/politica/stf-marca-para-4-de-dezembro-julgamento-sobre-segundo-turno-no-rio-de-janeiro-nprp/"
-        },
-        {
           "name": "Jovem Pan",
           "url": "https://jovempan.com.br/politica/stf-marca-julgamento-sobre-segundo-turno-no-rio-para-4-de-dezembro/"
+        },
+        {
+          "name": "Diário do Poder",
+          "url": "https://diariodopoder.com.br/brasil-e-regioes/rio-de-janeiro/e12-rio-de-janeiro/stf-marca-julgamento-sobre-segundo-turno-no-rio-para-dezembro"
         }
       ]
     },
     {
-      "id": "governo-brasileiro-reage-tarifas-eua",
-      "bloco": "economia",
-      "titulo": "Governo brasileiro manifesta indignação e não cederá a ameaças de tarifas dos EUA",
-      "subtitulo": "Medida dos EUA inclui alíquota de 10% sobre aeronaves e açúcar brasileiros",
-      "resumo": "O governo do presidente Lula reagiu com indignação à proposta dos Estados Unidos de impor novas tarifas sobre produtos brasileiros, incluindo aeronaves e açúcar. A alíquota inédita de 10% sobre aeronaves prontas afeta diretamente a Embraer. O Planalto classificou a medida como inaceitável e afirmou que não cederá a ameaças externas. A resposta reforça a defesa da soberania econômica do Brasil. O tema deve continuar em debate diplomático e comercial nos próximos meses.",
+      "id": "operacao-policia-complexo-lins",
+      "bloco": "seguranca publica",
+      "titulo": "Menino de 6 anos, grávida e outros moradores são feridos em operação da Polícia Civil no Complexo do Lins",
+      "subtitulo": "Suspeito morre e moradores protestam contra ação policial na Zona Norte do Rio",
+      "resumo": "Uma operação da Polícia Civil no Complexo do Lins, Zona Norte do Rio, resultou em ferimentos em um menino de 6 anos, uma mulher grávida de três meses, uma idosa e um barbeiro. Um suspeito morreu durante a ação. Os feridos foram levados ao Hospital Municipal Salgado Filho. Após o tiroteio, moradores protestaram nas ruas contra a operação. A ação demonstra o esforço das forças de segurança para combater o crime, mas também ressalta a necessidade de cuidado para preservar inocentes e a ordem pública.",
       "contexto": [
-        "Os EUA anunciaram intenção de aplicar novas tarifas em janeiro.",
-        "A Embraer é uma das principais fabricantes de aeronaves brasileiras.",
-        "O açúcar é um produto importante para a balança comercial do Brasil.",
-        "O governo brasileiro busca preservar seus interesses comerciais."
+        "Operação ocorreu na tarde de quarta-feira no Complexo do Lins.",
+        "Quatro moradores ficaram feridos, incluindo criança e grávida.",
+        "Um suspeito morreu durante a ação policial.",
+        "Moradores protestaram contra a operação após o tiroteio."
       ],
       "angulo": [
-        "Resposta firme do Brasil demonstra defesa da soberania nacional.",
-        "Medidas protecionistas dos EUA prejudicam a competitividade brasileira.",
-        "Governo Lula mantém postura de resistência a pressões externas.",
-        "O episódio reforça necessidade de diversificação de mercados."
+        "Reforça o compromisso com a segurança pública no Rio.",
+        "Destaca o desafio de proteger civis em operações contra o crime.",
+        "Necessidade de equilíbrio entre ação policial e preservação da ordem.",
+        "Importância do Estado de Direito e da proteção à vida."
       ],
       "perguntas": [
-        "Quais os impactos das tarifas americanas para a indústria brasileira?",
-        "Como o Brasil pode reagir a essas medidas no âmbito internacional?",
-        "Qual o papel do governo na defesa da economia nacional diante de ameaças?"
+        "Como garantir a segurança da população em operações policiais?",
+        "Quais medidas podem minimizar riscos a inocentes em ações contra o crime?",
+        "De que forma a polícia pode atuar com eficiência e respeito à ordem?"
       ],
       "fontes": [
         {
-          "name": "Agência Brasil",
-          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-critica-possivel-novo-tarifaco-dos-eua-e-diz-que-nao-cedera"
+          "name": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/cotidiano/2026/11/crianca-gestante-e-outros-dois-moradores-sao-baleados-durante-acao-policial-na-zona-norte-do-rio.shtml"
         },
         {
-          "name": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/economia/governo-lula-indignacao-proposta-tarifaco-eua-e-diz-que-nao-cedera-a-ameacas/"
-        },
-        {
-          "name": "ICL Notícias",
-          "url": "https://iclnoticias.com.br/lula-reage-a-novas-tarifas-dos-eua/"
+          "name": "O Globo",
+          "url": "https://oglobo.globo.com/rio/noticia/2026/11/25/menino-de-6-anos-gravida-e-outros-dois-moradores-sao-feridos-durante-operacao-da-policia-civil-no-complexo-do-lins.ghtml"
         }
       ]
     }
