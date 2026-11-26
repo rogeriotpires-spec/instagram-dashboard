@@ -67,12 +67,114 @@ def _avulsos(atual):
     return [it for it in (atual or {}).get("itens") or [] if it.get("avulsa") or it.get("pedido")]
 
 
-def _prompt_sistema(cfg):
+SINAIS_ESCALA_NACIONAL = (
+    "stf", "tse", "tcu", "pgr", "stj", "supremo", "congresso", "senado",
+    "camara dos", "câmara dos", "planalto", "presidente lula", "governo lula",
+    "governo federal", "ministerio", "ministério", "ipca", "selic", "inflacao",
+    "inflação", "banco central", "policia federal", "polícia federal",
+    "orcamento", "orçamento", "teto fiscal", "pacote fiscal", "imposto",
+    "tarifa", "tribut", "contas publicas", "contas públicas", "dólar", "dolar",
+    "em varios estados", "em vários estados", "brasil inteiro", "nacional",
+    "cpi", "inquerito", "inquérito", "denuncia da pgr", "denúncia da pgr",
+)
+SINAIS_CLIMA_LOCAL = (
+    "chuva", "temporal", "temporais", "alagamento", "deslizamento",
+    "vendaval", "granizo", "amanhece sob",
+)
+SINAIS_CRIME_LOCAL = (
+    "foragidos", "megaoperacao", "megaoperação", "homicidio", "homicídio",
+    "assalto", "roubo de", "crimes patrimoniais",
+)
+
+
+def _blob_item(it):
+    if not isinstance(it, dict):
+        return ""
+    partes = [it.get("titulo") or it.get("title") or "", it.get("subtitulo") or "",
+              it.get("resumo") or it.get("summary") or "", it.get("bloco") or it.get("segment") or ""]
+    return " ".join(partes)
+
+
+def item_local_sem_escala(item):
+    """Ocorrência restrita a um estado/cidade, sem repercussão nacional.
+
+    Itens avulsos sempre passam. Julgamento no STF, pacote fiscal, IPCA e
+    operação da PF não são locais só porque mencionam uma cidade.
+    """
+    if not isinstance(item, dict):
+        return False
+    if item.get("avulsa") or item.get("pedido"):
+        return False
+    blob = C.norm(_blob_item(item)) if hasattr(C, "norm") else _blob_item(item).lower()
+    # fallback if ia_comum has no norm
+    try:
+        import noticias_notas as notas
+        blob = notas.norm(_blob_item(item))
+        tem = notas.contem_termo
+        escala = any(tem(blob, s) for s in SINAIS_ESCALA_NACIONAL)
+    except Exception:
+        blob = _blob_item(item).lower()
+        escala = any(s in blob for s in SINAIS_ESCALA_NACIONAL)
+        def tem(texto, s):
+            return s in texto
+    if escala:
+        return False
+    bloco = (item.get("bloco") or item.get("segment") or "").strip().lower()
+    if bloco in ("rio de janeiro", "rio"):
+        return True
+    if any(tem(blob, s) for s in SINAIS_CLIMA_LOCAL):
+        return True
+    if any(tem(blob, s) for s in SINAIS_CRIME_LOCAL) and any(
+        tem(blob, p) for p in ("rio de janeiro", "no rio", "niteroi", "niterói", "baixada", "sao paulo", "são paulo")
+    ):
+        return True
+    return False
+
+
+def marcar_destaque_avulso(item):
+    if not isinstance(item, dict):
+        return item
+    if item.get("avulsa") or item.get("pedido"):
+        out = dict(item)
+        out["avulsa"] = True
+        out["destaque"] = True
+        return out
+    return item
+
+
+def _preservados(atual):
+    """Avulsos primeiro; demais itens gerados, exceto os locais sem escala nacional."""
+    avulsos = [marcar_destaque_avulso(it) for it in _avulsos(atual)]
+    outros = []
+    for it in (atual or {}).get("itens") or []:
+        if it.get("avulsa") or it.get("pedido"):
+            continue
+        if item_local_sem_escala(it):
+            print(f"item local sem escala nacional deixado de fora: {it.get('titulo')}", file=sys.stderr)
+            continue
+        outros.append(it)
+    return avulsos, outros
+
+
+def _prompt_sistema(cfg, vagas=None, n_preservados=0, n_avulsos=0):
     voz = C.texto(ROOT / "prompts" / "voz-editorial.md")
-    n = int(cfg.get("itens") or 6)
+    alvo = int(cfg.get("itens") or 6)
+    n = alvo if vagas is None else int(vagas)
     frases = int(cfg.get("linhas_resumo") or 5)
     perguntas = int(cfg.get("perguntas_por_item") or 3)
     blocos = ", ".join(cfg.get("blocos") or [])
+    linha = cfg.get("linha_editorial") or ""
+    preserva = (
+        f" Já existem {n_avulsos} item(ns) avulso(s) e {n_preservados} item(ns) aprovados na pauta. "
+        "NÃO reescreva, troque, funda nem descarte esses itens. Não os inclua de novo em 'itens'. "
+        "O script os preserva e coloca os avulsos no início, em destaque. "
+        if (n_preservados or n_avulsos) else ""
+    )
+    vagas_txt = (
+        f"itens: exatamente {n} itens NOVOS para completar as vagas (os {n_preservados} preservados e os avulsos não entram nesta lista). "
+        if n else
+        "itens: lista VAZIA ([]). Só reescreva titulo e abertura, incluindo os avulsos no começo. "
+    )
     return f"""Você é o produtor de pauta do programa {cfg.get('programa') or 'Conversa Timeline'}, apresentado por Rogerio Pires (jornalista, professor e comentarista político no Rio, Revista Timeline e Jovem Pan News Rio). A pauta é um guia para a bancada: temas do dia, pesquisa básica, ângulo e perguntas.
 
 Responda SOMENTE com um objeto JSON, sem markdown.
@@ -80,7 +182,10 @@ Responda SOMENTE com um objeto JSON, sem markdown.
 VOZ EDITORIAL:
 {voz}
 
-LINHA: {cfg.get('linha_editorial') or ''}
+LINHA: {linha}
+A Revista Timeline e o Conversa Timeline fazem oposição ao governo Lula e ao seu regime. Priorize economia (inflação, gastos públicos, impostos, contas públicas, impacto no bolso do brasileiro) e a denúncia factual de abusos, erros e absurdos do governo e das instituições. Não invente dado; o enquadramento é firme e conservador.
+{preserva}
+A pauta é de relevância NACIONAL (Brasil inteiro). Não gaste vaga com ocorrência local restrita a um único estado (chuva local, crime local sem repercussão nacional), salvo se o assunto tiver escala nacional ou já estiver na pauta como item avulso.
 Priorize a leitura de {', '.join(cfg.get('fontes_preferidas') or [])}. Use as urls fornecidas; nunca invente link, número, data ou citação. O G1 não está disponível.
 
 SAÍDA:
@@ -88,7 +193,7 @@ SAÍDA:
 - titulo: manchete afirmativa e direta juntando os 2 ou 3 fatos principais, começando pelos itens avulsos se houver. Sem pergunta retórica nem metáfora.
 - abertura: 3 a 4 frases ligando os temas, começando pelos avulsos.
 - agenda: só compromissos do DIA da pauta com hora marcada. Campo time é relógio (10h, 14h30), nunca data (11/11, 8/11). Pode ser vazia.
-- itens: exatamente {n} itens NOVOS (não inclua os avulsos; o script os preserva). Máximo 2 do mesmo bloco. Blocos: {blocos}.
+- {vagas_txt}Máximo 2 do mesmo bloco. Blocos: {blocos}.
 - Cada item: id (curto, sem espaços), bloco, titulo (manchete direta, sujeito e verbo, até ~90 caracteres, sem metáfora), subtitulo, resumo com EXATAMENTE {frases} frases na leitura conservadora, contexto (3 a 5 tópicos), angulo (2 a 4 tópicos assertivos, sem 'Análise do programa:'), perguntas ({perguntas} perguntas abertas), atencao (opcional), fontes (2 a 4 objetos {{name, url}} só com urls fornecidas).
 - metafora: só em no máximo 25% dos itens, 1 a 2 frases, quando realmente esclarece; nos demais, omita o campo.
 - Não repita tema das 3 pautas anteriores, dos avulsos, nem dos excluídos. Desdobramento novo de verdade: preencha "desdobramento".
@@ -210,7 +315,7 @@ def _titulo_item(it):
     return (it.get("titulo") or it.get("title") or "?").strip() or "?"
 
 
-def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completar=None):
+def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completar=None, preservados=None):
     if not isinstance(bruto, dict):
         raise ValueError("JSON inválido")
     frases = int(cfg.get("linhas_resumo") or 5)
@@ -236,9 +341,9 @@ def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completa
         except ValueError as e:
             raise
     alvo = int(cfg.get("itens") or 6)
-    if not novos:
+    if not novos and not (preservados or avulsos):
         raise ValueError("nenhum item novo válido após ajuste e descarte")
-    if len(novos) != alvo:
+    if novos and len(novos) != alvo:
         print(
             f"aviso: {len(novos)} itens novos, esperado {alvo}; sigo com os válidos",
             file=sys.stderr,
@@ -253,7 +358,8 @@ def normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excluidos, completa
     demais = [b for b, n in cnt.items() if n > 2]
     if demais:
         raise ValueError(f"mais de 2 itens no bloco {demais[0]}")
-    itens = list(avulsos) + novos
+    avulsos = [marcar_destaque_avulso(it) for it in (avulsos or [])]
+    itens = avulsos + list(preservados or []) + novos
     doc = {
         "date": dia.isoformat(),
         "generated": gerado,
@@ -284,16 +390,24 @@ def gerar(dia=None, agora=None):
     dia = dia or data_da_pauta(cfg, agora)
     gerado = agora.replace(microsecond=0).isoformat()
     atual = C.ler_json(ROOT / "programa" / f"{dia.isoformat()}.json")
-    avulsos = _avulsos(atual)
+    refazer = "--refazer" in sys.argv
+    avulsos, preservados = _preservados(atual)
+    if refazer:
+        preservados = []
+        print("refazer: itens não avulsos serão gerados de novo; avulsos permanecem", file=sys.stderr)
     excluidos = _excluidos(dia, atual)
     ed_nome, edicao = C.edicao_recente()
     noticias, x_trends = C.resumir_noticias(edicao)
-    permitidas = C.urls_de(noticias, x_trends, C.trends_arquivo(), avulsos)
+    permitidas = C.urls_de(noticias, x_trends, C.trends_arquivo(), avulsos, preservados)
+    alvo = int(cfg.get("itens") or 6)
+    vagas = max(0, alvo - len(preservados))
     payload = {
         "date": dia.isoformat(),
         "generated": gerado,
-        "itens_novos_exigidos": int(cfg.get("itens") or 6),
+        "itens_novos_exigidos": vagas,
         "avulsos_preservados": [{"titulo": a.get("titulo"), "pedido": a.get("pedido")} for a in avulsos],
+        "itens_aprovados_preservados": [{"titulo": a.get("titulo"), "bloco": a.get("bloco")} for a in preservados],
+        "prioridade": "relevância nacional (Brasil inteiro), economia, política nacional, Judiciário e denúncia factual de abusos do governo Lula; não pautar ocorrência local de um só estado",
         "edicao_noticias": ed_nome,
         "headline_noticias": (edicao or {}).get("headline"),
         "noticias": noticias,
@@ -311,7 +425,7 @@ def gerar(dia=None, agora=None):
             user += "\n\nCORREÇÃO: a tentativa anterior falhou. Reescreva os itens novos corrigindo:\n" + aviso
         try:
             bruto = modelos_ia.completar(
-                [{"role": "system", "content": _prompt_sistema(cfg)}, {"role": "user", "content": user}],
+                [{"role": "system", "content": _prompt_sistema(cfg, vagas=vagas, n_preservados=len(preservados), n_avulsos=len(avulsos))}, {"role": "user", "content": user}],
                 schema_nome="programa",
                 max_tokens=8000,
                 temperature=0.3,
@@ -319,7 +433,7 @@ def gerar(dia=None, agora=None):
             )
             # excluidos no arquivo: preservar lista original de dicts
             excl_doc = (atual or {}).get("excluidos") or [{"titulo": t} for t in excluidos if isinstance(t, str)]
-            doc = normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excl_doc, completar=modelos_ia.completar)
+            doc = normalizar(bruto, dia, gerado, cfg, permitidas, avulsos, excl_doc, completar=modelos_ia.completar, preservados=preservados)
         except (modelos_ia.ModelError, ValueError, json.JSONDecodeError) as e:
             ultimo = e
             aviso = str(e)
@@ -448,6 +562,70 @@ def _self_test():
         raise AssertionError("deveria falhar quando não resta item novo")
     except ValueError as e:
         assert "nenhum item novo válido" in str(e)
+
+    # Preserva itens aprovados, dá destaque ao avulso e barra pauta só local.
+    chuva = {
+        "id": "chuva-rio", "bloco": "Rio de Janeiro",
+        "titulo": "Rio amanhece sob chuva forte com previsão de novos temporais",
+        "resumo": "O Rio de Janeiro amanheceu sob chuva. Houve alagamentos na capital e na Baixada.",
+    }
+    foragidos = {
+        "id": "foragidos-rio", "bloco": "Segurança pública",
+        "titulo": "Polícia Civil prende 423 foragidos em megaoperação contra crimes patrimoniais no Rio",
+        "resumo": "A Polícia Civil do Rio de Janeiro prendeu 423 foragidos. A ação foca crimes patrimoniais no estado.",
+    }
+    ipca = _item_base(
+        "IPCA-15 sobe 0,22% em novembro e desacelera",
+        "O IPCA-15 subiu 0,22% em novembro. A taxa ficou abaixo da do mês anterior. A queda dos combustíveis puxou a desaceleração. Os alimentos subiram. O IBGE divulgou os dados.",
+        "ipca-15",
+    )
+    avulsa = dict(_item_base(
+        "Advogada que acusou Janones de estupro relata ameaças e ataques nas redes",
+        "A advogada relatou ameaças. O deputado é réu confesso de rachadinha. O caso ganhou repercussão nacional. A equipe dela registrou os ataques. O processo segue em apuração.",
+        "janones-ameacas",
+    ), avulsa=True, pedido="Janones denúncia estupro ameaças", bloco="Política nacional")
+    assert item_local_sem_escala(chuva) and item_local_sem_escala(foragidos)
+    assert not item_local_sem_escala(ipca)
+    assert not item_local_sem_escala(avulsa)
+    assert not item_local_sem_escala({
+        "titulo": "STF marca para 4 de dezembro o julgamento sobre segundo turno no Rio de Janeiro",
+        "resumo": "O Supremo Tribunal Federal pautou o julgamento.",
+        "bloco": "Rio de Janeiro",
+    })
+    atual = {"itens": [avulsa, ipca, chuva, foragidos]}
+    avs, pres = _preservados(atual)
+    assert len(avs) == 1 and avs[0]["destaque"] is True and avs[0]["avulsa"] is True
+    assert [x["titulo"] for x in pres] == [ipca["titulo"]]
+    # inclusão avulsa / regeneração: itens aprovados permanecem; avulso abre a pauta
+    bruto = {
+        "titulo": "Janones, IPCA e o ajuste do governo",
+        "abertura": "A pauta abre pela denúncia envolvendo Janones. O IPCA-15 desacelera. A bancada também vê o item novo do governo.",
+        "agenda": [],
+        "itens": [dict(it, titulo="Senado aprova o ajuste fiscal do ponto extra") for it in [ipca]],
+    }
+    # reuse a valid new item
+    novo = _item_base(
+        "TCU afasta multas a Dilma Rousseff por irregularidades fiscais",
+        "O TCU afastou as multas. A decisão alcança auxiliares de 2014. A irregularidade fiscal voltou à pauta. A oposição cobra responsabilidade. O caso segue no tribunal.",
+        "tcu-dilma",
+    )
+    novo["bloco"] = "Política"
+    bruto["itens"] = [novo]
+    doc = normalizar(
+        bruto, datetime(2026, 11, 26).date(), "2026-11-26T10:30:00-03:00",
+        cfg, permitidas, [avulsa], [], preservados=[ipca],
+    )
+    titulos = [x["titulo"] for x in doc["itens"]]
+    assert titulos[0].startswith("Advogada que acusou Janones")
+    assert doc["itens"][0].get("destaque") is True
+    assert ipca["titulo"] in titulos
+    assert "TCU afasta" in titulos[2]
+    assert "chuva" not in " ".join(titulos).lower()
+    assert "foragidos" not in " ".join(titulos).lower()
+    texto_prompt = _prompt_sistema(cfg, vagas=2, n_preservados=1, n_avulsos=1)
+    assert "oposição ao governo Lula" in texto_prompt
+    assert "relevância NACIONAL" in texto_prompt
+    assert "NÃO reescreva" in texto_prompt
 
     print("gerar_programa: ok")
 
