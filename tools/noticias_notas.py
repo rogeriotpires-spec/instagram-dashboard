@@ -256,9 +256,9 @@ def tem_sinal_rio(texto):
     if any(contem_termo(texto, k) for k in PALAVRAS["rio"]):
         return True
     n = " " + norm(texto) + " "
-    if "rio grande" in n:
+    # Rios (Tietê, Negro, Madeira…) e o Rio Grande do Sul não são o estado do Rio.
+    if re.search(r"rio (?:grande|tiete|negro|madeira|pinheiros|paraiba|nilo|eufrates|amazon|sao francisco)", n):
         return False
-    # "o Rio", "no Rio", "do Rio" sem ser Rio Grande do Sul
     return re.search(r"(?<![a-z])(?:o|no|do|ao) rio(?![a-z])", n) is not None
 
 
@@ -575,6 +575,7 @@ def _self_test():
     assert frase_lixo(cta)
     assert "inscreva" not in norm(limpa_texto_fonte(cta))
     assert ajustar_segmento("Temporais no PR atingem 50 cidades e deixam seis mortos", "rio") != "rio"
+    assert ajustar_segmento("Bombeiros suspendem buscas por caminhoneiro desaparecido no Rio Tietê", "rio") != "rio"
     assert ajustar_segmento(
         "Chuva forte atinge o Rio e a Região Metropolitana; Uerj e UFRJ suspendem aulas",
         "economia",
