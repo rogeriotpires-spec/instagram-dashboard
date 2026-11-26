@@ -2,10 +2,42 @@
   "date": "2026-11-26",
   "generated": "2026-11-26T09:44:06-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "IPCA-15 desacelera em novembro; Rio enfrenta temporais; Polícia Civil prende 423 foragidos no RJ",
-  "abertura": "O IPCA-15 subiu 0,22% em novembro, mostrando desaceleração da inflação, impulsionada pela queda nos preços dos combustíveis e passagens aéreas. Enquanto isso, o Rio de Janeiro amanheceu sob chuva forte, superando a média do mês e com previsão de novos temporais. Na segurança pública, a Polícia Civil do Rio prendeu 423 foragidos em megaoperação contra crimes patrimoniais. Esses fatos refletem desafios e respostas em economia, clima e segurança no país.",
+  "titulo": "Advogada denuncia Janones por estupro e relata ameaças; IPCA-15 desacelera; Rio enfrenta temporais",
+  "abertura": "Começamos a pauta com a denúncia de estupro contra André Janones, que enfrenta acusações graves e cuja advogada relata ameaças nas redes sociais. O caso expõe um ambiente hostil para vítimas e amplia o desgaste político do réu confesso de rachadinha. Na economia, o IPCA-15 mostra desaceleração em novembro, enquanto o Rio de Janeiro enfrenta fortes temporais e desafios na segurança pública.",
   "agenda": [],
   "itens": [
+    {
+      "id": "7",
+      "bloco": "Política nacional",
+      "titulo": "Advogada que acusou Janones de estupro relata ameaças e ataques nas redes",
+      "subtitulo": "Janones, réu confesso de rachadinha, fez acordo de não persecução penal; advogada aponta possibilidade de outras vítimas",
+      "resumo": "A advogada que acusou André Janones de estupro relatou sofrer ameaças e ataques nas redes sociais. Janones é réu confesso da prática de rachadinha e firmou acordo de não persecução penal. A advogada e sua equipe indicam que podem existir outras vítimas além dela. O caso ganhou repercussão nacional e expõe a violência contra mulheres no meio político. As ameaças reforçam a necessidade de proteção às vítimas e combate à impunidade.",
+      "contexto": [
+        "André Janones é político conhecido e réu confesso em caso de rachadinha.",
+        "A acusação de estupro contra Janones foi feita por uma advogada que agora sofre retaliações online.",
+        "O acordo de não persecução penal permite que Janones evite processo criminal mediante condições.",
+        "O caso levanta discussões sobre segurança e apoio às vítimas de violência sexual no meio político."
+      ],
+      "angulo": [
+        "Janones enfrenta acusações graves além da rachadinha, ampliando o desgaste político.",
+        "As ameaças à advogada mostram o ambiente hostil para quem denuncia abusos.",
+        "O acordo de não persecução penal pode ser visto como uma forma de evitar maior exposição judicial.",
+        "A existência de possíveis outras vítimas indica que o problema pode ser mais amplo."
+      ],
+      "perguntas": [
+        "Como o acordo de não persecução penal impacta a investigação do caso Janones?",
+        "Quais medidas podem ser adotadas para proteger vítimas que denunciam políticos?",
+        "Qual o efeito dessas denúncias na imagem e carreira política de Janones?"
+      ],
+      "fontes": [
+        {
+          "name": "Metrópoles",
+          "url": "https://www.metropoles.com/colunas/andreza-matais/advogada-que-acusou-janones-de-estupro-relata-ameacas-e-ataques-nas-redes"
+        }
+      ],
+      "avulsa": true,
+      "pedido": "https://www.metropoles.com/colunas/andreza-matais/advogada-que-acusou-janones-de-estupro-relata-ameacas-e-ataques-nas-redes"
+    },
     {
       "id": "ipca-desacelera-novembro-sobe",
       "bloco": "Economia",
@@ -250,5 +282,6 @@
     {
       "titulo": "Niterói registra menor índice de roubos de rua desde 2003"
     }
-  ]
+  ],
+  "atualizado": "2026-11-26T10:06:28-03:00"
 }
