@@ -29,8 +29,9 @@ _OPINIAO = (
     "chega de", "nao se deixe", "não se deixe",
 )
 _SUFIXO_PORTAL = re.compile(
-    r"\s+(?:UOL Notícias|UOL|G1|Estadão|Folha de S\.Paulo|O Globo|CNN Brasil|"
-    r"R7|Veja|Metrópoles|Poder360|Agência Brasil)\s*$",
+    r"\s+(?:UOL Notícias|UOL|G1|Estadão|Estadao|Folha de S\.? ?Paulo|O Globo|CNN Brasil|"
+    r"R7|Veja|Metrópoles|Metropoles|Poder360|Agência Brasil|Agencia Brasil|Meia Hora|"
+    r"Extra|O Dia|Valor(?: Econômico)?|BandNews|SBT News)\.?\s*$",
     re.I,
 )
 _CLIMA = ("chuvas", "chuva forte", "temporal", "temporais", "terremoto", "enchente", "deslizamento", "alagamento")
@@ -247,7 +248,16 @@ def _corrigir_titulo(item):
 
 def _limpar_resumo(item):
     s = notas.limpa_texto_fonte(item.get("summary") or "")
-    s = _SUFIXO_PORTAL.sub("", s).strip()
+    partes = []
+    for fr in re.split(r"(?<=[.!?])\s+", s):
+        fr = _SUFIXO_PORTAL.sub("", fr).strip()
+        if not fr or notas.frase_lixo(fr):
+            continue
+        # frase que é só o nome do portal
+        if re.fullmatch(r"(?:UOL(?: Notícias)?|G1|Estadão|Folha(?: de S\.? ?Paulo)?|O Globo|CNN Brasil|Meia Hora|R7|Veja|Metrópoles|Poder360|Agência Brasil|Extra|O Dia|Valor(?: Econômico)?)", fr.strip(" ."), flags=re.I):
+            continue
+        partes.append(fr)
+    s = " ".join(partes).strip()
     s = re.sub(r"\s{2,}", " ", s)
     item["summary"] = s
     des = notas.norm(item.get("desdobramento") or "")
@@ -346,7 +356,7 @@ def limpar_trends(trends, itens):
         if "evitar foco" in uso or "evitar o foco" in uso:
             continue
         sobre = (t.get("sobre") or "").strip()
-        chaves = {w for w in notas.tokens(nome) if len(w) >= 4}
+        chaves = {w for w in notas.tokens(nome) if len(w) >= 5}
         if chaves and sobre:
             if not (chaves & notas.tokens(sobre)) and notas.norm(sobre) != chave:
                 # descrição de outro assunto (ex.: Russell descrito como Mendonça)

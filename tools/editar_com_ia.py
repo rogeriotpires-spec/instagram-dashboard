@@ -544,7 +544,7 @@ def selecionar(itens, cfg):
 
 
 def _trend_liga_item(nome, itens):
-    chaves = {w for w in notas.tokens(nome or "") if len(w) >= 4}
+    chaves = {w for w in notas.tokens(nome or "") if len(w) >= 5}
     if not chaves:
         return None
     melhor, score = None, 0
@@ -631,7 +631,7 @@ def redigir_trends(itens, trends, completar):
             continue
         if ligado is not None and item_id != ligado["id"]:
             # o modelo ligou em matéria que não contém o nome do trend
-            if not ({w for w in notas.tokens(base.get("nome") or "") if len(w) >= 4} & notas.tokens(
+            if not ({w for w in notas.tokens(base.get("nome") or "") if len(w) >= 5} & notas.tokens(
                 (por_titulo[item_id].get("title") or "") + " " + (por_titulo[item_id].get("summary") or "")
             )):
                 item_id = ligado["id"]

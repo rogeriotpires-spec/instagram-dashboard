@@ -173,6 +173,7 @@ LINHA = {"Gazeta do Povo", "Revista Oeste", "Jovem Pan", "O Antagonista", "Diár
 def limpa_manchete(titulo):
     t = sem_travessao(titulo or "")
     t = re.sub(r"^(urgente|ao vivo|veja|entenda|saiba|exclusivo)\s*[:\-]\s*", "", t, flags=re.I)
+    t = re.sub(r"#\w+", " ", t)
     t = re.sub(r"\s+", " ", t).strip().rstrip(".")
     if t and t[0].islower():
         t = t[0].upper() + t[1:]
