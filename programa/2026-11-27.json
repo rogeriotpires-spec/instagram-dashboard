@@ -2,8 +2,8 @@
   "date": "2026-11-27",
   "generated": "2026-11-27T09:15:40-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Bolsonaro apresenta melhora na UTI; Macron ataca carne brasileira; Senado endurece punição para motoristas embriagados",
-  "abertura": "O ex-presidente Jair Bolsonaro apresenta melhora clínica, mas segue internado na UTI sem previsão de alta, mantendo a atenção sobre seu estado de saúde. No cenário internacional, o presidente francês Macron provoca o Brasil ao chamar a carne nacional de 'dopada', gerando forte reação do governo. No Congresso, o Senado avança com projeto que proíbe fiança para motoristas embriagados que causarem mortes, reforçando a segurança pública.",
+  "titulo": "Cabeça humana é encontrada em batalhão da PM no Rio; Bolsonaro apresenta melhora; Macron ataca carne brasileira",
+  "abertura": "Começamos com um caso chocante: uma cabeça humana em decomposição foi encontrada dentro do 18º Batalhão da Polícia Militar no Rio de Janeiro, evidenciando os desafios da segurança pública na cidade. Enquanto isso, o ex-presidente Jair Bolsonaro apresenta melhora clínica, mas permanece na UTI. No cenário internacional, o presidente francês Macron provoca o Brasil ao chamar a carne nacional de 'dopada', gerando reação do governo.",
   "agenda": [],
   "itens": [
     {
@@ -39,6 +39,40 @@
       "avulsa": true,
       "destaque": true,
       "pedido": "Jair Bolsonaro apresenta melhora, mas segue internado na UTI sem previsão de alta https://www.cartacapital.com.br/politica/bolsonaro-apresenta-melhora-mas-segue-na-uti-e-sem-previsao-de-alta/"
+    },
+    {
+      "id": "6",
+      "bloco": "Rio de Janeiro",
+      "titulo": "Cabeça humana em decomposição é encontrada dentro de batalhão da PM no Rio",
+      "subtitulo": "Partes de cadáver foram achadas em sacola plástica durante limpeza no 18º BPM",
+      "resumo": "Na manhã desta sexta-feira, uma cabeça humana em decomposição foi encontrada dentro do 18º Batalhão da Polícia Militar, em Jacarepaguá, zona oeste do Rio de Janeiro. O material estava dentro de uma sacola plástica na área interna do batalhão. A descoberta ocorreu durante o serviço de limpeza do pátio. A Polícia Militar foi acionada para investigar o caso. O episódio reforça os desafios da segurança pública na cidade.",
+      "contexto": [
+        "Localização: 18º BPM, Jacarepaguá, zona oeste do Rio",
+        "Descoberta feita durante limpeza do pátio do batalhão",
+        "Material encontrado estava em sacola plástica",
+        "Polícia Militar investiga o caso",
+        "Reflete problemas de segurança pública no Rio"
+      ],
+      "angulo": [
+        "Incidente grave dentro de unidade da Polícia Militar reforça desafios da segurança",
+        "Necessidade de maior controle e vigilância em instalações policiais",
+        "Casos como esse evidenciam a violência e criminalidade na cidade",
+        "A Polícia Militar atua para esclarecer e evitar novos episódios"
+      ],
+      "perguntas": [
+        "Como a cabeça humana foi parar dentro do batalhão da PM?",
+        "Quais medidas a Polícia Militar está tomando para investigar o caso?",
+        "Que impacto esse episódio tem na percepção da segurança pública no Rio?"
+      ],
+      "fontes": [
+        {
+          "name": "R7 Notícias",
+          "url": "https://noticias.r7.com/rio-de-janeiro/cabeca-humana-em-decomposicao-e-encontrada-dentro-de-batalhao-da-pm-no-rio-27112026/?utm_source=chatgpt.com"
+        }
+      ],
+      "avulsa": true,
+      "destaque": true,
+      "pedido": "https://noticias.r7.com/rio-de-janeiro/cabeca-humana-em-decomposicao-e-encontrada-dentro-de-batalhao-da-pm-no-rio-27112026/?utm_source=chatgpt.com"
     },
     {
       "id": "macron-carne-brasileira",
@@ -191,5 +225,5 @@
       "titulo": "Niterói registra menor índice de roubos de rua desde 2003"
     }
   ],
-  "atualizado": "2026-11-27T11:02:39-03:00"
+  "atualizado": "2026-11-27T11:04:44-03:00"
 }
