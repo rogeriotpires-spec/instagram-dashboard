@@ -2,10 +2,44 @@
   "date": "2026-11-27",
   "generated": "2026-11-27T09:15:40-03:00",
   "programa": "Conversa Timeline",
-  "titulo": "Lula escolhe Trabuco para Fazenda; Macron ataca carne brasileira; Senado endurece punição para motoristas embriagados",
-  "abertura": "O presidente Lula nomeia Luiz Carlos Trabuco para o Ministério da Fazenda, sinalizando falta de rumo para a economia, segundo Flávio Bolsonaro. Na arena internacional, o presidente francês Macron provoca o Brasil ao chamar a carne nacional de 'dopada', gerando repúdio do governo e do setor produtivo. No Senado, avança projeto que proíbe fiança para motoristas embriagados que causarem mortes no trânsito, reforçando a segurança pública.",
+  "titulo": "Bolsonaro apresenta melhora na UTI; Macron ataca carne brasileira; Senado endurece punição para motoristas embriagados",
+  "abertura": "O ex-presidente Jair Bolsonaro apresenta melhora clínica, mas segue internado na UTI sem previsão de alta, mantendo a atenção sobre seu estado de saúde. No cenário internacional, o presidente francês Macron provoca o Brasil ao chamar a carne nacional de 'dopada', gerando forte reação do governo. No Congresso, o Senado avança com projeto que proíbe fiança para motoristas embriagados que causarem mortes, reforçando a segurança pública.",
   "agenda": [],
   "itens": [
+    {
+      "id": "5",
+      "bloco": "Política nacional",
+      "titulo": "Jair Bolsonaro apresenta melhora, mas segue internado na UTI sem previsão de alta",
+      "subtitulo": "Ex-presidente diagnosticado com suboclusão intestinal e broncopneumonia permanece em tratamento intensivo",
+      "resumo": "Jair Bolsonaro está internado desde a última sexta-feira no hospital DF Star. Ele foi diagnosticado com suboclusão intestinal e broncopneumonia. O ex-presidente apresentou melhora clínica, laboratorial e radiológica, conforme boletim médico. Foi iniciada dieta líquida por via oral, com boa tolerância. Ainda não há previsão de alta da UTI para Bolsonaro.",
+      "contexto": [
+        "Bolsonaro enfrenta problemas de saúde desde março, com internações anteriores.",
+        "A broncopneumonia foi identificada após episódio de vômito.",
+        "Acúmulo de fibras alimentares no estômago e intestino pode estar ligado a mudanças na alimentação recente.",
+        "Internação ocorre às vésperas das eleições de 2026, em momento político delicado.",
+        "A situação de saúde do ex-presidente é acompanhada com atenção pela opinião pública e aliados."
+      ],
+      "angulo": [
+        "Melhora clínica mostra evolução positiva, mas internação prolongada indica gravidade.",
+        "A saúde de Bolsonaro impacta o cenário político conservador e eleitoral.",
+        "O tratamento cuidadoso reforça a importância da recuperação para a direita.",
+        "A ausência de previsão de alta mantém incertezas sobre o futuro político do ex-presidente."
+      ],
+      "perguntas": [
+        "Qual o impacto da internação de Bolsonaro no cenário político atual?",
+        "Como a melhora clínica pode influenciar a campanha eleitoral de 2026?",
+        "Quais os riscos e cuidados necessários na recuperação do ex-presidente?"
+      ],
+      "fontes": [
+        {
+          "name": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/politica/bolsonaro-apresenta-melhora-mas-segue-na-uti-e-sem-previsao-de-alta/"
+        }
+      ],
+      "avulsa": true,
+      "destaque": true,
+      "pedido": "Jair Bolsonaro apresenta melhora, mas segue internado na UTI sem previsão de alta https://www.cartacapital.com.br/politica/bolsonaro-apresenta-melhora-mas-segue-na-uti-e-sem-previsao-de-alta/"
+    },
     {
       "id": "macron-carne-brasileira",
       "bloco": "Política nacional",
@@ -156,5 +190,6 @@
     {
       "titulo": "Niterói registra menor índice de roubos de rua desde 2003"
     }
-  ]
+  ],
+  "atualizado": "2026-11-27T11:02:39-03:00"
 }
